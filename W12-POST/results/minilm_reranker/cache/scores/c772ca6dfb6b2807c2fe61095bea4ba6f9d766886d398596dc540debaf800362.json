@@ -1,0 +1,1431 @@
+{
+  "checksum": "98c177c41c2187aa57ce4de209b2c731d2e0338c8771720ec47ec209608bb0f6",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "15e481e668114e4afe0c78eefb716ffe1646b494"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 70,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "050fd899aa03afcb1c9ef08d5dbad889fb2620d3fc5ff19a6db89569e9816a79",
+    "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+    "scores": [
+      {
+        "cross_encoder_score": -11.062312126159668,
+        "dataset": "QASPER",
+        "end_char": 3004,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "f7660cf3413c367f9d47c6016680e3f9",
+        "passage_rank": 10,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "0bb3f6291c4c5da7223d93eddce1f389",
+        "sentence_text": "requires the number of events to be pre-set, Zhou et al. zhou2017event further proposed the Dirichlet Process Event Mixture Model (DPEMM) in which the number of events can be learned automatically from data.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2797
+      },
+      {
+        "cross_encoder_score": -11.057958602905273,
+        "dataset": "QASPER",
+        "end_char": 3231,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "f7660cf3413c367f9d47c6016680e3f9",
+        "passage_rank": 10,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "1ec4b8fdd8e0b95be75bd0ba378fb3c8",
+        "sentence_text": "However, both LEM and DPEMM have two limitations: (1) they assume that all words in a document are generated from a single event which can be represented by a quadruple INLINEFORM0 entity, location, keyword, date INLINEFORM1 .",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 3005
+      },
+      {
+        "cross_encoder_score": 0.16936305165290833,
+        "dataset": "QASPER",
+        "end_char": 3508,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "f7660cf3413c367f9d47c6016680e3f9",
+        "passage_rank": 10,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "306f8d68e8fb233cdab61b750e66877c",
+        "sentence_text": "However, long texts such news articles often describe multiple events which clearly violates this assumption; (2) During the inference process of both approaches, the Gibbs sampler needs to compute the conditional posterior distribution and assigns an event for each document.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 3232
+      },
+      {
+        "cross_encoder_score": -11.241233825683594,
+        "dataset": "QASPER",
+        "end_char": 3564,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "f7660cf3413c367f9d47c6016680e3f9",
+        "passage_rank": 10,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "49be8e1662472b94784b5edc76755d9f",
+        "sentence_text": "This is time consuming and takes long time to converge.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3509
+      },
+      {
+        "cross_encoder_score": -11.246542930603027,
+        "dataset": "QASPER",
+        "end_char": 3727,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "f7660cf3413c367f9d47c6016680e3f9",
+        "passage_rank": 10,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "c29b5b6bb34c515d205047eb1a0a39a0",
+        "sentence_text": "To deal with these limitations, in this paper, we propose the Adversarial-neural Event Model (AEM) based on adversarial training for open-domain event extraction.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3565
+      },
+      {
+        "cross_encoder_score": -11.113187789916992,
+        "dataset": "QASPER",
+        "end_char": 3981,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "f7660cf3413c367f9d47c6016680e3f9",
+        "passage_rank": 10,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "0a7f21013a9dff24b73070c8ea4d08fb",
+        "sentence_text": "The principle idea is to use a generator network to learn the projection function between the document-event distribution and four event related word distributions (entity distribution, location distribution, keyword distribution and date distribution).",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3728
+      },
+      {
+        "cross_encoder_score": -10.22578239440918,
+        "dataset": "QASPER",
+        "end_char": 4141,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "f7660cf3413c367f9d47c6016680e3f9",
+        "passage_rank": 10,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "191aad7d6bdb4ae9049d548a62b6d8d9",
+        "sentence_text": "Instead of providing an analytic approximation, AEM uses a discriminator network to discriminate between the reconstructed documents from latent events and the",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3982
+      },
+      {
+        "cross_encoder_score": -10.564896583557129,
+        "dataset": "QASPER",
+        "end_char": 8070,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "9847d934d9b19ed536d06a70d7a0cdb9",
+        "passage_rank": 7,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "f4dc674f6a993f8dc7794b8fd4ca6ed8",
+        "sentence_text": "from online texts.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 8052
+      },
+      {
+        "cross_encoder_score": -10.547688484191895,
+        "dataset": "QASPER",
+        "end_char": 8134,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "9847d934d9b19ed536d06a70d7a0cdb9",
+        "passage_rank": 7,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "705bfac0e41ba4cbc34d39bdcfa6b1b6",
+        "sentence_text": "We propose a novel GAN-based event extraction model called AEM.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 8071
+      },
+      {
+        "cross_encoder_score": -11.1232328414917,
+        "dataset": "QASPER",
+        "end_char": 8436,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "9847d934d9b19ed536d06a70d7a0cdb9",
+        "passage_rank": 7,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "b296bc61782593e33457a3e2f6dfcc67",
+        "sentence_text": "Compared with the previous models, AEM has the following differences: (1) Unlike most GAN-based text generation approaches, a generator network is employed in AEM to learn the projection function between an event distribution and the event-related word distributions (entity, location, keyword, date).",
+        "sentence_token_cost": 58,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 8135
+      },
+      {
+        "cross_encoder_score": -10.863237380981445,
+        "dataset": "QASPER",
+        "end_char": 8702,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "9847d934d9b19ed536d06a70d7a0cdb9",
+        "passage_rank": 7,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "53c1820c61bc39a81cbd437834191555",
+        "sentence_text": "The learned generator captures event-related patterns rather than generating text sequence; (2) Different from LEM and DPEMM, AEM uses a generator network to capture the event-related patterns and is able to mine events from different text sources (short and long).",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 8437
+      },
+      {
+        "cross_encoder_score": 4.6783246994018555,
+        "dataset": "QASPER",
+        "end_char": 9007,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "9847d934d9b19ed536d06a70d7a0cdb9",
+        "passage_rank": 7,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "d4fdf5e6a1a552d50fe70204f6b36b35",
+        "sentence_text": "Moreover, unlike traditional inference procedure, such as Gibbs sampling used in LEM and DPEMM, AEM could extract the events more efficiently due to the CUDA acceleration; (3) The discriminative features learned by the discriminator of AEM provide a straightforward way to visualize the extracted events.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 8703
+      },
+      {
+        "cross_encoder_score": -11.265340805053711,
+        "dataset": "QASPER",
+        "end_char": 9086,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "9847d934d9b19ed536d06a70d7a0cdb9",
+        "passage_rank": 7,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "1f2f93aa3790aa7c96c6e28ee74d8b9d",
+        "sentence_text": "Methodology\tWe describe Adversarial-neural Event Model (AEM) in this section.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 9009
+      },
+      {
+        "cross_encoder_score": -11.398581504821777,
+        "dataset": "QASPER",
+        "end_char": 9314,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "9847d934d9b19ed536d06a70d7a0cdb9",
+        "passage_rank": 7,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "9b630918d5a44ba5e27c8c7deb981908",
+        "sentence_text": "An event is represented as a quadruple < INLINEFORM0 >, where INLINEFORM1 stands for non-location named entities, INLINEFORM2 for a location, INLINEFORM3 for event-related keywords, INLINEFORM4 for a date, and each component in",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 9087
+      },
+      {
+        "cross_encoder_score": -11.151735305786133,
+        "dataset": "QASPER",
+        "end_char": 9383,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "08d2c209d2e54751f05c4e4ce8ee1470",
+        "passage_rank": 4,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "951a7c2f7414fc5ed5cef89c4c377a4d",
+        "sentence_text": "the tuple is represented by component-specific representative words.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 9315
+      },
+      {
+        "cross_encoder_score": -11.281617164611816,
+        "dataset": "QASPER",
+        "end_char": 10172,
+        "pair_tokens_before_truncation": 178,
+        "pair_truncated": false,
+        "passage_id": "08d2c209d2e54751f05c4e4ce8ee1470",
+        "passage_rank": 4,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "61a4c09f3a9a4c21ec8b2c5d754e566c",
+        "sentence_text": "AEM is constituted by three components: (1) The document representation module, as shown at the top of Figure FIGREF4 , defines a document representation approach which converts an input document from the online text corpus into INLINEFORM0 which captures the key event elements; (2) The generator INLINEFORM1 , as shown in the lower-left part of Figure FIGREF4 , generates a fake document INLINEFORM2 which is constituted by four multinomial distributions using an event distribution INLINEFORM3 drawn from a Dirichlet distribution as input; (3) The discriminator INLINEFORM4 , as shown in the lower-right part of Figure FIGREF4 , distinguishes the real documents from the fake ones and its output is subsequently employed as a learning signal to update the INLINEFORM5 and INLINEFORM6 .",
+        "sentence_token_cost": 159,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 9384
+      },
+      {
+        "cross_encoder_score": -10.860635757446289,
+        "dataset": "QASPER",
+        "end_char": 10223,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "08d2c209d2e54751f05c4e4ce8ee1470",
+        "passage_rank": 4,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "20fa32242b7e6c167757443c759da2cc",
+        "sentence_text": "The details of each component are presented below.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 10173
+      },
+      {
+        "cross_encoder_score": -11.329306602478027,
+        "dataset": "QASPER",
+        "end_char": 10547,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "08d2c209d2e54751f05c4e4ce8ee1470",
+        "passage_rank": 4,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "6448723b64715446e974677fa442d63b",
+        "sentence_text": "Document Representation\tEach document INLINEFORM0 in a given corpus INLINEFORM1 is represented as a concatenation of 4 multinomial distributions which are entity distribution ( INLINEFORM2 ), location distribution ( INLINEFORM3 ), keyword distribution ( INLINEFORM4 ) and date distribution ( INLINEFORM5 ) of the document.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 10225
+      },
+      {
+        "cross_encoder_score": -10.88994312286377,
+        "dataset": "QASPER",
+        "end_char": 10638,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "08d2c209d2e54751f05c4e4ce8ee1470",
+        "passage_rank": 4,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "d108b468a495a8b85781d71ee33ec5a9",
+        "sentence_text": "As four distributions are calculated in a similar way, we only describe the computation of",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 10548
+      },
+      {
+        "cross_encoder_score": -10.6015043258667,
+        "dataset": "QASPER",
+        "end_char": 11872,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "09c35ff1b6c86dcec854f5eb9b8734c4",
+        "passage_rank": 2,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "0fcda249720c92ac3ccc3792d4a6e93a",
+        "sentence_text": "concatenating four computed distributions.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 11830
+      },
+      {
+        "cross_encoder_score": -11.352431297302246,
+        "dataset": "QASPER",
+        "end_char": 12162,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "09c35ff1b6c86dcec854f5eb9b8734c4",
+        "passage_rank": 2,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "00d5c3dd7f9c48a59bc0dde1fec9b35c",
+        "sentence_text": "Network Architecture\tThe generator network INLINEFORM0 is designed to learn the projection function between the document-event distribution INLINEFORM1 and the four document-level word distributions (entity distribution, location distribution, keyword distribution and date distribution).",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 11874
+      },
+      {
+        "cross_encoder_score": -11.368598937988281,
+        "dataset": "QASPER",
+        "end_char": 12371,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "09c35ff1b6c86dcec854f5eb9b8734c4",
+        "passage_rank": 2,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "f8eb01f2961f3a87b8ec2ac40e387722",
+        "sentence_text": "More concretely, INLINEFORM0 consists of a INLINEFORM1 -dimensional document-event distribution layer, INLINEFORM2 -dimensional hidden layer and INLINEFORM3 -dimensional event-related word distribution layer.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 12163
+      },
+      {
+        "cross_encoder_score": -11.39527416229248,
+        "dataset": "QASPER",
+        "end_char": 12577,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "09c35ff1b6c86dcec854f5eb9b8734c4",
+        "passage_rank": 2,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "f52c59293b6808835ab2128262fd77e5",
+        "sentence_text": "Here, INLINEFORM4 denotes the event number, INLINEFORM5 is the number of units in the hidden layer, INLINEFORM6 is the vocabulary size and equals to INLINEFORM7 + INLINEFORM8 + INLINEFORM9 + INLINEFORM10 .",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 12372
+      },
+      {
+        "cross_encoder_score": -11.183349609375,
+        "dataset": "QASPER",
+        "end_char": 12698,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "09c35ff1b6c86dcec854f5eb9b8734c4",
+        "passage_rank": 2,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "f16d8c026d57c813a401ad79ba38c4bb",
+        "sentence_text": "As shown in Figure FIGREF4 , INLINEFORM11 firstly employs a random document-event distribution INLINEFORM12 as an input.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 12578
+      },
+      {
+        "cross_encoder_score": -11.34920883178711,
+        "dataset": "QASPER",
+        "end_char": 13099,
+        "pair_tokens_before_truncation": 98,
+        "pair_truncated": false,
+        "passage_id": "09c35ff1b6c86dcec854f5eb9b8734c4",
+        "passage_rank": 2,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "1dd5233bccea1cc4b0c34afe239c52ba",
+        "sentence_text": "To model the multinomial property of the document-event distribution, INLINEFORM13 is drawn from a Dirichlet distribution parameterized with INLINEFORM14 which is formulated as: DISPLAYFORM0  where INLINEFORM0 is the hyper-parameter of the dirichlet distribution, INLINEFORM1 is the number of events which should be set in AEM, INLINEFORM2 , INLINEFORM3 represents the proportion of event INLINEFORM4",
+        "sentence_token_cost": 86,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 12699
+      },
+      {
+        "cross_encoder_score": -11.074773788452148,
+        "dataset": "QASPER",
+        "end_char": 14362,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "c9fc73089c70919c42d56a577f4d2dee",
+        "passage_rank": 6,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "f015e9f19bce68ba86852f9c45721c71",
+        "sentence_text": ", INLINEFORM10 , INLINEFORM11 and INLINEFORM12 are state vectors.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 14297
+      },
+      {
+        "cross_encoder_score": -11.309791564941406,
+        "dataset": "QASPER",
+        "end_char": 14608,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "c9fc73089c70919c42d56a577f4d2dee",
+        "passage_rank": 6,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "e81718df6043476e44af87371d330635",
+        "sentence_text": "INLINEFORM13 , INLINEFORM14 , INLINEFORM15 and INLINEFORM16 denote the generated entity distribution, location distribution, keyword distribution and date distribution, respectively, that correspond to the given event distribution INLINEFORM17 .",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 14363
+      },
+      {
+        "cross_encoder_score": -11.377697944641113,
+        "dataset": "QASPER",
+        "end_char": 14742,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "c9fc73089c70919c42d56a577f4d2dee",
+        "passage_rank": 6,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "613bbe8fd0e792684b757a330abc0d1c",
+        "sentence_text": "And each dimension represents the relevance between corresponding entity/location/keyword/date term and the input event distribution.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 14609
+      },
+      {
+        "cross_encoder_score": -11.34375,
+        "dataset": "QASPER",
+        "end_char": 15125,
+        "pair_tokens_before_truncation": 86,
+        "pair_truncated": false,
+        "passage_id": "c9fc73089c70919c42d56a577f4d2dee",
+        "passage_rank": 6,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "78615037538f3f77527d57dc65defd83",
+        "sentence_text": "Finally, four generated distributions are concatenated to represent the generated document INLINEFORM0 corresponding to the input INLINEFORM1 : DISPLAYFORM0  The discriminator network INLINEFORM0 is designed as a fully-connected network which contains an input layer, a discriminative feature layer (discriminative features are employed for event visualization) and an output layer.",
+        "sentence_token_cost": 68,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 14743
+      },
+      {
+        "cross_encoder_score": -11.192124366760254,
+        "dataset": "QASPER",
+        "end_char": 15400,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "c9fc73089c70919c42d56a577f4d2dee",
+        "passage_rank": 6,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "b43261e1d22af852c961e41150a670dc",
+        "sentence_text": "In AEM, INLINEFORM1 uses fake document INLINEFORM2 and real document INLINEFORM3 as input and outputs the signal INLINEFORM4 to indicate the source of the input data (lower value denotes that INLINEFORM5 is prone to predict the input data as a fake document and vice versa).",
+        "sentence_token_cost": 59,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 15126
+      },
+      {
+        "cross_encoder_score": -11.290871620178223,
+        "dataset": "QASPER",
+        "end_char": 15543,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "c9fc73089c70919c42d56a577f4d2dee",
+        "passage_rank": 6,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "51070123947011a94659a83ed16d7494",
+        "sentence_text": "As have previously been discussed in  ,  , lipschitz continuity of INLINEFORM0 network is crucial to the training of the GAN-based approaches.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 15401
+      },
+      {
+        "cross_encoder_score": -11.18978500366211,
+        "dataset": "QASPER",
+        "end_char": 15593,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "c9fc73089c70919c42d56a577f4d2dee",
+        "passage_rank": 6,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "4d0ff8ff5daaee1eeab7bff90e4a6af7",
+        "sentence_text": "To ensure the lipschitz continuity of INLINEFORM1",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 15544
+      },
+      {
+        "cross_encoder_score": -9.08493423461914,
+        "dataset": "QASPER",
+        "end_char": 15645,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "5a40db3bae1c0e5e9574a63f5c703cb5",
+        "passage_rank": 5,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "1f0862d46a1ef759f4bf9893816c1bfb",
+        "sentence_text": ", we employ the spectral normalization technique  .",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 15594
+      },
+      {
+        "cross_encoder_score": -11.250920295715332,
+        "dataset": "QASPER",
+        "end_char": 15812,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "5a40db3bae1c0e5e9574a63f5c703cb5",
+        "passage_rank": 5,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "bc48fad928538c66ed93be7aeab4df18",
+        "sentence_text": "More concretely, for each linear layer INLINEFORM2 (bias term is omitted for simplicity) in INLINEFORM3 , the weight matrix INLINEFORM4 is normalized by INLINEFORM5 .",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 15646
+      },
+      {
+        "cross_encoder_score": -11.268824577331543,
+        "dataset": "QASPER",
+        "end_char": 15993,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "5a40db3bae1c0e5e9574a63f5c703cb5",
+        "passage_rank": 5,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "5be8b0504c5f13d26a458741d44e761e",
+        "sentence_text": "Here, INLINEFORM6 is the spectral norm of the weight matrix INLINEFORM7 with the definition below: DISPLAYFORM0   which is equivalent to the largest singular value of INLINEFORM0 .",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 15813
+      },
+      {
+        "cross_encoder_score": -11.288296699523926,
+        "dataset": "QASPER",
+        "end_char": 16217,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "5a40db3bae1c0e5e9574a63f5c703cb5",
+        "passage_rank": 5,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "bed7f9c0dd91a501da889fa18352d32f",
+        "sentence_text": "The weight matrix INLINEFORM1 is then normalized using: DISPLAYFORM0  Obviously, the normalized weight matrix INLINEFORM0 satisfies that INLINEFORM1 and further ensures the lipschitz continuity of the INLINEFORM2 network  .",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 15994
+      },
+      {
+        "cross_encoder_score": -10.86135482788086,
+        "dataset": "QASPER",
+        "end_char": 16416,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "5a40db3bae1c0e5e9574a63f5c703cb5",
+        "passage_rank": 5,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "eb4bd8a6a0a00993974e2d03c57630af",
+        "sentence_text": "To reduce the high cost of computing spectral norm INLINEFORM3 using singular value decomposition at each iteration, we follow  and employ the power iteration method to estimate INLINEFORM4 instead.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 16218
+      },
+      {
+        "cross_encoder_score": -10.679279327392578,
+        "dataset": "QASPER",
+        "end_char": 16522,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "5a40db3bae1c0e5e9574a63f5c703cb5",
+        "passage_rank": 5,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "54435540043de9943114136cbb1b9f03",
+        "sentence_text": "With this substitution, the spectral norm can be estimated with very small additional computational time.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 16417
+      },
+      {
+        "cross_encoder_score": -10.34292221069336,
+        "dataset": "QASPER",
+        "end_char": 16919,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "5a40db3bae1c0e5e9574a63f5c703cb5",
+        "passage_rank": 5,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "8f7b0f023c82944ccb2a7fc87fb06813",
+        "sentence_text": "Objective and Training Procedure\tThe real document INLINEFORM0 and fake document INLINEFORM1 shown in Figure FIGREF4 could be viewed as random samples from two distributions INLINEFORM2 and INLINEFORM3 , and each of them is a joint distribution constituted by four Dirichlet distributions (corresponding to entity distribution, location distribution, keyword distribution and date distribution).",
+        "sentence_token_cost": 71,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 16524
+      },
+      {
+        "cross_encoder_score": -10.483743667602539,
+        "dataset": "QASPER",
+        "end_char": 16932,
+        "pair_tokens_before_truncation": 13,
+        "pair_truncated": false,
+        "passage_id": "5a40db3bae1c0e5e9574a63f5c703cb5",
+        "passage_rank": 5,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "d2b101ae8ecd2d74dc8fb6dc9e32f09b",
+        "sentence_text": "The training",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          12,
+          7,
+          0
+        ],
+        "source_position": 16920
+      },
+      {
+        "cross_encoder_score": -11.184617042541504,
+        "dataset": "QASPER",
+        "end_char": 17097,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "499de68cb7340aefd3c0f9803c4ba58f",
+        "passage_rank": 1,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "0edeac58950b54fe0a4d4d916d841907",
+        "sentence_text": "objective of AEM is to let the distribution INLINEFORM4 (produced by INLINEFORM5 network) to approximate the real data distribution INLINEFORM6 as much as possible.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "source_position": 16933
+      },
+      {
+        "cross_encoder_score": -10.383943557739258,
+        "dataset": "QASPER",
+        "end_char": 17305,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "499de68cb7340aefd3c0f9803c4ba58f",
+        "passage_rank": 1,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "6a9b4d08d19b015366126fc3365c834c",
+        "sentence_text": "To compare the different GAN losses, Kurach kurach2018gan takes a sober view of the current state of GAN and suggests that the Jansen-Shannon divergence used in  performs more stable than variant objectives.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          13,
+          1,
+          0
+        ],
+        "source_position": 17098
+      },
+      {
+        "cross_encoder_score": -11.123705863952637,
+        "dataset": "QASPER",
+        "end_char": 17443,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "499de68cb7340aefd3c0f9803c4ba58f",
+        "passage_rank": 1,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "001abd09f5d576afda3703ff64f9c41e",
+        "sentence_text": "Besides, Kurach also advocates that the gradient penalty (GP) regularization devised in  will further improve the stability of the model.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          13,
+          2,
+          0
+        ],
+        "source_position": 17306
+      },
+      {
+        "cross_encoder_score": -9.926279067993164,
+        "dataset": "QASPER",
+        "end_char": 17898,
+        "pair_tokens_before_truncation": 98,
+        "pair_truncated": false,
+        "passage_id": "499de68cb7340aefd3c0f9803c4ba58f",
+        "passage_rank": 1,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "6d3d66f3a65c959701c85ffd5b0eb384",
+        "sentence_text": "Thus, the objective function of the proposed AEM is defined as: DISPLAYFORM0   where INLINEFORM0 denotes the discriminator loss, INLINEFORM1 represents the gradient penalty regularization loss, INLINEFORM2 is the gradient penalty coefficient which trade-off the two components of objective, INLINEFORM3 could be obtained by sampling uniformly along a straight line between INLINEFORM4 and INLINEFORM5 , INLINEFORM6 denotes the corresponding distribution.",
+        "sentence_token_cost": 84,
+        "source_order": [
+          0,
+          13,
+          3,
+          0
+        ],
+        "source_position": 17444
+      },
+      {
+        "cross_encoder_score": -11.352394104003906,
+        "dataset": "QASPER",
+        "end_char": 18210,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "499de68cb7340aefd3c0f9803c4ba58f",
+        "passage_rank": 1,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "71378b2f8e7e3bf1350c3e1f9ffe4378",
+        "sentence_text": "The training procedure of AEM is presented in Algorithm SECREF15 , where INLINEFORM0 is the event number, INLINEFORM1 denotes the number of discriminator iterations per generator iteration, INLINEFORM2 is the batch size, INLINEFORM3 represents the learning rate, INLINEFORM4 and INLINEFORM5 are hyper-parameters",
+        "sentence_token_cost": 64,
+        "source_order": [
+          0,
+          13,
+          4,
+          0
+        ],
+        "source_position": 17899
+      },
+      {
+        "cross_encoder_score": -11.19085693359375,
+        "dataset": "QASPER",
+        "end_char": 18255,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "7d392cde90027deea83656344d7ebd95",
+        "passage_rank": 8,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "b3d6c27fcb0309c21ed993f78a722aa9",
+        "sentence_text": "of Adam  , INLINEFORM6 denotes INLINEFORM7 .",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 18211
+      },
+      {
+        "cross_encoder_score": -11.312088012695312,
+        "dataset": "QASPER",
+        "end_char": 18320,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "7d392cde90027deea83656344d7ebd95",
+        "passage_rank": 8,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "18c0e0514442800c5f11f7910b7e755d",
+        "sentence_text": "In this paper, we set INLINEFORM8 , INLINEFORM9 , INLINEFORM10 .",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 18256
+      },
+      {
+        "cross_encoder_score": -11.159860610961914,
+        "dataset": "QASPER",
+        "end_char": 18409,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "7d392cde90027deea83656344d7ebd95",
+        "passage_rank": 8,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "7cae0517e3eeb3f3f4beb394bfd041ae",
+        "sentence_text": "Moreover, INLINEFORM11 , INLINEFORM12 and INLINEFORM13 are set as 0.0002, 0.5 and 0.999.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          14,
+          2,
+          0
+        ],
+        "source_position": 18321
+      },
+      {
+        "cross_encoder_score": -11.38228988647461,
+        "dataset": "QASPER",
+        "end_char": 18583,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "7d392cde90027deea83656344d7ebd95",
+        "passage_rank": 8,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "34991385bbed4c0dd2a4e26c2f2217f6",
+        "sentence_text": "[!h] Training procedure for AEM [1] INLINEFORM0 , INLINEFORM1 , INLINEFORM2 , INLINEFORM3 , INLINEFORM4 , INLINEFORM5 , INLINEFORM6 the trained INLINEFORM7 and INLINEFORM8 .",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          14,
+          3,
+          0
+        ],
+        "source_position": 18410
+      },
+      {
+        "cross_encoder_score": -10.938543319702148,
+        "dataset": "QASPER",
+        "end_char": 18941,
+        "pair_tokens_before_truncation": 87,
+        "pair_truncated": false,
+        "passage_id": "7d392cde90027deea83656344d7ebd95",
+        "passage_rank": 8,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "afb5adaafd7ac8a5da55e98f30dbefcb",
+        "sentence_text": "Initial INLINEFORM9 parameters INLINEFORM10 and INLINEFORM11 parameter INLINEFORM12 INLINEFORM13 has not converged INLINEFORM14 INLINEFORM15 Sample INLINEFORM16 , Sample a random INLINEFORM17 Sample a random number INLINEFORM18 INLINEFORM19 INLINEFORM20 INLINEFORM21 INLINEFORM22 INLINEFORM23 INLINEFORM24 Sample INLINEFORM25 noise INLINEFORM26 INLINEFORM27",
+        "sentence_token_cost": 93,
+        "source_order": [
+          0,
+          14,
+          4,
+          0
+        ],
+        "source_position": 18584
+      },
+      {
+        "cross_encoder_score": -11.421428680419922,
+        "dataset": "QASPER",
+        "end_char": 19174,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "7d392cde90027deea83656344d7ebd95",
+        "passage_rank": 8,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "a21b2a963fd46c6a36c7115e706d10cc",
+        "sentence_text": "Event Generation\tAfter the model training, the generator INLINEFORM0 learns the mapping function between the document-event distribution and the document-level event-related word distributions (entity, location, keyword and date).",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          14,
+          5,
+          0
+        ],
+        "source_position": 18944
+      },
+      {
+        "cross_encoder_score": -8.950602531433105,
+        "dataset": "QASPER",
+        "end_char": 19190,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "7d392cde90027deea83656344d7ebd95",
+        "passage_rank": 8,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "ab7a7a737296922b1fb1fac1f6429689",
+        "sentence_text": "In other words,",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          14,
+          6,
+          0
+        ],
+        "source_position": 19175
+      },
+      {
+        "cross_encoder_score": -11.39930534362793,
+        "dataset": "QASPER",
+        "end_char": 20586,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "3f0480922af3b8343327b46192d4cc92",
+        "passage_rank": 9,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "7fa5dc2a679bea2b3e480397ffd06284",
+        "sentence_text": "than 15 tweets since events mentioned in very few tweets are less likely to be significant.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "source_position": 20495
+      },
+      {
+        "cross_encoder_score": -11.325812339782715,
+        "dataset": "QASPER",
+        "end_char": 20652,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "3f0480922af3b8343327b46192d4cc92",
+        "passage_rank": 9,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "ecc6872cca8a73a3cfd79dba4c836de6",
+        "sentence_text": "The final dataset contains 2,453 tweets annotated with 20 events.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          16,
+          1,
+          0
+        ],
+        "source_position": 20587
+      },
+      {
+        "cross_encoder_score": -11.403549194335938,
+        "dataset": "QASPER",
+        "end_char": 20781,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "3f0480922af3b8343327b46192d4cc92",
+        "passage_rank": 9,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "3e9b0c42d819be3dad240c62a3510f9a",
+        "sentence_text": "Twitter dataset (social media) is collected from tweets published in the month of December in 2010 using Twitter streaming API.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          16,
+          2,
+          0
+        ],
+        "source_position": 20654
+      },
+      {
+        "cross_encoder_score": -11.326842308044434,
+        "dataset": "QASPER",
+        "end_char": 20832,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "3f0480922af3b8343327b46192d4cc92",
+        "passage_rank": 9,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "997109584977c8a1ffb9e54b41535a16",
+        "sentence_text": "It contains 1,000 tweets annotated with 20 events.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          16,
+          3,
+          0
+        ],
+        "source_position": 20782
+      },
+      {
+        "cross_encoder_score": -11.371804237365723,
+        "dataset": "QASPER",
+        "end_char": 20961,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "3f0480922af3b8343327b46192d4cc92",
+        "passage_rank": 9,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "5c289409b23d1f0b0b746792b7b6fd9a",
+        "sentence_text": "Google dataset (news article) is a subset of GDELT Event Database INLINEFORM0 , documents are retrieved by event related words.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          16,
+          4,
+          0
+        ],
+        "source_position": 20834
+      },
+      {
+        "cross_encoder_score": -11.423348426818848,
+        "dataset": "QASPER",
+        "end_char": 21073,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "3f0480922af3b8343327b46192d4cc92",
+        "passage_rank": 9,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "40ea05d3f27a344cade68511e233761c",
+        "sentence_text": "For example, documents which contain `malaysia', `airline', `search' and `plane' are retrieved for event MH370.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          16,
+          5,
+          0
+        ],
+        "source_position": 20962
+      },
+      {
+        "cross_encoder_score": -11.38206672668457,
+        "dataset": "QASPER",
+        "end_char": 21158,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "3f0480922af3b8343327b46192d4cc92",
+        "passage_rank": 9,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "069602f6ae02e3332bf447ea7bc7d8a9",
+        "sentence_text": "By combining 30 events related documents, the dataset contains 11,909 news articles.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          16,
+          6,
+          0
+        ],
+        "source_position": 21074
+      },
+      {
+        "cross_encoder_score": -10.87319564819336,
+        "dataset": "QASPER",
+        "end_char": 21379,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "3f0480922af3b8343327b46192d4cc92",
+        "passage_rank": 9,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "4d81644448227b91dcedf28928095521",
+        "sentence_text": "We choose the following three models as the baselines:  K-means is a well known data clustering algorithm, we implement the algorithm using sklearn toolbox, and represent documents using bag-of-words weighted by TF-IDF.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          16,
+          7,
+          0
+        ],
+        "source_position": 21160
+      },
+      {
+        "cross_encoder_score": -10.070253372192383,
+        "dataset": "QASPER",
+        "end_char": 21451,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "3f0480922af3b8343327b46192d4cc92",
+        "passage_rank": 9,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "a00c6e4db6990043eba2bc0a8045ed77",
+        "sentence_text": "LEM  is a Bayesian modeling approach for open-domain event extraction.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          16,
+          8,
+          0
+        ],
+        "source_position": 21381
+      },
+      {
+        "cross_encoder_score": -10.986981391906738,
+        "dataset": "QASPER",
+        "end_char": 21587,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "3f0480922af3b8343327b46192d4cc92",
+        "passage_rank": 9,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "5e1dd7207da14b7aae030d0103bec057",
+        "sentence_text": "It treats an event as a latent variable and models the generation of an event as a joint distribution of its individual event elements.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          16,
+          9,
+          0
+        ],
+        "source_position": 21452
+      },
+      {
+        "cross_encoder_score": -10.838027000427246,
+        "dataset": "QASPER",
+        "end_char": 21646,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "3f0480922af3b8343327b46192d4cc92",
+        "passage_rank": 9,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "43de6c4e35e2deb3f6c9ce779bfdf165",
+        "sentence_text": "We implement the algorithm with the default configuration.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          16,
+          10,
+          0
+        ],
+        "source_position": 21588
+      },
+      {
+        "cross_encoder_score": -11.252825736999512,
+        "dataset": "QASPER",
+        "end_char": 25641,
+        "pair_tokens_before_truncation": 104,
+        "pair_truncated": false,
+        "passage_id": "51cc76635388eceab917ef96057f64b6",
+        "passage_rank": 3,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "416a02219cd4ab2d8189af142b7ae16c",
+        "sentence_text": "parameters INLINEFORM0 (the number of discriminator iterations per generator iteration), INLINEFORM1 (the number of units in hidden layer) and the structure of generator INLINEFORM2 will impact the extraction performance, additional experiments have been conducted on the Google dataset, with INLINEFORM3 set to 5, 7 and 10, INLINEFORM4 set to 100, 150 and 200, and three INLINEFORM5 structures (3, 4 and 5 layers).",
+        "sentence_token_cost": 102,
+        "source_order": [
+          0,
+          20,
+          0,
+          0
+        ],
+        "source_position": 25226
+      },
+      {
+        "cross_encoder_score": -10.656002044677734,
+        "dataset": "QASPER",
+        "end_char": 25730,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "51cc76635388eceab917ef96057f64b6",
+        "passage_rank": 3,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "1fc097b4f4ea8bdb886130861e5721a2",
+        "sentence_text": "The comparison results on precision, recall and F-measure are shown in Figure FIGREF20 .",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          20,
+          1,
+          0
+        ],
+        "source_position": 25642
+      },
+      {
+        "cross_encoder_score": -10.76071548461914,
+        "dataset": "QASPER",
+        "end_char": 25906,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "51cc76635388eceab917ef96057f64b6",
+        "passage_rank": 3,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "3a0f77d49ff25968647e849e0de80cd6",
+        "sentence_text": "From the results, it could be observed that AEM with the 5-layer generator performs the best and achieves 96.7% in F-measure, and the worst F-measure obtained by AEM is 85.7%.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          20,
+          2,
+          0
+        ],
+        "source_position": 25731
+      },
+      {
+        "cross_encoder_score": -11.308348655700684,
+        "dataset": "QASPER",
+        "end_char": 26033,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "51cc76635388eceab917ef96057f64b6",
+        "passage_rank": 3,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "7b78c8aa8cab34a760b97d5663c484b2",
+        "sentence_text": "Overall, the AEM outperforms all compared approaches acorss various parameter settings, showing relatively stable performance.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          20,
+          3,
+          0
+        ],
+        "source_position": 25907
+      },
+      {
+        "cross_encoder_score": -11.42911434173584,
+        "dataset": "QASPER",
+        "end_char": 26184,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "51cc76635388eceab917ef96057f64b6",
+        "passage_rank": 3,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "4680ba551a3e13d430e796d3c9ee76e0",
+        "sentence_text": "Finally, we compare in Figure FIGREF37 the training time required for each model, excluding the constant time required by each model to load the data.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          20,
+          4,
+          0
+        ],
+        "source_position": 26034
+      },
+      {
+        "cross_encoder_score": -10.946615219116211,
+        "dataset": "QASPER",
+        "end_char": 26254,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "51cc76635388eceab917ef96057f64b6",
+        "passage_rank": 3,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "1ef5502fa25028105fbb69e755394fab",
+        "sentence_text": "We could observe that K-means runs fastest among all four approaches.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          20,
+          5,
+          0
+        ],
+        "source_position": 26185
+      },
+      {
+        "cross_encoder_score": -8.548147201538086,
+        "dataset": "QASPER",
+        "end_char": 26327,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "51cc76635388eceab917ef96057f64b6",
+        "passage_rank": 3,
+        "query_id": "15e481e668114e4afe0c78eefb716ffe1646b494",
+        "sentence_id": "fecdd62ff13d363644ede26372ac671b",
+        "sentence_text": "Both LEM and DPEMM need to sample the event allocation for each document",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          20,
+          6,
+          0
+        ],
+        "source_position": 26255
+      }
+    ],
+    "scoring_seconds": 0.6801429290790111,
+    "source_fingerprint": "b6d95c71bc5c1bafa9bccf5a1bb790acdaa53906fc4a465fe4daf6c83eb3977c"
+  }
+}

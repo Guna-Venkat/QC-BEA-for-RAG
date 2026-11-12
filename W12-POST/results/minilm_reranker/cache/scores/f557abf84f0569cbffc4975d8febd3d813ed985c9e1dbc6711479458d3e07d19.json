@@ -1,0 +1,1931 @@
+{
+  "checksum": "fdbe16ad1728fd810fe1702ea16fa8bf48f2e938819d55c4f6cf35609f3d1201",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "75df70ce7aa714ec4c6456d0c51f82a16227f2cb"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 95,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "8120518ebd9164a59fd35010bcfc8c71f43edfc5c8a2f4b83d6487daf8ccd520",
+    "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+    "scores": [
+      {
+        "cross_encoder_score": -3.6059153079986572,
+        "dataset": "QASPER",
+        "end_char": 168,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "f9ed91f48bbcaed9fab244d3d10bbf00",
+        "passage_rank": 3,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "ca9c5b5270eaeb561d77b51c1434c9e6",
+        "sentence_text": "Identification of Indian Languages using Ghost-VLAD pooling\tIn this work, we propose a new pooling strategy for language identification by considering Indian languages.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.057982444763184,
+        "dataset": "QASPER",
+        "end_char": 278,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "f9ed91f48bbcaed9fab244d3d10bbf00",
+        "passage_rank": 3,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "18822003bcb0cb19aa4431ffe9ea308a",
+        "sentence_text": "The idea is to obtain utterance level features for any variable length audio for robust language recognition.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 169
+      },
+      {
+        "cross_encoder_score": -11.303942680358887,
+        "dataset": "QASPER",
+        "end_char": 449,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "f9ed91f48bbcaed9fab244d3d10bbf00",
+        "passage_rank": 3,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "b4fe7604ad32a5f270357537811864f1",
+        "sentence_text": "We use the GhostVLAD approach to generate an utterance level feature vector for any variable length input audio by aggregating the local frame level features across time.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 279
+      },
+      {
+        "cross_encoder_score": -10.633350372314453,
+        "dataset": "QASPER",
+        "end_char": 618,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "f9ed91f48bbcaed9fab244d3d10bbf00",
+        "passage_rank": 3,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "11996be2a90358c88f1c85b4ff07af15",
+        "sentence_text": "The generated feature vector is shown to have very good language discriminative features and helps in getting state of the art results for language identification task.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 450
+      },
+      {
+        "cross_encoder_score": 6.84152889251709,
+        "dataset": "QASPER",
+        "end_char": 693,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "f9ed91f48bbcaed9fab244d3d10bbf00",
+        "passage_rank": 3,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "a2090b22a478cd3079476cd9ed53b0a9",
+        "sentence_text": "We conduct our experiments on 635Hrs of audio data for 7 Indian languages.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 619
+      },
+      {
+        "cross_encoder_score": -11.251988410949707,
+        "dataset": "QASPER",
+        "end_char": 871,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "f9ed91f48bbcaed9fab244d3d10bbf00",
+        "passage_rank": 3,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "26ef3fce90d20bfe886e1dae41f0f1ea",
+        "sentence_text": "Our method outperforms the previous state of the art x-vector [11] method by an absolute improvement of 1.88% in F1-score and achieves 98.43% F1-score on the held-out test data.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 694
+      },
+      {
+        "cross_encoder_score": -11.311521530151367,
+        "dataset": "QASPER",
+        "end_char": 993,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "f9ed91f48bbcaed9fab244d3d10bbf00",
+        "passage_rank": 3,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "f69225c83c0b692f71c01d4c64473b1e",
+        "sentence_text": "We compare our system with various pooling approaches and show that GhostVLAD is the best pooling approach for this task.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 872
+      },
+      {
+        "cross_encoder_score": -10.95545768737793,
+        "dataset": "QASPER",
+        "end_char": 1191,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "f9ed91f48bbcaed9fab244d3d10bbf00",
+        "passage_rank": 3,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "026bb870a116ad98a440de4d05afeadc",
+        "sentence_text": "We also provide visualization of the utterance level embeddings generated using Ghost-VLAD pooling and show that this method creates embeddings which has very good language discriminative features.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 994
+      },
+      {
+        "cross_encoder_score": -10.979659080505371,
+        "dataset": "QASPER",
+        "end_char": 1324,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "f9ed91f48bbcaed9fab244d3d10bbf00",
+        "passage_rank": 3,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "4cdb3b803e878d263d38cbc4b7b1736f",
+        "sentence_text": "INTRODUCTION\tThe idea of language identification is to classify a given audio signal into a particular class using a classification",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1193
+      },
+      {
+        "cross_encoder_score": -10.39168930053711,
+        "dataset": "QASPER",
+        "end_char": 1335,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "4efaa1a0fbf5d5c570284b477bc6b3cc",
+        "passage_rank": 9,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "5b22d0ee4a1adcb4b07bb9692bc005fe",
+        "sentence_text": "algorithm.",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1325
+      },
+      {
+        "cross_encoder_score": -10.2661714553833,
+        "dataset": "QASPER",
+        "end_char": 1410,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "4efaa1a0fbf5d5c570284b477bc6b3cc",
+        "passage_rank": 9,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "d3dbf5dd12bb5b2822d8550e563307cb",
+        "sentence_text": "Commonly language identification task was done using i-vector systems [1].",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1336
+      },
+      {
+        "cross_encoder_score": -10.34778118133545,
+        "dataset": "QASPER",
+        "end_char": 1573,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "4efaa1a0fbf5d5c570284b477bc6b3cc",
+        "passage_rank": 9,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "25e8538aa4ee360b08f066454160a9bd",
+        "sentence_text": "A very well known approach for language identification proposed by N. Dahek et al. [1] uses the GMM-UBM model to obtain utterance level features called i-vectors.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1411
+      },
+      {
+        "cross_encoder_score": -10.608231544494629,
+        "dataset": "QASPER",
+        "end_char": 1790,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "4efaa1a0fbf5d5c570284b477bc6b3cc",
+        "passage_rank": 9,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "666f57dac553e04204d545b6fe5a6817",
+        "sentence_text": "Recent advances in deep learning [15,16] have helped to improve the language identification task using many different neural network architectures which can be trained efficiently using GPUs for large scale datasets.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1574
+      },
+      {
+        "cross_encoder_score": -10.972342491149902,
+        "dataset": "QASPER",
+        "end_char": 1906,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "4efaa1a0fbf5d5c570284b477bc6b3cc",
+        "passage_rank": 9,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "dc61e297a592217f97809f44c437943a",
+        "sentence_text": "These neural networks can be configured in various ways to obtain better accuracy for language identification task.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 1791
+      },
+      {
+        "cross_encoder_score": -10.580719947814941,
+        "dataset": "QASPER",
+        "end_char": 2241,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "4efaa1a0fbf5d5c570284b477bc6b3cc",
+        "passage_rank": 9,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "dd7519131f94ac8cbd97f1da506d8a06",
+        "sentence_text": "Early work on using Deep learning for language Identification was published by Pavel Matejka et al. [2], where they used stacked bottleneck features extracted from deep neural networks for language identification task and showed that the bottleneck features learned by Deep neural networks are better than simple MFCC or PLP features.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 1907
+      },
+      {
+        "cross_encoder_score": -10.916217803955078,
+        "dataset": "QASPER",
+        "end_char": 2470,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "4efaa1a0fbf5d5c570284b477bc6b3cc",
+        "passage_rank": 9,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "f0a1a2ca4e3cdcb6aaafc6bca49c3a0e",
+        "sentence_text": "Later the work by I. Lopez-Moreno et al. [3] from Google showed how to use Deep neural networks to directly map the sequence of MFCC frames into its language class so that we can apply language identification at the frame level.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2242
+      },
+      {
+        "cross_encoder_score": -11.217687606811523,
+        "dataset": "QASPER",
+        "end_char": 2596,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "4efaa1a0fbf5d5c570284b477bc6b3cc",
+        "passage_rank": 9,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "582797e5e4e7f571e0c0354798991e12",
+        "sentence_text": "Speech signals will have both spatial and temporal information, but simple DNNs are not able to capture temporal information.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2471
+      },
+      {
+        "cross_encoder_score": -11.231599807739258,
+        "dataset": "QASPER",
+        "end_char": 2638,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "4efaa1a0fbf5d5c570284b477bc6b3cc",
+        "passage_rank": 9,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "19d082a0e9f93ec0325d989dec6aa30b",
+        "sentence_text": "Work done by J. Gonzalez-Dominguez et al.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          1,
+          8,
+          0
+        ],
+        "source_position": 2597
+      },
+      {
+        "cross_encoder_score": -10.438790321350098,
+        "dataset": "QASPER",
+        "end_char": 2761,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "dae503e20ea18d34e74465ffda7427d7",
+        "passage_rank": 5,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "4fceb78bc8d5549e7218fdd25a6c9307",
+        "sentence_text": "[4] by Google developed an LSTM based language identification model which improves the accuracy over the DNN based models.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2639
+      },
+      {
+        "cross_encoder_score": -11.358606338500977,
+        "dataset": "QASPER",
+        "end_char": 2871,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "dae503e20ea18d34e74465ffda7427d7",
+        "passage_rank": 5,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "89334659899f67413d2cd872eb296ddd",
+        "sentence_text": "Work done by Alicia et al. [5] used CNNs to improve upon i-vector [1] and other previously developed systems.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2762
+      },
+      {
+        "cross_encoder_score": -10.926580429077148,
+        "dataset": "QASPER",
+        "end_char": 3170,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "dae503e20ea18d34e74465ffda7427d7",
+        "passage_rank": 5,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "0778d910255778f27fddc07e5d0c74b4",
+        "sentence_text": "The work done by Daniel Garcia-Romero et al. [6] has used a combination of Acoustic model trained for speech recognition with Time-delay neural networks where they train the TDNN model by feeding the stacked bottleneck features from acoustic model to predict the language labels at the frame level.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 2872
+      },
+      {
+        "cross_encoder_score": -10.105840682983398,
+        "dataset": "QASPER",
+        "end_char": 3407,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "dae503e20ea18d34e74465ffda7427d7",
+        "passage_rank": 5,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "f8fb3c4df4079b590bfc6f96a35c5f65",
+        "sentence_text": "Recently X-vectors [7] is proposed for speaker identification task and are shown to outperform all the previous state of the art speaker identification algorithms and are also used for language identification by David Snyder et al. [8].",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3171
+      },
+      {
+        "cross_encoder_score": -10.162364959716797,
+        "dataset": "QASPER",
+        "end_char": 3495,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "dae503e20ea18d34e74465ffda7427d7",
+        "passage_rank": 5,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "8391e5d92b2d02fee674ef36cf616bd8",
+        "sentence_text": "In this paper, we explore multiple pooling strategies for language identification task.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3408
+      },
+      {
+        "cross_encoder_score": -10.454560279846191,
+        "dataset": "QASPER",
+        "end_char": 3574,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "dae503e20ea18d34e74465ffda7427d7",
+        "passage_rank": 5,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "a5d9934ef51c06db2c55eb4c49889674",
+        "sentence_text": "Mainly we propose Ghost-VLAD based pooling method for language identification.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3496
+      },
+      {
+        "cross_encoder_score": -3.1238162517547607,
+        "dataset": "QASPER",
+        "end_char": 3745,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "dae503e20ea18d34e74465ffda7427d7",
+        "passage_rank": 5,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "d8a966c447f8e7dadfdd2f9e570d4062",
+        "sentence_text": "Inspired by the recent work by W. Xie et al. [9] and Y. Zhong et al. [10], we use Ghost-VLAD to improve the accuracy of language identification task for Indian languages.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3575
+      },
+      {
+        "cross_encoder_score": -11.366310119628906,
+        "dataset": "QASPER",
+        "end_char": 3881,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "dae503e20ea18d34e74465ffda7427d7",
+        "passage_rank": 5,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "a1b265a1638c9b5d5ebb952d9d3b91ca",
+        "sentence_text": "We explore multiple pooling strategies including NetVLAD pooling [11], Average pooling and Statistics pooling( as proposed in X-vectors",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3746
+      },
+      {
+        "cross_encoder_score": -9.475461959838867,
+        "dataset": "QASPER",
+        "end_char": 3977,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "8fed6f511459df2f98194ee7e7ff2b0e",
+        "passage_rank": 4,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "27dbfa5b4802200f3e3d90dab5425c3d",
+        "sentence_text": "[7]) and show that Ghost-VLAD pooling is the best pooling strategy for language identification.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 3882
+      },
+      {
+        "cross_encoder_score": -11.266016960144043,
+        "dataset": "QASPER",
+        "end_char": 4094,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "8fed6f511459df2f98194ee7e7ff2b0e",
+        "passage_rank": 4,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "7593e25caf1080a01e802a3979d80ce6",
+        "sentence_text": "Our model obtains the best accuracy of 98.24%, and it outperforms all the other previously proposed pooling methods.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 3978
+      },
+      {
+        "cross_encoder_score": 5.842940330505371,
+        "dataset": "QASPER",
+        "end_char": 4229,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "8fed6f511459df2f98194ee7e7ff2b0e",
+        "passage_rank": 4,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "b0de5dd2f762ecccc8c6868feb52d77d",
+        "sentence_text": "We conduct all our experiments on 635hrs of audio data for 7 Indian languages collected from $\\textbf {All India Radio}$ news channel.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4095
+      },
+      {
+        "cross_encoder_score": -11.153810501098633,
+        "dataset": "QASPER",
+        "end_char": 4264,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "8fed6f511459df2f98194ee7e7ff2b0e",
+        "passage_rank": 4,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "2b029faa9bb0fdfb8bc54742b7d13a3a",
+        "sentence_text": "The paper is organized as follows.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4230
+      },
+      {
+        "cross_encoder_score": -10.422846794128418,
+        "dataset": "QASPER",
+        "end_char": 4346,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "8fed6f511459df2f98194ee7e7ff2b0e",
+        "passage_rank": 4,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "4cac4998965ff4deff627131b6257cd9",
+        "sentence_text": "In section 2, we explain the proposed pooling method for language identification.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 4265
+      },
+      {
+        "cross_encoder_score": -11.119613647460938,
+        "dataset": "QASPER",
+        "end_char": 4384,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "8fed6f511459df2f98194ee7e7ff2b0e",
+        "passage_rank": 4,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "3525a8958e437c58161fcf95aaa045d5",
+        "sentence_text": "In section 3, we explain our dataset.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 4347
+      },
+      {
+        "cross_encoder_score": -9.886734962463379,
+        "dataset": "QASPER",
+        "end_char": 4470,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "8fed6f511459df2f98194ee7e7ff2b0e",
+        "passage_rank": 4,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "352453b7dd5fc08d452646c3d43664f5",
+        "sentence_text": "In section 4, we describe the experiments, and in section 5, we describe the results.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 4385
+      },
+      {
+        "cross_encoder_score": -10.68339729309082,
+        "dataset": "QASPER",
+        "end_char": 4631,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "8fed6f511459df2f98194ee7e7ff2b0e",
+        "passage_rank": 4,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "e5b4e4bcad0b26a0a7932989bd37bf78",
+        "sentence_text": "POOLING STRATEGIES\tIn any language identification model, we want to obtain utterance level representation which has very good language discriminative features.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 4472
+      },
+      {
+        "cross_encoder_score": -11.292593002319336,
+        "dataset": "QASPER",
+        "end_char": 4726,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "8fed6f511459df2f98194ee7e7ff2b0e",
+        "passage_rank": 4,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "d1fe91507b116339cf76beb1b5047ffb",
+        "sentence_text": "These representations should be compact and should be easily separable by a linear classifier.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          3,
+          8,
+          0
+        ],
+        "source_position": 4632
+      },
+      {
+        "cross_encoder_score": -11.306496620178223,
+        "dataset": "QASPER",
+        "end_char": 4848,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "8fed6f511459df2f98194ee7e7ff2b0e",
+        "passage_rank": 4,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "a9311630e0552bab157359c3cf554186",
+        "sentence_text": "The idea of any pooling strategy is to pool the frame-level representations into a single utterance level representation.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          3,
+          9,
+          0
+        ],
+        "source_position": 4727
+      },
+      {
+        "cross_encoder_score": -11.111044883728027,
+        "dataset": "QASPER",
+        "end_char": 5041,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "8fed6f511459df2f98194ee7e7ff2b0e",
+        "passage_rank": 4,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "1c4c4807b6a2a07275ea20b96d74db3c",
+        "sentence_text": "Previous works by [7] have used simple mean and standard deviation aggregation to pool the frame-level features from the top layer of the neural network to obtain the utterance level features.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          3,
+          10,
+          0
+        ],
+        "source_position": 4849
+      },
+      {
+        "cross_encoder_score": -11.355748176574707,
+        "dataset": "QASPER",
+        "end_char": 5155,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "8fed6f511459df2f98194ee7e7ff2b0e",
+        "passage_rank": 4,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "a6cecf1150971a88fe04c93ea80d1407",
+        "sentence_text": "Recently [9] used VLAD based pooling strategy for speaker identification which is inspired from [10] proposed for",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          3,
+          11,
+          0
+        ],
+        "source_position": 5042
+      },
+      {
+        "cross_encoder_score": -11.39425277709961,
+        "dataset": "QASPER",
+        "end_char": 8762,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "c8dcc17ecce113a5937ef53d0be98495",
+        "passage_rank": 2,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "dc8fdc71f1e8bbc550ea060f48e062f7",
+        "sentence_text": "STRATEGIES ::: Statistic and average pooling\tIn statistic pooling, we compute the first and second order statistics of the local features from the top layer of the ResNet model.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 8585
+      },
+      {
+        "cross_encoder_score": -11.361623764038086,
+        "dataset": "QASPER",
+        "end_char": 8993,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "c8dcc17ecce113a5937ef53d0be98495",
+        "passage_rank": 2,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "6ce977e8d06d4bc09f6ffde2fbf9dd00",
+        "sentence_text": "The 3-D feature map is unfolded to create N features of D dimensions, and then we compute the mean and standard deviation of all these N vectors and get two D dimensional vectors, one for mean and the other for standard deviation.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 8763
+      },
+      {
+        "cross_encoder_score": -10.50925350189209,
+        "dataset": "QASPER",
+        "end_char": 9101,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "c8dcc17ecce113a5937ef53d0be98495",
+        "passage_rank": 2,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "096749e69526286af615d389ae0d1cae",
+        "sentence_text": "We then concatenate these 2 features and feed it to the projection layer for predicting the language label.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 8994
+      },
+      {
+        "cross_encoder_score": -11.386428833007812,
+        "dataset": "QASPER",
+        "end_char": 9240,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "c8dcc17ecce113a5937ef53d0be98495",
+        "passage_rank": 2,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "7d2b511257693374697d52d817d4528f",
+        "sentence_text": "In the Average pooling layer, we compute only the first-order statistics (mean) of the local features from the top layer of the CNN model.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 9102
+      },
+      {
+        "cross_encoder_score": -11.434792518615723,
+        "dataset": "QASPER",
+        "end_char": 9422,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "c8dcc17ecce113a5937ef53d0be98495",
+        "passage_rank": 2,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "283047b538b4c61a1f9e41f139addf23",
+        "sentence_text": "The feature map from the top layer of CNN is unfolded to create N features of D dimensions, and then we compute the mean of all these N vectors and get D dimensional representation.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 9241
+      },
+      {
+        "cross_encoder_score": -10.667987823486328,
+        "dataset": "QASPER",
+        "end_char": 9527,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "c8dcc17ecce113a5937ef53d0be98495",
+        "passage_rank": 2,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "ff10a21c54a164ec19745287de4716cb",
+        "sentence_text": "We then feed this feature to the projection layer followed by softmax for predicting the language label.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 9423
+      },
+      {
+        "cross_encoder_score": -11.353415489196777,
+        "dataset": "QASPER",
+        "end_char": 9597,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "c8dcc17ecce113a5937ef53d0be98495",
+        "passage_rank": 2,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "0927f5adc95c2832b99db900390dd1fd",
+        "sentence_text": "DATASET\tIn this section, we describe our dataset collection process.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 9529
+      },
+      {
+        "cross_encoder_score": 5.2603888511657715,
+        "dataset": "QASPER",
+        "end_char": 9738,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "c8dcc17ecce113a5937ef53d0be98495",
+        "passage_rank": 2,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "20c939f9ad0418bfc7ea3e0aa9e64131",
+        "sentence_text": "We collected and curated around 635Hrs of audio data for 7 Indian languages, namely Kannada, Hindi, Telugu, Malayalam, Bengali, and English.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "source_position": 9598
+      },
+      {
+        "cross_encoder_score": -11.195758819580078,
+        "dataset": "QASPER",
+        "end_char": 9844,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "c8dcc17ecce113a5937ef53d0be98495",
+        "passage_rank": 2,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "dde7f42de2d08f103d204fc4c9f36b15",
+        "sentence_text": "We collected the data from the All India Radio news channel where an actor will be reading news for about",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          7,
+          8,
+          0
+        ],
+        "source_position": 9739
+      },
+      {
+        "cross_encoder_score": -10.896404266357422,
+        "dataset": "QASPER",
+        "end_char": 9855,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "056445a1cdaebc20d3ab9557c3ea3710",
+        "passage_rank": 7,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "764f83dce72ca1ea3864693e80389769",
+        "sentence_text": "5-10 mins.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 9845
+      },
+      {
+        "cross_encoder_score": -11.263283729553223,
+        "dataset": "QASPER",
+        "end_char": 9930,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "056445a1cdaebc20d3ab9557c3ea3710",
+        "passage_rank": 7,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "0bf99ee952efa5a9d757b85767409a66",
+        "sentence_text": "To cover many speakers for the dataset, we crawled data from 2010 to 2019.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 9856
+      },
+      {
+        "cross_encoder_score": -11.314229011535645,
+        "dataset": "QASPER",
+        "end_char": 10080,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "056445a1cdaebc20d3ab9557c3ea3710",
+        "passage_rank": 7,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "1cfe48b041c45ba7c331e73d545b9089",
+        "sentence_text": "Since the audio is very long to train any deep neural network directly, we segment the audio clips into smaller chunks using Voice activity detector.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 9931
+      },
+      {
+        "cross_encoder_score": -11.323851585388184,
+        "dataset": "QASPER",
+        "end_char": 10427,
+        "pair_tokens_before_truncation": 86,
+        "pair_truncated": false,
+        "passage_id": "056445a1cdaebc20d3ab9557c3ea3710",
+        "passage_rank": 7,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "6fb3b88d64d4bac8dfbb980c1410dadb",
+        "sentence_text": "Since the audio clips will have music embedded during the news, we use Inhouse music detection model to remove the music segments from the dataset to make the dataset clean and our dataset contains 635Hrs of clean audio which is divided into 520Hrs of training data containing 165K utterances and 115Hrs of testing data containing 35K utterances.",
+        "sentence_token_cost": 84,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 10081
+      },
+      {
+        "cross_encoder_score": -9.032363891601562,
+        "dataset": "QASPER",
+        "end_char": 10532,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "056445a1cdaebc20d3ab9557c3ea3710",
+        "passage_rank": 7,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "a852dfd58242019a1ba65b82086db580",
+        "sentence_text": "The amount of audio data for training and testing for each of the language is shown in the table bellow.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 10428
+      },
+      {
+        "cross_encoder_score": -10.902935981750488,
+        "dataset": "QASPER",
+        "end_char": 10641,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "056445a1cdaebc20d3ab9557c3ea3710",
+        "passage_rank": 7,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "d63fe331f62b6dd6a3efd95b1d4fe8a6",
+        "sentence_text": "EXPERIMENTS\tIn this section, we describe the feature extraction process and network architecture in detail.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 10534
+      },
+      {
+        "cross_encoder_score": -11.327642440795898,
+        "dataset": "QASPER",
+        "end_char": 10821,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "056445a1cdaebc20d3ab9557c3ea3710",
+        "passage_rank": 7,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "b0557660e4997e15cd8cd56ac53c36df",
+        "sentence_text": "We use spectral features of 256 dimensions computed using 512 point FFT for every frame, and we add an energy feature for every frame giving us total 257 features for every frame.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 10642
+      },
+      {
+        "cross_encoder_score": -11.371390342712402,
+        "dataset": "QASPER",
+        "end_char": 10902,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "056445a1cdaebc20d3ab9557c3ea3710",
+        "passage_rank": 7,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "e3a11faacdef63df797f2e1b086a6b9b",
+        "sentence_text": "We use a window size of 25ms and frame shift of 10ms during feature computation.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 10822
+      },
+      {
+        "cross_encoder_score": -11.202606201171875,
+        "dataset": "QASPER",
+        "end_char": 10933,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "056445a1cdaebc20d3ab9557c3ea3710",
+        "passage_rank": 7,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "5cdc246bcf66497333b7ab1d01485dbc",
+        "sentence_text": "We crop random 5sec audio data",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "source_position": 10903
+      },
+      {
+        "cross_encoder_score": -10.412489891052246,
+        "dataset": "QASPER",
+        "end_char": 12093,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "485b78c301e815ed02e165dad5d11544",
+        "passage_rank": 8,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "616e281f61cdc2c97de2c3442655b1a9",
+        "sentence_text": "our model with the previous state of the art system, we set up the x-vector language identification system [8].",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 11982
+      },
+      {
+        "cross_encoder_score": -11.304510116577148,
+        "dataset": "QASPER",
+        "end_char": 12181,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "485b78c301e815ed02e165dad5d11544",
+        "passage_rank": 8,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "865656cc07cd72f0168f646c5ca9eda8",
+        "sentence_text": "The x-vector model used time-delay neural networks (TDNN) along with statistic-pooling.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 12094
+      },
+      {
+        "cross_encoder_score": -11.035765647888184,
+        "dataset": "QASPER",
+        "end_char": 12243,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "485b78c301e815ed02e165dad5d11544",
+        "passage_rank": 8,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "00754df658ea58d2082e76bd75888d7d",
+        "sentence_text": "We use 7 layer TDNN architecture similar to [8] for training.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 12182
+      },
+      {
+        "cross_encoder_score": -11.309804916381836,
+        "dataset": "QASPER",
+        "end_char": 12286,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "485b78c301e815ed02e165dad5d11544",
+        "passage_rank": 8,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "f830daf7c2c347d797f36dc743342c28",
+        "sentence_text": "We refer to this model as tdnn+stat-pool .",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 12244
+      },
+      {
+        "cross_encoder_score": -10.15320110321045,
+        "dataset": "QASPER",
+        "end_char": 12491,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "485b78c301e815ed02e165dad5d11544",
+        "passage_rank": 8,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "a22928d861ba7b8b0400dca3416af8bb",
+        "sentence_text": "Finally, we set up a Deep LSTM based language identification system similar to [4] but with little modification where we add statistics pooling for the last layers hidden activities before classification.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 12287
+      },
+      {
+        "cross_encoder_score": -11.34476375579834,
+        "dataset": "QASPER",
+        "end_char": 12551,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "485b78c301e815ed02e165dad5d11544",
+        "passage_rank": 8,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "48c51edcb99258931e37dd7517ec3d15",
+        "sentence_text": "We use 3 layer Bi-LSTM with 256 hidden units at each layer.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 12492
+      },
+      {
+        "cross_encoder_score": -11.298733711242676,
+        "dataset": "QASPER",
+        "end_char": 12593,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "485b78c301e815ed02e165dad5d11544",
+        "passage_rank": 8,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "3cdb17a49b27f06e7d770c9c40844076",
+        "sentence_text": "We refer to this model as LSTM+stat-pool.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 12552
+      },
+      {
+        "cross_encoder_score": -11.319397926330566,
+        "dataset": "QASPER",
+        "end_char": 12659,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "485b78c301e815ed02e165dad5d11544",
+        "passage_rank": 8,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "7873071f997cc41193b4c75cf8783b85",
+        "sentence_text": "We train our i-vector+svm and TDNN+stat-pool using Kaldi toolkit.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 12594
+      },
+      {
+        "cross_encoder_score": -7.294310092926025,
+        "dataset": "QASPER",
+        "end_char": 12782,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "485b78c301e815ed02e165dad5d11544",
+        "passage_rank": 8,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "4af4f865926ccb942a3ec0e6ef5e0e45",
+        "sentence_text": "We train our NetVLAD and GhostVLAD experiments using Keras by modifying the code given by [9] for language identification.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          10,
+          8,
+          0
+        ],
+        "source_position": 12660
+      },
+      {
+        "cross_encoder_score": -11.051447868347168,
+        "dataset": "QASPER",
+        "end_char": 12920,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "485b78c301e815ed02e165dad5d11544",
+        "passage_rank": 8,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "8c616007457f1b2ff7cde531f89934a3",
+        "sentence_text": "We train the LSTM+stat-pool and the remaining experiments using Pytorch [14] toolkit, and we will opensource all the codes and data soon.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          10,
+          9,
+          0
+        ],
+        "source_position": 12783
+      },
+      {
+        "cross_encoder_score": -10.334447860717773,
+        "dataset": "QASPER",
+        "end_char": 13056,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "485b78c301e815ed02e165dad5d11544",
+        "passage_rank": 8,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "9ec74314b8940df7419ecb2d9d445bb6",
+        "sentence_text": "RESULTS\tIn this section, we compare the performance of our system with the recent state of the art language identification approaches.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          10,
+          10,
+          0
+        ],
+        "source_position": 12922
+      },
+      {
+        "cross_encoder_score": -11.320030212402344,
+        "dataset": "QASPER",
+        "end_char": 13151,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "485b78c301e815ed02e165dad5d11544",
+        "passage_rank": 8,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "4fd16c0b67850ed77184ee687aa23c7f",
+        "sentence_text": "We also compare different pooling strategies and finally, compare the robustness of our system",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          10,
+          11,
+          0
+        ],
+        "source_position": 13057
+      },
+      {
+        "cross_encoder_score": -11.370696067810059,
+        "dataset": "QASPER",
+        "end_char": 13207,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "d2e417a53a8a03c547741473d4781daf",
+        "passage_rank": 10,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "eb5607692d29cbed3307a77a3be7b704",
+        "sentence_text": "to the length of the input spectrogram during training.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 13152
+      },
+      {
+        "cross_encoder_score": -11.26064395904541,
+        "dataset": "QASPER",
+        "end_char": 13365,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "d2e417a53a8a03c547741473d4781daf",
+        "passage_rank": 10,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "2a6380b6951143f2323e69b3e8b10364",
+        "sentence_text": "We visualize the embeddings generated by the GhostVLAD method and conclude that the GhostVLAD embeddings shows very good feature discrimination capabilities.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 13208
+      },
+      {
+        "cross_encoder_score": -10.50340747833252,
+        "dataset": "QASPER",
+        "end_char": 13541,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d2e417a53a8a03c547741473d4781daf",
+        "passage_rank": 10,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "2ce8d76d1b8fe317c92eecd495bbe64a",
+        "sentence_text": "RESULTS ::: Comparison with different approaches\tWe compare our system performance with the previous state of the art language identification approaches, as shown in Table 2.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 13367
+      },
+      {
+        "cross_encoder_score": -11.337491989135742,
+        "dataset": "QASPER",
+        "end_char": 13639,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "d2e417a53a8a03c547741473d4781daf",
+        "passage_rank": 10,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "8af8296fca888f75997f656e2b964f8c",
+        "sentence_text": "The i-vector+svm system is trained using GMM-UBM models to generate i-vectors as proposed in [1].",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 13542
+      },
+      {
+        "cross_encoder_score": -11.333279609680176,
+        "dataset": "QASPER",
+        "end_char": 13718,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "d2e417a53a8a03c547741473d4781daf",
+        "passage_rank": 10,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "0c68c65395954cf42a0c153f90cf7f48",
+        "sentence_text": "Once the i-vectors are extracted, we fit SVM classifier to classify the audio.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 13640
+      },
+      {
+        "cross_encoder_score": -10.903547286987305,
+        "dataset": "QASPER",
+        "end_char": 13957,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "d2e417a53a8a03c547741473d4781daf",
+        "passage_rank": 10,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "8bd9fa19fe6d767b59161bffcd6f6a4f",
+        "sentence_text": "The TDNN+stat-pool system is trained with a statistics pooling layer and is called the x-vector system as proposed by David Snyder et al. [11] and is currently the state of the art language identification approach as far as our knowledge.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 13719
+      },
+      {
+        "cross_encoder_score": -11.308650016784668,
+        "dataset": "QASPER",
+        "end_char": 14081,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "d2e417a53a8a03c547741473d4781daf",
+        "passage_rank": 10,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "c20af23ca8579b7f63af8d4f51e0b17b",
+        "sentence_text": "Our methods outperform the state of the art x-vector system by absolute 1.88% improvement in F1-score, as shown in Table 2.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 13958
+      },
+      {
+        "cross_encoder_score": -11.375509262084961,
+        "dataset": "QASPER",
+        "end_char": 14209,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "d2e417a53a8a03c547741473d4781daf",
+        "passage_rank": 10,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "69ed084e933b9bfc80ae401ab93914a3",
+        "sentence_text": "RESULTS ::: Comparison with different pooling techniques\tWe compare our approach with different pooling strategies in Table 3.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 14083
+      },
+      {
+        "cross_encoder_score": -11.359896659851074,
+        "dataset": "QASPER",
+        "end_char": 14263,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "d2e417a53a8a03c547741473d4781daf",
+        "passage_rank": 10,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "5524fa8602aba3ddad6ac581af4c5d9b",
+        "sentence_text": "We use ResNet as our base feature extraction network.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          11,
+          8,
+          0
+        ],
+        "source_position": 14210
+      },
+      {
+        "cross_encoder_score": -11.054296493530273,
+        "dataset": "QASPER",
+        "end_char": 14412,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "d2e417a53a8a03c547741473d4781daf",
+        "passage_rank": 10,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "c98e3a16312edb1089efbdaf810bb4af",
+        "sentence_text": "We keep the base network the same and change only the pooling layers to see which pooling approach performs better for language identification task.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          11,
+          9,
+          0
+        ],
+        "source_position": 14264
+      },
+      {
+        "cross_encoder_score": -8.375368118286133,
+        "dataset": "QASPER",
+        "end_char": 14438,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "d2e417a53a8a03c547741473d4781daf",
+        "passage_rank": 10,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "4c6ef09e7e508ac51f967ffbd9f9bfbb",
+        "sentence_text": "Our experiments show that",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          11,
+          10,
+          0
+        ],
+        "source_position": 14413
+      },
+      {
+        "cross_encoder_score": -11.272582054138184,
+        "dataset": "QASPER",
+        "end_char": 14528,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "ef0fabf0f2b1ac56601120effc622422",
+        "passage_rank": 6,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "186ed7a1e4ac0c176d31711eee13d4b9",
+        "sentence_text": "GhostVLAD pooling outperforms all the other pooling methods by achieving 98.43% F1-Score.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 14439
+      },
+      {
+        "cross_encoder_score": -11.122697830200195,
+        "dataset": "QASPER",
+        "end_char": 14714,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "ef0fabf0f2b1ac56601120effc622422",
+        "passage_rank": 6,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "376e401a7cb13cda7886a47da37bd087",
+        "sentence_text": "RESULTS ::: Duration analysis\tTo observe the performance of our method with different input durations, we conducted an experiment where we train our model on different input durations.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 14530
+      },
+      {
+        "cross_encoder_score": -11.343050956726074,
+        "dataset": "QASPER",
+        "end_char": 14815,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "ef0fabf0f2b1ac56601120effc622422",
+        "passage_rank": 6,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "90b623f4284d0ea4b7614123355fa894",
+        "sentence_text": "Since our model uses ResNet as the base feature extractor, we need to feed fixed-length spectrogram.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 14715
+      },
+      {
+        "cross_encoder_score": -10.263080596923828,
+        "dataset": "QASPER",
+        "end_char": 14976,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "ef0fabf0f2b1ac56601120effc622422",
+        "passage_rank": 6,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "1cbb096ac14edd9a3fe56c8ea4c12c74",
+        "sentence_text": "We conducted 4 different experiments where we trained the model using 2sec, 3sec, 4sec and 5sec spectrograms containing 200,300,400 and 500 frames respectively.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 14816
+      },
+      {
+        "cross_encoder_score": -11.221090316772461,
+        "dataset": "QASPER",
+        "end_char": 15075,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "ef0fabf0f2b1ac56601120effc622422",
+        "passage_rank": 6,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "4bcb7b380fac58cb5f4b81d9f35343ac",
+        "sentence_text": "We observed that the model trained with a 5sec spectrogram is the best model, as shown in Table 4.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 14977
+      },
+      {
+        "cross_encoder_score": -11.343433380126953,
+        "dataset": "QASPER",
+        "end_char": 15196,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "ef0fabf0f2b1ac56601120effc622422",
+        "passage_rank": 6,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "0f3ec07f7e56b984579890e41735fc09",
+        "sentence_text": "RESULTS ::: Visualization of embeddings\tWe visualize the embeddings generated by our approach to see the effectiveness.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 15077
+      },
+      {
+        "cross_encoder_score": -11.267348289489746,
+        "dataset": "QASPER",
+        "end_char": 15312,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "ef0fabf0f2b1ac56601120effc622422",
+        "passage_rank": 6,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "dc4354727fbd3d894ed98f64a53bc1b3",
+        "sentence_text": "We extracted 512-dimensional embeddings for our testing data and reduced the dimensionality using t-sne projection.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 15197
+      },
+      {
+        "cross_encoder_score": -11.355917930603027,
+        "dataset": "QASPER",
+        "end_char": 15373,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "ef0fabf0f2b1ac56601120effc622422",
+        "passage_rank": 6,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "6c82b35915362325b570590501f0c09a",
+        "sentence_text": "The t-sne plot of the embeddings space is shown in Figure 3.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          12,
+          7,
+          0
+        ],
+        "source_position": 15313
+      },
+      {
+        "cross_encoder_score": -11.248616218566895,
+        "dataset": "QASPER",
+        "end_char": 15472,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "ef0fabf0f2b1ac56601120effc622422",
+        "passage_rank": 6,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "ba48f2e3bc98611df5f450b94d37293e",
+        "sentence_text": "The plot shows that the embeddings learned by our approach has very good discriminative properties",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          12,
+          8,
+          0
+        ],
+        "source_position": 15374
+      },
+      {
+        "cross_encoder_score": -8.22433090209961,
+        "dataset": "QASPER",
+        "end_char": 15641,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "ef0fabf0f2b1ac56601120effc622422",
+        "passage_rank": 6,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "a5119329c6fe1f84619666abad2fe811",
+        "sentence_text": "Conclusion\tIn this work, we use Ghost-VLAD pooling approach that was originally proposed for face recognition to improve language identification performance for Indian",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          12,
+          9,
+          0
+        ],
+        "source_position": 15474
+      },
+      {
+        "cross_encoder_score": -6.372071266174316,
+        "dataset": "QASPER",
+        "end_char": 15652,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "3f1d66e0115843f7b8a013e0594b08f0",
+        "passage_rank": 1,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "85286e70c255701e0d8c4b1f4ffa646e",
+        "sentence_text": "languages.",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "source_position": 15642
+      },
+      {
+        "cross_encoder_score": 0.4079849421977997,
+        "dataset": "QASPER",
+        "end_char": 15759,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "3f1d66e0115843f7b8a013e0594b08f0",
+        "passage_rank": 1,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "602bba94a5b9b40283ca9719a916bca3",
+        "sentence_text": "We collected and curated 630 hrs audio data from news All India Radio news channel for 7 Indian languages.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          13,
+          1,
+          0
+        ],
+        "source_position": 15653
+      },
+      {
+        "cross_encoder_score": -10.87430477142334,
+        "dataset": "QASPER",
+        "end_char": 15889,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "3f1d66e0115843f7b8a013e0594b08f0",
+        "passage_rank": 1,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "b39c48281e75751dca65034610f5994b",
+        "sentence_text": "Our experimental results shows that our approach outperforms the previous state of the art methods by an absolute 1.88% F1-score.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          13,
+          2,
+          0
+        ],
+        "source_position": 15760
+      },
+      {
+        "cross_encoder_score": -10.783479690551758,
+        "dataset": "QASPER",
+        "end_char": 16125,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "3f1d66e0115843f7b8a013e0594b08f0",
+        "passage_rank": 1,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "48711ac542e7ba3bfc4d72faa8692eaf",
+        "sentence_text": "We have also conducted experiments with different pooling strategies proposed in the past, and the GhostVLAD pooling approach turns out to be the best approach for aggregating frame-level features into a single utterance level feature.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          13,
+          3,
+          0
+        ],
+        "source_position": 15890
+      },
+      {
+        "cross_encoder_score": -10.870410919189453,
+        "dataset": "QASPER",
+        "end_char": 16250,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "3f1d66e0115843f7b8a013e0594b08f0",
+        "passage_rank": 1,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "9301b8483cb638c410abb74c56b1569d",
+        "sentence_text": "Our experiments also prove that our approach works much better even if the input during training contains smaller durations.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          13,
+          4,
+          0
+        ],
+        "source_position": 16126
+      },
+      {
+        "cross_encoder_score": -10.075974464416504,
+        "dataset": "QASPER",
+        "end_char": 16422,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "3f1d66e0115843f7b8a013e0594b08f0",
+        "passage_rank": 1,
+        "query_id": "75df70ce7aa714ec4c6456d0c51f82a16227f2cb",
+        "sentence_id": "20b9c70fb50c58866ed38076b3ea9da3",
+        "sentence_text": "Finally, we see that the embeddings generated by our method has very good language discriminative features and helps to improve the performance of language identification.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          13,
+          5,
+          0
+        ],
+        "source_position": 16251
+      }
+    ],
+    "scoring_seconds": 0.3293406739830971,
+    "source_fingerprint": "81d7008680cfa5f748de05465e1fed51cfc3cd59af42b3715ab08c77d52b0ddf"
+  }
+}

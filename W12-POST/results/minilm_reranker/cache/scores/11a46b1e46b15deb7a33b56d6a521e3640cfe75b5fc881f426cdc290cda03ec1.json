@@ -1,0 +1,1671 @@
+{
+  "checksum": "7d8351c1b8fd9359ca8b655dfd3fbc81ff040900785d5809796d07a241c56c1f",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 82,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "ceaab8d3a175bb32387c3e8d56c4d02b049332904ad59c3d59d30f92d3aef56c",
+    "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+    "scores": [
+      {
+        "cross_encoder_score": -10.857457160949707,
+        "dataset": "QASPER",
+        "end_char": 1511,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "29d39d8ed0eaf3c9ec6294624ad012a2",
+        "passage_rank": 9,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "164663aa702baae2cd6270cb2a524b6a",
+        "sentence_text": "submitted to a conference was accepted or not.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1465
+      },
+      {
+        "cross_encoder_score": -11.33991813659668,
+        "dataset": "QASPER",
+        "end_char": 1655,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "29d39d8ed0eaf3c9ec6294624ad012a2",
+        "passage_rank": 9,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "b64a6795f2933d02d1245ac44821bcd4",
+        "sentence_text": "Automatic quality assessment has obvious benefits in terms of time savings and tractability in contexts where the volume of documents is large.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1512
+      },
+      {
+        "cross_encoder_score": -10.848011016845703,
+        "dataset": "QASPER",
+        "end_char": 1933,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "29d39d8ed0eaf3c9ec6294624ad012a2",
+        "passage_rank": 9,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "8e489e27167baf9ded32cd7301497183",
+        "sentence_text": "In the case of dynamic documents (possibly with multiple authors), such as in the case of Wikipedia, it is particularly pertinent, as any edit potentially has implications for the quality label of that document (and around 10 English Wikipedia documents are edited per second).",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1656
+      },
+      {
+        "cross_encoder_score": -8.167819023132324,
+        "dataset": "QASPER",
+        "end_char": 2261,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "29d39d8ed0eaf3c9ec6294624ad012a2",
+        "passage_rank": 9,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "e7c2f3a0d0559e4189ff7a753536b8b5",
+        "sentence_text": "Furthermore, when the quality assessment task is decentralized (as in the case of Wikipedia and academic paper assessment), quality criteria are often applied inconsistently by different people, where an automatic document quality assessment system could potentially reduce inconsistencies and enable immediate author feedback.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1934
+      },
+      {
+        "cross_encoder_score": -11.242254257202148,
+        "dataset": "QASPER",
+        "end_char": 2342,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "29d39d8ed0eaf3c9ec6294624ad012a2",
+        "passage_rank": 9,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "279e6d2133dd4c6d546250eabe6c45f6",
+        "sentence_text": "Current studies on document quality assessment mainly focus on textual features.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 2262
+      },
+      {
+        "cross_encoder_score": -11.385986328125,
+        "dataset": "QASPER",
+        "end_char": 2480,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "29d39d8ed0eaf3c9ec6294624ad012a2",
+        "passage_rank": 9,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "0907bef676a12fd7e45e4f5e668c8c5a",
+        "sentence_text": "For example,  examine features such as the article length and the number of headings to predict the quality class of a Wikipedia article.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 2343
+      },
+      {
+        "cross_encoder_score": -11.336394309997559,
+        "dataset": "QASPER",
+        "end_char": 2628,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "29d39d8ed0eaf3c9ec6294624ad012a2",
+        "passage_rank": 9,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "432d4d584b2b4ddb4d04bbd7da5adbe3",
+        "sentence_text": "In contrast to these studies, in this paper, we propose to combine text features with visual features, based on a visual rendering of the document.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2481
+      },
+      {
+        "cross_encoder_score": -11.299114227294922,
+        "dataset": "QASPER",
+        "end_char": 2696,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "29d39d8ed0eaf3c9ec6294624ad012a2",
+        "passage_rank": 9,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "fef1fbb80dd62abdae3ca39a0a1b9ba4",
+        "sentence_text": "Figure 1 illustrates our intuition, relative to Wikipedia articles.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2629
+      },
+      {
+        "cross_encoder_score": -11.298752784729004,
+        "dataset": "QASPER",
+        "end_char": 2886,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "29d39d8ed0eaf3c9ec6294624ad012a2",
+        "passage_rank": 9,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "61312867add79833bcd4b8540bf35466",
+        "sentence_text": "Without being able to read the text, we can tell that the article in Figure 1 has higher quality than Figure 1 , as it has a detailed infobox, extensive references, and a variety of images.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          1,
+          8,
+          0
+        ],
+        "source_position": 2697
+      },
+      {
+        "cross_encoder_score": -11.409706115722656,
+        "dataset": "QASPER",
+        "end_char": 3070,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "47ab509d09ccf8d6f78411c64d4e9432",
+        "passage_rank": 5,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "3e121ff3c6e9f3d4d81dd963fe058af9",
+        "sentence_text": "Based on this intuition, we aim to answer the following question: can we achieve better accuracy on document quality assessment by complementing textual features with visual features?",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2887
+      },
+      {
+        "cross_encoder_score": -11.3770112991333,
+        "dataset": "QASPER",
+        "end_char": 3230,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "47ab509d09ccf8d6f78411c64d4e9432",
+        "passage_rank": 5,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "90b7f2c55b8067edebfac1fca8dc797f",
+        "sentence_text": "Our visual model is based on fine-tuning an Inception V3 model  over visual renderings of documents, while our textual model is based on a hierarchical biLSTM.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 3071
+      },
+      {
+        "cross_encoder_score": -11.21766185760498,
+        "dataset": "QASPER",
+        "end_char": 3277,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "47ab509d09ccf8d6f78411c64d4e9432",
+        "passage_rank": 5,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "eb8c29e0f084007dc1c2a134863462b4",
+        "sentence_text": "We further combine the two into a joint model.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 3231
+      },
+      {
+        "cross_encoder_score": -9.538553237915039,
+        "dataset": "QASPER",
+        "end_char": 3446,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "47ab509d09ccf8d6f78411c64d4e9432",
+        "passage_rank": 5,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "032642f3de451d93957f02b60491b518",
+        "sentence_text": "We perform experiments on two datasets: a Wikipedia dataset novel to this paper, and an arXiv dataset provided by  split into three sub-parts based on subject category.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3278
+      },
+      {
+        "cross_encoder_score": -11.226280212402344,
+        "dataset": "QASPER",
+        "end_char": 3662,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "47ab509d09ccf8d6f78411c64d4e9432",
+        "passage_rank": 5,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "8f00725b660f6968d97a6ad63038c0db",
+        "sentence_text": "Experimental results on the visual renderings of documents show that implicit quality indicators, such as images and visual layout, can be captured by an image classifier, at a level comparable to a text classifier.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3447
+      },
+      {
+        "cross_encoder_score": -11.30422592163086,
+        "dataset": "QASPER",
+        "end_char": 3756,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "47ab509d09ccf8d6f78411c64d4e9432",
+        "passage_rank": 5,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "4b900050d6dd88e785b57b918f7a49bd",
+        "sentence_text": "When we combine the two models, we achieve state-of-the-art results over 3/4 of our datasets.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3663
+      },
+      {
+        "cross_encoder_score": -4.65307092666626,
+        "dataset": "QASPER",
+        "end_char": 3883,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "47ab509d09ccf8d6f78411c64d4e9432",
+        "passage_rank": 5,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "373da9e4581fbbe962b63c923bfd6c28",
+        "sentence_text": "This paper makes the following contributions: All code and data associated with this research will be released on publication.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3757
+      },
+      {
+        "cross_encoder_score": -9.116442680358887,
+        "dataset": "QASPER",
+        "end_char": 4144,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "47ab509d09ccf8d6f78411c64d4e9432",
+        "passage_rank": 5,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "1fcf51d757df06f8bc5a4784b63481ad",
+        "sentence_text": "Related Work\tA variety of approaches have been proposed for document quality assessment across different domains: Wikipedia article quality assessment, academic paper rating, content quality assessment in community question answering (cQA), and essay scoring.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3885
+      },
+      {
+        "cross_encoder_score": -11.369873046875,
+        "dataset": "QASPER",
+        "end_char": 4266,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "47ab509d09ccf8d6f78411c64d4e9432",
+        "passage_rank": 5,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "a5341d521cc5208f10145af3dc78d8e3",
+        "sentence_text": "Among these approaches, some use hand-crafted features while others use neural networks to learn features from documents.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 4145
+      },
+      {
+        "cross_encoder_score": -11.392716407775879,
+        "dataset": "QASPER",
+        "end_char": 5865,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "c5a6c391223144c75dff35ef723d9998",
+        "passage_rank": 7,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "7c311ab95ba9ee6db0d2067a6321a3c3",
+        "sentence_text": "example,  use the authority of editors to measure the quality of Wikipedia articles, where the authority of editors is determined by the articles they edit.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "source_position": 5709
+      },
+      {
+        "cross_encoder_score": -11.357797622680664,
+        "dataset": "QASPER",
+        "end_char": 5955,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "c5a6c391223144c75dff35ef723d9998",
+        "passage_rank": 7,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "d2d0e0c83da8ae42b3113602f5c3002c",
+        "sentence_text": "Deep learning approaches to predicting Wikipedia article quality have also been proposed.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "source_position": 5866
+      },
+      {
+        "cross_encoder_score": -11.411477088928223,
+        "dataset": "QASPER",
+        "end_char": 6092,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "c5a6c391223144c75dff35ef723d9998",
+        "passage_rank": 7,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "6d48e3cd42fa34f94ea4e298867e214e",
+        "sentence_text": "For example,  use a version of doc2vec  to represent articles, and feed the document embeddings into a four hidden layer neural network.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "source_position": 5956
+      },
+      {
+        "cross_encoder_score": -11.388964653015137,
+        "dataset": "QASPER",
+        "end_char": 6302,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "c5a6c391223144c75dff35ef723d9998",
+        "passage_rank": 7,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "7e8a54d9b09ed418156b8eb241ade71a",
+        "sentence_text": "first obtain sentence representations by averaging words within a sentence, and then apply a biLSTM  to learn a document-level representation, which is combined with hand-crafted features as side information.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "source_position": 6094
+      },
+      {
+        "cross_encoder_score": -11.379314422607422,
+        "dataset": "QASPER",
+        "end_char": 6366,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "c5a6c391223144c75dff35ef723d9998",
+        "passage_rank": 7,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "edf4a577443643f157ede53c1bdcc0e7",
+        "sentence_text": "exploit two stacked biLSTMs to learn document representations.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "source_position": 6304
+      },
+      {
+        "cross_encoder_score": -5.252565383911133,
+        "dataset": "QASPER",
+        "end_char": 6542,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "c5a6c391223144c75dff35ef723d9998",
+        "passage_rank": 7,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "38280021de32ff499da61c2bd9830e35",
+        "sentence_text": "Academic paper rating: Academic paper rating is a relatively new task in NLP/AI, with the basic formulation being to automatically predict whether to accept or reject a paper.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          4,
+          5,
+          0
+        ],
+        "source_position": 6367
+      },
+      {
+        "cross_encoder_score": -11.383225440979004,
+        "dataset": "QASPER",
+        "end_char": 6857,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "c5a6c391223144c75dff35ef723d9998",
+        "passage_rank": 7,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "391d69f6f2063f75a08daa1ba180e38a",
+        "sentence_text": "explore hand-crafted features, such as the length of the title, whether specific words (such as outperform, state-of-the-art, and novel) appear in the abstract, and an embedded representation of the abstract as input to different downstream learners, such as logistic regression, decision tree, and random forest.",
+        "sentence_token_cost": 63,
+        "source_order": [
+          0,
+          4,
+          6,
+          0
+        ],
+        "source_position": 6544
+      },
+      {
+        "cross_encoder_score": -11.24233627319336,
+        "dataset": "QASPER",
+        "end_char": 6978,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "c5a6c391223144c75dff35ef723d9998",
+        "passage_rank": 7,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "6b0cd99b215ad542440fe7eb437e9aa1",
+        "sentence_text": "exploit a modularized hierarchical convolutional neural network (CNN), where each paper section is treated as a module.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          4,
+          7,
+          0
+        ],
+        "source_position": 6859
+      },
+      {
+        "cross_encoder_score": -10.806756973266602,
+        "dataset": "QASPER",
+        "end_char": 7041,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "c5a6c391223144c75dff35ef723d9998",
+        "passage_rank": 7,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "04e9243965c6cebcee5cd98cda95abab",
+        "sentence_text": "For each paper section, they train an attention-based CNN, and",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          4,
+          8,
+          0
+        ],
+        "source_position": 6979
+      },
+      {
+        "cross_encoder_score": -11.374252319335938,
+        "dataset": "QASPER",
+        "end_char": 13669,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "cf3f19194e2907032979d2b9e961d33d",
+        "passage_rank": 8,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "044ee62bd048885c881c810b66888080",
+        "sentence_text": "repository, e.g., we get FA articles by crawling pages from the FA repository: https://en.wikipedia.org/wiki/Category:Featured_articles.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 13533
+      },
+      {
+        "cross_encoder_score": -11.219128608703613,
+        "dataset": "QASPER",
+        "end_char": 13760,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "cf3f19194e2907032979d2b9e961d33d",
+        "passage_rank": 8,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "2363e1a46408a1ad4e7cffcd50b64b7f",
+        "sentence_text": "This resulted in around 5K FA, 28K GA, 212K B, 533K C, 2.6M Start, and 3.2M Stub articles.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 13670
+      },
+      {
+        "cross_encoder_score": -10.157181739807129,
+        "dataset": "QASPER",
+        "end_char": 13894,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "cf3f19194e2907032979d2b9e961d33d",
+        "passage_rank": 8,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "b972466b3a318542e8b6fa4e0049cad1",
+        "sentence_text": "We randomly sampled 5,000 articles from each quality class and removed all redirect pages, resulting in a dataset of 29,794 articles.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 13761
+      },
+      {
+        "cross_encoder_score": -11.37168025970459,
+        "dataset": "QASPER",
+        "end_char": 14082,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "cf3f19194e2907032979d2b9e961d33d",
+        "passage_rank": 8,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "5d099e62f4168f82103f622973f29be6",
+        "sentence_text": "As the wikitext contained in each document contains markup relating to the document category such as {Featured Article} or {geo-stub}, which reveals the label, we remove such information.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 13895
+      },
+      {
+        "cross_encoder_score": -11.272454261779785,
+        "dataset": "QASPER",
+        "end_char": 14203,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "cf3f19194e2907032979d2b9e961d33d",
+        "passage_rank": 8,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "cd52660adc9a216f1429253d4857d5f6",
+        "sentence_text": "We additionally randomly partitioned this dataset into training, development, and test splits based on a ratio of 8:1:1.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 14083
+      },
+      {
+        "cross_encoder_score": -10.300448417663574,
+        "dataset": "QASPER",
+        "end_char": 14254,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "cf3f19194e2907032979d2b9e961d33d",
+        "passage_rank": 8,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "6c7c33edf3243ba004f2df15b5be5394",
+        "sentence_text": "Details of the dataset are summarized in Table 1 .",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 14204
+      },
+      {
+        "cross_encoder_score": -11.402912139892578,
+        "dataset": "QASPER",
+        "end_char": 14520,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "cf3f19194e2907032979d2b9e961d33d",
+        "passage_rank": 8,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "84ffbfb1359bc581ff08ff48223ee9eb",
+        "sentence_text": "We generate a visual representation of each document via a 1,000 $\\times $ 2,000-pixel screenshot of the article via a PhantomJS script over the rendered version of the article, ensuring that the screenshot and wikitext versions of the article are the same version.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 14255
+      },
+      {
+        "cross_encoder_score": -11.277030944824219,
+        "dataset": "QASPER",
+        "end_char": 14578,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "cf3f19194e2907032979d2b9e961d33d",
+        "passage_rank": 8,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "b77dc8197be64d50a0bff62f07be4933",
+        "sentence_text": "Any direct indicators of document quality (such as the FA",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 14521
+      },
+      {
+        "cross_encoder_score": -11.389970779418945,
+        "dataset": "QASPER",
+        "end_char": 14690,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "8710e52f8f0a3d711161487e11ba5d2b",
+        "passage_rank": 2,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "93cb55e39f7111c4a884b3c579c3dad6",
+        "sentence_text": "indicator, which is a bronze star icon in the top right corner of the webpage) are removed from the screenshot.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 14579
+      },
+      {
+        "cross_encoder_score": -4.967284679412842,
+        "dataset": "QASPER",
+        "end_char": 14939,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "8710e52f8f0a3d711161487e11ba5d2b",
+        "passage_rank": 2,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "29d855a87d9ccc8d0567a8cc89e240e7",
+        "sentence_text": "The arXiv dataset  consists of three subsets of academic articles under the arXiv repository of Computer Science (cs), from the three subject areas of: Artificial Intelligence (cs.ai), Computation and Language (cs.cl), and Machine Learning (cs.lg).",
+        "sentence_token_cost": 54,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 14691
+      },
+      {
+        "cross_encoder_score": -7.88249397277832,
+        "dataset": "QASPER",
+        "end_char": 15224,
+        "pair_tokens_before_truncation": 90,
+        "pair_truncated": false,
+        "passage_id": "8710e52f8f0a3d711161487e11ba5d2b",
+        "passage_rank": 2,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "e6934062fbaa9ad891ddb8b4961253fc",
+        "sentence_text": "In line with the original dataset formulation  , a paper is considered to have been accepted (i.e. is positively labeled) if it matches a paper in the DBLP database or is otherwise accepted by any of the following conferences: ACL, EMNLP, NAACL, EACL, TACL, NIPS, ICML, ICLR, or AAAI.",
+        "sentence_token_cost": 74,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 14940
+      },
+      {
+        "cross_encoder_score": -9.159271240234375,
+        "dataset": "QASPER",
+        "end_char": 15360,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "8710e52f8f0a3d711161487e11ba5d2b",
+        "passage_rank": 2,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "ec01f9b4e7d368a1658f722bb9f6614d",
+        "sentence_text": "Failing this, it is considered to be rejected (noting that some of the papers may not have been submitted to one of these conferences).",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 15225
+      },
+      {
+        "cross_encoder_score": -10.697861671447754,
+        "dataset": "QASPER",
+        "end_char": 15460,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "8710e52f8f0a3d711161487e11ba5d2b",
+        "passage_rank": 2,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "ec8c20c38531914776215eae55618036",
+        "sentence_text": "The median numbers of pages for papers in cs.ai, cs.cl, and cs.lg are 11, 10, and 12, respectively.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 15361
+      },
+      {
+        "cross_encoder_score": -11.431879997253418,
+        "dataset": "QASPER",
+        "end_char": 15627,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "8710e52f8f0a3d711161487e11ba5d2b",
+        "passage_rank": 2,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "4ebd62169f7993b2df6cffc43dc622f1",
+        "sentence_text": "To make sure each page in the PDF file has the same size in the screenshot, we crop the PDF file of a paper to the first 12; we pad the PDF file with blank pages if a",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 15461
+      },
+      {
+        "cross_encoder_score": -11.3885498046875,
+        "dataset": "QASPER",
+        "end_char": 15693,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "e6e83ef968613d550e3f5b240b6fd781",
+        "passage_rank": 1,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "b3e45c3c94f5bb2068978a4e21f13faa",
+        "sentence_text": "PDF file has less than 12 pages, using the PyPDF2 Python package.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 15628
+      },
+      {
+        "cross_encoder_score": -11.39944839477539,
+        "dataset": "QASPER",
+        "end_char": 15801,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "e6e83ef968613d550e3f5b240b6fd781",
+        "passage_rank": 1,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "12a9e05b0d7cf362031b7c06828fe4a6",
+        "sentence_text": "We then use ImageMagick to convert the 12-page PDF file to a single 1,000 $\\times $ 2,000 pixel screenshot.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 15694
+      },
+      {
+        "cross_encoder_score": -10.02716064453125,
+        "dataset": "QASPER",
+        "end_char": 15938,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "e6e83ef968613d550e3f5b240b6fd781",
+        "passage_rank": 1,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "b3100602e9da7329d4111e597e5c7172",
+        "sentence_text": "Table 2 details this dataset, where the \u201cAccepted\u201d column denotes the percentage of positive instances (accepted papers) in each subset.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 15802
+      },
+      {
+        "cross_encoder_score": -11.407065391540527,
+        "dataset": "QASPER",
+        "end_char": 16103,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "e6e83ef968613d550e3f5b240b6fd781",
+        "passage_rank": 1,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "e1d0ef4ac6cf801e4589facd056a6468",
+        "sentence_text": "Experimental Setting\tAs discussed above, our model has two main components \u2014 biLSTM and Inception\u2014 which generate textual and visual representations, respectively.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 15940
+      },
+      {
+        "cross_encoder_score": -11.238667488098145,
+        "dataset": "QASPER",
+        "end_char": 16250,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "e6e83ef968613d550e3f5b240b6fd781",
+        "passage_rank": 1,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "78a311b63976adb98e20e8b798f9cede",
+        "sentence_text": "For the biLSTM component, the documents are preprocessed as described in  , where an article is divided into sentences and tokenized using NLTK  .",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 16104
+      },
+      {
+        "cross_encoder_score": -11.39184284210205,
+        "dataset": "QASPER",
+        "end_char": 16328,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "e6e83ef968613d550e3f5b240b6fd781",
+        "passage_rank": 1,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "1cc3798f8bc3b429f3fbd4471ec7d508",
+        "sentence_text": "Words appearing more than 20 times are retained when building the vocabulary.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 16251
+      },
+      {
+        "cross_encoder_score": -11.389472007751465,
+        "dataset": "QASPER",
+        "end_char": 16383,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "e6e83ef968613d550e3f5b240b6fd781",
+        "passage_rank": 1,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "8f0f81fe39b7e510e0a7328d2e1c3d36",
+        "sentence_text": "All other words are replaced by the special UNK token.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 16329
+      },
+      {
+        "cross_encoder_score": -11.407744407653809,
+        "dataset": "QASPER",
+        "end_char": 16464,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "e6e83ef968613d550e3f5b240b6fd781",
+        "passage_rank": 1,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "faebf71612a7d76f700b6cb9e84c034f",
+        "sentence_text": "We use the pre-trained GloVe  50-dimensional word embeddings to represent words.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          12,
+          7,
+          0
+        ],
+        "source_position": 16384
+      },
+      {
+        "cross_encoder_score": -11.400157928466797,
+        "dataset": "QASPER",
+        "end_char": 16588,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "e6e83ef968613d550e3f5b240b6fd781",
+        "passage_rank": 1,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "3bd6c79e3a512e0639eed863df2b2992",
+        "sentence_text": "For words not in GloVe, word embeddings are randomly initialized based on sampling from a uniform distribution $U(-1, 1)$ .",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          12,
+          8,
+          0
+        ],
+        "source_position": 16465
+      },
+      {
+        "cross_encoder_score": -11.440067291259766,
+        "dataset": "QASPER",
+        "end_char": 16645,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "e6e83ef968613d550e3f5b240b6fd781",
+        "passage_rank": 1,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "ed3aef917998343e736cee96f583d896",
+        "sentence_text": "All word embeddings are updated in the training process.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          12,
+          9,
+          0
+        ],
+        "source_position": 16589
+      },
+      {
+        "cross_encoder_score": -11.355668067932129,
+        "dataset": "QASPER",
+        "end_char": 16687,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "e6e83ef968613d550e3f5b240b6fd781",
+        "passage_rank": 1,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "8289220bf34997cf7d0dcd951b5ba51e",
+        "sentence_text": "We set the LSTM hidden layer size to 256.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          12,
+          10,
+          0
+        ],
+        "source_position": 16646
+      },
+      {
+        "cross_encoder_score": -11.38592529296875,
+        "dataset": "QASPER",
+        "end_char": 16753,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "e6e83ef968613d550e3f5b240b6fd781",
+        "passage_rank": 1,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "574e3b0f14d1714b74b28e4b55776e42",
+        "sentence_text": "The concatenation of the forward and backward LSTMs thus gives us",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          12,
+          11,
+          0
+        ],
+        "source_position": 16688
+      },
+      {
+        "cross_encoder_score": -11.352070808410645,
+        "dataset": "QASPER",
+        "end_char": 17756,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "da72373e985de73bc26ab1283e52b3f9",
+        "passage_rank": 10,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "4190b2e3dc79b5d77ccb31fc091a3f85",
+        "sentence_text": "mini-batch size of 128 and a learning rate of 0.001.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 17704
+      },
+      {
+        "cross_encoder_score": -11.396872520446777,
+        "dataset": "QASPER",
+        "end_char": 17854,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "da72373e985de73bc26ab1283e52b3f9",
+        "passage_rank": 10,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "76b1413cba7d7e9f36c6a2cf83ef75ba",
+        "sentence_text": "For both Inception and joint model, we use a mini-batch size of 16 and a learning rate of 0.0001.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 17757
+      },
+      {
+        "cross_encoder_score": -11.079541206359863,
+        "dataset": "QASPER",
+        "end_char": 17981,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "da72373e985de73bc26ab1283e52b3f9",
+        "passage_rank": 10,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "db46392e58a8a855a4d5e2db9d697f35",
+        "sentence_text": "All hyper-parameters were set empirically over the development data, and the models were optimized using the Adam optimizer  .",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          14,
+          2,
+          0
+        ],
+        "source_position": 17855
+      },
+      {
+        "cross_encoder_score": -11.39144229888916,
+        "dataset": "QASPER",
+        "end_char": 18168,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "da72373e985de73bc26ab1283e52b3f9",
+        "passage_rank": 10,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "e0f8017b7b019f043901fc41876393e8",
+        "sentence_text": "In the training phase, the weights in Inception are initialized by parameters pretrained on ImageNet, and the weights in biLSTM are randomly initialized (except for the word embeddings).",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          14,
+          3,
+          0
+        ],
+        "source_position": 17982
+      },
+      {
+        "cross_encoder_score": -11.405808448791504,
+        "dataset": "QASPER",
+        "end_char": 18203,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "da72373e985de73bc26ab1283e52b3f9",
+        "passage_rank": 10,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "7db64bf1a277b8931cf766424b3470b9",
+        "sentence_text": "We train each model for 50 epochs.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          14,
+          4,
+          0
+        ],
+        "source_position": 18169
+      },
+      {
+        "cross_encoder_score": -11.420520782470703,
+        "dataset": "QASPER",
+        "end_char": 18368,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "da72373e985de73bc26ab1283e52b3f9",
+        "passage_rank": 10,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "ea892b33d2418e6f0bdb5c79265c6643",
+        "sentence_text": "However, to prevent overfitting, we adopt early stopping, where we stop training the model if the performance on the development set does not improve for 20 epochs.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          14,
+          5,
+          0
+        ],
+        "source_position": 18204
+      },
+      {
+        "cross_encoder_score": -11.119892120361328,
+        "dataset": "QASPER",
+        "end_char": 18442,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "da72373e985de73bc26ab1283e52b3f9",
+        "passage_rank": 10,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "f3adfa5b43999bc9a57f018265047736",
+        "sentence_text": "For evaluation, we use (micro-)accuracy, following previous studies  ,  .",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          14,
+          6,
+          0
+        ],
+        "source_position": 18369
+      },
+      {
+        "cross_encoder_score": -11.425725936889648,
+        "dataset": "QASPER",
+        "end_char": 18613,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "da72373e985de73bc26ab1283e52b3f9",
+        "passage_rank": 10,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "33a00642716a5e52934e5a62dc945771",
+        "sentence_text": "Baseline Approaches\tWe compare our models against the following five baselines: Majority: the model labels all test samples with the majority class of the training data.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          14,
+          7,
+          0
+        ],
+        "source_position": 18444
+      },
+      {
+        "cross_encoder_score": -11.351056098937988,
+        "dataset": "QASPER",
+        "end_char": 18664,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "da72373e985de73bc26ab1283e52b3f9",
+        "passage_rank": 10,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "04f772e7ca6bbe3b65dc95891af5156f",
+        "sentence_text": "Benchmark: a benchmark method from the literature.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          14,
+          8,
+          0
+        ],
+        "source_position": 18614
+      },
+      {
+        "cross_encoder_score": -11.43015193939209,
+        "dataset": "QASPER",
+        "end_char": 18844,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "da72373e985de73bc26ab1283e52b3f9",
+        "passage_rank": 10,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "51113ee19ae5ca97af89007b8822fbf2",
+        "sentence_text": "In the case of Wikipedia, this is  , who use structural features and readability scores as features to build a random forest classifier; for arXiv, this is  , who use hand-crafted",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          14,
+          9,
+          0
+        ],
+        "source_position": 18665
+      },
+      {
+        "cross_encoder_score": -11.383056640625,
+        "dataset": "QASPER",
+        "end_char": 19035,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "efe9b3ddb9ea6f310dab1ad4d62f5f06",
+        "passage_rank": 4,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "bc638c4cc65f0f1fa750fa33b5bcebdb",
+        "sentence_text": "features, such as the number of references and TF-IDF weighted bag-of-words in abstract, to build a classifier based on the best of logistic regression, multi-layer perception, and AdaBoost.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          15,
+          0,
+          0
+        ],
+        "source_position": 18845
+      },
+      {
+        "cross_encoder_score": -11.396391868591309,
+        "dataset": "QASPER",
+        "end_char": 19227,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "efe9b3ddb9ea6f310dab1ad4d62f5f06",
+        "passage_rank": 4,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "ec9382553abb6a2e10b80e72805aa5bb",
+        "sentence_text": "Doc2Vec: doc2vec  to learn document embeddings with a dimension of 500, and a 4-layer feed-forward classification model on top of this, with 2000, 1000, 500, and 200 dimensions, respectively.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          0,
+          15,
+          1,
+          0
+        ],
+        "source_position": 19036
+      },
+      {
+        "cross_encoder_score": -11.384943008422852,
+        "dataset": "QASPER",
+        "end_char": 19520,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "efe9b3ddb9ea6f310dab1ad4d62f5f06",
+        "passage_rank": 4,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "a4e64512ea83b41078853da053da8fc2",
+        "sentence_text": "biLSTM: first derive a sentence representation by averaging across words in a sentence, then feed the sentence representation into a biLSTM and a maxpooling layer over output sequence to learn a document level representation with a dimension of 512, which is used to predict document quality.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          0,
+          15,
+          2,
+          0
+        ],
+        "source_position": 19228
+      },
+      {
+        "cross_encoder_score": -11.39893627166748,
+        "dataset": "QASPER",
+        "end_char": 19650,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "efe9b3ddb9ea6f310dab1ad4d62f5f06",
+        "passage_rank": 4,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "71209516fc113365f9ab1d90f6db864c",
+        "sentence_text": "Inception $_{\\text{fixed}}$ : the frozen Inception model, where only parameters in the last layer are fine-tuned during training.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          15,
+          3,
+          0
+        ],
+        "source_position": 19521
+      },
+      {
+        "cross_encoder_score": -11.170792579650879,
+        "dataset": "QASPER",
+        "end_char": 19898,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "efe9b3ddb9ea6f310dab1ad4d62f5f06",
+        "passage_rank": 4,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "dfc536eb5a3190f09843b5d8f330c438",
+        "sentence_text": "The hyper-parameters of Benchmark, Doc2Vec, and biLSTM are based on the corresponding papers except that: (1) we fine-tune the feed forward layer of Doc2Vec on the development set and train the model 300 epochs on Wikipedia and 50 epochs on arXiv;",
+        "sentence_token_cost": 64,
+        "source_order": [
+          0,
+          15,
+          4,
+          0
+        ],
+        "source_position": 19651
+      },
+      {
+        "cross_encoder_score": -9.917497634887695,
+        "dataset": "QASPER",
+        "end_char": 21151,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "3775ddd4e10affb77e91b35de4828807",
+        "passage_rank": 3,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "e2568d69f9a74f63b112de4e4517a934",
+        "sentence_text": "and Inception $_{\\text{fixed}}$ outperform biLSTM over cs.ai, in large part because of the class imbalance in this dataset (90% of papers are rejected).",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          17,
+          0,
+          0
+        ],
+        "source_position": 20999
+      },
+      {
+        "cross_encoder_score": -11.410741806030273,
+        "dataset": "QASPER",
+        "end_char": 21355,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "3775ddd4e10affb77e91b35de4828807",
+        "passage_rank": 3,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "e1bec09346983ab92c87d799daaa9af1",
+        "sentence_text": "Surprisingly, Inception $_{\\text{fixed}}$ is better than Majority and Benchmark over the arXiv cs.lg subset, which verifies the usefulness of visual features, even when only the last layer is fine-tuned.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          17,
+          1,
+          0
+        ],
+        "source_position": 21152
+      },
+      {
+        "cross_encoder_score": -11.340468406677246,
+        "dataset": "QASPER",
+        "end_char": 21676,
+        "pair_tokens_before_truncation": 93,
+        "pair_truncated": false,
+        "passage_id": "3775ddd4e10affb77e91b35de4828807",
+        "passage_rank": 3,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "376218f50075bec2047bd4204d3728cd",
+        "sentence_text": "Table 3 also shows that Inception and biLSTM achieve similar performance on arXiv, showing that textual and visual representations are equally discriminative: Inception and biLSTM are indistinguishable over cs.cl; biLSTM achieves 1.8% higher accuracy over cs.lg, while Inception achieves 1.3% higher accuracy over cs.ai.",
+        "sentence_token_cost": 76,
+        "source_order": [
+          0,
+          17,
+          2,
+          0
+        ],
+        "source_position": 21356
+      },
+      {
+        "cross_encoder_score": -11.355942726135254,
+        "dataset": "QASPER",
+        "end_char": 21853,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "3775ddd4e10affb77e91b35de4828807",
+        "passage_rank": 3,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "1780d17783f7922091673d3676d0d552",
+        "sentence_text": "Once again, the Joint model achieves the highest accuracy on cs.ai and cs.cl by combining textual and visual representations (at a level of statistical significance for cs.ai).",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          17,
+          3,
+          0
+        ],
+        "source_position": 21677
+      },
+      {
+        "cross_encoder_score": -11.320281028747559,
+        "dataset": "QASPER",
+        "end_char": 21983,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "3775ddd4e10affb77e91b35de4828807",
+        "passage_rank": 3,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "d59172be3ba5648a9b5b9c98bfab6496",
+        "sentence_text": "This, again, confirms that textual and visual features complement each other, and together they achieve state-of-the-art results.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          17,
+          4,
+          0
+        ],
+        "source_position": 21854
+      },
+      {
+        "cross_encoder_score": -11.387042999267578,
+        "dataset": "QASPER",
+        "end_char": 22135,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "3775ddd4e10affb77e91b35de4828807",
+        "passage_rank": 3,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "334e9ac2b86ea61dd22b5c784467603f",
+        "sentence_text": "On arXiv cs.lg, Joint achieves a 0.6% higher accuracy than Inception by combining visual features and textual features, but biLSTM achieves the highest",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          17,
+          5,
+          0
+        ],
+        "source_position": 21984
+      },
+      {
+        "cross_encoder_score": -11.389528274536133,
+        "dataset": "QASPER",
+        "end_char": 25992,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d16495f949e65f637fe1fb1f2844da14",
+        "passage_rank": 6,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "3c7bd82b36087980228b308b1078a3ad",
+        "sentence_text": "Inception and Joint are better than biLSTM at separating Start and C. Joint achieves slightly better performance than Inception in separating GA and FA.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          21,
+          0,
+          0
+        ],
+        "source_position": 25840
+      },
+      {
+        "cross_encoder_score": -11.382439613342285,
+        "dataset": "QASPER",
+        "end_char": 26123,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d16495f949e65f637fe1fb1f2844da14",
+        "passage_rank": 6,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "b3883d5aec05fb5c4a03cbe177fa8192",
+        "sentence_text": "We can also see that it is difficult for all models to separate B and C, which is consistent with the findings of Tables 4 and 5 .",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          21,
+          1,
+          0
+        ],
+        "source_position": 25993
+      },
+      {
+        "cross_encoder_score": -11.30082893371582,
+        "dataset": "QASPER",
+        "end_char": 26327,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "d16495f949e65f637fe1fb1f2844da14",
+        "passage_rank": 6,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "6b7048dd116ad0cd5448fe48e8bfb411",
+        "sentence_text": "Conclusions\tWe proposed to use visual renderings of documents to capture implicit document quality indicators, such as font choices, images, and visual layout, which are not captured in textual content.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          21,
+          2,
+          0
+        ],
+        "source_position": 26125
+      },
+      {
+        "cross_encoder_score": -11.39525318145752,
+        "dataset": "QASPER",
+        "end_char": 26425,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "d16495f949e65f637fe1fb1f2844da14",
+        "passage_rank": 6,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "8a2b7a509155f7233727f089a4b6f5b0",
+        "sentence_text": "We applied neural network models to capture visual features given visual renderings of documents.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          21,
+          3,
+          0
+        ],
+        "source_position": 26328
+      },
+      {
+        "cross_encoder_score": -11.352396965026855,
+        "dataset": "QASPER",
+        "end_char": 26652,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "d16495f949e65f637fe1fb1f2844da14",
+        "passage_rank": 6,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "1adaa8cf507fd1995829e93cf0f72cc9",
+        "sentence_text": "Experimental results show that we achieve a 2.9% higher accuracy than state-of-the-art approaches based on textual features over Wikipedia, and performance competitive with or surpassing state-of-the-art approaches over arXiv.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          21,
+          4,
+          0
+        ],
+        "source_position": 26426
+      },
+      {
+        "cross_encoder_score": -11.390697479248047,
+        "dataset": "QASPER",
+        "end_char": 26771,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "d16495f949e65f637fe1fb1f2844da14",
+        "passage_rank": 6,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "517387e0cc2c3b3d1425f68ac6fb7a0d",
+        "sentence_text": "We further proposed a joint model, combining textual and visual representations, to predict the quality of a document.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          21,
+          5,
+          0
+        ],
+        "source_position": 26653
+      },
+      {
+        "cross_encoder_score": -11.405792236328125,
+        "dataset": "QASPER",
+        "end_char": 26929,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "d16495f949e65f637fe1fb1f2844da14",
+        "passage_rank": 6,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "35b11c51ad36362c6f52aa8942a4150b",
+        "sentence_text": "Experimental results show that our joint model outperforms the visual-only model in all cases, and the text-only model on Wikipedia and two subsets of arXiv.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          21,
+          6,
+          0
+        ],
+        "source_position": 26772
+      },
+      {
+        "cross_encoder_score": -11.304168701171875,
+        "dataset": "QASPER",
+        "end_char": 27115,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d16495f949e65f637fe1fb1f2844da14",
+        "passage_rank": 6,
+        "query_id": "d5a8fd8bb48dd1f75927e874bdea582b4732a0cd",
+        "sentence_id": "941851ff459eff4bc13c2916096e314d",
+        "sentence_text": "These results underline the feasibility of assessing document quality via visual features, and the complementarity of visual and textual document representations for quality assessment.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          21,
+          7,
+          0
+        ],
+        "source_position": 26930
+      }
+    ],
+    "scoring_seconds": 0.33240873902104795,
+    "source_fingerprint": "e539ed07b97cb77837fb9a64e42d7807e43497c7a30d8a83c37031570ddd7b7c"
+  }
+}

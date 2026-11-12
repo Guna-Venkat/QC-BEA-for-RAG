@@ -1,0 +1,2631 @@
+{
+  "checksum": "be0da28b15881122e4346f9dba471e2d448d14f190698d2ed4fb0c8d30e6ca8a",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "1012"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 130,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "be1c4308702b319581b0e4f89e80d64bbb818be8b190cbd39756ff5b2cf44aaa",
+    "query_id": "1012",
+    "scores": [
+      {
+        "cross_encoder_score": -8.828173637390137,
+        "dataset": "SciFact",
+        "end_char": 93,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "13a5ae2a90615d2fbc3ffb851b62a6ca",
+        "passage_rank": 6,
+        "query_id": "1012",
+        "sentence_id": "9049a0db39b2ee2c85d64e59446f2fc0",
+        "sentence_text": "Thyroid hormone inhibits lung fibrosis in mice by improving epithelial mitochondrial function",
+        "sentence_token_cost": 17,
+        "source_order": [
+          644,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.771883010864258,
+        "dataset": "SciFact",
+        "end_char": 237,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "13a5ae2a90615d2fbc3ffb851b62a6ca",
+        "passage_rank": 6,
+        "query_id": "1012",
+        "sentence_id": "d2f2aef3bc302721bfa9136ebca027c0",
+        "sentence_text": "Thyroid hormone (TH) is critical for the maintenance of cellular homeostasis during stress responses, but its role in lung fibrosis is unknown.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          644,
+          0,
+          1,
+          0
+        ],
+        "source_position": 94
+      },
+      {
+        "cross_encoder_score": -10.386157989501953,
+        "dataset": "SciFact",
+        "end_char": 492,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "13a5ae2a90615d2fbc3ffb851b62a6ca",
+        "passage_rank": 6,
+        "query_id": "1012",
+        "sentence_id": "8c17a333a6aaf5e7c7611c9ffd18e7d3",
+        "sentence_text": "Here we found that the activity and expression of iodothyronine deiodinase 2 (DIO2), an enzyme that activates TH, were higher in lungs from patients with idiopathic pulmonary fibrosis than in control individuals and were correlated with disease severity.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          644,
+          0,
+          2,
+          0
+        ],
+        "source_position": 238
+      },
+      {
+        "cross_encoder_score": -10.63455867767334,
+        "dataset": "SciFact",
+        "end_char": 582,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "13a5ae2a90615d2fbc3ffb851b62a6ca",
+        "passage_rank": 6,
+        "query_id": "1012",
+        "sentence_id": "dd6e0714a7550442a409a3b46f53881e",
+        "sentence_text": "We also found that Dio2-knockout mice exhibited enhanced bleomycin-induced lung fibrosis.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          644,
+          0,
+          3,
+          0
+        ],
+        "source_position": 493
+      },
+      {
+        "cross_encoder_score": -10.201454162597656,
+        "dataset": "SciFact",
+        "end_char": 739,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "13a5ae2a90615d2fbc3ffb851b62a6ca",
+        "passage_rank": 6,
+        "query_id": "1012",
+        "sentence_id": "1e896a74cccfadc83c6ac9a62b6437f7",
+        "sentence_text": "Aerosolized TH delivery increased survival and resolved fibrosis in two models of pulmonary fibrosis in mice (intratracheal bleomycin and inducible TGF-\u03b21).",
+        "sentence_token_cost": 39,
+        "source_order": [
+          644,
+          0,
+          4,
+          0
+        ],
+        "source_position": 583
+      },
+      {
+        "cross_encoder_score": -10.338141441345215,
+        "dataset": "SciFact",
+        "end_char": 811,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "13a5ae2a90615d2fbc3ffb851b62a6ca",
+        "passage_rank": 6,
+        "query_id": "1012",
+        "sentence_id": "b8d17ce96d516d84f5dcf87bd6b9b6b3",
+        "sentence_text": "Sobetirome, a TH mimetic, also blunted bleomycin-induced lung fibrosis.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          644,
+          0,
+          5,
+          0
+        ],
+        "source_position": 740
+      },
+      {
+        "cross_encoder_score": -10.104083061218262,
+        "dataset": "SciFact",
+        "end_char": 1022,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "13a5ae2a90615d2fbc3ffb851b62a6ca",
+        "passage_rank": 6,
+        "query_id": "1012",
+        "sentence_id": "b6901cf0456cde5a294d5ace35b6e67f",
+        "sentence_text": "After bleomycin-induced injury, TH promoted mitochondrial biogenesis, improved mitochondrial bioenergetics and attenuated mitochondria-regulated apoptosis in alveolar epithelial cells both in vivo and in vitro.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          644,
+          0,
+          6,
+          0
+        ],
+        "source_position": 812
+      },
+      {
+        "cross_encoder_score": -10.82845687866211,
+        "dataset": "SciFact",
+        "end_char": 1126,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "13a5ae2a90615d2fbc3ffb851b62a6ca",
+        "passage_rank": 6,
+        "query_id": "1012",
+        "sentence_id": "a03f8bb4da57d375609262f0a7912b82",
+        "sentence_text": "TH did not blunt fibrosis in Ppargc1a- or Pink1-knockout mice, suggesting dependence on these pathways.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          644,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1023
+      },
+      {
+        "cross_encoder_score": -9.485588073730469,
+        "dataset": "SciFact",
+        "end_char": 1354,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "13a5ae2a90615d2fbc3ffb851b62a6ca",
+        "passage_rank": 6,
+        "query_id": "1012",
+        "sentence_id": "ece8c441174bfd8e69a7edbf7f0fe7c9",
+        "sentence_text": "We conclude that the antifibrotic properties of TH are associated with protection of alveolar epithelial cells and restoration of mitochondrial function and that TH may thus represent a potential therapy for pulmonary fibrosis.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          644,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1127
+      },
+      {
+        "cross_encoder_score": 1.0515506267547607,
+        "dataset": "SciFact",
+        "end_char": 84,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "b0301e13cae23dedce42ff0a7e2fa197",
+        "sentence_text": "Dosimetry and risk estimates of radioiodine therapy for large, multinodular goiters.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          1240,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 0.44121071696281433,
+        "dataset": "SciFact",
+        "end_char": 362,
+        "pair_tokens_before_truncation": 86,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "d443adea5b78b9cec5a4f2b2d4fd6497",
+        "sentence_text": "UNLABELLED In patients with a large, multinodular goiter (> 100 g), radiation absorbed doses in the thyroid, surrounding tissues and remainder of the body were estimated after therapeutic administration of 131I(3.7 MBq or 100 microCi/g of thyroid tissue retained at 24 hr).   \n",
+        "sentence_token_cost": 71,
+        "source_order": [
+          1240,
+          0,
+          1,
+          0
+        ],
+        "source_position": 85
+      },
+      {
+        "cross_encoder_score": -9.426749229431152,
+        "dataset": "SciFact",
+        "end_char": 505,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "f10da521b3d376a3d336229c2afac1f4",
+        "sentence_text": "METHODS Thermoluminescent dosimeter (TLD) measurements were performed on 23 patients (12 euthyroid and 1I hyperthyroid; thyroid weight 222 +/-",
+        "sentence_token_cost": 41,
+        "source_order": [
+          1240,
+          0,
+          2,
+          0
+        ],
+        "source_position": 363
+      },
+      {
+        "cross_encoder_score": -7.378087043762207,
+        "dataset": "SciFact",
+        "end_char": 519,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "772548fb9823d59c83eec63cad9f7133",
+        "sentence_text": "72 g; 2.1 +/-",
+        "sentence_token_cost": 9,
+        "source_order": [
+          1240,
+          0,
+          3,
+          0
+        ],
+        "source_position": 506
+      },
+      {
+        "cross_encoder_score": -9.434182167053223,
+        "dataset": "SciFact",
+        "end_char": 620,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "e14cf9b90abaeb29dd17242eddfda7b5",
+        "sentence_text": "0.9 GBq 131I) on the skin over the thyroid, over the submandibular gland and over the parotid gland.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          1240,
+          0,
+          4,
+          0
+        ],
+        "source_position": 520
+      },
+      {
+        "cross_encoder_score": -7.978250503540039,
+        "dataset": "SciFact",
+        "end_char": 738,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "99e482abcf2f056d6aca12ebdc930868",
+        "sentence_text": "Thyroid radioactivity measurements were done daily in 6 euthyroid and 6 hyperthyroid patients (thyroid weight 204 +/-",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1240,
+          0,
+          5,
+          0
+        ],
+        "source_position": 621
+      },
+      {
+        "cross_encoder_score": -7.958804130554199,
+        "dataset": "SciFact",
+        "end_char": 752,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "61dc3c2dddb97e64d4420aa20ffd8a7f",
+        "sentence_text": "69 g; 1.9 +/-",
+        "sentence_token_cost": 9,
+        "source_order": [
+          1240,
+          0,
+          6,
+          0
+        ],
+        "source_position": 739
+      },
+      {
+        "cross_encoder_score": -7.0673699378967285,
+        "dataset": "SciFact",
+        "end_char": 767,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "48243ed2fe55823b0a238fc582b31845",
+        "sentence_text": "0.9 GBq 131I).",
+        "sentence_token_cost": 11,
+        "source_order": [
+          1240,
+          0,
+          7,
+          0
+        ],
+        "source_position": 753
+      },
+      {
+        "cross_encoder_score": -9.198806762695312,
+        "dataset": "SciFact",
+        "end_char": 867,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "8e26a0280ad128c271ee2f3c714dee33",
+        "sentence_text": "An iodine biokinetic model and the MIRD methodology were used to estimate absorbed doses in organs.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          1240,
+          0,
+          8,
+          0
+        ],
+        "source_position": 768
+      },
+      {
+        "cross_encoder_score": -9.961627960205078,
+        "dataset": "SciFact",
+        "end_char": 927,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "03aa7e412512f077e27800773d89e7d1",
+        "sentence_text": "Cancer risks were calculated using ICRP Publication 60.   \n",
+        "sentence_token_cost": 15,
+        "source_order": [
+          1240,
+          0,
+          9,
+          0
+        ],
+        "source_position": 868
+      },
+      {
+        "cross_encoder_score": -9.868986129760742,
+        "dataset": "SciFact",
+        "end_char": 1004,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "1c69db233bb4433b78aa92219b7cf7e1",
+        "sentence_text": "RESULTS Cumulated absorbed doses on the skin (TLD measurements) were 4.2 +/-",
+        "sentence_token_cost": 19,
+        "source_order": [
+          1240,
+          0,
+          10,
+          0
+        ],
+        "source_position": 928
+      },
+      {
+        "cross_encoder_score": -7.33919620513916,
+        "dataset": "SciFact",
+        "end_char": 1030,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "bf39084039e45e3c37d31043562ac306",
+        "sentence_text": "1.4 Gy (thyroid), 1.2 +/-",
+        "sentence_token_cost": 13,
+        "source_order": [
+          1240,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1005
+      },
+      {
+        "cross_encoder_score": -8.903666496276855,
+        "dataset": "SciFact",
+        "end_char": 1065,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "4b565b8bfc93d050eddb60192b1ebf96",
+        "sentence_text": "0.6 Gy (submandibular) and 0.4 +/-",
+        "sentence_token_cost": 16,
+        "source_order": [
+          1240,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1031
+      },
+      {
+        "cross_encoder_score": -7.9236650466918945,
+        "dataset": "SciFact",
+        "end_char": 1083,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "8919ac4bd8b40faa3eb1286e7d0e28cb",
+        "sentence_text": "0.2 Gy (parotid).",
+        "sentence_token_cost": 9,
+        "source_order": [
+          1240,
+          0,
+          13,
+          0
+        ],
+        "source_position": 1066
+      },
+      {
+        "cross_encoder_score": -5.050064563751221,
+        "dataset": "SciFact",
+        "end_char": 1243,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "33945ebc32a32ff65fb6ab2d613d05a2",
+        "sentence_text": "All these values were significantly correlated with the amount of radioiodine retained in the thyroid at 24 hr (euthyroid versus hyperthyroid not significant).",
+        "sentence_token_cost": 34,
+        "source_order": [
+          1240,
+          0,
+          14,
+          0
+        ],
+        "source_position": 1084
+      },
+      {
+        "cross_encoder_score": -6.018898963928223,
+        "dataset": "SciFact",
+        "end_char": 1283,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "271309791ee9ad55d46a8e62cc5df332",
+        "sentence_text": "Absorbed doses in the thyroid of 94 +/-",
+        "sentence_token_cost": 12,
+        "source_order": [
+          1240,
+          0,
+          15,
+          0
+        ],
+        "source_position": 1244
+      },
+      {
+        "cross_encoder_score": -7.943265438079834,
+        "dataset": "SciFact",
+        "end_char": 1314,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "4b32ced1218699584f362fa3818e9ed6",
+        "sentence_text": "25 Gy for euthyroid and 93 +/-",
+        "sentence_token_cost": 12,
+        "source_order": [
+          1240,
+          0,
+          16,
+          0
+        ],
+        "source_position": 1284
+      },
+      {
+        "cross_encoder_score": -8.116022109985352,
+        "dataset": "SciFact",
+        "end_char": 1400,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "42f2dd6c5f789afe4e9dc611a7acacde",
+        "sentence_text": "17 Gy for hyperthyroid patients were calculated (thyroid radioactivity measurements).",
+        "sentence_token_cost": 17,
+        "source_order": [
+          1240,
+          0,
+          17,
+          0
+        ],
+        "source_position": 1315
+      },
+      {
+        "cross_encoder_score": -9.914510726928711,
+        "dataset": "SciFact",
+        "end_char": 1643,
+        "pair_tokens_before_truncation": 95,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "307eb4c02ae8f77e43201ea82ba40557",
+        "sentence_text": "Extrathyroidal absorbed doses (means of 12 patients) were 0.88 Gy in the urinary bladder, 0.57 Gy in the small intestine, 0.38 Gy in the stomach, and ranged from 0.05 to 0.30 Gy in other organs (euthyroid versus hyperthyroid not significant).",
+        "sentence_token_cost": 78,
+        "source_order": [
+          1240,
+          0,
+          18,
+          0
+        ],
+        "source_position": 1401
+      },
+      {
+        "cross_encoder_score": -9.583451271057129,
+        "dataset": "SciFact",
+        "end_char": 1732,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "2b20282bea5926b890cd56cd199c5b74",
+        "sentence_text": "A 1.6% life-time risk of development of cancer outside the thyroid gland was calculated.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          1240,
+          0,
+          19,
+          0
+        ],
+        "source_position": 1644
+      },
+      {
+        "cross_encoder_score": -9.0447998046875,
+        "dataset": "SciFact",
+        "end_char": 1820,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "b64d84fe59edcf53fa7c4f82c14de3c7",
+        "sentence_text": "When applied to people of 65 yr and older the estimated risk is approximately 0.5%.   \n",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1240,
+          0,
+          20,
+          0
+        ],
+        "source_position": 1733
+      },
+      {
+        "cross_encoder_score": -2.0112645626068115,
+        "dataset": "SciFact",
+        "end_char": 2012,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "812de39ff3195d22307d313fba782319",
+        "sentence_text": "CONCLUSION These data may help in choosing the treatment regimen for individual patients with a large, multinodular goiter, who have to be treated for hyperthyroidism or compressive problems.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          1240,
+          0,
+          21,
+          0
+        ],
+        "source_position": 1821
+      },
+      {
+        "cross_encoder_score": -9.182096481323242,
+        "dataset": "SciFact",
+        "end_char": 2059,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "31d06a732901f8d3a468d0ea5c95aedd",
+        "sentence_text": "In younger patients, surgery may be preferred.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          1240,
+          0,
+          22,
+          0
+        ],
+        "source_position": 2013
+      },
+      {
+        "cross_encoder_score": -0.8585178852081299,
+        "dataset": "SciFact",
+        "end_char": 2243,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "5030a4b512a9481f74f03ad556801b29",
+        "passage_rank": 3,
+        "query_id": "1012",
+        "sentence_id": "aff0d14b8f61e57d2d70fd223aec9477",
+        "sentence_text": "However, for elderly patients and patients with cardiopulmonary disease, the advantages of noninvasive radioiodine treatment will outweight the life-time risk of this mode of therapy.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          1240,
+          0,
+          23,
+          0
+        ],
+        "source_position": 2060
+      },
+      {
+        "cross_encoder_score": -7.896828651428223,
+        "dataset": "SciFact",
+        "end_char": 159,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "a75c434ea0dac353d3374e5e18d368b0",
+        "passage_rank": 9,
+        "query_id": "1012",
+        "sentence_id": "5b41064f75248d3f6765ebd03c0d33c5",
+        "sentence_text": "Anti-alphav integrin monoclonal antibody intetumumab enhances the efficacy of radiation therapy and reduces metastasis of human cancer xenografts in nude rats.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          1433,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.055853843688965,
+        "dataset": "SciFact",
+        "end_char": 314,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "a75c434ea0dac353d3374e5e18d368b0",
+        "passage_rank": 9,
+        "query_id": "1012",
+        "sentence_id": "ecc369d0f24c76c409a1730376fb286f",
+        "sentence_text": "We previously reported that intetumumab (CNTO 95), a fully human anti-\u03b1v integrin monoclonal antibody, is a radiosensitizer in mice with xenograft tumors.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          1433,
+          0,
+          1,
+          0
+        ],
+        "source_position": 160
+      },
+      {
+        "cross_encoder_score": -10.578146934509277,
+        "dataset": "SciFact",
+        "end_char": 618,
+        "pair_tokens_before_truncation": 96,
+        "pair_truncated": false,
+        "passage_id": "a75c434ea0dac353d3374e5e18d368b0",
+        "passage_rank": 9,
+        "query_id": "1012",
+        "sentence_id": "eb561e73ea072b405bce4c27c93f9976",
+        "sentence_text": "Because intetumumab does not cross-react with mouse integrins, but has cross-reactivity with rat integrins, we next studied the potential combined use of radiation therapy and intetumumab in human cancer xenograft models in nude rats to assess effects on both tumor cells and the tumor microenvironment.",
+        "sentence_token_cost": 64,
+        "source_order": [
+          1433,
+          0,
+          2,
+          0
+        ],
+        "source_position": 315
+      },
+      {
+        "cross_encoder_score": -8.040849685668945,
+        "dataset": "SciFact",
+        "end_char": 786,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "a75c434ea0dac353d3374e5e18d368b0",
+        "passage_rank": 9,
+        "query_id": "1012",
+        "sentence_id": "c2ce209601f2d04263caa402fad08514",
+        "sentence_text": "Nude rats bearing human head and neck cancer and non-small cell lung cancer (NSCLC) xenografts were treated with intetumumab and fractionated local tumor radiotherapy.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          1433,
+          0,
+          3,
+          0
+        ],
+        "source_position": 619
+      },
+      {
+        "cross_encoder_score": -9.134934425354004,
+        "dataset": "SciFact",
+        "end_char": 900,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "a75c434ea0dac353d3374e5e18d368b0",
+        "passage_rank": 9,
+        "query_id": "1012",
+        "sentence_id": "e4f70d80b15604e4ee278daa90726bda",
+        "sentence_text": "Effects on tumor growth and metastasis, blood perfusion, oxygenation, and gastrointestinal toxicity were studied.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          1433,
+          0,
+          4,
+          0
+        ],
+        "source_position": 787
+      },
+      {
+        "cross_encoder_score": -8.24843978881836,
+        "dataset": "SciFact",
+        "end_char": 957,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "a75c434ea0dac353d3374e5e18d368b0",
+        "passage_rank": 9,
+        "query_id": "1012",
+        "sentence_id": "65a4283fcac021b6c8d606f8d245149c",
+        "sentence_text": "Intetumumab alone had a moderate effect on tumor growth.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          1433,
+          0,
+          5,
+          0
+        ],
+        "source_position": 901
+      },
+      {
+        "cross_encoder_score": -8.390841484069824,
+        "dataset": "SciFact",
+        "end_char": 1157,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "a75c434ea0dac353d3374e5e18d368b0",
+        "passage_rank": 9,
+        "query_id": "1012",
+        "sentence_id": "36364a08894df4204263e4642f8dfa5d",
+        "sentence_text": "When combined with fractionated radiation therapy, intetumumab significantly inhibited tumor growth and produced a tumor response rate that was significantly better than with radiation therapy alone.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          1433,
+          0,
+          6,
+          0
+        ],
+        "source_position": 958
+      },
+      {
+        "cross_encoder_score": -7.580604076385498,
+        "dataset": "SciFact",
+        "end_char": 1262,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "a75c434ea0dac353d3374e5e18d368b0",
+        "passage_rank": 9,
+        "query_id": "1012",
+        "sentence_id": "66c0caa2ef2f83c9d86367be16334030",
+        "sentence_text": "Treatment with intetumumab also significantly reduced lung metastasis in the A549 NSCLC xenograft model.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          1433,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1158
+      },
+      {
+        "cross_encoder_score": -9.409063339233398,
+        "dataset": "SciFact",
+        "end_char": 1433,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "a75c434ea0dac353d3374e5e18d368b0",
+        "passage_rank": 9,
+        "query_id": "1012",
+        "sentence_id": "e1283d72df4c6052bf09c8772967d337",
+        "sentence_text": "The oxygenation and blood perfusion in xenograft tumors measured by microbubble-enhanced ultrasound imaging were substantially increased after treatment with intetumumab.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          1433,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1263
+      },
+      {
+        "cross_encoder_score": -7.234925746917725,
+        "dataset": "SciFact",
+        "end_char": 1590,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "a75c434ea0dac353d3374e5e18d368b0",
+        "passage_rank": 9,
+        "query_id": "1012",
+        "sentence_id": "353daa1e790d37b4f38f326ce7dcf9ce",
+        "sentence_text": "The combined use of intetumumab and radiation therapy reduced the microvessel density and increased apoptosis in tumor cells and the tumor microenvironment.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1433,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1434
+      },
+      {
+        "cross_encoder_score": -6.797787189483643,
+        "dataset": "SciFact",
+        "end_char": 1801,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "a75c434ea0dac353d3374e5e18d368b0",
+        "passage_rank": 9,
+        "query_id": "1012",
+        "sentence_id": "b7afd810d4c6f7a10946314b4403cdf1",
+        "sentence_text": "Toxicity studies showed that treatment with intetumumab did not cause the histopathologic changes in the lungs and did not sensitize the sensitive gastrointestinal epithelium to the effect of radiation therapy.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          1433,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1591
+      },
+      {
+        "cross_encoder_score": -6.838133811950684,
+        "dataset": "SciFact",
+        "end_char": 1949,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "a75c434ea0dac353d3374e5e18d368b0",
+        "passage_rank": 9,
+        "query_id": "1012",
+        "sentence_id": "5f838a463b90cb5f9b8eb12d72353766",
+        "sentence_text": "Intetumumab can potentiate the efficacy of fractionated radiation therapy in human cancer xenograft tumors in nude rats without increased toxicity.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          1433,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1802
+      },
+      {
+        "cross_encoder_score": 5.832577705383301,
+        "dataset": "SciFact",
+        "end_char": 55,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "54a41575d8608402315eceb8bc0a7136",
+        "passage_rank": 1,
+        "query_id": "1012",
+        "sentence_id": "daeaabeafcce039f420fd27e526b1c0b",
+        "sentence_text": "Radioiodine treatment of multinodular non-toxic goitre.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          1694,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 5.245339870452881,
+        "dataset": "SciFact",
+        "end_char": 204,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "54a41575d8608402315eceb8bc0a7136",
+        "passage_rank": 1,
+        "query_id": "1012",
+        "sentence_id": "3b6ae5389b437c32a4828e9f32d5755e",
+        "sentence_text": "OBJECTIVE To investigate the long term effect of radioactive iodine on thyroid function and size in patients with non-toxic multinodular goitre.   \n",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1694,
+          0,
+          1,
+          0
+        ],
+        "source_position": 56
+      },
+      {
+        "cross_encoder_score": 6.0801239013671875,
+        "dataset": "SciFact",
+        "end_char": 477,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "54a41575d8608402315eceb8bc0a7136",
+        "passage_rank": 1,
+        "query_id": "1012",
+        "sentence_id": "4be8283f9792058a3f2bb5a7a2c63fed",
+        "sentence_text": "DESIGN Consecutive patients with multinodular non-toxic goitre selected for radioactive iodine treatment and followed for a minimum of 12 months (median 48 months) after an intended dose of 3.7 MBq/g thyroid tissue corrected to a 100% uptake of iodine-131 in 24 hours.   \n",
+        "sentence_token_cost": 74,
+        "source_order": [
+          1694,
+          0,
+          2,
+          0
+        ],
+        "source_position": 205
+      },
+      {
+        "cross_encoder_score": 0.5053790807723999,
+        "dataset": "SciFact",
+        "end_char": 606,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "54a41575d8608402315eceb8bc0a7136",
+        "passage_rank": 1,
+        "query_id": "1012",
+        "sentence_id": "827c6de2eca7ac8135c10f182ffcf2d3",
+        "sentence_text": "PATIENTS 69 patients with a growing multinodular non-toxic goitre causing local compression symptoms or cosmetic inconveniences.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          1694,
+          0,
+          3,
+          0
+        ],
+        "source_position": 478
+      },
+      {
+        "cross_encoder_score": -7.115049839019775,
+        "dataset": "SciFact",
+        "end_char": 723,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "54a41575d8608402315eceb8bc0a7136",
+        "passage_rank": 1,
+        "query_id": "1012",
+        "sentence_id": "133275f3f172509da0d83933ad351ea9",
+        "sentence_text": "The treatment was chosen because of a high operative risk, previous thyroidectomy, or refusal to be operated on.   \n",
+        "sentence_token_cost": 23,
+        "source_order": [
+          1694,
+          0,
+          4,
+          0
+        ],
+        "source_position": 607
+      },
+      {
+        "cross_encoder_score": -6.06879997253418,
+        "dataset": "SciFact",
+        "end_char": 926,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "54a41575d8608402315eceb8bc0a7136",
+        "passage_rank": 1,
+        "query_id": "1012",
+        "sentence_id": "2baa01fabb5aca2c662d42c3f4d997bf",
+        "sentence_text": "MAIN OUTCOME MEASUREMENTS Standard thyroid function variables and ultrasonically determined thyroid volume before treatment as well as 1, 2, 3, 6, and 12 months after treatment and then once a year.   \n",
+        "sentence_token_cost": 49,
+        "source_order": [
+          1694,
+          0,
+          5,
+          0
+        ],
+        "source_position": 724
+      },
+      {
+        "cross_encoder_score": -7.167537689208984,
+        "dataset": "SciFact",
+        "end_char": 1031,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "54a41575d8608402315eceb8bc0a7136",
+        "passage_rank": 1,
+        "query_id": "1012",
+        "sentence_id": "53e86907c653b251923eea70cf2e746d",
+        "sentence_text": "RESULTS 56 patients were treated with a single dose of 131I, 12 with two doses, and one with four doses.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1694,
+          0,
+          6,
+          0
+        ],
+        "source_position": 927
+      },
+      {
+        "cross_encoder_score": -1.6177834272384644,
+        "dataset": "SciFact",
+        "end_char": 1263,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "54a41575d8608402315eceb8bc0a7136",
+        "passage_rank": 1,
+        "query_id": "1012",
+        "sentence_id": "b907da9ab364ee9e7b85f5e2a46502be",
+        "sentence_text": "In 45 patients treated with one dose and remaining euthyroid the median thyroid volume was reduced from 73 (interquartile range 50-106) ml to 29 (23-48) ml at 24 months in the 39 patients in whom this was measured during follow up.",
+        "sentence_token_cost": 71,
+        "source_order": [
+          1694,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1032
+      },
+      {
+        "cross_encoder_score": -8.12194538116455,
+        "dataset": "SciFact",
+        "end_char": 1375,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "54a41575d8608402315eceb8bc0a7136",
+        "passage_rank": 1,
+        "query_id": "1012",
+        "sentence_id": "f063948d4c1a200eebd440544305466f",
+        "sentence_text": "The median reduction was 40 (22-48) ml (60% reduction, p < 0.0001), half of which occurred within three months.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          1694,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1264
+      },
+      {
+        "cross_encoder_score": -0.4497130215167999,
+        "dataset": "SciFact",
+        "end_char": 1517,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "54a41575d8608402315eceb8bc0a7136",
+        "passage_rank": 1,
+        "query_id": "1012",
+        "sentence_id": "b620687b8f2c99008524aa17c26c4888",
+        "sentence_text": "Patients treated with two doses as well as those developing hypothyroidism and hyperthyroidism had a significant reduction in thyroid volume.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          1694,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1376
+      },
+      {
+        "cross_encoder_score": -9.805108070373535,
+        "dataset": "SciFact",
+        "end_char": 1630,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "54a41575d8608402315eceb8bc0a7136",
+        "passage_rank": 1,
+        "query_id": "1012",
+        "sentence_id": "4f49e759e85331046ae25f222d99dc11",
+        "sentence_text": "Eleven patients developed hypothyroidism (cumulative five year risk 22%, 95% confidence interval 4.8% to 38.4%).",
+        "sentence_token_cost": 36,
+        "source_order": [
+          1694,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1518
+      },
+      {
+        "cross_encoder_score": -8.203646659851074,
+        "dataset": "SciFact",
+        "end_char": 1724,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "54a41575d8608402315eceb8bc0a7136",
+        "passage_rank": 1,
+        "query_id": "1012",
+        "sentence_id": "5ff927c10547f34f29f82222e0492d77",
+        "sentence_text": "Side effects were few: three cases of hyperthyroidism and two cases of radiation thyroiditis.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          1694,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1631
+      },
+      {
+        "cross_encoder_score": -8.892820358276367,
+        "dataset": "SciFact",
+        "end_char": 1838,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "54a41575d8608402315eceb8bc0a7136",
+        "passage_rank": 1,
+        "query_id": "1012",
+        "sentence_id": "a77a1c734472078aaf58c9f49e84965f",
+        "sentence_text": "Only one patient was dissatisfied with the result; she was referred for operation six months after treatment.   \n",
+        "sentence_token_cost": 21,
+        "source_order": [
+          1694,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1725
+      },
+      {
+        "cross_encoder_score": 8.074986457824707,
+        "dataset": "SciFact",
+        "end_char": 2087,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "54a41575d8608402315eceb8bc0a7136",
+        "passage_rank": 1,
+        "query_id": "1012",
+        "sentence_id": "d31b78b55e8a33c83b26c2eccb269043",
+        "sentence_text": "CONCLUSIONS A substantial reduction in thyroid volume accompanied by a low incidence of hypothyroidism and few side effects makes the use of radioactive iodine an attractive alternative to surgery in selected cases of non-toxic multinodular goitre.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          1694,
+          0,
+          13,
+          0
+        ],
+        "source_position": 1839
+      },
+      {
+        "cross_encoder_score": -9.001797676086426,
+        "dataset": "SciFact",
+        "end_char": 104,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "16d846d70f140bb1c594c4405ff98ffc",
+        "passage_rank": 7,
+        "query_id": "1012",
+        "sentence_id": "5727f97b9148a64f98c076e38b14a9e8",
+        "sentence_text": "Thyroid Hormone Receptor Repression Linked to Type I Pneumocyte Associated Respiratory Distress Syndrome",
+        "sentence_token_cost": 23,
+        "source_order": [
+          2842,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.23709774017334,
+        "dataset": "SciFact",
+        "end_char": 290,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "16d846d70f140bb1c594c4405ff98ffc",
+        "passage_rank": 7,
+        "query_id": "1012",
+        "sentence_id": "4bc45925c3c69bc9cd2aca030a875456",
+        "sentence_text": "Although the lung is a defining feature of air-breathing animals, the pathway controlling the formation of type I pneumocytes, the cells that mediate gas exchange, is poorly understood.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          2842,
+          0,
+          1,
+          0
+        ],
+        "source_position": 105
+      },
+      {
+        "cross_encoder_score": -10.365489959716797,
+        "dataset": "SciFact",
+        "end_char": 550,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "16d846d70f140bb1c594c4405ff98ffc",
+        "passage_rank": 7,
+        "query_id": "1012",
+        "sentence_id": "bec155c6de7edb1560768e5949ed930e",
+        "sentence_text": "In contrast, the glucocorticoid receptor and its cognate ligand have long been known to promote type II pneumocyte maturation; prenatal administration of glucocorticoids is commonly used to attenuate the severity of infant respiratory distress syndrome (RDS).",
+        "sentence_token_cost": 52,
+        "source_order": [
+          2842,
+          0,
+          2,
+          0
+        ],
+        "source_position": 291
+      },
+      {
+        "cross_encoder_score": -9.519461631774902,
+        "dataset": "SciFact",
+        "end_char": 823,
+        "pair_tokens_before_truncation": 90,
+        "pair_truncated": false,
+        "passage_id": "16d846d70f140bb1c594c4405ff98ffc",
+        "passage_rank": 7,
+        "query_id": "1012",
+        "sentence_id": "e834cd86bfc7eb761b6b6894c932a2e3",
+        "sentence_text": "Here we show that knock-in mutations of the nuclear co-repressor SMRT (silencing mediator of retinoid and thyroid hormone receptors) in C57BL/6 mice (SMRTmRID) produces a previously unidentified respiratory distress syndrome caused by prematurity of the type I pneumocyte.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          2842,
+          0,
+          3,
+          0
+        ],
+        "source_position": 551
+      },
+      {
+        "cross_encoder_score": -4.688790798187256,
+        "dataset": "SciFact",
+        "end_char": 1081,
+        "pair_tokens_before_truncation": 86,
+        "pair_truncated": false,
+        "passage_id": "16d846d70f140bb1c594c4405ff98ffc",
+        "passage_rank": 7,
+        "query_id": "1012",
+        "sentence_id": "e25191ec5e6df5f8a15d698ccc893b7e",
+        "sentence_text": "Though unresponsive to glucocorticoids, treatment with anti-thyroid hormone drugs (propylthiouracil or methimazole) completely rescues SMRT-induced RDS, suggesting an unrecognized and essential role for the thyroid hormone receptor (TR) in lung development.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          2842,
+          0,
+          4,
+          0
+        ],
+        "source_position": 824
+      },
+      {
+        "cross_encoder_score": -10.894712448120117,
+        "dataset": "SciFact",
+        "end_char": 1241,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "16d846d70f140bb1c594c4405ff98ffc",
+        "passage_rank": 7,
+        "query_id": "1012",
+        "sentence_id": "a5441728f9c6baa1f473ca1bdbbb65be",
+        "sentence_text": "We show that TR and SMRT control type I pneumocyte differentiation through Klf2, which, in turn, seems to directly activate the type I pneumocyte gene program.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          2842,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1082
+      },
+      {
+        "cross_encoder_score": -11.022174835205078,
+        "dataset": "SciFact",
+        "end_char": 1383,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "16d846d70f140bb1c594c4405ff98ffc",
+        "passage_rank": 7,
+        "query_id": "1012",
+        "sentence_id": "b077ddf5d9b2c64f0219a509f128f4b3",
+        "sentence_text": "Conversely, mice without lung Klf2 lack mature type I pneumocytes and die shortly after birth, closely recapitulating the SMRTmRID phenotype.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          2842,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1242
+      },
+      {
+        "cross_encoder_score": -9.419392585754395,
+        "dataset": "SciFact",
+        "end_char": 1635,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "16d846d70f140bb1c594c4405ff98ffc",
+        "passage_rank": 7,
+        "query_id": "1012",
+        "sentence_id": "26bbe820dd272d20d4591a81efe1f58d",
+        "sentence_text": "These results identify TR as a second nuclear receptor involved in lung development, specifically type I pneumocyte differentiation, and suggest a possible new type of therapeutic option in the treatment of RDS that is unresponsive to glucocorticoids.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          2842,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1384
+      },
+      {
+        "cross_encoder_score": -8.480219841003418,
+        "dataset": "SciFact",
+        "end_char": 115,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "f36ca4dc2ae9b5361d3d0028c4dd245c",
+        "passage_rank": 8,
+        "query_id": "1012",
+        "sentence_id": "3d0b76056ebc46a6534fa93d3b946897",
+        "sentence_text": "Increased density of tumor-associated macrophages is associated with decreased survival in advanced thyroid cancer.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3751,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.87850570678711,
+        "dataset": "SciFact",
+        "end_char": 240,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "f36ca4dc2ae9b5361d3d0028c4dd245c",
+        "passage_rank": 8,
+        "query_id": "1012",
+        "sentence_id": "6c0206e598f52e13e99161e63af7b631",
+        "sentence_text": "Thyroid cancers are infiltrated with tumor-associated macrophages (TAMs), yet their role in cancer progression is not known.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          3751,
+          0,
+          1,
+          0
+        ],
+        "source_position": 116
+      },
+      {
+        "cross_encoder_score": -9.51262378692627,
+        "dataset": "SciFact",
+        "end_char": 472,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "f36ca4dc2ae9b5361d3d0028c4dd245c",
+        "passage_rank": 8,
+        "query_id": "1012",
+        "sentence_id": "a9b8f96a7cb25c53f3ea4f78fdf2275a",
+        "sentence_text": "The objectives of this study were to characterize the density of TAMs in well-differentiated (WDTC), poorly differentiated (PDTC), and anaplastic thyroid cancers (ATC) and to correlate TAM density with clinicopathologic parameters.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          3751,
+          0,
+          2,
+          0
+        ],
+        "source_position": 241
+      },
+      {
+        "cross_encoder_score": -10.866520881652832,
+        "dataset": "SciFact",
+        "end_char": 618,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "f36ca4dc2ae9b5361d3d0028c4dd245c",
+        "passage_rank": 8,
+        "query_id": "1012",
+        "sentence_id": "7d9259f90b92eece5016bbc7143be469",
+        "sentence_text": "Immunohistochemistry was performed on tissue microarray sections from WDTC (n=33), PDTC (n=37), and ATC (n=20) using macrophage-specific markers.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          3751,
+          0,
+          3,
+          0
+        ],
+        "source_position": 473
+      },
+      {
+        "cross_encoder_score": -10.426337242126465,
+        "dataset": "SciFact",
+        "end_char": 695,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "f36ca4dc2ae9b5361d3d0028c4dd245c",
+        "passage_rank": 8,
+        "query_id": "1012",
+        "sentence_id": "6f09c5cc2809c929dde5126b3d5b6f20",
+        "sentence_text": "Electronic medical records were used to gather clinical and pathologic data.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          3751,
+          0,
+          4,
+          0
+        ],
+        "source_position": 619
+      },
+      {
+        "cross_encoder_score": -9.36330795288086,
+        "dataset": "SciFact",
+        "end_char": 764,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "f36ca4dc2ae9b5361d3d0028c4dd245c",
+        "passage_rank": 8,
+        "query_id": "1012",
+        "sentence_id": "94845bdb9b722a9a58dca12c9764cbcc",
+        "sentence_text": "Follow-up information of PDTC patients was available for 0-12 years.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          3751,
+          0,
+          5,
+          0
+        ],
+        "source_position": 696
+      },
+      {
+        "cross_encoder_score": -9.91549015045166,
+        "dataset": "SciFact",
+        "end_char": 998,
+        "pair_tokens_before_truncation": 127,
+        "pair_truncated": false,
+        "passage_id": "f36ca4dc2ae9b5361d3d0028c4dd245c",
+        "passage_rank": 8,
+        "query_id": "1012",
+        "sentence_id": "be3f151fdbfba85bd39cc8c8f8d4c64d",
+        "sentence_text": "In total, 9 out of 33 WDTC (27%), 20 out of 37 PDTC (54%), and 19 out of 20 ATC (95%) had an increased density of CD68(+) TAMs (> or = 10 per 0.28 mm(2); WDTC versus PDTC, P=0.03; WDTC versus ATC, P<0.0001; PDTC versus ATC, P<0.002).",
+        "sentence_token_cost": 115,
+        "source_order": [
+          3751,
+          0,
+          6,
+          0
+        ],
+        "source_position": 765
+      },
+      {
+        "cross_encoder_score": -9.830304145812988,
+        "dataset": "SciFact",
+        "end_char": 1201,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "f36ca4dc2ae9b5361d3d0028c4dd245c",
+        "passage_rank": 8,
+        "query_id": "1012",
+        "sentence_id": "b364f8e1733152e84eee434dd3678629",
+        "sentence_text": "Increased TAMs in PDTC was associated with capsular invasion (P=0.034), extrathyroidal extension (P=0.009), and decreased cancer-related survival (P=0.009) compared with PDTC with a low density of TAMs.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          3751,
+          0,
+          7,
+          0
+        ],
+        "source_position": 999
+      },
+      {
+        "cross_encoder_score": -7.632058620452881,
+        "dataset": "SciFact",
+        "end_char": 1278,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "f36ca4dc2ae9b5361d3d0028c4dd245c",
+        "passage_rank": 8,
+        "query_id": "1012",
+        "sentence_id": "ea3c9c5472fad2760f5f02f00f29692f",
+        "sentence_text": "In conclusion, the density of TAMs is increased in advanced thyroid cancers.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          3751,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1202
+      },
+      {
+        "cross_encoder_score": -9.503450393676758,
+        "dataset": "SciFact",
+        "end_char": 1389,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "f36ca4dc2ae9b5361d3d0028c4dd245c",
+        "passage_rank": 8,
+        "query_id": "1012",
+        "sentence_id": "5535775dd761e2915088bea3af6c93bc",
+        "sentence_text": "The presence of a high density of TAMs in PDTC correlates with invasion and decreased cancer-related survival.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          3751,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1279
+      },
+      {
+        "cross_encoder_score": -9.211587905883789,
+        "dataset": "SciFact",
+        "end_char": 1455,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "f36ca4dc2ae9b5361d3d0028c4dd245c",
+        "passage_rank": 8,
+        "query_id": "1012",
+        "sentence_id": "b13f154af509c81f0c741dadc98a8b3a",
+        "sentence_text": "These results suggest that TAMs may facilitate tumor progression.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          3751,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1390
+      },
+      {
+        "cross_encoder_score": -8.355571746826172,
+        "dataset": "SciFact",
+        "end_char": 1655,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "f36ca4dc2ae9b5361d3d0028c4dd245c",
+        "passage_rank": 8,
+        "query_id": "1012",
+        "sentence_id": "cdce0b0e2a0b627046308701270e6aed",
+        "sentence_text": "As novel therapies directed against thyroid tumor cell-specific targets are being tested, the potential role of TAMs as potential modulators of the thyroid cancer behavior will need to be considered.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3751,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1456
+      },
+      {
+        "cross_encoder_score": -4.661066055297852,
+        "dataset": "SciFact",
+        "end_char": 111,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "c78b8eefa993bdd8ec3cc17c93341ae7",
+        "sentence_text": "Magnetic resonance imaging for volume estimation of large multinodular goitres: a comparison with scintigraphy.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3857,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 2.0131847858428955,
+        "dataset": "SciFact",
+        "end_char": 369,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "2e6ba9eb961d933e438d99613620a033",
+        "sentence_text": "As a result of increasing interest in non-surgical treatment for the reduction of goitre size the use of magnetic resonance (MR) imaging for volume estimation of large multinodular goitres was evaluated in 20 patients (three males and 17 females; age 61 +/-",
+        "sentence_token_cost": 59,
+        "source_order": [
+          3857,
+          0,
+          1,
+          0
+        ],
+        "source_position": 112
+      },
+      {
+        "cross_encoder_score": -2.9670357704162598,
+        "dataset": "SciFact",
+        "end_char": 426,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "22010bf88828885c4206b7ed956f99c1",
+        "sentence_text": "21 years) with a multinodular goitre larger than 100 ml.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3857,
+          0,
+          2,
+          0
+        ],
+        "source_position": 370
+      },
+      {
+        "cross_encoder_score": -8.935161590576172,
+        "dataset": "SciFact",
+        "end_char": 513,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "8dc5c952bfb845b9463ce52d21e2c81e",
+        "sentence_text": "In addition, MR measurements were compared with scintigraphic (SC) volume estimations.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3857,
+          0,
+          3,
+          0
+        ],
+        "source_position": 427
+      },
+      {
+        "cross_encoder_score": -10.22311782836914,
+        "dataset": "SciFact",
+        "end_char": 588,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "0c06cb978497f5c37ec272d1aaa0a182",
+        "sentence_text": "Intraobserver coefficient of variation (CV) of MR measurements was 2.2 +/-",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3857,
+          0,
+          4,
+          0
+        ],
+        "source_position": 514
+      },
+      {
+        "cross_encoder_score": -8.66066837310791,
+        "dataset": "SciFact",
+        "end_char": 635,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "47516bb05fab959feac134bc7e69841d",
+        "sentence_text": "2.0% (Observer 1) and interobserver CV 4.1 +/-",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3857,
+          0,
+          5,
+          0
+        ],
+        "source_position": 589
+      },
+      {
+        "cross_encoder_score": -8.145916938781738,
+        "dataset": "SciFact",
+        "end_char": 661,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "65ec923b2d442cadf3920ec06ae5d04b",
+        "sentence_text": "2.2% (Observers 1 and 2).",
+        "sentence_token_cost": 12,
+        "source_order": [
+          3857,
+          0,
+          6,
+          0
+        ],
+        "source_position": 636
+      },
+      {
+        "cross_encoder_score": -10.218087196350098,
+        "dataset": "SciFact",
+        "end_char": 739,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "92ba9be0513c9e48e3dd1134e077055b",
+        "sentence_text": "In all 20 patients signs of mechanical complications were shown on MR images.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          3857,
+          0,
+          7,
+          0
+        ],
+        "source_position": 662
+      },
+      {
+        "cross_encoder_score": -9.737249374389648,
+        "dataset": "SciFact",
+        "end_char": 788,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "caf85a33fc31ffb4873884135e121ea3",
+        "sentence_text": "For SC measurements intraobserver CV was 7.5 +/-",
+        "sentence_token_cost": 12,
+        "source_order": [
+          3857,
+          0,
+          8,
+          0
+        ],
+        "source_position": 740
+      },
+      {
+        "cross_encoder_score": -8.10451889038086,
+        "dataset": "SciFact",
+        "end_char": 818,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "6aee6b088f7cfeb3a8c1009be14bcad9",
+        "sentence_text": "5.7% (Observer 3) and 5.4 +/-",
+        "sentence_token_cost": 15,
+        "source_order": [
+          3857,
+          0,
+          9,
+          0
+        ],
+        "source_position": 789
+      },
+      {
+        "cross_encoder_score": -7.499684810638428,
+        "dataset": "SciFact",
+        "end_char": 837,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "ef4d169b9986fe0a84d3856438782933",
+        "sentence_text": "5.1% (Observer 4).",
+        "sentence_token_cost": 9,
+        "source_order": [
+          3857,
+          0,
+          10,
+          0
+        ],
+        "source_position": 819
+      },
+      {
+        "cross_encoder_score": -9.05501651763916,
+        "dataset": "SciFact",
+        "end_char": 867,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "ff655507ba6d3c60b86cab478e0397b5",
+        "sentence_text": "Interobserver CV was 10.1 +/-",
+        "sentence_token_cost": 10,
+        "source_order": [
+          3857,
+          0,
+          11,
+          0
+        ],
+        "source_position": 838
+      },
+      {
+        "cross_encoder_score": -7.074002742767334,
+        "dataset": "SciFact",
+        "end_char": 873,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "fb7a5e694db14d4bbfffd2acdc9cb11d",
+        "sentence_text": "6.1%.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          3857,
+          0,
+          12,
+          0
+        ],
+        "source_position": 868
+      },
+      {
+        "cross_encoder_score": -10.058663368225098,
+        "dataset": "SciFact",
+        "end_char": 989,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "10ca4c5ba429ee6d19739255ea39215c",
+        "sentence_text": "The correlation between measurements with both methods was not strong (r = 0.665) and the resulting CV was 17.3 +/-",
+        "sentence_token_cost": 31,
+        "source_order": [
+          3857,
+          0,
+          13,
+          0
+        ],
+        "source_position": 874
+      },
+      {
+        "cross_encoder_score": -7.149370193481445,
+        "dataset": "SciFact",
+        "end_char": 996,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "6729d4c0375b2bd4b9898d75b26c48b9",
+        "sentence_text": "14.2%.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          3857,
+          0,
+          14,
+          0
+        ],
+        "source_position": 990
+      },
+      {
+        "cross_encoder_score": -8.055540084838867,
+        "dataset": "SciFact",
+        "end_char": 1105,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "1a7559d394a2c02c215b14071c8dbbc0",
+        "sentence_text": "Underestimation of SC volumes could not be explained by the presence of cysts on the surface of the thyroid.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3857,
+          0,
+          15,
+          0
+        ],
+        "source_position": 997
+      },
+      {
+        "cross_encoder_score": -0.41287264227867126,
+        "dataset": "SciFact",
+        "end_char": 1218,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "f6013786b85b4ef71432ac7f5c4ceb7d",
+        "sentence_text": "It is concluded that MR imaging can be used for in vivo thyroid volume estimation in large multinodular goitres.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3857,
+          0,
+          16,
+          0
+        ],
+        "source_position": 1106
+      },
+      {
+        "cross_encoder_score": 0.7520126104354858,
+        "dataset": "SciFact",
+        "end_char": 1386,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "6024033b4559d66a55d19f3ac7a4a34d",
+        "sentence_text": "The high precision of MR measurements makes this technique potentially useful for the evaluation of thyroid growth and non-surgical treatment for reducing goitre size.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          3857,
+          0,
+          17,
+          0
+        ],
+        "source_position": 1219
+      },
+      {
+        "cross_encoder_score": -9.110627174377441,
+        "dataset": "SciFact",
+        "end_char": 1453,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "bdf5c553fd5dd78c526a10aed6609ac8",
+        "sentence_text": "Scintigraphic volume measurements do not suffice for this purpose.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          3857,
+          0,
+          18,
+          0
+        ],
+        "source_position": 1387
+      },
+      {
+        "cross_encoder_score": -7.806955337524414,
+        "dataset": "SciFact",
+        "end_char": 1600,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "d53e2cfbd918a0d374044da71942ae84",
+        "passage_rank": 4,
+        "query_id": "1012",
+        "sentence_id": "5ac9dc9392f6f7436f8594379de3e683",
+        "sentence_text": "An additional advantage of MR imaging is the detailed anatomical information it provides with regard to mechanical complications of large goitres.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3857,
+          0,
+          19,
+          0
+        ],
+        "source_position": 1454
+      },
+      {
+        "cross_encoder_score": -8.427911758422852,
+        "dataset": "SciFact",
+        "end_char": 66,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "629440c537bb2356e8a3a180d0fa0aa6",
+        "passage_rank": 10,
+        "query_id": "1012",
+        "sentence_id": "92c75e55c8998b55c3f3fad23e6ee18e",
+        "sentence_text": "Safety and efficacy of RNAi therapy for transthyretin amyloidosis.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          3860,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.80561351776123,
+        "dataset": "SciFact",
+        "end_char": 211,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "629440c537bb2356e8a3a180d0fa0aa6",
+        "passage_rank": 10,
+        "query_id": "1012",
+        "sentence_id": "fb28bfccdd8df5677f3780e2c2c05266",
+        "sentence_text": "BACKGROUND Transthyretin amyloidosis is caused by the deposition of hepatocyte-derived transthyretin amyloid in peripheral nerves and the heart.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          3860,
+          0,
+          1,
+          0
+        ],
+        "source_position": 67
+      },
+      {
+        "cross_encoder_score": -7.402317047119141,
+        "dataset": "SciFact",
+        "end_char": 320,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "629440c537bb2356e8a3a180d0fa0aa6",
+        "passage_rank": 10,
+        "query_id": "1012",
+        "sentence_id": "fc1621116de0c3b428dcf6c7b0184585",
+        "sentence_text": "A therapeutic approach mediated by RNA interference (RNAi) could reduce the production of transthyretin.   \n",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3860,
+          0,
+          2,
+          0
+        ],
+        "source_position": 212
+      },
+      {
+        "cross_encoder_score": -10.2404203414917,
+        "dataset": "SciFact",
+        "end_char": 547,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "629440c537bb2356e8a3a180d0fa0aa6",
+        "passage_rank": 10,
+        "query_id": "1012",
+        "sentence_id": "611fa579f6271f0d6961ffcdbebfc64d",
+        "sentence_text": "METHODS We identified a potent antitransthyretin small interfering RNA, which was encapsulated in two distinct first- and second-generation formulations of lipid nanoparticles, generating ALN-TTR01 and ALN-TTR02, respectively.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          3860,
+          0,
+          3,
+          0
+        ],
+        "source_position": 321
+      },
+      {
+        "cross_encoder_score": -8.474356651306152,
+        "dataset": "SciFact",
+        "end_char": 680,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "629440c537bb2356e8a3a180d0fa0aa6",
+        "passage_rank": 10,
+        "query_id": "1012",
+        "sentence_id": "4ac5843b4caba3a3448cbee2ea61292d",
+        "sentence_text": "Each formulation was studied in a single-dose, placebo-controlled phase 1 trial to assess safety and effect on transthyretin levels.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          3860,
+          0,
+          4,
+          0
+        ],
+        "source_position": 548
+      },
+      {
+        "cross_encoder_score": -8.960180282592773,
+        "dataset": "SciFact",
+        "end_char": 913,
+        "pair_tokens_before_truncation": 92,
+        "pair_truncated": false,
+        "passage_id": "629440c537bb2356e8a3a180d0fa0aa6",
+        "passage_rank": 10,
+        "query_id": "1012",
+        "sentence_id": "16df6856e82207064fd98149ebc79c75",
+        "sentence_text": "We first evaluated ALN-TTR01 (at doses of 0.01 to 1.0 mg per kilogram of body weight) in 32 patients with transthyretin amyloidosis and then evaluated ALN-TTR02 (at doses of 0.01 to 0.5 mg per kilogram) in 17 healthy volunteers.   \n",
+        "sentence_token_cost": 81,
+        "source_order": [
+          3860,
+          0,
+          5,
+          0
+        ],
+        "source_position": 681
+      },
+      {
+        "cross_encoder_score": -7.497188091278076,
+        "dataset": "SciFact",
+        "end_char": 1021,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "629440c537bb2356e8a3a180d0fa0aa6",
+        "passage_rank": 10,
+        "query_id": "1012",
+        "sentence_id": "88bdb73ceb14499bb39ae95004bcdb02",
+        "sentence_text": "RESULTS Rapid, dose-dependent, and durable lowering of transthyretin levels was observed in the two trials.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3860,
+          0,
+          6,
+          0
+        ],
+        "source_position": 914
+      },
+      {
+        "cross_encoder_score": -7.245678901672363,
+        "dataset": "SciFact",
+        "end_char": 1253,
+        "pair_tokens_before_truncation": 90,
+        "pair_truncated": false,
+        "passage_id": "629440c537bb2356e8a3a180d0fa0aa6",
+        "passage_rank": 10,
+        "query_id": "1012",
+        "sentence_id": "35c2865d80ce4f00ca4c0ddb4f79aa62",
+        "sentence_text": "At a dose of 1.0 mg per kilogram, ALN-TTR01 suppressed transthyretin, with a mean reduction at day 7 of 38%, as compared with placebo (P=0.01); levels of mutant and nonmutant forms of transthyretin were lowered to a similar extent.",
+        "sentence_token_cost": 72,
+        "source_order": [
+          3860,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1022
+      },
+      {
+        "cross_encoder_score": -7.701540946960449,
+        "dataset": "SciFact",
+        "end_char": 1454,
+        "pair_tokens_before_truncation": 90,
+        "pair_truncated": false,
+        "passage_id": "629440c537bb2356e8a3a180d0fa0aa6",
+        "passage_rank": 10,
+        "query_id": "1012",
+        "sentence_id": "4490d917ef48819d62ed1a34ee4cca3b",
+        "sentence_text": "For ALN-TTR02, the mean reductions in transthyretin levels at doses of 0.15 to 0.3 mg per kilogram ranged from 82.3 to 86.8%, with reductions of 56.6 to 67.1% at 28 days (P<0.001 for all comparisons).",
+        "sentence_token_cost": 81,
+        "source_order": [
+          3860,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1254
+      },
+      {
+        "cross_encoder_score": -8.1768798828125,
+        "dataset": "SciFact",
+        "end_char": 1503,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "629440c537bb2356e8a3a180d0fa0aa6",
+        "passage_rank": 10,
+        "query_id": "1012",
+        "sentence_id": "712a64ec020810c8c716536558b4d001",
+        "sentence_text": "These reductions were shown to be RNAi-mediated.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          3860,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1455
+      },
+      {
+        "cross_encoder_score": -9.114484786987305,
+        "dataset": "SciFact",
+        "end_char": 1643,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "629440c537bb2356e8a3a180d0fa0aa6",
+        "passage_rank": 10,
+        "query_id": "1012",
+        "sentence_id": "de0b59c3c935dafb9c147ca77141b79b",
+        "sentence_text": "Mild-to-moderate infusion-related reactions occurred in 20.8% and 7.7% of participants receiving ALN-TTR01 and ALN-TTR02, respectively.   \n",
+        "sentence_token_cost": 43,
+        "source_order": [
+          3860,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1504
+      },
+      {
+        "cross_encoder_score": -9.483256340026855,
+        "dataset": "SciFact",
+        "end_char": 1870,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "629440c537bb2356e8a3a180d0fa0aa6",
+        "passage_rank": 10,
+        "query_id": "1012",
+        "sentence_id": "70ea70459a34f45392670ffc8b08afcd",
+        "sentence_text": "CONCLUSIONS ALN-TTR01 and ALN-TTR02 suppressed the production of both mutant and nonmutant forms of transthyretin, establishing proof of concept for RNAi therapy targeting messenger RNA transcribed from a disease-causing gene.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          3860,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1644
+      },
+      {
+        "cross_encoder_score": -8.85973834991455,
+        "dataset": "SciFact",
+        "end_char": 1965,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "629440c537bb2356e8a3a180d0fa0aa6",
+        "passage_rank": 10,
+        "query_id": "1012",
+        "sentence_id": "1a81b31a228d351884a65252cc0bceb0",
+        "sentence_text": "(Funded by Alnylam Pharmaceuticals; ClinicalTrials.gov numbers, NCT01148953 and NCT01559077.).",
+        "sentence_token_cost": 36,
+        "source_order": [
+          3860,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1871
+      },
+      {
+        "cross_encoder_score": -5.304232120513916,
+        "dataset": "SciFact",
+        "end_char": 106,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "f3f527209cd310d555a145871fcef4ee",
+        "passage_rank": 5,
+        "query_id": "1012",
+        "sentence_id": "768df460e2d7926f30409d60ab6a599c",
+        "sentence_text": "Dose-response study on thyrotoxic patients undergoing positron emission tomography and radioiodine therapy",
+        "sentence_token_cost": 21,
+        "source_order": [
+          4591,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.785822868347168,
+        "dataset": "SciFact",
+        "end_char": 349,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "f3f527209cd310d555a145871fcef4ee",
+        "passage_rank": 5,
+        "query_id": "1012",
+        "sentence_id": "fd759852cba68323059bbbc130142351",
+        "sentence_text": "With the acknowledged problems associated with assessment of functioning thyroid mass and hence radiation dose, our policy had been to give 75 MBq iodine-131 at 6-monthly intervals to patients with Graves' disease until they became euthyroid.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          4591,
+          0,
+          1,
+          0
+        ],
+        "source_position": 107
+      },
+      {
+        "cross_encoder_score": -7.7194318771362305,
+        "dataset": "SciFact",
+        "end_char": 570,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "f3f527209cd310d555a145871fcef4ee",
+        "passage_rank": 5,
+        "query_id": "1012",
+        "sentence_id": "2f721bad6331f4e94fc7f3bc44d2f17d",
+        "sentence_text": "Since positron emission tomography (PET) has been available at this hospital, the radiation dose to the thyroid has been calculated with an accuracy of \u223c20%, the thyroid mass being determined from an iodine-124 PET scan.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          4591,
+          0,
+          2,
+          0
+        ],
+        "source_position": 350
+      },
+      {
+        "cross_encoder_score": -8.868511199951172,
+        "dataset": "SciFact",
+        "end_char": 694,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "f3f527209cd310d555a145871fcef4ee",
+        "passage_rank": 5,
+        "query_id": "1012",
+        "sentence_id": "cb563b7faa99266539c49219a03121b2",
+        "sentence_text": "A dose-response study has been carried out on 65 patients who have received single or cumulative radiation doses of <80 Gy.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          4591,
+          0,
+          3,
+          0
+        ],
+        "source_position": 571
+      },
+      {
+        "cross_encoder_score": -6.673238277435303,
+        "dataset": "SciFact",
+        "end_char": 849,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "f3f527209cd310d555a145871fcef4ee",
+        "passage_rank": 5,
+        "query_id": "1012",
+        "sentence_id": "28ce70aa5bd8ecb43a0a9a2080ce35ab",
+        "sentence_text": "The results show that patients who receive a low radiation dose (<20 Gy) at their first treatment have a high probability of remaining toxic at 12 months.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          4591,
+          0,
+          4,
+          0
+        ],
+        "source_position": 695
+      },
+      {
+        "cross_encoder_score": -8.105956077575684,
+        "dataset": "SciFact",
+        "end_char": 976,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "f3f527209cd310d555a145871fcef4ee",
+        "passage_rank": 5,
+        "query_id": "1012",
+        "sentence_id": "f92940169c8724c59a8550dbd8ec5304",
+        "sentence_text": "In contrast, patients who receive higher radiation doses (>40 Gy) at their first treatment have a high probability of control.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          4591,
+          0,
+          5,
+          0
+        ],
+        "source_position": 850
+      },
+      {
+        "cross_encoder_score": -9.835250854492188,
+        "dataset": "SciFact",
+        "end_char": 1114,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "f3f527209cd310d555a145871fcef4ee",
+        "passage_rank": 5,
+        "query_id": "1012",
+        "sentence_id": "b36f9821dc3bd5ed35c8054d1901b088",
+        "sentence_text": "The probability of becoming euthyroid increases more rapidly with increasing radiation dose than the probability of becoming hypothyroid.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          4591,
+          0,
+          6,
+          0
+        ],
+        "source_position": 977
+      },
+      {
+        "cross_encoder_score": -6.943793773651123,
+        "dataset": "SciFact",
+        "end_char": 1196,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "f3f527209cd310d555a145871fcef4ee",
+        "passage_rank": 5,
+        "query_id": "1012",
+        "sentence_id": "4d7c4b7e4e1c01f18568acce14020af2",
+        "sentence_text": "Following this dose-response study, a new treatment protocol has been introduced.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          4591,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1115
+      },
+      {
+        "cross_encoder_score": -8.422124862670898,
+        "dataset": "SciFact",
+        "end_char": 1355,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "f3f527209cd310d555a145871fcef4ee",
+        "passage_rank": 5,
+        "query_id": "1012",
+        "sentence_id": "a59bf18b9258ce6b46aa3b5254b46cdd",
+        "sentence_text": "A 124I PET tracer study prior to 131I therapy will be performed to enable a prescribed thyroid dose of 50 Gy to be delivered to patients with Graves' disease.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          4591,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1197
+      },
+      {
+        "cross_encoder_score": -6.530491828918457,
+        "dataset": "SciFact",
+        "end_char": 1442,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "f3f527209cd310d555a145871fcef4ee",
+        "passage_rank": 5,
+        "query_id": "1012",
+        "sentence_id": "6ba2aee0d54ea93ec3779cc08eb3b07d",
+        "sentence_text": "Further 131I therapy will only be considered if patients are still toxic at 12 months.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          4591,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1356
+      },
+      {
+        "cross_encoder_score": 3.247535467147827,
+        "dataset": "SciFact",
+        "end_char": 122,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "f73b68bf73b798ca401faeb306dc5380",
+        "passage_rank": 2,
+        "query_id": "1012",
+        "sentence_id": "fb284a5b206f6e7efe94b61832258e56",
+        "sentence_text": "131-I radioiodine therapy for hyperthyroidism in patients with Graves' disease, uninodular goitre and multinodular goitre.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          4874,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.0086097717285156,
+        "dataset": "SciFact",
+        "end_char": 273,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "f73b68bf73b798ca401faeb306dc5380",
+        "passage_rank": 2,
+        "query_id": "1012",
+        "sentence_id": "481ee3267828fce95b140e2ff54a9eb8",
+        "sentence_text": "We studied 201 consecutive patients who received a relatively fixed dose of radioiodine for the treatment of hyperthyroidism between the years 1981-6.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          4874,
+          0,
+          1,
+          0
+        ],
+        "source_position": 123
+      },
+      {
+        "cross_encoder_score": -9.73814868927002,
+        "dataset": "SciFact",
+        "end_char": 486,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "f73b68bf73b798ca401faeb306dc5380",
+        "passage_rank": 2,
+        "query_id": "1012",
+        "sentence_id": "1b9971f5eb40c8bef8d8bf8611f3b6fc",
+        "sentence_text": "Patients with Graves' disease (170) were initially treated with a mean (SE) dose of 369 (10) MBq 131-I with a remission rate of 94% at 6 months and a cumulative relapse rate of 12% at one year and 21% at 5 years.",
+        "sentence_token_cost": 74,
+        "source_order": [
+          4874,
+          0,
+          2,
+          0
+        ],
+        "source_position": 274
+      },
+      {
+        "cross_encoder_score": -10.308258056640625,
+        "dataset": "SciFact",
+        "end_char": 601,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "f73b68bf73b798ca401faeb306dc5380",
+        "passage_rank": 2,
+        "query_id": "1012",
+        "sentence_id": "aeef676970d6bd3ab40540fbf60e01f6",
+        "sentence_text": "The cumulative incidence of hypothyroidism was 26% at 3 months, 55% at 6 months, 61% at 1 year and 66% at 5 years.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          4874,
+          0,
+          3,
+          0
+        ],
+        "source_position": 487
+      },
+      {
+        "cross_encoder_score": -0.4770963788032532,
+        "dataset": "SciFact",
+        "end_char": 809,
+        "pair_tokens_before_truncation": 87,
+        "pair_truncated": false,
+        "passage_id": "f73b68bf73b798ca401faeb306dc5380",
+        "passage_rank": 2,
+        "query_id": "1012",
+        "sentence_id": "6a415660c3761de7e343c62b8ffc8e31",
+        "sentence_text": "Patients with a uninodular goitre (10) were initially treated with a mean (SE) dose of 438 (85) MBq 131-I with a remission rate of 100% at 6 months, without relapse at 1 year but relapsing in 17% at 5 years.",
+        "sentence_token_cost": 75,
+        "source_order": [
+          4874,
+          0,
+          4,
+          0
+        ],
+        "source_position": 602
+      },
+      {
+        "cross_encoder_score": -10.313871383666992,
+        "dataset": "SciFact",
+        "end_char": 924,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "f73b68bf73b798ca401faeb306dc5380",
+        "passage_rank": 2,
+        "query_id": "1012",
+        "sentence_id": "cfc778eece529ee608f136104cfd526b",
+        "sentence_text": "The cumulative incidence of hypothyroidism was 26% at 3 months, 30% at 6 months, 40% at 1 year and 40% at 5 years.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          4874,
+          0,
+          5,
+          0
+        ],
+        "source_position": 810
+      },
+      {
+        "cross_encoder_score": 0.42597874999046326,
+        "dataset": "SciFact",
+        "end_char": 1140,
+        "pair_tokens_before_truncation": 87,
+        "pair_truncated": false,
+        "passage_id": "f73b68bf73b798ca401faeb306dc5380",
+        "passage_rank": 2,
+        "query_id": "1012",
+        "sentence_id": "91ca2891ae749b8906a5a3f040da9f90",
+        "sentence_text": "Patients with a multinodular goitre (21) were initially treated with a mean (SE) dose of 613 (77) MBq 131-I with a remission rate of 79% at 6 months and a cumulative relapse rate of 26% at 1 year and 39% at 5 years.",
+        "sentence_token_cost": 77,
+        "source_order": [
+          4874,
+          0,
+          6,
+          0
+        ],
+        "source_position": 925
+      },
+      {
+        "cross_encoder_score": -10.341382026672363,
+        "dataset": "SciFact",
+        "end_char": 1254,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "f73b68bf73b798ca401faeb306dc5380",
+        "passage_rank": 2,
+        "query_id": "1012",
+        "sentence_id": "4cd3485429b65c4c4032050a86abe3cc",
+        "sentence_text": "The cumulative incidence of hypothyroidism was 5% at 3 months, 14% at 6 months, 24% at 1 year and 24% at 5 years.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          4874,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1141
+      }
+    ],
+    "scoring_seconds": 0.6301561389118433,
+    "source_fingerprint": "47381a21a669af8ae3f77a38582efaab7fbc1b74eb82f868c0b1ae28dc7c9317"
+  }
+}

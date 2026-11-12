@@ -1,0 +1,1771 @@
+{
+  "checksum": "c338a7ae2d77baae2ab44280a58c8461992bb9ee891e9e2b64eb4550f07122ce",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "01a41c0a4a7365cd37d28690735114f2ff5229f2"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 87,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "cd93b9e7f9e6bc162dcee4a58fe0ea8b1395288d16f8c8fcaaf39342625c4608",
+    "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+    "scores": [
+      {
+        "cross_encoder_score": -6.704158306121826,
+        "dataset": "QASPER",
+        "end_char": 166,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "88ef59672502c42c968fd88f695470f1",
+        "passage_rank": 4,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "b3165a060f70dae6e1b4602b24df149a",
+        "sentence_text": "Predicting the Industry of Users on Social Media\tAutomatic profiling of social media users is an important task for supporting a multitude of downstream applications.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.6381611824035645,
+        "dataset": "QASPER",
+        "end_char": 365,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "88ef59672502c42c968fd88f695470f1",
+        "passage_rank": 4,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "f3150927e90c9765f049f00523497c67",
+        "sentence_text": "While a number of studies have used social media content to extract and study collective social attributes, there is a lack of substantial research that addresses the detection of a user's industry.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 167
+      },
+      {
+        "cross_encoder_score": -11.441777229309082,
+        "dataset": "QASPER",
+        "end_char": 456,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "88ef59672502c42c968fd88f695470f1",
+        "passage_rank": 4,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "13074f6eb98244c9dcd7e579f68b3986",
+        "sentence_text": "We frame this task as classification using both feature engineering and ensemble learning.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 366
+      },
+      {
+        "cross_encoder_score": -11.188697814941406,
+        "dataset": "QASPER",
+        "end_char": 678,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "88ef59672502c42c968fd88f695470f1",
+        "passage_rank": 4,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "9f207a7c52b737808a20cd5afcdae725",
+        "sentence_text": "Our industry-detection system uses both posted content and profile information to detect a user's industry with 64.3% accuracy, significantly outperforming the majority baseline in a taxonomy of fourteen industry classes.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 457
+      },
+      {
+        "cross_encoder_score": -11.413400650024414,
+        "dataset": "QASPER",
+        "end_char": 857,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "88ef59672502c42c968fd88f695470f1",
+        "passage_rank": 4,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "2c2199bc4f79906ba952340800b6c874",
+        "sentence_text": "Our qualitative analysis suggests that a person's industry not only affects the words used and their perceived meanings, but also the number and type of emotions being expressed.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 679
+      },
+      {
+        "cross_encoder_score": -7.506575584411621,
+        "dataset": "QASPER",
+        "end_char": 987,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "88ef59672502c42c968fd88f695470f1",
+        "passage_rank": 4,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "a0e394ea81ce622558314428759ee618",
+        "sentence_text": "Introduction\tOver the past two decades, the emergence of social media has enabled the proliferation of traceable human behavior.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 859
+      },
+      {
+        "cross_encoder_score": -10.414640426635742,
+        "dataset": "QASPER",
+        "end_char": 1125,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "88ef59672502c42c968fd88f695470f1",
+        "passage_rank": 4,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "3caff1dadebb7e2197042de6d58b6a22",
+        "sentence_text": "The content posted by users can reflect who their friends are, what topics they are interested in, or which company they are working for.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 988
+      },
+      {
+        "cross_encoder_score": -10.334738731384277,
+        "dataset": "QASPER",
+        "end_char": 1220,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "88ef59672502c42c968fd88f695470f1",
+        "passage_rank": 4,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "2cc7076b8c8c7904cc85628bce1db39a",
+        "sentence_text": "At the same time, users are listing a number of profile fields to define themselves to others.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1126
+      },
+      {
+        "cross_encoder_score": -10.940123558044434,
+        "dataset": "QASPER",
+        "end_char": 1391,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "88ef59672502c42c968fd88f695470f1",
+        "passage_rank": 4,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "3af42142d4a52907b863ed868c77e9bb",
+        "sentence_text": "The utilization of such metadata has proven important in facilitating further developments of applications in advertising  , personalization  , and recommender systems  .",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1221
+      },
+      {
+        "cross_encoder_score": -11.050555229187012,
+        "dataset": "QASPER",
+        "end_char": 1446,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "88ef59672502c42c968fd88f695470f1",
+        "passage_rank": 4,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "7d4d27a780bfe0e895f47a834999b23a",
+        "sentence_text": "However, profile information can be limited, depending",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1392
+      },
+      {
+        "cross_encoder_score": -7.9017462730407715,
+        "dataset": "QASPER",
+        "end_char": 1502,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "1d1439cc51ba1d0ff2d267d274c093b0",
+        "passage_rank": 2,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "d66f3cc15a45efcebc35ac23a55b4544",
+        "sentence_text": "on the platform, or it is often deliberately omitted  .",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1447
+      },
+      {
+        "cross_encoder_score": -6.539051055908203,
+        "dataset": "QASPER",
+        "end_char": 1627,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "1d1439cc51ba1d0ff2d267d274c093b0",
+        "passage_rank": 2,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "3320f991988d5bc621c19d8f9c7898f6",
+        "sentence_text": "To uncloak this information, a number of studies have utilized social media users' footprints to approximate their profiles.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1503
+      },
+      {
+        "cross_encoder_score": -8.351795196533203,
+        "dataset": "QASPER",
+        "end_char": 1803,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "1d1439cc51ba1d0ff2d267d274c093b0",
+        "passage_rank": 2,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "91c6cc86888553a4d1b913693c1a2f0c",
+        "sentence_text": "This paper explores the potential of predicting a user's industry \u2013the aggregate of enterprises in a particular field\u2013 by identifying industry indicative text in social media.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1628
+      },
+      {
+        "cross_encoder_score": -10.672611236572266,
+        "dataset": "QASPER",
+        "end_char": 1969,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "1d1439cc51ba1d0ff2d267d274c093b0",
+        "passage_rank": 2,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "6442f1a1aa1f730c7e262944349cfab9",
+        "sentence_text": "The accurate prediction of users' industry can have a big impact on targeted advertising by minimizing wasted advertising  and improved personalized user experience.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1804
+      },
+      {
+        "cross_encoder_score": -11.251965522766113,
+        "dataset": "QASPER",
+        "end_char": 2129,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "1d1439cc51ba1d0ff2d267d274c093b0",
+        "passage_rank": 2,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "393fb486778f77d65def5f21cde73433",
+        "sentence_text": "A number of studies in the social sciences have associated language use with social factors such as occupation, social class, education, and income  ,  ,  ,  .",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 1970
+      },
+      {
+        "cross_encoder_score": -11.398508071899414,
+        "dataset": "QASPER",
+        "end_char": 2291,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "1d1439cc51ba1d0ff2d267d274c093b0",
+        "passage_rank": 2,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "23ac912bb4b5f27eefb90235b6e3dddf",
+        "sentence_text": "An additional goal of this paper is to examine such findings, and in particular the link between language and occupational class, through a data-driven approach.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 2130
+      },
+      {
+        "cross_encoder_score": -11.449262619018555,
+        "dataset": "QASPER",
+        "end_char": 2374,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "1d1439cc51ba1d0ff2d267d274c093b0",
+        "passage_rank": 2,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "2a3488e313a9e854c6dfec2e6e1c5d4c",
+        "sentence_text": "In addition, we explore how meaning changes depending on the occupational context.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2292
+      },
+      {
+        "cross_encoder_score": -11.367538452148438,
+        "dataset": "QASPER",
+        "end_char": 2674,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "1d1439cc51ba1d0ff2d267d274c093b0",
+        "passage_rank": 2,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "cb0579fff70303615dc894952747d861",
+        "sentence_text": "By leveraging word embeddings, we seek to quantify how, for example, cloud might mean a separate concept (e.g., condensed water vapor) in the text written by users that work in environmental jobs while it might be used differently by users in technology occupations (e.g., Internet-based computing).",
+        "sentence_token_cost": 58,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2375
+      },
+      {
+        "cross_encoder_score": -11.349967956542969,
+        "dataset": "QASPER",
+        "end_char": 2730,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "1d1439cc51ba1d0ff2d267d274c093b0",
+        "passage_rank": 2,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "0fb5295cee3146e1fd2b7df8fdbd1782",
+        "sentence_text": "Specifically, this paper makes four main contributions.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          1,
+          8,
+          0
+        ],
+        "source_position": 2675
+      },
+      {
+        "cross_encoder_score": -11.348172187805176,
+        "dataset": "QASPER",
+        "end_char": 2801,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "1d1439cc51ba1d0ff2d267d274c093b0",
+        "passage_rank": 2,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "6b3d365ac01d0fcc708514570f871e6b",
+        "sentence_text": "First, we build a large, industry-annotated dataset that contains over",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          1,
+          9,
+          0
+        ],
+        "source_position": 2731
+      },
+      {
+        "cross_encoder_score": -10.779306411743164,
+        "dataset": "QASPER",
+        "end_char": 2820,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "a43b462666ee5f68dae64d9684072bf0",
+        "passage_rank": 8,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "d9d116aff56c57066f705a4c4ff88f82",
+        "sentence_text": "20,000 blog users.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2802
+      },
+      {
+        "cross_encoder_score": -10.958390235900879,
+        "dataset": "QASPER",
+        "end_char": 2967,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "a43b462666ee5f68dae64d9684072bf0",
+        "passage_rank": 8,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "9e4caac1c4034add5d0e864de79d2469",
+        "sentence_text": "In addition to their posted text, we also link a number of user metadata including their gender, location, occupation, introduction and interests.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2821
+      },
+      {
+        "cross_encoder_score": -11.375500679016113,
+        "dataset": "QASPER",
+        "end_char": 3266,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "a43b462666ee5f68dae64d9684072bf0",
+        "passage_rank": 8,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "08b1cfe6033ab14e50c908c7b005857b",
+        "sentence_text": "Second, we build content-based classifiers for the industry prediction task and study the effect of incorporating textual features from the users' profile metadata using various meta-classification techniques, significantly improving both the overall accuracy and the average per industry accuracy.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 2968
+      },
+      {
+        "cross_encoder_score": -11.464503288269043,
+        "dataset": "QASPER",
+        "end_char": 3511,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "a43b462666ee5f68dae64d9684072bf0",
+        "passage_rank": 8,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "99cef814f978adaaba0371fff90b53dc",
+        "sentence_text": "Next, after examining which words are indicative for each industry, we build vector-space representations of word meanings and calculate one deviation for each industry, illustrating how meaning is differentiated based on the users' industries.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3267
+      },
+      {
+        "cross_encoder_score": -11.462366104125977,
+        "dataset": "QASPER",
+        "end_char": 3701,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "a43b462666ee5f68dae64d9684072bf0",
+        "passage_rank": 8,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "7c6bff75f61269cd268bb2463a5c7219",
+        "sentence_text": "We qualitatively examine the resulting industry-informed semantic representations of words by listing the words per industry that are most similar to job related and general interest terms.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3512
+      },
+      {
+        "cross_encoder_score": -11.417398452758789,
+        "dataset": "QASPER",
+        "end_char": 3998,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "a43b462666ee5f68dae64d9684072bf0",
+        "passage_rank": 8,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "d44ed16bc72d6d2384298de797eaeaf3",
+        "sentence_text": "Finally, we rank the different industries based on the normalized relative frequencies of emotionally charged words (positive and negative) and, in addition, discover that, for both genders, these frequencies do not statistically significantly correlate with an industry's gender dominance ratio.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3702
+      },
+      {
+        "cross_encoder_score": -11.468429565429688,
+        "dataset": "QASPER",
+        "end_char": 4112,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "a43b462666ee5f68dae64d9684072bf0",
+        "passage_rank": 8,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "099808f2b09d7ecf3b89ef1e48b1700d",
+        "sentence_text": "After discussing related work in Section SECREF2 , we present the dataset used in this study in Section SECREF3 .",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3999
+      },
+      {
+        "cross_encoder_score": -11.394403457641602,
+        "dataset": "QASPER",
+        "end_char": 4255,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "a43b462666ee5f68dae64d9684072bf0",
+        "passage_rank": 8,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "fda646d45816fd4857c0984844eb4079",
+        "sentence_text": "In Section SECREF4 we evaluate two feature selection methods and examine the industry inference problem using the text of the users' postings.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 4113
+      },
+      {
+        "cross_encoder_score": -11.049652099609375,
+        "dataset": "QASPER",
+        "end_char": 4271,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "a43b462666ee5f68dae64d9684072bf0",
+        "passage_rank": 8,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "4edaee2a770a374a06508c3d424d31e4",
+        "sentence_text": "We then augment",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 4256
+      },
+      {
+        "cross_encoder_score": -11.441329002380371,
+        "dataset": "QASPER",
+        "end_char": 4372,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "ac1518489c9a3d72f56a2aca153792cb",
+        "passage_rank": 6,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "bafde5fbb1afd96771998dd5698a0403",
+        "sentence_text": "our content-based classifier by building an ensemble that incorporates several metadata classifiers.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 4272
+      },
+      {
+        "cross_encoder_score": -11.4880952835083,
+        "dataset": "QASPER",
+        "end_char": 4524,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "ac1518489c9a3d72f56a2aca153792cb",
+        "passage_rank": 6,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "cbe59860d17000369a7ac34acb3237d1",
+        "sentence_text": "We list the most industry indicative words and expose how each industrial semantic field varies with respect to a variety of terms in Section SECREF5 .",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 4373
+      },
+      {
+        "cross_encoder_score": -11.456878662109375,
+        "dataset": "QASPER",
+        "end_char": 4717,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "ac1518489c9a3d72f56a2aca153792cb",
+        "passage_rank": 6,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "633d20b4d75bdb513db381c108247b19",
+        "sentence_text": "We explore how the frequencies of emotionally charged words in each gender correlate with the industries and their respective gender dominance ratio and, finally, conclude in Section SECREF6 .",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4525
+      },
+      {
+        "cross_encoder_score": -5.410345554351807,
+        "dataset": "QASPER",
+        "end_char": 4910,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "ac1518489c9a3d72f56a2aca153792cb",
+        "passage_rank": 6,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "5c8c682be23949103d06500175edc35a",
+        "sentence_text": "Related Work\tAlongside the wide adoption of social media by the public, researchers have been leveraging the newly available data to create and refine models of users' behavior and profiling.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4719
+      },
+      {
+        "cross_encoder_score": -7.390061378479004,
+        "dataset": "QASPER",
+        "end_char": 5004,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "ac1518489c9a3d72f56a2aca153792cb",
+        "passage_rank": 6,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "24d239cdfd2f06120473cbd1e6b60e59",
+        "sentence_text": "There exists a myriad research that analyzes language in order to profile social media users.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 4911
+      },
+      {
+        "cross_encoder_score": -11.277708053588867,
+        "dataset": "QASPER",
+        "end_char": 5186,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "ac1518489c9a3d72f56a2aca153792cb",
+        "passage_rank": 6,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "3986c0775b628f342dae174d58d3114f",
+        "sentence_text": "Some studies sought to characterize users' personality  ,  , while others sequenced the expressed emotions  , studied mental disorders  , and the progression of health conditions  .",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 5005
+      },
+      {
+        "cross_encoder_score": -6.309822082519531,
+        "dataset": "QASPER",
+        "end_char": 5391,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "ac1518489c9a3d72f56a2aca153792cb",
+        "passage_rank": 6,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "dbbe47904e75208d44ee2c090acaa450",
+        "sentence_text": "At the same time, a number of researchers sought to predict the social media users' age and/or gender  ,  ,  , while others targeted and analyzed the ethnicity, nationality, and race of the users  ,  ,  .",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 5187
+      },
+      {
+        "cross_encoder_score": -10.543035507202148,
+        "dataset": "QASPER",
+        "end_char": 5485,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "ac1518489c9a3d72f56a2aca153792cb",
+        "passage_rank": 6,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "9ab8a4462c9cd9d3e541a937f8c7f50a",
+        "sentence_text": "One of the profile fields that has drawn a great deal of attention is the location of a user.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 5392
+      },
+      {
+        "cross_encoder_score": -10.549341201782227,
+        "dataset": "QASPER",
+        "end_char": 5610,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "ac1518489c9a3d72f56a2aca153792cb",
+        "passage_rank": 6,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "0509c5fce491fcb61b9f0f5a52b38c05",
+        "sentence_text": "Among others, Hecht et al. Hecht11 predicted Twitter users' locations using machine learning on nationwide and state levels.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          3,
+          8,
+          0
+        ],
+        "source_position": 5486
+      },
+      {
+        "cross_encoder_score": -9.903090476989746,
+        "dataset": "QASPER",
+        "end_char": 5617,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "ac1518489c9a3d72f56a2aca153792cb",
+        "passage_rank": 6,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "42b193b602d43d986ffeb9913ba0def4",
+        "sentence_text": "Later,",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          3,
+          9,
+          0
+        ],
+        "source_position": 5611
+      },
+      {
+        "cross_encoder_score": -10.676494598388672,
+        "dataset": "QASPER",
+        "end_char": 5736,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "3f39e9a71261c38843a6fb66f0b2cade",
+        "passage_rank": 3,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "344b6af0b22a494fa63f36b2c941be62",
+        "sentence_text": "Han et al. Han14 identified location indicative words to predict the location of Twitter users down to the city level.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "source_position": 5618
+      },
+      {
+        "cross_encoder_score": -10.9910306930542,
+        "dataset": "QASPER",
+        "end_char": 5860,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "3f39e9a71261c38843a6fb66f0b2cade",
+        "passage_rank": 3,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "64c06733c4997f273d0dba8450b2fcec",
+        "sentence_text": "As a separate line of research, a number of studies have focused on discovering the political orientation of users  ,  ,  .",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "source_position": 5737
+      },
+      {
+        "cross_encoder_score": -11.207466125488281,
+        "dataset": "QASPER",
+        "end_char": 5990,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "3f39e9a71261c38843a6fb66f0b2cade",
+        "passage_rank": 3,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "6e1a29fd2a77ef1511aa68a83f259397",
+        "sentence_text": "Finally, Li et al. Li14a proposed a way to model major life events such as getting married, moving to a new place, or graduating.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "source_position": 5861
+      },
+      {
+        "cross_encoder_score": -8.90091609954834,
+        "dataset": "QASPER",
+        "end_char": 6244,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "3f39e9a71261c38843a6fb66f0b2cade",
+        "passage_rank": 3,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "2db3479feed2a3c499324bab931b1cf1",
+        "sentence_text": "In a subsequent study,  described a weakly supervised information extraction method that was used in conjunction with social network information to identify the name of a user's spouse, the college they attended, and the company where they are employed.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "source_position": 5991
+      },
+      {
+        "cross_encoder_score": -11.4224853515625,
+        "dataset": "QASPER",
+        "end_char": 6405,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "3f39e9a71261c38843a6fb66f0b2cade",
+        "passage_rank": 3,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "344b867a05a1e3c20e106f881a2bd676",
+        "sentence_text": "The line of work that is most closely related to our research is the one concerned with understanding the relation between people's language and their industry.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "source_position": 6245
+      },
+      {
+        "cross_encoder_score": -11.41442584991455,
+        "dataset": "QASPER",
+        "end_char": 6637,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "3f39e9a71261c38843a6fb66f0b2cade",
+        "passage_rank": 3,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "d64e34f563196fa1a12542ea9353d52d",
+        "sentence_text": "Previous research from the fields of psychology and economics have explored the potential for predicting one's occupation from their ability to use math and verbal symbols  and the relationship between job-types and demographics  .",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          4,
+          5,
+          0
+        ],
+        "source_position": 6406
+      },
+      {
+        "cross_encoder_score": -10.845325469970703,
+        "dataset": "QASPER",
+        "end_char": 6841,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "3f39e9a71261c38843a6fb66f0b2cade",
+        "passage_rank": 3,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "770a60891a918c279a04b234fd59f153",
+        "sentence_text": "More recently, Huang et al. Huang15 used machine learning to classify Sina Weibo users to twelve different platform-defined occupational classes highlighting the effect of homophily in user interactions.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          4,
+          6,
+          0
+        ],
+        "source_position": 6638
+      },
+      {
+        "cross_encoder_score": -7.557130336761475,
+        "dataset": "QASPER",
+        "end_char": 6969,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "3f39e9a71261c38843a6fb66f0b2cade",
+        "passage_rank": 3,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "f531c48735a36fd0bffb7ed4ad23ab72",
+        "sentence_text": "This work examined only users that have been verified by the Sina Weibo platform, introducing a potential bias in the resulting",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          4,
+          7,
+          0
+        ],
+        "source_position": 6842
+      },
+      {
+        "cross_encoder_score": -10.970968246459961,
+        "dataset": "QASPER",
+        "end_char": 6978,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "dd01602bd13e8f9c803083eb36db25fc",
+        "passage_rank": 1,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "c374b110205558c5fc0fa7f6a2acf77d",
+        "sentence_text": "dataset.",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 6970
+      },
+      {
+        "cross_encoder_score": -10.663844108581543,
+        "dataset": "QASPER",
+        "end_char": 7194,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "dd01602bd13e8f9c803083eb36db25fc",
+        "passage_rank": 1,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "0aca266e3e507af96b2e9beb578a66bc",
+        "sentence_text": "Finally, Preotiuc-Pietro et al. Preoctiuc15 predicted the occupational class of Twitter users using the Standard Occupational Classification (SOC) system, which groups the different jobs based on skill requirements.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 6979
+      },
+      {
+        "cross_encoder_score": -11.31396770477295,
+        "dataset": "QASPER",
+        "end_char": 7401,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "dd01602bd13e8f9c803083eb36db25fc",
+        "passage_rank": 1,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "2eae88954a890f7fe1e8b30a6bf026c7",
+        "sentence_text": "In that work, the data collection process was limited to only users that specifically mentioned their occupation in their self-description in a way that could be directly mapped to a SOC occupational class.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 7195
+      },
+      {
+        "cross_encoder_score": -11.460121154785156,
+        "dataset": "QASPER",
+        "end_char": 7507,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "dd01602bd13e8f9c803083eb36db25fc",
+        "passage_rank": 1,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "c6aba3d5602713b29b77561e3fa5d36e",
+        "sentence_text": "The mapping between a substring of their self-description and a SOC occupational class was done manually.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 7402
+      },
+      {
+        "cross_encoder_score": -9.548513412475586,
+        "dataset": "QASPER",
+        "end_char": 7760,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "dd01602bd13e8f9c803083eb36db25fc",
+        "passage_rank": 1,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "7358540de3fd3c700881b03f00182977",
+        "sentence_text": "Because of the manual annotation step, their method was not scalable; moreover, because they identified the occupation class inside a user self-description, only a very small fraction of the Twitter users could be included (in their case, 5,191 users).",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 7508
+      },
+      {
+        "cross_encoder_score": -7.176492214202881,
+        "dataset": "QASPER",
+        "end_char": 7961,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "dd01602bd13e8f9c803083eb36db25fc",
+        "passage_rank": 1,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "000620e6c4d4f9c89e5fb7d8d2036593",
+        "sentence_text": "Both of these recent studies are based on micro-blogging platforms, which inherently restrict the number of characters that a post can have, and consequently the way that users can express themselves.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 7761
+      },
+      {
+        "cross_encoder_score": -11.235681533813477,
+        "dataset": "QASPER",
+        "end_char": 8304,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "dd01602bd13e8f9c803083eb36db25fc",
+        "passage_rank": 1,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "93796c7f299f27aed87c59b5e63226f0",
+        "sentence_text": "Moreover, both studies used off-the-shelf occupational taxonomies (rather than self-declared occupation categories), resulting in classes that are either too generic (e.g., media, welfare and electronic are three of the twelve Sina Weibo categories), or too intermixed (e.g., an assistant accountant is in a different class from an accountant",
+        "sentence_token_cost": 68,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 7962
+      },
+      {
+        "cross_encoder_score": -7.0799736976623535,
+        "dataset": "QASPER",
+        "end_char": 9651,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "e219fafaeead67d99ae31ab782655df2",
+        "passage_rank": 7,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "4d1f626cafc4ca1911c1d3b234a1d11b",
+        "sentence_text": "Blogger platform provides a total of 39 different industry options.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 9584
+      },
+      {
+        "cross_encoder_score": -11.45376205444336,
+        "dataset": "QASPER",
+        "end_char": 9843,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "e219fafaeead67d99ae31ab782655df2",
+        "passage_rank": 7,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "c708b723d051a1e243fc3e4532c81783",
+        "sentence_text": "Even though a completed industry value is an implicit text annotation, we acknowledge the same problem noted in previous studies: some categories are too broad, while others are very similar.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 9652
+      },
+      {
+        "cross_encoder_score": -11.419167518615723,
+        "dataset": "QASPER",
+        "end_char": 10113,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "e219fafaeead67d99ae31ab782655df2",
+        "passage_rank": 7,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "59253197bd58eed58b3c8af1d2d94b5d",
+        "sentence_text": "To remedy this and following Guibert et al. Guibert71, who argued that the denominations used in a classification must reflect the purpose of the study, we group the different Blogger industries based on similar educational background and similar technical terminology.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 9844
+      },
+      {
+        "cross_encoder_score": -11.284869194030762,
+        "dataset": "QASPER",
+        "end_char": 10197,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "e219fafaeead67d99ae31ab782655df2",
+        "passage_rank": 7,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "d66b88c0fa675e8cfafec80e45561641",
+        "sentence_text": "To do that, we exclude very general categories and merge conceptually similar ones.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 10114
+      },
+      {
+        "cross_encoder_score": -11.467543601989746,
+        "dataset": "QASPER",
+        "end_char": 10372,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "e219fafaeead67d99ae31ab782655df2",
+        "passage_rank": 7,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "9d0923b8cdc0370949e29fef3d6d9d60",
+        "sentence_text": "Examples of broad categories are the Education and the Student options: a teacher could be teaching in any concentration, while a student could be enrolled in any discipline.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 10198
+      },
+      {
+        "cross_encoder_score": -11.436896324157715,
+        "dataset": "QASPER",
+        "end_char": 10468,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "e219fafaeead67d99ae31ab782655df2",
+        "passage_rank": 7,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "33a449c3ed551a64047cdd8ca8e93f83",
+        "sentence_text": "Examples of conceptually similar categories are the Investment Banking and the Banking options.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 10373
+      },
+      {
+        "cross_encoder_score": -11.29396915435791,
+        "dataset": "QASPER",
+        "end_char": 10573,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "e219fafaeead67d99ae31ab782655df2",
+        "passage_rank": 7,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "fdde6a40000b9b9c42b97b2bde8b1cdc",
+        "sentence_text": "The final set of categories is shown in Table TABREF1 , along with the number of users in each category.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 10469
+      },
+      {
+        "cross_encoder_score": -10.768357276916504,
+        "dataset": "QASPER",
+        "end_char": 10654,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "e219fafaeead67d99ae31ab782655df2",
+        "passage_rank": 7,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "c554e7b7ff7645e18ac3420975445f15",
+        "sentence_text": "The resulting dataset consists of 22,880 users, 41,094 blogs, and 561,003 posts.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "source_position": 10574
+      },
+      {
+        "cross_encoder_score": -11.431466102600098,
+        "dataset": "QASPER",
+        "end_char": 10715,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "e219fafaeead67d99ae31ab782655df2",
+        "passage_rank": 7,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "8160b9a15a1facd5df4bdbb7ad806682",
+        "sentence_text": "Table TABREF2 presents additional statistics of our dataset.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          7,
+          8,
+          0
+        ],
+        "source_position": 10655
+      },
+      {
+        "cross_encoder_score": -11.395939826965332,
+        "dataset": "QASPER",
+        "end_char": 10842,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "e219fafaeead67d99ae31ab782655df2",
+        "passage_rank": 7,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "56ed4b7e50880c2d1bf4cb5f3cc890fe",
+        "sentence_text": "Text-based Industry Modeling\tAfter collecting our dataset, we split it into three sets: a train set, a development set, and a",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          7,
+          9,
+          0
+        ],
+        "source_position": 10717
+      },
+      {
+        "cross_encoder_score": -11.344284057617188,
+        "dataset": "QASPER",
+        "end_char": 14834,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "906416b72a4757db2bf2a8b690fcc7fe",
+        "passage_rank": 9,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "a2ec3ffcb57e653981293b3fdf2ef50f",
+        "sentence_text": "by using the top 90% of the features using the AFR method.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 14776
+      },
+      {
+        "cross_encoder_score": -11.244183540344238,
+        "dataset": "QASPER",
+        "end_char": 15135,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "906416b72a4757db2bf2a8b690fcc7fe",
+        "passage_rank": 9,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "9c506e5d32d6e9c73a7786eb8b34a788",
+        "sentence_text": "Lastly, the improvements of the IGR and AFR feature selections are not substantially better in comparison to All Words (at most 5% improvement between All Words and AFR), which suggest that only a few noisy features exist and most of the words play some role in shaping the \u201clanguage\" of an industry.",
+        "sentence_token_cost": 63,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 14835
+      },
+      {
+        "cross_encoder_score": -11.40048599243164,
+        "dataset": "QASPER",
+        "end_char": 15339,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "906416b72a4757db2bf2a8b690fcc7fe",
+        "passage_rank": 9,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "c1c4b7d05b2d5d0fd572ae15f22872c3",
+        "sentence_text": "As a final evaluation, we apply on the test data the classifier found to work best on the development data (AFR feature selection, top 90% features), for an INLINEFORM0 of 0.534 and INLINEFORM1 of 0.477.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 15136
+      },
+      {
+        "cross_encoder_score": -11.1968355178833,
+        "dataset": "QASPER",
+        "end_char": 15510,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "906416b72a4757db2bf2a8b690fcc7fe",
+        "passage_rank": 9,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "532e817618677a4613143b81553987cd",
+        "sentence_text": "Leveraging User Metadata\tTogether with the industry information and the most recent postings of each blogger, we also download a number of accompanying profile elements.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 15341
+      },
+      {
+        "cross_encoder_score": -11.298095703125,
+        "dataset": "QASPER",
+        "end_char": 15621,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "906416b72a4757db2bf2a8b690fcc7fe",
+        "passage_rank": 9,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "11a4df2d83a296c785a6e991b534bd7d",
+        "sentence_text": "Using these additional elements, we explore the potential of incorporating users' metadata in our classifiers.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 15511
+      },
+      {
+        "cross_encoder_score": -11.203253746032715,
+        "dataset": "QASPER",
+        "end_char": 15786,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "906416b72a4757db2bf2a8b690fcc7fe",
+        "passage_rank": 9,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "d2b4e35e1bc8721bb2162b81e2cbd861",
+        "sentence_text": "Table TABREF7 shows the different user metadata we consider together with their coverage percentage (not all users provide a value for all of the profile elements).",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 15622
+      },
+      {
+        "cross_encoder_score": -11.383951187133789,
+        "dataset": "QASPER",
+        "end_char": 15941,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "906416b72a4757db2bf2a8b690fcc7fe",
+        "passage_rank": 9,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "d021f636494a19cc11bed9b92fc6a6ac",
+        "sentence_text": "With the exception of the gender field, the remaining metadata elements shown in Table TABREF7 are completed by the users as a freely editable text field.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 15787
+      },
+      {
+        "cross_encoder_score": -11.35361385345459,
+        "dataset": "QASPER",
+        "end_char": 15999,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "906416b72a4757db2bf2a8b690fcc7fe",
+        "passage_rank": 9,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "bf0294870422d1fb5854feb83622c11c",
+        "sentence_text": "This introduces a considerable amount of noise in the set",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 15942
+      },
+      {
+        "cross_encoder_score": -11.423712730407715,
+        "dataset": "QASPER",
+        "end_char": 23997,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "c5d863f09b89748c607e842d8e4c4d49",
+        "passage_rank": 10,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "5ac81a891795e834bb20f747fa6f8a7e",
+        "sentence_text": "we explore how words that are emotionally charged relate to different industries.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          18,
+          0,
+          0
+        ],
+        "source_position": 23916
+      },
+      {
+        "cross_encoder_score": -11.471746444702148,
+        "dataset": "QASPER",
+        "end_char": 24168,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "c5d863f09b89748c607e842d8e4c4d49",
+        "passage_rank": 10,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "860eb1ab15de321a0fbdad9c42f728c6",
+        "sentence_text": "To quantify the emotional orientation of a text, we use the Positive Emotion and Negative Emotion categories in the Linguistic Inquiry and Word Count (LIWC) dictionary  .",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          18,
+          1,
+          0
+        ],
+        "source_position": 23998
+      },
+      {
+        "cross_encoder_score": -11.385397911071777,
+        "dataset": "QASPER",
+        "end_char": 24398,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "c5d863f09b89748c607e842d8e4c4d49",
+        "passage_rank": 10,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "cd412dfa0be2b0c76579712e9e6f8732",
+        "sentence_text": "The LIWC dictionary contains lists of words that have been shown to correlate with the psychological states of people that use them; for example, the Positive Emotion category contains words such as \u201chappy,\u201d \u201cpretty,\u201d and \u201cgood.\u201d",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          18,
+          2,
+          0
+        ],
+        "source_position": 24169
+      },
+      {
+        "cross_encoder_score": -11.433716773986816,
+        "dataset": "QASPER",
+        "end_char": 24552,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "c5d863f09b89748c607e842d8e4c4d49",
+        "passage_rank": 10,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "6842c7f79577bfab2d89b262009978ad",
+        "sentence_text": "For the text of all the users in each industry we measure the frequencies of Positive Emotion and Negative Emotion words normalized by the text's length.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          18,
+          3,
+          0
+        ],
+        "source_position": 24399
+      },
+      {
+        "cross_encoder_score": -11.491353988647461,
+        "dataset": "QASPER",
+        "end_char": 24695,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "c5d863f09b89748c607e842d8e4c4d49",
+        "passage_rank": 10,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "3f0ac2d909b3728d1be2fb2ed09a6008",
+        "sentence_text": "Table TABREF20 presents the industries' ranking for both categories of words based on their relative frequencies in the text of each industry.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          18,
+          4,
+          0
+        ],
+        "source_position": 24553
+      },
+      {
+        "cross_encoder_score": -11.47204875946045,
+        "dataset": "QASPER",
+        "end_char": 24862,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "c5d863f09b89748c607e842d8e4c4d49",
+        "passage_rank": 10,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "930795276bad3061c16094b6be2ca1ed",
+        "sentence_text": "We further perform a breakdown per-gender, where we once again calculate the proportion of emotionally charged words in each industry, but separately for each gender.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          18,
+          5,
+          0
+        ],
+        "source_position": 24696
+      },
+      {
+        "cross_encoder_score": -11.391207695007324,
+        "dataset": "QASPER",
+        "end_char": 25180,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "c5d863f09b89748c607e842d8e4c4d49",
+        "passage_rank": 10,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "841ca77af93f09384075e292a72271b5",
+        "sentence_text": "We find that the industry rankings of the relative frequencies INLINEFORM0 of emotionally charged words for the two genders are statistically significantly correlated, which suggests that regardless of their gender, users use positive (or negative) words with a relative frequency that correlates with their industry.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          18,
+          6,
+          0
+        ],
+        "source_position": 24863
+      },
+      {
+        "cross_encoder_score": -11.207789421081543,
+        "dataset": "QASPER",
+        "end_char": 25274,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "c5d863f09b89748c607e842d8e4c4d49",
+        "passage_rank": 10,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "e3b4e610bbdcdd896823438f509faaf1",
+        "sentence_text": "(In other words, even if e.g., Fashion has a larger number of women users, both men and women",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          18,
+          7,
+          0
+        ],
+        "source_position": 25181
+      },
+      {
+        "cross_encoder_score": -11.416443824768066,
+        "dataset": "QASPER",
+        "end_char": 25435,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "15d1f4b1d57d15c96a52d42c78a613c8",
+        "passage_rank": 5,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "012d6396d9491004d73259f85d5b9c37",
+        "sentence_text": "working in Fashion will tend to use more positive words than the corresponding gender in another industry with a larger number of men users such as Automotive.)",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          19,
+          0,
+          0
+        ],
+        "source_position": 25275
+      },
+      {
+        "cross_encoder_score": -11.41363525390625,
+        "dataset": "QASPER",
+        "end_char": 25691,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "15d1f4b1d57d15c96a52d42c78a613c8",
+        "passage_rank": 5,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "550b408ca549d33be2185bc173470265",
+        "sentence_text": "Finally, motivated by previous findings of correlations between job satisfaction and gender dominance in the workplace  , we explore the relationship between the usage of Positive Emotion and Negative Emotion words and the gender dominance in an industry.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          19,
+          1,
+          0
+        ],
+        "source_position": 25436
+      },
+      {
+        "cross_encoder_score": -11.326208114624023,
+        "dataset": "QASPER",
+        "end_char": 26001,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "15d1f4b1d57d15c96a52d42c78a613c8",
+        "passage_rank": 5,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "4609c875b3f40fc7a1e354d6c32af26b",
+        "sentence_text": "Although we find that there are substantial gender imbalances in each industry (Appendix SECREF9 ), we did not find any statistically significant correlation between the gender dominance ratio in the different industries and the usage of positive (or negative) emotional words in either gender in our dataset.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          19,
+          2,
+          0
+        ],
+        "source_position": 25692
+      },
+      {
+        "cross_encoder_score": -5.375602722167969,
+        "dataset": "QASPER",
+        "end_char": 26097,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "15d1f4b1d57d15c96a52d42c78a613c8",
+        "passage_rank": 5,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "c401f199c3ca2170af8026f34eca0389",
+        "sentence_text": "Conclusion\t In this paper, we examined the task of predicting a social media user's industry.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          19,
+          3,
+          0
+        ],
+        "source_position": 26004
+      },
+      {
+        "cross_encoder_score": -10.673843383789062,
+        "dataset": "QASPER",
+        "end_char": 26367,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "15d1f4b1d57d15c96a52d42c78a613c8",
+        "passage_rank": 5,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "3e26dca3b87aec87c25d80c3c81c0845",
+        "sentence_text": "We introduced an annotated dataset of over 20,000 blog users and applied a content-based classifier in conjunction with two feature selection methods for an overall accuracy of up to 0.534, which represents a large improvement over the majority class baseline of 0.188.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          0,
+          19,
+          4,
+          0
+        ],
+        "source_position": 26098
+      },
+      {
+        "cross_encoder_score": -11.29787826538086,
+        "dataset": "QASPER",
+        "end_char": 26450,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "15d1f4b1d57d15c96a52d42c78a613c8",
+        "passage_rank": 5,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "7f8aca92c347fc82c1b9c7405709c77d",
+        "sentence_text": "We also demonstrated how the user metadata can be incorporated in our classifiers.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          19,
+          5,
+          0
+        ],
+        "source_position": 26368
+      },
+      {
+        "cross_encoder_score": -11.078387260437012,
+        "dataset": "QASPER",
+        "end_char": 26672,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "15d1f4b1d57d15c96a52d42c78a613c8",
+        "passage_rank": 5,
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2",
+        "sentence_id": "3aae4b3678cac3768c24a4d739742477",
+        "sentence_text": "Although concatenation of features drawn both from blog content and profile elements did not yield any clear improvements over the best individual classifiers, we found that stacking improves the prediction accuracy to an",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          19,
+          6,
+          0
+        ],
+        "source_position": 26451
+      }
+    ],
+    "scoring_seconds": 0.3022786099463701,
+    "source_fingerprint": "94c0f2f7afd6d91349b62051d7bc5faa424dfcc2c3b6edbdcb05a8a9b7c3e61f"
+  }
+}

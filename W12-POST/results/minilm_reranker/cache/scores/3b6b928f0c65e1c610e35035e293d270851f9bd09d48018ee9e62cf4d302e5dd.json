@@ -1,0 +1,1751 @@
+{
+  "checksum": "8785ab17bc817a77e610232ab865e54931d6931f422e4f05aa4494ab83b6126c",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "700"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 86,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "3ec8d34f575eb75cba06eae1ec2f85b13c4d3759a5bf96f7d2fad12eadf0676c",
+    "query_id": "700",
+    "scores": [
+      {
+        "cross_encoder_score": -11.314081192016602,
+        "dataset": "SciFact",
+        "end_char": 108,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "f535bb3657ae1e89b5a088c756ac19bb",
+        "passage_rank": 5,
+        "query_id": "700",
+        "sentence_id": "a2190da2174f6b8c24254b1a0439277b",
+        "sentence_text": "Endosome-ER Contacts Control Actin Nucleation and Retromer Function through VAP-Dependent Regulation of PI4P",
+        "sentence_token_cost": 27,
+        "source_order": [
+          112,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.362614631652832,
+        "dataset": "SciFact",
+        "end_char": 327,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "f535bb3657ae1e89b5a088c756ac19bb",
+        "passage_rank": 5,
+        "query_id": "700",
+        "sentence_id": "4b9c75bf223cd8933454dc0fb941d46b",
+        "sentence_text": "VAP (VAPA and VAPB) is an evolutionarily conserved endoplasmic reticulum (ER)-anchored protein that helps generate tethers between the ER and other membranes through which lipids are exchanged across adjacent bilayers.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          112,
+          0,
+          1,
+          0
+        ],
+        "source_position": 109
+      },
+      {
+        "cross_encoder_score": -11.404149055480957,
+        "dataset": "SciFact",
+        "end_char": 544,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "f535bb3657ae1e89b5a088c756ac19bb",
+        "passage_rank": 5,
+        "query_id": "700",
+        "sentence_id": "4ad50571920e2886960810d7fe49ee35",
+        "sentence_text": "Here, we report that by regulating PI4P levels on endosomes, VAP affects WASH-dependent actin nucleation on these organelles and the function of the retromer, a protein coat responsible for endosome-to-Golgi traffic.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          112,
+          0,
+          2,
+          0
+        ],
+        "source_position": 328
+      },
+      {
+        "cross_encoder_score": -11.112357139587402,
+        "dataset": "SciFact",
+        "end_char": 651,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "f535bb3657ae1e89b5a088c756ac19bb",
+        "passage_rank": 5,
+        "query_id": "700",
+        "sentence_id": "25a53c5362f5f8cb2d46b9ddfa828126",
+        "sentence_text": "VAP is recruited to retromer budding sites on endosomes via an interaction with the retromer SNX2 subunit.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          112,
+          0,
+          3,
+          0
+        ],
+        "source_position": 545
+      },
+      {
+        "cross_encoder_score": -11.001385688781738,
+        "dataset": "SciFact",
+        "end_char": 754,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "f535bb3657ae1e89b5a088c756ac19bb",
+        "passage_rank": 5,
+        "query_id": "700",
+        "sentence_id": "92601a7204a466f89805bf7aab33bf98",
+        "sentence_text": "Cells lacking VAP accumulate high levels of PI4P, actin comets, and trans-Golgi proteins on endosomes.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          112,
+          0,
+          4,
+          0
+        ],
+        "source_position": 652
+      },
+      {
+        "cross_encoder_score": -11.344934463500977,
+        "dataset": "SciFact",
+        "end_char": 902,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "f535bb3657ae1e89b5a088c756ac19bb",
+        "passage_rank": 5,
+        "query_id": "700",
+        "sentence_id": "48c605f8bfa8a4af288320ee3f1103e3",
+        "sentence_text": "Such defects are mimicked by downregulation of OSBP, a VAP interactor and PI4P transporter that participates in VAP-dependent ER-endosomes tethers.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          112,
+          0,
+          5,
+          0
+        ],
+        "source_position": 755
+      },
+      {
+        "cross_encoder_score": -11.04916763305664,
+        "dataset": "SciFact",
+        "end_char": 990,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "f535bb3657ae1e89b5a088c756ac19bb",
+        "passage_rank": 5,
+        "query_id": "700",
+        "sentence_id": "c961b9f765d5ac4e0506429abf02782a",
+        "sentence_text": "These results reveal a role of PI4P in retromer-/WASH-dependent budding from endosomes.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          112,
+          0,
+          6,
+          0
+        ],
+        "source_position": 903
+      },
+      {
+        "cross_encoder_score": -11.419455528259277,
+        "dataset": "SciFact",
+        "end_char": 1175,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "f535bb3657ae1e89b5a088c756ac19bb",
+        "passage_rank": 5,
+        "query_id": "700",
+        "sentence_id": "f952e3ce2215d829ab8814630dbde2cf",
+        "sentence_text": "Collectively, our data show how the ER can control budding dynamics and association with the cytoskeleton of another membrane by direct contacts leading to bilayer lipid modifications.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          112,
+          0,
+          7,
+          0
+        ],
+        "source_position": 991
+      },
+      {
+        "cross_encoder_score": -5.268208026885986,
+        "dataset": "SciFact",
+        "end_char": 100,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "290880cc1762a87e7b0a684a05a402d4",
+        "passage_rank": 7,
+        "query_id": "700",
+        "sentence_id": "dd78837a103ca07a2055963ae3ffe7bc",
+        "sentence_text": "The Arabidopsis Chromatin-Modifying Nuclear siRNA Pathway Involves a Nucleolar RNA Processing Center",
+        "sentence_token_cost": 24,
+        "source_order": [
+          242,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.374736785888672,
+        "dataset": "SciFact",
+        "end_char": 454,
+        "pair_tokens_before_truncation": 133,
+        "pair_truncated": false,
+        "passage_id": "290880cc1762a87e7b0a684a05a402d4",
+        "passage_rank": 7,
+        "query_id": "700",
+        "sentence_id": "513dc92a026097d124c13d9ad458fa6f",
+        "sentence_text": "In Arabidopsis thaliana, small interfering RNAs (siRNAs) direct cytosine methylation at endogenous DNA repeats in a pathway involving two forms of nuclear RNA polymerase IV (Pol IVa and Pol IVb), RNA-DEPENDENT RNA POLYMERASE 2 (RDR2), DICER-LIKE 3 (DCL3), ARGONAUTE4 (AGO4), the chromatin remodeler DRD1, and the de novo cytosine methyltransferase DRM2.",
+        "sentence_token_cost": 106,
+        "source_order": [
+          242,
+          0,
+          1,
+          0
+        ],
+        "source_position": 101
+      },
+      {
+        "cross_encoder_score": -10.969364166259766,
+        "dataset": "SciFact",
+        "end_char": 574,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "290880cc1762a87e7b0a684a05a402d4",
+        "passage_rank": 7,
+        "query_id": "700",
+        "sentence_id": "75dcf7017ebecc4784230ded2bd1a477",
+        "sentence_text": "We show that RDR2, DCL3, AGO4, and NRPD1b (the largest subunit of Pol IVb) colocalize with siRNAs within the nucleolus.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          242,
+          0,
+          2,
+          0
+        ],
+        "source_position": 455
+      },
+      {
+        "cross_encoder_score": -9.715446472167969,
+        "dataset": "SciFact",
+        "end_char": 678,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "290880cc1762a87e7b0a684a05a402d4",
+        "passage_rank": 7,
+        "query_id": "700",
+        "sentence_id": "b1064df372cb950a20e9e657308f9480",
+        "sentence_text": "By contrast, Pol IVa and DRD1 are external to the nucleolus and colocalize with endogenous repeat loci.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          242,
+          0,
+          3,
+          0
+        ],
+        "source_position": 575
+      },
+      {
+        "cross_encoder_score": -11.381868362426758,
+        "dataset": "SciFact",
+        "end_char": 796,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "290880cc1762a87e7b0a684a05a402d4",
+        "passage_rank": 7,
+        "query_id": "700",
+        "sentence_id": "27cf4a88dfa7f8fae37cc12d2738dbf8",
+        "sentence_text": "Mutation-induced loss of pathway proteins causes downstream proteins to mislocalize, revealing their order of action.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          242,
+          0,
+          4,
+          0
+        ],
+        "source_position": 679
+      },
+      {
+        "cross_encoder_score": -8.50885009765625,
+        "dataset": "SciFact",
+        "end_char": 883,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "290880cc1762a87e7b0a684a05a402d4",
+        "passage_rank": 7,
+        "query_id": "700",
+        "sentence_id": "34b54d5ce2a9957a2be657d1317ef025",
+        "sentence_text": "Pol IVa acts first, and its localization is RNA dependent, suggesting an RNA template.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          242,
+          0,
+          5,
+          0
+        ],
+        "source_position": 797
+      },
+      {
+        "cross_encoder_score": -10.653219223022461,
+        "dataset": "SciFact",
+        "end_char": 1120,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "290880cc1762a87e7b0a684a05a402d4",
+        "passage_rank": 7,
+        "query_id": "700",
+        "sentence_id": "f74fe43b2939a574f982d00d2e9ce10d",
+        "sentence_text": "We hypothesize that maintenance of the heterochromatic state involves locus-specific Pol IVa transcription followed by siRNA production and assembly of AGO4- and NRPD1b-containing silencing complexes within nucleolar processing centers.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          242,
+          0,
+          6,
+          0
+        ],
+        "source_position": 884
+      },
+      {
+        "cross_encoder_score": -11.24082088470459,
+        "dataset": "SciFact",
+        "end_char": 116,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "c5670c507fd176295a63a01165bfe0ac",
+        "passage_rank": 3,
+        "query_id": "700",
+        "sentence_id": "199ed6bd13e5627cc6963f1c2b8e88ee",
+        "sentence_text": "The VTI family of SNARE proteins is necessary for plant viability and mediates different protein transport pathways.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          302,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.7883806228637695,
+        "dataset": "SciFact",
+        "end_char": 195,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "c5670c507fd176295a63a01165bfe0ac",
+        "passage_rank": 3,
+        "query_id": "700",
+        "sentence_id": "1f53b01a93f5336cfb5e5b8e1b209a41",
+        "sentence_text": "The Arabidopsis genome contains a family of v-SNAREs: VTI11, VTI12, and VTI13.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          302,
+          0,
+          1,
+          0
+        ],
+        "source_position": 117
+      },
+      {
+        "cross_encoder_score": -11.079036712646484,
+        "dataset": "SciFact",
+        "end_char": 253,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "c5670c507fd176295a63a01165bfe0ac",
+        "passage_rank": 3,
+        "query_id": "700",
+        "sentence_id": "538099d1cc051b52dd50fc81d9640a28",
+        "sentence_text": "Only VTI11 and VTI12 are expressed at appreciable levels.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          302,
+          0,
+          2,
+          0
+        ],
+        "source_position": 196
+      },
+      {
+        "cross_encoder_score": -10.63148021697998,
+        "dataset": "SciFact",
+        "end_char": 386,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "c5670c507fd176295a63a01165bfe0ac",
+        "passage_rank": 3,
+        "query_id": "700",
+        "sentence_id": "1ab3e6a112db4f905947c0cd02235623",
+        "sentence_text": "Although these two proteins are 60% identical, they complement different transport pathways when expressed in the yeast vti1 mutant.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          302,
+          0,
+          3,
+          0
+        ],
+        "source_position": 254
+      },
+      {
+        "cross_encoder_score": -11.198378562927246,
+        "dataset": "SciFact",
+        "end_char": 473,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "c5670c507fd176295a63a01165bfe0ac",
+        "passage_rank": 3,
+        "query_id": "700",
+        "sentence_id": "4ff3adb0fa0d69fe4349452c8ddacf4e",
+        "sentence_text": "VTI11 was identified recently as the mutated gene in the shoot gravitropic mutant zig.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          302,
+          0,
+          4,
+          0
+        ],
+        "source_position": 387
+      },
+      {
+        "cross_encoder_score": -11.21545696258545,
+        "dataset": "SciFact",
+        "end_char": 569,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "c5670c507fd176295a63a01165bfe0ac",
+        "passage_rank": 3,
+        "query_id": "700",
+        "sentence_id": "9127dee5c47e6e20171260717d564c1e",
+        "sentence_text": "Here, we show that the vti11 zig mutant has defects in vascular patterning and auxin transport.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          302,
+          0,
+          5,
+          0
+        ],
+        "source_position": 474
+      },
+      {
+        "cross_encoder_score": -5.888067245483398,
+        "dataset": "SciFact",
+        "end_char": 677,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "c5670c507fd176295a63a01165bfe0ac",
+        "passage_rank": 3,
+        "query_id": "700",
+        "sentence_id": "3fea5e9a029fabf184a0a4314bbbee30",
+        "sentence_text": "An Arabidopsis T-DNA insertion mutant, vti12, had a normal phenotype under nutrient-rich growth conditions.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          302,
+          0,
+          6,
+          0
+        ],
+        "source_position": 570
+      },
+      {
+        "cross_encoder_score": -11.126423835754395,
+        "dataset": "SciFact",
+        "end_char": 838,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "c5670c507fd176295a63a01165bfe0ac",
+        "passage_rank": 3,
+        "query_id": "700",
+        "sentence_id": "69347aeb95347b308e521ab88d2b7b87",
+        "sentence_text": "However, under nutrient-poor conditions, vti12 showed an accelerated senescence phenotype, suggesting that VTI12 may play a role in the plant autophagy pathway.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          302,
+          0,
+          7,
+          0
+        ],
+        "source_position": 678
+      },
+      {
+        "cross_encoder_score": -9.966072082519531,
+        "dataset": "SciFact",
+        "end_char": 1002,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "c5670c507fd176295a63a01165bfe0ac",
+        "passage_rank": 3,
+        "query_id": "700",
+        "sentence_id": "82a0a9edf378131c634ecbae28b99900",
+        "sentence_text": "VTI11 and VTI12 also were able to substitute for each other in their respective SNARE complexes, and a double-mutant cross between zig and vti12 was embryo lethal.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          302,
+          0,
+          8,
+          0
+        ],
+        "source_position": 839
+      },
+      {
+        "cross_encoder_score": -10.588971138000488,
+        "dataset": "SciFact",
+        "end_char": 1146,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "c5670c507fd176295a63a01165bfe0ac",
+        "passage_rank": 3,
+        "query_id": "700",
+        "sentence_id": "92cc95adaac4239f01c4c2e4593b993d",
+        "sentence_text": "These results suggest that some VTI1 protein was necessary for plant viability and that the two proteins were partially functionally redundant.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          302,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1003
+      },
+      {
+        "cross_encoder_score": -11.27573299407959,
+        "dataset": "SciFact",
+        "end_char": 99,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "61b9a16a5c578fe7edc42b49998184d9",
+        "passage_rank": 1,
+        "query_id": "700",
+        "sentence_id": "10978f4d0ff290522cba1a5bf3f4b1ff",
+        "sentence_text": "Generation of cell polarity in plants links endocytosis, auxin distribution and cell fate decisions",
+        "sentence_token_cost": 19,
+        "source_order": [
+          769,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.3500337600708,
+        "dataset": "SciFact",
+        "end_char": 276,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "61b9a16a5c578fe7edc42b49998184d9",
+        "passage_rank": 1,
+        "query_id": "700",
+        "sentence_id": "9eccc5ab6cba2237c83d69c7cd53e69e",
+        "sentence_text": "Dynamically polarized membrane proteins define different cell boundaries and have an important role in intercellular communication\u2014a vital feature of multicellular development.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          769,
+          0,
+          1,
+          0
+        ],
+        "source_position": 100
+      },
+      {
+        "cross_encoder_score": -7.480072498321533,
+        "dataset": "SciFact",
+        "end_char": 519,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "61b9a16a5c578fe7edc42b49998184d9",
+        "passage_rank": 1,
+        "query_id": "700",
+        "sentence_id": "4d1923948c7f41211717e18779ea5a1e",
+        "sentence_text": "Efflux carriers for the signalling molecule auxin from the PIN family are landmarks of cell polarity in plants and have a crucial involvement in auxin distribution-dependent development including embryo patterning, organogenesis and tropisms.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          769,
+          0,
+          2,
+          0
+        ],
+        "source_position": 277
+      },
+      {
+        "cross_encoder_score": -5.64154052734375,
+        "dataset": "SciFact",
+        "end_char": 655,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "61b9a16a5c578fe7edc42b49998184d9",
+        "passage_rank": 1,
+        "query_id": "700",
+        "sentence_id": "7696037008a150c4aff883b526944525",
+        "sentence_text": "Polar PIN localization determines the direction of intercellular auxin flow, yet the mechanisms generating PIN polarity remain unclear.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          769,
+          0,
+          3,
+          0
+        ],
+        "source_position": 520
+      },
+      {
+        "cross_encoder_score": -9.782477378845215,
+        "dataset": "SciFact",
+        "end_char": 778,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "61b9a16a5c578fe7edc42b49998184d9",
+        "passage_rank": 1,
+        "query_id": "700",
+        "sentence_id": "d0fbe570b8ec3fe3ed5657ec15b594f8",
+        "sentence_text": "Here we identify an endocytosis-dependent mechanism of PIN polarity generation and analyse its developmental implications.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          769,
+          0,
+          4,
+          0
+        ],
+        "source_position": 656
+      },
+      {
+        "cross_encoder_score": -9.844473838806152,
+        "dataset": "SciFact",
+        "end_char": 973,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "61b9a16a5c578fe7edc42b49998184d9",
+        "passage_rank": 1,
+        "query_id": "700",
+        "sentence_id": "6308caa6bd8ed317169d3dda048c7087",
+        "sentence_text": "Real-time PIN tracking showed that after synthesis, PINs are initially delivered to the plasma membrane in a non-polar manner and their polarity is established by subsequent endocytic recycling.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          769,
+          0,
+          5,
+          0
+        ],
+        "source_position": 779
+      },
+      {
+        "cross_encoder_score": -2.0489282608032227,
+        "dataset": "SciFact",
+        "end_char": 1108,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "61b9a16a5c578fe7edc42b49998184d9",
+        "passage_rank": 1,
+        "query_id": "700",
+        "sentence_id": "8840ef6bde9d24ad02a5fe1774a863a5",
+        "sentence_text": "Interference with PIN endocytosis either by auxin or by manipulation of the Arabidopsis Rab5 GTPase pathway prevents PIN polarization.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          769,
+          0,
+          6,
+          0
+        ],
+        "source_position": 974
+      },
+      {
+        "cross_encoder_score": -1.6345322132110596,
+        "dataset": "SciFact",
+        "end_char": 1271,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "61b9a16a5c578fe7edc42b49998184d9",
+        "passage_rank": 1,
+        "query_id": "700",
+        "sentence_id": "1c14c109853aff8f8a6e95490fbf92ec",
+        "sentence_text": "Failure of PIN polarization transiently alters asymmetric auxin distribution during embryogenesis and increases the local auxin response in apical embryo regions.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          769,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1109
+      },
+      {
+        "cross_encoder_score": -10.975211143493652,
+        "dataset": "SciFact",
+        "end_char": 1442,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "61b9a16a5c578fe7edc42b49998184d9",
+        "passage_rank": 1,
+        "query_id": "700",
+        "sentence_id": "c23844496a8577365bdabd49ad51276d",
+        "sentence_text": "This results in ectopic expression of auxin pathway-associated root-forming master regulators in embryonic leaves and promotes homeotic transformation of leaves to roots.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          769,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1272
+      },
+      {
+        "cross_encoder_score": -4.63837194442749,
+        "dataset": "SciFact",
+        "end_char": 1584,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "61b9a16a5c578fe7edc42b49998184d9",
+        "passage_rank": 1,
+        "query_id": "700",
+        "sentence_id": "3726945408b37037b14e9a7708322da1",
+        "sentence_text": "Our results indicate a two-step mechanism for the generation of PIN polar localization and the essential role of endocytosis in this process.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          769,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1443
+      },
+      {
+        "cross_encoder_score": -11.346888542175293,
+        "dataset": "SciFact",
+        "end_char": 1758,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "61b9a16a5c578fe7edc42b49998184d9",
+        "passage_rank": 1,
+        "query_id": "700",
+        "sentence_id": "51970570c6729834d1311e1bedd3c4bf",
+        "sentence_text": "It also highlights the link between endocytosis-dependent polarity of individual cells and auxin distribution-dependent cell fate establishment for multicellular patterning.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          769,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1585
+      },
+      {
+        "cross_encoder_score": -6.77373743057251,
+        "dataset": "SciFact",
+        "end_char": 83,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "1710f93ad31da948d91acd493505831b",
+        "passage_rank": 10,
+        "query_id": "700",
+        "sentence_id": "429b223b0676b8fa22247a8fc27ae892",
+        "sentence_text": "Drosophila oocyte localization is mediated by differential cadherin-based adhesion.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          787,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.144657135009766,
+        "dataset": "SciFact",
+        "end_char": 197,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "1710f93ad31da948d91acd493505831b",
+        "passage_rank": 10,
+        "query_id": "700",
+        "sentence_id": "f43fc753d7da223a3917e53f6978ee39",
+        "sentence_text": "In a Drosophila follicle the oocyte always occupies a posterior position among a group of sixteen germline cells.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          787,
+          0,
+          1,
+          0
+        ],
+        "source_position": 84
+      },
+      {
+        "cross_encoder_score": -6.033796787261963,
+        "dataset": "SciFact",
+        "end_char": 434,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "1710f93ad31da948d91acd493505831b",
+        "passage_rank": 10,
+        "query_id": "700",
+        "sentence_id": "2039dee3e1bc6237a4d23e065efa26e4",
+        "sentence_text": "Although the importance of this cell arrangement for the subsequent formation of the anterior-posterior axis of the embryo is well documented, the molecular mechanism responsible for the posterior localization of the oocyte was unknown.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          787,
+          0,
+          2,
+          0
+        ],
+        "source_position": 198
+      },
+      {
+        "cross_encoder_score": -11.301422119140625,
+        "dataset": "SciFact",
+        "end_char": 526,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "1710f93ad31da948d91acd493505831b",
+        "passage_rank": 10,
+        "query_id": "700",
+        "sentence_id": "a151b4842fecb8853eecc8d9dd92cf3e",
+        "sentence_text": "Here we show that the homophilic adhesion molecule DE-cadherin mediates oocyte positioning.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          787,
+          0,
+          3,
+          0
+        ],
+        "source_position": 435
+      },
+      {
+        "cross_encoder_score": -11.199075698852539,
+        "dataset": "SciFact",
+        "end_char": 762,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "1710f93ad31da948d91acd493505831b",
+        "passage_rank": 10,
+        "query_id": "700",
+        "sentence_id": "78233559d576cff9686b94b59e47f232",
+        "sentence_text": "During follicle biogenesis, DE-cadherin is expressed in germline (including oocyte) and surrounding follicle cells, with the highest concentration of DE-cadherin being found at the interface between oocyte and posterior follicle cells.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          787,
+          0,
+          4,
+          0
+        ],
+        "source_position": 527
+      },
+      {
+        "cross_encoder_score": -8.390073776245117,
+        "dataset": "SciFact",
+        "end_char": 958,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "1710f93ad31da948d91acd493505831b",
+        "passage_rank": 10,
+        "query_id": "700",
+        "sentence_id": "f32525891938a62a313eede4fa933dc6",
+        "sentence_text": "Mosaic analysis shows that DE-cadherin is required in both germline and follicle cells for correct oocyte localization, indicating that germline-soma interactions may be involved in this process.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          787,
+          0,
+          5,
+          0
+        ],
+        "source_position": 763
+      },
+      {
+        "cross_encoder_score": -11.401227951049805,
+        "dataset": "SciFact",
+        "end_char": 1213,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "1710f93ad31da948d91acd493505831b",
+        "passage_rank": 10,
+        "query_id": "700",
+        "sentence_id": "80fa669d2df49c3552dc503cfbbc2cb6",
+        "sentence_text": "By analysing the behaviour of the oocyte in follicles with a chimaeric follicular epithelium, we find that the position of the oocyte is determined by the position of DE-cadherin-expressing follicle cells, to which the oocyte attaches itself selectively.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          787,
+          0,
+          6,
+          0
+        ],
+        "source_position": 959
+      },
+      {
+        "cross_encoder_score": -11.330294609069824,
+        "dataset": "SciFact",
+        "end_char": 1350,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "1710f93ad31da948d91acd493505831b",
+        "passage_rank": 10,
+        "query_id": "700",
+        "sentence_id": "c8e4587a5d42a24d704e95a1c5c64f71",
+        "sentence_text": "Among the DE-cadherin positive follicle cells, the oocyte preferentially contacts those cells that express higher levels of DE-cadherin.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          787,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1214
+      },
+      {
+        "cross_encoder_score": -11.339309692382812,
+        "dataset": "SciFact",
+        "end_char": 1595,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "1710f93ad31da948d91acd493505831b",
+        "passage_rank": 10,
+        "query_id": "700",
+        "sentence_id": "20a892f709081f93202c7795fb826965",
+        "sentence_text": "On the basis of these data, we propose that in wild-type follicles the oocyte competes successfully with its sister germline cells for contact to the posterior follicle cells, a sorting process driven by different concentrations of DE-cadherin.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          787,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1351
+      },
+      {
+        "cross_encoder_score": -11.43752384185791,
+        "dataset": "SciFact",
+        "end_char": 1736,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "1710f93ad31da948d91acd493505831b",
+        "passage_rank": 10,
+        "query_id": "700",
+        "sentence_id": "e602b57d500cc118c69ac7842fd2a85e",
+        "sentence_text": "This is, to our knowledge, the first in vivo example of a cell-sorting process that depends on differential adhesion mediated by a cadherin.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          787,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1596
+      },
+      {
+        "cross_encoder_score": -11.2205171585083,
+        "dataset": "SciFact",
+        "end_char": 90,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "43f09dbbca3e263c58f93628c708c0e0",
+        "passage_rank": 6,
+        "query_id": "700",
+        "sentence_id": "fd9a10d004ae1e277cf4239078659647",
+        "sentence_text": "Planar cell polarity signalling couples cell division and morphogenesis during neurulation",
+        "sentence_token_cost": 14,
+        "source_order": [
+          837,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.394728660583496,
+        "dataset": "SciFact",
+        "end_char": 203,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "43f09dbbca3e263c58f93628c708c0e0",
+        "passage_rank": 6,
+        "query_id": "700",
+        "sentence_id": "b0f4b5bd44f7884568f3e4f58a1acccd",
+        "sentence_text": "Environmental and genetic aberrations lead to neural tube closure defects (NTDs) in 1 out of every 1,000 births.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          837,
+          0,
+          1,
+          0
+        ],
+        "source_position": 91
+      },
+      {
+        "cross_encoder_score": -11.37022876739502,
+        "dataset": "SciFact",
+        "end_char": 475,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "43f09dbbca3e263c58f93628c708c0e0",
+        "passage_rank": 6,
+        "query_id": "700",
+        "sentence_id": "442a18d94598acd5825fda185aa0aaff",
+        "sentence_text": "Mouse and frog models for these birth defects have indicated that Van Gogh-like 2 (Vangl2, also known as Strabismus) and other components of planar cell polarity (PCP) signalling might control neurulation by promoting the convergence of neural progenitors to the midline.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          837,
+          0,
+          2,
+          0
+        ],
+        "source_position": 204
+      },
+      {
+        "cross_encoder_score": -11.429579734802246,
+        "dataset": "SciFact",
+        "end_char": 553,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "43f09dbbca3e263c58f93628c708c0e0",
+        "passage_rank": 6,
+        "query_id": "700",
+        "sentence_id": "9959b9c94c9bd646f2ee4721ff0d7b73",
+        "sentence_text": "Here we show a novel role for PCP signalling during neurulation in zebrafish.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          837,
+          0,
+          3,
+          0
+        ],
+        "source_position": 476
+      },
+      {
+        "cross_encoder_score": -11.337315559387207,
+        "dataset": "SciFact",
+        "end_char": 667,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "43f09dbbca3e263c58f93628c708c0e0",
+        "passage_rank": 6,
+        "query_id": "700",
+        "sentence_id": "4d841f119382836c1e1f349e27015e27",
+        "sentence_text": "We demonstrate that non-canonical Wnt/PCP signalling polarizes neural progenitors along the anteroposterior axis.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          837,
+          0,
+          4,
+          0
+        ],
+        "source_position": 554
+      },
+      {
+        "cross_encoder_score": -11.387654304504395,
+        "dataset": "SciFact",
+        "end_char": 819,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "43f09dbbca3e263c58f93628c708c0e0",
+        "passage_rank": 6,
+        "query_id": "700",
+        "sentence_id": "b80ca474e92de732aa62872987999ae5",
+        "sentence_text": "This polarity is transiently lost during cell division in the neural keel but is re-established as daughter cells reintegrate into the neuroepithelium.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          837,
+          0,
+          5,
+          0
+        ],
+        "source_position": 668
+      },
+      {
+        "cross_encoder_score": -11.253663063049316,
+        "dataset": "SciFact",
+        "end_char": 1051,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "43f09dbbca3e263c58f93628c708c0e0",
+        "passage_rank": 6,
+        "query_id": "700",
+        "sentence_id": "a2dc61eb5eb51aecd624d6c14055a82c",
+        "sentence_text": "Loss of zebrafish Vangl2 (in trilobite mutants) abolishes the polarization of neural keel cells, disrupts re-intercalation of daughter cells into the neuroepithelium, and results in ectopic neural progenitor accumulations and NTDs.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          837,
+          0,
+          6,
+          0
+        ],
+        "source_position": 820
+      },
+      {
+        "cross_encoder_score": -11.288691520690918,
+        "dataset": "SciFact",
+        "end_char": 1198,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "43f09dbbca3e263c58f93628c708c0e0",
+        "passage_rank": 6,
+        "query_id": "700",
+        "sentence_id": "afed92f625683a1d3a6f1a9093aad7a9",
+        "sentence_text": "Remarkably, blocking cell division leads to rescue of trilobite neural tube morphogenesis despite persistent defects in convergence and extension.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          837,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1052
+      },
+      {
+        "cross_encoder_score": -11.355720520019531,
+        "dataset": "SciFact",
+        "end_char": 1383,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "43f09dbbca3e263c58f93628c708c0e0",
+        "passage_rank": 6,
+        "query_id": "700",
+        "sentence_id": "1b47fb799fefa09fe41c6c50890f0507",
+        "sentence_text": "These results reveal a function for PCP signalling in coupling cell division and morphogenesis at neurulation and indicate a previously unrecognized mechanism that might underlie NTDs.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          837,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1199
+      },
+      {
+        "cross_encoder_score": -6.004471302032471,
+        "dataset": "SciFact",
+        "end_char": 102,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "2ffae1e6029d97ce644730552fc5e7de",
+        "passage_rank": 8,
+        "query_id": "700",
+        "sentence_id": "3244523c9d987007238aea42d5166719",
+        "sentence_text": "Identification of an allele of VAM3/SYP22 that confers a semi-dwarf phenotype in Arabidopsis thaliana.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          2456,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.3533525466918945,
+        "dataset": "SciFact",
+        "end_char": 280,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "2ffae1e6029d97ce644730552fc5e7de",
+        "passage_rank": 8,
+        "query_id": "700",
+        "sentence_id": "6698fb5c0a84243640e8eb072e84a900",
+        "sentence_text": "The short stem and midrib (ssm) mutants of Arabidopsis thaliana show both semi-dwarf and wavy leaf phenotypes due to defects in the elongation of the stem internodes and leaves.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          2456,
+          0,
+          1,
+          0
+        ],
+        "source_position": 103
+      },
+      {
+        "cross_encoder_score": -10.838419914245605,
+        "dataset": "SciFact",
+        "end_char": 358,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "2ffae1e6029d97ce644730552fc5e7de",
+        "passage_rank": 8,
+        "query_id": "700",
+        "sentence_id": "cf82b676265c0d59dd54834da81dc8a1",
+        "sentence_text": "Moreover, these abnormalities cannot be recovered by exogenous phytohormones.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          2456,
+          0,
+          2,
+          0
+        ],
+        "source_position": 281
+      },
+      {
+        "cross_encoder_score": -11.252519607543945,
+        "dataset": "SciFact",
+        "end_char": 627,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "2ffae1e6029d97ce644730552fc5e7de",
+        "passage_rank": 8,
+        "query_id": "700",
+        "sentence_id": "ebbb48567bede1b36d82d3a8b4cb6708",
+        "sentence_text": "ssm was originally identified as a single recessive mutant of the ecotype Columbia (Col-0), but genetic crossing experiments have revealed that this mutant phenotype is restored by another gene that is functional in the ecotype Landsberg erecta (Ler) and not in Col-0.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          2456,
+          0,
+          3,
+          0
+        ],
+        "source_position": 359
+      },
+      {
+        "cross_encoder_score": -11.258817672729492,
+        "dataset": "SciFact",
+        "end_char": 847,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "2ffae1e6029d97ce644730552fc5e7de",
+        "passage_rank": 8,
+        "query_id": "700",
+        "sentence_id": "4db9fa0146a263d2c2aa8765d1cd52be",
+        "sentence_text": "Map-based cloning of the gene that is defective in ssm mutants has uncovered a small deletion in the sixth intron of a gene encoding a syntaxin, VAM3/SYP22, which has been implicated in vesicle transport to the vacuole.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          2456,
+          0,
+          4,
+          0
+        ],
+        "source_position": 628
+      },
+      {
+        "cross_encoder_score": -11.315230369567871,
+        "dataset": "SciFact",
+        "end_char": 1002,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "2ffae1e6029d97ce644730552fc5e7de",
+        "passage_rank": 8,
+        "query_id": "700",
+        "sentence_id": "363a9a3c3084bc9148b3e07030cef686",
+        "sentence_text": "This mutation appears to cause a peptide insertion in the deduced VAM3/SYP22 polypeptide sequence due to defective splicing of the shortened sixth intron.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          2456,
+          0,
+          5,
+          0
+        ],
+        "source_position": 848
+      },
+      {
+        "cross_encoder_score": -11.422000885009766,
+        "dataset": "SciFact",
+        "end_char": 1215,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "2ffae1e6029d97ce644730552fc5e7de",
+        "passage_rank": 8,
+        "query_id": "700",
+        "sentence_id": "4d11dec85aa9ad83a37a48909970a775",
+        "sentence_text": "Significantly, when compared with the wild-type Ler genome, the wild-type Col-0 genome has a single base pair deletion causing a frameshift mutation in SYP23, a gene with the highest known homology to VAM3/SYP22.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          2456,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1003
+      },
+      {
+        "cross_encoder_score": -11.353450775146484,
+        "dataset": "SciFact",
+        "end_char": 1388,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "2ffae1e6029d97ce644730552fc5e7de",
+        "passage_rank": 8,
+        "query_id": "700",
+        "sentence_id": "b48584773bae12f12218c1c5334379cd",
+        "sentence_text": "These findings suggest that VAM3/SYP22 and SYP23 have overlapping functions and that the vesicle transport mediated by these syntaxins is important for shoot morphogenesis.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          2456,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1216
+      },
+      {
+        "cross_encoder_score": -10.804150581359863,
+        "dataset": "SciFact",
+        "end_char": 84,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "19da5da89cc210762dfd360f7d95eb8e",
+        "passage_rank": 2,
+        "query_id": "700",
+        "sentence_id": "73695d5f47b2527f3f42e2b73af92a67",
+        "sentence_text": "Local, Efflux-Dependent Auxin Gradients as a Common Module for Plant Organ Formation",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2638,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.385171890258789,
+        "dataset": "SciFact",
+        "end_char": 182,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "19da5da89cc210762dfd360f7d95eb8e",
+        "passage_rank": 2,
+        "query_id": "700",
+        "sentence_id": "706c1b88585fb30012f4ed22aedb14be",
+        "sentence_text": "Plants, compared to animals, exhibit an amazing adaptability and plasticity in their development.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2638,
+          0,
+          1,
+          0
+        ],
+        "source_position": 85
+      },
+      {
+        "cross_encoder_score": -11.332913398742676,
+        "dataset": "SciFact",
+        "end_char": 330,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "19da5da89cc210762dfd360f7d95eb8e",
+        "passage_rank": 2,
+        "query_id": "700",
+        "sentence_id": "c0db7f750bb02225418df98c411d8870",
+        "sentence_text": "This is largely dependent on the ability of plants to form new organs, such as lateral roots, leaves, and flowers during postembryonic development.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          2638,
+          0,
+          2,
+          0
+        ],
+        "source_position": 183
+      },
+      {
+        "cross_encoder_score": -11.326725959777832,
+        "dataset": "SciFact",
+        "end_char": 446,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "19da5da89cc210762dfd360f7d95eb8e",
+        "passage_rank": 2,
+        "query_id": "700",
+        "sentence_id": "fc312a107cb245d20ec427feae71e85a",
+        "sentence_text": "Organ primordia develop from founder cell populations into organs by coordinated cell division and differentiation.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          2638,
+          0,
+          3,
+          0
+        ],
+        "source_position": 331
+      },
+      {
+        "cross_encoder_score": -6.505375385284424,
+        "dataset": "SciFact",
+        "end_char": 590,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "19da5da89cc210762dfd360f7d95eb8e",
+        "passage_rank": 2,
+        "query_id": "700",
+        "sentence_id": "b8dbeafa7927dd151802e39ce20e2435",
+        "sentence_text": "Here, we show that organ formation in Arabidopsis involves dynamic gradients of the signaling molecule auxin with maxima at the primordia tips.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          2638,
+          0,
+          4,
+          0
+        ],
+        "source_position": 447
+      },
+      {
+        "cross_encoder_score": -8.716772079467773,
+        "dataset": "SciFact",
+        "end_char": 798,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "19da5da89cc210762dfd360f7d95eb8e",
+        "passage_rank": 2,
+        "query_id": "700",
+        "sentence_id": "3d380da25c6117cc52a890928b83b928",
+        "sentence_text": "These gradients are mediated by cellular efflux requiring asymmetrically localized PIN proteins, which represent a functionally redundant network for auxin distribution in both aerial and underground organs.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          2638,
+          0,
+          5,
+          0
+        ],
+        "source_position": 591
+      },
+      {
+        "cross_encoder_score": -0.22112174332141876,
+        "dataset": "SciFact",
+        "end_char": 940,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "19da5da89cc210762dfd360f7d95eb8e",
+        "passage_rank": 2,
+        "query_id": "700",
+        "sentence_id": "ba49b85bb6bc02a713a7a145fea32849",
+        "sentence_text": "PIN1 polar localization undergoes a dynamic rearrangement, which correlates with establishment of auxin gradients and primordium development.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          2638,
+          0,
+          6,
+          0
+        ],
+        "source_position": 799
+      },
+      {
+        "cross_encoder_score": -7.0392842292785645,
+        "dataset": "SciFact",
+        "end_char": 1126,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "19da5da89cc210762dfd360f7d95eb8e",
+        "passage_rank": 2,
+        "query_id": "700",
+        "sentence_id": "f41166554b0e90b50b42a1c4f02ae5e1",
+        "sentence_text": "Our results suggest that PIN-dependent, local auxin gradients represent a common module for formation of all plant organs, regardless of their mature morphology or developmental origin.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          2638,
+          0,
+          7,
+          0
+        ],
+        "source_position": 941
+      },
+      {
+        "cross_encoder_score": -11.19469165802002,
+        "dataset": "SciFact",
+        "end_char": 45,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "0dd1f50a2a9b606cc452a60c314be369",
+        "passage_rank": 4,
+        "query_id": "700",
+        "sentence_id": "a0c785cb308a7f3354cb411c9e1d8f1a",
+        "sentence_text": "A molecular framework for plant regeneration.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          4630,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.407057762145996,
+        "dataset": "SciFact",
+        "end_char": 135,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "0dd1f50a2a9b606cc452a60c314be369",
+        "passage_rank": 4,
+        "query_id": "700",
+        "sentence_id": "182d1d308bf04cd082af9e32b27f4005",
+        "sentence_text": "Plants and some animals have a profound capacity to regenerate organs from adult tissues.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          4630,
+          0,
+          1,
+          0
+        ],
+        "source_position": 46
+      },
+      {
+        "cross_encoder_score": -10.952972412109375,
+        "dataset": "SciFact",
+        "end_char": 213,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "0dd1f50a2a9b606cc452a60c314be369",
+        "passage_rank": 4,
+        "query_id": "700",
+        "sentence_id": "3f752758f32a745954ed87a691589a11",
+        "sentence_text": "Molecular mechanisms for regeneration have, however, been largely unexplored.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          4630,
+          0,
+          2,
+          0
+        ],
+        "source_position": 136
+      },
+      {
+        "cross_encoder_score": -4.075146198272705,
+        "dataset": "SciFact",
+        "end_char": 285,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "0dd1f50a2a9b606cc452a60c314be369",
+        "passage_rank": 4,
+        "query_id": "700",
+        "sentence_id": "8ac530e557ea9361f022da727346e6f4",
+        "sentence_text": "Here we investigate a local regeneration response in Arabidopsis roots.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          4630,
+          0,
+          3,
+          0
+        ],
+        "source_position": 214
+      },
+      {
+        "cross_encoder_score": -11.3333101272583,
+        "dataset": "SciFact",
+        "end_char": 509,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "0dd1f50a2a9b606cc452a60c314be369",
+        "passage_rank": 4,
+        "query_id": "700",
+        "sentence_id": "288c24dcb577c63522337fe1ff33bdd6",
+        "sentence_text": "Laser-induced wounding disrupts the flow of auxin-a cell-fate-instructive plant hormone-in root tips, and we demonstrate that resulting cell-fate changes require the PLETHORA, SHORTROOT, and SCARECROW transcription factors.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          4630,
+          0,
+          4,
+          0
+        ],
+        "source_position": 286
+      },
+      {
+        "cross_encoder_score": -10.664463996887207,
+        "dataset": "SciFact",
+        "end_char": 685,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "0dd1f50a2a9b606cc452a60c314be369",
+        "passage_rank": 4,
+        "query_id": "700",
+        "sentence_id": "8344396d59128be13678381e00767cda",
+        "sentence_text": "These transcription factors regulate the expression and polar position of PIN auxin efflux-facilitating membrane proteins to reconstitute auxin transport in renewed root tips.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          4630,
+          0,
+          5,
+          0
+        ],
+        "source_position": 510
+      },
+      {
+        "cross_encoder_score": -10.993078231811523,
+        "dataset": "SciFact",
+        "end_char": 840,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "0dd1f50a2a9b606cc452a60c314be369",
+        "passage_rank": 4,
+        "query_id": "700",
+        "sentence_id": "9e050c506aaa20c0f269502a39ca3a0a",
+        "sentence_text": "Thus, a regeneration mechanism using embryonic root stem-cell patterning factors first responds to and subsequently stabilizes a new hormone distribution.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          4630,
+          0,
+          6,
+          0
+        ],
+        "source_position": 686
+      },
+      {
+        "cross_encoder_score": -7.235448837280273,
+        "dataset": "SciFact",
+        "end_char": 105,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "8cb0859b187c788b83937ace79d884f8",
+        "passage_rank": 9,
+        "query_id": "700",
+        "sentence_id": "5e3413dea46d6c97a914c62363385a83",
+        "sentence_text": "Rapid accumulation of mutations during seed-to-seed propagation of mismatch-repair-defective Arabidopsis.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          4735,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.291095733642578,
+        "dataset": "SciFact",
+        "end_char": 297,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "8cb0859b187c788b83937ace79d884f8",
+        "passage_rank": 9,
+        "query_id": "700",
+        "sentence_id": "0645e4be0f48645ec0f9ded0bc7dea75",
+        "sentence_text": "During the many cell divisions that precede formation of plant gametes, their apical-meristem and floral antecedents are continually exposed to endogenous and environmental mutagenic threats.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          4735,
+          0,
+          1,
+          0
+        ],
+        "source_position": 106
+      },
+      {
+        "cross_encoder_score": -10.920194625854492,
+        "dataset": "SciFact",
+        "end_char": 595,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "8cb0859b187c788b83937ace79d884f8",
+        "passage_rank": 9,
+        "query_id": "700",
+        "sentence_id": "8ac873ef7b0313b5ecb4c130591a8548",
+        "sentence_text": "Although some deleterious recessive mutations may be eliminated during growth of haploid gametophytes and functionally haploid early embryos (\"haplosufficiency quality-checking\"), the multiplicity of plant genome-maintenance systems suggests aggressive quality control during prior diploid growth.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          4735,
+          0,
+          2,
+          0
+        ],
+        "source_position": 298
+      },
+      {
+        "cross_encoder_score": -6.459700107574463,
+        "dataset": "SciFact",
+        "end_char": 793,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "8cb0859b187c788b83937ace79d884f8",
+        "passage_rank": 9,
+        "query_id": "700",
+        "sentence_id": "989d3ee31d992799db2382c2702e3878",
+        "sentence_text": "To test in Arabidopsis a hypothesis that prior mismatch repair (MMR) is paramount in defense of plant genetic fidelity, we propagated in parallel 36 MMR-defective (Atmsh2-1) and 36 wild-type lines.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          4735,
+          0,
+          3,
+          0
+        ],
+        "source_position": 596
+      },
+      {
+        "cross_encoder_score": -11.190693855285645,
+        "dataset": "SciFact",
+        "end_char": 1017,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "8cb0859b187c788b83937ace79d884f8",
+        "passage_rank": 9,
+        "query_id": "700",
+        "sentence_id": "9ed7f9c37fcb349f6c42cdc1ffbbe965",
+        "sentence_text": "The Atmsh2-1 lines rapidly accumulated a wide variety of mutations: fifth-generation (G5) plants showed abnormalities in morphology and development, fertility, germination efficiency, seed/silique development, and seed set.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          4735,
+          0,
+          4,
+          0
+        ],
+        "source_position": 794
+      },
+      {
+        "cross_encoder_score": -11.239790916442871,
+        "dataset": "SciFact",
+        "end_char": 1087,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "8cb0859b187c788b83937ace79d884f8",
+        "passage_rank": 9,
+        "query_id": "700",
+        "sentence_id": "c42baeaf2e745223d558f7f47dd07a21",
+        "sentence_text": "Only two Atmsh2-1, but all 36 wild-type lines, appeared normal at G5.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          4735,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1018
+      },
+      {
+        "cross_encoder_score": -11.35251522064209,
+        "dataset": "SciFact",
+        "end_char": 1309,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "8cb0859b187c788b83937ace79d884f8",
+        "passage_rank": 9,
+        "query_id": "700",
+        "sentence_id": "01b56825dbb88f87c837b50a68670150",
+        "sentence_text": "Analyses of insertion/deletion mutation at six repeat-sequence (microsatellite) loci showed each Atmsh2-1 line to have evolved its own \"fingerprint,\" the results of as many as 10 microsatellite mutations in a single line.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          4735,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1088
+      },
+      {
+        "cross_encoder_score": -11.212352752685547,
+        "dataset": "SciFact",
+        "end_char": 1383,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "8cb0859b187c788b83937ace79d884f8",
+        "passage_rank": 9,
+        "query_id": "700",
+        "sentence_id": "7507a24e81d528ee3df7c63d448284cb",
+        "sentence_text": "Thus, MMR during diploid growth is essential for plant genomic integrity.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          4735,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1310
+      }
+    ],
+    "scoring_seconds": 0.48213354707695544,
+    "source_fingerprint": "4464c15789b4a47c22d5ce6e09d60ab1eebe54ca16da39df38b218d726495d3f"
+  }
+}

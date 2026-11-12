@@ -1,0 +1,1471 @@
+{
+  "checksum": "1351704dc1ff9219470646d3ac5a1c65d1a6972743477ac96b0d824401858c49",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "452"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 72,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "65b61416d12acfbd0c98a97f35daa8cf4af18b98c9bcda73d5e140a5feda4371",
+    "query_id": "452",
+    "scores": [
+      {
+        "cross_encoder_score": -11.192062377929688,
+        "dataset": "SciFact",
+        "end_char": 50,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "9886ab890324cf4b74c866eb06d4a8fd",
+        "passage_rank": 8,
+        "query_id": "452",
+        "sentence_id": "3990a084e9314cf6e21acf0e5c46fc18",
+        "sentence_text": "Memory and Modularity in Cell-Fate Decision Making",
+        "sentence_token_cost": 10,
+        "source_order": [
+          90,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.0438640117645264,
+        "dataset": "SciFact",
+        "end_char": 144,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "9886ab890324cf4b74c866eb06d4a8fd",
+        "passage_rank": 8,
+        "query_id": "452",
+        "sentence_id": "341d540c8beef746e3e866a58020dbb8",
+        "sentence_text": "Genetically identical cells sharing an environment can display markedly different phenotypes.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          90,
+          0,
+          1,
+          0
+        ],
+        "source_position": 51
+      },
+      {
+        "cross_encoder_score": -8.673892974853516,
+        "dataset": "SciFact",
+        "end_char": 303,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "9886ab890324cf4b74c866eb06d4a8fd",
+        "passage_rank": 8,
+        "query_id": "452",
+        "sentence_id": "030fc0503a6ffc9266edb1243f733284",
+        "sentence_text": "It is often unclear how much of this variation derives from chance, external signals, or attempts by individual cells to exert autonomous phenotypic programs.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          90,
+          0,
+          2,
+          0
+        ],
+        "source_position": 145
+      },
+      {
+        "cross_encoder_score": -10.63902473449707,
+        "dataset": "SciFact",
+        "end_char": 521,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "9886ab890324cf4b74c866eb06d4a8fd",
+        "passage_rank": 8,
+        "query_id": "452",
+        "sentence_id": "39c8436ff774e8f4ff5e3cf7c8c01e67",
+        "sentence_text": "By observing thousands of cells for hundreds of consecutive generations under constant conditions, we dissect the stochastic decision between a solitary, motile state and a chained, sessile state in Bacillus subtilis.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          90,
+          0,
+          3,
+          0
+        ],
+        "source_position": 304
+      },
+      {
+        "cross_encoder_score": -11.29855728149414,
+        "dataset": "SciFact",
+        "end_char": 635,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "9886ab890324cf4b74c866eb06d4a8fd",
+        "passage_rank": 8,
+        "query_id": "452",
+        "sentence_id": "8bbf22cb1bb01855088c49806a95622c",
+        "sentence_text": "We show that the motile state is 'memoryless', exhibiting no autonomous control over the time spent in the state.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          90,
+          0,
+          4,
+          0
+        ],
+        "source_position": 522
+      },
+      {
+        "cross_encoder_score": -10.863343238830566,
+        "dataset": "SciFact",
+        "end_char": 786,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "9886ab890324cf4b74c866eb06d4a8fd",
+        "passage_rank": 8,
+        "query_id": "452",
+        "sentence_id": "cb01ab1b979fda9e640beb21ba71dd89",
+        "sentence_text": "In contrast, the time spent as connected chains of cells is tightly controlled, enforcing coordination among related cells in the multicellular state.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          90,
+          0,
+          5,
+          0
+        ],
+        "source_position": 636
+      },
+      {
+        "cross_encoder_score": -11.025528907775879,
+        "dataset": "SciFact",
+        "end_char": 950,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "9886ab890324cf4b74c866eb06d4a8fd",
+        "passage_rank": 8,
+        "query_id": "452",
+        "sentence_id": "ac99694d012a4a14f47bff930d7056c9",
+        "sentence_text": "We show that the three-protein regulatory circuit governing the decision is modular, as initiation and maintenance of chaining are genetically separable functions.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          90,
+          0,
+          6,
+          0
+        ],
+        "source_position": 787
+      },
+      {
+        "cross_encoder_score": -11.334465026855469,
+        "dataset": "SciFact",
+        "end_char": 1138,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "9886ab890324cf4b74c866eb06d4a8fd",
+        "passage_rank": 8,
+        "query_id": "452",
+        "sentence_id": "96f8d157822786b31a6e92910ee83b14",
+        "sentence_text": "As stimulation of the same initiating pathway triggers biofilm formation, we argue that autonomous timing allows a trial commitment to multicellularity that external signals could extend.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          90,
+          0,
+          7,
+          0
+        ],
+        "source_position": 951
+      },
+      {
+        "cross_encoder_score": -4.795202732086182,
+        "dataset": "SciFact",
+        "end_char": 90,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "2145754b2b34e14c36d96545f879e900",
+        "passage_rank": 2,
+        "query_id": "452",
+        "sentence_id": "f535dcfb18e746dd751499be2fed9a2c",
+        "sentence_text": "Single-Cell RNA-Seq Reveals Dynamic, Random Monoallelic Gene Expression in Mammalian Cells",
+        "sentence_token_cost": 21,
+        "source_order": [
+          1597,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.066404104232788,
+        "dataset": "SciFact",
+        "end_char": 274,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "2145754b2b34e14c36d96545f879e900",
+        "passage_rank": 2,
+        "query_id": "452",
+        "sentence_id": "1ea5a1caf1db7854ec018b214c346fb4",
+        "sentence_text": "Expression from both alleles is generally observed in analyses of diploid cell populations, but studies addressing allelic expression patterns genome-wide in single cells are lacking.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1597,
+          0,
+          1,
+          0
+        ],
+        "source_position": 91
+      },
+      {
+        "cross_encoder_score": -5.466541767120361,
+        "dataset": "SciFact",
+        "end_char": 429,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "2145754b2b34e14c36d96545f879e900",
+        "passage_rank": 2,
+        "query_id": "452",
+        "sentence_id": "d034f2d0dde7a6371152723008e39a4e",
+        "sentence_text": "Here, we present global analyses of allelic expression across individual cells of mouse preimplantation embryos of mixed background (CAST/EiJ \u00d7 C57BL/6J).",
+        "sentence_token_cost": 37,
+        "source_order": [
+          1597,
+          0,
+          2,
+          0
+        ],
+        "source_position": 275
+      },
+      {
+        "cross_encoder_score": -6.549942493438721,
+        "dataset": "SciFact",
+        "end_char": 567,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "2145754b2b34e14c36d96545f879e900",
+        "passage_rank": 2,
+        "query_id": "452",
+        "sentence_id": "366cd2ee97d694f05f5abab62eda0237",
+        "sentence_text": "We discovered abundant (12 to 24%) monoallelic expression of autosomal genes and that expression of the two alleles occurs independently.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          1597,
+          0,
+          3,
+          0
+        ],
+        "source_position": 430
+      },
+      {
+        "cross_encoder_score": -2.3469431400299072,
+        "dataset": "SciFact",
+        "end_char": 702,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "2145754b2b34e14c36d96545f879e900",
+        "passage_rank": 2,
+        "query_id": "452",
+        "sentence_id": "46b97ae08e4a24bd7d6ec610c3a38963",
+        "sentence_text": "The monoallelic expression appeared random and dynamic because there was considerable variation among closely related embryonic cells.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          1597,
+          0,
+          4,
+          0
+        ],
+        "source_position": 568
+      },
+      {
+        "cross_encoder_score": -5.643787384033203,
+        "dataset": "SciFact",
+        "end_char": 776,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "2145754b2b34e14c36d96545f879e900",
+        "passage_rank": 2,
+        "query_id": "452",
+        "sentence_id": "5444a79e2ca2edc5227d10c17a4b1646",
+        "sentence_text": "Similar patterns of monoallelic expression were observed in mature cells.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          1597,
+          0,
+          5,
+          0
+        ],
+        "source_position": 703
+      },
+      {
+        "cross_encoder_score": -8.893505096435547,
+        "dataset": "SciFact",
+        "end_char": 881,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "2145754b2b34e14c36d96545f879e900",
+        "passage_rank": 2,
+        "query_id": "452",
+        "sentence_id": "cd5b7822592066c2bb5c9ed4f2df0a0c",
+        "sentence_text": "Our allelic expression analysis also demonstrates the de novo inactivation of the paternal X chromosome.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          1597,
+          0,
+          6,
+          0
+        ],
+        "source_position": 777
+      },
+      {
+        "cross_encoder_score": -5.620147228240967,
+        "dataset": "SciFact",
+        "end_char": 1019,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "2145754b2b34e14c36d96545f879e900",
+        "passage_rank": 2,
+        "query_id": "452",
+        "sentence_id": "a9cab0aef5d0e60446d11064af504a94",
+        "sentence_text": "We conclude that independent and stochastic allelic transcription generates abundant random monoallelic expression in the mammalian cell.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1597,
+          0,
+          7,
+          0
+        ],
+        "source_position": 882
+      },
+      {
+        "cross_encoder_score": -9.974291801452637,
+        "dataset": "SciFact",
+        "end_char": 85,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "71cc2de4c0e59ffe34c334b47188fcbb",
+        "passage_rank": 5,
+        "query_id": "452",
+        "sentence_id": "54d850c7201cba4fbf48b9575e2d659e",
+        "sentence_text": "Genetics and Beyond \u2013 The Transcriptome of Human Monocytes and Disease Susceptibility",
+        "sentence_token_cost": 17,
+        "source_order": [
+          1609,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.5298856496810913,
+        "dataset": "SciFact",
+        "end_char": 365,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "71cc2de4c0e59ffe34c334b47188fcbb",
+        "passage_rank": 5,
+        "query_id": "452",
+        "sentence_id": "716093ebd716c261e2edabb671511988",
+        "sentence_text": "BACKGROUND Variability of gene expression in human may link gene sequence variability and phenotypes; however, non-genetic variations, alone or in combination with genetics, may also influence expression traits and have a critical role in physiological and disease processes.   \n",
+        "sentence_token_cost": 48,
+        "source_order": [
+          1609,
+          0,
+          1,
+          0
+        ],
+        "source_position": 86
+      },
+      {
+        "cross_encoder_score": -3.091550827026367,
+        "dataset": "SciFact",
+        "end_char": 719,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "71cc2de4c0e59ffe34c334b47188fcbb",
+        "passage_rank": 5,
+        "query_id": "452",
+        "sentence_id": "08ba7f041c529cd4a10f3613034d830a",
+        "sentence_text": "METHODOLOGY/PRINCIPAL FINDINGS To get better insight into the overall variability of gene expression, we assessed the transcriptome of circulating monocytes, a key cell involved in immunity-related diseases and atherosclerosis, in 1,490 unrelated individuals and investigated its association with >675,000 SNPs and 10 common cardiovascular risk factors.",
+        "sentence_token_cost": 79,
+        "source_order": [
+          1609,
+          0,
+          2,
+          0
+        ],
+        "source_position": 366
+      },
+      {
+        "cross_encoder_score": -6.362755298614502,
+        "dataset": "SciFact",
+        "end_char": 863,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "71cc2de4c0e59ffe34c334b47188fcbb",
+        "passage_rank": 5,
+        "query_id": "452",
+        "sentence_id": "b4854970edc1ae12deb4bc2aa8d8def0",
+        "sentence_text": "Out of 12,808 expressed genes, 2,745 expression quantitative trait loci were detected (P<5.78x10(-12)), most of them (90%) being cis-modulated.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          1609,
+          0,
+          3,
+          0
+        ],
+        "source_position": 720
+      },
+      {
+        "cross_encoder_score": -9.750386238098145,
+        "dataset": "SciFact",
+        "end_char": 1081,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "71cc2de4c0e59ffe34c334b47188fcbb",
+        "passage_rank": 5,
+        "query_id": "452",
+        "sentence_id": "3303557be3fc75a181ee139734470631",
+        "sentence_text": "Extensive analyses showed that associations identified by genome-wide association studies of lipids, body mass index or blood pressure were rarely compatible with a mediation by monocyte expression level at the locus.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          1609,
+          0,
+          4,
+          0
+        ],
+        "source_position": 864
+      },
+      {
+        "cross_encoder_score": -8.687103271484375,
+        "dataset": "SciFact",
+        "end_char": 1212,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "71cc2de4c0e59ffe34c334b47188fcbb",
+        "passage_rank": 5,
+        "query_id": "452",
+        "sentence_id": "324e7297d63a500d5943b328cbe7409e",
+        "sentence_text": "At a study-wide level (P<3.9x10(-7)), 1,662 expression traits (13.0%) were significantly associated with at least one risk factor.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          1609,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1082
+      },
+      {
+        "cross_encoder_score": -4.415952205657959,
+        "dataset": "SciFact",
+        "end_char": 1341,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "71cc2de4c0e59ffe34c334b47188fcbb",
+        "passage_rank": 5,
+        "query_id": "452",
+        "sentence_id": "aee3e71f59e438b593e65cd4907b2697",
+        "sentence_text": "Genome-wide interaction analyses suggested that genetic variability and risk factors mostly acted additively on gene expression.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          1609,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1213
+      },
+      {
+        "cross_encoder_score": -7.320004463195801,
+        "dataset": "SciFact",
+        "end_char": 1560,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "71cc2de4c0e59ffe34c334b47188fcbb",
+        "passage_rank": 5,
+        "query_id": "452",
+        "sentence_id": "eaebd01ac9e85d0cde3ad5c6ffebe2cd",
+        "sentence_text": "Because of the structure of correlation among expression traits, the variability of risk factors could be characterized by a limited set of independent gene expressions which may have biological and clinical relevance.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          1609,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1342
+      },
+      {
+        "cross_encoder_score": -11.03671646118164,
+        "dataset": "SciFact",
+        "end_char": 1708,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "71cc2de4c0e59ffe34c334b47188fcbb",
+        "passage_rank": 5,
+        "query_id": "452",
+        "sentence_id": "c9c5ba299fc0bdeed208fccc4dbc325d",
+        "sentence_text": "For example expression traits associated with cigarette smoking were more strongly associated with carotid atherosclerosis than smoking itself.   \n",
+        "sentence_token_cost": 24,
+        "source_order": [
+          1609,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1561
+      },
+      {
+        "cross_encoder_score": -10.728059768676758,
+        "dataset": "SciFact",
+        "end_char": 1912,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "71cc2de4c0e59ffe34c334b47188fcbb",
+        "passage_rank": 5,
+        "query_id": "452",
+        "sentence_id": "3cf848cd78a9c46c28e36166d8ec61a8",
+        "sentence_text": "CONCLUSIONS/SIGNIFICANCE This study demonstrates that the monocyte transcriptome is a potent integrator of genetic and non-genetic influences of relevance for disease pathophysiology and risk assessment.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          1609,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1709
+      },
+      {
+        "cross_encoder_score": -9.59176254272461,
+        "dataset": "SciFact",
+        "end_char": 92,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "6c2189b6837d84953700530238d0237f",
+        "passage_rank": 6,
+        "query_id": "452",
+        "sentence_id": "a7c106132296b87dcbdb93fb5abe17c1",
+        "sentence_text": "Micromanagers of gene expression: the potentially widespread influence of metazoan microRNAs",
+        "sentence_token_cost": 18,
+        "source_order": [
+          1996,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.24759578704834,
+        "dataset": "SciFact",
+        "end_char": 294,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "6c2189b6837d84953700530238d0237f",
+        "passage_rank": 6,
+        "query_id": "452",
+        "sentence_id": "cb671eebd87600628bae872fa376c76d",
+        "sentence_text": "We propose that the microRNA milieu, unique to each cell type, productively dampens the expression of thousands of mRNAs and provides important context for the evolution of all metazoan mRNA sequences.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          1996,
+          0,
+          1,
+          0
+        ],
+        "source_position": 93
+      },
+      {
+        "cross_encoder_score": -4.875286102294922,
+        "dataset": "SciFact",
+        "end_char": 413,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "6c2189b6837d84953700530238d0237f",
+        "passage_rank": 6,
+        "query_id": "452",
+        "sentence_id": "63b3974fa5bbefe4650815ec83429eb5",
+        "sentence_text": "For genes that should not be expressed in a particular cell type, protein output is lowered to inconsequential levels.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1996,
+          0,
+          2,
+          0
+        ],
+        "source_position": 295
+      },
+      {
+        "cross_encoder_score": -5.853678226470947,
+        "dataset": "SciFact",
+        "end_char": 583,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "6c2189b6837d84953700530238d0237f",
+        "passage_rank": 6,
+        "query_id": "452",
+        "sentence_id": "fdb06c5c8a7d3588be0660f1cd21ad11",
+        "sentence_text": "For other genes, dosage is adjusted in a manner that allows for customized expression in different cell types while achieving a more uniform level within each cell type.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1996,
+          0,
+          3,
+          0
+        ],
+        "source_position": 414
+      },
+      {
+        "cross_encoder_score": -9.159977912902832,
+        "dataset": "SciFact",
+        "end_char": 773,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "6c2189b6837d84953700530238d0237f",
+        "passage_rank": 6,
+        "query_id": "452",
+        "sentence_id": "35e2cf0e7dc9c3dc4a2482fe58313928",
+        "sentence_text": "In these ways, the microRNAs add an extensive layer of gene control that integrates with transcriptional and other regulatory processes to expand the complexity of metazoan gene expression.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          1996,
+          0,
+          4,
+          0
+        ],
+        "source_position": 584
+      },
+      {
+        "cross_encoder_score": -8.799312591552734,
+        "dataset": "SciFact",
+        "end_char": 75,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "6d8274f91b215346673ee0984c0d561e",
+        "passage_rank": 1,
+        "query_id": "452",
+        "sentence_id": "0e96d9eef4126b433dd960661bd5cced",
+        "sentence_text": "Nature, Nurture, or Chance: Stochastic Gene Expression and Its Consequences",
+        "sentence_token_cost": 16,
+        "source_order": [
+          2098,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -0.22771695256233215,
+        "dataset": "SciFact",
+        "end_char": 242,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "6d8274f91b215346673ee0984c0d561e",
+        "passage_rank": 1,
+        "query_id": "452",
+        "sentence_id": "8be41ab04c18c8325bd9b359dbc4ed6e",
+        "sentence_text": "Gene expression is a fundamentally stochastic process, with randomness in transcription and translation leading to cell-to-cell variations in mRNA and protein levels.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2098,
+          0,
+          1,
+          0
+        ],
+        "source_position": 76
+      },
+      {
+        "cross_encoder_score": -5.299872398376465,
+        "dataset": "SciFact",
+        "end_char": 437,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "6d8274f91b215346673ee0984c0d561e",
+        "passage_rank": 1,
+        "query_id": "452",
+        "sentence_id": "39713dc6cb81b5e449a4f0d25a97d884",
+        "sentence_text": "This variation appears in organisms ranging from microbes to metazoans, and its characteristics depend both on the biophysical parameters governing gene expression and on gene network structure.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          2098,
+          0,
+          2,
+          0
+        ],
+        "source_position": 243
+      },
+      {
+        "cross_encoder_score": -6.680855751037598,
+        "dataset": "SciFact",
+        "end_char": 571,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "6d8274f91b215346673ee0984c0d561e",
+        "passage_rank": 1,
+        "query_id": "452",
+        "sentence_id": "9deb7cad42b971dd29bcdf3b860edf28",
+        "sentence_text": "Stochastic gene expression has important consequences for cellular function, being beneficial in some contexts and harmful in others.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2098,
+          0,
+          3,
+          0
+        ],
+        "source_position": 438
+      },
+      {
+        "cross_encoder_score": -11.282525062561035,
+        "dataset": "SciFact",
+        "end_char": 688,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "6d8274f91b215346673ee0984c0d561e",
+        "passage_rank": 1,
+        "query_id": "452",
+        "sentence_id": "e5bd873e85e98eed97f9cdc768c3a1b0",
+        "sentence_text": "These situations include the stress response, metabolism, development, the cell cycle, circadian rhythms, and aging.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          2098,
+          0,
+          4,
+          0
+        ],
+        "source_position": 572
+      },
+      {
+        "cross_encoder_score": -8.388174057006836,
+        "dataset": "SciFact",
+        "end_char": 73,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "84cda592b6f637c6ac292aee746a4a66",
+        "passage_rank": 4,
+        "query_id": "452",
+        "sentence_id": "c4e037f571d3f15ec03850c6049b6778",
+        "sentence_text": "Single-RNA counting reveals alternative modes of gene expression in yeast",
+        "sentence_token_cost": 12,
+        "source_order": [
+          2603,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.631233215332031,
+        "dataset": "SciFact",
+        "end_char": 222,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "84cda592b6f637c6ac292aee746a4a66",
+        "passage_rank": 4,
+        "query_id": "452",
+        "sentence_id": "d418bf747ba85adaea123d9169a7073c",
+        "sentence_text": "Proper execution of transcriptional programs is a key requirement of gene expression regulation, demanding accurate control of timing and amplitude.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2603,
+          0,
+          1,
+          0
+        ],
+        "source_position": 74
+      },
+      {
+        "cross_encoder_score": -10.89541244506836,
+        "dataset": "SciFact",
+        "end_char": 297,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "84cda592b6f637c6ac292aee746a4a66",
+        "passage_rank": 4,
+        "query_id": "452",
+        "sentence_id": "3463b8fed4936b4dd02c6495594cf899",
+        "sentence_text": "How precisely the transcription machinery fulfills this task is not known.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          2603,
+          0,
+          2,
+          0
+        ],
+        "source_position": 223
+      },
+      {
+        "cross_encoder_score": -9.834961891174316,
+        "dataset": "SciFact",
+        "end_char": 475,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "84cda592b6f637c6ac292aee746a4a66",
+        "passage_rank": 4,
+        "query_id": "452",
+        "sentence_id": "94cfee0ed63450f45bafffa405fe7f64",
+        "sentence_text": "Using an in situ hybridization approach that detects single mRNA molecules, we measured mRNA abundance and transcriptional activity within single Saccharomyces cerevisiae cells.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          2603,
+          0,
+          3,
+          0
+        ],
+        "source_position": 298
+      },
+      {
+        "cross_encoder_score": 1.5006834268569946,
+        "dataset": "SciFact",
+        "end_char": 603,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "84cda592b6f637c6ac292aee746a4a66",
+        "passage_rank": 4,
+        "query_id": "452",
+        "sentence_id": "abb2b7d20d858a870eb622683ff75a69",
+        "sentence_text": "We found that expression levels for particular genes are higher than initially reported and can vary substantially among cells.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          2603,
+          0,
+          4,
+          0
+        ],
+        "source_position": 476
+      },
+      {
+        "cross_encoder_score": -2.89066743850708,
+        "dataset": "SciFact",
+        "end_char": 687,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "84cda592b6f637c6ac292aee746a4a66",
+        "passage_rank": 4,
+        "query_id": "452",
+        "sentence_id": "bc4e6e8377c147ae9b6287cf3db925fb",
+        "sentence_text": "However, variability for most constitutively expressed genes is unexpectedly small.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          2603,
+          0,
+          5,
+          0
+        ],
+        "source_position": 604
+      },
+      {
+        "cross_encoder_score": -4.2782368659973145,
+        "dataset": "SciFact",
+        "end_char": 950,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "84cda592b6f637c6ac292aee746a4a66",
+        "passage_rank": 4,
+        "query_id": "452",
+        "sentence_id": "c18b7adba63e0958ffff6f9456af1568",
+        "sentence_text": "Combining single-transcript measurements with computational modeling indicates that low expression variation is achieved by transcribing genes using single transcription-initiation events that are clearly separated in time, rather than by transcriptional bursts.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          2603,
+          0,
+          6,
+          0
+        ],
+        "source_position": 688
+      },
+      {
+        "cross_encoder_score": -8.379385948181152,
+        "dataset": "SciFact",
+        "end_char": 1105,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "84cda592b6f637c6ac292aee746a4a66",
+        "passage_rank": 4,
+        "query_id": "452",
+        "sentence_id": "c056c2fcbecce9dcbc3676e1a913367e",
+        "sentence_text": "In contrast, PDR5, a gene regulated by the transcription coactivator complex SAGA, is expressed using transcription bursts, resulting in larger variation.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          2603,
+          0,
+          7,
+          0
+        ],
+        "source_position": 951
+      },
+      {
+        "cross_encoder_score": -10.813173294067383,
+        "dataset": "SciFact",
+        "end_char": 1216,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "84cda592b6f637c6ac292aee746a4a66",
+        "passage_rank": 4,
+        "query_id": "452",
+        "sentence_id": "39a7b88fe60313fdf1503f5b63c2421b",
+        "sentence_text": "These data directly demonstrate the existence of multiple expression modes used to modulate the transcriptome.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          2603,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1106
+      },
+      {
+        "cross_encoder_score": -10.874661445617676,
+        "dataset": "SciFact",
+        "end_char": 51,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "73a5f5c53c705fd95fe76cda3b543423",
+        "passage_rank": 3,
+        "query_id": "452",
+        "sentence_id": "7e425b11479127cdb9aafd5c6e849f1c",
+        "sentence_text": "Epigenetic instability in ES cells and cloned mice.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          3239,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.278925895690918,
+        "dataset": "SciFact",
+        "end_char": 198,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "73a5f5c53c705fd95fe76cda3b543423",
+        "passage_rank": 3,
+        "query_id": "452",
+        "sentence_id": "fc4a738e654a96d5bcf2f5e4e4f2fcbe",
+        "sentence_text": "Cloning by nuclear transfer (NT) is an inefficient process in which most clones die before birth and survivors often display growth abnormalities.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          3239,
+          0,
+          1,
+          0
+        ],
+        "source_position": 52
+      },
+      {
+        "cross_encoder_score": -4.842563152313232,
+        "dataset": "SciFact",
+        "end_char": 443,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "73a5f5c53c705fd95fe76cda3b543423",
+        "passage_rank": 3,
+        "query_id": "452",
+        "sentence_id": "154c2bbb397d0eabe45ee3eaf4034624",
+        "sentence_text": "In an effort to correlate gene expression with survival and fetal overgrowth, we have examined imprinted gene expression in both mice cloned by nuclear transfer and in the embryonic stem (ES) cell donor populations from which they were derived.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          3239,
+          0,
+          2,
+          0
+        ],
+        "source_position": 199
+      },
+      {
+        "cross_encoder_score": -10.00416374206543,
+        "dataset": "SciFact",
+        "end_char": 522,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "73a5f5c53c705fd95fe76cda3b543423",
+        "passage_rank": 3,
+        "query_id": "452",
+        "sentence_id": "7fec93368c598b414841f8059b507739",
+        "sentence_text": "The epigenetic state of the ES cell genome was found to be extremely unstable.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          3239,
+          0,
+          3,
+          0
+        ],
+        "source_position": 444
+      },
+      {
+        "cross_encoder_score": -1.4657875299453735,
+        "dataset": "SciFact",
+        "end_char": 664,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "73a5f5c53c705fd95fe76cda3b543423",
+        "passage_rank": 3,
+        "query_id": "452",
+        "sentence_id": "1893137b09671d6daee4428afae06573",
+        "sentence_text": "Similarly, variation in imprinted gene expression was observed in most cloned mice, even in those derived from ES cells of the same subclone.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          3239,
+          0,
+          4,
+          0
+        ],
+        "source_position": 523
+      },
+      {
+        "cross_encoder_score": -10.703310012817383,
+        "dataset": "SciFact",
+        "end_char": 847,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "73a5f5c53c705fd95fe76cda3b543423",
+        "passage_rank": 3,
+        "query_id": "452",
+        "sentence_id": "825b8349275f49cd62e3f8a5475dd91a",
+        "sentence_text": "Many of the animals survived to adulthood despite widespread gene dysregulation, indicating that mammalian development may be rather tolerant to epigenetic aberrations of the genome.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          3239,
+          0,
+          5,
+          0
+        ],
+        "source_position": 665
+      },
+      {
+        "cross_encoder_score": -7.536323070526123,
+        "dataset": "SciFact",
+        "end_char": 957,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "73a5f5c53c705fd95fe76cda3b543423",
+        "passage_rank": 3,
+        "query_id": "452",
+        "sentence_id": "cf8950e55777389040273e5a5765414e",
+        "sentence_text": "These data imply that even apparently normal cloned animals may have subtle abnormalities in gene expression.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          3239,
+          0,
+          6,
+          0
+        ],
+        "source_position": 848
+      },
+      {
+        "cross_encoder_score": -10.61939811706543,
+        "dataset": "SciFact",
+        "end_char": 106,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "6d2c88eadf68c0ba9dc1680bddfa9cfd",
+        "passage_rank": 10,
+        "query_id": "452",
+        "sentence_id": "e51f31eda6bd7238c608452c6f2c6f28",
+        "sentence_text": "Identification of genes associated with the astrocyte-specific gene Gfap during astrocyte differentiation.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          3952,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.638451099395752,
+        "dataset": "SciFact",
+        "end_char": 265,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "6d2c88eadf68c0ba9dc1680bddfa9cfd",
+        "passage_rank": 10,
+        "query_id": "452",
+        "sentence_id": "9a8399d1c92ff979d3b89b6d242e044a",
+        "sentence_text": "Chromosomes and genes are non-randomly arranged within the mammalian cell nucleus, and gene clustering is of great significance in transcriptional regulation.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          3952,
+          0,
+          1,
+          0
+        ],
+        "source_position": 107
+      },
+      {
+        "cross_encoder_score": -5.853028774261475,
+        "dataset": "SciFact",
+        "end_char": 421,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "6d2c88eadf68c0ba9dc1680bddfa9cfd",
+        "passage_rank": 10,
+        "query_id": "452",
+        "sentence_id": "4659b2fa950aba5128ce2a9afc7311bc",
+        "sentence_text": "However, the relevance of gene clustering and their expression during the differentiation of neural precursor cells (NPCs) into astrocytes remains unclear.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          3952,
+          0,
+          2,
+          0
+        ],
+        "source_position": 266
+      },
+      {
+        "cross_encoder_score": -10.860760688781738,
+        "dataset": "SciFact",
+        "end_char": 642,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "6d2c88eadf68c0ba9dc1680bddfa9cfd",
+        "passage_rank": 10,
+        "query_id": "452",
+        "sentence_id": "03f41db3e0415e9f11073f28cc7428b9",
+        "sentence_text": "We performed a genome-wide enhanced circular chromosomal conformation capture (e4C) to screen for genes associated with the astrocyte-specific gene glial fibrillary acidic protein (Gfap) during astrocyte differentiation.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          3952,
+          0,
+          3,
+          0
+        ],
+        "source_position": 422
+      },
+      {
+        "cross_encoder_score": -10.231870651245117,
+        "dataset": "SciFact",
+        "end_char": 750,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "6d2c88eadf68c0ba9dc1680bddfa9cfd",
+        "passage_rank": 10,
+        "query_id": "452",
+        "sentence_id": "c11343d7f134e8a38793b6aa25785277",
+        "sentence_text": "We identified 18 genes that were specifically associated with Gfap and expressed in NPC-derived astrocytes.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3952,
+          0,
+          4,
+          0
+        ],
+        "source_position": 643
+      },
+      {
+        "cross_encoder_score": -10.343172073364258,
+        "dataset": "SciFact",
+        "end_char": 899,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "6d2c88eadf68c0ba9dc1680bddfa9cfd",
+        "passage_rank": 10,
+        "query_id": "452",
+        "sentence_id": "b88cee20b2ec198317421ff6e065d282",
+        "sentence_text": "Our results provide additional evidence for the functional significance of gene clustering in transcriptional regulation during NPC differentiation.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          3952,
+          0,
+          5,
+          0
+        ],
+        "source_position": 751
+      },
+      {
+        "cross_encoder_score": -11.01977252960205,
+        "dataset": "SciFact",
+        "end_char": 62,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "f0f2bb3c6a6f64286899da9ffc61bd45",
+        "passage_rank": 9,
+        "query_id": "452",
+        "sentence_id": "81594551f24b5b96f6415788f29c1f5c",
+        "sentence_text": "The role of regulatory variation in complex traits and disease",
+        "sentence_token_cost": 10,
+        "source_order": [
+          4264,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.3978910446167,
+        "dataset": "SciFact",
+        "end_char": 239,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "f0f2bb3c6a6f64286899da9ffc61bd45",
+        "passage_rank": 9,
+        "query_id": "452",
+        "sentence_id": "74010a1ed2222e827472bd400a9aeb6a",
+        "sentence_text": "We are in a phase of unprecedented progress in identifying genetic loci that cause variation in traits ranging from growth and fitness in simple organisms to disease in humans.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          4264,
+          0,
+          1,
+          0
+        ],
+        "source_position": 63
+      },
+      {
+        "cross_encoder_score": -11.257538795471191,
+        "dataset": "SciFact",
+        "end_char": 348,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "f0f2bb3c6a6f64286899da9ffc61bd45",
+        "passage_rank": 9,
+        "query_id": "452",
+        "sentence_id": "7930422510a2c2089ef298a4a4cc7720",
+        "sentence_text": "However, a mechanistic understanding of how these loci influence traits is lacking for the majority of loci.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          4264,
+          0,
+          2,
+          0
+        ],
+        "source_position": 240
+      },
+      {
+        "cross_encoder_score": -3.4374992847442627,
+        "dataset": "SciFact",
+        "end_char": 468,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "f0f2bb3c6a6f64286899da9ffc61bd45",
+        "passage_rank": 9,
+        "query_id": "452",
+        "sentence_id": "b85a853c287f091c6c3a621300b59d18",
+        "sentence_text": "Studies of the genetics of gene expression have emerged as a key tool for linking DNA sequence variation to phenotypes.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          4264,
+          0,
+          3,
+          0
+        ],
+        "source_position": 349
+      },
+      {
+        "cross_encoder_score": -10.922324180603027,
+        "dataset": "SciFact",
+        "end_char": 617,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "f0f2bb3c6a6f64286899da9ffc61bd45",
+        "passage_rank": 9,
+        "query_id": "452",
+        "sentence_id": "c2881aa1535fe90efda592a3cd9955e0",
+        "sentence_text": "Here, we review recent insights into the molecular nature of regulatory variants and describe their influence on the transcriptome and the proteome.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          4264,
+          0,
+          4,
+          0
+        ],
+        "source_position": 469
+      },
+      {
+        "cross_encoder_score": -8.595538139343262,
+        "dataset": "SciFact",
+        "end_char": 876,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "f0f2bb3c6a6f64286899da9ffc61bd45",
+        "passage_rank": 9,
+        "query_id": "452",
+        "sentence_id": "44f502131cd2f78c2e6d39a46e19513c",
+        "sentence_text": "We discuss conceptual advances from studies in model organisms and present examples of complete chains of causality that link individual polymorphisms to changes in gene expression, which in turn result in physiological changes and, ultimately, disease risk.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          4264,
+          0,
+          5,
+          0
+        ],
+        "source_position": 618
+      },
+      {
+        "cross_encoder_score": -8.819622993469238,
+        "dataset": "SciFact",
+        "end_char": 112,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "fcfc3f39814502397d447f29676231f8",
+        "passage_rank": 7,
+        "query_id": "452",
+        "sentence_id": "8b4d7033b669379d69ab508ec2f6279c",
+        "sentence_text": "Genetic variability in a frozen batch of MCF-7 cells invisible in routine authentication affecting cell function",
+        "sentence_token_cost": 20,
+        "source_order": [
+          5047,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.828018188476562,
+        "dataset": "SciFact",
+        "end_char": 241,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "fcfc3f39814502397d447f29676231f8",
+        "passage_rank": 7,
+        "query_id": "452",
+        "sentence_id": "cc92cfb88c241ee6da7143613431c9aa",
+        "sentence_text": "Common recommendations for cell line authentication, annotation and quality control fall short addressing genetic heterogeneity.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          5047,
+          0,
+          1,
+          0
+        ],
+        "source_position": 113
+      },
+      {
+        "cross_encoder_score": -10.335989952087402,
+        "dataset": "SciFact",
+        "end_char": 548,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "fcfc3f39814502397d447f29676231f8",
+        "passage_rank": 7,
+        "query_id": "452",
+        "sentence_id": "47cfe67f9729c763bd9d7eb0a573f3a1",
+        "sentence_text": "Within the Human Toxome Project, we demonstrate that there can be marked cellular and phenotypic heterogeneity in a single batch of the human breast adenocarcinoma cell line MCF-7 obtained directly from a cell bank that are invisible with the usual cell authentication by short tandem repeat (STR) markers.",
+        "sentence_token_cost": 64,
+        "source_order": [
+          5047,
+          0,
+          2,
+          0
+        ],
+        "source_position": 242
+      },
+      {
+        "cross_encoder_score": -11.340876579284668,
+        "dataset": "SciFact",
+        "end_char": 699,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "fcfc3f39814502397d447f29676231f8",
+        "passage_rank": 7,
+        "query_id": "452",
+        "sentence_id": "fd74ba203f05633ac7f57931a5748ebc",
+        "sentence_text": "STR profiling just fulfills the purpose of authentication testing, which is to detect significant cross-contamination and cell line misidentification.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          5047,
+          0,
+          3,
+          0
+        ],
+        "source_position": 549
+      },
+      {
+        "cross_encoder_score": -10.880756378173828,
+        "dataset": "SciFact",
+        "end_char": 760,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "fcfc3f39814502397d447f29676231f8",
+        "passage_rank": 7,
+        "query_id": "452",
+        "sentence_id": "51650a8c6f3aac30786f3c87cbc73143",
+        "sentence_text": "Heterogeneity needs to be examined using additional methods.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          5047,
+          0,
+          4,
+          0
+        ],
+        "source_position": 700
+      },
+      {
+        "cross_encoder_score": -5.973074913024902,
+        "dataset": "SciFact",
+        "end_char": 993,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "fcfc3f39814502397d447f29676231f8",
+        "passage_rank": 7,
+        "query_id": "452",
+        "sentence_id": "1f29ff7f33010bc62785b11fd574c0c1",
+        "sentence_text": "This heterogeneity can have serious consequences for reproducibility of experiments as shown by morphology, estrogenic growth dose-response, whole genome gene expression and untargeted mass-spectroscopy metabolomics for MCF-7 cells.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          5047,
+          0,
+          5,
+          0
+        ],
+        "source_position": 761
+      },
+      {
+        "cross_encoder_score": -3.9422237873077393,
+        "dataset": "SciFact",
+        "end_char": 1242,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "fcfc3f39814502397d447f29676231f8",
+        "passage_rank": 7,
+        "query_id": "452",
+        "sentence_id": "3246debde2af0b60f61e46b2104d3261",
+        "sentence_text": "Using Comparative Genomic Hybridization (CGH), differences were traced back to genetic heterogeneity already in the cells from the original frozen vials from the same ATCC lot, however, STR markers did not differ from ATCC reference for any sample.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          5047,
+          0,
+          6,
+          0
+        ],
+        "source_position": 994
+      },
+      {
+        "cross_encoder_score": -8.803072929382324,
+        "dataset": "SciFact",
+        "end_char": 1489,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "fcfc3f39814502397d447f29676231f8",
+        "passage_rank": 7,
+        "query_id": "452",
+        "sentence_id": "e2a18adf617e9d0934c3865019956910",
+        "sentence_text": "These findings underscore the need for additional quality assurance in Good Cell Culture Practice and cell characterization, especially using other methods such as CGH to reveal possible genomic heterogeneity and genetic drifts within cell lines.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          5047,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1243
+      }
+    ],
+    "scoring_seconds": 0.31790649506729096,
+    "source_fingerprint": "a986b4fd362a6ce928689a085df3c6506de07a740e9e80f95efe09d6cab15eb4"
+  }
+}

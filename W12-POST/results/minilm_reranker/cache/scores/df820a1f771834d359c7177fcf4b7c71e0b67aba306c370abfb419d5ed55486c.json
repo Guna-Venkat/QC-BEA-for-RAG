@@ -1,0 +1,1691 @@
+{
+  "checksum": "acd58f2e8b451086dc5a747162a4acc132145861eba4cb9046303f506379b678",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "619"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 83,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "22a9143bb30c25bcb10702f3e8c6578ebdacd1c2634b3257dde6d9336e15bbb8",
+    "query_id": "619",
+    "scores": [
+      {
+        "cross_encoder_score": -5.6374006271362305,
+        "dataset": "SciFact",
+        "end_char": 181,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "24afc451536253c8aa4eada9ecef27f4",
+        "passage_rank": 1,
+        "query_id": "619",
+        "sentence_id": "d14a0a3087da635f70b300387e756d2a",
+        "sentence_text": "Microvessel Density and Status of p53 Protein as Potential Prognostic Factors for Adjuvant Anthracycline Chemotherapy in Retrospective Analysis of Early Breast Cancer Patients Group",
+        "sentence_token_cost": 39,
+        "source_order": [
+          206,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.40565824508667,
+        "dataset": "SciFact",
+        "end_char": 305,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "24afc451536253c8aa4eada9ecef27f4",
+        "passage_rank": 1,
+        "query_id": "619",
+        "sentence_id": "e8b5debc66f08d4f878fac01a677809e",
+        "sentence_text": "A considerable subgroup of patients with early breast cancer does not address benefits of anthracycline based chemotherapy.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          206,
+          0,
+          1,
+          0
+        ],
+        "source_position": 182
+      },
+      {
+        "cross_encoder_score": -7.586409568786621,
+        "dataset": "SciFact",
+        "end_char": 552,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "24afc451536253c8aa4eada9ecef27f4",
+        "passage_rank": 1,
+        "query_id": "619",
+        "sentence_id": "6f4aefd77ba75a3545a1dce7d37d28c8",
+        "sentence_text": "The aim of this retrospective study was to investigate the effect of microvessel density (MVD) and status of p53 protein on 5-year disease free survival (DFS) in the group of breast cancer patients treated with anthracyclines in adjuvant setting.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          206,
+          0,
+          2,
+          0
+        ],
+        "source_position": 306
+      },
+      {
+        "cross_encoder_score": -10.087257385253906,
+        "dataset": "SciFact",
+        "end_char": 650,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "24afc451536253c8aa4eada9ecef27f4",
+        "passage_rank": 1,
+        "query_id": "619",
+        "sentence_id": "71e75dbafa41b9f01565f6ecff6fa15a",
+        "sentence_text": "Correlations between MVD, p53 status and other clinicopathological parameters were also assessed.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          206,
+          0,
+          3,
+          0
+        ],
+        "source_position": 553
+      },
+      {
+        "cross_encoder_score": -10.48880672454834,
+        "dataset": "SciFact",
+        "end_char": 785,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "24afc451536253c8aa4eada9ecef27f4",
+        "passage_rank": 1,
+        "query_id": "619",
+        "sentence_id": "9467283246ff87d41f38f5a9e63a56c2",
+        "sentence_text": "MVD and p53 status were analyzed immunohistochemically in the group of 172 women with breast cancer in clinical stage T1-2, N1-N2, M0.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          206,
+          0,
+          4,
+          0
+        ],
+        "source_position": 651
+      },
+      {
+        "cross_encoder_score": -9.30521297454834,
+        "dataset": "SciFact",
+        "end_char": 921,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "24afc451536253c8aa4eada9ecef27f4",
+        "passage_rank": 1,
+        "query_id": "619",
+        "sentence_id": "0b86574dc70004eff468ede4d9adcdfb",
+        "sentence_text": "There were 123 tumors (71.5 %) with lower MVD (\u2264 214.8 microvesells/mm(2)) and 49 (28.5 %) with higher MVD (>214.8 microvesells/mm(2)).",
+        "sentence_token_cost": 61,
+        "source_order": [
+          206,
+          0,
+          5,
+          0
+        ],
+        "source_position": 786
+      },
+      {
+        "cross_encoder_score": -8.940694808959961,
+        "dataset": "SciFact",
+        "end_char": 1082,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "24afc451536253c8aa4eada9ecef27f4",
+        "passage_rank": 1,
+        "query_id": "619",
+        "sentence_id": "f47d5c79bf638d34a329a6c97cd876cb",
+        "sentence_text": "The proportion of higher MVD tumors significantly increased in N2 (P = 0.000) and in estrogen (P = 0.046) or progesterone receptors (P = 0.029) negative tumors.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          206,
+          0,
+          6,
+          0
+        ],
+        "source_position": 922
+      },
+      {
+        "cross_encoder_score": -10.1898775100708,
+        "dataset": "SciFact",
+        "end_char": 1367,
+        "pair_tokens_before_truncation": 115,
+        "pair_truncated": false,
+        "passage_id": "24afc451536253c8aa4eada9ecef27f4",
+        "passage_rank": 1,
+        "query_id": "619",
+        "sentence_id": "62b9c03512ea84981d62a2dc5e90fdf5",
+        "sentence_text": "p53 positivity was indicated in 50 cancers (29.1 %) and was significantly associated with higher grade (P = 0.000), steroid receptors negativity (P = 0.000), cytokeratin5/6 positivity (P = 0.026), topoisomerase II\u03b1 overexpression (P = 0.005) and higher proliferation rate (P = 0.001).",
+        "sentence_token_cost": 97,
+        "source_order": [
+          206,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1083
+      },
+      {
+        "cross_encoder_score": -9.984889030456543,
+        "dataset": "SciFact",
+        "end_char": 1518,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "24afc451536253c8aa4eada9ecef27f4",
+        "passage_rank": 1,
+        "query_id": "619",
+        "sentence_id": "a4193d5453a9cb0ea08373a7473f3a85",
+        "sentence_text": "In univariate analysis, higher MVD (P = 0.016) and p53 negativity (P = 0.023) were significantly related with longer DFS (median follow-up 36 months).",
+        "sentence_token_cost": 48,
+        "source_order": [
+          206,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1368
+      },
+      {
+        "cross_encoder_score": -10.50149154663086,
+        "dataset": "SciFact",
+        "end_char": 1601,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "24afc451536253c8aa4eada9ecef27f4",
+        "passage_rank": 1,
+        "query_id": "619",
+        "sentence_id": "00eef6fc823d67613f58141a257abaad",
+        "sentence_text": "In multivariate Cox regression analysis MVD was independently associated with DFS.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          206,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1519
+      },
+      {
+        "cross_encoder_score": -6.783529758453369,
+        "dataset": "SciFact",
+        "end_char": 1760,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "24afc451536253c8aa4eada9ecef27f4",
+        "passage_rank": 1,
+        "query_id": "619",
+        "sentence_id": "91550d1079b7edd39f5535b5c35fe51a",
+        "sentence_text": "These data suggest that higher MVD is favourable prognostic factors for early advanced breast cancer patients after adjuvant anthracycline based chemotherapy.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          206,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1602
+      },
+      {
+        "cross_encoder_score": -9.700796127319336,
+        "dataset": "SciFact",
+        "end_char": 92,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "b76622e31d5fec4962b66416bb07af18",
+        "passage_rank": 4,
+        "query_id": "619",
+        "sentence_id": "514e8d474f073d2eb6873ec5d032df76",
+        "sentence_text": "Hyaluronan impairs vascular function and drug delivery in a mouse model of pancreatic cancer",
+        "sentence_token_cost": 18,
+        "source_order": [
+          472,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.185522079467773,
+        "dataset": "SciFact",
+        "end_char": 246,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "b76622e31d5fec4962b66416bb07af18",
+        "passage_rank": 4,
+        "query_id": "619",
+        "sentence_id": "b47b391a9c304ac81042e0a3249cbce9",
+        "sentence_text": "OBJECTIVE Pancreatic ductal adenocarcinoma (PDA) is characterised by stromal desmoplasia and vascular dysfunction, which critically impair drug delivery.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          472,
+          0,
+          1,
+          0
+        ],
+        "source_position": 93
+      },
+      {
+        "cross_encoder_score": -9.809061050415039,
+        "dataset": "SciFact",
+        "end_char": 414,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "b76622e31d5fec4962b66416bb07af18",
+        "passage_rank": 4,
+        "query_id": "619",
+        "sentence_id": "0f52a69dc90b8411e413901ed4726da2",
+        "sentence_text": "This study examines the role of an abundant extracellular matrix component, the megadalton glycosaminoglycan hyaluronan (HA), as a novel therapeutic target in PDA.   \n",
+        "sentence_token_cost": 40,
+        "source_order": [
+          472,
+          0,
+          2,
+          0
+        ],
+        "source_position": 247
+      },
+      {
+        "cross_encoder_score": -10.721943855285645,
+        "dataset": "SciFact",
+        "end_char": 667,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "b76622e31d5fec4962b66416bb07af18",
+        "passage_rank": 4,
+        "query_id": "619",
+        "sentence_id": "791e2768f88ee6e8c89167494d5543f3",
+        "sentence_text": "METHODS Using a genetically engineered mouse model of PDA, the authors enzymatically depleted HA by a clinically formulated PEGylated human recombinant PH20 hyaluronidase (PEGPH20) and examined tumour perfusion, vascular permeability and drug delivery.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          472,
+          0,
+          3,
+          0
+        ],
+        "source_position": 415
+      },
+      {
+        "cross_encoder_score": -10.386974334716797,
+        "dataset": "SciFact",
+        "end_char": 787,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "b76622e31d5fec4962b66416bb07af18",
+        "passage_rank": 4,
+        "query_id": "619",
+        "sentence_id": "a5cf2b7460cce0fc10fc170392b10bbe",
+        "sentence_text": "The preclinical utility of PEGPH20 in combination with gemcitabine was assessed by short-term and survival studies.   \n",
+        "sentence_token_cost": 27,
+        "source_order": [
+          472,
+          0,
+          4,
+          0
+        ],
+        "source_position": 668
+      },
+      {
+        "cross_encoder_score": -4.981600284576416,
+        "dataset": "SciFact",
+        "end_char": 989,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "b76622e31d5fec4962b66416bb07af18",
+        "passage_rank": 4,
+        "query_id": "619",
+        "sentence_id": "0e510da64147496b380dc9fc53a93a8d",
+        "sentence_text": "RESULTS PEGPH20 rapidly and sustainably depleted HA, inducing the re-expansion of PDA blood vessels and increasing the intratumoral delivery of two chemotherapeutic agents, doxorubicin and gemcitabine.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          472,
+          0,
+          5,
+          0
+        ],
+        "source_position": 788
+      },
+      {
+        "cross_encoder_score": -8.764549255371094,
+        "dataset": "SciFact",
+        "end_char": 1165,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "b76622e31d5fec4962b66416bb07af18",
+        "passage_rank": 4,
+        "query_id": "619",
+        "sentence_id": "456c29bdc8c1ae2865a92943464c957b",
+        "sentence_text": "Moreover, PEGPH20 triggered fenestrations and interendothelial junctional gaps in PDA tumour endothelia and promoted a tumour-specific increase in macromolecular permeability.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          472,
+          0,
+          6,
+          0
+        ],
+        "source_position": 990
+      },
+      {
+        "cross_encoder_score": -8.914518356323242,
+        "dataset": "SciFact",
+        "end_char": 1358,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "b76622e31d5fec4962b66416bb07af18",
+        "passage_rank": 4,
+        "query_id": "619",
+        "sentence_id": "659c5ebacfe2fe4877b5a66898643230",
+        "sentence_text": "Finally, combination therapy with PEGPH20 and gemcitabine led to inhibition of PDA tumour growth and prolonged survival over gemcitabine monotherapy, suggesting immediate clinical utility.   \n",
+        "sentence_token_cost": 41,
+        "source_order": [
+          472,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1166
+      },
+      {
+        "cross_encoder_score": -9.291248321533203,
+        "dataset": "SciFact",
+        "end_char": 1584,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "b76622e31d5fec4962b66416bb07af18",
+        "passage_rank": 4,
+        "query_id": "619",
+        "sentence_id": "b1b991d915421d85a2ec0f766ec6ce87",
+        "sentence_text": "CONCLUSIONS The authors demonstrate that HA impedes the intratumoral vasculature in PDA and propose that its enzymatic depletion be explored as a means to improve drug delivery and response in patients with pancreatic cancer.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          472,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1359
+      },
+      {
+        "cross_encoder_score": -6.3758087158203125,
+        "dataset": "SciFact",
+        "end_char": 119,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "36fc749ab525193d94b98142ab4f1221",
+        "passage_rank": 6,
+        "query_id": "619",
+        "sentence_id": "664da6a167cf3211404f8ef0fbcd4bed",
+        "sentence_text": "IL6 derived from cancer-associated fibroblasts promotes chemoresistance via CXCR7 in esophageal squamous cell carcinoma",
+        "sentence_token_cost": 26,
+        "source_order": [
+          601,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.213725090026855,
+        "dataset": "SciFact",
+        "end_char": 254,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "36fc749ab525193d94b98142ab4f1221",
+        "passage_rank": 6,
+        "query_id": "619",
+        "sentence_id": "3a7450e480a29608db75c6f9eeb02356",
+        "sentence_text": "Various factors and cellular components in the tumor microenvironment are key drivers associated with drug resistance in many cancers.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          601,
+          0,
+          1,
+          0
+        ],
+        "source_position": 120
+      },
+      {
+        "cross_encoder_score": -9.328900337219238,
+        "dataset": "SciFact",
+        "end_char": 397,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "36fc749ab525193d94b98142ab4f1221",
+        "passage_rank": 6,
+        "query_id": "619",
+        "sentence_id": "985c74229760e79eed35e3e912e3f34d",
+        "sentence_text": "Here, we analyzed the factors and molecular mechanisms involved in chemoresistance in patients with esophageal squamous cell carcinoma (ESCC).",
+        "sentence_token_cost": 28,
+        "source_order": [
+          601,
+          0,
+          2,
+          0
+        ],
+        "source_position": 255
+      },
+      {
+        "cross_encoder_score": -7.903369426727295,
+        "dataset": "SciFact",
+        "end_char": 685,
+        "pair_tokens_before_truncation": 97,
+        "pair_truncated": false,
+        "passage_id": "36fc749ab525193d94b98142ab4f1221",
+        "passage_rank": 6,
+        "query_id": "619",
+        "sentence_id": "9f75c0798de858ad04388e59d4e17890",
+        "sentence_text": "We found that interleukin 6 (IL6) derived mainly from cancer-associated fibroblasts played the most important role in chemoresistance by upregulating C-X-C motif chemokine receptor 7 (CXCR7) expression through signal transducer and activator of transcription 3/nuclear factor-\u03baB pathway.",
+        "sentence_token_cost": 69,
+        "source_order": [
+          601,
+          0,
+          3,
+          0
+        ],
+        "source_position": 398
+      },
+      {
+        "cross_encoder_score": -9.082170486450195,
+        "dataset": "SciFact",
+        "end_char": 778,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "36fc749ab525193d94b98142ab4f1221",
+        "passage_rank": 6,
+        "query_id": "619",
+        "sentence_id": "b0baa60d6e502c34b934a2a227d0151e",
+        "sentence_text": "CXCR7 knockdown resulted in the inhibition of IL6-induced proliferation and chemoresistance.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          601,
+          0,
+          4,
+          0
+        ],
+        "source_position": 686
+      },
+      {
+        "cross_encoder_score": -8.933942794799805,
+        "dataset": "SciFact",
+        "end_char": 1043,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "36fc749ab525193d94b98142ab4f1221",
+        "passage_rank": 6,
+        "query_id": "619",
+        "sentence_id": "8bfa11afe524a49becc92f57772aab0c",
+        "sentence_text": "In addition, CXCR7 silencing significantly decreased gene expression associated with stemness, chemoresistance and epithelial\u2013mesenchymal transition and suppressed the proliferation ability of ESCC cells in three-dimensional culture systems and angiogenesis assay.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          601,
+          0,
+          5,
+          0
+        ],
+        "source_position": 779
+      },
+      {
+        "cross_encoder_score": -9.808820724487305,
+        "dataset": "SciFact",
+        "end_char": 1237,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "36fc749ab525193d94b98142ab4f1221",
+        "passage_rank": 6,
+        "query_id": "619",
+        "sentence_id": "176de276f0c5cab40dd493b7015dc93e",
+        "sentence_text": "In clinical samples, ESCC patients with high expression of CXCR7 and IL6 presented a significantly worse overall survival and progression-free survival upon receiving cisplatin after operation.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          601,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1044
+      },
+      {
+        "cross_encoder_score": -8.291476249694824,
+        "dataset": "SciFact",
+        "end_char": 1341,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "36fc749ab525193d94b98142ab4f1221",
+        "passage_rank": 6,
+        "query_id": "619",
+        "sentence_id": "b53aa5b135e427b9e6a56014d5d9097d",
+        "sentence_text": "These results suggest that the IL6\u2013CXCR7 axis may provide a promising target for the treatment of ESCC.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          601,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1238
+      },
+      {
+        "cross_encoder_score": -7.29946756362915,
+        "dataset": "SciFact",
+        "end_char": 133,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "5b42225192ceb4278f794039db45d7c0",
+        "passage_rank": 5,
+        "query_id": "619",
+        "sentence_id": "8ef1a1ca286902c5dab4a2276cffc841",
+        "sentence_text": "Cancer-Associated Fibroblasts Neutralize the Anti-tumor Effect of CSF1 Receptor Blockade by Inducing PMN-MDSC Infiltration of Tumors.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          630,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.262960433959961,
+        "dataset": "SciFact",
+        "end_char": 216,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "5b42225192ceb4278f794039db45d7c0",
+        "passage_rank": 5,
+        "query_id": "619",
+        "sentence_id": "61c6b4b9c168e2814d10d474f7113c1e",
+        "sentence_text": "Tumor-associated macrophages (TAM) contribute to all aspects of tumor progression.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          630,
+          0,
+          1,
+          0
+        ],
+        "source_position": 134
+      },
+      {
+        "cross_encoder_score": -8.981529235839844,
+        "dataset": "SciFact",
+        "end_char": 329,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "5b42225192ceb4278f794039db45d7c0",
+        "passage_rank": 5,
+        "query_id": "619",
+        "sentence_id": "04dd32605ff75d40ccef062996083949",
+        "sentence_text": "Use of CSF1R inhibitors to target TAM is therapeutically appealing, but has had very limited anti-tumor effects.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          630,
+          0,
+          2,
+          0
+        ],
+        "source_position": 217
+      },
+      {
+        "cross_encoder_score": -7.661458492279053,
+        "dataset": "SciFact",
+        "end_char": 419,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "5b42225192ceb4278f794039db45d7c0",
+        "passage_rank": 5,
+        "query_id": "619",
+        "sentence_id": "79d85dacf3824b71d4d3e9e1781f334d",
+        "sentence_text": "Here, we have identified the mechanism that limited the effect of CSF1R targeted therapy.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          630,
+          0,
+          3,
+          0
+        ],
+        "source_position": 330
+      },
+      {
+        "cross_encoder_score": -7.452399253845215,
+        "dataset": "SciFact",
+        "end_char": 548,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "5b42225192ceb4278f794039db45d7c0",
+        "passage_rank": 5,
+        "query_id": "619",
+        "sentence_id": "1dcc8d7afa6e1ab0ee2d7be95569ec80",
+        "sentence_text": "We demonstrated that carcinoma-associated fibroblasts (CAF) are major sources of chemokines that recruit granulocytes to tumors.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          630,
+          0,
+          4,
+          0
+        ],
+        "source_position": 420
+      },
+      {
+        "cross_encoder_score": -9.653088569641113,
+        "dataset": "SciFact",
+        "end_char": 717,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "5b42225192ceb4278f794039db45d7c0",
+        "passage_rank": 5,
+        "query_id": "619",
+        "sentence_id": "4b04bd0cdff8237b5d19da9deb04402e",
+        "sentence_text": "CSF1 produced by tumor cells caused HDAC2-mediated downregulation of granulocyte-specific chemokine expression in CAF, which limited migration of these cells to tumors.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          630,
+          0,
+          5,
+          0
+        ],
+        "source_position": 549
+      },
+      {
+        "cross_encoder_score": -6.762083053588867,
+        "dataset": "SciFact",
+        "end_char": 846,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "5b42225192ceb4278f794039db45d7c0",
+        "passage_rank": 5,
+        "query_id": "619",
+        "sentence_id": "fd49604648ced39c28f5b1f55fa4be95",
+        "sentence_text": "Treatment with CSF1R inhibitors disrupted this crosstalk and triggered a profound increase in granulocyte recruitment to tumors.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          630,
+          0,
+          6,
+          0
+        ],
+        "source_position": 718
+      },
+      {
+        "cross_encoder_score": -9.17776107788086,
+        "dataset": "SciFact",
+        "end_char": 977,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "5b42225192ceb4278f794039db45d7c0",
+        "passage_rank": 5,
+        "query_id": "619",
+        "sentence_id": "50646b6f89551296f3c1e477d37b2b6c",
+        "sentence_text": "Combining CSF1R inhibitor with a CXCR2 antagonist blocked granulocyte infiltration of tumors and showed strong anti-tumor effects.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          630,
+          0,
+          7,
+          0
+        ],
+        "source_position": 847
+      },
+      {
+        "cross_encoder_score": -5.345479965209961,
+        "dataset": "SciFact",
+        "end_char": 98,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "9f62a4c38723b2561d1e98e1e9fbaf72",
+        "passage_rank": 7,
+        "query_id": "619",
+        "sentence_id": "4b68fd81ba2699edc6bc715000836441",
+        "sentence_text": "Cancer cell\u2013autonomous contribution of type I interferon signaling to the efficacy of chemotherapy",
+        "sentence_token_cost": 18,
+        "source_order": [
+          1032,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.274563789367676,
+        "dataset": "SciFact",
+        "end_char": 248,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "9f62a4c38723b2561d1e98e1e9fbaf72",
+        "passage_rank": 7,
+        "query_id": "619",
+        "sentence_id": "6de838702fc16720a2ab04b9a436e579",
+        "sentence_text": "Some of the anti-neoplastic effects of anthracyclines in mice originate from the induction of innate and T cell\u2013mediated anticancer immune responses.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          1032,
+          0,
+          1,
+          0
+        ],
+        "source_position": 99
+      },
+      {
+        "cross_encoder_score": -10.60853099822998,
+        "dataset": "SciFact",
+        "end_char": 459,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "9f62a4c38723b2561d1e98e1e9fbaf72",
+        "passage_rank": 7,
+        "query_id": "619",
+        "sentence_id": "cd7d24e8ff411fcb45941b9013d36893",
+        "sentence_text": "Here we demonstrate that anthracyclines stimulate the rapid production of type I interferons (IFNs) by malignant cells after activation of the endosomal pattern recognition receptor Toll-like receptor 3 (TLR3).",
+        "sentence_token_cost": 44,
+        "source_order": [
+          1032,
+          0,
+          2,
+          0
+        ],
+        "source_position": 249
+      },
+      {
+        "cross_encoder_score": -10.277480125427246,
+        "dataset": "SciFact",
+        "end_char": 659,
+        "pair_tokens_before_truncation": 86,
+        "pair_truncated": false,
+        "passage_id": "9f62a4c38723b2561d1e98e1e9fbaf72",
+        "passage_rank": 7,
+        "query_id": "619",
+        "sentence_id": "a67241073365cb7f7fb1cd6e571a6dfa",
+        "sentence_text": "By binding to IFN-\u03b1 and IFN-\u03b2 receptors (IFNARs) on neoplastic cells, type I IFNs trigger autocrine and paracrine circuitries that result in the release of chemokine (C-X-C motif) ligand 10 (CXCL10).",
+        "sentence_token_cost": 64,
+        "source_order": [
+          1032,
+          0,
+          3,
+          0
+        ],
+        "source_position": 460
+      },
+      {
+        "cross_encoder_score": -8.273246765136719,
+        "dataset": "SciFact",
+        "end_char": 792,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "9f62a4c38723b2561d1e98e1e9fbaf72",
+        "passage_rank": 7,
+        "query_id": "619",
+        "sentence_id": "318a9d58230e22913cdbe3d07be07c33",
+        "sentence_text": "Tumors lacking Tlr3 or Ifnar failed to respond to chemotherapy unless type I IFN or Cxcl10, respectively, was artificially supplied.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          1032,
+          0,
+          4,
+          0
+        ],
+        "source_position": 660
+      },
+      {
+        "cross_encoder_score": -7.699454307556152,
+        "dataset": "SciFact",
+        "end_char": 996,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "9f62a4c38723b2561d1e98e1e9fbaf72",
+        "passage_rank": 7,
+        "query_id": "619",
+        "sentence_id": "6d01f9275e103901748fa394a364c7b4",
+        "sentence_text": "Moreover, a type I IFN\u2013related signature predicted clinical responses to anthracycline-based chemotherapy in several independent cohorts of patients with breast carcinoma characterized by poor prognosis.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          1032,
+          0,
+          5,
+          0
+        ],
+        "source_position": 793
+      },
+      {
+        "cross_encoder_score": -10.543445587158203,
+        "dataset": "SciFact",
+        "end_char": 1098,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "9f62a4c38723b2561d1e98e1e9fbaf72",
+        "passage_rank": 7,
+        "query_id": "619",
+        "sentence_id": "846db2d0f665b9b57cefc090f46328d8",
+        "sentence_text": "Our data suggest that anthracycline-mediated immune responses mimic those induced by viral pathogens.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          1032,
+          0,
+          6,
+          0
+        ],
+        "source_position": 997
+      },
+      {
+        "cross_encoder_score": -7.422545433044434,
+        "dataset": "SciFact",
+        "end_char": 1186,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "9f62a4c38723b2561d1e98e1e9fbaf72",
+        "passage_rank": 7,
+        "query_id": "619",
+        "sentence_id": "20b29202d4f120d5d4f8e6cbe532e3af",
+        "sentence_text": "We surmise that such 'viral mimicry' constitutes a hallmark of successful chemotherapy.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          1032,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1099
+      },
+      {
+        "cross_encoder_score": -9.820307731628418,
+        "dataset": "SciFact",
+        "end_char": 109,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "e662863ff6da96a246486565e3bffa3d",
+        "passage_rank": 9,
+        "query_id": "619",
+        "sentence_id": "cd582e841a7d48cc95d6e814934d392f",
+        "sentence_text": "Enzymatic targeting of the stroma ablates physical barriers to treatment of pancreatic ductal adenocarcinoma.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2105,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.0836820602417,
+        "dataset": "SciFact",
+        "end_char": 208,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "e662863ff6da96a246486565e3bffa3d",
+        "passage_rank": 9,
+        "query_id": "619",
+        "sentence_id": "7eac07c854818704df88408ffc9ead9b",
+        "sentence_text": "Pancreatic ductal adenocarcinomas (PDAs) are characterized by a robust fibroinflammatory response.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          2105,
+          0,
+          1,
+          0
+        ],
+        "source_position": 110
+      },
+      {
+        "cross_encoder_score": -8.138821601867676,
+        "dataset": "SciFact",
+        "end_char": 526,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "e662863ff6da96a246486565e3bffa3d",
+        "passage_rank": 9,
+        "query_id": "619",
+        "sentence_id": "3084a9e0f663871dc9917e6e7089dfec",
+        "sentence_text": "We show here that this desmoplastic reaction generates inordinately high interstitial fluid pressures (IFPs), exceeding those previously measured or theorized for solid tumors, and induces vascular collapse, while presenting substantial barriers to perfusion, diffusion, and convection of small molecule therapeutics.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          2105,
+          0,
+          2,
+          0
+        ],
+        "source_position": 209
+      },
+      {
+        "cross_encoder_score": -10.97667121887207,
+        "dataset": "SciFact",
+        "end_char": 791,
+        "pair_tokens_before_truncation": 91,
+        "pair_truncated": false,
+        "passage_id": "e662863ff6da96a246486565e3bffa3d",
+        "passage_rank": 9,
+        "query_id": "619",
+        "sentence_id": "0a40f9a09a8347b71362dde7d0976c78",
+        "sentence_text": "We identify hyaluronan, or hyaluronic acid (HA), as the primary matrix determinant of these barriers and show that systemic administration of an enzymatic agent can ablate stromal HA from autochthonous murine PDA, normalize IFP, and re-expand the microvasculature.",
+        "sentence_token_cost": 64,
+        "source_order": [
+          2105,
+          0,
+          3,
+          0
+        ],
+        "source_position": 527
+      },
+      {
+        "cross_encoder_score": -7.315250396728516,
+        "dataset": "SciFact",
+        "end_char": 1020,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "e662863ff6da96a246486565e3bffa3d",
+        "passage_rank": 9,
+        "query_id": "619",
+        "sentence_id": "0193b079c4da2633ece180d02ea4e2f0",
+        "sentence_text": "In combination with the standard chemotherapeutic, gemcitabine, the treatment permanently remodels the tumor microenvironment and consistently achieves objective tumor responses, resulting in a near doubling of overall survival.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          2105,
+          0,
+          4,
+          0
+        ],
+        "source_position": 792
+      },
+      {
+        "cross_encoder_score": -9.301112174987793,
+        "dataset": "SciFact",
+        "end_char": 69,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "7e2e6fa4f5817abef97519c051bc1c37",
+        "passage_rank": 10,
+        "query_id": "619",
+        "sentence_id": "9a892b25f68e1982afd93687ccf0baa4",
+        "sentence_text": "A CXCL1 Paracrine Network Links Cancer Chemoresistance and Metastasis",
+        "sentence_token_cost": 17,
+        "source_order": [
+          2566,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.566387176513672,
+        "dataset": "SciFact",
+        "end_char": 182,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "7e2e6fa4f5817abef97519c051bc1c37",
+        "passage_rank": 10,
+        "query_id": "619",
+        "sentence_id": "c059b01087a616eb4a619e70bdfe411a",
+        "sentence_text": "Metastasis and chemoresistance in cancer are linked phenomena, but the molecular basis for this link is unknown.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          2566,
+          0,
+          1,
+          0
+        ],
+        "source_position": 70
+      },
+      {
+        "cross_encoder_score": -10.437685012817383,
+        "dataset": "SciFact",
+        "end_char": 321,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "7e2e6fa4f5817abef97519c051bc1c37",
+        "passage_rank": 10,
+        "query_id": "619",
+        "sentence_id": "941ce321bc30445ccb03e0bd68676a04",
+        "sentence_text": "We uncovered a network of paracrine signals between carcinoma, myeloid, and endothelial cells that drives both processes in breast cancer.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          2566,
+          0,
+          2,
+          0
+        ],
+        "source_position": 183
+      },
+      {
+        "cross_encoder_score": -9.944504737854004,
+        "dataset": "SciFact",
+        "end_char": 465,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "7e2e6fa4f5817abef97519c051bc1c37",
+        "passage_rank": 10,
+        "query_id": "619",
+        "sentence_id": "d467f1f611f27100d1cf4ee1c04703c7",
+        "sentence_text": "Cancer cells that overexpress CXCL1 and 2 by transcriptional hyperactivation or 4q21 amplification are primed for survival in metastatic sites.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          2566,
+          0,
+          3,
+          0
+        ],
+        "source_position": 322
+      },
+      {
+        "cross_encoder_score": -8.960861206054688,
+        "dataset": "SciFact",
+        "end_char": 605,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "7e2e6fa4f5817abef97519c051bc1c37",
+        "passage_rank": 10,
+        "query_id": "619",
+        "sentence_id": "8f5e7526923dd05a27b473c2146a4430",
+        "sentence_text": "CXCL1/2 attract CD11b(+)Gr1(+) myeloid cells into the tumor, which produce chemokines including S100A8/9 that enhance cancer cell survival.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          2566,
+          0,
+          4,
+          0
+        ],
+        "source_position": 466
+      },
+      {
+        "cross_encoder_score": -6.4045329093933105,
+        "dataset": "SciFact",
+        "end_char": 778,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "7e2e6fa4f5817abef97519c051bc1c37",
+        "passage_rank": 10,
+        "query_id": "619",
+        "sentence_id": "8b27982ab8e4b5119deb78748eb9c822",
+        "sentence_text": "Although chemotherapeutic agents kill cancer cells, these treatments trigger a parallel stromal reaction leading to TNF-\u03b1 production by endothelial and other stromal cells.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          2566,
+          0,
+          5,
+          0
+        ],
+        "source_position": 606
+      },
+      {
+        "cross_encoder_score": -9.80875015258789,
+        "dataset": "SciFact",
+        "end_char": 915,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "7e2e6fa4f5817abef97519c051bc1c37",
+        "passage_rank": 10,
+        "query_id": "619",
+        "sentence_id": "dbe60b9c0715d786aad1d7251806fbeb",
+        "sentence_text": "TNF-\u03b1 via NF-kB heightens the CXCL1/2 expression in cancer cells, thus amplifying the CXCL1/2-S100A8/9 loop and causing chemoresistance.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          2566,
+          0,
+          6,
+          0
+        ],
+        "source_position": 779
+      },
+      {
+        "cross_encoder_score": -5.135791301727295,
+        "dataset": "SciFact",
+        "end_char": 1047,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "7e2e6fa4f5817abef97519c051bc1c37",
+        "passage_rank": 10,
+        "query_id": "619",
+        "sentence_id": "f977eafbc2bd1f4115329298ef1b4ad9",
+        "sentence_text": "CXCR2 blockers break this cycle, augmenting the efficacy of chemotherapy against breast tumors and particularly against metastasis.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          2566,
+          0,
+          7,
+          0
+        ],
+        "source_position": 916
+      },
+      {
+        "cross_encoder_score": -9.240071296691895,
+        "dataset": "SciFact",
+        "end_char": 1214,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "7e2e6fa4f5817abef97519c051bc1c37",
+        "passage_rank": 10,
+        "query_id": "619",
+        "sentence_id": "363c1bb1e07b85cfa7fc98aee8e3a139",
+        "sentence_text": "This network of endothelial-carcinoma-myeloid signaling interactions provides a mechanism linking chemoresistance and metastasis, with opportunities for intervention.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          2566,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1048
+      },
+      {
+        "cross_encoder_score": -7.710135459899902,
+        "dataset": "SciFact",
+        "end_char": 105,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "2173b7d5534b3dd474d436b33d07c7a9",
+        "passage_rank": 2,
+        "query_id": "619",
+        "sentence_id": "a8cf759dfabe77741d5a15b0d8a81d5f",
+        "sentence_text": "Inhibition of Hedgehog signaling enhances delivery of chemotherapy in a mouse model of pancreatic cancer.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3111,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.928752899169922,
+        "dataset": "SciFact",
+        "end_char": 249,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "2173b7d5534b3dd474d436b33d07c7a9",
+        "passage_rank": 2,
+        "query_id": "619",
+        "sentence_id": "7d4c99c4ad0261b2afd5269474a1ea3a",
+        "sentence_text": "Pancreatic ductal adenocarcinoma (PDA) is among the most lethal human cancers in part because it is insensitive to many chemotherapeutic drugs.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          3111,
+          0,
+          1,
+          0
+        ],
+        "source_position": 106
+      },
+      {
+        "cross_encoder_score": -10.880691528320312,
+        "dataset": "SciFact",
+        "end_char": 467,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "2173b7d5534b3dd474d436b33d07c7a9",
+        "passage_rank": 2,
+        "query_id": "619",
+        "sentence_id": "322c85280b7d5d5f30a1efaf68c310dc",
+        "sentence_text": "Studying a mouse model of PDA that is refractory to the clinically used drug gemcitabine, we found that the tumors in this model were poorly perfused and poorly vascularized, properties that are shared with human PDA.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          3111,
+          0,
+          2,
+          0
+        ],
+        "source_position": 250
+      },
+      {
+        "cross_encoder_score": -9.178581237792969,
+        "dataset": "SciFact",
+        "end_char": 699,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "2173b7d5534b3dd474d436b33d07c7a9",
+        "passage_rank": 2,
+        "query_id": "619",
+        "sentence_id": "218bfa4833c2ae9ac411502de22aebd5",
+        "sentence_text": "We tested whether the delivery and efficacy of gemcitabine in the mice could be improved by coadministration of IPI-926, a drug that depletes tumor-associated stromal tissue by inhibition of the Hedgehog cellular signaling pathway.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          3111,
+          0,
+          3,
+          0
+        ],
+        "source_position": 468
+      },
+      {
+        "cross_encoder_score": -2.893390417098999,
+        "dataset": "SciFact",
+        "end_char": 880,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "2173b7d5534b3dd474d436b33d07c7a9",
+        "passage_rank": 2,
+        "query_id": "619",
+        "sentence_id": "92c0650c56bd4c475843066d6d9355f8",
+        "sentence_text": "The combination therapy produced a transient increase in intratumoral vascular density and intratumoral concentration of gemcitabine, leading to transient stabilization of disease.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          3111,
+          0,
+          4,
+          0
+        ],
+        "source_position": 700
+      },
+      {
+        "cross_encoder_score": -8.35683536529541,
+        "dataset": "SciFact",
+        "end_char": 985,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "2173b7d5534b3dd474d436b33d07c7a9",
+        "passage_rank": 2,
+        "query_id": "619",
+        "sentence_id": "c28f35fc0beccd13e378854da126fa26",
+        "sentence_text": "Thus, inefficient drug delivery may be an important contributor to chemoresistance in pancreatic cancer.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3111,
+          0,
+          5,
+          0
+        ],
+        "source_position": 881
+      },
+      {
+        "cross_encoder_score": -8.964308738708496,
+        "dataset": "SciFact",
+        "end_char": 140,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "c85cb56904e17f04f9946b199f916036",
+        "passage_rank": 3,
+        "query_id": "619",
+        "sentence_id": "abb3b17f1a1f41e187756b5d74e889fd",
+        "sentence_text": "Reduced Cytokine Release in Ex Vivo Response to Cilengitide and Cetuximab Is a Marker for Improved Survival of Head and Neck Cancer Patients",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3180,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.397876739501953,
+        "dataset": "SciFact",
+        "end_char": 283,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "c85cb56904e17f04f9946b199f916036",
+        "passage_rank": 3,
+        "query_id": "619",
+        "sentence_id": "7841faf3791392238c34843af057dd0f",
+        "sentence_text": "Targeting of \u03b1V\u03b23 and \u03b1V\u03b25 integrins by cilengitide may reduce growth of solid tumors including head and neck squamous cell carcinoma (HNSCC).",
+        "sentence_token_cost": 38,
+        "source_order": [
+          3180,
+          0,
+          1,
+          0
+        ],
+        "source_position": 141
+      },
+      {
+        "cross_encoder_score": -7.957549095153809,
+        "dataset": "SciFact",
+        "end_char": 400,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "c85cb56904e17f04f9946b199f916036",
+        "passage_rank": 3,
+        "query_id": "619",
+        "sentence_id": "d78abb04032a078b6d629c2c020e8cef",
+        "sentence_text": "Preclinical investigations suggest increased activity of cilengitide in combination with other treatment modalities.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3180,
+          0,
+          2,
+          0
+        ],
+        "source_position": 284
+      },
+      {
+        "cross_encoder_score": -10.597203254699707,
+        "dataset": "SciFact",
+        "end_char": 610,
+        "pair_tokens_before_truncation": 94,
+        "pair_truncated": false,
+        "passage_id": "c85cb56904e17f04f9946b199f916036",
+        "passage_rank": 3,
+        "query_id": "619",
+        "sentence_id": "50e3cfffa777c8236318ff1acf054f05",
+        "sentence_text": "The only published trial in HNSCC (ADVANTAGE) investigated cisplatin, 5-fluorouracil, and cetuximab (PFE) without or with once (PFE+CIL1W) or twice weekly cilengitide (PFE+CIL2W) in recurrent/metastatic HNSCC.",
+        "sentence_token_cost": 72,
+        "source_order": [
+          3180,
+          0,
+          3,
+          0
+        ],
+        "source_position": 401
+      },
+      {
+        "cross_encoder_score": -9.865103721618652,
+        "dataset": "SciFact",
+        "end_char": 797,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "c85cb56904e17f04f9946b199f916036",
+        "passage_rank": 3,
+        "query_id": "619",
+        "sentence_id": "330bd858d20205602f8c99413e334906",
+        "sentence_text": "ADVANTAGE showed good tolerability of the cilengitide arms and even lower adverse events (AEs) compared to PFE but not the benefit in overall survival expected based on preclinical data.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          3180,
+          0,
+          4,
+          0
+        ],
+        "source_position": 611
+      },
+      {
+        "cross_encoder_score": -7.680235862731934,
+        "dataset": "SciFact",
+        "end_char": 1153,
+        "pair_tokens_before_truncation": 110,
+        "pair_truncated": false,
+        "passage_id": "c85cb56904e17f04f9946b199f916036",
+        "passage_rank": 3,
+        "query_id": "619",
+        "sentence_id": "907702e63af012779662255973f8f2ca",
+        "sentence_text": "As we found in the FLAVINO assay, a short-time ex vivo assay for prediction of chemosensitivity, only a subgroup of HNSCC had an increased suppressive effect of cilengitide containing combination therapies on colony formation of epithelial cells (CFec) and release of pro-angiogenetic and pro-inflammatory cytokines, whereas other HNSCC failed to respond.",
+        "sentence_token_cost": 78,
+        "source_order": [
+          3180,
+          0,
+          5,
+          0
+        ],
+        "source_position": 798
+      },
+      {
+        "cross_encoder_score": -10.082296371459961,
+        "dataset": "SciFact",
+        "end_char": 1249,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "c85cb56904e17f04f9946b199f916036",
+        "passage_rank": 3,
+        "query_id": "619",
+        "sentence_id": "a30459d52c91bcc936d17f339ebed89e",
+        "sentence_text": "Response to \u03b1V\u03b23 and \u03b1V\u03b25 integrin targeting by cilengitide classifies HNSCC regarding outcome.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          3180,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1154
+      },
+      {
+        "cross_encoder_score": -10.46788215637207,
+        "dataset": "SciFact",
+        "end_char": 1466,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "c85cb56904e17f04f9946b199f916036",
+        "passage_rank": 3,
+        "query_id": "619",
+        "sentence_id": "562953cc7cb7c656e2da5335a848abb9",
+        "sentence_text": "We present FLAVINO data arguing for further development of cilengitide plus cetuximab in treatment of a subgroup of HNSCC potentially identified by the FLAVINO assay using a set of biomarkers for response evaluation.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          3180,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1250
+      },
+      {
+        "cross_encoder_score": -9.76004695892334,
+        "dataset": "SciFact",
+        "end_char": 93,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "5a8a327c783c93057ec79f460ee04f06",
+        "passage_rank": 8,
+        "query_id": "619",
+        "sentence_id": "756e4f0b931bef895c871e249f6dff3f",
+        "sentence_text": "Hypoxic heterogeneity in human tumors: EF5 binding, vasculature, necrosis, and proliferation.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          4841,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.320027351379395,
+        "dataset": "SciFact",
+        "end_char": 253,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "5a8a327c783c93057ec79f460ee04f06",
+        "passage_rank": 8,
+        "query_id": "619",
+        "sentence_id": "2b2f2d5258f369f5fddf8fca3a25b304",
+        "sentence_text": "We evaluated the levels and distribution of hypoxia in 31 human tumors using fluorescent immunohistochemical detection of binding by the 2-nitroimidazole, EF5.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          4841,
+          0,
+          1,
+          0
+        ],
+        "source_position": 94
+      },
+      {
+        "cross_encoder_score": -9.749503135681152,
+        "dataset": "SciFact",
+        "end_char": 319,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "5a8a327c783c93057ec79f460ee04f06",
+        "passage_rank": 8,
+        "query_id": "619",
+        "sentence_id": "e3de944f3649d11f135110864002b89f",
+        "sentence_text": "Hypoxia was found to be a heterogeneous property of human tumors.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          4841,
+          0,
+          2,
+          0
+        ],
+        "source_position": 254
+      },
+      {
+        "cross_encoder_score": -10.441155433654785,
+        "dataset": "SciFact",
+        "end_char": 421,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "5a8a327c783c93057ec79f460ee04f06",
+        "passage_rank": 8,
+        "query_id": "619",
+        "sentence_id": "6171c7a777860a63274d942243d17dde",
+        "sentence_text": "Necrosis was usually found adjacent to the highest level of binding in an individual patient's tumor.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          4841,
+          0,
+          3,
+          0
+        ],
+        "source_position": 320
+      },
+      {
+        "cross_encoder_score": -9.99632453918457,
+        "dataset": "SciFact",
+        "end_char": 471,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "5a8a327c783c93057ec79f460ee04f06",
+        "passage_rank": 8,
+        "query_id": "619",
+        "sentence_id": "feb8dc5336c31a1411f75a26dc45abf8",
+        "sentence_text": "However, hypoxia often occurred without necrosis.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          4841,
+          0,
+          4,
+          0
+        ],
+        "source_position": 422
+      },
+      {
+        "cross_encoder_score": -8.836654663085938,
+        "dataset": "SciFact",
+        "end_char": 668,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "5a8a327c783c93057ec79f460ee04f06",
+        "passage_rank": 8,
+        "query_id": "619",
+        "sentence_id": "d53f1d80e90cc7d311b4f29db3bf9fcc",
+        "sentence_text": "In the group of tumors studied, the most common relationship between blood vessels (PECAM/CD31) and EF5 staining was consistent with diffusion-limited hypoxia; acute hypoxia occurred infrequently.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          4841,
+          0,
+          5,
+          0
+        ],
+        "source_position": 472
+      },
+      {
+        "cross_encoder_score": -10.509709358215332,
+        "dataset": "SciFact",
+        "end_char": 798,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "5a8a327c783c93057ec79f460ee04f06",
+        "passage_rank": 8,
+        "query_id": "619",
+        "sentence_id": "77000aad2054cb8fab16313a2f378a01",
+        "sentence_text": "Within a given patient's tumor, there was an inverse correlation between regions of proliferation (Ki-67) and regions of hypoxia.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          4841,
+          0,
+          6,
+          0
+        ],
+        "source_position": 669
+      },
+      {
+        "cross_encoder_score": -10.72464656829834,
+        "dataset": "SciFact",
+        "end_char": 944,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "5a8a327c783c93057ec79f460ee04f06",
+        "passage_rank": 8,
+        "query_id": "619",
+        "sentence_id": "0736f77398d7a6e2795f1b913400f4a5",
+        "sentence_text": "Again, however, when these parameters were examined in a group of patients, the absence of proliferation did not predict the presence of hypoxia.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          4841,
+          0,
+          7,
+          0
+        ],
+        "source_position": 799
+      },
+      {
+        "cross_encoder_score": -11.094972610473633,
+        "dataset": "SciFact",
+        "end_char": 1125,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "5a8a327c783c93057ec79f460ee04f06",
+        "passage_rank": 8,
+        "query_id": "619",
+        "sentence_id": "0e4bf8fd58e794365892e3025b8f113a",
+        "sentence_text": "The relationships between hypoxia and other biologic endpoints are complex, but, within a given tumor's spatial relationships, they are in accord with known physiologic principles.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          4841,
+          0,
+          8,
+          0
+        ],
+        "source_position": 945
+      },
+      {
+        "cross_encoder_score": -10.730348587036133,
+        "dataset": "SciFact",
+        "end_char": 1242,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "5a8a327c783c93057ec79f460ee04f06",
+        "passage_rank": 8,
+        "query_id": "619",
+        "sentence_id": "a09fadd92208caa7172c415af9ed0f0c",
+        "sentence_text": "Thus, our data emphasize that the relationships between hypoxia and other biologic parameters vary between patients.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          4841,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1126
+      },
+      {
+        "cross_encoder_score": -8.613018989562988,
+        "dataset": "SciFact",
+        "end_char": 1379,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "5a8a327c783c93057ec79f460ee04f06",
+        "passage_rank": 8,
+        "query_id": "619",
+        "sentence_id": "7011635b061e7609688d10a1247f4aec",
+        "sentence_text": "Necrosis, proliferation, and blood vessel distribution cannot predict the level or presence of hypoxia in an individual patient's tumor.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          4841,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1243
+      }
+    ],
+    "scoring_seconds": 0.460359240998514,
+    "source_fingerprint": "e7aa68882794d21e8d95a60dcb098f99a0960baa9e31275c0a01d5113f2600dc"
+  }
+}

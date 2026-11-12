@@ -1,0 +1,1651 @@
+{
+  "checksum": "7aa637175d002ab311603d4c6a02814e676e3e0e33c7d8ebc09b44a2e2da7ce1",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "879"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 81,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "5462481a28fc9eff5dd23f8d48632383dbc394aaefb0a593c0a3058b81e7c462",
+    "query_id": "879",
+    "scores": [
+      {
+        "cross_encoder_score": -9.581742286682129,
+        "dataset": "SciFact",
+        "end_char": 89,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "0ef3b81678d17ebf6798372124f2760a",
+        "passage_rank": 6,
+        "query_id": "879",
+        "sentence_id": "0c02b954c32e596852be3f53e27f63d2",
+        "sentence_text": "RNase H and Postreplication Repair Protect Cells from Ribonucleotides Incorporated in DNA",
+        "sentence_token_cost": 19,
+        "source_order": [
+          282,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.173051834106445,
+        "dataset": "SciFact",
+        "end_char": 288,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "0ef3b81678d17ebf6798372124f2760a",
+        "passage_rank": 6,
+        "query_id": "879",
+        "sentence_id": "3e5ecf5d48a5778bd435e4cd3993682c",
+        "sentence_text": "The chemical identity and integrity of the genome is challenged by the incorporation of ribonucleoside triphosphates (rNTPs) in place of deoxyribonucleoside triphosphates (dNTPs) during replication.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          282,
+          0,
+          1,
+          0
+        ],
+        "source_position": 90
+      },
+      {
+        "cross_encoder_score": -11.118578910827637,
+        "dataset": "SciFact",
+        "end_char": 354,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "0ef3b81678d17ebf6798372124f2760a",
+        "passage_rank": 6,
+        "query_id": "879",
+        "sentence_id": "080083e9f8e5a57eb57b4bb35e3cca2c",
+        "sentence_text": "Misincorporation is limited by the selectivity of DNA replicases.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          282,
+          0,
+          2,
+          0
+        ],
+        "source_position": 289
+      },
+      {
+        "cross_encoder_score": -7.808412551879883,
+        "dataset": "SciFact",
+        "end_char": 563,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "0ef3b81678d17ebf6798372124f2760a",
+        "passage_rank": 6,
+        "query_id": "879",
+        "sentence_id": "60de78348468d4e098c1bb92e09bbe46",
+        "sentence_text": "We show that accumulation of ribonucleoside monophosphates (rNMPs) in the genome causes replication stress and has toxic consequences, particularly in the absence of RNase H1 and RNase H2, which remove rNMPs.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          282,
+          0,
+          3,
+          0
+        ],
+        "source_position": 355
+      },
+      {
+        "cross_encoder_score": -11.260111808776855,
+        "dataset": "SciFact",
+        "end_char": 814,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "0ef3b81678d17ebf6798372124f2760a",
+        "passage_rank": 6,
+        "query_id": "879",
+        "sentence_id": "085a780b8a20c904cc1d0ec6be5d88d4",
+        "sentence_text": "We demonstrate that postreplication repair (PRR) pathways-MMS2-dependent template switch and Pol \u03b6-dependent bypass-are crucial for tolerating the presence of rNMPs in the chromosomes; indeed, we show that Pol \u03b6 efficiently replicates over 1-4 rNMPs.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          282,
+          0,
+          4,
+          0
+        ],
+        "source_position": 564
+      },
+      {
+        "cross_encoder_score": -9.688809394836426,
+        "dataset": "SciFact",
+        "end_char": 931,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "0ef3b81678d17ebf6798372124f2760a",
+        "passage_rank": 6,
+        "query_id": "879",
+        "sentence_id": "9e1bdf1aee14d828daa5f0f580fe8dc2",
+        "sentence_text": "Moreover, cells lacking RNase H accumulate mono- and polyubiquitylated PCNA and have a constitutively activated PRR.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          282,
+          0,
+          5,
+          0
+        ],
+        "source_position": 815
+      },
+      {
+        "cross_encoder_score": -10.574721336364746,
+        "dataset": "SciFact",
+        "end_char": 1175,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "0ef3b81678d17ebf6798372124f2760a",
+        "passage_rank": 6,
+        "query_id": "879",
+        "sentence_id": "9c39e796f5f13fe773c73b16a4c32110",
+        "sentence_text": "Our findings describe a crucial function for RNase H1, RNase H2, template switch, and translesion DNA synthesis in overcoming rNTPs misincorporated during DNA replication, and may be relevant for the pathogenesis of Aicardi-Gouti\u00e8res syndrome.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          282,
+          0,
+          6,
+          0
+        ],
+        "source_position": 932
+      },
+      {
+        "cross_encoder_score": -9.149889945983887,
+        "dataset": "SciFact",
+        "end_char": 92,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "e26300154c51037f2f1374ba94c75081",
+        "passage_rank": 10,
+        "query_id": "879",
+        "sentence_id": "bd89f9059ce290719419134fab5c6b35",
+        "sentence_text": "Small regulatory RNAs inhibit RNA Polymerase II during the elongation phase of transcription",
+        "sentence_token_cost": 16,
+        "source_order": [
+          813,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.160809516906738,
+        "dataset": "SciFact",
+        "end_char": 297,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "e26300154c51037f2f1374ba94c75081",
+        "passage_rank": 10,
+        "query_id": "879",
+        "sentence_id": "97b28f0e4dfd3f55ad9977f090d56464",
+        "sentence_text": "Eukaryotic cells express a wide variety of endogenous small regulatory RNAs that regulate heterochromatin formation, developmental timing, defence against parasitic nucleic acids and genome rearrangement.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          813,
+          0,
+          1,
+          0
+        ],
+        "source_position": 93
+      },
+      {
+        "cross_encoder_score": -9.31645393371582,
+        "dataset": "SciFact",
+        "end_char": 359,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "e26300154c51037f2f1374ba94c75081",
+        "passage_rank": 10,
+        "query_id": "879",
+        "sentence_id": "b595af88e79420350d42bcdb1ed63104",
+        "sentence_text": "Many small regulatory RNAs are thought to function in nuclei.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          813,
+          0,
+          2,
+          0
+        ],
+        "source_position": 298
+      },
+      {
+        "cross_encoder_score": -9.774004936218262,
+        "dataset": "SciFact",
+        "end_char": 507,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "e26300154c51037f2f1374ba94c75081",
+        "passage_rank": 10,
+        "query_id": "879",
+        "sentence_id": "aec69f5f2c01a340cb1089999154d091",
+        "sentence_text": "For instance, in plants and fungi, short interfering RNA (siRNAs) associate with nascent transcripts and direct chromatin and/or DNA modifications.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          813,
+          0,
+          3,
+          0
+        ],
+        "source_position": 360
+      },
+      {
+        "cross_encoder_score": -9.646809577941895,
+        "dataset": "SciFact",
+        "end_char": 697,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "e26300154c51037f2f1374ba94c75081",
+        "passage_rank": 10,
+        "query_id": "879",
+        "sentence_id": "5818d0fb3c9e17523c1bfa38ba8a0c4c",
+        "sentence_text": "To understand further the biological roles of small regulatory RNAs, we conducted a genetic screen to identify factors required for RNA interference (RNAi) in Caenorhabditis elegans nuclei.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          813,
+          0,
+          4,
+          0
+        ],
+        "source_position": 508
+      },
+      {
+        "cross_encoder_score": -10.141332626342773,
+        "dataset": "SciFact",
+        "end_char": 859,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "e26300154c51037f2f1374ba94c75081",
+        "passage_rank": 10,
+        "query_id": "879",
+        "sentence_id": "035f9c1082da55f5930abd1e3a01111f",
+        "sentence_text": "Here we show that the gene nuclear RNAi defective-2 (nrde-2) encodes an evolutionarily conserved protein that is required for siRNA-mediated silencing in nuclei.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          813,
+          0,
+          5,
+          0
+        ],
+        "source_position": 698
+      },
+      {
+        "cross_encoder_score": -10.23800277709961,
+        "dataset": "SciFact",
+        "end_char": 1024,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "e26300154c51037f2f1374ba94c75081",
+        "passage_rank": 10,
+        "query_id": "879",
+        "sentence_id": "3df275639fede570b3b8ec0fa1ba92cb",
+        "sentence_text": "NRDE-2 associates with the Argonaute protein NRDE-3 within nuclei and is recruited by NRDE-3/siRNA complexes to nascent transcripts that have been targeted by RNAi.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          813,
+          0,
+          6,
+          0
+        ],
+        "source_position": 860
+      },
+      {
+        "cross_encoder_score": -5.366902828216553,
+        "dataset": "SciFact",
+        "end_char": 1359,
+        "pair_tokens_before_truncation": 119,
+        "pair_truncated": false,
+        "passage_id": "e26300154c51037f2f1374ba94c75081",
+        "passage_rank": 10,
+        "query_id": "879",
+        "sentence_id": "3bbd9ef35d83047ad8067080d8a19846",
+        "sentence_text": "We find that nuclear-localized siRNAs direct an NRDE-2-dependent silencing of pre-messenger RNAs (pre-mRNAs) 3' to sites of RNAi, an NRDE-2-dependent accumulation of RNA polymerase (RNAP) II at genomic loci targeted by RNAi, and NRDE-2-dependent decreases in RNAP II occupancy and RNAP II transcriptional activity 3' to sites of RNAi.",
+        "sentence_token_cost": 92,
+        "source_order": [
+          813,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1025
+      },
+      {
+        "cross_encoder_score": -10.171019554138184,
+        "dataset": "SciFact",
+        "end_char": 1526,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "e26300154c51037f2f1374ba94c75081",
+        "passage_rank": 10,
+        "query_id": "879",
+        "sentence_id": "f5c7efc19085fb8864cd29da7a62d348",
+        "sentence_text": "These results define NRDE-2 as a component of the nuclear RNAi machinery and demonstrate that metazoan siRNAs can silence nuclear-localized RNAs co-transcriptionally.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          813,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1360
+      },
+      {
+        "cross_encoder_score": -10.589384078979492,
+        "dataset": "SciFact",
+        "end_char": 1709,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "e26300154c51037f2f1374ba94c75081",
+        "passage_rank": 10,
+        "query_id": "879",
+        "sentence_id": "b415d291874d0491534c5c03093fbdac",
+        "sentence_text": "In addition, these results establish a novel mode of RNAP II regulation: siRNA-directed recruitment of NRDE factors that inhibit RNAP II during the elongation phase of transcription.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          813,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1527
+      },
+      {
+        "cross_encoder_score": -9.892186164855957,
+        "dataset": "SciFact",
+        "end_char": 83,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "77fa278e76d7cf565b60c5ec2f11ef6d",
+        "passage_rank": 4,
+        "query_id": "879",
+        "sentence_id": "88f0de45735162313ecc23f0e9f129d8",
+        "sentence_text": "A coding-independent function of gene and pseudogene mRNAs regulates tumour biology",
+        "sentence_token_cost": 16,
+        "source_order": [
+          1255,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.685178756713867,
+        "dataset": "SciFact",
+        "end_char": 198,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "77fa278e76d7cf565b60c5ec2f11ef6d",
+        "passage_rank": 4,
+        "query_id": "879",
+        "sentence_id": "db4e36f818aeee649cad3eb0065f5578",
+        "sentence_text": "The canonical role of messenger RNA (mRNA) is to deliver protein-coding information to sites of protein synthesis.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          1255,
+          0,
+          1,
+          0
+        ],
+        "source_position": 84
+      },
+      {
+        "cross_encoder_score": -7.743988037109375,
+        "dataset": "SciFact",
+        "end_char": 410,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "77fa278e76d7cf565b60c5ec2f11ef6d",
+        "passage_rank": 4,
+        "query_id": "879",
+        "sentence_id": "d7a89c8b21b1d93b16aa59edc8225f8b",
+        "sentence_text": "However, given that microRNAs bind to RNAs, we hypothesized that RNAs could possess a regulatory role that relies on their ability to compete for microRNA binding, independently of their protein-coding function.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          1255,
+          0,
+          2,
+          0
+        ],
+        "source_position": 199
+      },
+      {
+        "cross_encoder_score": -7.718622207641602,
+        "dataset": "SciFact",
+        "end_char": 649,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "77fa278e76d7cf565b60c5ec2f11ef6d",
+        "passage_rank": 4,
+        "query_id": "879",
+        "sentence_id": "f49c9f003ed65dc013de1aa731c2a5d9",
+        "sentence_text": "As a model for the protein-coding-independent role of RNAs, we describe the functional relationship between the mRNAs produced by the PTEN tumour suppressor gene and its pseudogene PTENP1 and the critical consequences of this interaction.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          1255,
+          0,
+          3,
+          0
+        ],
+        "source_position": 411
+      },
+      {
+        "cross_encoder_score": -11.222491264343262,
+        "dataset": "SciFact",
+        "end_char": 772,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "77fa278e76d7cf565b60c5ec2f11ef6d",
+        "passage_rank": 4,
+        "query_id": "879",
+        "sentence_id": "8240598d24071a40a6645811ce01f46a",
+        "sentence_text": "We find that PTENP1 is biologically active as it can regulate cellular levels of PTEN and exert a growth-suppressive role.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          1255,
+          0,
+          4,
+          0
+        ],
+        "source_position": 650
+      },
+      {
+        "cross_encoder_score": -11.261368751525879,
+        "dataset": "SciFact",
+        "end_char": 844,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "77fa278e76d7cf565b60c5ec2f11ef6d",
+        "passage_rank": 4,
+        "query_id": "879",
+        "sentence_id": "02058f8fa4cb840c6a275cbc5bb10add",
+        "sentence_text": "We also show that the PTENP1 locus is selectively lost in human cancer.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          1255,
+          0,
+          5,
+          0
+        ],
+        "source_position": 773
+      },
+      {
+        "cross_encoder_score": -11.163735389709473,
+        "dataset": "SciFact",
+        "end_char": 949,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "77fa278e76d7cf565b60c5ec2f11ef6d",
+        "passage_rank": 4,
+        "query_id": "879",
+        "sentence_id": "7179ed1a592de4a1abb69f22b92b4842",
+        "sentence_text": "We extended our analysis to other cancer-related genes that possess pseudogenes, such as oncogenic KRAS.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1255,
+          0,
+          6,
+          0
+        ],
+        "source_position": 845
+      },
+      {
+        "cross_encoder_score": -10.504968643188477,
+        "dataset": "SciFact",
+        "end_char": 1052,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "77fa278e76d7cf565b60c5ec2f11ef6d",
+        "passage_rank": 4,
+        "query_id": "879",
+        "sentence_id": "8b364f1fbf37ae5f7ad3b5639b99d46b",
+        "sentence_text": "We also demonstrate that the transcripts of protein-coding genes such as PTEN are biologically active.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          1255,
+          0,
+          7,
+          0
+        ],
+        "source_position": 950
+      },
+      {
+        "cross_encoder_score": -10.413125991821289,
+        "dataset": "SciFact",
+        "end_char": 1216,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "77fa278e76d7cf565b60c5ec2f11ef6d",
+        "passage_rank": 4,
+        "query_id": "879",
+        "sentence_id": "8792a10fa25e5f9dc1cbdd647821ad3d",
+        "sentence_text": "These findings attribute a novel biological role to expressed pseudogenes, as they can regulate coding gene expression, and reveal a non-coding function for mRNAs.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          1255,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1053
+      },
+      {
+        "cross_encoder_score": -2.415116548538208,
+        "dataset": "SciFact",
+        "end_char": 85,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "042cb86d3b81eb06b7ab961faa70e055",
+        "passage_rank": 1,
+        "query_id": "879",
+        "sentence_id": "0f86d845dadd99b55561205ae87c87ed",
+        "sentence_text": "Ribosome Profiling Provides Evidence that Large Noncoding RNAs Do Not Encode Proteins",
+        "sentence_token_cost": 17,
+        "source_order": [
+          1496,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.322855949401855,
+        "dataset": "SciFact",
+        "end_char": 169,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "042cb86d3b81eb06b7ab961faa70e055",
+        "passage_rank": 1,
+        "query_id": "879",
+        "sentence_id": "6125a9500977dfe4ae203a2d8ed10314",
+        "sentence_text": "Large noncoding RNAs are emerging as an important component in cellular regulation.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          1496,
+          0,
+          1,
+          0
+        ],
+        "source_position": 86
+      },
+      {
+        "cross_encoder_score": -6.370717525482178,
+        "dataset": "SciFact",
+        "end_char": 304,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "042cb86d3b81eb06b7ab961faa70e055",
+        "passage_rank": 1,
+        "query_id": "879",
+        "sentence_id": "56a3989b1c3dd711480424038f0e979c",
+        "sentence_text": "Considerable evidence indicates that these transcripts act directly as functional RNAs rather than through an encoded protein product.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          1496,
+          0,
+          2,
+          0
+        ],
+        "source_position": 170
+      },
+      {
+        "cross_encoder_score": 1.8859540224075317,
+        "dataset": "SciFact",
+        "end_char": 492,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "042cb86d3b81eb06b7ab961faa70e055",
+        "passage_rank": 1,
+        "query_id": "879",
+        "sentence_id": "357a958f83328359d429a5d4ef3eecc6",
+        "sentence_text": "However, a recent study of ribosome occupancy reported that many large intergenic ncRNAs (lincRNAs) are bound by ribosomes, raising the possibility that they are translated into proteins.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          1496,
+          0,
+          3,
+          0
+        ],
+        "source_position": 305
+      },
+      {
+        "cross_encoder_score": 1.3829692602157593,
+        "dataset": "SciFact",
+        "end_char": 704,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "042cb86d3b81eb06b7ab961faa70e055",
+        "passage_rank": 1,
+        "query_id": "879",
+        "sentence_id": "9fe4579e7893d57cf47cc0ca74855b0b",
+        "sentence_text": "Here, we show that classical noncoding RNAs and 5' UTRs show the same ribosome occupancy as lincRNAs, demonstrating that ribosome occupancy alone is not sufficient to classify transcripts as coding or noncoding.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          1496,
+          0,
+          4,
+          0
+        ],
+        "source_position": 493
+      },
+      {
+        "cross_encoder_score": -9.801483154296875,
+        "dataset": "SciFact",
+        "end_char": 860,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "042cb86d3b81eb06b7ab961faa70e055",
+        "passage_rank": 1,
+        "query_id": "879",
+        "sentence_id": "ef325d28d572b03c9793eba9dfe84bee",
+        "sentence_text": "Instead, we define a metric based on the known property of translation whereby translating ribosomes are released upon encountering a bona fide stop codon.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          1496,
+          0,
+          5,
+          0
+        ],
+        "source_position": 705
+      },
+      {
+        "cross_encoder_score": -10.256450653076172,
+        "dataset": "SciFact",
+        "end_char": 1013,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "042cb86d3b81eb06b7ab961faa70e055",
+        "passage_rank": 1,
+        "query_id": "879",
+        "sentence_id": "2af16ce5d1dd86d4c7ceef8885be0082",
+        "sentence_text": "We show that this metric accurately discriminates between protein-coding transcripts and all classes of known noncoding transcripts, including lincRNAs.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          1496,
+          0,
+          6,
+          0
+        ],
+        "source_position": 861
+      },
+      {
+        "cross_encoder_score": -7.851912498474121,
+        "dataset": "SciFact",
+        "end_char": 1127,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "042cb86d3b81eb06b7ab961faa70e055",
+        "passage_rank": 1,
+        "query_id": "879",
+        "sentence_id": "db6f074789acc1e14f265445d5b08b97",
+        "sentence_text": "Taken together, these results argue that the large majority of lincRNAs do not function through encoded proteins.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1496,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1014
+      },
+      {
+        "cross_encoder_score": -10.636232376098633,
+        "dataset": "SciFact",
+        "end_char": 47,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "6e31ff168cd2d5f4345ef92ee5317548",
+        "passage_rank": 2,
+        "query_id": "879",
+        "sentence_id": "c484d91a82976ea25e1b923d3473c4e5",
+        "sentence_text": "LincRNA-p21 suppresses target mRNA translation.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          2236,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.671838760375977,
+        "dataset": "SciFact",
+        "end_char": 144,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "6e31ff168cd2d5f4345ef92ee5317548",
+        "passage_rank": 2,
+        "query_id": "879",
+        "sentence_id": "ccf7284865180e295f08720261412860",
+        "sentence_text": "Mammalian long intergenic noncoding RNAs (lincRNAs) are best known for modulating transcription.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2236,
+          0,
+          1,
+          0
+        ],
+        "source_position": 48
+      },
+      {
+        "cross_encoder_score": -11.074271202087402,
+        "dataset": "SciFact",
+        "end_char": 237,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "6e31ff168cd2d5f4345ef92ee5317548",
+        "passage_rank": 2,
+        "query_id": "879",
+        "sentence_id": "9b9d2ed63963e58adf96a463303cbd8b",
+        "sentence_text": "Here we report a posttranscriptional function for lincRNA-p21 as a modulator of translation.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          2236,
+          0,
+          2,
+          0
+        ],
+        "source_position": 145
+      },
+      {
+        "cross_encoder_score": -10.420294761657715,
+        "dataset": "SciFact",
+        "end_char": 391,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "6e31ff168cd2d5f4345ef92ee5317548",
+        "passage_rank": 2,
+        "query_id": "879",
+        "sentence_id": "f8c97dd59ca699a85f889d237460deb8",
+        "sentence_text": "Association of the RNA-binding protein HuR with lincRNA-p21 favored the recruitment of let-7/Ago2 to lincRNA-p21, leading to lower lincRNA-p21 stability.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          2236,
+          0,
+          3,
+          0
+        ],
+        "source_position": 238
+      },
+      {
+        "cross_encoder_score": -11.041552543640137,
+        "dataset": "SciFact",
+        "end_char": 579,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "6e31ff168cd2d5f4345ef92ee5317548",
+        "passage_rank": 2,
+        "query_id": "879",
+        "sentence_id": "3ed639d0b8b6658518c10aa5499b72ee",
+        "sentence_text": "Under reduced HuR levels, lincRNA-p21 accumulated in human cervical carcinoma HeLa cells, increasing its association with JUNB and CTNNB1 mRNAs and selectively lowering their translation.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          2236,
+          0,
+          4,
+          0
+        ],
+        "source_position": 392
+      },
+      {
+        "cross_encoder_score": -10.971353530883789,
+        "dataset": "SciFact",
+        "end_char": 728,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "6e31ff168cd2d5f4345ef92ee5317548",
+        "passage_rank": 2,
+        "query_id": "879",
+        "sentence_id": "657e1720758c1cc95368210d68a70584",
+        "sentence_text": "With elevated HuR, lincRNA-p21 levels declined, which in turn derepressed JunB and \u03b2-catenin translation and increased the levels of these proteins.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          2236,
+          0,
+          5,
+          0
+        ],
+        "source_position": 580
+      },
+      {
+        "cross_encoder_score": -10.627925872802734,
+        "dataset": "SciFact",
+        "end_char": 832,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "6e31ff168cd2d5f4345ef92ee5317548",
+        "passage_rank": 2,
+        "query_id": "879",
+        "sentence_id": "5d883bdc9c34f5c429d31f75fda027e1",
+        "sentence_text": "We propose that HuR controls translation of a subset of target mRNAs by influencing lincRNA-p21 levels.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          2236,
+          0,
+          6,
+          0
+        ],
+        "source_position": 729
+      },
+      {
+        "cross_encoder_score": -11.197772979736328,
+        "dataset": "SciFact",
+        "end_char": 923,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "6e31ff168cd2d5f4345ef92ee5317548",
+        "passage_rank": 2,
+        "query_id": "879",
+        "sentence_id": "194a912da281840da825c3af064a58bc",
+        "sentence_text": "Our findings uncover a role for lincRNA as a posttranscriptional inhibitor of translation.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2236,
+          0,
+          7,
+          0
+        ],
+        "source_position": 833
+      },
+      {
+        "cross_encoder_score": -9.173234939575195,
+        "dataset": "SciFact",
+        "end_char": 77,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "336d9518a479d8020771ba7e86e321a4",
+        "passage_rank": 5,
+        "query_id": "879",
+        "sentence_id": "a756bd3932e74a197156eaf06ba4a983",
+        "sentence_text": "Suppression of Myc oncogenic activity by ribosomal protein haploinsufficiency",
+        "sentence_token_cost": 17,
+        "source_order": [
+          2893,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.382492065429688,
+        "dataset": "SciFact",
+        "end_char": 280,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "336d9518a479d8020771ba7e86e321a4",
+        "passage_rank": 5,
+        "query_id": "879",
+        "sentence_id": "4c079044f425a7890c5c3e9a43075c88",
+        "sentence_text": "The Myc oncogene regulates the expression of several components of the protein synthetic machinery, including ribosomal proteins, initiation factors of translation, RNA polymerase III and ribosomal DNA.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          2893,
+          0,
+          1,
+          0
+        ],
+        "source_position": 78
+      },
+      {
+        "cross_encoder_score": -10.924038887023926,
+        "dataset": "SciFact",
+        "end_char": 420,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "336d9518a479d8020771ba7e86e321a4",
+        "passage_rank": 5,
+        "query_id": "879",
+        "sentence_id": "2558abdc94a29e9532c0b17eb25540c7",
+        "sentence_text": "Whether and how increasing the cellular protein synthesis capacity affects the multistep process leading to cancer remains to be addressed.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          2893,
+          0,
+          2,
+          0
+        ],
+        "source_position": 281
+      },
+      {
+        "cross_encoder_score": -10.773698806762695,
+        "dataset": "SciFact",
+        "end_char": 648,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "336d9518a479d8020771ba7e86e321a4",
+        "passage_rank": 5,
+        "query_id": "879",
+        "sentence_id": "964489eab6e633baea667ea995ccd70f",
+        "sentence_text": "Here we use ribosomal protein heterozygote mice as a genetic tool to restore increased protein synthesis in Emu-Myc/+ transgenic mice to normal levels, and show that the oncogenic potential of Myc in this context is suppressed.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          2893,
+          0,
+          3,
+          0
+        ],
+        "source_position": 421
+      },
+      {
+        "cross_encoder_score": -10.944595336914062,
+        "dataset": "SciFact",
+        "end_char": 888,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "336d9518a479d8020771ba7e86e321a4",
+        "passage_rank": 5,
+        "query_id": "879",
+        "sentence_id": "68f1a5e85f4e461c19c568fc355ecd77",
+        "sentence_text": "Our findings demonstrate that the ability of Myc to increase protein synthesis directly augments cell size and is sufficient to accelerate cell cycle progression independently of known cell cycle targets transcriptionally regulated by Myc.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          2893,
+          0,
+          4,
+          0
+        ],
+        "source_position": 649
+      },
+      {
+        "cross_encoder_score": -10.572274208068848,
+        "dataset": "SciFact",
+        "end_char": 1050,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "336d9518a479d8020771ba7e86e321a4",
+        "passage_rank": 5,
+        "query_id": "879",
+        "sentence_id": "98d7c713acefe75b4735f2c7e1f72283",
+        "sentence_text": "In addition, when protein synthesis is restored to normal levels, Myc-overexpressing precancerous cells are more efficiently eliminated by programmed cell death.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          2893,
+          0,
+          5,
+          0
+        ],
+        "source_position": 889
+      },
+      {
+        "cross_encoder_score": -9.357824325561523,
+        "dataset": "SciFact",
+        "end_char": 1314,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "336d9518a479d8020771ba7e86e321a4",
+        "passage_rank": 5,
+        "query_id": "879",
+        "sentence_id": "76403b2a32544dd6b6c771246b334eb5",
+        "sentence_text": "Our findings reveal a new mechanism that links increases in general protein synthesis rates downstream of an oncogenic signal to a specific molecular impairment in the modality of translation initiation used to regulate the expression of selective messenger RNAs.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          2893,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1051
+      },
+      {
+        "cross_encoder_score": -10.401750564575195,
+        "dataset": "SciFact",
+        "end_char": 1570,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "336d9518a479d8020771ba7e86e321a4",
+        "passage_rank": 5,
+        "query_id": "879",
+        "sentence_id": "3d4b315bf2af180180cd7b9bfe5bf045",
+        "sentence_text": "We show that an aberrant increase in cap-dependent translation downstream of Myc hyperactivation specifically impairs the translational switch to internal ribosomal entry site (IRES)-dependent translation that is required for accurate mitotic progression.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          2893,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1315
+      },
+      {
+        "cross_encoder_score": -10.982889175415039,
+        "dataset": "SciFact",
+        "end_char": 1865,
+        "pair_tokens_before_truncation": 92,
+        "pair_truncated": false,
+        "passage_id": "336d9518a479d8020771ba7e86e321a4",
+        "passage_rank": 5,
+        "query_id": "879",
+        "sentence_id": "0325b24ea82555cfe4450197926cde04",
+        "sentence_text": "Failure of this translational switch results in reduced mitotic-specific expression of the endogenous IRES-dependent form of Cdk11 (also known as Cdc2l and PITSLRE), which leads to cytokinesis defects and is associated with increased centrosome numbers and genome instability in Emu-Myc/+ mice.",
+        "sentence_token_cost": 65,
+        "source_order": [
+          2893,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1571
+      },
+      {
+        "cross_encoder_score": -11.218484878540039,
+        "dataset": "SciFact",
+        "end_char": 1972,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "336d9518a479d8020771ba7e86e321a4",
+        "passage_rank": 5,
+        "query_id": "879",
+        "sentence_id": "b61693f687e244e30ab926d7f2fd573c",
+        "sentence_text": "When accurate translational control is re-established in Emu-Myc/+ mice, genome instability is suppressed.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2893,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1866
+      },
+      {
+        "cross_encoder_score": -11.077018737792969,
+        "dataset": "SciFact",
+        "end_char": 2256,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "336d9518a479d8020771ba7e86e321a4",
+        "passage_rank": 5,
+        "query_id": "879",
+        "sentence_id": "a86329e1b3c7899071ea4a7ec8a64935",
+        "sentence_text": "Our findings demonstrate how perturbations in translational control provide a highly specific outcome for gene expression, genome stability and cancer initiation that have important implications for understanding the molecular mechanism of cancer formation at the post-genomic level.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          2893,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1973
+      },
+      {
+        "cross_encoder_score": -8.930535316467285,
+        "dataset": "SciFact",
+        "end_char": 35,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "07c6a63a8f4ae8c62bf368c3c6a0531d",
+        "passage_rank": 9,
+        "query_id": "879",
+        "sentence_id": "9baae4a69f81b6d61596aa500a8e0a6f",
+        "sentence_text": "Nucleation of nuclear bodies by RNA",
+        "sentence_token_cost": 8,
+        "source_order": [
+          2907,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.33188533782959,
+        "dataset": "SciFact",
+        "end_char": 148,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "07c6a63a8f4ae8c62bf368c3c6a0531d",
+        "passage_rank": 9,
+        "query_id": "879",
+        "sentence_id": "16f50c1bd13be864e5c49816db53b74f",
+        "sentence_text": "The biogenesis of the many functional compartments contained in the mammalian cell nucleus is poorly understood.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2907,
+          0,
+          1,
+          0
+        ],
+        "source_position": 36
+      },
+      {
+        "cross_encoder_score": -11.199633598327637,
+        "dataset": "SciFact",
+        "end_char": 258,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "07c6a63a8f4ae8c62bf368c3c6a0531d",
+        "passage_rank": 9,
+        "query_id": "879",
+        "sentence_id": "f00c37097d7b76fca55993d42bc186b5",
+        "sentence_text": "More specifically, little is known regarding the initial nucleation step required for nuclear body formation.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          2907,
+          0,
+          2,
+          0
+        ],
+        "source_position": 149
+      },
+      {
+        "cross_encoder_score": -9.849270820617676,
+        "dataset": "SciFact",
+        "end_char": 352,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "07c6a63a8f4ae8c62bf368c3c6a0531d",
+        "passage_rank": 9,
+        "query_id": "879",
+        "sentence_id": "51111f4fa61d6b23c45c6f150fcea2e3",
+        "sentence_text": "Here we show that RNA can function as a structural element and a nucleator of nuclear bodies.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2907,
+          0,
+          3,
+          0
+        ],
+        "source_position": 259
+      },
+      {
+        "cross_encoder_score": -9.357025146484375,
+        "dataset": "SciFact",
+        "end_char": 592,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "07c6a63a8f4ae8c62bf368c3c6a0531d",
+        "passage_rank": 9,
+        "query_id": "879",
+        "sentence_id": "c4338506dd93168f562d19c276963864",
+        "sentence_text": "We find that several types of coding and noncoding RNAs are sufficient to de novo assemble, and are physiologically enriched in, histone locus bodies (with associated Cajal bodies), nuclear speckles, paraspeckles and nuclear stress bodies.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          2907,
+          0,
+          4,
+          0
+        ],
+        "source_position": 353
+      },
+      {
+        "cross_encoder_score": -9.477676391601562,
+        "dataset": "SciFact",
+        "end_char": 726,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "07c6a63a8f4ae8c62bf368c3c6a0531d",
+        "passage_rank": 9,
+        "query_id": "879",
+        "sentence_id": "48a8cd8a753e6f69ff257209668828c4",
+        "sentence_text": "Formation of nuclear bodies occurs through recruitment and accumulation of proteins resident in the nuclear bodies by nucleating RNA.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2907,
+          0,
+          5,
+          0
+        ],
+        "source_position": 593
+      },
+      {
+        "cross_encoder_score": -9.86093521118164,
+        "dataset": "SciFact",
+        "end_char": 905,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "07c6a63a8f4ae8c62bf368c3c6a0531d",
+        "passage_rank": 9,
+        "query_id": "879",
+        "sentence_id": "dc8aed93634043aabe7c0f77bc1b6aa1",
+        "sentence_text": "These results demonstrate that transcription is a driving force in nuclear body formation and RNA transcripts can function as a scaffold in the formation of major nuclear bodies.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          2907,
+          0,
+          6,
+          0
+        ],
+        "source_position": 727
+      },
+      {
+        "cross_encoder_score": -9.965022087097168,
+        "dataset": "SciFact",
+        "end_char": 1027,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "07c6a63a8f4ae8c62bf368c3c6a0531d",
+        "passage_rank": 9,
+        "query_id": "879",
+        "sentence_id": "5f26d34cbcb98b2d01156055889cb53a",
+        "sentence_text": "Together, these data suggest that RNA-primed biogenesis of nuclear bodies is a general principle of nuclear organization.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          2907,
+          0,
+          7,
+          0
+        ],
+        "source_position": 906
+      },
+      {
+        "cross_encoder_score": -10.115340232849121,
+        "dataset": "SciFact",
+        "end_char": 28,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "85a5410711b728c89bb0aae8a2d42936",
+        "passage_rank": 7,
+        "query_id": "879",
+        "sentence_id": "21082b6e4bc077a1947819d1e95a52ec",
+        "sentence_text": "Chaperoning 5S RNA assembly.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          3092,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.280353546142578,
+        "dataset": "SciFact",
+        "end_char": 195,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "85a5410711b728c89bb0aae8a2d42936",
+        "passage_rank": 7,
+        "query_id": "879",
+        "sentence_id": "043c083406ad1df2ecadd426c68d2665",
+        "sentence_text": "In eukaryotes, three of the four ribosomal RNAs (rRNAs)\u2014the 5.8S, 18S, and 25S/28S rRNAs\u2014are processed from a single pre-rRNA transcript and assembled into ribosomes.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          3092,
+          0,
+          1,
+          0
+        ],
+        "source_position": 29
+      },
+      {
+        "cross_encoder_score": -8.890098571777344,
+        "dataset": "SciFact",
+        "end_char": 426,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "85a5410711b728c89bb0aae8a2d42936",
+        "passage_rank": 7,
+        "query_id": "879",
+        "sentence_id": "bba557fec41d6902e01191da9c327e1e",
+        "sentence_text": "The fourth rRNA, the 5S rRNA, is transcribed by RNA polymerase III and is assembled into the 5S ribonucleoprotein particle (RNP), containing ribosomal proteins Rpl5/uL18 and Rpl11/uL5, prior to its incorporation into preribosomes.",
+        "sentence_token_cost": 67,
+        "source_order": [
+          3092,
+          0,
+          2,
+          0
+        ],
+        "source_position": 196
+      },
+      {
+        "cross_encoder_score": -11.232969284057617,
+        "dataset": "SciFact",
+        "end_char": 525,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "85a5410711b728c89bb0aae8a2d42936",
+        "passage_rank": 7,
+        "query_id": "879",
+        "sentence_id": "c0c03e9833f1db583992f365d35cdad2",
+        "sentence_text": "In mammals, the 5S RNP is also a central regulator of the homeostasis of the tumor suppressor p53.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          3092,
+          0,
+          3,
+          0
+        ],
+        "source_position": 427
+      },
+      {
+        "cross_encoder_score": -10.707487106323242,
+        "dataset": "SciFact",
+        "end_char": 705,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "85a5410711b728c89bb0aae8a2d42936",
+        "passage_rank": 7,
+        "query_id": "879",
+        "sentence_id": "0f1810c9b8382cebbdc8f74e9981f828",
+        "sentence_text": "The nucleolar localization of the 5S RNP and its assembly into preribosomes are performed by a specialized complex composed of Rpf2 and Rrs1 in yeast or Bxdc1 and hRrs1 in humans.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          3092,
+          0,
+          4,
+          0
+        ],
+        "source_position": 526
+      },
+      {
+        "cross_encoder_score": -6.88772439956665,
+        "dataset": "SciFact",
+        "end_char": 857,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "85a5410711b728c89bb0aae8a2d42936",
+        "passage_rank": 7,
+        "query_id": "879",
+        "sentence_id": "611a87467822036fdb877d05bbaab253",
+        "sentence_text": "Here we report the structural and functional characterization of the Rpf2-Rrs1 complex alone, in complex with the 5S RNA, and within pre-60S ribosomes.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          3092,
+          0,
+          5,
+          0
+        ],
+        "source_position": 706
+      },
+      {
+        "cross_encoder_score": -9.044927597045898,
+        "dataset": "SciFact",
+        "end_char": 1041,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "85a5410711b728c89bb0aae8a2d42936",
+        "passage_rank": 7,
+        "query_id": "879",
+        "sentence_id": "4e69632b00630e7498c2e6869964e4d3",
+        "sentence_text": "We show that the Rpf2-Rrs1 complex contains a specialized 5S RNA E-loop-binding module, contacts the Rpl5 protein, and also contacts the ribosome assembly factor Rsa4 and the 25S RNA.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          3092,
+          0,
+          6,
+          0
+        ],
+        "source_position": 858
+      },
+      {
+        "cross_encoder_score": -10.064493179321289,
+        "dataset": "SciFact",
+        "end_char": 1304,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "85a5410711b728c89bb0aae8a2d42936",
+        "passage_rank": 7,
+        "query_id": "879",
+        "sentence_id": "eeec8d8fc5c62f194df58a47b42cd036",
+        "sentence_text": "We propose that the Rpf2-Rrs1 complex establishes a network of interactions that guide the incorporation of the 5S RNP in preribosomes in the initial conformation prior to its rotation to form the central protuberance found in the mature large ribosomal subunit.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          3092,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1042
+      },
+      {
+        "cross_encoder_score": -7.528439998626709,
+        "dataset": "SciFact",
+        "end_char": 118,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "0234eaefc6a0d9f80ea41773acb80de9",
+        "passage_rank": 3,
+        "query_id": "879",
+        "sentence_id": "bb631b97934feb639f98116774952577",
+        "sentence_text": "The complexity of human ribosome biogenesis revealed by systematic nucleolar screening of Pre-rRNA processing factors.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          3877,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.847876071929932,
+        "dataset": "SciFact",
+        "end_char": 221,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "0234eaefc6a0d9f80ea41773acb80de9",
+        "passage_rank": 3,
+        "query_id": "879",
+        "sentence_id": "53e962331552129386c5c73ebdbdb1ed",
+        "sentence_text": "Mature ribosomal RNAs (rRNAs) are produced from polycistronic precursors following complex processing.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3877,
+          0,
+          1,
+          0
+        ],
+        "source_position": 119
+      },
+      {
+        "cross_encoder_score": -10.486597061157227,
+        "dataset": "SciFact",
+        "end_char": 340,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "0234eaefc6a0d9f80ea41773acb80de9",
+        "passage_rank": 3,
+        "query_id": "879",
+        "sentence_id": "bf39f6129e82f7a40cdc3ad5924283e0",
+        "sentence_text": "Precursor (pre)-rRNA processing has been extensively characterized in yeast and was assumed to be conserved in humans.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3877,
+          0,
+          2,
+          0
+        ],
+        "source_position": 222
+      },
+      {
+        "cross_encoder_score": -9.730924606323242,
+        "dataset": "SciFact",
+        "end_char": 489,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "0234eaefc6a0d9f80ea41773acb80de9",
+        "passage_rank": 3,
+        "query_id": "879",
+        "sentence_id": "c75785a65cdaef296b663c5bc1de1649",
+        "sentence_text": "We functionally characterized 625 nucleolar proteins in HeLa cells and identified 286 required for processing, including 74 without a yeast homolog.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3877,
+          0,
+          3,
+          0
+        ],
+        "source_position": 341
+      },
+      {
+        "cross_encoder_score": -10.127573013305664,
+        "dataset": "SciFact",
+        "end_char": 769,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "0234eaefc6a0d9f80ea41773acb80de9",
+        "passage_rank": 3,
+        "query_id": "879",
+        "sentence_id": "f6a717341aa9063ce8f29f699d33851c",
+        "sentence_text": "For selected candidates, we demonstrated that pre-rRNA processing defects are conserved in different cell types (including primary cells), defects are not due to activation of a p53-dependent nucleolar tumor surveillance pathway, and they precede cell-cycle arrest and apoptosis.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          3877,
+          0,
+          4,
+          0
+        ],
+        "source_position": 490
+      },
+      {
+        "cross_encoder_score": -8.879903793334961,
+        "dataset": "SciFact",
+        "end_char": 960,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "0234eaefc6a0d9f80ea41773acb80de9",
+        "passage_rank": 3,
+        "query_id": "879",
+        "sentence_id": "6a80e9e67033dc1d3358206ebe54d8de",
+        "sentence_text": "We also investigated the exosome's role in processing internal transcribed spacers (ITSs) and report that 3' end maturation of 18S rRNA involves EXOSC10/Rrp6, a yeast ITS2 processing factor.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          3877,
+          0,
+          5,
+          0
+        ],
+        "source_position": 770
+      },
+      {
+        "cross_encoder_score": -8.94455623626709,
+        "dataset": "SciFact",
+        "end_char": 1230,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "0234eaefc6a0d9f80ea41773acb80de9",
+        "passage_rank": 3,
+        "query_id": "879",
+        "sentence_id": "070a88510b7c5197292b4122dadc6778",
+        "sentence_text": "We conclude that human cells adopt unique strategies and recruit distinct trans-acting factors to carry out essential processing steps, posing fundamental implications for understanding ribosomopathies at the molecular level and developing effective therapeutic agents.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          3877,
+          0,
+          6,
+          0
+        ],
+        "source_position": 961
+      },
+      {
+        "cross_encoder_score": -10.60684871673584,
+        "dataset": "SciFact",
+        "end_char": 79,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "19aba1cd538487c847af0858540d743e",
+        "passage_rank": 8,
+        "query_id": "879",
+        "sentence_id": "c6629d691493d62a5b7a5bea75dc2f03",
+        "sentence_text": "Noncoding transcription at enhancers: general principles and functional models.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          4663,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.512306213378906,
+        "dataset": "SciFact",
+        "end_char": 170,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "19aba1cd538487c847af0858540d743e",
+        "passage_rank": 8,
+        "query_id": "879",
+        "sentence_id": "c0588fe27bf308bfe10de08f6e23a554",
+        "sentence_text": "Mammalian genomes are extensively transcribed outside the borders of protein-coding genes.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          4663,
+          0,
+          1,
+          0
+        ],
+        "source_position": 80
+      },
+      {
+        "cross_encoder_score": -10.78333568572998,
+        "dataset": "SciFact",
+        "end_char": 394,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "19aba1cd538487c847af0858540d743e",
+        "passage_rank": 8,
+        "query_id": "879",
+        "sentence_id": "ad58e90e05903104baf18230a2a78eef",
+        "sentence_text": "Genome-wide studies recently demonstrated that cis-regulatory genomic elements implicated in transcriptional control, such as enhancers and locus-control regions, represent major sites of extragenic noncoding transcription.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          4663,
+          0,
+          2,
+          0
+        ],
+        "source_position": 171
+      },
+      {
+        "cross_encoder_score": -8.659235954284668,
+        "dataset": "SciFact",
+        "end_char": 791,
+        "pair_tokens_before_truncation": 96,
+        "pair_truncated": false,
+        "passage_id": "19aba1cd538487c847af0858540d743e",
+        "passage_rank": 8,
+        "query_id": "879",
+        "sentence_id": "5ef6156d521e8a891c25d56d35162ae5",
+        "sentence_text": "Enhancer-templated transcripts provide a quantitatively small contribution to the total amount of cellular nonribosomal RNA; nevertheless, the possibility that enhancer transcription and the resulting enhancer RNAs may, in some cases, have functional roles, rather than represent mere transcriptional noise at accessible genomic regions, is supported by an increasing amount of experimental data.",
+        "sentence_token_cost": 71,
+        "source_order": [
+          4663,
+          0,
+          3,
+          0
+        ],
+        "source_position": 395
+      },
+      {
+        "cross_encoder_score": -10.657482147216797,
+        "dataset": "SciFact",
+        "end_char": 898,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "19aba1cd538487c847af0858540d743e",
+        "passage_rank": 8,
+        "query_id": "879",
+        "sentence_id": "b3b97f35a8936739c19dc85706041dc1",
+        "sentence_text": "In this article we review the current knowledge on enhancer transcription and its functional implications.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          4663,
+          0,
+          4,
+          0
+        ],
+        "source_position": 792
+      }
+    ],
+    "scoring_seconds": 0.4575179300736636,
+    "source_fingerprint": "944ade48f0db573ecf487a1e5b982576df7e3adb2ffe60cf3f1ade375177cf23"
+  }
+}

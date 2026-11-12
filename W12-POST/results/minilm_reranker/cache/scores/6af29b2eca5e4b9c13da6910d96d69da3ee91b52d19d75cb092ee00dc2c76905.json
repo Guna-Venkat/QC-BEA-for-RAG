@@ -1,0 +1,1371 @@
+{
+  "checksum": "65a6806c98f537c3bd8e979c76dc61b680071c7674347083d06f4daa00f6c390",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "a0543b4afda15ea47c1e623c7f00d4aaca045be0"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 67,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "a79703b6024acc92b379fc79410eb9577945bdf967bf05572e4cdb52e8e1eaed",
+    "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+    "scores": [
+      {
+        "cross_encoder_score": -0.7015782594680786,
+        "dataset": "QASPER",
+        "end_char": 257,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "f51141b4c30b9141dfb7f28583b983af",
+        "passage_rank": 5,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "8b8a57edf18138e608ad85c6ff0bf228",
+        "sentence_text": "Multimodal Named Entity Recognition for Short Social Media Posts\tWe introduce a new task called Multimodal Named Entity Recognition (MNER) for noisy user-generated data such as tweets or Snapchat captions, which comprise short text with accompanying images.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.43130111694336,
+        "dataset": "QASPER",
+        "end_char": 441,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "f51141b4c30b9141dfb7f28583b983af",
+        "passage_rank": 5,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "127590e734086bc06cb77476a367bf66",
+        "sentence_text": "These social media posts often come in inconsistent or incomplete syntax and lexical notations with very limited surrounding textual contexts, bringing significant challenges for NER.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 258
+      },
+      {
+        "cross_encoder_score": 1.4516569375991821,
+        "dataset": "QASPER",
+        "end_char": 621,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "f51141b4c30b9141dfb7f28583b983af",
+        "passage_rank": 5,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "2c48dd7ee48446f51abb94a1e37e2f13",
+        "sentence_text": "To this end, we create a new dataset for MNER called SnapCaptions (Snapchat image-caption pairs submitted to public and crowd-sourced stories with fully annotated named entities).",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 442
+      },
+      {
+        "cross_encoder_score": -11.492314338684082,
+        "dataset": "QASPER",
+        "end_char": 1000,
+        "pair_tokens_before_truncation": 99,
+        "pair_truncated": false,
+        "passage_id": "f51141b4c30b9141dfb7f28583b983af",
+        "passage_rank": 5,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "07eb62f2a136c3c2ede77f44daad09e9",
+        "sentence_text": "We then build upon the state-of-the-art Bi-LSTM word/character based NER models with 1) a deep image network which incorporates relevant visual context to augment textual information, and 2) a generic modality-attention module which learns to attenuate irrelevant modalities while amplifying the most informative ones to extract contexts from, adaptive to each sample and token.",
+        "sentence_token_cost": 75,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 622
+      },
+      {
+        "cross_encoder_score": -11.510171890258789,
+        "dataset": "QASPER",
+        "end_char": 1249,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "f51141b4c30b9141dfb7f28583b983af",
+        "passage_rank": 5,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "77ea81dff63bacd58c7b16e8505a23f1",
+        "sentence_text": "The proposed MNER model with modality attention significantly outperforms the state-of-the-art text-only NER models by successfully leveraging provided visual contexts, opening up potential applications of MNER on myriads of social media platforms.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 1001
+      },
+      {
+        "cross_encoder_score": -11.419511795043945,
+        "dataset": "QASPER",
+        "end_char": 1396,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "f51141b4c30b9141dfb7f28583b983af",
+        "passage_rank": 5,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "cd0ee9bc9207d87ae5e11ccf90fbce87",
+        "sentence_text": "Introduction\tSocial media with abundant user-generated posts provide a rich platform for understanding events, opinions and preferences of groups",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1251
+      },
+      {
+        "cross_encoder_score": -10.56954288482666,
+        "dataset": "QASPER",
+        "end_char": 1413,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "ef90d6232b8fd4cdcbacb213c20721a7",
+        "passage_rank": 10,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "052547c55e1b42709ab4c1c2ebb3caf4",
+        "sentence_text": "and individuals.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1397
+      },
+      {
+        "cross_encoder_score": -11.46896743774414,
+        "dataset": "QASPER",
+        "end_char": 1544,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "ef90d6232b8fd4cdcbacb213c20721a7",
+        "passage_rank": 10,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "5ff67c04ad6bab2138d763fdedec0b2c",
+        "sentence_text": "These insights are primarily hidden in unstructured forms of social media posts, such as in free-form text or images without tags.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1414
+      },
+      {
+        "cross_encoder_score": -1.921323299407959,
+        "dataset": "QASPER",
+        "end_char": 2156,
+        "pair_tokens_before_truncation": 140,
+        "pair_truncated": false,
+        "passage_id": "ef90d6232b8fd4cdcbacb213c20721a7",
+        "passage_rank": 10,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "c726105179813586004aaac9e022fd83",
+        "sentence_text": "Named entity recognition (NER), the task of recognizing named entities from free-form text, is thus a critical step for building structural information, allowing for its use in personalized assistance, recommendations, advertisement, etc. While many previous approaches  ,  ,  ,  on NER have shown success for well-formed text in recognizing named entities via word context resolution (e.g. LSTM with word embeddings) combined with character-level features (e.g. CharLSTM/CNN), several additional challenges remain for recognizing named entities from extremely short and coarse text found in social media posts.",
+        "sentence_token_cost": 114,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1545
+      },
+      {
+        "cross_encoder_score": -5.974050045013428,
+        "dataset": "QASPER",
+        "end_char": 2384,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "ef90d6232b8fd4cdcbacb213c20721a7",
+        "passage_rank": 10,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "2d504a4e0f8cde96dcbd7fcdedead436",
+        "sentence_text": "For instance, short social media posts often do not provide enough textual contexts to resolve polysemous entities (e.g. \u201cmonopoly is da best \", where `monopoly' may refer to a board game (named entity) or a term in economics).",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 2157
+      },
+      {
+        "cross_encoder_score": -10.178258895874023,
+        "dataset": "QASPER",
+        "end_char": 2653,
+        "pair_tokens_before_truncation": 86,
+        "pair_truncated": false,
+        "passage_id": "ef90d6232b8fd4cdcbacb213c20721a7",
+        "passage_rank": 10,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "5354a49690a43072a20fd5ed03fed51b",
+        "sentence_text": "In addition, noisy text includes a huge number of unknown tokens due to inconsistent lexical notations and frequent mentions of various newly trending entities (e.g. \u201cxoxo Marshmelloooo \", where `Marshmelloooo' is a mis-spelling of a known entity `Marshmello', a music",
+        "sentence_token_cost": 62,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 2385
+      },
+      {
+        "cross_encoder_score": -11.463757514953613,
+        "dataset": "QASPER",
+        "end_char": 2732,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "e970bb0ee552ed241454a288d7f5e5f9",
+        "passage_rank": 6,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "5610cb631c7c224bdf77490e8760ed92",
+        "sentence_text": "producer), making word embeddings based neural networks NER models vulnerable.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2654
+      },
+      {
+        "cross_encoder_score": -11.494675636291504,
+        "dataset": "QASPER",
+        "end_char": 2910,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "e970bb0ee552ed241454a288d7f5e5f9",
+        "passage_rank": 6,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "7056496e5307f6da9714ff1bb9dd63bf",
+        "sentence_text": "To address the challenges above for social media posts, we build upon the state-of-the-art neural architecture for NER with the following two novel approaches (Figure FIGREF1 ).",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2733
+      },
+      {
+        "cross_encoder_score": -10.68681526184082,
+        "dataset": "QASPER",
+        "end_char": 3008,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "e970bb0ee552ed241454a288d7f5e5f9",
+        "passage_rank": 6,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "5f2e82b333770a64b27996c308908ae6",
+        "sentence_text": "First, we propose to leverage auxiliary modalities for additional context resolution of entities.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 2911
+      },
+      {
+        "cross_encoder_score": -11.351865768432617,
+        "dataset": "QASPER",
+        "end_char": 3271,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "e970bb0ee552ed241454a288d7f5e5f9",
+        "passage_rank": 6,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "d1c43af33566dcabcb67c2af3982263f",
+        "sentence_text": "For example, many popular social media platforms now provide ways to compose a post in multiple modalities - specifically image and text (e.g. Snapchat captions, Twitter posts with image URLs), from which we can obtain additional context for understanding posts.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3009
+      },
+      {
+        "cross_encoder_score": 1.6090760231018066,
+        "dataset": "QASPER",
+        "end_char": 3490,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "e970bb0ee552ed241454a288d7f5e5f9",
+        "passage_rank": 6,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "ad2d52c6fa8874bb63aa755372eb2376",
+        "sentence_text": "While \u201cmonopoly\" in the previous example is ambiguous in its textual form, an accompanying snap image of a board game can help disambiguate among polysemous entities, thereby correctly recognizing it as a named entity.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3272
+      },
+      {
+        "cross_encoder_score": -11.497322082519531,
+        "dataset": "QASPER",
+        "end_char": 3731,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "e970bb0ee552ed241454a288d7f5e5f9",
+        "passage_rank": 6,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "767bdb0aa54df9cec87262c62cb125a2",
+        "sentence_text": "Second, we also propose a general modality attention module which chooses per decoding step the most informative modality among available ones (in our case, word embeddings, character embeddings, or visual features) to extract context from.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3491
+      },
+      {
+        "cross_encoder_score": -7.699338436126709,
+        "dataset": "QASPER",
+        "end_char": 4007,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "e970bb0ee552ed241454a288d7f5e5f9",
+        "passage_rank": 6,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "c91189a1d4fb04c7d660f97976d23f99",
+        "sentence_text": "For example, the modality attention module lets the decoder attenuate the word-level signals for unknown word tokens (\u201cMarshmellooooo\" with trailing `o's) and amplifies character-level features intsead (capitalized first letter, lexical similarity to other known named entity",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3732
+      },
+      {
+        "cross_encoder_score": -11.106975555419922,
+        "dataset": "QASPER",
+        "end_char": 5374,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "5b33065895e5d42fadb46e131e0f0584",
+        "passage_rank": 7,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "a51afd8b5ef6415d9636e3fb82b1b7d3",
+        "sentence_text": "modalities).",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "source_position": 5362
+      },
+      {
+        "cross_encoder_score": -7.098262786865234,
+        "dataset": "QASPER",
+        "end_char": 5650,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "5b33065895e5d42fadb46e131e0f0584",
+        "passage_rank": 7,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "c2d8f27fb663fe372ab9675b7fa1ac92",
+        "sentence_text": "(3) We show that the proposed approaches outperform the state-of-the-art NER models (both with and without using additional visual contexts) on our new MNER dataset SnapCaptions, a large collection of informal and extremely short social media posts paired with unique images.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "source_position": 5375
+      },
+      {
+        "cross_encoder_score": -11.519715309143066,
+        "dataset": "QASPER",
+        "end_char": 5777,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "5b33065895e5d42fadb46e131e0f0584",
+        "passage_rank": 7,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "2249a2951c1b64e0b46b2046567b62ea",
+        "sentence_text": "Related Work\tNeural models for NER have been recently proposed, producing state-of-the-art performance on standard NER tasks.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "source_position": 5652
+      },
+      {
+        "cross_encoder_score": -11.502788543701172,
+        "dataset": "QASPER",
+        "end_char": 6091,
+        "pair_tokens_before_truncation": 90,
+        "pair_truncated": false,
+        "passage_id": "5b33065895e5d42fadb46e131e0f0584",
+        "passage_rank": 7,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "d5234fb7cb90e7dbf09c0fe6e0979566",
+        "sentence_text": "For example, some of the end-to-end NER systems  ,  ,  ,  ,  use a recurrent neural network usually with a CRF  ,  for sequence labeling, accompanied with feature extractors for words and characters (CNN, LSTMs, etc.), and achieve the state-of-the-art performance mostly without any use of gazetteers information.",
+        "sentence_token_cost": 74,
+        "source_order": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "source_position": 5778
+      },
+      {
+        "cross_encoder_score": -11.429059982299805,
+        "dataset": "QASPER",
+        "end_char": 6210,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "5b33065895e5d42fadb46e131e0f0584",
+        "passage_rank": 7,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "7c50d7d62a336b2a4c28a6b300b5b0d5",
+        "sentence_text": "Note that most of these work aggregate textual contexts via concatenation of word embeddings and character embeddings.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "source_position": 6092
+      },
+      {
+        "cross_encoder_score": -11.501428604125977,
+        "dataset": "QASPER",
+        "end_char": 6330,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "5b33065895e5d42fadb46e131e0f0584",
+        "passage_rank": 7,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "c98df6d993c54b585b7c9c760301083a",
+        "sentence_text": "Recently, several work have addressed the NER task specifically on noisy short text segments such as Tweets, etc.  ,  .",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          4,
+          5,
+          0
+        ],
+        "source_position": 6211
+      },
+      {
+        "cross_encoder_score": -11.480591773986816,
+        "dataset": "QASPER",
+        "end_char": 6521,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "5b33065895e5d42fadb46e131e0f0584",
+        "passage_rank": 7,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "d904d8bbbf0a28a876c096fd0edd79b3",
+        "sentence_text": "They report performance gains from leveraging external sources of information such as lexical information (POS tags, etc.) and/or from several preprocessing steps (token substitution, etc.).",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          4,
+          6,
+          0
+        ],
+        "source_position": 6331
+      },
+      {
+        "cross_encoder_score": -11.478666305541992,
+        "dataset": "QASPER",
+        "end_char": 6621,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "5b33065895e5d42fadb46e131e0f0584",
+        "passage_rank": 7,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "dfc42a7af0fed18b6efa69b26c0d733a",
+        "sentence_text": "Our model builds upon these state-of-the-art neural models for NER tasks, and improves the model in",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          4,
+          7,
+          0
+        ],
+        "source_position": 6522
+      },
+      {
+        "cross_encoder_score": -11.492703437805176,
+        "dataset": "QASPER",
+        "end_char": 15424,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "f3ac8f71880efef3feea862d900a4386",
+        "passage_rank": 4,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "ec48e27955e8d99c9ae222a24f93ee4d",
+        "sentence_text": "INLINEFORM1 , and INLINEFORM2 is a final context vector at INLINEFORM3 that maximizes information gain for INLINEFORM4 .",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 15304
+      },
+      {
+        "cross_encoder_score": -7.787571907043457,
+        "dataset": "QASPER",
+        "end_char": 15823,
+        "pair_tokens_before_truncation": 103,
+        "pair_truncated": false,
+        "passage_id": "f3ac8f71880efef3feea862d900a4386",
+        "passage_rank": 4,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "53d1d0124cd45624ca199dfd9463acaf",
+        "sentence_text": "Note that the optimization of the objective function (Eq. SECREF4 ) with modality attention (Eq. SECREF5 ) requires each modality to have the same dimension ( INLINEFORM5 ), and that the transformation via INLINEFORM6 essentially enforces each modality to be mapped into the same unified subspace, where the weighted average of which encodes discrimitive features for recognition of named entities.",
+        "sentence_token_cost": 82,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 15425
+      },
+      {
+        "cross_encoder_score": -11.431264877319336,
+        "dataset": "QASPER",
+        "end_char": 16357,
+        "pair_tokens_before_truncation": 193,
+        "pair_truncated": false,
+        "passage_id": "f3ac8f71880efef3feea862d900a4386",
+        "passage_rank": 4,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "82f6f3f3a579e2bc97079fbf3f795e0c",
+        "sentence_text": "When visual context is not provided with each token (as in the traditional NER task), we can define the modality attention for word and character embeddings only in a similar way: [at(w),at(c)] = (Wm[xt(w); xt(c)] + bm ) t(m) = (at(m))m'{w,c}(at(m')) m {w,c} xt = m{w,c} t(m)xt(m) Note that while we apply this modality attention module to the Bi-LSTM+CRF architecture (Section SECREF4 ) for its empirical superiority, the module itself is flexible and thus can work with other NER architectures or for other multimodal applications.",
+        "sentence_token_cost": 142,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 15824
+      },
+      {
+        "cross_encoder_score": -7.503269672393799,
+        "dataset": "QASPER",
+        "end_char": 16383,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "f3ac8f71880efef3feea862d900a4386",
+        "passage_rank": 4,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "f5b3c920720a722a11334cc23425b0d7",
+        "sentence_text": "SnapCaptions Dataset\tThe",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 16359
+      },
+      {
+        "cross_encoder_score": 2.0970091819763184,
+        "dataset": "QASPER",
+        "end_char": 16595,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "d92e2502fef906425d415ad9d0efe69d",
+        "passage_rank": 1,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "e5e7d726e7cfabfcd8eaacac11e5a0bc",
+        "sentence_text": "SnapCaptions dataset is composed of 10K user-generated image (snap) and textual caption pairs where named entities in captions are manually labeled by expert human annotators (entity types: PER, LOC, ORG, MISC).",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "source_position": 16384
+      },
+      {
+        "cross_encoder_score": -11.058533668518066,
+        "dataset": "QASPER",
+        "end_char": 16737,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "d92e2502fef906425d415ad9d0efe69d",
+        "passage_rank": 1,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "edb67a36969e3440423e23e1cfbd6827",
+        "sentence_text": "These captions are collected exclusively from snaps submitted to public and crowd-sourced stories (aka Snapchat Live Stories or Our Stories).",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          13,
+          1,
+          0
+        ],
+        "source_position": 16596
+      },
+      {
+        "cross_encoder_score": -10.579365730285645,
+        "dataset": "QASPER",
+        "end_char": 17147,
+        "pair_tokens_before_truncation": 98,
+        "pair_truncated": false,
+        "passage_id": "d92e2502fef906425d415ad9d0efe69d",
+        "passage_rank": 1,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "b8a628529d9b3eb6f8333ed854bb3014",
+        "sentence_text": "Examples of such public crowd-sourced stories are \u201cNew York Story\u201d or \u201cThanksgiving Story\u201d, which comprise snaps that are aggregated for various public events, venues, etc. All snaps were posted between year 2016 and 2017, and do not contain raw images or other associated information (only textual captions and obfuscated visual descriptor features extracted from the pre-trained InceptionNet are available).",
+        "sentence_token_cost": 84,
+        "source_order": [
+          0,
+          13,
+          2,
+          0
+        ],
+        "source_position": 16738
+      },
+      {
+        "cross_encoder_score": -11.465989112854004,
+        "dataset": "QASPER",
+        "end_char": 17225,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d92e2502fef906425d415ad9d0efe69d",
+        "passage_rank": 1,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "d6c3e2d240302fdddfec8d35fdbc0374",
+        "sentence_text": "We split the dataset into train (70%), validation (15%), and test sets (15%).",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          13,
+          3,
+          0
+        ],
+        "source_position": 17148
+      },
+      {
+        "cross_encoder_score": -11.493952751159668,
+        "dataset": "QASPER",
+        "end_char": 17400,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "d92e2502fef906425d415ad9d0efe69d",
+        "passage_rank": 1,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "8de0c711933a7e5cedd84bbc71872730",
+        "sentence_text": "The captions data have average length of 30.7 characters (5.81 words) with vocabulary size 15,733, where 6,612 are considered unknown tokens from Stanford GloVE embeddings  .",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          13,
+          4,
+          0
+        ],
+        "source_position": 17226
+      },
+      {
+        "cross_encoder_score": 3.77805233001709,
+        "dataset": "QASPER",
+        "end_char": 17549,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "d92e2502fef906425d415ad9d0efe69d",
+        "passage_rank": 1,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "243fb0e99eea559557f7136289dbeeb1",
+        "sentence_text": "Named entities annotated in the SnapCaptions dataset include many of new and emerging entities, and they are found in various surface forms (various",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          13,
+          5,
+          0
+        ],
+        "source_position": 17401
+      },
+      {
+        "cross_encoder_score": 2.38022780418396,
+        "dataset": "QASPER",
+        "end_char": 17716,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "bdf4b70e94916ce83ef3217d11c88564",
+        "passage_rank": 2,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "c21cc178ad78b9d6e17900cf6f76c2f3",
+        "sentence_text": "nicknames, typos, etc.) To the best of our knowledge, SnapCaptions is the only dataset that contains natural image-caption pairs with expert-annotated named entities.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 17550
+      },
+      {
+        "cross_encoder_score": -11.498411178588867,
+        "dataset": "QASPER",
+        "end_char": 17880,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "bdf4b70e94916ce83ef3217d11c88564",
+        "passage_rank": 2,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "2428dc8f260746946b9715a3d499049a",
+        "sentence_text": "Baselines\tTask: given a caption and a paired image (if used), the goal is to label every token in a caption in BIO scheme (B: beginning, I: inside, O: outside)  .",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 17718
+      },
+      {
+        "cross_encoder_score": -11.502676010131836,
+        "dataset": "QASPER",
+        "end_char": 18098,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "bdf4b70e94916ce83ef3217d11c88564",
+        "passage_rank": 2,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "a64f723f2ac7b517d85adc73a9573ef2",
+        "sentence_text": "We report the performance of the following state-of-the-art NER models as baselines, as well as several configurations of our proposed approach to examine contributions of each component (W: word, C: char, V: visual).",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          14,
+          2,
+          0
+        ],
+        "source_position": 17881
+      },
+      {
+        "cross_encoder_score": -11.458198547363281,
+        "dataset": "QASPER",
+        "end_char": 18180,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "bdf4b70e94916ce83ef3217d11c88564",
+        "passage_rank": 2,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "54bff045d009c41546727eeeeebd3b56",
+        "sentence_text": "Bi-LSTM/CRF (W only): only takes word token embeddings (Stanford GloVE) as input.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          14,
+          3,
+          0
+        ],
+        "source_position": 18099
+      },
+      {
+        "cross_encoder_score": -11.169573783874512,
+        "dataset": "QASPER",
+        "end_char": 18227,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "bdf4b70e94916ce83ef3217d11c88564",
+        "passage_rank": 2,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "d8fde90fd0e09dc581802e3d44724cba",
+        "sentence_text": "The rest of the architecture is kept the same.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          14,
+          4,
+          0
+        ],
+        "source_position": 18181
+      },
+      {
+        "cross_encoder_score": -11.448233604431152,
+        "dataset": "QASPER",
+        "end_char": 18324,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "bdf4b70e94916ce83ef3217d11c88564",
+        "passage_rank": 2,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "b7799e039d7676844a4bab5f1b8b1a1d",
+        "sentence_text": "Bi-LSTM/CRF + Bi-CharLSTM (C only): only takes a character sequence of each word token as input.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          14,
+          5,
+          0
+        ],
+        "source_position": 18228
+      },
+      {
+        "cross_encoder_score": -11.508805274963379,
+        "dataset": "QASPER",
+        "end_char": 18471,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "bdf4b70e94916ce83ef3217d11c88564",
+        "passage_rank": 2,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "eed722e112721358775f5a51d2b7e7d8",
+        "sentence_text": "(No word embeddings) Bi-LSTM/CRF + Bi-CharLSTM (W+C)  : takes as input both word embeddings and character embeddings extracted from a Bi-CharLSTM.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          14,
+          6,
+          0
+        ],
+        "source_position": 18325
+      },
+      {
+        "cross_encoder_score": -10.224507331848145,
+        "dataset": "QASPER",
+        "end_char": 18560,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "bdf4b70e94916ce83ef3217d11c88564",
+        "passage_rank": 2,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "8fb0cb05a2316d522f0c4076cfc1150d",
+        "sentence_text": "Entity LSTM takes concatenated vectors of word and character embeddings as input tokens.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          14,
+          7,
+          0
+        ],
+        "source_position": 18472
+      },
+      {
+        "cross_encoder_score": -11.302809715270996,
+        "dataset": "QASPER",
+        "end_char": 18588,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "bdf4b70e94916ce83ef3217d11c88564",
+        "passage_rank": 2,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "34a5f8edccb8acc3de4549e5a8c4ec3f",
+        "sentence_text": "Bi-LSTM/CRF + CharCNN (W+C)",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          14,
+          8,
+          0
+        ],
+        "source_position": 18561
+      },
+      {
+        "cross_encoder_score": -11.409027099609375,
+        "dataset": "QASPER",
+        "end_char": 18647,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "eebfd415eedb78cd7dc76e22a52b50ab",
+        "passage_rank": 3,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "17e91058c60b0014cb74487489f7227c",
+        "sentence_text": ": uses character embeddings extracted from a CNN instead.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          15,
+          0,
+          0
+        ],
+        "source_position": 18590
+      },
+      {
+        "cross_encoder_score": -11.333287239074707,
+        "dataset": "QASPER",
+        "end_char": 18805,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "eebfd415eedb78cd7dc76e22a52b50ab",
+        "passage_rank": 3,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "d1d55ab87258f9d3c766a4ab9321483a",
+        "sentence_text": "Bi-LSTM/CRF + CharCNN (W+C) + Multi-task  : trains the model to perform both recognition (into multiple entity types) as well as segmentation (binary) tasks.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          15,
+          1,
+          0
+        ],
+        "source_position": 18648
+      },
+      {
+        "cross_encoder_score": -11.493853569030762,
+        "dataset": "QASPER",
+        "end_char": 18941,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "eebfd415eedb78cd7dc76e22a52b50ab",
+        "passage_rank": 3,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "4d6138840183e64d74b0480865b58725",
+        "sentence_text": "(proposed) Bi-LSTM/CRF + Bi-CharLSTM with modality attention (W+C): uses the modality attention to merge word and character embeddings.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          15,
+          2,
+          0
+        ],
+        "source_position": 18806
+      },
+      {
+        "cross_encoder_score": -11.495043754577637,
+        "dataset": "QASPER",
+        "end_char": 19108,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "eebfd415eedb78cd7dc76e22a52b50ab",
+        "passage_rank": 3,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "90483e240c5aae20aec643a37f5f0d1a",
+        "sentence_text": "(proposed) Bi-LSTM/CRF + Bi-CharLSTM + Inception (W+C+V): takes as input visual contexts extracted from InceptionNet as well, concatenated with word and char vectors.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          15,
+          3,
+          0
+        ],
+        "source_position": 18942
+      },
+      {
+        "cross_encoder_score": -11.21934986114502,
+        "dataset": "QASPER",
+        "end_char": 19291,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "eebfd415eedb78cd7dc76e22a52b50ab",
+        "passage_rank": 3,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "0ad5f46565886c85c2e59b40edeb362f",
+        "sentence_text": "(proposed) Bi-LSTM/CRF + Bi-CharLSTM + Inception with modality attention (W+C+V): uses the modality attention to merge word, character, and visual embeddings as input to entity LSTM.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          15,
+          4,
+          0
+        ],
+        "source_position": 19109
+      },
+      {
+        "cross_encoder_score": -9.07432746887207,
+        "dataset": "QASPER",
+        "end_char": 19392,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "eebfd415eedb78cd7dc76e22a52b50ab",
+        "passage_rank": 3,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "d3a6c704bf462f16bb2aa05eb2355a1c",
+        "sentence_text": "Results: SnapCaptions Dataset\tTable TABREF6 shows the NER performance on the Snap Captions dataset.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          15,
+          5,
+          0
+        ],
+        "source_position": 19293
+      },
+      {
+        "cross_encoder_score": -4.924126625061035,
+        "dataset": "QASPER",
+        "end_char": 19515,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "eebfd415eedb78cd7dc76e22a52b50ab",
+        "passage_rank": 3,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "0c5435cfb2c9d3d44aec6ed025a4b45e",
+        "sentence_text": "We report both entity types recognition (PER, LOC, ORG, MISC) and named entity segmentation (named entity or not) results.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          15,
+          6,
+          0
+        ],
+        "source_position": 19393
+      },
+      {
+        "cross_encoder_score": -11.447124481201172,
+        "dataset": "QASPER",
+        "end_char": 19644,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "eebfd415eedb78cd7dc76e22a52b50ab",
+        "passage_rank": 3,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "ae74c9c5047adabe19b0886319765001",
+        "sentence_text": "Parameters: We tune the parameters of each model with the following search space (bold indicate the choice for our final model):",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          15,
+          7,
+          0
+        ],
+        "source_position": 19516
+      },
+      {
+        "cross_encoder_score": -11.439371109008789,
+        "dataset": "QASPER",
+        "end_char": 20542,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "2398f013825ac11f0d307253b6411b93",
+        "passage_rank": 8,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "7d8b0faa770429c4ac5877dc79246080",
+        "sentence_text": "(visual, words, or characters) adaptive to each sample to maximize information gain.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          17,
+          0,
+          0
+        ],
+        "source_position": 20458
+      },
+      {
+        "cross_encoder_score": -11.513854026794434,
+        "dataset": "QASPER",
+        "end_char": 20812,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "2398f013825ac11f0d307253b6411b93",
+        "passage_rank": 8,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "696c8a84e7addc4052636a7bd7b95d32",
+        "sentence_text": "Note that our text-only model (W+C) with the modality attention module also significantly outperform the state-of-the-art baselines  ,  ,  that use the same textual modalities (W+C), showing the effectiveness of the modality attention module for textual models as well.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          0,
+          17,
+          1,
+          0
+        ],
+        "source_position": 20543
+      },
+      {
+        "cross_encoder_score": -5.210358619689941,
+        "dataset": "QASPER",
+        "end_char": 20940,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "2398f013825ac11f0d307253b6411b93",
+        "passage_rank": 8,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "28399d19bfec28b0d12f684998cdc02c",
+        "sentence_text": "Error Analysis: Table TABREF17 shows example cases where incorporation of visual contexts affects prediction of named entities.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          17,
+          2,
+          0
+        ],
+        "source_position": 20813
+      },
+      {
+        "cross_encoder_score": -11.493402481079102,
+        "dataset": "QASPER",
+        "end_char": 21192,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "2398f013825ac11f0d307253b6411b93",
+        "passage_rank": 8,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "dde7e5b80ce4679cc9c9d841c8a4177a",
+        "sentence_text": "For example, the token `curry' in the caption \u201cThe curry's \" is polysemous and may refer to either a type of food or a famous basketball player `Stephen Curry', and the surrounding textual contexts do not provide enough information to disambiguate it.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          0,
+          17,
+          3,
+          0
+        ],
+        "source_position": 20941
+      },
+      {
+        "cross_encoder_score": -11.453353881835938,
+        "dataset": "QASPER",
+        "end_char": 21270,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "2398f013825ac11f0d307253b6411b93",
+        "passage_rank": 8,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "d78eaed3fc4ce330987d55132667956f",
+        "sentence_text": "On the other hand, visual contexts (visual tags: `parade', `urban area', ...)",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          17,
+          4,
+          0
+        ],
+        "source_position": 21193
+      },
+      {
+        "cross_encoder_score": -1.6604443788528442,
+        "dataset": "QASPER",
+        "end_char": 21476,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "2398f013825ac11f0d307253b6411b93",
+        "passage_rank": 8,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "1bfcbb198e7d3420e9596cb7fb6d8d19",
+        "sentence_text": "provide similarities to the token's distributional semantics from other training examples (snaps from \u201cNBA Championship Parade Story\"), and thus the model successfully predicts the token as a named entity.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          17,
+          5,
+          0
+        ],
+        "source_position": 21271
+      },
+      {
+        "cross_encoder_score": -11.506211280822754,
+        "dataset": "QASPER",
+        "end_char": 21684,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "2398f013825ac11f0d307253b6411b93",
+        "passage_rank": 8,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "6bd908c5952504627ec71f092ccbe8df",
+        "sentence_text": "Similarly, while the text-only model erroneously predicts `Apple' in the caption \u201cGrandma w dat lit Apple Crisp\" as an organization (Apple Inc.), the visual contexts (describing objects related to food) help",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          17,
+          6,
+          0
+        ],
+        "source_position": 21477
+      },
+      {
+        "cross_encoder_score": -5.481853008270264,
+        "dataset": "QASPER",
+        "end_char": 21779,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "3474041bc40e466f4731b1d8ff1ce9c8",
+        "passage_rank": 9,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "5831df8c54b889fd0685cbf214c798d2",
+        "sentence_text": "disambiguate the token, making the model predict it correctly as a non-named entity (a fruit).",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          18,
+          0,
+          0
+        ],
+        "source_position": 21685
+      },
+      {
+        "cross_encoder_score": -9.172381401062012,
+        "dataset": "QASPER",
+        "end_char": 22020,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "3474041bc40e466f4731b1d8ff1ce9c8",
+        "passage_rank": 9,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "a2adca436232f6a7be239a9918efc59c",
+        "sentence_text": "Trending entities (musicians or DJs such as `CID', `Duke Dumont', `Marshmello', etc.) are also recognized correctly with strengthened contexts from visual information (describing concert scenes) despite lack of surrounding textual contexts.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          18,
+          1,
+          0
+        ],
+        "source_position": 21780
+      },
+      {
+        "cross_encoder_score": -11.338296890258789,
+        "dataset": "QASPER",
+        "end_char": 22171,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "3474041bc40e466f4731b1d8ff1ce9c8",
+        "passage_rank": 9,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "558c88a6c3a8260df48f104017de9c23",
+        "sentence_text": "A few cases where visual contexts harmed the performance mostly include visual tags that are unrelated to a token or its surrounding textual contexts.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          18,
+          2,
+          0
+        ],
+        "source_position": 22021
+      },
+      {
+        "cross_encoder_score": -11.482012748718262,
+        "dataset": "QASPER",
+        "end_char": 22420,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "3474041bc40e466f4731b1d8ff1ce9c8",
+        "passage_rank": 9,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "66a82c60f105a8f1da0e0e01df923a86",
+        "sentence_text": "Visualization of Modality Attention: Figure FIGREF19 visualizes the modality attention module at each decoding step (each column), where amplified modality is represented with darker color, and attenuated modality is represented with lighter color.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          18,
+          3,
+          0
+        ],
+        "source_position": 22172
+      },
+      {
+        "cross_encoder_score": -11.45638370513916,
+        "dataset": "QASPER",
+        "end_char": 22663,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "3474041bc40e466f4731b1d8ff1ce9c8",
+        "passage_rank": 9,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "9ff761a56584f39b3bafd83431b6e37e",
+        "sentence_text": "For the image-aided model (W+C+V; upper row in Figure FIGREF19 ), we confirm that the modality attention successfully attenuates irrelevant signals (selfies, etc.) and amplifies relevant modality-based contexts in prediction of a given token.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          18,
+          4,
+          0
+        ],
+        "source_position": 22421
+      },
+      {
+        "cross_encoder_score": -11.487288475036621,
+        "dataset": "QASPER",
+        "end_char": 22904,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "3474041bc40e466f4731b1d8ff1ce9c8",
+        "passage_rank": 9,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "44e5e663ad8eeaf7f83d352b69c33b06",
+        "sentence_text": "In the example of \u201cdisney word essential = coffee\" with visual tags selfie, phone, person, the modality attention successfully attenuates distracting visual signals and focuses on textual modalities, consequently making correct predictions.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          18,
+          5,
+          0
+        ],
+        "source_position": 22664
+      },
+      {
+        "cross_encoder_score": -3.7494356632232666,
+        "dataset": "QASPER",
+        "end_char": 22974,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "3474041bc40e466f4731b1d8ff1ce9c8",
+        "passage_rank": 9,
+        "query_id": "a0543b4afda15ea47c1e623c7f00d4aaca045be0",
+        "sentence_id": "24b6e24fe2ff317e6e638579eeb23ed5",
+        "sentence_text": "The named entities in the examples of \u201cBeautiful night atop The Space",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          18,
+          6,
+          0
+        ],
+        "source_position": 22905
+      }
+    ],
+    "scoring_seconds": 0.7731173090869561,
+    "source_fingerprint": "e64a1c791e6fc8c849533371c1a223941c5b6fe31577a34bc568bd76aca96cc5"
+  }
+}

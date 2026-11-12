@@ -1,0 +1,2031 @@
+{
+  "checksum": "5f7d86e86acd9b81cf50513efa11a9820a0d4d2ff0113a64235ef47a7678b0d8",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "132"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 100,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "1ea84b9501e134803cc30cfa6f5f30f93c0dc3b337211016b6aa36e2534ea147",
+    "query_id": "132",
+    "scores": [
+      {
+        "cross_encoder_score": -3.996770143508911,
+        "dataset": "SciFact",
+        "end_char": 68,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "b3b68a20697d17284cf706d3c24ba032",
+        "passage_rank": 1,
+        "query_id": "132",
+        "sentence_id": "621ee685f4081ea6dd39e6713f492541",
+        "sentence_text": "Characterization of prostaglandin E2 production by Candida albicans.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          449,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.142085075378418,
+        "dataset": "SciFact",
+        "end_char": 166,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "b3b68a20697d17284cf706d3c24ba032",
+        "passage_rank": 1,
+        "query_id": "132",
+        "sentence_id": "1fae1a1dc41e3250fbcb8cb9b64ecd7c",
+        "sentence_text": "Candida albicans produces lipid metabolites that are functionally similar to host prostaglandins.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          449,
+          0,
+          1,
+          0
+        ],
+        "source_position": 69
+      },
+      {
+        "cross_encoder_score": -2.011312961578369,
+        "dataset": "SciFact",
+        "end_char": 305,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "b3b68a20697d17284cf706d3c24ba032",
+        "passage_rank": 1,
+        "query_id": "132",
+        "sentence_id": "036f458a9fe28596f50fc93d8e8e090a",
+        "sentence_text": "These studies, using mass spectrometry, demonstrate that C. albicans produces authentic prostaglandin E(2) (PGE(2)) from arachidonic acid.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          449,
+          0,
+          2,
+          0
+        ],
+        "source_position": 167
+      },
+      {
+        "cross_encoder_score": -1.7637581825256348,
+        "dataset": "SciFact",
+        "end_char": 465,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "b3b68a20697d17284cf706d3c24ba032",
+        "passage_rank": 1,
+        "query_id": "132",
+        "sentence_id": "35b4c65ab2d0da0a5b1e1e6ba6491a1d",
+        "sentence_text": "Maximal PGE(2) production was achieved at 37 degrees C in stationary-phase culture supernatants and in cell-free lysates generated from stationary-phase cells.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          449,
+          0,
+          3,
+          0
+        ],
+        "source_position": 306
+      },
+      {
+        "cross_encoder_score": 3.604340076446533,
+        "dataset": "SciFact",
+        "end_char": 641,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "b3b68a20697d17284cf706d3c24ba032",
+        "passage_rank": 1,
+        "query_id": "132",
+        "sentence_id": "4535c506c9f19a00129ccb47ee503391",
+        "sentence_text": "Interestingly, PGE(2) production is inhibited by both nonspecific cyclooxygenase and lipoxygenase inhibitors but not by inhibitors specific for the cyclooxygenase 2 isoenzyme.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          449,
+          0,
+          4,
+          0
+        ],
+        "source_position": 466
+      },
+      {
+        "cross_encoder_score": -8.392132759094238,
+        "dataset": "SciFact",
+        "end_char": 815,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "b3b68a20697d17284cf706d3c24ba032",
+        "passage_rank": 1,
+        "query_id": "132",
+        "sentence_id": "f221868e74f26c78b9cb4ade62aec1bd",
+        "sentence_text": "The C. albicans genome does not possess a cyclooxygenase homolog; however, several genes that may play a role in prostaglandin production from C. albicans were investigated.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          449,
+          0,
+          5,
+          0
+        ],
+        "source_position": 642
+      },
+      {
+        "cross_encoder_score": -1.782690167427063,
+        "dataset": "SciFact",
+        "end_char": 1072,
+        "pair_tokens_before_truncation": 91,
+        "pair_truncated": false,
+        "passage_id": "b3b68a20697d17284cf706d3c24ba032",
+        "passage_rank": 1,
+        "query_id": "132",
+        "sentence_id": "e1717dc009e46cb109add85b98d04faf",
+        "sentence_text": "It was found that a C. albicans fatty acid desaturase homolog (Ole2) and a multicopper oxidase homolog (Fet3) play roles in prostaglandin production, with ole2/ole2 and fet3/fet3 mutant strains exhibiting reduced PGE(2) levels compared with parent strains.",
+        "sentence_token_cost": 70,
+        "source_order": [
+          449,
+          0,
+          6,
+          0
+        ],
+        "source_position": 816
+      },
+      {
+        "cross_encoder_score": -3.132786750793457,
+        "dataset": "SciFact",
+        "end_char": 1168,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "b3b68a20697d17284cf706d3c24ba032",
+        "passage_rank": 1,
+        "query_id": "132",
+        "sentence_id": "e02e854d2cabd08ade65d482f0089a59",
+        "sentence_text": "This work demonstrates that the synthesis of PGE(2) in C. albicans proceeds via novel pathways.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          449,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1073
+      },
+      {
+        "cross_encoder_score": -9.85722541809082,
+        "dataset": "SciFact",
+        "end_char": 131,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "c5f21e48b6fd195f279a620dacb0f7bb",
+        "passage_rank": 10,
+        "query_id": "132",
+        "sentence_id": "7eebd2441d1de67b8c2339c2984b8043",
+        "sentence_text": "Pharmacodynamics and pharmacokinetics of eptifibatide in patients with acute coronary syndromes: prospective analysis from PURSUIT.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          524,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.995196342468262,
+        "dataset": "SciFact",
+        "end_char": 271,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "c5f21e48b6fd195f279a620dacb0f7bb",
+        "passage_rank": 10,
+        "query_id": "132",
+        "sentence_id": "3d34a1c6a1d97491e3e14d86de9fa691",
+        "sentence_text": "BACKGROUND Platelet deposition and aggregation are central to the pathogenesis of ischemic complications of acute coronary syndromes (ACS).",
+        "sentence_token_cost": 25,
+        "source_order": [
+          524,
+          0,
+          1,
+          0
+        ],
+        "source_position": 132
+      },
+      {
+        "cross_encoder_score": -9.174296379089355,
+        "dataset": "SciFact",
+        "end_char": 428,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "c5f21e48b6fd195f279a620dacb0f7bb",
+        "passage_rank": 10,
+        "query_id": "132",
+        "sentence_id": "66cd966b6eef988eef2cba49a2adb116",
+        "sentence_text": "Pharmacodynamic effects of the platelet glycoprotein IIb/IIIa antagonist eptifibatide have been delineated in healthy subjects but not in patients with ACS.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          524,
+          0,
+          2,
+          0
+        ],
+        "source_position": 272
+      },
+      {
+        "cross_encoder_score": -9.572415351867676,
+        "dataset": "SciFact",
+        "end_char": 664,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "c5f21e48b6fd195f279a620dacb0f7bb",
+        "passage_rank": 10,
+        "query_id": "132",
+        "sentence_id": "7596b5976644442a6cfffb2629d48628",
+        "sentence_text": "We assessed effects of eptifibatide on ex vivo platelet aggregation in patients enrolled in the Platelet glycoprotein IIb/IIIa in Unstable angina: Receptor Suppression Using Integrilin (eptifibatide) Therapy (PURSUIT) trial of ACS.   \n",
+        "sentence_token_cost": 64,
+        "source_order": [
+          524,
+          0,
+          3,
+          0
+        ],
+        "source_position": 429
+      },
+      {
+        "cross_encoder_score": -10.744739532470703,
+        "dataset": "SciFact",
+        "end_char": 851,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "c5f21e48b6fd195f279a620dacb0f7bb",
+        "passage_rank": 10,
+        "query_id": "132",
+        "sentence_id": "59d8ad802570dfd2685af7c0e1097ef9",
+        "sentence_text": "METHODS AND RESULTS Patients were randomly assigned to an intravenous bolus (180 microgram/kg) and 72-hour infusion of eptifibatide (2.0 microgram/kg per minute, n=48) or placebo (n=50).",
+        "sentence_token_cost": 58,
+        "source_order": [
+          524,
+          0,
+          4,
+          0
+        ],
+        "source_position": 665
+      },
+      {
+        "cross_encoder_score": -8.484833717346191,
+        "dataset": "SciFact",
+        "end_char": 1087,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "c5f21e48b6fd195f279a620dacb0f7bb",
+        "passage_rank": 10,
+        "query_id": "132",
+        "sentence_id": "1547b297f54cf0aa5377d1d681e4a014",
+        "sentence_text": "We assessed correlations of plasma eptifibatide levels with receptor occupancy and inhibition of ex vivo platelet aggregation at 5 minutes and 1, 4, 24, 48, and 72 hours during treatment and 4 and 8 hours after termination of infusion.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          524,
+          0,
+          5,
+          0
+        ],
+        "source_position": 852
+      },
+      {
+        "cross_encoder_score": -9.86454963684082,
+        "dataset": "SciFact",
+        "end_char": 1201,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "c5f21e48b6fd195f279a620dacb0f7bb",
+        "passage_rank": 10,
+        "query_id": "132",
+        "sentence_id": "596f71ab4e8723938fc9dc776cf862ad",
+        "sentence_text": "Blood was collected in buffered citrate and D-phenylalanyl-L-prolyl-L-arginine chloromethylketone anticoagulants.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          524,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1088
+      },
+      {
+        "cross_encoder_score": -6.9180827140808105,
+        "dataset": "SciFact",
+        "end_char": 1373,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "c5f21e48b6fd195f279a620dacb0f7bb",
+        "passage_rank": 10,
+        "query_id": "132",
+        "sentence_id": "d74d224e954884219f8f49a9280ef702",
+        "sentence_text": "Although eptifibatide produced profound, prolonged inhibition of platelet aggregation during therapy, aggregation appeared to recover partially by 4 hours after the bolus.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          524,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1202
+      },
+      {
+        "cross_encoder_score": -7.580543518066406,
+        "dataset": "SciFact",
+        "end_char": 1635,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "c5f21e48b6fd195f279a620dacb0f7bb",
+        "passage_rank": 10,
+        "query_id": "132",
+        "sentence_id": "1a13f4f945d8e3062db261379eccd3cc",
+        "sentence_text": "The aggregation response was greater with thrombin receptor agonist peptide versus ADP stimulation; inhibition of platelet aggregation was greater in blood samples anticoagulated with citrate versus D-phenylalanyl-L-prolyl-L-arginine chloromethylketone (PPACK).",
+        "sentence_token_cost": 58,
+        "source_order": [
+          524,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1374
+      },
+      {
+        "cross_encoder_score": -7.962873458862305,
+        "dataset": "SciFact",
+        "end_char": 1764,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "c5f21e48b6fd195f279a620dacb0f7bb",
+        "passage_rank": 10,
+        "query_id": "132",
+        "sentence_id": "2a3cac6c4cb1e6e1937c0858ead08599",
+        "sentence_text": "Plasma eptifibatide levels correlated significantly with receptor occupancy but not with inhibition of platelet aggregation.   \n",
+        "sentence_token_cost": 24,
+        "source_order": [
+          524,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1636
+      },
+      {
+        "cross_encoder_score": -7.9316911697387695,
+        "dataset": "SciFact",
+        "end_char": 1919,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "c5f21e48b6fd195f279a620dacb0f7bb",
+        "passage_rank": 10,
+        "query_id": "132",
+        "sentence_id": "c9edca0a9b996c146cc99d88e675814e",
+        "sentence_text": "CONCLUSIONS A bolus and infusion of eptifibatide inhibits platelet aggregation profoundly in patients with ACS and is followed by brief, partial recovery.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          524,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1765
+      },
+      {
+        "cross_encoder_score": -10.087143898010254,
+        "dataset": "SciFact",
+        "end_char": 2132,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "c5f21e48b6fd195f279a620dacb0f7bb",
+        "passage_rank": 10,
+        "query_id": "132",
+        "sentence_id": "21a196e532dc2f6466615ff957161027",
+        "sentence_text": "These results enhance our understanding of the relation between pharmacodynamic and clinical effects of eptifibatide in such patients and may have important implications for its use in percutaneous interventions.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          524,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1920
+      },
+      {
+        "cross_encoder_score": -8.02145004272461,
+        "dataset": "SciFact",
+        "end_char": 199,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "2514bc2afe6a40d4db6b6e252d5d29b9",
+        "passage_rank": 2,
+        "query_id": "132",
+        "sentence_id": "cd6901b09e8916e2fd8f637d8a2e377f",
+        "sentence_text": "Novel Functional Sets of Lipid-Derived Mediators with Antiinflammatory Actions Generated from Omega-3 Fatty Acids via Cyclooxygenase 2\u2013Nonsteroidal Antiinflammatory Drugs and Transcellular Processing",
+        "sentence_token_cost": 46,
+        "source_order": [
+          694,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 3.9594154357910156,
+        "dataset": "SciFact",
+        "end_char": 453,
+        "pair_tokens_before_truncation": 100,
+        "pair_truncated": false,
+        "passage_id": "2514bc2afe6a40d4db6b6e252d5d29b9",
+        "passage_rank": 2,
+        "query_id": "132",
+        "sentence_id": "85f124cd5a38f0f6177d54a58c5cea28",
+        "sentence_text": "Aspirin therapy inhibits prostaglandin biosynthesis without directly acting on lipoxygenases, yet via acetylation of cyclooxygenase 2 (COX-2) it leads to bioactive lipoxins (LXs) epimeric at carbon 15 (15-epi-LX, also termed aspirin-triggered LX [ATL]).",
+        "sentence_token_cost": 80,
+        "source_order": [
+          694,
+          0,
+          1,
+          0
+        ],
+        "source_position": 200
+      },
+      {
+        "cross_encoder_score": -4.826747894287109,
+        "dataset": "SciFact",
+        "end_char": 619,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "2514bc2afe6a40d4db6b6e252d5d29b9",
+        "passage_rank": 2,
+        "query_id": "132",
+        "sentence_id": "cce04884ffa6442af922402a540cb4c4",
+        "sentence_text": "Here, we report that inflammatory exudates from mice treated with \u03c9-3 polyunsaturated fatty acid and aspirin (ASA) generate a novel array of bioactive lipid signals.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          694,
+          0,
+          2,
+          0
+        ],
+        "source_position": 454
+      },
+      {
+        "cross_encoder_score": -9.609484672546387,
+        "dataset": "SciFact",
+        "end_char": 760,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "2514bc2afe6a40d4db6b6e252d5d29b9",
+        "passage_rank": 2,
+        "query_id": "132",
+        "sentence_id": "8ab1d53141bc62efa2a68736f60b5e0c",
+        "sentence_text": "Human endothelial cells with upregulated COX-2 treated with ASA converted C20:5 \u03c9-3 to 18R-hydroxyeicosapentaenoic acid (HEPE) and 15R-HEPE.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          694,
+          0,
+          3,
+          0
+        ],
+        "source_position": 620
+      },
+      {
+        "cross_encoder_score": -10.22043228149414,
+        "dataset": "SciFact",
+        "end_char": 926,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "2514bc2afe6a40d4db6b6e252d5d29b9",
+        "passage_rank": 2,
+        "query_id": "132",
+        "sentence_id": "8556d893110f2b11c0c8ffa7d02627f9",
+        "sentence_text": "Each was used by polymorphonuclear leukocytes to generate separate classes of novel trihydroxy-containing mediators, including 5-series 15R-LX5 and 5,12,18R-triHEPE.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          694,
+          0,
+          4,
+          0
+        ],
+        "source_position": 761
+      },
+      {
+        "cross_encoder_score": -6.833786487579346,
+        "dataset": "SciFact",
+        "end_char": 1112,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "2514bc2afe6a40d4db6b6e252d5d29b9",
+        "passage_rank": 2,
+        "query_id": "132",
+        "sentence_id": "0d4b67175a8883afa2d61e7130ec4e3a",
+        "sentence_text": "These new compounds proved to be potent inhibitors of human polymorphonuclear leukocyte transendothelial migration and infiltration in vivo (ATL analogue > 5,12,18R-triHEPE > 18R-HEPE).",
+        "sentence_token_cost": 52,
+        "source_order": [
+          694,
+          0,
+          5,
+          0
+        ],
+        "source_position": 927
+      },
+      {
+        "cross_encoder_score": -7.383941650390625,
+        "dataset": "SciFact",
+        "end_char": 1302,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "2514bc2afe6a40d4db6b6e252d5d29b9",
+        "passage_rank": 2,
+        "query_id": "132",
+        "sentence_id": "25bf8390f8a5f2ee2de9516e6f5d8fbc",
+        "sentence_text": "Acetaminophen and indomethacin also permitted 18R-HEPE and 15R-HEPE generation with recombinant COX-2 as well as \u03c9-5 and \u03c9-9 oxygenations of other fatty acids that act on hematologic cells.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          694,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1113
+      },
+      {
+        "cross_encoder_score": -6.836879730224609,
+        "dataset": "SciFact",
+        "end_char": 1528,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "2514bc2afe6a40d4db6b6e252d5d29b9",
+        "passage_rank": 2,
+        "query_id": "132",
+        "sentence_id": "4c38d70e77204e6a9c8454403e839d18",
+        "sentence_text": "These findings establish new transcellular routes for producing arrays of bioactive lipid mediators via COX-2\u2013nonsteroidal antiinflammatory drug\u2013dependent oxygenations and cell\u2013cell interactions that impact microinflammation.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          694,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1303
+      },
+      {
+        "cross_encoder_score": -9.448935508728027,
+        "dataset": "SciFact",
+        "end_char": 1739,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "2514bc2afe6a40d4db6b6e252d5d29b9",
+        "passage_rank": 2,
+        "query_id": "132",
+        "sentence_id": "eafefeec74a0abebd88f9329abdd185a",
+        "sentence_text": "The generation of these and related compounds provides a novel mechanism(s) for the therapeutic benefits of \u03c9-3 dietary supplementation, which may be important in inflammation, neoplasia, and vascular diseases.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          694,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1529
+      },
+      {
+        "cross_encoder_score": -7.296378135681152,
+        "dataset": "SciFact",
+        "end_char": 69,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "27834f4801ee6a9fe69833ef967cd508",
+        "passage_rank": 5,
+        "query_id": "132",
+        "sentence_id": "7be3fc20936c692362282f8a38e11a87",
+        "sentence_text": "Prostaglandin E2 promotes intestinal tumor growth via DNA methylation",
+        "sentence_token_cost": 14,
+        "source_order": [
+          1268,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.848615646362305,
+        "dataset": "SciFact",
+        "end_char": 324,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "27834f4801ee6a9fe69833ef967cd508",
+        "passage_rank": 5,
+        "query_id": "132",
+        "sentence_id": "a37c15c78a515c266c792e5f41709149",
+        "sentence_text": "Although aberrant DNA methylation is considered to be one of the key ways by which tumor-suppressor and DNA-repair genes are silenced during tumor initiation and progression, the mechanisms underlying DNA methylation alterations in cancer remain unclear.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          1268,
+          0,
+          1,
+          0
+        ],
+        "source_position": 70
+      },
+      {
+        "cross_encoder_score": -3.2056028842926025,
+        "dataset": "SciFact",
+        "end_char": 474,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "27834f4801ee6a9fe69833ef967cd508",
+        "passage_rank": 5,
+        "query_id": "132",
+        "sentence_id": "b00ccb3a99550a2d861b45f0d2c920ac",
+        "sentence_text": "Here we show that prostaglandin E(2) (PGE(2)) silences certain tumor-suppressor and DNA-repair genes through DNA methylation to promote tumor growth.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          1268,
+          0,
+          2,
+          0
+        ],
+        "source_position": 325
+      },
+      {
+        "cross_encoder_score": -3.6118736267089844,
+        "dataset": "SciFact",
+        "end_char": 578,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "27834f4801ee6a9fe69833ef967cd508",
+        "passage_rank": 5,
+        "query_id": "132",
+        "sentence_id": "79b7853149fc30e3ce3ef5021f4fab03",
+        "sentence_text": "These findings uncover a previously unrecognized role for PGE(2) in the promotion of tumor progression.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          1268,
+          0,
+          3,
+          0
+        ],
+        "source_position": 475
+      },
+      {
+        "cross_encoder_score": -4.45012092590332,
+        "dataset": "SciFact",
+        "end_char": 191,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "ba6680742c45a06ecae482d03efb1f6b",
+        "passage_rank": 4,
+        "query_id": "132",
+        "sentence_id": "6222d18c386c46f410d2b6f5336452f7",
+        "sentence_text": "Lipopolysaccharide-dependent prostaglandin E(2) production is regulated by the glutathione-dependent prostaglandin E(2) synthase gene induced by the Toll-like receptor 4/MyD88/NF-IL6 pathway.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          1598,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.6089236736297607,
+        "dataset": "SciFact",
+        "end_char": 257,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "ba6680742c45a06ecae482d03efb1f6b",
+        "passage_rank": 4,
+        "query_id": "132",
+        "sentence_id": "4dc5c1a58704b05b21f06c879fa535f1",
+        "sentence_text": "Macrophages produce a large amount of PGE(2) during inflammation.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          1598,
+          0,
+          1,
+          0
+        ],
+        "source_position": 192
+      },
+      {
+        "cross_encoder_score": -9.65615463256836,
+        "dataset": "SciFact",
+        "end_char": 313,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "ba6680742c45a06ecae482d03efb1f6b",
+        "passage_rank": 4,
+        "query_id": "132",
+        "sentence_id": "6853de4672f6b5d58fa573ea875bb8d0",
+        "sentence_text": "This lipid mediator modulates various immune responses.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          1598,
+          0,
+          2,
+          0
+        ],
+        "source_position": 258
+      },
+      {
+        "cross_encoder_score": 2.6394360065460205,
+        "dataset": "SciFact",
+        "end_char": 406,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "ba6680742c45a06ecae482d03efb1f6b",
+        "passage_rank": 4,
+        "query_id": "132",
+        "sentence_id": "5aeeaed5a893542286991d446cd3cb56",
+        "sentence_text": "PGE(2) acts on macrophages and inhibits production of cytokines such as TNF-alpha and IL-12.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          1598,
+          0,
+          3,
+          0
+        ],
+        "source_position": 314
+      },
+      {
+        "cross_encoder_score": -4.664558410644531,
+        "dataset": "SciFact",
+        "end_char": 560,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "ba6680742c45a06ecae482d03efb1f6b",
+        "passage_rank": 4,
+        "query_id": "132",
+        "sentence_id": "d00a38f77c521f83ddc51a967cac5835",
+        "sentence_text": "Membrane-bound glutathione-dependent PGE(2) synthase (mPGES) has been shown to be a terminal enzyme of the cyclooxygenase-2-mediated PGE(2) biosynthesis.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          1598,
+          0,
+          4,
+          0
+        ],
+        "source_position": 407
+      },
+      {
+        "cross_encoder_score": -9.650076866149902,
+        "dataset": "SciFact",
+        "end_char": 638,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "ba6680742c45a06ecae482d03efb1f6b",
+        "passage_rank": 4,
+        "query_id": "132",
+        "sentence_id": "d235babc3cea271eba43b8c839aae8d7",
+        "sentence_text": "Here we identified mPGES as a molecule that is induced by LPS in macrophages.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          1598,
+          0,
+          5,
+          0
+        ],
+        "source_position": 561
+      },
+      {
+        "cross_encoder_score": -9.82680892944336,
+        "dataset": "SciFact",
+        "end_char": 732,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "ba6680742c45a06ecae482d03efb1f6b",
+        "passage_rank": 4,
+        "query_id": "132",
+        "sentence_id": "d7b6a24ca627f42f34b58d56dc920628",
+        "sentence_text": "The expression of mPGES was not induced by LPS in mice lacking Toll-like receptor 4 or MyD88.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          1598,
+          0,
+          6,
+          0
+        ],
+        "source_position": 639
+      },
+      {
+        "cross_encoder_score": -4.720785140991211,
+        "dataset": "SciFact",
+        "end_char": 984,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "ba6680742c45a06ecae482d03efb1f6b",
+        "passage_rank": 4,
+        "query_id": "132",
+        "sentence_id": "d80c3c47281f3088a22ea3b6a972e93a",
+        "sentence_text": "Furthermore, mice deficient in NF-IL6 showed neither induction of mPGES nor biosynthesis of PGE(2) in response to LPS, indicating that mPGES expression in response to LPS is regulated by a Toll-like receptor 4/MyD88/NF-IL6-dependent signaling pathway.",
+        "sentence_token_cost": 65,
+        "source_order": [
+          1598,
+          0,
+          7,
+          0
+        ],
+        "source_position": 733
+      },
+      {
+        "cross_encoder_score": -10.596635818481445,
+        "dataset": "SciFact",
+        "end_char": 1062,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "ba6680742c45a06ecae482d03efb1f6b",
+        "passage_rank": 4,
+        "query_id": "132",
+        "sentence_id": "b1ca461cb2f7ec83750ce377de0a5a2f",
+        "sentence_text": "We generated mPGES-deficient mice and investigated the role of mPGES in vivo.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          1598,
+          0,
+          8,
+          0
+        ],
+        "source_position": 985
+      },
+      {
+        "cross_encoder_score": -1.0775227546691895,
+        "dataset": "SciFact",
+        "end_char": 1139,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "ba6680742c45a06ecae482d03efb1f6b",
+        "passage_rank": 4,
+        "query_id": "132",
+        "sentence_id": "86db9804234d53dafb02e62731b6e59a",
+        "sentence_text": "The mice showed no augmentation of the PGE(2) production in response to LPS.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          1598,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1063
+      },
+      {
+        "cross_encoder_score": -7.671988487243652,
+        "dataset": "SciFact",
+        "end_char": 1280,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "ba6680742c45a06ecae482d03efb1f6b",
+        "passage_rank": 4,
+        "query_id": "132",
+        "sentence_id": "70be24172a837fcbea3579cdbb024e47",
+        "sentence_text": "However, they were not impaired in the LPS-induced production of inflammatory cytokines and showed normal response to the LPS-induced shock.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          1598,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1140
+      },
+      {
+        "cross_encoder_score": -1.9163074493408203,
+        "dataset": "SciFact",
+        "end_char": 1426,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "ba6680742c45a06ecae482d03efb1f6b",
+        "passage_rank": 4,
+        "query_id": "132",
+        "sentence_id": "042392b2bde8301df5583a47a73d1df4",
+        "sentence_text": "Thus, mPGES is critically involved in the biosynthesis of PGE(2) induced by LPS, but is dispensable for the modulation of inflammatory responses.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          1598,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1281
+      },
+      {
+        "cross_encoder_score": -9.208257675170898,
+        "dataset": "SciFact",
+        "end_char": 116,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "693e897a6e590a9f832374994342e7bd",
+        "passage_rank": 8,
+        "query_id": "132",
+        "sentence_id": "e7698cb1d2312d51696b15bb0185e9d0",
+        "sentence_text": "Role of microsomal prostaglandin E synthase-1 in the facilitation of angiogenesis and the healing of gastric ulcers.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          2059,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.2586634159088135,
+        "dataset": "SciFact",
+        "end_char": 275,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "693e897a6e590a9f832374994342e7bd",
+        "passage_rank": 8,
+        "query_id": "132",
+        "sentence_id": "1bf153cadee1e48d1e48051596ef5d00",
+        "sentence_text": "The importance of prostaglandin E(2) in various pathophysiological events emphasizes the necessity of understanding the role of PGE synthases (PGESs) in vivo.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          2059,
+          0,
+          1,
+          0
+        ],
+        "source_position": 117
+      },
+      {
+        "cross_encoder_score": -6.49164342880249,
+        "dataset": "SciFact",
+        "end_char": 495,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "693e897a6e590a9f832374994342e7bd",
+        "passage_rank": 8,
+        "query_id": "132",
+        "sentence_id": "9b0b27ff38b5d93844b3b83531a10fde",
+        "sentence_text": "However, there has been no report on the functional relevance of microsomal PGES-1 (mPGES-1) to the physiological healing processes of gastric ulcers, or to angiogenesis, which is indispensable to the healing processes.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          2059,
+          0,
+          2,
+          0
+        ],
+        "source_position": 276
+      },
+      {
+        "cross_encoder_score": -10.773141860961914,
+        "dataset": "SciFact",
+        "end_char": 707,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "693e897a6e590a9f832374994342e7bd",
+        "passage_rank": 8,
+        "query_id": "132",
+        "sentence_id": "1b75dad826eedf4c5def7c6213ba1fa3",
+        "sentence_text": "In this report, we tested whether mPGES-1 plays a role in the healing of gastric ulcers and in the enhancement of angiogenesis using mPGES-1 knockout mice (mPGES-1 KO mice) and their wild-type (WT) counterparts.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          2059,
+          0,
+          3,
+          0
+        ],
+        "source_position": 496
+      },
+      {
+        "cross_encoder_score": -10.116135597229004,
+        "dataset": "SciFact",
+        "end_char": 837,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "693e897a6e590a9f832374994342e7bd",
+        "passage_rank": 8,
+        "query_id": "132",
+        "sentence_id": "846ef228c44afef83ffa91c88955190f",
+        "sentence_text": "Gastric ulcers were induced by the serosal application of 100% acetic acid, and the areas of the ulcers were measured thereafter.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          2059,
+          0,
+          4,
+          0
+        ],
+        "source_position": 708
+      },
+      {
+        "cross_encoder_score": -9.2192964553833,
+        "dataset": "SciFact",
+        "end_char": 954,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "693e897a6e590a9f832374994342e7bd",
+        "passage_rank": 8,
+        "query_id": "132",
+        "sentence_id": "884f0600902473abea1f2cf320b133dd",
+        "sentence_text": "mPGES-1 together with cyclooxygenase-2 were induced in the granulation tissues compared with normal stomach tissues.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2059,
+          0,
+          5,
+          0
+        ],
+        "source_position": 838
+      },
+      {
+        "cross_encoder_score": -10.568466186523438,
+        "dataset": "SciFact",
+        "end_char": 1059,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "693e897a6e590a9f832374994342e7bd",
+        "passage_rank": 8,
+        "query_id": "132",
+        "sentence_id": "3f953c34e92c57b5e4f9da4041351c76",
+        "sentence_text": "The healing of acetic acid-induced ulcers was significantly delayed in mPGES-1 KO mice compared with WT.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2059,
+          0,
+          6,
+          0
+        ],
+        "source_position": 955
+      },
+      {
+        "cross_encoder_score": -10.586661338806152,
+        "dataset": "SciFact",
+        "end_char": 1249,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "693e897a6e590a9f832374994342e7bd",
+        "passage_rank": 8,
+        "query_id": "132",
+        "sentence_id": "8a9915e3522fd03f14dd628a21d60f4e",
+        "sentence_text": "This was accompanied with reduced angiogenesis in ulcer granulation tissues, as estimated by CD31 mRNA levels determined by real-time PCR and the microvessel density in granulation tissues.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          2059,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1060
+      },
+      {
+        "cross_encoder_score": -10.774797439575195,
+        "dataset": "SciFact",
+        "end_char": 1494,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "693e897a6e590a9f832374994342e7bd",
+        "passage_rank": 8,
+        "query_id": "132",
+        "sentence_id": "f190f368bea2ef8effe6cf1de0d2e0a8",
+        "sentence_text": "The mRNA levels of proangiogenic growth factors, such as transforming growth factor-\u03b2, basic fibroblast growth factor, and connective tissue growth factor in ulcer granulation tissues determined were reduced in mPGES-1 KO mice compared with WT.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          2059,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1250
+      },
+      {
+        "cross_encoder_score": -8.129688262939453,
+        "dataset": "SciFact",
+        "end_char": 1722,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "693e897a6e590a9f832374994342e7bd",
+        "passage_rank": 8,
+        "query_id": "132",
+        "sentence_id": "d14fbfe75df394f4f401aba948e314a9",
+        "sentence_text": "The present results suggest that mPGES-1 enhances the ulcer-healing processes and the angiogenesis indispensable to ulcer healing, and that a selective mPGES-1 inhibitor should be used with care in patients with gastric ulcers.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          2059,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1495
+      },
+      {
+        "cross_encoder_score": -9.270687103271484,
+        "dataset": "SciFact",
+        "end_char": 119,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "94ee92bd3952d1d7c7d01b9ec9748c28",
+        "passage_rank": 6,
+        "query_id": "132",
+        "sentence_id": "9ae38644e6193f7d8c509c25be9bd86b",
+        "sentence_text": "Chronic obstructive pulmonary disease and neutrophil infiltration: role of cigarette smoke and cyclooxygenase products.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3093,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.888510704040527,
+        "dataset": "SciFact",
+        "end_char": 263,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "94ee92bd3952d1d7c7d01b9ec9748c28",
+        "passage_rank": 6,
+        "query_id": "132",
+        "sentence_id": "7e83ffdd33bc990703250a94b6c65808",
+        "sentence_text": "Cigarette smoke is the main cause of chronic obstructive pulmonary disease (COPD), where it can contribute to the observed airway inflammation.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          3093,
+          0,
+          1,
+          0
+        ],
+        "source_position": 120
+      },
+      {
+        "cross_encoder_score": -0.352456659078598,
+        "dataset": "SciFact",
+        "end_char": 371,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "94ee92bd3952d1d7c7d01b9ec9748c28",
+        "passage_rank": 6,
+        "query_id": "132",
+        "sentence_id": "e7fe4f41f4aafc40ff835f9406d9ef8b",
+        "sentence_text": "PGE(2) is produced within human airways, and both pro- and anti-inflammatory activities have been reported.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3093,
+          0,
+          2,
+          0
+        ],
+        "source_position": 264
+      },
+      {
+        "cross_encoder_score": -4.150575637817383,
+        "dataset": "SciFact",
+        "end_char": 593,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "94ee92bd3952d1d7c7d01b9ec9748c28",
+        "passage_rank": 6,
+        "query_id": "132",
+        "sentence_id": "21daf85ec25710daf57eb4be4cc98f72",
+        "sentence_text": "We quantitated PGE(2) concentrations in induced sputum supernatants from different groups of subjects and correlated the obtained values to neutrophil infiltration as well as to the expression of cyclooxygenase-2 (COX-2).",
+        "sentence_token_cost": 51,
+        "source_order": [
+          3093,
+          0,
+          3,
+          0
+        ],
+        "source_position": 372
+      },
+      {
+        "cross_encoder_score": -3.9924473762512207,
+        "dataset": "SciFact",
+        "end_char": 809,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "94ee92bd3952d1d7c7d01b9ec9748c28",
+        "passage_rank": 6,
+        "query_id": "132",
+        "sentence_id": "d4b1b2168ef5fde833e7e3bb63f8bedc",
+        "sentence_text": "Cigarette smoke extract (CSE) was used to evaluate the effect of smoking on COX-2 and PGE(2) receptor expression as well as on PGE(2) release in neutrophils and alveolar macrophages (AM) obtained from normal donors.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          3093,
+          0,
+          4,
+          0
+        ],
+        "source_position": 594
+      },
+      {
+        "cross_encoder_score": -2.851330518722534,
+        "dataset": "SciFact",
+        "end_char": 972,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "94ee92bd3952d1d7c7d01b9ec9748c28",
+        "passage_rank": 6,
+        "query_id": "132",
+        "sentence_id": "cd7adfe02381fbb6a418a59751e59ee1",
+        "sentence_text": "The effects of PGE(2) and of PGE receptor agonists and antagonists were evaluated on the adhesion of neutrophil to a human bronchial epithelial cell line (16HBE).",
+        "sentence_token_cost": 44,
+        "source_order": [
+          3093,
+          0,
+          5,
+          0
+        ],
+        "source_position": 810
+      },
+      {
+        "cross_encoder_score": -5.640848159790039,
+        "dataset": "SciFact",
+        "end_char": 1155,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "94ee92bd3952d1d7c7d01b9ec9748c28",
+        "passage_rank": 6,
+        "query_id": "132",
+        "sentence_id": "2f07a116880dadcefbc4f554e3bfb5b6",
+        "sentence_text": "PGE(2) levels, COX-2 expression, and neutrophil infiltration were significantly higher in normal smokers and COPD smokers (P < 0.0001) compared with controls and COPD former smokers.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          3093,
+          0,
+          6,
+          0
+        ],
+        "source_position": 973
+      },
+      {
+        "cross_encoder_score": -5.6716413497924805,
+        "dataset": "SciFact",
+        "end_char": 1303,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "94ee92bd3952d1d7c7d01b9ec9748c28",
+        "passage_rank": 6,
+        "query_id": "132",
+        "sentence_id": "8a2d7a4894bf188d1020320abee1a76d",
+        "sentence_text": "Induced sputum supernatant caused neutrophil adhesion to 16HBE that was significantly reduced, in COPD smokers only, by PGE(2) immunoprecipitation.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          3093,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1156
+      },
+      {
+        "cross_encoder_score": -1.083060383796692,
+        "dataset": "SciFact",
+        "end_char": 1564,
+        "pair_tokens_before_truncation": 92,
+        "pair_truncated": false,
+        "passage_id": "94ee92bd3952d1d7c7d01b9ec9748c28",
+        "passage_rank": 6,
+        "query_id": "132",
+        "sentence_id": "9247e3c6dac7401baecd5379e58ab6d4",
+        "sentence_text": "In vitro experiments confirmed that CSE increased PGE(2) release and COX-2 and PGE(2) receptor expression in neutrophils and AM; PGE(2) enhanced the adhesion of neutrophils to 16HBE, and a specific E-prostanoid 4 (EP(4)) receptor antagonist blunted its effect.",
+        "sentence_token_cost": 75,
+        "source_order": [
+          3093,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1304
+      },
+      {
+        "cross_encoder_score": -2.3110191822052,
+        "dataset": "SciFact",
+        "end_char": 1716,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "94ee92bd3952d1d7c7d01b9ec9748c28",
+        "passage_rank": 6,
+        "query_id": "132",
+        "sentence_id": "550ea8460c10139e1ae24d8ec3bfe6f7",
+        "sentence_text": "These results suggest that CSE promote the induction of COX-2 and contributes to the proinflammatory effects of PGE(2) in the airways of COPD subjects.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          3093,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1565
+      },
+      {
+        "cross_encoder_score": -8.409224510192871,
+        "dataset": "SciFact",
+        "end_char": 77,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "92f00af596693a2b3fcb1f295db0ab9a",
+        "passage_rank": 7,
+        "query_id": "132",
+        "sentence_id": "9eed54aab4be22ca734e72ad61064b0b",
+        "sentence_text": "15-Hydroxyprostaglandin dehydrogenase is down-regulated in colorectal cancer.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3141,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.00214684009552,
+        "dataset": "SciFact",
+        "end_char": 259,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "92f00af596693a2b3fcb1f295db0ab9a",
+        "passage_rank": 7,
+        "query_id": "132",
+        "sentence_id": "b6e3b018ba9f1a7fabdfdc6cf8959990",
+        "sentence_text": "Prostaglandin E2 (PGE2) can stimulate tumor progression by modulating several proneoplastic pathways, including proliferation, angiogenesis, cell migration, invasion, and apoptosis.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          3141,
+          0,
+          1,
+          0
+        ],
+        "source_position": 78
+      },
+      {
+        "cross_encoder_score": -2.9366579055786133,
+        "dataset": "SciFact",
+        "end_char": 474,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "92f00af596693a2b3fcb1f295db0ab9a",
+        "passage_rank": 7,
+        "query_id": "132",
+        "sentence_id": "6ddfa1c1e3217cd77e8c691b605dc2b2",
+        "sentence_text": "Although steady-state tissue levels of PGE2 stem from relative rates of biosynthesis and breakdown, most reports examining PGE2 have focused solely on the cyclooxygenase-dependent formation of this bioactive lipid.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          3141,
+          0,
+          2,
+          0
+        ],
+        "source_position": 260
+      },
+      {
+        "cross_encoder_score": -1.9784526824951172,
+        "dataset": "SciFact",
+        "end_char": 581,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "92f00af596693a2b3fcb1f295db0ab9a",
+        "passage_rank": 7,
+        "query_id": "132",
+        "sentence_id": "74b07f96cd8b8877f4148a979c21bf01",
+        "sentence_text": "Enzymatic degradation of PGE2 involves the NAD+-dependent 15-hydroxyprostaglandin dehydrogenase (15-PGDH).",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3141,
+          0,
+          3,
+          0
+        ],
+        "source_position": 475
+      },
+      {
+        "cross_encoder_score": -7.388937950134277,
+        "dataset": "SciFact",
+        "end_char": 714,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "92f00af596693a2b3fcb1f295db0ab9a",
+        "passage_rank": 7,
+        "query_id": "132",
+        "sentence_id": "5b372908b3eb8198ea8fce527a9a0828",
+        "sentence_text": "The present study examined a range of normal tissues in the human and mouse and found high levels of 15-PGDH in the large intestine.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          3141,
+          0,
+          4,
+          0
+        ],
+        "source_position": 582
+      },
+      {
+        "cross_encoder_score": -6.605997562408447,
+        "dataset": "SciFact",
+        "end_char": 877,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "92f00af596693a2b3fcb1f295db0ab9a",
+        "passage_rank": 7,
+        "query_id": "132",
+        "sentence_id": "128a7a0baaba4ae2da5180620db1f191",
+        "sentence_text": "By contrast, the expression of 15-PGDH is decreased in several colorectal carcinoma cell lines and in other human malignancies such as breast and lung carcinomas.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3141,
+          0,
+          5,
+          0
+        ],
+        "source_position": 715
+      },
+      {
+        "cross_encoder_score": -9.01284122467041,
+        "dataset": "SciFact",
+        "end_char": 979,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "92f00af596693a2b3fcb1f295db0ab9a",
+        "passage_rank": 7,
+        "query_id": "132",
+        "sentence_id": "78910ec804117ba3f3adf3fda1a6cb3a",
+        "sentence_text": "Consistent with these findings, we observe diminished 15-Pgdh expression in ApcMin+/- mouse adenomas.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          3141,
+          0,
+          6,
+          0
+        ],
+        "source_position": 878
+      },
+      {
+        "cross_encoder_score": 0.4752114713191986,
+        "dataset": "SciFact",
+        "end_char": 1142,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "92f00af596693a2b3fcb1f295db0ab9a",
+        "passage_rank": 7,
+        "query_id": "132",
+        "sentence_id": "34e71a370a6cda5765eaceb052b2d31c",
+        "sentence_text": "Enzymatic activity of 15-PGDH correlates with expression levels and the genetic disruption of 15-Pgdh completely blocks production of the urinary PGE2 metabolite.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          3141,
+          0,
+          7,
+          0
+        ],
+        "source_position": 980
+      },
+      {
+        "cross_encoder_score": -7.726019859313965,
+        "dataset": "SciFact",
+        "end_char": 1282,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "92f00af596693a2b3fcb1f295db0ab9a",
+        "passage_rank": 7,
+        "query_id": "132",
+        "sentence_id": "9ec887d950d3d06faf1a6ebf497f681e",
+        "sentence_text": "Finally, 15-PGDH expression and activity are significantly down-regulated in human colorectal carcinomas relative to matched normal tissue.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          3141,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1143
+      },
+      {
+        "cross_encoder_score": -7.099409103393555,
+        "dataset": "SciFact",
+        "end_char": 1422,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "92f00af596693a2b3fcb1f295db0ab9a",
+        "passage_rank": 7,
+        "query_id": "132",
+        "sentence_id": "4e35b6d55b6997f76be6320f20ba6ad9",
+        "sentence_text": "In summary, these results suggest a novel tumor suppressive role for 15-PGDH due to loss of expression during colorectal tumor progression.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          3141,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1283
+      },
+      {
+        "cross_encoder_score": -9.516332626342773,
+        "dataset": "SciFact",
+        "end_char": 88,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "818a39157684bc01ccd38d4e20e5bf69",
+        "passage_rank": 9,
+        "query_id": "132",
+        "sentence_id": "1a2dfc237cbcf4ccde963c164ee3a363",
+        "sentence_text": "Cyclic AMP-dependent phosphorylation of thromboxane A(2) receptor-associated Galpha(13).",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3644,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.210642337799072,
+        "dataset": "SciFact",
+        "end_char": 292,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "818a39157684bc01ccd38d4e20e5bf69",
+        "passage_rank": 9,
+        "query_id": "132",
+        "sentence_id": "eb20d4717328891203f8a2ec479bbce2",
+        "sentence_text": "Although it is well established that cAMP inhibits platelet activation induced by all agonists, the thromboxane A(2) signal transduction pathway was found to be particularly sensitive to such inhibition.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          3644,
+          0,
+          1,
+          0
+        ],
+        "source_position": 89
+      },
+      {
+        "cross_encoder_score": -10.042363166809082,
+        "dataset": "SciFact",
+        "end_char": 422,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "818a39157684bc01ccd38d4e20e5bf69",
+        "passage_rank": 9,
+        "query_id": "132",
+        "sentence_id": "9fe7ddb7620e19b68da45498378f5c3a",
+        "sentence_text": "Therefore, we examined whether cAMP-dependent kinase mediates phosphorylation of the thromboxane A(2) receptor-G-protein complex.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          3644,
+          0,
+          2,
+          0
+        ],
+        "source_position": 293
+      },
+      {
+        "cross_encoder_score": -9.340812683105469,
+        "dataset": "SciFact",
+        "end_char": 589,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "818a39157684bc01ccd38d4e20e5bf69",
+        "passage_rank": 9,
+        "query_id": "132",
+        "sentence_id": "0e1b00138172f0d2442a8cf9879a9186",
+        "sentence_text": "It was found that cAMP induces protein kinase A-dependent [gamma-(32)P]ATP labeling of solubilized membrane proteins in the region of Galpha subunits, i.e. 38-45 kDa.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          3644,
+          0,
+          3,
+          0
+        ],
+        "source_position": 423
+      },
+      {
+        "cross_encoder_score": -10.468314170837402,
+        "dataset": "SciFact",
+        "end_char": 796,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "818a39157684bc01ccd38d4e20e5bf69",
+        "passage_rank": 9,
+        "query_id": "132",
+        "sentence_id": "3b37ff79c0ac103647ecf07bf0cf1efe",
+        "sentence_text": "Moreover, ligand affinity chromatography purification of thromboxane A(2) receptor-G-protein complexes from these membranes revealed that 38-45-kDa phosphoproteins co-purify with thromboxane A(2) receptors.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          3644,
+          0,
+          4,
+          0
+        ],
+        "source_position": 590
+      },
+      {
+        "cross_encoder_score": -9.050661087036133,
+        "dataset": "SciFact",
+        "end_char": 988,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "818a39157684bc01ccd38d4e20e5bf69",
+        "passage_rank": 9,
+        "query_id": "132",
+        "sentence_id": "4a8358f1593f3fb0759b053b75b4572f",
+        "sentence_text": "Immunoprecipitation of the affinity column eluate with a Galpha(13) antibody demonstrated that 8-Br-cAMP increased phosphorylation of thromboxane A(2) receptor-associated Galpha(13) by 87 +/-",
+        "sentence_token_cost": 53,
+        "source_order": [
+          3644,
+          0,
+          5,
+          0
+        ],
+        "source_position": 797
+      },
+      {
+        "cross_encoder_score": -7.885706901550293,
+        "dataset": "SciFact",
+        "end_char": 993,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "818a39157684bc01ccd38d4e20e5bf69",
+        "passage_rank": 9,
+        "query_id": "132",
+        "sentence_id": "ffc354603cb348536dc0127b8bdca70f",
+        "sentence_text": "27%.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          3644,
+          0,
+          6,
+          0
+        ],
+        "source_position": 989
+      },
+      {
+        "cross_encoder_score": -9.687616348266602,
+        "dataset": "SciFact",
+        "end_char": 1186,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "818a39157684bc01ccd38d4e20e5bf69",
+        "passage_rank": 9,
+        "query_id": "132",
+        "sentence_id": "f5bbfaf63fbe65af27c3ded1fcdc9b84",
+        "sentence_text": "In separate experiments, immunopurification of Galpha(13) on microtiter wells coated with a different Galpha(13) antibody revealed that 8-Br-cAMP increased Galpha(13) phosphorylation by 53 +/-",
+        "sentence_token_cost": 53,
+        "source_order": [
+          3644,
+          0,
+          7,
+          0
+        ],
+        "source_position": 994
+      },
+      {
+        "cross_encoder_score": -7.8591108322143555,
+        "dataset": "SciFact",
+        "end_char": 1191,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "818a39157684bc01ccd38d4e20e5bf69",
+        "passage_rank": 9,
+        "query_id": "132",
+        "sentence_id": "a1fc6ae71ba68f12608175cb2c191700",
+        "sentence_text": "19%.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          3644,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1187
+      },
+      {
+        "cross_encoder_score": -9.46508502960205,
+        "dataset": "SciFact",
+        "end_char": 1282,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "818a39157684bc01ccd38d4e20e5bf69",
+        "passage_rank": 9,
+        "query_id": "132",
+        "sentence_id": "e6f8f8eb9df1eaaa73d202aac1a0d477",
+        "sentence_text": "Finally, treatment of (32)P-labeled whole platelets with prostacyclin resulted in a 90 +/-",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3644,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1192
+      },
+      {
+        "cross_encoder_score": -7.90425968170166,
+        "dataset": "SciFact",
+        "end_char": 1404,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "818a39157684bc01ccd38d4e20e5bf69",
+        "passage_rank": 9,
+        "query_id": "132",
+        "sentence_id": "9202a99abef9cf4025016caf31919743",
+        "sentence_text": "14% increase in phosphorylated Galpha(13) that was abolished by pretreatment with the adenylate cyclase inhibitor MDL-12.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          3644,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1283
+      },
+      {
+        "cross_encoder_score": -8.885025024414062,
+        "dataset": "SciFact",
+        "end_char": 1646,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "818a39157684bc01ccd38d4e20e5bf69",
+        "passage_rank": 9,
+        "query_id": "132",
+        "sentence_id": "e3979a48e637d56fd22fb85702e852b2",
+        "sentence_text": "These results provide the first evidence that protein kinase A mediates phosphorylation of Galpha(13) both in vitro and in vivo and provides a basis for the preferential inhibition of thromboxane A(2)-mediated signaling in platelets by cAMP.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          3644,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1405
+      },
+      {
+        "cross_encoder_score": -5.124731540679932,
+        "dataset": "SciFact",
+        "end_char": 85,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "b6b484d7cdc0bcc72e27bedb84691c51",
+        "passage_rank": 3,
+        "query_id": "132",
+        "sentence_id": "c921e3bdef0e9622f51acd30d7ecbbf4",
+        "sentence_text": "Prostaglandin E2 as an inhibitory modulator of fibrogenesis in human lung allografts.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          4001,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.752955436706543,
+        "dataset": "SciFact",
+        "end_char": 276,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "b6b484d7cdc0bcc72e27bedb84691c51",
+        "passage_rank": 3,
+        "query_id": "132",
+        "sentence_id": "bbe7473f4a8406b31b8413c214968fcf",
+        "sentence_text": "RATIONALE Donor mesenchymal stromal/stem cell (MSC) expansion and fibrotic differentiation is associated with development of bronchiolitis obliterans syndrome (BOS) in human lung allografts.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          4001,
+          0,
+          1,
+          0
+        ],
+        "source_position": 86
+      },
+      {
+        "cross_encoder_score": -10.738390922546387,
+        "dataset": "SciFact",
+        "end_char": 393,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "b6b484d7cdc0bcc72e27bedb84691c51",
+        "passage_rank": 3,
+        "query_id": "132",
+        "sentence_id": "d0aefee974b0e74801f08b41d9400e2e",
+        "sentence_text": "However, the regulators of fibrotic differentiation of these resident mesenchymal cells are not well understood.   \n",
+        "sentence_token_cost": 23,
+        "source_order": [
+          4001,
+          0,
+          2,
+          0
+        ],
+        "source_position": 277
+      },
+      {
+        "cross_encoder_score": -2.9631330966949463,
+        "dataset": "SciFact",
+        "end_char": 567,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "b6b484d7cdc0bcc72e27bedb84691c51",
+        "passage_rank": 3,
+        "query_id": "132",
+        "sentence_id": "c61d9444b92305614191e78b3ec40c34",
+        "sentence_text": "OBJECTIVES This study examines the role of endogenous and exogenous prostaglandin (PG)E2 as a modulator of fibrotic differentiation of human lung allograft-derived MSCs.   \n",
+        "sentence_token_cost": 42,
+        "source_order": [
+          4001,
+          0,
+          3,
+          0
+        ],
+        "source_position": 394
+      },
+      {
+        "cross_encoder_score": 0.04749603196978569,
+        "dataset": "SciFact",
+        "end_char": 762,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "b6b484d7cdc0bcc72e27bedb84691c51",
+        "passage_rank": 3,
+        "query_id": "132",
+        "sentence_id": "9b3b5c521890a362b0c44173543b8a73",
+        "sentence_text": "METHODS Effect of PGE2 on proliferation, collagen secretion, and \u03b1-smooth muscle actin (\u03b1-SMA) expression was assessed in lung-resident MSCs (LR-MSCs) derived from patients with and without BOS.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          4001,
+          0,
+          4,
+          0
+        ],
+        "source_position": 568
+      },
+      {
+        "cross_encoder_score": -9.2630615234375,
+        "dataset": "SciFact",
+        "end_char": 856,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "b6b484d7cdc0bcc72e27bedb84691c51",
+        "passage_rank": 3,
+        "query_id": "132",
+        "sentence_id": "521c54726545e545da3cc764f3a19798",
+        "sentence_text": "The response pathway involved was elucidated by use of specific agonists and antagonists.   \n",
+        "sentence_token_cost": 18,
+        "source_order": [
+          4001,
+          0,
+          5,
+          0
+        ],
+        "source_position": 763
+      },
+      {
+        "cross_encoder_score": 0.5218313336372375,
+        "dataset": "SciFact",
+        "end_char": 1034,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "b6b484d7cdc0bcc72e27bedb84691c51",
+        "passage_rank": 3,
+        "query_id": "132",
+        "sentence_id": "a9e3264f1193ba4708a9d5ed16b8ca72",
+        "sentence_text": "MEASUREMENT AND MAIN RESULTS PGE2 treatment of LR-MSCs derived from normal lung allografts significantly inhibited their proliferation, collagen secretion, and \u03b1-SMA expression.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          4001,
+          0,
+          6,
+          0
+        ],
+        "source_position": 857
+      },
+      {
+        "cross_encoder_score": -3.0843217372894287,
+        "dataset": "SciFact",
+        "end_char": 1199,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "b6b484d7cdc0bcc72e27bedb84691c51",
+        "passage_rank": 3,
+        "query_id": "132",
+        "sentence_id": "6bf203420ac7124409b0c3a1261eb18c",
+        "sentence_text": "On the basis of pharmacologic and small-interfering RNA approaches, a PGE2/E prostanoid (EP)2/adenylate cyclase pathway was implicated in these suppressive effects.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          4001,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1035
+      },
+      {
+        "cross_encoder_score": 2.3162715435028076,
+        "dataset": "SciFact",
+        "end_char": 1398,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "b6b484d7cdc0bcc72e27bedb84691c51",
+        "passage_rank": 3,
+        "query_id": "132",
+        "sentence_id": "cd87cc666d32917514679fd917d36d84",
+        "sentence_text": "Stimulation of endogenous PGE2 secretion by IL-1\u03b2 was associated with amelioration of their myofibroblast differentiation in vitro, whereas its inhibition by indomethacin augmented \u03b1-SMA expression.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          4001,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1200
+      },
+      {
+        "cross_encoder_score": -4.411191463470459,
+        "dataset": "SciFact",
+        "end_char": 1484,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "b6b484d7cdc0bcc72e27bedb84691c51",
+        "passage_rank": 3,
+        "query_id": "132",
+        "sentence_id": "679f874604d5ed5f77e1e3dc7e86e07c",
+        "sentence_text": "LR-MSCs from patients with BOS secreted significantly less PGE2 than non-BOS LR-MSCs.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          4001,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1399
+      },
+      {
+        "cross_encoder_score": -0.5990818738937378,
+        "dataset": "SciFact",
+        "end_char": 1654,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "b6b484d7cdc0bcc72e27bedb84691c51",
+        "passage_rank": 3,
+        "query_id": "132",
+        "sentence_id": "14b6614072fb1900a4983c3d80d23dfc",
+        "sentence_text": "Furthermore, BOS LR-MSCs were found to be defective in their ability to induce cyclooxygenase-2, and therefore unable to up-regulate PGE2 synthesis in response to IL-1\u03b2.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          4001,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1485
+      },
+      {
+        "cross_encoder_score": 1.069537878036499,
+        "dataset": "SciFact",
+        "end_char": 1787,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "b6b484d7cdc0bcc72e27bedb84691c51",
+        "passage_rank": 3,
+        "query_id": "132",
+        "sentence_id": "de1f4719d1b99d5f825bdf5882b58c68",
+        "sentence_text": "BOS LR-MSCs also demonstrated resistance to the inhibitory actions of PGE2 in association with a reduction in the EP2/EP1 ratio.   \n",
+        "sentence_token_cost": 33,
+        "source_order": [
+          4001,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1655
+      },
+      {
+        "cross_encoder_score": -4.087613105773926,
+        "dataset": "SciFact",
+        "end_char": 1958,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "b6b484d7cdc0bcc72e27bedb84691c51",
+        "passage_rank": 3,
+        "query_id": "132",
+        "sentence_id": "5ac6da80a04d318cff6dbc25dfaa6662",
+        "sentence_text": "CONCLUSIONS These data identify the PGE2 axis as an important autocrine-paracrine brake on fibrotic differentiation of LR-MSCs, a failure of which is associated with BOS.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          4001,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1788
+      }
+    ],
+    "scoring_seconds": 0.46110914496239275,
+    "source_fingerprint": "0256d54fb09f1cc28648c34d51cb6980cb2ecb9a598b8d599945730d8f7b826d"
+  }
+}

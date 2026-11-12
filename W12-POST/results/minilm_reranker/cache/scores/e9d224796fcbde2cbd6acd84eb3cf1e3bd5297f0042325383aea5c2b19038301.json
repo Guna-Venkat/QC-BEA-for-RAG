@@ -1,0 +1,991 @@
+{
+  "checksum": "61dd38d91077154c7e1ed49d563f7274c4fb0c26585273728fa3bb471c09d115",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5ab2b2a7554299295394681d"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 48,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "73bfe957253bf45a8df05e7d261938d37c1b123342f490abfaf1db64502aea83",
+    "query_id": "5ab2b2a7554299295394681d",
+    "scores": [
+      {
+        "cross_encoder_score": -10.266148567199707,
+        "dataset": "HotpotQA",
+        "end_char": 17,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "cd49efc8b7ac154d76a1db797547121c",
+        "passage_rank": 7,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "b374e7805cc8179624b3946cb47d8bdb",
+        "sentence_text": "I Am Chris Farley",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.482140064239502,
+        "dataset": "HotpotQA",
+        "end_char": 228,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "cd49efc8b7ac154d76a1db797547121c",
+        "passage_rank": 7,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "28bca35f23e8ce1682a6eb328ba8f0a3",
+        "sentence_text": "I Am Chris Farley is a 2015 documentary film based on the life of comedian and actor Chris Farley, co-directed by Brent Hodge of Hodgee Films and Derik Murray, who was also a producer, of Network Entertainment.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 18
+      },
+      {
+        "cross_encoder_score": -10.970959663391113,
+        "dataset": "HotpotQA",
+        "end_char": 349,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "cd49efc8b7ac154d76a1db797547121c",
+        "passage_rank": 7,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "d57cc2bc26f02aa2dee92afa28bd4745",
+        "sentence_text": " The production features interviews with numerous actors, comedians and others who worked with Farley during his career.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 229
+      },
+      {
+        "cross_encoder_score": -10.307340621948242,
+        "dataset": "HotpotQA",
+        "end_char": 25,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "7425b08684c9be643b166df4ebcd447f",
+        "passage_rank": 3,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "1f9fe793f22db17384f39e7084ff6dae",
+        "sentence_text": "What Happens Next? (film)",
+        "sentence_token_cost": 8,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.286432266235352,
+        "dataset": "HotpotQA",
+        "end_char": 44,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "7425b08684c9be643b166df4ebcd447f",
+        "passage_rank": 3,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "b938f09421939d6136029d820be9c58f",
+        "sentence_text": "What Happens Next?",
+        "sentence_token_cost": 5,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 26
+      },
+      {
+        "cross_encoder_score": -10.908734321594238,
+        "dataset": "HotpotQA",
+        "end_char": 117,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "7425b08684c9be643b166df4ebcd447f",
+        "passage_rank": 3,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "2c473bc8a9f0a9f73e11b81a9ea1272e",
+        "sentence_text": " is a documentary film about the Canadian singer-songwriter, Dan Mangan.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 45
+      },
+      {
+        "cross_encoder_score": -11.315988540649414,
+        "dataset": "HotpotQA",
+        "end_char": 286,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "7425b08684c9be643b166df4ebcd447f",
+        "passage_rank": 3,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "823867302e6ac342d3e26c6dbadae3b4",
+        "sentence_text": " It explores Mangan's ideas on fate and destiny as he's about to perform in his biggest performance to date, a sold out show at the Vancouver, British Columbia Orpheum.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "source_position": 118
+      },
+      {
+        "cross_encoder_score": -10.853422164916992,
+        "dataset": "HotpotQA",
+        "end_char": 338,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "7425b08684c9be643b166df4ebcd447f",
+        "passage_rank": 3,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "b63e821f9fe706ba88eb91438878227f",
+        "sentence_text": " It premiered on CBC Television on August 25, 2012.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          1,
+          0,
+          4,
+          0
+        ],
+        "source_position": 287
+      },
+      {
+        "cross_encoder_score": -1.439284086227417,
+        "dataset": "HotpotQA",
+        "end_char": 407,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "7425b08684c9be643b166df4ebcd447f",
+        "passage_rank": 3,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "445b6d3f2a0409a60356a6b2a37c3fba",
+        "sentence_text": " The movie was directed and produced by Brent Hodge and Jon Siddall.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          1,
+          0,
+          5,
+          0
+        ],
+        "source_position": 339
+      },
+      {
+        "cross_encoder_score": -8.052534103393555,
+        "dataset": "HotpotQA",
+        "end_char": 450,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "7425b08684c9be643b166df4ebcd447f",
+        "passage_rank": 3,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "0de13698b2789fbeab3a133de9a1a95e",
+        "sentence_text": " It was nominated for a Leo Award in 2013.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          1,
+          0,
+          6,
+          0
+        ],
+        "source_position": 408
+      },
+      {
+        "cross_encoder_score": -10.516222953796387,
+        "dataset": "HotpotQA",
+        "end_char": 12,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "8a422374cf470a9cfd1d3501096dd535",
+        "passage_rank": 5,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "ffaf71c4c607a9a52a6b90ddf869dfd8",
+        "sentence_text": "A Brony Tale",
+        "sentence_token_cost": 4,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.0487680435180664,
+        "dataset": "HotpotQA",
+        "end_char": 121,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "8a422374cf470a9cfd1d3501096dd535",
+        "passage_rank": 5,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "c4216bc00e784eb56afa895596e9b9f3",
+        "sentence_text": "A Brony Tale (originally titled Brony) is a 2014 Canadian-American documentary film directed by Brent Hodge.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 13
+      },
+      {
+        "cross_encoder_score": -11.15937328338623,
+        "dataset": "HotpotQA",
+        "end_char": 263,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "8a422374cf470a9cfd1d3501096dd535",
+        "passage_rank": 5,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "7a1fa9034329a5595d2b74032262849a",
+        "sentence_text": " The film explores the brony phenomenon, the adult fan base of the children's animated show \"\" that arose shortly after its premiere in 2010.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 122
+      },
+      {
+        "cross_encoder_score": -11.266146659851074,
+        "dataset": "HotpotQA",
+        "end_char": 553,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "8a422374cf470a9cfd1d3501096dd535",
+        "passage_rank": 5,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "d5b22c193fc10d72be7534a843b1c4e3",
+        "sentence_text": " The film is structured around the journey of Ashleigh Ball, one of the principal voice actresses for the show, including her initial reactions to learning of this older fanbase, and her travel as a Guest of Honor to one of the first fan conventions BronyCon held in New York City in 2012.",
+        "sentence_token_cost": 64,
+        "source_order": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "source_position": 264
+      },
+      {
+        "cross_encoder_score": -5.662966728210449,
+        "dataset": "HotpotQA",
+        "end_char": 744,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "8a422374cf470a9cfd1d3501096dd535",
+        "passage_rank": 5,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "1820242b5999c55d0523b24c67b0e500",
+        "sentence_text": " Hodge, a close friend of and previous collaborator with Ball, was curious as she was as to this phenomenon and opted to film her travel and appearance at the convention for the documentary.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          2,
+          0,
+          4,
+          0
+        ],
+        "source_position": 554
+      },
+      {
+        "cross_encoder_score": -10.999570846557617,
+        "dataset": "HotpotQA",
+        "end_char": 21,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "c72a0bbd4c85e4fc82b643929d781ae3",
+        "passage_rank": 8,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "41d43fa6f384bc67b2a02df39da35bbb",
+        "sentence_text": "Cameron's House Rules",
+        "sentence_token_cost": 5,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.3579490184783936,
+        "dataset": "HotpotQA",
+        "end_char": 267,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "c72a0bbd4c85e4fc82b643929d781ae3",
+        "passage_rank": 8,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "54423f0f38322be43c14a827abf2433b",
+        "sentence_text": "Cameron's House Rules is a 2015 Canadian-American reality/comedy mini-series and a spin-off to \"Game of Homes\", airing on the W Network, directed by Brent Hodge, produced by Hodge, Lauren Bercovitch and Chris Kelly and starring Cameron Mathison.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 22
+      },
+      {
+        "cross_encoder_score": -10.628982543945312,
+        "dataset": "HotpotQA",
+        "end_char": 18,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "d1c4160eb0ad45164b11d5f1543cb49f",
+        "passage_rank": 9,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "316751020c976d97359f0af0554a9d18",
+        "sentence_text": "The Pistol Shrimps",
+        "sentence_token_cost": 5,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.3469488620758057,
+        "dataset": "HotpotQA",
+        "end_char": 187,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "d1c4160eb0ad45164b11d5f1543cb49f",
+        "passage_rank": 9,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "3f989067bc4a0cac36280a67000e71bd",
+        "sentence_text": "The Pistol Shrimps is a 2016 Canadian-American documentary film about the all-female recreational basketball team of the same name, written and directed by Brent Hodge.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 19
+      },
+      {
+        "cross_encoder_score": -10.133459091186523,
+        "dataset": "HotpotQA",
+        "end_char": 298,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "d1c4160eb0ad45164b11d5f1543cb49f",
+        "passage_rank": 9,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "d97b0bc2e6d80c66b4638844bb617bb7",
+        "sentence_text": " The film stars Aubrey Plaza, Molly Hawkey, Angela Trimbur, Melissa Stetten, Maria Blasucci, and Jesse Thomas.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 188
+      },
+      {
+        "cross_encoder_score": -10.829671859741211,
+        "dataset": "HotpotQA",
+        "end_char": 379,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "d1c4160eb0ad45164b11d5f1543cb49f",
+        "passage_rank": 9,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "4dc0b5784e7ecbc419ddddc1193bd13d",
+        "sentence_text": " The film had its world premiere at the Tribeca Film Festival on April 14, 2016.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          4,
+          0,
+          3,
+          0
+        ],
+        "source_position": 299
+      },
+      {
+        "cross_encoder_score": -10.314390182495117,
+        "dataset": "HotpotQA",
+        "end_char": 429,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "d1c4160eb0ad45164b11d5f1543cb49f",
+        "passage_rank": 9,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "3530d38de5a065faf68d5e9e2bff5774",
+        "sentence_text": " The film was released on June 16, 2016 by Seeso.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "source_position": 380
+      },
+      {
+        "cross_encoder_score": -8.968389511108398,
+        "dataset": "HotpotQA",
+        "end_char": 15,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "db5eb40fd2c682d1d4fc9ab24f69380f",
+        "passage_rank": 4,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "95ae39e9f2937abeb50fc29d952c0a79",
+        "sentence_text": "Winning America",
+        "sentence_token_cost": 3,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.053812026977539,
+        "dataset": "HotpotQA",
+        "end_char": 104,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "db5eb40fd2c682d1d4fc9ab24f69380f",
+        "passage_rank": 4,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "edd7d31879bd2603dce7ad599ab44201",
+        "sentence_text": "Winning America is a documentary television film about the Canadian band Said the Whale.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 16
+      },
+      {
+        "cross_encoder_score": -11.270934104919434,
+        "dataset": "HotpotQA",
+        "end_char": 205,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "db5eb40fd2c682d1d4fc9ab24f69380f",
+        "passage_rank": 4,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "fa8ecb7ba5b35d4952ef2a0107ffb873",
+        "sentence_text": " It follows the band on their first US tour down through California, and then to South by Southwest.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 105
+      },
+      {
+        "cross_encoder_score": -10.853214263916016,
+        "dataset": "HotpotQA",
+        "end_char": 255,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "db5eb40fd2c682d1d4fc9ab24f69380f",
+        "passage_rank": 4,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "f1b0786ab1832545aa469cc68bb0f368",
+        "sentence_text": " It premiered on CBC Television on July 23, 2011.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "source_position": 206
+      },
+      {
+        "cross_encoder_score": -1.1434885263442993,
+        "dataset": "HotpotQA",
+        "end_char": 377,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "db5eb40fd2c682d1d4fc9ab24f69380f",
+        "passage_rank": 4,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "fbd2a7bbd77726b773bf5505b51a0c07",
+        "sentence_text": " The film was directed by Brent Hodge and Thomas Buchan, and was produced by Brent Hodge, Jon Siddall and Sheila Peacock.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          5,
+          0,
+          4,
+          0
+        ],
+        "source_position": 256
+      },
+      {
+        "cross_encoder_score": -8.000187873840332,
+        "dataset": "HotpotQA",
+        "end_char": 420,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "db5eb40fd2c682d1d4fc9ab24f69380f",
+        "passage_rank": 4,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "39ee0ae2944c7e46e6d95e5ec5014529",
+        "sentence_text": " It was nominated for a Leo Award in 2012.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          5,
+          0,
+          5,
+          0
+        ],
+        "source_position": 378
+      },
+      {
+        "cross_encoder_score": -0.042368173599243164,
+        "dataset": "HotpotQA",
+        "end_char": 11,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "71c2fe6dff50dfc47308a33851ccbcd2",
+        "passage_rank": 2,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "0cf232e75a9a7c21d3762e09aea9fa34",
+        "sentence_text": "Ayoub Qanir",
+        "sentence_token_cost": 5,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 3.773793935775757,
+        "dataset": "HotpotQA",
+        "end_char": 189,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "71c2fe6dff50dfc47308a33851ccbcd2",
+        "passage_rank": 2,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "02c8e0d719bdeb8fd5088be4c7bfcaab",
+        "sentence_text": "Ayoub Qanir is an American, film director, writer and designer best known for his award winning experimental film series \"Human After All\", featuring French music duo Daft Punk.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 12
+      },
+      {
+        "cross_encoder_score": -1.0331799983978271,
+        "dataset": "HotpotQA",
+        "end_char": 399,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "71c2fe6dff50dfc47308a33851ccbcd2",
+        "passage_rank": 2,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "3026a712111215e422a6fe51a083790b",
+        "sentence_text": " As a follow up to his debut feature-project, \"Koyakatsi\", Ayoub has recently completed work on his latest film, \"Artificio Conceal\", set in London and starring leading actors David Bailie and Simon Armstrong.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 190
+      },
+      {
+        "cross_encoder_score": -10.854708671569824,
+        "dataset": "HotpotQA",
+        "end_char": 585,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "71c2fe6dff50dfc47308a33851ccbcd2",
+        "passage_rank": 2,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "73e0af6e1fb49098eef621b8aecf8392",
+        "sentence_text": " \"Artificio Conceal\" has been selected to over 50 film festivals worldwide including Cannes Film Festival, Edinburgh International Film Festival and Seattle International Film Festival.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          6,
+          0,
+          3,
+          0
+        ],
+        "source_position": 400
+      },
+      {
+        "cross_encoder_score": -3.7792928218841553,
+        "dataset": "HotpotQA",
+        "end_char": 720,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "71c2fe6dff50dfc47308a33851ccbcd2",
+        "passage_rank": 2,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "9a82b2bf25330c744cefb619171fc6be",
+        "sentence_text": " Qanir is also a member of the Association for Computing Machinery and the United Nations Association of the United States of America.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          6,
+          0,
+          4,
+          0
+        ],
+        "source_position": 586
+      },
+      {
+        "cross_encoder_score": -10.299223899841309,
+        "dataset": "HotpotQA",
+        "end_char": 32,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "6f3c6dcfc941e89d616a074381c740f9",
+        "passage_rank": 6,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "1a3a0be9ef060e090bcd9528ebcd42c1",
+        "sentence_text": "Consider the Source (web series)",
+        "sentence_token_cost": 7,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.1693551540374756,
+        "dataset": "HotpotQA",
+        "end_char": 240,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "6f3c6dcfc941e89d616a074381c740f9",
+        "passage_rank": 6,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "92ab9c54d1c64153790c37191939731e",
+        "sentence_text": "Consider the Source is a 2015 Canadian-American web series directed by Brent Hodge and produced by Morgan Spurlock, produced through Spurlock's company Warrior Poets, Hodgee Films and Disney's Maker Studios.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 33
+      },
+      {
+        "cross_encoder_score": -11.363443374633789,
+        "dataset": "HotpotQA",
+        "end_char": 452,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "6f3c6dcfc941e89d616a074381c740f9",
+        "passage_rank": 6,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "ea5624029c2884c2b3b2c90c5d21f15f",
+        "sentence_text": " \"Consider the Source\" examines the everyday consumer products used by the public, such as gas or water, and the journeys that those products take to get from the factories and fields to store shelves and homes.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 241
+      },
+      {
+        "cross_encoder_score": -11.025335311889648,
+        "dataset": "HotpotQA",
+        "end_char": 512,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "6f3c6dcfc941e89d616a074381c740f9",
+        "passage_rank": 6,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "ab19b26fd7305d25addefaee3763e5f9",
+        "sentence_text": " The series was released on the YouTube channel \"SMARTish\".",
+        "sentence_token_cost": 12,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 453
+      },
+      {
+        "cross_encoder_score": -9.925600051879883,
+        "dataset": "HotpotQA",
+        "end_char": 13,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "6a67ab46cfcf78c3854b22266b2d2283",
+        "passage_rank": 10,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "85c88d809b5864a51f49b1c172d96367",
+        "sentence_text": "Ashleigh Ball",
+        "sentence_token_cost": 3,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.24321174621582,
+        "dataset": "HotpotQA",
+        "end_char": 143,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "6a67ab46cfcf78c3854b22266b2d2283",
+        "passage_rank": 10,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "2112277eee6bf12b2cd50df280b96735",
+        "sentence_text": "Ashleigh Adele Ball (born March 31, 1983) is a Canadian voice actress and musician, known for singing in the rock band Hey Ocean!",
+        "sentence_token_cost": 36,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 14
+      },
+      {
+        "cross_encoder_score": -11.191929817199707,
+        "dataset": "HotpotQA",
+        "end_char": 311,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "6a67ab46cfcf78c3854b22266b2d2283",
+        "passage_rank": 10,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "009125e71afb69c4e5fed8415d9a8518",
+        "sentence_text": ", as well as voicing characters in several toyetic movies and television series, notably the \"Barbie\" film series, \"Bratz\", \"Johnny Test\", \"Littlest Pet Shop\", and \"\".",
+        "sentence_token_cost": 41,
+        "source_order": [
+          8,
+          0,
+          2,
+          0
+        ],
+        "source_position": 144
+      },
+      {
+        "cross_encoder_score": -4.019593715667725,
+        "dataset": "HotpotQA",
+        "end_char": 482,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "6a67ab46cfcf78c3854b22266b2d2283",
+        "passage_rank": 10,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "2015ef33938551085815e55f22f51bef",
+        "sentence_text": " She is the subject of the documentary \"A Brony Tale\" directed by Brent Hodge, which follows her through her first interactions with the Brony community at BronyCon 2012.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          8,
+          0,
+          3,
+          0
+        ],
+        "source_position": 312
+      },
+      {
+        "cross_encoder_score": -1.0522342920303345,
+        "dataset": "HotpotQA",
+        "end_char": 11,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "d1096435c0f14bf337fee397d4d22ab0",
+        "passage_rank": 1,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "995097939fe7037749aca756fa8dea70",
+        "sentence_text": "Brent Hodge",
+        "sentence_token_cost": 4,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.3605902194976807,
+        "dataset": "HotpotQA",
+        "end_char": 111,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d1096435c0f14bf337fee397d4d22ab0",
+        "passage_rank": 1,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "5967a2d2e25e73a34b7c5305d3ee3fa8",
+        "sentence_text": "Brent Hodge (born July 9, 1985) is a Canadian-New Zealander documentary filmmaker and entrepreneur.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 12
+      },
+      {
+        "cross_encoder_score": -9.359983444213867,
+        "dataset": "HotpotQA",
+        "end_char": 213,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "d1096435c0f14bf337fee397d4d22ab0",
+        "passage_rank": 1,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "2c14cff79e2cf66142f09e46b514efaf",
+        "sentence_text": " He is best known for his documentaries \"I Am Chris Farley\", \"A Brony Tale\" and \"The Pistol Shrimps\".",
+        "sentence_token_cost": 28,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 112
+      },
+      {
+        "cross_encoder_score": -5.185580730438232,
+        "dataset": "HotpotQA",
+        "end_char": 321,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "d1096435c0f14bf337fee397d4d22ab0",
+        "passage_rank": 1,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "8b2bdba9c9a198242e965a9730d05eab",
+        "sentence_text": " He has been nominated for six Leo Awards for his documentary movies \"Winning America\", \"What Happens Next?",
+        "sentence_token_cost": 23,
+        "source_order": [
+          9,
+          0,
+          3,
+          0
+        ],
+        "source_position": 214
+      },
+      {
+        "cross_encoder_score": -10.784601211547852,
+        "dataset": "HotpotQA",
+        "end_char": 383,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d1096435c0f14bf337fee397d4d22ab0",
+        "passage_rank": 1,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "b67c8e18dadf4a1b2182d678149e02b4",
+        "sentence_text": "\" and \"A Brony Tale\", winning one for \"A Brony Tale\" in 2015.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          9,
+          0,
+          4,
+          0
+        ],
+        "source_position": 322
+      },
+      {
+        "cross_encoder_score": -3.445302724838257,
+        "dataset": "HotpotQA",
+        "end_char": 537,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "d1096435c0f14bf337fee397d4d22ab0",
+        "passage_rank": 1,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "0fa1907d1d15cbada1f5de79efeed699",
+        "sentence_text": " He was nominated for two Shorty Awards under the \"director\" category in 2014 and 2015 for his work on \"The Beetle Roadtrip Sessions\" and \"A Brony Tale\".",
+        "sentence_token_cost": 44,
+        "source_order": [
+          9,
+          0,
+          5,
+          0
+        ],
+        "source_position": 384
+      },
+      {
+        "cross_encoder_score": 2.262068510055542,
+        "dataset": "HotpotQA",
+        "end_char": 651,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "d1096435c0f14bf337fee397d4d22ab0",
+        "passage_rank": 1,
+        "query_id": "5ab2b2a7554299295394681d",
+        "sentence_id": "5113027113fa18180d1369626963a183",
+        "sentence_text": " Hodge also won a Canadian Screen Award in 2014 for directing \"The Beetle Roadtrip Sessions with Grant Lawrence\".",
+        "sentence_token_cost": 26,
+        "source_order": [
+          9,
+          0,
+          6,
+          0
+        ],
+        "source_position": 538
+      }
+    ],
+    "scoring_seconds": 0.1906621860107407,
+    "source_fingerprint": "3ba1839f6094863873cd53e9021d482e462fa6bcea3379f6b0f7c97e5bb34001"
+  }
+}

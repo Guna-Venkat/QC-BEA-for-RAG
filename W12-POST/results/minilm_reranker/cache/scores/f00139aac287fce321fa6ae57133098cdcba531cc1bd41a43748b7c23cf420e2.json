@@ -1,0 +1,1791 @@
+{
+  "checksum": "2c9acd97f3757b98647b4769b9cf2152ee089d0398d7bd6ab36cab1072c50823",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "907b3af3cfaf68fe188de9467ed1260e52ec6cf1"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 88,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "532d9492c6ea5e3d9a9a4742e041e41cdc005ffa18f520f817080112c9222ba0",
+    "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+    "scores": [
+      {
+        "cross_encoder_score": -11.333662033081055,
+        "dataset": "QASPER",
+        "end_char": 202,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "90495c149b5509411863acdbe2ef88e9",
+        "passage_rank": 10,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "bd00ac2aab1e218d8b20d1cc9182beab",
+        "sentence_text": "Characterizing Political Fake News in Twitter by its Meta-Data\tThis article presents a preliminary approach towards characterizing political fake news on Twitter through the analysis of their meta-data.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.106575965881348,
+        "dataset": "QASPER",
+        "end_char": 355,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "90495c149b5509411863acdbe2ef88e9",
+        "passage_rank": 10,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "7b5fc00d28ac466349139adde6816f06",
+        "sentence_text": "In particular, we focus on more than 1.5M tweets collected on the day of the election of Donald Trump as 45th president of the United States of America.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 203
+      },
+      {
+        "cross_encoder_score": -11.460514068603516,
+        "dataset": "QASPER",
+        "end_char": 506,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "90495c149b5509411863acdbe2ef88e9",
+        "passage_rank": 10,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "a71f68b6eed5f3ebe2f3e399b091ee17",
+        "sentence_text": "We use the meta-data embedded within those tweets in order to look for differences between tweets containing fake news and tweets not containing them.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 356
+      },
+      {
+        "cross_encoder_score": -10.962347984313965,
+        "dataset": "QASPER",
+        "end_char": 717,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "90495c149b5509411863acdbe2ef88e9",
+        "passage_rank": 10,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "1eadefe5c78a42bc08b44310ace4591e",
+        "sentence_text": "Specifically, we perform our analysis only on tweets that went viral, by studying proxies for users' exposure to the tweets, by characterizing accounts spreading fake news, and by looking at their polarization.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 507
+      },
+      {
+        "cross_encoder_score": -4.855759620666504,
+        "dataset": "QASPER",
+        "end_char": 849,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "90495c149b5509411863acdbe2ef88e9",
+        "passage_rank": 10,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "a218dfce435dee6af7fafacdf1552624",
+        "sentence_text": "We found significant differences on the distribution of followers, the number of URLs on tweets, and the verification of the users.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 718
+      },
+      {
+        "cross_encoder_score": -11.239175796508789,
+        "dataset": "QASPER",
+        "end_char": 1217,
+        "pair_tokens_before_truncation": 99,
+        "pair_truncated": false,
+        "passage_id": "90495c149b5509411863acdbe2ef88e9",
+        "passage_rank": 10,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "b3bed66ae2a68f799e39f0164e897b80",
+        "sentence_text": "None\t10pt 1.10pt [ Characterizing Political Fake News in Twitter by its Meta-DataJulio Amador D\u00edaz L\u00f3pezAxel Oehmichen Miguel Molina-Solana( j.amador, axelfrancois.oehmichen11, mmolinas@imperial.ac.uk ) Imperial College London This article presents a preliminary approach towards characterizing political fake news on Twitter through the analysis of their meta-data.",
+        "sentence_token_cost": 95,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 851
+      },
+      {
+        "cross_encoder_score": -9.301918029785156,
+        "dataset": "QASPER",
+        "end_char": 1220,
+        "pair_tokens_before_truncation": 10,
+        "pair_truncated": false,
+        "passage_id": "90495c149b5509411863acdbe2ef88e9",
+        "passage_rank": 10,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "76aeeab42d6b79747f6201c8274a82ce",
+        "sentence_text": "In",
+        "sentence_token_cost": 1,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1218
+      },
+      {
+        "cross_encoder_score": -11.140460014343262,
+        "dataset": "QASPER",
+        "end_char": 1370,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "cda2dd45cea1ba13d647155eed00db71",
+        "passage_rank": 8,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "5813c3223074292237abad6690ddb8c8",
+        "sentence_text": "particular, we focus on more than 1.5M tweets collected on the day of the election of Donald Trump as 45th president of the United States of America.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1221
+      },
+      {
+        "cross_encoder_score": -11.460514068603516,
+        "dataset": "QASPER",
+        "end_char": 1521,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "cda2dd45cea1ba13d647155eed00db71",
+        "passage_rank": 8,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "be821579641e50dd00f1f33ffb79c0cb",
+        "sentence_text": "We use the meta-data embedded within those tweets in order to look for differences between tweets containing fake news and tweets not containing them.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1371
+      },
+      {
+        "cross_encoder_score": -10.962347984313965,
+        "dataset": "QASPER",
+        "end_char": 1732,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "cda2dd45cea1ba13d647155eed00db71",
+        "passage_rank": 8,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "af270a9dd908242599322c890b6ed3a3",
+        "sentence_text": "Specifically, we perform our analysis only on tweets that went viral, by studying proxies for users' exposure to the tweets, by characterizing accounts spreading fake news, and by looking at their polarization.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1522
+      },
+      {
+        "cross_encoder_score": -4.855759620666504,
+        "dataset": "QASPER",
+        "end_char": 1864,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "cda2dd45cea1ba13d647155eed00db71",
+        "passage_rank": 8,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "dff0e6bd20c2f2af513eb2381bce65de",
+        "sentence_text": "We found significant differences on the distribution of followers, the number of URLs on tweets, and the verification of the users.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1733
+      },
+      {
+        "cross_encoder_score": -11.218910217285156,
+        "dataset": "QASPER",
+        "end_char": 2194,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "cda2dd45cea1ba13d647155eed00db71",
+        "passage_rank": 8,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "2df9d160b65439d4cfd22831ba019a2d",
+        "sentence_text": "Introduction\tWhile fake news, understood as deliberately misleading pieces of information, have existed since long ago (e.g. it is not unusual to receive news falsely claiming the death of a celebrity), the term reached the mainstream, particularly so in politics, during the 2016 presidential election in the United States  .",
+        "sentence_token_cost": 64,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 1868
+      },
+      {
+        "cross_encoder_score": -11.33643627166748,
+        "dataset": "QASPER",
+        "end_char": 2352,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "cda2dd45cea1ba13d647155eed00db71",
+        "passage_rank": 8,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "95985d683c248f97315bca8c7b5eb73f",
+        "sentence_text": "Since then, governments and corporations alike (e.g. Google  and Facebook  ) have begun efforts to tackle fake news as they can affect political decisions  .",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 2195
+      },
+      {
+        "cross_encoder_score": -11.360220909118652,
+        "dataset": "QASPER",
+        "end_char": 2435,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "cda2dd45cea1ba13d647155eed00db71",
+        "passage_rank": 8,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "9a811f6d6f68b2954a566c0937fde606",
+        "sentence_text": "Yet, the ability to define, identify and stop fake news from spreading is limited.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2353
+      },
+      {
+        "cross_encoder_score": -11.388919830322266,
+        "dataset": "QASPER",
+        "end_char": 2501,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "cda2dd45cea1ba13d647155eed00db71",
+        "passage_rank": 8,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "2ac5ce6c62c199cc4046a1699060fd53",
+        "sentence_text": "Since the Obama campaign in 2008, social media has been pervasive",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2436
+      },
+      {
+        "cross_encoder_score": -11.0137300491333,
+        "dataset": "QASPER",
+        "end_char": 2546,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "50b2889e64b11eaeba615b448d8db744",
+        "passage_rank": 7,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "7913715f3c8c4d05652a177019a14482",
+        "sentence_text": "in the political arena in the United States.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2502
+      },
+      {
+        "cross_encoder_score": -10.539361000061035,
+        "dataset": "QASPER",
+        "end_char": 2635,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "50b2889e64b11eaeba615b448d8db744",
+        "passage_rank": 7,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "3aa08f76f512134439981d2806cf18ca",
+        "sentence_text": "Studies report that up to 62% of American adults receive their news from social media  .",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2547
+      },
+      {
+        "cross_encoder_score": -10.976296424865723,
+        "dataset": "QASPER",
+        "end_char": 2862,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "50b2889e64b11eaeba615b448d8db744",
+        "passage_rank": 7,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "c54bf951818e7844446e16f1192cf0b7",
+        "sentence_text": "The wide use of platforms such as Twitter and Facebook has facilitated the diffusion of fake news by simplifying the process of receiving content with no significant third party filtering, fact-checking or editorial judgement.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 2636
+      },
+      {
+        "cross_encoder_score": -11.417598724365234,
+        "dataset": "QASPER",
+        "end_char": 2991,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "50b2889e64b11eaeba615b448d8db744",
+        "passage_rank": 7,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "68181ed00cebe9a3631e848020b4c42d",
+        "sentence_text": "Such characteristics make these platforms suitable means for sharing news that, disguised as legit ones, try to confuse readers.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 2863
+      },
+      {
+        "cross_encoder_score": -11.064739227294922,
+        "dataset": "QASPER",
+        "end_char": 3318,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "50b2889e64b11eaeba615b448d8db744",
+        "passage_rank": 7,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "3acf6c3edb3fd4bfe7aef1a1d22cd996",
+        "sentence_text": "Such use and their prominent rise has been confirmed by Craig Silverman, a Canadian journalist who is a prominent figure on fake news  : \u201cIn the final three months of the US presidential campaign, the top-performing fake election news stories on Facebook generated more engagement than the top stories from major news outlet\u201d.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 2992
+      },
+      {
+        "cross_encoder_score": -11.301107406616211,
+        "dataset": "QASPER",
+        "end_char": 3542,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "50b2889e64b11eaeba615b448d8db744",
+        "passage_rank": 7,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "36ba8b073685213dbc68c87749cc17fb",
+        "sentence_text": "Our current research hence departs from the assumption that social media is a conduit for fake news and asks the question of whether fake news (as spam was some years ago) can be identified, modelled and eventually blocked.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3319
+      },
+      {
+        "cross_encoder_score": -10.998440742492676,
+        "dataset": "QASPER",
+        "end_char": 3760,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "50b2889e64b11eaeba615b448d8db744",
+        "passage_rank": 7,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "2e34eddf14bb9e156a71eef07614164c",
+        "sentence_text": "In order to do so, we use a sample of more that 1.5M tweets collected on November 8th 2016 \u2014election day in the United States\u2014 with the goal of identifying features that tweets containing fake news are likely to have.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3543
+      },
+      {
+        "cross_encoder_score": -11.085628509521484,
+        "dataset": "QASPER",
+        "end_char": 3787,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "50b2889e64b11eaeba615b448d8db744",
+        "passage_rank": 7,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "a8ff8c03c26d5ceda8d8e6d1bc2d8a4f",
+        "sentence_text": "As such, our paper aims to",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3761
+      },
+      {
+        "cross_encoder_score": -10.950640678405762,
+        "dataset": "QASPER",
+        "end_char": 9274,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "48021bfdaeeb00de7538aa875794597f",
+        "passage_rank": 5,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "0780b4763e5411a950766d4dfac550c3",
+        "sentence_text": "@HillaryClinton.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 9258
+      },
+      {
+        "cross_encoder_score": -10.965208053588867,
+        "dataset": "QASPER",
+        "end_char": 9331,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "48021bfdaeeb00de7538aa875794597f",
+        "passage_rank": 5,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "87212571e4bedd4fdce372a03ba844e0",
+        "sentence_text": "The data collection ran for just one day (Nov 8th 2016).",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 9275
+      },
+      {
+        "cross_encoder_score": -11.442723274230957,
+        "dataset": "QASPER",
+        "end_char": 9502,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "48021bfdaeeb00de7538aa875794597f",
+        "passage_rank": 5,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "1f8bc78402590282ae61a49015fbbabb",
+        "sentence_text": "One straightforward way of sharing information on Twitter is by using the retweet functionality, which enables a user to share a exact copy of a tweet with his followers.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 9332
+      },
+      {
+        "cross_encoder_score": -11.321767807006836,
+        "dataset": "QASPER",
+        "end_char": 9709,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "48021bfdaeeb00de7538aa875794597f",
+        "passage_rank": 5,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "6561021032714c8c52454ca1d62da4a5",
+        "sentence_text": "Among the reasons for retweeting, Body et al.  reported the will to: 1) spread tweets to a new audience, 2) to show one\u2019s role as a listener, and 3) to agree with someone or validate the thoughts of others.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 9503
+      },
+      {
+        "cross_encoder_score": -11.253474235534668,
+        "dataset": "QASPER",
+        "end_char": 9963,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "48021bfdaeeb00de7538aa875794597f",
+        "passage_rank": 5,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "78b660cbe3685465c1b3d446a0d0702a",
+        "sentence_text": "As indicated, our initial interest is to characterize tweets containing fake news that went viral (as they are the most harmful ones, as they reach a wider audience), and understand how it differs from other viral tweets (that do not contain fake news).",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 9710
+      },
+      {
+        "cross_encoder_score": -11.411528587341309,
+        "dataset": "QASPER",
+        "end_char": 10056,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "48021bfdaeeb00de7538aa875794597f",
+        "passage_rank": 5,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "ba85f77e472c58d458e547258a32b50f",
+        "sentence_text": "For our study, we consider that a tweet went viral if it was retweeted more than 1000 times.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 9964
+      },
+      {
+        "cross_encoder_score": -10.94248104095459,
+        "dataset": "QASPER",
+        "end_char": 10388,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "48021bfdaeeb00de7538aa875794597f",
+        "passage_rank": 5,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "62921566d72b285880c6cbe187bd1b15",
+        "sentence_text": "Once we have the dataset of viral tweets, we eliminated duplicates (some of the tweets were collected several times because they had several handles) and an expert manually inspected the text field within the tweets to label them as containing fake news, or not containing them (according to the characterization presented before).",
+        "sentence_token_cost": 58,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 10057
+      },
+      {
+        "cross_encoder_score": -11.361472129821777,
+        "dataset": "QASPER",
+        "end_char": 10460,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "48021bfdaeeb00de7538aa875794597f",
+        "passage_rank": 5,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "c11195414378d920eeb6c934a0d709fe",
+        "sentence_text": "This annotated dataset  is publicly available and can be freely reused.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "source_position": 10389
+      },
+      {
+        "cross_encoder_score": -4.452114105224609,
+        "dataset": "QASPER",
+        "end_char": 10922,
+        "pair_tokens_before_truncation": 99,
+        "pair_truncated": false,
+        "passage_id": "98b9deaa0803d6c332bdf9956db178e1",
+        "passage_rank": 1,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "2b9228b24570e5ee797a2ec2eb4a1ac0",
+        "sentence_text": "Finally, we use the following fields within tweets (from the ones returned by Twitter's API) to compare their distributions and look for differences between viral tweets containing fake news and viral tweets not containing fake news: In the following section, we provide graphical descriptions of the distribution of each of the identified attributes for the two sets of tweets (those labelled as containing fake news and those labelled as not containing them).",
+        "sentence_token_cost": 80,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 10461
+      },
+      {
+        "cross_encoder_score": -11.198530197143555,
+        "dataset": "QASPER",
+        "end_char": 11017,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "98b9deaa0803d6c332bdf9956db178e1",
+        "passage_rank": 1,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "234efdf70e2b245c8456b8d48d0359ad",
+        "sentence_text": "Where appropriate, we normalized and/or took logarithms of the data for better representation.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 10923
+      },
+      {
+        "cross_encoder_score": -5.607415676116943,
+        "dataset": "QASPER",
+        "end_char": 11185,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "98b9deaa0803d6c332bdf9956db178e1",
+        "passage_rank": 1,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "e31b6d5b26a2e078a09181e755e8afe5",
+        "sentence_text": "To gain a better understanding of the significance of those differences, we use the Kolmogorov-Smirnov test with the null hypothesis that both distributions are equal.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 11018
+      },
+      {
+        "cross_encoder_score": -8.83305549621582,
+        "dataset": "QASPER",
+        "end_char": 11283,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "98b9deaa0803d6c332bdf9956db178e1",
+        "passage_rank": 1,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "933206718ef5a709e5f601db9a185fcb",
+        "sentence_text": "Results\tThe sample collected consisted on 1 785 855 tweets published by 848 196 different users.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 11187
+      },
+      {
+        "cross_encoder_score": -10.760994911193848,
+        "dataset": "QASPER",
+        "end_char": 11428,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "98b9deaa0803d6c332bdf9956db178e1",
+        "passage_rank": 1,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "97c8169d0d5fb83d2a21a4d97b6e024c",
+        "sentence_text": "Within our sample, we identified 1327 tweets that went viral (retweeted more than 1000 times by the 8th of November 2016) produced by 643 users.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 11284
+      },
+      {
+        "cross_encoder_score": -11.092164993286133,
+        "dataset": "QASPER",
+        "end_char": 11527,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "98b9deaa0803d6c332bdf9956db178e1",
+        "passage_rank": 1,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "317d23e981bf043b517fa3b16b920bfb",
+        "sentence_text": "Such small subset of viral tweets were retweeted on 290 841 occasions in the observed time-window.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 11429
+      },
+      {
+        "cross_encoder_score": -11.324068069458008,
+        "dataset": "QASPER",
+        "end_char": 11607,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "98b9deaa0803d6c332bdf9956db178e1",
+        "passage_rank": 1,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "6fd5649d0e4e3ab8fd64e0e362960c9d",
+        "sentence_text": "The 1327 `viral' tweets were manually annotated as containing fake news or not.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 11528
+      },
+      {
+        "cross_encoder_score": -10.620038032531738,
+        "dataset": "QASPER",
+        "end_char": 11626,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "98b9deaa0803d6c332bdf9956db178e1",
+        "passage_rank": 1,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "eb13297e6236a00749edfb15c9deccae",
+        "sentence_text": "The annotation was",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 11608
+      },
+      {
+        "cross_encoder_score": -10.92442512512207,
+        "dataset": "QASPER",
+        "end_char": 11724,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "a88c446f32155ddef7a6e154d9d588a6",
+        "passage_rank": 2,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "56d31802e32ea81c5efe52e05917b573",
+        "sentence_text": "carried out by a single person in order to obtain a consistent annotation throughout the dataset.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 11627
+      },
+      {
+        "cross_encoder_score": -10.988199234008789,
+        "dataset": "QASPER",
+        "end_char": 11916,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "a88c446f32155ddef7a6e154d9d588a6",
+        "passage_rank": 2,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "bea0eaaa5aaa1e48b4228b7b964f0fac",
+        "sentence_text": "Out of those 1327 tweets, we identified 136 as potentially containing fake news (according to the categories previously described), and the rest were classified as `non containing fake news'.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 11725
+      },
+      {
+        "cross_encoder_score": -11.37873649597168,
+        "dataset": "QASPER",
+        "end_char": 12078,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "a88c446f32155ddef7a6e154d9d588a6",
+        "passage_rank": 2,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "e770f8c696bf017e702f8fd08311f33d",
+        "sentence_text": "Note that the categorization is far from being perfect given the ambiguity of fake news themselves and human judgement involved in the process of categorization.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 11917
+      },
+      {
+        "cross_encoder_score": -11.158370018005371,
+        "dataset": "QASPER",
+        "end_char": 12163,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "a88c446f32155ddef7a6e154d9d588a6",
+        "passage_rank": 2,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "19ac97bc8ded7e7b81186a9d35f30c60",
+        "sentence_text": "Because of this, we do not claim that this dataset can be considered a ground truth.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 12079
+      },
+      {
+        "cross_encoder_score": -11.014103889465332,
+        "dataset": "QASPER",
+        "end_char": 12267,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "a88c446f32155ddef7a6e154d9d588a6",
+        "passage_rank": 2,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "5e021eb745f4f2dde92c612a94d011fc",
+        "sentence_text": "The following results detail characteristics of these tweets along the previously mentioned dimensions.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 12164
+      },
+      {
+        "cross_encoder_score": -3.113337993621826,
+        "dataset": "QASPER",
+        "end_char": 12481,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "a88c446f32155ddef7a6e154d9d588a6",
+        "passage_rank": 2,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "b29baf0cf7ca0b70bc365ee331c6b5d5",
+        "sentence_text": "Table TABREF23 reports the actual differences (together with their associated p-values) of the distributions of viral tweets containing fake news and viral tweets not containing them for every variable considered.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 12268
+      },
+      {
+        "cross_encoder_score": -11.144186019897461,
+        "dataset": "QASPER",
+        "end_char": 12618,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "a88c446f32155ddef7a6e154d9d588a6",
+        "passage_rank": 2,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "638369f98206503c30a8c19bbb26b6c8",
+        "sentence_text": "Exposure\tFigure FIGREF24 shows that, in contrast to other kinds of viral tweets, those containing fake news were created more recently.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          9,
+          6,
+          0
+        ],
+        "source_position": 12483
+      },
+      {
+        "cross_encoder_score": -11.102959632873535,
+        "dataset": "QASPER",
+        "end_char": 12721,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "a88c446f32155ddef7a6e154d9d588a6",
+        "passage_rank": 2,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "29f819d66b668a86f2310902010e7fa2",
+        "sentence_text": "As such, Twitter users were exposed to fake news related to the election for a shorter period of time.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          9,
+          7,
+          0
+        ],
+        "source_position": 12619
+      },
+      {
+        "cross_encoder_score": -11.277134895324707,
+        "dataset": "QASPER",
+        "end_char": 12850,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "a88c446f32155ddef7a6e154d9d588a6",
+        "passage_rank": 2,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "333e98988005e1455d7426388906a97b",
+        "sentence_text": "However, in terms of retweets, Figure FIGREF25 shows no apparent difference between containing fake news or not containing them.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          9,
+          8,
+          0
+        ],
+        "source_position": 12722
+      },
+      {
+        "cross_encoder_score": -10.537195205688477,
+        "dataset": "QASPER",
+        "end_char": 12944,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "a88c446f32155ddef7a6e154d9d588a6",
+        "passage_rank": 2,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "d682e9c62cf079f26c5a7dc5ad53ac6e",
+        "sentence_text": "That is confirmed by the Kolmogorov-Smirnoff test, which does not discard the hypothesis that",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          9,
+          9,
+          0
+        ],
+        "source_position": 12851
+      },
+      {
+        "cross_encoder_score": -4.255766868591309,
+        "dataset": "QASPER",
+        "end_char": 12984,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "a8061ba986f0bca2990c5f9fa0bf5470",
+        "passage_rank": 3,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "96d47dc5c10fad208a6b0b4231b72d96",
+        "sentence_text": "the associated distributions are equal.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 12945
+      },
+      {
+        "cross_encoder_score": -10.546542167663574,
+        "dataset": "QASPER",
+        "end_char": 13172,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "a8061ba986f0bca2990c5f9fa0bf5470",
+        "passage_rank": 3,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "88174d68e899a2e146f9293f32935a39",
+        "sentence_text": "In relation to the number of favourites, users that generated at least a viral tweet containing fake news appear to have, on average, less favourites than users that do not generate them.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 12985
+      },
+      {
+        "cross_encoder_score": -4.0645222663879395,
+        "dataset": "QASPER",
+        "end_char": 13226,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "a8061ba986f0bca2990c5f9fa0bf5470",
+        "passage_rank": 3,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "15698d4ca8fd23b23e1bcefd854f52aa",
+        "sentence_text": "Figure FIGREF26 shows the distribution of favourites.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 13173
+      },
+      {
+        "cross_encoder_score": -10.721197128295898,
+        "dataset": "QASPER",
+        "end_char": 13317,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "a8061ba986f0bca2990c5f9fa0bf5470",
+        "passage_rank": 3,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "f230d6238a38a0e5301febe453e316f1",
+        "sentence_text": "Despite the apparent visual differences, the difference are not statistically significant.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 13227
+      },
+      {
+        "cross_encoder_score": -11.43921184539795,
+        "dataset": "QASPER",
+        "end_char": 13428,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "a8061ba986f0bca2990c5f9fa0bf5470",
+        "passage_rank": 3,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "ab6fe76969cf7ff9f907ef7452a68ddf",
+        "sentence_text": "Finally, the number of hashtags used in viral fake news appears to be larger than those in other viral tweets.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 13318
+      },
+      {
+        "cross_encoder_score": -7.175325393676758,
+        "dataset": "QASPER",
+        "end_char": 13507,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "a8061ba986f0bca2990c5f9fa0bf5470",
+        "passage_rank": 3,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "1ebd9e9d8367adc7bfa01341b23b2058",
+        "sentence_text": "Figure FIGREF27 shows the density distribution of the number of hashtags used.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 13429
+      },
+      {
+        "cross_encoder_score": -11.302600860595703,
+        "dataset": "QASPER",
+        "end_char": 13691,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "a8061ba986f0bca2990c5f9fa0bf5470",
+        "passage_rank": 3,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "9d26e6efede072addf2cd45035cb0a4f",
+        "sentence_text": "However, once again, we were not able to find any statistical difference between the average number of hashtags in a viral tweet and the average number of hashtags in viral fake news.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 13508
+      },
+      {
+        "cross_encoder_score": -9.889780044555664,
+        "dataset": "QASPER",
+        "end_char": 13848,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "a8061ba986f0bca2990c5f9fa0bf5470",
+        "passage_rank": 3,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "4bf278d200a3cafcfa859e9d0b6c32fa",
+        "sentence_text": "Characterization\tWe found that 82 users within our sample were spreading fake news (i.e. they produced at least one tweet which was labelled as fake news).",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 13693
+      },
+      {
+        "cross_encoder_score": -10.090795516967773,
+        "dataset": "QASPER",
+        "end_char": 13918,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "a8061ba986f0bca2990c5f9fa0bf5470",
+        "passage_rank": 3,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "e49593f8e40257fe5193d1353610de06",
+        "sentence_text": "Out of those, 34 had verified accounts, and the rest were unverified.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          10,
+          8,
+          0
+        ],
+        "source_position": 13849
+      },
+      {
+        "cross_encoder_score": -11.319482803344727,
+        "dataset": "QASPER",
+        "end_char": 14100,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "a8061ba986f0bca2990c5f9fa0bf5470",
+        "passage_rank": 3,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "49df812b6ca8ffdb6d739a3a235c6be1",
+        "sentence_text": "From the 48 unverified accounts, 6 have been suspended by Twitter at the date of writing, 3 tried to imitate legitimate accounts of others, and 4 accounts have been already deleted.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          10,
+          9,
+          0
+        ],
+        "source_position": 13919
+      },
+      {
+        "cross_encoder_score": -11.218720436096191,
+        "dataset": "QASPER",
+        "end_char": 14220,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "a8061ba986f0bca2990c5f9fa0bf5470",
+        "passage_rank": 3,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "b0b286c01af024b9b415df4304649e10",
+        "sentence_text": "Figure FIGREF28 shows the proportion of verified accounts to unverified accounts for viral tweets (containing fake news",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          10,
+          10,
+          0
+        ],
+        "source_position": 14101
+      },
+      {
+        "cross_encoder_score": -11.256804466247559,
+        "dataset": "QASPER",
+        "end_char": 14251,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "af25942460e796fb5ed913e30dc11cee",
+        "passage_rank": 4,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "1757e322484345309d8d4bd33630b48f",
+        "sentence_text": "vs. not containing fake news).",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 14221
+      },
+      {
+        "cross_encoder_score": -11.201382637023926,
+        "dataset": "QASPER",
+        "end_char": 14355,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "af25942460e796fb5ed913e30dc11cee",
+        "passage_rank": 4,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "bdee8ec50afa3afcad43ddf3ef6cb71c",
+        "sentence_text": "From the chart, it is clear that there is a higher chance of fake news coming from unverified accounts.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 14252
+      },
+      {
+        "cross_encoder_score": -5.696157455444336,
+        "dataset": "QASPER",
+        "end_char": 14512,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "af25942460e796fb5ed913e30dc11cee",
+        "passage_rank": 4,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "73c5517b62e32c89cf4412e2e685adb7",
+        "sentence_text": "Turning to friends, accounts distributing fake news appear to have, on average, the same number of friends than those distributing tweets with no fake news.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 14356
+      },
+      {
+        "cross_encoder_score": -2.6488678455352783,
+        "dataset": "QASPER",
+        "end_char": 14684,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "af25942460e796fb5ed913e30dc11cee",
+        "passage_rank": 4,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "c47ba899617330f609a5d7362f827e96",
+        "sentence_text": "However, the density distribution of friends from the accounts (Figure FIGREF29 ) shows that there is indeed a statistically significant difference in their distributions.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 14513
+      },
+      {
+        "cross_encoder_score": -5.875542640686035,
+        "dataset": "QASPER",
+        "end_char": 14937,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "af25942460e796fb5ed913e30dc11cee",
+        "passage_rank": 4,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "bc8664f7531eadf21b1a1a2abe65838f",
+        "sentence_text": "If we take into consideration the number of followers, accounts generating viral tweets with fake news do have a very different distribution on this dimension, compared to those accounts generating viral tweets with no fake news (see Figure FIGREF30 ).",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 14685
+      },
+      {
+        "cross_encoder_score": -9.858810424804688,
+        "dataset": "QASPER",
+        "end_char": 14994,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "af25942460e796fb5ed913e30dc11cee",
+        "passage_rank": 4,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "d95d549e95fa4b8b15840ab77f37a859",
+        "sentence_text": "In fact, such differences are statistically significant.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 14938
+      },
+      {
+        "cross_encoder_score": -11.305631637573242,
+        "dataset": "QASPER",
+        "end_char": 15084,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "af25942460e796fb5ed913e30dc11cee",
+        "passage_rank": 4,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "2a6b74b3770192a8965eaa43f9055ed4",
+        "sentence_text": "A useful representation for friends and followers is the ratio between friends/followers.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 14995
+      },
+      {
+        "cross_encoder_score": -10.968340873718262,
+        "dataset": "QASPER",
+        "end_char": 15140,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "af25942460e796fb5ed913e30dc11cee",
+        "passage_rank": 4,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "5bbbd7f4cbe0fc0c858cf001f5b9c463",
+        "sentence_text": "Figures FIGREF31 and FIGREF32 show this representation.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 15085
+      },
+      {
+        "cross_encoder_score": -11.449392318725586,
+        "dataset": "QASPER",
+        "end_char": 15254,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "af25942460e796fb5ed913e30dc11cee",
+        "passage_rank": 4,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "f0953940fec9bd93d1c07a6c41bd221a",
+        "sentence_text": "Notice that accounts spreading viral tweets with fake news have, on average, a larger ratio of friends/followers.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          11,
+          8,
+          0
+        ],
+        "source_position": 15141
+      },
+      {
+        "cross_encoder_score": -2.401397228240967,
+        "dataset": "QASPER",
+        "end_char": 15342,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "af25942460e796fb5ed913e30dc11cee",
+        "passage_rank": 4,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "285f72d9a1c0a8ab92282b79ff7e5d36",
+        "sentence_text": "The distribution of those accounts not generating fake news is more evenly distributed.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          11,
+          9,
+          0
+        ],
+        "source_position": 15255
+      },
+      {
+        "cross_encoder_score": -11.3370361328125,
+        "dataset": "QASPER",
+        "end_char": 15553,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "af25942460e796fb5ed913e30dc11cee",
+        "passage_rank": 4,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "43c035e48afd8d9c7421e4ed8fb8bd75",
+        "sentence_text": "With respect to the number of mentions, Figure FIGREF33 shows that viral tweets labelled as containing fake news appear to use mentions to other users less frequently than viral tweets not containing fake news.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          11,
+          10,
+          0
+        ],
+        "source_position": 15343
+      },
+      {
+        "cross_encoder_score": -11.390909194946289,
+        "dataset": "QASPER",
+        "end_char": 15592,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "af25942460e796fb5ed913e30dc11cee",
+        "passage_rank": 4,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "987d3cf3f426d221ca35f9b7b4ef9573",
+        "sentence_text": "In other words, tweets containing fake",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          11,
+          11,
+          0
+        ],
+        "source_position": 15554
+      },
+      {
+        "cross_encoder_score": -11.404314994812012,
+        "dataset": "QASPER",
+        "end_char": 15663,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "7b95aae7848d8c362f735ee7899f636b",
+        "passage_rank": 9,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "22993244e63d61afa3cbfb931034b98a",
+        "sentence_text": "news mostly contain 1 mention, whereas other tweets tend to have two).",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 15593
+      },
+      {
+        "cross_encoder_score": -10.052301406860352,
+        "dataset": "QASPER",
+        "end_char": 15711,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "7b95aae7848d8c362f735ee7899f636b",
+        "passage_rank": 9,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "280c2cbe94220fb37ac96a9f547ffa10",
+        "sentence_text": "Such differences are statistically significant.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 15664
+      },
+      {
+        "cross_encoder_score": -10.700756072998047,
+        "dataset": "QASPER",
+        "end_char": 15924,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "7b95aae7848d8c362f735ee7899f636b",
+        "passage_rank": 9,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "ff649724792d765b050f10095ce02470",
+        "sentence_text": "The analysis (Figure FIGREF34 ) of the presence of media in the tweets in our dataset shows that tweets labelled as not containing fake news appear to present more media elements than those labelled as fake news.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 15712
+      },
+      {
+        "cross_encoder_score": -10.3632230758667,
+        "dataset": "QASPER",
+        "end_char": 15982,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "7b95aae7848d8c362f735ee7899f636b",
+        "passage_rank": 9,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "be8c079b28df05390b2d772f9608c969",
+        "sentence_text": "However, the difference is not statistically significant.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 15925
+      },
+      {
+        "cross_encoder_score": -11.218896865844727,
+        "dataset": "QASPER",
+        "end_char": 16154,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "7b95aae7848d8c362f735ee7899f636b",
+        "passage_rank": 9,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "594abb6176fa9ac511333f41fed126ac",
+        "sentence_text": "On the other hand, Figure FIGREF35 shows that viral tweets containing fake news appear to include more URLs to other sites than viral tweets that do not contain fake news.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 15983
+      },
+      {
+        "cross_encoder_score": -4.943583965301514,
+        "dataset": "QASPER",
+        "end_char": 16262,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "7b95aae7848d8c362f735ee7899f636b",
+        "passage_rank": 9,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "75f4a940bd7d7046c9aca4169fda0f53",
+        "sentence_text": "In fact, the difference between the two distributions is statistically significant (assuming INLINEFORM0 ).",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 16155
+      },
+      {
+        "cross_encoder_score": -11.21847915649414,
+        "dataset": "QASPER",
+        "end_char": 16482,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "7b95aae7848d8c362f735ee7899f636b",
+        "passage_rank": 9,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "b3d8be1138dfeb18ad7c4f2cfe85b2d0",
+        "sentence_text": "Polarization\tFinally, manual inspection of the text field of those viral tweets labelled as containing fake news shows that 117 of such tweets expressed support for Donald Trump, while only 8 supported Hillary Clinton.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 16264
+      },
+      {
+        "cross_encoder_score": -11.407294273376465,
+        "dataset": "QASPER",
+        "end_char": 16598,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "7b95aae7848d8c362f735ee7899f636b",
+        "passage_rank": 9,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "627f51a4398dcd64bea3d8a3e75dd118",
+        "sentence_text": "The remaining tweets contained fake news related to other topics, not expressing support for any of the candidates.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          12,
+          7,
+          0
+        ],
+        "source_position": 16483
+      },
+      {
+        "cross_encoder_score": -10.878927230834961,
+        "dataset": "QASPER",
+        "end_char": 16984,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "7b95aae7848d8c362f735ee7899f636b",
+        "passage_rank": 9,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "1fc6ec52b649ca23b0d195085f6a04b5",
+        "sentence_text": "Discussion\tAs a summary, and constrained by our existing dataset, we made the following observations regarding differences between viral tweets labelled as containing fake news and viral tweets labelled as not containing them: These findings (related to our initial hypothesis in Table TABREF44 ) clearly suggest that there are specific pieces of meta-data about tweets that may allow",
+        "sentence_token_cost": 67,
+        "source_order": [
+          0,
+          12,
+          8,
+          0
+        ],
+        "source_position": 16600
+      },
+      {
+        "cross_encoder_score": -10.549128532409668,
+        "dataset": "QASPER",
+        "end_char": 19713,
+        "pair_tokens_before_truncation": 11,
+        "pair_truncated": false,
+        "passage_id": "513b9a0ff6f21f3244300006f4dfbb60",
+        "passage_rank": 6,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "f1c45e48928de4962f979da2f3368eec",
+        "sentence_text": "performed.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          15,
+          0,
+          0
+        ],
+        "source_position": 19703
+      },
+      {
+        "cross_encoder_score": -11.388083457946777,
+        "dataset": "QASPER",
+        "end_char": 19868,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "513b9a0ff6f21f3244300006f4dfbb60",
+        "passage_rank": 6,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "4777c6fdcd8a1fe0501212696195582c",
+        "sentence_text": "In the same way that spam was fought, we anticipate fake news will suffer a similar evolution, with social platforms implementing tools to deal with them.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          15,
+          1,
+          0
+        ],
+        "source_position": 19714
+      },
+      {
+        "cross_encoder_score": -11.40138053894043,
+        "dataset": "QASPER",
+        "end_char": 20010,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "513b9a0ff6f21f3244300006f4dfbb60",
+        "passage_rank": 6,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "e854c7af7d1058696448c0ab8dfbb049",
+        "sentence_text": "With most works so far focusing on the actual content of the tweets, ours is a novel attempt from a different, but also complementary, angle.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          15,
+          2,
+          0
+        ],
+        "source_position": 19869
+      },
+      {
+        "cross_encoder_score": -11.25040340423584,
+        "dataset": "QASPER",
+        "end_char": 20160,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "513b9a0ff6f21f3244300006f4dfbb60",
+        "passage_rank": 6,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "7981c34d21497c30f9f43b2b3dc55a9f",
+        "sentence_text": "Within the used dataset, we found there are differences around exposure, characteristics of accounts spreading fake news and the tone of the content.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          15,
+          3,
+          0
+        ],
+        "source_position": 20011
+      },
+      {
+        "cross_encoder_score": -10.943720817565918,
+        "dataset": "QASPER",
+        "end_char": 20255,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "513b9a0ff6f21f3244300006f4dfbb60",
+        "passage_rank": 6,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "dcc9bd1ce11a3f2b6e17fa0b8171f4ba",
+        "sentence_text": "Those findings suggest that it is indeed possible to model and automatically detect fake news.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          15,
+          4,
+          0
+        ],
+        "source_position": 20161
+      },
+      {
+        "cross_encoder_score": -11.063685417175293,
+        "dataset": "QASPER",
+        "end_char": 20461,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "513b9a0ff6f21f3244300006f4dfbb60",
+        "passage_rank": 6,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "badd2b78bea822df350ac05ebc178ec2",
+        "sentence_text": "We plan to replicate and validate our experiments in an extended sample of tweets (until 4 months after the US election), and tests the predictive power of the features we found relevant within our sample.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          15,
+          5,
+          0
+        ],
+        "source_position": 20256
+      },
+      {
+        "cross_encoder_score": -11.12610149383545,
+        "dataset": "QASPER",
+        "end_char": 20529,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "513b9a0ff6f21f3244300006f4dfbb60",
+        "passage_rank": 6,
+        "query_id": "907b3af3cfaf68fe188de9467ed1260e52ec6cf1",
+        "sentence_id": "5ced715c08c0c87a581a056c6a0e5148",
+        "sentence_text": "Author Disclosure Statement\tNo competing financial interest exist.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          15,
+          6,
+          0
+        ],
+        "source_position": 20463
+      }
+    ],
+    "scoring_seconds": 0.34329576999880373,
+    "source_fingerprint": "da07a27fd09341da02b4f3cce55dce3589b3c71946c0d05fefe5be2b56b10ce9"
+  }
+}

@@ -1,0 +1,2071 @@
+{
+  "checksum": "1611f5b6e3d04d572773e2f0218270992e176e045e9a349d0356404cf3ff782d",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "7b4fb6da74e6bd1baea556788a02969134cf0800"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 102,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "77d7d20a437185f7a2c47adb3c1165d17b133619fa71ebd1dacf4f06e4142482",
+    "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+    "scores": [
+      {
+        "cross_encoder_score": -11.352526664733887,
+        "dataset": "QASPER",
+        "end_char": 7915,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "be58391bf96586bf6bbc3309d4c51320",
+        "passage_rank": 5,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "6ea97d9edee040b15b2d84c8ee4894d4",
+        "sentence_text": "DBLP:conf/nips/KirosZSZUTF15,DBLP:conf/emnlp/ConneauKSBB17,DBLP:conf/iclr/LogeswaranL18,DBLP:journals/corr/abs-1903-09424.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 7793
+      },
+      {
+        "cross_encoder_score": -11.039114952087402,
+        "dataset": "QASPER",
+        "end_char": 8028,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "be58391bf96586bf6bbc3309d4c51320",
+        "passage_rank": 5,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "f2c406b8507d0deb7a231a617aac8080",
+        "sentence_text": "The prediction of surrounding sentences endows the model with the ability to model the sentence-level coherence.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 7916
+      },
+      {
+        "cross_encoder_score": -11.3834867477417,
+        "dataset": "QASPER",
+        "end_char": 8083,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "be58391bf96586bf6bbc3309d4c51320",
+        "passage_rank": 5,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "878ae04eb23f02b88636aedf652e3045",
+        "sentence_text": "Skip-Thought  consists of an encoder and two decoders.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 8029
+      },
+      {
+        "cross_encoder_score": -11.280431747436523,
+        "dataset": "QASPER",
+        "end_char": 8231,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "be58391bf96586bf6bbc3309d4c51320",
+        "passage_rank": 5,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "015282c93c4873d6208b06b61534f2d4",
+        "sentence_text": "When a sentence is given and encoded into a vector by the encoder, the decoders are trained to predict the next sentence and the previous sentence.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 8084
+      },
+      {
+        "cross_encoder_score": -11.411099433898926,
+        "dataset": "QASPER",
+        "end_char": 8345,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "be58391bf96586bf6bbc3309d4c51320",
+        "passage_rank": 5,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "c1c491d40ed78e945f4c6aca2b4d7f00",
+        "sentence_text": "The goal is to obtain a better sentence representation that is useful for reconstructing the surrounding context.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 8232
+      },
+      {
+        "cross_encoder_score": -11.457643508911133,
+        "dataset": "QASPER",
+        "end_char": 8622,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "be58391bf96586bf6bbc3309d4c51320",
+        "passage_rank": 5,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "cf8962bbc605272d763eaa5956baac76",
+        "sentence_text": "Considering that the estimation of the likelihood of sequences is computationally expensive and time-consuming, the Quick-Thought method  simplifies this in a manner similar to sampled softmax , which classifies the input sentences between surrounding sentences and the other.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 8346
+      },
+      {
+        "cross_encoder_score": -11.459894180297852,
+        "dataset": "QASPER",
+        "end_char": 8748,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "be58391bf96586bf6bbc3309d4c51320",
+        "passage_rank": 5,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "1d83696b0129b329b660f18be536fc6c",
+        "sentence_text": "Note that Quick-Thought does not distinguish between the previous and next sentence as it is functionally rotation invariant.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 8623
+      },
+      {
+        "cross_encoder_score": -11.42987060546875,
+        "dataset": "QASPER",
+        "end_char": 8864,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "be58391bf96586bf6bbc3309d4c51320",
+        "passage_rank": 5,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "d180ab16da9a8331696334b6efd51633",
+        "sentence_text": "However, BERT is order-dependent, and the discrimination can provide more supervision signal for semantic learning.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 8749
+      },
+      {
+        "cross_encoder_score": -0.8586898446083069,
+        "dataset": "QASPER",
+        "end_char": 8940,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "be58391bf96586bf6bbc3309d4c51320",
+        "passage_rank": 5,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "16a58a6c0f4572d878f8149fde83e202",
+        "sentence_text": "InferSent  instead pre-trains the model in a manner of supervised learning.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 8865
+      },
+      {
+        "cross_encoder_score": -11.376383781433105,
+        "dataset": "QASPER",
+        "end_char": 8981,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "be58391bf96586bf6bbc3309d4c51320",
+        "passage_rank": 5,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "71f5f784c9b916dffa6efc577d2cf655",
+        "sentence_text": "It uses a large-scale NLI dataset as the",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          6,
+          9,
+          0
+        ],
+        "source_position": 8941
+      },
+      {
+        "cross_encoder_score": -11.369556427001953,
+        "dataset": "QASPER",
+        "end_char": 9037,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "3c5eba067476bae85f0135d25aaa4d0e",
+        "passage_rank": 4,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "c1609fa0b6b472b7bab5ad236b0ec8fb",
+        "sentence_text": "pre-training task to learn the sentence representation.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 8982
+      },
+      {
+        "cross_encoder_score": -11.438929557800293,
+        "dataset": "QASPER",
+        "end_char": 9143,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "3c5eba067476bae85f0135d25aaa4d0e",
+        "passage_rank": 4,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "4fc7f8df2a0eab7710d3c077ebd0a2c0",
+        "sentence_text": "In our work, we focus on designing a more effective document-level objective, extended from the NSP task.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 9038
+      },
+      {
+        "cross_encoder_score": -11.447672843933105,
+        "dataset": "QASPER",
+        "end_char": 9288,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "3c5eba067476bae85f0135d25aaa4d0e",
+        "passage_rank": 4,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "74f07bd6b5d272fd8319f95abb38eb35",
+        "sentence_text": "The proposed method will be described in the following section and validated by providing extensive experimental results in the experiment part.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 9144
+      },
+      {
+        "cross_encoder_score": -10.739412307739258,
+        "dataset": "QASPER",
+        "end_char": 9384,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "3c5eba067476bae85f0135d25aaa4d0e",
+        "passage_rank": 4,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "806e9729c8244b80a3b5b2ee9f744d0d",
+        "sentence_text": "Method\tOur method follows the same input format and the model architecture with original BERT.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 9290
+      },
+      {
+        "cross_encoder_score": -11.358441352844238,
+        "dataset": "QASPER",
+        "end_char": 9434,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "3c5eba067476bae85f0135d25aaa4d0e",
+        "passage_rank": 4,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "22b30fbcdbf677378ab934a40089a3f6",
+        "sentence_text": "The proposed method solely concerns the NSP task.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 9385
+      },
+      {
+        "cross_encoder_score": -11.444579124450684,
+        "dataset": "QASPER",
+        "end_char": 9670,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "3c5eba067476bae85f0135d25aaa4d0e",
+        "passage_rank": 4,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "e40c32fb3fccb1a4ff1f1ee14a4ce0fc",
+        "sentence_text": "The NSP task is a binary classification task, which takes two sentences (A and B) as input and determines whether B is the next sentence of A. Although it has been proven to be very effective for BERT, there are two major deficiencies.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 9435
+      },
+      {
+        "cross_encoder_score": -11.465527534484863,
+        "dataset": "QASPER",
+        "end_char": 9865,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "3c5eba067476bae85f0135d25aaa4d0e",
+        "passage_rank": 4,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "e6dbddd76dbf25c69dd63ceb092ed5f5",
+        "sentence_text": "(1) Discrimination between IsNext and DiffDoc (the label of the sentences drawn from different documents via negative sampling) is semantically shallow as the signal of sentence order is absent.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 9671
+      },
+      {
+        "cross_encoder_score": -11.464755058288574,
+        "dataset": "QASPER",
+        "end_char": 10034,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "3c5eba067476bae85f0135d25aaa4d0e",
+        "passage_rank": 4,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "8e76b55ca35d0caeb895591c9980c57f",
+        "sentence_text": "The correlation between two successive sentences could be obvious, due to, for example, lexical overlap or the conjunction used at the beginning of the second sentence.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "source_position": 9866
+      },
+      {
+        "cross_encoder_score": -5.978097915649414,
+        "dataset": "QASPER",
+        "end_char": 10129,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "3c5eba067476bae85f0135d25aaa4d0e",
+        "passage_rank": 4,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "302d8f8f2b1b3e0b90960317924b197c",
+        "sentence_text": "As reported , the final pre-trained model is able to achieve 97%-98% accuracy on the NSP task.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          7,
+          8,
+          0
+        ],
+        "source_position": 10035
+      },
+      {
+        "cross_encoder_score": -11.462505340576172,
+        "dataset": "QASPER",
+        "end_char": 10203,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "3c5eba067476bae85f0135d25aaa4d0e",
+        "passage_rank": 4,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "fb4a4e6ec79a6b4857db149ee6fdfe5f",
+        "sentence_text": "(2) BERT is order-sensitive, i.e., $f_{\\text{BERT}}( \\texttt {A}, \\texttt",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          7,
+          9,
+          0
+        ],
+        "source_position": 10130
+      },
+      {
+        "cross_encoder_score": -11.20879077911377,
+        "dataset": "QASPER",
+        "end_char": 11460,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "fe312dee21b2983e9612b2b2fd5a1c6b",
+        "passage_rank": 8,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "981cb6423f0c3fc7be68f5ff3a2f4457",
+        "sentence_text": "suggest the order discrimination is essential for BERT pre-training.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 11392
+      },
+      {
+        "cross_encoder_score": -11.463315963745117,
+        "dataset": "QASPER",
+        "end_char": 11603,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "fe312dee21b2983e9612b2b2fd5a1c6b",
+        "passage_rank": 8,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "3d96e8932a44c80d7988dfd0c2ee1169",
+        "sentence_text": "Quick-Thought aims at extracting sentence embedding, and it uses a rotating symmetric function, which makes IsPrev redundant in Quick-Thought.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 11461
+      },
+      {
+        "cross_encoder_score": -11.40698528289795,
+        "dataset": "QASPER",
+        "end_char": 11704,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "fe312dee21b2983e9612b2b2fd5a1c6b",
+        "passage_rank": 8,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "30623224479af7c585751f944cc42e63",
+        "sentence_text": "In contrast, BERT is order-sensitive, and learning the symmetric regularization is rather necessary.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 11604
+      },
+      {
+        "cross_encoder_score": -11.416918754577637,
+        "dataset": "QASPER",
+        "end_char": 11771,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "fe312dee21b2983e9612b2b2fd5a1c6b",
+        "passage_rank": 8,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "c78afc11873b24b6d9c905b550b12426",
+        "sentence_text": "Another advantage of PSP is to enhance document-level supervision.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 11705
+      },
+      {
+        "cross_encoder_score": -11.323080062866211,
+        "dataset": "QASPER",
+        "end_char": 11886,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "fe312dee21b2983e9612b2b2fd5a1c6b",
+        "passage_rank": 8,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "ce60130118163415dc184009fbb93a6a",
+        "sentence_text": "In order to tell the difference between NSP and PSP, the model has to extract the detailed semantic for inference.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 11772
+      },
+      {
+        "cross_encoder_score": -11.331151962280273,
+        "dataset": "QASPER",
+        "end_char": 12151,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "fe312dee21b2983e9612b2b2fd5a1c6b",
+        "passage_rank": 8,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "0b6a10186b14241e649d07724b901e0f",
+        "sentence_text": "Method ::: Gathering More Document-level Information\tBeyond NSP and PSP, which enable the model to learn the short-term dependency between sentences, we also propose to expand the scope of discrimination task to further incorporate the document-level information.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 11888
+      },
+      {
+        "cross_encoder_score": -11.441497802734375,
+        "dataset": "QASPER",
+        "end_char": 12249,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "fe312dee21b2983e9612b2b2fd5a1c6b",
+        "passage_rank": 8,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "ca42e712010e70520ab32a6df77b60af",
+        "sentence_text": "Specifically, we also include the in-adjacent sentences in the sentence-pair classification task.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          9,
+          6,
+          0
+        ],
+        "source_position": 12152
+      },
+      {
+        "cross_encoder_score": -11.46358871459961,
+        "dataset": "QASPER",
+        "end_char": 12401,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "fe312dee21b2983e9612b2b2fd5a1c6b",
+        "passage_rank": 8,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "a3193bb9061c05c848fecc3eafd7e5c9",
+        "sentence_text": "The in-adjacent sentences next to the IsPrev and IsNext sentences are sampled, labeled as IsPrevInadj and IsNextInadj (cf. the bottom of Fig. FIGREF6).",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          9,
+          7,
+          0
+        ],
+        "source_position": 12250
+      },
+      {
+        "cross_encoder_score": -6.534051418304443,
+        "dataset": "QASPER",
+        "end_char": 12493,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "fe312dee21b2983e9612b2b2fd5a1c6b",
+        "passage_rank": 8,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "4025d2d85fb5200b5c4174873511a690",
+        "sentence_text": "Note that these in-adjacent sentences will introduce much more training noise to the model.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          9,
+          8,
+          0
+        ],
+        "source_position": 12402
+      },
+      {
+        "cross_encoder_score": -11.441848754882812,
+        "dataset": "QASPER",
+        "end_char": 12594,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "fe312dee21b2983e9612b2b2fd5a1c6b",
+        "passage_rank": 8,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "1167549e4bb86c03183ffd12a315524c",
+        "sentence_text": "Therefore, the label smoothing technique is adopted to reduce the noise of these additional samples.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          9,
+          9,
+          0
+        ],
+        "source_position": 12494
+      },
+      {
+        "cross_encoder_score": -11.40795612335205,
+        "dataset": "QASPER",
+        "end_char": 12706,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "fe312dee21b2983e9612b2b2fd5a1c6b",
+        "passage_rank": 8,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "c741be0f7c2eed22b9f6851d616fc52c",
+        "sentence_text": "It achieves this by relaxing our confidence on the labels, e.g., transforming the target probability from (1.0,",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          9,
+          10,
+          0
+        ],
+        "source_position": 12595
+      },
+      {
+        "cross_encoder_score": -11.408040046691895,
+        "dataset": "QASPER",
+        "end_char": 12761,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "edbff806c1ed8f6d4f7a32525deecea3",
+        "passage_rank": 1,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "7d312ffe296c67b6c2d19c80056681b2",
+        "sentence_text": "0.0) to (0.8, 0.2) in a binary classification problem.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 12707
+      },
+      {
+        "cross_encoder_score": -11.381779670715332,
+        "dataset": "QASPER",
+        "end_char": 13220,
+        "pair_tokens_before_truncation": 121,
+        "pair_truncated": false,
+        "passage_id": "edbff806c1ed8f6d4f7a32525deecea3",
+        "passage_rank": 1,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "3224e2187eb8439182779a8d242c98eb",
+        "sentence_text": "In summary, when A is given, the pre-training example for each label is constructed as follows: IsNext: Choosing the adjacent following sentence as B. IsPrev: Choosing the adjacent previous sentence as B. IsNextInadj: Choosing the in-adjacent following sentence as B. There is a sentence between A and B. IsPrevInadj: Choosing the in-adjacent previous sentence as B. There is a sentence between A and B. DiffDoc: Drawing B randomly from a different document.",
+        "sentence_token_cost": 103,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 12762
+      },
+      {
+        "cross_encoder_score": -11.428955078125,
+        "dataset": "QASPER",
+        "end_char": 13290,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "edbff806c1ed8f6d4f7a32525deecea3",
+        "passage_rank": 1,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "4e03a76103181edba4d093c3a46f58a4",
+        "sentence_text": "Experiment Settings\tThis section gives detailed experiment settings.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 13222
+      },
+      {
+        "cross_encoder_score": -10.59343147277832,
+        "dataset": "QASPER",
+        "end_char": 13409,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "edbff806c1ed8f6d4f7a32525deecea3",
+        "passage_rank": 1,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "b2fb3cee9908d31b988049a3ec4869e4",
+        "sentence_text": "The method is evaluated on the BERTbase model, which has 12 layers, 12 self-attention heads with a hidden size of 768.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 13291
+      },
+      {
+        "cross_encoder_score": -10.09841537475586,
+        "dataset": "QASPER",
+        "end_char": 13475,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "edbff806c1ed8f6d4f7a32525deecea3",
+        "passage_rank": 1,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "16cc6535fc030223b86e79788a23b1ba",
+        "sentence_text": "To accelerate the training speed, two-phase training  is adopted.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 13410
+      },
+      {
+        "cross_encoder_score": -11.388978004455566,
+        "dataset": "QASPER",
+        "end_char": 13560,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "edbff806c1ed8f6d4f7a32525deecea3",
+        "passage_rank": 1,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "b71dc31831bf182eb3d9c49453a80360",
+        "sentence_text": "The first phase uses a maximal sentence length of 128, and 512 for the second phase.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 13476
+      },
+      {
+        "cross_encoder_score": -5.057211399078369,
+        "dataset": "QASPER",
+        "end_char": 13644,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "edbff806c1ed8f6d4f7a32525deecea3",
+        "passage_rank": 1,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "fa2000f0de82ab428e7f0950da5afef1",
+        "sentence_text": "The numbers of training steps of two phases are 50K and 40K for the BERTBase model.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 13561
+      },
+      {
+        "cross_encoder_score": -11.461003303527832,
+        "dataset": "QASPER",
+        "end_char": 13715,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "edbff806c1ed8f6d4f7a32525deecea3",
+        "passage_rank": 1,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "9eb241c93aefbb2d162ede02e6fa9947",
+        "sentence_text": "We used AdamW  optimizer with a learning rate of 1e-4, a $\\beta _1$ of",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 13645
+      },
+      {
+        "cross_encoder_score": -11.388534545898438,
+        "dataset": "QASPER",
+        "end_char": 13780,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "598b86a159a34806e5fbfb7b91187462",
+        "passage_rank": 2,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "881f87716c39235316910091bc29eedb",
+        "sentence_text": "0.9, a $\\beta _2$ of 0.999 and a L2 weight decay rate of $0.01$.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 13716
+      },
+      {
+        "cross_encoder_score": -11.439972877502441,
+        "dataset": "QASPER",
+        "end_char": 13889,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "598b86a159a34806e5fbfb7b91187462",
+        "passage_rank": 2,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "d133e693bcbc14beea2aa317c2b1761b",
+        "sentence_text": "The first 10% of the total steps are used for learning rate warming up, followed by the linear decay schema.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 13781
+      },
+      {
+        "cross_encoder_score": -11.44312858581543,
+        "dataset": "QASPER",
+        "end_char": 13941,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "598b86a159a34806e5fbfb7b91187462",
+        "passage_rank": 2,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "358cf1112a2a97ad5bb2ba88a33035a2",
+        "sentence_text": "We used a dropout probability of 0.1 on all layers.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 13890
+      },
+      {
+        "cross_encoder_score": -10.873971939086914,
+        "dataset": "QASPER",
+        "end_char": 14061,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "598b86a159a34806e5fbfb7b91187462",
+        "passage_rank": 2,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "87c000c3149da2dc794203ea2a3605ee",
+        "sentence_text": "The data used for pre-training is the same as BERT, i.e., English Wikipedia (2500M words) and BookCorpus (800M words) .",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 13942
+      },
+      {
+        "cross_encoder_score": -11.446322441101074,
+        "dataset": "QASPER",
+        "end_char": 14144,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "598b86a159a34806e5fbfb7b91187462",
+        "passage_rank": 2,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "9e6cb91295c9ec4da5026d47b3cef2b5",
+        "sentence_text": "For the Masked LM task, we followed the same masking rate and settings as in BERT.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 14062
+      },
+      {
+        "cross_encoder_score": -11.349540710449219,
+        "dataset": "QASPER",
+        "end_char": 14193,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "598b86a159a34806e5fbfb7b91187462",
+        "passage_rank": 2,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "d926b6c88b6b8f598d1dbebfa95cb820",
+        "sentence_text": "We explore three method settings for comparison.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 14145
+      },
+      {
+        "cross_encoder_score": -11.412638664245605,
+        "dataset": "QASPER",
+        "end_char": 14286,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "598b86a159a34806e5fbfb7b91187462",
+        "passage_rank": 2,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "20069846de006526b9474219e26d65fa",
+        "sentence_text": "BERT-PN: The NSP task in BERT is replaced by a 3-class task with IsNext, IsPrev and DiffDoc.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 14194
+      },
+      {
+        "cross_encoder_score": -11.30169677734375,
+        "dataset": "QASPER",
+        "end_char": 14319,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "598b86a159a34806e5fbfb7b91187462",
+        "passage_rank": 2,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "1adcd9d9b5348012e7cbe39162e88c3b",
+        "sentence_text": "The label distribution is 1:1:1.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 14287
+      },
+      {
+        "cross_encoder_score": -11.43984603881836,
+        "dataset": "QASPER",
+        "end_char": 14436,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "598b86a159a34806e5fbfb7b91187462",
+        "passage_rank": 2,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "6bae1a1b0dd7596d0034e3c546fc522b",
+        "sentence_text": "BERT-PN5cls: The NSP task in BERT is replaced by a 5-class task with two additional labels IsNextInadj, IsPrevInadj.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          11,
+          8,
+          0
+        ],
+        "source_position": 14320
+      },
+      {
+        "cross_encoder_score": -11.304464340209961,
+        "dataset": "QASPER",
+        "end_char": 14473,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "598b86a159a34806e5fbfb7b91187462",
+        "passage_rank": 2,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "ab44c6484bc6808584b6b87ec8b126de",
+        "sentence_text": "The label distribution is 1:1:1:1:1.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          11,
+          9,
+          0
+        ],
+        "source_position": 14437
+      },
+      {
+        "cross_encoder_score": -11.42239761352539,
+        "dataset": "QASPER",
+        "end_char": 14554,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "598b86a159a34806e5fbfb7b91187462",
+        "passage_rank": 2,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "75505962bb635fc5f1c10d0c1493c9d2",
+        "sentence_text": "BERT-PNsmth: It uses the same data with BERT-PN5cls, except that the IsPrevInadj",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          11,
+          10,
+          0
+        ],
+        "source_position": 14474
+      },
+      {
+        "cross_encoder_score": -11.435480117797852,
+        "dataset": "QASPER",
+        "end_char": 14641,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "dec62f9a37ab6c06e04d53b6e24c0534",
+        "passage_rank": 10,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "39613a5d270b1a038f7dc6bdee33e5c8",
+        "sentence_text": "(IsNextInadj) label is mapped to IsPrev (IsNext) with a label smoothing factor of 0.8.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 14555
+      },
+      {
+        "cross_encoder_score": -11.418231010437012,
+        "dataset": "QASPER",
+        "end_char": 14691,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "dec62f9a37ab6c06e04d53b6e24c0534",
+        "passage_rank": 10,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "2af84bf491ff61ed2b8a209aa09674c7",
+        "sentence_text": "BERT-PN is used to verify the feasibility of PSP.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 14642
+      },
+      {
+        "cross_encoder_score": -11.43404483795166,
+        "dataset": "QASPER",
+        "end_char": 14782,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "dec62f9a37ab6c06e04d53b6e24c0534",
+        "passage_rank": 10,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "af3097e2761aa613a64902a29f9d9e4d",
+        "sentence_text": "The comparison with BERT-PN5cls illustrates whether more document-level information helps.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 14692
+      },
+      {
+        "cross_encoder_score": -11.4295654296875,
+        "dataset": "QASPER",
+        "end_char": 14932,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "dec62f9a37ab6c06e04d53b6e24c0534",
+        "passage_rank": 10,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "dc66e567c30483fb9e069b1ecee93a88",
+        "sentence_text": "BERT-PNsmth, which is the label-smoothed version of BERT-PN5cls, is used to compare with BERT-PN5cls to see whether the noise reduction is necessary.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 14783
+      },
+      {
+        "cross_encoder_score": -11.454607963562012,
+        "dataset": "QASPER",
+        "end_char": 15035,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "dec62f9a37ab6c06e04d53b6e24c0534",
+        "passage_rank": 10,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "72a965c7adf6a6de1a8508666540393a",
+        "sentence_text": "In the following, we first show that BERT is order-sensitive and the use of PSP remedies this problem.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 14933
+      },
+      {
+        "cross_encoder_score": -11.397550582885742,
+        "dataset": "QASPER",
+        "end_char": 15149,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "dec62f9a37ab6c06e04d53b6e24c0534",
+        "passage_rank": 10,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "b25665ef7c564db4a94c26630274c013",
+        "sentence_text": "Then we provide experimental results on the NLI and MRC tasks to verify the effectiveness of the proposed method.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 15036
+      },
+      {
+        "cross_encoder_score": -11.378900527954102,
+        "dataset": "QASPER",
+        "end_char": 15220,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "dec62f9a37ab6c06e04d53b6e24c0534",
+        "passage_rank": 10,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "3900e4b289410c5dbbb5540e21d90369",
+        "sentence_text": "At last, the proposed method is evaluated on several Chinese datasets.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 15150
+      },
+      {
+        "cross_encoder_score": -11.247008323669434,
+        "dataset": "QASPER",
+        "end_char": 15303,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "dec62f9a37ab6c06e04d53b6e24c0534",
+        "passage_rank": 10,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "8f64b175bb8407a58c62f962211caa9a",
+        "sentence_text": "Order-invariant with PSP\tNSP in the pre-training is useful for NLI and MRC task .",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          12,
+          7,
+          0
+        ],
+        "source_position": 15222
+      },
+      {
+        "cross_encoder_score": -11.087964057922363,
+        "dataset": "QASPER",
+        "end_char": 15451,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "dec62f9a37ab6c06e04d53b6e24c0534",
+        "passage_rank": 10,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "371c52e07f0f46f1ca2215a2349149a3",
+        "sentence_text": "However, we suggested that BERT trained with NSP is order-sensitive, i.e., the performance of BERT depends on the order of the input sentence pair.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          12,
+          8,
+          0
+        ],
+        "source_position": 15304
+      },
+      {
+        "cross_encoder_score": -11.378263473510742,
+        "dataset": "QASPER",
+        "end_char": 15513,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "dec62f9a37ab6c06e04d53b6e24c0534",
+        "passage_rank": 10,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "55ae832610d8973386dd1afb86482cf4",
+        "sentence_text": "To verify our assumption, a primary experiment was conducted.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          12,
+          9,
+          0
+        ],
+        "source_position": 15452
+      },
+      {
+        "cross_encoder_score": -11.461322784423828,
+        "dataset": "QASPER",
+        "end_char": 15669,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "dec62f9a37ab6c06e04d53b6e24c0534",
+        "passage_rank": 10,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "51c67c40da13f9c85914c5029d0abb49",
+        "sentence_text": "The order of the input pair of NLI samples is reversed in the fine-tuning phase, and other hyper-parameters and settings keep the same with the BERT paper.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          12,
+          10,
+          0
+        ],
+        "source_position": 15514
+      },
+      {
+        "cross_encoder_score": -11.363350868225098,
+        "dataset": "QASPER",
+        "end_char": 16828,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "b7b3540ce09e27bdfc93123e46d3539e",
+        "passage_rank": 6,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "51f94d8fa51558545009508ab9b9faa8",
+        "sentence_text": "was conducted for 3 epochs for all the tasks, with a learning rate of 2e-5.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 16753
+      },
+      {
+        "cross_encoder_score": -3.8380918502807617,
+        "dataset": "QASPER",
+        "end_char": 16934,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "b7b3540ce09e27bdfc93123e46d3539e",
+        "passage_rank": 6,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "aa510195b7c255d53d82d3f12e5ee1e6",
+        "sentence_text": "The predictions were obtained by evaluating the training checkpoint with the best validation performance.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 16829
+      },
+      {
+        "cross_encoder_score": -11.4246187210083,
+        "dataset": "QASPER",
+        "end_char": 17047,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "b7b3540ce09e27bdfc93123e46d3539e",
+        "passage_rank": 6,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "1958e7cca8c3572712de9e30b713fe9b",
+        "sentence_text": "Table TABREF21 illustrates the experimental results, showing that our method is beneficial for all of NLI tasks.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          14,
+          2,
+          0
+        ],
+        "source_position": 16935
+      },
+      {
+        "cross_encoder_score": -11.424059867858887,
+        "dataset": "QASPER",
+        "end_char": 17140,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "b7b3540ce09e27bdfc93123e46d3539e",
+        "passage_rank": 6,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "fa505a47e4d9770e5f172e8900c2665f",
+        "sentence_text": "The improvement on the RTE dataset is significant, i.e., 4% absolute gain over the BERTBase.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          14,
+          3,
+          0
+        ],
+        "source_position": 17048
+      },
+      {
+        "cross_encoder_score": -8.87568473815918,
+        "dataset": "QASPER",
+        "end_char": 17215,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "b7b3540ce09e27bdfc93123e46d3539e",
+        "passage_rank": 6,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "be412a746ea0574a2f249d16c80176b9",
+        "sentence_text": "Besides NLI, our model also performs better than BERTBase in the STS task.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          14,
+          4,
+          0
+        ],
+        "source_position": 17141
+      },
+      {
+        "cross_encoder_score": -11.407316207885742,
+        "dataset": "QASPER",
+        "end_char": 17321,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "b7b3540ce09e27bdfc93123e46d3539e",
+        "passage_rank": 6,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "88217edf6868a1b768fb9e302de9ff84",
+        "sentence_text": "The STS tasks are semantically similar to the NLI tasks, and hence able to take advantage of PSP as well.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          14,
+          5,
+          0
+        ],
+        "source_position": 17216
+      },
+      {
+        "cross_encoder_score": -11.449483871459961,
+        "dataset": "QASPER",
+        "end_char": 17412,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "b7b3540ce09e27bdfc93123e46d3539e",
+        "passage_rank": 6,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "08e2e5e1d945dc6d704de68ae67aea2b",
+        "sentence_text": "Actually, the proposed method has a positive effect whenever the input is a sentence pair.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          14,
+          6,
+          0
+        ],
+        "source_position": 17322
+      },
+      {
+        "cross_encoder_score": -9.66207504272461,
+        "dataset": "QASPER",
+        "end_char": 17589,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "b7b3540ce09e27bdfc93123e46d3539e",
+        "passage_rank": 6,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "981c42a47d2e2b5f039d1ba3d11a2fbe",
+        "sentence_text": "The improvements suggest that the PSP task encourages the model to learn more detailed semantics in the pre-training, which improves the model on the downstream learning tasks.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          14,
+          7,
+          0
+        ],
+        "source_position": 17413
+      },
+      {
+        "cross_encoder_score": -11.39346694946289,
+        "dataset": "QASPER",
+        "end_char": 17698,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "b7b3540ce09e27bdfc93123e46d3539e",
+        "passage_rank": 6,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "b547eec11477d109ce95b38a737f6fe2",
+        "sentence_text": "Moreover, our method is surprisingly able to achieve slightly better results in the single-sentence problem.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          14,
+          8,
+          0
+        ],
+        "source_position": 17590
+      },
+      {
+        "cross_encoder_score": -11.357536315917969,
+        "dataset": "QASPER",
+        "end_char": 17770,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "b7b3540ce09e27bdfc93123e46d3539e",
+        "passage_rank": 6,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "ea5b18a2492008cf6163001a9649b917",
+        "sentence_text": "The improvement should be attributed to better semantic representation.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          14,
+          9,
+          0
+        ],
+        "source_position": 17699
+      },
+      {
+        "cross_encoder_score": -11.409578323364258,
+        "dataset": "QASPER",
+        "end_char": 17848,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "b7b3540ce09e27bdfc93123e46d3539e",
+        "passage_rank": 6,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "3b3e2497a8e2fbe804fffcd8a5220076",
+        "sentence_text": "When comparing between PN and PN5cls, PN5cls achieves better results than PN.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          14,
+          10,
+          0
+        ],
+        "source_position": 17771
+      },
+      {
+        "cross_encoder_score": -11.393081665039062,
+        "dataset": "QASPER",
+        "end_char": 17955,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "b7b3540ce09e27bdfc93123e46d3539e",
+        "passage_rank": 6,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "6cc43fb80a20ad1dbb0a1a6ecb1dd4ef",
+        "sentence_text": "This indicates that including a broader range of the context is effective for improving inference ability.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          14,
+          11,
+          0
+        ],
+        "source_position": 17849
+      },
+      {
+        "cross_encoder_score": -11.434659004211426,
+        "dataset": "QASPER",
+        "end_char": 18048,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "b7b3540ce09e27bdfc93123e46d3539e",
+        "passage_rank": 6,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "cb460d4465352b76c714135509afcfbc",
+        "sentence_text": "Considering that the representation of IsNext and IsNextInadj should be coherent, we propose",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          14,
+          12,
+          0
+        ],
+        "source_position": 17956
+      },
+      {
+        "cross_encoder_score": -11.370752334594727,
+        "dataset": "QASPER",
+        "end_char": 21527,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "2f72be62ff89c597a83a525ecead850c",
+        "passage_rank": 7,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "8c6fd20ac8106437819a854dc5bd2edb",
+        "sentence_text": "0.3% increase in EM can be obtained.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          18,
+          0,
+          0
+        ],
+        "source_position": 21491
+      },
+      {
+        "cross_encoder_score": -11.401538848876953,
+        "dataset": "QASPER",
+        "end_char": 21596,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "2f72be62ff89c597a83a525ecead850c",
+        "passage_rank": 7,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "b835f607a5edc34695b62c40b83b0616",
+        "sentence_text": "The experimental results on the SQuAD v2.0  are also shown in Table.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          18,
+          1,
+          0
+        ],
+        "source_position": 21528
+      },
+      {
+        "cross_encoder_score": -10.476415634155273,
+        "dataset": "QASPER",
+        "end_char": 21606,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "2f72be62ff89c597a83a525ecead850c",
+        "passage_rank": 7,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "5da9a94492ee1c31f6ee9bd732a0168f",
+        "sentence_text": "TABREF26.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          18,
+          2,
+          0
+        ],
+        "source_position": 21597
+      },
+      {
+        "cross_encoder_score": -11.437012672424316,
+        "dataset": "QASPER",
+        "end_char": 21707,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "2f72be62ff89c597a83a525ecead850c",
+        "passage_rank": 7,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "d48557ef82111e9c63b03eef5fff8c51",
+        "sentence_text": "The SQuAD v2.0 differs from SQuAD v1.1 by allowing the question-paragraph pairs that have no answer.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          18,
+          3,
+          0
+        ],
+        "source_position": 21607
+      },
+      {
+        "cross_encoder_score": -11.380555152893066,
+        "dataset": "QASPER",
+        "end_char": 21814,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "2f72be62ff89c597a83a525ecead850c",
+        "passage_rank": 7,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "66d484b2e8301db8d2c622d8747ce1fd",
+        "sentence_text": "For SQuAD v2.0, our method also achieved about 4% absolute improvement in both EM and F1 against BERTBase.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          18,
+          4,
+          0
+        ],
+        "source_position": 21708
+      },
+      {
+        "cross_encoder_score": -11.444143295288086,
+        "dataset": "QASPER",
+        "end_char": 22006,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "2f72be62ff89c597a83a525ecead850c",
+        "passage_rank": 7,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "6fc2759d9e03e43c265a5f20ab8289d7",
+        "sentence_text": "Results of MRC Tasks ::: RACE\tThe ReAding Comprehension from Examinations (RACE) dataset  consists of 100K questions taken from English exams, and the answers are generated by human experts.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          18,
+          5,
+          0
+        ],
+        "source_position": 21816
+      },
+      {
+        "cross_encoder_score": -11.45938777923584,
+        "dataset": "QASPER",
+        "end_char": 22093,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "2f72be62ff89c597a83a525ecead850c",
+        "passage_rank": 7,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "7989fce055204d589a1a0b5842855074",
+        "sentence_text": "This is one of the most challenging MRC datasets that require sophisticated reasoning.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          18,
+          6,
+          0
+        ],
+        "source_position": 22007
+      },
+      {
+        "cross_encoder_score": -11.451985359191895,
+        "dataset": "QASPER",
+        "end_char": 22216,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "2f72be62ff89c597a83a525ecead850c",
+        "passage_rank": 7,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "3a59595edb72231729bc11945df0c665",
+        "sentence_text": "In our implementation, the question, document, and option are concatenated as a single sequence, separated by [SEP] token.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          18,
+          7,
+          0
+        ],
+        "source_position": 22094
+      },
+      {
+        "cross_encoder_score": -11.38889217376709,
+        "dataset": "QASPER",
+        "end_char": 22291,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "2f72be62ff89c597a83a525ecead850c",
+        "passage_rank": 7,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "ef748f8bfbdc65bef03eec23d0cf3f83",
+        "sentence_text": "And each part is truncated by a maximal length of 40/432/40, respectively.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          18,
+          8,
+          0
+        ],
+        "source_position": 22217
+      },
+      {
+        "cross_encoder_score": -10.714760780334473,
+        "dataset": "QASPER",
+        "end_char": 22417,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "2f72be62ff89c597a83a525ecead850c",
+        "passage_rank": 7,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "e5147052e64b78cd9ff03546af59f83a",
+        "sentence_text": "The model computes for a concatenation a scalar as the score, which is then used in a softmax layer for the final prediction.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          18,
+          9,
+          0
+        ],
+        "source_position": 22292
+      },
+      {
+        "cross_encoder_score": -11.417534828186035,
+        "dataset": "QASPER",
+        "end_char": 22508,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "2f72be62ff89c597a83a525ecead850c",
+        "passage_rank": 7,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "5c9054451df872d0accc2be992f03d65",
+        "sentence_text": "The fine-tuning was conducted for 5 epochs, with a batch size of 32 and a learning rate of",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          18,
+          10,
+          0
+        ],
+        "source_position": 22418
+      },
+      {
+        "cross_encoder_score": -11.396836280822754,
+        "dataset": "QASPER",
+        "end_char": 23734,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "69dfb1ac5750d1180b0daf3d3f79e1aa",
+        "passage_rank": 3,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "3a0781116cbaa8433ed147c4600f5dd5",
+        "sentence_text": "is to identify whether the sentence contains the answer to the question.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          20,
+          0,
+          0
+        ],
+        "source_position": 23662
+      },
+      {
+        "cross_encoder_score": -11.452391624450684,
+        "dataset": "QASPER",
+        "end_char": 23798,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "69dfb1ac5750d1180b0daf3d3f79e1aa",
+        "passage_rank": 3,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "c6617e01bb860bfdb0bb3ad30e125b55",
+        "sentence_text": "CMRC-2018 is the Chinese Machine Reading Comprehension dataset.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          20,
+          1,
+          0
+        ],
+        "source_position": 23735
+      },
+      {
+        "cross_encoder_score": -11.439838409423828,
+        "dataset": "QASPER",
+        "end_char": 23883,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "69dfb1ac5750d1180b0daf3d3f79e1aa",
+        "passage_rank": 3,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "0a0eeb91f9b45b4eb020a5b9dec51f43",
+        "sentence_text": "Similar to SQuAD, the system needs to extract fragments from the text as the answer.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          20,
+          2,
+          0
+        ],
+        "source_position": 23799
+      },
+      {
+        "cross_encoder_score": -11.434905052185059,
+        "dataset": "QASPER",
+        "end_char": 23921,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "69dfb1ac5750d1180b0daf3d3f79e1aa",
+        "passage_rank": 3,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "1c6237a47231fb370e4edaef529f0e56",
+        "sentence_text": "DRCD  is also a Chinese MRC data set.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          20,
+          3,
+          0
+        ],
+        "source_position": 23884
+      },
+      {
+        "cross_encoder_score": -11.388608932495117,
+        "dataset": "QASPER",
+        "end_char": 23959,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "69dfb1ac5750d1180b0daf3d3f79e1aa",
+        "passage_rank": 3,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "f8594314e5084d4e88a109a945275ad0",
+        "sentence_text": "The data follows the format of SQuAD.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          20,
+          4,
+          0
+        ],
+        "source_position": 23922
+      },
+      {
+        "cross_encoder_score": -2.031731367111206,
+        "dataset": "QASPER",
+        "end_char": 24027,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "69dfb1ac5750d1180b0daf3d3f79e1aa",
+        "passage_rank": 3,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "5f27727ec3fdcfe0a59f4d35e7eace66",
+        "sentence_text": "For Chinese NLP tasks, we pre-train the model using Chinese corpus.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          20,
+          5,
+          0
+        ],
+        "source_position": 23960
+      },
+      {
+        "cross_encoder_score": -11.419492721557617,
+        "dataset": "QASPER",
+        "end_char": 24229,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "69dfb1ac5750d1180b0daf3d3f79e1aa",
+        "passage_rank": 3,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "458dfe6f36a9ab230472c1c156647f3e",
+        "sentence_text": "We collected textual data (10879M tokens in total) from the website, consisting of Hudong Baike data (6084M tokens) , Zhihu data(465M tokens) , Sohu News(3937M tokens) and Wikipedia data (393M tokens).",
+        "sentence_token_cost": 68,
+        "source_order": [
+          0,
+          20,
+          6,
+          0
+        ],
+        "source_position": 24028
+      },
+      {
+        "cross_encoder_score": -11.425052642822266,
+        "dataset": "QASPER",
+        "end_char": 24297,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "69dfb1ac5750d1180b0daf3d3f79e1aa",
+        "passage_rank": 3,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "cbdf675c80783e0bd9d5dac056aa0810",
+        "sentence_text": "For the first 3 Chinese tasks, we follow the settings as in ERNIE .",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          20,
+          7,
+          0
+        ],
+        "source_position": 24230
+      },
+      {
+        "cross_encoder_score": -11.360185623168945,
+        "dataset": "QASPER",
+        "end_char": 24351,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "69dfb1ac5750d1180b0daf3d3f79e1aa",
+        "passage_rank": 3,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "abab6b3096443d35c76ea268fef5b530",
+        "sentence_text": "The experimental results are given in Table TABREF29.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          20,
+          8,
+          0
+        ],
+        "source_position": 24298
+      },
+      {
+        "cross_encoder_score": -10.78424072265625,
+        "dataset": "QASPER",
+        "end_char": 24476,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "69dfb1ac5750d1180b0daf3d3f79e1aa",
+        "passage_rank": 3,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "df2d07a0ad0a22098279b8dba6eb3ff7",
+        "sentence_text": "The proposed method is compared with four models, i.e., BERTBase , BERTBase with whole word masking , ERNIE  and ERNIE 2.0 .",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          20,
+          9,
+          0
+        ],
+        "source_position": 24352
+      },
+      {
+        "cross_encoder_score": -11.381450653076172,
+        "dataset": "QASPER",
+        "end_char": 24550,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "69dfb1ac5750d1180b0daf3d3f79e1aa",
+        "passage_rank": 3,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "ffd194ae6c91e9467a507e14f2c172f4",
+        "sentence_text": "Our method achieves comparable or even better results against ERNIE 2.0 .",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          20,
+          10,
+          0
+        ],
+        "source_position": 24477
+      },
+      {
+        "cross_encoder_score": -11.337610244750977,
+        "dataset": "QASPER",
+        "end_char": 24611,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "69dfb1ac5750d1180b0daf3d3f79e1aa",
+        "passage_rank": 3,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "e43679ec695964bdd23538f5e59bfec5",
+        "sentence_text": "Note that the Chinese ERNIE 2.0 is equipped with 5 different",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          20,
+          11,
+          0
+        ],
+        "source_position": 24551
+      },
+      {
+        "cross_encoder_score": -11.271931648254395,
+        "dataset": "QASPER",
+        "end_char": 25734,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "d09716eb64e122e3cd270e083ec6ca26",
+        "passage_rank": 9,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "5bdfa0315691f9f9761caefac34bb336",
+        "sentence_text": "NSP task to provide more document-level information in the pre-training.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          22,
+          0,
+          0
+        ],
+        "source_position": 25662
+      },
+      {
+        "cross_encoder_score": -11.463541984558105,
+        "dataset": "QASPER",
+        "end_char": 25861,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "d09716eb64e122e3cd270e083ec6ca26",
+        "passage_rank": 9,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "167f7e20e61a7bd768298a78bfa9fccc",
+        "sentence_text": "Motivated by the in-symmetric property of NSP, we propose to differentiate between different sentence orders by including PSP.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          22,
+          1,
+          0
+        ],
+        "source_position": 25735
+      },
+      {
+        "cross_encoder_score": -10.885951042175293,
+        "dataset": "QASPER",
+        "end_char": 25992,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "d09716eb64e122e3cd270e083ec6ca26",
+        "passage_rank": 9,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "69d1314f689eeeb8e3b7db996b8bd8f5",
+        "sentence_text": "Despite the simplicity, extensive experiments demonstrate that the model obtains a better ability in pair-wise semantic reasoning.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          22,
+          2,
+          0
+        ],
+        "source_position": 25862
+      },
+      {
+        "cross_encoder_score": -10.776850700378418,
+        "dataset": "QASPER",
+        "end_char": 26091,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "d09716eb64e122e3cd270e083ec6ca26",
+        "passage_rank": 9,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "682d2afc42318f4e606089e8560c12a7",
+        "sentence_text": "Our work suggests that the document-level objective is effective, at least for the BERTbase model.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          22,
+          3,
+          0
+        ],
+        "source_position": 25993
+      },
+      {
+        "cross_encoder_score": -11.051021575927734,
+        "dataset": "QASPER",
+        "end_char": 26198,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "d09716eb64e122e3cd270e083ec6ca26",
+        "passage_rank": 9,
+        "query_id": "7b4fb6da74e6bd1baea556788a02969134cf0800",
+        "sentence_id": "cddd0c954b25bd42c80623ed9a477334",
+        "sentence_text": "In the future, we will investigate the way to take advantages of both large-scale training and our method.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          22,
+          4,
+          0
+        ],
+        "source_position": 26092
+      }
+    ],
+    "scoring_seconds": 0.44636678392998874,
+    "source_fingerprint": "ee5ce816082294fe64433bcd761f504fe58d240e16b4240ecfbc33741a930931"
+  }
+}

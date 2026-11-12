@@ -1,0 +1,1311 @@
+{
+  "checksum": "92d5baa7815197635037d61ac415089a3a6b35055accc0afa53127059fc8365d",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5a7100435542994082a3e4a3"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 64,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "d3e704d388fc69fd9999a82c7afdbb0cc7329cb78786791c67de6def8dbae145",
+    "query_id": "5a7100435542994082a3e4a3",
+    "scores": [
+      {
+        "cross_encoder_score": -10.323074340820312,
+        "dataset": "HotpotQA",
+        "end_char": 7,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "f3b72a3e13c258dc78d1d30930d9fd87",
+        "passage_rank": 4,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "063b8d785619c5201b9888ad5ef24c56",
+        "sentence_text": "Nom yen",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.572778701782227,
+        "dataset": "HotpotQA",
+        "end_char": 81,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "f3b72a3e13c258dc78d1d30930d9fd87",
+        "passage_rank": 4,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "1b391f09c2592fa419a48f08433dbe8b",
+        "sentence_text": "Nom Yen (Thai: \u0e19\u0e21\u0e40\u0e22\u0e47\u0e19) is a Thai drink made from Sala syrup and hot milk.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 8
+      },
+      {
+        "cross_encoder_score": -11.346354484558105,
+        "dataset": "HotpotQA",
+        "end_char": 106,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "f3b72a3e13c258dc78d1d30930d9fd87",
+        "passage_rank": 4,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "acb0d2224a97e00d1a6aa0a2aa6f1dc3",
+        "sentence_text": " Nom in Thai means milk.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 82
+      },
+      {
+        "cross_encoder_score": -11.23242473602295,
+        "dataset": "HotpotQA",
+        "end_char": 154,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "f3b72a3e13c258dc78d1d30930d9fd87",
+        "passage_rank": 4,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "aea51525c8eb74e0e0ca96437a6d64b3",
+        "sentence_text": " There are two kind of milk for making Nom Yen.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 107
+      },
+      {
+        "cross_encoder_score": -10.763773918151855,
+        "dataset": "HotpotQA",
+        "end_char": 314,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "f3b72a3e13c258dc78d1d30930d9fd87",
+        "passage_rank": 4,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "e9e274ea9f235cb57987bcc79e627f57",
+        "sentence_text": " \"Nom sot is fresh milk, nom tamada is\u00a0condensed milk, and nom kom is sweetened condensed milk\" There are two styles of Nom Yen which are iced and frappe ones.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 155
+      },
+      {
+        "cross_encoder_score": -9.680030822753906,
+        "dataset": "HotpotQA",
+        "end_char": 403,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "f3b72a3e13c258dc78d1d30930d9fd87",
+        "passage_rank": 4,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "cd2caf56729dfcf152c2f1a64ad0ee24",
+        "sentence_text": " You can find it at almost everywhere in Thailand from vendors selling drinks on street.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 315
+      },
+      {
+        "cross_encoder_score": -11.355524063110352,
+        "dataset": "HotpotQA",
+        "end_char": 561,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "f3b72a3e13c258dc78d1d30930d9fd87",
+        "passage_rank": 4,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "563059a67be78e15feaf94a79364e22d",
+        "sentence_text": "\u00a0\"The price ranges from 15 THB (Thai baht) to 25 THB alone or from 30 to 60 THB at a caf\u00e9 with some bakery\" Thai people also make sweet from nom Yen as well.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 404
+      },
+      {
+        "cross_encoder_score": -11.214339256286621,
+        "dataset": "HotpotQA",
+        "end_char": 625,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "f3b72a3e13c258dc78d1d30930d9fd87",
+        "passage_rank": 4,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "3348fa6e97b0b568755aaadc67850fb5",
+        "sentence_text": " The other style of Nom Yen can be found in street sweet shops.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 562
+      },
+      {
+        "cross_encoder_score": -10.266426086425781,
+        "dataset": "HotpotQA",
+        "end_char": 685,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "f3b72a3e13c258dc78d1d30930d9fd87",
+        "passage_rank": 4,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "4f08cd892655e29b93b08c29cffadce4",
+        "sentence_text": " It's called \"Nam Kang Sai\" or a Thai style frozen Nom Yen.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 626
+      },
+      {
+        "cross_encoder_score": -7.919187545776367,
+        "dataset": "HotpotQA",
+        "end_char": 769,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "f3b72a3e13c258dc78d1d30930d9fd87",
+        "passage_rank": 4,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "08e7be2f685e9c3cee0ecff7365e8552",
+        "sentence_text": " The ingredients are similar to Nom Yen, except changing from iced into frozen one.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          0,
+          9,
+          0
+        ],
+        "source_position": 686
+      },
+      {
+        "cross_encoder_score": -11.350661277770996,
+        "dataset": "HotpotQA",
+        "end_char": 924,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "f3b72a3e13c258dc78d1d30930d9fd87",
+        "passage_rank": 4,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "b12c70b17c44dfa36dc7a19d682d15f4",
+        "sentence_text": " Unlike Nom Yen, Thai people consider Nam Kang Sai a homemade style sweet because it's easy to make and the ingredients can be found easily in local area.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          0,
+          10,
+          0
+        ],
+        "source_position": 770
+      },
+      {
+        "cross_encoder_score": -10.105661392211914,
+        "dataset": "HotpotQA",
+        "end_char": 7,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "0980cbb60590542aeff8a2c3bee329dd",
+        "passage_rank": 8,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "10822ef4d22017b918daf8323a7453ee",
+        "sentence_text": "Eegee's",
+        "sentence_token_cost": 4,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.333414077758789,
+        "dataset": "HotpotQA",
+        "end_char": 165,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "0980cbb60590542aeff8a2c3bee329dd",
+        "passage_rank": 8,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "29e2cd52bd3ae995289b66f51df5d87c",
+        "sentence_text": "Eegee's (stylized eegee's) is a chain of 26 restaurants in the greater areas of Tucson, Arizona and Phoenix, Arizona, as well as one in Casa Grande, Arizona.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 8
+      },
+      {
+        "cross_encoder_score": -6.439237117767334,
+        "dataset": "HotpotQA",
+        "end_char": 357,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "0980cbb60590542aeff8a2c3bee329dd",
+        "passage_rank": 8,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "89ef0336dce1c9ba721b062924d51426",
+        "sentence_text": " It specializes in submarine sandwiches (subs) and salads, but it is most famous for its frozen fruit drinks, officially called \"eegee's drinks\" but colloquially known simply as an \"eegee's.\"",
+        "sentence_token_cost": 43,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 166
+      },
+      {
+        "cross_encoder_score": -11.31840991973877,
+        "dataset": "HotpotQA",
+        "end_char": 519,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "0980cbb60590542aeff8a2c3bee329dd",
+        "passage_rank": 8,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "ec35e1441e9d11c235465bdc89e1b2cf",
+        "sentence_text": " It was founded in 1971 by Edmund Irving and Robert Greenberg, who combined their initials (\"E\" from Edmund and \"G\" from Greenberg) to create the name \"eegee's.\"",
+        "sentence_token_cost": 43,
+        "source_order": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "source_position": 358
+      },
+      {
+        "cross_encoder_score": -11.368077278137207,
+        "dataset": "HotpotQA",
+        "end_char": 812,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "0980cbb60590542aeff8a2c3bee329dd",
+        "passage_rank": 8,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "7bb7d89ebede65f181ef5362ca158720",
+        "sentence_text": " The company has been highly noted for its social and environmental involvement, such as its tradition of donating time, food, and money to local charities; the collection of donations for local charitable organizations; instituting the community recycling program 'Recycle for People First!'",
+        "sentence_token_cost": 51,
+        "source_order": [
+          1,
+          0,
+          4,
+          0
+        ],
+        "source_position": 520
+      },
+      {
+        "cross_encoder_score": -11.307233810424805,
+        "dataset": "HotpotQA",
+        "end_char": 880,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "0980cbb60590542aeff8a2c3bee329dd",
+        "passage_rank": 8,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "add55dfb0b5252195197e688b20eae0b",
+        "sentence_text": "; and its program for training and employing the mentally disabled.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          1,
+          0,
+          5,
+          0
+        ],
+        "source_position": 813
+      },
+      {
+        "cross_encoder_score": -10.754590034484863,
+        "dataset": "HotpotQA",
+        "end_char": 925,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "0980cbb60590542aeff8a2c3bee329dd",
+        "passage_rank": 8,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "c1e917dcf2823c1c1d48e6c672290d0e",
+        "sentence_text": " It is owned and operated by CEO Foods, Inc.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          1,
+          0,
+          6,
+          0
+        ],
+        "source_position": 881
+      },
+      {
+        "cross_encoder_score": -2.916670560836792,
+        "dataset": "HotpotQA",
+        "end_char": 10,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "e9cf0b1c12f8b79dea294065bdb62272",
+        "passage_rank": 1,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "3162c23424e48cd5df998c5a78e3ac81",
+        "sentence_text": "Shikashika",
+        "sentence_token_cost": 4,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 0.5238500833511353,
+        "dataset": "HotpotQA",
+        "end_char": 86,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "e9cf0b1c12f8b79dea294065bdb62272",
+        "passage_rank": 1,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "c4a1beaa8b15b0f2310200a439ed99a4",
+        "sentence_text": "Shikashika is a shaved ice drink made from glacier ice in Peru and Bolivia.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 11
+      },
+      {
+        "cross_encoder_score": -11.206400871276855,
+        "dataset": "HotpotQA",
+        "end_char": 209,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "e9cf0b1c12f8b79dea294065bdb62272",
+        "passage_rank": 1,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "0d404dbe98bcde535d006f666112a5ff",
+        "sentence_text": " In some rural communities, the extraction and sale of ice continues to be a primary natural resource for local economies.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 87
+      },
+      {
+        "cross_encoder_score": -11.308780670166016,
+        "dataset": "HotpotQA",
+        "end_char": 318,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "e9cf0b1c12f8b79dea294065bdb62272",
+        "passage_rank": 1,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "bccc84b84fe8dd4267b13ee824ee4d94",
+        "sentence_text": " Ice merchants extract the blocks with an axe by hand and transport them down from the mountains atop mules.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "source_position": 210
+      },
+      {
+        "cross_encoder_score": -4.298157215118408,
+        "dataset": "HotpotQA",
+        "end_char": 429,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "e9cf0b1c12f8b79dea294065bdb62272",
+        "passage_rank": 1,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "4b7d0b8ce9d887bcda7c472e37ea52d5",
+        "sentence_text": " The unit of sale is usually an ice block weighing approximately 40 kilos which is sold to Shikashika vendors.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2,
+          0,
+          4,
+          0
+        ],
+        "source_position": 319
+      },
+      {
+        "cross_encoder_score": -11.099713325500488,
+        "dataset": "HotpotQA",
+        "end_char": 473,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "e9cf0b1c12f8b79dea294065bdb62272",
+        "passage_rank": 1,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "dab3127f0c5ce71465286d25069d6e47",
+        "sentence_text": " Each block sells for approximately 17 USD.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          2,
+          0,
+          5,
+          0
+        ],
+        "source_position": 430
+      },
+      {
+        "cross_encoder_score": -3.266003370285034,
+        "dataset": "HotpotQA",
+        "end_char": 611,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "e9cf0b1c12f8b79dea294065bdb62272",
+        "passage_rank": 1,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "ac9e94dd57ba5735436cd9a60441fcd7",
+        "sentence_text": " In turn, Shikashika is sold for approximately 15 cents in plastic bags with colorful sweet syrups at Andean festivals and on market day.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          2,
+          0,
+          6,
+          0
+        ],
+        "source_position": 474
+      },
+      {
+        "cross_encoder_score": -6.231023788452148,
+        "dataset": "HotpotQA",
+        "end_char": 685,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "e9cf0b1c12f8b79dea294065bdb62272",
+        "passage_rank": 1,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "e4111dbcd47ee33087f25f7b1e721289",
+        "sentence_text": " The word Shikashika is onomatopeia from the Amerindian language Quechua.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2,
+          0,
+          7,
+          0
+        ],
+        "source_position": 612
+      },
+      {
+        "cross_encoder_score": -6.66180944442749,
+        "dataset": "HotpotQA",
+        "end_char": 749,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "e9cf0b1c12f8b79dea294065bdb62272",
+        "passage_rank": 1,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "9f98b63d658c12b161184001ca4cdfe9",
+        "sentence_text": " An alternative word for Shikashika in Spanish is \"raspadilla.\"",
+        "sentence_token_cost": 16,
+        "source_order": [
+          2,
+          0,
+          8,
+          0
+        ],
+        "source_position": 686
+      },
+      {
+        "cross_encoder_score": -10.166170120239258,
+        "dataset": "HotpotQA",
+        "end_char": 9,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "f7ec2bb78436de645d399eda6aebf64f",
+        "passage_rank": 7,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "59b8055acc610d2d1d86f81ddc7bc98d",
+        "sentence_text": "Ice trade",
+        "sentence_token_cost": 2,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.789033889770508,
+        "dataset": "HotpotQA",
+        "end_char": 274,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "f7ec2bb78436de645d399eda6aebf64f",
+        "passage_rank": 7,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "70a5472a2c29d447f71b5010accec6e3",
+        "sentence_text": "The ice trade, also known as the frozen water trade, was a 19th-century industry, centering on the east coast of the United States and Norway, involving the large-scale harvesting, transport and sale of natural ice for domestic consumption and commercial purposes.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 10
+      },
+      {
+        "cross_encoder_score": -11.33267879486084,
+        "dataset": "HotpotQA",
+        "end_char": 444,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "f7ec2bb78436de645d399eda6aebf64f",
+        "passage_rank": 7,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "2438be1d932b12cf095b1c27c0913ad9",
+        "sentence_text": " Ice was cut from the surface of ponds and streams, then stored in ice houses, before being sent on by ship, barge or railroad to its final destination around the world.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 275
+      },
+      {
+        "cross_encoder_score": -11.294719696044922,
+        "dataset": "HotpotQA",
+        "end_char": 570,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "f7ec2bb78436de645d399eda6aebf64f",
+        "passage_rank": 7,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "970e9b4eda1132f1e23f2779ee9b417d",
+        "sentence_text": " Networks of ice wagons were typically used to distribute the product to the final domestic and smaller commercial customers.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "source_position": 445
+      },
+      {
+        "cross_encoder_score": -11.16456127166748,
+        "dataset": "HotpotQA",
+        "end_char": 767,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "f7ec2bb78436de645d399eda6aebf64f",
+        "passage_rank": 7,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "4d6ccf6fbe8f661636d57c79b1677979",
+        "sentence_text": " The ice trade revolutionized the U.S. meat, vegetable and fruit industries, enabled significant growth in the fishing industry, and encouraged the introduction of a range of new drinks and foods.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          3,
+          0,
+          4,
+          0
+        ],
+        "source_position": 571
+      },
+      {
+        "cross_encoder_score": -10.643817901611328,
+        "dataset": "HotpotQA",
+        "end_char": 12,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "3895e51b408146a012164b7497b368d7",
+        "passage_rank": 3,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "facf43ccbe5f754bab2799ca24c76451",
+        "sentence_text": "Omar Knedlik",
+        "sentence_token_cost": 5,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.280111312866211,
+        "dataset": "HotpotQA",
+        "end_char": 108,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "3895e51b408146a012164b7497b368d7",
+        "passage_rank": 3,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "b6b7a83c8af2dd52d1074ce0a6fa7a81",
+        "sentence_text": "Omar S. Knedlik (December 21, 1915 \u2013 March 14, 1989), was an American inventor and businessman.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 13
+      },
+      {
+        "cross_encoder_score": -6.413046360015869,
+        "dataset": "HotpotQA",
+        "end_char": 169,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "3895e51b408146a012164b7497b368d7",
+        "passage_rank": 3,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "d7768f1649fa90a3ed8100d47c03b251",
+        "sentence_text": " He was best known as the inventor of the ICEE frozen drink.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 109
+      },
+      {
+        "cross_encoder_score": -11.293234825134277,
+        "dataset": "HotpotQA",
+        "end_char": 236,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "3895e51b408146a012164b7497b368d7",
+        "passage_rank": 3,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "95b21369a0ad6abf6a10410cdebd38c7",
+        "sentence_text": " He was born and raised a poor farm boy in Barnes, Kansas in 1916.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          4,
+          0,
+          3,
+          0
+        ],
+        "source_position": 170
+      },
+      {
+        "cross_encoder_score": -11.13209056854248,
+        "dataset": "HotpotQA",
+        "end_char": 323,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "3895e51b408146a012164b7497b368d7",
+        "passage_rank": 3,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "53b9842d26ade3c39fa0090db3494435",
+        "sentence_text": " Knedlik was a World War II veteran who bought his first ice cream shop after the war.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "source_position": 237
+      },
+      {
+        "cross_encoder_score": -11.388006210327148,
+        "dataset": "HotpotQA",
+        "end_char": 448,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "3895e51b408146a012164b7497b368d7",
+        "passage_rank": 3,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "0513967b741e8de7f590a154c6b17f1a",
+        "sentence_text": " He owned several hotels before moving to Coffeyville, Kansas, where he became the owner of a Dairy Queen in the late-1950s.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          4,
+          0,
+          5,
+          0
+        ],
+        "source_position": 324
+      },
+      {
+        "cross_encoder_score": -6.388612747192383,
+        "dataset": "HotpotQA",
+        "end_char": 533,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "3895e51b408146a012164b7497b368d7",
+        "passage_rank": 3,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "c94e7866008917c48742e88a0f6658d9",
+        "sentence_text": " Knedlik did not have a soda fountain, so he served semi-frozen bottled soft drinks.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          4,
+          0,
+          6,
+          0
+        ],
+        "source_position": 449
+      },
+      {
+        "cross_encoder_score": -11.237576484680176,
+        "dataset": "HotpotQA",
+        "end_char": 641,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "3895e51b408146a012164b7497b368d7",
+        "passage_rank": 3,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "97faf5d6a48c93d067ff7e8a15e5e945",
+        "sentence_text": " He found that they were immensely popular, so he worked with a Dallas company to develop the ICEE machine.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          4,
+          0,
+          7,
+          0
+        ],
+        "source_position": 534
+      },
+      {
+        "cross_encoder_score": -11.027297973632812,
+        "dataset": "HotpotQA",
+        "end_char": 717,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "3895e51b408146a012164b7497b368d7",
+        "passage_rank": 3,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "9bf00a04b35b0a0ebc40d8433ab50eba",
+        "sentence_text": " It took him five years to replicate the consistency in slushy soft drinks.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          4,
+          0,
+          8,
+          0
+        ],
+        "source_position": 642
+      },
+      {
+        "cross_encoder_score": -11.17953109741211,
+        "dataset": "HotpotQA",
+        "end_char": 792,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "3895e51b408146a012164b7497b368d7",
+        "passage_rank": 3,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "bda20e0eccfcf1e91c2b156a29bba4c2",
+        "sentence_text": " In the mid-1960s, the first ICEE machines were sold in the United States.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          4,
+          0,
+          9,
+          0
+        ],
+        "source_position": 718
+      },
+      {
+        "cross_encoder_score": -10.755566596984863,
+        "dataset": "HotpotQA",
+        "end_char": 11,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "d6f45f57c6c73440ed2691b8ed5459eb",
+        "passage_rank": 10,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "8752c34861633d725e243ce183aa0cdf",
+        "sentence_text": "Ali Sparkes",
+        "sentence_token_cost": 3,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.340743064880371,
+        "dataset": "HotpotQA",
+        "end_char": 67,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "d6f45f57c6c73440ed2691b8ed5459eb",
+        "passage_rank": 10,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "f1b7786422494d2f8fc574b766136659",
+        "sentence_text": "Ali Sparkes (born 1966) is a British children's author.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 12
+      },
+      {
+        "cross_encoder_score": -11.225876808166504,
+        "dataset": "HotpotQA",
+        "end_char": 474,
+        "pair_tokens_before_truncation": 144,
+        "pair_truncated": false,
+        "passage_id": "d6f45f57c6c73440ed2691b8ed5459eb",
+        "passage_rank": 10,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "4e8f0dc90653404cd10a934f7ba7bf68",
+        "sentence_text": " Her books include \"The Shapeshifter\" series of 5 books, \"Out of this World\" (a prequel to \"The Shapeshifter\" and first released as \"Miganium\"), \"Unleashed,\" a series of 5 books (a spin-off/sequel series of \"The Shapeshifter\", centered on some of the other \"Shapeshifter\" characters), \"Dark Summer\", \"Frozen in Time\", \"Wishful Thinking\", \"Destination Earth\", the \"Monster Makers\" series, and \"S.W.I.T.C.H\".",
+        "sentence_token_cost": 116,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 68
+      },
+      {
+        "cross_encoder_score": -11.169978141784668,
+        "dataset": "HotpotQA",
+        "end_char": 540,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "d6f45f57c6c73440ed2691b8ed5459eb",
+        "passage_rank": 10,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "2a0d3282d47bd872e5a296fc0ce7d214",
+        "sentence_text": " She lives with her husband and two sons in Southampton, England.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "source_position": 475
+      },
+      {
+        "cross_encoder_score": -11.277530670166016,
+        "dataset": "HotpotQA",
+        "end_char": 649,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d6f45f57c6c73440ed2691b8ed5459eb",
+        "passage_rank": 10,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "354b96bd9d44aa4a427156017a1dadb6",
+        "sentence_text": " Her debut book \"The Shapeshifter: Finding the Fox\" was nominated for the 2007 Bolton Children's Book Award.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          5,
+          0,
+          4,
+          0
+        ],
+        "source_position": 541
+      },
+      {
+        "cross_encoder_score": -10.893550872802734,
+        "dataset": "HotpotQA",
+        "end_char": 772,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "d6f45f57c6c73440ed2691b8ed5459eb",
+        "passage_rank": 10,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "ddee77b66591f6e6b5ea7fd6175d6303",
+        "sentence_text": " She has also won two Blue Peter awards: \"Book I Couldn't Put Down\" and \"Book Of The Year\", for her book \"Frozen in Time\".",
+        "sentence_token_cost": 32,
+        "source_order": [
+          5,
+          0,
+          5,
+          0
+        ],
+        "source_position": 650
+      },
+      {
+        "cross_encoder_score": -1.072439432144165,
+        "dataset": "HotpotQA",
+        "end_char": 17,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "071264d571196eabc6a5546ad22e2158",
+        "passage_rank": 2,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "d1c2e8507f46c36d3be5ff7a0ebe2b32",
+        "sentence_text": "Finding Kraftland",
+        "sentence_token_cost": 3,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.6135746240615845,
+        "dataset": "HotpotQA",
+        "end_char": 158,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "071264d571196eabc6a5546ad22e2158",
+        "passage_rank": 2,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "1c6ca37cfad0238822062fc895cde6fa",
+        "sentence_text": "Finding Kraftland is a 2006 independent documentary from Richard Kraft productions starring Stacey J. Aswad, Richard Kraft, and Nicky Kraft.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 18
+      },
+      {
+        "cross_encoder_score": -11.341958999633789,
+        "dataset": "HotpotQA",
+        "end_char": 304,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "071264d571196eabc6a5546ad22e2158",
+        "passage_rank": 2,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "6c4ba0bcdc323ad008a45118f7443263",
+        "sentence_text": " It premiered at the Santa Barbara International Film Festival on June 17, 2006 and continued to play in over 75 film festivals around the globe.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 159
+      },
+      {
+        "cross_encoder_score": -10.921392440795898,
+        "dataset": "HotpotQA",
+        "end_char": 13,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "da67da300ef446f1b0b799cc15185184",
+        "passage_rank": 5,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "b9a77c2a9a3d543f1793cda7ebd8dbe8",
+        "sentence_text": "Zooper Dooper",
+        "sentence_token_cost": 5,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.647712707519531,
+        "dataset": "HotpotQA",
+        "end_char": 87,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "da67da300ef446f1b0b799cc15185184",
+        "passage_rank": 5,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "32594c24544177e67b698265431f677e",
+        "sentence_text": "Zooper Doopers are a type of frozen iceblock treat, popular in Australia.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 14
+      },
+      {
+        "cross_encoder_score": -10.85866928100586,
+        "dataset": "HotpotQA",
+        "end_char": 148,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "da67da300ef446f1b0b799cc15185184",
+        "passage_rank": 5,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "db7e3bab98d9e2cb656d258a7a3232d4",
+        "sentence_text": " They geneally come in a plastic tube packaging as a liquid.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 88
+      },
+      {
+        "cross_encoder_score": -8.696817398071289,
+        "dataset": "HotpotQA",
+        "end_char": 204,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "da67da300ef446f1b0b799cc15185184",
+        "passage_rank": 5,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "dc819dd58c51450fa00884b2b7331beb",
+        "sentence_text": " They are then frozen at home in the household freezer.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 149
+      },
+      {
+        "cross_encoder_score": -11.372588157653809,
+        "dataset": "HotpotQA",
+        "end_char": 309,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "da67da300ef446f1b0b799cc15185184",
+        "passage_rank": 5,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "f1970f9a013ec598cdc542953bfe2601",
+        "sentence_text": " Zooper Doopers are somewhat of a cultural icon and have been popular since they first appeared in 1971.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          7,
+          0,
+          4,
+          0
+        ],
+        "source_position": 205
+      },
+      {
+        "cross_encoder_score": -9.178677558898926,
+        "dataset": "HotpotQA",
+        "end_char": 367,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "da67da300ef446f1b0b799cc15185184",
+        "passage_rank": 5,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "293db8e6ce3a8f9e9861e99b0949be5e",
+        "sentence_text": " They are produced and owned by the Daily Drinks Company.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          7,
+          0,
+          5,
+          0
+        ],
+        "source_position": 310
+      },
+      {
+        "cross_encoder_score": -10.500353813171387,
+        "dataset": "HotpotQA",
+        "end_char": 9,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "080defff30296a6cf04ac557615baf75",
+        "passage_rank": 6,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "9ef23d199e0869542d3ae90bf581a62d",
+        "sentence_text": "Dairy mix",
+        "sentence_token_cost": 3,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.294445037841797,
+        "dataset": "HotpotQA",
+        "end_char": 122,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "080defff30296a6cf04ac557615baf75",
+        "passage_rank": 6,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "dbe8b0fa8ce3a9ea7cd417920207130b",
+        "sentence_text": "A dairy mix is the blend of milk, cream, sugar, stabilizers, and vanilla packaged by a dairy for commercial use.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 10
+      },
+      {
+        "cross_encoder_score": -10.895980834960938,
+        "dataset": "HotpotQA",
+        "end_char": 267,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "080defff30296a6cf04ac557615baf75",
+        "passage_rank": 6,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "eab64ffda02531c2f71501e9c698d1a0",
+        "sentence_text": " This mix can either be made directly into ice cream or placed into containers for the use in soft serve, frozen custard, or ice cream machines.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          8,
+          0,
+          2,
+          0
+        ],
+        "source_position": 123
+      },
+      {
+        "cross_encoder_score": -8.6974458694458,
+        "dataset": "HotpotQA",
+        "end_char": 351,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "080defff30296a6cf04ac557615baf75",
+        "passage_rank": 6,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "f1a7379c5ad70febd6bcc921b07c940e",
+        "sentence_text": " Dairy mix used in restaurants can be also used to make frozen drinks or smoothies.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          8,
+          0,
+          3,
+          0
+        ],
+        "source_position": 268
+      },
+      {
+        "cross_encoder_score": -10.837627410888672,
+        "dataset": "HotpotQA",
+        "end_char": 26,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "2940ecdf650882890fd5ab279cd82183",
+        "passage_rank": 9,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "f1d6b2a87de28139fa09de285bc32b0f",
+        "sentence_text": "Wei-Chuan Food Corporation",
+        "sentence_token_cost": 5,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.394024848937988,
+        "dataset": "HotpotQA",
+        "end_char": 139,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "2940ecdf650882890fd5ab279cd82183",
+        "passage_rank": 9,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "07a33370adad8aff7c1172c5bdf27c9a",
+        "sentence_text": "Wei Chuan Foods () is a Taiwan-based manufacturer of Chinese condiments, canned goods, drinks, and frozen goods.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 27
+      },
+      {
+        "cross_encoder_score": -10.395358085632324,
+        "dataset": "HotpotQA",
+        "end_char": 272,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "2940ecdf650882890fd5ab279cd82183",
+        "passage_rank": 9,
+        "query_id": "5a7100435542994082a3e4a3",
+        "sentence_id": "411d4ee37ca0288e19c90d7f8b670c94",
+        "sentence_text": " Its more popular, widely recognized products include canned pickles, soy sauce and oyster sauces, and frozen dumplings and wontons.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 140
+      }
+    ],
+    "scoring_seconds": 0.43494354898575693,
+    "source_fingerprint": "dc091b874f305e55d8d72fd7ec03704ce06c0f8f10703afda297a7bbd4789ec0"
+  }
+}

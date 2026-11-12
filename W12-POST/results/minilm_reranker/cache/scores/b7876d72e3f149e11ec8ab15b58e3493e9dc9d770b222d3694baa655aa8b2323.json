@@ -1,0 +1,1731 @@
+{
+  "checksum": "fde1433ad7cfdae29b519942d02a708b35498126211951d16cc07f00f7072718",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "1019"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 85,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "e7dff5cbcd784663907d0b30aba7ebfd83571ce1ac64bb48177c84be1ea34620",
+    "query_id": "1019",
+    "scores": [
+      {
+        "cross_encoder_score": -7.412040710449219,
+        "dataset": "SciFact",
+        "end_char": 93,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "f6dd7b6f78fc14b4772ec85d1f632e65",
+        "passage_rank": 1,
+        "query_id": "1019",
+        "sentence_id": "bf4258efce68fa6c520dcd03a119a1a2",
+        "sentence_text": "Specificity Residues Determine Binding Affinity for Two-Component Signal Transduction Systems",
+        "sentence_token_cost": 17,
+        "source_order": [
+          215,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.819042682647705,
+        "dataset": "SciFact",
+        "end_char": 267,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "f6dd7b6f78fc14b4772ec85d1f632e65",
+        "passage_rank": 1,
+        "query_id": "1019",
+        "sentence_id": "3e45ac6cc03e92ecc671f82b7e2318b1",
+        "sentence_text": "UNLABELLED Two-component systems (TCS) comprise histidine kinases and their cognate response regulators and allow bacteria to sense and respond to a wide variety of signals.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          215,
+          0,
+          1,
+          0
+        ],
+        "source_position": 94
+      },
+      {
+        "cross_encoder_score": -10.83152961730957,
+        "dataset": "SciFact",
+        "end_char": 389,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "f6dd7b6f78fc14b4772ec85d1f632e65",
+        "passage_rank": 1,
+        "query_id": "1019",
+        "sentence_id": "813b68db51936b3c4fa660452ec41649",
+        "sentence_text": "Histidine kinases (HKs) phosphorylate and dephosphorylate their cognate response regulators (RRs) in response to stimuli.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          215,
+          0,
+          2,
+          0
+        ],
+        "source_position": 268
+      },
+      {
+        "cross_encoder_score": -11.400633811950684,
+        "dataset": "SciFact",
+        "end_char": 517,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "f6dd7b6f78fc14b4772ec85d1f632e65",
+        "passage_rank": 1,
+        "query_id": "1019",
+        "sentence_id": "5d700e398e75d0f39455e64f7a28daa3",
+        "sentence_text": "In general, these reactions appear to be highly specific and require an appropriate association between the HK and RR proteins.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          215,
+          0,
+          3,
+          0
+        ],
+        "source_position": 390
+      },
+      {
+        "cross_encoder_score": -11.464903831481934,
+        "dataset": "SciFact",
+        "end_char": 703,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "f6dd7b6f78fc14b4772ec85d1f632e65",
+        "passage_rank": 1,
+        "query_id": "1019",
+        "sentence_id": "33e4e98ce86442bad0417fb7527c1410",
+        "sentence_text": "The Myxococcus xanthus genome encodes one of the largest repertoires of signaling proteins in bacteria (685 open reading frames [ORFs]), including at least 127 HKs and at least 143 RRs.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          215,
+          0,
+          4,
+          0
+        ],
+        "source_position": 518
+      },
+      {
+        "cross_encoder_score": -11.418734550476074,
+        "dataset": "SciFact",
+        "end_char": 832,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "f6dd7b6f78fc14b4772ec85d1f632e65",
+        "passage_rank": 1,
+        "query_id": "1019",
+        "sentence_id": "b5a93af8db458f417120d418862c867e",
+        "sentence_text": "Of these, 27 are bona fide NtrC-family response regulators, 21 of which are encoded adjacent to their predicted cognate kinases.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          215,
+          0,
+          5,
+          0
+        ],
+        "source_position": 704
+      },
+      {
+        "cross_encoder_score": -4.030615329742432,
+        "dataset": "SciFact",
+        "end_char": 1051,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "f6dd7b6f78fc14b4772ec85d1f632e65",
+        "passage_rank": 1,
+        "query_id": "1019",
+        "sentence_id": "52e905a63c56a24067ca6e12731f4ac4",
+        "sentence_text": "Using system-wide profiling methods, we determined that the HK-NtrC RR pairs display a kinetic preference during both phosphotransfer and phosphatase functions, thereby defining cognate signaling systems in M. xanthus.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          215,
+          0,
+          6,
+          0
+        ],
+        "source_position": 833
+      },
+      {
+        "cross_encoder_score": -11.384742736816406,
+        "dataset": "SciFact",
+        "end_char": 1247,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "f6dd7b6f78fc14b4772ec85d1f632e65",
+        "passage_rank": 1,
+        "query_id": "1019",
+        "sentence_id": "bdb7d5cc60d6078d3e392b9ec02ab902",
+        "sentence_text": "Isothermal titration calorimetry measurements indicated that cognate HK-RR pairs interact with dissociation constants (Kd) of approximately 1 \u00b5M, while noncognate pairs had no measurable binding.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          215,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1052
+      },
+      {
+        "cross_encoder_score": -7.705759525299072,
+        "dataset": "SciFact",
+        "end_char": 1511,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "f6dd7b6f78fc14b4772ec85d1f632e65",
+        "passage_rank": 1,
+        "query_id": "1019",
+        "sentence_id": "39a03a55cf27ef34397c26a937dd01f8",
+        "sentence_text": "Lastly, a chimera generated between the histidine kinase, CrdS, and HK1190 revealed that residues conferring phosphotransfer and phosphatase specificity dictate binding affinity, thereby establishing discrete protein-protein interactions which prevent cross talk.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          215,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1248
+      },
+      {
+        "cross_encoder_score": -6.130347728729248,
+        "dataset": "SciFact",
+        "end_char": 1663,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "f6dd7b6f78fc14b4772ec85d1f632e65",
+        "passage_rank": 1,
+        "query_id": "1019",
+        "sentence_id": "11b62f11526c79ffbfd25571b3ae92dd",
+        "sentence_text": "The data indicate that binding affinity is a critical parameter governing system-wide signaling fidelity for bacterial signal transduction proteins.   ",
+        "sentence_token_cost": 23,
+        "source_order": [
+          215,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1512
+      },
+      {
+        "cross_encoder_score": -2.2854397296905518,
+        "dataset": "SciFact",
+        "end_char": 1912,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "f6dd7b6f78fc14b4772ec85d1f632e65",
+        "passage_rank": 1,
+        "query_id": "1019",
+        "sentence_id": "3c7f4b309ddddc8d8fbcf3adcb1700c0",
+        "sentence_text": "IMPORTANCE Using in vitro phosphotransfer and phosphatase profiling assays and isothermal titration calorimetry, we have taken a system-wide approach to demonstrate specificity for a family of two-component signaling proteins in Myxococcus xanthus.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          215,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1664
+      },
+      {
+        "cross_encoder_score": -7.626702308654785,
+        "dataset": "SciFact",
+        "end_char": 2103,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "f6dd7b6f78fc14b4772ec85d1f632e65",
+        "passage_rank": 1,
+        "query_id": "1019",
+        "sentence_id": "1e215fcbd483464054677fbff78fa7b7",
+        "sentence_text": "Our results demonstrate that previously identified specificity residues dictate binding affinity and that phosphatase specificity follows phosphotransfer specificity for cognate HK-RR pairs.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          215,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1913
+      },
+      {
+        "cross_encoder_score": -0.15400683879852295,
+        "dataset": "SciFact",
+        "end_char": 2228,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "f6dd7b6f78fc14b4772ec85d1f632e65",
+        "passage_rank": 1,
+        "query_id": "1019",
+        "sentence_id": "b0b1b90d43550b3b5d3667bd611a7a23",
+        "sentence_text": "The data indicate that preferential binding affinity is the basis for signaling fidelity in bacterial two-component systems.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          215,
+          0,
+          12,
+          0
+        ],
+        "source_position": 2104
+      },
+      {
+        "cross_encoder_score": -8.390578269958496,
+        "dataset": "SciFact",
+        "end_char": 87,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "cd31bcdd39f9e6edac6cf7d18dffb1a5",
+        "passage_rank": 10,
+        "query_id": "1019",
+        "sentence_id": "75d273d52f34af04412fe88b8172a4a3",
+        "sentence_text": "Innate Immune and Chemically Triggered Oxidative Stress Modifies Translational Fidelity",
+        "sentence_token_cost": 21,
+        "source_order": [
+          317,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.941713333129883,
+        "dataset": "SciFact",
+        "end_char": 206,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "cd31bcdd39f9e6edac6cf7d18dffb1a5",
+        "passage_rank": 10,
+        "query_id": "1019",
+        "sentence_id": "18e749bfeba332bffb06b0d56bd8ca8b",
+        "sentence_text": "Translational fidelity, essential for protein and cell function, requires accurate transfer RNA (tRNA) aminoacylation.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          317,
+          0,
+          1,
+          0
+        ],
+        "source_position": 88
+      },
+      {
+        "cross_encoder_score": -8.578042030334473,
+        "dataset": "SciFact",
+        "end_char": 307,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "cd31bcdd39f9e6edac6cf7d18dffb1a5",
+        "passage_rank": 10,
+        "query_id": "1019",
+        "sentence_id": "932f8474db98e64ca1e8298a9451788b",
+        "sentence_text": "Purified aminoacyl-tRNA synthetases exhibit a fidelity of one error per 10,000 to 100,000 couplings.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          317,
+          0,
+          2,
+          0
+        ],
+        "source_position": 207
+      },
+      {
+        "cross_encoder_score": -11.436965942382812,
+        "dataset": "SciFact",
+        "end_char": 407,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "cd31bcdd39f9e6edac6cf7d18dffb1a5",
+        "passage_rank": 10,
+        "query_id": "1019",
+        "sentence_id": "c7a77637dd66d507d167c6b384313a1a",
+        "sentence_text": "The accuracy of tRNA aminoacylation in vivo is uncertain, however, and might be considerably lower.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          317,
+          0,
+          3,
+          0
+        ],
+        "source_position": 308
+      },
+      {
+        "cross_encoder_score": -11.458370208740234,
+        "dataset": "SciFact",
+        "end_char": 559,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "cd31bcdd39f9e6edac6cf7d18dffb1a5",
+        "passage_rank": 10,
+        "query_id": "1019",
+        "sentence_id": "ef2c0f6ddf80fe48184921644a1e2435",
+        "sentence_text": "Here we show that in mammalian cells, approximately 1% of methionine (Met) residues used in protein synthesis are aminoacylated to non-methionyl-tRNAs.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          317,
+          0,
+          4,
+          0
+        ],
+        "source_position": 408
+      },
+      {
+        "cross_encoder_score": -11.436245918273926,
+        "dataset": "SciFact",
+        "end_char": 734,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "cd31bcdd39f9e6edac6cf7d18dffb1a5",
+        "passage_rank": 10,
+        "query_id": "1019",
+        "sentence_id": "0312971337fbc27b78a82c1c0ac52910",
+        "sentence_text": "Remarkably, Met-misacylation increases up to tenfold upon exposing cells to live or non-infectious viruses, toll-like receptor ligands or chemically induced oxidative stress.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          317,
+          0,
+          5,
+          0
+        ],
+        "source_position": 560
+      },
+      {
+        "cross_encoder_score": -11.438467025756836,
+        "dataset": "SciFact",
+        "end_char": 851,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "cd31bcdd39f9e6edac6cf7d18dffb1a5",
+        "passage_rank": 10,
+        "query_id": "1019",
+        "sentence_id": "4d33a68c5e90ffcc1da1f6926f16bcba",
+        "sentence_text": "Met is misacylated to specific non-methionyl-tRNA families, and these Met-misacylated tRNAs are used in translation.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          317,
+          0,
+          6,
+          0
+        ],
+        "source_position": 735
+      },
+      {
+        "cross_encoder_score": -11.394991874694824,
+        "dataset": "SciFact",
+        "end_char": 988,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "cd31bcdd39f9e6edac6cf7d18dffb1a5",
+        "passage_rank": 10,
+        "query_id": "1019",
+        "sentence_id": "6d693da2ec780975c9dfb94eed542d10",
+        "sentence_text": "Met-misacylation is blocked by an inhibitor of cellular oxidases, implicating reactive oxygen species (ROS) as the misacylation trigger.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          317,
+          0,
+          7,
+          0
+        ],
+        "source_position": 852
+      },
+      {
+        "cross_encoder_score": -11.449156761169434,
+        "dataset": "SciFact",
+        "end_char": 1065,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "cd31bcdd39f9e6edac6cf7d18dffb1a5",
+        "passage_rank": 10,
+        "query_id": "1019",
+        "sentence_id": "e172fc0325bf58f110ea4f76c9f0c10e",
+        "sentence_text": "Among six amino acids tested, tRNA misacylation occurs exclusively with Met.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          317,
+          0,
+          8,
+          0
+        ],
+        "source_position": 989
+      },
+      {
+        "cross_encoder_score": -11.448725700378418,
+        "dataset": "SciFact",
+        "end_char": 1281,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "cd31bcdd39f9e6edac6cf7d18dffb1a5",
+        "passage_rank": 10,
+        "query_id": "1019",
+        "sentence_id": "a5401e291dccfea5e1116c06d420c29d",
+        "sentence_text": "As Met residues are known to protect proteins against ROS-mediated damage, we propose that Met-misacylation functions adaptively to increase Met incorporation into proteins to protect cells against oxidative stress.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          317,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1066
+      },
+      {
+        "cross_encoder_score": -11.466292381286621,
+        "dataset": "SciFact",
+        "end_char": 1447,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "cd31bcdd39f9e6edac6cf7d18dffb1a5",
+        "passage_rank": 10,
+        "query_id": "1019",
+        "sentence_id": "36575d24bd9c329a75ad051041f15083",
+        "sentence_text": "In demonstrating an unexpected conditional aspect of decoding mRNA, our findings illustrate the importance of considering alternative iterations of the genetic code.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          317,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1282
+      },
+      {
+        "cross_encoder_score": -7.316822528839111,
+        "dataset": "SciFact",
+        "end_char": 24,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "843b0678525be17e3f841dc833d4df19",
+        "passage_rank": 4,
+        "query_id": "1019",
+        "sentence_id": "ac8b0342f27beeb90bd8a63c28801249",
+        "sentence_text": "DNA replication fidelity",
+        "sentence_token_cost": 3,
+        "source_order": [
+          1713,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.6585111618042,
+        "dataset": "SciFact",
+        "end_char": 171,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "843b0678525be17e3f841dc833d4df19",
+        "passage_rank": 4,
+        "query_id": "1019",
+        "sentence_id": "d87fc3cd667184910139ca93cacda433",
+        "sentence_text": "DNA replication fidelity is a key determinant of genome stability and is central to the evolution of species and to the origins of human diseases.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          1713,
+          0,
+          1,
+          0
+        ],
+        "source_position": 25
+      },
+      {
+        "cross_encoder_score": -9.259382247924805,
+        "dataset": "SciFact",
+        "end_char": 453,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "843b0678525be17e3f841dc833d4df19",
+        "passage_rank": 4,
+        "query_id": "1019",
+        "sentence_id": "95ad799ce757b5f1073bf80c088d3b36",
+        "sentence_text": "Here we review our current understanding of replication fidelity, with emphasis on structural and biochemical studies of DNA polymerases that provide new insights into the importance of hydrogen bonding, base pair geometry, and substrate-induced conformational changes to fidelity.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          1713,
+          0,
+          2,
+          0
+        ],
+        "source_position": 172
+      },
+      {
+        "cross_encoder_score": -11.382119178771973,
+        "dataset": "SciFact",
+        "end_char": 707,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "843b0678525be17e3f841dc833d4df19",
+        "passage_rank": 4,
+        "query_id": "1019",
+        "sentence_id": "6f66c8a7d59d7cc489789f78986f3933",
+        "sentence_text": "These studies also reveal polymerase interactions with the DNA minor groove at and upstream of the active site that influence nucleotide selectivity, the efficiency of exonucleolytic proofreading, and the rate of forming errors via strand misalignments.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          1713,
+          0,
+          3,
+          0
+        ],
+        "source_position": 454
+      },
+      {
+        "cross_encoder_score": -9.28137493133545,
+        "dataset": "SciFact",
+        "end_char": 907,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "843b0678525be17e3f841dc833d4df19",
+        "passage_rank": 4,
+        "query_id": "1019",
+        "sentence_id": "c6edd271da8ad359b86bc4c991a0eafd",
+        "sentence_text": "We highlight common features that are relevant to the fidelity of any DNA synthesis reaction, and consider why fidelity varies depending on the enzymes, the error, and the local sequence environment.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          1713,
+          0,
+          4,
+          0
+        ],
+        "source_position": 708
+      },
+      {
+        "cross_encoder_score": -1.9610239267349243,
+        "dataset": "SciFact",
+        "end_char": 119,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "e5aef3596cc5f11bae2f62fd42da040f",
+        "passage_rank": 2,
+        "query_id": "1019",
+        "sentence_id": "6044f2f0f6b290956b26d2aadbfef61c",
+        "sentence_text": "Using Structural Information to Change the Phosphotransfer Specificity of a Two-Component Chemotaxis Signalling Complex",
+        "sentence_token_cost": 24,
+        "source_order": [
+          1938,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.808771133422852,
+        "dataset": "SciFact",
+        "end_char": 318,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "e5aef3596cc5f11bae2f62fd42da040f",
+        "passage_rank": 2,
+        "query_id": "1019",
+        "sentence_id": "1be0c390380233c51fbcb69eb360d955",
+        "sentence_text": "Two-component signal transduction pathways comprising histidine protein kinases (HPKs) and their response regulators (RRs) are widely used to control bacterial responses to environmental challenges.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          1938,
+          0,
+          1,
+          0
+        ],
+        "source_position": 120
+      },
+      {
+        "cross_encoder_score": -1.934055209159851,
+        "dataset": "SciFact",
+        "end_char": 507,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "e5aef3596cc5f11bae2f62fd42da040f",
+        "passage_rank": 2,
+        "query_id": "1019",
+        "sentence_id": "d666dcb034bbc8132ae61008c8915d61",
+        "sentence_text": "Some bacteria have over 150 different two-component pathways, and the specificity of the phosphotransfer reactions within these systems is tightly controlled to prevent unwanted crosstalk.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          1938,
+          0,
+          2,
+          0
+        ],
+        "source_position": 319
+      },
+      {
+        "cross_encoder_score": -8.121136665344238,
+        "dataset": "SciFact",
+        "end_char": 595,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "e5aef3596cc5f11bae2f62fd42da040f",
+        "passage_rank": 2,
+        "query_id": "1019",
+        "sentence_id": "1848c2a891ea225b25fdc0b9757605aa",
+        "sentence_text": "One of the best understood two-component signalling pathways is the chemotaxis pathway.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          1938,
+          0,
+          3,
+          0
+        ],
+        "source_position": 508
+      },
+      {
+        "cross_encoder_score": -7.729433059692383,
+        "dataset": "SciFact",
+        "end_char": 765,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "e5aef3596cc5f11bae2f62fd42da040f",
+        "passage_rank": 2,
+        "query_id": "1019",
+        "sentence_id": "f1009d085831cd330df6a64631c8198a",
+        "sentence_text": "Here, we present the 1.40 A crystal structure of the histidine-containing phosphotransfer domain of the chemotaxis HPK, CheA(3), in complex with its cognate RR, CheY(6).",
+        "sentence_token_cost": 49,
+        "source_order": [
+          1938,
+          0,
+          4,
+          0
+        ],
+        "source_position": 596
+      },
+      {
+        "cross_encoder_score": -11.471668243408203,
+        "dataset": "SciFact",
+        "end_char": 971,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "e5aef3596cc5f11bae2f62fd42da040f",
+        "passage_rank": 2,
+        "query_id": "1019",
+        "sentence_id": "85f306c3b5e4e35044dc4547763861aa",
+        "sentence_text": "A methionine finger on CheY(6) that nestles in a hydrophobic pocket in CheA(3) was shown to be important for the interaction and was found to only occur in the cognate RRs of CheA(3), CheY(6), and CheB(2).",
+        "sentence_token_cost": 63,
+        "source_order": [
+          1938,
+          0,
+          5,
+          0
+        ],
+        "source_position": 766
+      },
+      {
+        "cross_encoder_score": -8.117274284362793,
+        "dataset": "SciFact",
+        "end_char": 1171,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "e5aef3596cc5f11bae2f62fd42da040f",
+        "passage_rank": 2,
+        "query_id": "1019",
+        "sentence_id": "d1490e390cb1aa94b66c4638e04ff96b",
+        "sentence_text": "Site-directed mutagenesis of this methionine in combination with two adjacent residues abolished binding, as shown by surface plasmon resonance studies, and phosphotransfer from CheA(3)-P to CheY(6).",
+        "sentence_token_cost": 47,
+        "source_order": [
+          1938,
+          0,
+          6,
+          0
+        ],
+        "source_position": 972
+      },
+      {
+        "cross_encoder_score": -3.854792356491089,
+        "dataset": "SciFact",
+        "end_char": 1563,
+        "pair_tokens_before_truncation": 108,
+        "pair_truncated": false,
+        "passage_id": "e5aef3596cc5f11bae2f62fd42da040f",
+        "passage_rank": 2,
+        "query_id": "1019",
+        "sentence_id": "0d193056d80b59f8affaa3854d7efbac",
+        "sentence_text": "Introduction of this methionine and an adjacent alanine residue into a range of noncognate CheYs, dramatically changed their specificity, allowing protein interaction and rapid phosphotransfer from CheA(3)-P. The structure presented here has allowed us to identify specificity determinants for the CheA-CheY interaction and subsequently to successfully reengineer phosphotransfer signalling.",
+        "sentence_token_cost": 79,
+        "source_order": [
+          1938,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1172
+      },
+      {
+        "cross_encoder_score": -9.150090217590332,
+        "dataset": "SciFact",
+        "end_char": 1742,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "e5aef3596cc5f11bae2f62fd42da040f",
+        "passage_rank": 2,
+        "query_id": "1019",
+        "sentence_id": "97e672e43216f5bfa9d7d085fd485153",
+        "sentence_text": "In summary, our results provide valuable insight into how cells mediate specificity in one of the most abundant signalling pathways in biology, two-component signal transduction.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1938,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1564
+      },
+      {
+        "cross_encoder_score": -11.048828125,
+        "dataset": "SciFact",
+        "end_char": 99,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "000753615f85a06c789399399dec106f",
+        "passage_rank": 9,
+        "query_id": "1019",
+        "sentence_id": "da6328ed5ffb9ca41d63ee11aadf81e7",
+        "sentence_text": "Distinction and relationship between elongation rate and processivity of RNA polymerase II in vivo.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2142,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.584394454956055,
+        "dataset": "SciFact",
+        "end_char": 395,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "000753615f85a06c789399399dec106f",
+        "passage_rank": 9,
+        "query_id": "1019",
+        "sentence_id": "39ea0ef1295ca3a31f98cf06743cdf27",
+        "sentence_text": "A number of proteins and drugs have been implicated in the process of transcriptional elongation by RNA polymerase (Pol) II, but the factors that govern the elongation rate (nucleotide additions per min) and processivity (nucleotide additions per initiation event) in vivo are poorly understood.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          2142,
+          0,
+          1,
+          0
+        ],
+        "source_position": 100
+      },
+      {
+        "cross_encoder_score": -11.137551307678223,
+        "dataset": "SciFact",
+        "end_char": 514,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "000753615f85a06c789399399dec106f",
+        "passage_rank": 9,
+        "query_id": "1019",
+        "sentence_id": "9fe79c95c3f068c8a627870a67c514b4",
+        "sentence_text": "Here, we show that a mutation in the Rpb2 subunit of Pol II reduces both the elongation rate and processivity in vivo.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          2142,
+          0,
+          2,
+          0
+        ],
+        "source_position": 396
+      },
+      {
+        "cross_encoder_score": -11.141009330749512,
+        "dataset": "SciFact",
+        "end_char": 687,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "000753615f85a06c789399399dec106f",
+        "passage_rank": 9,
+        "query_id": "1019",
+        "sentence_id": "a1889576b9f49d2ad1a903840435c124",
+        "sentence_text": "In contrast, none of the putative elongation factors tested affect the elongation rate, although mutations in the THO complex and in Spt4 significantly reduce processivity.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          2142,
+          0,
+          3,
+          0
+        ],
+        "source_position": 515
+      },
+      {
+        "cross_encoder_score": -11.07684326171875,
+        "dataset": "SciFact",
+        "end_char": 865,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "000753615f85a06c789399399dec106f",
+        "passage_rank": 9,
+        "query_id": "1019",
+        "sentence_id": "ddcee472014f8e858a17e9fc13f75332",
+        "sentence_text": "The drugs 6-azauracil and mycophenolic acid reduce both the elongation rate and processivity, and this processivity defect is aggravated by mutations in Spt4, TFIIS, and CTDK-1.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          2142,
+          0,
+          4,
+          0
+        ],
+        "source_position": 688
+      },
+      {
+        "cross_encoder_score": -11.180902481079102,
+        "dataset": "SciFact",
+        "end_char": 1065,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "000753615f85a06c789399399dec106f",
+        "passage_rank": 9,
+        "query_id": "1019",
+        "sentence_id": "25a8111fb509ed2050582c3fd6147af2",
+        "sentence_text": "Our results suggest that, in vivo, a reduced rate of Pol II elongation leads to premature dissociation along the chromatin template and that Pol II processivity can be uncoupled from elongation rate.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          2142,
+          0,
+          5,
+          0
+        ],
+        "source_position": 866
+      },
+      {
+        "cross_encoder_score": -11.387837409973145,
+        "dataset": "SciFact",
+        "end_char": 64,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "3260e3eec14facdf5642f0f6914c475c",
+        "passage_rank": 8,
+        "query_id": "1019",
+        "sentence_id": "338b83826b99d436cb756eb34988c2d2",
+        "sentence_text": "A nano-positioning system for macromolecular structural analysis",
+        "sentence_token_cost": 11,
+        "source_order": [
+          2486,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.441649436950684,
+        "dataset": "SciFact",
+        "end_char": 236,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "3260e3eec14facdf5642f0f6914c475c",
+        "passage_rank": 8,
+        "query_id": "1019",
+        "sentence_id": "ee5eb065d308b47403cb9d159836c80d",
+        "sentence_text": "Very often, the positions of flexible domains within macromolecules as well as within macromolecular complexes cannot be determined by standard structural biology methods.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          2486,
+          0,
+          1,
+          0
+        ],
+        "source_position": 65
+      },
+      {
+        "cross_encoder_score": -11.441953659057617,
+        "dataset": "SciFact",
+        "end_char": 395,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "3260e3eec14facdf5642f0f6914c475c",
+        "passage_rank": 8,
+        "query_id": "1019",
+        "sentence_id": "a6a7d3db5340963b85418a29673953fd",
+        "sentence_text": "To overcome this problem, we developed a method that uses probabilistic data analysis to combine single-molecule measurements with X-ray crystallography data.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          2486,
+          0,
+          2,
+          0
+        ],
+        "source_position": 237
+      },
+      {
+        "cross_encoder_score": -11.443192481994629,
+        "dataset": "SciFact",
+        "end_char": 609,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "3260e3eec14facdf5642f0f6914c475c",
+        "passage_rank": 8,
+        "query_id": "1019",
+        "sentence_id": "f37bef40aec7d2a7e95612f1c7546bb8",
+        "sentence_text": "The method determines not only the most likely position of a fluorescent dye molecule attached to the domain but also the complete three-dimensional probability distribution depicting the experimental uncertainty.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          2486,
+          0,
+          3,
+          0
+        ],
+        "source_position": 396
+      },
+      {
+        "cross_encoder_score": -11.354875564575195,
+        "dataset": "SciFact",
+        "end_char": 829,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "3260e3eec14facdf5642f0f6914c475c",
+        "passage_rank": 8,
+        "query_id": "1019",
+        "sentence_id": "de0b9c06d2c789acc9922ec57adb8d9d",
+        "sentence_text": "With this approach, single-pair fluorescence resonance energy transfer measurements can now be used as a quantitative tool for investigating the position and dynamics of flexible domains within macromolecular complexes.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          2486,
+          0,
+          4,
+          0
+        ],
+        "source_position": 610
+      },
+      {
+        "cross_encoder_score": -11.463766098022461,
+        "dataset": "SciFact",
+        "end_char": 1085,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "3260e3eec14facdf5642f0f6914c475c",
+        "passage_rank": 8,
+        "query_id": "1019",
+        "sentence_id": "e83140f0b90846c4cd39ed07c6c3fd4b",
+        "sentence_text": "We applied this method to find the position of the 5\u2032 end of the nascent RNA exiting transcription elongation complexes of yeast (Saccharomyces cerevisiae) RNA polymerase II and studied the influence of transcription factor IIB on the position of the RNA.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          2486,
+          0,
+          5,
+          0
+        ],
+        "source_position": 830
+      },
+      {
+        "cross_encoder_score": -6.151514053344727,
+        "dataset": "SciFact",
+        "end_char": 214,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "674d798d84c23a2270fd83a771ef4760",
+        "passage_rank": 7,
+        "query_id": "1019",
+        "sentence_id": "08f7cca95d0d2bb6ccb15e6360ea809c",
+        "sentence_text": "Polyphosphate kinase 1, a central node in the stress response network of Mycobacterium tuberculosis, connects the two-component systems MprAB and SenX3-RegX3 and the extracytoplasmic function sigma factor, sigma E.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          2978,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.282370567321777,
+        "dataset": "SciFact",
+        "end_char": 295,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "674d798d84c23a2270fd83a771ef4760",
+        "passage_rank": 7,
+        "query_id": "1019",
+        "sentence_id": "b5b25b21d885c1addb05988a52d6f78a",
+        "sentence_text": "Polyphosphate (poly P) metabolism regulates the stress response in mycobacteria.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          2978,
+          0,
+          1,
+          0
+        ],
+        "source_position": 215
+      },
+      {
+        "cross_encoder_score": -4.971304416656494,
+        "dataset": "SciFact",
+        "end_char": 550,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "674d798d84c23a2270fd83a771ef4760",
+        "passage_rank": 7,
+        "query_id": "1019",
+        "sentence_id": "05f65553a26c14aec86b2ce77f07a8a3",
+        "sentence_text": "Here we describe the regulatory architecture of a signal transduction system involving the two-component system (TCS) SenX3-RegX3, the extracytoplasmic function sigma factor sigma E (SigE) and the poly P-synthesizing enzyme polyphosphate kinase 1 (PPK1).",
+        "sentence_token_cost": 64,
+        "source_order": [
+          2978,
+          0,
+          2,
+          0
+        ],
+        "source_position": 296
+      },
+      {
+        "cross_encoder_score": -11.44091510772705,
+        "dataset": "SciFact",
+        "end_char": 639,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "674d798d84c23a2270fd83a771ef4760",
+        "passage_rank": 7,
+        "query_id": "1019",
+        "sentence_id": "b112467389bc5e6cac47d3729a012d9e",
+        "sentence_text": "The ppk1 promoter of Mycobacterium tuberculosis is activated under phosphate starvation.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          2978,
+          0,
+          3,
+          0
+        ],
+        "source_position": 551
+      },
+      {
+        "cross_encoder_score": -7.771660327911377,
+        "dataset": "SciFact",
+        "end_char": 859,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "674d798d84c23a2270fd83a771ef4760",
+        "passage_rank": 7,
+        "query_id": "1019",
+        "sentence_id": "634e81b96f5d16d28c0f5f3b23915bfd",
+        "sentence_text": "This is attenuated upon deletion of an imperfect palindrome likely representing a binding site for the response regulator RegX3, a component of the two-component system SenX3-RegX3 that responds to phosphate starvation.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          2978,
+          0,
+          4,
+          0
+        ],
+        "source_position": 640
+      },
+      {
+        "cross_encoder_score": -10.616620063781738,
+        "dataset": "SciFact",
+        "end_char": 959,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "674d798d84c23a2270fd83a771ef4760",
+        "passage_rank": 7,
+        "query_id": "1019",
+        "sentence_id": "53f5b6ff3ccb95d4fd0539be9f27bbfe",
+        "sentence_text": "Binding of phosphorylated RegX3 to this site was confirmed by electrophoretic mobility shift assay.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2978,
+          0,
+          5,
+          0
+        ],
+        "source_position": 860
+      },
+      {
+        "cross_encoder_score": -11.406086921691895,
+        "dataset": "SciFact",
+        "end_char": 1054,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "674d798d84c23a2270fd83a771ef4760",
+        "passage_rank": 7,
+        "query_id": "1019",
+        "sentence_id": "3ef8037ccc88ed918b5d840094e6648e",
+        "sentence_text": "The activity of the ppk1 promoter was abrogated upon deletion of a putative SigE binding site.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          2978,
+          0,
+          6,
+          0
+        ],
+        "source_position": 960
+      },
+      {
+        "cross_encoder_score": -11.465106010437012,
+        "dataset": "SciFact",
+        "end_char": 1244,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "674d798d84c23a2270fd83a771ef4760",
+        "passage_rank": 7,
+        "query_id": "1019",
+        "sentence_id": "48eb4a077b0f5aee753761906ca69cd2",
+        "sentence_text": "Pull-down of SigE from M. tuberculosis lysates of phosphate-starved cells with a biotinylated DNA harbouring the SigE binding site confirmed the likely binding of SigE to the ppk1 promoter.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          2978,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1055
+      },
+      {
+        "cross_encoder_score": -11.434305191040039,
+        "dataset": "SciFact",
+        "end_char": 1327,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "674d798d84c23a2270fd83a771ef4760",
+        "passage_rank": 7,
+        "query_id": "1019",
+        "sentence_id": "b0999b3d6171b5502b76326f0270f3f8",
+        "sentence_text": "In vitro transcription corroborated the involvement of SigE in ppk1 transcription.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          2978,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1245
+      },
+      {
+        "cross_encoder_score": -11.421942710876465,
+        "dataset": "SciFact",
+        "end_char": 1481,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "674d798d84c23a2270fd83a771ef4760",
+        "passage_rank": 7,
+        "query_id": "1019",
+        "sentence_id": "6fcab3d5503e4d2c7b75a43b82127184",
+        "sentence_text": "Finally, the overexpression of RseA (anti-SigE) attenuated ppk1 expression under phosphate starvation, supporting the role of SigE in ppk1 transcription.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          2978,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1328
+      },
+      {
+        "cross_encoder_score": -11.334439277648926,
+        "dataset": "SciFact",
+        "end_char": 1753,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "674d798d84c23a2270fd83a771ef4760",
+        "passage_rank": 7,
+        "query_id": "1019",
+        "sentence_id": "387f1f160be4e5e72d6019350351842d",
+        "sentence_text": "The regulatory elements identified in ppk1 transcription in this study, combined with our earlier observation that PPK1 is itself capable of regulating sigE expression via the MprAB TCS, suggest the presence of multiple positive-feedback loops in this signalling circuit.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          2978,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1482
+      },
+      {
+        "cross_encoder_score": -11.243083000183105,
+        "dataset": "SciFact",
+        "end_char": 1962,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "674d798d84c23a2270fd83a771ef4760",
+        "passage_rank": 7,
+        "query_id": "1019",
+        "sentence_id": "73d734aca86bae94da441825deff661b",
+        "sentence_text": "In combination with the sequestering effect of RseA, we hypothesize that this architecture could be linked to bistability in the system that, in turn, could be a key element of persistence in M. tuberculosis.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          2978,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1754
+      },
+      {
+        "cross_encoder_score": -11.33636474609375,
+        "dataset": "SciFact",
+        "end_char": 91,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "550290c2101baf2b79332e7afb0f3b72",
+        "passage_rank": 6,
+        "query_id": "1019",
+        "sentence_id": "0ada8f3c08dfab5ac2bdf86574315821",
+        "sentence_text": "The biphasic behavior of incoherent feed-forward loops in biomolecular regulatory networks.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3213,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.359699249267578,
+        "dataset": "SciFact",
+        "end_char": 212,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "550290c2101baf2b79332e7afb0f3b72",
+        "passage_rank": 6,
+        "query_id": "1019",
+        "sentence_id": "e6f90918bef5521e4018958314323caf",
+        "sentence_text": "An incoherent feed-forward loop (FFL) is one of the most-frequently observed motifs in biomolecular regulatory networks.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          3213,
+          0,
+          1,
+          0
+        ],
+        "source_position": 92
+      },
+      {
+        "cross_encoder_score": -11.229846000671387,
+        "dataset": "SciFact",
+        "end_char": 360,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "550290c2101baf2b79332e7afb0f3b72",
+        "passage_rank": 6,
+        "query_id": "1019",
+        "sentence_id": "634024e8668ff8dc46ed3b04c058ca26",
+        "sentence_text": "It has been thought that the incoherent FFL is designed simply to induce a transient response shaped by a 'fast activation and delayed inhibition'.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          3213,
+          0,
+          2,
+          0
+        ],
+        "source_position": 213
+      },
+      {
+        "cross_encoder_score": -11.354813575744629,
+        "dataset": "SciFact",
+        "end_char": 528,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "550290c2101baf2b79332e7afb0f3b72",
+        "passage_rank": 6,
+        "query_id": "1019",
+        "sentence_id": "df7f1b47d607faae805811dee8aa0561",
+        "sentence_text": "We find that the dynamics of various incoherent FFLs can be further classified into two types: time-dependent biphasic responses and dose-dependent biphasic responses.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3213,
+          0,
+          3,
+          0
+        ],
+        "source_position": 361
+      },
+      {
+        "cross_encoder_score": -11.382375717163086,
+        "dataset": "SciFact",
+        "end_char": 615,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "550290c2101baf2b79332e7afb0f3b72",
+        "passage_rank": 6,
+        "query_id": "1019",
+        "sentence_id": "805859a74aab138c2d5608b92e2cc76a",
+        "sentence_text": "Why do the structurally identical incoherent FFLs play such different dynamical roles?",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3213,
+          0,
+          4,
+          0
+        ],
+        "source_position": 529
+      },
+      {
+        "cross_encoder_score": -11.214735984802246,
+        "dataset": "SciFact",
+        "end_char": 732,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "550290c2101baf2b79332e7afb0f3b72",
+        "passage_rank": 6,
+        "query_id": "1019",
+        "sentence_id": "7385e5d702f7208e7fad2e53cf006e2b",
+        "sentence_text": "Through computational studies, we show that the dynamics of the two types of incoherent FFLs are mutually exclusive.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3213,
+          0,
+          5,
+          0
+        ],
+        "source_position": 616
+      },
+      {
+        "cross_encoder_score": -11.421284675598145,
+        "dataset": "SciFact",
+        "end_char": 955,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "550290c2101baf2b79332e7afb0f3b72",
+        "passage_rank": 6,
+        "query_id": "1019",
+        "sentence_id": "e39e7fcbaf860c0a50516a5dc5fcdc70",
+        "sentence_text": "Following from further computational results and experimental observations, we hypothesize that incoherent FFLs have been optimally designed to achieve distinct biological function arising from different cellular contexts.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3213,
+          0,
+          6,
+          0
+        ],
+        "source_position": 733
+      },
+      {
+        "cross_encoder_score": -11.11462116241455,
+        "dataset": "SciFact",
+        "end_char": 1040,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "550290c2101baf2b79332e7afb0f3b72",
+        "passage_rank": 6,
+        "query_id": "1019",
+        "sentence_id": "29b6b4b4ccb9f51522ad86d8b3981cb1",
+        "sentence_text": "Additional Supporting Information may be found in the online version of the article.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          3213,
+          0,
+          7,
+          0
+        ],
+        "source_position": 956
+      },
+      {
+        "cross_encoder_score": -11.38051700592041,
+        "dataset": "SciFact",
+        "end_char": 100,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "3511c78fde4559e8eb226ad502fc5e64",
+        "passage_rank": 5,
+        "query_id": "1019",
+        "sentence_id": "bbdabba9b9161510adb565a9a32999e2",
+        "sentence_text": "TatC is a specificity determinant for protein secretion via the twin-arginine translocation pathway.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          3258,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.342401504516602,
+        "dataset": "SciFact",
+        "end_char": 508,
+        "pair_tokens_before_truncation": 108,
+        "pair_truncated": false,
+        "passage_id": "3511c78fde4559e8eb226ad502fc5e64",
+        "passage_rank": 5,
+        "query_id": "1019",
+        "sentence_id": "aa5b5c2dc9296b34ceb3a3878ec3115a",
+        "sentence_text": "The recent discovery of a ubiquitous translocation pathway, specifically required for proteins with a twin-arginine motif in their signal peptide, has focused interest on its membrane-bound components, one of which is known as TatC. Unlike most organisms of which the genome has been sequenced completely, the Gram-positive eubacterium Bacillus subtilis contains two tatC-like genes denoted tatCd and tatCy.",
+        "sentence_token_cost": 83,
+        "source_order": [
+          3258,
+          0,
+          1,
+          0
+        ],
+        "source_position": 101
+      },
+      {
+        "cross_encoder_score": -11.393026351928711,
+        "dataset": "SciFact",
+        "end_char": 743,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "3511c78fde4559e8eb226ad502fc5e64",
+        "passage_rank": 5,
+        "query_id": "1019",
+        "sentence_id": "6a9c04ab302d9eb3f4a4b829a9bfe940",
+        "sentence_text": "The corresponding TatCd and TatCy proteins have the potential to be involved in the translocation of 27 proteins with putative twin-arginine signal peptides of which approximately 6-14 are likely to be secreted into the growth medium.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          3258,
+          0,
+          2,
+          0
+        ],
+        "source_position": 509
+      },
+      {
+        "cross_encoder_score": -11.208399772644043,
+        "dataset": "SciFact",
+        "end_char": 1005,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "3511c78fde4559e8eb226ad502fc5e64",
+        "passage_rank": 5,
+        "query_id": "1019",
+        "sentence_id": "8ac4420438404b4055a54e4d944f22dc",
+        "sentence_text": "Using a proteomic approach, we show that PhoD of B. subtilis, a phosphodiesterase belonging to a novel protein family of which all known members are synthesized with typical twin-arginine signal peptides, is secreted via the twin-arginine translocation pathway.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          3258,
+          0,
+          3,
+          0
+        ],
+        "source_position": 744
+      },
+      {
+        "cross_encoder_score": -11.247241020202637,
+        "dataset": "SciFact",
+        "end_char": 1121,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "3511c78fde4559e8eb226ad502fc5e64",
+        "passage_rank": 5,
+        "query_id": "1019",
+        "sentence_id": "2391d9d4a2f6cc8dc4b0e8197abd7ec1",
+        "sentence_text": "Strikingly, TatCd is of major importance for the secretion of PhoD, whereas TatCy is not required for this process.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          3258,
+          0,
+          4,
+          0
+        ],
+        "source_position": 1006
+      },
+      {
+        "cross_encoder_score": -11.40114974975586,
+        "dataset": "SciFact",
+        "end_char": 1215,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "3511c78fde4559e8eb226ad502fc5e64",
+        "passage_rank": 5,
+        "query_id": "1019",
+        "sentence_id": "712fb8daad991df3660745247cedd16b",
+        "sentence_text": "Thus, TatC appears to be a specificity determinant for protein secretion via the Tat pathway.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3258,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1122
+      },
+      {
+        "cross_encoder_score": -11.088568687438965,
+        "dataset": "SciFact",
+        "end_char": 1461,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "3511c78fde4559e8eb226ad502fc5e64",
+        "passage_rank": 5,
+        "query_id": "1019",
+        "sentence_id": "21ac2ace5bb5eeb5085eadca224b1f73",
+        "sentence_text": "Based on our observations, we hypothesize that the TatC-determined pathway specificity is based on specific interactions between TatC-like proteins and other pathway components, such as TatA, of which three paralogues are present in B. subtilis.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          3258,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1216
+      },
+      {
+        "cross_encoder_score": -3.873661756515503,
+        "dataset": "SciFact",
+        "end_char": 161,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "599edc31a2f80ae6daebc2cec831aa0d",
+        "passage_rank": 3,
+        "query_id": "1019",
+        "sentence_id": "cdfc078d90c7164fd9f9d3c56deeab2a",
+        "sentence_text": "A mathematical investigation of the effects of inhibitor therapy on three putative phosphorylation cascades governing the two-component system of the agr operon.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          4245,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.839851140975952,
+        "dataset": "SciFact",
+        "end_char": 340,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "599edc31a2f80ae6daebc2cec831aa0d",
+        "passage_rank": 3,
+        "query_id": "1019",
+        "sentence_id": "edc5775e00c7e8e545ab4765335b28b8",
+        "sentence_text": "Two-component systems (TCSs) are widely employed by bacteria to sense specific external signals and conduct an appropriate response via a phosphorylation cascade within the cell.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          4245,
+          0,
+          1,
+          0
+        ],
+        "source_position": 162
+      },
+      {
+        "cross_encoder_score": -11.396671295166016,
+        "dataset": "SciFact",
+        "end_char": 537,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "599edc31a2f80ae6daebc2cec831aa0d",
+        "passage_rank": 3,
+        "query_id": "1019",
+        "sentence_id": "aa7c49423b728bfc9a605807500827cf",
+        "sentence_text": "The TCS of the agr operon in the bacterium Staphylococcus aureus forms part of a regulatory process termed quorum sensing, a cell-to-cell communication mechanism used to assess population density.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          4245,
+          0,
+          2,
+          0
+        ],
+        "source_position": 341
+      },
+      {
+        "cross_encoder_score": -11.453137397766113,
+        "dataset": "SciFact",
+        "end_char": 753,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "599edc31a2f80ae6daebc2cec831aa0d",
+        "passage_rank": 3,
+        "query_id": "1019",
+        "sentence_id": "9928a8034e606cc4178bb1d942743ec4",
+        "sentence_text": "Since S. aureus manipulates this \"knowledge\" in order to co-ordinate production of its armoury of exotoxin virulence factors required to promote infection, it is important to understand fully how this process works.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          4245,
+          0,
+          3,
+          0
+        ],
+        "source_position": 538
+      },
+      {
+        "cross_encoder_score": -10.491493225097656,
+        "dataset": "SciFact",
+        "end_char": 928,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "599edc31a2f80ae6daebc2cec831aa0d",
+        "passage_rank": 3,
+        "query_id": "1019",
+        "sentence_id": "8f6b27e88fd134cdb59730b9b5325c43",
+        "sentence_text": "We present three models of the agr operon, each incorporating a different phosphorylation cascade for the TCS since the precise nature of the cascade is not fully understood.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          4245,
+          0,
+          4,
+          0
+        ],
+        "source_position": 754
+      },
+      {
+        "cross_encoder_score": -11.45872974395752,
+        "dataset": "SciFact",
+        "end_char": 1138,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "599edc31a2f80ae6daebc2cec831aa0d",
+        "passage_rank": 3,
+        "query_id": "1019",
+        "sentence_id": "8eeed1a1615d14bb500849d1f0ce5c76",
+        "sentence_text": "Using numerical and asymptotic techniques we examine the effects of inhibitor therapy, a novel approach to controlling bacterial infection through the attenuation of virulence, on each of these three cascades.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          4245,
+          0,
+          5,
+          0
+        ],
+        "source_position": 929
+      },
+      {
+        "cross_encoder_score": -11.419175148010254,
+        "dataset": "SciFact",
+        "end_char": 1283,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "599edc31a2f80ae6daebc2cec831aa0d",
+        "passage_rank": 3,
+        "query_id": "1019",
+        "sentence_id": "b913d1f6add6643018f71776e82e20e9",
+        "sentence_text": "We present results which, if evaluated against appropriate experimental data, provide insights into the potential effectiveness of such therapy.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          4245,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1139
+      },
+      {
+        "cross_encoder_score": -11.36308479309082,
+        "dataset": "SciFact",
+        "end_char": 1417,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "599edc31a2f80ae6daebc2cec831aa0d",
+        "passage_rank": 3,
+        "query_id": "1019",
+        "sentence_id": "08fca4db2404debe79843a70316ca56e",
+        "sentence_text": "Moreover, the TCS models presented here are of broad relevance given that TCSs are widely conserved throughout the bacterial kingdom.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          4245,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1284
+      }
+    ],
+    "scoring_seconds": 0.4500510389916599,
+    "source_fingerprint": "9ab42ded45d31e0235be8904a75fd70a6f52f8121999fa213da3a1f57f3249bc"
+  }
+}

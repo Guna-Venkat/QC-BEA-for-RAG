@@ -1,0 +1,1191 @@
+{
+  "checksum": "14097887d0aeb8f8cac88694583b573c860fed53bf770206984e8b3453c42cca",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5ae29d8a5542996483e64a0f"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 58,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "b9ee5dd176acce16373821d9f477d6ebd5c3b151a6eb4312c1d1a34ea2c7fdd3",
+    "query_id": "5ae29d8a5542996483e64a0f",
+    "scores": [
+      {
+        "cross_encoder_score": -8.638794898986816,
+        "dataset": "HotpotQA",
+        "end_char": 13,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "f4380866b7bfa2f67aacd74f77a5bd83",
+        "passage_rank": 3,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "c9856144032dde9cdcfe13d726866032",
+        "sentence_text": "Skyline Drive",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 0.6886155605316162,
+        "dataset": "HotpotQA",
+        "end_char": 213,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "f4380866b7bfa2f67aacd74f77a5bd83",
+        "passage_rank": 3,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "ff19039117ef222161713e2205dc893c",
+        "sentence_text": "Skyline Drive is a 105 mi road that runs the entire length of the National Park Service's Shenandoah National Park in the Blue Ridge Mountains of Virginia, generally along the ridge of the mountains.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 14
+      },
+      {
+        "cross_encoder_score": -8.777631759643555,
+        "dataset": "HotpotQA",
+        "end_char": 473,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "f4380866b7bfa2f67aacd74f77a5bd83",
+        "passage_rank": 3,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "3221b7be452d63cd5d9cc96c8723b050",
+        "sentence_text": " The drive's northern terminus is at an intersection with U.S. Route 340 (US 340) near Front Royal, and the southern terminus is at an interchange with US 250 near Interstate 64 (I-64) in Rockfish Gap, where the road continues south as the Blue Ridge Parkway.",
+        "sentence_token_cost": 72,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 214
+      },
+      {
+        "cross_encoder_score": -7.771327495574951,
+        "dataset": "HotpotQA",
+        "end_char": 569,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "f4380866b7bfa2f67aacd74f77a5bd83",
+        "passage_rank": 3,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "6903d81a2999c333e503338f82884ccf",
+        "sentence_text": " The road has intermediate interchanges with US 211 in Thornton Gap and US 33 in Swift Run Gap.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 474
+      },
+      {
+        "cross_encoder_score": -3.6827611923217773,
+        "dataset": "HotpotQA",
+        "end_char": 23,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "d249eda995c64c687061c96886288387",
+        "passage_rank": 6,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "9939c787ff4b2fa5efb33e5808959545",
+        "sentence_text": "Blue Ridge Music Center",
+        "sentence_token_cost": 4,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.454695701599121,
+        "dataset": "HotpotQA",
+        "end_char": 168,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "d249eda995c64c687061c96886288387",
+        "passage_rank": 6,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "081698d6343f39bb4680a5b180d6e0d8",
+        "sentence_text": "The Blue Ridge Music Center is a music venue, museum, and visitor center located at milepost 213 on the Blue Ridge Parkway near Galax, Virginia.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 24
+      },
+      {
+        "cross_encoder_score": -2.3073389530181885,
+        "dataset": "HotpotQA",
+        "end_char": 438,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "d249eda995c64c687061c96886288387",
+        "passage_rank": 6,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "beebab4ed2073ddd9b384e8d01cccfc6",
+        "sentence_text": " The center celebrates the music and musicians of the Blue Ridge Mountains through concerts, exhibits, and programs that highlight living musical heritage of the Blue Ridge region and interpret its significance within the larger landscape of American music and culture.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 169
+      },
+      {
+        "cross_encoder_score": -0.6323131322860718,
+        "dataset": "HotpotQA",
+        "end_char": 551,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "d249eda995c64c687061c96886288387",
+        "passage_rank": 6,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "d2fc7f43ff5483f1ac4629064bd2d267",
+        "sentence_text": " The site is operated through a partnership between the National Park Service and Blue Ridge Parkway Foundation.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "source_position": 439
+      },
+      {
+        "cross_encoder_score": -10.649736404418945,
+        "dataset": "HotpotQA",
+        "end_char": 599,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "d249eda995c64c687061c96886288387",
+        "passage_rank": 6,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "c9a9a79fd86c970b9ef5d6fe0c66943d",
+        "sentence_text": " The Music Center operates May through October.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          1,
+          0,
+          4,
+          0
+        ],
+        "source_position": 552
+      },
+      {
+        "cross_encoder_score": -10.867802619934082,
+        "dataset": "HotpotQA",
+        "end_char": 710,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "d249eda995c64c687061c96886288387",
+        "passage_rank": 6,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "0ab24a468f132c1f421885c8cb0fd90c",
+        "sentence_text": " Free Midday Mountain Music acoustic sessions featuring local musicians are offered from noon to 4 p.m. daily.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1,
+          0,
+          5,
+          0
+        ],
+        "source_position": 600
+      },
+      {
+        "cross_encoder_score": -11.099084854125977,
+        "dataset": "HotpotQA",
+        "end_char": 855,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "d249eda995c64c687061c96886288387",
+        "passage_rank": 6,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "e4a6955b701635ad108034216fb7a211",
+        "sentence_text": " Concerts are offered most Saturdays during the season and include old-time, bluegrass, folk, Americana, gospel, and country blues performances.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          1,
+          0,
+          6,
+          0
+        ],
+        "source_position": 711
+      },
+      {
+        "cross_encoder_score": -10.404672622680664,
+        "dataset": "HotpotQA",
+        "end_char": 945,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "d249eda995c64c687061c96886288387",
+        "passage_rank": 6,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "0f9ae9197e3245e8f460b6b64f2711dd",
+        "sentence_text": " The Roots of American Music Museum on site showcases the region's rich musical heritage.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          1,
+          0,
+          7,
+          0
+        ],
+        "source_position": 856
+      },
+      {
+        "cross_encoder_score": -9.663140296936035,
+        "dataset": "HotpotQA",
+        "end_char": 979,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "d249eda995c64c687061c96886288387",
+        "passage_rank": 6,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "4890bb8eb2cae0dc39355ff4dc6173eb",
+        "sentence_text": " Admission to the museum is free.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          1,
+          0,
+          8,
+          0
+        ],
+        "source_position": 946
+      },
+      {
+        "cross_encoder_score": -7.085541725158691,
+        "dataset": "HotpotQA",
+        "end_char": 15,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "06180c787a5c3ff9a3330b1720c9a867",
+        "passage_rank": 4,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "0890293751b4e2c3927ba8f3d4dec7b3",
+        "sentence_text": "Covington River",
+        "sentence_token_cost": 4,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.31256628036499,
+        "dataset": "HotpotQA",
+        "end_char": 84,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "06180c787a5c3ff9a3330b1720c9a867",
+        "passage_rank": 4,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "a157ad670313e0e5bac27cd4f5c9918f",
+        "sentence_text": "The Covington River is a 7.4 mi river in the U.S. state of Virginia.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 16
+      },
+      {
+        "cross_encoder_score": 4.058733940124512,
+        "dataset": "HotpotQA",
+        "end_char": 273,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "06180c787a5c3ff9a3330b1720c9a867",
+        "passage_rank": 4,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "85bfaf6b608187a5be65b682597ac9e1",
+        "sentence_text": " The river rises at the eastern foot of the Blue Ridge Mountains in Rappahannock County and flows southeast to the Rush River just north of that river's confluence with the Thornton River.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 85
+      },
+      {
+        "cross_encoder_score": -9.60013484954834,
+        "dataset": "HotpotQA",
+        "end_char": 375,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "06180c787a5c3ff9a3330b1720c9a867",
+        "passage_rank": 4,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "5f27a6d304b27ecf6efb976363bb1fc8",
+        "sentence_text": " The river system flows via the Hazel River to the Rappahannock River, a tributary of Chesapeake Bay.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "source_position": 274
+      },
+      {
+        "cross_encoder_score": -0.9656577110290527,
+        "dataset": "HotpotQA",
+        "end_char": 28,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "d07712ad212078515e23d729c7686d03",
+        "passage_rank": 7,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "168cf7cf39eaae6c0db359f55b143e6b",
+        "sentence_text": "Blue Ridge Mountains Council",
+        "sentence_token_cost": 4,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.0459001064300537,
+        "dataset": "HotpotQA",
+        "end_char": 185,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "d07712ad212078515e23d729c7686d03",
+        "passage_rank": 7,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "1a96ab427af41038cb8d19e64ddb9124",
+        "sentence_text": "The Blue Ridge Mountains Council is a Boy Scouts of America council located in Roanoke, Virginia that serves Scouts in southwest and south central Virginia.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 29
+      },
+      {
+        "cross_encoder_score": -1.3564876317977905,
+        "dataset": "HotpotQA",
+        "end_char": 299,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "d07712ad212078515e23d729c7686d03",
+        "passage_rank": 7,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "5c51adb83726de633e97ab0d55a177db",
+        "sentence_text": " The Blue Ridge Mountains Council owns and operates the Blue Ridge Scout Reservation in Pulaski County, Virginia.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 186
+      },
+      {
+        "cross_encoder_score": -10.61136531829834,
+        "dataset": "HotpotQA",
+        "end_char": 356,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "d07712ad212078515e23d729c7686d03",
+        "passage_rank": 7,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "484e67d8622ee93de16836391988a18a",
+        "sentence_text": " The local Order of the Arrow lodge is the Tutelo Lodge.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "source_position": 300
+      },
+      {
+        "cross_encoder_score": -5.107866287231445,
+        "dataset": "HotpotQA",
+        "end_char": 23,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "4661f7b2ff8103ebfd6ee7ede974467d",
+        "passage_rank": 10,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "90ff8248dfde35a2b81a27bac1c8d58e",
+        "sentence_text": "USS Blue Ridge (LCC-19)",
+        "sentence_token_cost": 11,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.3688383102417,
+        "dataset": "HotpotQA",
+        "end_char": 197,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "4661f7b2ff8103ebfd6ee7ede974467d",
+        "passage_rank": 10,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "1eae5dc764c3481f509f01ff1a77342e",
+        "sentence_text": "USS \"Blue Ridge\" (LCC-19) is the lead ship of the two \"Blue Ridge\"\u2013class command ships of the United States Navy, and is the command ship of the United States Seventh Fleet.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 24
+      },
+      {
+        "cross_encoder_score": -11.085335731506348,
+        "dataset": "HotpotQA",
+        "end_char": 368,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "4661f7b2ff8103ebfd6ee7ede974467d",
+        "passage_rank": 10,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "d12868033a64f02b2b7b43318d5a5610",
+        "sentence_text": " Her primary role is to provide command, control, communications, computers, and intelligence (C4I) support to the commander and staff of the United States Seventh Fleet.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 198
+      },
+      {
+        "cross_encoder_score": -6.916479110717773,
+        "dataset": "HotpotQA",
+        "end_char": 598,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "4661f7b2ff8103ebfd6ee7ede974467d",
+        "passage_rank": 10,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "d627e0c764a0debe1e762bb505102f0d",
+        "sentence_text": " She is currently forward-deployed to U.S. Navy Fleet Activities, Yokosuka in Japan, and is the third Navy ship named after the Blue Ridge Mountains, a range of mountains in the Appalachian Mountains of the eastern United States.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          4,
+          0,
+          3,
+          0
+        ],
+        "source_position": 369
+      },
+      {
+        "cross_encoder_score": -7.319003582000732,
+        "dataset": "HotpotQA",
+        "end_char": 732,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "4661f7b2ff8103ebfd6ee7ede974467d",
+        "passage_rank": 10,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "7f12dcee2faf3d0d1e36de3c655f9b19",
+        "sentence_text": " \"Blue Ridge\" is the oldest deployable warship of the U.S. Navy, following the decommissioning of  in Pearl Harbor on 14 August 2014.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "source_position": 599
+      },
+      {
+        "cross_encoder_score": -8.081027030944824,
+        "dataset": "HotpotQA",
+        "end_char": 862,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "4661f7b2ff8103ebfd6ee7ede974467d",
+        "passage_rank": 10,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "d7b45332b3639c4aa34d0762764583ac",
+        "sentence_text": " \"Blue Ridge\", now the U.S. Navy's active commissioned ship having the longest total period as active, flies the First Navy Jack.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          4,
+          0,
+          5,
+          0
+        ],
+        "source_position": 733
+      },
+      {
+        "cross_encoder_score": -5.151025295257568,
+        "dataset": "HotpotQA",
+        "end_char": 921,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "4661f7b2ff8103ebfd6ee7ede974467d",
+        "passage_rank": 10,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "6b04b7de5c8f853539d520017970065f",
+        "sentence_text": " \"Blue Ridge\" is expected to remain in service until 2039.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          4,
+          0,
+          6,
+          0
+        ],
+        "source_position": 863
+      },
+      {
+        "cross_encoder_score": -3.181844472885132,
+        "dataset": "HotpotQA",
+        "end_char": 17,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "0b936264c38fe3aa174900013c2bf701",
+        "passage_rank": 9,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "449def7d22dce9b68764bf592a441526",
+        "sentence_text": "Blue Ridge Tunnel",
+        "sentence_token_cost": 3,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.648129940032959,
+        "dataset": "HotpotQA",
+        "end_char": 174,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "0b936264c38fe3aa174900013c2bf701",
+        "passage_rank": 9,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "41ce459eb815923cd2ede04e0b2b6abb",
+        "sentence_text": "The Blue Ridge Tunnel (also known as the Crozet Tunnel) is a historic railroad tunnel built during the construction of the Blue Ridge Railroad in the 1850s.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 18
+      },
+      {
+        "cross_encoder_score": -5.05197811126709,
+        "dataset": "HotpotQA",
+        "end_char": 335,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "0b936264c38fe3aa174900013c2bf701",
+        "passage_rank": 9,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "1e351c19c9090513f3197c61662bbc31",
+        "sentence_text": " The tunnel was the westernmost and longest of four tunnels engineered by Claudius Crozet to cross the Blue Ridge Mountains at Rockfish Gap in central Virginia.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 175
+      },
+      {
+        "cross_encoder_score": -11.048330307006836,
+        "dataset": "HotpotQA",
+        "end_char": 452,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "0b936264c38fe3aa174900013c2bf701",
+        "passage_rank": 9,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "136c8a91b872cb12009f2ac50a3b35c9",
+        "sentence_text": " At 4237 ft in length, the tunnel was the longest tunnel in the United States at the time of its completion in 1858.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "source_position": 336
+      },
+      {
+        "cross_encoder_score": -11.121214866638184,
+        "dataset": "HotpotQA",
+        "end_char": 645,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "0b936264c38fe3aa174900013c2bf701",
+        "passage_rank": 9,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "2a2edd568f9abb2b262c925aacd7f1f1",
+        "sentence_text": " The tunnel was used by the Virginia Central Railroad from its opening to 1868, when the line was reorganized as the Chesapeake and Ohio Railroad (renamed Chesapeake and Ohio Railway in 1878).",
+        "sentence_token_cost": 47,
+        "source_order": [
+          5,
+          0,
+          4,
+          0
+        ],
+        "source_position": 453
+      },
+      {
+        "cross_encoder_score": -11.099701881408691,
+        "dataset": "HotpotQA",
+        "end_char": 764,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "0b936264c38fe3aa174900013c2bf701",
+        "passage_rank": 9,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "95e36fd5a23d91a547c1141540f4750e",
+        "sentence_text": " The Chesapeake and Ohio routed trains through the tunnel until it was abandoned and replaced by a new tunnel in 1944.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          5,
+          0,
+          5,
+          0
+        ],
+        "source_position": 646
+      },
+      {
+        "cross_encoder_score": -7.313727855682373,
+        "dataset": "HotpotQA",
+        "end_char": 884,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "0b936264c38fe3aa174900013c2bf701",
+        "passage_rank": 9,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "e40d12f557f65a6b4de9856b3b180406",
+        "sentence_text": " The new tunnel was named the \"Blue Ridge Tunnel\" as well, although the original tunnel still remains abandoned nearby.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          5,
+          0,
+          6,
+          0
+        ],
+        "source_position": 765
+      },
+      {
+        "cross_encoder_score": -4.572531223297119,
+        "dataset": "HotpotQA",
+        "end_char": 971,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "0b936264c38fe3aa174900013c2bf701",
+        "passage_rank": 9,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "c5d638d13882df690de10c7875a8608b",
+        "sentence_text": " The old Blue Ridge Tunnel has since been named a Historic Civil Engineering Landmark.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          5,
+          0,
+          7,
+          0
+        ],
+        "source_position": 885
+      },
+      {
+        "cross_encoder_score": -3.6392569541931152,
+        "dataset": "HotpotQA",
+        "end_char": 24,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "ea85c1c353e156fd7bc8606bac2c8107",
+        "passage_rank": 2,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "503ab8ae8f66bfe4e39f54e551391770",
+        "sentence_text": "Shenandoah National Park",
+        "sentence_token_cost": 6,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 3.271479368209839,
+        "dataset": "HotpotQA",
+        "end_char": 158,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "ea85c1c353e156fd7bc8606bac2c8107",
+        "passage_rank": 2,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "e9e6f4cc92b3019430f7f3113604399e",
+        "sentence_text": "Shenandoah National Park (often ) is a national park that encompasses part of the Blue Ridge Mountains in the U.S. state of Virginia.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 25
+      },
+      {
+        "cross_encoder_score": -4.4156575202941895,
+        "dataset": "HotpotQA",
+        "end_char": 309,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "ea85c1c353e156fd7bc8606bac2c8107",
+        "passage_rank": 2,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "a2f855e3e0bcc96ab3b71cd51cf3e4a3",
+        "sentence_text": " The park is long and narrow, with the broad Shenandoah River and Valley on the west side, and the rolling hills of the Virginia Piedmont on the east.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 159
+      },
+      {
+        "cross_encoder_score": -6.545140743255615,
+        "dataset": "HotpotQA",
+        "end_char": 540,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "ea85c1c353e156fd7bc8606bac2c8107",
+        "passage_rank": 2,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "00c136b8ef7fa2b8668709d7f244f009",
+        "sentence_text": " Although the scenic Skyline Drive is likely the most prominent feature of the park, almost 40% of the land area 79579 acre has been designated as wilderness and is protected as part of the National Wilderness Preservation System.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          6,
+          0,
+          3,
+          0
+        ],
+        "source_position": 310
+      },
+      {
+        "cross_encoder_score": -8.878229141235352,
+        "dataset": "HotpotQA",
+        "end_char": 593,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "ea85c1c353e156fd7bc8606bac2c8107",
+        "passage_rank": 2,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "46941873151929641c8a65a9d1363cae",
+        "sentence_text": " The highest peak is Hawksbill Mountain at 4051 ft .",
+        "sentence_token_cost": 15,
+        "source_order": [
+          6,
+          0,
+          4,
+          0
+        ],
+        "source_position": 541
+      },
+      {
+        "cross_encoder_score": 0.19781816005706787,
+        "dataset": "HotpotQA",
+        "end_char": 33,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "64b014a8cf7b16f4f82db7f6b523b7bc",
+        "passage_rank": 5,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "fd61965fee3929272d206bc0436ade67",
+        "sentence_text": "Blue Ridge National Heritage Area",
+        "sentence_token_cost": 5,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.1615592241287231,
+        "dataset": "HotpotQA",
+        "end_char": 241,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "64b014a8cf7b16f4f82db7f6b523b7bc",
+        "passage_rank": 5,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "28b3a28f727a13a5951c6edadfffe14d",
+        "sentence_text": "The Blue Ridge National Heritage Area is a federally designated National Heritage Area encompassing the twenty-five westernmost counties of North Carolina, which are associated with the Blue Ridge Mountains.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 34
+      },
+      {
+        "cross_encoder_score": -9.400947570800781,
+        "dataset": "HotpotQA",
+        "end_char": 422,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "64b014a8cf7b16f4f82db7f6b523b7bc",
+        "passage_rank": 5,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "9bf6a94cf6ca500f7dd223265f463ac7",
+        "sentence_text": " The designation provides a framework for the promotion and interpretation of the area's cultural and historic character, and the preservation of the natural and built environment.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 242
+      },
+      {
+        "cross_encoder_score": 2.2853994369506836,
+        "dataset": "HotpotQA",
+        "end_char": 554,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "64b014a8cf7b16f4f82db7f6b523b7bc",
+        "passage_rank": 5,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "989d05f72a58d7fe72b3bc836adbdc61",
+        "sentence_text": " The National Heritage Area includes the North Carolina portions of Great Smoky Mountains National Park and the Blue Ridge Parkway.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 423
+      },
+      {
+        "cross_encoder_score": -6.462108135223389,
+        "dataset": "HotpotQA",
+        "end_char": 706,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "64b014a8cf7b16f4f82db7f6b523b7bc",
+        "passage_rank": 5,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "66299dd795a65c9bf5e84460602b30b2",
+        "sentence_text": " Other attractions include Mount Mitchell in Pisgah National Forest, Nantahala National Forest and the North Carolina portion of the Appalachian Trail.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          7,
+          0,
+          4,
+          0
+        ],
+        "source_position": 555
+      },
+      {
+        "cross_encoder_score": -9.19109058380127,
+        "dataset": "HotpotQA",
+        "end_char": 810,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "64b014a8cf7b16f4f82db7f6b523b7bc",
+        "passage_rank": 5,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "f33e751eb99e017341c484fa5ab809e5",
+        "sentence_text": " The Qualla Boundary of the Eastern Band of Cherokee Indians is also within the National Heritage Area.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          7,
+          0,
+          5,
+          0
+        ],
+        "source_position": 707
+      },
+      {
+        "cross_encoder_score": -7.61244535446167,
+        "dataset": "HotpotQA",
+        "end_char": 913,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "64b014a8cf7b16f4f82db7f6b523b7bc",
+        "passage_rank": 5,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "2b265d5c64e416c6e36bf47b983baa3c",
+        "sentence_text": " The area's musical heritage and folk craftsmanship are also recognized by the National Heritage Area.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          7,
+          0,
+          6,
+          0
+        ],
+        "source_position": 811
+      },
+      {
+        "cross_encoder_score": 1.1546776294708252,
+        "dataset": "HotpotQA",
+        "end_char": 14,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "e8d8b299114da6f8c7f4459611555f70",
+        "passage_rank": 1,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "a3aa9f8b899409c48cb8b370c1f02876",
+        "sentence_text": "Thornton River",
+        "sentence_token_cost": 3,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 2.0642192363739014,
+        "dataset": "HotpotQA",
+        "end_char": 83,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "e8d8b299114da6f8c7f4459611555f70",
+        "passage_rank": 1,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "ea0dd764f3c3b6f6fc8a3a5e3c2c9dfc",
+        "sentence_text": "The Thornton River is a 27.9 mi river in the U.S. state of Virginia.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 15
+      },
+      {
+        "cross_encoder_score": 2.592595338821411,
+        "dataset": "HotpotQA",
+        "end_char": 258,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "e8d8b299114da6f8c7f4459611555f70",
+        "passage_rank": 1,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "56ba19385e35cdc5121d687bfaa35f2a",
+        "sentence_text": " It rises at Thornton Gap in Shenandoah National Park and flows east through Rappahannock County, running parallel to U.S. Route 211 until it reaches the town of Sperryville.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          8,
+          0,
+          2,
+          0
+        ],
+        "source_position": 84
+      },
+      {
+        "cross_encoder_score": -1.3846429586410522,
+        "dataset": "HotpotQA",
+        "end_char": 425,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "e8d8b299114da6f8c7f4459611555f70",
+        "passage_rank": 1,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "0bee3482afd90d402d41960f28638ba7",
+        "sentence_text": " Continuing east into Culpeper County, the Thornton River joins the Hazel River, a tributary of the Rappahannock River, and thus part of the Chesapeake Bay watershed.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          8,
+          0,
+          3,
+          0
+        ],
+        "source_position": 259
+      },
+      {
+        "cross_encoder_score": -6.048069953918457,
+        "dataset": "HotpotQA",
+        "end_char": 17,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "498e8f5259d3b4011146da06b94aa96c",
+        "passage_rank": 8,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "3dd93a73a6931251c2b40c96fa71c5a3",
+        "sentence_text": "James River Gorge",
+        "sentence_token_cost": 4,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.368231296539307,
+        "dataset": "HotpotQA",
+        "end_char": 102,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "498e8f5259d3b4011146da06b94aa96c",
+        "passage_rank": 8,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "6d83e15fe3023c0db59831447bd3e88b",
+        "sentence_text": "The James River Gorge is a water gap created by the James River in Central Virginia.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 18
+      },
+      {
+        "cross_encoder_score": -9.093510627746582,
+        "dataset": "HotpotQA",
+        "end_char": 228,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "498e8f5259d3b4011146da06b94aa96c",
+        "passage_rank": 8,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "32008497658976639c3c5709588790ea",
+        "sentence_text": " The Gorge is 2433 ft deep as measured from Highcock Knob 3073 ft to the James River 640 ft and is approximately 9.3 mi long.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 103
+      },
+      {
+        "cross_encoder_score": -2.590090036392212,
+        "dataset": "HotpotQA",
+        "end_char": 501,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "498e8f5259d3b4011146da06b94aa96c",
+        "passage_rank": 8,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "961d2c72687b8fd9863f3bdc3e57bf8a",
+        "sentence_text": " The James River forms in western Virginia near the border of West Virginia and initially flows south through the ridge and valley province of the Allegheny Mountains, turning northeast when it comes to the western edge of the Blue Ridge Mountains near Buchanan, Virginia.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          9,
+          0,
+          3,
+          0
+        ],
+        "source_position": 229
+      },
+      {
+        "cross_encoder_score": -1.0309511423110962,
+        "dataset": "HotpotQA",
+        "end_char": 757,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "498e8f5259d3b4011146da06b94aa96c",
+        "passage_rank": 8,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "0f341cc0861ac1629bf917fcaa02e9fd",
+        "sentence_text": " From Buchanan the river flows along the base of the Blue Ridge Mountains until it joins the Maury River near the town of Glasgow, Virginia and then it turns southeast and begins its descent over the Balcony Falls rapids and through the James River Gorge.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          9,
+          0,
+          4,
+          0
+        ],
+        "source_position": 502
+      },
+      {
+        "cross_encoder_score": -10.46088981628418,
+        "dataset": "HotpotQA",
+        "end_char": 872,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "498e8f5259d3b4011146da06b94aa96c",
+        "passage_rank": 8,
+        "query_id": "5ae29d8a5542996483e64a0f",
+        "sentence_id": "db4010ee3f2c09402818eeeef4868f59",
+        "sentence_text": " The rocks of the gorge are metamorphic in nature with the oldest exposed outcrops being from the Proterozoic Era.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          9,
+          0,
+          5,
+          0
+        ],
+        "source_position": 758
+      }
+    ],
+    "scoring_seconds": 0.20464200503192842,
+    "source_fingerprint": "3c18ce93c806ac72799a3ab32424244b0efe64c8438919d2209e80272286f435"
+  }
+}

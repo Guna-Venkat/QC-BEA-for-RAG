@@ -1,0 +1,162 @@
+{
+  "expansion": "Source-order sequential hypothetical gains; update redundancy and coverage after each accepted addition; FULL exact replacement cost competes globally",
+  "formulation": "Rel + eta*sum positive max-aspect-coverage gains - lambda*max cosine redundancy",
+  "identity": {
+    "cohort_source_sha": "fe529e21126d36d001083859d92ef13196523bc225318aff2bb47b26f7a05218",
+    "config": {
+      "aspects": "query-only clause/conjunction rules v1; at most six; fallback full query",
+      "automatic_attribution": false,
+      "automatic_expansion": false,
+      "budgets": [
+        256,
+        1024
+      ],
+      "cache": {
+        "force_regenerate": false,
+        "overwrite_existing": false,
+        "reuse_compatible": true,
+        "run_missing": true
+      },
+      "calibration": {
+        "maximum_empty_fraction": 0.1,
+        "maximum_near_full_fraction": 0.8,
+        "minimum_coverage_retention": 0.85,
+        "minimum_threshold_stop_fraction": 0.2,
+        "queries_per_dataset": 3,
+        "selection": "Smallest global threshold meeting all allocation-only criteria; otherwise block pilot; tau_expand=max(original,tau_stop)",
+        "tau_stop_grid": [
+          0.001,
+          0.0025,
+          0.005,
+          0.01,
+          0.02,
+          0.04
+        ]
+      },
+      "compressed": "Not implemented; no extraction/compression LM",
+      "expanded_count_per_dataset": 150,
+      "expansion": "Source-order sequential hypothetical gains; update redundancy and coverage after each accepted addition; FULL exact replacement cost competes globally",
+      "full_eligibility": "Design assumption: two positive source-sentence selections, not a derived theorem",
+      "label": "POST_W12_EXPLORATORY",
+      "methods": [
+        "FIXED_SENTENCE",
+        "QBGF_FULL",
+        "BEA_QBGF"
+      ],
+      "minimum_free_disk_gib": 3,
+      "novelty": "Diagnostic 1-max cosine only; no separate reward (mu=0); need disabled (kappa=0)",
+      "output_root": "results/post_w12/bea_qbgf/v3",
+      "parameters": {
+        "eta_cov": 0.5,
+        "lambda_red": 0.5,
+        "min_parent_sentences": 2,
+        "tau_context": 0.05,
+        "tau_expand": 0.001,
+        "tau_stop": 0.001
+      },
+      "parent_config": "configs/week12/protocol.yaml",
+      "pilot_gate": {
+        "macro_f1_margin": 0.01,
+        "max_clearly_degraded_cells": 2,
+        "max_empty_cell_fraction": 0.1,
+        "meaningful_coverage_increase": 0.05,
+        "meaningful_redundancy_reduction": 0.05,
+        "meaningful_token_reduction": 0.15,
+        "min_different_context_fraction": 0.1,
+        "min_upgrade_cell_fraction": 0.01,
+        "qa_margin": 0.003
+      },
+      "seed": 42,
+      "statistics": {
+        "contrasts": [
+          "BEA_QBGF-FIXED_SENTENCE",
+          "BEA_QBGF-QBGF_FULL"
+        ],
+        "resamples": 10000,
+        "seed": 42
+      },
+      "version": "BEA-QBGF-v1.1-prepilot"
+    },
+    "decoding": {
+      "do_sample": false,
+      "enable_thinking": false,
+      "max_context": 8192,
+      "max_new_tokens_qa": 128,
+      "max_new_tokens_verification": 16,
+      "precision": "float16",
+      "seed": 42
+    },
+    "implementation": {
+      "W12-POST/config.json": "8e5a5a836281fbf7fea34631c1a852a39108e7ed06b356ac3f083256ce465da8",
+      "W12-POST/run.py": "945a266204aa93cca851e511122788c532fc8607416eda5732d2fcba36ab43e1",
+      "W12-POST/tests/test_bea.py": "b8aa8c42a6f672156447170c02ac49798535d7cb17dc612353388d406b04174f",
+      "src/post_w12/bea_qbgf/__init__.py": "0c6cf0f6ad14b2eefc86981e58b60a6570437088a3ae6c1ad03d7682f737b438",
+      "src/post_w12/bea_qbgf/allocator.py": "1a4c31208276f88aa562b3ef632d66db4101870d0a7a6da0be0f8349619efd4b",
+      "src/post_w12/bea_qbgf/analysis.py": "6e72926da8716ffd9a9d5736272c4599bc8499a5c2076dbe532c42eedb3b4886",
+      "src/post_w12/bea_qbgf/attribution.py": "d0b0ddad523f8e13d9d2649091340d01a1964ca64f71430b41912dd9677650f9",
+      "src/post_w12/bea_qbgf/calibration.py": "ee8786cd3279d3b5e9bde8a844d41f48f2f101cd82c060831735f011f7c172a5",
+      "src/post_w12/bea_qbgf/protocol.py": "ad49f9550f521f18fd6a5f894aa118ff1ef1810495901b31765b9f43c3549c54",
+      "src/post_w12/bea_qbgf/resources.py": "cea5e7829be991ae31778f22c80da81b4738042e6b0501f1da761b62bdc8abdf",
+      "src/post_w12/bea_qbgf/runner.py": "52b9268d1b985a90f105db3710a24f124e83603be5b15305383e245a6d3d31a2"
+    },
+    "label": "POST_W12_EXPLORATORY",
+    "parent_freeze_sha": "d0188a3582d6aead0a3a31f9f15bad9b51a88a6b475b05ac79ae38e58f05366b",
+    "parent_identity": {
+      "code_hash": "0002987a3e2fe48f3d6511fc9fb409bba23a9a3594c3370e2de0e672c22afa95",
+      "config_hash": "65b7de98a5d4222d0cd088d5b7a3424ff962aabc81dfafcb9938555c73c47f44",
+      "extra": {},
+      "models": {
+        "Mistral": {
+          "id": "mistralai/Mistral-7B-Instruct-v0.2",
+          "revision": "63a8b081895390a26e140280378bc85ec8bce07a"
+        },
+        "Qwen": {
+          "id": "Qwen/Qwen3-8B",
+          "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+        },
+        "SFR": {
+          "id": "Salesforce/SFR-Embedding-Mistral",
+          "revision": "33a60fe7b5e00b9414981280c571e8a4f9f42f1b"
+        }
+      },
+      "packages": {
+        "numpy": "1.26.4",
+        "peft": "0.21.0",
+        "torch": "2.14.0",
+        "transformers": "4.57.6"
+      },
+      "source_files": {
+        "/home/gunavenkat/.cache/huggingface/datasets/allenai___qasper/qasper/0.3.0/fdc9d8214fbab5dd782958601db4d678e6934a54/qasper-train.arrow": "670e68454c09c05decc41696b7c9d0a4f7ced901b4968a32cc82f323843ac7c3",
+        "/home/gunavenkat/Downloads/CS787-RAG-Project/Baselines/SARA-main/data/reformatted/QASPER_dev.jsonl": "9e270b890d8c2de192c7d86db6eb8e4fd453d1fc8cc74f1a56ebc744d2b1e534",
+        "/home/gunavenkat/Downloads/CS787-RAG-Project/data/week11/hotpot_dev_distractor_v1.json": "2c56eb73e5f4cfaecf52342286510c40ebdbd7c8eea5971ceb2b3438929838f7",
+        "/home/gunavenkat/Downloads/CS787-RAG-Project/data/week11/scifact/claims_dev.jsonl": "86f0435d08fdb65d1aa41d1472684f57e6e71930626497bdf4d7a9ec1a632217",
+        "/home/gunavenkat/Downloads/CS787-RAG-Project/data/week11/scifact/corpus.jsonl": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "LLMLingua_qualification_lock": "030054060244aae28af84fede07401bed75d5831838cacb64ac3ab5e40f831be",
+        "W12_split_freeze": "df4ab91bc708148febaf44472d008050b3cf8d5cc8cf52e2fe96952e550e3208"
+      }
+    },
+    "parser_sha": "ade75ad9d2630c135ef6e12866a4d104fba54adfc947479f7dcf7c89f544b94c",
+    "precision": "float16",
+    "prompt_sha": "ade75ad9d2630c135ef6e12866a4d104fba54adfc947479f7dcf7c89f544b94c",
+    "reader": {
+      "id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    "retriever": {
+      "id": "Salesforce/SFR-Embedding-Mistral",
+      "revision": "33a60fe7b5e00b9414981280c571e8a4f9f42f1b"
+    },
+    "serializer": "additive-token-id-blocks-v1",
+    "split_hash": "78f5ace11f9080d05dda12716e634020711182f721ac562dc81d19bad6c1c117",
+    "tokenizer": {
+      "id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    "version": "BEA-QBGF-v1.1-prepilot"
+  },
+  "identity_hash": "b46dbf3f49dc00dd316919986c92203eaf9d1fe2bfee28d014832b4fc413a5b2",
+  "novelty": "1-Red diagnostic only; redundant reward omitted; need disabled",
+  "pilot_cohort_hash": "b013ea5b5d614a14f9bcc3d127bd24a6d2695813fd56d3fb0ca2073e31867acd",
+  "selection_outcomes_accessed": false,
+  "stage2_requires_promising_and_manual_opt_in": true
+}

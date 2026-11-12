@@ -1,0 +1,2011 @@
+{
+  "checksum": "ee8e365bd9ab3853f1fe405fd4e36424835a1f96f9fdf23f41ab539923be9d29",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "50be4a737dc0951b35d139f51075011095d77f2a"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 99,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "c6bfe8e379e68dd9090f6a493560bc67fe15f5b432a3de49a5fce596d4eb1d87",
+    "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+    "scores": [
+      {
+        "cross_encoder_score": -7.226064205169678,
+        "dataset": "QASPER",
+        "end_char": 152,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "ef67024ab36beec3c84393347ff9f4c8",
+        "passage_rank": 1,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "352313e879ba9c6b4a399567896483a5",
+        "sentence_text": "Robustly Leveraging Prior Knowledge in Text Classification\tPrior knowledge has been shown very useful to address many natural language processing tasks.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.487744331359863,
+        "dataset": "QASPER",
+        "end_char": 352,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "ef67024ab36beec3c84393347ff9f4c8",
+        "passage_rank": 1,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "d85c484f8c1a8a701dac868a13bec4dc",
+        "sentence_text": "Many approaches have been proposed to formalise a variety of knowledge, however, whether the proposed approach is robust or sensitive to the knowledge supplied to the model has rarely been discussed.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 153
+      },
+      {
+        "cross_encoder_score": -11.38559627532959,
+        "dataset": "QASPER",
+        "end_char": 534,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "ef67024ab36beec3c84393347ff9f4c8",
+        "passage_rank": 1,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "731e09b0fc26579e16fd0fabbecef007",
+        "sentence_text": "In this paper, we propose three regularization terms on top of generalized expectation criteria, and conduct extensive experiments to justify the robustness of the proposed methods.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 353
+      },
+      {
+        "cross_encoder_score": -11.375643730163574,
+        "dataset": "QASPER",
+        "end_char": 665,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "ef67024ab36beec3c84393347ff9f4c8",
+        "passage_rank": 1,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "b33d4a10e714957cd61d314ae9e9a95a",
+        "sentence_text": "Experimental results demonstrate that our proposed methods obtain remarkable improvements and are much more robust than baselines.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 535
+      },
+      {
+        "cross_encoder_score": -10.51302719116211,
+        "dataset": "QASPER",
+        "end_char": 763,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "ef67024ab36beec3c84393347ff9f4c8",
+        "passage_rank": 1,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "fea16e3030e87db79a038961c0b6a11b",
+        "sentence_text": "Introduction\tWe posses a wealth of prior knowledge about many natural language processing tasks.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 667
+      },
+      {
+        "cross_encoder_score": -11.347626686096191,
+        "dataset": "QASPER",
+        "end_char": 1081,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "ef67024ab36beec3c84393347ff9f4c8",
+        "passage_rank": 1,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "5d49467bf540d117fc1ef18ce4e7f9d3",
+        "sentence_text": "For example, in text categorization, we know that words such as NBA, player, and basketball are strong indicators of the sports category  , and words like terrible, boring, and messing indicate a negative polarity while words like perfect, exciting, and moving suggest a positive polarity in sentiment classification.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 764
+      },
+      {
+        "cross_encoder_score": -0.5218738913536072,
+        "dataset": "QASPER",
+        "end_char": 1243,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "ef67024ab36beec3c84393347ff9f4c8",
+        "passage_rank": 1,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "1df3e43d7a539b9f3c825fbb194aaa3b",
+        "sentence_text": "A key problem arisen here, is how to leverage such knowledge to guide the learning process, an interesting problem for both NLP and machine learning communities.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1082
+      },
+      {
+        "cross_encoder_score": -11.224946022033691,
+        "dataset": "QASPER",
+        "end_char": 1308,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "ef67024ab36beec3c84393347ff9f4c8",
+        "passage_rank": 1,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "2a00a0104bb17aa7e6086d67ecf75649",
+        "sentence_text": "Previous studies addressing the problem fall into several lines.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1244
+      },
+      {
+        "cross_encoder_score": -0.314901202917099,
+        "dataset": "QASPER",
+        "end_char": 1363,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "ef67024ab36beec3c84393347ff9f4c8",
+        "passage_rank": 1,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "edeb315a36d8ddb83d9ca74827c69d04",
+        "sentence_text": "First, to leverage prior knowledge to label data  ,  .",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1309
+      },
+      {
+        "cross_encoder_score": -10.60595703125,
+        "dataset": "QASPER",
+        "end_char": 1452,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "ef67024ab36beec3c84393347ff9f4c8",
+        "passage_rank": 1,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "fd3b3bfffbe530664e8b127767ff2582",
+        "sentence_text": "Second, to encode prior knowledge with a prior on parameters, which can be commonly seen",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1364
+      },
+      {
+        "cross_encoder_score": -11.20007610321045,
+        "dataset": "QASPER",
+        "end_char": 1486,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "ba43acfd99e4e351e13dc2261fdc739f",
+        "passage_rank": 3,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "ccf622930e9b728075c42ffc837057d4",
+        "sentence_text": "in many Bayesian approaches  ,  .",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1453
+      },
+      {
+        "cross_encoder_score": -10.330243110656738,
+        "dataset": "QASPER",
+        "end_char": 1568,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "ba43acfd99e4e351e13dc2261fdc739f",
+        "passage_rank": 3,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "368c26a93c1c4f34e20e14a6ca4921be",
+        "sentence_text": "Third, to formalise prior knowledge with additional variables and dependencies  .",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1487
+      },
+      {
+        "cross_encoder_score": -10.842965126037598,
+        "dataset": "QASPER",
+        "end_char": 1719,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "ba43acfd99e4e351e13dc2261fdc739f",
+        "passage_rank": 3,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "5b67c25ad2d0b5ae2b73b300ba2c9ef2",
+        "sentence_text": "Last, to use prior knowledge to control the distributions over latent output variables  ,  ,  , which makes the output variables easily interpretable.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1569
+      },
+      {
+        "cross_encoder_score": -9.721046447753906,
+        "dataset": "QASPER",
+        "end_char": 1853,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "ba43acfd99e4e351e13dc2261fdc739f",
+        "passage_rank": 3,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "e20d613fc51bd1c30a0649efb50f4e08",
+        "sentence_text": "However, a crucial problem, which has rarely been addressed, is the bias in the prior knowledge that we supply to the learning model.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1720
+      },
+      {
+        "cross_encoder_score": -10.481266975402832,
+        "dataset": "QASPER",
+        "end_char": 1916,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "ba43acfd99e4e351e13dc2261fdc739f",
+        "passage_rank": 3,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "a5cde0e29d15fab0aa5eee4fc5c05a5d",
+        "sentence_text": "Would the model be robust or sensitive to the prior knowledge?",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 1854
+      },
+      {
+        "cross_encoder_score": -10.061294555664062,
+        "dataset": "QASPER",
+        "end_char": 1973,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "ba43acfd99e4e351e13dc2261fdc739f",
+        "passage_rank": 3,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "076f0ccccc6a1ef397ec06752d3e70cb",
+        "sentence_text": "Or, which kind of knowledge is appropriate for the task?",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 1917
+      },
+      {
+        "cross_encoder_score": -11.44197940826416,
+        "dataset": "QASPER",
+        "end_char": 2180,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "ba43acfd99e4e351e13dc2261fdc739f",
+        "passage_rank": 3,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "652be4fb2a4abae031b1fb0180602e60",
+        "sentence_text": "Let's see an example: we may be a baseball fan but unfamiliar with hockey so that we can provide a few number of feature words of baseball, but much less of hockey for a baseball-hockey classification task.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 1974
+      },
+      {
+        "cross_encoder_score": -10.554272651672363,
+        "dataset": "QASPER",
+        "end_char": 2252,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "ba43acfd99e4e351e13dc2261fdc739f",
+        "passage_rank": 3,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "15b68350bdb8992480e250c984aed0b8",
+        "sentence_text": "Such prior knowledge may mislead the model with heavy bias to baseball.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2181
+      },
+      {
+        "cross_encoder_score": -11.424535751342773,
+        "dataset": "QASPER",
+        "end_char": 2345,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "ba43acfd99e4e351e13dc2261fdc739f",
+        "passage_rank": 3,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "94c214fba6bc97586cebd78cbfaf3cd7",
+        "sentence_text": "If the model cannot handle this situation appropriately, the performance may be undesirable.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          1,
+          8,
+          0
+        ],
+        "source_position": 2253
+      },
+      {
+        "cross_encoder_score": -11.382118225097656,
+        "dataset": "QASPER",
+        "end_char": 2448,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "ba43acfd99e4e351e13dc2261fdc739f",
+        "passage_rank": 3,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "6a6f31a1c9940f76942325194c005c65",
+        "sentence_text": "In this paper, we investigate into the problem in the framework of Generalized Expectation Criteria  .",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          1,
+          9,
+          0
+        ],
+        "source_position": 2346
+      },
+      {
+        "cross_encoder_score": -10.181543350219727,
+        "dataset": "QASPER",
+        "end_char": 2595,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "ba43acfd99e4e351e13dc2261fdc739f",
+        "passage_rank": 3,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "a61c4987d549b0730138f20cbb32da59",
+        "sentence_text": "The study aims to reveal the factors of reducing the sensibility of the prior knowledge and therefore to make the model more robust and practical.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          1,
+          10,
+          0
+        ],
+        "source_position": 2449
+      },
+      {
+        "cross_encoder_score": -10.884305000305176,
+        "dataset": "QASPER",
+        "end_char": 2734,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "ba43acfd99e4e351e13dc2261fdc739f",
+        "passage_rank": 3,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "9d774392612d49286420b338dbe0403e",
+        "sentence_text": "To this end, we introduce auxiliary regularization terms in which our prior knowledge is formalized as distribution over output variables.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          1,
+          11,
+          0
+        ],
+        "source_position": 2596
+      },
+      {
+        "cross_encoder_score": -11.31389331817627,
+        "dataset": "QASPER",
+        "end_char": 2798,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "ba43acfd99e4e351e13dc2261fdc739f",
+        "passage_rank": 3,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "1829995a79e22752a4a993c05549e96f",
+        "sentence_text": "Recall the example just mentioned, though we do not have enough",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          1,
+          12,
+          0
+        ],
+        "source_position": 2735
+      },
+      {
+        "cross_encoder_score": -10.042387962341309,
+        "dataset": "QASPER",
+        "end_char": 2971,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "912a6c2f0793e8fde4b5294d813f419b",
+        "passage_rank": 6,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "63aad498bc5ce4979deba17bb8126152",
+        "sentence_text": "knowledge to provide features for class hockey, it is easy for us to provide some neutral words, namely words that are not strong indicators of any class, like player here.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2799
+      },
+      {
+        "cross_encoder_score": -11.352234840393066,
+        "dataset": "QASPER",
+        "end_char": 3117,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "912a6c2f0793e8fde4b5294d813f419b",
+        "passage_rank": 6,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "2ba0a806ce03b3c98149a4faa14916d6",
+        "sentence_text": "As one of the factors revealed in this paper, supplying neutral feature words can boost the performance remarkably, making the model more robust.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2972
+      },
+      {
+        "cross_encoder_score": -11.462815284729004,
+        "dataset": "QASPER",
+        "end_char": 3232,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "912a6c2f0793e8fde4b5294d813f419b",
+        "passage_rank": 6,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "bbd6e39118ba9a449dbc4403bd977835",
+        "sentence_text": "More attractively, we do not need manual annotation to label these neutral feature words in our proposed approach.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 3118
+      },
+      {
+        "cross_encoder_score": -11.434075355529785,
+        "dataset": "QASPER",
+        "end_char": 3518,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "912a6c2f0793e8fde4b5294d813f419b",
+        "passage_rank": 6,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "9a9ade49ff064f5d44e6e88d582f7b53",
+        "sentence_text": "More specifically, we explore three regularization terms to address the problem: (1) a regularization term associated with neutral features; (2) the maximum entropy of class distribution regularization term; and (3) the KL divergence between reference and predicted class distribution.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3233
+      },
+      {
+        "cross_encoder_score": -11.421379089355469,
+        "dataset": "QASPER",
+        "end_char": 3676,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "912a6c2f0793e8fde4b5294d813f419b",
+        "passage_rank": 6,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "1b578dc07fd4e751a04f2d45967e70d4",
+        "sentence_text": "For the first manner, we simply use the most common features as neutral features and assume the neutral features are distributed uniformly over class labels.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3519
+      },
+      {
+        "cross_encoder_score": -10.586129188537598,
+        "dataset": "QASPER",
+        "end_char": 3803,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "912a6c2f0793e8fde4b5294d813f419b",
+        "passage_rank": 6,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "73b5f4d5573e3206cc9c43ca9ed53984",
+        "sentence_text": "For the second and third one, we assume we have some knowledge about the class distribution which will be detailed soon later.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3677
+      },
+      {
+        "cross_encoder_score": -11.456901550292969,
+        "dataset": "QASPER",
+        "end_char": 4035,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "912a6c2f0793e8fde4b5294d813f419b",
+        "passage_rank": 6,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "8b1d8824030eda682bc8a333ed608dbd",
+        "sentence_text": "To summarize, the main contributions of this work are as follows: The rest of the paper is structured as follows: In Section 2, we briefly describe the generalized expectation criteria and present the proposed regularization terms.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3804
+      },
+      {
+        "cross_encoder_score": -11.335688591003418,
+        "dataset": "QASPER",
+        "end_char": 4115,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "912a6c2f0793e8fde4b5294d813f419b",
+        "passage_rank": 6,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "7dca3d107e7acb9b15663318c1035347",
+        "sentence_text": "In Section 3, we conduct extensive experiments to justify the proposed methods.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 4036
+      },
+      {
+        "cross_encoder_score": -11.435483932495117,
+        "dataset": "QASPER",
+        "end_char": 4186,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "912a6c2f0793e8fde4b5294d813f419b",
+        "passage_rank": 6,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "186bf90cfe946a59d12940ba28c0b734",
+        "sentence_text": "We survey related work in Section 4, and summarize our work in Section",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 4116
+      },
+      {
+        "cross_encoder_score": -11.40225601196289,
+        "dataset": "QASPER",
+        "end_char": 5339,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "f1af15da931046b06b082ea245d0ce33",
+        "passage_rank": 9,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "a23805ebe0543fc236d217f65f221ebc",
+        "sentence_text": "x})}[G({\\rm x}, y)]])$$   (Eq. 4)",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "source_position": 5306
+      },
+      {
+        "cross_encoder_score": -11.375946998596191,
+        "dataset": "QASPER",
+        "end_char": 5477,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "f1af15da931046b06b082ea245d0ce33",
+        "passage_rank": 9,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "832e948795dd9da9ad8f886ef9895bd6",
+        "sentence_text": "Learning from Labeled Features\tDruck et al. ge-fl proposed GE-FL to learn from labeled features using generalized expectation criteria.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "source_position": 5342
+      },
+      {
+        "cross_encoder_score": -11.480284690856934,
+        "dataset": "QASPER",
+        "end_char": 5621,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "f1af15da931046b06b082ea245d0ce33",
+        "passage_rank": 9,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "a255e12dae397e28dae69b10c6b92800",
+        "sentence_text": "When given a set of labeled features $K$ , the reference distribution over classes of these features is denoted by $\\hat{p}(y| x_k), k \\in K$ .",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "source_position": 5478
+      },
+      {
+        "cross_encoder_score": -11.3947172164917,
+        "dataset": "QASPER",
+        "end_char": 6025,
+        "pair_tokens_before_truncation": 160,
+        "pair_truncated": false,
+        "passage_id": "f1af15da931046b06b082ea245d0ce33",
+        "passage_rank": 9,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "2c2a996a4a892fe19fa827b2416fb728",
+        "sentence_text": "GE-FL introduces the divergence between this reference distribution and the model predicted distribution $p_\\theta (y | x_k)$ , as a term of the objective function:  $$\\mathcal {O} = \\sum _{k \\in K} KL(\\hat{p}(y|x_k) || p_\\theta (y | x_k)) + \\sum _{y,i} \\frac{\\theta _{yi}^2}{2 \\sigma ^2}$$   (Eq. 6)  where $\\theta _{yi}$ is the model parameter which indicates the importance of word $i$ to class $y$ .",
+        "sentence_token_cost": 132,
+        "source_order": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "source_position": 5622
+      },
+      {
+        "cross_encoder_score": -11.45081615447998,
+        "dataset": "QASPER",
+        "end_char": 6125,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "f1af15da931046b06b082ea245d0ce33",
+        "passage_rank": 9,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "89035cb843263485910cdbf63b3214a8",
+        "sentence_text": "The predicted distribution $p_\\theta (y | x_k)$ can be expressed as follows: $\np_\\theta (y | x_k) =",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "source_position": 6026
+      },
+      {
+        "cross_encoder_score": -9.860230445861816,
+        "dataset": "QASPER",
+        "end_char": 6961,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "a32eeb35234b3042dcda45d83c5f3c31",
+        "passage_rank": 8,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "d87d7475039d0569098b46f59b23abd4",
+        "sentence_text": "and performs well when we provide prior knowledge with no bias.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 6898
+      },
+      {
+        "cross_encoder_score": -11.329676628112793,
+        "dataset": "QASPER",
+        "end_char": 7072,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "a32eeb35234b3042dcda45d83c5f3c31",
+        "passage_rank": 8,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "69a4f9d18dadc2582bdf74c7201e319c",
+        "sentence_text": "In our experiments, we observe that comparable numbers of labeled features for each class have to be supplied.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 6962
+      },
+      {
+        "cross_encoder_score": -9.792512893676758,
+        "dataset": "QASPER",
+        "end_char": 7192,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "a32eeb35234b3042dcda45d83c5f3c31",
+        "passage_rank": 8,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "9de6811aa4d2447e12f71385c157f882",
+        "sentence_text": "But as mentioned before, it is often the case that we are not able to provide enough knowledge for some of the classes.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 7073
+      },
+      {
+        "cross_encoder_score": -11.47581958770752,
+        "dataset": "QASPER",
+        "end_char": 7308,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "a32eeb35234b3042dcda45d83c5f3c31",
+        "passage_rank": 8,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "2bfcfa445969a7c405787d5357e6e6e5",
+        "sentence_text": "For the baseball-hockey classification task, as shown before, GE-FL will predict most of the instances as baseball.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 7193
+      },
+      {
+        "cross_encoder_score": -11.437043190002441,
+        "dataset": "QASPER",
+        "end_char": 7381,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "a32eeb35234b3042dcda45d83c5f3c31",
+        "passage_rank": 8,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "f6a175ccb78048647ace27485bdcbdff",
+        "sentence_text": "In this section, we will show three terms to make the model more robust.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 7309
+      },
+      {
+        "cross_encoder_score": -11.368236541748047,
+        "dataset": "QASPER",
+        "end_char": 7532,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "a32eeb35234b3042dcda45d83c5f3c31",
+        "passage_rank": 8,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "9ccab620ea859f9d8c7af661cd31a324",
+        "sentence_text": "Neutral features are features that are not informative indicator of any classes, for instance, word player to the baseball-hockey classification task.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 7382
+      },
+      {
+        "cross_encoder_score": -11.37755012512207,
+        "dataset": "QASPER",
+        "end_char": 7596,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "a32eeb35234b3042dcda45d83c5f3c31",
+        "passage_rank": 8,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "faca243b52f3f067a758fcbd29de2201",
+        "sentence_text": "Such features are usually frequent words across all categories.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 7533
+      },
+      {
+        "cross_encoder_score": -11.441603660583496,
+        "dataset": "QASPER",
+        "end_char": 7807,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "a32eeb35234b3042dcda45d83c5f3c31",
+        "passage_rank": 8,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "4ce0c42b3dd4887e7afed1888aee1091",
+        "sentence_text": "When we set the preference distribution of the neutral features to be uniform distributed, these neutral features will prevent the model from biasing to the class that has a dominate number of labeled features.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 7597
+      },
+      {
+        "cross_encoder_score": -11.428153038024902,
+        "dataset": "QASPER",
+        "end_char": 7993,
+        "pair_tokens_before_truncation": 88,
+        "pair_truncated": false,
+        "passage_id": "a32eeb35234b3042dcda45d83c5f3c31",
+        "passage_rank": 8,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "ae6bdb5f9fee8a751d744b5bb9776fbd",
+        "sentence_text": "Formally, given a set of neutral features $K^{^{\\prime }}$ , the uniform distribution is $\\hat{p}_u(y|x_k) = \\frac{1}{|C|}, k \\in K^{^{\\prime }}$ , where $|C|$ is the number of classes.",
+        "sentence_token_cost": 64,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 7808
+      },
+      {
+        "cross_encoder_score": -11.465511322021484,
+        "dataset": "QASPER",
+        "end_char": 8074,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "a32eeb35234b3042dcda45d83c5f3c31",
+        "passage_rank": 8,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "2e66bdc0285675145673f66db87bf239",
+        "sentence_text": "The objective function with the new term becomes  $$\\mathcal {O}_{NE} = \\mathcal",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          6,
+          9,
+          0
+        ],
+        "source_position": 7994
+      },
+      {
+        "cross_encoder_score": -11.305763244628906,
+        "dataset": "QASPER",
+        "end_char": 12456,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "b0c2bea83215852c7bd37119d6e8113f",
+        "passage_rank": 10,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "58493f68a02c17dc35f08c77b2869034",
+        "sentence_text": "$w_i$ given topic $t_j$ ).",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 12430
+      },
+      {
+        "cross_encoder_score": -11.414249420166016,
+        "dataset": "QASPER",
+        "end_char": 12564,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "b0c2bea83215852c7bd37119d6e8113f",
+        "passage_rank": 10,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "4cf627d7741305b932fb8e1dc8f04e17",
+        "sentence_text": "Similar to  ,  , we estimate the reference distribution of the labeled features using a heuristic strategy.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 12457
+      },
+      {
+        "cross_encoder_score": -11.42496109008789,
+        "dataset": "QASPER",
+        "end_char": 12800,
+        "pair_tokens_before_truncation": 92,
+        "pair_truncated": false,
+        "passage_id": "b0c2bea83215852c7bd37119d6e8113f",
+        "passage_rank": 10,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "1d80217821916f41660e0c2e58a8d8af",
+        "sentence_text": "If there are $|C|$ classes in total, and $n$ classes are associated with a feature $k$ , the probability that feature $k$ is related with any one of the $n$ classes is $\\frac{0.9}{n}$ and with any other class is $\\frac{0.1}{|C| - n}$ .",
+        "sentence_token_cost": 73,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 12565
+      },
+      {
+        "cross_encoder_score": -11.448197364807129,
+        "dataset": "QASPER",
+        "end_char": 12933,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "b0c2bea83215852c7bd37119d6e8113f",
+        "passage_rank": 10,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "43fd9e6c897075b56c0cd1d1a6a3d312",
+        "sentence_text": "Neutral features are the most frequent words after removing stop words, and their reference distributions are uniformly distributed.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 12801
+      },
+      {
+        "cross_encoder_score": -11.457674980163574,
+        "dataset": "QASPER",
+        "end_char": 13006,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "b0c2bea83215852c7bd37119d6e8113f",
+        "passage_rank": 10,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "4ef78448d27fa79a13dcb8967135c9e2",
+        "sentence_text": "We use the top 10 frequent words as neutral features in all experiments.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 12934
+      },
+      {
+        "cross_encoder_score": -11.002095222473145,
+        "dataset": "QASPER",
+        "end_char": 13153,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "b0c2bea83215852c7bd37119d6e8113f",
+        "passage_rank": 10,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "6f36964695f550e186881d2488ca95d0",
+        "sentence_text": "With Unbalanced Labeled Features\tIn this section, we evaluate our approach when there is unbalanced knowledge on the categories to be classified.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 13008
+      },
+      {
+        "cross_encoder_score": -11.3151216506958,
+        "dataset": "QASPER",
+        "end_char": 13213,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "b0c2bea83215852c7bd37119d6e8113f",
+        "passage_rank": 10,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "3d5bcde0c8225ac157314d577dd5ef99",
+        "sentence_text": "The labeled features are obtained through information gain.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 13154
+      },
+      {
+        "cross_encoder_score": -11.467702865600586,
+        "dataset": "QASPER",
+        "end_char": 13359,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "b0c2bea83215852c7bd37119d6e8113f",
+        "passage_rank": 10,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "84cf85b827db731f9498aef03ec0d784",
+        "sentence_text": "Two settings are chosen: (a) We randomly select $t \\in [1, 20]$ features from the feature pool for one class, and only one feature for the other.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 13214
+      },
+      {
+        "cross_encoder_score": -11.444913864135742,
+        "dataset": "QASPER",
+        "end_char": 13428,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "b0c2bea83215852c7bd37119d6e8113f",
+        "passage_rank": 10,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "ccfde82d4b76a95380f5a373131fa1fa",
+        "sentence_text": "The original balanced movie dataset is used (positive:negative=1:1).",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          11,
+          8,
+          0
+        ],
+        "source_position": 13360
+      },
+      {
+        "cross_encoder_score": -11.443900108337402,
+        "dataset": "QASPER",
+        "end_char": 13532,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "b0c2bea83215852c7bd37119d6e8113f",
+        "passage_rank": 10,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "1a42771e16144df7739b86e1bdb4af4c",
+        "sentence_text": "(b) Similar to (a), but the dataset is unbalanced, obtained by randomly removing 75% positive documents",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          11,
+          9,
+          0
+        ],
+        "source_position": 13429
+      },
+      {
+        "cross_encoder_score": -11.127603530883789,
+        "dataset": "QASPER",
+        "end_char": 18477,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "1d23e333ae0893aee0297f1c87d366a9",
+        "passage_rank": 7,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "9c0c51a9d7424bd7074eaec7df43d3a7",
+        "sentence_text": "the balance among classes.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "source_position": 18451
+      },
+      {
+        "cross_encoder_score": -11.44087028503418,
+        "dataset": "QASPER",
+        "end_char": 18569,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "1d23e333ae0893aee0297f1c87d366a9",
+        "passage_rank": 7,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "7a59d3d8f23f5d8c052a2673cc9a7931",
+        "sentence_text": "GE-FL does not exert any control on such an issue, so the performance is severely suffered.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          16,
+          1,
+          0
+        ],
+        "source_position": 18478
+      },
+      {
+        "cross_encoder_score": -11.359733581542969,
+        "dataset": "QASPER",
+        "end_char": 18695,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "1d23e333ae0893aee0297f1c87d366a9",
+        "passage_rank": 7,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "a763b64f4a3f1ba208a11e3446922491",
+        "sentence_text": "Our methods introduce auxiliary regularization terms to control such a bias problem and thus promote the model significantly.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          16,
+          2,
+          0
+        ],
+        "source_position": 18570
+      },
+      {
+        "cross_encoder_score": -9.415519714355469,
+        "dataset": "QASPER",
+        "end_char": 18824,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "1d23e333ae0893aee0297f1c87d366a9",
+        "passage_rank": 7,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "16056302ec8af2abfd2911986bbb361c",
+        "sentence_text": "Related Work\tThere have been much work that incorporate prior knowledge into learning, and two related lines are surveyed here.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          16,
+          3,
+          0
+        ],
+        "source_position": 18697
+      },
+      {
+        "cross_encoder_score": -10.517518043518066,
+        "dataset": "QASPER",
+        "end_char": 18929,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "1d23e333ae0893aee0297f1c87d366a9",
+        "passage_rank": 7,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "cf0a2a1441fee0442d068b0262310fa7",
+        "sentence_text": "One is to use prior knowledge to label unlabeled instances and then apply a standard learning algorithm.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          16,
+          4,
+          0
+        ],
+        "source_position": 18825
+      },
+      {
+        "cross_encoder_score": -9.477926254272461,
+        "dataset": "QASPER",
+        "end_char": 18996,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "1d23e333ae0893aee0297f1c87d366a9",
+        "passage_rank": 7,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "c686e579754c183542d589a3fc7a1b95",
+        "sentence_text": "The other is to constrain the model directly with prior knowledge.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          16,
+          5,
+          0
+        ],
+        "source_position": 18930
+      },
+      {
+        "cross_encoder_score": -11.433440208435059,
+        "dataset": "QASPER",
+        "end_char": 19142,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "1d23e333ae0893aee0297f1c87d366a9",
+        "passage_rank": 7,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "90fc3ef7932ea3562b804108ba8cf789",
+        "sentence_text": "Liu et al.text manually labeled features which are highly predictive to unsupervised clustering assignments and use them to label unlabeled data.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          16,
+          6,
+          0
+        ],
+        "source_position": 18997
+      },
+      {
+        "cross_encoder_score": -11.143820762634277,
+        "dataset": "QASPER",
+        "end_char": 19199,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "1d23e333ae0893aee0297f1c87d366a9",
+        "passage_rank": 7,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "bb9832ae717d72bd9237f3fd1456aa08",
+        "sentence_text": "Chang et al.guiding proposed constraint driven learning.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          16,
+          7,
+          0
+        ],
+        "source_position": 19143
+      },
+      {
+        "cross_encoder_score": -11.041313171386719,
+        "dataset": "QASPER",
+        "end_char": 19338,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "1d23e333ae0893aee0297f1c87d366a9",
+        "passage_rank": 7,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "0ac49b15f42cb42227ec08f1511ba8ff",
+        "sentence_text": "They first used constraints and the learned model to annotate unlabeled instances, and then updated the model with the newly labeled data.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          16,
+          8,
+          0
+        ],
+        "source_position": 19200
+      },
+      {
+        "cross_encoder_score": -10.527382850646973,
+        "dataset": "QASPER",
+        "end_char": 19566,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "1d23e333ae0893aee0297f1c87d366a9",
+        "passage_rank": 7,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "e58eaf82e2cef093d1e00977e8da2a9a",
+        "sentence_text": "Daum\u00e9 daume2008cross proposed a self training method in which several models are trained on the same dataset, and only unlabeled instances that satisfy the cross task knowledge constraints are used in the self training process.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          16,
+          9,
+          0
+        ],
+        "source_position": 19339
+      },
+      {
+        "cross_encoder_score": -11.096811294555664,
+        "dataset": "QASPER",
+        "end_char": 19850,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "1d23e333ae0893aee0297f1c87d366a9",
+        "passage_rank": 7,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "a96a95d7b70263a4f2e9c2b19b74bdd2",
+        "sentence_text": "MaCallum et al.gec proposed generalized expectation(GE) criteria which formalised the knowledge as constraint terms about the expectation of the model into the objective function.Gra\u00e7a et al.pr proposed posterior regularization(PR) framework which projects the model's posterior onto",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          16,
+          10,
+          0
+        ],
+        "source_position": 19567
+      },
+      {
+        "cross_encoder_score": -11.381113052368164,
+        "dataset": "QASPER",
+        "end_char": 19913,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "24b2dae7994118ef0c20d0066b4fe4ef",
+        "passage_rank": 4,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "aa0f20a67f31806cf2d726292100a194",
+        "sentence_text": "a set of distributions that satisfy the auxiliary constraints.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          17,
+          0,
+          0
+        ],
+        "source_position": 19851
+      },
+      {
+        "cross_encoder_score": -11.401010513305664,
+        "dataset": "QASPER",
+        "end_char": 20089,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "24b2dae7994118ef0c20d0066b4fe4ef",
+        "passage_rank": 4,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "54a8eddb46cef3f7268e7bfe35823884",
+        "sentence_text": "Druck et al.ge-fl explored constraints of labeled features in the framework of GE by forcing the model's predicted feature distribution to approach the reference distribution.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          17,
+          1,
+          0
+        ],
+        "source_position": 19914
+      },
+      {
+        "cross_encoder_score": -9.407261848449707,
+        "dataset": "QASPER",
+        "end_char": 20226,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "24b2dae7994118ef0c20d0066b4fe4ef",
+        "passage_rank": 4,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "afebb34596cf2d5826795a633d534000",
+        "sentence_text": "Andrzejewski et al.andrzejewski2011framework proposed a framework in which general domain knowledge can be easily incorporated into LDA.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          17,
+          2,
+          0
+        ],
+        "source_position": 20090
+      },
+      {
+        "cross_encoder_score": -11.054919242858887,
+        "dataset": "QASPER",
+        "end_char": 20355,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "24b2dae7994118ef0c20d0066b4fe4ef",
+        "passage_rank": 4,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "2655c17163f4309c3813bb99359d52eb",
+        "sentence_text": "Altendorf et al.altendorf2012learning explored monotonicity constraints to improve the accuracy while learning from sparse data.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          17,
+          3,
+          0
+        ],
+        "source_position": 20227
+      },
+      {
+        "cross_encoder_score": -9.615276336669922,
+        "dataset": "QASPER",
+        "end_char": 20466,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "24b2dae7994118ef0c20d0066b4fe4ef",
+        "passage_rank": 4,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "180725a10d2aee0630527d4715c70f49",
+        "sentence_text": "Chen et al.chen2013leveraging tried to learn comprehensible topic models by leveraging multi-domain knowledge.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          17,
+          4,
+          0
+        ],
+        "source_position": 20356
+      },
+      {
+        "cross_encoder_score": -10.741180419921875,
+        "dataset": "QASPER",
+        "end_char": 20629,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "24b2dae7994118ef0c20d0066b4fe4ef",
+        "passage_rank": 4,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "deed31510d83d42d64c8792c1209d0be",
+        "sentence_text": "Mann and McCallum simple,generalized incorporated not only labeled features but also other knowledge like class distribution into the objective function of GE-FL.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          17,
+          5,
+          0
+        ],
+        "source_position": 20467
+      },
+      {
+        "cross_encoder_score": -11.237699508666992,
+        "dataset": "QASPER",
+        "end_char": 20783,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "24b2dae7994118ef0c20d0066b4fe4ef",
+        "passage_rank": 4,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "bf838e947ed57c4624fd451bbda5852c",
+        "sentence_text": "But they discussed only from the semi-supervised perspective and did not investigate into the robustness problem, unlike what we addressed in this paper.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          17,
+          6,
+          0
+        ],
+        "source_position": 20630
+      },
+      {
+        "cross_encoder_score": -8.05441951751709,
+        "dataset": "QASPER",
+        "end_char": 20858,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "24b2dae7994118ef0c20d0066b4fe4ef",
+        "passage_rank": 4,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "f075610e3e8d11576e65280b5cdb7ace",
+        "sentence_text": "There are also some active learning methods trying to use prior knowledge.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          17,
+          7,
+          0
+        ],
+        "source_position": 20784
+      },
+      {
+        "cross_encoder_score": -11.445372581481934,
+        "dataset": "QASPER",
+        "end_char": 21013,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "24b2dae7994118ef0c20d0066b4fe4ef",
+        "passage_rank": 4,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "2eb364a6e9baeb63e6c7c228258d95c1",
+        "sentence_text": "Raghavan et al.feedback proposed to use feedback on instances and features interlacedly, and demonstrated that feedback on features boosts the model much.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          17,
+          8,
+          0
+        ],
+        "source_position": 20859
+      },
+      {
+        "cross_encoder_score": -11.289392471313477,
+        "dataset": "QASPER",
+        "end_char": 21166,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "24b2dae7994118ef0c20d0066b4fe4ef",
+        "passage_rank": 4,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "6365e7bc7a0a26d07f68d3dc6e866d04",
+        "sentence_text": "Druck et al.active proposed an active learning method which solicits labels on features rather than on instances and then used GE-FL to train the model.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          17,
+          9,
+          0
+        ],
+        "source_position": 21014
+      },
+      {
+        "cross_encoder_score": 0.8594217300415039,
+        "dataset": "QASPER",
+        "end_char": 21299,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "0bdc61a7c06965d2e9d880404ad2112a",
+        "passage_rank": 2,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "417a1d1721f621fe2d2beece6bcad192",
+        "sentence_text": "Conclusion and Discussions\tThis paper investigates into the problem of how to leverage prior knowledge robustly in learning models.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          18,
+          0,
+          0
+        ],
+        "source_position": 21168
+      },
+      {
+        "cross_encoder_score": -11.448145866394043,
+        "dataset": "QASPER",
+        "end_char": 21381,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "0bdc61a7c06965d2e9d880404ad2112a",
+        "passage_rank": 2,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "71b5f6a02a485ae55dda7c9799898fae",
+        "sentence_text": "We propose three regularization terms on top of generalized expectation criteria.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          18,
+          1,
+          0
+        ],
+        "source_position": 21300
+      },
+      {
+        "cross_encoder_score": -11.420914649963379,
+        "dataset": "QASPER",
+        "end_char": 21511,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "0bdc61a7c06965d2e9d880404ad2112a",
+        "passage_rank": 2,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "bae4ccd16cf2d0e85eca986c48923dc7",
+        "sentence_text": "As demonstrated by the experimental results, the performance can be considerably improved when taking into account these factors.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          18,
+          2,
+          0
+        ],
+        "source_position": 21382
+      },
+      {
+        "cross_encoder_score": -11.401845932006836,
+        "dataset": "QASPER",
+        "end_char": 21623,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "0bdc61a7c06965d2e9d880404ad2112a",
+        "passage_rank": 2,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "d7f67a58167556d0a1d31dcc8c6ecd7c",
+        "sentence_text": "Comparative results show that our proposed methods is more effective and works more robustly against baselines.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          18,
+          3,
+          0
+        ],
+        "source_position": 21512
+      },
+      {
+        "cross_encoder_score": -8.893284797668457,
+        "dataset": "QASPER",
+        "end_char": 21767,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "0bdc61a7c06965d2e9d880404ad2112a",
+        "passage_rank": 2,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "3dc974167e89b16a8f1ae1cf4103a926",
+        "sentence_text": "To the best of our knowledge, this is the first work to address the robustness problem of leveraging knowledge, and may inspire other research.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          18,
+          4,
+          0
+        ],
+        "source_position": 21624
+      },
+      {
+        "cross_encoder_score": -11.38270092010498,
+        "dataset": "QASPER",
+        "end_char": 21849,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "0bdc61a7c06965d2e9d880404ad2112a",
+        "passage_rank": 2,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "98a342235236f92faa9fc48a8cfff670",
+        "sentence_text": "We then present more detailed discussions about the three regularization methods.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          18,
+          5,
+          0
+        ],
+        "source_position": 21768
+      },
+      {
+        "cross_encoder_score": -11.384421348571777,
+        "dataset": "QASPER",
+        "end_char": 22010,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "0bdc61a7c06965d2e9d880404ad2112a",
+        "passage_rank": 2,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "b9bdcc44aca1fb6b90a0097586c8c40a",
+        "sentence_text": "Incorporating neutral features is the simplest way of regularization, which doesn't require any modification of GE-FL but just finding out some common features.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          18,
+          6,
+          0
+        ],
+        "source_position": 21850
+      },
+      {
+        "cross_encoder_score": -11.341195106506348,
+        "dataset": "QASPER",
+        "end_char": 22136,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "0bdc61a7c06965d2e9d880404ad2112a",
+        "passage_rank": 2,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "f9cd5c7c2bd60a9f428b409fb161c721",
+        "sentence_text": "But as Figure 1 (a) shows, only using neutral features are not strong enough to handle extremely unbalanced labeled features.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          18,
+          7,
+          0
+        ],
+        "source_position": 22011
+      },
+      {
+        "cross_encoder_score": -11.245601654052734,
+        "dataset": "QASPER",
+        "end_char": 22227,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "0bdc61a7c06965d2e9d880404ad2112a",
+        "passage_rank": 2,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "499b98614af91c01cc2ea8a9fcc317b3",
+        "sentence_text": "The maximum entropy regularization term shows the strong ability of controlling unbalance.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          18,
+          8,
+          0
+        ],
+        "source_position": 22137
+      },
+      {
+        "cross_encoder_score": -10.847710609436035,
+        "dataset": "QASPER",
+        "end_char": 22333,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "0bdc61a7c06965d2e9d880404ad2112a",
+        "passage_rank": 2,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "346d68a95632982346e64e19979e06e3",
+        "sentence_text": "This method doesn't need any extra knowledge, and is thus suitable when we know nothing about the corpus.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          18,
+          9,
+          0
+        ],
+        "source_position": 22228
+      },
+      {
+        "cross_encoder_score": -11.417133331298828,
+        "dataset": "QASPER",
+        "end_char": 22561,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "0bdc61a7c06965d2e9d880404ad2112a",
+        "passage_rank": 2,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "176ea64bb0c8c2688a865226cf2c3e00",
+        "sentence_text": "But this method assumes that the categories are uniformly distributed, which may not be the case in practice, and it will have a degraded performance if the assumption is violated (see Figure 1 (b), Figure 2 (b), Figure 3 (a)).",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          18,
+          10,
+          0
+        ],
+        "source_position": 22334
+      },
+      {
+        "cross_encoder_score": -11.044862747192383,
+        "dataset": "QASPER",
+        "end_char": 22568,
+        "pair_tokens_before_truncation": 13,
+        "pair_truncated": false,
+        "passage_id": "0bdc61a7c06965d2e9d880404ad2112a",
+        "passage_rank": 2,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "0cd04abebd5b6c51a1c5d1233fd27dc3",
+        "sentence_text": "The KL",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          18,
+          11,
+          0
+        ],
+        "source_position": 22562
+      },
+      {
+        "cross_encoder_score": -11.317964553833008,
+        "dataset": "QASPER",
+        "end_char": 22642,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "5ee717925d43029a6f65a8a16f793ea6",
+        "passage_rank": 5,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "2ad2ac2dac9dc6a8ae517e98ebf1f22c",
+        "sentence_text": "divergence performs much better on unbalanced corpora than other methods.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          19,
+          0,
+          0
+        ],
+        "source_position": 22569
+      },
+      {
+        "cross_encoder_score": -11.382131576538086,
+        "dataset": "QASPER",
+        "end_char": 22751,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "5ee717925d43029a6f65a8a16f793ea6",
+        "passage_rank": 5,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "c198a24ef39b7b92ade50788ae498c3b",
+        "sentence_text": "The reason is that KL divergence utilizes the reference class distribution and doesn't make any assumptions.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          19,
+          1,
+          0
+        ],
+        "source_position": 22643
+      },
+      {
+        "cross_encoder_score": -8.764713287353516,
+        "dataset": "QASPER",
+        "end_char": 22819,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "5ee717925d43029a6f65a8a16f793ea6",
+        "passage_rank": 5,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "7da7703f58cc54e41d247c9a1d6fe074",
+        "sentence_text": "The fact suggests that additional knowledge does benefit the model.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          19,
+          2,
+          0
+        ],
+        "source_position": 22752
+      },
+      {
+        "cross_encoder_score": -11.418068885803223,
+        "dataset": "QASPER",
+        "end_char": 22899,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "5ee717925d43029a6f65a8a16f793ea6",
+        "passage_rank": 5,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "6b31cb9bfaaf8f70aef8f17d3e64d0dc",
+        "sentence_text": "However, the KL divergence term requires providing the true class distribution.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          19,
+          3,
+          0
+        ],
+        "source_position": 22820
+      },
+      {
+        "cross_encoder_score": -10.86579418182373,
+        "dataset": "QASPER",
+        "end_char": 22997,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "5ee717925d43029a6f65a8a16f793ea6",
+        "passage_rank": 5,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "6a53a568bd982c597b7197e168c5446e",
+        "sentence_text": "Sometimes, we may have the exact knowledge about the true distribution, but sometimes we may not.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          19,
+          4,
+          0
+        ],
+        "source_position": 22900
+      },
+      {
+        "cross_encoder_score": -11.425293922424316,
+        "dataset": "QASPER",
+        "end_char": 23133,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "5ee717925d43029a6f65a8a16f793ea6",
+        "passage_rank": 5,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "fb44cc0355c4571572530fcc47f173e8",
+        "sentence_text": "Fortunately, the model is insensitive to the true distribution and therefore a rough estimation of the true distribution is sufficient.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          19,
+          5,
+          0
+        ],
+        "source_position": 22998
+      },
+      {
+        "cross_encoder_score": -11.356719970703125,
+        "dataset": "QASPER",
+        "end_char": 23308,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "5ee717925d43029a6f65a8a16f793ea6",
+        "passage_rank": 5,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "725654cbcc853229fb848c8e71de0f75",
+        "sentence_text": "In our experiments, when the true class distribution is 1:2, where the reference class distribution is set to 1:1.5/1:2/1:2.5, the accuracy is 0.755/0.756/0.760 respectively.",
+        "sentence_token_cost": 63,
+        "source_order": [
+          0,
+          19,
+          6,
+          0
+        ],
+        "source_position": 23134
+      },
+      {
+        "cross_encoder_score": -11.1737642288208,
+        "dataset": "QASPER",
+        "end_char": 23422,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "5ee717925d43029a6f65a8a16f793ea6",
+        "passage_rank": 5,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "6f8c1e17251cd6f64e169c6257b15c2f",
+        "sentence_text": "This provides us the possibility to perform simple computing on the corpus to obtain the distribution in reality.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          19,
+          7,
+          0
+        ],
+        "source_position": 23309
+      },
+      {
+        "cross_encoder_score": -11.024454116821289,
+        "dataset": "QASPER",
+        "end_char": 23485,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "5ee717925d43029a6f65a8a16f793ea6",
+        "passage_rank": 5,
+        "query_id": "50be4a737dc0951b35d139f51075011095d77f2a",
+        "sentence_id": "a19a4702f32aa1b0b3f11496686e8f72",
+        "sentence_text": "Or, we can set the distribution roughly with domain expertise.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          19,
+          8,
+          0
+        ],
+        "source_position": 23423
+      }
+    ],
+    "scoring_seconds": 0.6424163039773703,
+    "source_fingerprint": "9ff2b52697e497a19b790f0533c1cceb14fd318a891db5996aa30243e2f1c72d"
+  }
+}

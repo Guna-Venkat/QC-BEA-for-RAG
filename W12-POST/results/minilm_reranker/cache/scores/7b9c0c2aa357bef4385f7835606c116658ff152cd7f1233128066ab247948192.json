@@ -1,0 +1,1971 @@
+{
+  "checksum": "629e3ca4c0658adec889ac2b10d540320d770b7b5d26a78849231b1414ee25f2",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "628"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 97,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "dc10dca260aa1a75e7087bf6c6c004a8e5bf19dde311cb99889f1fe0ca75a934",
+    "query_id": "628",
+    "scores": [
+      {
+        "cross_encoder_score": -3.9507391452789307,
+        "dataset": "SciFact",
+        "end_char": 91,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "a95c52d0fffa45a1096b5f71124e5afc",
+        "passage_rank": 6,
+        "query_id": "628",
+        "sentence_id": "a48301907a44cf568c9c3c03bf6d088b",
+        "sentence_text": "Human T Cell Leukemia Virus Reactivation with Progression of Adult T-Cell Leukemia-Lymphoma",
+        "sentence_token_cost": 23,
+        "source_order": [
+          114,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.660727500915527,
+        "dataset": "SciFact",
+        "end_char": 267,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "a95c52d0fffa45a1096b5f71124e5afc",
+        "passage_rank": 6,
+        "query_id": "628",
+        "sentence_id": "145e551aef26371048b91c29f71ca31b",
+        "sentence_text": "BACKGROUND Human T-cell leukemia virus-associated adult T-cell leukemia-lymphoma (ATLL) has a very poor prognosis, despite trials of a variety of different treatment regimens.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          114,
+          0,
+          1,
+          0
+        ],
+        "source_position": 92
+      },
+      {
+        "cross_encoder_score": -10.03684139251709,
+        "dataset": "SciFact",
+        "end_char": 461,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "a95c52d0fffa45a1096b5f71124e5afc",
+        "passage_rank": 6,
+        "query_id": "628",
+        "sentence_id": "89b0a91e8c386cdadb5aa55c9905888f",
+        "sentence_text": "Virus expression has been reported to be limited or absent when ATLL is diagnosed, and this has suggested that secondary genetic or epigenetic changes are important in disease pathogenesis.   \n",
+        "sentence_token_cost": 37,
+        "source_order": [
+          114,
+          0,
+          2,
+          0
+        ],
+        "source_position": 268
+      },
+      {
+        "cross_encoder_score": -10.588586807250977,
+        "dataset": "SciFact",
+        "end_char": 591,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "a95c52d0fffa45a1096b5f71124e5afc",
+        "passage_rank": 6,
+        "query_id": "628",
+        "sentence_id": "fb9a068d52e0b53459af17dbaa992be4",
+        "sentence_text": "METHODS AND FINDINGS We prospectively investigated combination chemotherapy followed by antiretroviral therapy for this disorder.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          114,
+          0,
+          3,
+          0
+        ],
+        "source_position": 462
+      },
+      {
+        "cross_encoder_score": -11.10523796081543,
+        "dataset": "SciFact",
+        "end_char": 1012,
+        "pair_tokens_before_truncation": 132,
+        "pair_truncated": false,
+        "passage_id": "a95c52d0fffa45a1096b5f71124e5afc",
+        "passage_rank": 6,
+        "query_id": "628",
+        "sentence_id": "8849627b79c0bb98143afa1bc612900b",
+        "sentence_text": "Nineteen patients were prospectively enrolled between 2002 and 2006 at five medical centers in a phase II clinical trial of infusional chemotherapy with etoposide, doxorubicin, and vincristine, daily prednisone, and bolus cyclophosphamide (EPOCH) given for two to six cycles until maximal clinical response, and followed by antiviral therapy with daily zidovudine, lamivudine, and alpha interferon-2a for up to one year.",
+        "sentence_token_cost": 113,
+        "source_order": [
+          114,
+          0,
+          4,
+          0
+        ],
+        "source_position": 592
+      },
+      {
+        "cross_encoder_score": -9.992125511169434,
+        "dataset": "SciFact",
+        "end_char": 1118,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "a95c52d0fffa45a1096b5f71124e5afc",
+        "passage_rank": 6,
+        "query_id": "628",
+        "sentence_id": "9878edb3a32666d597ed5bc4a57bc088",
+        "sentence_text": "Seven patients were on study for less than one month due to progressive disease or chemotherapy toxicity.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          114,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1013
+      },
+      {
+        "cross_encoder_score": -9.67536735534668,
+        "dataset": "SciFact",
+        "end_char": 1247,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "a95c52d0fffa45a1096b5f71124e5afc",
+        "passage_rank": 6,
+        "query_id": "628",
+        "sentence_id": "5f4094f87839f49e66e0162f0f80632e",
+        "sentence_text": "Eleven patients achieved an objective response with median duration of response of thirteen months, and two complete remissions.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          114,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1119
+      },
+      {
+        "cross_encoder_score": -10.310358047485352,
+        "dataset": "SciFact",
+        "end_char": 1416,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "a95c52d0fffa45a1096b5f71124e5afc",
+        "passage_rank": 6,
+        "query_id": "628",
+        "sentence_id": "dffdfcdfbe64a844ea46a6bc3d8fd1b5",
+        "sentence_text": "During chemotherapy induction, viral RNA expression increased (median 190-fold), and virus replication occurred, coincident with development of disease progression.   \n",
+        "sentence_token_cost": 30,
+        "source_order": [
+          114,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1248
+      },
+      {
+        "cross_encoder_score": -9.067811965942383,
+        "dataset": "SciFact",
+        "end_char": 1641,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "a95c52d0fffa45a1096b5f71124e5afc",
+        "passage_rank": 6,
+        "query_id": "628",
+        "sentence_id": "7e9ba74149b30daa4ceb3b9b1ebd3a80",
+        "sentence_text": "CONCLUSIONS EPOCH chemotherapy followed by antiretroviral therapy is an active therapeutic regimen for adult T-cell leukemia-lymphoma, but viral reactivation during induction chemotherapy may contribute to treatment failure.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          114,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1417
+      },
+      {
+        "cross_encoder_score": -10.44760799407959,
+        "dataset": "SciFact",
+        "end_char": 1782,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "a95c52d0fffa45a1096b5f71124e5afc",
+        "passage_rank": 6,
+        "query_id": "628",
+        "sentence_id": "5d603e8123187d57c11ff005a37c5c94",
+        "sentence_text": "Alternative therapies are sorely needed in this disease that simultaneously prevent virus expression, and are cytocidal for malignant cells.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          114,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1642
+      },
+      {
+        "cross_encoder_score": -5.606654167175293,
+        "dataset": "SciFact",
+        "end_char": 122,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "6be8542e24e469b9d082342723e20519",
+        "passage_rank": 5,
+        "query_id": "628",
+        "sentence_id": "c61f1a177288a44084d34f474b1096ce",
+        "sentence_text": "The epidemiology of sexually transmitted co-infections in HIV-positive and HIV-negative African-Caribbean women in Toronto",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1064,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.207996368408203,
+        "dataset": "SciFact",
+        "end_char": 324,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "6be8542e24e469b9d082342723e20519",
+        "passage_rank": 5,
+        "query_id": "628",
+        "sentence_id": "e142fb23147447fe17175f634ba98912",
+        "sentence_text": "BACKGROUND HIV disproportionately affects African-Caribbean women in Canada but the frequency and distribution of sexually transmitted infections in this community have not been previously studied.   \n",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1064,
+          0,
+          1,
+          0
+        ],
+        "source_position": 123
+      },
+      {
+        "cross_encoder_score": -10.491888999938965,
+        "dataset": "SciFact",
+        "end_char": 414,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "6be8542e24e469b9d082342723e20519",
+        "passage_rank": 5,
+        "query_id": "628",
+        "sentence_id": "396fb837d9c4078b4692d0ab7547362b",
+        "sentence_text": "METHODS We recruited women based on HIV status through a Toronto community health centre.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          1064,
+          0,
+          2,
+          0
+        ],
+        "source_position": 325
+      },
+      {
+        "cross_encoder_score": -7.681183815002441,
+        "dataset": "SciFact",
+        "end_char": 833,
+        "pair_tokens_before_truncation": 143,
+        "pair_truncated": false,
+        "passage_id": "6be8542e24e469b9d082342723e20519",
+        "passage_rank": 5,
+        "query_id": "628",
+        "sentence_id": "73b6eec7c3036a6d699306b9198e77e5",
+        "sentence_text": "Participants completed a socio-behavioural questionnaire using Audio Computer Assisted Self-Interview (ACASI) and provided blood for syphilis, HIV, hepatitis B and C, herpes simplex virus type 1 (HSV-1), herpes simplex virus type 2 (HSV-2), and human cytomegalovirus (CMV) serology, urine for chlamydia and gonorrhea molecular testing and vaginal secretions for bacterial vaginosis (BV) and human papillomavirus (HPV).",
+        "sentence_token_cost": 106,
+        "source_order": [
+          1064,
+          0,
+          3,
+          0
+        ],
+        "source_position": 415
+      },
+      {
+        "cross_encoder_score": -8.722515106201172,
+        "dataset": "SciFact",
+        "end_char": 924,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "6be8542e24e469b9d082342723e20519",
+        "passage_rank": 5,
+        "query_id": "628",
+        "sentence_id": "abf698afe045dfef6d9419c16e0b3880",
+        "sentence_text": "Differences in prevalence were assessed for statistical significance using chi-square.   \n",
+        "sentence_token_cost": 14,
+        "source_order": [
+          1064,
+          0,
+          4,
+          0
+        ],
+        "source_position": 834
+      },
+      {
+        "cross_encoder_score": -10.677597045898438,
+        "dataset": "SciFact",
+        "end_char": 1054,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "6be8542e24e469b9d082342723e20519",
+        "passage_rank": 5,
+        "query_id": "628",
+        "sentence_id": "cc315ac5fa9e64a8a3725fc69042f5ed",
+        "sentence_text": "RESULTS We recruited 126 HIV-positive and 291 HIV-negative women, with a median age of 40 and 31 years, respectively (p < 0.001).",
+        "sentence_token_cost": 43,
+        "source_order": [
+          1064,
+          0,
+          5,
+          0
+        ],
+        "source_position": 925
+      },
+      {
+        "cross_encoder_score": -8.516786575317383,
+        "dataset": "SciFact",
+        "end_char": 1296,
+        "pair_tokens_before_truncation": 121,
+        "pair_truncated": false,
+        "passage_id": "6be8542e24e469b9d082342723e20519",
+        "passage_rank": 5,
+        "query_id": "628",
+        "sentence_id": "a8eb74ad52ebaa3ba1e4318ea510cfd0",
+        "sentence_text": "Active HBV infection and lifetime exposure to HBV infection were more common in HIV-positive women (4.8% vs. 0.34%, p = 0.004; and 47.6% vs. 21.2%, p < 0.0001), as was a self-reported history of HBV vaccination (66.1% vs. 44.0%, p = 0.0001).",
+        "sentence_token_cost": 99,
+        "source_order": [
+          1064,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1055
+      },
+      {
+        "cross_encoder_score": -8.412617683410645,
+        "dataset": "SciFact",
+        "end_char": 1391,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "6be8542e24e469b9d082342723e20519",
+        "passage_rank": 5,
+        "query_id": "628",
+        "sentence_id": "db737c92d9443750660ea70576d60dbb",
+        "sentence_text": "Classical STIs were rare in both groups; BV prevalence was low and did not vary by HIV status.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1064,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1297
+      },
+      {
+        "cross_encoder_score": -4.628186225891113,
+        "dataset": "SciFact",
+        "end_char": 1504,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "6be8542e24e469b9d082342723e20519",
+        "passage_rank": 5,
+        "query_id": "628",
+        "sentence_id": "41bf1f0389ab7f97d6bfe2591aa92adb",
+        "sentence_text": "HSV-2 infection was markedly more frequent in HIV-positive (86.3%) than HIV-negative (46.6%) women (p < 0.0001).",
+        "sentence_token_cost": 38,
+        "source_order": [
+          1064,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1392
+      },
+      {
+        "cross_encoder_score": -7.872406482696533,
+        "dataset": "SciFact",
+        "end_char": 1707,
+        "pair_tokens_before_truncation": 98,
+        "pair_truncated": false,
+        "passage_id": "6be8542e24e469b9d082342723e20519",
+        "passage_rank": 5,
+        "query_id": "628",
+        "sentence_id": "3e5c3b74345366188a953af66511b6bd",
+        "sentence_text": "Vaginal HPV infection was also more common in HIV-positive than in HIV-negative women (50.8% vs. 22.6%, p < 0.0001) as was infection with high-risk oncogenic HPV types (48.4% vs. 17.3%, p < 0.0001).   \n",
+        "sentence_token_cost": 76,
+        "source_order": [
+          1064,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1505
+      },
+      {
+        "cross_encoder_score": -6.1652045249938965,
+        "dataset": "SciFact",
+        "end_char": 1821,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "6be8542e24e469b9d082342723e20519",
+        "passage_rank": 5,
+        "query_id": "628",
+        "sentence_id": "ac3409c8c8f598c253a7a5f6a5a0c838",
+        "sentence_text": "CONCLUSIONS Classical STIs were infrequent in this clinic-based population of African-Caribbean women in Toronto.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          1064,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1708
+      },
+      {
+        "cross_encoder_score": -7.4869794845581055,
+        "dataset": "SciFact",
+        "end_char": 2023,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "6be8542e24e469b9d082342723e20519",
+        "passage_rank": 5,
+        "query_id": "628",
+        "sentence_id": "9acef22d561afc457278a4932f7aa2cb",
+        "sentence_text": "However, HSV-2 prevalence was higher than that reported in previous studies in the general Canadian population and was strongly associated with HIV infection, as was infection with hepatitis B and HPV.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          1064,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1822
+      },
+      {
+        "cross_encoder_score": -7.0511651039123535,
+        "dataset": "SciFact",
+        "end_char": 75,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "865eb06b42b1290c5e4a93e87f672b9f",
+        "passage_rank": 7,
+        "query_id": "628",
+        "sentence_id": "60be3b013f9bedf7a64df48f653a1bf4",
+        "sentence_text": "Natural history of adult T-cell leukemia/lymphoma and approaches to therapy",
+        "sentence_token_cost": 15,
+        "source_order": [
+          3097,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.483981609344482,
+        "dataset": "SciFact",
+        "end_char": 200,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "865eb06b42b1290c5e4a93e87f672b9f",
+        "passage_rank": 7,
+        "query_id": "628",
+        "sentence_id": "cbb7c36081702baccc7690b170a866ad",
+        "sentence_text": "After cell-to-cell transmission, HTLV-I increases its viral genome by de novo infection and proliferation of infected cells.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3097,
+          0,
+          1,
+          0
+        ],
+        "source_position": 76
+      },
+      {
+        "cross_encoder_score": -6.745674133300781,
+        "dataset": "SciFact",
+        "end_char": 266,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "865eb06b42b1290c5e4a93e87f672b9f",
+        "passage_rank": 7,
+        "query_id": "628",
+        "sentence_id": "16eada93cbf279b7b5e79753713aa4d9",
+        "sentence_text": "Proliferation of infected cells is clonal and persistent in vivo.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          3097,
+          0,
+          2,
+          0
+        ],
+        "source_position": 201
+      },
+      {
+        "cross_encoder_score": -9.269293785095215,
+        "dataset": "SciFact",
+        "end_char": 446,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "865eb06b42b1290c5e4a93e87f672b9f",
+        "passage_rank": 7,
+        "query_id": "628",
+        "sentence_id": "bfd213151af5cc4df1c798060b65e5b9",
+        "sentence_text": "During the carrier state, infected cells are selected in vivo by the host's immune system, the genetic and epigenetic environment of proviral integration sites, and other factors.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3097,
+          0,
+          3,
+          0
+        ],
+        "source_position": 267
+      },
+      {
+        "cross_encoder_score": -10.054000854492188,
+        "dataset": "SciFact",
+        "end_char": 546,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "865eb06b42b1290c5e4a93e87f672b9f",
+        "passage_rank": 7,
+        "query_id": "628",
+        "sentence_id": "dd02d580ac58e3422ae23c6cd11a3751",
+        "sentence_text": "In leukemic cells, tax gene expression is frequently impaired by genetic and epigenetic mechanisms.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3097,
+          0,
+          4,
+          0
+        ],
+        "source_position": 447
+      },
+      {
+        "cross_encoder_score": -9.623533248901367,
+        "dataset": "SciFact",
+        "end_char": 626,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "865eb06b42b1290c5e4a93e87f672b9f",
+        "passage_rank": 7,
+        "query_id": "628",
+        "sentence_id": "60ac0db04f705554d38a8ec7ebd60fe5",
+        "sentence_text": "Such loss of Tax expression enables ATL cells to escape the host immune system.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          3097,
+          0,
+          5,
+          0
+        ],
+        "source_position": 547
+      },
+      {
+        "cross_encoder_score": -10.189112663269043,
+        "dataset": "SciFact",
+        "end_char": 751,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "865eb06b42b1290c5e4a93e87f672b9f",
+        "passage_rank": 7,
+        "query_id": "628",
+        "sentence_id": "7ba5e6c9a056d3193d8f9002b514cbd3",
+        "sentence_text": "On the other hand, ATL cells acquire the ability to proliferate without Tax by intracellular genetic and epigenetic changes.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3097,
+          0,
+          6,
+          0
+        ],
+        "source_position": 627
+      },
+      {
+        "cross_encoder_score": -10.127391815185547,
+        "dataset": "SciFact",
+        "end_char": 863,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "865eb06b42b1290c5e4a93e87f672b9f",
+        "passage_rank": 7,
+        "query_id": "628",
+        "sentence_id": "d5d16dcfb7fb5d62e5be5f54cf09a54f",
+        "sentence_text": "Despite advances in support and the development of novel treatment agents, the prognosis for ATLL remains poor.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          3097,
+          0,
+          7,
+          0
+        ],
+        "source_position": 752
+      },
+      {
+        "cross_encoder_score": -10.76476764678955,
+        "dataset": "SciFact",
+        "end_char": 951,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "865eb06b42b1290c5e4a93e87f672b9f",
+        "passage_rank": 7,
+        "query_id": "628",
+        "sentence_id": "e581b9ec426e4b14080ee452fb542f5c",
+        "sentence_text": "A number of therapies, however, do appear to improve prognosis compared to CHOP (VEPA).",
+        "sentence_token_cost": 20,
+        "source_order": [
+          3097,
+          0,
+          8,
+          0
+        ],
+        "source_position": 864
+      },
+      {
+        "cross_encoder_score": -10.671408653259277,
+        "dataset": "SciFact",
+        "end_char": 1140,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "865eb06b42b1290c5e4a93e87f672b9f",
+        "passage_rank": 7,
+        "query_id": "628",
+        "sentence_id": "82d010e8ca308b304dd01ee582957527",
+        "sentence_text": "These include interferon-\u03b1 plus zidovudine (probably after 1\u20132 cycles of CHOP), intensive chemotherapy as in LSG-15 with G-CSF support and Allo-SCT (which includes the potential for cure).",
+        "sentence_token_cost": 51,
+        "source_order": [
+          3097,
+          0,
+          9,
+          0
+        ],
+        "source_position": 952
+      },
+      {
+        "cross_encoder_score": -10.486921310424805,
+        "dataset": "SciFact",
+        "end_char": 1241,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "865eb06b42b1290c5e4a93e87f672b9f",
+        "passage_rank": 7,
+        "query_id": "628",
+        "sentence_id": "34fdc36a6e88edb4d2d2c725df513144",
+        "sentence_text": "Emerging novel approaches include HDAC inhibitors, monoclonal antibodies, and proteasome inhibitors.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          3097,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1141
+      },
+      {
+        "cross_encoder_score": -11.126203536987305,
+        "dataset": "SciFact",
+        "end_char": 1526,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "865eb06b42b1290c5e4a93e87f672b9f",
+        "passage_rank": 7,
+        "query_id": "628",
+        "sentence_id": "704db0ad948875a484d00abb039788f4",
+        "sentence_text": "Comparison between different therapeutic approaches is complicated by the range of natural history of ATLL, different recruitments of na\u00efve-to-therapy, refractory or relapsed patients, and variations in the reporting of outcome that frequently excludes difficult-to-evaluate patients.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          3097,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1242
+      },
+      {
+        "cross_encoder_score": -9.40893840789795,
+        "dataset": "SciFact",
+        "end_char": 1652,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "865eb06b42b1290c5e4a93e87f672b9f",
+        "passage_rank": 7,
+        "query_id": "628",
+        "sentence_id": "e70cae27376d2a91a610f9acecdbeca1",
+        "sentence_text": "Moreover, results from relatively small proof-of-principle studies have not been extended with randomized, controlled trials.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          3097,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1527
+      },
+      {
+        "cross_encoder_score": -10.01679801940918,
+        "dataset": "SciFact",
+        "end_char": 1774,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "865eb06b42b1290c5e4a93e87f672b9f",
+        "passage_rank": 7,
+        "query_id": "628",
+        "sentence_id": "28d601c07dcb61e2d2f56ba58d893404",
+        "sentence_text": "As a result, currently, there is no clear evidence to support the value of any particular treatment approach over others.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3097,
+          0,
+          13,
+          0
+        ],
+        "source_position": 1653
+      },
+      {
+        "cross_encoder_score": -10.901705741882324,
+        "dataset": "SciFact",
+        "end_char": 1987,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "865eb06b42b1290c5e4a93e87f672b9f",
+        "passage_rank": 7,
+        "query_id": "628",
+        "sentence_id": "b3c47e9caa7be88a800486691ad26fd4",
+        "sentence_text": "To avoid further unnecessary patient suffering and to identify optimal therapy as rapidly as possible, large randomized, controlled trials encompassing multicenter, international collaborations will be necessary.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          3097,
+          0,
+          14,
+          0
+        ],
+        "source_position": 1775
+      },
+      {
+        "cross_encoder_score": -6.181879997253418,
+        "dataset": "SciFact",
+        "end_char": 117,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "fc05861bc0783ad2d8947cc5eb130aee",
+        "passage_rank": 9,
+        "query_id": "628",
+        "sentence_id": "46811e2a63a618d3eea7c71060eba4d7",
+        "sentence_text": "Human herpesvirus 8 infection and Kaposi's sarcoma among human immunodeficiency virus-infected and -uninfected women.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          3146,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.178658485412598,
+        "dataset": "SciFact",
+        "end_char": 211,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "fc05861bc0783ad2d8947cc5eb130aee",
+        "passage_rank": 9,
+        "query_id": "628",
+        "sentence_id": "9dd30dcb357774e4e32601fe970f77ba",
+        "sentence_text": "Little is known about the epidemiology of human herpesvirus 8 (HHV-8) infections among women.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3146,
+          0,
+          1,
+          0
+        ],
+        "source_position": 118
+      },
+      {
+        "cross_encoder_score": -6.444278240203857,
+        "dataset": "SciFact",
+        "end_char": 354,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "fc05861bc0783ad2d8947cc5eb130aee",
+        "passage_rank": 9,
+        "query_id": "628",
+        "sentence_id": "c3b9a660c1a021334fd644ef9dfed4d7",
+        "sentence_text": "A cross-sectional study was conducted of HHV-8 infection among human immunodeficiency virus (HIV)-infected and high-risk HIV-uninfected women.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          3146,
+          0,
+          2,
+          0
+        ],
+        "source_position": 212
+      },
+      {
+        "cross_encoder_score": -8.989330291748047,
+        "dataset": "SciFact",
+        "end_char": 509,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "fc05861bc0783ad2d8947cc5eb130aee",
+        "passage_rank": 9,
+        "query_id": "628",
+        "sentence_id": "200487ae873c1ed02b79d3c321a15f03",
+        "sentence_text": "Serological tests with noninduced (latent) and induced (lytic) HHV-8 antigens were used to detect infection among 2483 participants of a multisite cohort.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          3146,
+          0,
+          3,
+          0
+        ],
+        "source_position": 355
+      },
+      {
+        "cross_encoder_score": -9.532533645629883,
+        "dataset": "SciFact",
+        "end_char": 601,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "fc05861bc0783ad2d8947cc5eb130aee",
+        "passage_rank": 9,
+        "query_id": "628",
+        "sentence_id": "60554e657f7ed5644c88721e17bd8afa",
+        "sentence_text": "Reactivity to latent antigen was present in 4.1% and to induced antigens in 12.0% of women.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          3146,
+          0,
+          4,
+          0
+        ],
+        "source_position": 510
+      },
+      {
+        "cross_encoder_score": -8.832202911376953,
+        "dataset": "SciFact",
+        "end_char": 670,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "fc05861bc0783ad2d8947cc5eb130aee",
+        "passage_rank": 9,
+        "query_id": "628",
+        "sentence_id": "cc23da4f85ff03f525f1bfc9127806b5",
+        "sentence_text": "Seven of 8 women who reported Kaposi's sarcoma had HHV-8 antibodies.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          3146,
+          0,
+          5,
+          0
+        ],
+        "source_position": 602
+      },
+      {
+        "cross_encoder_score": -9.451769828796387,
+        "dataset": "SciFact",
+        "end_char": 940,
+        "pair_tokens_before_truncation": 126,
+        "pair_truncated": false,
+        "passage_id": "fc05861bc0783ad2d8947cc5eb130aee",
+        "passage_rank": 9,
+        "query_id": "628",
+        "sentence_id": "3615b4d60c7c4417ce1eb0b4ed9011a1",
+        "sentence_text": "Among HIV-positive women, HHV-8 infection was associated with use of crack, cocaine, or heroin (76% vs. 65%; P<.001), past syphilis (29% vs. 20%; P<.001), an injection drug-using male sex partner (61% vs. 53%; P=.014), black race (P=.010), and enrollment site (P=.015).",
+        "sentence_token_cost": 101,
+        "source_order": [
+          3146,
+          0,
+          6,
+          0
+        ],
+        "source_position": 671
+      },
+      {
+        "cross_encoder_score": -7.69848108291626,
+        "dataset": "SciFact",
+        "end_char": 1091,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "fc05861bc0783ad2d8947cc5eb130aee",
+        "passage_rank": 9,
+        "query_id": "628",
+        "sentence_id": "2a06e86c98a0c34f5478acf6d98cf4a0",
+        "sentence_text": "In multivariate analysis, HIV infection, older age, past syphilis, black race, and enrollment site were independently associated with HHV-8 infection.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          3146,
+          0,
+          7,
+          0
+        ],
+        "source_position": 941
+      },
+      {
+        "cross_encoder_score": -7.970498561859131,
+        "dataset": "SciFact",
+        "end_char": 1219,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "fc05861bc0783ad2d8947cc5eb130aee",
+        "passage_rank": 9,
+        "query_id": "628",
+        "sentence_id": "51e4e2b7d2ab48c966ba709550cb7f6a",
+        "sentence_text": "In this cohort of North American women, HHV-8 infection was associated with HIV infection, drug use, and risky sexual behavior.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          3146,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1092
+      },
+      {
+        "cross_encoder_score": -6.131577491760254,
+        "dataset": "SciFact",
+        "end_char": 80,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "ceb6874b757e232fea70be600da6c7a1",
+        "passage_rank": 4,
+        "query_id": "628",
+        "sentence_id": "33432cf2d67fed9e70e0acbe243a3273",
+        "sentence_text": "Clinical and laboratory features of adult T-cell leukaemia lymphoma in Barbados.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          3434,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.065977573394775,
+        "dataset": "SciFact",
+        "end_char": 271,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "ceb6874b757e232fea70be600da6c7a1",
+        "passage_rank": 4,
+        "query_id": "628",
+        "sentence_id": "d294df217fb3b68a24b01f4197b9d18a",
+        "sentence_text": "We describe the clinical and pathological features of 23 Afro-Caribbean patients with adult T-cell leukaemia/lymphoma admitted to the Queen Elizabeth Hospital, Barbados over a 5 year period.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          3434,
+          0,
+          1,
+          0
+        ],
+        "source_position": 81
+      },
+      {
+        "cross_encoder_score": -8.884783744812012,
+        "dataset": "SciFact",
+        "end_char": 351,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "ceb6874b757e232fea70be600da6c7a1",
+        "passage_rank": 4,
+        "query_id": "628",
+        "sentence_id": "b19a103ee8751e9744e535a0e131563e",
+        "sentence_text": "There were 9 males and 14 females, with a median age of 38 years (range 14-84).",
+        "sentence_token_cost": 29,
+        "source_order": [
+          3434,
+          0,
+          2,
+          0
+        ],
+        "source_position": 272
+      },
+      {
+        "cross_encoder_score": -8.372213363647461,
+        "dataset": "SciFact",
+        "end_char": 466,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "ceb6874b757e232fea70be600da6c7a1",
+        "passage_rank": 4,
+        "query_id": "628",
+        "sentence_id": "ac9717a0a35ecf0041ca4b2c7f3fb03d",
+        "sentence_text": "Twelve had acute leukaemia, 10 lymphoma (including 4 with solitary extra nodal lesions) and 1 smouldering subtype.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          3434,
+          0,
+          3,
+          0
+        ],
+        "source_position": 352
+      },
+      {
+        "cross_encoder_score": -9.34462833404541,
+        "dataset": "SciFact",
+        "end_char": 570,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "ceb6874b757e232fea70be600da6c7a1",
+        "passage_rank": 4,
+        "query_id": "628",
+        "sentence_id": "f2ac0e595fe28846aed873b5bbd40c17",
+        "sentence_text": "Two patients had a past history of tropical spastic paraparesis/HTLV I associated myelopathy (TSP/HAM).",
+        "sentence_token_cost": 28,
+        "source_order": [
+          3434,
+          0,
+          4,
+          0
+        ],
+        "source_position": 467
+      },
+      {
+        "cross_encoder_score": -10.692178726196289,
+        "dataset": "SciFact",
+        "end_char": 677,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "ceb6874b757e232fea70be600da6c7a1",
+        "passage_rank": 4,
+        "query_id": "628",
+        "sentence_id": "a63f6dae89bcff7e28ff55dbe2a62893",
+        "sentence_text": "The prognosis was poor, with only 3 complete responses to chemotherapy (CHOP) lasting from 9 to 36 months.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          3434,
+          0,
+          5,
+          0
+        ],
+        "source_position": 571
+      },
+      {
+        "cross_encoder_score": -9.943929672241211,
+        "dataset": "SciFact",
+        "end_char": 860,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "ceb6874b757e232fea70be600da6c7a1",
+        "passage_rank": 4,
+        "query_id": "628",
+        "sentence_id": "4715f5c89a1cb15413d3861af5b963b5",
+        "sentence_text": "We conclude that ATLL in Barbados is similar to the disease in the other Caribbean islands and Japan, except that in Barbados the age of onset is over a decade younger than in Japan.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          3434,
+          0,
+          6,
+          0
+        ],
+        "source_position": 678
+      },
+      {
+        "cross_encoder_score": -8.700132369995117,
+        "dataset": "SciFact",
+        "end_char": 101,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "797545b0a837cb23d99f28da7cc5a08f",
+        "passage_rank": 1,
+        "query_id": "628",
+        "sentence_id": "98beeab053ad311d3b6fd69c262652b7",
+        "sentence_text": "HTLV-I/II associated disease in England and Wales, 1993-7: retrospective review of serology requests.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          3600,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.4369735717773438,
+        "dataset": "SciFact",
+        "end_char": 229,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "797545b0a837cb23d99f28da7cc5a08f",
+        "passage_rank": 1,
+        "query_id": "628",
+        "sentence_id": "3f923e88e0f58bad94b6d2069793dc4e",
+        "sentence_text": "Apart from HIV two exogenous retroviruses (human T cell leukaemia viruses type I (HTLV-I) and type II (HTLV-II)) infect humans.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3600,
+          0,
+          1,
+          0
+        ],
+        "source_position": 102
+      },
+      {
+        "cross_encoder_score": -2.3501994609832764,
+        "dataset": "SciFact",
+        "end_char": 364,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "797545b0a837cb23d99f28da7cc5a08f",
+        "passage_rank": 1,
+        "query_id": "628",
+        "sentence_id": "41a704825735392d6a568ded4f2aa9bb",
+        "sentence_text": "HTLV-I infection is endemic in Japan, the Caribbean, Africa, and Melanesia and is found among immigrants from these regions in Europe.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          3600,
+          0,
+          2,
+          0
+        ],
+        "source_position": 230
+      },
+      {
+        "cross_encoder_score": 2.119715452194214,
+        "dataset": "SciFact",
+        "end_char": 1080,
+        "pair_tokens_before_truncation": 208,
+        "pair_truncated": false,
+        "passage_id": "797545b0a837cb23d99f28da7cc5a08f",
+        "passage_rank": 1,
+        "query_id": "628",
+        "sentence_id": "814556d402e47598fa0802a67d939901",
+        "sentence_text": "HTLV-I infection is associated with a 1-5% lifetime risk of adult T cell leukaemia/lymphoma, 1 a 0.25% lifetime risk of HTLV-I associated myelopathy, 2 and other inflammatory conditions (uveitis, alveolitis, and arthritis).1 HTLV-II infection is endemic in some native American and African peoples and among injecting drug users and has been associated with neurological disease.1 Between 1986 and 1992, 100 cases of HTLV-I associated myelopathy and 44 cases of adult T cell leukaemia/lymphoma were diagnosed in the United Kingdom.3 Adult T cell leukaemia/lymphoma was first described in 1977 and patients with it have a mean life expectancy of only six months, so most of the 44 cases were probably incident cases.",
+        "sentence_token_cost": 189,
+        "source_order": [
+          3600,
+          0,
+          3,
+          0
+        ],
+        "source_position": 365
+      },
+      {
+        "cross_encoder_score": -6.288597106933594,
+        "dataset": "SciFact",
+        "end_char": 1082,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "797545b0a837cb23d99f28da7cc5a08f",
+        "passage_rank": 1,
+        "query_id": "628",
+        "sentence_id": "3d54f39b0a0df773bcbd73f0103f5177",
+        "sentence_text": "\u2026",
+        "sentence_token_cost": 1,
+        "source_order": [
+          3600,
+          0,
+          4,
+          0
+        ],
+        "source_position": 1081
+      },
+      {
+        "cross_encoder_score": -6.108527183532715,
+        "dataset": "SciFact",
+        "end_char": 74,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "0dc8ba71be93007e671c2f54f18addca",
+        "passage_rank": 2,
+        "query_id": "628",
+        "sentence_id": "db6771c2e3ea7b2824ed2e1b8f5b2722",
+        "sentence_text": "Adult T-cell leukemia/lymphoma in London: clinical experience of 21 cases.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          4075,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.4663288593292236,
+        "dataset": "SciFact",
+        "end_char": 217,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "0dc8ba71be93007e671c2f54f18addca",
+        "passage_rank": 2,
+        "query_id": "628",
+        "sentence_id": "f78756f856553ee92caa9bf55fc066e6",
+        "sentence_text": "Adult T-cell leukemia/lymphoma (ATLL) is uncommon in the United Kingdom and has so far been restricted to people of Afro-Caribbean extraction.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          4075,
+          0,
+          1,
+          0
+        ],
+        "source_position": 75
+      },
+      {
+        "cross_encoder_score": -6.39236307144165,
+        "dataset": "SciFact",
+        "end_char": 354,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "0dc8ba71be93007e671c2f54f18addca",
+        "passage_rank": 2,
+        "query_id": "628",
+        "sentence_id": "2b5a4707dd4b1f765b19b3cfcb722b09",
+        "sentence_text": "Between 1981 and 1995, 21 cases presented to 2 inner London teaching hospitals where 17% of the population are of Afro-Caribbean origin.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          4075,
+          0,
+          2,
+          0
+        ],
+        "source_position": 218
+      },
+      {
+        "cross_encoder_score": -7.394181728363037,
+        "dataset": "SciFact",
+        "end_char": 439,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "0dc8ba71be93007e671c2f54f18addca",
+        "passage_rank": 2,
+        "query_id": "628",
+        "sentence_id": "06d7b16c1d8d85fca8d53397dfd7ac8d",
+        "sentence_text": "Clinical presentations were similar to those of the disease in HTLV-I-endemic areas.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          4075,
+          0,
+          3,
+          0
+        ],
+        "source_position": 355
+      },
+      {
+        "cross_encoder_score": -10.804824829101562,
+        "dataset": "SciFact",
+        "end_char": 553,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "0dc8ba71be93007e671c2f54f18addca",
+        "passage_rank": 2,
+        "query_id": "628",
+        "sentence_id": "b85cd272548bb6b259ce405ca6ab7a65",
+        "sentence_text": "Major responses (CR + PR) were obtained in 10/16 assessable patients (63%) treated with combination chemotherapy.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          4075,
+          0,
+          4,
+          0
+        ],
+        "source_position": 440
+      },
+      {
+        "cross_encoder_score": -8.917668342590332,
+        "dataset": "SciFact",
+        "end_char": 599,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "0dc8ba71be93007e671c2f54f18addca",
+        "passage_rank": 2,
+        "query_id": "628",
+        "sentence_id": "2aea0b499af31d9f69da6e8200886af7",
+        "sentence_text": "However, median survival was only 5.5 months.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          4075,
+          0,
+          5,
+          0
+        ],
+        "source_position": 554
+      },
+      {
+        "cross_encoder_score": -9.133968353271484,
+        "dataset": "SciFact",
+        "end_char": 701,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "0dc8ba71be93007e671c2f54f18addca",
+        "passage_rank": 2,
+        "query_id": "628",
+        "sentence_id": "1880581bed65619cbbc61a8c3b7cb6a5",
+        "sentence_text": "Disease progression and opportunistic infection were the major causes of treatment failure and death.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          4075,
+          0,
+          6,
+          0
+        ],
+        "source_position": 600
+      },
+      {
+        "cross_encoder_score": -9.701717376708984,
+        "dataset": "SciFact",
+        "end_char": 768,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "0dc8ba71be93007e671c2f54f18addca",
+        "passage_rank": 2,
+        "query_id": "628",
+        "sentence_id": "5c6dfd0e4f249d19699f82c882c4d9e3",
+        "sentence_text": "Three patients (14%) relapsed in the central nervous system (CNS).",
+        "sentence_token_cost": 17,
+        "source_order": [
+          4075,
+          0,
+          7,
+          0
+        ],
+        "source_position": 702
+      },
+      {
+        "cross_encoder_score": -9.469046592712402,
+        "dataset": "SciFact",
+        "end_char": 826,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "0dc8ba71be93007e671c2f54f18addca",
+        "passage_rank": 2,
+        "query_id": "628",
+        "sentence_id": "fd97c38d3fbd178d470b0126dc9ed030",
+        "sentence_text": "Our cases confirm the profound immunosuppression in ATLL.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          4075,
+          0,
+          8,
+          0
+        ],
+        "source_position": 769
+      },
+      {
+        "cross_encoder_score": -8.725931167602539,
+        "dataset": "SciFact",
+        "end_char": 1049,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "0dc8ba71be93007e671c2f54f18addca",
+        "passage_rank": 2,
+        "query_id": "628",
+        "sentence_id": "243bda134d1cd1e2eeb6b2649b860e8a",
+        "sentence_text": "The poor prognosis of acute and lymphoma types of ATLL highlight the need for new approaches to treatment such as zidovudine and alpha-interferon, incorporating prophylaxis against CNS disease and opportunistic infections.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          4075,
+          0,
+          9,
+          0
+        ],
+        "source_position": 827
+      },
+      {
+        "cross_encoder_score": -0.4825262725353241,
+        "dataset": "SciFact",
+        "end_char": 135,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "0f92cb49934b8f0511657c490e7a9b12",
+        "passage_rank": 3,
+        "query_id": "628",
+        "sentence_id": "86cd2188c20268aa61529d79e91c9ef7",
+        "sentence_text": "Isolation and partial characterization of an unusual human immunodeficiency retrovirus from two persons of west-central African origin.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          4098,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -0.27849674224853516,
+        "dataset": "SciFact",
+        "end_char": 316,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "0f92cb49934b8f0511657c490e7a9b12",
+        "passage_rank": 3,
+        "query_id": "628",
+        "sentence_id": "e31f51c476e6020b610522b29cffccbe",
+        "sentence_text": "An unusual human retrovirus was isolated from two patients with persistent generalized lymphadenopathy who originate from West-Central Africa and are currently residing in Belgium.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          4098,
+          0,
+          1,
+          0
+        ],
+        "source_position": 136
+      },
+      {
+        "cross_encoder_score": -5.359707355499268,
+        "dataset": "SciFact",
+        "end_char": 523,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "0f92cb49934b8f0511657c490e7a9b12",
+        "passage_rank": 3,
+        "query_id": "628",
+        "sentence_id": "784ef9d8cb685396578de9b27ee8aa2c",
+        "sentence_text": "Although the virus shared a number of the same biological and morphological properties as human immunodeficiency retrovirus type 1 (HIV-1) and HIV-2, significant antigenic differences could be demonstrated.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          4098,
+          0,
+          2,
+          0
+        ],
+        "source_position": 317
+      },
+      {
+        "cross_encoder_score": -9.069063186645508,
+        "dataset": "SciFact",
+        "end_char": 636,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "0f92cb49934b8f0511657c490e7a9b12",
+        "passage_rank": 3,
+        "query_id": "628",
+        "sentence_id": "f42ac5c86d7d71f4ed54416e6ce193df",
+        "sentence_text": "Several of the viral proteins also differed in molecular weight from the corresponding HIV-1 and HIV-2 proteins.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          4098,
+          0,
+          3,
+          0
+        ],
+        "source_position": 524
+      },
+      {
+        "cross_encoder_score": -8.950095176696777,
+        "dataset": "SciFact",
+        "end_char": 773,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "0f92cb49934b8f0511657c490e7a9b12",
+        "passage_rank": 3,
+        "query_id": "628",
+        "sentence_id": "99e40a1b73331356291038ac3624974a",
+        "sentence_text": "Partial chemical cleavage of the most highly conserved viral proteins resulted in patterns which differed from those of HIV-1 and HIV-2.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          4098,
+          0,
+          4,
+          0
+        ],
+        "source_position": 637
+      },
+      {
+        "cross_encoder_score": -8.677449226379395,
+        "dataset": "SciFact",
+        "end_char": 881,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "0f92cb49934b8f0511657c490e7a9b12",
+        "passage_rank": 3,
+        "query_id": "628",
+        "sentence_id": "f4acb0d5df25d78269b52002857288f9",
+        "sentence_text": "Furthermore, nucleic acid hybridization experiments were capable of discriminating between the virus types.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          4098,
+          0,
+          5,
+          0
+        ],
+        "source_position": 774
+      },
+      {
+        "cross_encoder_score": -9.550020217895508,
+        "dataset": "SciFact",
+        "end_char": 1007,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "0f92cb49934b8f0511657c490e7a9b12",
+        "passage_rank": 3,
+        "query_id": "628",
+        "sentence_id": "96691f94d1e58bd34b4bdda67c7a3a1c",
+        "sentence_text": "Sequence analysis of the viral U3 region revealed a unique enhancer organization not found in other immunodeficiency viruses.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          4098,
+          0,
+          6,
+          0
+        ],
+        "source_position": 882
+      },
+      {
+        "cross_encoder_score": -9.393413543701172,
+        "dataset": "SciFact",
+        "end_char": 1149,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "0f92cb49934b8f0511657c490e7a9b12",
+        "passage_rank": 3,
+        "query_id": "628",
+        "sentence_id": "ec5298938acb8b140fa274472ce4d02e",
+        "sentence_text": "The data indicated that the new isolate is more closely related to HIV-1 than to HIV-2 but clearly differs in a number of important respects.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          4098,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1008
+      },
+      {
+        "cross_encoder_score": -7.03108024597168,
+        "dataset": "SciFact",
+        "end_char": 125,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "325f7c4d172685f286ef594b465ae859",
+        "passage_rank": 10,
+        "query_id": "628",
+        "sentence_id": "03b036657c1f6ee9a5b7cd94cf03c870",
+        "sentence_text": "Apoptosis occurs predominantly in bystander cells and not in productively infected cells of HIV- and SIV-infected lymph nodes",
+        "sentence_token_cost": 26,
+        "source_order": [
+          4566,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.626243591308594,
+        "dataset": "SciFact",
+        "end_char": 334,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "325f7c4d172685f286ef594b465ae859",
+        "passage_rank": 10,
+        "query_id": "628",
+        "sentence_id": "c2aa2a634095b87d7bf228840ad7afe3",
+        "sentence_text": "Although 13 years have passed since identification of human immunodeficiency virus-1 (HIV-1) as the cause of AIDS, we do not yet know how HIV kills its primary target, the T cell that carries the CD4 antigen.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          4566,
+          0,
+          1,
+          0
+        ],
+        "source_position": 126
+      },
+      {
+        "cross_encoder_score": -5.555367469787598,
+        "dataset": "SciFact",
+        "end_char": 550,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "325f7c4d172685f286ef594b465ae859",
+        "passage_rank": 10,
+        "query_id": "628",
+        "sentence_id": "79ece539389a3f45384c60eb749ff152",
+        "sentence_text": "We and others have shown an increase in the percentage of apoptotic cells among circulating CD4+ (and CD8+) T cells of HIV-seropositive individuals and an increase in frequency of apoptosis with disease progression.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          4566,
+          0,
+          2,
+          0
+        ],
+        "source_position": 335
+      },
+      {
+        "cross_encoder_score": -6.016568183898926,
+        "dataset": "SciFact",
+        "end_char": 635,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "325f7c4d172685f286ef594b465ae859",
+        "passage_rank": 10,
+        "query_id": "628",
+        "sentence_id": "4ed0659c29e725191466f01f31de261f",
+        "sentence_text": "However, it is not known if this apoptosis occurs in infected or uninfected T cells.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          4566,
+          0,
+          3,
+          0
+        ],
+        "source_position": 551
+      },
+      {
+        "cross_encoder_score": -6.546989917755127,
+        "dataset": "SciFact",
+        "end_char": 852,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "325f7c4d172685f286ef594b465ae859",
+        "passage_rank": 10,
+        "query_id": "628",
+        "sentence_id": "73dbfdd6ef40f9eaecee8505e9318a00",
+        "sentence_text": "We show here, using in situ labelling of lymph nodes from HIV-infected children and SIV-infected macaques, that apoptosis occurs predominantly in bystander cells and not in the productively infected cells themselves.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          4566,
+          0,
+          4,
+          0
+        ],
+        "source_position": 636
+      },
+      {
+        "cross_encoder_score": -10.38606071472168,
+        "dataset": "SciFact",
+        "end_char": 1066,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "325f7c4d172685f286ef594b465ae859",
+        "passage_rank": 10,
+        "query_id": "628",
+        "sentence_id": "9208b40c1d244307168e315304cec4f9",
+        "sentence_text": "These data have implications for pathogenesis and therapy, namely, arguing that rational drug therapy may involve combination agents targeting viral replication in infected cells and apoptosis of uninfected cells.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          4566,
+          0,
+          5,
+          0
+        ],
+        "source_position": 853
+      },
+      {
+        "cross_encoder_score": -8.175078392028809,
+        "dataset": "SciFact",
+        "end_char": 112,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "739d940d51fe811ffca0d413a8020aec",
+        "passage_rank": 8,
+        "query_id": "628",
+        "sentence_id": "27a17910a6bba4861f80632337f18496",
+        "sentence_text": "Interferon alpha and zidovudine therapy in adult T-cell leukaemia lymphoma: response and outcome in 15 patients.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          4677,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -0.4312771260738373,
+        "dataset": "SciFact",
+        "end_char": 251,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "739d940d51fe811ffca0d413a8020aec",
+        "passage_rank": 8,
+        "query_id": "628",
+        "sentence_id": "bce38b2079c1fcb3fc968e9fe992b7d8",
+        "sentence_text": "Adult T-cell leukaemia lymphoma (ATLL) is an aggressive disease caused by the human T-lymphotropic virus 1 (HTLV-I) with a short survival.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          4677,
+          0,
+          1,
+          0
+        ],
+        "source_position": 113
+      },
+      {
+        "cross_encoder_score": -9.927186965942383,
+        "dataset": "SciFact",
+        "end_char": 369,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "739d940d51fe811ffca0d413a8020aec",
+        "passage_rank": 8,
+        "query_id": "628",
+        "sentence_id": "8e21c5b07acdbc14bd375503c0b23318",
+        "sentence_text": "Responses to interferon alpha (IFN-alpha) and zidovudine (AZT) have been documented but not with long-term follow-up.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          4677,
+          0,
+          2,
+          0
+        ],
+        "source_position": 252
+      },
+      {
+        "cross_encoder_score": -9.704697608947754,
+        "dataset": "SciFact",
+        "end_char": 415,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "739d940d51fe811ffca0d413a8020aec",
+        "passage_rank": 8,
+        "query_id": "628",
+        "sentence_id": "0346335c422d4c8e734cab0ff6ecaa3a",
+        "sentence_text": "We treated 15 ATLL patients with IFN and AZT.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          4677,
+          0,
+          3,
+          0
+        ],
+        "source_position": 370
+      },
+      {
+        "cross_encoder_score": -8.83682632446289,
+        "dataset": "SciFact",
+        "end_char": 508,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "739d940d51fe811ffca0d413a8020aec",
+        "passage_rank": 8,
+        "query_id": "628",
+        "sentence_id": "bd12ec81126cda7bd3d43a5ad993e4c3",
+        "sentence_text": "Eleven patients had acute ATLL, two had lymphoma and two smouldering ATLL, with progression.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          4677,
+          0,
+          4,
+          0
+        ],
+        "source_position": 416
+      },
+      {
+        "cross_encoder_score": -8.69585132598877,
+        "dataset": "SciFact",
+        "end_char": 633,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "739d940d51fe811ffca0d413a8020aec",
+        "passage_rank": 8,
+        "query_id": "628",
+        "sentence_id": "cacb32c9b6f268bc253645d842771873",
+        "sentence_text": "The main features were: organomegaly (14), skin lesions (10), high white blood cell (WBC) count (11) and hypercalcaemia (9).",
+        "sentence_token_cost": 40,
+        "source_order": [
+          4677,
+          0,
+          5,
+          0
+        ],
+        "source_position": 509
+      },
+      {
+        "cross_encoder_score": -10.03586483001709,
+        "dataset": "SciFact",
+        "end_char": 721,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "739d940d51fe811ffca0d413a8020aec",
+        "passage_rank": 8,
+        "query_id": "628",
+        "sentence_id": "e4f973215088425a8d3e65c099286b17",
+        "sentence_text": "Eleven patients had previously received chemotherapy and one had received an autograft.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          4677,
+          0,
+          6,
+          0
+        ],
+        "source_position": 634
+      },
+      {
+        "cross_encoder_score": -9.727712631225586,
+        "dataset": "SciFact",
+        "end_char": 844,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "739d940d51fe811ffca0d413a8020aec",
+        "passage_rank": 8,
+        "query_id": "628",
+        "sentence_id": "18b72ec230d0b9088b747b8acef5317f",
+        "sentence_text": "At the time of the study, seven patients had progressive disease and eight were in partial or complete clinical remission.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          4677,
+          0,
+          7,
+          0
+        ],
+        "source_position": 722
+      },
+      {
+        "cross_encoder_score": -9.739272117614746,
+        "dataset": "SciFact",
+        "end_char": 962,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "739d940d51fe811ffca0d413a8020aec",
+        "passage_rank": 8,
+        "query_id": "628",
+        "sentence_id": "6cb8c06dfa22bf3a991d84a4643de800",
+        "sentence_text": "Responses (PR) lasting 2+ to 44+ months were seen in 67%; 26% did not respond (NR) and one patient was not evaluable.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          4677,
+          0,
+          8,
+          0
+        ],
+        "source_position": 845
+      },
+      {
+        "cross_encoder_score": -10.128326416015625,
+        "dataset": "SciFact",
+        "end_char": 1040,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "739d940d51fe811ffca0d413a8020aec",
+        "passage_rank": 8,
+        "query_id": "628",
+        "sentence_id": "bddc3fac8c27d53b46b6fbf15184bad9",
+        "sentence_text": "Hypercalcaemia predicted a poor outcome but differences were not significant.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          4677,
+          0,
+          9,
+          0
+        ],
+        "source_position": 963
+      },
+      {
+        "cross_encoder_score": -8.683281898498535,
+        "dataset": "SciFact",
+        "end_char": 1103,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "739d940d51fe811ffca0d413a8020aec",
+        "passage_rank": 8,
+        "query_id": "628",
+        "sentence_id": "4dd31b718ed4e37c406545d31e34bf80",
+        "sentence_text": "Eight of the 15 patients have died 3-41 months from diagnosis.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          4677,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1041
+      },
+      {
+        "cross_encoder_score": -8.977813720703125,
+        "dataset": "SciFact",
+        "end_char": 1154,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "739d940d51fe811ffca0d413a8020aec",
+        "passage_rank": 8,
+        "query_id": "628",
+        "sentence_id": "753d5b6d69174890fd1c4b260ca2c2ec",
+        "sentence_text": "Median survival for the 15 patients was 18 months.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          4677,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1104
+      },
+      {
+        "cross_encoder_score": -9.692962646484375,
+        "dataset": "SciFact",
+        "end_char": 1255,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "739d940d51fe811ffca0d413a8020aec",
+        "passage_rank": 8,
+        "query_id": "628",
+        "sentence_id": "261cdb9bbbeb896c7b1ecfb50df80761",
+        "sentence_text": "Survival of the NR ranged from 4 to 20 months; six PR patients are alive 8-82 months from diagnosis.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          4677,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1155
+      },
+      {
+        "cross_encoder_score": -10.420859336853027,
+        "dataset": "SciFact",
+        "end_char": 1399,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "739d940d51fe811ffca0d413a8020aec",
+        "passage_rank": 8,
+        "query_id": "628",
+        "sentence_id": "313e1e8665b6cd46d07e76cfdfb1543f",
+        "sentence_text": "The differences in survival between NR (median: 6 months) and PR (55% of patients alive at 4 years) were statistically significant (P = 0.002).",
+        "sentence_token_cost": 40,
+        "source_order": [
+          4677,
+          0,
+          13,
+          0
+        ],
+        "source_position": 1256
+      },
+      {
+        "cross_encoder_score": -10.726560592651367,
+        "dataset": "SciFact",
+        "end_char": 1494,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "739d940d51fe811ffca0d413a8020aec",
+        "passage_rank": 8,
+        "query_id": "628",
+        "sentence_id": "2d4ddbefa68d2ec2bbb89adfa5002794",
+        "sentence_text": "In conclusion, IFN and AZT improves the outcome of ATLL patients and helps maintain responses.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          4677,
+          0,
+          14,
+          0
+        ],
+        "source_position": 1400
+      }
+    ],
+    "scoring_seconds": 0.966237653978169,
+    "source_fingerprint": "699616edc4469dca10dac1632ea6b692b63dd18ac36f68240e0f394b9e212928"
+  }
+}

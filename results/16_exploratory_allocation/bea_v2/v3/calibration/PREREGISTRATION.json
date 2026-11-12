@@ -1,0 +1,187 @@
+{
+  "answer_outcomes_accessed": false,
+  "cohort": {
+    "HotpotQA": [
+      {
+        "group": "question:0f48f453a4dc82feb9414202ceeccb6facb1a7773d58bad82dc73aa0d828e0a8",
+        "paper_id": "5a7100435542994082a3e4a3",
+        "query_id": "5a7100435542994082a3e4a3"
+      },
+      {
+        "group": "question:2eb1ba17ca9ae61bc9185026fd1ca3f213d6a5ac795567a977319ba65ab75db8",
+        "paper_id": "5a737d3c55429908901be2c8",
+        "query_id": "5a737d3c55429908901be2c8"
+      },
+      {
+        "group": "question:d82209d4d37595d382d9100df8ca776f2ade59da60b55ad5e6d1d697bc6fba52",
+        "paper_id": "5a739d8c55429905862fe073",
+        "query_id": "5a739d8c55429905862fe073"
+      }
+    ],
+    "QASPER": [
+      {
+        "group": "1612.08205",
+        "paper_id": "1612.08205",
+        "query_id": "01a41c0a4a7365cd37d28690735114f2ff5229f2"
+      },
+      {
+        "group": "1706.06894",
+        "paper_id": "1706.06894",
+        "query_id": "05887a8466e0a2f0df4d6a5ffc5815acd7d9066a"
+      },
+      {
+        "group": "1708.01464",
+        "paper_id": "1708.01464",
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab"
+      }
+    ],
+    "SciFact": [
+      {
+        "group": "cited-paper-component:1011",
+        "paper_id": "1012",
+        "query_id": "1012"
+      },
+      {
+        "group": "cited-paper-component:1018",
+        "paper_id": "1019",
+        "query_id": "1019"
+      },
+      {
+        "group": "cited-paper-component:1028",
+        "paper_id": "1029",
+        "query_id": "1029"
+      }
+    ]
+  },
+  "formulation": "P_help_only_times_positive_IG; P_harm_diagnostic_only",
+  "identity": {
+    "config": {
+      "budgets": [
+        256,
+        1024
+      ],
+      "cache": {
+        "force_regenerate": false,
+        "overwrite": false,
+        "resume": true,
+        "reuse_compatible": true,
+        "run_missing": true
+      },
+      "calibration": {
+        "maximum_cell_trivial_fraction": 0.3333333333333333,
+        "maximum_empty_fraction": 0.0,
+        "maximum_near_full_fraction": 0.8,
+        "minimum_cell_coverage_retention": 0.9,
+        "minimum_cell_mean_utilization": 0.2,
+        "minimum_cell_median_units": 2,
+        "minimum_coverage_retention": 0.85,
+        "minimum_threshold_stop_fraction": 0.2,
+        "queries_per_dataset": 3,
+        "selection": "Smallest globally shared preregistered threshold: zero empty contexts, >=20% threshold stops and <=80% near-full allocations globally; EVERY dataset/budget cell must retain >=90% mean cosine coverage relative to threshold zero, mean utilization >=20%, median selected units >=2, and <=1/3 trivial contexts (<10% utilization OR <2 units). No forced minimum is added to the allocator. No answer-quality or held-out LOO labels enter calibration. If no value qualifies, block the pilot without relaxation.",
+        "threshold_grid": [
+          0,
+          1e-05,
+          2.5e-05,
+          5e-05,
+          0.0001,
+          0.00025,
+          0.0005,
+          0.001,
+          0.0025,
+          0.005
+        ],
+        "trivial_utilization_below": 0.1
+      },
+      "decision": {
+        "macro_f1_margin": 0.01,
+        "maximum_clearly_degraded_cells": 1,
+        "maximum_empty_fraction": 0.1,
+        "maximum_near_full_fraction": 0.9,
+        "minimum_context_difference": 0.1,
+        "minimum_quality_gain": 0.003,
+        "minimum_token_saving": 0.15,
+        "qa_margin": 0.003,
+        "uninformative_mean_auc_ceiling": 0.5
+      },
+      "folds": 5,
+      "formulation": "P_help_only_times_positive_IG; P_harm_diagnostic_only",
+      "label": "POST_W12_EXPLORATORY_BEA_V2",
+      "methods": [
+        "FIXED_SENTENCE",
+        "QBGF_FULL",
+        "BEA_QBGF_V1",
+        "BEA_V2"
+      ],
+      "minimum_free_disk_gib": 3,
+      "model": {
+        "C": 1.0,
+        "class_weight": null,
+        "max_iter": 1000,
+        "penalty": "l2",
+        "solver": "lbfgs"
+      },
+      "new_attribution": false,
+      "output_root": "results/post_w12/bea_v2/v3",
+      "parameters": {
+        "eta_cov": 0.5,
+        "lambda_red": 0.5,
+        "min_parent_sentences": 2,
+        "utility_weight": "p_help_only"
+      },
+      "seed": 42,
+      "source_states": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "statistics": {
+        "resamples": 10000,
+        "seed": 42
+      },
+      "study": "BEA_V2_CROSSFIT_DEVELOPMENT_PILOT",
+      "unseen_expansion": false,
+      "v1_root": "results/post_w12/bea_qbgf/v3"
+    },
+    "implementation": {
+      "W12-POST/bea_v2_config.json": "0ee7ed30ab1fbd51341bd6dc92f112525b11300293864add313301f8b53e344a",
+      "W12-POST/run_bea_v2.py": "3b0511a0f976362dcce48d42568e50d7a564b78003c06e28ab889fb16632eebd",
+      "src/post_w12/bea_v2/__init__.py": "4982bb68205ea711bd79900f759fdc02c0bb947f5af0fddb12ce5b80f2710915",
+      "src/post_w12/bea_v2/allocator.py": "061f05769b174658eb6cfb85b442110689ba5819c39ba950db3f37514dfe8dfe",
+      "src/post_w12/bea_v2/analysis.py": "d7f70ad34a0540edd428f973a0b5b80bb9335ca4c306da7383153c058bd12685",
+      "src/post_w12/bea_v2/baselines.py": "a6ff432823db76e8829d4f75f7a384367e16a92ab6ef6d4680fbdd03047f4e51",
+      "src/post_w12/bea_v2/data.py": "76be4efef794611b1b125f86eb9e9d0fd136bd65d42a27909c07a4e261876818",
+      "src/post_w12/bea_v2/models.py": "d075c33b31412ab4bde140a22b8488914cc4f612e9ecb336ef8ef3830363d75a",
+      "src/post_w12/bea_v2/protocol.py": "4b3a09caa943c8ca77038df5ca4038eb1fac3e7d4e83d636a0fffa8a95925560",
+      "src/post_w12/bea_v2/stages.py": "60a1c821b98d42bbdf49e98e1ea2a0facffd932e383689064f5d08da02bc6bf6",
+      "src/post_w12/bea_v2/unseen.py": "f5a356363cb87cba9a8edf1261a840f75969522a1a1494e6d99437a182e81609"
+    },
+    "model_manifest_sha": "05f63b84f09d39f775419c0ef0eb15ed6feb17d8d5c58b68357a6f212e3ea027"
+  },
+  "identity_hash": "f0bac55ad715fd511fc49700d1fad43e76348ec6e4171f398b3fc79c3082f28d",
+  "rule": {
+    "maximum_cell_trivial_fraction": 0.3333333333333333,
+    "maximum_empty_fraction": 0.0,
+    "maximum_near_full_fraction": 0.8,
+    "minimum_cell_coverage_retention": 0.9,
+    "minimum_cell_mean_utilization": 0.2,
+    "minimum_cell_median_units": 2,
+    "minimum_coverage_retention": 0.85,
+    "minimum_threshold_stop_fraction": 0.2,
+    "queries_per_dataset": 3,
+    "selection": "Smallest globally shared preregistered threshold: zero empty contexts, >=20% threshold stops and <=80% near-full allocations globally; EVERY dataset/budget cell must retain >=90% mean cosine coverage relative to threshold zero, mean utilization >=20%, median selected units >=2, and <=1/3 trivial contexts (<10% utilization OR <2 units). No forced minimum is added to the allocator. No answer-quality or held-out LOO labels enter calibration. If no value qualifies, block the pilot without relaxation.",
+    "threshold_grid": [
+      0,
+      1e-05,
+      2.5e-05,
+      5e-05,
+      0.0001,
+      0.00025,
+      0.0005,
+      0.001,
+      0.0025,
+      0.005
+    ],
+    "trivial_utilization_below": 0.1
+  }
+}

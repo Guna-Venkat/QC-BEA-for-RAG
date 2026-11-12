@@ -1,0 +1,1031 @@
+{
+  "checksum": "4c1e728a92c91bead6120bd36082394bdeb73da7750aaea10e3e868d8dcd6cda",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5a8ac0595542992d82986f6c"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 50,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "0ad181830d6ee69b92f0a0062ebd912aed4794d538dbd8eb1d31d3409658f54b",
+    "query_id": "5a8ac0595542992d82986f6c",
+    "scores": [
+      {
+        "cross_encoder_score": -7.103691577911377,
+        "dataset": "HotpotQA",
+        "end_char": 10,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "d0cf90164210d0b154ce76f51e0a6bba",
+        "passage_rank": 5,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "11c080c9740991284911a0d91595da6d",
+        "sentence_text": "Jared Lane",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.24965238571167,
+        "dataset": "HotpotQA",
+        "end_char": 55,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "d0cf90164210d0b154ce76f51e0a6bba",
+        "passage_rank": 5,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "5ad4a4f97534870f7531f7127010746f",
+        "sentence_text": "Jared Takrouna Lane is a New Zealand artist.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 11
+      },
+      {
+        "cross_encoder_score": -4.664427280426025,
+        "dataset": "HotpotQA",
+        "end_char": 234,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "d0cf90164210d0b154ce76f51e0a6bba",
+        "passage_rank": 5,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "ba9a262d87e0801fba951708e620169b",
+        "sentence_text": " He is most notable for his comic art (including his serial Progress), but has also made a name for himself as an illustrator, storyboard artist and as an exhibiting fine artist.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 56
+      },
+      {
+        "cross_encoder_score": -3.2290115356445312,
+        "dataset": "HotpotQA",
+        "end_char": 35,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "e25723ccb3ad1977085700918e848797",
+        "passage_rank": 8,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "fa14309972637d4304e5c212b894bd61",
+        "sentence_text": "King Kong 2: Ikari no Megaton Punch",
+        "sentence_token_cost": 11,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.715294122695923,
+        "dataset": "HotpotQA",
+        "end_char": 141,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "e25723ccb3ad1977085700918e848797",
+        "passage_rank": 8,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "1373f900f1ad32b0727ab7da0511240d",
+        "sentence_text": "King Kong 2: Ikari no Megaton Punch (\u30ad\u30f3\u30b0\u30b3\u30f3\u30b02 \u6012\u308a\u306e\u30e1\u30ac\u30c8\u30f3\u30d1\u30f3\u30c1 , Kingu Kongu Ts\u016b: Ikari no Megaton Panchi , lit.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 36
+      },
+      {
+        "cross_encoder_score": -2.9783666133880615,
+        "dataset": "HotpotQA",
+        "end_char": 243,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "e25723ccb3ad1977085700918e848797",
+        "passage_rank": 8,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "75903b4e38ef06db2e3f20175660bdb5",
+        "sentence_text": " \"King Kong 2: The Furious Megaton Punch\") is a 1986 Family Computer action adventure game by Konami.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 142
+      },
+      {
+        "cross_encoder_score": -1.908596396446228,
+        "dataset": "HotpotQA",
+        "end_char": 382,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "e25723ccb3ad1977085700918e848797",
+        "passage_rank": 8,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "a3b5e0ee8b3f4fcab876359bdd33edc6",
+        "sentence_text": " It was released only in Japan and based on the movie of the same year, \"King Kong Lives\" (\"King Kong 2\" being the film's title in Japan).",
+        "sentence_token_cost": 35,
+        "source_order": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "source_position": 244
+      },
+      {
+        "cross_encoder_score": -6.673975944519043,
+        "dataset": "HotpotQA",
+        "end_char": 12,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "269df5aad6eaafe6fe4494ea65edd951",
+        "passage_rank": 9,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "aba858f6d4708153e5787f85b0e46376",
+        "sentence_text": "Phil Heatley",
+        "sentence_token_cost": 3,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.7362849712371826,
+        "dataset": "HotpotQA",
+        "end_char": 82,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "269df5aad6eaafe6fe4494ea65edd951",
+        "passage_rank": 9,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "59fbd18c49f01f831939fd1e1b22ee50",
+        "sentence_text": "Philip Reeve Heatley (born 5 April 1967) is a New Zealand politician.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 13
+      },
+      {
+        "cross_encoder_score": -8.186043739318848,
+        "dataset": "HotpotQA",
+        "end_char": 121,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "269df5aad6eaafe6fe4494ea65edd951",
+        "passage_rank": 9,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "030ea9ca47194820e178d8d3b4dd6fb4",
+        "sentence_text": " He is a member of the National Party.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 83
+      },
+      {
+        "cross_encoder_score": -10.302714347839355,
+        "dataset": "HotpotQA",
+        "end_char": 352,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "269df5aad6eaafe6fe4494ea65edd951",
+        "passage_rank": 9,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "0bc38a2a2fe544bc0c431cf75c80f31d",
+        "sentence_text": " From 2008 until January 2013, he was a member of cabinet, holding the portfolios of Fisheries, Fisheries and Aquaculture, Energy and Resources, and Housing, before being replaced in a cabinet reshuffle by Prime Minister John Key.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "source_position": 122
+      },
+      {
+        "cross_encoder_score": -8.198413848876953,
+        "dataset": "HotpotQA",
+        "end_char": 394,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "269df5aad6eaafe6fe4494ea65edd951",
+        "passage_rank": 9,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "199ca26612bec8d6517dbf012cf6e128",
+        "sentence_text": " Heatley retired from Parliament in 2014.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          2,
+          0,
+          4,
+          0
+        ],
+        "source_position": 353
+      },
+      {
+        "cross_encoder_score": -4.961269378662109,
+        "dataset": "HotpotQA",
+        "end_char": 25,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "d7cf69289fd31d9a1e6aac71207780d6",
+        "passage_rank": 4,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "b16d9b4bb43a20a48e4f4186bd5c54aa",
+        "sentence_text": "Kong: The Animated Series",
+        "sentence_token_cost": 6,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.263418197631836,
+        "dataset": "HotpotQA",
+        "end_char": 178,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "d7cf69289fd31d9a1e6aac71207780d6",
+        "passage_rank": 4,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "b01da5e4a0bfe0ba422fa73d04dcd47b",
+        "sentence_text": "Kong: The Animated Series was an American-Canadian television series for children that follows King Kong, the monster of the 1933 film of the same name.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 26
+      },
+      {
+        "cross_encoder_score": -3.6252267360687256,
+        "dataset": "HotpotQA",
+        "end_char": 250,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "d7cf69289fd31d9a1e6aac71207780d6",
+        "passage_rank": 4,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "ed41d0f343f381caed8ced3412bac39f",
+        "sentence_text": " \"Kong\" was created to compete with \"\", and first aired on BKN in 2000.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 179
+      },
+      {
+        "cross_encoder_score": -9.777716636657715,
+        "dataset": "HotpotQA",
+        "end_char": 319,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "d7cf69289fd31d9a1e6aac71207780d6",
+        "passage_rank": 4,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "4fd99629af2d3acff8eb3f5d28277be6",
+        "sentence_text": " In May 2001, Fox Kids began airing reruns of the first 13 episodes.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "source_position": 251
+      },
+      {
+        "cross_encoder_score": -3.1064987182617188,
+        "dataset": "HotpotQA",
+        "end_char": 434,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "d7cf69289fd31d9a1e6aac71207780d6",
+        "passage_rank": 4,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "c19f909625a36a5e20d0fe545ab5eb6d",
+        "sentence_text": " Then, Jetix began airing reruns on September 9, 2005, as a prelude to the release of Peter Jackson's \"King Kong\".",
+        "sentence_token_cost": 34,
+        "source_order": [
+          3,
+          0,
+          4,
+          0
+        ],
+        "source_position": 320
+      },
+      {
+        "cross_encoder_score": -2.360684633255005,
+        "dataset": "HotpotQA",
+        "end_char": 818,
+        "pair_tokens_before_truncation": 124,
+        "pair_truncated": false,
+        "passage_id": "d7cf69289fd31d9a1e6aac71207780d6",
+        "passage_rank": 4,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "c4d56e5da60fc9b3ebc18424ad6d7560",
+        "sentence_text": " Additionally, two direct-to-DVD movies based on the series were released: \"Kong: King of Atlantis\", where Kong fights to save the mythic island from a vicious snake sorceress (and which also contains three musical numbers; the only Kong film to do so) in 2005 and \"Kong: Return to the Jungle\", where poachers capture Kong and other animals from his island to sell to a zoo, in 2007.",
+        "sentence_token_cost": 96,
+        "source_order": [
+          3,
+          0,
+          5,
+          0
+        ],
+        "source_position": 435
+      },
+      {
+        "cross_encoder_score": -2.8088877201080322,
+        "dataset": "HotpotQA",
+        "end_char": 31,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "54018ef308d6fca0646508d49e7666b9",
+        "passage_rank": 7,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "c99607db823cedf9ffa77c468b18f3ea",
+        "sentence_text": "King Kong 2: Yomigaeru Densetsu",
+        "sentence_token_cost": 14,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.6859395503997803,
+        "dataset": "HotpotQA",
+        "end_char": 122,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "54018ef308d6fca0646508d49e7666b9",
+        "passage_rank": 7,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "32baa9db7ae1d3eb4dd36ae65a39c65c",
+        "sentence_text": "King Kong 2: Yomigaeru Densetsu (\u30ad\u30f3\u30b0\u30b3\u30f3\u30b02 \u7526\u308b\u4f1d\u8aac , Kingu Kongu Ts\u016b: Yomigaeru Densetsu , lit.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 32
+      },
+      {
+        "cross_encoder_score": -0.9774464964866638,
+        "dataset": "HotpotQA",
+        "end_char": 203,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "54018ef308d6fca0646508d49e7666b9",
+        "passage_rank": 7,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "6aa040b60105d74b8f4f154ecaa8ddc8",
+        "sentence_text": " \"King Kong 2: Revived Legend\") is a 1986 MSX role-playing video game by Konami.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 123
+      },
+      {
+        "cross_encoder_score": -1.908596396446228,
+        "dataset": "HotpotQA",
+        "end_char": 342,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "54018ef308d6fca0646508d49e7666b9",
+        "passage_rank": 7,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "a140b97b5a96300fb3fcc13b671ecaa9",
+        "sentence_text": " It was released only in Japan and based on the movie of the same year, \"King Kong Lives\" (\"King Kong 2\" being the film's title in Japan).",
+        "sentence_token_cost": 35,
+        "source_order": [
+          4,
+          0,
+          3,
+          0
+        ],
+        "source_position": 204
+      },
+      {
+        "cross_encoder_score": -10.087371826171875,
+        "dataset": "HotpotQA",
+        "end_char": 483,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "54018ef308d6fca0646508d49e7666b9",
+        "passage_rank": 7,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "e1770a6b6fbff2e928927781baceb566",
+        "sentence_text": " Similar to Konami's later \"Hi no Tori\" games, two separate games were developed together and released for the MSX and Famicom respectively.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "source_position": 343
+      },
+      {
+        "cross_encoder_score": -1.9827377796173096,
+        "dataset": "HotpotQA",
+        "end_char": 694,
+        "pair_tokens_before_truncation": 88,
+        "pair_truncated": false,
+        "passage_id": "54018ef308d6fca0646508d49e7666b9",
+        "passage_rank": 7,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "928aa8a09b5ad94ab9b9fddaa243c53f",
+        "sentence_text": " While the Famicom \"\" has players playing as King Kong in a more action-oriented format similar to Nintendo's \"The Legend of Zelda\", \"Yomigaeru Densetsu\" has players playing as Mitchell in a role-playing style.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          4,
+          0,
+          5,
+          0
+        ],
+        "source_position": 484
+      },
+      {
+        "cross_encoder_score": -7.7366743087768555,
+        "dataset": "HotpotQA",
+        "end_char": 16,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "8368ee997a0ba5a49bc1daea9a72e809",
+        "passage_rank": 6,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "b0cdab1ddbb89eeddfb32d182f93f3da",
+        "sentence_text": "Here Lies Arthur",
+        "sentence_token_cost": 3,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.740078926086426,
+        "dataset": "HotpotQA",
+        "end_char": 106,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "8368ee997a0ba5a49bc1daea9a72e809",
+        "passage_rank": 6,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "1d159cff26e576d3b3d4e03c90aa1fd8",
+        "sentence_text": "Here Lies Arthur is a young-adult novel by Philip Reeve, published by Scholastic in 2007.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 17
+      },
+      {
+        "cross_encoder_score": -8.789631843566895,
+        "dataset": "HotpotQA",
+        "end_char": 318,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "8368ee997a0ba5a49bc1daea9a72e809",
+        "passage_rank": 6,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "b0b8e5145ed1ed1767362d5182977d0b",
+        "sentence_text": " Set in fifth or sixth century Britain and the Anglo-Saxon invasion, it features a girl who participates in the deliberate construction of legendary King Arthur during the man's lifetime, orchestrated by a bard.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 107
+      },
+      {
+        "cross_encoder_score": -7.4026780128479,
+        "dataset": "HotpotQA",
+        "end_char": 508,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "8368ee997a0ba5a49bc1daea9a72e809",
+        "passage_rank": 6,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "133b783be2358f7d3c0c243c2b88daac",
+        "sentence_text": " Reeve calls it a back-creation: not a genuine historical novel as it is not based on actual specific events; rather it is \"back-created\" from the legends, giving them a \"realistic\" origin.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "source_position": 319
+      },
+      {
+        "cross_encoder_score": -2.4512641429901123,
+        "dataset": "HotpotQA",
+        "end_char": 9,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "6712c5397b6c51619c5bf1362375e4fc",
+        "passage_rank": 3,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "3e49362193f31a4f05a1018e4d91c025",
+        "sentence_text": "King Kong",
+        "sentence_token_cost": 2,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.778134346008301,
+        "dataset": "HotpotQA",
+        "end_char": 116,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "6712c5397b6c51619c5bf1362375e4fc",
+        "passage_rank": 3,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "339ab22beae8045297f367af372ee7ee",
+        "sentence_text": "King Kong is a giant movie monster, resembling a giant ape, that has appeared in various media since 1933.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 10
+      },
+      {
+        "cross_encoder_score": 0.3320188820362091,
+        "dataset": "HotpotQA",
+        "end_char": 269,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "6712c5397b6c51619c5bf1362375e4fc",
+        "passage_rank": 3,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "15a0511a29fb6e2fdf28f60fe6ebc92b",
+        "sentence_text": " The character first appeared in the 1933 film \"King Kong\" from RKO Pictures, which received universal acclaim upon its initial release and re-releases.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 117
+      },
+      {
+        "cross_encoder_score": -4.595618724822998,
+        "dataset": "HotpotQA",
+        "end_char": 358,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "6712c5397b6c51619c5bf1362375e4fc",
+        "passage_rank": 3,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "46f8612de21b58bd5c203d4e6d2aeb43",
+        "sentence_text": " A sequel quickly followed that same year with \"The Son of Kong\", featuring Little Kong.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          6,
+          0,
+          3,
+          0
+        ],
+        "source_position": 270
+      },
+      {
+        "cross_encoder_score": -3.1099483966827393,
+        "dataset": "HotpotQA",
+        "end_char": 580,
+        "pair_tokens_before_truncation": 95,
+        "pair_truncated": false,
+        "passage_id": "6712c5397b6c51619c5bf1362375e4fc",
+        "passage_rank": 3,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "7a725060e6e3208ac85d5633ae799174",
+        "sentence_text": " In the 1960s, Toho produced \"King Kong vs. Godzilla\" (1962), pitting a much larger Kong against Toho's own Godzilla, and \"King Kong Escapes\" (1967), based on \"The King Kong Show\" (1966\u20131969) from Rankin/Bass Productions.",
+        "sentence_token_cost": 77,
+        "source_order": [
+          6,
+          0,
+          4,
+          0
+        ],
+        "source_position": 359
+      },
+      {
+        "cross_encoder_score": -7.447738170623779,
+        "dataset": "HotpotQA",
+        "end_char": 684,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "6712c5397b6c51619c5bf1362375e4fc",
+        "passage_rank": 3,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "d2818406d1ada29b1d116735441933d3",
+        "sentence_text": " In 1976, Dino De Laurentiis produced a modern remake of the original film directed by John Guillermin.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          6,
+          0,
+          5,
+          0
+        ],
+        "source_position": 581
+      },
+      {
+        "cross_encoder_score": -2.393402099609375,
+        "dataset": "HotpotQA",
+        "end_char": 761,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "6712c5397b6c51619c5bf1362375e4fc",
+        "passage_rank": 3,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "2991b5e58b5baa663bbc52c9473a94e1",
+        "sentence_text": " A sequel, \"King Kong Lives\", followed a decade later featuring a Lady Kong.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          6,
+          0,
+          6,
+          0
+        ],
+        "source_position": 685
+      },
+      {
+        "cross_encoder_score": -8.425947189331055,
+        "dataset": "HotpotQA",
+        "end_char": 868,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "6712c5397b6c51619c5bf1362375e4fc",
+        "passage_rank": 3,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "d596735143a7440f6a82123ca8f7bdc8",
+        "sentence_text": " Another remake of the original, this time set in 1933, was released in 2005 from filmmaker Peter Jackson.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          6,
+          0,
+          7,
+          0
+        ],
+        "source_position": 762
+      },
+      {
+        "cross_encoder_score": -8.411247253417969,
+        "dataset": "HotpotQA",
+        "end_char": 21,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "0dbe4ed5a92a069991ecd21a9a09e071",
+        "passage_rank": 2,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "ac5b231e07456191291a31c3bfc511d4",
+        "sentence_text": "Mortal Engines (film)",
+        "sentence_token_cost": 6,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.516708850860596,
+        "dataset": "HotpotQA",
+        "end_char": 202,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "0dbe4ed5a92a069991ecd21a9a09e071",
+        "passage_rank": 2,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "4d8fcfd42e8caa81afccddb510e39b45",
+        "sentence_text": "Mortal Engines is an upcoming New Zealand-American science fiction action adventure film directed by Christian Rivers and written by Peter Jackson, Fran Walsh, and Philippa Boyens.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 22
+      },
+      {
+        "cross_encoder_score": -4.9726080894470215,
+        "dataset": "HotpotQA",
+        "end_char": 262,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "0dbe4ed5a92a069991ecd21a9a09e071",
+        "passage_rank": 2,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "d76727b827a9baf31534650b89213fc8",
+        "sentence_text": " It is based on the novel of the same name by Philip Reeve.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 203
+      },
+      {
+        "cross_encoder_score": -6.784073352813721,
+        "dataset": "HotpotQA",
+        "end_char": 369,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "0dbe4ed5a92a069991ecd21a9a09e071",
+        "passage_rank": 2,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "4377d012375f6cd14219ccee654f8918",
+        "sentence_text": " It stars Robert Sheehan, Hera Hilmar, Hugo Weaving, Jihae, Leila George, Ronan Raftery, and Stephen Lang.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 263
+      },
+      {
+        "cross_encoder_score": -8.709117889404297,
+        "dataset": "HotpotQA",
+        "end_char": 429,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "0dbe4ed5a92a069991ecd21a9a09e071",
+        "passage_rank": 2,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "dc51f0e1fb8e7d8c7ab3788799cefad2",
+        "sentence_text": " It is set to be released in theaters on December 14, 2018.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          7,
+          0,
+          4,
+          0
+        ],
+        "source_position": 370
+      },
+      {
+        "cross_encoder_score": -7.598789215087891,
+        "dataset": "HotpotQA",
+        "end_char": 16,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "c1622d854b7e016b7a9dc7cd5529cf8d",
+        "passage_rank": 1,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "5d7ebb63fc89ea6444a011d0ba924b9c",
+        "sentence_text": "Christian Rivers",
+        "sentence_token_cost": 2,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 0.9970142245292664,
+        "dataset": "HotpotQA",
+        "end_char": 137,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "c1622d854b7e016b7a9dc7cd5529cf8d",
+        "passage_rank": 1,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "cd7b29c208803c2994ced3f6a9051dc2",
+        "sentence_text": "Christian Rivers is a New Zealand storyboard artist, visual effects supervisor, special effects technician and director.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 17
+      },
+      {
+        "cross_encoder_score": -5.238687038421631,
+        "dataset": "HotpotQA",
+        "end_char": 242,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "c1622d854b7e016b7a9dc7cd5529cf8d",
+        "passage_rank": 1,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "f707358f507201b4b70c2fa00ff50142",
+        "sentence_text": " He first met Peter Jackson as a 17-year-old, and storyboarded all of Jackson's films since \"Braindead\".",
+        "sentence_token_cost": 26,
+        "source_order": [
+          8,
+          0,
+          2,
+          0
+        ],
+        "source_position": 138
+      },
+      {
+        "cross_encoder_score": -0.3108496367931366,
+        "dataset": "HotpotQA",
+        "end_char": 327,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "c1622d854b7e016b7a9dc7cd5529cf8d",
+        "passage_rank": 1,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "29e3993caac3f69b524601ac4244fa29",
+        "sentence_text": " He also cameoed in \"\" as a Gondorian soldier and \"King Kong\" as a Soldier in Truck.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          8,
+          0,
+          3,
+          0
+        ],
+        "source_position": 243
+      },
+      {
+        "cross_encoder_score": -6.03652811050415,
+        "dataset": "HotpotQA",
+        "end_char": 461,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "c1622d854b7e016b7a9dc7cd5529cf8d",
+        "passage_rank": 1,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "2f433b3541e9e01a0674ad989e493223",
+        "sentence_text": " He will also direct the upcoming adaptation of \"Mortal Engines\" and the remake of \"The Dam Busters\", both produced by Peter Jackson.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          8,
+          0,
+          4,
+          0
+        ],
+        "source_position": 328
+      },
+      {
+        "cross_encoder_score": -7.210861682891846,
+        "dataset": "HotpotQA",
+        "end_char": 12,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "084720d9e95c402bde1d0cb9cc5d53d0",
+        "passage_rank": 10,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "badfc41008da500b20ea9877c23b2186",
+        "sentence_text": "M. D. Bright",
+        "sentence_token_cost": 5,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.242075204849243,
+        "dataset": "HotpotQA",
+        "end_char": 88,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "084720d9e95c402bde1d0cb9cc5d53d0",
+        "passage_rank": 10,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "52bb1f584e0dc7da83d76edd7525776e",
+        "sentence_text": "Mark D. Bright (born 1955) is an American comic book and storyboard artist.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 13
+      },
+      {
+        "cross_encoder_score": -9.197210311889648,
+        "dataset": "HotpotQA",
+        "end_char": 534,
+        "pair_tokens_before_truncation": 136,
+        "pair_truncated": false,
+        "passage_id": "084720d9e95c402bde1d0cb9cc5d53d0",
+        "passage_rank": 10,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "3839fb88ea80a17684d7094abeeaae31",
+        "sentence_text": " Often credited as M.D. Bright, and sometimes as Doc Bright (a play on his initials), he is best known for pencilling the Marvel Comics Iron Man story \"Armor Wars\", the two \"\" miniseries for DC Comics, for painting the iconic cover to Marvel Comics' \"Transformers\" #5, (featuring the Decepticon Shockwave and the haunting words \"Are All Dead\" underneath the series title), and for co-creating Quantum and Woody with writer Christopher J. Priest.",
+        "sentence_token_cost": 101,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 89
+      },
+      {
+        "cross_encoder_score": -4.77791690826416,
+        "dataset": "HotpotQA",
+        "end_char": 814,
+        "pair_tokens_before_truncation": 92,
+        "pair_truncated": false,
+        "passage_id": "084720d9e95c402bde1d0cb9cc5d53d0",
+        "passage_rank": 10,
+        "query_id": "5a8ac0595542992d82986f6c",
+        "sentence_id": "00d4f8f3d50e3933f8abb2bf05ce83fe",
+        "sentence_text": " Mostly out of comics, Bright is now a freelance storyboard artist, although he and Priest reunited for a 5-issue \"Quantum and Woody\" miniseries published by the new incarnation of Valiant Comics in 2014-2015, but set in the continuity of the original \"Quantum and Woody\" series.",
+        "sentence_token_cost": 69,
+        "source_order": [
+          9,
+          0,
+          3,
+          0
+        ],
+        "source_position": 535
+      }
+    ],
+    "scoring_seconds": 0.36732981097884476,
+    "source_fingerprint": "1178b24af38ee0c1bb0bb575287ea40ddc8bbcc1f2cc332e0ed259c4f311dc66"
+  }
+}

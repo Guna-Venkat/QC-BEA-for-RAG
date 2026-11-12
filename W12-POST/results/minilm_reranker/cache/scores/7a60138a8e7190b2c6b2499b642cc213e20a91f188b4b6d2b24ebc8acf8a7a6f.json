@@ -1,0 +1,1891 @@
+{
+  "checksum": "192577f099a39b1559109aef599474364e4fe38fee5943ad19a6062a266c973e",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 93,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "1790db33334a9ac843e5a3e2939fc416266e080b607e83e9b22e3e7f1320473d",
+    "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+    "scores": [
+      {
+        "cross_encoder_score": -1.672813057899475,
+        "dataset": "QASPER",
+        "end_char": 345,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "7740ac3ffa7a798e9aa95dddc414db3e",
+        "passage_rank": 4,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "5e75aa23104ba3a4e27e226821bb6ea2",
+        "sentence_text": "Improving Correlation with Human Judgments by Integrating Semantic Similarity with Second--Order Vectors\tVector space methods that measure semantic similarity and relatedness often rely on distributional information such as co--occurrence frequencies or statistical measures of association to weight the importance of particular co--occurrences.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.250052452087402,
+        "dataset": "QASPER",
+        "end_char": 512,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "7740ac3ffa7a798e9aa95dddc414db3e",
+        "passage_rank": 4,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "4cc786a8f26a0a311a9fbccd7199cd47",
+        "sentence_text": "In this paper, we extend these methods by incorporating a measure of semantic similarity based on a human curated taxonomy into a second--order vector representation.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 346
+      },
+      {
+        "cross_encoder_score": -11.345189094543457,
+        "dataset": "QASPER",
+        "end_char": 725,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "7740ac3ffa7a798e9aa95dddc414db3e",
+        "passage_rank": 4,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "165828d080c5e9a24cae98b67f95199f",
+        "sentence_text": "This results in a measure of semantic relatedness that combines both the contextual information available in a corpus--based vector space representation with the semantic knowledge found in a biomedical ontology.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 513
+      },
+      {
+        "cross_encoder_score": 4.225513935089111,
+        "dataset": "QASPER",
+        "end_char": 1067,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "7740ac3ffa7a798e9aa95dddc414db3e",
+        "passage_rank": 4,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "4197081dea887817cd1aa00e647b8737",
+        "sentence_text": "Our results show that incorporating semantic similarity into a second order co--occurrence matrices improves correlation with human judgments for both similarity and relatedness, and that our method compares favorably to various different word embedding methods that have recently been evaluated on the same reference standards we have used.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 726
+      },
+      {
+        "cross_encoder_score": -11.347179412841797,
+        "dataset": "QASPER",
+        "end_char": 1265,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "7740ac3ffa7a798e9aa95dddc414db3e",
+        "passage_rank": 4,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "501d73a1eadcb1b044b17dfdaa5906b4",
+        "sentence_text": "Introduction\tMeasures of semantic similarity and relatedness quantify the degree to which two concepts are similar (e.g., INLINEFORM0 \u2013 INLINEFORM1 ) or related (e.g., INLINEFORM2 \u2013 INLINEFORM3 ).",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 1069
+      },
+      {
+        "cross_encoder_score": -11.414484024047852,
+        "dataset": "QASPER",
+        "end_char": 1417,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "7740ac3ffa7a798e9aa95dddc414db3e",
+        "passage_rank": 4,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "5e4185fb2323b44031998e1ef6bf3fc7",
+        "sentence_text": "Semantic similarity can be viewed as a special case of semantic relatedness \u2013 to be similar is one of many ways that a pair of concepts may be related.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1266
+      },
+      {
+        "cross_encoder_score": -11.04942798614502,
+        "dataset": "QASPER",
+        "end_char": 1444,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "7740ac3ffa7a798e9aa95dddc414db3e",
+        "passage_rank": 4,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "20a551d25f61331973e9e073a58c1321",
+        "sentence_text": "The automated discovery of",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1418
+      },
+      {
+        "cross_encoder_score": -11.437381744384766,
+        "dataset": "QASPER",
+        "end_char": 1652,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "4e277db6e79edb6b5b05d4936576f547",
+        "passage_rank": 1,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "a9407cc32c189e93629259d9c6e91c8f",
+        "sentence_text": "groups of semantically similar or related terms is critical to improving the retrieval  and clustering  of biomedical and clinical documents, and the development of biomedical terminologies and ontologies  .",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1445
+      },
+      {
+        "cross_encoder_score": -11.403392791748047,
+        "dataset": "QASPER",
+        "end_char": 1776,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "4e277db6e79edb6b5b05d4936576f547",
+        "passage_rank": 1,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "ae133b0915c51c32bcd6bb6c45140ec9",
+        "sentence_text": "There is a long history in using distributional methods to discover semantic similarity and relatedness (e.g.,  ,  ,  ,  ).",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1653
+      },
+      {
+        "cross_encoder_score": -11.396405220031738,
+        "dataset": "QASPER",
+        "end_char": 1972,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "4e277db6e79edb6b5b05d4936576f547",
+        "passage_rank": 1,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "a51aae77d3b0ed5fc19ca1b0f18a1b1b",
+        "sentence_text": "These methods are all based on the distributional hypothesis, which holds that two terms that are distributionally similar (i.e., used in the same context) will also be semantically similar  ,  .",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1777
+      },
+      {
+        "cross_encoder_score": -11.450369834899902,
+        "dataset": "QASPER",
+        "end_char": 2051,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "4e277db6e79edb6b5b05d4936576f547",
+        "passage_rank": 1,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "6c3a1294fea0dc017089c36cdb68b6b9",
+        "sentence_text": "Recently word embedding techniques such as word2vec  have become very popular.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1973
+      },
+      {
+        "cross_encoder_score": -9.60589599609375,
+        "dataset": "QASPER",
+        "end_char": 2299,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "4e277db6e79edb6b5b05d4936576f547",
+        "passage_rank": 1,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "74582df37f99edb032da876783f7796e",
+        "sentence_text": "Despite the prominent role that neural networks play in many of these approaches, at their core they remain distributional techniques that typically start with a word by word co\u2013occurrence matrix, much like many of the more traditional approaches.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 2052
+      },
+      {
+        "cross_encoder_score": -11.423065185546875,
+        "dataset": "QASPER",
+        "end_char": 2419,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "4e277db6e79edb6b5b05d4936576f547",
+        "passage_rank": 1,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "feef3760a7ad45b10ad2a7b798d96ee2",
+        "sentence_text": "However, despite these successes distributional methods do not perform well when data is very sparse (which is common).",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 2300
+      },
+      {
+        "cross_encoder_score": 1.2301185131072998,
+        "dataset": "QASPER",
+        "end_char": 2492,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "4e277db6e79edb6b5b05d4936576f547",
+        "passage_rank": 1,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "9bb5bacd679c4b9bb9afcb256e5f14a2",
+        "sentence_text": "One possible solution is to use second\u2013order co\u2013occurrence vectors  ,  .",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2420
+      },
+      {
+        "cross_encoder_score": -1.0567474365234375,
+        "dataset": "QASPER",
+        "end_char": 2716,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "4e277db6e79edb6b5b05d4936576f547",
+        "passage_rank": 1,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "f7e69b4252ed8a9a0e1a522ccd930c02",
+        "sentence_text": "In this approach the similarity between two words is not strictly based on their co\u2013occurrence frequencies, but rather on the frequencies of the other words which occur with both of them (i.e., second order co\u2013occurrences).",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2493
+      },
+      {
+        "cross_encoder_score": -10.710328102111816,
+        "dataset": "QASPER",
+        "end_char": 2739,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "4e277db6e79edb6b5b05d4936576f547",
+        "passage_rank": 1,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "a8ef03cb90da0612a03e15299715e610",
+        "sentence_text": "This approach has been",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          1,
+          8,
+          0
+        ],
+        "source_position": 2717
+      },
+      {
+        "cross_encoder_score": -11.362166404724121,
+        "dataset": "QASPER",
+        "end_char": 2804,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "ba132293e8edef93697cc8bfdaf4d6f1",
+        "passage_rank": 3,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "7a76a3a8a429e28e43d9d7ce568b8f49",
+        "sentence_text": "shown to be successful in quantifying semantic relatedness  ,  .",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2740
+      },
+      {
+        "cross_encoder_score": -3.8708343505859375,
+        "dataset": "QASPER",
+        "end_char": 3075,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "ba132293e8edef93697cc8bfdaf4d6f1",
+        "passage_rank": 3,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "0413486357b72b7b0aad6afd95aba7e6",
+        "sentence_text": "However, while more robust in the face of sparsity, second\u2013order methods can result in significant amounts of noise, where contextual information that is overly general is included and does not contribute to quantifying the semantic relatedness between the two concepts.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2805
+      },
+      {
+        "cross_encoder_score": -2.357774496078491,
+        "dataset": "QASPER",
+        "end_char": 3198,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "ba132293e8edef93697cc8bfdaf4d6f1",
+        "passage_rank": 3,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "829eeadece314353e4978103c0f1c2e5",
+        "sentence_text": "Our goal then is to discover methods that automatically reduce the amount of noise in a second\u2013order co\u2013occurrence vector.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 3076
+      },
+      {
+        "cross_encoder_score": -3.2977213859558105,
+        "dataset": "QASPER",
+        "end_char": 3436,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "ba132293e8edef93697cc8bfdaf4d6f1",
+        "passage_rank": 3,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "6ae2669eb2614dbc073c5e39554b3549",
+        "sentence_text": "We achieve this by incorporating pairwise semantic similarity scores derived from a taxonomy into our second\u2013order vectors, and then using these scores to select only the most semantically similar co\u2013occurrences (thereby reducing noise).",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3199
+      },
+      {
+        "cross_encoder_score": -11.368989944458008,
+        "dataset": "QASPER",
+        "end_char": 3518,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "ba132293e8edef93697cc8bfdaf4d6f1",
+        "passage_rank": 3,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "4ef945cc6bb6d80a25541ffb40e8240f",
+        "sentence_text": "We evaluate our method on two datasets that have been annotated in multiple ways.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3437
+      },
+      {
+        "cross_encoder_score": -11.424373626708984,
+        "dataset": "QASPER",
+        "end_char": 3699,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "ba132293e8edef93697cc8bfdaf4d6f1",
+        "passage_rank": 3,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "2d04a99e0de575156901d279f75d97dd",
+        "sentence_text": "One has been annotated for both similarity and relatedness, and the other has been annotated for relatedness by two different types of experts (medical doctors and medical coders).",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3519
+      },
+      {
+        "cross_encoder_score": 0.2117796093225479,
+        "dataset": "QASPER",
+        "end_char": 3856,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "ba132293e8edef93697cc8bfdaf4d6f1",
+        "passage_rank": 3,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "90f62ad3e3666e4c636710b0fc92915d",
+        "sentence_text": "Our results show that integrating second order co\u2013occurrences with measures of semantic similarity increases correlation with our human reference standards.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3700
+      },
+      {
+        "cross_encoder_score": -11.454926490783691,
+        "dataset": "QASPER",
+        "end_char": 4008,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "ba132293e8edef93697cc8bfdaf4d6f1",
+        "passage_rank": 3,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "0103b0116be5e569f5bc88844efca4e1",
+        "sentence_text": "We also compare our result to a number of other studies which have applied various word embedding methods to the same reference standards we have used.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3857
+      },
+      {
+        "cross_encoder_score": -11.327646255493164,
+        "dataset": "QASPER",
+        "end_char": 4102,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "ba132293e8edef93697cc8bfdaf4d6f1",
+        "passage_rank": 3,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "0cbc1eb261025cd08d7df0153fd6df88",
+        "sentence_text": "We find that our method often performs at a comparable or higher level than these approaches.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 4009
+      },
+      {
+        "cross_encoder_score": -11.300971984863281,
+        "dataset": "QASPER",
+        "end_char": 4156,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "ba132293e8edef93697cc8bfdaf4d6f1",
+        "passage_rank": 3,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "f988425d6f0c59df0a8072f5ed887593",
+        "sentence_text": "These results suggest that our methods of integrating",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          2,
+          9,
+          0
+        ],
+        "source_position": 4103
+      },
+      {
+        "cross_encoder_score": -11.2832670211792,
+        "dataset": "QASPER",
+        "end_char": 12746,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "b9b66ca2d8c0fd55f961866f3115be5c",
+        "passage_rank": 2,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "703750aa2f4776b0860b403a8ae8cd28",
+        "sentence_text": "to distinguish between multiple concepts.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 12705
+      },
+      {
+        "cross_encoder_score": -11.449488639831543,
+        "dataset": "QASPER",
+        "end_char": 12907,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "b9b66ca2d8c0fd55f961866f3115be5c",
+        "passage_rank": 2,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "090ce0e1f18ea2dd9f2642304a82d72a",
+        "sentence_text": "Therefore, they created a super\u2013gloss for each concept by adding the glosses of related concepts to the gloss of the concept itself (and then finding overlaps).",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 12747
+      },
+      {
+        "cross_encoder_score": 0.9139850735664368,
+        "dataset": "QASPER",
+        "end_char": 12981,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "b9b66ca2d8c0fd55f961866f3115be5c",
+        "passage_rank": 2,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "dff3eeac1c035ac7a5f5e8a1c193adea",
+        "sentence_text": "PatwardhanP06 adapted this measure to second\u2013order co\u2013occurrence vectors.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 12908
+      },
+      {
+        "cross_encoder_score": -10.700830459594727,
+        "dataset": "QASPER",
+        "end_char": 13112,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "b9b66ca2d8c0fd55f961866f3115be5c",
+        "passage_rank": 2,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "93a54e7f27f318bc3d1443fb62bc758a",
+        "sentence_text": "In this approach, a vector is created for each word in a concept's definition that shows which words co\u2013occur with it in a corpus.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 12982
+      },
+      {
+        "cross_encoder_score": -10.597904205322266,
+        "dataset": "QASPER",
+        "end_char": 13201,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "b9b66ca2d8c0fd55f961866f3115be5c",
+        "passage_rank": 2,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "f58d0ed2b85bfbe52e2b9eaec06c5b17",
+        "sentence_text": "These word vectors are averaged to create a single co-occurrence vector for the concept.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 13113
+      },
+      {
+        "cross_encoder_score": -2.3790152072906494,
+        "dataset": "QASPER",
+        "end_char": 13315,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "b9b66ca2d8c0fd55f961866f3115be5c",
+        "passage_rank": 2,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "bba8e7f69dcefeb45629dfb3300c6e12",
+        "sentence_text": "The similarity between the concepts is calculated by taking the cosine between the concepts second\u2013order vectors.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 13202
+      },
+      {
+        "cross_encoder_score": -11.395289421081543,
+        "dataset": "QASPER",
+        "end_char": 13450,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "b9b66ca2d8c0fd55f961866f3115be5c",
+        "passage_rank": 2,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "b6f73db05e0b11cfc896cdefcbb9469c",
+        "sentence_text": "LiuMPMP12 modified and extended this measure to be used to quantify the relatedness between biomedical and clinical terms in the UMLS.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 13316
+      },
+      {
+        "cross_encoder_score": -11.3948335647583,
+        "dataset": "QASPER",
+        "end_char": 13540,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "b9b66ca2d8c0fd55f961866f3115be5c",
+        "passage_rank": 2,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "4619349b7e5dcb0b4ee471edb04bb51e",
+        "sentence_text": "The work in this paper can be seen as a further extension of PatwardhanP06 and LiuMPMP12.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 13451
+      },
+      {
+        "cross_encoder_score": -4.111336708068848,
+        "dataset": "QASPER",
+        "end_char": 13621,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "b9b66ca2d8c0fd55f961866f3115be5c",
+        "passage_rank": 2,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "cbdc5bf16aefe918abf7f4704c189de5",
+        "sentence_text": "Method\tIn this section, we describe our second\u2013order similarity vector measure.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          10,
+          8,
+          0
+        ],
+        "source_position": 13542
+      },
+      {
+        "cross_encoder_score": -11.36855411529541,
+        "dataset": "QASPER",
+        "end_char": 13771,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "b9b66ca2d8c0fd55f961866f3115be5c",
+        "passage_rank": 2,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "208ba99c5dd12e73177510d30beb090c",
+        "sentence_text": "This incorporates both contextual information using the term pair's definition and their pairwise semantic similarity scores derived from a taxonomy.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          10,
+          9,
+          0
+        ],
+        "source_position": 13622
+      },
+      {
+        "cross_encoder_score": -11.174053192138672,
+        "dataset": "QASPER",
+        "end_char": 13809,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "b9b66ca2d8c0fd55f961866f3115be5c",
+        "passage_rank": 2,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "d3d151ad1e2aad5841e98e58f91df684",
+        "sentence_text": "There are two stages to our approach.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          10,
+          10,
+          0
+        ],
+        "source_position": 13772
+      },
+      {
+        "cross_encoder_score": -4.583298683166504,
+        "dataset": "QASPER",
+        "end_char": 13860,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "b9b66ca2d8c0fd55f961866f3115be5c",
+        "passage_rank": 2,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "32f66ed9a986f2c18dc488ecd0b37c06",
+        "sentence_text": "First, a co\u2013occurrence matrix must be constructed.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          10,
+          11,
+          0
+        ],
+        "source_position": 13810
+      },
+      {
+        "cross_encoder_score": 4.029397010803223,
+        "dataset": "QASPER",
+        "end_char": 13954,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "b9b66ca2d8c0fd55f961866f3115be5c",
+        "passage_rank": 2,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "73e016d6c2bb88ad3e2bb5946550cd7f",
+        "sentence_text": "Second, this matrix is used to construct a second\u2013order co\u2013occurrence vector for each concept",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          10,
+          12,
+          0
+        ],
+        "source_position": 13861
+      },
+      {
+        "cross_encoder_score": -11.294229507446289,
+        "dataset": "QASPER",
+        "end_char": 14008,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "15b0fd17c2524e2a43227bbaaa38d5b4",
+        "passage_rank": 8,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "68b9b01c6eac073ea24421d8a83f74ff",
+        "sentence_text": "in a pair of concepts to be measured for relatedness.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 13955
+      },
+      {
+        "cross_encoder_score": -6.184280872344971,
+        "dataset": "QASPER",
+        "end_char": 14301,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "15b0fd17c2524e2a43227bbaaa38d5b4",
+        "passage_rank": 8,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "72defe34e73a4023249d42e3f70645cd",
+        "sentence_text": "Co\u2013occurrence Matrix Construction\tWe build an INLINEFORM0 similarity matrix using an external corpus where the rows and columns represent words within the corpus and the element contains the similarity score between the row word and column word using the similarity measures discussed above.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 14010
+      },
+      {
+        "cross_encoder_score": -11.450921058654785,
+        "dataset": "QASPER",
+        "end_char": 14409,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "15b0fd17c2524e2a43227bbaaa38d5b4",
+        "passage_rank": 8,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "0b12483cfa90d948e865639491db7fac",
+        "sentence_text": "If a word maps to more than one possible sense, we use the sense that returns the highest similarity score.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 14302
+      },
+      {
+        "cross_encoder_score": -11.377090454101562,
+        "dataset": "QASPER",
+        "end_char": 14479,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "15b0fd17c2524e2a43227bbaaa38d5b4",
+        "passage_rank": 8,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "bdaf612a4901d51ae91146c43b6c6a33",
+        "sentence_text": "For this paper our external corpus was the NLM 2015 Medline baseline.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 14410
+      },
+      {
+        "cross_encoder_score": -11.44225025177002,
+        "dataset": "QASPER",
+        "end_char": 14648,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "15b0fd17c2524e2a43227bbaaa38d5b4",
+        "passage_rank": 8,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "609a856a235337dc77bf443bf82694d5",
+        "sentence_text": "Medline is a bibliographic database containing over 23 million citations to journal articles in the biomedical domain and is maintained by National Library of Medicine.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 14480
+      },
+      {
+        "cross_encoder_score": -11.440898895263672,
+        "dataset": "QASPER",
+        "end_char": 14807,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "15b0fd17c2524e2a43227bbaaa38d5b4",
+        "passage_rank": 8,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "7482a1331ae7b9e44a0ec8a0cbd83199",
+        "sentence_text": "The 2015 Medline Baseline encompasses approximately 5,600 journals starting from 1948 and contains 23,343,329 citations, of which 2,579,239 contain abstracts.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 14649
+      },
+      {
+        "cross_encoder_score": -11.442102432250977,
+        "dataset": "QASPER",
+        "end_char": 14883,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "15b0fd17c2524e2a43227bbaaa38d5b4",
+        "passage_rank": 8,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "3cc8c643ae62ab2752c642d2d82381cb",
+        "sentence_text": "In this work, we use Medline titles and abstracts from 1975 to present day.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 14808
+      },
+      {
+        "cross_encoder_score": -11.418811798095703,
+        "dataset": "QASPER",
+        "end_char": 14946,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "15b0fd17c2524e2a43227bbaaa38d5b4",
+        "passage_rank": 8,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "29762fc348fc5153ef1b4a7f9aba72e6",
+        "sentence_text": "Prior to 1975, only 2% of the citations contained an abstract.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 14884
+      },
+      {
+        "cross_encoder_score": -11.453742027282715,
+        "dataset": "QASPER",
+        "end_char": 15093,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "15b0fd17c2524e2a43227bbaaa38d5b4",
+        "passage_rank": 8,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "54bd6fd631f94fef7c309733959abb23",
+        "sentence_text": "We then calculate the similarity for each bigram in this dataset and include those that have a similarity score greater than a specified threshold",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          11,
+          8,
+          0
+        ],
+        "source_position": 14947
+      },
+      {
+        "cross_encoder_score": -11.11466121673584,
+        "dataset": "QASPER",
+        "end_char": 15115,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "69b69d921f1bbb4970eb180a24cb470b",
+        "passage_rank": 9,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "593f6da7e359b09b71028c938b0e2d04",
+        "sentence_text": "on these experiments.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 15094
+      },
+      {
+        "cross_encoder_score": -11.41498851776123,
+        "dataset": "QASPER",
+        "end_char": 15219,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "69b69d921f1bbb4970eb180a24cb470b",
+        "passage_rank": 9,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "031aafb98ea59e42876e22ae4cd2509d",
+        "sentence_text": "Measure Term Pairs for Relatedness\tWe obtain definitions for each of the two terms we wish to measure.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 15117
+      },
+      {
+        "cross_encoder_score": -11.418818473815918,
+        "dataset": "QASPER",
+        "end_char": 15397,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "69b69d921f1bbb4970eb180a24cb470b",
+        "passage_rank": 9,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "ba250c4a38751cba15a9acd49ba7d6f0",
+        "sentence_text": "Due to the sparsity and inconsistencies of the definitions in the UMLS, we not only use the definition of the term (CUI) but also include the definition of its related concepts.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 15220
+      },
+      {
+        "cross_encoder_score": -11.330514907836914,
+        "dataset": "QASPER",
+        "end_char": 15552,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "69b69d921f1bbb4970eb180a24cb470b",
+        "passage_rank": 9,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "127b113495870d2b9a1bcf74338d39fc",
+        "sentence_text": "This follows the method proposed by PatwardhanP06 for general English and WordNet, and which was adapted for the UMLS and the medical domain by LiuMPMP12.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 15398
+      },
+      {
+        "cross_encoder_score": -11.444154739379883,
+        "dataset": "QASPER",
+        "end_char": 15732,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "69b69d921f1bbb4970eb180a24cb470b",
+        "passage_rank": 9,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "96a9f8ccf4ef353fd70745f522f3b62b",
+        "sentence_text": "In particular we add the definitions of any concepts connected via a parent (PAR), child (CHD), RB (broader than), RN (narrower than) or TERM (terms associated with CUI) relation.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 15553
+      },
+      {
+        "cross_encoder_score": -11.437389373779297,
+        "dataset": "QASPER",
+        "end_char": 15806,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "69b69d921f1bbb4970eb180a24cb470b",
+        "passage_rank": 9,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "fcab90efd476aba668cb887f55bec07d",
+        "sentence_text": "All of the definitions for a term are combined into a single super\u2013gloss.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 15733
+      },
+      {
+        "cross_encoder_score": -11.306530952453613,
+        "dataset": "QASPER",
+        "end_char": 15917,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "69b69d921f1bbb4970eb180a24cb470b",
+        "passage_rank": 9,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "8ea9b4af4ea08e8ba42d2489e2ebdf60",
+        "sentence_text": "At the end of this process we should have two super\u2013glosses, one for each term to be measured for relatedness.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 15807
+      },
+      {
+        "cross_encoder_score": -4.2868123054504395,
+        "dataset": "QASPER",
+        "end_char": 16092,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "69b69d921f1bbb4970eb180a24cb470b",
+        "passage_rank": 9,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "0095d18018a313b659e140cf84b950f8",
+        "sentence_text": "Next, we process each super\u2013gloss as follows: We extract a first\u2013order co\u2013occurrence vector for each term in the super\u2013gloss from the co\u2013occurrence matrix created previously.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          12,
+          7,
+          0
+        ],
+        "source_position": 15918
+      },
+      {
+        "cross_encoder_score": -4.465153217315674,
+        "dataset": "QASPER",
+        "end_char": 16196,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "69b69d921f1bbb4970eb180a24cb470b",
+        "passage_rank": 9,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "0e86a0d161e00e9cff11e47c17cfd6ad",
+        "sentence_text": "We take the average of the first order co\u2013occurrence vectors associated with the terms in a super\u2013gloss",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          12,
+          8,
+          0
+        ],
+        "source_position": 16093
+      },
+      {
+        "cross_encoder_score": -11.296817779541016,
+        "dataset": "QASPER",
+        "end_char": 16247,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "c87c5e52a7bbfcd1e89ad1bf923a5950",
+        "passage_rank": 7,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "630fcbb4955791d1a7a8e772ce6a770b",
+        "sentence_text": "and use that to represent the meaning of the term.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "source_position": 16197
+      },
+      {
+        "cross_encoder_score": 2.488795518875122,
+        "dataset": "QASPER",
+        "end_char": 16292,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "c87c5e52a7bbfcd1e89ad1bf923a5950",
+        "passage_rank": 7,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "a466c773f088dfb5d3bfff10ad056804",
+        "sentence_text": "This is a second\u2013order co\u2013occurrence vector.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          13,
+          1,
+          0
+        ],
+        "source_position": 16248
+      },
+      {
+        "cross_encoder_score": 0.9566904902458191,
+        "dataset": "QASPER",
+        "end_char": 16466,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "c87c5e52a7bbfcd1e89ad1bf923a5950",
+        "passage_rank": 7,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "03064a2864e4657ae713367712808e03",
+        "sentence_text": "After a second\u2013order co\u2013occurrence vector has been constructed for each term, then we calculate the cosine between these two vectors to measure the relatedness of the terms.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          13,
+          2,
+          0
+        ],
+        "source_position": 16293
+      },
+      {
+        "cross_encoder_score": -11.420493125915527,
+        "dataset": "QASPER",
+        "end_char": 16566,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "c87c5e52a7bbfcd1e89ad1bf923a5950",
+        "passage_rank": 7,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "855e4b9a571683578fcdb0994deb5f27",
+        "sentence_text": "Data\tWe use two reference standards to evaluate the semantic similarity and relatedness measures .",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          13,
+          3,
+          0
+        ],
+        "source_position": 16468
+      },
+      {
+        "cross_encoder_score": -11.384719848632812,
+        "dataset": "QASPER",
+        "end_char": 16645,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "c87c5e52a7bbfcd1e89ad1bf923a5950",
+        "passage_rank": 7,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "6d7e6ecf0904520c314697a29cc50e22",
+        "sentence_text": "UMNSRS was annotated for both similarity and relatedness by medical residents.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          13,
+          4,
+          0
+        ],
+        "source_position": 16567
+      },
+      {
+        "cross_encoder_score": -11.4340238571167,
+        "dataset": "QASPER",
+        "end_char": 16739,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "c87c5e52a7bbfcd1e89ad1bf923a5950",
+        "passage_rank": 7,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "65dc8fa94ba572b95907a2e97f9000aa",
+        "sentence_text": "MiniMayoSRS was annotated for relatedness by medical doctors (MD) and medical coders (coder).",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          13,
+          5,
+          0
+        ],
+        "source_position": 16646
+      },
+      {
+        "cross_encoder_score": -11.332784652709961,
+        "dataset": "QASPER",
+        "end_char": 16825,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "c87c5e52a7bbfcd1e89ad1bf923a5950",
+        "passage_rank": 7,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "2b36faf9ec078615d51bc718f142f7df",
+        "sentence_text": "In this section, we describe these data sets and describe a few of their differences.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          13,
+          6,
+          0
+        ],
+        "source_position": 16740
+      },
+      {
+        "cross_encoder_score": -11.429831504821777,
+        "dataset": "QASPER",
+        "end_char": 17016,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "c87c5e52a7bbfcd1e89ad1bf923a5950",
+        "passage_rank": 7,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "9565b416b9e505a4ad33f7c0ba15151c",
+        "sentence_text": "MiniMayoSRS: The MayoSRS, developed by PakhomovPMMRC10, consists of 101 clinical term pairs whose relatedness was determined by nine medical coders and three physicians from the Mayo Clinic.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          13,
+          7,
+          0
+        ],
+        "source_position": 16826
+      },
+      {
+        "cross_encoder_score": -11.332372665405273,
+        "dataset": "QASPER",
+        "end_char": 17183,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "c87c5e52a7bbfcd1e89ad1bf923a5950",
+        "passage_rank": 7,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "6847be75e3760915db42bf3a2aad7279",
+        "sentence_text": "The relatedness of each term pair was assessed based on a four point scale: (4.0) practically synonymous, (3.0) related, (2.0) marginally related and (1.0) unrelated.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          13,
+          8,
+          0
+        ],
+        "source_position": 17017
+      },
+      {
+        "cross_encoder_score": -10.573534965515137,
+        "dataset": "QASPER",
+        "end_char": 17310,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "c87c5e52a7bbfcd1e89ad1bf923a5950",
+        "passage_rank": 7,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "908448a94d9cdb50b756e6f474bd6496",
+        "sentence_text": "MiniMayoSRS is a subset of the MayoSRS and consists of 30 term pairs on which a higher inter\u2013annotator agreement was achieved.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          13,
+          9,
+          0
+        ],
+        "source_position": 17184
+      },
+      {
+        "cross_encoder_score": -11.4535493850708,
+        "dataset": "QASPER",
+        "end_char": 18552,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "c05579420b55527b2de3520ee407294d",
+        "passage_rank": 10,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "3261032e3254d7f7d00d9313cc46a30e",
+        "sentence_text": "freely available open source software package UMLS::Similarity  version 1.47.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          15,
+          0,
+          0
+        ],
+        "source_position": 18475
+      },
+      {
+        "cross_encoder_score": -11.355799674987793,
+        "dataset": "QASPER",
+        "end_char": 18703,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "c05579420b55527b2de3520ee407294d",
+        "passage_rank": 10,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "5e3ceb72d72dca67673716d95386041f",
+        "sentence_text": "This package takes as input two terms (or UMLS concepts) and returns their similarity or relatedness using the measures discussed in Section SECREF2 .",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          15,
+          1,
+          0
+        ],
+        "source_position": 18553
+      },
+      {
+        "cross_encoder_score": -11.288619995117188,
+        "dataset": "QASPER",
+        "end_char": 18833,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "c05579420b55527b2de3520ee407294d",
+        "passage_rank": 10,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "613fc1ae1a2c153635996a16abdd8dfe",
+        "sentence_text": "Correlation between the similarity measures and human judgments were estimated using Spearman's Rank Correlation ( INLINEFORM0 ).",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          15,
+          2,
+          0
+        ],
+        "source_position": 18704
+      },
+      {
+        "cross_encoder_score": -11.247081756591797,
+        "dataset": "QASPER",
+        "end_char": 19021,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "c05579420b55527b2de3520ee407294d",
+        "passage_rank": 10,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "5d1a7d560360b6a80d5a86cba5b92b4e",
+        "sentence_text": "Spearman's measures the statistical dependence between two variables to assess how well the relationship between the rankings of the variables can be described using a monotonic function.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          15,
+          3,
+          0
+        ],
+        "source_position": 18834
+      },
+      {
+        "cross_encoder_score": -11.266786575317383,
+        "dataset": "QASPER",
+        "end_char": 19124,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "c05579420b55527b2de3520ee407294d",
+        "passage_rank": 10,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "69f0dd60c610760018483204a317d58c",
+        "sentence_text": "We used Fisher's r-to-z transformation  to calculate the significance between the correlation results.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          15,
+          4,
+          0
+        ],
+        "source_position": 19022
+      },
+      {
+        "cross_encoder_score": -11.426854133605957,
+        "dataset": "QASPER",
+        "end_char": 19347,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "c05579420b55527b2de3520ee407294d",
+        "passage_rank": 10,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "73c4dbb5d90f60f8ae501162d82bc095",
+        "sentence_text": "Results and Discussion\tTable TABREF26 shows the Spearman's Rank Correlation between the human scores from the four reference standards and the scores from the various measures of similarity introduced in Section SECREF2 .",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          15,
+          5,
+          0
+        ],
+        "source_position": 19126
+      },
+      {
+        "cross_encoder_score": -4.603760719299316,
+        "dataset": "QASPER",
+        "end_char": 19498,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "c05579420b55527b2de3520ee407294d",
+        "passage_rank": 10,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "098b827ee24a0449e4c4c5b5f30b743e",
+        "sentence_text": "Each class of measure is followed by the scores obtained when integrating our second order vector approach with these measures of semantic similarity.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          15,
+          6,
+          0
+        ],
+        "source_position": 19348
+      },
+      {
+        "cross_encoder_score": -3.858612298965454,
+        "dataset": "QASPER",
+        "end_char": 19782,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "c05579420b55527b2de3520ee407294d",
+        "passage_rank": 10,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "7a06420b07d40b6ccdda7841708ed20f",
+        "sentence_text": "Results Comparison\tThe results for UMNSRS tagged for similarity ( INLINEFORM0 ) and MiniMayoSRS tagged by coders show that all of the second-order similarity vector measures ( INLINEFORM1 ) except for INLINEFORM2 - INLINEFORM3 obtain a higher correlation than the original measures.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          0,
+          15,
+          7,
+          0
+        ],
+        "source_position": 19500
+      },
+      {
+        "cross_encoder_score": -11.287089347839355,
+        "dataset": "QASPER",
+        "end_char": 19822,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "c05579420b55527b2de3520ee407294d",
+        "passage_rank": 10,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "5f813a386b07ac86afcff9d84c3a2bbb",
+        "sentence_text": "We found that INLINEFORM4 - INLINEFORM5",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          15,
+          8,
+          0
+        ],
+        "source_position": 19783
+      },
+      {
+        "cross_encoder_score": -4.7782392501831055,
+        "dataset": "QASPER",
+        "end_char": 26272,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "ad84039bf9f6461f3f5c603acc8d99cb",
+        "passage_rank": 5,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "22805b26b1397186cc4a5d2065170965",
+        "sentence_text": "We have presented a method for quantifying the similarity and relatedness between two terms that integrates pair\u2013wise similarity scores into second\u2013order vectors.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          21,
+          0,
+          0
+        ],
+        "source_position": 26110
+      },
+      {
+        "cross_encoder_score": -10.732128143310547,
+        "dataset": "QASPER",
+        "end_char": 26311,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "ad84039bf9f6461f3f5c603acc8d99cb",
+        "passage_rank": 5,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "b0869de2868e0bfeab3cdfd1b31df785",
+        "sentence_text": "The goal of this approach is two\u2013fold.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          21,
+          1,
+          0
+        ],
+        "source_position": 26273
+      },
+      {
+        "cross_encoder_score": -11.323859214782715,
+        "dataset": "QASPER",
+        "end_char": 26508,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "ad84039bf9f6461f3f5c603acc8d99cb",
+        "passage_rank": 5,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "163786dc313e387747d9e22ec1a1b899",
+        "sentence_text": "First, we restrict the context used by the vector measure to words that exist in the biomedical domain, and second, we apply larger weights to those word pairs that are more similar to each other.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          21,
+          2,
+          0
+        ],
+        "source_position": 26312
+      },
+      {
+        "cross_encoder_score": -11.205209732055664,
+        "dataset": "QASPER",
+        "end_char": 26660,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "ad84039bf9f6461f3f5c603acc8d99cb",
+        "passage_rank": 5,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "d457a19a9642d526acdbb3712008934e",
+        "sentence_text": "Our hypothesis was that this combination would reduce the amount of noise in the vectors and therefore increase their correlation with human judgments.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          21,
+          3,
+          0
+        ],
+        "source_position": 26509
+      },
+      {
+        "cross_encoder_score": -11.374568939208984,
+        "dataset": "QASPER",
+        "end_char": 26808,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "ad84039bf9f6461f3f5c603acc8d99cb",
+        "passage_rank": 5,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "793ae16bf844cc97675100df6d591bfb",
+        "sentence_text": "We evaluated our method on datasets that have been manually annotated for relatedness and similarity and found evidence to support this hypothesis.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          21,
+          4,
+          0
+        ],
+        "source_position": 26661
+      },
+      {
+        "cross_encoder_score": -3.6240670680999756,
+        "dataset": "QASPER",
+        "end_char": 27034,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "ad84039bf9f6461f3f5c603acc8d99cb",
+        "passage_rank": 5,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "10946f328e5ef4d1b05c0d6915a04dcf",
+        "sentence_text": "In particular we discovered that guiding the creation of a second\u2013order context vector by selecting term pairs from biomedical text based on their semantic similarity led to improved levels of correlation with human judgment.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          21,
+          5,
+          0
+        ],
+        "source_position": 26809
+      },
+      {
+        "cross_encoder_score": -11.379767417907715,
+        "dataset": "QASPER",
+        "end_char": 27165,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "ad84039bf9f6461f3f5c603acc8d99cb",
+        "passage_rank": 5,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "57bd077c723b73fa6fb36c765fb17a53",
+        "sentence_text": "We also explored using a threshold cutoff to include only those term pairs that obtained a sufficiently large level of similarity.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          21,
+          6,
+          0
+        ],
+        "source_position": 27035
+      },
+      {
+        "cross_encoder_score": -11.294683456420898,
+        "dataset": "QASPER",
+        "end_char": 27253,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "ad84039bf9f6461f3f5c603acc8d99cb",
+        "passage_rank": 5,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "accfa3ccb7ffe8f37cd878c59598eb21",
+        "sentence_text": "We found that eliminating less similar pairs improved the overall results (to a point).",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          21,
+          7,
+          0
+        ],
+        "source_position": 27166
+      },
+      {
+        "cross_encoder_score": -11.456666946411133,
+        "dataset": "QASPER",
+        "end_char": 27388,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "ad84039bf9f6461f3f5c603acc8d99cb",
+        "passage_rank": 5,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "a7ae0b69d704b212902aa254cf45038a",
+        "sentence_text": "In the future, we plan to explore metrics to automatically determine the threshold cutoff appropriate for a given dataset and measure.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          21,
+          8,
+          0
+        ],
+        "source_position": 27254
+      },
+      {
+        "cross_encoder_score": -5.530226230621338,
+        "dataset": "QASPER",
+        "end_char": 27570,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "ad84039bf9f6461f3f5c603acc8d99cb",
+        "passage_rank": 5,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "b4ef5417bc86ad6bacfe2cc3a0c5e030",
+        "sentence_text": "We also plan to explore additional features that can be integrated with a second\u2013order vector measure that will reduce the noise but still provide sufficient information to quantify",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          21,
+          9,
+          0
+        ],
+        "source_position": 27389
+      },
+      {
+        "cross_encoder_score": -11.220091819763184,
+        "dataset": "QASPER",
+        "end_char": 27583,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "037fa8fea045c27d0801024b11eabe2c",
+        "passage_rank": 6,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "193101b5c15a106568142826e75247f3",
+        "sentence_text": "relatedness.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          22,
+          0,
+          0
+        ],
+        "source_position": 27571
+      },
+      {
+        "cross_encoder_score": -11.439433097839355,
+        "dataset": "QASPER",
+        "end_char": 27747,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "037fa8fea045c27d0801024b11eabe2c",
+        "passage_rank": 6,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "79700abb90a23be89bfb3a1025417003",
+        "sentence_text": "We are particularly interested in approaches that learn word, phrase, and sentence embeddings from structured corpora such as literature  and dictionary entries  .",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          22,
+          1,
+          0
+        ],
+        "source_position": 27584
+      },
+      {
+        "cross_encoder_score": -6.524672031402588,
+        "dataset": "QASPER",
+        "end_char": 27835,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "037fa8fea045c27d0801024b11eabe2c",
+        "passage_rank": 6,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "2f986cd7775e0220808f3e395ee548ee",
+        "sentence_text": "Such embeddings could be integrated into a second\u2013order vector or be used on their own.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          22,
+          2,
+          0
+        ],
+        "source_position": 27748
+      },
+      {
+        "cross_encoder_score": -11.438172340393066,
+        "dataset": "QASPER",
+        "end_char": 27957,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "037fa8fea045c27d0801024b11eabe2c",
+        "passage_rank": 6,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "89ed408a4f610750dbf622e32a5f8c5a",
+        "sentence_text": "Finally, we compared our proposed method to other distributional approaches, focusing on those that used word embeddings.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          22,
+          3,
+          0
+        ],
+        "source_position": 27836
+      },
+      {
+        "cross_encoder_score": -0.19915157556533813,
+        "dataset": "QASPER",
+        "end_char": 28173,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "037fa8fea045c27d0801024b11eabe2c",
+        "passage_rank": 6,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "f6a583610a32230b2ec4dcff87f5b89d",
+        "sentence_text": "Our results showed that integrating semantic similarity measures into second\u2013order co\u2013occurrence vectors obtains the same or higher correlation with human judgments as do various different word embedding approaches.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          22,
+          4,
+          0
+        ],
+        "source_position": 27958
+      },
+      {
+        "cross_encoder_score": -11.390239715576172,
+        "dataset": "QASPER",
+        "end_char": 28291,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "037fa8fea045c27d0801024b11eabe2c",
+        "passage_rank": 6,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "18ae312b24195a2953f84bc390247b61",
+        "sentence_text": "However, a direct comparison was not possible due to variations in the subsets of the UMNSRS evaluation dataset used.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          22,
+          5,
+          0
+        ],
+        "source_position": 28174
+      },
+      {
+        "cross_encoder_score": -11.225761413574219,
+        "dataset": "QASPER",
+        "end_char": 28539,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "037fa8fea045c27d0801024b11eabe2c",
+        "passage_rank": 6,
+        "query_id": "88e62ea7a4d1d2921624b8480b5c6b50cfa5ad42",
+        "sentence_id": "ce5983732b93784146dbb44f076b4913",
+        "sentence_text": "In the future, we would not only like to conduct a direct comparison but also explore integrating semantic similarity into various kinds of word embeddings by training on pair\u2013wise values of semantic similarity as well as co\u2013occurrence statistics.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          22,
+          6,
+          0
+        ],
+        "source_position": 28292
+      }
+    ],
+    "scoring_seconds": 0.30994880897924304,
+    "source_fingerprint": "fa4a843eb8487a4158f0f092e8fddfd24c8add3c16f3a524e471c334152fd78c"
+  }
+}

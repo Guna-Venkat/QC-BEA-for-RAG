@@ -1,0 +1,831 @@
+{
+  "checksum": "dee83bfd20d682a4e967e8f3585efa1dc2339e8a60b9d93f6306dd3876cf4fac",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5a7949d45542994bb9456fdd"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 40,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "3bd3e26872c219ed3a9d221cbfb4aefc086c69a4f246411f18ebb3cd51349886",
+    "query_id": "5a7949d45542994bb9456fdd",
+    "scores": [
+      {
+        "cross_encoder_score": -5.2554612159729,
+        "dataset": "HotpotQA",
+        "end_char": 12,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "256b72fdb46b37a94b8c33034f73c461",
+        "passage_rank": 3,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "16d994cddae76f12c793218c752a0dbe",
+        "sentence_text": "Acinonychini",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.831596374511719,
+        "dataset": "HotpotQA",
+        "end_char": 197,
+        "pair_tokens_before_truncation": 87,
+        "pair_truncated": false,
+        "passage_id": "256b72fdb46b37a94b8c33034f73c461",
+        "passage_rank": 3,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "885a99635b1a42d59f9eb12951a0a1f2",
+        "sentence_text": "The feline tribe Acinonychini contains at least two genera: \"Puma\" (containing two species, the cougar and the jaguarundi) and \"Acinonyx\" (only one species, the cheetah, has survived).",
+        "sentence_token_cost": 53,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 13
+      },
+      {
+        "cross_encoder_score": -6.254626750946045,
+        "dataset": "HotpotQA",
+        "end_char": 336,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "256b72fdb46b37a94b8c33034f73c461",
+        "passage_rank": 3,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "7ac54526886e0513b4beea8cde63e2dd",
+        "sentence_text": " In addition to these three extant species, there is a handful of extinct fossil species that have been found in Eurasia and the Americas.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 198
+      },
+      {
+        "cross_encoder_score": -7.994633674621582,
+        "dataset": "HotpotQA",
+        "end_char": 537,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "256b72fdb46b37a94b8c33034f73c461",
+        "passage_rank": 3,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "5548107880b145b1f7369fcafe3d97e2",
+        "sentence_text": " The evolutionary relationships of these cats still needs to be worked out, with the main focus being the placement of the extinct species in relation to the extant species and where cheetahs evolved.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 337
+      },
+      {
+        "cross_encoder_score": -4.24905252456665,
+        "dataset": "HotpotQA",
+        "end_char": 684,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "256b72fdb46b37a94b8c33034f73c461",
+        "passage_rank": 3,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "e8887a443f177e0c94a558a0bee59361",
+        "sentence_text": " While cheetahs and cougars are sometimes considered big cats, they are more closely related to domestic cats than they are to lions and leopards.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 538
+      },
+      {
+        "cross_encoder_score": -5.809900760650635,
+        "dataset": "HotpotQA",
+        "end_char": 8,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "88167fcf88493144de5be4f537fb6007",
+        "passage_rank": 10,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "aaf21aba00d875deb5a1f38d037f491b",
+        "sentence_text": "Costanzo",
+        "sentence_token_cost": 3,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.85115909576416,
+        "dataset": "HotpotQA",
+        "end_char": 87,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "88167fcf88493144de5be4f537fb6007",
+        "passage_rank": 10,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "5d4894524483e60ca5d5ff2a88c5b4ae",
+        "sentence_text": "Costanzo is an Italian given name, translated from the Latin name Constantius.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 9
+      },
+      {
+        "cross_encoder_score": -6.419997215270996,
+        "dataset": "HotpotQA",
+        "end_char": 143,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "88167fcf88493144de5be4f537fb6007",
+        "passage_rank": 10,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "0936f14b12539eea7a9a1d25462bb53d",
+        "sentence_text": " It is also used as an, originally patronymic, surname.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 88
+      },
+      {
+        "cross_encoder_score": -7.557276248931885,
+        "dataset": "HotpotQA",
+        "end_char": 228,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "88167fcf88493144de5be4f537fb6007",
+        "passage_rank": 10,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "e478aab171a71775b8d9da709881619a",
+        "sentence_text": " As a surname, it may be preceded by di or Di (meaning \"of\"), with or without space.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "source_position": 144
+      },
+      {
+        "cross_encoder_score": -4.223970890045166,
+        "dataset": "HotpotQA",
+        "end_char": 246,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "88167fcf88493144de5be4f537fb6007",
+        "passage_rank": 10,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "e5b5bf5bdff2e8d003864b16fbfd524c",
+        "sentence_text": " It may refer to:",
+        "sentence_token_cost": 5,
+        "source_order": [
+          1,
+          0,
+          4,
+          0
+        ],
+        "source_position": 229
+      },
+      {
+        "cross_encoder_score": -6.190414905548096,
+        "dataset": "HotpotQA",
+        "end_char": 7,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "99024094c7bff57535cc7aaf5d4069f7",
+        "passage_rank": 9,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "e6eb1701a777d637394914cfc7ae0db3",
+        "sentence_text": "Vicente",
+        "sentence_token_cost": 3,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.497029781341553,
+        "dataset": "HotpotQA",
+        "end_char": 60,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "99024094c7bff57535cc7aaf5d4069f7",
+        "passage_rank": 9,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "0d71eb46d017e949a6f5eb9e8575312d",
+        "sentence_text": "Vicente is an Italian, Spanish, and Portuguese name.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 8
+      },
+      {
+        "cross_encoder_score": -6.921554088592529,
+        "dataset": "HotpotQA",
+        "end_char": 201,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "99024094c7bff57535cc7aaf5d4069f7",
+        "passage_rank": 9,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "b5625815a116251a4bfc60e009da9762",
+        "sentence_text": " Like its French variant, Vincent, it is derived from the Latin name \"Vincentius\" meaning \"conquering\" (from Latin \"vincere\", \"to conquer\").",
+        "sentence_token_cost": 36,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 61
+      },
+      {
+        "cross_encoder_score": -6.323825359344482,
+        "dataset": "HotpotQA",
+        "end_char": 224,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "99024094c7bff57535cc7aaf5d4069f7",
+        "passage_rank": 9,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "c2e87b1a91d5786e6c0bd1d45dfca64b",
+        "sentence_text": " Vicente may refer to:",
+        "sentence_token_cost": 6,
+        "source_order": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "source_position": 202
+      },
+      {
+        "cross_encoder_score": -7.229813575744629,
+        "dataset": "HotpotQA",
+        "end_char": 11,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "43a7b6ec26db1e22050cafdc1502ed02",
+        "passage_rank": 6,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "a998697a766e3ca2d54f3dce3ff219c1",
+        "sentence_text": "Beat (name)",
+        "sentence_token_cost": 4,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.4595232009887695,
+        "dataset": "HotpotQA",
+        "end_char": 129,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "43a7b6ec26db1e22050cafdc1502ed02",
+        "passage_rank": 6,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "816e3218eb531d53b4a5d7b9e8a1437d",
+        "sentence_text": "Beat (pronounced \"BEH-awe-t\") is a German male given name, derived from the Latin name Beatus, which means \"blessed\".",
+        "sentence_token_cost": 33,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 12
+      },
+      {
+        "cross_encoder_score": -8.277682304382324,
+        "dataset": "HotpotQA",
+        "end_char": 240,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "43a7b6ec26db1e22050cafdc1502ed02",
+        "passage_rank": 6,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "1786d468236ff044fcf28ccedd60510e",
+        "sentence_text": " The name is common in German-speaking Switzerland because of St Beatus of Lungern, considered a patron saint.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 130
+      },
+      {
+        "cross_encoder_score": -6.99710750579834,
+        "dataset": "HotpotQA",
+        "end_char": 270,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "43a7b6ec26db1e22050cafdc1502ed02",
+        "passage_rank": 6,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "f26d9c0ad4107b3329ec053adb7f3dd6",
+        "sentence_text": " The female variant is Beate.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "source_position": 241
+      },
+      {
+        "cross_encoder_score": -6.645641326904297,
+        "dataset": "HotpotQA",
+        "end_char": 299,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "43a7b6ec26db1e22050cafdc1502ed02",
+        "passage_rank": 6,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "9e0b304411d5a7361128b5dde26dddb8",
+        "sentence_text": " The name Beat may refer to:",
+        "sentence_token_cost": 7,
+        "source_order": [
+          3,
+          0,
+          4,
+          0
+        ],
+        "source_position": 271
+      },
+      {
+        "cross_encoder_score": -6.232922554016113,
+        "dataset": "HotpotQA",
+        "end_char": 31,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "2b3c3e51b3370eafaa357b96ee7aa885",
+        "passage_rank": 4,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "e899505661f689c24db6a96f90a80a7b",
+        "sentence_text": "Paulus Angelus (disambiguation)",
+        "sentence_token_cost": 10,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.336693286895752,
+        "dataset": "HotpotQA",
+        "end_char": 87,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "2b3c3e51b3370eafaa357b96ee7aa885",
+        "passage_rank": 4,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "dfef8fb6e5e3c119cc64947d3afee8a3",
+        "sentence_text": "Paulus Angelus is the Latin equivalent of \"Paul Angel.\"",
+        "sentence_token_cost": 13,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 32
+      },
+      {
+        "cross_encoder_score": -1.3386669158935547,
+        "dataset": "HotpotQA",
+        "end_char": 117,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "2b3c3e51b3370eafaa357b96ee7aa885",
+        "passage_rank": 4,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "2b5188e28f7bf40e13fd7c04091716f0",
+        "sentence_text": " The Latin name may refer to:",
+        "sentence_token_cost": 7,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 88
+      },
+      {
+        "cross_encoder_score": -5.3090291023254395,
+        "dataset": "HotpotQA",
+        "end_char": 8,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "026177a0768ed2e6a6839598d2578c54",
+        "passage_rank": 8,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "f05468aeadc27865782d7c9a48c96ffa",
+        "sentence_text": "Feliksas",
+        "sentence_token_cost": 3,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.4360151290893555,
+        "dataset": "HotpotQA",
+        "end_char": 164,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "026177a0768ed2e6a6839598d2578c54",
+        "passage_rank": 8,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "7c8950ad35e2a2c47088a090816fad96",
+        "sentence_text": "Feliksas is a Lithuanian male given name, which is a variant of the Polish and Russian name Feliks, and derived from the Latin name Felix, meaning \"lucky\".",
+        "sentence_token_cost": 38,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 9
+      },
+      {
+        "cross_encoder_score": -3.9494383335113525,
+        "dataset": "HotpotQA",
+        "end_char": 188,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "026177a0768ed2e6a6839598d2578c54",
+        "passage_rank": 8,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "3309229f6d54ea4c6c7208903f1b89c1",
+        "sentence_text": " The name may refer to:",
+        "sentence_token_cost": 6,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 165
+      },
+      {
+        "cross_encoder_score": -5.51706075668335,
+        "dataset": "HotpotQA",
+        "end_char": 10,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "a5037e7719fe5ae4950ada31284cd930",
+        "passage_rank": 7,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "f23c90a4f304bc84ff425fdccc6b888e",
+        "sentence_text": "Oxoniensis",
+        "sentence_token_cost": 4,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.0730414390563965,
+        "dataset": "HotpotQA",
+        "end_char": 147,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "a5037e7719fe5ae4950ada31284cd930",
+        "passage_rank": 7,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "85b4764fb794138eb90f41365c710c36",
+        "sentence_text": "Oxoniensis is a Latin adjective derived from \"Oxonia\", the Latin name of Oxford, meaning \"relating to Oxford, Oxonian\u201c and may refer to:",
+        "sentence_token_cost": 36,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 11
+      },
+      {
+        "cross_encoder_score": -4.687595844268799,
+        "dataset": "HotpotQA",
+        "end_char": 13,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "97caab57145cd7cd7b202a334dabfe30",
+        "passage_rank": 2,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "2dd38231a88c3ae8044ba3b2f617ca1c",
+        "sentence_text": "White panther",
+        "sentence_token_cost": 3,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.28539514541626,
+        "dataset": "HotpotQA",
+        "end_char": 90,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "97caab57145cd7cd7b202a334dabfe30",
+        "passage_rank": 2,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "22ea9d8fa0a3e791c946bd64ff28aaf3",
+        "sentence_text": "A white panther is a white specimen of any of several species of larger cat.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 14
+      },
+      {
+        "cross_encoder_score": 2.103544235229492,
+        "dataset": "HotpotQA",
+        "end_char": 292,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "97caab57145cd7cd7b202a334dabfe30",
+        "passage_rank": 2,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "19c60cd155c529925ee83852bb15ce22",
+        "sentence_text": " \"Panther\" is used in some parts of North America to mean the Cougar (\"Puma concolor\"), in South America to mean the Jaguar (\"Panthera onca\") and elsewhere it refers to the Leopard (\"Panthera pardus\").",
+        "sentence_token_cost": 50,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 91
+      },
+      {
+        "cross_encoder_score": -4.389217376708984,
+        "dataset": "HotpotQA",
+        "end_char": 377,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "97caab57145cd7cd7b202a334dabfe30",
+        "passage_rank": 2,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "7989e24ea861c4cc67183dd9f6426e8d",
+        "sentence_text": " A white panther may therefore be a white cougar, a white jaguar or a white leopard.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 293
+      },
+      {
+        "cross_encoder_score": -7.237758636474609,
+        "dataset": "HotpotQA",
+        "end_char": 459,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "97caab57145cd7cd7b202a334dabfe30",
+        "passage_rank": 2,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "5a7814a45052a0d5a530b73bc87db108",
+        "sentence_text": " Of these, white leopards appear to be the most common, although still very rare.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          7,
+          0,
+          4,
+          0
+        ],
+        "source_position": 378
+      },
+      {
+        "cross_encoder_score": -7.104186534881592,
+        "dataset": "HotpotQA",
+        "end_char": 19,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "d4ae3837256bd20e49899c0589290b0a",
+        "passage_rank": 5,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "fe92c1255c018f6cdc6bdb6b3dfbd6b2",
+        "sentence_text": "Claude (given name)",
+        "sentence_token_cost": 6,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.388856410980225,
+        "dataset": "HotpotQA",
+        "end_char": 189,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "d4ae3837256bd20e49899c0589290b0a",
+        "passage_rank": 5,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "1beb8941b8bf218801676e46b0d359ca",
+        "sentence_text": "Claude is a relatively common French given name for males originating from the Latin name Claudius, itself deriving from 'claudicatio' meaning \"limping\" or \"stuttering\".",
+        "sentence_token_cost": 39,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 20
+      },
+      {
+        "cross_encoder_score": -7.384248733520508,
+        "dataset": "HotpotQA",
+        "end_char": 258,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "d4ae3837256bd20e49899c0589290b0a",
+        "passage_rank": 5,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "06da8f947eda94cc52ae06d993b2e730",
+        "sentence_text": " It can also be an uncommon given name for females or a family name.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          8,
+          0,
+          2,
+          0
+        ],
+        "source_position": 190
+      },
+      {
+        "cross_encoder_score": -4.263945579528809,
+        "dataset": "HotpotQA",
+        "end_char": 296,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "d4ae3837256bd20e49899c0589290b0a",
+        "passage_rank": 5,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "1ae9ae3c7c2fe262d3661987e7c5abc3",
+        "sentence_text": " The name may refer to the following:",
+        "sentence_token_cost": 8,
+        "source_order": [
+          8,
+          0,
+          3,
+          0
+        ],
+        "source_position": 259
+      },
+      {
+        "cross_encoder_score": -5.780684471130371,
+        "dataset": "HotpotQA",
+        "end_char": 7,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "d1edf41027b1cc0a016b79b13ec451e3",
+        "passage_rank": 1,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "1c07d942069a7cc548993a399a940ade",
+        "sentence_text": "Leopard",
+        "sentence_token_cost": 2,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 2.8983209133148193,
+        "dataset": "HotpotQA",
+        "end_char": 94,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "d1edf41027b1cc0a016b79b13ec451e3",
+        "passage_rank": 1,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "1f9b330e35c75c8e3be12c1bbdd5d01b",
+        "sentence_text": "The leopard (\"Panthera pardus\") is one of the five \"big cats\" in the genus \"Panthera\".",
+        "sentence_token_cost": 26,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 8
+      },
+      {
+        "cross_encoder_score": -5.07011604309082,
+        "dataset": "HotpotQA",
+        "end_char": 191,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "d1edf41027b1cc0a016b79b13ec451e3",
+        "passage_rank": 1,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "eba0665c6c7d16e3e3b76fdbbe508e0d",
+        "sentence_text": " It is a member of the family Felidae with a wide range in sub-Saharan Africa and parts of Asia.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 95
+      },
+      {
+        "cross_encoder_score": -6.5040507316589355,
+        "dataset": "HotpotQA",
+        "end_char": 277,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "d1edf41027b1cc0a016b79b13ec451e3",
+        "passage_rank": 1,
+        "query_id": "5a7949d45542994bb9456fdd",
+        "sentence_id": "9a97eb4dfca1934c13af563976e3430e",
+        "sentence_text": " Fossil records suggest that in the Late Pleistocene it occurred in Europe and Japan.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          9,
+          0,
+          3,
+          0
+        ],
+        "source_position": 192
+      }
+    ],
+    "scoring_seconds": 0.19609568105079234,
+    "source_fingerprint": "2c977f84b331f69367e4dbc207d68eb184b084f7cdbe475a11f5b280798dca73"
+  }
+}

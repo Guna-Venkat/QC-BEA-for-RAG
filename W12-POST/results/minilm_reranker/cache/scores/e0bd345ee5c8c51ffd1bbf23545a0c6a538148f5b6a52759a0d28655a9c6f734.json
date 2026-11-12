@@ -1,0 +1,2051 @@
+{
+  "checksum": "95f6cd98a952b971185b5c6577ddf59540e0d7ab95252f03e432089acffc54da",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "869feb7f47606105005efdb6bea1c549824baea0"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 101,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "5ead575d3f611fce6c3a1f3bad3ce120edb8c8d6f6265d69020634057ad7a846",
+    "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+    "scores": [
+      {
+        "cross_encoder_score": -9.520606994628906,
+        "dataset": "QASPER",
+        "end_char": 299,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "fe8bc1cb7a7f9b312c3c3b2ccffd0980",
+        "passage_rank": 8,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "99b19d402d072b662b62daa6f0bdba41",
+        "sentence_text": "TWEETQA: A Social Media Focused Question Answering Dataset\tWith social media becoming increasingly pop-ular on which lots of news and real-time eventsare reported, developing automated questionanswering systems is critical to the effective-ness of many applications that rely on real-time knowledge.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.7854831218719482,
+        "dataset": "QASPER",
+        "end_char": 477,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "fe8bc1cb7a7f9b312c3c3b2ccffd0980",
+        "passage_rank": 8,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "35d6097d8c423de91449b7018ba8793f",
+        "sentence_text": "While previous datasets haveconcentrated on question answering (QA) forformal text like news and Wikipedia, wepresent the first large-scale dataset for QA oversocial media data.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 300
+      },
+      {
+        "cross_encoder_score": -11.433055877685547,
+        "dataset": "QASPER",
+        "end_char": 592,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "fe8bc1cb7a7f9b312c3c3b2ccffd0980",
+        "passage_rank": 8,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "25f4d76efbb6b48f5308e2992c7a05e0",
+        "sentence_text": "To ensure that the tweetswe collected are useful, we only gather tweetsused by journalists to write news articles.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 478
+      },
+      {
+        "cross_encoder_score": -11.442087173461914,
+        "dataset": "QASPER",
+        "end_char": 669,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "fe8bc1cb7a7f9b312c3c3b2ccffd0980",
+        "passage_rank": 8,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "13260b6d72b5a7ed893bfc947e99895a",
+        "sentence_text": "Wethen ask human annotators to write questionsand answers upon these tweets.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 593
+      },
+      {
+        "cross_encoder_score": -7.573079586029053,
+        "dataset": "QASPER",
+        "end_char": 781,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "fe8bc1cb7a7f9b312c3c3b2ccffd0980",
+        "passage_rank": 8,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "a035c95d11d5fe4c0fb731802d52349d",
+        "sentence_text": "Unlike otherQA datasets like SQuAD in which the answersare extractive, we allow the answers to be ab-stractive.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 670
+      },
+      {
+        "cross_encoder_score": -10.531115531921387,
+        "dataset": "QASPER",
+        "end_char": 925,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "fe8bc1cb7a7f9b312c3c3b2ccffd0980",
+        "passage_rank": 8,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "c45e2e2fce8b570b75efea12a0cc3374",
+        "sentence_text": "We show that two recently proposedneural models that perform well on formaltexts are limited in their performance when ap-plied to our dataset.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 782
+      },
+      {
+        "cross_encoder_score": -11.335762977600098,
+        "dataset": "QASPER",
+        "end_char": 1033,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "fe8bc1cb7a7f9b312c3c3b2ccffd0980",
+        "passage_rank": 8,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "1103b707dc387ccf96981de388ee9284",
+        "sentence_text": "In addition, even the fine-tuned BERT model is still lagging behind hu-man performance with a large margin.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 926
+      },
+      {
+        "cross_encoder_score": -11.378254890441895,
+        "dataset": "QASPER",
+        "end_char": 1120,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "fe8bc1cb7a7f9b312c3c3b2ccffd0980",
+        "passage_rank": 8,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "7d9990ddafb0b38d4dd3949a22c5a8e3",
+        "sentence_text": "Our re-sults thus point to the need of improved QAsystems targeting social media text.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1034
+      },
+      {
+        "cross_encoder_score": -11.422412872314453,
+        "dataset": "QASPER",
+        "end_char": 1259,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "fe8bc1cb7a7f9b312c3c3b2ccffd0980",
+        "passage_rank": 8,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "1f414d244a757341030b536fcd1ed1fd",
+        "sentence_text": "Introduction\tSocial media is now becoming an important real-time information source, especially during natural disasters and emergencies.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1122
+      },
+      {
+        "cross_encoder_score": -9.859956741333008,
+        "dataset": "QASPER",
+        "end_char": 1274,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "fe8bc1cb7a7f9b312c3c3b2ccffd0980",
+        "passage_rank": 8,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "154dd85b7bba5871d2a589ddcf7b594f",
+        "sentence_text": "It is now very",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1260
+      },
+      {
+        "cross_encoder_score": -2.524895191192627,
+        "dataset": "QASPER",
+        "end_char": 2595,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "1c7acdf644ff85f056bf3303803bbff9",
+        "passage_rank": 2,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "c55b71c3e9ffa8db9af15f0a05bcb708",
+        "sentence_text": "large-scale dataset for QA over social media data.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2545
+      },
+      {
+        "cross_encoder_score": -11.372753143310547,
+        "dataset": "QASPER",
+        "end_char": 2904,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "1c7acdf644ff85f056bf3303803bbff9",
+        "passage_rank": 2,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "0cb4f927784d59161b45eabd69a89cdb",
+        "sentence_text": "Rather than naively obtaining tweets from Twitter using the Twitter API which can yield irrelevant tweets with no valuable information, we restrict ourselves only to tweets which have been used by journalists in news articles thus implicitly implying that such tweets contain useful and relevant information.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2596
+      },
+      {
+        "cross_encoder_score": -11.424338340759277,
+        "dataset": "QASPER",
+        "end_char": 3106,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "1c7acdf644ff85f056bf3303803bbff9",
+        "passage_rank": 2,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "213ca270649f67c17ccd9c76507ce55d",
+        "sentence_text": "To obtain such relevant tweets, we crawled thousands of news articles that include tweet quotations and then employed crowd-sourcing to elicit questions and answers based on these event-aligned tweets.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 2905
+      },
+      {
+        "cross_encoder_score": -6.865479469299316,
+        "dataset": "QASPER",
+        "end_char": 3163,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "1c7acdf644ff85f056bf3303803bbff9",
+        "passage_rank": 2,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "805e51e415ef2f8eb26daea1e6d4ca75",
+        "sentence_text": "Table TABREF3 gives an example from our TweetQA dataset.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3107
+      },
+      {
+        "cross_encoder_score": -11.292098999023438,
+        "dataset": "QASPER",
+        "end_char": 3550,
+        "pair_tokens_before_truncation": 105,
+        "pair_truncated": false,
+        "passage_id": "1c7acdf644ff85f056bf3303803bbff9",
+        "passage_rank": 2,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "b4e27cbeca840f9d780a9acae599bb40",
+        "sentence_text": "It shows that QA over tweets raises challenges not only because of the informal nature of oral-style texts (e.g. inferring the answer from multiple short sentences, like the phrase \u201cso young\u201d that forms an independent sentence in the example), but also from tweet-specific expressions (such as inferring that it is \u201cJay Sean\u201d feeling sad about Paul's death because he posted the tweet).",
+        "sentence_token_cost": 78,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3164
+      },
+      {
+        "cross_encoder_score": -9.586450576782227,
+        "dataset": "QASPER",
+        "end_char": 3707,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "1c7acdf644ff85f056bf3303803bbff9",
+        "passage_rank": 2,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "0bf839a0d3a28b1cef4f70de95f6e2fb",
+        "sentence_text": "Furthermore, we show the distinctive nature of TweetQA by comparing the collected data with traditional QA datasets collected primarily from formal domains.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3551
+      },
+      {
+        "cross_encoder_score": -11.286256790161133,
+        "dataset": "QASPER",
+        "end_char": 3961,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "1c7acdf644ff85f056bf3303803bbff9",
+        "passage_rank": 2,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "434be63122bc97cfa998ad5e937c42c1",
+        "sentence_text": "In particular, we demonstrate empirically that three strong neural models which achieve good performance on formal data do not generalize well to social media data, bringing out challenges to developing QA systems that work well on social media domains.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3708
+      },
+      {
+        "cross_encoder_score": -9.747325897216797,
+        "dataset": "QASPER",
+        "end_char": 3973,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "1c7acdf644ff85f056bf3303803bbff9",
+        "passage_rank": 2,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "efbc13173004570f509476610589eac2",
+        "sentence_text": "In summary,",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3962
+      },
+      {
+        "cross_encoder_score": -11.248394012451172,
+        "dataset": "QASPER",
+        "end_char": 3996,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "61f5c0e831b5ff7fdc88664b2ee19928",
+        "passage_rank": 7,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "9d8657bd90e0cbc64cc4f9949230c70e",
+        "sentence_text": "our contributions are:",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 3974
+      },
+      {
+        "cross_encoder_score": -11.162677764892578,
+        "dataset": "QASPER",
+        "end_char": 4154,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "61f5c0e831b5ff7fdc88664b2ee19928",
+        "passage_rank": 7,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "609d627fc035ea9ab5e86339dc5c5808",
+        "sentence_text": "TweetQA\tIn this section, we first describe the three-step data collection process of TweetQA: tweet crawling, question-answer writing and answer validation.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 3998
+      },
+      {
+        "cross_encoder_score": -11.334039688110352,
+        "dataset": "QASPER",
+        "end_char": 4239,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "61f5c0e831b5ff7fdc88664b2ee19928",
+        "passage_rank": 7,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "ca8a22f833ef37d99116c280c2e30653",
+        "sentence_text": "Next, we define the specific task of TweetQA and discuss several evaluation metrics.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4155
+      },
+      {
+        "cross_encoder_score": -11.375054359436035,
+        "dataset": "QASPER",
+        "end_char": 4426,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "61f5c0e831b5ff7fdc88664b2ee19928",
+        "passage_rank": 7,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "277eee24ce0f93e984e2352a18c0e7ff",
+        "sentence_text": "To better understand the characteristics of the TweetQA task, we also include our analysis on the answer and question characteristics using a subset of QA pairs from the development set.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4240
+      },
+      {
+        "cross_encoder_score": -8.89870548248291,
+        "dataset": "QASPER",
+        "end_char": 4537,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "61f5c0e831b5ff7fdc88664b2ee19928",
+        "passage_rank": 7,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "8705804e5df344e021b441f0a4c4e00b",
+        "sentence_text": "Data Collection\tOne major challenge of building a QA dataset on tweets is the sparsity of informative tweets.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 4428
+      },
+      {
+        "cross_encoder_score": -11.39993953704834,
+        "dataset": "QASPER",
+        "end_char": 4627,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "61f5c0e831b5ff7fdc88664b2ee19928",
+        "passage_rank": 7,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "e89df7612046343f2deace7efe0c1893",
+        "sentence_text": "Many users write tweets to express their feelings or emotions about their personal lives.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 4538
+      },
+      {
+        "cross_encoder_score": -11.423290252685547,
+        "dataset": "QASPER",
+        "end_char": 4716,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "61f5c0e831b5ff7fdc88664b2ee19928",
+        "passage_rank": 7,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "fc27e1fa31b072b5e5fd46a46dd3745e",
+        "sentence_text": "These tweets are generally uninformative and also very difficult to ask questions about.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 4628
+      },
+      {
+        "cross_encoder_score": -11.374334335327148,
+        "dataset": "QASPER",
+        "end_char": 4838,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "61f5c0e831b5ff7fdc88664b2ee19928",
+        "passage_rank": 7,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "27e1f372f606c0444398a2e065fd0be5",
+        "sentence_text": "Given the linguistic variance of tweets, it is generally hard to directly distinguish those tweets from informative ones.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 4717
+      },
+      {
+        "cross_encoder_score": -11.33512020111084,
+        "dataset": "QASPER",
+        "end_char": 5051,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "61f5c0e831b5ff7fdc88664b2ee19928",
+        "passage_rank": 7,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "1f82cd9955e7f96e2588631e6f2bfe81",
+        "sentence_text": "In terms of this, rather than starting from Twitter API Search, we look into the archived snapshots of two major news websites (CNN, NBC), and then extract the tweet blocks that are embedded in the news articles.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          3,
+          8,
+          0
+        ],
+        "source_position": 4839
+      },
+      {
+        "cross_encoder_score": -11.083892822265625,
+        "dataset": "QASPER",
+        "end_char": 5265,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "61f5c0e831b5ff7fdc88664b2ee19928",
+        "passage_rank": 7,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "78947a43449e1cadea70f5ba1d65689a",
+        "sentence_text": "In order to get enough data, we first extract the URLs of all section pages (e.g. World, Politics, Money, Tech) from the snapshot of each home page and then crawl all articles with tweets from these section pages.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          3,
+          9,
+          0
+        ],
+        "source_position": 5052
+      },
+      {
+        "cross_encoder_score": -11.433638572692871,
+        "dataset": "QASPER",
+        "end_char": 5341,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "61f5c0e831b5ff7fdc88664b2ee19928",
+        "passage_rank": 7,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "0eff257b533e8610e6fe5128045044bd",
+        "sentence_text": "Note that another possible way to collect informative tweets is to download",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          3,
+          10,
+          0
+        ],
+        "source_position": 5266
+      },
+      {
+        "cross_encoder_score": -11.476960182189941,
+        "dataset": "QASPER",
+        "end_char": 5416,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "36fe361a9cb26b54f5ba248619fb67b6",
+        "passage_rank": 4,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "e7ea58d10a159ba0d8bfbdddda39a415",
+        "sentence_text": "the tweets that are posted by the official Twitter accounts of news media.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "source_position": 5342
+      },
+      {
+        "cross_encoder_score": -11.47323226928711,
+        "dataset": "QASPER",
+        "end_char": 5519,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "36fe361a9cb26b54f5ba248619fb67b6",
+        "passage_rank": 4,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "d43f2a3757afb9a1d32563737f3d5b20",
+        "sentence_text": "However, these tweets are often just the summaries of news articles, which are written in formal text.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "source_position": 5417
+      },
+      {
+        "cross_encoder_score": -9.5602388381958,
+        "dataset": "QASPER",
+        "end_char": 5628,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "36fe361a9cb26b54f5ba248619fb67b6",
+        "passage_rank": 4,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "2b8745dba59302d3c35ef41d873f9c57",
+        "sentence_text": "As our focus is to develop a dataset for QA on informal social media text, we do not consider this approach.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "source_position": 5520
+      },
+      {
+        "cross_encoder_score": -11.416361808776855,
+        "dataset": "QASPER",
+        "end_char": 5836,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "36fe361a9cb26b54f5ba248619fb67b6",
+        "passage_rank": 4,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "192c23610c68a77a1620dbf157b1b473",
+        "sentence_text": "After we extracted tweets from archived news articles, we observed that there is still a portion of tweets that have very simple semantic structures and thus are very difficult to raise meaningful questions.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "source_position": 5629
+      },
+      {
+        "cross_encoder_score": -11.444355010986328,
+        "dataset": "QASPER",
+        "end_char": 5923,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "36fe361a9cb26b54f5ba248619fb67b6",
+        "passage_rank": 4,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "047b4cbf383eb4ff0bb7ada252d8db12",
+        "sentence_text": "An example of such tweets can be like: \u201cWanted to share this today - @IAmSteveHarvey\".",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "source_position": 5837
+      },
+      {
+        "cross_encoder_score": -11.423910140991211,
+        "dataset": "QASPER",
+        "end_char": 5993,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "36fe361a9cb26b54f5ba248619fb67b6",
+        "passage_rank": 4,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "65db1751c03b1db53f668c57a4cab583",
+        "sentence_text": "This tweet is actually talking about an image attached to this tweet.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          4,
+          5,
+          0
+        ],
+        "source_position": 5924
+      },
+      {
+        "cross_encoder_score": -11.432050704956055,
+        "dataset": "QASPER",
+        "end_char": 6087,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "36fe361a9cb26b54f5ba248619fb67b6",
+        "passage_rank": 4,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "aac1b6e057cd9e0e18d79d7245b225c8",
+        "sentence_text": "Some other tweets with simple text structures may talk about an inserted link or even videos.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          4,
+          6,
+          0
+        ],
+        "source_position": 5994
+      },
+      {
+        "cross_encoder_score": -11.381296157836914,
+        "dataset": "QASPER",
+        "end_char": 6405,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "36fe361a9cb26b54f5ba248619fb67b6",
+        "passage_rank": 4,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "82640ee9edff088b742bc1c8fed45517",
+        "sentence_text": "To filter out these tweets that heavily rely on attached media to convey information, we utilize a state-of-the-art semantic role labeling model trained on CoNLL-2005  to analyze the predicate-argument structure of the tweets collected from news articles and keep only the tweets with more than two labeled arguments.",
+        "sentence_token_cost": 63,
+        "source_order": [
+          0,
+          4,
+          7,
+          0
+        ],
+        "source_position": 6088
+      },
+      {
+        "cross_encoder_score": -11.414816856384277,
+        "dataset": "QASPER",
+        "end_char": 6485,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "36fe361a9cb26b54f5ba248619fb67b6",
+        "passage_rank": 4,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "03229ab15b6fc93f9f1bf66c7af91df5",
+        "sentence_text": "This filtering process also automatically filters out most of the short tweets.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          4,
+          8,
+          0
+        ],
+        "source_position": 6406
+      },
+      {
+        "cross_encoder_score": -11.434761047363281,
+        "dataset": "QASPER",
+        "end_char": 6582,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "36fe361a9cb26b54f5ba248619fb67b6",
+        "passage_rank": 4,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "42eb74ac80a62c738282c6129f990d38",
+        "sentence_text": "For the tweets collected from CNN, INLINEFORM0 of them were filtered via semantic role labeling.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          4,
+          9,
+          0
+        ],
+        "source_position": 6486
+      },
+      {
+        "cross_encoder_score": -11.424097061157227,
+        "dataset": "QASPER",
+        "end_char": 6644,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "36fe361a9cb26b54f5ba248619fb67b6",
+        "passage_rank": 4,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "30a0b3a481856d3f66f86c264591f488",
+        "sentence_text": "For tweets from NBC, INLINEFORM1 of the tweets were filtered.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          4,
+          10,
+          0
+        ],
+        "source_position": 6583
+      },
+      {
+        "cross_encoder_score": -10.235952377319336,
+        "dataset": "QASPER",
+        "end_char": 6647,
+        "pair_tokens_before_truncation": 13,
+        "pair_truncated": false,
+        "passage_id": "36fe361a9cb26b54f5ba248619fb67b6",
+        "passage_rank": 4,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "9e546eb9f542a6d9da37f1a4d5810a51",
+        "sentence_text": "We",
+        "sentence_token_cost": 1,
+        "source_order": [
+          0,
+          4,
+          11,
+          0
+        ],
+        "source_position": 6645
+      },
+      {
+        "cross_encoder_score": -11.465604782104492,
+        "dataset": "QASPER",
+        "end_char": 6737,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "9e5ddc0f1548e5659cc5fc8beb69f37d",
+        "passage_rank": 10,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "2face8fc71b6857827c85ac89e1cfd8c",
+        "sentence_text": "then use Amazon Mechanical Turk to collect question-answer pairs for the filtered tweets.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 6648
+      },
+      {
+        "cross_encoder_score": -11.42240047454834,
+        "dataset": "QASPER",
+        "end_char": 6868,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "9e5ddc0f1548e5659cc5fc8beb69f37d",
+        "passage_rank": 10,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "8574e8712b7ebe8bd48ef4bd5fc4645a",
+        "sentence_text": "For each Human Intelligence Task (HIT), we ask the worker to read three tweets and write two question-answer pairs for each tweet.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 6738
+      },
+      {
+        "cross_encoder_score": -11.267629623413086,
+        "dataset": "QASPER",
+        "end_char": 7044,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "9e5ddc0f1548e5659cc5fc8beb69f37d",
+        "passage_rank": 10,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "5ad272cd8336ad333b117ce30a6a965a",
+        "sentence_text": "To ensure the quality, we require the workers to be located in major English speaking countries (i.e. Canada, US, and UK) and have an acceptance rate larger than INLINEFORM0 .",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 6869
+      },
+      {
+        "cross_encoder_score": -11.443076133728027,
+        "dataset": "QASPER",
+        "end_char": 7148,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "9e5ddc0f1548e5659cc5fc8beb69f37d",
+        "passage_rank": 10,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "613ba0e14c7a1e38fe3c48c21acb7d93",
+        "sentence_text": "Since we use tweets as context, lots of important information are contained in hashtags or even emojis.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 7045
+      },
+      {
+        "cross_encoder_score": -11.435369491577148,
+        "dataset": "QASPER",
+        "end_char": 7264,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "9e5ddc0f1548e5659cc5fc8beb69f37d",
+        "passage_rank": 10,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "2a6603b9c7962bb12dc7e97eee9c0811",
+        "sentence_text": "Instead of only showing the text to the workers, we use javascript to directly embed the whole tweet into each HIT.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 7149
+      },
+      {
+        "cross_encoder_score": -11.402022361755371,
+        "dataset": "QASPER",
+        "end_char": 7381,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "9e5ddc0f1548e5659cc5fc8beb69f37d",
+        "passage_rank": 10,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "b7ed414660c62bfb47f622321fc385bf",
+        "sentence_text": "This gives workers the same experience as reading tweets via web browsers and help them to better compose questions.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 7265
+      },
+      {
+        "cross_encoder_score": -11.351943016052246,
+        "dataset": "QASPER",
+        "end_char": 7537,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "9e5ddc0f1548e5659cc5fc8beb69f37d",
+        "passage_rank": 10,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "1fb49eafd995083c7510884f5cec25c0",
+        "sentence_text": "To avoid trivial questions that can be simply answered by superficial text matching methods or too challenging questions that require background knowledge.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 7382
+      },
+      {
+        "cross_encoder_score": -11.424802780151367,
+        "dataset": "QASPER",
+        "end_char": 7660,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "9e5ddc0f1548e5659cc5fc8beb69f37d",
+        "passage_rank": 10,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "c37e7817903de332769b76cc6bc5ad46",
+        "sentence_text": "We explicitly state the following items in the HIT instructions for question writing: No Yes-no questions should be asked.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 7538
+      },
+      {
+        "cross_encoder_score": -10.725915908813477,
+        "dataset": "QASPER",
+        "end_char": 7706,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "9e5ddc0f1548e5659cc5fc8beb69f37d",
+        "passage_rank": 10,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "81e877bfa21927b2fa351374a07d7db9",
+        "sentence_text": "The question should have at least five words.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          5,
+          8,
+          0
+        ],
+        "source_position": 7661
+      },
+      {
+        "cross_encoder_score": -11.318136215209961,
+        "dataset": "QASPER",
+        "end_char": 7765,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "9e5ddc0f1548e5659cc5fc8beb69f37d",
+        "passage_rank": 10,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "27dc5e164da34b7b94dc1ee7cca0fbcf",
+        "sentence_text": "Videos, images or inserted links should not be considered.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          5,
+          9,
+          0
+        ],
+        "source_position": 7707
+      },
+      {
+        "cross_encoder_score": -11.223821640014648,
+        "dataset": "QASPER",
+        "end_char": 7832,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "9e5ddc0f1548e5659cc5fc8beb69f37d",
+        "passage_rank": 10,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "5ea2608ccc582e4845f28b60a6a9f16b",
+        "sentence_text": "No background knowledge should be required to answer the question.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          5,
+          10,
+          0
+        ],
+        "source_position": 7766
+      },
+      {
+        "cross_encoder_score": -11.390936851501465,
+        "dataset": "QASPER",
+        "end_char": 7993,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "9e5ddc0f1548e5659cc5fc8beb69f37d",
+        "passage_rank": 10,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "090d3e401131358950c1466360c96831",
+        "sentence_text": "To help the workers better follow the instructions, we also include a representative example showing both good and bad questions or answers in our instructions.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          5,
+          11,
+          0
+        ],
+        "source_position": 7833
+      },
+      {
+        "cross_encoder_score": -10.631959915161133,
+        "dataset": "QASPER",
+        "end_char": 8034,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "9e5ddc0f1548e5659cc5fc8beb69f37d",
+        "passage_rank": 10,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "87ec7e18bf1083104a8e6f9c11cfb9fb",
+        "sentence_text": "Figure FIGREF14 shows the example we use",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          5,
+          12,
+          0
+        ],
+        "source_position": 7994
+      },
+      {
+        "cross_encoder_score": -11.268020629882812,
+        "dataset": "QASPER",
+        "end_char": 8056,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "19d5de0ab045f18f3c652f9a9af04a94",
+        "passage_rank": 1,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "61d546a33e2d2bde5a4ba5cd71faf786",
+        "sentence_text": "to guide the workers.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 8035
+      },
+      {
+        "cross_encoder_score": -7.754796028137207,
+        "dataset": "QASPER",
+        "end_char": 8297,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "19d5de0ab045f18f3c652f9a9af04a94",
+        "passage_rank": 1,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "0b86376d936a39c9ce6a782447d63fd8",
+        "sentence_text": "As for the answers, since the context we consider is relatively shorter than the context of previous datasets, we do not restrict the answers to be in the tweet, otherwise, the task may potentially be simplified as a classification problem.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 8057
+      },
+      {
+        "cross_encoder_score": -11.399742126464844,
+        "dataset": "QASPER",
+        "end_char": 8364,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "19d5de0ab045f18f3c652f9a9af04a94",
+        "passage_rank": 1,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "ebad13aa00794f16810a5d9e1581e2b8",
+        "sentence_text": "The workers are allowed to write their answers in their own words.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 8298
+      },
+      {
+        "cross_encoder_score": -11.418966293334961,
+        "dataset": "QASPER",
+        "end_char": 8450,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "19d5de0ab045f18f3c652f9a9af04a94",
+        "passage_rank": 1,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "964021beb0bc38ecbf4cf9c6103c9779",
+        "sentence_text": "We just require the answers to be brief and can be directly inferred from the tweets.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 8365
+      },
+      {
+        "cross_encoder_score": -11.400222778320312,
+        "dataset": "QASPER",
+        "end_char": 8610,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "19d5de0ab045f18f3c652f9a9af04a94",
+        "passage_rank": 1,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "24432aeee5741b4204ab2c1e2e19ec8d",
+        "sentence_text": "After we retrieve the QA pairs from all HITs, we conduct further post-filtering to filter out the pairs from workers that obviously do not follow instructions.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 8451
+      },
+      {
+        "cross_encoder_score": -11.372859954833984,
+        "dataset": "QASPER",
+        "end_char": 8650,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "19d5de0ab045f18f3c652f9a9af04a94",
+        "passage_rank": 1,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "8ac671549edc1bcbf6eb1f86e5587a20",
+        "sentence_text": "We remove QA pairs with yes/no answers.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 8611
+      },
+      {
+        "cross_encoder_score": -11.244077682495117,
+        "dataset": "QASPER",
+        "end_char": 8709,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "19d5de0ab045f18f3c652f9a9af04a94",
+        "passage_rank": 1,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "8aa2607fe447e01c32d51350ff739d87",
+        "sentence_text": "Questions with less than five words are also filtered out.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 8651
+      },
+      {
+        "cross_encoder_score": -11.18925952911377,
+        "dataset": "QASPER",
+        "end_char": 8760,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "19d5de0ab045f18f3c652f9a9af04a94",
+        "passage_rank": 1,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "8c16ccc03e28ed47f4010160fc4a4519",
+        "sentence_text": "This process filtered INLINEFORM0 of the QA pairs.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 8710
+      },
+      {
+        "cross_encoder_score": 0.08506694436073303,
+        "dataset": "QASPER",
+        "end_char": 8864,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "19d5de0ab045f18f3c652f9a9af04a94",
+        "passage_rank": 1,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "7894229a221788c018eec749cbee4f56",
+        "sentence_text": "The dataset now includes 10,898 articles, 17,794 tweets, and 13,757 crowdsourced question-answer pairs.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 8761
+      },
+      {
+        "cross_encoder_score": -9.754010200500488,
+        "dataset": "QASPER",
+        "end_char": 9046,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "19d5de0ab045f18f3c652f9a9af04a94",
+        "passage_rank": 1,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "84fb58321653fb2863805af4ff81f64d",
+        "sentence_text": "The collected QA pairs will be directly available to the public, and we will provide a script to download the original tweets and detailed documentation on how we build our dataset.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          6,
+          9,
+          0
+        ],
+        "source_position": 8865
+      },
+      {
+        "cross_encoder_score": -9.609498023986816,
+        "dataset": "QASPER",
+        "end_char": 9208,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "19d5de0ab045f18f3c652f9a9af04a94",
+        "passage_rank": 1,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "c54a0880f3d13de2dbceb73d4ee2c3ec",
+        "sentence_text": "Also note that since we keep the original news article and news titles for each tweet, our dataset can also be used to explore more challenging generation tasks.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          6,
+          10,
+          0
+        ],
+        "source_position": 9047
+      },
+      {
+        "cross_encoder_score": -10.676435470581055,
+        "dataset": "QASPER",
+        "end_char": 9279,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "19d5de0ab045f18f3c652f9a9af04a94",
+        "passage_rank": 1,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "2d60a2c1e341242c260c47259ba02a02",
+        "sentence_text": "Table TABREF19 shows the statistics of our current collection, and the",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          6,
+          11,
+          0
+        ],
+        "source_position": 9209
+      },
+      {
+        "cross_encoder_score": -11.114378929138184,
+        "dataset": "QASPER",
+        "end_char": 9350,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "86d47a772276fb3430305ee64c766e73",
+        "passage_rank": 9,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "8817edad496feec0e844c06611c196be",
+        "sentence_text": "frequency of different types of questions is shown in Table TABREF21 .",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 9280
+      },
+      {
+        "cross_encoder_score": -11.256847381591797,
+        "dataset": "QASPER",
+        "end_char": 9403,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "86d47a772276fb3430305ee64c766e73",
+        "passage_rank": 9,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "c5ebd2ff046a082a4413d110e880d7bb",
+        "sentence_text": "All QA pairs were written by 492 individual workers.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 9351
+      },
+      {
+        "cross_encoder_score": -11.412611961364746,
+        "dataset": "QASPER",
+        "end_char": 9594,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "86d47a772276fb3430305ee64c766e73",
+        "passage_rank": 9,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "cb843e6b4fa3d81f003981a62c713979",
+        "sentence_text": "For the purposes of human performance evaluation and inter-annotator agreement checking, we launch a different set of HITs to ask workers to answer questions in the test and development set.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 9404
+      },
+      {
+        "cross_encoder_score": -11.43900203704834,
+        "dataset": "QASPER",
+        "end_char": 9695,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "86d47a772276fb3430305ee64c766e73",
+        "passage_rank": 9,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "6fe26de16394ecd213e8572eea352da6",
+        "sentence_text": "The workers are shown with the tweet blocks as well as the questions collected in the previous step.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 9595
+      },
+      {
+        "cross_encoder_score": -11.375556945800781,
+        "dataset": "QASPER",
+        "end_char": 9808,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "86d47a772276fb3430305ee64c766e73",
+        "passage_rank": 9,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "c82cf5d327b3ba8bd27d937f3caf5ce9",
+        "sentence_text": "At this step, workers are allowed to label the questions as \u201cNA\" if they think the questions are not answerable.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 9696
+      },
+      {
+        "cross_encoder_score": -10.972167015075684,
+        "dataset": "QASPER",
+        "end_char": 9933,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "86d47a772276fb3430305ee64c766e73",
+        "passage_rank": 9,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "fa986892dcd18facd346b7898b0e1990",
+        "sentence_text": "We find that INLINEFORM0 of the questions are labeled as unanswerable by the workers (for SQuAD, the ratio is INLINEFORM1 ).",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 9809
+      },
+      {
+        "cross_encoder_score": -11.395805358886719,
+        "dataset": "QASPER",
+        "end_char": 10125,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "86d47a772276fb3430305ee64c766e73",
+        "passage_rank": 9,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "85f990c353f30af393bdc414427c493a",
+        "sentence_text": "Since the answers collected at this step and previous step are written by different workers, the answers can be written in different text forms even they are semantically equal to each other.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 9934
+      },
+      {
+        "cross_encoder_score": -11.304305076599121,
+        "dataset": "QASPER",
+        "end_char": 10212,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "86d47a772276fb3430305ee64c766e73",
+        "passage_rank": 9,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "73d9b88a5edc9f973e48d2a5708d2d73",
+        "sentence_text": "For example, one answer can be \u201cHillary Clinton\u201d while the other is \u201c@HillaryClinton\u201d.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "source_position": 10126
+      },
+      {
+        "cross_encoder_score": -10.930529594421387,
+        "dataset": "QASPER",
+        "end_char": 10443,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "86d47a772276fb3430305ee64c766e73",
+        "passage_rank": 9,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "cb4e2580651323d182687a1b6434edfa",
+        "sentence_text": "As it is not straightforward to automatically calculate the overall agreement, we manually check the agreement on a subset of 200 random samples from the development set and ask an independent human moderator to verify the result.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          7,
+          8,
+          0
+        ],
+        "source_position": 10213
+      },
+      {
+        "cross_encoder_score": -11.180978775024414,
+        "dataset": "QASPER",
+        "end_char": 10538,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "86d47a772276fb3430305ee64c766e73",
+        "passage_rank": 9,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "848de818325ac4a53e3d7b163a5ecbe1",
+        "sentence_text": "It turns out that INLINEFORM2 of the answers pairs are semantically equivalent, INLINEFORM3 of",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          7,
+          9,
+          0
+        ],
+        "source_position": 10444
+      },
+      {
+        "cross_encoder_score": -10.813674926757812,
+        "dataset": "QASPER",
+        "end_char": 10638,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "65c7fe2301726db3cb15d5a0ee2a72d2",
+        "passage_rank": 3,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "c323c43297b61f019d090222d2fcbeb8",
+        "sentence_text": "them are partially equivalent (one of them is incomplete) and INLINEFORM4 are totally inconsistent.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 10539
+      },
+      {
+        "cross_encoder_score": -11.169373512268066,
+        "dataset": "QASPER",
+        "end_char": 10721,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "65c7fe2301726db3cb15d5a0ee2a72d2",
+        "passage_rank": 3,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "19433672dd75445d6cbc83b2af898de1",
+        "sentence_text": "The answers collected at this step are also used to measure the human performance.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 10639
+      },
+      {
+        "cross_encoder_score": -11.253920555114746,
+        "dataset": "QASPER",
+        "end_char": 10781,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "65c7fe2301726db3cb15d5a0ee2a72d2",
+        "passage_rank": 3,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "de03c4185fce9d2666f8de73deee2c07",
+        "sentence_text": "We have 59 individual workers participated in this process.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 10722
+      },
+      {
+        "cross_encoder_score": -9.182539939880371,
+        "dataset": "QASPER",
+        "end_char": 10945,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "65c7fe2301726db3cb15d5a0ee2a72d2",
+        "passage_rank": 3,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "24ca07c70695a43206391eec3414c92c",
+        "sentence_text": "Task and Evaluation\tAs described in the question-answer writing process, the answers in our dataset are different from those in some existing extractive datasets.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 10783
+      },
+      {
+        "cross_encoder_score": -8.625377655029297,
+        "dataset": "QASPER",
+        "end_char": 11176,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "65c7fe2301726db3cb15d5a0ee2a72d2",
+        "passage_rank": 3,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "a4e91e27c8af13ad3bdb5fd383851fb7",
+        "sentence_text": "Thus we consider the task of answer generation for TweetQA and we use several standard metrics for natural language generation to evaluate QA systems on our dataset, namely we consider BLEU-1  , Meteor  and Rouge-L  in this paper.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 10946
+      },
+      {
+        "cross_encoder_score": -11.22492504119873,
+        "dataset": "QASPER",
+        "end_char": 11295,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "65c7fe2301726db3cb15d5a0ee2a72d2",
+        "passage_rank": 3,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "6477fb43b42f63e855ff3dca622fa1f4",
+        "sentence_text": "To evaluate machine systems, we compute the scores using both the original answer and validation answer as references.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 11177
+      },
+      {
+        "cross_encoder_score": -11.321256637573242,
+        "dataset": "QASPER",
+        "end_char": 11430,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "65c7fe2301726db3cb15d5a0ee2a72d2",
+        "passage_rank": 3,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "4c2ca7d5da5a108b44cf6ba7ffb2b87a",
+        "sentence_text": "For human performance, we use the validation answers as generated ones and the original answers as references to calculate the scores.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 11296
+      },
+      {
+        "cross_encoder_score": -6.9726715087890625,
+        "dataset": "QASPER",
+        "end_char": 11571,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "65c7fe2301726db3cb15d5a0ee2a72d2",
+        "passage_rank": 3,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "2c4828d63e86a7c5710110baf81ffdc6",
+        "sentence_text": "Analysis\tIn this section, we analyze our dataset and outline the key properties that distinguish it from standard QA datasets like SQuAD  .",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 11432
+      },
+      {
+        "cross_encoder_score": -7.346284866333008,
+        "dataset": "QASPER",
+        "end_char": 11754,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "65c7fe2301726db3cb15d5a0ee2a72d2",
+        "passage_rank": 3,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "b2d14903325470e808fa21ce64b9d5f8",
+        "sentence_text": "First, our dataset is derived from social media text which can be quite informal and user-centric as opposed to SQuAD which is derived from Wikipedia and hence more formal in nature.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "source_position": 11572
+      },
+      {
+        "cross_encoder_score": -11.404977798461914,
+        "dataset": "QASPER",
+        "end_char": 11893,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "65c7fe2301726db3cb15d5a0ee2a72d2",
+        "passage_rank": 3,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "f53ca6ae26b4bc8819e495357fa1c01e",
+        "sentence_text": "We observe that the shared vocabulary between SQuAD and TweetQA is only INLINEFORM0 , suggesting a significant difference in their lexical",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          8,
+          9,
+          0
+        ],
+        "source_position": 11755
+      },
+      {
+        "cross_encoder_score": -10.658477783203125,
+        "dataset": "QASPER",
+        "end_char": 11902,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "d84ae9be8767f3cb50ce7944025971d2",
+        "passage_rank": 6,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "9e65624d03e200237c6743c23391cc0d",
+        "sentence_text": "content.",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 11894
+      },
+      {
+        "cross_encoder_score": -11.051762580871582,
+        "dataset": "QASPER",
+        "end_char": 12008,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "d84ae9be8767f3cb50ce7944025971d2",
+        "passage_rank": 6,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "f8a64563907e63affddb1695b0fe5039",
+        "sentence_text": "Figure FIGREF25 shows the 1000 most distinctive words in each domain as extracted from SQuAD and TweetQA.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 11903
+      },
+      {
+        "cross_encoder_score": -4.914266109466553,
+        "dataset": "QASPER",
+        "end_char": 12142,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d84ae9be8767f3cb50ce7944025971d2",
+        "passage_rank": 6,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "babbf261c88eb1ad4db0eae5b3f6cfa2",
+        "sentence_text": "Note the stark differences in the words seen in the TweetQA dataset, which include a large number of user accounts with a heavy tail.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 12009
+      },
+      {
+        "cross_encoder_score": -11.174962997436523,
+        "dataset": "QASPER",
+        "end_char": 12237,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "d84ae9be8767f3cb50ce7944025971d2",
+        "passage_rank": 6,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "740541a255071780574ff25487b1b799",
+        "sentence_text": "Examples include @realdonaldtrump, @jdsutter, @justinkirkland and #cnnworldcup, #goldenglobes.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 12143
+      },
+      {
+        "cross_encoder_score": -8.498790740966797,
+        "dataset": "QASPER",
+        "end_char": 12358,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "d84ae9be8767f3cb50ce7944025971d2",
+        "passage_rank": 6,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "650d364fe4b06ed833e95be0f055ce7d",
+        "sentence_text": "In contrast, the SQuAD dataset rarely has usernames or hashtags that are used to signify events or refer to the authors.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 12238
+      },
+      {
+        "cross_encoder_score": -10.961824417114258,
+        "dataset": "QASPER",
+        "end_char": 12625,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "d84ae9be8767f3cb50ce7944025971d2",
+        "passage_rank": 6,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "1876aeec9624e81bcbf8e9c3272224a2",
+        "sentence_text": "It is also worth noting that the data collected from social media can not only capture events and developments in real-time but also capture individual opinions and thus requires reasoning related to the authorship of the content as is illustrated in Table TABREF3 .",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 12359
+      },
+      {
+        "cross_encoder_score": -11.416609764099121,
+        "dataset": "QASPER",
+        "end_char": 12781,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "d84ae9be8767f3cb50ce7944025971d2",
+        "passage_rank": 6,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "83272ddab352c2213b73a029e0aa8e09",
+        "sentence_text": "In addition, while SQuAD requires all answers to be spans from the given passage, we do not enforce any such restriction and answers can be free-form text.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          9,
+          6,
+          0
+        ],
+        "source_position": 12626
+      },
+      {
+        "cross_encoder_score": -11.02841567993164,
+        "dataset": "QASPER",
+        "end_char": 12936,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "d84ae9be8767f3cb50ce7944025971d2",
+        "passage_rank": 6,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "93bba539188197b332374b171f208466",
+        "sentence_text": "In fact, we observed that INLINEFORM1 of our QA pairs consists of answers which do not have an exact substring matching with their corresponding passages.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          9,
+          7,
+          0
+        ],
+        "source_position": 12782
+      },
+      {
+        "cross_encoder_score": -11.3776216506958,
+        "dataset": "QASPER",
+        "end_char": 13052,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "d84ae9be8767f3cb50ce7944025971d2",
+        "passage_rank": 6,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "da7ef939e1ea2e6bcdb0274ba811dde2",
+        "sentence_text": "All of the above distinguishing factors have implications to existing models which we analyze in upcoming sections.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          9,
+          8,
+          0
+        ],
+        "source_position": 12937
+      },
+      {
+        "cross_encoder_score": -11.423463821411133,
+        "dataset": "QASPER",
+        "end_char": 13125,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "d84ae9be8767f3cb50ce7944025971d2",
+        "passage_rank": 6,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "50d10ac982d5df8d95f4d994bce401b2",
+        "sentence_text": "We conduct analysis on a subset of TweetQA to get a better understanding",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          9,
+          9,
+          0
+        ],
+        "source_position": 13053
+      },
+      {
+        "cross_encoder_score": -11.352182388305664,
+        "dataset": "QASPER",
+        "end_char": 23826,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "0c2f68854c9dc30c25908755bae7399e",
+        "passage_rank": 5,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "a9b775860e57e4b6023f18fa3afe6959",
+        "sentence_text": "entities to choose from, which could make the answer pattern easy to learn.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          18,
+          0,
+          0
+        ],
+        "source_position": 23751
+      },
+      {
+        "cross_encoder_score": -11.333816528320312,
+        "dataset": "QASPER",
+        "end_char": 23995,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "0c2f68854c9dc30c25908755bae7399e",
+        "passage_rank": 5,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "fc40e95cac81e8b1507581f4e6ab0d95",
+        "sentence_text": "On the other hand, the neural models fail to perform well on the \u201cWhy\u201d questions, and the results of neural baselines are even worse than that of the matching baseline.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          18,
+          1,
+          0
+        ],
+        "source_position": 23827
+      },
+      {
+        "cross_encoder_score": -8.409634590148926,
+        "dataset": "QASPER",
+        "end_char": 24172,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "0c2f68854c9dc30c25908755bae7399e",
+        "passage_rank": 5,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "e3b04a4ffc762fea670c1403e7ddca04",
+        "sentence_text": "We find that these questions generally have longer answer phrases than other types of questions, with the average answer length being 3.74 compared to 2.13 for any other types.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          18,
+          2,
+          0
+        ],
+        "source_position": 23996
+      },
+      {
+        "cross_encoder_score": -11.360971450805664,
+        "dataset": "QASPER",
+        "end_char": 24342,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "0c2f68854c9dc30c25908755bae7399e",
+        "passage_rank": 5,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "c5af482293898253afe71cec3a9bf49a",
+        "sentence_text": "Also, since all the answers are written by humans instead of just spans from the context, these abstractive answers can make it even harder for current models to handle.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          18,
+          3,
+          0
+        ],
+        "source_position": 24173
+      },
+      {
+        "cross_encoder_score": -11.39188289642334,
+        "dataset": "QASPER",
+        "end_char": 24505,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "0c2f68854c9dc30c25908755bae7399e",
+        "passage_rank": 5,
+        "query_id": "869feb7f47606105005efdb6bea1c549824baea0",
+        "sentence_id": "af9694ed14a2d904bcefb18bb9449298",
+        "sentence_text": "We also observe that when people write \u201cWhy\u201d questions, they tend to copy word spans from the tweet, potentially making the task easier for the matching baseline.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          18,
+          4,
+          0
+        ],
+        "source_position": 24343
+      }
+    ],
+    "scoring_seconds": 0.381725384038873,
+    "source_fingerprint": "ebf01f6f87b3bc5196e6890ff5eeb528f18e0ef49b8bcf62611122d96bea5ffe"
+  }
+}

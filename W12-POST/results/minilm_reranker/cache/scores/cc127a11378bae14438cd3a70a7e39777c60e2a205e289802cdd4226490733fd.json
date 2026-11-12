@@ -1,0 +1,2271 @@
+{
+  "checksum": "2f44b3c956c801f9de24eca5c78fbd3caac0ee6c0613e155f90b844ec1e1a2e1",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 112,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "ab4a3b322c9195500f0c85c6d0aa344017faa07e2bfa7cd48728d9a3afa64aa4",
+    "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+    "scores": [
+      {
+        "cross_encoder_score": -11.371869087219238,
+        "dataset": "QASPER",
+        "end_char": 208,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "4ac5f8f1e5b3fc9379c264c8323f4c27",
+        "passage_rank": 3,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "0107ce6b38ae3738a3d7838da595b0bd",
+        "sentence_text": "Deep LSTM for Large Vocabulary Continuous Speech Recognition\tRecurrent neural networks (RNNs), especially long short-term memory (LSTM) RNNs, are effective network for sequential task like speech recognition.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.41523551940918,
+        "dataset": "QASPER",
+        "end_char": 337,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "4ac5f8f1e5b3fc9379c264c8323f4c27",
+        "passage_rank": 3,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "733606b625b81d60a3b5a86742bafef8",
+        "sentence_text": "Deeper LSTM models perform well on large vocabulary continuous speech recognition, because of their impressive learning ability.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 209
+      },
+      {
+        "cross_encoder_score": -11.408202171325684,
+        "dataset": "QASPER",
+        "end_char": 394,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "4ac5f8f1e5b3fc9379c264c8323f4c27",
+        "passage_rank": 3,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "1eab9d41ab7cd38421425e07eb6f98c9",
+        "sentence_text": "However, it is more difficult to train a deeper network.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 338
+      },
+      {
+        "cross_encoder_score": -11.448779106140137,
+        "dataset": "QASPER",
+        "end_char": 516,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "4ac5f8f1e5b3fc9379c264c8323f4c27",
+        "passage_rank": 3,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "f994a0fd6c939f44d0b6c451c5218f2b",
+        "sentence_text": "We introduce a training framework with layer-wise training and exponential moving average methods for deeper LSTM models.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 395
+      },
+      {
+        "cross_encoder_score": -11.428030014038086,
+        "dataset": "QASPER",
+        "end_char": 725,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "4ac5f8f1e5b3fc9379c264c8323f4c27",
+        "passage_rank": 3,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "e29567cc641fbb6629ec1f187902e5ce",
+        "sentence_text": "It is a competitive framework that LSTM models of more than 7 layers are successfully trained on Shenma voice search data in Mandarin and they outperform the deep LSTM models trained by conventional approach.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 517
+      },
+      {
+        "cross_encoder_score": -11.452277183532715,
+        "dataset": "QASPER",
+        "end_char": 881,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "4ac5f8f1e5b3fc9379c264c8323f4c27",
+        "passage_rank": 3,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "ffcbd1726534252b42325f561fd96a01",
+        "sentence_text": "Moreover, in order for online streaming speech recognition applications, the shallow model with low real time factor is distilled from the very deep model.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 726
+      },
+      {
+        "cross_encoder_score": -11.173041343688965,
+        "dataset": "QASPER",
+        "end_char": 952,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "4ac5f8f1e5b3fc9379c264c8323f4c27",
+        "passage_rank": 3,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "b9d36349d678c0571b6c83f3e4353c9a",
+        "sentence_text": "The recognition accuracy have little loss in the distillation process.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 882
+      },
+      {
+        "cross_encoder_score": 3.925506830215454,
+        "dataset": "QASPER",
+        "end_char": 1133,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "4ac5f8f1e5b3fc9379c264c8323f4c27",
+        "passage_rank": 3,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "d010f4e441fd656012727eafc1a828e0",
+        "sentence_text": "Therefore, the model trained with the proposed training framework reduces relative 14\\% character error rate, compared to original model which has the similar real-time capability.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 953
+      },
+      {
+        "cross_encoder_score": -11.413284301757812,
+        "dataset": "QASPER",
+        "end_char": 1254,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "4ac5f8f1e5b3fc9379c264c8323f4c27",
+        "passage_rank": 3,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "62ac28f312e877f093877916b4c2d210",
+        "sentence_text": "Furthermore, the novel transfer learning strategy with segmental Minimum Bayes-Risk is also introduced in the framework.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1134
+      },
+      {
+        "cross_encoder_score": -11.443628311157227,
+        "dataset": "QASPER",
+        "end_char": 1392,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "4ac5f8f1e5b3fc9379c264c8323f4c27",
+        "passage_rank": 3,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "db0db108dcb46978f91d7ff4eaa28dba",
+        "sentence_text": "The strategy makes it possible that training with only a small part of dataset could outperform full dataset training from the beginning.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1255
+      },
+      {
+        "cross_encoder_score": -11.378087997436523,
+        "dataset": "QASPER",
+        "end_char": 1440,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "4ac5f8f1e5b3fc9379c264c8323f4c27",
+        "passage_rank": 3,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "dd574a1fea998c43f8bc68fd884d485a",
+        "sentence_text": "Introduction\tRecently, deep neural network has",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1394
+      },
+      {
+        "cross_encoder_score": -11.3299560546875,
+        "dataset": "QASPER",
+        "end_char": 4198,
+        "pair_tokens_before_truncation": 13,
+        "pair_truncated": false,
+        "passage_id": "5cadf94560fd2f9ce78950e645ee768e",
+        "passage_rank": 7,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "2263e7b4b226b0c9fab36ab6aee6a06e",
+        "sentence_text": "parallel training.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 4180
+      },
+      {
+        "cross_encoder_score": -11.255904197692871,
+        "dataset": "QASPER",
+        "end_char": 4460,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "5cadf94560fd2f9ce78950e645ee768e",
+        "passage_rank": 7,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "e60d3871e7f5244e1611734d32623db2",
+        "sentence_text": "It is demonstrated that the moving average of the parameters obtained by SGD performs as well as the parameters that minimize the empirical cost, and moving average parameters can be used as the estimator of them, if the size of training data is large enough  .",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 4199
+      },
+      {
+        "cross_encoder_score": -11.290305137634277,
+        "dataset": "QASPER",
+        "end_char": 4588,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "5cadf94560fd2f9ce78950e645ee768e",
+        "passage_rank": 7,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "e53db3a354c0abb5430c0bd612c39bba",
+        "sentence_text": "One pass learning is then proposed, which is the combination of learning rate schedule and averaged SGD using moving average  .",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4461
+      },
+      {
+        "cross_encoder_score": -11.273161888122559,
+        "dataset": "QASPER",
+        "end_char": 4665,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "5cadf94560fd2f9ce78950e645ee768e",
+        "passage_rank": 7,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "6d950a231784088cd53b257d8098301f",
+        "sentence_text": "Exponential moving average (EMA) is proposed as a non-interference method  .",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4589
+      },
+      {
+        "cross_encoder_score": -11.46597671508789,
+        "dataset": "QASPER",
+        "end_char": 4800,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "5cadf94560fd2f9ce78950e645ee768e",
+        "passage_rank": 7,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "943303071b11983e7bad270452b9ee0b",
+        "sentence_text": "EMA model is not broadcasted to workers to update their local models, and it is applied as the final model of entire training process.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 4666
+      },
+      {
+        "cross_encoder_score": 1.2959789037704468,
+        "dataset": "QASPER",
+        "end_char": 4905,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "5cadf94560fd2f9ce78950e645ee768e",
+        "passage_rank": 7,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "4463945626a279b936fa10a445dfb619",
+        "sentence_text": "EMA method is utilized with model averaging and BMUF to further decrease the character error rate (CER).",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 4801
+      },
+      {
+        "cross_encoder_score": -11.397656440734863,
+        "dataset": "QASPER",
+        "end_char": 4973,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "5cadf94560fd2f9ce78950e645ee768e",
+        "passage_rank": 7,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "41b5cda5e97944113e01fb0d5979e882",
+        "sentence_text": "It is also easy to implement in existing parallel training systems.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 4906
+      },
+      {
+        "cross_encoder_score": -11.414725303649902,
+        "dataset": "QASPER",
+        "end_char": 5027,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "5cadf94560fd2f9ce78950e645ee768e",
+        "passage_rank": 7,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "8271db84ce1bbb060bee61a8cbf1a39e",
+        "sentence_text": "Frame stacking can also speed up the training time  .",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 4974
+      },
+      {
+        "cross_encoder_score": -11.423001289367676,
+        "dataset": "QASPER",
+        "end_char": 5122,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "5cadf94560fd2f9ce78950e645ee768e",
+        "passage_rank": 7,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "09985025dd440f2f4b5e0a84731f3676",
+        "sentence_text": "The super frame is stacked by several regular frames, and it contains the information of them.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          3,
+          8,
+          0
+        ],
+        "source_position": 5028
+      },
+      {
+        "cross_encoder_score": -11.429122924804688,
+        "dataset": "QASPER",
+        "end_char": 5208,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "5cadf94560fd2f9ce78950e645ee768e",
+        "passage_rank": 7,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "db784cbda652e61ecea8d8028704d20d",
+        "sentence_text": "Thus, the network can see multiple frames at a time, as the super frame is new input.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          3,
+          9,
+          0
+        ],
+        "source_position": 5123
+      },
+      {
+        "cross_encoder_score": -11.398106575012207,
+        "dataset": "QASPER",
+        "end_char": 5257,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "5cadf94560fd2f9ce78950e645ee768e",
+        "passage_rank": 7,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "0d867bf40b2f847f3aa82feb45eb7dda",
+        "sentence_text": "Frame stacking can also lead to faster decoding.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          3,
+          10,
+          0
+        ],
+        "source_position": 5209
+      },
+      {
+        "cross_encoder_score": -11.466997146606445,
+        "dataset": "QASPER",
+        "end_char": 5378,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "5cadf94560fd2f9ce78950e645ee768e",
+        "passage_rank": 7,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "917d83fa1466ef84d9454fece9ac69d0",
+        "sentence_text": "For streaming voice search service, it needs to display intermediate recognition results while users are still speaking.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          3,
+          11,
+          0
+        ],
+        "source_position": 5258
+      },
+      {
+        "cross_encoder_score": -11.44686222076416,
+        "dataset": "QASPER",
+        "end_char": 5501,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "5cadf94560fd2f9ce78950e645ee768e",
+        "passage_rank": 7,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "da3ccf77428fa6a607cc9e29c8465b41",
+        "sentence_text": "As a result, the system needs to fulfill high real-time requirement, and we prefer unidirectional LSTM network rather than",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          3,
+          12,
+          0
+        ],
+        "source_position": 5379
+      },
+      {
+        "cross_encoder_score": -11.342076301574707,
+        "dataset": "QASPER",
+        "end_char": 10913,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "b9adb405f8e5d1af959e2b41444b213c",
+        "passage_rank": 5,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "30f971ec1381d86c2fdc56980f714433",
+        "sentence_text": "Training\tCross-entropy (CE) is widely used in speech recognition training system as a frame-wise discriminative training criterion.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 10782
+      },
+      {
+        "cross_encoder_score": -11.415478706359863,
+        "dataset": "QASPER",
+        "end_char": 11037,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "b9adb405f8e5d1af959e2b41444b213c",
+        "passage_rank": 5,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "108c46dc32593b404669606eb5b31472",
+        "sentence_text": "However, it is not well suited to speech recognition, because speech recognition training is a sequential learning problem.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 10914
+      },
+      {
+        "cross_encoder_score": -11.398178100585938,
+        "dataset": "QASPER",
+        "end_char": 11194,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "b9adb405f8e5d1af959e2b41444b213c",
+        "passage_rank": 5,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "ef84f420c3f2b8e63aee12f4b3c9b883",
+        "sentence_text": "In contrast, sequence discriminative training criterion has shown to further improve performance of neural network first trained with cross-entropy  ,  ,  .",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 11038
+      },
+      {
+        "cross_encoder_score": -10.027681350708008,
+        "dataset": "QASPER",
+        "end_char": 11383,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "b9adb405f8e5d1af959e2b41444b213c",
+        "passage_rank": 5,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "c391f3dcc104edf4eba54f4acd73767e",
+        "sentence_text": "We choose state-level minimum bayes risk (sMBR)  among a number of sequence discriminative criterion is proposed, such as maximum mutual information (MMI)  and minimum phone error (MPE)  .",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 11195
+      },
+      {
+        "cross_encoder_score": -9.934967041015625,
+        "dataset": "QASPER",
+        "end_char": 11576,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "b9adb405f8e5d1af959e2b41444b213c",
+        "passage_rank": 5,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "37aa0938ac45ab920f4b8fbb8214af05",
+        "sentence_text": "MPE and sMBR are designed to minimize the expected error of different granularity of labels, while CE aims to minimizes expected frame error, and MMI aims to minimizes expected sentence error.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 11384
+      },
+      {
+        "cross_encoder_score": -11.230223655700684,
+        "dataset": "QASPER",
+        "end_char": 11623,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "b9adb405f8e5d1af959e2b41444b213c",
+        "passage_rank": 5,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "2ba24d7951d78fa07a56885b9a756ec7",
+        "sentence_text": "State-level information is focused on by sMBR.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 11577
+      },
+      {
+        "cross_encoder_score": -11.23249626159668,
+        "dataset": "QASPER",
+        "end_char": 11785,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "b9adb405f8e5d1af959e2b41444b213c",
+        "passage_rank": 5,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "a9c1f62b393fcba465168bead0a5acf0",
+        "sentence_text": "a frame-level accurate model is firstly trained by CE loss function, and then sMBR loss function is utilized for further training to get sequence-level accuracy.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 11624
+      },
+      {
+        "cross_encoder_score": -11.478492736816406,
+        "dataset": "QASPER",
+        "end_char": 11893,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "b9adb405f8e5d1af959e2b41444b213c",
+        "passage_rank": 5,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "548ce0c7aecd96401e509504b0012223",
+        "sentence_text": "Only a part of training dataset is needed in sMBR training phase on the basis of whole dataset CE training.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 11786
+      },
+      {
+        "cross_encoder_score": -11.350340843200684,
+        "dataset": "QASPER",
+        "end_char": 11999,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "b9adb405f8e5d1af959e2b41444b213c",
+        "passage_rank": 5,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "6adcc1af1d4e71d725cabb083eadeebe",
+        "sentence_text": "Parallel Training\tIt is demonstrated that training with larger dataset can improve recognition accuracy.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "source_position": 11895
+      },
+      {
+        "cross_encoder_score": -11.419929504394531,
+        "dataset": "QASPER",
+        "end_char": 12078,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "b9adb405f8e5d1af959e2b41444b213c",
+        "passage_rank": 5,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "0aaabfe5945d89616390e3b636453fbd",
+        "sentence_text": "However, larger dataset means more training samples and more model parameters.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          8,
+          9,
+          0
+        ],
+        "source_position": 12000
+      },
+      {
+        "cross_encoder_score": -11.308030128479004,
+        "dataset": "QASPER",
+        "end_char": 12107,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "b9adb405f8e5d1af959e2b41444b213c",
+        "passage_rank": 5,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "21f84833a436095b858aae2baef321a5",
+        "sentence_text": "Therefore, parallel training",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          8,
+          10,
+          0
+        ],
+        "source_position": 12079
+      },
+      {
+        "cross_encoder_score": -10.981803894042969,
+        "dataset": "QASPER",
+        "end_char": 14752,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "fabc28d9eda054ddaf4e6ba4093a3e3b",
+        "passage_rank": 10,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "1f49c5eb6bf9e0c4b654b6254ac810fd",
+        "sentence_text": "in final INLINEFORM2 .",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 14730
+      },
+      {
+        "cross_encoder_score": -11.226479530334473,
+        "dataset": "QASPER",
+        "end_char": 14905,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "fabc28d9eda054ddaf4e6ba4093a3e3b",
+        "passage_rank": 10,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "fa00f2ba65cf847e376892ecb50b2273",
+        "sentence_text": "As a result, exponential moving average(EMA) is appropriate, which the weight for each older parameters decrease exponentially, and never reaching zero.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 14753
+      },
+      {
+        "cross_encoder_score": -11.096197128295898,
+        "dataset": "QASPER",
+        "end_char": 15097,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "fabc28d9eda054ddaf4e6ba4093a3e3b",
+        "passage_rank": 10,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "d08cf86d2d4e97cab92bc5ff70097a83",
+        "sentence_text": "After moving average based methods, the EMA parameters are updated recursively as INLINEFORM3  Here INLINEFORM0 represents the degree of weight decrease, and called exponential updating rate.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 14906
+      },
+      {
+        "cross_encoder_score": -11.428436279296875,
+        "dataset": "QASPER",
+        "end_char": 15215,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "fabc28d9eda054ddaf4e6ba4093a3e3b",
+        "passage_rank": 10,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "45049a9c5b3c4afd66683b6b78670724",
+        "sentence_text": "EMA is also a non-interference training strategy that is implemented easily, as the updated model is not broadcasted.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 15098
+      },
+      {
+        "cross_encoder_score": -11.286124229431152,
+        "dataset": "QASPER",
+        "end_char": 15352,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "fabc28d9eda054ddaf4e6ba4093a3e3b",
+        "passage_rank": 10,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "f2b30fc6b1fe45a257eeca997b86298f",
+        "sentence_text": "Therefore, there is no need to add extra learning rate updating approach, as it can be appended to existing training procedure directly.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 15216
+      },
+      {
+        "cross_encoder_score": -11.471749305725098,
+        "dataset": "QASPER",
+        "end_char": 15471,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "fabc28d9eda054ddaf4e6ba4093a3e3b",
+        "passage_rank": 10,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "d6193772308565b540eab1889b4c6fd1",
+        "sentence_text": "Deployment\tThere is a high real time requirement in real world application, especially in online voice search system.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 15354
+      },
+      {
+        "cross_encoder_score": -11.442150115966797,
+        "dataset": "QASPER",
+        "end_char": 15660,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "fabc28d9eda054ddaf4e6ba4093a3e3b",
+        "passage_rank": 10,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "5431fafb4dd288a25ed9de8ba79c2eaf",
+        "sentence_text": "Shenma voice search is one of the most popular mobile search engines in China, and it is a streaming service that intermediate recognition results displayed while users are still speaking.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 15472
+      },
+      {
+        "cross_encoder_score": -11.435855865478516,
+        "dataset": "QASPER",
+        "end_char": 15800,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "fabc28d9eda054ddaf4e6ba4093a3e3b",
+        "passage_rank": 10,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "33b2e1076f5175f52509bc4a2628174f",
+        "sentence_text": "Unidirectional LSTM network is applied, rather than bidirectional one, because it is well suited to real-time streaming speech recognition.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 15661
+      },
+      {
+        "cross_encoder_score": -11.429984092712402,
+        "dataset": "QASPER",
+        "end_char": 15905,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "fabc28d9eda054ddaf4e6ba4093a3e3b",
+        "passage_rank": 10,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "2dd1fc5d540f500a3a9b682a1924583f",
+        "sentence_text": "Distillation\tIt is demonstrated that deep neural network architecture can achieve improvement in LVCSR.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          11,
+          8,
+          0
+        ],
+        "source_position": 15802
+      },
+      {
+        "cross_encoder_score": -11.205763816833496,
+        "dataset": "QASPER",
+        "end_char": 16035,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "fabc28d9eda054ddaf4e6ba4093a3e3b",
+        "passage_rank": 10,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "a04b6010a879cdb2a15846f23aa200f7",
+        "sentence_text": "However, it also leads to much more computation and higher RTF, so that the recognition result can not be displayed in real time.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          11,
+          9,
+          0
+        ],
+        "source_position": 15906
+      },
+      {
+        "cross_encoder_score": -11.40001392364502,
+        "dataset": "QASPER",
+        "end_char": 16113,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "fabc28d9eda054ddaf4e6ba4093a3e3b",
+        "passage_rank": 10,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "02146664ef8a31a5e6cfa3ff4b3503cb",
+        "sentence_text": "It should be noted that deeper neural network contains more knowledge, but it",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          11,
+          10,
+          0
+        ],
+        "source_position": 16036
+      },
+      {
+        "cross_encoder_score": -11.480018615722656,
+        "dataset": "QASPER",
+        "end_char": 20046,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "d1d8f8e9d0c711c67f3eb96e71c521bb",
+        "passage_rank": 8,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "370426875ef730b3e1a668aeffa20e34",
+        "sentence_text": "the similar way of Shenma voice search data collection.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          15,
+          0,
+          0
+        ],
+        "source_position": 19991
+      },
+      {
+        "cross_encoder_score": -11.4354829788208,
+        "dataset": "QASPER",
+        "end_char": 20182,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "d1d8f8e9d0c711c67f3eb96e71c521bb",
+        "passage_rank": 8,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "d5a7c027113db4571b9b98c0c86efc5f",
+        "sentence_text": "Two dataset is divided into training set, validation set and test set separately, and the quantity of them is shown in Table TABREF10 .",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          15,
+          1,
+          0
+        ],
+        "source_position": 20047
+      },
+      {
+        "cross_encoder_score": -11.430277824401855,
+        "dataset": "QASPER",
+        "end_char": 20315,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "d1d8f8e9d0c711c67f3eb96e71c521bb",
+        "passage_rank": 8,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "9afacc3484b5385774cb8998ba158cac",
+        "sentence_text": "The three sets are split according to speakers, in order to avoid utterances of same speaker appearing in three sets simultaneously.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          15,
+          2,
+          0
+        ],
+        "source_position": 20183
+      },
+      {
+        "cross_encoder_score": -11.438336372375488,
+        "dataset": "QASPER",
+        "end_char": 20399,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "d1d8f8e9d0c711c67f3eb96e71c521bb",
+        "passage_rank": 8,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "e0b0e2c8a0d80b1d40b69d88560390c6",
+        "sentence_text": "The test sets of Shenma and Amap voice search are called Shenma Test and Amap Test.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          15,
+          3,
+          0
+        ],
+        "source_position": 20316
+      },
+      {
+        "cross_encoder_score": -11.43334674835205,
+        "dataset": "QASPER",
+        "end_char": 20610,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "d1d8f8e9d0c711c67f3eb96e71c521bb",
+        "passage_rank": 8,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "389ad01eafa553b3dda91de5ebb5a876",
+        "sentence_text": "Experimental setup\tLSTM RNNs outperform conventional RNNs for speech recognition system, especially deep LSTM RNNs, because of its long-range dependencies more accurately for temporal sequence conditions  ,  .",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          15,
+          4,
+          0
+        ],
+        "source_position": 20401
+      },
+      {
+        "cross_encoder_score": -11.465066909790039,
+        "dataset": "QASPER",
+        "end_char": 20742,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "d1d8f8e9d0c711c67f3eb96e71c521bb",
+        "passage_rank": 8,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "7d1e85bc38e5f2a04b8ef99aadecd96b",
+        "sentence_text": "Shenma and Amap voice search is a streaming service that intermediate recognition results displayed while users are still speaking.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          15,
+          5,
+          0
+        ],
+        "source_position": 20611
+      },
+      {
+        "cross_encoder_score": -11.453987121582031,
+        "dataset": "QASPER",
+        "end_char": 20852,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "d1d8f8e9d0c711c67f3eb96e71c521bb",
+        "passage_rank": 8,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "2e2d8b79fc185f3798dff724e6f4241a",
+        "sentence_text": "So as for online recognition in real time, we prefer unidirectional LSTM model rather than bidirectional one.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          15,
+          6,
+          0
+        ],
+        "source_position": 20743
+      },
+      {
+        "cross_encoder_score": -11.376038551330566,
+        "dataset": "QASPER",
+        "end_char": 20908,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "d1d8f8e9d0c711c67f3eb96e71c521bb",
+        "passage_rank": 8,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "4d0e438ecdf8d26a206068bba148a071",
+        "sentence_text": "Thus, the training system is unidirectional LSTM-based.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          15,
+          7,
+          0
+        ],
+        "source_position": 20853
+      },
+      {
+        "cross_encoder_score": -11.421674728393555,
+        "dataset": "QASPER",
+        "end_char": 21092,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "d1d8f8e9d0c711c67f3eb96e71c521bb",
+        "passage_rank": 8,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "d9a52e1c8f71e8ec631d5a501179cfc9",
+        "sentence_text": "A 26-dimensional filter bank and 2-dimensional pitch feature is extracted for each frame, and is concatenated with first and second order difference as the final input of the network.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          15,
+          8,
+          0
+        ],
+        "source_position": 20909
+      },
+      {
+        "cross_encoder_score": -11.408318519592285,
+        "dataset": "QASPER",
+        "end_char": 21153,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "d1d8f8e9d0c711c67f3eb96e71c521bb",
+        "passage_rank": 8,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "7cd0c3984ead2f7d2c44412ec6e2cbe8",
+        "sentence_text": "The super frame are stacked by 3 frames without overlapping.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          15,
+          9,
+          0
+        ],
+        "source_position": 21093
+      },
+      {
+        "cross_encoder_score": -11.445621490478516,
+        "dataset": "QASPER",
+        "end_char": 21280,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "d1d8f8e9d0c711c67f3eb96e71c521bb",
+        "passage_rank": 8,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "f6f67813f1dd26b813169132b2e0323b",
+        "sentence_text": "The architecture we trained consists of two LSTM layers with sigmoid activation function, followed by a full-connection layer.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          15,
+          10,
+          0
+        ],
+        "source_position": 21154
+      },
+      {
+        "cross_encoder_score": -11.258563041687012,
+        "dataset": "QASPER",
+        "end_char": 21297,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "d1d8f8e9d0c711c67f3eb96e71c521bb",
+        "passage_rank": 8,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "4a9179ec18fd34c68dc30d9374f43eb3",
+        "sentence_text": "The out layer is",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          15,
+          11,
+          0
+        ],
+        "source_position": 21281
+      },
+      {
+        "cross_encoder_score": -11.363790512084961,
+        "dataset": "QASPER",
+        "end_char": 21422,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "6a32659c61ce0ad6cdc74629bede4c14",
+        "passage_rank": 1,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "89c2d60dca5640c92162beda71dec57e",
+        "sentence_text": "a softmax layer with 11088 hidden markov model (HMM) tied-states as output classes, the loss function is cross-entropy (CE).",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "source_position": 21298
+      },
+      {
+        "cross_encoder_score": 3.53068470954895,
+        "dataset": "QASPER",
+        "end_char": 21516,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "6a32659c61ce0ad6cdc74629bede4c14",
+        "passage_rank": 1,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "bee4ad47826b34bf9e2090e5247c2d0e",
+        "sentence_text": "The performance metric of the system in Mandarin is reported with character error rate (CER).",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          16,
+          1,
+          0
+        ],
+        "source_position": 21423
+      },
+      {
+        "cross_encoder_score": -11.388833999633789,
+        "dataset": "QASPER",
+        "end_char": 21589,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "6a32659c61ce0ad6cdc74629bede4c14",
+        "passage_rank": 1,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "4b07a8cc24cb35028f8bc0b579ba45b6",
+        "sentence_text": "The alignment of frame-level ground truth is obtained by GMM-HMM system.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          16,
+          2,
+          0
+        ],
+        "source_position": 21517
+      },
+      {
+        "cross_encoder_score": -11.450899124145508,
+        "dataset": "QASPER",
+        "end_char": 21690,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "6a32659c61ce0ad6cdc74629bede4c14",
+        "passage_rank": 1,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "8b865a99b98f2d386e6fd6fc15835e98",
+        "sentence_text": "Mini-batched SGD is utilized with momentum trick and the network is trained for a total of 4 epochs.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          16,
+          3,
+          0
+        ],
+        "source_position": 21590
+      },
+      {
+        "cross_encoder_score": -9.549859046936035,
+        "dataset": "QASPER",
+        "end_char": 21763,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "6a32659c61ce0ad6cdc74629bede4c14",
+        "passage_rank": 1,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "d44e403d5e2ac77b67841ed831007f77",
+        "sentence_text": "The block learning rate and block momentum of BMUF are set as 1 and 0.9.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          16,
+          4,
+          0
+        ],
+        "source_position": 21691
+      },
+      {
+        "cross_encoder_score": -11.377045631408691,
+        "dataset": "QASPER",
+        "end_char": 21857,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "6a32659c61ce0ad6cdc74629bede4c14",
+        "passage_rank": 1,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "fe3d105bec44ea2650ad032bbc82e27e",
+        "sentence_text": "5-gram language model is leveraged in decoder, and the vocabulary size is as large as 760000.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          16,
+          5,
+          0
+        ],
+        "source_position": 21764
+      },
+      {
+        "cross_encoder_score": -11.065973281860352,
+        "dataset": "QASPER",
+        "end_char": 22021,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "6a32659c61ce0ad6cdc74629bede4c14",
+        "passage_rank": 1,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "06962c1a6912c688716260f934baae5a",
+        "sentence_text": "Differentials of recurrent layers is limited to range [-10000,10000], while gradients are clipped to range [-5, 5] and cell activations clipped to range [-50, 50].",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          16,
+          6,
+          0
+        ],
+        "source_position": 21858
+      },
+      {
+        "cross_encoder_score": -11.424373626708984,
+        "dataset": "QASPER",
+        "end_char": 22108,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "6a32659c61ce0ad6cdc74629bede4c14",
+        "passage_rank": 1,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "0b0d71660648e9d10304973be9bad000",
+        "sentence_text": "After training with CE loss, sMBR loss is employed to further improve the performance.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          16,
+          7,
+          0
+        ],
+        "source_position": 22022
+      },
+      {
+        "cross_encoder_score": -11.354301452636719,
+        "dataset": "QASPER",
+        "end_char": 22228,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "6a32659c61ce0ad6cdc74629bede4c14",
+        "passage_rank": 1,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "c33bd4210a0ec8dd4afbd3bc50ec5a20",
+        "sentence_text": "It has shown that BMUF outperforms traditional model averaging method, and it is utilized at the synchronization phase.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          16,
+          8,
+          0
+        ],
+        "source_position": 22109
+      },
+      {
+        "cross_encoder_score": -11.43145751953125,
+        "dataset": "QASPER",
+        "end_char": 22321,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "6a32659c61ce0ad6cdc74629bede4c14",
+        "passage_rank": 1,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "d22b41552a0deea10cb395e73761cb18",
+        "sentence_text": "After synchronizing with BMUF, EMA method further updates the model in non-interference way.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          16,
+          9,
+          0
+        ],
+        "source_position": 22229
+      },
+      {
+        "cross_encoder_score": -11.331950187683105,
+        "dataset": "QASPER",
+        "end_char": 22360,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "6a32659c61ce0ad6cdc74629bede4c14",
+        "passage_rank": 1,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "a215c98f53928cd2c9959ce3daf18e84",
+        "sentence_text": "The training system is deployed on the",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          16,
+          10,
+          0
+        ],
+        "source_position": 22322
+      },
+      {
+        "cross_encoder_score": -11.097087860107422,
+        "dataset": "QASPER",
+        "end_char": 23702,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "be26e1b1b709aea178463d440ac17f6f",
+        "passage_rank": 6,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "4c2c4cd8076911e6ad2279f64dd8be77",
+        "sentence_text": "additionally, but not broadcasting it.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          18,
+          0,
+          0
+        ],
+        "source_position": 23664
+      },
+      {
+        "cross_encoder_score": -11.411757469177246,
+        "dataset": "QASPER",
+        "end_char": 23787,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "be26e1b1b709aea178463d440ac17f6f",
+        "passage_rank": 6,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "c5e1dafd0581bd150740dbfc51390b6b",
+        "sentence_text": "Results\tIn order to evaluate our system, several sets of experiments are performed.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          18,
+          1,
+          0
+        ],
+        "source_position": 23704
+      },
+      {
+        "cross_encoder_score": -11.412209510803223,
+        "dataset": "QASPER",
+        "end_char": 23922,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "be26e1b1b709aea178463d440ac17f6f",
+        "passage_rank": 6,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "e238c876ded628ac5fd4263c2a14f4b5",
+        "sentence_text": "The Shenma test set including about 9000 samples and Amap test set including about 7000 samples contain various real world conditions.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          18,
+          2,
+          0
+        ],
+        "source_position": 23788
+      },
+      {
+        "cross_encoder_score": -11.377789497375488,
+        "dataset": "QASPER",
+        "end_char": 24026,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "be26e1b1b709aea178463d440ac17f6f",
+        "passage_rank": 6,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "70a913ccef37b64e7fe32a08a6ae45f9",
+        "sentence_text": "It simulates the majority of user scenarios, and can well evaluates the performance of a trained model.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          18,
+          3,
+          0
+        ],
+        "source_position": 23923
+      },
+      {
+        "cross_encoder_score": -11.444463729858398,
+        "dataset": "QASPER",
+        "end_char": 24090,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "be26e1b1b709aea178463d440ac17f6f",
+        "passage_rank": 6,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "c8bcfe0f34c4a4fa5f0eec7477dda3b1",
+        "sentence_text": "Firstly, we show the results of models trained with EMA method.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          18,
+          4,
+          0
+        ],
+        "source_position": 24027
+      },
+      {
+        "cross_encoder_score": -11.414207458496094,
+        "dataset": "QASPER",
+        "end_char": 24196,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "be26e1b1b709aea178463d440ac17f6f",
+        "passage_rank": 6,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "0eae1b6ced2cd2ba20a9cc9064e48d65",
+        "sentence_text": "Secondly, for real world applications, very deep LSTM is distilled to a shallow one, so as for lower RTF.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          18,
+          5,
+          0
+        ],
+        "source_position": 24091
+      },
+      {
+        "cross_encoder_score": -11.454615592956543,
+        "dataset": "QASPER",
+        "end_char": 24272,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "be26e1b1b709aea178463d440ac17f6f",
+        "passage_rank": 6,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "6441e11a1fb670f6e6fe8607c31e4963",
+        "sentence_text": "The model of Amap is also needed to train for map and navigation scenarios.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          18,
+          6,
+          0
+        ],
+        "source_position": 24197
+      },
+      {
+        "cross_encoder_score": -11.498323440551758,
+        "dataset": "QASPER",
+        "end_char": 24374,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "be26e1b1b709aea178463d440ac17f6f",
+        "passage_rank": 6,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "c5dce95286df1f3b556681f5f2d2dd4c",
+        "sentence_text": "The performance of transfer learning from Shenma voice search to Amap voice search is also presented.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          18,
+          7,
+          0
+        ],
+        "source_position": 24273
+      },
+      {
+        "cross_encoder_score": -11.408201217651367,
+        "dataset": "QASPER",
+        "end_char": 24499,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "be26e1b1b709aea178463d440ac17f6f",
+        "passage_rank": 6,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "d1e6dcbbf8c685284f04a1cafa025a5c",
+        "sentence_text": "Layer-wise Training\tIn layer-wise training, the deeper model learns both parameters and knowledge from the shallower model.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          18,
+          8,
+          0
+        ],
+        "source_position": 24376
+      },
+      {
+        "cross_encoder_score": -11.384814262390137,
+        "dataset": "QASPER",
+        "end_char": 24639,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "be26e1b1b709aea178463d440ac17f6f",
+        "passage_rank": 6,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "102cb58e7ea20dec67967bbb78feb2bf",
+        "sentence_text": "The deeper model is initialized by the shallower one, and its alignment is the combination of hard target and soft target of shallower one.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          18,
+          9,
+          0
+        ],
+        "source_position": 24500
+      },
+      {
+        "cross_encoder_score": -11.384528160095215,
+        "dataset": "QASPER",
+        "end_char": 24691,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "be26e1b1b709aea178463d440ac17f6f",
+        "passage_rank": 6,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "4d22042df4c0f54b64bee9d91e655060",
+        "sentence_text": "Two targets have the same weights in our framework.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          18,
+          10,
+          0
+        ],
+        "source_position": 24640
+      },
+      {
+        "cross_encoder_score": -11.411462783813477,
+        "dataset": "QASPER",
+        "end_char": 24729,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "be26e1b1b709aea178463d440ac17f6f",
+        "passage_rank": 6,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "01c3b53fffcd3e5461bb7c3fac90f1cb",
+        "sentence_text": "The teacher model is trained with CE.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          18,
+          11,
+          0
+        ],
+        "source_position": 24692
+      },
+      {
+        "cross_encoder_score": -11.439934730529785,
+        "dataset": "QASPER",
+        "end_char": 24855,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "be26e1b1b709aea178463d440ac17f6f",
+        "passage_rank": 6,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "79b0f6845e516c30828d98a7bef867e6",
+        "sentence_text": "For each layer-wise trained CE model, corresponding sMBR model is also trained, as sMBR could achieve additional improvement.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          18,
+          12,
+          0
+        ],
+        "source_position": 24730
+      },
+      {
+        "cross_encoder_score": -11.248578071594238,
+        "dataset": "QASPER",
+        "end_char": 24910,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "be26e1b1b709aea178463d440ac17f6f",
+        "passage_rank": 6,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "a7811e3454a368642a2bd4a848c0af8e",
+        "sentence_text": "In our framework, 1000 hours data is randomly selected",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          18,
+          13,
+          0
+        ],
+        "source_position": 24856
+      },
+      {
+        "cross_encoder_score": -11.38962173461914,
+        "dataset": "QASPER",
+        "end_char": 24952,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "1fbbdaa54755b0543507a77218c3d536",
+        "passage_rank": 2,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "3bdf4db8dde507f297c662325f1fbdf7",
+        "sentence_text": "from the total dataset for sMBR training.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          19,
+          0,
+          0
+        ],
+        "source_position": 24911
+      },
+      {
+        "cross_encoder_score": -11.434998512268066,
+        "dataset": "QASPER",
+        "end_char": 25046,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "1fbbdaa54755b0543507a77218c3d536",
+        "passage_rank": 2,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "d1d5cc8357553c446f75065217a22777",
+        "sentence_text": "There is no obvious performance enhancement when the size of sMBR training dataset increases.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          19,
+          1,
+          0
+        ],
+        "source_position": 24953
+      },
+      {
+        "cross_encoder_score": -11.438004493713379,
+        "dataset": "QASPER",
+        "end_char": 25235,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "1fbbdaa54755b0543507a77218c3d536",
+        "passage_rank": 2,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "b66eeae5fc6152552c3868053277bf74",
+        "sentence_text": "For very deep unidirectional LSTM initialized with Xavier initialization algorithm, 6-layers model converges well, but there is no further improvement with increasing the number of layers.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          19,
+          2,
+          0
+        ],
+        "source_position": 25047
+      },
+      {
+        "cross_encoder_score": -11.380191802978516,
+        "dataset": "QASPER",
+        "end_char": 25364,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "1fbbdaa54755b0543507a77218c3d536",
+        "passage_rank": 2,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "52daa179264e468a47dd20babf7b6073",
+        "sentence_text": "Therefore, the first 6 layers of 7-layers model is initialized by 6-layers model, and soft target is provided by 6-layers model.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          19,
+          3,
+          0
+        ],
+        "source_position": 25236
+      },
+      {
+        "cross_encoder_score": -11.412705421447754,
+        "dataset": "QASPER",
+        "end_char": 25423,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "1fbbdaa54755b0543507a77218c3d536",
+        "passage_rank": 2,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "cf8e4e396262fff36bdb2bdfa61c4c5d",
+        "sentence_text": "Consequently, deeper LSTM is also trained in the same way.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          19,
+          4,
+          0
+        ],
+        "source_position": 25365
+      },
+      {
+        "cross_encoder_score": -11.399886131286621,
+        "dataset": "QASPER",
+        "end_char": 25567,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "1fbbdaa54755b0543507a77218c3d536",
+        "passage_rank": 2,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "40fea8f14b313ba9e0e2192ab65d5fed",
+        "sentence_text": "It should be noticed that the teacher model of 9-layers model is the 8-layers model trained by sMBR, while the other teacher model is CE model.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          19,
+          5,
+          0
+        ],
+        "source_position": 25424
+      },
+      {
+        "cross_encoder_score": -11.433343887329102,
+        "dataset": "QASPER",
+        "end_char": 25715,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "1fbbdaa54755b0543507a77218c3d536",
+        "passage_rank": 2,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "3616a1623b6b5c64451a9e12e91f3e26",
+        "sentence_text": "As shown in Table TABREF15 , the layer-wise trained models always performs better than the models with Xavier initialization, as the model is deep.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          19,
+          6,
+          0
+        ],
+        "source_position": 25568
+      },
+      {
+        "cross_encoder_score": -11.45853042602539,
+        "dataset": "QASPER",
+        "end_char": 25827,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "1fbbdaa54755b0543507a77218c3d536",
+        "passage_rank": 2,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "0bb5fd00e8b8d87df4151a87df758eb6",
+        "sentence_text": "Therefore, for the last layer training, we choose 8-layers sMBR model as the teacher model instead of CE model.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          19,
+          7,
+          0
+        ],
+        "source_position": 25716
+      },
+      {
+        "cross_encoder_score": -11.203103065490723,
+        "dataset": "QASPER",
+        "end_char": 25977,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "1fbbdaa54755b0543507a77218c3d536",
+        "passage_rank": 2,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "3c1aa4d3ef2eebe34d3c496f2de2b128",
+        "sentence_text": "A comparison between 6-layers and 9-layers sMBR models shows that 3 additional layers of layer-wise training brings relative 12.6% decreasing of CER.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          19,
+          8,
+          0
+        ],
+        "source_position": 25828
+      },
+      {
+        "cross_encoder_score": -11.100552558898926,
+        "dataset": "QASPER",
+        "end_char": 26052,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "1fbbdaa54755b0543507a77218c3d536",
+        "passage_rank": 2,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "78b0288716215894f604074b774cb81d",
+        "sentence_text": "It is also significant that the averaged CER of sMBR models with different",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          19,
+          9,
+          0
+        ],
+        "source_position": 25978
+      },
+      {
+        "cross_encoder_score": -10.556490898132324,
+        "dataset": "QASPER",
+        "end_char": 26192,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "cf4b90947571ff03618bfb2e17551341",
+        "passage_rank": 9,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "e1a04e191e57528966a86c916067c7a4",
+        "sentence_text": "layers decreases absolute 0.73% approximately compared with CE models, so the improvement of sequence discriminative learning is promising.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          20,
+          0,
+          0
+        ],
+        "source_position": 26053
+      },
+      {
+        "cross_encoder_score": -11.456991195678711,
+        "dataset": "QASPER",
+        "end_char": 26339,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "cf4b90947571ff03618bfb2e17551341",
+        "passage_rank": 9,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "cbb2596db4f925bed7b2df594498dddf",
+        "sentence_text": "Transfer Learning\t2-layers distilled model of Shenma voice search has shown a impressive performance on Shenma Test, and we call it Shenma model.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          20,
+          1,
+          0
+        ],
+        "source_position": 26194
+      },
+      {
+        "cross_encoder_score": -11.429396629333496,
+        "dataset": "QASPER",
+        "end_char": 26455,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "cf4b90947571ff03618bfb2e17551341",
+        "passage_rank": 9,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "2d27b30d740c9236c265f5d052f7e371",
+        "sentence_text": "It is trained for generic search scenario, but it has less adaptation for specific scenario like Amap voice search.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          20,
+          2,
+          0
+        ],
+        "source_position": 26340
+      },
+      {
+        "cross_encoder_score": -11.271382331848145,
+        "dataset": "QASPER",
+        "end_char": 26656,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "cf4b90947571ff03618bfb2e17551341",
+        "passage_rank": 9,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "4bfe75b61449bd57a1f9148ea0c2e91b",
+        "sentence_text": "Training with very large dataset using CE loss is regarded as improvement of frame level recognition accuracy, and sMBR with less dataset further improves accuracy as sequence discriminative training.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          20,
+          3,
+          0
+        ],
+        "source_position": 26456
+      },
+      {
+        "cross_encoder_score": -11.451400756835938,
+        "dataset": "QASPER",
+        "end_char": 26829,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "cf4b90947571ff03618bfb2e17551341",
+        "passage_rank": 9,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "b8928944a5d5613f7e057922caa94034",
+        "sentence_text": "If robust model of generic scenario is trained, there is no need to train a model with very large dataset, and sequence discriminative training with less dataset is enough.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          20,
+          4,
+          0
+        ],
+        "source_position": 26657
+      },
+      {
+        "cross_encoder_score": -11.449785232543945,
+        "dataset": "QASPER",
+        "end_char": 26944,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "cf4b90947571ff03618bfb2e17551341",
+        "passage_rank": 9,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "00378dc6c71146061ded53531b33c8b2",
+        "sentence_text": "Therefore, on the basis of Shenma model, it is sufficient to train a new Amap model with small dataset using sMBR.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          20,
+          5,
+          0
+        ],
+        "source_position": 26830
+      },
+      {
+        "cross_encoder_score": -11.315126419067383,
+        "dataset": "QASPER",
+        "end_char": 27083,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "cf4b90947571ff03618bfb2e17551341",
+        "passage_rank": 9,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "5187730fde897d9ed28b200688689b42",
+        "sentence_text": "As shown in Table TABREF18 , Shenma model presents the worst performance among three methods, since it does not trained for Amap scenario.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          20,
+          6,
+          0
+        ],
+        "source_position": 26945
+      },
+      {
+        "cross_encoder_score": -11.073232650756836,
+        "dataset": "QASPER",
+        "end_char": 27222,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "cf4b90947571ff03618bfb2e17551341",
+        "passage_rank": 9,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "753b0c152324093325fb6e545e66e587",
+        "sentence_text": "2-layers Shenma model further trained with sMBR achieves about 8.1% relative reduction, compared with 2-layers regular-trained Amap model.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          20,
+          7,
+          0
+        ],
+        "source_position": 27084
+      },
+      {
+        "cross_encoder_score": -11.449109077453613,
+        "dataset": "QASPER",
+        "end_char": 27284,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "cf4b90947571ff03618bfb2e17551341",
+        "passage_rank": 9,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "96e169bb688cd720f7876bd92cf3714c",
+        "sentence_text": "Both training sMBR datasets contain the same 1000 hours data.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          20,
+          8,
+          0
+        ],
+        "source_position": 27223
+      },
+      {
+        "cross_encoder_score": -11.119479179382324,
+        "dataset": "QASPER",
+        "end_char": 27433,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "db1c791e0e8fe80b3105bd76e9ccc77e",
+        "passage_rank": 4,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "fe2f4ccef241ec34af35cb2440bbbada",
+        "sentence_text": "As a result, with the Shenma model, only about 14% data usage achieves lower CER, and it leads to great time and cost saving with less labeled data.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          21,
+          0,
+          0
+        ],
+        "source_position": 27285
+      },
+      {
+        "cross_encoder_score": -11.431854248046875,
+        "dataset": "QASPER",
+        "end_char": 27560,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "db1c791e0e8fe80b3105bd76e9ccc77e",
+        "passage_rank": 4,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "850fd0774e201d574e78b89e2273f5c9",
+        "sentence_text": "Besides, transfer learning with sMBR does not use the alignment from the HMM-GMM system, so it also saves huge amount of time.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          21,
+          1,
+          0
+        ],
+        "source_position": 27434
+      },
+      {
+        "cross_encoder_score": -11.469015121459961,
+        "dataset": "QASPER",
+        "end_char": 27659,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "db1c791e0e8fe80b3105bd76e9ccc77e",
+        "passage_rank": 4,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "63a46691af00f95b2171dc4e553c1ef6",
+        "sentence_text": "Conclusion\tWe have presented a whole deep unidirectional LSTM parallel training system for LVCSR.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          21,
+          2,
+          0
+        ],
+        "source_position": 27562
+      },
+      {
+        "cross_encoder_score": -11.359575271606445,
+        "dataset": "QASPER",
+        "end_char": 27724,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "db1c791e0e8fe80b3105bd76e9ccc77e",
+        "passage_rank": 4,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "94830c38f79582dc4874736d433ba4be",
+        "sentence_text": "The recognition performance improves when the network goes deep.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          21,
+          3,
+          0
+        ],
+        "source_position": 27660
+      },
+      {
+        "cross_encoder_score": -11.449627876281738,
+        "dataset": "QASPER",
+        "end_char": 27834,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "db1c791e0e8fe80b3105bd76e9ccc77e",
+        "passage_rank": 4,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "d5167c2eb6f71ee23626a51601ab74c4",
+        "sentence_text": "Distillation makes it possible that deep LSTM model transfer its knowledge to shallow model with little loss.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          21,
+          4,
+          0
+        ],
+        "source_position": 27725
+      },
+      {
+        "cross_encoder_score": -11.365825653076172,
+        "dataset": "QASPER",
+        "end_char": 27958,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "db1c791e0e8fe80b3105bd76e9ccc77e",
+        "passage_rank": 4,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "3e8e99accb54d26193f90a3ee5e39e6d",
+        "sentence_text": "The model could be distilled to 2-layers model with very low RTF, so that it can display the immediate recognition results.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          21,
+          5,
+          0
+        ],
+        "source_position": 27835
+      },
+      {
+        "cross_encoder_score": -9.758482933044434,
+        "dataset": "QASPER",
+        "end_char": 28054,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "db1c791e0e8fe80b3105bd76e9ccc77e",
+        "passage_rank": 4,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "27065c9f3fdc9fbe60536f5763c78a70",
+        "sentence_text": "As a result, its CER decrease relatively 14%, compared with the 2-layers regular trained model.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          21,
+          6,
+          0
+        ],
+        "source_position": 27959
+      },
+      {
+        "cross_encoder_score": -11.402308464050293,
+        "dataset": "QASPER",
+        "end_char": 28113,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "db1c791e0e8fe80b3105bd76e9ccc77e",
+        "passage_rank": 4,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "039c977dec2da5052b679ef5a931d088",
+        "sentence_text": "In addition, transfer learning with sMBR is also proposed.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          21,
+          7,
+          0
+        ],
+        "source_position": 28055
+      },
+      {
+        "cross_encoder_score": -11.273938179016113,
+        "dataset": "QASPER",
+        "end_char": 28284,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "db1c791e0e8fe80b3105bd76e9ccc77e",
+        "passage_rank": 4,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "84a1b409223b21c1b5b4355c88bbce6a",
+        "sentence_text": "If a great model has well trained from generic scenario, only 14% of the size of training dataset is needed to train a more accuracy acoustic model for specific scenario.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          21,
+          8,
+          0
+        ],
+        "source_position": 28114
+      },
+      {
+        "cross_encoder_score": -11.437929153442383,
+        "dataset": "QASPER",
+        "end_char": 28484,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "db1c791e0e8fe80b3105bd76e9ccc77e",
+        "passage_rank": 4,
+        "query_id": "1bb7eb5c3d029d95d1abf9f2892c1ec7b6eef306",
+        "sentence_id": "df0746c7022f4d28ad51d09f3fdead0e",
+        "sentence_text": "Our future work includes 1) finding more effective methods to reduce the CER by increasing the number of layers; 2) applying this training framework to Connectionist Temporal Classification (CTC) and",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          21,
+          9,
+          0
+        ],
+        "source_position": 28285
+      }
+    ],
+    "scoring_seconds": 0.2864874090300873,
+    "source_fingerprint": "6ee5f8ac85ba8091a10d55c47e4ef939a1c86800fff539897e25f1e91cf13292"
+  }
+}

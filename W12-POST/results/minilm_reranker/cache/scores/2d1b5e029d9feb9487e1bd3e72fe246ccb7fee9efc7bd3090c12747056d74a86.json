@@ -1,0 +1,2171 @@
+{
+  "checksum": "04734688a44165c1827e1e669c6ed1cdd9f3f874bfce6c760fa36323b7c73152",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "545e92833b0ad4ba32eac5997edecf97a366a244"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 107,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "89f8c24d620e9f3994afb3146b885d7f969e272cb2530ba9898ea077e76b9a94",
+    "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+    "scores": [
+      {
+        "cross_encoder_score": -9.130263328552246,
+        "dataset": "QASPER",
+        "end_char": 7032,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "f78d3645a2cf9a1d40405f76ea36a3ff",
+        "passage_rank": 6,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "5e168a4669517e757729dd4be7907f9f",
+        "sentence_text": "proportions .",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 7019
+      },
+      {
+        "cross_encoder_score": -11.033726692199707,
+        "dataset": "QASPER",
+        "end_char": 7166,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "f78d3645a2cf9a1d40405f76ea36a3ff",
+        "passage_rank": 6,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "f256a1ba45b6580711b961ec7c0cf195",
+        "sentence_text": "As suggested by the results of an ablation experiment, averaging is better than summing in our application (see subsection SECREF30).",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 7033
+      },
+      {
+        "cross_encoder_score": -11.176403045654297,
+        "dataset": "QASPER",
+        "end_char": 7309,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "f78d3645a2cf9a1d40405f76ea36a3ff",
+        "passage_rank": 6,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "1c1e1d52e86aafe4ea15d525f3d53d19",
+        "sentence_text": "Note that instead of simply summing/averaging, we also tried using GAT-like attention  in early experiments, without obtaining better results.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 7167
+      },
+      {
+        "cross_encoder_score": -11.197896957397461,
+        "dataset": "QASPER",
+        "end_char": 7694,
+        "pair_tokens_before_truncation": 138,
+        "pair_truncated": false,
+        "passage_id": "f78d3645a2cf9a1d40405f76ea36a3ff",
+        "passage_rank": 6,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "3b5854f5fe053d7b85f6239ad831ae44",
+        "sentence_text": "As far as our COMBINE function, we use the Gated Recurrent Unit , :  Omitting biases for readability, we have:  where the $\\mathbf {W}$ and $\\mathbf {U}$ matrices are trainable weight matrices not shared across time steps, $\\sigma (\\mathbf {x}) = 1/(1+\\exp (-\\mathbf {x}))$ is the sigmoid function, and $\\mathbf {R}$ and $\\mathbf {Z}$ are the parameters of the reset and update gates.",
+        "sentence_token_cost": 109,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 7310
+      },
+      {
+        "cross_encoder_score": -11.153473854064941,
+        "dataset": "QASPER",
+        "end_char": 7878,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "f78d3645a2cf9a1d40405f76ea36a3ff",
+        "passage_rank": 6,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "2c221863c615d68f12ac23759c70b317",
+        "sentence_text": "The reset gate controls the amount of information from the previous time step (in $\\mathbf {H}^t$) that should propagate to the candidate representations, $\\tilde{\\mathbf {H}}^{t+1}$.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 7695
+      },
+      {
+        "cross_encoder_score": -11.227168083190918,
+        "dataset": "QASPER",
+        "end_char": 8060,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "f78d3645a2cf9a1d40405f76ea36a3ff",
+        "passage_rank": 6,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "23eee9c40f4b5ab74b893e19baeba4b9",
+        "sentence_text": "The new representations $\\mathbf {H}^{t+1}$ are finally obtained by linearly interpolating between the previous and the candidate ones, using the coefficients returned by the update",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 7879
+      },
+      {
+        "cross_encoder_score": -9.985359191894531,
+        "dataset": "QASPER",
+        "end_char": 9155,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "c21af34b6ad17c9367a2f17c4331bc9e",
+        "passage_rank": 8,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "c4cd6a6079d42a9d8b06fe670aac5df7",
+        "sentence_text": "{\\hat{H}}^T$.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 9142
+      },
+      {
+        "cross_encoder_score": -11.143091201782227,
+        "dataset": "QASPER",
+        "end_char": 9314,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "c21af34b6ad17c9367a2f17c4331bc9e",
+        "passage_rank": 8,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "2cfd63e00c7bf635377226af038db2a6",
+        "sentence_text": "As shown in Eq. DISPLAY_FORM17, $\\mathbf {\\hat{H}}^T$ is first passed to a dense layer parameterized by matrix $\\mathbf {W}_A^T \\in \\mathbb {R}^{d \\times d}$.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 9156
+      },
+      {
+        "cross_encoder_score": -11.201873779296875,
+        "dataset": "QASPER",
+        "end_char": 9600,
+        "pair_tokens_before_truncation": 109,
+        "pair_truncated": false,
+        "passage_id": "c21af34b6ad17c9367a2f17c4331bc9e",
+        "passage_rank": 8,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "9f76372252c878fe10ae526e84b011db",
+        "sentence_text": "An alignment vector $\\mathbf {a}$ is then derived by comparing, via dot products, the rows of the output of the dense layer $\\mathbf {Y}^T \\in \\mathbb {R}^{(n-1) \\times d}$ with a trainable vector $\\mathbf {v}^T \\in \\mathbb {R}^d$ (initialized randomly) and normalizing with a softmax.",
+        "sentence_token_cost": 88,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 9315
+      },
+      {
+        "cross_encoder_score": -11.12352466583252,
+        "dataset": "QASPER",
+        "end_char": 9793,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "c21af34b6ad17c9367a2f17c4331bc9e",
+        "passage_rank": 8,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "b6f6460749cf58866e54811373ab0bec",
+        "sentence_text": "The normalized alignment coefficients are finally used to compute the attentional vector $\\mathbf {u}^T \\in \\mathbb {R}^d$ as a weighted sum of the final representations $\\mathbf {\\hat{H}}^T$.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 9601
+      },
+      {
+        "cross_encoder_score": -11.293120384216309,
+        "dataset": "QASPER",
+        "end_char": 10000,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "c21af34b6ad17c9367a2f17c4331bc9e",
+        "passage_rank": 8,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "f2d7de4acbf2aae090233d7943f894b7",
+        "sentence_text": "Note that we tried with multiple context vectors, i.e., with a matrix $\\mathbf {V}^T$ instead of a vector $\\mathbf {v}^T$, like in , but results were not convincing, even when adding a regularization term",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 9796
+      },
+      {
+        "cross_encoder_score": -10.950275421142578,
+        "dataset": "QASPER",
+        "end_char": 11412,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "3acfc0f44c7155741099cf14fe7b0460",
+        "passage_rank": 10,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "da6b293bf5aa7cef1ad567e24359de92",
+        "sentence_text": "\\in \\mathbb {R}^{T \\times 2d}$ :  In effect, with this modification, we take into account features based on information aggregated from subtrees of different heights (from 1 to $T$), corresponding to local and global features.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 11186
+      },
+      {
+        "cross_encoder_score": -11.262380599975586,
+        "dataset": "QASPER",
+        "end_char": 11739,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "3acfc0f44c7155741099cf14fe7b0460",
+        "passage_rank": 10,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "aef1b8a368b919d734ccd352b021b9c1",
+        "sentence_text": "Message Passing Attention network for Document understanding (MPAD) ::: Hierarchical variants of MPAD\tThrough the successive MP iterations, it could be argued that MPAD implicitly captures some soft notion of the hierarchical structure of documents (words $\\rightarrow $ bigrams $\\rightarrow $ compositions of bigrams, etc.).",
+        "sentence_token_cost": 60,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 11414
+      },
+      {
+        "cross_encoder_score": -11.067200660705566,
+        "dataset": "QASPER",
+        "end_char": 11813,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "3acfc0f44c7155741099cf14fe7b0460",
+        "passage_rank": 10,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "4afe877fb69fbc0f58e6f5ff3f1b9672",
+        "sentence_text": "However, it might be beneficial to explicitly capture document hierarchy.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 11740
+      },
+      {
+        "cross_encoder_score": -9.05493450164795,
+        "dataset": "QASPER",
+        "end_char": 12019,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "3acfc0f44c7155741099cf14fe7b0460",
+        "passage_rank": 10,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "99e63eaf6a2ce69c3883f8a26eba6930",
+        "sentence_text": "Hierarchical architectures have brought significant improvements to many NLP tasks, such as language modeling and generation , , sentiment and topic classification , , and spoken language understanding , .",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 11814
+      },
+      {
+        "cross_encoder_score": -10.929218292236328,
+        "dataset": "QASPER",
+        "end_char": 12130,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "3acfc0f44c7155741099cf14fe7b0460",
+        "passage_rank": 10,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "0b2c910e85f4ea891479a2c14dfe14e0",
+        "sentence_text": "Inspired by this line of research, we propose several hierarchical variants of MPAD, detailed in what follows.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 12020
+      },
+      {
+        "cross_encoder_score": -11.364151000976562,
+        "dataset": "QASPER",
+        "end_char": 12295,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "3acfc0f44c7155741099cf14fe7b0460",
+        "passage_rank": 10,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "94178f0dd47d526a39bf4bc9c9facf11",
+        "sentence_text": "In all of them, we represent each sentence in the document as a word co-occurrence network, and obtain an embedding for it by applying MPAD as previously described.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 12131
+      },
+      {
+        "cross_encoder_score": -10.879559516906738,
+        "dataset": "QASPER",
+        "end_char": 12314,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "3acfc0f44c7155741099cf14fe7b0460",
+        "passage_rank": 10,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "dff03414801464cf901fbd5aec31a28a",
+        "sentence_text": "MPAD-sentence-att.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 12296
+      },
+      {
+        "cross_encoder_score": -11.190055847167969,
+        "dataset": "QASPER",
+        "end_char": 12388,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "3acfc0f44c7155741099cf14fe7b0460",
+        "passage_rank": 10,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "4808e9b183a4021d7bd7bd6d72b46586",
+        "sentence_text": "Here, the sentence embeddings are simply combined through self-attention.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 12315
+      },
+      {
+        "cross_encoder_score": -9.55747127532959,
+        "dataset": "QASPER",
+        "end_char": 12401,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "3acfc0f44c7155741099cf14fe7b0460",
+        "passage_rank": 10,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "c487da33f0476e668096fddf14f2f6de",
+        "sentence_text": "MPAD-clique.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          10,
+          8,
+          0
+        ],
+        "source_position": 12389
+      },
+      {
+        "cross_encoder_score": -11.249846458435059,
+        "dataset": "QASPER",
+        "end_char": 12473,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "3acfc0f44c7155741099cf14fe7b0460",
+        "passage_rank": 10,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "b659bfe3a5cc8a1f951f223a0e3ac11d",
+        "sentence_text": "In this variant, we build a complete graph where each node represents a",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          10,
+          9,
+          0
+        ],
+        "source_position": 12402
+      },
+      {
+        "cross_encoder_score": -10.989234924316406,
+        "dataset": "QASPER",
+        "end_char": 14995,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "7e3f5b165d151694b7a56d66a120e1ad",
+        "sentence_text": "state-of-the-art baseline models, including hierarchical ones, to enable fair comparison with the hierarchical MPAD variants.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "source_position": 14870
+      },
+      {
+        "cross_encoder_score": -8.966798782348633,
+        "dataset": "QASPER",
+        "end_char": 15005,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "b7feb8ba7f30743c34db5ec00ea28553",
+        "sentence_text": "doc2vec .",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          13,
+          1,
+          0
+        ],
+        "source_position": 14996
+      },
+      {
+        "cross_encoder_score": -11.081145286560059,
+        "dataset": "QASPER",
+        "end_char": 15129,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "40f3870bce31bbe910fc4bf43aa9562a",
+        "sentence_text": "Doc2vec (or paragraph vector) is an extension of word2vec that learns vectors for documents in a fully unsupervised manner.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          13,
+          2,
+          0
+        ],
+        "source_position": 15006
+      },
+      {
+        "cross_encoder_score": -11.104830741882324,
+        "dataset": "QASPER",
+        "end_char": 15199,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "329662fcfb731fd4e02b9d927698f885",
+        "sentence_text": "Document embeddings are then fed to a logistic regression classifier.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          13,
+          3,
+          0
+        ],
+        "source_position": 15130
+      },
+      {
+        "cross_encoder_score": -9.689144134521484,
+        "dataset": "QASPER",
+        "end_char": 15205,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "b4a38de195e72293199bcb328c2b8e5d",
+        "sentence_text": "CNN .",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          13,
+          4,
+          0
+        ],
+        "source_position": 15200
+      },
+      {
+        "cross_encoder_score": -10.057340621948242,
+        "dataset": "QASPER",
+        "end_char": 15303,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "ac6a2f655dadcffa9d5889b4c689da50",
+        "sentence_text": "The convolutional neural network architecture, well-known in computer vision, is applied to text.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          13,
+          5,
+          0
+        ],
+        "source_position": 15206
+      },
+      {
+        "cross_encoder_score": -11.186164855957031,
+        "dataset": "QASPER",
+        "end_char": 15399,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "d1d0581155bfa82f1e1686ab67e5d583",
+        "sentence_text": "There is one spatial dimension and the word embeddings are used as channels (depth dimensions).",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          13,
+          6,
+          0
+        ],
+        "source_position": 15304
+      },
+      {
+        "cross_encoder_score": -9.361969947814941,
+        "dataset": "QASPER",
+        "end_char": 15405,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "1f06e82e85dbcf35cca7acf028990c8a",
+        "sentence_text": "DAN .",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          13,
+          7,
+          0
+        ],
+        "source_position": 15400
+      },
+      {
+        "cross_encoder_score": -10.11742115020752,
+        "dataset": "QASPER",
+        "end_char": 15550,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "5b9f96161c3d0ec9f1183c184a0f6813",
+        "sentence_text": "The Deep Averaging Network passes the unweighted average of the embeddings of the input words through multiple dense layers and a final softmax.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          13,
+          8,
+          0
+        ],
+        "source_position": 15406
+      },
+      {
+        "cross_encoder_score": -10.790059089660645,
+        "dataset": "QASPER",
+        "end_char": 15659,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "c4f037f892b412daced79f863a7ad16d",
+        "sentence_text": "Tree-LSTM  is a generalization of the standard LSTM architecture to constituency and dependency parse trees.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          13,
+          9,
+          0
+        ],
+        "source_position": 15551
+      },
+      {
+        "cross_encoder_score": -9.77819538116455,
+        "dataset": "QASPER",
+        "end_char": 15666,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "4b0cc9a2740a8ce184f4bf2e8c5585fb",
+        "sentence_text": "DRNN .",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          13,
+          10,
+          0
+        ],
+        "source_position": 15660
+      },
+      {
+        "cross_encoder_score": -10.863691329956055,
+        "dataset": "QASPER",
+        "end_char": 15732,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "3151993e1a8c683dafa8f225e590484d",
+        "sentence_text": "Recursive neural networks are stacked and applied to parse trees.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          13,
+          11,
+          0
+        ],
+        "source_position": 15667
+      },
+      {
+        "cross_encoder_score": -10.882381439208984,
+        "dataset": "QASPER",
+        "end_char": 15862,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "71e636901cc949a055c575f840a172b8",
+        "sentence_text": "LSTMN  is an extension of the LSTM model where the memory cell is replaced by a memory network which stores word representations.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          13,
+          12,
+          0
+        ],
+        "source_position": 15733
+      },
+      {
+        "cross_encoder_score": -9.924875259399414,
+        "dataset": "QASPER",
+        "end_char": 15924,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "be2aaf5723a777504da36ea8887505f7",
+        "sentence_text": "C-LSTM  combines convolutional and recurrent neural networks.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          13,
+          13,
+          0
+        ],
+        "source_position": 15863
+      },
+      {
+        "cross_encoder_score": -11.309362411499023,
+        "dataset": "QASPER",
+        "end_char": 15983,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "fdfd4c2f0f7c1fd9cfa52b86dfabd2b0",
+        "sentence_text": "The region embeddings provided by a CNN are fed to a LSTM.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          13,
+          14,
+          0
+        ],
+        "source_position": 15925
+      },
+      {
+        "cross_encoder_score": -11.107802391052246,
+        "dataset": "QASPER",
+        "end_char": 16043,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "f8b9f3ea52dbda624d4a36e6ace244f7",
+        "sentence_text": "SPGK  also models documents as word co-occurrence networks.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          13,
+          15,
+          0
+        ],
+        "source_position": 15984
+      },
+      {
+        "cross_encoder_score": -11.29712200164795,
+        "dataset": "QASPER",
+        "end_char": 16180,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "708aace2b96dfad830d23529c4346f80",
+        "passage_rank": 9,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "193b5922dfe5592c3ee89d87bfbfd171",
+        "sentence_text": "It computes a graph kernel that compares shortest paths extracted from the word co-occurrence networks and then uses a SVM to categorize",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          13,
+          16,
+          0
+        ],
+        "source_position": 16044
+      },
+      {
+        "cross_encoder_score": -10.005500793457031,
+        "dataset": "QASPER",
+        "end_char": 16191,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "c27725b16464738b231ba1b7932415f7",
+        "passage_rank": 4,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "f2d1781f0f30d4c13122aca1bb469098",
+        "sentence_text": "documents.",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 16181
+      },
+      {
+        "cross_encoder_score": -11.167174339294434,
+        "dataset": "QASPER",
+        "end_char": 16264,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "c27725b16464738b231ba1b7932415f7",
+        "passage_rank": 4,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "e6fec4c15322e0c44543823a267c7284",
+        "sentence_text": "WMD  is an application of the well-known Earth Mover's Distance to text.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 16192
+      },
+      {
+        "cross_encoder_score": -11.215569496154785,
+        "dataset": "QASPER",
+        "end_char": 16305,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "c27725b16464738b231ba1b7932415f7",
+        "passage_rank": 4,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "d26b9e00fa24b9271fcfd38429979679",
+        "sentence_text": "A k-nearest neighbor classifier is used.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          14,
+          2,
+          0
+        ],
+        "source_position": 16265
+      },
+      {
+        "cross_encoder_score": -11.073017120361328,
+        "dataset": "QASPER",
+        "end_char": 16368,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "c27725b16464738b231ba1b7932415f7",
+        "passage_rank": 4,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "c81f52121030b45970dc657c047b2810",
+        "sentence_text": "S-WMD  is a supervised extension of the Word Mover's Distance.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          14,
+          3,
+          0
+        ],
+        "source_position": 16306
+      },
+      {
+        "cross_encoder_score": -10.47488021850586,
+        "dataset": "QASPER",
+        "end_char": 16383,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "c27725b16464738b231ba1b7932415f7",
+        "passage_rank": 4,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "6d7fb3ae8f1014712909bd28aa6c5cbe",
+        "sentence_text": "Semantic-CNN .",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          14,
+          4,
+          0
+        ],
+        "source_position": 16369
+      },
+      {
+        "cross_encoder_score": -11.335135459899902,
+        "dataset": "QASPER",
+        "end_char": 16477,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "c27725b16464738b231ba1b7932415f7",
+        "passage_rank": 4,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "7caa7858a129682dce212a966dda2785",
+        "sentence_text": "Here, a CNN is applied to semantic units obtained by clustering words in the embedding space.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          14,
+          5,
+          0
+        ],
+        "source_position": 16384
+      },
+      {
+        "cross_encoder_score": -11.270837783813477,
+        "dataset": "QASPER",
+        "end_char": 16641,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "c27725b16464738b231ba1b7932415f7",
+        "passage_rank": 4,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "45a04ef3fbf6eab166c0f5c1e5c86966",
+        "sentence_text": "LSTM-GRNN  is a hierarchical model where sentence embeddings are obtained with a CNN and a GRU-RNN is fed the sentence representations to obtain a document vector.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          14,
+          6,
+          0
+        ],
+        "source_position": 16478
+      },
+      {
+        "cross_encoder_score": -11.034310340881348,
+        "dataset": "QASPER",
+        "end_char": 16811,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "c27725b16464738b231ba1b7932415f7",
+        "passage_rank": 4,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "b3f6b528468f6e5b0f602e5f91baad5e",
+        "sentence_text": "HN-ATT  is another hierarchical model, where the same encoder architecture (a bidirectional GRU-RNN) is used for both sentences and documents, with different parameters.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          14,
+          7,
+          0
+        ],
+        "source_position": 16642
+      },
+      {
+        "cross_encoder_score": -10.801615715026855,
+        "dataset": "QASPER",
+        "end_char": 16887,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "c27725b16464738b231ba1b7932415f7",
+        "passage_rank": 4,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "bfbe1a4e38b1aee1cb5f3b0ebf813432",
+        "sentence_text": "A self-attention mechanism is applied to the RNN annotations at each level.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          14,
+          8,
+          0
+        ],
+        "source_position": 16812
+      },
+      {
+        "cross_encoder_score": -11.212981224060059,
+        "dataset": "QASPER",
+        "end_char": 16984,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "c27725b16464738b231ba1b7932415f7",
+        "passage_rank": 4,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "b4b67252c61b60b0235ed18407635e9d",
+        "sentence_text": "Experiments ::: Model configuration and training\tWe preprocess all datasets using the code of .",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          14,
+          9,
+          0
+        ],
+        "source_position": 16889
+      },
+      {
+        "cross_encoder_score": -11.301799774169922,
+        "dataset": "QASPER",
+        "end_char": 17097,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "c27725b16464738b231ba1b7932415f7",
+        "passage_rank": 4,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "3ef7ebb530d59159eb460ffa11adaeaf",
+        "sentence_text": "On Yelp2013, we also replace all tokens appearing strictly less than 6 times with a special UNK token, like in .",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          14,
+          10,
+          0
+        ],
+        "source_position": 16985
+      },
+      {
+        "cross_encoder_score": -11.347430229187012,
+        "dataset": "QASPER",
+        "end_char": 17194,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "c27725b16464738b231ba1b7932415f7",
+        "passage_rank": 4,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "e70818c258a5b379308f8b9bc5bc3241",
+        "sentence_text": "We then build a directed word co-occurrence network from each document, with a window of size 2.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          14,
+          11,
+          0
+        ],
+        "source_position": 17098
+      },
+      {
+        "cross_encoder_score": -11.176804542541504,
+        "dataset": "QASPER",
+        "end_char": 17315,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "c27725b16464738b231ba1b7932415f7",
+        "passage_rank": 4,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "263405ad23370fe8021685e56382b1a0",
+        "sentence_text": "We use two MP iterations ($T$=2) for the basic MPAD, and two MP iterations at each level, for the hierarchical variants.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          14,
+          12,
+          0
+        ],
+        "source_position": 17195
+      },
+      {
+        "cross_encoder_score": -10.090167999267578,
+        "dataset": "QASPER",
+        "end_char": 17322,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "c27725b16464738b231ba1b7932415f7",
+        "passage_rank": 4,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "b9e4a2bc84e4a20b72fae10ba28df780",
+        "sentence_text": "We set",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          14,
+          13,
+          0
+        ],
+        "source_position": 17316
+      },
+      {
+        "cross_encoder_score": -11.127695083618164,
+        "dataset": "QASPER",
+        "end_char": 18467,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "ba27e45cd8e017d9c163ad8e719e9eea",
+        "passage_rank": 2,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "14089215e8e8315740bbc3a2181628b7",
+        "sentence_text": "learn our own word vectors from the training and validation sets with the gensim implementation of word2vec .",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "source_position": 18358
+      },
+      {
+        "cross_encoder_score": -10.803169250488281,
+        "dataset": "QASPER",
+        "end_char": 18530,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "ba27e45cd8e017d9c163ad8e719e9eea",
+        "passage_rank": 2,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "944f5184b0535870e72faa76b384aaba",
+        "sentence_text": "MPAD was implemented in Python 3.6 using the PyTorch library .",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          16,
+          1,
+          0
+        ],
+        "source_position": 18468
+      },
+      {
+        "cross_encoder_score": -9.779764175415039,
+        "dataset": "QASPER",
+        "end_char": 18671,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "ba27e45cd8e017d9c163ad8e719e9eea",
+        "passage_rank": 2,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "9c9915843f382d85bf277c7a9caee729",
+        "sentence_text": "All experiments were run on a single machine consisting of a 3.4 GHz Intel Core i7 CPU with 16 GB of RAM and an NVidia GeForce Titan Xp GPU.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          16,
+          2,
+          0
+        ],
+        "source_position": 18531
+      },
+      {
+        "cross_encoder_score": -11.057623863220215,
+        "dataset": "QASPER",
+        "end_char": 18756,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "ba27e45cd8e017d9c163ad8e719e9eea",
+        "passage_rank": 2,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "32b48a869cb7e7b34cb59e7faad3a4f9",
+        "sentence_text": "Results and ablations ::: Results\tExperimental results are shown in Table TABREF28.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          16,
+          3,
+          0
+        ],
+        "source_position": 18673
+      },
+      {
+        "cross_encoder_score": -10.735984802246094,
+        "dataset": "QASPER",
+        "end_char": 18834,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "ba27e45cd8e017d9c163ad8e719e9eea",
+        "passage_rank": 2,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "c7959f8db6d0f36b1301809ddd22c892",
+        "sentence_text": "For the baselines, the best scores reported in each original paper are shown.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          16,
+          4,
+          0
+        ],
+        "source_position": 18757
+      },
+      {
+        "cross_encoder_score": -6.064907550811768,
+        "dataset": "QASPER",
+        "end_char": 18920,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "ba27e45cd8e017d9c163ad8e719e9eea",
+        "passage_rank": 2,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "25cb2cdf6aad2db1fe2c3d39c92b59d4",
+        "sentence_text": "MPAD reaches best performance on 7 out of 10 datasets, and is close second elsewhere.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          16,
+          5,
+          0
+        ],
+        "source_position": 18835
+      },
+      {
+        "cross_encoder_score": -10.003199577331543,
+        "dataset": "QASPER",
+        "end_char": 19149,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "ba27e45cd8e017d9c163ad8e719e9eea",
+        "passage_rank": 2,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "951d5985ca8db905f6632b88d8ceb34f",
+        "sentence_text": "Moreover, the 7 datasets on which MPAD ranks first widely differ in training set size, number of categories, and prediction task (topic, sentiment, subjectivity), which indicates that MPAD can perform well in different settings.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          16,
+          6,
+          0
+        ],
+        "source_position": 18921
+      },
+      {
+        "cross_encoder_score": -10.950736999511719,
+        "dataset": "QASPER",
+        "end_char": 19181,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "ba27e45cd8e017d9c163ad8e719e9eea",
+        "passage_rank": 2,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "dcb27d14e0086359a49fb5dbcf03c1d1",
+        "sentence_text": "MPAD vs. hierarchical variants.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          16,
+          7,
+          0
+        ],
+        "source_position": 19150
+      },
+      {
+        "cross_encoder_score": -10.969659805297852,
+        "dataset": "QASPER",
+        "end_char": 19375,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "ba27e45cd8e017d9c163ad8e719e9eea",
+        "passage_rank": 2,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "b8d01dc69f5830282d46a436e4b399e8",
+        "sentence_text": "On 9 datasets out of 10, one or more of the hierarchical variants outperform the vanilla MPAD architecture, highlighting the benefit of explicitly modeling the hierarchical nature of documents.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          16,
+          8,
+          0
+        ],
+        "source_position": 19182
+      },
+      {
+        "cross_encoder_score": -10.648086547851562,
+        "dataset": "QASPER",
+        "end_char": 19454,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "ba27e45cd8e017d9c163ad8e719e9eea",
+        "passage_rank": 2,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "4e3741afe0f309bdb1b447c9610b7114",
+        "sentence_text": "However, on Subjectivity, standard MPAD outperforms all hierarchical variants.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          16,
+          9,
+          0
+        ],
+        "source_position": 19376
+      },
+      {
+        "cross_encoder_score": -8.612059593200684,
+        "dataset": "QASPER",
+        "end_char": 19493,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "ba27e45cd8e017d9c163ad8e719e9eea",
+        "passage_rank": 2,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "e7dc16c9d625a25f5eb693e5f5f894be",
+        "sentence_text": "On TREC, it reaches the same accuracy.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          16,
+          10,
+          0
+        ],
+        "source_position": 19455
+      },
+      {
+        "cross_encoder_score": -10.442635536193848,
+        "dataset": "QASPER",
+        "end_char": 19534,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "ba27e45cd8e017d9c163ad8e719e9eea",
+        "passage_rank": 2,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "b17fa02f5fc4c28bc829c6de56810768",
+        "sentence_text": "We hypothesize that in some cases, using",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          16,
+          11,
+          0
+        ],
+        "source_position": 19494
+      },
+      {
+        "cross_encoder_score": -11.311552047729492,
+        "dataset": "QASPER",
+        "end_char": 19663,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "fe21f767a06eb1c4d9d92bbcdfc014ae",
+        "passage_rank": 3,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "027474552a44c86b59a1b4c620924e03",
+        "sentence_text": "a different graph to separately encode each sentence might be worse than using one single graph to directly encode the document.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          17,
+          0,
+          0
+        ],
+        "source_position": 19535
+      },
+      {
+        "cross_encoder_score": -11.35400104522705,
+        "dataset": "QASPER",
+        "end_char": 19834,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "fe21f767a06eb1c4d9d92bbcdfc014ae",
+        "passage_rank": 3,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "7c2be2c3968b52e4f97c4df468220669",
+        "sentence_text": "Indeed, in the single document graph, some words that never appear in the same sentence can be connected through common neighbors, as was explained in subsection SECREF7.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          17,
+          1,
+          0
+        ],
+        "source_position": 19664
+      },
+      {
+        "cross_encoder_score": -11.324976921081543,
+        "dataset": "QASPER",
+        "end_char": 19975,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "fe21f767a06eb1c4d9d92bbcdfc014ae",
+        "passage_rank": 3,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "9663b322451f988f8b30e7eb80ebcbc7",
+        "sentence_text": "So, this way, some notion of cross-sentence context is captured while learning representations of words, bigrams, etc. at each MP iteration.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          17,
+          2,
+          0
+        ],
+        "source_position": 19835
+      },
+      {
+        "cross_encoder_score": -10.823281288146973,
+        "dataset": "QASPER",
+        "end_char": 20063,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "fe21f767a06eb1c4d9d92bbcdfc014ae",
+        "passage_rank": 3,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "00ba8f6e878d973ee93a3e20f9dfa51e",
+        "sentence_text": "This creates better informed representations, resulting in a better document embedding.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          17,
+          3,
+          0
+        ],
+        "source_position": 19976
+      },
+      {
+        "cross_encoder_score": -11.23996639251709,
+        "dataset": "QASPER",
+        "end_char": 20239,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "fe21f767a06eb1c4d9d92bbcdfc014ae",
+        "passage_rank": 3,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "cbf149721cec347ba98b956f8d0c22ea",
+        "sentence_text": "With the hierarchical variants, on the other hand, each sentence vector is produced in isolation, without any contextual information about the other sentences in the document.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          17,
+          4,
+          0
+        ],
+        "source_position": 20064
+      },
+      {
+        "cross_encoder_score": -11.135730743408203,
+        "dataset": "QASPER",
+        "end_char": 20373,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "fe21f767a06eb1c4d9d92bbcdfc014ae",
+        "passage_rank": 3,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "b7d49bf5c1fc97e9caae8cac94739b7a",
+        "sentence_text": "Therefore, the final sentence embeddings might be of lower quality, and as a group might also contain redundant/repeated information.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          17,
+          5,
+          0
+        ],
+        "source_position": 20240
+      },
+      {
+        "cross_encoder_score": -11.276216506958008,
+        "dataset": "QASPER",
+        "end_char": 20497,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "fe21f767a06eb1c4d9d92bbcdfc014ae",
+        "passage_rank": 3,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "0cd9bfbe8861ee904ca87e0939f9ab15",
+        "sentence_text": "When the sentence vectors are finally combined into a document representation, it is too late to take context into account.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          17,
+          6,
+          0
+        ],
+        "source_position": 20374
+      },
+      {
+        "cross_encoder_score": -2.9491491317749023,
+        "dataset": "QASPER",
+        "end_char": 20730,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "fe21f767a06eb1c4d9d92bbcdfc014ae",
+        "passage_rank": 3,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "1858051ee7019361c8f276cf144cf482",
+        "sentence_text": "Results and ablations ::: Ablation studies\tTo understand the impact of some hyperparameters on performance, we conducted additional experiments on the Reuters, Polarity, and IMDB datasets, with the non-hierarchical version of MPAD.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          17,
+          7,
+          0
+        ],
+        "source_position": 20499
+      },
+      {
+        "cross_encoder_score": -10.365437507629395,
+        "dataset": "QASPER",
+        "end_char": 20767,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "fe21f767a06eb1c4d9d92bbcdfc014ae",
+        "passage_rank": 3,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "fe6de56c1f5b796edb652307b4e90878",
+        "sentence_text": "Results are shown in Table TABREF29.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          17,
+          8,
+          0
+        ],
+        "source_position": 20731
+      },
+      {
+        "cross_encoder_score": -10.796975135803223,
+        "dataset": "QASPER",
+        "end_char": 20792,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "fe21f767a06eb1c4d9d92bbcdfc014ae",
+        "passage_rank": 3,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "a6b4e830981da444179ef7a65476fca3",
+        "sentence_text": "Number of MP iterations.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          17,
+          9,
+          0
+        ],
+        "source_position": 20768
+      },
+      {
+        "cross_encoder_score": -11.174263000488281,
+        "dataset": "QASPER",
+        "end_char": 20863,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "fe21f767a06eb1c4d9d92bbcdfc014ae",
+        "passage_rank": 3,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "32c929d77a0801245dd535cef1c9255f",
+        "sentence_text": "First, we varied the number of message passing iterations from 1 to 4.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          17,
+          10,
+          0
+        ],
+        "source_position": 20793
+      },
+      {
+        "cross_encoder_score": -9.770923614501953,
+        "dataset": "QASPER",
+        "end_char": 20878,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "fe21f767a06eb1c4d9d92bbcdfc014ae",
+        "passage_rank": 3,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "2eba069d7e054afa9cb9ea3fcd9186e5",
+        "sentence_text": "We can clearly",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          17,
+          11,
+          0
+        ],
+        "source_position": 20864
+      },
+      {
+        "cross_encoder_score": -4.906686782836914,
+        "dataset": "QASPER",
+        "end_char": 20950,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "82cb4945887e63a46da593dbc0f76660",
+        "passage_rank": 5,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "7f4ba3b4a443e18abe2e95857f5f96ac",
+        "sentence_text": "see in Table TABREF29 that having more iterations improves performance.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          18,
+          0,
+          0
+        ],
+        "source_position": 20879
+      },
+      {
+        "cross_encoder_score": -10.56330394744873,
+        "dataset": "QASPER",
+        "end_char": 21165,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "82cb4945887e63a46da593dbc0f76660",
+        "passage_rank": 5,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "6c2537d9c8e9a5a037cf4292c663864d",
+        "sentence_text": "We attribute this to the fact that we are reading out at each iteration from 1 to $T$ (see Eq. DISPLAY_FORM18), which enables the final graph representation to encode a mixture of low-level and high-level features.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          18,
+          1,
+          0
+        ],
+        "source_position": 20951
+      },
+      {
+        "cross_encoder_score": -8.515600204467773,
+        "dataset": "QASPER",
+        "end_char": 21335,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "82cb4945887e63a46da593dbc0f76660",
+        "passage_rank": 5,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "306514f85b622c2c435544af591e3e4c",
+        "sentence_text": "Indeed, in initial experiments involving readout at $t$=$T$ only, setting $T\\ge 2$ was always decreasing performance, despite the GRU-based updates (Eq. DISPLAY_FORM14).",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          18,
+          2,
+          0
+        ],
+        "source_position": 21166
+      },
+      {
+        "cross_encoder_score": -11.098560333251953,
+        "dataset": "QASPER",
+        "end_char": 21431,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "82cb4945887e63a46da593dbc0f76660",
+        "passage_rank": 5,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "d4baf234535a92fa8661486421b3a10d",
+        "sentence_text": "These results were consistent with that of  and , who both are reading out only at $t$=$T$ too.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          18,
+          3,
+          0
+        ],
+        "source_position": 21336
+      },
+      {
+        "cross_encoder_score": -10.961677551269531,
+        "dataset": "QASPER",
+        "end_char": 21536,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "82cb4945887e63a46da593dbc0f76660",
+        "passage_rank": 5,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "4708cbc29b34d877245fd79cdd68c114",
+        "sentence_text": "We hypothesize that node features at $T\\ge 2$ are too diffuse to be entirely relied upon during readout.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          18,
+          4,
+          0
+        ],
+        "source_position": 21432
+      },
+      {
+        "cross_encoder_score": -11.10504150390625,
+        "dataset": "QASPER",
+        "end_char": 21788,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "82cb4945887e63a46da593dbc0f76660",
+        "passage_rank": 5,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "3e0e7243e16baf274bed4bfd77d534c6",
+        "sentence_text": "More precisely, initially at $t$=0, node representations capture information about words, at $t$=1, about their 1-hop neighborhood (bigrams), at $t$=2, about compositions of bigrams, etc. Thus, pretty quickly, node features become general and diffuse.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          0,
+          18,
+          5,
+          0
+        ],
+        "source_position": 21537
+      },
+      {
+        "cross_encoder_score": -10.532381057739258,
+        "dataset": "QASPER",
+        "end_char": 21920,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "82cb4945887e63a46da593dbc0f76660",
+        "passage_rank": 5,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "38d05fd15e72971d0cd4942ec166757d",
+        "sentence_text": "In such cases, considering also the lower-level, more precise features of the earlier iterations when reading out may be necessary.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          18,
+          6,
+          0
+        ],
+        "source_position": 21789
+      },
+      {
+        "cross_encoder_score": -10.953825950622559,
+        "dataset": "QASPER",
+        "end_char": 21938,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "82cb4945887e63a46da593dbc0f76660",
+        "passage_rank": 5,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "308c168604559f1d8ecaf18b59a09462",
+        "sentence_text": "Undirected edges.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          18,
+          7,
+          0
+        ],
+        "source_position": 21921
+      },
+      {
+        "cross_encoder_score": -11.100753784179688,
+        "dataset": "QASPER",
+        "end_char": 21982,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "82cb4945887e63a46da593dbc0f76660",
+        "passage_rank": 5,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "cab608046d12e53be16ea079d423d090",
+        "sentence_text": "On Reuters, using an undirected graph leads",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          18,
+          8,
+          0
+        ],
+        "source_position": 21939
+      },
+      {
+        "cross_encoder_score": -7.082975387573242,
+        "dataset": "QASPER",
+        "end_char": 22053,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "84a38c995468a9bb50e88c5ea79bedac",
+        "passage_rank": 1,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "a3c2f24d4db3c0a736fd1d38a12cb1fe",
+        "sentence_text": "to better performance, while on Polarity and IMDB, it is the opposite.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          19,
+          0,
+          0
+        ],
+        "source_position": 21983
+      },
+      {
+        "cross_encoder_score": -11.202773094177246,
+        "dataset": "QASPER",
+        "end_char": 22303,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "84a38c995468a9bb50e88c5ea79bedac",
+        "passage_rank": 1,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "470b25f85dbe198f6261f7f91b669d0c",
+        "sentence_text": "This can be explained by the fact that Reuters is a topic classification task, for which the presence or absence of some patterns is important, but not necessarily the order in which they appear, while Polarity and IMDB are sentiment analysis tasks.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          19,
+          1,
+          0
+        ],
+        "source_position": 22054
+      },
+      {
+        "cross_encoder_score": -11.263456344604492,
+        "dataset": "QASPER",
+        "end_char": 22386,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "84a38c995468a9bb50e88c5ea79bedac",
+        "passage_rank": 1,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "63e22c7539122048c6a84a4b57a51c92",
+        "sentence_text": "To capture sentiment, modeling word order is crucial, e.g., in detecting negation.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          19,
+          2,
+          0
+        ],
+        "source_position": 22304
+      },
+      {
+        "cross_encoder_score": -9.888534545898438,
+        "dataset": "QASPER",
+        "end_char": 22402,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "84a38c995468a9bb50e88c5ea79bedac",
+        "passage_rank": 1,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "6667c0c405ddd8123a47f2c1fe5a6da3",
+        "sentence_text": "No master node.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          19,
+          3,
+          0
+        ],
+        "source_position": 22387
+      },
+      {
+        "cross_encoder_score": -7.758243083953857,
+        "dataset": "QASPER",
+        "end_char": 22522,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "84a38c995468a9bb50e88c5ea79bedac",
+        "passage_rank": 1,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "cbc3abb96de4c804ed231e0a8fb13eb7",
+        "sentence_text": "Removing the master node deteriorates performance across all datasets, clearly showing the value of having such a node.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          19,
+          4,
+          0
+        ],
+        "source_position": 22403
+      },
+      {
+        "cross_encoder_score": -11.0656099319458,
+        "dataset": "QASPER",
+        "end_char": 22678,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "84a38c995468a9bb50e88c5ea79bedac",
+        "passage_rank": 1,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "e546f8a68880504f4c61f2cd6e67ee88",
+        "sentence_text": "We hypothesize that since the special document node is connected to all other nodes, it is able to encode during message passing a summary of the document.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          19,
+          5,
+          0
+        ],
+        "source_position": 22523
+      },
+      {
+        "cross_encoder_score": -10.584423065185547,
+        "dataset": "QASPER",
+        "end_char": 22698,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "84a38c995468a9bb50e88c5ea79bedac",
+        "passage_rank": 1,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "1d82320d1e9d1f6d5c95a89cc8b61a4a",
+        "sentence_text": "No renormalization.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          19,
+          6,
+          0
+        ],
+        "source_position": 22679
+      },
+      {
+        "cross_encoder_score": -11.088055610656738,
+        "dataset": "QASPER",
+        "end_char": 22785,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "84a38c995468a9bb50e88c5ea79bedac",
+        "passage_rank": 1,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "6b025ada5d0dc6d5f52bf66c9d6f80f0",
+        "sentence_text": "Here, we do not use the renormalization trick of  during MP (see subsection SECREF10).",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          19,
+          7,
+          0
+        ],
+        "source_position": 22699
+      },
+      {
+        "cross_encoder_score": -11.189136505126953,
+        "dataset": "QASPER",
+        "end_char": 22902,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "84a38c995468a9bb50e88c5ea79bedac",
+        "passage_rank": 1,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "2f94b94d923d6547055a465c1835b8e5",
+        "sentence_text": "That is, Eq. DISPLAY_FORM11 becomes $\\mathbf {M}^{t+1} = \\textsc {MLP}^{t+1}\\big (\\mathbf {A}\\mathbf {H}^{t}\\big )$.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          19,
+          8,
+          0
+        ],
+        "source_position": 22786
+      },
+      {
+        "cross_encoder_score": -11.30974006652832,
+        "dataset": "QASPER",
+        "end_char": 23037,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "84a38c995468a9bb50e88c5ea79bedac",
+        "passage_rank": 1,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "b129f59f8861c23990fa22339fcee8da",
+        "sentence_text": "In other words, instead of computing a weighted average of the incoming neighbors' feature vectors, we compute a weighted sum of them.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          19,
+          9,
+          0
+        ],
+        "source_position": 22903
+      },
+      {
+        "cross_encoder_score": -10.71286392211914,
+        "dataset": "QASPER",
+        "end_char": 23112,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "84a38c995468a9bb50e88c5ea79bedac",
+        "passage_rank": 1,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "4ee12fc06d1f828174356f8d837de0d6",
+        "sentence_text": "Unlike the mean, which captures distributions, the sum captures structural",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          19,
+          10,
+          0
+        ],
+        "source_position": 23038
+      },
+      {
+        "cross_encoder_score": -9.315078735351562,
+        "dataset": "QASPER",
+        "end_char": 23126,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "bb76ca7695a4a497c4bd2729f0055589",
+        "passage_rank": 7,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "8df7b57fe8659a446cbef8f5133bb1d9",
+        "sentence_text": "information .",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          20,
+          0,
+          0
+        ],
+        "source_position": 23113
+      },
+      {
+        "cross_encoder_score": -6.113812446594238,
+        "dataset": "QASPER",
+        "end_char": 23355,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "bb76ca7695a4a497c4bd2729f0055589",
+        "passage_rank": 7,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "b520c2e3e4f42987c57802f397f9ef2b",
+        "sentence_text": "As shown in Table TABREF29, using sum instead of mean decreases performance everywhere, suggesting that in our application, capturing the distribution of neighbor representations is more important that capturing their structure.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          20,
+          1,
+          0
+        ],
+        "source_position": 23127
+      },
+      {
+        "cross_encoder_score": -11.151205062866211,
+        "dataset": "QASPER",
+        "end_char": 23567,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "bb76ca7695a4a497c4bd2729f0055589",
+        "passage_rank": 7,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "b77f2554c287fbe5439551e5b90aa9dd",
+        "sentence_text": "We hypothesize that this is the case because statistical word co-occurrence networks tend to have similar structural properties, regardless of the topic, polarity, sentiment, etc. of the corresponding documents.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          20,
+          2,
+          0
+        ],
+        "source_position": 23356
+      },
+      {
+        "cross_encoder_score": -10.791895866394043,
+        "dataset": "QASPER",
+        "end_char": 23583,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "bb76ca7695a4a497c4bd2729f0055589",
+        "passage_rank": 7,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "ddf2ac88362c9c428c2f5d38879fec54",
+        "sentence_text": "Neighbors-only.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          20,
+          3,
+          0
+        ],
+        "source_position": 23568
+      },
+      {
+        "cross_encoder_score": -10.801565170288086,
+        "dataset": "QASPER",
+        "end_char": 23693,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "bb76ca7695a4a497c4bd2729f0055589",
+        "passage_rank": 7,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "42a24eab7131b703c069d67245288508",
+        "sentence_text": "In this experiment, we replaced the GRU combine function (see Eq. DISPLAY_FORM14) with the identity function.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          20,
+          4,
+          0
+        ],
+        "source_position": 23584
+      },
+      {
+        "cross_encoder_score": -10.919665336608887,
+        "dataset": "QASPER",
+        "end_char": 23758,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "bb76ca7695a4a497c4bd2729f0055589",
+        "passage_rank": 7,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "999c9766e759a00ca907a280133fc040",
+        "sentence_text": "That is, we simply have $\\mathbf {H}^{t+1}$=$\\mathbf {M}^{t+1}$.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          20,
+          5,
+          0
+        ],
+        "source_position": 23694
+      },
+      {
+        "cross_encoder_score": -11.17418098449707,
+        "dataset": "QASPER",
+        "end_char": 23905,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "bb76ca7695a4a497c4bd2729f0055589",
+        "passage_rank": 7,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "ed0e9a856bf80a3be391e7c1ec507378",
+        "sentence_text": "Since $\\mathbf {A}$ has zero diagonal, by doing so, we completely ignore the previous feature of the node itself when updating its representation.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          20,
+          6,
+          0
+        ],
+        "source_position": 23759
+      },
+      {
+        "cross_encoder_score": -11.156255722045898,
+        "dataset": "QASPER",
+        "end_char": 23961,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "bb76ca7695a4a497c4bd2729f0055589",
+        "passage_rank": 7,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "c3743600bef5cb167846bf4d98f6abcf",
+        "sentence_text": "That is, the update is based entirely on its neighbors.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          20,
+          7,
+          0
+        ],
+        "source_position": 23906
+      },
+      {
+        "cross_encoder_score": -5.467169761657715,
+        "dataset": "QASPER",
+        "end_char": 24124,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "bb76ca7695a4a497c4bd2729f0055589",
+        "passage_rank": 7,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "c844f4e89c0ba4796c79417be44a2648",
+        "sentence_text": "Except on Reuters (almost no change), performance always suffers, stressing the need to take into account the root node during updates, not only its neighborhood.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          20,
+          8,
+          0
+        ],
+        "source_position": 23962
+      },
+      {
+        "cross_encoder_score": -11.229079246520996,
+        "dataset": "QASPER",
+        "end_char": 24256,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "bb76ca7695a4a497c4bd2729f0055589",
+        "passage_rank": 7,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "01481e8a149593a9849db842af54a185",
+        "sentence_text": "Related work\tIn what follows, we offer a brief review of relevant studies, ranked by increasing order of similarity with our work.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          20,
+          9,
+          0
+        ],
+        "source_position": 24126
+      },
+      {
+        "cross_encoder_score": -11.27800178527832,
+        "dataset": "QASPER",
+        "end_char": 24365,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "bb76ca7695a4a497c4bd2729f0055589",
+        "passage_rank": 7,
+        "query_id": "545e92833b0ad4ba32eac5997edecf97a366a244",
+        "sentence_id": "f0442c1f5f6511529d530edc43914117",
+        "sentence_text": ", , ,  conduct some node classification experiments on citation networks, where nodes are scientific papers,",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          20,
+          10,
+          0
+        ],
+        "source_position": 24257
+      }
+    ],
+    "scoring_seconds": 0.5932725310558453,
+    "source_fingerprint": "d17282e9d92104a15b44a9fbf58512bfee77b9e8234b54f278a5e5f8da31a551"
+  }
+}

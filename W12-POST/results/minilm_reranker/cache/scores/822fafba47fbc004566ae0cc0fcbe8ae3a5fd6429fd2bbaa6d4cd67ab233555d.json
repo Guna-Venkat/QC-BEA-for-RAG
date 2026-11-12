@@ -1,0 +1,1251 @@
+{
+  "checksum": "cc2a521e82fdf55fdd0d51bfd474c736f96f84b093b3650d073c9c65b68f4a4e",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5a8241a855429940e5e1a819"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 61,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "cc05b69fbf395e5afc07862b16c94dd3d65571d061b959a516ee82578170e135",
+    "query_id": "5a8241a855429940e5e1a819",
+    "scores": [
+      {
+        "cross_encoder_score": -2.209468364715576,
+        "dataset": "HotpotQA",
+        "end_char": 22,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "500994c2e2a6d1ec3acf5333a57bc2ea",
+        "passage_rank": 6,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "c156841806d59ba1df1620fe6794d61a",
+        "sentence_text": "Estonian Sports Museum",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.3432718515396118,
+        "dataset": "HotpotQA",
+        "end_char": 153,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "500994c2e2a6d1ec3acf5333a57bc2ea",
+        "passage_rank": 6,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "83a3c00640d933b4a920e73936f8163a",
+        "sentence_text": "The Estonian Sports and Olympic Museum, founded in 1963 and modernised in 2001, is the largest sports museum in the Baltic states.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 23
+      },
+      {
+        "cross_encoder_score": -3.181670665740967,
+        "dataset": "HotpotQA",
+        "end_char": 296,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "500994c2e2a6d1ec3acf5333a57bc2ea",
+        "passage_rank": 6,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "0bd54a016ebd36412289b69e59beabfa",
+        "sentence_text": " The museum is located on R\u00fc\u00fctli street in Tartu, Estonia and the museum has a small outpost in Otep\u00e4\u00e4 that concentrates on the Winter sports.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 154
+      },
+      {
+        "cross_encoder_score": -3.1929163932800293,
+        "dataset": "HotpotQA",
+        "end_char": 379,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "500994c2e2a6d1ec3acf5333a57bc2ea",
+        "passage_rank": 6,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "863fd8f2df77f87592c9b4e228728b94",
+        "sentence_text": " Before 2016, Estonian Sports and Olympic Museum was named Estonian Sports Museum.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 297
+      },
+      {
+        "cross_encoder_score": -5.8463616371154785,
+        "dataset": "HotpotQA",
+        "end_char": 14,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "0dd48b34a9833d7732f697980983381a",
+        "passage_rank": 9,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "1cd64d0f42ea7eccd1964670b1650cd2",
+        "sentence_text": "Alutiiq Museum",
+        "sentence_token_cost": 5,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.2302656173706055,
+        "dataset": "HotpotQA",
+        "end_char": 263,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "0dd48b34a9833d7732f697980983381a",
+        "passage_rank": 9,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "1a5d669401b4cfca6a272c468d8fb605",
+        "sentence_text": "The Alutiiq Museum or Alutiiq Museum and Archaeological Repository is a non-profit museum and cultural center dedicated to preserving and sharing the cultural traditions of the Koniag Alutiiq branch of Sugpiaq ~ Alutiiq of the Alaska Native people.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 15
+      },
+      {
+        "cross_encoder_score": -5.694589614868164,
+        "dataset": "HotpotQA",
+        "end_char": 383,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "0dd48b34a9833d7732f697980983381a",
+        "passage_rank": 9,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "58c36629c5a9b8171f71cf4afb3f7db8",
+        "sentence_text": " The museum is a state-of-the-art facility and is located on the first floor of the \"Alutiiq Center\" of Kodiak, Alaska.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 264
+      },
+      {
+        "cross_encoder_score": -7.78482723236084,
+        "dataset": "HotpotQA",
+        "end_char": 434,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "0dd48b34a9833d7732f697980983381a",
+        "passage_rank": 9,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "b93f68a40327feb9893b2dbff84d5b84",
+        "sentence_text": " Alutiiq Museum is one of three museums in Kodiak.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "source_position": 384
+      },
+      {
+        "cross_encoder_score": -6.478726863861084,
+        "dataset": "HotpotQA",
+        "end_char": 548,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "0dd48b34a9833d7732f697980983381a",
+        "passage_rank": 9,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "319046bce3ea3912d398591be2a36b8f",
+        "sentence_text": " The museum is the seventh museum in Alaska and the second \"tribal museum\" in the United States to be accredited.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          1,
+          0,
+          4,
+          0
+        ],
+        "source_position": 435
+      },
+      {
+        "cross_encoder_score": -6.291536808013916,
+        "dataset": "HotpotQA",
+        "end_char": 661,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "0dd48b34a9833d7732f697980983381a",
+        "passage_rank": 9,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "ec6a4d2800e3934c175b652ed3d4aad2",
+        "sentence_text": " The museum provides tours of its exhibits, laboratory and collections storage facilities to educational groups.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          1,
+          0,
+          5,
+          0
+        ],
+        "source_position": 549
+      },
+      {
+        "cross_encoder_score": -9.219182968139648,
+        "dataset": "HotpotQA",
+        "end_char": 829,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "0dd48b34a9833d7732f697980983381a",
+        "passage_rank": 9,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "df122ce6ebc299bd1e9ab5f23c439219",
+        "sentence_text": " The museum will accept materials relevant to the prehistoric, historic, and contemporary cultural history of the Native peoples who settled the Koniag Alutiiq Nation.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          1,
+          0,
+          6,
+          0
+        ],
+        "source_position": 662
+      },
+      {
+        "cross_encoder_score": -9.915407180786133,
+        "dataset": "HotpotQA",
+        "end_char": 976,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "0dd48b34a9833d7732f697980983381a",
+        "passage_rank": 9,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "d148b77b7a4edbe12d43189107c41083",
+        "sentence_text": " Such materials include, but are not limited to, archaeological, ethnological, photographic, film, audio, archival, and natural history specimens.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          1,
+          0,
+          7,
+          0
+        ],
+        "source_position": 830
+      },
+      {
+        "cross_encoder_score": -9.28916072845459,
+        "dataset": "HotpotQA",
+        "end_char": 1197,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "0dd48b34a9833d7732f697980983381a",
+        "passage_rank": 9,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "f6cc487fc845fd04fa8329eef80ec30a",
+        "sentence_text": " This cultural center features a gallery, storage for more than 190,000 local artifacts, including faunal materials, ethnobotanical samples, sediment samples, field notes, photographs, and maps and a research laboratory.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          1,
+          0,
+          8,
+          0
+        ],
+        "source_position": 977
+      },
+      {
+        "cross_encoder_score": -7.8097429275512695,
+        "dataset": "HotpotQA",
+        "end_char": 1307,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "0dd48b34a9833d7732f697980983381a",
+        "passage_rank": 9,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "807b4b8914ba4c3563649f240627c403",
+        "sentence_text": " The Alutiiq Museum is a small repository, but we care for a very large collection with nearly 250,000 items.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1198
+      },
+      {
+        "cross_encoder_score": -6.647806644439697,
+        "dataset": "HotpotQA",
+        "end_char": 1426,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "0dd48b34a9833d7732f697980983381a",
+        "passage_rank": 9,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "a93b20370a923638657ac52343cb203e",
+        "sentence_text": " As a newly founded institution, the Alutiiq Museum sought to develop its policies and practices in professional ways.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          1,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1308
+      },
+      {
+        "cross_encoder_score": -8.090055465698242,
+        "dataset": "HotpotQA",
+        "end_char": 1514,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "0dd48b34a9833d7732f697980983381a",
+        "passage_rank": 9,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "c9f740cd38e515e51128f69e6bfe89e1",
+        "sentence_text": " The Alutiiq Museum also uses its collections for community-building among the Alutiiq.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          1,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1427
+      },
+      {
+        "cross_encoder_score": -8.13926887512207,
+        "dataset": "HotpotQA",
+        "end_char": 1656,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "0dd48b34a9833d7732f697980983381a",
+        "passage_rank": 9,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "bf05ceee3096d5b713ce0d7f7a651c48",
+        "sentence_text": " The Alutiiq Museum is supported and governed by the Alutiiq Heritage Foundation and is dedicated to preserving and sharing Alutiiq heritage.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1515
+      },
+      {
+        "cross_encoder_score": -8.199429512023926,
+        "dataset": "HotpotQA",
+        "end_char": 43,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "3d45fc4ad62fc39b674ec1540ea6e512",
+        "passage_rank": 8,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "5bd13cd350f45c424f4af020b879250d",
+        "sentence_text": "Rice Northwest Museum of Rocks and Minerals",
+        "sentence_token_cost": 8,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.3686485290527344,
+        "dataset": "HotpotQA",
+        "end_char": 151,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "3d45fc4ad62fc39b674ec1540ea6e512",
+        "passage_rank": 8,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "24bf8043818aa5d05d8908a4d868f396",
+        "sentence_text": "The Rice Northwest Museum of Rocks and Minerals is a non-profit museum in Hillsboro, Oregon, United States.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 44
+      },
+      {
+        "cross_encoder_score": -8.158947944641113,
+        "dataset": "HotpotQA",
+        "end_char": 291,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "3d45fc4ad62fc39b674ec1540ea6e512",
+        "passage_rank": 8,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "196c7cb2f0b238f915ca1ca732740c10",
+        "sentence_text": " Located just north of the Sunset Highway on the northern edge of Hillsboro, the earth science museum is in the Portland metropolitan area.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 152
+      },
+      {
+        "cross_encoder_score": -4.531150817871094,
+        "dataset": "HotpotQA",
+        "end_char": 458,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "3d45fc4ad62fc39b674ec1540ea6e512",
+        "passage_rank": 8,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "a2f237fefec97b9b0f0f2ca2fb331007",
+        "sentence_text": " Opened in 1997, the museum\u2019s collections date to the 1930s with the museum housed in a home built to display the rock and mineral collections of the museum founders.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "source_position": 292
+      },
+      {
+        "cross_encoder_score": -10.697509765625,
+        "dataset": "HotpotQA",
+        "end_char": 575,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "3d45fc4ad62fc39b674ec1540ea6e512",
+        "passage_rank": 8,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "5131001e11ab9ae2291851914daf0bf4",
+        "sentence_text": " The ranch style home is listed on the National Register of Historic Places, the first of its kind listed in Oregon.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          2,
+          0,
+          4,
+          0
+        ],
+        "source_position": 459
+      },
+      {
+        "cross_encoder_score": -6.294963359832764,
+        "dataset": "HotpotQA",
+        "end_char": 634,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "3d45fc4ad62fc39b674ec1540ea6e512",
+        "passage_rank": 8,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "072e155d4cade3d701a72cd831c09e65",
+        "sentence_text": " In 2015 the museum became a Smithsonian Affiliate museum.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          2,
+          0,
+          5,
+          0
+        ],
+        "source_position": 576
+      },
+      {
+        "cross_encoder_score": -4.66375207901001,
+        "dataset": "HotpotQA",
+        "end_char": 27,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "cbe575429e7c82dd10df4c5147cf1d26",
+        "passage_rank": 5,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "9a77c9a56eb1c54245606e3684dbb2dd",
+        "sentence_text": "Camden Yards Sports Complex",
+        "sentence_token_cost": 6,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.991426944732666,
+        "dataset": "HotpotQA",
+        "end_char": 108,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "cbe575429e7c82dd10df4c5147cf1d26",
+        "passage_rank": 5,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "3d8fe22adb3786d2353607ea9aa3cdf4",
+        "sentence_text": "The Camden Yards Sports Complex is located in the center of Baltimore, Maryland.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 28
+      },
+      {
+        "cross_encoder_score": -7.11806058883667,
+        "dataset": "HotpotQA",
+        "end_char": 228,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "cbe575429e7c82dd10df4c5147cf1d26",
+        "passage_rank": 5,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "40c3caca17ba3fcd2a326ed2192538db",
+        "sentence_text": " The complex is composed of multiple buildings and stadiums including Oriole Park at Camden Yards and M&T Bank Stadium.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 109
+      },
+      {
+        "cross_encoder_score": -7.947605133056641,
+        "dataset": "HotpotQA",
+        "end_char": 363,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "cbe575429e7c82dd10df4c5147cf1d26",
+        "passage_rank": 5,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "a6ec55e341ba6d66b4dc3ab69f4d8930",
+        "sentence_text": " The two stadiums are home to the Baltimore Orioles of Major League Baseball and the Baltimore Ravens of the National Football League.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "source_position": 229
+      },
+      {
+        "cross_encoder_score": 2.811920404434204,
+        "dataset": "HotpotQA",
+        "end_char": 502,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "cbe575429e7c82dd10df4c5147cf1d26",
+        "passage_rank": 5,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "e31f1a224d626a9c9d209d6b99cc91bf",
+        "sentence_text": " The complex still houses the recently closed Sports Legends Museum at Camden Yards (a non-profit museum featuring Maryland sports teams).",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3,
+          0,
+          4,
+          0
+        ],
+        "source_position": 364
+      },
+      {
+        "cross_encoder_score": -3.5635766983032227,
+        "dataset": "HotpotQA",
+        "end_char": 669,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "cbe575429e7c82dd10df4c5147cf1d26",
+        "passage_rank": 5,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "ac9fdef11107a73a24666772b24eef66",
+        "sentence_text": " Along with the Sports Legends Museum, the Babe Ruth Birthplace and Museum is located approximately two blocks from the main entrance of Camden Yards at Eutaw Street.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          3,
+          0,
+          5,
+          0
+        ],
+        "source_position": 503
+      },
+      {
+        "cross_encoder_score": -2.2855734825134277,
+        "dataset": "HotpotQA",
+        "end_char": 775,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "cbe575429e7c82dd10df4c5147cf1d26",
+        "passage_rank": 5,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "861d6429d4b1cf4947ebc6744024626f",
+        "sentence_text": " Geppi's Entertainment Museum is also located in Camden Station, atop the Sports Legends at Camden Yards.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3,
+          0,
+          6,
+          0
+        ],
+        "source_position": 670
+      },
+      {
+        "cross_encoder_score": -5.393041610717773,
+        "dataset": "HotpotQA",
+        "end_char": 823,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "cbe575429e7c82dd10df4c5147cf1d26",
+        "passage_rank": 5,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "19b84411df04eef8213d40376ed98139",
+        "sentence_text": " The complex is more than museums and stadiums.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          3,
+          0,
+          7,
+          0
+        ],
+        "source_position": 776
+      },
+      {
+        "cross_encoder_score": -8.718552589416504,
+        "dataset": "HotpotQA",
+        "end_char": 1007,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "cbe575429e7c82dd10df4c5147cf1d26",
+        "passage_rank": 5,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "2175964c45bfdfc0fc12e1a11cdacb70",
+        "sentence_text": " It is a location for community events such as the Dew Tour's Panasonic Open in June 2007 and 2008, the Baltimore Marathon, and the African American Festival which is held every year.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          3,
+          0,
+          8,
+          0
+        ],
+        "source_position": 824
+      },
+      {
+        "cross_encoder_score": -1.2169069051742554,
+        "dataset": "HotpotQA",
+        "end_char": 22,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "2de682493ca4f9acc95c1f08b44a3a5c",
+        "passage_rank": 7,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "400f4a49f7c381a129d55df7accbe05b",
+        "sentence_text": "Fanattic Sports Museum",
+        "sentence_token_cost": 5,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 0.10613793134689331,
+        "dataset": "HotpotQA",
+        "end_char": 173,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "2de682493ca4f9acc95c1f08b44a3a5c",
+        "passage_rank": 7,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "e89c707e05f1afa1e986b204cb93e8ae",
+        "sentence_text": "Fanattic Sports Museum (FSM) is a sports museum, dedicated to various types of sports and located in Ecospace Business Park, New Town, Kolkata, India.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 23
+      },
+      {
+        "cross_encoder_score": -1.7202593088150024,
+        "dataset": "HotpotQA",
+        "end_char": 281,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "2de682493ca4f9acc95c1f08b44a3a5c",
+        "passage_rank": 7,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "c4f50ba282db550aa365d2f994754973",
+        "sentence_text": " Established in January 2017, FSM is known as the first sports museum in Kolkata as well as in West Bengal.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 174
+      },
+      {
+        "cross_encoder_score": -7.08860969543457,
+        "dataset": "HotpotQA",
+        "end_char": 27,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "effca77ac1870f3cabe56fac18cfe313",
+        "passage_rank": 10,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "01d7e09b38fb4d6d987c018f20f83f0b",
+        "sentence_text": "Empire State Railway Museum",
+        "sentence_token_cost": 5,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.0511852502822876,
+        "dataset": "HotpotQA",
+        "end_char": 213,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "effca77ac1870f3cabe56fac18cfe313",
+        "passage_rank": 10,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "071454796cc8afb692590ee8b70a5b0d",
+        "sentence_text": "Established in 1960, the Empire State Railway Museum is a non-profit railroad museum currently located in the historic Ulster & Delaware Phoenicia Railroad Station, Phoenicia, New York.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 28
+      },
+      {
+        "cross_encoder_score": -10.095417022705078,
+        "dataset": "HotpotQA",
+        "end_char": 318,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "effca77ac1870f3cabe56fac18cfe313",
+        "passage_rank": 10,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "b3b6e92044b47cd49cdc18723a7d9897",
+        "sentence_text": " The station was built in 1899 by the U&D, and is one of the few surviving examples left along the line.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 214
+      },
+      {
+        "cross_encoder_score": -6.6644463539123535,
+        "dataset": "HotpotQA",
+        "end_char": 386,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "effca77ac1870f3cabe56fac18cfe313",
+        "passage_rank": 10,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "905885695f7b06edbd8fe2cf7bf7fcac",
+        "sentence_text": " The museum owns a small collection of historic railroad equipment.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "source_position": 319
+      },
+      {
+        "cross_encoder_score": -9.341577529907227,
+        "dataset": "HotpotQA",
+        "end_char": 595,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "effca77ac1870f3cabe56fac18cfe313",
+        "passage_rank": 10,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "6c8369102323f86c75c8eefb64321ad3",
+        "sentence_text": " The museum was formerly the publisher of the annual \"Steam Railroad Directory\" until the 2006 edition, when the title was taken over by Kalmbach Publishing and now released as the \"Tourist Trains Guidebook\".",
+        "sentence_token_cost": 47,
+        "source_order": [
+          5,
+          0,
+          4,
+          0
+        ],
+        "source_position": 387
+      },
+      {
+        "cross_encoder_score": 0.17500469088554382,
+        "dataset": "HotpotQA",
+        "end_char": 17,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "fe03ef39c81aa0d72d8a0be25b79c4f4",
+        "passage_rank": 1,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "664cb0e7fdc6cefac1c6397ec0da6ede",
+        "sentence_text": "The Sports Museum",
+        "sentence_token_cost": 3,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 5.69846248626709,
+        "dataset": "HotpotQA",
+        "end_char": 168,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "fe03ef39c81aa0d72d8a0be25b79c4f4",
+        "passage_rank": 1,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "3f4d1378e4efa9ae581358ecca8b20c9",
+        "sentence_text": "The Sports Museum (also known as The Sports Museum of New England) is a non-profit museum currently located in the TD Garden in Boston, Massachusetts.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 18
+      },
+      {
+        "cross_encoder_score": -5.210980415344238,
+        "dataset": "HotpotQA",
+        "end_char": 345,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "fe03ef39c81aa0d72d8a0be25b79c4f4",
+        "passage_rank": 1,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "877ada74e248a8a9b2c7363972686d93",
+        "sentence_text": " The museum was founded in 1977 in nearby Cambridge, Massachusetts before eventually moving to Boston to the Garden, which has been home to Celtics and Bruins for twenty years.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 169
+      },
+      {
+        "cross_encoder_score": -3.6324734687805176,
+        "dataset": "HotpotQA",
+        "end_char": 587,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "fe03ef39c81aa0d72d8a0be25b79c4f4",
+        "passage_rank": 1,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "5c550dea7b6c28b5d50d08bbd241d114",
+        "sentence_text": " The museum's exhibits focus on the history of various sports in the Boston area, including the Boston Bruins, Boston Celtics, Boston Red Sox, New England Patriots, Boston Marathon, New England Revolution, boxing, college sports, and others.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          6,
+          0,
+          3,
+          0
+        ],
+        "source_position": 346
+      },
+      {
+        "cross_encoder_score": -3.662330150604248,
+        "dataset": "HotpotQA",
+        "end_char": 778,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "fe03ef39c81aa0d72d8a0be25b79c4f4",
+        "passage_rank": 1,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "64bd6f6f6362d6f91b3124c7b427a2a6",
+        "sentence_text": " The museum features diverse sports memorabilia, curiosities, and life-size sculptures of Bobby Orr, Larry Bird, Carl Yastrzemski and Ted Williams by Rhode Island sculptor Armand LaMontagne.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          6,
+          0,
+          4,
+          0
+        ],
+        "source_position": 588
+      },
+      {
+        "cross_encoder_score": -6.316518306732178,
+        "dataset": "HotpotQA",
+        "end_char": 901,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "fe03ef39c81aa0d72d8a0be25b79c4f4",
+        "passage_rank": 1,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "105e2ebe63012f348b1ba2ee450057e7",
+        "sentence_text": " The museum is normally open daily between 10 AM and 4 PM, but may close when an event or game is scheduled in the Garden.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          6,
+          0,
+          5,
+          0
+        ],
+        "source_position": 779
+      },
+      {
+        "cross_encoder_score": -7.159801959991455,
+        "dataset": "HotpotQA",
+        "end_char": 934,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "fe03ef39c81aa0d72d8a0be25b79c4f4",
+        "passage_rank": 1,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "a81436739b8a4b318b2426ea4a1debe0",
+        "sentence_text": " It is located on a subway stop.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          6,
+          0,
+          6,
+          0
+        ],
+        "source_position": 902
+      },
+      {
+        "cross_encoder_score": -1.509939432144165,
+        "dataset": "HotpotQA",
+        "end_char": 37,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "beb3d753803ca7fcb023a05d74562eaa",
+        "passage_rank": 3,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "4bbb70d3d596213ed4871f9653094788",
+        "sentence_text": "Sports Legends Museum at Camden Yards",
+        "sentence_token_cost": 7,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 3.5767288208007812,
+        "dataset": "HotpotQA",
+        "end_char": 202,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "beb3d753803ca7fcb023a05d74562eaa",
+        "passage_rank": 3,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "012801080da91373abfa272e437771c5",
+        "sentence_text": "Sports Legends Museum at Camden Yards was a non-profit sports museum in Baltimore, Maryland, United States, owned and operated by the Babe Ruth Birthplace & Museum.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 38
+      },
+      {
+        "cross_encoder_score": -6.3195414543151855,
+        "dataset": "HotpotQA",
+        "end_char": 303,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "beb3d753803ca7fcb023a05d74562eaa",
+        "passage_rank": 3,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "3083c735ed350404c58ca53aae5a343b",
+        "sentence_text": " It opened on May 14, 2005, with the daughter of celebrated baseball player Babe Ruth in attendance.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 203
+      },
+      {
+        "cross_encoder_score": -5.070236682891846,
+        "dataset": "HotpotQA",
+        "end_char": 493,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "beb3d753803ca7fcb023a05d74562eaa",
+        "passage_rank": 3,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "e5d88214a74381dd0ed0232ba38bafb9",
+        "sentence_text": " After ten years of operation the museum closed abruptly on October 12, 2015 after failing to reach an agreement with the Maryland Stadium Authority for the continued use of Camden Station.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 304
+      },
+      {
+        "cross_encoder_score": -3.1261630058288574,
+        "dataset": "HotpotQA",
+        "end_char": 657,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "beb3d753803ca7fcb023a05d74562eaa",
+        "passage_rank": 3,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "3f0b178f1199c60a51709cabea1701d3",
+        "sentence_text": " The 22000 sqft museum was adjacent to the main gate of Oriole Park at Camden Yards and has artifacts and interactive exhibits profiling Maryland\u2019s sports history.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          7,
+          0,
+          4,
+          0
+        ],
+        "source_position": 494
+      },
+      {
+        "cross_encoder_score": -7.496598243713379,
+        "dataset": "HotpotQA",
+        "end_char": 843,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "beb3d753803ca7fcb023a05d74562eaa",
+        "passage_rank": 3,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "50fb97c44797c73ca3e54f6e568673a8",
+        "sentence_text": " Exhibits included such area teams as the Baltimore Orioles, Baltimore Ravens, Baltimore Colts, Maryland Terrapins, Baltimore Elite Giants, Baltimore Black Sox, and the Baltimore Blast.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          7,
+          0,
+          5,
+          0
+        ],
+        "source_position": 658
+      },
+      {
+        "cross_encoder_score": -7.156133651733398,
+        "dataset": "HotpotQA",
+        "end_char": 9,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "4e2a4aede29447f86975dfcaa06565b8",
+        "passage_rank": 2,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "4b10b42188063137bacf2071253ca10f",
+        "sentence_text": "TD Garden",
+        "sentence_token_cost": 2,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.629392385482788,
+        "dataset": "HotpotQA",
+        "end_char": 116,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "4e2a4aede29447f86975dfcaa06565b8",
+        "passage_rank": 2,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "c701801900e2f9b8354a69db7b3d3c83",
+        "sentence_text": "TD Garden, often called Boston Garden and \"The Garden\", is a multi-purpose arena in Boston, Massachusetts.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 10
+      },
+      {
+        "cross_encoder_score": -10.163378715515137,
+        "dataset": "HotpotQA",
+        "end_char": 205,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "4e2a4aede29447f86975dfcaa06565b8",
+        "passage_rank": 2,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "6c0d8730cbf060ca5e7d1710d9f523d1",
+        "sentence_text": " It is named after its sponsor, TD Bank, a subsidiary of Canada's Toronto-Dominion Bank.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          8,
+          0,
+          2,
+          0
+        ],
+        "source_position": 117
+      },
+      {
+        "cross_encoder_score": -5.810274124145508,
+        "dataset": "HotpotQA",
+        "end_char": 348,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "4e2a4aede29447f86975dfcaa06565b8",
+        "passage_rank": 2,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "ed9cfe0740c6912fc23bab956640ef9f",
+        "sentence_text": " It opened in 1995 as a replacement for the original Boston Garden and has been known as Shawmut Center, FleetCenter, and TD Banknorth Garden.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          8,
+          0,
+          3,
+          0
+        ],
+        "source_position": 206
+      },
+      {
+        "cross_encoder_score": -5.4166741371154785,
+        "dataset": "HotpotQA",
+        "end_char": 411,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "4e2a4aede29447f86975dfcaa06565b8",
+        "passage_rank": 2,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "1932dbac8e63dac7f2f6547a46038a4d",
+        "sentence_text": " The arena is located directly above the MBTA's North Station.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          8,
+          0,
+          4,
+          0
+        ],
+        "source_position": 349
+      },
+      {
+        "cross_encoder_score": -0.19865013659000397,
+        "dataset": "HotpotQA",
+        "end_char": 24,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "8367e609e7e89d3490da970d9622f3c1",
+        "passage_rank": 4,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "4fb5f7847b0d51b26d3cfb2e3ebdc3ac",
+        "sentence_text": "Sports Museum of America",
+        "sentence_token_cost": 4,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 0.08377160131931305,
+        "dataset": "HotpotQA",
+        "end_char": 184,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "8367e609e7e89d3490da970d9622f3c1",
+        "passage_rank": 4,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "61641076255d0cb2a079934dd128aad9",
+        "sentence_text": "The Sports Museum of America (SmA) was the United States' first national sports museum dedicated to the history and cultural significance of sports in America.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 25
+      },
+      {
+        "cross_encoder_score": -6.619505882263184,
+        "dataset": "HotpotQA",
+        "end_char": 265,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "8367e609e7e89d3490da970d9622f3c1",
+        "passage_rank": 4,
+        "query_id": "5a8241a855429940e5e1a819",
+        "sentence_id": "265282a39a4e6eddff13f44df5ad9f82",
+        "sentence_text": " It opened in May 2008 and closed less than nine months later, in February 2009.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 185
+      }
+    ],
+    "scoring_seconds": 0.2373523140558973,
+    "source_fingerprint": "06ac98e1f7bd4def27c1bf101d6a9a0e6e8b865d598e787bc4d78a5abf5d7ec4"
+  }
+}

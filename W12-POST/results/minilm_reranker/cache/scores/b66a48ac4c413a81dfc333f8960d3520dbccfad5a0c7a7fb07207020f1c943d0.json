@@ -1,0 +1,1531 @@
+{
+  "checksum": "9793a36262e577af310b1db10bf0913903c2b35aa7fc92679f00a9f06ad5c10e",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "a5e5cda1f6195ab1336855f1e39a609d61326d62"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 75,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "abb09b7cbefe2e950a36fc69023c5403e67b34d4da1c40c576bdd25684c8f905",
+    "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+    "scores": [
+      {
+        "cross_encoder_score": -8.38060474395752,
+        "dataset": "QASPER",
+        "end_char": 250,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "671d571c47901e81dfd65ea9c096783e",
+        "passage_rank": 5,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "a5bea6c5b214640fa9c30c096b15c2dc",
+        "sentence_text": "Imparting Interpretability to Word Embeddings while Preserving Semantic Structure\tAs an ubiquitous method in natural language processing, word embeddings are extensively employed to map semantic properties of words into a dense vector representation.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.160323143005371,
+        "dataset": "QASPER",
+        "end_char": 394,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "671d571c47901e81dfd65ea9c096783e",
+        "passage_rank": 5,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "05fbe54385afd91991723d23de65cca6",
+        "sentence_text": "They capture semantic and syntactic relations among words but the vector corresponding to the words are only meaningful relative to each other.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 251
+      },
+      {
+        "cross_encoder_score": -9.130179405212402,
+        "dataset": "QASPER",
+        "end_char": 474,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "671d571c47901e81dfd65ea9c096783e",
+        "passage_rank": 5,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "cb66cadcf6ed6acda0c29541a07748bc",
+        "sentence_text": "Neither the vector nor its dimensions have any absolute, interpretable meaning.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 395
+      },
+      {
+        "cross_encoder_score": 6.919663429260254,
+        "dataset": "QASPER",
+        "end_char": 800,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "671d571c47901e81dfd65ea9c096783e",
+        "passage_rank": 5,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "1773887824182698227299551b906186",
+        "sentence_text": "We introduce an additive modification to the objective function of the embedding learning algorithm that encourages the embedding vectors of words that are semantically related to a predefined concept to take larger values along a specified dimension, while leaving the original semantic learning mechanism mostly unaffected.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 475
+      },
+      {
+        "cross_encoder_score": -6.671954154968262,
+        "dataset": "QASPER",
+        "end_char": 901,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "671d571c47901e81dfd65ea9c096783e",
+        "passage_rank": 5,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "43b8b77851a3393e0592d1807fa3e364",
+        "sentence_text": "In other words, we align words that are already determined to be related, along predefined concepts.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 801
+      },
+      {
+        "cross_encoder_score": -8.171592712402344,
+        "dataset": "QASPER",
+        "end_char": 1008,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "671d571c47901e81dfd65ea9c096783e",
+        "passage_rank": 5,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "aac6c303c383372c66eacc919629f9c7",
+        "sentence_text": "Therefore, we impart interpretability to the word embedding by assigning meaning to its vector dimensions.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 902
+      },
+      {
+        "cross_encoder_score": -10.855000495910645,
+        "dataset": "QASPER",
+        "end_char": 1131,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "671d571c47901e81dfd65ea9c096783e",
+        "passage_rank": 5,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "4ef33003d15ba4f6bad7140bdb599455",
+        "sentence_text": "The predefined concepts are derived from an external lexical resource, which in this paper is chosen as Roget's Thesaurus.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1009
+      },
+      {
+        "cross_encoder_score": -5.984051704406738,
+        "dataset": "QASPER",
+        "end_char": 1268,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "671d571c47901e81dfd65ea9c096783e",
+        "passage_rank": 5,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "a5a8c723df90249626d794868e5049df",
+        "sentence_text": "We observe that alignment along the chosen concepts is not limited to words in the Thesaurus and extends to other related words as well.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1132
+      },
+      {
+        "cross_encoder_score": -11.161847114562988,
+        "dataset": "QASPER",
+        "end_char": 1368,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "671d571c47901e81dfd65ea9c096783e",
+        "passage_rank": 5,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "4b6402352c4359425d0a3815d08c19a4",
+        "sentence_text": "We quantify the extent of interpretability and assignment of meaning from our experimental results.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1269
+      },
+      {
+        "cross_encoder_score": -7.054560661315918,
+        "dataset": "QASPER",
+        "end_char": 1499,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "671d571c47901e81dfd65ea9c096783e",
+        "passage_rank": 5,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "5018f7b7fff6a8a39a6c3a1876b2cc36",
+        "sentence_text": "We also demonstrate the preservation of semantic coherence of the resulting vector space by using word-analogy and word-similarity",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1369
+      },
+      {
+        "cross_encoder_score": -6.601019382476807,
+        "dataset": "QASPER",
+        "end_char": 3064,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "215ebe227e4f7bdcb6efdffa798f3028",
+        "passage_rank": 6,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "1c5fca55e824fd0490e6f71b9f776d09",
+        "sentence_text": "(e.g.  ,  ) are rooted linguistically in the field of distributed semantics  , where words are taken to assume meaning mainly by their degree of interaction (or lack thereof) with other words in the lexicon  ,  .",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2852
+      },
+      {
+        "cross_encoder_score": -6.1402692794799805,
+        "dataset": "QASPER",
+        "end_char": 3406,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "215ebe227e4f7bdcb6efdffa798f3028",
+        "passage_rank": 6,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "e6ba8a3f26957228f07f7c43f923c1ac",
+        "sentence_text": "Under this paradigm, dense, continuous vector representations are learned in an unsupervised manner from a large corpus, using the word cooccurrence statistics directly or indirectly, and such an approach is shown to result in vector representations that mathematically capture various semantic and syntactic relations between words  ,  ,  .",
+        "sentence_token_cost": 63,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 3065
+      },
+      {
+        "cross_encoder_score": -10.857183456420898,
+        "dataset": "QASPER",
+        "end_char": 3590,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "215ebe227e4f7bdcb6efdffa798f3028",
+        "passage_rank": 6,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "319aceb3b0525e8fe076fafbe205ebb4",
+        "sentence_text": "However, the dense nature of the learned embeddings obfuscate the distinct concepts encoded in the different dimensions, which renders the resulting vectors virtually uninterpretable.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 3407
+      },
+      {
+        "cross_encoder_score": -9.887840270996094,
+        "dataset": "QASPER",
+        "end_char": 3744,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "215ebe227e4f7bdcb6efdffa798f3028",
+        "passage_rank": 6,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "665a16526204899ec1c56bcb00b88b62",
+        "sentence_text": "The learned embeddings make sense only in relation to each other and their specific dimensions do not carry explicit information that can be interpreted.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3591
+      },
+      {
+        "cross_encoder_score": -2.5356667041778564,
+        "dataset": "QASPER",
+        "end_char": 3946,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "215ebe227e4f7bdcb6efdffa798f3028",
+        "passage_rank": 6,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "eb8369dccdb261345cce57f62e65f0b1",
+        "sentence_text": "However, being able to interpret a word embedding would illuminate the semantic concepts implicitly represented along the various dimensions of the embedding, and reveal its hidden semantic structures.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3745
+      },
+      {
+        "cross_encoder_score": -11.367155075073242,
+        "dataset": "QASPER",
+        "end_char": 4061,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "215ebe227e4f7bdcb6efdffa798f3028",
+        "passage_rank": 6,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "f9d137be44c484c815fe4c4be698b14f",
+        "sentence_text": "In the literature, researchers tackled interpretability problem of the word embeddings using different approaches.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3947
+      },
+      {
+        "cross_encoder_score": -11.423072814941406,
+        "dataset": "QASPER",
+        "end_char": 4199,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "215ebe227e4f7bdcb6efdffa798f3028",
+        "passage_rank": 6,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "813e80a6731e3e75d50b7e779f36c378",
+        "sentence_text": "Several researchers  ,  ,  proposed algorithms based on non-negative matrix factorization (NMF) applied to cooccurrence variant matrices.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 4062
+      },
+      {
+        "cross_encoder_score": -10.587186813354492,
+        "dataset": "QASPER",
+        "end_char": 4278,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "215ebe227e4f7bdcb6efdffa798f3028",
+        "passage_rank": 6,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "cabfdfad5f803d6f2d1e6b63415c5bfb",
+        "sentence_text": "Other researchers suggested to obtain interpretable word vectors from existing",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 4200
+      },
+      {
+        "cross_encoder_score": -6.073396682739258,
+        "dataset": "QASPER",
+        "end_char": 16943,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "dd8f468e7ec1313e18b676c4e8576b67",
+        "passage_rank": 10,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "42b860f2f9c481464ec234e911a1e96c",
+        "sentence_text": "a particular dimension that corresponds to the word-group under consideration.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 16865
+      },
+      {
+        "cross_encoder_score": -10.968998908996582,
+        "dataset": "QASPER",
+        "end_char": 17136,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "dd8f468e7ec1313e18b676c4e8576b67",
+        "passage_rank": 10,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "ae69227149d4f9ba56f32ad11fae551e",
+        "sentence_text": "This can be achieved by modifying the objective function of the embedding algorithm to partially influence vector representation distributions across their dimensions over an input vocabulary.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 16944
+      },
+      {
+        "cross_encoder_score": -11.368261337280273,
+        "dataset": "QASPER",
+        "end_char": 17342,
+        "pair_tokens_before_truncation": 106,
+        "pair_truncated": false,
+        "passage_id": "dd8f468e7ec1313e18b676c4e8576b67",
+        "passage_rank": 10,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "bc1ec5819fc03ff361bb52550808056a",
+        "sentence_text": "To do this, we propose the following modification to the GloVe objective in ( EQREF6 ): rCl J = i,j=1V f(Xij)[ (wiTwj + bi + bj -Xij)2  + k(l=1D INLINEFORM0 iFl g(wi,l) + l=1D INLINEFORM1 j Fl g(wj,l) ) ].",
+        "sentence_token_cost": 80,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 17137
+      },
+      {
+        "cross_encoder_score": -8.708660125732422,
+        "dataset": "QASPER",
+        "end_char": 17510,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "dd8f468e7ec1313e18b676c4e8576b67",
+        "passage_rank": 10,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "791ef49f05aa2b23da49d2e052757109",
+        "sentence_text": "In ( SECREF4 ), INLINEFORM2 denotes the indices for the elements of the INLINEFORM3 th concept word-group which we wish to assign in the vector dimension INLINEFORM4 .",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 17343
+      },
+      {
+        "cross_encoder_score": -4.233724117279053,
+        "dataset": "QASPER",
+        "end_char": 17794,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "dd8f468e7ec1313e18b676c4e8576b67",
+        "passage_rank": 10,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "682793eaa95b13cf6738d31d638184f6",
+        "sentence_text": "The objective ( SECREF4 ) is designed as a mixture of two individual cost terms: the original GloVe cost term along with a second term that encourages embedding vectors of a given concept word-group to achieve deliberately increased values along an associated dimension INLINEFORM5 .",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 17511
+      },
+      {
+        "cross_encoder_score": -11.17558479309082,
+        "dataset": "QASPER",
+        "end_char": 17878,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "dd8f468e7ec1313e18b676c4e8576b67",
+        "passage_rank": 10,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "5d2cf0f2e85578784479fc2941c1ca50",
+        "sentence_text": "The relative weight of the second term is controlled by the parameter INLINEFORM6 .",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 17795
+      },
+      {
+        "cross_encoder_score": -10.675580024719238,
+        "dataset": "QASPER",
+        "end_char": 18030,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "dd8f468e7ec1313e18b676c4e8576b67",
+        "passage_rank": 10,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "86b81db8996e294d52650f5d63750b33",
+        "sentence_text": "The simultaneous minimization of both objectives ensures that words that are similar to, but not included in, one of these concept word-groups are also",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 17879
+      },
+      {
+        "cross_encoder_score": -6.285584449768066,
+        "dataset": "QASPER",
+        "end_char": 18086,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "69db305227ea473070dce40cf3d33c96",
+        "passage_rank": 4,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "8ab35cb953972c5c156b360bc69c41df",
+        "sentence_text": "\u201cnudged\u201d towards the associated dimension INLINEFORM7 .",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "source_position": 18031
+      },
+      {
+        "cross_encoder_score": -1.614245891571045,
+        "dataset": "QASPER",
+        "end_char": 18321,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "69db305227ea473070dce40cf3d33c96",
+        "passage_rank": 4,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "c19b2699c883307a389dec8f2bd11e93",
+        "sentence_text": "The trained word vectors are thus encouraged to form a distribution where the individual vector dimensions align with certain semantic concepts represented by a collection of concept word-groups, one assigned to each vector dimension.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          13,
+          1,
+          0
+        ],
+        "source_position": 18087
+      },
+      {
+        "cross_encoder_score": -6.7359418869018555,
+        "dataset": "QASPER",
+        "end_char": 18672,
+        "pair_tokens_before_truncation": 88,
+        "pair_truncated": false,
+        "passage_id": "69db305227ea473070dce40cf3d33c96",
+        "passage_rank": 4,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "200c3a8d93e2b299c8b52393c37bd62f",
+        "sentence_text": "To facilitate this behaviour, ( SECREF4 ) introduces a monotone decreasing function INLINEFORM8 defined as INLINEFORM9  which serves to increase the total cost incurred if the value of the INLINEFORM0 th dimension for the two vector representations INLINEFORM1 and INLINEFORM2 for a concept word INLINEFORM3 with INLINEFORM4 fails to be large enough.",
+        "sentence_token_cost": 72,
+        "source_order": [
+          0,
+          13,
+          2,
+          0
+        ],
+        "source_position": 18322
+      },
+      {
+        "cross_encoder_score": -11.060049057006836,
+        "dataset": "QASPER",
+        "end_char": 18716,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "69db305227ea473070dce40cf3d33c96",
+        "passage_rank": 4,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "ee8abf3d0e5ece579437648896427326",
+        "sentence_text": "INLINEFORM5 is also shown in Fig. FIGREF7 .",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          13,
+          3,
+          0
+        ],
+        "source_position": 18673
+      },
+      {
+        "cross_encoder_score": -11.368115425109863,
+        "dataset": "QASPER",
+        "end_char": 18833,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "69db305227ea473070dce40cf3d33c96",
+        "passage_rank": 4,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "2d7475d74236f75c761b4ddf88604995",
+        "sentence_text": "The objective ( SECREF4 ) is minimized using stochastic gradient descent over the cooccurrence records INLINEFORM0 .",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          13,
+          4,
+          0
+        ],
+        "source_position": 18717
+      },
+      {
+        "cross_encoder_score": -3.525282144546509,
+        "dataset": "QASPER",
+        "end_char": 19149,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "69db305227ea473070dce40cf3d33c96",
+        "passage_rank": 4,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "9cce82c684fc7f9ca218d9c4fb2a9c72",
+        "sentence_text": "Intuitively, the terms added to ( SECREF4 ) in comparison with ( EQREF6 ) introduce the effect of selectively applying a positive step-type input to the original descent updates of ( EQREF6 ) for concept words along their respective vector dimensions, which influences the dimension value in the positive direction.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          0,
+          13,
+          5,
+          0
+        ],
+        "source_position": 18834
+      },
+      {
+        "cross_encoder_score": -11.28865909576416,
+        "dataset": "QASPER",
+        "end_char": 19262,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "69db305227ea473070dce40cf3d33c96",
+        "passage_rank": 4,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "43c3e7de1f4405ea056d05dd9b5ac118",
+        "sentence_text": "The parameter INLINEFORM1 in ( SECREF4 ) allows for the adjustment of the magnitude of this influence as needed.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          13,
+          6,
+          0
+        ],
+        "source_position": 19150
+      },
+      {
+        "cross_encoder_score": -11.190232276916504,
+        "dataset": "QASPER",
+        "end_char": 19331,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "69db305227ea473070dce40cf3d33c96",
+        "passage_rank": 4,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "cdc8df21060ca89a3a256ef4f006c4a5",
+        "sentence_text": "In the next section, we demonstrate the feasibility of this approach",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          13,
+          7,
+          0
+        ],
+        "source_position": 19263
+      },
+      {
+        "cross_encoder_score": -7.0084710121154785,
+        "dataset": "QASPER",
+        "end_char": 25537,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "9b3f63fb31ac0586e5d03d581a380545",
+        "passage_rank": 3,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "d5f038ec2e53eacffd3d28077880b3f4",
+        "sentence_text": "32nd dimension of their word embedding vectors coming from the original GloVe algorithm.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          19,
+          0,
+          0
+        ],
+        "source_position": 25449
+      },
+      {
+        "cross_encoder_score": -3.9532015323638916,
+        "dataset": "QASPER",
+        "end_char": 25662,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "9b3f63fb31ac0586e5d03d581a380545",
+        "passage_rank": 3,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "a3950788572b362473fbdc7b9c437d2e",
+        "sentence_text": "The dimension values are denoted with blue and red/green markers for the original and the proposed algorithms, respectively.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          19,
+          1,
+          0
+        ],
+        "source_position": 25538
+      },
+      {
+        "cross_encoder_score": 1.882238507270813,
+        "dataset": "QASPER",
+        "end_char": 25840,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "9b3f63fb31ac0586e5d03d581a380545",
+        "passage_rank": 3,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "99830b6f06ef7d8c615d2075bacb2ace",
+        "sentence_text": "Additionally, the top-50 words that achieve the greatest 32nd dimension values among the considered 1000 words are emphasized with enlarged markers, along with text annotations.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          19,
+          2,
+          0
+        ],
+        "source_position": 25663
+      },
+      {
+        "cross_encoder_score": -1.009809136390686,
+        "dataset": "QASPER",
+        "end_char": 26069,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "9b3f63fb31ac0586e5d03d581a380545",
+        "passage_rank": 3,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "1d0737fb8a439c6bd3ef6de1ae961f3c",
+        "sentence_text": "In the presented simulation of the proposed algorithm, the 32nd dimension values are encoded with the concept JUDGMENT, which is reflected as an increase in the dimension values for words such as committee, academy, and article.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          19,
+          3,
+          0
+        ],
+        "source_position": 25841
+      },
+      {
+        "cross_encoder_score": -10.861306190490723,
+        "dataset": "QASPER",
+        "end_char": 26246,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "9b3f63fb31ac0586e5d03d581a380545",
+        "passage_rank": 3,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "be291d1676394f7fd9c0ada25b4ea964",
+        "sentence_text": "We note that these words (red) are not part of the pre-determined word-group for the concept JUDGMENT, in contrast to words such as award, review and account (green) which are.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          19,
+          4,
+          0
+        ],
+        "source_position": 26070
+      },
+      {
+        "cross_encoder_score": -2.801386833190918,
+        "dataset": "QASPER",
+        "end_char": 26549,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "9b3f63fb31ac0586e5d03d581a380545",
+        "passage_rank": 3,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "fe066f7f7de3ed322ba7aad91494a00d",
+        "sentence_text": "This implies that the increase in the corresponding dimension values seen for these words is attributable to the joint effect of the first term in ( SECREF4 ) which is inherited from the original GloVe algorithm, in conjunction with the remaining terms in the proposed objective expression ( SECREF4 ).",
+        "sentence_token_cost": 56,
+        "source_order": [
+          0,
+          19,
+          5,
+          0
+        ],
+        "source_position": 26247
+      },
+      {
+        "cross_encoder_score": -8.240007400512695,
+        "dataset": "QASPER",
+        "end_char": 26736,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "9b3f63fb31ac0586e5d03d581a380545",
+        "passage_rank": 3,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "9a307a6e60466e0804f579ccaca8bc60",
+        "sentence_text": "This experiment illustrates that the proposed algorithm is able to impart the concept of JUDGMENT on its designated vector dimension above and beyond the supplied list of words belonging",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          19,
+          6,
+          0
+        ],
+        "source_position": 26550
+      },
+      {
+        "cross_encoder_score": -5.497320175170898,
+        "dataset": "QASPER",
+        "end_char": 26782,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "d45d4bcf49a432bdd46335716b1dc96b",
+        "passage_rank": 1,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "b7069c0042f9befd35249eb1a18e1a41",
+        "sentence_text": "to the concept word-group for that dimension.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          20,
+          0,
+          0
+        ],
+        "source_position": 26737
+      },
+      {
+        "cross_encoder_score": 1.2809511423110962,
+        "dataset": "QASPER",
+        "end_char": 26927,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "d45d4bcf49a432bdd46335716b1dc96b",
+        "passage_rank": 1,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "5ab1cb181cf1becc657d22c68100d77f",
+        "sentence_text": "We also present the list of words with the greatest dimension value for the dimensions 11, 13, 16, 31, 36, 39, 41, 43 and 79 in Table TABREF11 .",
+        "sentence_token_cost": 57,
+        "source_order": [
+          0,
+          20,
+          1,
+          0
+        ],
+        "source_position": 26783
+      },
+      {
+        "cross_encoder_score": -7.780250549316406,
+        "dataset": "QASPER",
+        "end_char": 27021,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "d45d4bcf49a432bdd46335716b1dc96b",
+        "passage_rank": 1,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "9da7a1398d968a50bd3e9b83acdead82",
+        "sentence_text": "These dimensions are aligned/imparted with the concepts that are given in the column headers.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          20,
+          2,
+          0
+        ],
+        "source_position": 26928
+      },
+      {
+        "cross_encoder_score": 0.21730953454971313,
+        "dataset": "QASPER",
+        "end_char": 27445,
+        "pair_tokens_before_truncation": 100,
+        "pair_truncated": false,
+        "passage_id": "d45d4bcf49a432bdd46335716b1dc96b",
+        "passage_rank": 1,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "c3bf45e0a5e80c1b1d4321ca1d0538ab",
+        "sentence_text": "In Table TABREF11 , the words that are highlighted with green denote the words that exist in the corresponding word-group obtained from Roget's Thesaurus (and are thus explicitly forced to achieve increased dimension values), while the red words denote the words that achieve increased dimension values by virtue of their cooccurrence statistics with the thesaurus-based words (indirectly, without being explicitly forced).",
+        "sentence_token_cost": 81,
+        "source_order": [
+          0,
+          20,
+          3,
+          0
+        ],
+        "source_position": 27022
+      },
+      {
+        "cross_encoder_score": 3.8864777088165283,
+        "dataset": "QASPER",
+        "end_char": 27704,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "d45d4bcf49a432bdd46335716b1dc96b",
+        "passage_rank": 1,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "0c3825ff2ad8b25a6896584c32e08bdb",
+        "sentence_text": "This again illustrates that a semantic concept can indeed be coded to a vector dimension provided that a sensible lexical resource is used to guide semantically related words to the desired vector dimension via the proposed objective function in ( SECREF4 ).",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          20,
+          4,
+          0
+        ],
+        "source_position": 27446
+      },
+      {
+        "cross_encoder_score": -4.473222732543945,
+        "dataset": "QASPER",
+        "end_char": 27882,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "d45d4bcf49a432bdd46335716b1dc96b",
+        "passage_rank": 1,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "36a1cc4b25a137992cf75aa38a3726c2",
+        "sentence_text": "Even the words that do not appear in, but are semantically related to, the word-groups that we formed using Roget's Thesaurus, are indirectly affected by the proposed algorithm.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          20,
+          5,
+          0
+        ],
+        "source_position": 27705
+      },
+      {
+        "cross_encoder_score": -10.301849365234375,
+        "dataset": "QASPER",
+        "end_char": 27933,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "d45d4bcf49a432bdd46335716b1dc96b",
+        "passage_rank": 1,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "d056f0f74cc2bada245c22a73ff1cd8d",
+        "sentence_text": "They also reflect the associated concepts at their",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          20,
+          6,
+          0
+        ],
+        "source_position": 27883
+      },
+      {
+        "cross_encoder_score": -10.875100135803223,
+        "dataset": "QASPER",
+        "end_char": 30621,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "ea3a2f7021e92fd11e10a346ce157a53",
+        "passage_rank": 8,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "5baf1810979f3918e64ae7ce4f99989a",
+        "sentence_text": "INLINEFORM8 ) in SEMCAT respectively.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          23,
+          0,
+          0
+        ],
+        "source_position": 30584
+      },
+      {
+        "cross_encoder_score": -10.709683418273926,
+        "dataset": "QASPER",
+        "end_char": 30750,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "ea3a2f7021e92fd11e10a346ce157a53",
+        "passage_rank": 8,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "1d4a6148a7d38d7a3872c1ca2ea7738f",
+        "sentence_text": "INLINEFORM9 is the set of words in the INLINEFORM10 category in SEMCAT and INLINEFORM11 is the number of words in INLINEFORM12 .",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          23,
+          1,
+          0
+        ],
+        "source_position": 30622
+      },
+      {
+        "cross_encoder_score": -6.0722455978393555,
+        "dataset": "QASPER",
+        "end_char": 30876,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "ea3a2f7021e92fd11e10a346ce157a53",
+        "passage_rank": 8,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "b7e63245d43ec29a36aad6991641ea3a",
+        "sentence_text": "INLINEFORM13 corresponds to the minimum number of words required to construct a semantic category (i.e. represent a concept).",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          23,
+          2,
+          0
+        ],
+        "source_position": 30751
+      },
+      {
+        "cross_encoder_score": -4.778733253479004,
+        "dataset": "QASPER",
+        "end_char": 31054,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "ea3a2f7021e92fd11e10a346ce157a53",
+        "passage_rank": 8,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "0bb659d8798594c246306fe13284551b",
+        "sentence_text": "INLINEFORM14 represents the set of INLINEFORM15 words that have the highest ( INLINEFORM16 ) and lowest ( INLINEFORM17 ) values in INLINEFORM18 dimension of the embedding space.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          23,
+          3,
+          0
+        ],
+        "source_position": 30877
+      },
+      {
+        "cross_encoder_score": -11.240760803222656,
+        "dataset": "QASPER",
+        "end_char": 31188,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "ea3a2f7021e92fd11e10a346ce157a53",
+        "passage_rank": 8,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "212f6e6e1db0f7124eb8ee426d259dc3",
+        "sentence_text": "INLINEFORM19 is the intersection operator and INLINEFORM20 is the cardinality operator (number of elements) for the intersecting set.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          23,
+          4,
+          0
+        ],
+        "source_position": 31055
+      },
+      {
+        "cross_encoder_score": -10.477909088134766,
+        "dataset": "QASPER",
+        "end_char": 31363,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "ea3a2f7021e92fd11e10a346ce157a53",
+        "passage_rank": 8,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "830db792b5cb07ed5488f47bb1f2ce7f",
+        "sentence_text": "In ( EQREF17 ), INLINEFORM21 gives the interpretability score for the INLINEFORM22 dimension and INLINEFORM23 gives the average interpretability score of the embedding space.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          23,
+          5,
+          0
+        ],
+        "source_position": 31189
+      },
+      {
+        "cross_encoder_score": -11.004591941833496,
+        "dataset": "QASPER",
+        "end_char": 31590,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "ea3a2f7021e92fd11e10a346ce157a53",
+        "passage_rank": 8,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "2a3da1cde57a1297d950f2c6ec50a5ee",
+        "sentence_text": "Fig. FIGREF18 presents the measured average interpretability scores across dimensions for original GloVe embeddings, for the proposed method and for the other four methods we compare, along with a randomly generated embedding.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          23,
+          6,
+          0
+        ],
+        "source_position": 31364
+      },
+      {
+        "cross_encoder_score": -11.143411636352539,
+        "dataset": "QASPER",
+        "end_char": 31662,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "ea3a2f7021e92fd11e10a346ce157a53",
+        "passage_rank": 8,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "4c5ff612f897a21dd61480f371cf1281",
+        "sentence_text": "Results are calculated for the parameters INLINEFORM0 and INLINEFORM1 .",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          23,
+          7,
+          0
+        ],
+        "source_position": 31591
+      },
+      {
+        "cross_encoder_score": -11.415740966796875,
+        "dataset": "QASPER",
+        "end_char": 31787,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "ea3a2f7021e92fd11e10a346ce157a53",
+        "passage_rank": 8,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "368c44dab620dffaeb756d38f076821e",
+        "sentence_text": "Our proposed method significantly improves the interpretability for all INLINEFORM2 compared to the original GloVe approach.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          23,
+          8,
+          0
+        ],
+        "source_position": 31663
+      },
+      {
+        "cross_encoder_score": -10.06667709350586,
+        "dataset": "QASPER",
+        "end_char": 31791,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "ea3a2f7021e92fd11e10a346ce157a53",
+        "passage_rank": 8,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "f6dbfd97169240187d1008c391d0b4db",
+        "sentence_text": "Our",
+        "sentence_token_cost": 1,
+        "source_order": [
+          0,
+          23,
+          9,
+          0
+        ],
+        "source_position": 31788
+      },
+      {
+        "cross_encoder_score": -11.018951416015625,
+        "dataset": "QASPER",
+        "end_char": 33415,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "de1041ddaef2a0666870ab11685f3771",
+        "passage_rank": 9,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "ee7a9f3186fad8c6d394f1331bf06ed8",
+        "sentence_text": "measures the correlation between word similarity scores obtained from human evaluation (i.e. true similarities) and from word embeddings (usually using cosine similarity).",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          25,
+          0,
+          0
+        ],
+        "source_position": 33244
+      },
+      {
+        "cross_encoder_score": -10.923359870910645,
+        "dataset": "QASPER",
+        "end_char": 33557,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "de1041ddaef2a0666870ab11685f3771",
+        "passage_rank": 9,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "41035963090d6527e347bcaa79d23035",
+        "sentence_text": "In other words, this test quantifies how well the embedding space reflects human judgements in terms of similarities between different words.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          25,
+          1,
+          0
+        ],
+        "source_position": 33416
+      },
+      {
+        "cross_encoder_score": -11.336668014526367,
+        "dataset": "QASPER",
+        "end_char": 33651,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "de1041ddaef2a0666870ab11685f3771",
+        "passage_rank": 9,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "6baf628802c3e3a93de8ed66e9a39850",
+        "sentence_text": "The correlation scores for 13 different similarity test sets are reported in Table TABREF20 .",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          25,
+          2,
+          0
+        ],
+        "source_position": 33558
+      },
+      {
+        "cross_encoder_score": -11.383086204528809,
+        "dataset": "QASPER",
+        "end_char": 33879,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "de1041ddaef2a0666870ab11685f3771",
+        "passage_rank": 9,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "8e234f355b321cbc03e10a464bcb28a0",
+        "sentence_text": "We observe that, let alone a reduction in performance, the obtained scores indicate an almost uniform improvement in the correlation values for the proposed algorithm, outperforming all the alternatives in almost all test sets.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          25,
+          3,
+          0
+        ],
+        "source_position": 33652
+      },
+      {
+        "cross_encoder_score": -11.111015319824219,
+        "dataset": "QASPER",
+        "end_char": 34027,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "de1041ddaef2a0666870ab11685f3771",
+        "passage_rank": 9,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "601428c13c31d2177f573f64f244c6b5",
+        "sentence_text": "Categories from Roget's thesaurus are groupings of words that are similar in some sense which the original embedding algorithm may fail to capture.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          25,
+          4,
+          0
+        ],
+        "source_position": 33880
+      },
+      {
+        "cross_encoder_score": -10.143330574035645,
+        "dataset": "QASPER",
+        "end_char": 34201,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "de1041ddaef2a0666870ab11685f3771",
+        "passage_rank": 9,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "51b1a4902cc7f1f731189a277164f7e0",
+        "sentence_text": "These test results signify that the semantic information injected into the algorithm by the additional cost term is significant enough to result in a measurable improvement.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          25,
+          5,
+          0
+        ],
+        "source_position": 34028
+      },
+      {
+        "cross_encoder_score": -10.641884803771973,
+        "dataset": "QASPER",
+        "end_char": 34406,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "de1041ddaef2a0666870ab11685f3771",
+        "passage_rank": 9,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "099e4f74567baaacc43b110e8f419955",
+        "sentence_text": "It should also be noted that scores obtained by SPINE is unacceptably low on almost all tests indicating that it has achieved its interpretability performance at the cost of losing its semantic functions.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          25,
+          6,
+          0
+        ],
+        "source_position": 34202
+      },
+      {
+        "cross_encoder_score": -11.187036514282227,
+        "dataset": "QASPER",
+        "end_char": 34537,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "de1041ddaef2a0666870ab11685f3771",
+        "passage_rank": 9,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "fc31d0aebd62ac73f9508a43fe4b3ed2",
+        "sentence_text": "Word analogy test is introduced in  and looks for the answers of the questions that are in the form of \"X is to Y, what Z is to ?\"",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          25,
+          7,
+          0
+        ],
+        "source_position": 34407
+      },
+      {
+        "cross_encoder_score": -9.819378852844238,
+        "dataset": "QASPER",
+        "end_char": 34610,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "de1041ddaef2a0666870ab11685f3771",
+        "passage_rank": 9,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "0be8c40fe008a92409ebddcf3585cd40",
+        "sentence_text": "by applying simple arithmetic operations to vectors of words X, Y and Z.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          25,
+          8,
+          0
+        ],
+        "source_position": 34538
+      },
+      {
+        "cross_encoder_score": -8.651899337768555,
+        "dataset": "QASPER",
+        "end_char": 40362,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "2e4febe56f37a7ac1559fb52ab238158",
+        "passage_rank": 7,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "9aa8150eea31b8b61937518cc8feaca1",
+        "sentence_text": "being clustered, sufficiently well-connected words that do not meaningfully belong along with others will be appropriately \"pulled away\" from that group by several words, against the less effective, inappropriate pull of a particular word.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          30,
+          0,
+          0
+        ],
+        "source_position": 40123
+      },
+      {
+        "cross_encoder_score": -11.291618347167969,
+        "dataset": "QASPER",
+        "end_char": 40500,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "2e4febe56f37a7ac1559fb52ab238158",
+        "passage_rank": 7,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "240179421be74ed3343dd20008014177",
+        "sentence_text": "Even though polish with lowercase \"p\" belongs where it is, it is attracting Warsaw to itself through polysemy and this is not meaningful.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          30,
+          1,
+          0
+        ],
+        "source_position": 40363
+      },
+      {
+        "cross_encoder_score": -9.937944412231445,
+        "dataset": "QASPER",
+        "end_char": 40715,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "2e4febe56f37a7ac1559fb52ab238158",
+        "passage_rank": 7,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "51db25718ba6837476f09b30074faff0",
+        "sentence_text": "Perhaps because Warsaw is not a sufficiently well-connected word, it ends being dragged along, although words with greater connectedness to a concept group might have better resisted such inappropriate attractions.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          30,
+          2,
+          0
+        ],
+        "source_position": 40501
+      },
+      {
+        "cross_encoder_score": -11.341827392578125,
+        "dataset": "QASPER",
+        "end_char": 40833,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "2e4febe56f37a7ac1559fb52ab238158",
+        "passage_rank": 7,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "8680e4507110559f20985e928188e8dd",
+        "sentence_text": "In this study, we used the GloVe algorithm as the underlying dense word embedding scheme to demonstrate our approach.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          30,
+          3,
+          0
+        ],
+        "source_position": 40716
+      },
+      {
+        "cross_encoder_score": -11.385603904724121,
+        "dataset": "QASPER",
+        "end_char": 41079,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "2e4febe56f37a7ac1559fb52ab238158",
+        "passage_rank": 7,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "6fb189cdbdc56b398572d8c9870d38e8",
+        "sentence_text": "However, we stress that it is possible for our approach to be extended to other word embedding algorithms which have a learning routine consisting of iterations over cooccurrence records, by making suitable adjustments in the objective function.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          30,
+          4,
+          0
+        ],
+        "source_position": 40834
+      },
+      {
+        "cross_encoder_score": -10.015941619873047,
+        "dataset": "QASPER",
+        "end_char": 41352,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "2e4febe56f37a7ac1559fb52ab238158",
+        "passage_rank": 7,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "15953fcc5aca83350050098d28cf9c0e",
+        "sentence_text": "Since word2vec model is also based on the coocurrences of words in a sliding window through a large corpus, we expect that our approach can also be applied to word2vec after making suitable adjustments, which can be considered as an immediate future work for our approach.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          30,
+          5,
+          0
+        ],
+        "source_position": 41080
+      },
+      {
+        "cross_encoder_score": -2.1791749000549316,
+        "dataset": "QASPER",
+        "end_char": 41524,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "2e4febe56f37a7ac1559fb52ab238158",
+        "passage_rank": 7,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "7373a558065db76822aa263c2e098bc4",
+        "sentence_text": "Although the semantic concepts are encoded in only one direction (positive) within the embedding dimensions, it might be beneficial to pursue future work that also encodes",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          30,
+          6,
+          0
+        ],
+        "source_position": 41353
+      },
+      {
+        "cross_encoder_score": -7.803847789764404,
+        "dataset": "QASPER",
+        "end_char": 41615,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "a6cfee25be080b71521c6bb1e4a7b369",
+        "passage_rank": 2,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "3033ae3c029d6c09314826b8c40dd769",
+        "sentence_text": "opposite concepts, such as good and bad, in two opposite directions of the same dimension.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          31,
+          0,
+          0
+        ],
+        "source_position": 41525
+      },
+      {
+        "cross_encoder_score": -11.180644035339355,
+        "dataset": "QASPER",
+        "end_char": 41790,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "a6cfee25be080b71521c6bb1e4a7b369",
+        "passage_rank": 2,
+        "query_id": "a5e5cda1f6195ab1336855f1e39a609d61326d62",
+        "sentence_id": "d36757667c497ed9b2993a8bc70a90c1",
+        "sentence_text": "The proposed methodology can also be helpful in computational cross-lingual studies, where the similarities are explored across the vector spaces of different languages  ,  .",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          31,
+          1,
+          0
+        ],
+        "source_position": 41616
+      }
+    ],
+    "scoring_seconds": 0.35783613997045904,
+    "source_fingerprint": "532c62085d99c2b1a430907a487443535a0982ac50debb54e7488b7ebe6f847c"
+  }
+}

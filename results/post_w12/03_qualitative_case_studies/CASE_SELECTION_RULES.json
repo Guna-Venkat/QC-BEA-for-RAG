@@ -1,0 +1,11 @@
+{
+  "label": "POST_W12_RETROSPECTIVE_QUALITATIVE_CASE_STUDY",
+  "rules": {
+    "budget_reversal": "strict pairwise method-order inversions with both absolute QA margins >=0.01 (SciFact correctness margins >=1), then largest change in pairwise score margin, then ascending query ID; one query/dataset only if an inversion qualifies",
+    "maximum_disagreement": "largest per-query score spread; for SciFact @256 prefer FIXED-only correct and @1024 V1-only correct among equal spreads; then ascending query ID",
+    "near_tie": "spread <=0.01, max score >0, with token range >=10% budget or minimum pairwise underlying-sentence Jaccard <=0.5; smallest spread, largest allocation difference, highest max score, query ID; prefer unused eligible query; absent eligibility is explicitly flagged",
+    "score": "QA per-query F1; SciFact binary correctness, never per-query macro-F1",
+    "selection_bias": "up to 18 primary case slots plus 3 budget reversals; duplicate query/budget cases are disclosed and frequencies also use unique query/budget units",
+    "v2_rescue": "positive V2\u2212V1 first, largest delta, then number of other methods beating V1, largest spread, query ID; prefer unused query among positive candidates; if none positive explicitly mark no positive rescue"
+  }
+}

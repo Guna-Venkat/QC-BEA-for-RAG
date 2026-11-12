@@ -1,0 +1,1671 @@
+{
+  "checksum": "23f6a107e0765ab4f8552b25d2090ed562f26d608d3c58a5a58af6a12f377110",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "1029"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 82,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "41db294103e9e7c8d73de99e6d3b4d6c35ec81d7f7dde477e328d5cde8d925b3",
+    "query_id": "1029",
+    "scores": [
+      {
+        "cross_encoder_score": -7.013693332672119,
+        "dataset": "SciFact",
+        "end_char": 99,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "8df5f748ce947c7c7f1d9ad0ac61e8d5",
+        "passage_rank": 6,
+        "query_id": "1029",
+        "sentence_id": "2bbdfcecf759203664180865a01f8329",
+        "sentence_text": "CD127 expression inversely correlates with FoxP3 and suppressive function of human CD4+ T reg cells",
+        "sentence_token_cost": 24,
+        "source_order": [
+          45,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.1324896812438965,
+        "dataset": "SciFact",
+        "end_char": 171,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "8df5f748ce947c7c7f1d9ad0ac61e8d5",
+        "passage_rank": 6,
+        "query_id": "1029",
+        "sentence_id": "01dbc8702805aad78ec282bfd34e769a",
+        "sentence_text": "Regulatory T (T reg) cells are critical regulators of immune tolerance.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          45,
+          0,
+          1,
+          0
+        ],
+        "source_position": 100
+      },
+      {
+        "cross_encoder_score": -6.27712345123291,
+        "dataset": "SciFact",
+        "end_char": 271,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "8df5f748ce947c7c7f1d9ad0ac61e8d5",
+        "passage_rank": 6,
+        "query_id": "1029",
+        "sentence_id": "bf9f639cd5b6d6c041b758f5e355a39c",
+        "sentence_text": "Most T reg cells are defined based on expression of CD4, CD25, and the transcription factor, FoxP3.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          45,
+          0,
+          2,
+          0
+        ],
+        "source_position": 172
+      },
+      {
+        "cross_encoder_score": -6.4147491455078125,
+        "dataset": "SciFact",
+        "end_char": 382,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "8df5f748ce947c7c7f1d9ad0ac61e8d5",
+        "passage_rank": 6,
+        "query_id": "1029",
+        "sentence_id": "cdee999758145d84ea11dda9391f194e",
+        "sentence_text": "However, these markers have proven problematic for uniquely defining this specialized T cell subset in humans.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          45,
+          0,
+          3,
+          0
+        ],
+        "source_position": 272
+      },
+      {
+        "cross_encoder_score": -6.356597900390625,
+        "dataset": "SciFact",
+        "end_char": 489,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "8df5f748ce947c7c7f1d9ad0ac61e8d5",
+        "passage_rank": 6,
+        "query_id": "1029",
+        "sentence_id": "bca53db17517eee23055bec38acf6c99",
+        "sentence_text": "We found that the IL-7 receptor (CD127) is down-regulated on a subset of CD4+ T cells in peripheral blood.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          45,
+          0,
+          4,
+          0
+        ],
+        "source_position": 383
+      },
+      {
+        "cross_encoder_score": -7.669624328613281,
+        "dataset": "SciFact",
+        "end_char": 601,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "8df5f748ce947c7c7f1d9ad0ac61e8d5",
+        "passage_rank": 6,
+        "query_id": "1029",
+        "sentence_id": "ebe55781a999f4aaf98f548960e649c4",
+        "sentence_text": "We demonstrate that the majority of these cells are FoxP3+, including those that express low levels or no CD25.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          45,
+          0,
+          5,
+          0
+        ],
+        "source_position": 490
+      },
+      {
+        "cross_encoder_score": -6.934205055236816,
+        "dataset": "SciFact",
+        "end_char": 799,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "8df5f748ce947c7c7f1d9ad0ac61e8d5",
+        "passage_rank": 6,
+        "query_id": "1029",
+        "sentence_id": "7b0b605e53314743e4720336acc8d081",
+        "sentence_text": "A combination of CD4, CD25, and CD127 resulted in a highly purified population of T reg cells accounting for significantly more cells that previously identified based on other cell surface markers.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          45,
+          0,
+          6,
+          0
+        ],
+        "source_position": 602
+      },
+      {
+        "cross_encoder_score": -7.311868190765381,
+        "dataset": "SciFact",
+        "end_char": 868,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "8df5f748ce947c7c7f1d9ad0ac61e8d5",
+        "passage_rank": 6,
+        "query_id": "1029",
+        "sentence_id": "4644eb379a1224af59f59c3fc5b7f626",
+        "sentence_text": "These cells were highly suppressive in functional suppressor assays.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          45,
+          0,
+          7,
+          0
+        ],
+        "source_position": 800
+      },
+      {
+        "cross_encoder_score": -7.46987771987915,
+        "dataset": "SciFact",
+        "end_char": 1139,
+        "pair_tokens_before_truncation": 107,
+        "pair_truncated": false,
+        "passage_id": "8df5f748ce947c7c7f1d9ad0ac61e8d5",
+        "passage_rank": 6,
+        "query_id": "1029",
+        "sentence_id": "92dd66cf6c4498e3110939d79223b2a5",
+        "sentence_text": "In fact, cells separated based solely on CD4 and CD127 expression were anergic and, although representing at least three times the number of cells (including both CD25+CD4+ and CD25\u2212CD4+ T cell subsets), were as suppressive as the \u201cclassic\u201d CD4+CD25hi T reg cell subset.",
+        "sentence_token_cost": 74,
+        "source_order": [
+          45,
+          0,
+          8,
+          0
+        ],
+        "source_position": 869
+      },
+      {
+        "cross_encoder_score": -6.2371344566345215,
+        "dataset": "SciFact",
+        "end_char": 1314,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "8df5f748ce947c7c7f1d9ad0ac61e8d5",
+        "passage_rank": 6,
+        "query_id": "1029",
+        "sentence_id": "db40919076729cbbc07a6f576fce4b48",
+        "sentence_text": "Finally, we show that CD127 can be used to quantitate T reg cell subsets in individuals with type 1 diabetes supporting the use of CD127 as a biomarker for human T reg cells.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          45,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1140
+      },
+      {
+        "cross_encoder_score": -0.7035828232765198,
+        "dataset": "SciFact",
+        "end_char": 82,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "fb52dfd2791712dfd6a9fe4bdb26e73b",
+        "passage_rank": 3,
+        "query_id": "1029",
+        "sentence_id": "20ae81c4d4e27245ac3d494c0ee54751",
+        "sentence_text": "In Vitro\u2013expanded Antigen-specific Regulatory T Cells Suppress Autoimmune Diabetes",
+        "sentence_token_cost": 15,
+        "source_order": [
+          438,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -0.6411017179489136,
+        "dataset": "SciFact",
+        "end_char": 318,
+        "pair_tokens_before_truncation": 87,
+        "pair_truncated": false,
+        "passage_id": "fb52dfd2791712dfd6a9fe4bdb26e73b",
+        "passage_rank": 3,
+        "query_id": "1029",
+        "sentence_id": "534bca615f6c27fa16ae2bb270ff35b2",
+        "sentence_text": "The low number of CD4+ CD25+ regulatory T cells (Tregs), their anergic phenotype, and diverse antigen specificity present major challenges to harnessing this potent tolerogenic population to treat autoimmunity and transplant rejection.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          438,
+          0,
+          1,
+          0
+        ],
+        "source_position": 83
+      },
+      {
+        "cross_encoder_score": -7.673776149749756,
+        "dataset": "SciFact",
+        "end_char": 440,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "fb52dfd2791712dfd6a9fe4bdb26e73b",
+        "passage_rank": 3,
+        "query_id": "1029",
+        "sentence_id": "927a7db837d9058cc4ec0641ba4f6769",
+        "sentence_text": "In this study, we describe a robust method to expand antigen-specific Tregs from autoimmune-prone nonobese diabetic mice.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          438,
+          0,
+          2,
+          0
+        ],
+        "source_position": 319
+      },
+      {
+        "cross_encoder_score": -6.81459379196167,
+        "dataset": "SciFact",
+        "end_char": 585,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "fb52dfd2791712dfd6a9fe4bdb26e73b",
+        "passage_rank": 3,
+        "query_id": "1029",
+        "sentence_id": "7b211050b916e9427231501731f1b0f5",
+        "sentence_text": "Purified CD4+ CD25+ Tregs were expanded up to 200-fold in less than 2 wk in vitro using a combination of anti-CD3, anti-CD28, and interleukin 2.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          438,
+          0,
+          3,
+          0
+        ],
+        "source_position": 441
+      },
+      {
+        "cross_encoder_score": -6.9882426261901855,
+        "dataset": "SciFact",
+        "end_char": 725,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "fb52dfd2791712dfd6a9fe4bdb26e73b",
+        "passage_rank": 3,
+        "query_id": "1029",
+        "sentence_id": "27ee2ba5a0ca7502896694599982ec1a",
+        "sentence_text": "The expanded Tregs express a classical cell surface phenotype and function both in vitro and in vivo to suppress effector T cell functions.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          438,
+          0,
+          4,
+          0
+        ],
+        "source_position": 586
+      },
+      {
+        "cross_encoder_score": -6.173283100128174,
+        "dataset": "SciFact",
+        "end_char": 899,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "fb52dfd2791712dfd6a9fe4bdb26e73b",
+        "passage_rank": 3,
+        "query_id": "1029",
+        "sentence_id": "61d10a494af4a024536291a856b2af50",
+        "sentence_text": "Most significantly, small numbers of antigen-specific Tregs can reverse diabetes after disease onset, suggesting a novel approach to cellular immunotherapy for autoimmunity.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          438,
+          0,
+          5,
+          0
+        ],
+        "source_position": 726
+      },
+      {
+        "cross_encoder_score": -6.200388431549072,
+        "dataset": "SciFact",
+        "end_char": 62,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "3de208a4ddafe8b101f83bac5d5dd299",
+        "passage_rank": 7,
+        "query_id": "1029",
+        "sentence_id": "bdebf8b34de4e4c565f7f490d8e3a220",
+        "sentence_text": "Response to self antigen imprints regulatory memory in tissues",
+        "sentence_token_cost": 10,
+        "source_order": [
+          780,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.3212690353393555,
+        "dataset": "SciFact",
+        "end_char": 262,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "3de208a4ddafe8b101f83bac5d5dd299",
+        "passage_rank": 7,
+        "query_id": "1029",
+        "sentence_id": "5d0ae1f7d5038586e9a9c85b813958ee",
+        "sentence_text": "Immune homeostasis in tissues is achieved through a delicate balance between pathogenic T-cell responses directed at tissue-specific antigens and the ability of the tissue to inhibit these responses.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          780,
+          0,
+          1,
+          0
+        ],
+        "source_position": 63
+      },
+      {
+        "cross_encoder_score": -9.260323524475098,
+        "dataset": "SciFact",
+        "end_char": 396,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "3de208a4ddafe8b101f83bac5d5dd299",
+        "passage_rank": 7,
+        "query_id": "1029",
+        "sentence_id": "7b6788a5e16976b67f192c61ef82df2f",
+        "sentence_text": "The mechanisms by which tissues and the immune system communicate to establish and maintain immune homeostasis are currently unknown.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          780,
+          0,
+          2,
+          0
+        ],
+        "source_position": 263
+      },
+      {
+        "cross_encoder_score": -6.057372570037842,
+        "dataset": "SciFact",
+        "end_char": 625,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "3de208a4ddafe8b101f83bac5d5dd299",
+        "passage_rank": 7,
+        "query_id": "1029",
+        "sentence_id": "47e7b8962b2fd5207d541077414c819e",
+        "sentence_text": "Clinical evidence suggests that chronic or repeated exposure to self antigen within tissues leads to an attenuation of pathological autoimmune responses, possibly as a means to mitigate inflammatory damage and preserve function.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          780,
+          0,
+          3,
+          0
+        ],
+        "source_position": 397
+      },
+      {
+        "cross_encoder_score": -6.783945560455322,
+        "dataset": "SciFact",
+        "end_char": 817,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "3de208a4ddafe8b101f83bac5d5dd299",
+        "passage_rank": 7,
+        "query_id": "1029",
+        "sentence_id": "efe3afd4c7d5ca93b864b7749ec2b336",
+        "sentence_text": "Many human organ-specific autoimmune diseases are characterized by the initial presentation of the disease being the most severe, with subsequent flares being of lesser severity and duration.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          780,
+          0,
+          4,
+          0
+        ],
+        "source_position": 626
+      },
+      {
+        "cross_encoder_score": -7.6973795890808105,
+        "dataset": "SciFact",
+        "end_char": 920,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "3de208a4ddafe8b101f83bac5d5dd299",
+        "passage_rank": 7,
+        "query_id": "1029",
+        "sentence_id": "ed11c7cda2833f7680a86b567c5d352b",
+        "sentence_text": "In fact, these diseases often spontaneously resolve, despite persistent tissue autoantigen expression.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          780,
+          0,
+          5,
+          0
+        ],
+        "source_position": 818
+      },
+      {
+        "cross_encoder_score": -9.691625595092773,
+        "dataset": "SciFact",
+        "end_char": 1124,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "3de208a4ddafe8b101f83bac5d5dd299",
+        "passage_rank": 7,
+        "query_id": "1029",
+        "sentence_id": "b9a4fa513d8ab002c4811959ea3d9b15",
+        "sentence_text": "In the practice of antigen-specific immunotherapy, allergens or self antigens are repeatedly injected in the skin, with a diminution of the inflammatory response occurring after each successive exposure.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          780,
+          0,
+          6,
+          0
+        ],
+        "source_position": 921
+      },
+      {
+        "cross_encoder_score": -5.683944225311279,
+        "dataset": "SciFact",
+        "end_char": 1308,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "3de208a4ddafe8b101f83bac5d5dd299",
+        "passage_rank": 7,
+        "query_id": "1029",
+        "sentence_id": "934f16af04d0de80ad9d404b39ebd751",
+        "sentence_text": "Although these findings indicate that tissues acquire the ability to attenuate autoimmune reactions upon repeated responses to antigens, the mechanism by which this occurs is unknown.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          780,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1125
+      },
+      {
+        "cross_encoder_score": -1.8010247945785522,
+        "dataset": "SciFact",
+        "end_char": 1572,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "3de208a4ddafe8b101f83bac5d5dd299",
+        "passage_rank": 7,
+        "query_id": "1029",
+        "sentence_id": "bab55c8c9ac5a95817489a51e8b8b0be",
+        "sentence_text": "Here we show that upon expression of self antigen in a peripheral tissue, thymus-derived regulatory T cells (Treg cells) become activated, proliferate and differentiate into more potent suppressors, which mediate resolution of organ-specific autoimmunity in mice.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          780,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1309
+      },
+      {
+        "cross_encoder_score": -5.082046985626221,
+        "dataset": "SciFact",
+        "end_char": 1766,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "3de208a4ddafe8b101f83bac5d5dd299",
+        "passage_rank": 7,
+        "query_id": "1029",
+        "sentence_id": "a2fb4d6abbc3506df51cce960ab37206",
+        "sentence_text": "After resolution of the inflammatory response, activated Treg cells are maintained in the target tissue and are primed to attenuate subsequent autoimmune reactions when antigen is re-expressed.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          780,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1573
+      },
+      {
+        "cross_encoder_score": -5.779605865478516,
+        "dataset": "SciFact",
+        "end_char": 1844,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "3de208a4ddafe8b101f83bac5d5dd299",
+        "passage_rank": 7,
+        "query_id": "1029",
+        "sentence_id": "b1bd2259d5ff61f91001fec25f2e2ec4",
+        "sentence_text": "Thus, Treg cells function to confer \u2018regulatory memory\u2019 to the target tissue.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          780,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1767
+      },
+      {
+        "cross_encoder_score": -5.222275257110596,
+        "dataset": "SciFact",
+        "end_char": 2041,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "3de208a4ddafe8b101f83bac5d5dd299",
+        "passage_rank": 7,
+        "query_id": "1029",
+        "sentence_id": "b75000541560ebc3dfabd6d8b222ec4d",
+        "sentence_text": "These findings provide a framework for understanding how Treg cells respond when exposed to self antigen in peripheral tissues and offer mechanistic insight into how tissues regulate autoimmunity.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          780,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1845
+      },
+      {
+        "cross_encoder_score": -3.262035608291626,
+        "dataset": "SciFact",
+        "end_char": 127,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "64fc81908d15abd98318a1fdbfa5aa32",
+        "passage_rank": 9,
+        "query_id": "1029",
+        "sentence_id": "dfdcae31b40e2034d916d405aad3f838",
+        "sentence_text": "The frequency and immunodominance of islet-specific CD8+ T-cell responses change after type 1 diabetes diagnosis and treatment.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          1483,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.612371921539307,
+        "dataset": "SciFact",
+        "end_char": 240,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "64fc81908d15abd98318a1fdbfa5aa32",
+        "passage_rank": 9,
+        "query_id": "1029",
+        "sentence_id": "b03d120a43a0c9e62fb1c8561debbc63",
+        "sentence_text": "OBJECTIVE Islet-reactive CD8(+) T-cells play a key role in the pathogenesis of type 1 diabetes in the NOD mouse.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          1483,
+          0,
+          1,
+          0
+        ],
+        "source_position": 128
+      },
+      {
+        "cross_encoder_score": -4.954104423522949,
+        "dataset": "SciFact",
+        "end_char": 423,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "64fc81908d15abd98318a1fdbfa5aa32",
+        "passage_rank": 9,
+        "query_id": "1029",
+        "sentence_id": "3a238d38973df10478a36f624d18155a",
+        "sentence_text": "The predominant T-cell specificities change over time, but whether similar shifts also occur after clinical diagnosis and insulin treatment in type 1 diabetic patients is unknown.   ",
+        "sentence_token_cost": 32,
+        "source_order": [
+          1483,
+          0,
+          2,
+          0
+        ],
+        "source_position": 241
+      },
+      {
+        "cross_encoder_score": -8.210502624511719,
+        "dataset": "SciFact",
+        "end_char": 451,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "64fc81908d15abd98318a1fdbfa5aa32",
+        "passage_rank": 9,
+        "query_id": "1029",
+        "sentence_id": "e559d451e8d8fffcbe80158d74b9a18f",
+        "sentence_text": "RESEARCH DESIGN AND METHODS",
+        "sentence_token_cost": 5,
+        "source_order": [
+          1483,
+          0,
+          3,
+          0
+        ],
+        "source_position": 424
+      },
+      {
+        "cross_encoder_score": -4.409110069274902,
+        "dataset": "SciFact",
+        "end_char": 882,
+        "pair_tokens_before_truncation": 160,
+        "pair_truncated": false,
+        "passage_id": "64fc81908d15abd98318a1fdbfa5aa32",
+        "passage_rank": 9,
+        "query_id": "1029",
+        "sentence_id": "69cb8cce47c4cb334428edf4c33410c1",
+        "sentence_text": "We took advantage of a recently validated islet-specific CD8(+) T-cell gamma-interferon enzyme-linked immunospot (ISL8Spot) assay to follow responses against preproinsulin (PPI), GAD, insulinoma-associated protein 2 (IA-2), and islet-specific glucose-6-phosphatase catalytic subunit-related protein (IGRP) epitopes in 15 HLA-A2(+) adult type 1 diabetic patients close to diagnosis and at a second time point 7-16 months later.   \n",
+        "sentence_token_cost": 115,
+        "source_order": [
+          1483,
+          0,
+          4,
+          0
+        ],
+        "source_position": 452
+      },
+      {
+        "cross_encoder_score": -3.411243438720703,
+        "dataset": "SciFact",
+        "end_char": 1068,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "64fc81908d15abd98318a1fdbfa5aa32",
+        "passage_rank": 9,
+        "query_id": "1029",
+        "sentence_id": "a031787f0bbef4a6d078d33c59f540a3",
+        "sentence_text": "RESULTS CD8(+) T-cell reactivities were less frequent at follow-up, as 28.6% of responses tested positive at type 1 diabetes diagnosis vs. 13.2% after a median of 11 months (P = 0.003).",
+        "sentence_token_cost": 59,
+        "source_order": [
+          1483,
+          0,
+          5,
+          0
+        ],
+        "source_position": 883
+      },
+      {
+        "cross_encoder_score": -6.546566963195801,
+        "dataset": "SciFact",
+        "end_char": 1260,
+        "pair_tokens_before_truncation": 98,
+        "pair_truncated": false,
+        "passage_id": "64fc81908d15abd98318a1fdbfa5aa32",
+        "passage_rank": 9,
+        "query_id": "1029",
+        "sentence_id": "5efba9c113f35ce41194a5ff76f679a3",
+        "sentence_text": "While GAD and IA-2 autoantibody (aAb) titers were unchanged in 75% of cases, the fraction of patients responding to PPI and/or GAD epitopes by ISL8Spot decreased from 60-67 to 20% (P < 0.02).",
+        "sentence_token_cost": 68,
+        "source_order": [
+          1483,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1069
+      },
+      {
+        "cross_encoder_score": -8.702091217041016,
+        "dataset": "SciFact",
+        "end_char": 1396,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "64fc81908d15abd98318a1fdbfa5aa32",
+        "passage_rank": 9,
+        "query_id": "1029",
+        "sentence_id": "9c88024ea5bd043410650c009ef558c6",
+        "sentence_text": "The previously subdominant IA-2(206-214) and IGRP(265-273) peptides were newly targeted, thus becoming the immunodominant epitopes.   \n",
+        "sentence_token_cost": 45,
+        "source_order": [
+          1483,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1261
+      },
+      {
+        "cross_encoder_score": -5.007111072540283,
+        "dataset": "SciFact",
+        "end_char": 1533,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "64fc81908d15abd98318a1fdbfa5aa32",
+        "passage_rank": 9,
+        "query_id": "1029",
+        "sentence_id": "2ab613773f9bd16063797ef7537f7a36",
+        "sentence_text": "CONCLUSIONS Shifts both in frequency and in immunodominance of CD8(+) T-cell responses occur more rapidly than do changes in aAb titers.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          1483,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1397
+      },
+      {
+        "cross_encoder_score": -6.741698741912842,
+        "dataset": "SciFact",
+        "end_char": 1639,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "64fc81908d15abd98318a1fdbfa5aa32",
+        "passage_rank": 9,
+        "query_id": "1029",
+        "sentence_id": "31c9b9d9f841a2d5f851c79d5d67e05d",
+        "sentence_text": "These different kinetics may suggest complementary clinical applications for T-cell and aAb measurements.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          1483,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1534
+      },
+      {
+        "cross_encoder_score": 2.8170833587646484,
+        "dataset": "SciFact",
+        "end_char": 132,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 1,
+        "query_id": "1029",
+        "sentence_id": "1442f031c60692afcdef0823873fefb9",
+        "sentence_text": "Type 1 diabetes-associated IL2RA variation lowers IL-2 signaling and contributes to diminished CD4+CD25+ regulatory T cell function.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1977,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 2.6413750648498535,
+        "dataset": "SciFact",
+        "end_char": 432,
+        "pair_tokens_before_truncation": 102,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 1,
+        "query_id": "1029",
+        "sentence_id": "782f5a0f0580e38ae2fa32bbe437a990",
+        "sentence_text": "Numerous reports have demonstrated that CD4(+)CD25(+) regulatory T cells (Tregs) from individuals with a range of human autoimmune diseases, including type 1 diabetes, are deficient in their ability to control autologous proinflammatory responses when compared with nondiseased, control individuals.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          1977,
+          0,
+          1,
+          0
+        ],
+        "source_position": 133
+      },
+      {
+        "cross_encoder_score": -8.75104808807373,
+        "dataset": "SciFact",
+        "end_char": 564,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 1,
+        "query_id": "1029",
+        "sentence_id": "d25412d51cc27f2acb0a603ee9f82429",
+        "sentence_text": "Treg dysfunction could be a primary, causal event or may result from perturbations in the immune system during disease development.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          1977,
+          0,
+          2,
+          0
+        ],
+        "source_position": 433
+      },
+      {
+        "cross_encoder_score": -5.254039287567139,
+        "dataset": "SciFact",
+        "end_char": 677,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 1,
+        "query_id": "1029",
+        "sentence_id": "eeb7ce014a6fd912371ed22ca227711f",
+        "sentence_text": "Polymorphisms in genes associated with Treg function, such as IL2RA, confer a higher risk of autoimmune disease.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          1977,
+          0,
+          3,
+          0
+        ],
+        "source_position": 565
+      },
+      {
+        "cross_encoder_score": -7.410172939300537,
+        "dataset": "SciFact",
+        "end_char": 833,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 1,
+        "query_id": "1029",
+        "sentence_id": "6616aa5dc391a1e527c390de0b5fd266",
+        "sentence_text": "Although this suggests a primary role for defective Tregs in autoimmunity, a link between IL2RA gene polymorphisms and Treg function has not been examined.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          1977,
+          0,
+          4,
+          0
+        ],
+        "source_position": 678
+      },
+      {
+        "cross_encoder_score": -6.47005033493042,
+        "dataset": "SciFact",
+        "end_char": 971,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 1,
+        "query_id": "1029",
+        "sentence_id": "0933ae620f5b24092d900232e6ed248a",
+        "sentence_text": "We addressed this by examining the impact of an IL2RA haplotype associated with type 1 diabetes on Treg fitness and suppressive function.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1977,
+          0,
+          5,
+          0
+        ],
+        "source_position": 834
+      },
+      {
+        "cross_encoder_score": -8.725724220275879,
+        "dataset": "SciFact",
+        "end_char": 1068,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 1,
+        "query_id": "1029",
+        "sentence_id": "a1bf84f766c6cde623211c774a8e57de",
+        "sentence_text": "Studies were conducted using healthy human subjects to avoid any confounding effects of disease.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          1977,
+          0,
+          6,
+          0
+        ],
+        "source_position": 972
+      },
+      {
+        "cross_encoder_score": 5.1503143310546875,
+        "dataset": "SciFact",
+        "end_char": 1433,
+        "pair_tokens_before_truncation": 121,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 1,
+        "query_id": "1029",
+        "sentence_id": "9446c65b91a65b0a44ba71572b3fb816",
+        "sentence_text": "We demonstrated that the presence of an autoimmune disease-associated IL2RA haplotype correlates with diminished IL-2 responsiveness in Ag-experienced CD4(+) T cells, as measured by phosphorylation of STAT5a, and is associated with lower levels of FOXP3 expression by Tregs and a reduction in their ability to suppress proliferation of autologous effector T cells.",
+        "sentence_token_cost": 76,
+        "source_order": [
+          1977,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1069
+      },
+      {
+        "cross_encoder_score": -4.654577732086182,
+        "dataset": "SciFact",
+        "end_char": 1671,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 1,
+        "query_id": "1029",
+        "sentence_id": "a29ae779a60ca7faa91631271c811d72",
+        "sentence_text": "These data offer a rationale that contributes to the molecular and cellular mechanisms through which polymorphisms in the IL-2RA gene affect immune regulation, and consequently upon susceptibility to autoimmune and inflammatory diseases.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          1977,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1434
+      },
+      {
+        "cross_encoder_score": 2.7645370960235596,
+        "dataset": "SciFact",
+        "end_char": 87,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "a182ca3f4d7caee6b41659226a43bf9c",
+        "passage_rank": 2,
+        "query_id": "1029",
+        "sentence_id": "fabade4a8f5e98422a943df83e2391f9",
+        "sentence_text": "Interleukin-2 gene variation impairs regulatory T cell function and causes autoimmunity",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2291,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.590924263000488,
+        "dataset": "SciFact",
+        "end_char": 189,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "a182ca3f4d7caee6b41659226a43bf9c",
+        "passage_rank": 2,
+        "query_id": "1029",
+        "sentence_id": "4bc0be916e9d2cab5ae5a81f471a810b",
+        "sentence_text": "Autoimmune diseases are thought to result from imbalances in normal immune physiology and regulation.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          2291,
+          0,
+          1,
+          0
+        ],
+        "source_position": 88
+      },
+      {
+        "cross_encoder_score": 0.4685710370540619,
+        "dataset": "SciFact",
+        "end_char": 392,
+        "pair_tokens_before_truncation": 90,
+        "pair_truncated": false,
+        "passage_id": "a182ca3f4d7caee6b41659226a43bf9c",
+        "passage_rank": 2,
+        "query_id": "1029",
+        "sentence_id": "25531c6f39bead3722ee2c92ae1e3826",
+        "sentence_text": "Here, we show that autoimmune disease susceptibility and resistance alleles on mouse chromosome 3 (Idd3) correlate with differential expression of the key immunoregulatory cytokine interleukin-2 (IL-2).",
+        "sentence_token_cost": 44,
+        "source_order": [
+          2291,
+          0,
+          2,
+          0
+        ],
+        "source_position": 190
+      },
+      {
+        "cross_encoder_score": -1.6819403171539307,
+        "dataset": "SciFact",
+        "end_char": 756,
+        "pair_tokens_before_truncation": 122,
+        "pair_truncated": false,
+        "passage_id": "a182ca3f4d7caee6b41659226a43bf9c",
+        "passage_rank": 2,
+        "query_id": "1029",
+        "sentence_id": "588ddd09580231af8e16d3e83f9bcfab",
+        "sentence_text": "In order to test directly that an approximately twofold reduction in IL-2 underpins the Idd3-linked destabilization of immune homeostasis, we show that engineered haplodeficiency of Il2 gene expression not only reduces T cell IL-2 production by twofold but also mimics the autoimmune dysregulatory effects of the naturally occurring susceptibility alleles of Il2.",
+        "sentence_token_cost": 77,
+        "source_order": [
+          2291,
+          0,
+          3,
+          0
+        ],
+        "source_position": 393
+      },
+      {
+        "cross_encoder_score": -0.010281609371304512,
+        "dataset": "SciFact",
+        "end_char": 939,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "a182ca3f4d7caee6b41659226a43bf9c",
+        "passage_rank": 2,
+        "query_id": "1029",
+        "sentence_id": "2835ca49fbb6ebc9c2e24ae934114562",
+        "sentence_text": "Reduced IL-2 production achieved by either genetic mechanism correlates with reduced function of CD4+ CD25+ regulatory T cells, which are critical for maintaining immune homeostasis.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          2291,
+          0,
+          4,
+          0
+        ],
+        "source_position": 757
+      },
+      {
+        "cross_encoder_score": -8.112099647521973,
+        "dataset": "SciFact",
+        "end_char": 130,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "e7dfc7381f31921434dc9f2fec23c930",
+        "passage_rank": 4,
+        "query_id": "1029",
+        "sentence_id": "ac1925f2f36758f3a123fe787705b5d4",
+        "sentence_text": "Large-scale genetic fine mapping and genotype-phenotype associations implicate polymorphism in the IL2RA region in type 1 diabetes",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2297,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.958314895629883,
+        "dataset": "SciFact",
+        "end_char": 221,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "e7dfc7381f31921434dc9f2fec23c930",
+        "passage_rank": 4,
+        "query_id": "1029",
+        "sentence_id": "5f6c0a565224e5e074dd36bcea8bd5cf",
+        "sentence_text": "Genome-wide association studies are now identifying disease-associated chromosome regions.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          2297,
+          0,
+          1,
+          0
+        ],
+        "source_position": 131
+      },
+      {
+        "cross_encoder_score": -10.41621208190918,
+        "dataset": "SciFact",
+        "end_char": 451,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "e7dfc7381f31921434dc9f2fec23c930",
+        "passage_rank": 4,
+        "query_id": "1029",
+        "sentence_id": "309a0a1e1c45b0f34309ea05aa21e596",
+        "sentence_text": "However, even after convincing replication, the localization of the causal variant(s) requires comprehensive resequencing, extensive genotyping and statistical analyses in large sample sets leading to targeted functional studies.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          2297,
+          0,
+          2,
+          0
+        ],
+        "source_position": 222
+      },
+      {
+        "cross_encoder_score": -2.1026358604431152,
+        "dataset": "SciFact",
+        "end_char": 819,
+        "pair_tokens_before_truncation": 143,
+        "pair_truncated": false,
+        "passage_id": "e7dfc7381f31921434dc9f2fec23c930",
+        "passage_rank": 4,
+        "query_id": "1029",
+        "sentence_id": "198b8898b846e800753e801244553c06",
+        "sentence_text": "Here, we have localized the type 1 diabetes (T1D) association in the interleukin 2 receptor alpha (IL2RA) gene region to two independent groups of SNPs, spanning overlapping regions of 14 and 40 kb, encompassing IL2RA intron 1 and the 5\u2032 regions of IL2RA and RBM17 (odds ratio = 2.04, 95% confidence interval = 1.70\u20132.45; P = 1.92 \u00d7 10\u221228; control frequency = 0.635).",
+        "sentence_token_cost": 131,
+        "source_order": [
+          2297,
+          0,
+          3,
+          0
+        ],
+        "source_position": 452
+      },
+      {
+        "cross_encoder_score": -0.9252012372016907,
+        "dataset": "SciFact",
+        "end_char": 1046,
+        "pair_tokens_before_truncation": 96,
+        "pair_truncated": false,
+        "passage_id": "e7dfc7381f31921434dc9f2fec23c930",
+        "passage_rank": 4,
+        "query_id": "1029",
+        "sentence_id": "de8b673782bd150747dca0a9597bea75",
+        "sentence_text": "Furthermore, we have associated IL2RA T1D susceptibility genotypes with lower circulating levels of the biomarker, soluble IL-2RA (P = 6.28 \u00d7 10\u221228), suggesting that an inherited lower immune responsiveness predisposes to T1D.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          2297,
+          0,
+          4,
+          0
+        ],
+        "source_position": 820
+      },
+      {
+        "cross_encoder_score": -1.6531692743301392,
+        "dataset": "SciFact",
+        "end_char": 92,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "44bfa6b2fe553d56902aa823031afe8c",
+        "passage_rank": 8,
+        "query_id": "1029",
+        "sentence_id": "0dc5530dc348605ea4b3954fef855140",
+        "sentence_text": "Stimulation of CD25+CD4+ regulatory T cells through GITR breaks immunological self-tolerance",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3142,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.8643505573272705,
+        "dataset": "SciFact",
+        "end_char": 203,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "44bfa6b2fe553d56902aa823031afe8c",
+        "passage_rank": 8,
+        "query_id": "1029",
+        "sentence_id": "4d7f5f3c40f8247a304f03a75b8ad8c9",
+        "sentence_text": "CD25+CD4+ regulatory T cells in normal animals are engaged in the maintenance of immunological self-tolerance.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3142,
+          0,
+          1,
+          0
+        ],
+        "source_position": 93
+      },
+      {
+        "cross_encoder_score": -8.856341361999512,
+        "dataset": "SciFact",
+        "end_char": 522,
+        "pair_tokens_before_truncation": 122,
+        "pair_truncated": false,
+        "passage_id": "44bfa6b2fe553d56902aa823031afe8c",
+        "passage_rank": 8,
+        "query_id": "1029",
+        "sentence_id": "de5e2725f49f9dbff7cebd18616450dc",
+        "sentence_text": "We show here that glucocorticoid-induced tumor necrosis factor receptor family\u2013related gene (GITR, also known as TNFRSF18)\u2014a member of the tumor necrosis factor\u2013nerve growth factor (TNF-NGF) receptor gene superfamily\u2014is predominantly expressed on CD25+CD4+ T cells and on CD25+CD4+CD8\u2212 thymocytes in normal na\u00efve mice.",
+        "sentence_token_cost": 89,
+        "source_order": [
+          3142,
+          0,
+          2,
+          0
+        ],
+        "source_position": 204
+      },
+      {
+        "cross_encoder_score": -5.12938928604126,
+        "dataset": "SciFact",
+        "end_char": 605,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "44bfa6b2fe553d56902aa823031afe8c",
+        "passage_rank": 8,
+        "query_id": "1029",
+        "sentence_id": "1847a725e7a4e76913b1a1ba0dbb4e9e",
+        "sentence_text": "We found that stimulation of GITR abrogated CD25+CD4+ T cell\u2013mediated suppression.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3142,
+          0,
+          3,
+          0
+        ],
+        "source_position": 523
+      },
+      {
+        "cross_encoder_score": -5.074945449829102,
+        "dataset": "SciFact",
+        "end_char": 773,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "44bfa6b2fe553d56902aa823031afe8c",
+        "passage_rank": 8,
+        "query_id": "1029",
+        "sentence_id": "eb4b1ecea124dfc123e8b4c558c9f425",
+        "sentence_text": "In addition, removal of GITR-expressing T cells or administration of a monoclonal antibody to GITR produced organ-specific autoimmune disease in otherwise normal mice.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          3142,
+          0,
+          4,
+          0
+        ],
+        "source_position": 606
+      },
+      {
+        "cross_encoder_score": 0.15941208600997925,
+        "dataset": "SciFact",
+        "end_char": 973,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "44bfa6b2fe553d56902aa823031afe8c",
+        "passage_rank": 8,
+        "query_id": "1029",
+        "sentence_id": "6e0c325b865fad5f0d90cae741538433",
+        "sentence_text": "Thus, GITR plays a key role in dominant immunological self-tolerance maintained by CD25+CD4+ regulatory T cells and could be a suitable molecular target for preventing or treating autoimmune disease.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          3142,
+          0,
+          5,
+          0
+        ],
+        "source_position": 774
+      },
+      {
+        "cross_encoder_score": -6.937290668487549,
+        "dataset": "SciFact",
+        "end_char": 102,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "2fe11c1c801c25ae968dc5593c3b1525",
+        "passage_rank": 5,
+        "query_id": "1029",
+        "sentence_id": "45cbf601c9519c8b3c8dd009a687a82e",
+        "sentence_text": "TCR stimulation with modified anti-CD3 mAb expands CD8+ T cell population and induces CD8+CD25+ Tregs.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          3539,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.397707939147949,
+        "dataset": "SciFact",
+        "end_char": 275,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "2fe11c1c801c25ae968dc5593c3b1525",
+        "passage_rank": 5,
+        "query_id": "1029",
+        "sentence_id": "c43ce65931b352bff0975c738874c69d",
+        "sentence_text": "Modified anti-CD3 mAbs are emerging as a possible means of inducing immunologic tolerance in settings including transplantation and autoimmunity such as in type 1 diabetes.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          3539,
+          0,
+          1,
+          0
+        ],
+        "source_position": 103
+      },
+      {
+        "cross_encoder_score": -6.295792102813721,
+        "dataset": "SciFact",
+        "end_char": 498,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "2fe11c1c801c25ae968dc5593c3b1525",
+        "passage_rank": 5,
+        "query_id": "1029",
+        "sentence_id": "0d46373799f2adc1767dc16930a5a528",
+        "sentence_text": "In a trial of a modified anti-CD3 mAb [hOKT3gamma1(Ala-Ala)] in patients with type 1 diabetes, we identified clinical responders by an increase in the number of peripheral blood CD8+ cells following treatment with the mAb.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          3539,
+          0,
+          2,
+          0
+        ],
+        "source_position": 276
+      },
+      {
+        "cross_encoder_score": -3.4453089237213135,
+        "dataset": "SciFact",
+        "end_char": 647,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "2fe11c1c801c25ae968dc5593c3b1525",
+        "passage_rank": 5,
+        "query_id": "1029",
+        "sentence_id": "1e494b40621d59151037103d067af3a6",
+        "sentence_text": "Here we show that the anti-CD3 mAb caused activation of CD8+ T cells that was similar in vitro and in vivo and induced regulatory CD8+CD25+ T cells.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          3539,
+          0,
+          3,
+          0
+        ],
+        "source_position": 499
+      },
+      {
+        "cross_encoder_score": -5.89254903793335,
+        "dataset": "SciFact",
+        "end_char": 731,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "2fe11c1c801c25ae968dc5593c3b1525",
+        "passage_rank": 5,
+        "query_id": "1029",
+        "sentence_id": "62a5be866a54dfd2a4a308e6da9c3e63",
+        "sentence_text": "These cells inhibited the responses of CD4+ cells to the mAb itself and to antigen.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3539,
+          0,
+          4,
+          0
+        ],
+        "source_position": 648
+      },
+      {
+        "cross_encoder_score": -3.863034725189209,
+        "dataset": "SciFact",
+        "end_char": 820,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "2fe11c1c801c25ae968dc5593c3b1525",
+        "passage_rank": 5,
+        "query_id": "1029",
+        "sentence_id": "33d2d806f845a4178da732ee04c17822",
+        "sentence_text": "The regulatory CD8+CD25+ cells were CTLA4 and Foxp3 and required contact for inhibition.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3539,
+          0,
+          5,
+          0
+        ],
+        "source_position": 732
+      },
+      {
+        "cross_encoder_score": -4.095861434936523,
+        "dataset": "SciFact",
+        "end_char": 1036,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "2fe11c1c801c25ae968dc5593c3b1525",
+        "passage_rank": 5,
+        "query_id": "1029",
+        "sentence_id": "248aa139e9e0d349716258ed1d6dcb52",
+        "sentence_text": "Foxp3 was also induced on CD8+ T cells in patients during mAb treatment, which suggests a potential mechanism of the anti-CD3 mAb immune modulatory effects involving induction of a subset of regulatory CD8+ T cells.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          3539,
+          0,
+          6,
+          0
+        ],
+        "source_position": 821
+      },
+      {
+        "cross_encoder_score": -3.7232236862182617,
+        "dataset": "SciFact",
+        "end_char": 114,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "f36bee19271abfa04471eef2d8d5a278",
+        "passage_rank": 10,
+        "query_id": "1029",
+        "sentence_id": "f69bd84818ae7f556978b33c07799494",
+        "sentence_text": "Interaction of TNF with TNF receptor type 2 promotes expansion and function of mouse CD4+CD25+ T regulatory cells.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          4645,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.695044994354248,
+        "dataset": "SciFact",
+        "end_char": 248,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "f36bee19271abfa04471eef2d8d5a278",
+        "passage_rank": 10,
+        "query_id": "1029",
+        "sentence_id": "f4449962a603c96bdd5efd30508de8c0",
+        "sentence_text": "Although TNF is a major proinflammatory cytokine, increasing evidence indicates that TNF also has immunosuppressive feedback effects.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          4645,
+          0,
+          1,
+          0
+        ],
+        "source_position": 115
+      },
+      {
+        "cross_encoder_score": -3.4190409183502197,
+        "dataset": "SciFact",
+        "end_char": 482,
+        "pair_tokens_before_truncation": 97,
+        "pair_truncated": false,
+        "passage_id": "f36bee19271abfa04471eef2d8d5a278",
+        "passage_rank": 10,
+        "query_id": "1029",
+        "sentence_id": "05bccda8f58ce8da5c3b6d384d6e311b",
+        "sentence_text": "We have demonstrated in this study that, in both resting and activated states, mouse peripheral CD4(+)CD25(+) T regulatory cells (Tregs) expressed remarkably higher surface levels of TNFR2 than CD4(+)CD25(-) T effector cells (Teffs).",
+        "sentence_token_cost": 61,
+        "source_order": [
+          4645,
+          0,
+          2,
+          0
+        ],
+        "source_position": 249
+      },
+      {
+        "cross_encoder_score": -9.198573112487793,
+        "dataset": "SciFact",
+        "end_char": 675,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "f36bee19271abfa04471eef2d8d5a278",
+        "passage_rank": 10,
+        "query_id": "1029",
+        "sentence_id": "0db75e1a25e26d82bc3c6b657dd39a1d",
+        "sentence_text": "In cocultures of Tregs and Teffs, inhibition of proliferation of Teffs by Tregs was initially transiently abrogated by exposure to TNF, but longer exposure to TNF restored suppressive effects.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          4645,
+          0,
+          3,
+          0
+        ],
+        "source_position": 483
+      },
+      {
+        "cross_encoder_score": -8.407015800476074,
+        "dataset": "SciFact",
+        "end_char": 746,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "f36bee19271abfa04471eef2d8d5a278",
+        "passage_rank": 10,
+        "query_id": "1029",
+        "sentence_id": "68affa95fbbe87df0f7411dcc98c2981",
+        "sentence_text": "Cytokine production by Teffs remained continually suppressed by Tregs.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          4645,
+          0,
+          4,
+          0
+        ],
+        "source_position": 676
+      },
+      {
+        "cross_encoder_score": -8.367415428161621,
+        "dataset": "SciFact",
+        "end_char": 863,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "f36bee19271abfa04471eef2d8d5a278",
+        "passage_rank": 10,
+        "query_id": "1029",
+        "sentence_id": "17d8c6e686972f5bb869237d6f25de6f",
+        "sentence_text": "The profound anergy of Tregs in response to TCR stimulation was overcome by TNF, which expanded the Treg population.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          4645,
+          0,
+          5,
+          0
+        ],
+        "source_position": 747
+      },
+      {
+        "cross_encoder_score": -7.458911895751953,
+        "dataset": "SciFact",
+        "end_char": 1056,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "f36bee19271abfa04471eef2d8d5a278",
+        "passage_rank": 10,
+        "query_id": "1029",
+        "sentence_id": "4eb0cd4cbe2a41624f3f9262b3ba5274",
+        "sentence_text": "Furthermore, in synergy with IL-2, TNF expanded Tregs even more markedly up-regulated expression of CD25 and FoxP3 and phosphorylation of STAT5, and enhanced the suppressive activity of Tregs.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          4645,
+          0,
+          6,
+          0
+        ],
+        "source_position": 864
+      },
+      {
+        "cross_encoder_score": -9.475776672363281,
+        "dataset": "SciFact",
+        "end_char": 1130,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "f36bee19271abfa04471eef2d8d5a278",
+        "passage_rank": 10,
+        "query_id": "1029",
+        "sentence_id": "a365d4425becb177105f188b1167c75b",
+        "sentence_text": "Unlike TNF, IL-1beta and IL-6 did not up-regulate FoxP3-expressing Tregs.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          4645,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1057
+      },
+      {
+        "cross_encoder_score": -9.833592414855957,
+        "dataset": "SciFact",
+        "end_char": 1268,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "f36bee19271abfa04471eef2d8d5a278",
+        "passage_rank": 10,
+        "query_id": "1029",
+        "sentence_id": "77bc38a155a228487d77514f850aa852",
+        "sentence_text": "Furthermore, the number of Tregs increased in wild-type mice, but not in TNFR2(-/-) mice following sublethal cecal ligation and puncture.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          4645,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1131
+      },
+      {
+        "cross_encoder_score": -9.139769554138184,
+        "dataset": "SciFact",
+        "end_char": 1360,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "f36bee19271abfa04471eef2d8d5a278",
+        "passage_rank": 10,
+        "query_id": "1029",
+        "sentence_id": "e57ffb07f7edca5a0ea83408114fb43b",
+        "sentence_text": "Depletion of Tregs significantly decreased mortality following cecal ligation and puncture.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          4645,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1269
+      },
+      {
+        "cross_encoder_score": -8.991241455078125,
+        "dataset": "SciFact",
+        "end_char": 1547,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "f36bee19271abfa04471eef2d8d5a278",
+        "passage_rank": 10,
+        "query_id": "1029",
+        "sentence_id": "d0e021825fe65b26d9f843b412378b62",
+        "sentence_text": "Thus, the stimulatory effect of TNF on Tregs resembles the reported costimulatory effects of TNF on Teffs, but is even more pronounced because of the higher expression of TNFR2 by Tregs.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          4645,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1361
+      },
+      {
+        "cross_encoder_score": -7.4155473709106445,
+        "dataset": "SciFact",
+        "end_char": 1683,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "f36bee19271abfa04471eef2d8d5a278",
+        "passage_rank": 10,
+        "query_id": "1029",
+        "sentence_id": "a28ede07288c764dfa558daebcf07f22",
+        "sentence_text": "Moreover, our study suggests that the slower response of Tregs than Teffs to TNF results in delayed immunosuppressive feedback effects.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          4645,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1548
+      }
+    ],
+    "scoring_seconds": 0.6709475200623274,
+    "source_fingerprint": "d3bf6bf962146a14950b481f48f58a3750d27680a13154b3839d4cd965b22e74"
+  }
+}

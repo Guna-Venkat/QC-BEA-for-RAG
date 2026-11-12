@@ -1,0 +1,2691 @@
+{
+  "checksum": "7494cdb5ad1c6436a9da4382a7b2958a899df0664953ea2b0945c94e9fe37756",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "6bfba3ddca5101ed15256fca75fcdc95a53cece7"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 133,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "dd6975c4bfbe245144211feac281d6f1ce88bb516b671b171f23a4b809d1c220",
+    "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+    "scores": [
+      {
+        "cross_encoder_score": -5.101709365844727,
+        "dataset": "QASPER",
+        "end_char": 214,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "344ac38f8c6871e30c34dbcd85516506",
+        "passage_rank": 9,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "80bf71125f1cbd894821a4c54089af34",
+        "sentence_text": "Findings of the NLP4IF-2019 Shared Task on Fine-Grained Propaganda Detection\tWe present the shared task on Fine-Grained Propaganda Detection, which was organized as part of the NLP4IF workshop at EMNLP-IJCNLP 2019.",
+        "sentence_token_cost": 66,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.120715141296387,
+        "dataset": "QASPER",
+        "end_char": 239,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "344ac38f8c6871e30c34dbcd85516506",
+        "passage_rank": 9,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "a3d7a747b0834aa37cc63a694d908067",
+        "sentence_text": "There were two subtasks.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 215
+      },
+      {
+        "cross_encoder_score": 3.3466243743896484,
+        "dataset": "QASPER",
+        "end_char": 472,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "344ac38f8c6871e30c34dbcd85516506",
+        "passage_rank": 9,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "3552e60d4e4be78d5a86480421f2c517",
+        "sentence_text": "FLC is a fragment-level task that asks for the identification of propagandist text fragments in a news article and also for the prediction of the specific propaganda technique used in each such fragment (18-way classification task).",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 240
+      },
+      {
+        "cross_encoder_score": -6.308201313018799,
+        "dataset": "QASPER",
+        "end_char": 579,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "344ac38f8c6871e30c34dbcd85516506",
+        "passage_rank": 9,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "a9e4687e5b775c1dabd424131549713b",
+        "sentence_text": "SLC is a sentence-level binary classification task asking to detect the sentences that contain propaganda.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 473
+      },
+      {
+        "cross_encoder_score": -11.378776550292969,
+        "dataset": "QASPER",
+        "end_char": 731,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "344ac38f8c6871e30c34dbcd85516506",
+        "passage_rank": 9,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "c7fdafdd0f988b6f47b5aef0e19cce8a",
+        "sentence_text": "A total of 12 teams submitted systems for the FLC task, 25 teams did so for the SLC task, and 14 teams eventually submitted a system description paper.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 580
+      },
+      {
+        "cross_encoder_score": -11.312424659729004,
+        "dataset": "QASPER",
+        "end_char": 813,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "344ac38f8c6871e30c34dbcd85516506",
+        "passage_rank": 9,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "bd6a037d63b6daf709f7130ec1dac748",
+        "sentence_text": "For both subtasks, most systems managed to beat the baseline by a sizable margin.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 732
+      },
+      {
+        "cross_encoder_score": -11.34184455871582,
+        "dataset": "QASPER",
+        "end_char": 895,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "344ac38f8c6871e30c34dbcd85516506",
+        "passage_rank": 9,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "b9f7565cdd10289d78e73706850a0f6e",
+        "sentence_text": "The leaderboard and the data from the competition are available at this http URL.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 814
+      },
+      {
+        "cross_encoder_score": -1.3715715408325195,
+        "dataset": "QASPER",
+        "end_char": 1006,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "344ac38f8c6871e30c34dbcd85516506",
+        "passage_rank": 9,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "8770fcae9026e42e729426e615e6d6ee",
+        "sentence_text": "Introduction\tPropaganda aims at influencing people's mindset with the purpose of advancing a specific agenda.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 897
+      },
+      {
+        "cross_encoder_score": -4.462352752685547,
+        "dataset": "QASPER",
+        "end_char": 1161,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "344ac38f8c6871e30c34dbcd85516506",
+        "passage_rank": 9,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "b18ddf0c477806c546481eb007eae4e4",
+        "sentence_text": "In the Internet era, thanks to the mechanism of sharing in social networks, propaganda campaigns have the potential of reaching very large audiences , , .",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1007
+      },
+      {
+        "cross_encoder_score": -1.3307219743728638,
+        "dataset": "QASPER",
+        "end_char": 1331,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "17f7997b0744e1c870c0a6993a68743a",
+        "passage_rank": 6,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "98f6767df1c1835930a46049225c93ef",
+        "sentence_text": "Propagandist news articles use specific techniques to convey their message, such as whataboutism, red Herring, and name calling, among many others (cf. Section SECREF3).",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1162
+      },
+      {
+        "cross_encoder_score": -3.208190679550171,
+        "dataset": "QASPER",
+        "end_char": 1470,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "17f7997b0744e1c870c0a6993a68743a",
+        "passage_rank": 6,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "f5ec8f6237e859136382ef5920b9d04e",
+        "sentence_text": "Whereas proving intent is not easy, we can analyse the language of a claim/article and look for the use of specific propaganda techniques.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1332
+      },
+      {
+        "cross_encoder_score": -11.179060935974121,
+        "dataset": "QASPER",
+        "end_char": 1654,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "17f7997b0744e1c870c0a6993a68743a",
+        "passage_rank": 6,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "28dc26b1387f803406f04f3a83a5f3f0",
+        "sentence_text": "Going at this fine-grained level can yield more reliable systems and it also makes it possible to explain to the user why an article was judged as propagandist by an automatic system.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1471
+      },
+      {
+        "cross_encoder_score": -4.7853522300720215,
+        "dataset": "QASPER",
+        "end_char": 1781,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "17f7997b0744e1c870c0a6993a68743a",
+        "passage_rank": 6,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "58ce544d56e7543cac863226aab16c46",
+        "sentence_text": "With this in mind, we organised the shared task on fine-grained propaganda detection at the NLP4IF@EMNLP-IJCNLP 2019 workshop.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1655
+      },
+      {
+        "cross_encoder_score": 4.185417175292969,
+        "dataset": "QASPER",
+        "end_char": 1909,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "17f7997b0744e1c870c0a6993a68743a",
+        "passage_rank": 6,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "121a49c553a65adec6eca37fcca09f5f",
+        "sentence_text": "The task is based on a corpus of news articles annotated with an inventory of 18 propagandist techniques at the fragment level.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 1782
+      },
+      {
+        "cross_encoder_score": -7.217936992645264,
+        "dataset": "QASPER",
+        "end_char": 2015,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "17f7997b0744e1c870c0a6993a68743a",
+        "passage_rank": 6,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "3e2ab877b596dc28d47a93c8d1452891",
+        "sentence_text": "We hope that the corpus would raise interest outside of the community of researchers studying propaganda.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 1910
+      },
+      {
+        "cross_encoder_score": -10.336599349975586,
+        "dataset": "QASPER",
+        "end_char": 2195,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "17f7997b0744e1c870c0a6993a68743a",
+        "passage_rank": 6,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "8e4e06007a089f512235a6307efe7299",
+        "sentence_text": "For example, the techniques related to fallacies and the ones relying on emotions might provide a novel setting for researchers interested in Argumentation and Sentiment Analysis.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2016
+      },
+      {
+        "cross_encoder_score": -4.099884510040283,
+        "dataset": "QASPER",
+        "end_char": 2266,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "17f7997b0744e1c870c0a6993a68743a",
+        "passage_rank": 6,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "c798aa8a896ba3aa7f741c521e19343b",
+        "sentence_text": "Related Work\tPropaganda has been tackled mostly at the article level.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2197
+      },
+      {
+        "cross_encoder_score": -6.601597309112549,
+        "dataset": "QASPER",
+        "end_char": 2351,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "17f7997b0744e1c870c0a6993a68743a",
+        "passage_rank": 6,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "96f039e5ab9ecc6541dbeb3a958125ab",
+        "sentence_text": "created a corpus of news articles labelled as propaganda, trusted, hoax, or satire.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          1,
+          8,
+          0
+        ],
+        "source_position": 2268
+      },
+      {
+        "cross_encoder_score": -9.853926658630371,
+        "dataset": "QASPER",
+        "end_char": 2393,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "17f7997b0744e1c870c0a6993a68743a",
+        "passage_rank": 6,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "1e754d494ea5b04c9a26ca9216f37542",
+        "sentence_text": "experimented with a binarized version of",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          1,
+          9,
+          0
+        ],
+        "source_position": 2353
+      },
+      {
+        "cross_encoder_score": -5.291417121887207,
+        "dataset": "QASPER",
+        "end_char": 2449,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "f9fc0e770c2bda5439cb94587eee70c9",
+        "passage_rank": 5,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "4b16e914f970dbcbbfb41d2be60f2e6c",
+        "sentence_text": "that corpus: propaganda vs. the other three categories.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2394
+      },
+      {
+        "cross_encoder_score": -10.711183547973633,
+        "dataset": "QASPER",
+        "end_char": 2597,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "f9fc0e770c2bda5439cb94587eee70c9",
+        "passage_rank": 5,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "07173b7c7ec042ff16a36dad40bab6fc",
+        "sentence_text": "annotated a large binary corpus of propagandist vs. non-propagandist articles and proposed a feature-based system for discriminating between them.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2451
+      },
+      {
+        "cross_encoder_score": -11.346402168273926,
+        "dataset": "QASPER",
+        "end_char": 2789,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "f9fc0e770c2bda5439cb94587eee70c9",
+        "passage_rank": 5,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "a92f185cfbff5ea3bcdb783f21eba004",
+        "sentence_text": "In all these cases, the labels were obtained using distant supervision, assuming that all articles from a given news outlet share the label of that outlet, which inevitably introduces noise .",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 2598
+      },
+      {
+        "cross_encoder_score": -5.12044095993042,
+        "dataset": "QASPER",
+        "end_char": 2922,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "f9fc0e770c2bda5439cb94587eee70c9",
+        "passage_rank": 5,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "eca0d1b66f7dec33e369ef9ddea279d3",
+        "sentence_text": "A related field is that of computational argumentation which, among others, deals with some logical fallacies related to propaganda.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 2790
+      },
+      {
+        "cross_encoder_score": -11.243806838989258,
+        "dataset": "QASPER",
+        "end_char": 3005,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "f9fc0e770c2bda5439cb94587eee70c9",
+        "passage_rank": 5,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "ca9b097f80f7408746534386062e44d3",
+        "sentence_text": "presented a corpus of Web forum discussions with instances of ad hominem fallacy.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 2924
+      },
+      {
+        "cross_encoder_score": -5.361393928527832,
+        "dataset": "QASPER",
+        "end_char": 3271,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "f9fc0e770c2bda5439cb94587eee70c9",
+        "passage_rank": 5,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "b17967ff858a658f7c4a32a42f3d4099",
+        "sentence_text": ",  introduced Argotario, a game to educate people to recognize and create fallacies, a by-product of which is a corpus with $1.3k$ arguments annotated with five fallacies such as ad hominem, red herring and irrelevant authority, which directly relate to propaganda.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3006
+      },
+      {
+        "cross_encoder_score": 2.2094976902008057,
+        "dataset": "QASPER",
+        "end_char": 3358,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "f9fc0e770c2bda5439cb94587eee70c9",
+        "passage_rank": 5,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "8d8a304065fe1abf5210aee2ec8b9537",
+        "sentence_text": "Unlike , , , our corpus uses 18 techniques annotated on the same set of news articles.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3272
+      },
+      {
+        "cross_encoder_score": -10.716628074645996,
+        "dataset": "QASPER",
+        "end_char": 3486,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "f9fc0e770c2bda5439cb94587eee70c9",
+        "passage_rank": 5,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "86b898e7785f15c8b6b9bfe843adf711",
+        "sentence_text": "Moreover, our annotations aim at identifying the minimal fragments related to a technique instead of flagging entire arguments.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3359
+      },
+      {
+        "cross_encoder_score": -11.37185001373291,
+        "dataset": "QASPER",
+        "end_char": 3639,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "f9fc0e770c2bda5439cb94587eee70c9",
+        "passage_rank": 5,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "ba4dd77806b96dd830678ab72fd5ca9c",
+        "sentence_text": "The most relevant related work is our own, which is published in parallel to this paper at EMNLP-IJCNLP 2019  and describes a corpus that is a subset of",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 3487
+      },
+      {
+        "cross_encoder_score": -10.566080093383789,
+        "dataset": "QASPER",
+        "end_char": 3674,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "ba8c1863748878b281908823d9526091",
+        "sentence_text": "the one used for this shared task.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 3640
+      },
+      {
+        "cross_encoder_score": 3.76617431640625,
+        "dataset": "QASPER",
+        "end_char": 3779,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "5f94fff3accc8343913f26e7bce751c9",
+        "sentence_text": "Propaganda Techniques\tPropaganda uses psychological and rhetorical techniques to achieve its objective.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 3676
+      },
+      {
+        "cross_encoder_score": -8.288851737976074,
+        "dataset": "QASPER",
+        "end_char": 3856,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "865ef1971805f1f6ca8b47978e0124be",
+        "sentence_text": "Such techniques include the use of logical fallacies and appeal to emotions.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 3780
+      },
+      {
+        "cross_encoder_score": 3.2466208934783936,
+        "dataset": "QASPER",
+        "end_char": 4043,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "9400a5506e36c35b033c318dc517afc3",
+        "sentence_text": "For the shared task, we use 18 techniques that can be found in news articles and can be judged intrinsically, without the need to retrieve supporting information from external resources.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 3857
+      },
+      {
+        "cross_encoder_score": 1.8070846796035767,
+        "dataset": "QASPER",
+        "end_char": 4154,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "e154f5ee8eed76e67fb0baa4f0d0e47b",
+        "sentence_text": "We refer the reader to  for more details on the propaganda techniques; below we report the list of techniques:",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 4044
+      },
+      {
+        "cross_encoder_score": 1.9726974964141846,
+        "dataset": "QASPER",
+        "end_char": 4184,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "6d48c72bd203167a220f40bba945e5e6",
+        "sentence_text": "Propaganda Techniques ::: 1.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 4156
+      },
+      {
+        "cross_encoder_score": -11.2075777053833,
+        "dataset": "QASPER",
+        "end_char": 4201,
+        "pair_tokens_before_truncation": 13,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "7e3a90f23c29348125ad676767d65e3e",
+        "sentence_text": "Loaded language.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 4185
+      },
+      {
+        "cross_encoder_score": -11.221709251403809,
+        "dataset": "QASPER",
+        "end_char": 4306,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "9de7d97c2bbef2e32635d5a16bfebc80",
+        "sentence_text": "Using words/phrases with strong emotional implications (positive or negative) to influence an audience .",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 4202
+      },
+      {
+        "cross_encoder_score": 1.7773160934448242,
+        "dataset": "QASPER",
+        "end_char": 4336,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "a56a8bee25579a77ae3564a30a3d002d",
+        "sentence_text": "Propaganda Techniques ::: 2.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          3,
+          8,
+          0
+        ],
+        "source_position": 4308
+      },
+      {
+        "cross_encoder_score": -11.330150604248047,
+        "dataset": "QASPER",
+        "end_char": 4362,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "7b433dfc2093940b25cd4ceadc3f82f0",
+        "sentence_text": "Name calling or labeling.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          3,
+          9,
+          0
+        ],
+        "source_position": 4337
+      },
+      {
+        "cross_encoder_score": -5.098740100860596,
+        "dataset": "QASPER",
+        "end_char": 4497,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "3db6d44c9565d2ef0db9501a6d2e7aaf",
+        "sentence_text": "Labeling the object of the propaganda as something the target audience fears, hates, finds undesirable or otherwise loves or praises .",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          3,
+          10,
+          0
+        ],
+        "source_position": 4363
+      },
+      {
+        "cross_encoder_score": 2.0095443725585938,
+        "dataset": "QASPER",
+        "end_char": 4527,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "63e4277492202ddd84f8d445e28d1ee5",
+        "sentence_text": "Propaganda Techniques ::: 3.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          3,
+          11,
+          0
+        ],
+        "source_position": 4499
+      },
+      {
+        "cross_encoder_score": -10.441774368286133,
+        "dataset": "QASPER",
+        "end_char": 4539,
+        "pair_tokens_before_truncation": 12,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "24a255fd3cf373b258cf8cd019dba010",
+        "sentence_text": "Repetition.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          3,
+          12,
+          0
+        ],
+        "source_position": 4528
+      },
+      {
+        "cross_encoder_score": -10.787156105041504,
+        "dataset": "QASPER",
+        "end_char": 4638,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "e779a347092d562ad5f47c9cce0fe8ca",
+        "sentence_text": "Repeating the same message over and over again, so that the audience will eventually accept it , .",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          3,
+          13,
+          0
+        ],
+        "source_position": 4540
+      },
+      {
+        "cross_encoder_score": 2.838059902191162,
+        "dataset": "QASPER",
+        "end_char": 4668,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "1efc3ff3186f03fe8eb9b651fbfc31c5",
+        "sentence_text": "Propaganda Techniques ::: 4.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          3,
+          14,
+          0
+        ],
+        "source_position": 4640
+      },
+      {
+        "cross_encoder_score": -10.795623779296875,
+        "dataset": "QASPER",
+        "end_char": 4698,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "34d9ade8e9633b9e9fc9a16a39c68bf3",
+        "sentence_text": "Exaggeration or minimization.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          3,
+          15,
+          0
+        ],
+        "source_position": 4669
+      },
+      {
+        "cross_encoder_score": -11.187188148498535,
+        "dataset": "QASPER",
+        "end_char": 4907,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "ceb069457d684faccb481d8be0f67034",
+        "passage_rank": 1,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "13a5f185410bc17bba915a1d8625f0f5",
+        "sentence_text": "Either representing something in an excessive manner: making things larger, better, worse, or making something seem less important or smaller than it actually is , e.g., saying that an insult was just a joke.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          3,
+          16,
+          0
+        ],
+        "source_position": 4699
+      },
+      {
+        "cross_encoder_score": 2.747016668319702,
+        "dataset": "QASPER",
+        "end_char": 4937,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "cd6f31b24b4d25f086e5ebae2f723721",
+        "sentence_text": "Propaganda Techniques ::: 5.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "source_position": 4909
+      },
+      {
+        "cross_encoder_score": -10.395326614379883,
+        "dataset": "QASPER",
+        "end_char": 4944,
+        "pair_tokens_before_truncation": 12,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "24334f214b5c81a64133c252cd15c045",
+        "sentence_text": "Doubt.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "source_position": 4938
+      },
+      {
+        "cross_encoder_score": -10.764904975891113,
+        "dataset": "QASPER",
+        "end_char": 4997,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "39a74c6c2c8dd9c2af965d8e3cfc3716",
+        "sentence_text": "Questioning the credibility of someone or something.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "source_position": 4945
+      },
+      {
+        "cross_encoder_score": 2.8451290130615234,
+        "dataset": "QASPER",
+        "end_char": 5027,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "4b36d0aaaeda055769748bc42398dc17",
+        "sentence_text": "Propaganda Techniques ::: 6.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "source_position": 4999
+      },
+      {
+        "cross_encoder_score": -11.119046211242676,
+        "dataset": "QASPER",
+        "end_char": 5053,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "234ffd6ff2c1c494377779b9abe38941",
+        "sentence_text": "Appeal to fear/prejudice.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "source_position": 5028
+      },
+      {
+        "cross_encoder_score": -10.972620010375977,
+        "dataset": "QASPER",
+        "end_char": 5209,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "b90a2920c55eca7e41824f77705ae12b",
+        "sentence_text": "Seeking to build support for an idea by instilling anxiety and/or panic in the population towards an alternative, possibly based on preconceived judgments.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          4,
+          5,
+          0
+        ],
+        "source_position": 5054
+      },
+      {
+        "cross_encoder_score": 2.559131145477295,
+        "dataset": "QASPER",
+        "end_char": 5239,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "06d628eefd3a8f9b0f31d88dc27670f4",
+        "sentence_text": "Propaganda Techniques ::: 7.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          4,
+          6,
+          0
+        ],
+        "source_position": 5211
+      },
+      {
+        "cross_encoder_score": -10.545038223266602,
+        "dataset": "QASPER",
+        "end_char": 5252,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "e245ddf763a21a65542425b7cd710db1",
+        "sentence_text": "Flag-waving.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          4,
+          7,
+          0
+        ],
+        "source_position": 5240
+      },
+      {
+        "cross_encoder_score": -10.94931411743164,
+        "dataset": "QASPER",
+        "end_char": 5400,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "0f846bcd36568aa9a60b434817ab0fe5",
+        "sentence_text": "Playing on strong national feeling (or with respect to a group, e.g., race, gender, political preference) to justify or promote an action or idea .",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          4,
+          8,
+          0
+        ],
+        "source_position": 5253
+      },
+      {
+        "cross_encoder_score": 2.425691604614258,
+        "dataset": "QASPER",
+        "end_char": 5430,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "89f6fd9e1d2d951d6594953019c2564e",
+        "sentence_text": "Propaganda Techniques ::: 8.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          4,
+          9,
+          0
+        ],
+        "source_position": 5402
+      },
+      {
+        "cross_encoder_score": -11.205617904663086,
+        "dataset": "QASPER",
+        "end_char": 5457,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "8c5cb9e4e725d401166495e7fd3103cd",
+        "sentence_text": "Causal oversimplification.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          4,
+          10,
+          0
+        ],
+        "source_position": 5431
+      },
+      {
+        "cross_encoder_score": -11.385424613952637,
+        "dataset": "QASPER",
+        "end_char": 5524,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "070096c3831570bca5aef84e1aa4bab9",
+        "sentence_text": "Assuming one cause when there are multiple causes behind an issue.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          4,
+          11,
+          0
+        ],
+        "source_position": 5458
+      },
+      {
+        "cross_encoder_score": -11.104850769042969,
+        "dataset": "QASPER",
+        "end_char": 5668,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "828430be831501e9f6db8fa7556b2c93",
+        "sentence_text": "We include scapegoating as well: the transfer of the blame to one person or group of people without investigating the complexities of an issue.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          4,
+          12,
+          0
+        ],
+        "source_position": 5525
+      },
+      {
+        "cross_encoder_score": 2.9657132625579834,
+        "dataset": "QASPER",
+        "end_char": 5698,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "49fc5e00974e96231b19d2772f8c2175",
+        "sentence_text": "Propaganda Techniques ::: 9.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          4,
+          13,
+          0
+        ],
+        "source_position": 5670
+      },
+      {
+        "cross_encoder_score": -10.957911491394043,
+        "dataset": "QASPER",
+        "end_char": 5707,
+        "pair_tokens_before_truncation": 13,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "2c01db18167bd1307cfbb88b86ba48f8",
+        "sentence_text": "Slogans.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          4,
+          14,
+          0
+        ],
+        "source_position": 5699
+      },
+      {
+        "cross_encoder_score": -11.286654472351074,
+        "dataset": "QASPER",
+        "end_char": 5779,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "92c4fc8ae2ccb4788c5f0b193cd3e0cf",
+        "sentence_text": "A brief and striking phrase that may include labeling and stereotyping.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          4,
+          15,
+          0
+        ],
+        "source_position": 5708
+      },
+      {
+        "cross_encoder_score": -11.333941459655762,
+        "dataset": "QASPER",
+        "end_char": 5822,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "078528c7ba5ad2ca282fb7b9b2d01f20",
+        "sentence_text": "Slogans tend to act as emotional appeals .",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          4,
+          16,
+          0
+        ],
+        "source_position": 5780
+      },
+      {
+        "cross_encoder_score": 3.000938892364502,
+        "dataset": "QASPER",
+        "end_char": 5853,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "0c27de300e0caf5693167dceafd0ca50",
+        "sentence_text": "Propaganda Techniques ::: 10.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          4,
+          17,
+          0
+        ],
+        "source_position": 5824
+      },
+      {
+        "cross_encoder_score": -11.014147758483887,
+        "dataset": "QASPER",
+        "end_char": 5874,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "35482da2c8b3cb612643e0c1511284fc",
+        "sentence_text": "Appeal to authority.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          4,
+          18,
+          0
+        ],
+        "source_position": 5854
+      },
+      {
+        "cross_encoder_score": -11.37832260131836,
+        "dataset": "QASPER",
+        "end_char": 6009,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "63cd0fcbb5c55cb97629b176f1cce97e",
+        "sentence_text": "Stating that a claim is true simply because a valid authority/expert on the issue supports it, without any other supporting evidence .",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          4,
+          19,
+          0
+        ],
+        "source_position": 5875
+      },
+      {
+        "cross_encoder_score": -11.343382835388184,
+        "dataset": "QASPER",
+        "end_char": 6067,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "2cbe7f8ba4b08ba87289e0a0c855c7da",
+        "passage_rank": 3,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "95c3359ae54d151b2d1dba2b1c89945b",
+        "sentence_text": "We include the special case where the reference is not an",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          4,
+          20,
+          0
+        ],
+        "source_position": 6010
+      },
+      {
+        "cross_encoder_score": -11.15028190612793,
+        "dataset": "QASPER",
+        "end_char": 6147,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "c402df448faf668c4c89730b87f9b33b",
+        "sentence_text": "authority/expert, although it is referred to as testimonial in the literature .",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 6068
+      },
+      {
+        "cross_encoder_score": 3.6442177295684814,
+        "dataset": "QASPER",
+        "end_char": 6178,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "1a11c946c35ec5a94b9dbcc0dfdacf47",
+        "sentence_text": "Propaganda Techniques ::: 11.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 6149
+      },
+      {
+        "cross_encoder_score": -11.057831764221191,
+        "dataset": "QASPER",
+        "end_char": 6217,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "a1b75d5227040501dcd8a11e5a5eb47e",
+        "sentence_text": "Black-and-white fallacy, dictatorship.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 6179
+      },
+      {
+        "cross_encoder_score": -11.297175407409668,
+        "dataset": "QASPER",
+        "end_char": 6319,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "761bbbfeddd45f7ec0f11155866b641c",
+        "sentence_text": "Presenting two alternative options as the only possibilities, when in fact more possibilities exist .",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 6218
+      },
+      {
+        "cross_encoder_score": -10.916013717651367,
+        "dataset": "QASPER",
+        "end_char": 6444,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "182e900ad6bd7dafbee6a931989ff630",
+        "sentence_text": "As an extreme case, telling the audience exactly what actions to take, eliminating any other possible choice (dictatorship).",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 6320
+      },
+      {
+        "cross_encoder_score": 2.4016551971435547,
+        "dataset": "QASPER",
+        "end_char": 6475,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "cf00f5f73c27e5919a0998daf5fb5fb6",
+        "sentence_text": "Propaganda Techniques ::: 12.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 6446
+      },
+      {
+        "cross_encoder_score": -11.255125045776367,
+        "dataset": "QASPER",
+        "end_char": 6503,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "b3f4d31848302d1ea3a9cdf32b00774a",
+        "sentence_text": "Thought-terminating clich\u00e9.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 6476
+      },
+      {
+        "cross_encoder_score": -11.32982349395752,
+        "dataset": "QASPER",
+        "end_char": 6600,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "60905c02b03e7eec9f73ed20eba890e6",
+        "sentence_text": "Words or phrases that discourage critical thought and meaningful discussion about a given topic.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 6504
+      },
+      {
+        "cross_encoder_score": -11.121125221252441,
+        "dataset": "QASPER",
+        "end_char": 6766,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "76a7345e25b8fd2b38e20c404843a689",
+        "sentence_text": "They are typically short and generic sentences that offer seemingly simple answers to complex questions or that distract attention away from other lines of thought .",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          5,
+          8,
+          0
+        ],
+        "source_position": 6601
+      },
+      {
+        "cross_encoder_score": 3.184570550918579,
+        "dataset": "QASPER",
+        "end_char": 6797,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "8e05db7bc67fd0eb3526fc1bb6c24fa1",
+        "sentence_text": "Propaganda Techniques ::: 13.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          5,
+          9,
+          0
+        ],
+        "source_position": 6768
+      },
+      {
+        "cross_encoder_score": -10.395076751708984,
+        "dataset": "QASPER",
+        "end_char": 6811,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "7d6a356593734f5e5f6fdd031f1c7cc7",
+        "sentence_text": "Whataboutism.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          5,
+          10,
+          0
+        ],
+        "source_position": 6798
+      },
+      {
+        "cross_encoder_score": -11.026867866516113,
+        "dataset": "QASPER",
+        "end_char": 6921,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "f0bb851e09dd0fcaa2887015a30e5ffb",
+        "sentence_text": "Discredit an opponent's position by charging them with hypocrisy without directly disproving their argument .",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          5,
+          11,
+          0
+        ],
+        "source_position": 6812
+      },
+      {
+        "cross_encoder_score": 2.9446520805358887,
+        "dataset": "QASPER",
+        "end_char": 6952,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "e18487e65c671e615a957d766afb2710",
+        "sentence_text": "Propaganda Techniques ::: 14.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          5,
+          12,
+          0
+        ],
+        "source_position": 6923
+      },
+      {
+        "cross_encoder_score": -10.52011489868164,
+        "dataset": "QASPER",
+        "end_char": 6974,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "08291c3c09de936b4cc13f389730d58a",
+        "sentence_text": "Reductio ad Hitlerum.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          5,
+          13,
+          0
+        ],
+        "source_position": 6953
+      },
+      {
+        "cross_encoder_score": -10.113638877868652,
+        "dataset": "QASPER",
+        "end_char": 7122,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "f83f6f655cec173e385a80665e0feff3",
+        "sentence_text": "Persuading an audience to disapprove an action or idea by suggesting that the idea is popular with groups hated in contempt by the target audience.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          5,
+          14,
+          0
+        ],
+        "source_position": 6975
+      },
+      {
+        "cross_encoder_score": -11.309918403625488,
+        "dataset": "QASPER",
+        "end_char": 7190,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "85184d9f81693d3285247fd7d9c5cafd",
+        "sentence_text": "It can refer to any person or concept with a negative connotation .",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          5,
+          15,
+          0
+        ],
+        "source_position": 7123
+      },
+      {
+        "cross_encoder_score": 3.1290884017944336,
+        "dataset": "QASPER",
+        "end_char": 7221,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "019a4f89db76a663a08fa76a1f98ef7f",
+        "sentence_text": "Propaganda Techniques ::: 15.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          5,
+          16,
+          0
+        ],
+        "source_position": 7192
+      },
+      {
+        "cross_encoder_score": -11.006996154785156,
+        "dataset": "QASPER",
+        "end_char": 7234,
+        "pair_tokens_before_truncation": 13,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "acde7337c46c899e6ab37e5d61a6dafb",
+        "sentence_text": "Red herring.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          5,
+          17,
+          0
+        ],
+        "source_position": 7222
+      },
+      {
+        "cross_encoder_score": -11.218180656433105,
+        "dataset": "QASPER",
+        "end_char": 7337,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "af41807390290aa9542255d6430f4b17",
+        "passage_rank": 2,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "c0dddcca607a9c73e521b9e45c82b61c",
+        "sentence_text": "Introducing irrelevant material to the issue being discussed, so that everyone's attention is diverted",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          5,
+          18,
+          0
+        ],
+        "source_position": 7235
+      },
+      {
+        "cross_encoder_score": -10.938169479370117,
+        "dataset": "QASPER",
+        "end_char": 7365,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "e2aabaa06eb0598b3801f8e374955d8b",
+        "sentence_text": "away from the points made .",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 7338
+      },
+      {
+        "cross_encoder_score": -11.299022674560547,
+        "dataset": "QASPER",
+        "end_char": 7622,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "424fc5e090625733be83089377c66f4d",
+        "sentence_text": "Those subjected to a red herring argument are led away from the issue that had been the focus of the discussion and urged to follow an observation or claim that may be associated with the original claim, but is not highly relevant to the issue in dispute .",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 7366
+      },
+      {
+        "cross_encoder_score": 4.464940071105957,
+        "dataset": "QASPER",
+        "end_char": 7653,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "a7587f25ed337fe8da886f92e037b3f3",
+        "sentence_text": "Propaganda Techniques ::: 16.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 7624
+      },
+      {
+        "cross_encoder_score": -10.900819778442383,
+        "dataset": "QASPER",
+        "end_char": 7664,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "fe9e6b509dded386580116ae128ee5be",
+        "sentence_text": "Bandwagon.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 7654
+      },
+      {
+        "cross_encoder_score": -9.465863227844238,
+        "dataset": "QASPER",
+        "end_char": 7800,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "16a9aa9d44a23822955007b66f838a79",
+        "sentence_text": "Attempting to persuade the target audience to join in and take the course of action because \u201ceveryone else is taking the same action\u201d .",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 7665
+      },
+      {
+        "cross_encoder_score": 5.025140285491943,
+        "dataset": "QASPER",
+        "end_char": 7831,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "fe16b4a9375a46bc0f86f4eb3a4b697c",
+        "sentence_text": "Propaganda Techniques ::: 17.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 7802
+      },
+      {
+        "cross_encoder_score": -10.865729331970215,
+        "dataset": "QASPER",
+        "end_char": 7878,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "64b21908aeeba1784fcd54359718f805",
+        "sentence_text": "Obfuscation, intentional vagueness, confusion.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 7832
+      },
+      {
+        "cross_encoder_score": -11.070833206176758,
+        "dataset": "QASPER",
+        "end_char": 7964,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "3434dc945c7d47e330f44d9eadd27841",
+        "sentence_text": "Using deliberately unclear words, to let the audience have its own interpretation , .",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 7879
+      },
+      {
+        "cross_encoder_score": -11.42326545715332,
+        "dataset": "QASPER",
+        "end_char": 8120,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "0ecb393326493af2cd8fa33c07294b8c",
+        "sentence_text": "For instance, when an unclear phrase with multiple possible meanings is used within the argument and, therefore, it does not really support the conclusion.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 7965
+      },
+      {
+        "cross_encoder_score": 7.115680694580078,
+        "dataset": "QASPER",
+        "end_char": 8151,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "c0b3c75803202af0515fbf4f4f5dec16",
+        "sentence_text": "Propaganda Techniques ::: 18.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          6,
+          9,
+          0
+        ],
+        "source_position": 8122
+      },
+      {
+        "cross_encoder_score": -10.954496383666992,
+        "dataset": "QASPER",
+        "end_char": 8162,
+        "pair_tokens_before_truncation": 13,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "8cc45968b5d3a51a03266be4658961c4",
+        "sentence_text": "Straw man.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          6,
+          10,
+          0
+        ],
+        "source_position": 8152
+      },
+      {
+        "cross_encoder_score": -11.187131881713867,
+        "dataset": "QASPER",
+        "end_char": 8276,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "cda36c30244ce053c69c6c29878d3a37",
+        "sentence_text": "When an opponent's proposition is substituted with a similar one which is then refuted in place of the original .",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          6,
+          11,
+          0
+        ],
+        "source_position": 8163
+      },
+      {
+        "cross_encoder_score": -11.414390563964844,
+        "dataset": "QASPER",
+        "end_char": 8322,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "8657823d0bda68dfe031bfde24a13461",
+        "sentence_text": "Tasks\tThe shared task features two subtasks:",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          6,
+          12,
+          0
+        ],
+        "source_position": 8278
+      },
+      {
+        "cross_encoder_score": -11.386500358581543,
+        "dataset": "QASPER",
+        "end_char": 8375,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "1ca6ee274c886849dc4ed0e326b11182",
+        "sentence_text": "Tasks ::: Fragment-Level Classification task (FLC).",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          6,
+          13,
+          0
+        ],
+        "source_position": 8324
+      },
+      {
+        "cross_encoder_score": -0.3178423047065735,
+        "dataset": "QASPER",
+        "end_char": 8467,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "a733496828f541bf51eddba86e1b32a8",
+        "sentence_text": "Given a news article, detect all spans of the text in which a propaganda technique is used.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          6,
+          14,
+          0
+        ],
+        "source_position": 8376
+      },
+      {
+        "cross_encoder_score": 0.7133755087852478,
+        "dataset": "QASPER",
+        "end_char": 8547,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "df7272623a4aa43cbb2ea044e3299c77",
+        "sentence_text": "In addition, for each span the propaganda technique applied must be identified.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          6,
+          15,
+          0
+        ],
+        "source_position": 8468
+      },
+      {
+        "cross_encoder_score": -11.393211364746094,
+        "dataset": "QASPER",
+        "end_char": 8593,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "ef5e5e27658423327d5a6c85bc770596",
+        "passage_rank": 4,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "2ba06d285388b6cdcde7a75df5c130ac",
+        "sentence_text": "Tasks ::: Sentence-Level Classification task",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          6,
+          16,
+          0
+        ],
+        "source_position": 8549
+      },
+      {
+        "cross_encoder_score": -10.315638542175293,
+        "dataset": "QASPER",
+        "end_char": 8600,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "1293a3334075e863bd0b483e856fc534",
+        "passage_rank": 7,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "1086ea3453f86a9af7278de0bcb083da",
+        "sentence_text": "(SLC).",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 8594
+      },
+      {
+        "cross_encoder_score": -11.038352966308594,
+        "dataset": "QASPER",
+        "end_char": 8689,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "1293a3334075e863bd0b483e856fc534",
+        "passage_rank": 7,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "0e2745535206948845c496487123db07",
+        "sentence_text": "A sentence is considered propagandist if it contains at least one propagandist fragment.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 8601
+      },
+      {
+        "cross_encoder_score": -7.392977237701416,
+        "dataset": "QASPER",
+        "end_char": 8837,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "1293a3334075e863bd0b483e856fc534",
+        "passage_rank": 7,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "db97035b8cf24450e24195f7bff56fcf",
+        "sentence_text": "We then define a binary classification task in which, given a sentence, the correct label, either propaganda or non-propaganda, is to be predicted.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 8690
+      },
+      {
+        "cross_encoder_score": -10.869241714477539,
+        "dataset": "QASPER",
+        "end_char": 9030,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "1293a3334075e863bd0b483e856fc534",
+        "passage_rank": 7,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "af26b15cec333ca00b4a68fbeaf15b3b",
+        "sentence_text": "Data\tThe input for both tasks consists of news articles in free-text format, collected from 36 propagandist and 12 non-propagandist news outlets and then annotated by professional annotators.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 8839
+      },
+      {
+        "cross_encoder_score": -11.381988525390625,
+        "dataset": "QASPER",
+        "end_char": 9233,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "1293a3334075e863bd0b483e856fc534",
+        "passage_rank": 7,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "edab343c1e0eca811dd6e2c344c982a6",
+        "sentence_text": "More details about the data collection and the annotation, as well as statistics about the corpus can be found in , where an earlier version of the corpus is described, which includes 450 news articles.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 9031
+      },
+      {
+        "cross_encoder_score": -11.3093843460083,
+        "dataset": "QASPER",
+        "end_char": 9361,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "1293a3334075e863bd0b483e856fc534",
+        "passage_rank": 7,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "26771b4134a01dc713ebda983d3442c6",
+        "sentence_text": "We further annotated 47 additional articles for the purpose of the shared task using the same protocol and the same annotators.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 9234
+      },
+      {
+        "cross_encoder_score": -11.188482284545898,
+        "dataset": "QASPER",
+        "end_char": 9548,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "1293a3334075e863bd0b483e856fc534",
+        "passage_rank": 7,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "fc53287b7ca985423bdddb8f2e8c51ea",
+        "sentence_text": "The training, the development, and the test partitions of the corpus used for the shared task consist of 350, 61, and 86 articles and of 16,965, 2,235, and 3,526 sentences, respectively.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 9362
+      },
+      {
+        "cross_encoder_score": 0.6354472041130066,
+        "dataset": "QASPER",
+        "end_char": 9638,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "1293a3334075e863bd0b483e856fc534",
+        "passage_rank": 7,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "997a3d78bb84c781f9dc1494893e0be2",
+        "sentence_text": "Figure FIGREF15 shows an annotated example, which contains several propaganda techniques.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "source_position": 9549
+      },
+      {
+        "cross_encoder_score": -11.417511940002441,
+        "dataset": "QASPER",
+        "end_char": 9717,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "1293a3334075e863bd0b483e856fc534",
+        "passage_rank": 7,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "dfc06154bc3c5e5218ff6623097b99df",
+        "sentence_text": "For example, the fragment babies on line 1 is an instance of both Name_Calling",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          7,
+          8,
+          0
+        ],
+        "source_position": 9639
+      },
+      {
+        "cross_encoder_score": -10.861923217773438,
+        "dataset": "QASPER",
+        "end_char": 9731,
+        "pair_tokens_before_truncation": 13,
+        "pair_truncated": false,
+        "passage_id": "3f2f7eb37aa248e004a8147bc3df7e52",
+        "passage_rank": 10,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "abef16b22c8ab32a1313fa5423bc204c",
+        "sentence_text": "and Labeling.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 9718
+      },
+      {
+        "cross_encoder_score": -11.412744522094727,
+        "dataset": "QASPER",
+        "end_char": 9953,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "3f2f7eb37aa248e004a8147bc3df7e52",
+        "passage_rank": 10,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "66a7fe049c9528a7fe11cf23e11c6611",
+        "sentence_text": "Note that the fragment not looking as though Trump killed his grandma on line 4 is an instance of Exaggeration_or_Minimisation and it overlaps with the fragment killed his grandma, which is an instance of Loaded_Language.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 9732
+      },
+      {
+        "cross_encoder_score": -10.51456356048584,
+        "dataset": "QASPER",
+        "end_char": 10135,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "3f2f7eb37aa248e004a8147bc3df7e52",
+        "passage_rank": 10,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "a3a26d1067efbc5ca2ad060d91187eaa",
+        "sentence_text": "Table TABREF23 reports the total number of instances per technique and the percentage with respect to the total number of annotations, for the training and for the development sets.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 9954
+      },
+      {
+        "cross_encoder_score": -11.360495567321777,
+        "dataset": "QASPER",
+        "end_char": 10332,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "3f2f7eb37aa248e004a8147bc3df7e52",
+        "passage_rank": 10,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "a44e0581a526d61536add3283e6dac33",
+        "sentence_text": "Setup\tThe shared task had two phases: In the development phase, the participants were provided labeled training and development datasets; in the testing phase, testing input was further provided.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 10137
+      },
+      {
+        "cross_encoder_score": -11.043132781982422,
+        "dataset": "QASPER",
+        "end_char": 10411,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "3f2f7eb37aa248e004a8147bc3df7e52",
+        "passage_rank": 10,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "079deca512eed87651c9c9fdf9866c13",
+        "sentence_text": "The participants tried to achieve the best performance on the development set.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 10333
+      },
+      {
+        "cross_encoder_score": -11.294377326965332,
+        "dataset": "QASPER",
+        "end_char": 10461,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "3f2f7eb37aa248e004a8147bc3df7e52",
+        "passage_rank": 10,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "736d60dde981bb595670fc5a206dbc5a",
+        "sentence_text": "A live leaderboard kept track of the submissions.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 10412
+      },
+      {
+        "cross_encoder_score": -11.2532958984375,
+        "dataset": "QASPER",
+        "end_char": 10548,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "3f2f7eb37aa248e004a8147bc3df7e52",
+        "passage_rank": 10,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "bfac157e9e337f285d706a024df04c47",
+        "sentence_text": "The test set was released and the participants had few days to make final predictions.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 10462
+      },
+      {
+        "cross_encoder_score": -11.078364372253418,
+        "dataset": "QASPER",
+        "end_char": 10615,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "3f2f7eb37aa248e004a8147bc3df7e52",
+        "passage_rank": 10,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "cc99d094e9934e155af4857ec1e56b72",
+        "sentence_text": "In phase 2, no immediate feedback on the submissions was provided.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 10549
+      },
+      {
+        "cross_encoder_score": -11.382739067077637,
+        "dataset": "QASPER",
+        "end_char": 10683,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "3f2f7eb37aa248e004a8147bc3df7e52",
+        "passage_rank": 10,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "06276018fa60a1c73153e6d6e87aa26d",
+        "sentence_text": "The winner was determined based on the performance on the test set.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "source_position": 10616
+      },
+      {
+        "cross_encoder_score": -11.264792442321777,
+        "dataset": "QASPER",
+        "end_char": 10709,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "3f2f7eb37aa248e004a8147bc3df7e52",
+        "passage_rank": 10,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "7b38f548b6d9ca4629a5b4d21da0228d",
+        "sentence_text": "Evaluation ::: FLC task.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          8,
+          9,
+          0
+        ],
+        "source_position": 10685
+      },
+      {
+        "cross_encoder_score": -3.860114574432373,
+        "dataset": "QASPER",
+        "end_char": 10877,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "3f2f7eb37aa248e004a8147bc3df7e52",
+        "passage_rank": 10,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "1685f83188c941a584afd22374829f1e",
+        "sentence_text": "FLC is a composition of two subtasks: the identification of the propagandist text fragments and the identification of the techniques used (18-way classification task).",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          8,
+          10,
+          0
+        ],
+        "source_position": 10710
+      },
+      {
+        "cross_encoder_score": -11.382981300354004,
+        "dataset": "QASPER",
+        "end_char": 11040,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "3f2f7eb37aa248e004a8147bc3df7e52",
+        "passage_rank": 10,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "56f216dedd6788a9e666d9c9dc5b0e9a",
+        "sentence_text": "While F$_1$ measure is appropriate for a multi-class classification task, we modified it to account for partial matching between the spans; see  for more details.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          8,
+          11,
+          0
+        ],
+        "source_position": 10878
+      },
+      {
+        "cross_encoder_score": -10.424995422363281,
+        "dataset": "QASPER",
+        "end_char": 12167,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "ada36861d8aa6fb58f7cbfbfc315a3ca",
+        "passage_rank": 8,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "daca9b7235d921d91f8e66053ec6f6c2",
+        "sentence_text": "2,538 submissions.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 12149
+      },
+      {
+        "cross_encoder_score": -9.873283386230469,
+        "dataset": "QASPER",
+        "end_char": 12254,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "ada36861d8aa6fb58f7cbfbfc315a3ca",
+        "passage_rank": 8,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "f7f52239b2b87d7ffc8ec43d7285d590",
+        "sentence_text": "Below, we give an overview of the approaches as described in the participants' papers.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 12168
+      },
+      {
+        "cross_encoder_score": -11.362913131713867,
+        "dataset": "QASPER",
+        "end_char": 12311,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "ada36861d8aa6fb58f7cbfbfc315a3ca",
+        "passage_rank": 8,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "6b5df08b7ffab028b925f658f8cb0340",
+        "sentence_text": "Tables TABREF28 and TABREF29 offer a high-level summary.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 12255
+      },
+      {
+        "cross_encoder_score": 5.2902679443359375,
+        "dataset": "QASPER",
+        "end_char": 12654,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "ada36861d8aa6fb58f7cbfbfc315a3ca",
+        "passage_rank": 8,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "e1bf957a8413e9b02195d18a8fa150b7",
+        "sentence_text": "Participants and Approaches ::: Teams Participating in the Fragment-Level Classification Only\tTeam newspeak  achieved the best results on the test set for the FLC task using 20-way word-level classification based on BERT : a word could belong to one of the 18 propaganda techniques, to none of them, or to an auxiliary (token-derived) class.",
+        "sentence_token_cost": 74,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 12313
+      },
+      {
+        "cross_encoder_score": -11.353111267089844,
+        "dataset": "QASPER",
+        "end_char": 12723,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "ada36861d8aa6fb58f7cbfbfc315a3ca",
+        "passage_rank": 8,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "3f66f2d9ca4e06fb12f149cadf346650",
+        "sentence_text": "The team fed one sentence at a time in order to reduce the workload.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 12655
+      },
+      {
+        "cross_encoder_score": -11.026222229003906,
+        "dataset": "QASPER",
+        "end_char": 12868,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "ada36861d8aa6fb58f7cbfbfc315a3ca",
+        "passage_rank": 8,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "1265dddc4831adf96c862914974608b7",
+        "sentence_text": "In addition to experimenting with an out-of-the-box BERT, they also tried unsupervised fine-tuning both on the 1M news dataset and on Wikipedia.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 12724
+      },
+      {
+        "cross_encoder_score": -11.361255645751953,
+        "dataset": "QASPER",
+        "end_char": 12987,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "ada36861d8aa6fb58f7cbfbfc315a3ca",
+        "passage_rank": 8,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "49fc2dbf1c4360f375489755270da2dc",
+        "sentence_text": "Their best model was based on the uncased base model of BERT, with 12 Transformer layers , and 110 million parameters.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 12869
+      },
+      {
+        "cross_encoder_score": -11.26632308959961,
+        "dataset": "QASPER",
+        "end_char": 13091,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "ada36861d8aa6fb58f7cbfbfc315a3ca",
+        "passage_rank": 8,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "9fdbede025992e4ad463a284d0202080",
+        "sentence_text": "Moreover, oversampling of the least represented classes proved to be crucial for the final performance.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 12988
+      },
+      {
+        "cross_encoder_score": -11.30328369140625,
+        "dataset": "QASPER",
+        "end_char": 13192,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "ada36861d8aa6fb58f7cbfbfc315a3ca",
+        "passage_rank": 8,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "bee4f6b573c829921cf45e60cec21ada",
+        "sentence_text": "Finally, careful analysis has shown that the model pays special attention to adjectives and adverbs.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          10,
+          8,
+          0
+        ],
+        "source_position": 13092
+      },
+      {
+        "cross_encoder_score": -11.245129585266113,
+        "dataset": "QASPER",
+        "end_char": 13345,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "ada36861d8aa6fb58f7cbfbfc315a3ca",
+        "passage_rank": 8,
+        "query_id": "6bfba3ddca5101ed15256fca75fcdc95a53cece7",
+        "sentence_id": "888c95890eade79839e1fbdf213ea1ad",
+        "sentence_text": "Team Stalin  focused on data augmentation to address the relatively small size of the data for fine-tuning contextual embedding representations based on",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          10,
+          9,
+          0
+        ],
+        "source_position": 13193
+      }
+    ],
+    "scoring_seconds": 0.3485345310764387,
+    "source_fingerprint": "0494070f8c47e6ae7302554417aff1701b02a430f1f5bfa4b37265b92640bec8"
+  }
+}

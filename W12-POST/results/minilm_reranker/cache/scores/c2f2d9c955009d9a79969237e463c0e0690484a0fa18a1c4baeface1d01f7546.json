@@ -1,0 +1,1571 @@
+{
+  "checksum": "bf31921d9a3609fb08dc68618d5cd2aae31bc7266d95e6aa355bca78b8f4c320",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "cfbec1ef032ac968560a7c76dec70faf1269b27c"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 77,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "dd8785eb17fb1d9394c03a6634a57ac27e22f28c087fd1b20e76ee6cc18416fa",
+    "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+    "scores": [
+      {
+        "cross_encoder_score": 0.9272213578224182,
+        "dataset": "QASPER",
+        "end_char": 189,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "10284ffd313012c2520919d27b3d835d",
+        "passage_rank": 2,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "f5e4809f4efd8a7500aef0f114dfb6d7",
+        "sentence_text": "Improved Neural Relation Detection for Knowledge Base Question Answering\tRelation detection is a core component for many NLP applications including Knowledge Base Question Answering (KBQA).",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.615092277526855,
+        "dataset": "QASPER",
+        "end_char": 336,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "10284ffd313012c2520919d27b3d835d",
+        "passage_rank": 2,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "b01c0f0ae7294f8a99716edf5b879aea",
+        "sentence_text": "In this paper, we propose a hierarchical recurrent neural network enhanced by residual learning that detects KB relations given an input question.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 190
+      },
+      {
+        "cross_encoder_score": -11.423805236816406,
+        "dataset": "QASPER",
+        "end_char": 468,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "10284ffd313012c2520919d27b3d835d",
+        "passage_rank": 2,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "a29e5eaa54eb3215cd9203dc879e688d",
+        "sentence_text": "Our method uses deep residual bidirectional LSTMs to compare questions and relation names via different hierarchies of abstraction.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 337
+      },
+      {
+        "cross_encoder_score": -0.18370476365089417,
+        "dataset": "QASPER",
+        "end_char": 611,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "10284ffd313012c2520919d27b3d835d",
+        "passage_rank": 2,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "ebbffb76c350251f3ee3c23f0dcc3bbb",
+        "sentence_text": "Additionally, we propose a simple KBQA system that integrates entity linking and our proposed relation detector to enable one enhance another.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 469
+      },
+      {
+        "cross_encoder_score": -1.3240864276885986,
+        "dataset": "QASPER",
+        "end_char": 891,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "10284ffd313012c2520919d27b3d835d",
+        "passage_rank": 2,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "7938b10d3b08c55c32b45a50f0d8848e",
+        "sentence_text": "Experimental results evidence that our approach achieves not only outstanding relation detection performance, but more importantly, it helps our KBQA system to achieve state-of-the-art accuracy for both single-relation (SimpleQuestions) and multi-relation (WebQSP) QA benchmarks.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 612
+      },
+      {
+        "cross_encoder_score": 1.3467786312103271,
+        "dataset": "QASPER",
+        "end_char": 1029,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "10284ffd313012c2520919d27b3d835d",
+        "passage_rank": 2,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "88ad71300da7643e0198581966ed8aba",
+        "sentence_text": "Introduction\tKnowledge Base Question Answering (KBQA) systems answer questions by obtaining information from KB tuples  ,  ,  ,  ,  ,  .",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 893
+      },
+      {
+        "cross_encoder_score": -9.704370498657227,
+        "dataset": "QASPER",
+        "end_char": 1154,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "10284ffd313012c2520919d27b3d835d",
+        "passage_rank": 2,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "6217814889515aaa53933da5d9e060e7",
+        "sentence_text": "For an input question, these systems typically generate a KB query, which can be executed to retrieve the answers from a KB.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1030
+      },
+      {
+        "cross_encoder_score": -1.39619779586792,
+        "dataset": "QASPER",
+        "end_char": 1347,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "10284ffd313012c2520919d27b3d835d",
+        "passage_rank": 2,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "eb1e0e7847eff7fca2d16122c2fc0e57",
+        "sentence_text": "Figure 1 illustrates the process used to parse two sample questions in a KBQA system: (a) a single-relation question, which can be answered with a single $<$ head-entity, relation, tail-entity",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1155
+      },
+      {
+        "cross_encoder_score": -10.341984748840332,
+        "dataset": "QASPER",
+        "end_char": 1479,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "831b3a73ce70c0db34d037c07574a7f3",
+        "passage_rank": 1,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "53526dd9448912a6e13baf07daa61edd",
+        "sentence_text": "$>$ KB tuple  ,  ,  ; and (b) a more complex case, where some constraints need to be handled for multiple entities in the question.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1348
+      },
+      {
+        "cross_encoder_score": 0.3184342682361603,
+        "dataset": "QASPER",
+        "end_char": 1691,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "831b3a73ce70c0db34d037c07574a7f3",
+        "passage_rank": 1,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "83cddfe8104924e6ebe237e55dccee39",
+        "sentence_text": "The KBQA system in the figure performs two key tasks: (1) entity linking, which links $n$ -grams in questions to KB entities, and (2) relation detection, which identifies the KB relation(s) a question refers to.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1480
+      },
+      {
+        "cross_encoder_score": -3.4727859497070312,
+        "dataset": "QASPER",
+        "end_char": 1826,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "831b3a73ce70c0db34d037c07574a7f3",
+        "passage_rank": 1,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "a65169910b94aadcf6fde7fad7e2e5f9",
+        "sentence_text": "The main focus of this work is to improve the relation detection subtask and further explore how it can contribute to the KBQA system.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1692
+      },
+      {
+        "cross_encoder_score": -2.602969169616699,
+        "dataset": "QASPER",
+        "end_char": 1983,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "831b3a73ce70c0db34d037c07574a7f3",
+        "passage_rank": 1,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "5f7797206222317714139f9030f45dae",
+        "sentence_text": "Although general relation detection methods are well studied in the NLP community, such studies usually do not take the end task of KBQA into consideration.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1827
+      },
+      {
+        "cross_encoder_score": -8.754054069519043,
+        "dataset": "QASPER",
+        "end_char": 2102,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "831b3a73ce70c0db34d037c07574a7f3",
+        "passage_rank": 1,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "003d57ff3b980374ec581db32f5ed770",
+        "sentence_text": "As a result, there is a significant gap between general relation detection studies and KB-specific relation detection.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 1984
+      },
+      {
+        "cross_encoder_score": -11.401348114013672,
+        "dataset": "QASPER",
+        "end_char": 2221,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "831b3a73ce70c0db34d037c07574a7f3",
+        "passage_rank": 1,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "d2b89668e37d27bf7d9d6c62bab917b9",
+        "sentence_text": "First, in most general relation detection tasks, the number of target relations is limited, normally smaller than 100.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 2103
+      },
+      {
+        "cross_encoder_score": -0.6439195275306702,
+        "dataset": "QASPER",
+        "end_char": 2319,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "831b3a73ce70c0db34d037c07574a7f3",
+        "passage_rank": 1,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "f096f94711bc52c116aa0e580510b47c",
+        "sentence_text": "In contrast, in KBQA even a small KB, like Freebase2M  , contains more than 6,000 relation types.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2222
+      },
+      {
+        "cross_encoder_score": -1.5490316152572632,
+        "dataset": "QASPER",
+        "end_char": 2470,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "831b3a73ce70c0db34d037c07574a7f3",
+        "passage_rank": 1,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "9499932a5214e91f72596aa361cc7df4",
+        "sentence_text": "Second, relation detection for KBQA often becomes a zero-shot learning task, since some test instances may have unseen relations in the training data.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2320
+      },
+      {
+        "cross_encoder_score": -11.49414348602295,
+        "dataset": "QASPER",
+        "end_char": 2521,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "831b3a73ce70c0db34d037c07574a7f3",
+        "passage_rank": 1,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "5d638f2307df2e235339140e8c4ed182",
+        "sentence_text": "For example, the SimpleQuestions  data set has 14%",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          1,
+          8,
+          0
+        ],
+        "source_position": 2471
+      },
+      {
+        "cross_encoder_score": -11.505171775817871,
+        "dataset": "QASPER",
+        "end_char": 2590,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "1b7133a5914c1e07fe508196c53034c9",
+        "passage_rank": 9,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "d78ffbf4d1378cb36d6acb106daca404",
+        "sentence_text": "of the golden test relations not observed in golden training tuples.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2522
+      },
+      {
+        "cross_encoder_score": -1.2400497198104858,
+        "dataset": "QASPER",
+        "end_char": 2734,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "1b7133a5914c1e07fe508196c53034c9",
+        "passage_rank": 9,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "a149adc88f7c56939c88800362bfb206",
+        "sentence_text": "Third, as shown in Figure 1 (b), for some KBQA tasks like WebQuestions  , we need to predict a chain of relations instead of a single relation.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2591
+      },
+      {
+        "cross_encoder_score": -9.573039054870605,
+        "dataset": "QASPER",
+        "end_char": 2888,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "1b7133a5914c1e07fe508196c53034c9",
+        "passage_rank": 9,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "39d831c1ad6ab3d5199d014284bf62a7",
+        "sentence_text": "This increases the number of target relation types and the sizes of candidate relation pools, further increasing the difficulty of KB relation detection.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 2735
+      },
+      {
+        "cross_encoder_score": -8.838749885559082,
+        "dataset": "QASPER",
+        "end_char": 3014,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "1b7133a5914c1e07fe508196c53034c9",
+        "passage_rank": 9,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "24d827ef3070d8de22155351885d9dcf",
+        "sentence_text": "Owing to these reasons, KB relation detection is significantly more challenging compared to general relation detection tasks.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 2889
+      },
+      {
+        "cross_encoder_score": -9.955384254455566,
+        "dataset": "QASPER",
+        "end_char": 3099,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "1b7133a5914c1e07fe508196c53034c9",
+        "passage_rank": 9,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "e58b9c098eec157b5985aa1a24a4e19d",
+        "sentence_text": "This paper improves KB relation detection to cope with the problems mentioned above.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3015
+      },
+      {
+        "cross_encoder_score": -11.403733253479004,
+        "dataset": "QASPER",
+        "end_char": 3241,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "1b7133a5914c1e07fe508196c53034c9",
+        "passage_rank": 9,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "315ff889ca4fc1fcbf8c2939e291567d",
+        "sentence_text": "First, in order to deal with the unseen relations, we propose to break the relation names into word sequences for question-relation matching.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3100
+      },
+      {
+        "cross_encoder_score": -11.393547058105469,
+        "dataset": "QASPER",
+        "end_char": 3422,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "1b7133a5914c1e07fe508196c53034c9",
+        "passage_rank": 9,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "de1c801dabed96cff01cfc167f8466f2",
+        "sentence_text": "Second, noticing that original relation names can sometimes help to match longer question contexts, we propose to build both relation-level and word-level relation representations.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3242
+      },
+      {
+        "cross_encoder_score": -11.379481315612793,
+        "dataset": "QASPER",
+        "end_char": 3589,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "1b7133a5914c1e07fe508196c53034c9",
+        "passage_rank": 9,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "f039dd6b0d05033de66effa9ed741436",
+        "sentence_text": "Third, we use deep bidirectional LSTMs (BiLSTMs) to learn different levels of question representations in order to match the different levels of relation information.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3423
+      },
+      {
+        "cross_encoder_score": -11.34450912475586,
+        "dataset": "QASPER",
+        "end_char": 3798,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "1b7133a5914c1e07fe508196c53034c9",
+        "passage_rank": 9,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "78db1b6ffcbd61f2336462695223e0dd",
+        "sentence_text": "Finally, we propose a residual learning method for sequence matching, which makes the model training easier and results in more abstract (deeper) question representations, thus improves hierarchical matching.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 3590
+      },
+      {
+        "cross_encoder_score": -2.698430299758911,
+        "dataset": "QASPER",
+        "end_char": 3925,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "1b7133a5914c1e07fe508196c53034c9",
+        "passage_rank": 9,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "53fc29b5c746fc3dfdf6dd0b7dca4ed4",
+        "sentence_text": "In order to assess how the proposed improved relation detection could benefit the KBQA end task, we also propose a simple KBQA",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          2,
+          9,
+          0
+        ],
+        "source_position": 3799
+      },
+      {
+        "cross_encoder_score": -11.367094039916992,
+        "dataset": "QASPER",
+        "end_char": 3981,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "0578ba56abdde6edb962641ca146fe53",
+        "passage_rank": 7,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "2bcff8bc2c95d95dd3b95a11942908af",
+        "sentence_text": "implementation composed of two-step relation detection.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 3926
+      },
+      {
+        "cross_encoder_score": -0.6860210299491882,
+        "dataset": "QASPER",
+        "end_char": 4334,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "0578ba56abdde6edb962641ca146fe53",
+        "passage_rank": 7,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "85dbfc374507ea30aae7f40a1a354c34",
+        "sentence_text": "Given an input question and a set of candidate entities retrieved by an entity linker based on the question, our proposed relation detection model plays a key role in the KBQA process: (1) Re-ranking the entity candidates according to whether they connect to high confident relations detected from the raw question text by the relation detection model.",
+        "sentence_token_cost": 64,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 3982
+      },
+      {
+        "cross_encoder_score": -11.432999610900879,
+        "dataset": "QASPER",
+        "end_char": 4430,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "0578ba56abdde6edb962641ca146fe53",
+        "passage_rank": 7,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "789eec83f1f94a27bcba2fb82b01ff6a",
+        "sentence_text": "This step is important to deal with the ambiguities normally present in entity linking results.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4335
+      },
+      {
+        "cross_encoder_score": -11.410889625549316,
+        "dataset": "QASPER",
+        "end_char": 4560,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "0578ba56abdde6edb962641ca146fe53",
+        "passage_rank": 7,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "703bce751c0343f522425a0f25338121",
+        "sentence_text": "(2) Finding the core relation (chains) for each topic entity selection from a much smaller candidate entity set after re-ranking.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4431
+      },
+      {
+        "cross_encoder_score": -11.430023193359375,
+        "dataset": "QASPER",
+        "end_char": 4731,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "0578ba56abdde6edb962641ca146fe53",
+        "passage_rank": 7,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "b52ca0d5d66d41b177f17bfed2156e26",
+        "sentence_text": "The above steps are followed by an optional constraint detection step, when the question cannot be answered by single relations (e.g., multiple entities in the question).",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 4561
+      },
+      {
+        "cross_encoder_score": -9.359935760498047,
+        "dataset": "QASPER",
+        "end_char": 4822,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "0578ba56abdde6edb962641ca146fe53",
+        "passage_rank": 7,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "b344c185b1227a145851cd8e9dc1dac8",
+        "sentence_text": "Finally the highest scored query from the above steps is used to query the KB for answers.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 4732
+      },
+      {
+        "cross_encoder_score": -1.204583764076233,
+        "dataset": "QASPER",
+        "end_char": 5154,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "0578ba56abdde6edb962641ca146fe53",
+        "passage_rank": 7,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "1053e9a2e1a11ba213ad9d6db55957e8",
+        "sentence_text": "Our main contributions include: (i) An improved relation detection model by hierarchical matching between questions and relations with residual learning; (ii) We demonstrate that the improved relation detector enables our simple KBQA system to achieve state-of-the-art results on both single-relation and multi-relation KBQA tasks.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 4823
+      },
+      {
+        "cross_encoder_score": -9.215291023254395,
+        "dataset": "QASPER",
+        "end_char": 5292,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "0578ba56abdde6edb962641ca146fe53",
+        "passage_rank": 7,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "40744f9cbd78e836e1890657f679e612",
+        "sentence_text": "Background: Different Granularity in KB Relations\tPrevious research  ,  formulates KB relation detection as a sequence matching problem.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 5156
+      },
+      {
+        "cross_encoder_score": -11.406681060791016,
+        "dataset": "QASPER",
+        "end_char": 5333,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "0578ba56abdde6edb962641ca146fe53",
+        "passage_rank": 7,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "616c24a54782320bc18265304dd5dc4c",
+        "sentence_text": "However, while the questions are natural",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          3,
+          8,
+          0
+        ],
+        "source_position": 5293
+      },
+      {
+        "cross_encoder_score": -11.278889656066895,
+        "dataset": "QASPER",
+        "end_char": 15903,
+        "pair_tokens_before_truncation": 151,
+        "pair_truncated": false,
+        "passage_id": "fe2794ad8ffcd9db1f669a1acaa91030",
+        "passage_rank": 5,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "31c6abc9bec0f00543c01d9b06abcf0a",
+        "sentence_text": "by a special token $<$ e $>$ (Section \"Relation Detection\" ) Query Generation: Combine the scores from step 1 and 2, and select the top pair $(\\hat{e},\\hat{r})$ (Section \"Query Generation\" ) Constraint Detection (optional): Compute similarity between $q$ and any neighbor entity $c$ of the entities along $EL_K(q)$0 (connecting by a relation $EL_K(q)$1 ) , add the high scoring $EL_K(q)$2 and $EL_K(q)$3 to the query (Section \"Constraint Detection\" ).",
+        "sentence_token_cost": 122,
+        "source_order": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "source_position": 15452
+      },
+      {
+        "cross_encoder_score": -0.2784375250339508,
+        "dataset": "QASPER",
+        "end_char": 16082,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "fe2794ad8ffcd9db1f669a1acaa91030",
+        "passage_rank": 5,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "d720c00028dfdda72da6e670605b204f",
+        "sentence_text": "KBQA with two-step relation detection  Compared to previous approaches, the main difference is that we have an additional entity re-ranking step after the initial entity linking.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          13,
+          1,
+          0
+        ],
+        "source_position": 15904
+      },
+      {
+        "cross_encoder_score": -3.9557933807373047,
+        "dataset": "QASPER",
+        "end_char": 16193,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "fe2794ad8ffcd9db1f669a1acaa91030",
+        "passage_rank": 5,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "f80ca63cbf3e17584906b22edc15ec7e",
+        "sentence_text": "We have this step because we have observed that entity linking sometimes becomes a bottleneck in KBQA systems.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          13,
+          2,
+          0
+        ],
+        "source_position": 16083
+      },
+      {
+        "cross_encoder_score": -11.474316596984863,
+        "dataset": "QASPER",
+        "end_char": 16317,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "fe2794ad8ffcd9db1f669a1acaa91030",
+        "passage_rank": 5,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "fbcd5be7ae54eb426fa2dad590df000c",
+        "sentence_text": "For example, on SimpleQuestions the best reported linker could only get 72.7% top-1 accuracy on identifying topic entities.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          13,
+          3,
+          0
+        ],
+        "source_position": 16194
+      },
+      {
+        "cross_encoder_score": -11.258956909179688,
+        "dataset": "QASPER",
+        "end_char": 16514,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "fe2794ad8ffcd9db1f669a1acaa91030",
+        "passage_rank": 5,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "fa76c4fe8eccfd64465a40ac9d13a012",
+        "sentence_text": "This is usually due to the ambiguities of entity names, e.g. in Fig 1 (a), there are TV writer and baseball player \u201cMike Kelley\u201d, which is impossible to distinguish with only entity name matching.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          13,
+          4,
+          0
+        ],
+        "source_position": 16318
+      },
+      {
+        "cross_encoder_score": -11.37050724029541,
+        "dataset": "QASPER",
+        "end_char": 16592,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "fe2794ad8ffcd9db1f669a1acaa91030",
+        "passage_rank": 5,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "6457358ae0973f422eb1f9abbcb2a319",
+        "sentence_text": "Having observed that different entity candidates usually connect to different",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          13,
+          5,
+          0
+        ],
+        "source_position": 16515
+      },
+      {
+        "cross_encoder_score": -11.455080032348633,
+        "dataset": "QASPER",
+        "end_char": 16717,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "00fb284b842b0fe6db77fb1fd76767e3",
+        "passage_rank": 6,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "3f3a1d6f86b289029439c3065f94253b",
+        "sentence_text": "relations, here we propose to help entity disambiguation in the initial entity linking with relations detected in questions.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 16593
+      },
+      {
+        "cross_encoder_score": -11.386773109436035,
+        "dataset": "QASPER",
+        "end_char": 16939,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "00fb284b842b0fe6db77fb1fd76767e3",
+        "passage_rank": 6,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "015d85ac98c9b0f47613de9ae802ca09",
+        "sentence_text": "Sections \"Entity Re-Ranking\" and \"Relation Detection\" elaborate how our relation detection help to re-rank entities in the initial entity linking, and then those re-ranked entities enable more accurate relation detection.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 16718
+      },
+      {
+        "cross_encoder_score": -2.571239471435547,
+        "dataset": "QASPER",
+        "end_char": 16999,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "00fb284b842b0fe6db77fb1fd76767e3",
+        "passage_rank": 6,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "5ad80e892b864992a4218cee30233e7d",
+        "sentence_text": "The KBQA end task, as a result, benefits from this process.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          14,
+          2,
+          0
+        ],
+        "source_position": 16940
+      },
+      {
+        "cross_encoder_score": -10.30570125579834,
+        "dataset": "QASPER",
+        "end_char": 17200,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "00fb284b842b0fe6db77fb1fd76767e3",
+        "passage_rank": 6,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "a5051f49abc18ac5284af02d3de9e5a5",
+        "sentence_text": "Entity Re-Ranking\tIn this step, we use the raw question text as input for a relation detector to score all relations in the KB with connections to at least one of the entity candidates in $EL_K(q)$ .",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          14,
+          3,
+          0
+        ],
+        "source_position": 17001
+      },
+      {
+        "cross_encoder_score": -11.450116157531738,
+        "dataset": "QASPER",
+        "end_char": 17322,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "00fb284b842b0fe6db77fb1fd76767e3",
+        "passage_rank": 6,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "104ca931610833d3cb4ea35ccd3bd641",
+        "sentence_text": "We call this step relation detection on entity set since it does not work on a single topic entity as the usual settings.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          14,
+          4,
+          0
+        ],
+        "source_position": 17201
+      },
+      {
+        "cross_encoder_score": -10.288979530334473,
+        "dataset": "QASPER",
+        "end_char": 17399,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "00fb284b842b0fe6db77fb1fd76767e3",
+        "passage_rank": 6,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "410fe881fe20c2e67b929245759c798f",
+        "sentence_text": "We use the HR-BiLSTM as described in Sec. \"Improved KB Relation Detection\" .",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          14,
+          5,
+          0
+        ],
+        "source_position": 17323
+      },
+      {
+        "cross_encoder_score": -11.401758193969727,
+        "dataset": "QASPER",
+        "end_char": 17597,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "00fb284b842b0fe6db77fb1fd76767e3",
+        "passage_rank": 6,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "8e0ad87f33f71714607b2bc3a5f78687",
+        "sentence_text": "For each question $q$ , after generating a score $s_{rel}(r;q)$ for each relation using HR-BiLSTM, we use the top $l$ best scoring relations ( $R^{l}_q$ ) to re-rank the original entity candidates.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          0,
+          14,
+          6,
+          0
+        ],
+        "source_position": 17400
+      },
+      {
+        "cross_encoder_score": -11.449579238891602,
+        "dataset": "QASPER",
+        "end_char": 17720,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "00fb284b842b0fe6db77fb1fd76767e3",
+        "passage_rank": 6,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "f43106b33d95e6a705c763b08c877928",
+        "sentence_text": "Concretely, for each entity $e$ and its associated relations $R_e$ , given the original entity linker score $s_{linker}$ ,",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          14,
+          7,
+          0
+        ],
+        "source_position": 17598
+      },
+      {
+        "cross_encoder_score": -11.29898452758789,
+        "dataset": "QASPER",
+        "end_char": 21666,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "5555d12ea68cac88049cf3830bec9b0c",
+        "passage_rank": 8,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "7cdbc9f10aae24cf90bb3759d27488bc",
+        "sentence_text": "both tasks.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          19,
+          0,
+          0
+        ],
+        "source_position": 21655
+      },
+      {
+        "cross_encoder_score": -1.7688753604888916,
+        "dataset": "QASPER",
+        "end_char": 21707,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "5555d12ea68cac88049cf3830bec9b0c",
+        "passage_rank": 8,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "85ba40ef0058ca411bea3b2c91618b68",
+        "sentence_text": "WebQSP (WQ): A multi-relation KBQA task.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          19,
+          1,
+          0
+        ],
+        "source_position": 21667
+      },
+      {
+        "cross_encoder_score": -9.324263572692871,
+        "dataset": "QASPER",
+        "end_char": 21762,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "5555d12ea68cac88049cf3830bec9b0c",
+        "passage_rank": 8,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "3babcd51ed2d2d4c3c010287a1a2c80f",
+        "sentence_text": "We use the entire Freebase KB for evaluation purposes.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          19,
+          2,
+          0
+        ],
+        "source_position": 21708
+      },
+      {
+        "cross_encoder_score": -11.48250675201416,
+        "dataset": "QASPER",
+        "end_char": 21832,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "5555d12ea68cac88049cf3830bec9b0c",
+        "passage_rank": 8,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "fb9a03d80b50ddaf4d0ba10f511372a6",
+        "sentence_text": "Following yih-EtAl:2016:P16-2, we use S-MART  entity-linking outputs.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          19,
+          3,
+          0
+        ],
+        "source_position": 21763
+      },
+      {
+        "cross_encoder_score": -11.474676132202148,
+        "dataset": "QASPER",
+        "end_char": 21950,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "5555d12ea68cac88049cf3830bec9b0c",
+        "passage_rank": 8,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "5753bfcdc35f12897db89d44ee07b28a",
+        "sentence_text": "In order to evaluate the relation detection models, we create a new relation detection task from the WebQSP data set.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          19,
+          4,
+          0
+        ],
+        "source_position": 21833
+      },
+      {
+        "cross_encoder_score": -11.360559463500977,
+        "dataset": "QASPER",
+        "end_char": 22271,
+        "pair_tokens_before_truncation": 86,
+        "pair_truncated": false,
+        "passage_id": "5555d12ea68cac88049cf3830bec9b0c",
+        "passage_rank": 8,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "4469d27b9baf1229fb5b417f9f32ba12",
+        "sentence_text": "For each question and its labeled semantic parse: (1) we first select the topic entity from the parse; and then (2) select all the relations and relation chains (length $\\le $ 2) connected to the topic entity, and set the core-chain labeled in the parse as the positive label and all the others as the negative examples.",
+        "sentence_token_cost": 70,
+        "source_order": [
+          0,
+          19,
+          5,
+          0
+        ],
+        "source_position": 21951
+      },
+      {
+        "cross_encoder_score": -11.427450180053711,
+        "dataset": "QASPER",
+        "end_char": 22622,
+        "pair_tokens_before_truncation": 111,
+        "pair_truncated": false,
+        "passage_id": "5555d12ea68cac88049cf3830bec9b0c",
+        "passage_rank": 8,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "69af509ee3ceff90ddeb256204a34194",
+        "sentence_text": "We tune the following hyper-parameters on development sets: (1) the size of hidden states for LSTMs ({50, 100, 200, 400}); (2) learning rate ({0.1, 0.5, 1.0, 2.0}); (3) whether the shortcut connections are between hidden states or between max-pooling results (see Section \"Hierarchical Matching between Relation and Question\" ); and (4) the number of",
+        "sentence_token_cost": 105,
+        "source_order": [
+          0,
+          19,
+          6,
+          0
+        ],
+        "source_position": 22272
+      },
+      {
+        "cross_encoder_score": -2.545595169067383,
+        "dataset": "QASPER",
+        "end_char": 27567,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "5a5fff58d91b639c9c5ddd73ec2b1725",
+        "passage_rank": 3,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "95f934e25c589d41d295dc5e8a63e8c4",
+        "sentence_text": "KBQA End-Task Results\tTable 3 compares our system with two published baselines (1) STAGG  , the state-of-the-art on WebQSP and (2) AMPCNN  , the state-of-the-art on SimpleQuestions.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          0,
+          24,
+          0,
+          0
+        ],
+        "source_position": 27386
+      },
+      {
+        "cross_encoder_score": -11.441208839416504,
+        "dataset": "QASPER",
+        "end_char": 27713,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "5a5fff58d91b639c9c5ddd73ec2b1725",
+        "passage_rank": 3,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "ee2703dafb1d5bba463caddae4170c8c",
+        "sentence_text": "Since these two baselines are specially designed/tuned for one particular dataset, they do not generalize well when applied to the other dataset.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          24,
+          1,
+          0
+        ],
+        "source_position": 27568
+      },
+      {
+        "cross_encoder_score": -1.5936272144317627,
+        "dataset": "QASPER",
+        "end_char": 28034,
+        "pair_tokens_before_truncation": 88,
+        "pair_truncated": false,
+        "passage_id": "5a5fff58d91b639c9c5ddd73ec2b1725",
+        "passage_rank": 3,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "5133db2ddd49c16952cfdb46b978b149",
+        "sentence_text": "In order to highlight the effect of different relation detection models on the KBQA end-task, we also implemented another baseline that uses our KBQA system but replaces HR-BiLSTM with our implementation of AMPCNN (for SimpleQuestions) or the char-3-gram BiCNN (for WebQSP) relation detectors (second block in Table 3 ).",
+        "sentence_token_cost": 73,
+        "source_order": [
+          0,
+          24,
+          2,
+          0
+        ],
+        "source_position": 27714
+      },
+      {
+        "cross_encoder_score": -3.292220115661621,
+        "dataset": "QASPER",
+        "end_char": 28215,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "5a5fff58d91b639c9c5ddd73ec2b1725",
+        "passage_rank": 3,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "ef082a2f58de67e75fc8929d6b101f76",
+        "sentence_text": "Compared to the baseline relation detector (3rd row of results), our method, which includes an improved relation detector (HR-BiLSTM), improves the KBQA end task by 2-3% (4th row).",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          24,
+          3,
+          0
+        ],
+        "source_position": 28035
+      },
+      {
+        "cross_encoder_score": -1.613336443901062,
+        "dataset": "QASPER",
+        "end_char": 28422,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "5a5fff58d91b639c9c5ddd73ec2b1725",
+        "passage_rank": 3,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "cb56feba58f4d22788e37b50a2147e69",
+        "sentence_text": "Note that in contrast to previous KBQA systems, our system does not use joint-inference or feature-based re-ranking step, nevertheless it still achieves better or comparable results to the state-of-the-art.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          24,
+          4,
+          0
+        ],
+        "source_position": 28216
+      },
+      {
+        "cross_encoder_score": -11.388104438781738,
+        "dataset": "QASPER",
+        "end_char": 28513,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "5a5fff58d91b639c9c5ddd73ec2b1725",
+        "passage_rank": 3,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "88adf5228400781ac17695f85c9975af",
+        "sentence_text": "The third block of the table details two ablation tests for the proposed components in our",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          24,
+          5,
+          0
+        ],
+        "source_position": 28423
+      },
+      {
+        "cross_encoder_score": -1.7306753396987915,
+        "dataset": "QASPER",
+        "end_char": 28603,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "a6eab14f0f1cc28c27caec6aa2512c36",
+        "passage_rank": 4,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "881d0f67e527e727730794ef5a1f86f5",
+        "sentence_text": "KBQA systems: (1) Removing the entity re-ranking step significantly decreases the scores.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          25,
+          0,
+          0
+        ],
+        "source_position": 28514
+      },
+      {
+        "cross_encoder_score": -11.424139976501465,
+        "dataset": "QASPER",
+        "end_char": 28760,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "a6eab14f0f1cc28c27caec6aa2512c36",
+        "passage_rank": 4,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "b417a01a9a080aeb9f25603a0c8b516a",
+        "sentence_text": "Since the re-ranking step relies on the relation detection models, this shows that our HR-BiLSTM model contributes to the good performance in multiple ways.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          25,
+          1,
+          0
+        ],
+        "source_position": 28604
+      },
+      {
+        "cross_encoder_score": -11.472437858581543,
+        "dataset": "QASPER",
+        "end_char": 28826,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "a6eab14f0f1cc28c27caec6aa2512c36",
+        "passage_rank": 4,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "e4fd37b1a90b6c42085369e1e6edf639",
+        "sentence_text": "Appendix C gives the detailed performance of the re-ranking step.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          25,
+          2,
+          0
+        ],
+        "source_position": 28761
+      },
+      {
+        "cross_encoder_score": -11.424909591674805,
+        "dataset": "QASPER",
+        "end_char": 28914,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "a6eab14f0f1cc28c27caec6aa2512c36",
+        "passage_rank": 4,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "2dc2a144b6099ff82aa97c854a828a45",
+        "sentence_text": "(2) In contrast to the conclusion in  , constraint detection is crucial for our system.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          25,
+          3,
+          0
+        ],
+        "source_position": 28827
+      },
+      {
+        "cross_encoder_score": -11.335620880126953,
+        "dataset": "QASPER",
+        "end_char": 29134,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "a6eab14f0f1cc28c27caec6aa2512c36",
+        "passage_rank": 4,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "9e1a5ad007bf1baaa6973f8e2cd2f2f8",
+        "sentence_text": "This is probably because our joint performance on topic entity and core-chain detection is more accurate (77.5% top-1 accuracy), leaving a huge potential (77.5% vs. 58.0%) for the constraint detection module to improve.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          0,
+          25,
+          4,
+          0
+        ],
+        "source_position": 28915
+      },
+      {
+        "cross_encoder_score": -11.360404968261719,
+        "dataset": "QASPER",
+        "end_char": 29335,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "a6eab14f0f1cc28c27caec6aa2512c36",
+        "passage_rank": 4,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "f5cfd2cb848ee4726d148e49c061160d",
+        "sentence_text": "Finally, like STAGG, which uses multiple relation detectors (see yih2015semantic for the three models used), we also try to use the top-3 relation detectors from Section \"Relation Detection Results\" .",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          25,
+          5,
+          0
+        ],
+        "source_position": 29135
+      },
+      {
+        "cross_encoder_score": -11.41711139678955,
+        "dataset": "QASPER",
+        "end_char": 29538,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "a6eab14f0f1cc28c27caec6aa2512c36",
+        "passage_rank": 4,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "a4305c563bf2db0c35af2d098916ca7b",
+        "sentence_text": "As shown on the last row of Table 3 , this gives a significant performance boost, resulting in a new state-of-the-art result on SimpleQuestions and a result comparable to the state-of-the-art on WebQSP.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          25,
+          6,
+          0
+        ],
+        "source_position": 29336
+      },
+      {
+        "cross_encoder_score": -0.7270302176475525,
+        "dataset": "QASPER",
+        "end_char": 29665,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "a6eab14f0f1cc28c27caec6aa2512c36",
+        "passage_rank": 4,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "9ac5480190f699c3d651bae8a78b6dd8",
+        "sentence_text": "Conclusion\tKB relation detection is a key step in KBQA and is significantly different from general relation extraction tasks.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          25,
+          7,
+          0
+        ],
+        "source_position": 29540
+      },
+      {
+        "cross_encoder_score": -9.440603256225586,
+        "dataset": "QASPER",
+        "end_char": 29713,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "a6eab14f0f1cc28c27caec6aa2512c36",
+        "passage_rank": 4,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "2fb1d3986cc0f9c97c9f6061c551b7a4",
+        "sentence_text": "We propose a novel KB relation detection model,",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          25,
+          8,
+          0
+        ],
+        "source_position": 29666
+      },
+      {
+        "cross_encoder_score": -9.281195640563965,
+        "dataset": "QASPER",
+        "end_char": 29796,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "00f224de3e2eea1c508035e18d839951",
+        "passage_rank": 10,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "d2e7d77651a0f9e1bfeba003593cb114",
+        "sentence_text": "HR-BiLSTM, that performs hierarchical matching between questions and KB relations.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          26,
+          0,
+          0
+        ],
+        "source_position": 29714
+      },
+      {
+        "cross_encoder_score": -2.602318525314331,
+        "dataset": "QASPER",
+        "end_char": 29927,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "00f224de3e2eea1c508035e18d839951",
+        "passage_rank": 10,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "349a05ffa2965e0088e7decebec3dd9c",
+        "sentence_text": "Our model outperforms the previous methods on KB relation detection tasks and allows our KBQA system to achieve state-of-the-arts.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          26,
+          1,
+          0
+        ],
+        "source_position": 29797
+      },
+      {
+        "cross_encoder_score": -11.465409278869629,
+        "dataset": "QASPER",
+        "end_char": 30022,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "00f224de3e2eea1c508035e18d839951",
+        "passage_rank": 10,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "c67e1f88a13364ae2d216392d620d21b",
+        "sentence_text": "For future work, we will investigate the integration of our HR-BiLSTM into end-to-end systems.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          26,
+          2,
+          0
+        ],
+        "source_position": 29928
+      },
+      {
+        "cross_encoder_score": -11.451983451843262,
+        "dataset": "QASPER",
+        "end_char": 30127,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "00f224de3e2eea1c508035e18d839951",
+        "passage_rank": 10,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "69da60bfa7ea907647c6ab98e396bc2a",
+        "sentence_text": "For example, our model could be integrated into the decoder in  , to provide better sequence prediction.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          26,
+          3,
+          0
+        ],
+        "source_position": 30023
+      },
+      {
+        "cross_encoder_score": -11.468587875366211,
+        "dataset": "QASPER",
+        "end_char": 30263,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "00f224de3e2eea1c508035e18d839951",
+        "passage_rank": 10,
+        "query_id": "cfbec1ef032ac968560a7c76dec70faf1269b27c",
+        "sentence_id": "2e9fe32062a0a2fed77d1e1240c4afc8",
+        "sentence_text": "We will also investigate new emerging datasets like GraphQuestions  and ComplexQuestions  to handle more characteristics of general QA.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          26,
+          4,
+          0
+        ],
+        "source_position": 30128
+      }
+    ],
+    "scoring_seconds": 0.5257619479671121,
+    "source_fingerprint": "fbc0e230cb2d0fb43a01bf33cb97c6641eb48ebfb35bddfb46d0fe75a7666b6f"
+  }
+}

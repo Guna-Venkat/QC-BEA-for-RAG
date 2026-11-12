@@ -1,0 +1,2011 @@
+{
+  "checksum": "c42383236733907f2ff453ae8124293e724a26a2cabd56ab1ef08f34c7c1dafd",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "63a1cbe66fd58ff0ead895a8bac1198c38c008aa"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 99,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "804d617880d178a922f475e887ed4037d8d96783cd27211f1a59261596e3ffb2",
+    "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+    "scores": [
+      {
+        "cross_encoder_score": -8.21004867553711,
+        "dataset": "QASPER",
+        "end_char": 180,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "573d29f619d301fd8746e4b85c3d4890",
+        "passage_rank": 6,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "269a3092dbe5300383d41e8efbab18c0",
+        "sentence_text": "Going Beneath the Surface: Evaluating Image Captioning for Grammaticality, Truthfulness and Diversity\tImage captioning as a multimodal task has drawn much interest in recent years.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.316191673278809,
+        "dataset": "QASPER",
+        "end_char": 245,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "573d29f619d301fd8746e4b85c3d4890",
+        "passage_rank": 6,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "0119aa757ccb511707f4bbcca0429cd8",
+        "sentence_text": "However, evaluation for this task remains a challenging problem.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 181
+      },
+      {
+        "cross_encoder_score": 1.5259809494018555,
+        "dataset": "QASPER",
+        "end_char": 452,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "573d29f619d301fd8746e4b85c3d4890",
+        "passage_rank": 6,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "7c3eaf41dd69b7d6b3c01c266f52ed7e",
+        "sentence_text": "Existing evaluation metrics focus on surface similarity between a candidate caption and a set of reference captions, and do not check the actual relation between a caption and the underlying visual content.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 246
+      },
+      {
+        "cross_encoder_score": -1.4775892496109009,
+        "dataset": "QASPER",
+        "end_char": 656,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "573d29f619d301fd8746e4b85c3d4890",
+        "passage_rank": 6,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "0eabdfc0e2e9a93ad8924d5c731f287b",
+        "sentence_text": "We introduce a new diagnostic evaluation framework for the task of image captioning, with the goal of directly assessing models for grammaticality, truthfulness and diversity (GTD) of generated captions.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 453
+      },
+      {
+        "cross_encoder_score": 5.5209269523620605,
+        "dataset": "QASPER",
+        "end_char": 849,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "573d29f619d301fd8746e4b85c3d4890",
+        "passage_rank": 6,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "8aa2fe63f9e850cd70fa5ff8fb20481f",
+        "sentence_text": "We demonstrate the potential of our evaluation framework by evaluating existing image captioning models on a wide ranging set of synthetic datasets that we construct for diagnostic evaluation.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 657
+      },
+      {
+        "cross_encoder_score": -0.9142516255378723,
+        "dataset": "QASPER",
+        "end_char": 1041,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "573d29f619d301fd8746e4b85c3d4890",
+        "passage_rank": 6,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "8111355a8633a08501b48fc55e5883f3",
+        "sentence_text": "We empirically show how the GTD evaluation framework, in combination with diagnostic datasets, can provide insights into model capabilities and limitations to supplement standard evaluations.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 850
+      },
+      {
+        "cross_encoder_score": -11.293716430664062,
+        "dataset": "QASPER",
+        "end_char": 1251,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "573d29f619d301fd8746e4b85c3d4890",
+        "passage_rank": 6,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "10a36a74cb46d30d7eb39d81426bc9e2",
+        "sentence_text": "Introduction\tAutomatically generating text to describe the content of images, also known as image captioning, is a multimodal task of considerable interest in both the computer vision and the NLP communities.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1043
+      },
+      {
+        "cross_encoder_score": -11.355401992797852,
+        "dataset": "QASPER",
+        "end_char": 1363,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "573d29f619d301fd8746e4b85c3d4890",
+        "passage_rank": 6,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "9604b21f3caeb8bdd516b7578840a59b",
+        "sentence_text": "Image captioning can be framed as a translation task from an image to a descriptive natural language statement.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1252
+      },
+      {
+        "cross_encoder_score": -3.024500608444214,
+        "dataset": "QASPER",
+        "end_char": 1453,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "573d29f619d301fd8746e4b85c3d4890",
+        "passage_rank": 6,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "8c7807a37ea7a78e26a392dd367a8b5f",
+        "sentence_text": "Many existing captioning models , , ,  follow the typical encoder-decoder framework where",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1364
+      },
+      {
+        "cross_encoder_score": -11.18797492980957,
+        "dataset": "QASPER",
+        "end_char": 1600,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "1692aee9689a63d698dc30fb84d9115a",
+        "passage_rank": 4,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "cc3e437b89ac65b07034666e5394843a",
+        "sentence_text": "a convolutional network is used to condense images into visual feature representations, combined with a recurrent network for language generation.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1454
+      },
+      {
+        "cross_encoder_score": -7.781308650970459,
+        "dataset": "QASPER",
+        "end_char": 1769,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "1692aee9689a63d698dc30fb84d9115a",
+        "passage_rank": 4,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "f3170b52450402166d4d396eacd8ad05",
+        "sentence_text": "While these models demonstrate promising results, quantifying image captioning performance remains a challenging problem, in a similar way to other generative tasks , .",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1601
+      },
+      {
+        "cross_encoder_score": -8.824874877929688,
+        "dataset": "QASPER",
+        "end_char": 1843,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "1692aee9689a63d698dc30fb84d9115a",
+        "passage_rank": 4,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "23c00d2c3c18f71a5453adc8711c475e",
+        "sentence_text": "Evaluating candidate captions for human preference is slow and laborious.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1770
+      },
+      {
+        "cross_encoder_score": -2.4683098793029785,
+        "dataset": "QASPER",
+        "end_char": 1967,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "1692aee9689a63d698dc30fb84d9115a",
+        "passage_rank": 4,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "7c2fd5fab0c99b8f15aa72d632c1333c",
+        "sentence_text": "To alleviate this problem, many automatic evaluation metrics have been proposed, such as BLEU , METEOR , ROUGE  and CIDEr .",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1844
+      },
+      {
+        "cross_encoder_score": -7.621058464050293,
+        "dataset": "QASPER",
+        "end_char": 2108,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "1692aee9689a63d698dc30fb84d9115a",
+        "passage_rank": 4,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "87395430e6e09adcb95fb1cbb1c9bd14",
+        "sentence_text": "These n-gram-based metrics evaluate captioning performance based on surface similarity between a candidate caption and reference statements.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 1968
+      },
+      {
+        "cross_encoder_score": -5.995649814605713,
+        "dataset": "QASPER",
+        "end_char": 2357,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "1692aee9689a63d698dc30fb84d9115a",
+        "passage_rank": 4,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "d0bce32fbaeff9eb8d0c762f4c234776",
+        "sentence_text": "A more recent evaluation metric for image captioning is SPICE , which takes into account semantic propositional content of generated captions by scoring a caption based upon a graph-based semantic representation transformed from reference captions.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 2109
+      },
+      {
+        "cross_encoder_score": -2.0498268604278564,
+        "dataset": "QASPER",
+        "end_char": 2553,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "1692aee9689a63d698dc30fb84d9115a",
+        "passage_rank": 4,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "272b5c18995074c8af618ae1af3513a0",
+        "sentence_text": "The rationale behind these evaluation metrics is that human reference captions serve as an approximate target and comparing model outputs to this target is a proxy for how well a system performs.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2358
+      },
+      {
+        "cross_encoder_score": -7.120121479034424,
+        "dataset": "QASPER",
+        "end_char": 2696,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "1692aee9689a63d698dc30fb84d9115a",
+        "passage_rank": 4,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "dbe9289dc7d516873dcfe47c200e4f08",
+        "sentence_text": "Thus, a candidate caption is not directly evaluated with respect to image content, but compared to a set of human statements about that image.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2554
+      },
+      {
+        "cross_encoder_score": -11.158024787902832,
+        "dataset": "QASPER",
+        "end_char": 2825,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "1692aee9689a63d698dc30fb84d9115a",
+        "passage_rank": 4,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "c2bc389ebe7aebf6d68a3ec316bfc683",
+        "sentence_text": "However, in image captioning, visual scenes with multiple objects and relations correspond to a diversity of valid descriptions.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          1,
+          8,
+          0
+        ],
+        "source_position": 2697
+      },
+      {
+        "cross_encoder_score": -11.151826858520508,
+        "dataset": "QASPER",
+        "end_char": 2912,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "1692aee9689a63d698dc30fb84d9115a",
+        "passage_rank": 4,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "ce4b77a41d73e8e55ddf592b61eb9052",
+        "sentence_text": "Consider the example image and captions from the ShapeWorld framework  shown in Figure",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          1,
+          9,
+          0
+        ],
+        "source_position": 2826
+      },
+      {
+        "cross_encoder_score": -9.575285911560059,
+        "dataset": "QASPER",
+        "end_char": 2921,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "90ca3a6c1e30aea8c5189dc397b25e29",
+        "passage_rank": 1,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "3b4fdf3c4179f3081f58d209a6d167fb",
+        "sentence_text": "FIGREF1.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2913
+      },
+      {
+        "cross_encoder_score": -11.196796417236328,
+        "dataset": "QASPER",
+        "end_char": 3177,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "90ca3a6c1e30aea8c5189dc397b25e29",
+        "passage_rank": 1,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "c6cc0b847dcb45e4b683cfe44de0c982",
+        "sentence_text": "The first three captions are true statements about the image and express relevant ideas, but describe different objects, attributes and spatial relationships, while the fourth caption is wrong despite referring to the same objects as in the third caption.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2922
+      },
+      {
+        "cross_encoder_score": -11.354435920715332,
+        "dataset": "QASPER",
+        "end_char": 3290,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "90ca3a6c1e30aea8c5189dc397b25e29",
+        "passage_rank": 1,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "5f99aa4633965cd602b46a26edc11734",
+        "sentence_text": "This casts doubt on the sufficiency of using a set of reference captions to approximate the content of an image.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 3178
+      },
+      {
+        "cross_encoder_score": 3.289656639099121,
+        "dataset": "QASPER",
+        "end_char": 3533,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "90ca3a6c1e30aea8c5189dc397b25e29",
+        "passage_rank": 1,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "7ae613e6130b46b922031cd1286c7d63",
+        "sentence_text": "We argue that, while existing metrics have undeniably been useful for real-world captioning evaluation, their focus on approximate surface comparison limits deeper insights into the learning process and eventual behavior of captioning models.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3291
+      },
+      {
+        "cross_encoder_score": 1.626469373703003,
+        "dataset": "QASPER",
+        "end_char": 3702,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "90ca3a6c1e30aea8c5189dc397b25e29",
+        "passage_rank": 1,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "5b32a8c6cdec5ee34b83220bf0af38fa",
+        "sentence_text": "To address this problem, we propose a set of principled evaluation criteria which evaluate image captioning models for grammaticality, truthfulness and diversity (GTD).",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3534
+      },
+      {
+        "cross_encoder_score": -11.164432525634766,
+        "dataset": "QASPER",
+        "end_char": 3967,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "90ca3a6c1e30aea8c5189dc397b25e29",
+        "passage_rank": 1,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "04497602e49de4b416f3855692e927c8",
+        "sentence_text": "These criteria correspond to necessary requirements for image captioning systems: (a) that the output is grammatical, (b) that the output statement is true with respect to the image, and (c) that outputs are diverse and mirror the variability of training captions.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3703
+      },
+      {
+        "cross_encoder_score": -4.318554401397705,
+        "dataset": "QASPER",
+        "end_char": 4041,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "90ca3a6c1e30aea8c5189dc397b25e29",
+        "passage_rank": 1,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "4c90d7ac75febd5bdcbec4bbf1e665f7",
+        "sentence_text": "Practical evaluation of GTD is currently only possible on synthetic data.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3968
+      },
+      {
+        "cross_encoder_score": -6.845969200134277,
+        "dataset": "QASPER",
+        "end_char": 4116,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "90ca3a6c1e30aea8c5189dc397b25e29",
+        "passage_rank": 1,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "7dd8c53c5570b59ff94934b1a702964e",
+        "sentence_text": "We construct a range of datasets designed for image captioning evaluation.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 4042
+      },
+      {
+        "cross_encoder_score": -7.684108257293701,
+        "dataset": "QASPER",
+        "end_char": 4221,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "90ca3a6c1e30aea8c5189dc397b25e29",
+        "passage_rank": 1,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "072d95f093d2ec63c3b2135ef8c639a5",
+        "sentence_text": "We call this diagnostic evaluation benchmark ShapeWorldICE (ShapeWorld for Image Captioning Evaluation).",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 4117
+      },
+      {
+        "cross_encoder_score": -0.39893269538879395,
+        "dataset": "QASPER",
+        "end_char": 4304,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "90ca3a6c1e30aea8c5189dc397b25e29",
+        "passage_rank": 1,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "e2f1c348bd701079090652ee3b927a3a",
+        "sentence_text": "We illustrate the evaluation of specific image captioning models on ShapeWorldICE.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          2,
+          9,
+          0
+        ],
+        "source_position": 4222
+      },
+      {
+        "cross_encoder_score": -10.017748832702637,
+        "dataset": "QASPER",
+        "end_char": 4307,
+        "pair_tokens_before_truncation": 10,
+        "pair_truncated": false,
+        "passage_id": "90ca3a6c1e30aea8c5189dc397b25e29",
+        "passage_rank": 1,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "37c38e2b2a56cbb2c5ff709f37d34e60",
+        "sentence_text": "We",
+        "sentence_token_cost": 1,
+        "source_order": [
+          0,
+          2,
+          10,
+          0
+        ],
+        "source_position": 4305
+      },
+      {
+        "cross_encoder_score": 0.2565194070339203,
+        "dataset": "QASPER",
+        "end_char": 4587,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "b82afc3f93515a21ebe0e9ff4ea382e6",
+        "passage_rank": 10,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "95f0f1ed921dea9759e360d2137c50e9",
+        "sentence_text": "empirically demonstrate that the existing metrics BLEU and SPICE do not capture true caption-image agreement in all scenarios, while the GTD framework allows a fine-grained investigation of how well existing models cope with varied visual situations and linguistic constructions.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 4308
+      },
+      {
+        "cross_encoder_score": -3.611912965774536,
+        "dataset": "QASPER",
+        "end_char": 4769,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "b82afc3f93515a21ebe0e9ff4ea382e6",
+        "passage_rank": 10,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "98cc6fcef16b047e673442ac37a4b678",
+        "sentence_text": "We believe that as a supplementary evaluation method to real-world metrics, the GTD framework provides evaluation insights that are sufficiently interesting to motivate future work.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 4588
+      },
+      {
+        "cross_encoder_score": -0.7782751321792603,
+        "dataset": "QASPER",
+        "end_char": 4961,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "b82afc3f93515a21ebe0e9ff4ea382e6",
+        "passage_rank": 10,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "dbaffc98058fc9aca70e6fa2ccfa9218",
+        "sentence_text": "Related work ::: Existing evaluation of image captioning\tAs a natural language generation task, image captioning frequently uses evaluation metrics such as BLEU , METEOR , ROUGE  and CIDEr .",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4771
+      },
+      {
+        "cross_encoder_score": -11.291458129882812,
+        "dataset": "QASPER",
+        "end_char": 5142,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "b82afc3f93515a21ebe0e9ff4ea382e6",
+        "passage_rank": 10,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "44cbf297d660561fa9f93e92aa042c1e",
+        "sentence_text": "These metrics use n-gram similarity between the candidate caption and reference captions to approximate the correlation between a candidate caption and the associated ground truth.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4962
+      },
+      {
+        "cross_encoder_score": -11.223437309265137,
+        "dataset": "QASPER",
+        "end_char": 5217,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "b82afc3f93515a21ebe0e9ff4ea382e6",
+        "passage_rank": 10,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "b5f7a19841a574c1384f28115ca21d41",
+        "sentence_text": "SPICE  is a more recent metric specifically designed for image captioning.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 5143
+      },
+      {
+        "cross_encoder_score": -10.93644905090332,
+        "dataset": "QASPER",
+        "end_char": 5386,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "b82afc3f93515a21ebe0e9ff4ea382e6",
+        "passage_rank": 10,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "8a2d9cd7136e48f1b8b2f2891e8f7f46",
+        "sentence_text": "For SPICE, both the candidate caption and reference captions are parsed to scene graphs, and the agreement between tuples extracted from these scene graphs is examined.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 5218
+      },
+      {
+        "cross_encoder_score": -9.096879959106445,
+        "dataset": "QASPER",
+        "end_char": 5555,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "b82afc3f93515a21ebe0e9ff4ea382e6",
+        "passage_rank": 10,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "061e10e70b411904cc02cd7dd5ead7c2",
+        "sentence_text": "SPICE more closely relates to our truthfulness evaluation than the other metrics, but it still uses overlap comparison to reference captions as a proxy to ground truth.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 5387
+      },
+      {
+        "cross_encoder_score": -2.959019660949707,
+        "dataset": "QASPER",
+        "end_char": 5677,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "b82afc3f93515a21ebe0e9ff4ea382e6",
+        "passage_rank": 10,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "15a710c2dc609a6e5c65b540c2504a24",
+        "sentence_text": "In contrast, our truthfulness metric directly evaluates a candidate caption against a model of the actual visual content.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 5556
+      },
+      {
+        "cross_encoder_score": -7.644524574279785,
+        "dataset": "QASPER",
+        "end_char": 5768,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "b82afc3f93515a21ebe0e9ff4ea382e6",
+        "passage_rank": 10,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "fc4951185d99ec1214bc78498c4ea96d",
+        "sentence_text": "Many researchers have pointed out problems with existing reference-based metrics including",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          3,
+          8,
+          0
+        ],
+        "source_position": 5678
+      },
+      {
+        "cross_encoder_score": 0.5849481225013733,
+        "dataset": "QASPER",
+        "end_char": 7282,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "7bf1f5f8c2a7a52ed8a36a8d275b55f2",
+        "passage_rank": 2,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "7a31737cbe97a71238d28bdec37c50ac",
+        "sentence_text": "strengths and limitations of existing models.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 7237
+      },
+      {
+        "cross_encoder_score": -4.572089672088623,
+        "dataset": "QASPER",
+        "end_char": 7364,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "7bf1f5f8c2a7a52ed8a36a8d275b55f2",
+        "passage_rank": 2,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "c87cb6df9621a3af3ecf19677daf31ed",
+        "sentence_text": "In this work, we develop the evaluation datasets within the ShapeWorld framework.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 7283
+      },
+      {
+        "cross_encoder_score": -10.468351364135742,
+        "dataset": "QASPER",
+        "end_char": 7492,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "7bf1f5f8c2a7a52ed8a36a8d275b55f2",
+        "passage_rank": 2,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "3f65cdb71ff78187afc8693f1aa26598",
+        "sentence_text": "ShapeWorld is a controlled data generation framework consisting of abstract colored shapes (see Figure FIGREF1 for an example).",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 7365
+      },
+      {
+        "cross_encoder_score": -8.715620040893555,
+        "dataset": "QASPER",
+        "end_char": 7574,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "7bf1f5f8c2a7a52ed8a36a8d275b55f2",
+        "passage_rank": 2,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "21fdad55a33aa60559a66d5e8d3c7b38",
+        "sentence_text": "We use ShapeWorld to generate training and evaluation data for two major reasons.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 7493
+      },
+      {
+        "cross_encoder_score": -6.927013397216797,
+        "dataset": "QASPER",
+        "end_char": 7775,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "7bf1f5f8c2a7a52ed8a36a8d275b55f2",
+        "passage_rank": 2,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "225900f615127cf6fc9dda08e54fc4ac",
+        "sentence_text": "ShapeWorld supports customized data generation according to user specification, which enables a variety of model inspections in terms of language construction, visual complexity and reasoning ability.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 7575
+      },
+      {
+        "cross_encoder_score": -9.366145133972168,
+        "dataset": "QASPER",
+        "end_char": 7918,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "7bf1f5f8c2a7a52ed8a36a8d275b55f2",
+        "passage_rank": 2,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "c1003aedea3f859db13dc728b3de21f2",
+        "sentence_text": "Another benefit is that each training and test instance generated in ShapeWorld is returned as a triplet of $<$image, caption, world model$>$.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 7776
+      },
+      {
+        "cross_encoder_score": -3.8483078479766846,
+        "dataset": "QASPER",
+        "end_char": 8138,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "7bf1f5f8c2a7a52ed8a36a8d275b55f2",
+        "passage_rank": 2,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "4817ce684a93bed1280bbefcc036068a",
+        "sentence_text": "The world model stores information about the underlying microworld used to generate an image and a descriptive caption, internally represented as a list of entities with their attributes, such as shape, color, position.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 7919
+      },
+      {
+        "cross_encoder_score": -7.10595703125,
+        "dataset": "QASPER",
+        "end_char": 8253,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "7bf1f5f8c2a7a52ed8a36a8d275b55f2",
+        "passage_rank": 2,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "c626d86d369855eea3e0723ca3066f8b",
+        "sentence_text": "During data generation, ShapeWorld randomly samples a world model from a set of available entities and attributes.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 8139
+      },
+      {
+        "cross_encoder_score": -6.493617534637451,
+        "dataset": "QASPER",
+        "end_char": 8361,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "7bf1f5f8c2a7a52ed8a36a8d275b55f2",
+        "passage_rank": 2,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "58ad8040f300f44e1a72ee050881727c",
+        "sentence_text": "The generated world model is then used to realize a corresponding instance consisting of image and caption.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          5,
+          8,
+          0
+        ],
+        "source_position": 8254
+      },
+      {
+        "cross_encoder_score": 0.7063686847686768,
+        "dataset": "QASPER",
+        "end_char": 8487,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "7bf1f5f8c2a7a52ed8a36a8d275b55f2",
+        "passage_rank": 2,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "2760c4ac327d31c64fa8e0aba248e083",
+        "sentence_text": "The world model gives the actual semantic information contained in an image, which allows evaluation of caption truthfulness.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          5,
+          9,
+          0
+        ],
+        "source_position": 8362
+      },
+      {
+        "cross_encoder_score": -5.228451728820801,
+        "dataset": "QASPER",
+        "end_char": 8679,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "7bf1f5f8c2a7a52ed8a36a8d275b55f2",
+        "passage_rank": 2,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "759d06f69f466f7bf4147c387ce269d9",
+        "sentence_text": "GTD Evaluation Framework\tIn the following we introduce GTD in more detail, consider it as an evaluation protocol covering necessary aspects of the multifaceted captioning task, rather than a",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          5,
+          10,
+          0
+        ],
+        "source_position": 8489
+      },
+      {
+        "cross_encoder_score": -10.957209587097168,
+        "dataset": "QASPER",
+        "end_char": 8696,
+        "pair_tokens_before_truncation": 12,
+        "pair_truncated": false,
+        "passage_id": "207cd9c31958934a41caf228a268bf0e",
+        "passage_rank": 7,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "0e1ee3c248f8d72eb49636b1321e3199",
+        "sentence_text": "specific metric.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 8680
+      },
+      {
+        "cross_encoder_score": -1.893687129020691,
+        "dataset": "QASPER",
+        "end_char": 8856,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "207cd9c31958934a41caf228a268bf0e",
+        "passage_rank": 7,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "59792f17afaded83ce59e324b0a1deec",
+        "sentence_text": "GTD Evaluation Framework ::: Grammaticality\tAn essential criterion for an image captioning model is that the captions generated are grammatically well-formed.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 8698
+      },
+      {
+        "cross_encoder_score": -9.978842735290527,
+        "dataset": "QASPER",
+        "end_char": 9040,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "207cd9c31958934a41caf228a268bf0e",
+        "passage_rank": 7,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "040b56f7e24861b976a58b2e8abf9f29",
+        "sentence_text": "Fully accurate assessment of grammaticality in a general context is itself a difficult task, but becomes more feasible in a very constrained context like our diagnostic language data.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 8857
+      },
+      {
+        "cross_encoder_score": -11.375239372253418,
+        "dataset": "QASPER",
+        "end_char": 9231,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "207cd9c31958934a41caf228a268bf0e",
+        "passage_rank": 7,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "c0ecb40bad8b5b1320d3c36e29f8299b",
+        "sentence_text": "We take parseability with the English Resource Grammar  as a surrogate for grammaticality, meaning that a sentence is considered grammatically well-formed if we obtain a parse using the ERG.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 9041
+      },
+      {
+        "cross_encoder_score": -11.133642196655273,
+        "dataset": "QASPER",
+        "end_char": 9335,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "207cd9c31958934a41caf228a268bf0e",
+        "passage_rank": 7,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "3ab801ed6209232603b4fc570461c610",
+        "sentence_text": "The ERG is a broad-coverage grammar based on the head-driven phrase structure grammar (HPSG) framework.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 9232
+      },
+      {
+        "cross_encoder_score": -11.372657775878906,
+        "dataset": "QASPER",
+        "end_char": 9439,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "207cd9c31958934a41caf228a268bf0e",
+        "passage_rank": 7,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "07d01037e08fbc3d1bbd105e5a6bdf2c",
+        "sentence_text": "It is linguistically precise: sentences only parse if they are valid according to its hand-built rules.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 9336
+      },
+      {
+        "cross_encoder_score": -11.16117000579834,
+        "dataset": "QASPER",
+        "end_char": 9643,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "207cd9c31958934a41caf228a268bf0e",
+        "passage_rank": 7,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "8cc8cfd5fd1de521b75a77e70f5642d9",
+        "sentence_text": "It is designed to be general-purpose: verified coverage is around 80% for Wikipedia, and over 90% for corpora with shorter sentences and more limited vocabulary (for details see  flickinger2011accuracy).",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 9440
+      },
+      {
+        "cross_encoder_score": -9.47951602935791,
+        "dataset": "QASPER",
+        "end_char": 9847,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "207cd9c31958934a41caf228a268bf0e",
+        "passage_rank": 7,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "cb58c9dc14654b0dc7b8d081841330b5",
+        "sentence_text": "Since the ShapeWorld training data \u2013 the only language source for models to learn from \u2013 is generated using the same grammar, the ERG has $\\sim $100% coverage of grammaticality in the model output space.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 9644
+      },
+      {
+        "cross_encoder_score": -6.986689567565918,
+        "dataset": "QASPER",
+        "end_char": 9940,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "207cd9c31958934a41caf228a268bf0e",
+        "passage_rank": 7,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "871ea2d04b04c5f050205b293d787c6e",
+        "sentence_text": "GTD Evaluation Framework ::: Truthfulness\tThe second aspect we investigate is truthfulness,",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 9849
+      },
+      {
+        "cross_encoder_score": -11.336738586425781,
+        "dataset": "QASPER",
+        "end_char": 10049,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "aff306db8b455f3b6fbace446c0709d8",
+        "passage_rank": 8,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "b969daad0fade722dfac65d42c7a3117",
+        "sentence_text": "that is, whether a candidate caption is compatible with the content of the image it is supposed to describe.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 9941
+      },
+      {
+        "cross_encoder_score": -7.305022716522217,
+        "dataset": "QASPER",
+        "end_char": 10158,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "aff306db8b455f3b6fbace446c0709d8",
+        "passage_rank": 8,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "58d7978fc4d87fd8f518b17f1dd029d7",
+        "sentence_text": "We evaluate caption truthfulness on the basis of a linguistically-motivated approach using formal semantics.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 10050
+      },
+      {
+        "cross_encoder_score": -11.39415168762207,
+        "dataset": "QASPER",
+        "end_char": 10304,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "aff306db8b455f3b6fbace446c0709d8",
+        "passage_rank": 8,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "d6419db1b81c68ad8f5fc85af2ed5ffe",
+        "sentence_text": "We convert the output of the ERG parse for a grammatical caption to a Dependency Minimal Recursion Semantics (DMRS) graph using the pydmrs tool .",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 10159
+      },
+      {
+        "cross_encoder_score": -11.271858215332031,
+        "dataset": "QASPER",
+        "end_char": 10397,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "aff306db8b455f3b6fbace446c0709d8",
+        "passage_rank": 8,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "29442178acdffddb97aab29b73cf0828",
+        "sentence_text": "Each converted DMRS is a logical semantic graph representation corresponding to the caption.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 10305
+      },
+      {
+        "cross_encoder_score": -2.452610731124878,
+        "dataset": "QASPER",
+        "end_char": 10528,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "aff306db8b455f3b6fbace446c0709d8",
+        "passage_rank": 8,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "785f1d6d73529048d15a59b5f5e3baee",
+        "sentence_text": "We construct a logical proposition from the DMRS graph, and evaluate it against the actual world model of the corresponding image.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 10398
+      },
+      {
+        "cross_encoder_score": -1.8278632164001465,
+        "dataset": "QASPER",
+        "end_char": 10648,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "aff306db8b455f3b6fbace446c0709d8",
+        "passage_rank": 8,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "66b58aac9b4412d4f167f8667ee7c90d",
+        "sentence_text": "A caption can be said to agree with an image only if the proposition evaluates as true on the basis of the world model.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 10529
+      },
+      {
+        "cross_encoder_score": -6.876834392547607,
+        "dataset": "QASPER",
+        "end_char": 10851,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "aff306db8b455f3b6fbace446c0709d8",
+        "passage_rank": 8,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "65bd5a41aa72a2261f12ee70e3537780",
+        "sentence_text": "By examining the logical agreement between a caption representation and a world model, we can check whether the semantics of this caption agrees with the visual content which the world model represents.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 10649
+      },
+      {
+        "cross_encoder_score": -9.068514823913574,
+        "dataset": "QASPER",
+        "end_char": 11059,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "aff306db8b455f3b6fbace446c0709d8",
+        "passage_rank": 8,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "fa9ffc8d2ac019d03e001aa9fe9c62f8",
+        "sentence_text": "Thus we do not rely on a set of captions as a surrogate for the content of an image, but instead leverage the fact that we have the ground truth, thus enabling the evaluation of true image-caption agreement.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "source_position": 10852
+      },
+      {
+        "cross_encoder_score": -6.723491668701172,
+        "dataset": "QASPER",
+        "end_char": 11286,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "aff306db8b455f3b6fbace446c0709d8",
+        "passage_rank": 8,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "cc4074e8d7dec0fade4f754730ca59e2",
+        "sentence_text": "GTD Evaluation Framework ::: Diversity\tWhile grammaticality and truthfulness are essential requirements for image captions, these criteria alone can easily be \u201cgamed\u201d by specializing on a small set of generic statements which",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          7,
+          8,
+          0
+        ],
+        "source_position": 11061
+      },
+      {
+        "cross_encoder_score": -11.050573348999023,
+        "dataset": "QASPER",
+        "end_char": 12657,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "217b4736dddf92cfa9afc975cfc9af7e",
+        "passage_rank": 3,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "51ea4aeb91dadb91ea922c4b8e28f22d",
+        "sentence_text": "ShapeWorldICE datasets, with a similar idea to the \u201cskill tasks\u201d in the bAbI framework .",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 12569
+      },
+      {
+        "cross_encoder_score": -11.24740982055664,
+        "dataset": "QASPER",
+        "end_char": 12748,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "217b4736dddf92cfa9afc975cfc9af7e",
+        "passage_rank": 3,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "feca675236e59025ffadf47a69843679",
+        "sentence_text": "Table TABREF4 gives an overview for different ShapeWorldICE datasets we use in this paper.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 12658
+      },
+      {
+        "cross_encoder_score": -11.000844955444336,
+        "dataset": "QASPER",
+        "end_char": 12870,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "217b4736dddf92cfa9afc975cfc9af7e",
+        "passage_rank": 3,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "7beb0ada1b24688a7d512826a55dc959",
+        "sentence_text": "We consider three different types of captioning tasks, each of which focuses on a distinct aspect of reasoning abilities.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 12749
+      },
+      {
+        "cross_encoder_score": -11.254626274108887,
+        "dataset": "QASPER",
+        "end_char": 12952,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "217b4736dddf92cfa9afc975cfc9af7e",
+        "passage_rank": 3,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "8a52c34cc6fe3eee2fc28bf16f39512a",
+        "sentence_text": "Existential descriptions examine whether a certain object is present in an image.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 12871
+      },
+      {
+        "cross_encoder_score": -10.838682174682617,
+        "dataset": "QASPER",
+        "end_char": 13026,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "217b4736dddf92cfa9afc975cfc9af7e",
+        "passage_rank": 3,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "b141f4c07f5f4db2cb100b12620d9260",
+        "sentence_text": "Spatial descriptions identify spatial relationships among visual objects.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 12953
+      },
+      {
+        "cross_encoder_score": -7.473445892333984,
+        "dataset": "QASPER",
+        "end_char": 13174,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "217b4736dddf92cfa9afc975cfc9af7e",
+        "passage_rank": 3,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "6099d8125a4c11db92a0758fb7974d68",
+        "sentence_text": "Quantification descriptions involve count-based and ratio-based statements, with an explicit focus on inspecting models for their counting ability.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 13027
+      },
+      {
+        "cross_encoder_score": -10.627809524536133,
+        "dataset": "QASPER",
+        "end_char": 13319,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "217b4736dddf92cfa9afc975cfc9af7e",
+        "passage_rank": 3,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "8d1c1c9194cb34a7e904ab817e274ba4",
+        "sentence_text": "We develop two variants for each type of dataset to enable different levels of visual complexity or specific aspects of the same reasoning type.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          9,
+          6,
+          0
+        ],
+        "source_position": 13175
+      },
+      {
+        "cross_encoder_score": -11.402734756469727,
+        "dataset": "QASPER",
+        "end_char": 13391,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "217b4736dddf92cfa9afc975cfc9af7e",
+        "passage_rank": 3,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "81b188e6386fa1025749b2c614229c9f",
+        "sentence_text": "All the training and test captions sampled in this work are in English.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          9,
+          7,
+          0
+        ],
+        "source_position": 13320
+      },
+      {
+        "cross_encoder_score": -10.844285011291504,
+        "dataset": "QASPER",
+        "end_char": 13514,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "217b4736dddf92cfa9afc975cfc9af7e",
+        "passage_rank": 3,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "0a5d1c438d3c361cd67ce44417e7bb5f",
+        "sentence_text": "Each dataset variant consists of around 200k training instances and 4,096 validation instances, plus 4,096 test instances.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          9,
+          8,
+          0
+        ],
+        "source_position": 13392
+      },
+      {
+        "cross_encoder_score": -11.03802490234375,
+        "dataset": "QASPER",
+        "end_char": 13583,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "217b4736dddf92cfa9afc975cfc9af7e",
+        "passage_rank": 3,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "f4da652ad00307658b5d6ff910358d71",
+        "sentence_text": "Each training instance consists of an image and a reference caption.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          9,
+          9,
+          0
+        ],
+        "source_position": 13515
+      },
+      {
+        "cross_encoder_score": 2.959582805633545,
+        "dataset": "QASPER",
+        "end_char": 13657,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "217b4736dddf92cfa9afc975cfc9af7e",
+        "passage_rank": 3,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "880fac3b7396568dc7a1eeb8474772f1",
+        "sentence_text": "At test time, only the test images are available to the evaluated models.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          9,
+          10,
+          0
+        ],
+        "source_position": 13584
+      },
+      {
+        "cross_encoder_score": 4.226143836975098,
+        "dataset": "QASPER",
+        "end_char": 13745,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "217b4736dddf92cfa9afc975cfc9af7e",
+        "passage_rank": 3,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "5f826504eaab7b1b701a1b71885e6660",
+        "sentence_text": "Underlying world models are kept from the models and are used for later GTD evaluation.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          9,
+          11,
+          0
+        ],
+        "source_position": 13658
+      },
+      {
+        "cross_encoder_score": -11.108509063720703,
+        "dataset": "QASPER",
+        "end_char": 13909,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "217b4736dddf92cfa9afc975cfc9af7e",
+        "passage_rank": 3,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "e337bf18710c7d5508ec0facfb6779d6",
+        "sentence_text": "For each test instance, we sample ten reference captions of the same distribution as the training captions to enable the comparison of our proposed metrics to BLEU",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          9,
+          12,
+          0
+        ],
+        "source_position": 13746
+      },
+      {
+        "cross_encoder_score": -7.238114356994629,
+        "dataset": "QASPER",
+        "end_char": 16584,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "c8ef319f1ae1cd6da9be7e3bc4e7d5ad",
+        "passage_rank": 9,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "b57a421431159ea69f1d5038a41c1847",
+        "sentence_text": "of captions generated by two models both increase substantially as the training progresses, with LRCN1u exhibiting a slightly greater caption diversity at the end of training.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 16409
+      },
+      {
+        "cross_encoder_score": -11.224836349487305,
+        "dataset": "QASPER",
+        "end_char": 16741,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "c8ef319f1ae1cd6da9be7e3bc4e7d5ad",
+        "passage_rank": 9,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "a36b56e5bb50ccf9f0052c3bc9728d64",
+        "sentence_text": "We observed similar results on other ShapeWorldICE datasets that we experimented with, validating the superiority of LRCN1u over Show&Tell on ShapeWorldICE.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 16585
+      },
+      {
+        "cross_encoder_score": -3.6933369636535645,
+        "dataset": "QASPER",
+        "end_char": 16922,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "c8ef319f1ae1cd6da9be7e3bc4e7d5ad",
+        "passage_rank": 9,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "818b46a1e5a49d77c0fe227745cc6a8c",
+        "sentence_text": "Consequently, we decided to focus on the LRCN1u architecture in subsequent evaluations, where we report detailed results with respect to the GTD framework on a variety of datasets.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 16742
+      },
+      {
+        "cross_encoder_score": -11.383211135864258,
+        "dataset": "QASPER",
+        "end_char": 16986,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "c8ef319f1ae1cd6da9be7e3bc4e7d5ad",
+        "passage_rank": 9,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "b09f02c6e9c7d28d47ffc227bc6cb784",
+        "sentence_text": "Correlation between the BLEU/SPICE scores and the ground truth.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 16923
+      },
+      {
+        "cross_encoder_score": -11.33792495727539,
+        "dataset": "QASPER",
+        "end_char": 17122,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "c8ef319f1ae1cd6da9be7e3bc4e7d5ad",
+        "passage_rank": 9,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "4c4cf383cfafc42b0ab505ede118c52a",
+        "sentence_text": "From the learning curves shown in Figure FIGREF9, we find low or no correlation between the BLEU/SPICE scores and caption truthfulness.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 16987
+      },
+      {
+        "cross_encoder_score": -10.895976066589355,
+        "dataset": "QASPER",
+        "end_char": 17309,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "c8ef319f1ae1cd6da9be7e3bc4e7d5ad",
+        "passage_rank": 9,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "88ac5c261c6279d40ffcc199d5c42ef2",
+        "sentence_text": "On Existential-OneShape, the BLEU curve follows the trend of the truthfulness curve in general, indicating that BLEU is able to capture caption truthfulness well in this simple scenario.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 17123
+      },
+      {
+        "cross_encoder_score": -6.691408634185791,
+        "dataset": "QASPER",
+        "end_char": 17479,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "c8ef319f1ae1cd6da9be7e3bc4e7d5ad",
+        "passage_rank": 9,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "719438ace5e80b0a36bef49bd9bfc2b1",
+        "sentence_text": "However, while BLEU reports equivalent model performance on Existential-MultiShapes and Spatial-MultiShapes, the truthfulness metric demonstrates very different results.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 17310
+      },
+      {
+        "cross_encoder_score": -11.315068244934082,
+        "dataset": "QASPER",
+        "end_char": 17661,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "c8ef319f1ae1cd6da9be7e3bc4e7d5ad",
+        "passage_rank": 9,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "d4703e40f1641a129957b676bbf0e847",
+        "sentence_text": "The BLEU score for generated Existential-MultiShapes captions increases rapidly at the beginning of training and then plateaus despite the continuous increase in truthfulness ratio.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          12,
+          7,
+          0
+        ],
+        "source_position": 17480
+      },
+      {
+        "cross_encoder_score": -11.226076126098633,
+        "dataset": "QASPER",
+        "end_char": 17712,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "c8ef319f1ae1cd6da9be7e3bc4e7d5ad",
+        "passage_rank": 9,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "f1148c682edcb14a6af20bca0362fdd7",
+        "sentence_text": "Captions generated on Spatial-MultiShapes attain a",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          12,
+          8,
+          0
+        ],
+        "source_position": 17662
+      },
+      {
+        "cross_encoder_score": -9.253135681152344,
+        "dataset": "QASPER",
+        "end_char": 20392,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "85653ebe568e1805d37e7c1dc8b46c02",
+        "passage_rank": 5,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "89f7a39d6f86496cc60e23ce0cdc4268",
+        "sentence_text": "see that while the model performs rather well on Existential datasets, it exhibits a worse performance on Spatial data.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          15,
+          0,
+          0
+        ],
+        "source_position": 20273
+      },
+      {
+        "cross_encoder_score": -8.828187942504883,
+        "dataset": "QASPER",
+        "end_char": 20635,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "85653ebe568e1805d37e7c1dc8b46c02",
+        "passage_rank": 5,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "feb28027344782f9138bd6ed0d87230b",
+        "sentence_text": "The caption agreement ratio in the simple Spatial-TwoShapes scenario is relatively high, but drops significantly on Spatial-MultiShapes, demonstrating the deficiencies of the model in learning spatial relationships from complex visual scenes.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          15,
+          1,
+          0
+        ],
+        "source_position": 20393
+      },
+      {
+        "cross_encoder_score": -11.252500534057617,
+        "dataset": "QASPER",
+        "end_char": 20669,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "85653ebe568e1805d37e7c1dc8b46c02",
+        "passage_rank": 5,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "6f7c81f70ef01748cfcd671bb309ef16",
+        "sentence_text": "The counting task is non-trivial.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          15,
+          2,
+          0
+        ],
+        "source_position": 20636
+      },
+      {
+        "cross_encoder_score": -11.097729682922363,
+        "dataset": "QASPER",
+        "end_char": 20756,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "85653ebe568e1805d37e7c1dc8b46c02",
+        "passage_rank": 5,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "54b1aa79581ce0e7cbdd3435cfdf90ec",
+        "sentence_text": "Counting has long been considered to be a challenging task in multimodal reasoning , .",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          15,
+          3,
+          0
+        ],
+        "source_position": 20670
+      },
+      {
+        "cross_encoder_score": -7.566915035247803,
+        "dataset": "QASPER",
+        "end_char": 20862,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "85653ebe568e1805d37e7c1dc8b46c02",
+        "passage_rank": 5,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "a7a7674c0875c949a06c0893ca95f224",
+        "sentence_text": "To explore how well the LRCN1u model copes with counting tasks, we generated two Quantification datasets.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          15,
+          4,
+          0
+        ],
+        "source_position": 20757
+      },
+      {
+        "cross_encoder_score": -10.934929847717285,
+        "dataset": "QASPER",
+        "end_char": 21126,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "85653ebe568e1805d37e7c1dc8b46c02",
+        "passage_rank": 5,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "3bb72cc0cffb0bbb8fd5ae3a57d88b91",
+        "sentence_text": "The Quant-Count captions describe the number of objects with certain attributes that appear in an image (e.g. \u201cExactly four shapes are crosses\u201d), while the Quant-Ratio captions describe the ratio of certain objects (e.g. \u201cA third of the shapes are blue squares\u201d).",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          15,
+          5,
+          0
+        ],
+        "source_position": 20863
+      },
+      {
+        "cross_encoder_score": -7.428854465484619,
+        "dataset": "QASPER",
+        "end_char": 21355,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "85653ebe568e1805d37e7c1dc8b46c02",
+        "passage_rank": 5,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "3cc1215db87a55b74e033c3ec1a12d5a",
+        "sentence_text": "From Figure FIGREF16, we notice that the LRCN1u model performs poorly on these datasets in terms of truthfulness, reflected in the 0.50 and 0.46 scores achieved by the model on the Quant-Count and Quant-Ratio tasks respectively.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          0,
+          15,
+          6,
+          0
+        ],
+        "source_position": 21127
+      },
+      {
+        "cross_encoder_score": -10.962435722351074,
+        "dataset": "QASPER",
+        "end_char": 21505,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "85653ebe568e1805d37e7c1dc8b46c02",
+        "passage_rank": 5,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "8e37747a9bbcaeb81811f116aaed300f",
+        "sentence_text": "The learning curve for Quant-Ratio exhibits a more gradual rise as the training progresses, suggesting a greater complexity for the ratio-based task.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          15,
+          7,
+          0
+        ],
+        "source_position": 21356
+      },
+      {
+        "cross_encoder_score": -11.33761215209961,
+        "dataset": "QASPER",
+        "end_char": 21537,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "85653ebe568e1805d37e7c1dc8b46c02",
+        "passage_rank": 5,
+        "query_id": "63a1cbe66fd58ff0ead895a8bac1198c38c008aa",
+        "sentence_id": "e16bbb32659cf01b735560a2016c14b1",
+        "sentence_text": "Caption diversity benefits from",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          15,
+          8,
+          0
+        ],
+        "source_position": 21506
+      }
+    ],
+    "scoring_seconds": 0.3073621660005301,
+    "source_fingerprint": "6f7d341308b0716996e363532c09bb42ed9b27a8ec71810d8d4eaf4aa9aec3dd"
+  }
+}

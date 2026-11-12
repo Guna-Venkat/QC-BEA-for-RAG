@@ -1,0 +1,1431 @@
+{
+  "checksum": "67eb07a7e556106835720d2f884f45cb74c25dcc366056000c1a9bbbf015ddc8",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5adc3d7455429944faac248a"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 70,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "f70fabb53592bc2cfd117f5ec2a8930fa4913acf1b9eb03919fd3b665fb2ccc0",
+    "query_id": "5adc3d7455429944faac248a",
+    "scores": [
+      {
+        "cross_encoder_score": -10.996618270874023,
+        "dataset": "HotpotQA",
+        "end_char": 33,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "3135004add2fbfee92dea0a4874a59de",
+        "passage_rank": 8,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "32d05d96cad9e05de6954536dc104018",
+        "sentence_text": "Having a Great Birth in Australia",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.200953483581543,
+        "dataset": "HotpotQA",
+        "end_char": 261,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "3135004add2fbfee92dea0a4874a59de",
+        "passage_rank": 8,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "5f5713d33e2d993f68f700d916684a39",
+        "sentence_text": "The book is an edited anthology of birth experiences, that demonstrate that birth can be a positive, life-affirming event, and that it need not, with the right support, be the trauma that the media often suggests childbirth is.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 34
+      },
+      {
+        "cross_encoder_score": -11.171186447143555,
+        "dataset": "HotpotQA",
+        "end_char": 420,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "3135004add2fbfee92dea0a4874a59de",
+        "passage_rank": 8,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "dd7882bf7384e35d08f567c3c50c5ef7",
+        "sentence_text": " The experiences described are diverse, ranging from caesarean births and VBAC births, to births that take place at home and in a birth centre or labour ward.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 262
+      },
+      {
+        "cross_encoder_score": -11.315801620483398,
+        "dataset": "HotpotQA",
+        "end_char": 519,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "3135004add2fbfee92dea0a4874a59de",
+        "passage_rank": 8,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "dde992083cbf29329de57fb948d43d75",
+        "sentence_text": " All of the mothers in this book chose to have their birth care provided by an individual midwife.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 421
+      },
+      {
+        "cross_encoder_score": -11.265588760375977,
+        "dataset": "HotpotQA",
+        "end_char": 615,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "3135004add2fbfee92dea0a4874a59de",
+        "passage_rank": 8,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "fc3ed5d506171497a6780bfd3ddd026e",
+        "sentence_text": " These stories express the experiential aspects of childbirth and are used to educate midwives.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 520
+      },
+      {
+        "cross_encoder_score": -10.95792293548584,
+        "dataset": "HotpotQA",
+        "end_char": 774,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "3135004add2fbfee92dea0a4874a59de",
+        "passage_rank": 8,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "6f5c38739d553ebc0e69c7e9a2aabf44",
+        "sentence_text": " There is also a description of a miscarriage and a stillbirth and the stories explain how the women managed to overcome their feelings of grief at the event.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 616
+      },
+      {
+        "cross_encoder_score": -10.98668098449707,
+        "dataset": "HotpotQA",
+        "end_char": 18,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "4084cd2d877826313ebc5f2029eed253",
+        "passage_rank": 3,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "6df9fd13d18537bd7afc6b9342449898",
+        "sentence_text": "Jewish Underground",
+        "sentence_token_cost": 3,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.90751838684082,
+        "dataset": "HotpotQA",
+        "end_char": 280,
+        "pair_tokens_before_truncation": 91,
+        "pair_truncated": false,
+        "passage_id": "4084cd2d877826313ebc5f2029eed253",
+        "passage_rank": 3,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "6f61bf7b539075041cb8d90723a21ac4",
+        "sentence_text": "The Jewish Underground (Hebrew: \u05d4\u05de\u05d7\u05ea\u05e8\u05ea \u05d4\u05d9\u05d4\u05d5\u05d3\u05d9\u05ea\u200e \u200e \"HaMakhteret HaYehudit\"), or in abbreviated form, simply \"makhteret\", was a Jewish terrorist organization formed by prominent members of the Israeli political movement Gush Emunim that existed from 1979 to 1984.",
+        "sentence_token_cost": 73,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 19
+      },
+      {
+        "cross_encoder_score": -10.834332466125488,
+        "dataset": "HotpotQA",
+        "end_char": 633,
+        "pair_tokens_before_truncation": 96,
+        "pair_truncated": false,
+        "passage_id": "4084cd2d877826313ebc5f2029eed253",
+        "passage_rank": 3,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "41098cfc82f648669aa9e7e7fc04e3cc",
+        "sentence_text": " Two issues catalyzed the establishment of the underground: One was the signing of the Camp David Accords, which led to the Egypt\u2013Israel Peace Treaty in 1979, and which the movement, opposed to the peace process, wished to block, viewing it as the first step in the establishment of a Palestinian state in what Jewish settlers call \"Judea and Samaria\".",
+        "sentence_token_cost": 79,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 281
+      },
+      {
+        "cross_encoder_score": -11.205721855163574,
+        "dataset": "HotpotQA",
+        "end_char": 870,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "4084cd2d877826313ebc5f2029eed253",
+        "passage_rank": 3,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "fdc2b81113923e0bdd5cb79701ba9697",
+        "sentence_text": " A second element was the settlement project, which, in bringing two distinct ethnic communities into closer proximity, led to an uptick in hostilities that brought about a growing emphasis on the existential threat in both communities.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "source_position": 634
+      },
+      {
+        "cross_encoder_score": -11.25932788848877,
+        "dataset": "HotpotQA",
+        "end_char": 1131,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "4084cd2d877826313ebc5f2029eed253",
+        "passage_rank": 3,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "294527a180e1ca1ef220768bb5ae0961",
+        "sentence_text": " The Jewish underground developed two operational objectives: One consisted of a plot to blow up the Dome of the Rock, while the other branch concentrated on both avenging acts of Palestinian violence against settlers and of establishing a punitive deterrence.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          1,
+          0,
+          4,
+          0
+        ],
+        "source_position": 871
+      },
+      {
+        "cross_encoder_score": -10.47269058227539,
+        "dataset": "HotpotQA",
+        "end_char": 1322,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "4084cd2d877826313ebc5f2029eed253",
+        "passage_rank": 3,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "ed0d7288f6761bde650ed8b7446df441",
+        "sentence_text": " Some understood the terrorist acts as a means of inducing Palestinians to flee their homeland, and parallels are made with it to the Terror Against Terror movement, which had a similar aim.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          1,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1132
+      },
+      {
+        "cross_encoder_score": -11.202069282531738,
+        "dataset": "HotpotQA",
+        "end_char": 1448,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "4084cd2d877826313ebc5f2029eed253",
+        "passage_rank": 3,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "8ce04ed98f256e1f0028ddbdddb85167",
+        "sentence_text": " Robert Friedman stated that the Makhteret was \"the most violent anti-Arab terrorist organization since the birth of Israel\".",
+        "sentence_token_cost": 25,
+        "source_order": [
+          1,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1323
+      },
+      {
+        "cross_encoder_score": -11.07973861694336,
+        "dataset": "HotpotQA",
+        "end_char": 33,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "96944d95ec27d1141f0e0da7578cf655",
+        "passage_rank": 7,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "473e51c2789f0decab1b2bd01b922489",
+        "sentence_text": "West African Ebola virus epidemic",
+        "sentence_token_cost": 5,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.990586280822754,
+        "dataset": "HotpotQA",
+        "end_char": 289,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "96944d95ec27d1141f0e0da7578cf655",
+        "passage_rank": 7,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "a7c903ad66dade392bf2720d1896386c",
+        "sentence_text": "The West African Ebola virus epidemic (2013\u20132016) was the most widespread outbreak of Ebola virus disease (EVD) in history\u2014causing major loss of life and socioeconomic disruption in the region, mainly in the countries of Guinea, Liberia, and Sierra Leone.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 34
+      },
+      {
+        "cross_encoder_score": -10.298489570617676,
+        "dataset": "HotpotQA",
+        "end_char": 457,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "96944d95ec27d1141f0e0da7578cf655",
+        "passage_rank": 7,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "b2b818332c048ea85dafd8174bc103d8",
+        "sentence_text": " The first cases were recorded in Guinea in December 2013; later, the disease spread to neighboring Liberia and Sierra Leone, with minor outbreaks occurring elsewhere.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 290
+      },
+      {
+        "cross_encoder_score": -11.207633972167969,
+        "dataset": "HotpotQA",
+        "end_char": 606,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "96944d95ec27d1141f0e0da7578cf655",
+        "passage_rank": 7,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "d71f069b2d340f04f421823cf2973f3c",
+        "sentence_text": " It caused significant mortality, with the case fatality rate reported at slightly above\u00a070%, while the rate among hospitalized patients was 57\u201359%.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "source_position": 458
+      },
+      {
+        "cross_encoder_score": -10.948695182800293,
+        "dataset": "HotpotQA",
+        "end_char": 731,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "96944d95ec27d1141f0e0da7578cf655",
+        "passage_rank": 7,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "34b91f95ca878b9e58577ddb01901ea0",
+        "sentence_text": " Small outbreaks occurred in Nigeria and Mali, and isolated cases were recorded in Senegal, the United Kingdom and Sardinia.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          2,
+          0,
+          4,
+          0
+        ],
+        "source_position": 607
+      },
+      {
+        "cross_encoder_score": -11.06175708770752,
+        "dataset": "HotpotQA",
+        "end_char": 865,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "96944d95ec27d1141f0e0da7578cf655",
+        "passage_rank": 7,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "7f9cbd4b56118de1d5b61c3efafc9d1d",
+        "sentence_text": " In addition, imported cases led to secondary infection of medical workers in the United States and Spain but did not spread further.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2,
+          0,
+          5,
+          0
+        ],
+        "source_position": 732
+      },
+      {
+        "cross_encoder_score": -10.533441543579102,
+        "dataset": "HotpotQA",
+        "end_char": 1011,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "96944d95ec27d1141f0e0da7578cf655",
+        "passage_rank": 7,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "e17f9118facb0047a716285fa554a2c6",
+        "sentence_text": " The number of cases peaked in October 2014 and then began to decline gradually, following the commitment of substantial international resources.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          2,
+          0,
+          6,
+          0
+        ],
+        "source_position": 866
+      },
+      {
+        "cross_encoder_score": -11.209092140197754,
+        "dataset": "HotpotQA",
+        "end_char": 1443,
+        "pair_tokens_before_truncation": 138,
+        "pair_truncated": false,
+        "passage_id": "96944d95ec27d1141f0e0da7578cf655",
+        "passage_rank": 7,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "aa6c3aec46ee2d20f0cc8048b049ed32",
+        "sentence_text": " <section begin=casesasof />s of 08 2016 <section end=casesasof />, the World Health Organization (WHO) and respective governments reported a total of <section begin=cases />28,616<section end=cases /> suspected cases and <section begin=deaths />11,310<section end=deaths /> deaths<section begin=caserefs /><section end=caserefs /> (39.5%), though the WHO believes that this substantially understates the magnitude of the outbreak.",
+        "sentence_token_cost": 115,
+        "source_order": [
+          2,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1012
+      },
+      {
+        "cross_encoder_score": -11.003793716430664,
+        "dataset": "HotpotQA",
+        "end_char": 22,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "9e22011532b7c92fa2fab7ed3add81a6",
+        "passage_rank": 2,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "f673403c037bd78b3d29ebc33c2dd06e",
+        "sentence_text": "Sierra Leone Civil War",
+        "sentence_token_cost": 5,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.793644905090332,
+        "dataset": "HotpotQA",
+        "end_char": 311,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "9e22011532b7c92fa2fab7ed3add81a6",
+        "passage_rank": 2,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "4fc49fc48c33bd79a5f2ba15a936bee5",
+        "sentence_text": "The Sierra Leone Civil War (1991\u20132002) began on 23 March 1991 when the Revolutionary United Front (RUF), with support from the special forces of Charles Taylor\u2019s National Patriotic Front of Liberia (NPFL), intervened in Sierra Leone in an attempt to overthrow the Joseph Momoh government.",
+        "sentence_token_cost": 71,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 23
+      },
+      {
+        "cross_encoder_score": -11.117291450500488,
+        "dataset": "HotpotQA",
+        "end_char": 403,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "9e22011532b7c92fa2fab7ed3add81a6",
+        "passage_rank": 2,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "fc9ed0d4491598666a87ac5983959873",
+        "sentence_text": " The resulting civil war lasted 11 years, enveloped the country, and left over 50,000 dead.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 312
+      },
+      {
+        "cross_encoder_score": -10.064820289611816,
+        "dataset": "HotpotQA",
+        "end_char": 14,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "22ea9a51d1b938fae482d662011aa585",
+        "passage_rank": 9,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "8ef1d041825ba6051088aab5bfa3c52b",
+        "sentence_text": "Place of birth",
+        "sentence_token_cost": 3,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.191323280334473,
+        "dataset": "HotpotQA",
+        "end_char": 77,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "22ea9a51d1b938fae482d662011aa585",
+        "passage_rank": 9,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "633234eb753bc12f7de92e5792221413",
+        "sentence_text": "The place of birth (POB) is the place where a person was born.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 15
+      },
+      {
+        "cross_encoder_score": -11.279807090759277,
+        "dataset": "HotpotQA",
+        "end_char": 192,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "22ea9a51d1b938fae482d662011aa585",
+        "passage_rank": 9,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "f02c19149971a4c0799f78f4bbd5eb93",
+        "sentence_text": " This place is often used in legal documents, together with name and date of birth, to uniquely identify a person.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 78
+      },
+      {
+        "cross_encoder_score": -10.441230773925781,
+        "dataset": "HotpotQA",
+        "end_char": 397,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "22ea9a51d1b938fae482d662011aa585",
+        "passage_rank": 9,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "59f22c23e8f945a833140f509bed74fa",
+        "sentence_text": " As a general rule with respect to passports, the place of birth is determined to be country that currently has \"sovereignty\" over the actual place of birth regardless of when the birth actually occurred.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          4,
+          0,
+          3,
+          0
+        ],
+        "source_position": 193
+      },
+      {
+        "cross_encoder_score": -11.223926544189453,
+        "dataset": "HotpotQA",
+        "end_char": 486,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "22ea9a51d1b938fae482d662011aa585",
+        "passage_rank": 9,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "13c5d7ed644c3317023dba5ec11c1a5d",
+        "sentence_text": " The place of birth is not necessarily the place where the parents of the new baby live.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "source_position": 398
+      },
+      {
+        "cross_encoder_score": -11.26901912689209,
+        "dataset": "HotpotQA",
+        "end_char": 573,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "22ea9a51d1b938fae482d662011aa585",
+        "passage_rank": 9,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "aeb1f27c9238c48e12d4cc5125137b08",
+        "sentence_text": " If the baby is born in a hospital in another place, that place is the place of birth.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          4,
+          0,
+          5,
+          0
+        ],
+        "source_position": 487
+      },
+      {
+        "cross_encoder_score": -11.213805198669434,
+        "dataset": "HotpotQA",
+        "end_char": 706,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "22ea9a51d1b938fae482d662011aa585",
+        "passage_rank": 9,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "cc0a9ded9d6a035e8c6c6b9dc52b0d82",
+        "sentence_text": " In many countries, this also means that the government requires that the birth of the new baby is registered in the place of birth.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          4,
+          0,
+          6,
+          0
+        ],
+        "source_position": 574
+      },
+      {
+        "cross_encoder_score": -10.7654447555542,
+        "dataset": "HotpotQA",
+        "end_char": 17,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "f6e033f1d22788dc3aa41fac07d2b6c8",
+        "passage_rank": 10,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "37079092fe0bfbbd5fb234bd0d143b73",
+        "sentence_text": "Birth certificate",
+        "sentence_token_cost": 2,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.26726245880127,
+        "dataset": "HotpotQA",
+        "end_char": 92,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "f6e033f1d22788dc3aa41fac07d2b6c8",
+        "passage_rank": 10,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "8e5b70de24dbdc072f2f14bb98131609",
+        "sentence_text": "A birth certificate is a vital record that documents the birth of a child.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 18
+      },
+      {
+        "cross_encoder_score": -11.25266170501709,
+        "dataset": "HotpotQA",
+        "end_char": 293,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "f6e033f1d22788dc3aa41fac07d2b6c8",
+        "passage_rank": 10,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "e5e48870cf4190926aa658f5a15dfb4a",
+        "sentence_text": " The term \"birth certificate\" can refer to either the original document certifying the circumstances of the birth or to a certified copy of or representation of the ensuing registration of that birth.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 93
+      },
+      {
+        "cross_encoder_score": -11.037825584411621,
+        "dataset": "HotpotQA",
+        "end_char": 428,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "f6e033f1d22788dc3aa41fac07d2b6c8",
+        "passage_rank": 10,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "9b0266d3df77e5a06990fa37f5cc1350",
+        "sentence_text": " Depending on the jurisdiction, a record of birth might or might not contain verification of the event by such as a midwife or doctor.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "source_position": 294
+      },
+      {
+        "cross_encoder_score": -11.1060152053833,
+        "dataset": "HotpotQA",
+        "end_char": 13,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "77e15417e09b7bb3808d8535f00c47b1",
+        "sentence_text": "Sen Soulintha",
+        "sentence_token_cost": 4,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.79986572265625,
+        "dataset": "HotpotQA",
+        "end_char": 159,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "f1258fcdc2c4abb9f7efcb29840b708b",
+        "sentence_text": "Sen Soulintha, Saen Surintha or Sen Sourintha (1511\u20131582) was born Chane Tian and became King of Lan Xang reigning 1571-1575 and again 1580-1582.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 14
+      },
+      {
+        "cross_encoder_score": -11.234435081481934,
+        "dataset": "HotpotQA",
+        "end_char": 260,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "5b8335e56b974e07bd970972d8e22bf9",
+        "sentence_text": " Sen Soulintha was not of noble birth, rising from royal page to King Setthatirath\u2019s Chief Minister.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 160
+      },
+      {
+        "cross_encoder_score": -11.241898536682129,
+        "dataset": "HotpotQA",
+        "end_char": 545,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "a2e5df8ba9da532b742d8bbfeaa01570",
+        "sentence_text": " During the succession disputes in the Kingdom of Lan Na between King Setthatirath and King Mekuti, Sen Soulintha served Setthatirath as a general and successfully took several cities of Lan Na including Chiang Saen for which he was given the honorific name \"Lusai\" meaning \u201cvictory.\u201d",
+        "sentence_token_cost": 66,
+        "source_order": [
+          6,
+          0,
+          3,
+          0
+        ],
+        "source_position": 261
+      },
+      {
+        "cross_encoder_score": -11.199089050292969,
+        "dataset": "HotpotQA",
+        "end_char": 667,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "0998115d4df1962ca6d040b81ffc370b",
+        "sentence_text": " Sen Soulintha supported Setthatirath in leading the guerrilla campaigns during the Burmese invasions of King Bayinnaung.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          6,
+          0,
+          4,
+          0
+        ],
+        "source_position": 546
+      },
+      {
+        "cross_encoder_score": -10.375130653381348,
+        "dataset": "HotpotQA",
+        "end_char": 804,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "b6968fea5716ad9d59857910a3cd61d1",
+        "sentence_text": " When Setthatirath died near Attapeu under suspicious circumstances in 1572, Sen Soulintha led the armies of Lan Xang back to Vientiane.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          6,
+          0,
+          5,
+          0
+        ],
+        "source_position": 668
+      },
+      {
+        "cross_encoder_score": -11.014453887939453,
+        "dataset": "HotpotQA",
+        "end_char": 982,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "958f9d8cf9afafbc8ab526c49d2e1a23",
+        "sentence_text": " A succession dispute erupted, which nearly led to civil war and provided a pretext for another Burmese invasion ordered by Bayinnaung and led by the Chief Minister Binnya Dala.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          6,
+          0,
+          6,
+          0
+        ],
+        "source_position": 805
+      },
+      {
+        "cross_encoder_score": -9.93115234375,
+        "dataset": "HotpotQA",
+        "end_char": 1172,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "e675ee89a87150a363db9375005c20dd",
+        "sentence_text": " Sen Soulintha defeated the Burmese and Lan Na forces led by Binnya Dala, an event which led to the latter\u2019s exile, only to face a more massive invasion led by Bayinnaug the following year.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          6,
+          0,
+          7,
+          0
+        ],
+        "source_position": 983
+      },
+      {
+        "cross_encoder_score": -11.282255172729492,
+        "dataset": "HotpotQA",
+        "end_char": 1293,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "4445e4dbbb9e0a1ad87ab2bdf0fbfe1d",
+        "sentence_text": " Sen Soulintha again attempted to resort to guerilla tactics, but lacked popular support from his seizure of the throne.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          6,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1173
+      },
+      {
+        "cross_encoder_score": -11.221799850463867,
+        "dataset": "HotpotQA",
+        "end_char": 1377,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "c589d5f9b1763bc45cc6c5ba942b08da",
+        "sentence_text": " He and his son Ong Lo (Nakhon Noi) were captured by Bayinnaung and exiled to Pegu.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          6,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1294
+      },
+      {
+        "cross_encoder_score": -11.263970375061035,
+        "dataset": "HotpotQA",
+        "end_char": 1487,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "c8deddbf2346108f5a019be78192f7b9",
+        "sentence_text": " The Burmese placed Setthathirath\u2019s brother, and former \"Ouphahat\" or Viceroy, Prince Tha Heua on the throne.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          6,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1378
+      },
+      {
+        "cross_encoder_score": -11.110145568847656,
+        "dataset": "HotpotQA",
+        "end_char": 1683,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "3ba017b44d044f18b529e1c6895dabc5",
+        "sentence_text": " According to the Luang Prabang chronicles it was this brother, who had led a rebellion in Luang Prabang and tried to seize the throne from Setthathirath on the death of their father Photisarath.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          6,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1488
+      },
+      {
+        "cross_encoder_score": -11.100726127624512,
+        "dataset": "HotpotQA",
+        "end_char": 1785,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "9628863e4ea1f545d168766eeb1fcd62",
+        "sentence_text": " Prince Tha Heua took the regnal name Voravongsa and reigned under Burmese suzerainty from 1575-1579.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          6,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1684
+      },
+      {
+        "cross_encoder_score": -10.927281379699707,
+        "dataset": "HotpotQA",
+        "end_char": 1912,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "3462ef40bc1105a4fee41a8db1d8654c",
+        "sentence_text": " Voravongsa was never popular, and drowned with his family while attempting to flee Vientiane in the face of popular uprising.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          6,
+          0,
+          13,
+          0
+        ],
+        "source_position": 1786
+      },
+      {
+        "cross_encoder_score": -9.458529472351074,
+        "dataset": "HotpotQA",
+        "end_char": 1977,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "67a2b230a304614dc7cde392e360f37e",
+        "sentence_text": " In 1579, Bayinnaung dispatched a sizable army to restore order.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          6,
+          0,
+          14,
+          0
+        ],
+        "source_position": 1913
+      },
+      {
+        "cross_encoder_score": -10.837465286254883,
+        "dataset": "HotpotQA",
+        "end_char": 2069,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "6084cb2e5fa935098aea12f4da6bd8de",
+        "sentence_text": " According to Lao histories Sen Soulintha was then installed as king a second time in 1580.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          6,
+          0,
+          15,
+          0
+        ],
+        "source_position": 1978
+      },
+      {
+        "cross_encoder_score": -11.10716438293457,
+        "dataset": "HotpotQA",
+        "end_char": 2231,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "715e3a84ae55df88a109249f309f6a46",
+        "passage_rank": 6,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "4ca16a955e42fa9a8e736c74c4030474",
+        "sentence_text": " By that time Sen Soulintha was an old man and reigned only for two years before his son ascended the throne as Nakhon Noi and another succession dispute ensued.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          6,
+          0,
+          16,
+          0
+        ],
+        "source_position": 2070
+      },
+      {
+        "cross_encoder_score": -10.268898963928223,
+        "dataset": "HotpotQA",
+        "end_char": 13,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "988bb70c57f88e8afffc7c19a28d3677",
+        "passage_rank": 5,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "6e5b35f7b329f71fe6fee2e1b17b6126",
+        "sentence_text": "Birth tourism",
+        "sentence_token_cost": 2,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.735875129699707,
+        "dataset": "HotpotQA",
+        "end_char": 107,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "988bb70c57f88e8afffc7c19a28d3677",
+        "passage_rank": 5,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "a3d2c740400b61ad28e65b616b6007aa",
+        "sentence_text": "Birth tourism is travel to another country for the purpose of giving birth in that country. \"",
+        "sentence_token_cost": 18,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 14
+      },
+      {
+        "cross_encoder_score": -11.316781044006348,
+        "dataset": "HotpotQA",
+        "end_char": 182,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "988bb70c57f88e8afffc7c19a28d3677",
+        "passage_rank": 5,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "20006795bf04c39ce0fcdea52069aeaf",
+        "sentence_text": "Anchor baby\" is another related term which can have negative connotations.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 108
+      },
+      {
+        "cross_encoder_score": -10.808897972106934,
+        "dataset": "HotpotQA",
+        "end_char": 311,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "988bb70c57f88e8afffc7c19a28d3677",
+        "passage_rank": 5,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "736baeacbdaacff679d408b5d4df65c7",
+        "sentence_text": " The main reason for birth tourism is to obtain citizenship for the child in a country with birthright citizenship (\"jus soli\").",
+        "sentence_token_cost": 26,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 183
+      },
+      {
+        "cross_encoder_score": -11.246061325073242,
+        "dataset": "HotpotQA",
+        "end_char": 468,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "988bb70c57f88e8afffc7c19a28d3677",
+        "passage_rank": 5,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "feb56127d6d7061ca950b2090025da89",
+        "sentence_text": " Other reasons include access to public schooling, healthcare, sponsorship for the parents in the future, or even circumvention of China's two-child policy.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          7,
+          0,
+          4,
+          0
+        ],
+        "source_position": 312
+      },
+      {
+        "cross_encoder_score": -11.083903312683105,
+        "dataset": "HotpotQA",
+        "end_char": 528,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "988bb70c57f88e8afffc7c19a28d3677",
+        "passage_rank": 5,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "1520291c11c64728f36b8315d99bd4e1",
+        "sentence_text": " Popular destinations include the United States and Canada.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          7,
+          0,
+          5,
+          0
+        ],
+        "source_position": 469
+      },
+      {
+        "cross_encoder_score": -11.118188858032227,
+        "dataset": "HotpotQA",
+        "end_char": 672,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "988bb70c57f88e8afffc7c19a28d3677",
+        "passage_rank": 5,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "ee76f08e78b5ed36e46d22046fcddff0",
+        "sentence_text": " Another target for birth tourism is Hong Kong, where mainland Chinese citizens travel to give birth to gain right of abode for their children.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          7,
+          0,
+          6,
+          0
+        ],
+        "source_position": 529
+      },
+      {
+        "cross_encoder_score": -11.084982872009277,
+        "dataset": "HotpotQA",
+        "end_char": 14,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "a0cbea392dc413ea2cdea88ade71faff",
+        "passage_rank": 4,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "39c9a8a17344bc90f7de57b7fb0a7fd9",
+        "sentence_text": "Murray Bishoff",
+        "sentence_token_cost": 5,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.263144493103027,
+        "dataset": "HotpotQA",
+        "end_char": 84,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "a0cbea392dc413ea2cdea88ade71faff",
+        "passage_rank": 4,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "3cadca98a0e400aee78b521dae0f89b3",
+        "sentence_text": "Murray Bishoff is a writer at \"The Monett Times\" in Monett, Missouri.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 15
+      },
+      {
+        "cross_encoder_score": -11.111627578735352,
+        "dataset": "HotpotQA",
+        "end_char": 172,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "a0cbea392dc413ea2cdea88ade71faff",
+        "passage_rank": 4,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "c1a7443cc755d3c3145b89f9fdec6144",
+        "sentence_text": " Formerly a contributor to \"Comics Buyer's Guide\", Bishoff won an Inkpot Award in 1980.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          8,
+          0,
+          2,
+          0
+        ],
+        "source_position": 85
+      },
+      {
+        "cross_encoder_score": -10.294841766357422,
+        "dataset": "HotpotQA",
+        "end_char": 409,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "a0cbea392dc413ea2cdea88ade71faff",
+        "passage_rank": 4,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "05627be8101ff3ee0a8753e6ee3ef81a",
+        "sentence_text": " Bishoff is also known for his research and writings on the 1901 fifteen-hour lynching spree in Pierce City, Missouri, during which white residents murdered three African American residents and caused nearly 300 others to flee the city.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          8,
+          0,
+          3,
+          0
+        ],
+        "source_position": 173
+      },
+      {
+        "cross_encoder_score": -11.111411094665527,
+        "dataset": "HotpotQA",
+        "end_char": 554,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "a0cbea392dc413ea2cdea88ade71faff",
+        "passage_rank": 4,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "ccf515d6043d0dfed9110fdd9779d1aa",
+        "sentence_text": " His writings include a series of articles published to commemorate the 90th anniversary of the event and the historical novel \"Cry of Thunder\".",
+        "sentence_token_cost": 29,
+        "source_order": [
+          8,
+          0,
+          4,
+          0
+        ],
+        "source_position": 410
+      },
+      {
+        "cross_encoder_score": -11.230080604553223,
+        "dataset": "HotpotQA",
+        "end_char": 717,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "a0cbea392dc413ea2cdea88ade71faff",
+        "passage_rank": 4,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "891a7b5420b746877d9f470cf9c7b169",
+        "sentence_text": " In addition, the town's cemetery holds a marker to the event paid for in large part by Bishoff and the Pierce City Museum hosts an exhibit which Bishoff created.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          8,
+          0,
+          5,
+          0
+        ],
+        "source_position": 555
+      },
+      {
+        "cross_encoder_score": -10.930878639221191,
+        "dataset": "HotpotQA",
+        "end_char": 875,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "a0cbea392dc413ea2cdea88ade71faff",
+        "passage_rank": 4,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "0d075c5d8808214d2a6618e5c9f877a6",
+        "sentence_text": " He has also publicly spoken about the event to CNN and appears in a documentary about the event, \"Banished: How Whites Drove Blacks out of Town in America\".",
+        "sentence_token_cost": 34,
+        "source_order": [
+          8,
+          0,
+          6,
+          0
+        ],
+        "source_position": 718
+      },
+      {
+        "cross_encoder_score": -2.487212657928467,
+        "dataset": "HotpotQA",
+        "end_char": 16,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "49768fea92844df68573775cae9161ef",
+        "passage_rank": 1,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "5714499336c7e6c0f3184a85d02d55b1",
+        "sentence_text": "Marissa Kurtimah",
+        "sentence_token_cost": 5,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 3.3145084381103516,
+        "dataset": "HotpotQA",
+        "end_char": 176,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "49768fea92844df68573775cae9161ef",
+        "passage_rank": 1,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "69d9f66aaec70f1fad083d0806692efe",
+        "sentence_text": "Marissa Kurtimah (born May 25, 1994 in Songo, Sierra Leone) is a Canadian track and field athlete competing in the sprint events, predominately the 100m event.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 17
+      },
+      {
+        "cross_encoder_score": 6.218005180358887,
+        "dataset": "HotpotQA",
+        "end_char": 281,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "49768fea92844df68573775cae9161ef",
+        "passage_rank": 1,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "30f59ae2f746fea38ec19fd19f78c629",
+        "sentence_text": " Kurtimah fled her country of birth (due to the civil war) in 2002 at 8 years old along with her family.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 177
+      },
+      {
+        "cross_encoder_score": -11.109705924987793,
+        "dataset": "HotpotQA",
+        "end_char": 315,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "49768fea92844df68573775cae9161ef",
+        "passage_rank": 1,
+        "query_id": "5adc3d7455429944faac248a",
+        "sentence_id": "08bd6baac593552a4f76c6e9fdd8f97b",
+        "sentence_text": " They settled in Guelph, Ontario.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          9,
+          0,
+          3,
+          0
+        ],
+        "source_position": 282
+      }
+    ],
+    "scoring_seconds": 0.42470598698128015,
+    "source_fingerprint": "de3c30674994d8c073b4a07c59ab3c8c3ac968d9bd323fdc02bd1787ae7cc686"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "identity": {
+    "automatic_expansion": false,
+    "calibration_status": "CALIBRATION_FAILED_TERMINATED",
+    "cohort_hash": "b013ea5b5d614a14f9bcc3d127bd24a6d2695813fd56d3fb0ca2073e31867acd",
+    "config": {
+      "automatic_expansion": false,
+      "budgets": [
+        256,
+        1024
+      ],
+      "label": "POST_W12_BEA_V2_POSTHOC_EXPLORATORY",
+      "methods": [
+        "FIXED_SENTENCE",
+        "QBGF_FULL",
+        "BEA_QBGF_V1",
+        "BEA_V2"
+      ],
+      "output_root": "results/post_w12/bea_v2/posthoc_tau8e5",
+      "overwrite": false,
+      "protected_inputs": {
+        "W12-POST/bea_v2_config.json": "0ee7ed30ab1fbd51341bd6dc92f112525b11300293864add313301f8b53e344a",
+        "results/post_w12/bea_qbgf/v3/BEA_QBGF_V1_FREEZE.json": "1aea5e0b001846b4d1146ddaf471fc11d46443c29f42feb19d0fbe6f25491f2b",
+        "results/post_w12/bea_qbgf/v3/PILOT_COHORT.json": "9930ab34905fa0a33d1c3920ea1fb017db1643a261e6bd54c9f187e7271afcca",
+        "results/post_w12/bea_v2/v3/CALIBRATION_TERMINATED.json": "41bfb3ec6a907a817e042a599013b28db5b4002f79f0d3e6aec6103d421dfafe",
+        "results/post_w12/bea_v2/v3/CROSSFIT_FOLDS.json": "21b0a87ed73d6fc17ab4676260772192e85b72c3d68c1bf6accdf8223f166a2c",
+        "results/post_w12/bea_v2/v3/FEATURE_SCHEMA.json": "e74524295d7f81aeb10f18a54f05b1626bf5aa863a062d49054255bde1ccb315",
+        "results/post_w12/bea_v2/v3/calibration/CALIBRATION.json": "4bf122e29d3880902f80c17d3135c4c829054207cb646e1e47b3ce782d03a0bf",
+        "results/post_w12/bea_v2/v3/calibration/COHORT.json": "90888d9b8ff0f536066be049f29242459b7b8e107e8127dcb2986630709f7b58",
+        "results/post_w12/bea_v2/v3/calibration/resolution/AMENDMENT.json": "71852e7dbdd2cb4c649da89a47fd66a95e7a00a84e4137c19d3d2fe37349c3cf",
+        "results/post_w12/bea_v2/v3/calibration/resolution/RESOLUTION_RESULT.json": "41bfb3ec6a907a817e042a599013b28db5b4002f79f0d3e6aec6103d421dfafe",
+        "results/post_w12/bea_v2/v3/utility_model/MODELS.json": "05f63b84f09d39f775419c0ef0eb15ed6feb17d8d5c58b68357a6f212e3ea027",
+        "results/week12/W13_FINAL_METHOD_FREEZE.json": "d0188a3582d6aead0a3a31f9f15bad9b51a88a6b475b05ac79ae38e58f05366b"
+      },
+      "resume": true,
+      "retrain_predictors": false,
+      "statistics": {
+        "resamples": 10000,
+        "seed": 42
+      },
+      "threshold": 8e-05
+    },
+    "decoding": {
+      "do_sample": false,
+      "enable_thinking": false,
+      "max_context": 8192,
+      "max_new_tokens_qa": 128,
+      "max_new_tokens_verification": 16,
+      "precision": "float16",
+      "seed": 42
+    },
+    "feature_schema_sha": "e74524295d7f81aeb10f18a54f05b1626bf5aa863a062d49054255bde1ccb315",
+    "fold_sha": "21b0a87ed73d6fc17ab4676260772192e85b72c3d68c1bf6accdf8223f166a2c",
+    "fresh_confirmation": false,
+    "implementation": {
+      "W12-POST/bea_v2_posthoc_config.json": "370fda444e21baa87af50dbdd309b6d9c36371efaf1ce53b74defbefea162be9",
+      "W12-POST/run_bea_v2_posthoc.py": "c91d613a623e8086440c9183243992d9240126dbaa0a7e1f2d6499aca1d75e72",
+      "src/post_w12/bea_v2_posthoc/__init__.py": "4cef2374d9011b4fd3137adb929167c1979db048d95d4db418ab5979b5b5f517",
+      "src/post_w12/bea_v2_posthoc/analysis.py": "d612861251885ec0d1e349a971b0c7fa54ec9631d9f0eda0ac521019256c477c",
+      "src/post_w12/bea_v2_posthoc/protocol.py": "c5fdf8d6ca58170d6d99d1a7baded8c2597b1808919b0397ffd1a092f865071b",
+      "src/post_w12/bea_v2_posthoc/runner.py": "b1da7f0db90bce07848671f3820fbcc32bc2d4ff17921022ae42cf381865a209"
+    },
+    "label": "POST_W12_BEA_V2_POSTHOC_EXPLORATORY",
+    "model_manifest_sha": "05f63b84f09d39f775419c0ef0eb15ed6feb17d8d5c58b68357a6f212e3ea027",
+    "notice": "This is a post-hoc exploratory evaluation at a manually selected engineering operating point (tau_stop=8e-5) after the preregistered BEA_V2 calibration failed. It cannot be interpreted as confirmation or as evidence that the original calibration protocol succeeded.",
+    "original_config": {
+      "budgets": [
+        256,
+        1024
+      ],
+      "cache": {
+        "force_regenerate": false,
+        "overwrite": false,
+        "resume": true,
+        "reuse_compatible": true,
+        "run_missing": true
+      },
+      "calibration": {
+        "maximum_cell_trivial_fraction": 0.3333333333333333,
+        "maximum_empty_fraction": 0.0,
+        "maximum_near_full_fraction": 0.8,
+        "minimum_cell_coverage_retention": 0.9,
+        "minimum_cell_mean_utilization": 0.2,
+        "minimum_cell_median_units": 2,
+        "minimum_coverage_retention": 0.85,
+        "minimum_threshold_stop_fraction": 0.2,
+        "queries_per_dataset": 3,
+        "selection": "Smallest globally shared preregistered threshold: zero empty contexts, >=20% threshold stops and <=80% near-full allocations globally; EVERY dataset/budget cell must retain >=90% mean cosine coverage relative to threshold zero, mean utilization >=20%, median selected units >=2, and <=1/3 trivial contexts (<10% utilization OR <2 units). No forced minimum is added to the allocator. No answer-quality or held-out LOO labels enter calibration. If no value qualifies, block the pilot without relaxation.",
+        "threshold_grid": [
+          0,
+          1e-05,
+          2.5e-05,
+          5e-05,
+          0.0001,
+          0.00025,
+          0.0005,
+          0.001,
+          0.0025,
+          0.005
+        ],
+        "trivial_utilization_below": 0.1
+      },
+      "decision": {
+        "macro_f1_margin": 0.01,
+        "maximum_clearly_degraded_cells": 1,
+        "maximum_empty_fraction": 0.1,
+        "maximum_near_full_fraction": 0.9,
+        "minimum_context_difference": 0.1,
+        "minimum_quality_gain": 0.003,
+        "minimum_token_saving": 0.15,
+        "qa_margin": 0.003,
+        "uninformative_mean_auc_ceiling": 0.5
+      },
+      "folds": 5,
+      "formulation": "P_help_only_times_positive_IG; P_harm_diagnostic_only",
+      "label": "POST_W12_EXPLORATORY_BEA_V2",
+      "methods": [
+        "FIXED_SENTENCE",
+        "QBGF_FULL",
+        "BEA_QBGF_V1",
+        "BEA_V2"
+      ],
+      "minimum_free_disk_gib": 3,
+      "model": {
+        "C": 1.0,
+        "class_weight": null,
+        "max_iter": 1000,
+        "penalty": "l2",
+        "solver": "lbfgs"
+      },
+      "new_attribution": false,
+      "output_root": "results/post_w12/bea_v2/v3",
+      "parameters": {
+        "eta_cov": 0.5,
+        "lambda_red": 0.5,
+        "min_parent_sentences": 2,
+        "utility_weight": "p_help_only"
+      },
+      "seed": 42,
+      "source_states": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "statistics": {
+        "resamples": 10000,
+        "seed": 42
+      },
+      "study": "BEA_V2_CROSSFIT_DEVELOPMENT_PILOT",
+      "unseen_expansion": false,
+      "v1_root": "results/post_w12/bea_qbgf/v3"
+    },
+    "original_implementation": {
+      "W12-POST/bea_v2_config.json": "0ee7ed30ab1fbd51341bd6dc92f112525b11300293864add313301f8b53e344a",
+      "W12-POST/run_bea_v2.py": "3b0511a0f976362dcce48d42568e50d7a564b78003c06e28ab889fb16632eebd",
+      "src/post_w12/bea_v2/__init__.py": "4982bb68205ea711bd79900f759fdc02c0bb947f5af0fddb12ce5b80f2710915",
+      "src/post_w12/bea_v2/allocator.py": "061f05769b174658eb6cfb85b442110689ba5819c39ba950db3f37514dfe8dfe",
+      "src/post_w12/bea_v2/analysis.py": "d7f70ad34a0540edd428f973a0b5b80bb9335ca4c306da7383153c058bd12685",
+      "src/post_w12/bea_v2/baselines.py": "a6ff432823db76e8829d4f75f7a384367e16a92ab6ef6d4680fbdd03047f4e51",
+      "src/post_w12/bea_v2/data.py": "76be4efef794611b1b125f86eb9e9d0fd136bd65d42a27909c07a4e261876818",
+      "src/post_w12/bea_v2/models.py": "d075c33b31412ab4bde140a22b8488914cc4f612e9ecb336ef8ef3830363d75a",
+      "src/post_w12/bea_v2/protocol.py": "4b3a09caa943c8ca77038df5ca4038eb1fac3e7d4e83d636a0fffa8a95925560",
+      "src/post_w12/bea_v2/stages.py": "60a1c821b98d42bbdf49e98e1ea2a0facffd932e383689064f5d08da02bc6bf6",
+      "src/post_w12/bea_v2/unseen.py": "f5a356363cb87cba9a8edf1261a840f75969522a1a1494e6d99437a182e81609"
+    },
+    "parent_identity": {
+      "code_hash": "0002987a3e2fe48f3d6511fc9fb409bba23a9a3594c3370e2de0e672c22afa95",
+      "config_hash": "65b7de98a5d4222d0cd088d5b7a3424ff962aabc81dfafcb9938555c73c47f44",
+      "extra": {},
+      "models": {
+        "Mistral": {
+          "id": "mistralai/Mistral-7B-Instruct-v0.2",
+          "revision": "63a8b081895390a26e140280378bc85ec8bce07a"
+        },
+        "Qwen": {
+          "id": "Qwen/Qwen3-8B",
+          "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+        },
+        "SFR": {
+          "id": "Salesforce/SFR-Embedding-Mistral",
+          "revision": "33a60fe7b5e00b9414981280c571e8a4f9f42f1b"
+        }
+      },
+      "packages": {
+        "numpy": "1.26.4",
+        "peft": "0.21.0",
+        "torch": "2.14.0",
+        "transformers": "4.57.6"
+      },
+      "source_files": {
+        "/home/gunavenkat/.cache/huggingface/datasets/allenai___qasper/qasper/0.3.0/fdc9d8214fbab5dd782958601db4d678e6934a54/qasper-train.arrow": "670e68454c09c05decc41696b7c9d0a4f7ced901b4968a32cc82f323843ac7c3",
+        "/home/gunavenkat/Downloads/CS787-RAG-Project/Baselines/SARA-main/data/reformatted/QASPER_dev.jsonl": "9e270b890d8c2de192c7d86db6eb8e4fd453d1fc8cc74f1a56ebc744d2b1e534",
+        "/home/gunavenkat/Downloads/CS787-RAG-Project/data/week11/hotpot_dev_distractor_v1.json": "2c56eb73e5f4cfaecf52342286510c40ebdbd7c8eea5971ceb2b3438929838f7",
+        "/home/gunavenkat/Downloads/CS787-RAG-Project/data/week11/scifact/claims_dev.jsonl": "86f0435d08fdb65d1aa41d1472684f57e6e71930626497bdf4d7a9ec1a632217",
+        "/home/gunavenkat/Downloads/CS787-RAG-Project/data/week11/scifact/corpus.jsonl": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62",
+        "LLMLingua_qualification_lock": "030054060244aae28af84fede07401bed75d5831838cacb64ac3ab5e40f831be",
+        "W12_split_freeze": "df4ab91bc708148febaf44472d008050b3cf8d5cc8cf52e2fe96952e550e3208"
+      }
+    },
+    "parser_sha": "ade75ad9d2630c135ef6e12866a4d104fba54adfc947479f7dcf7c89f544b94c",
+    "prompt_sha": "ade75ad9d2630c135ef6e12866a4d104fba54adfc947479f7dcf7c89f544b94c",
+    "reader": {
+      "id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    "serializer": "additive-token-id-blocks-v1",
+    "threshold": 8e-05,
+    "threshold_selected_posthoc": true,
+    "tokenizer": {
+      "id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    },
+    "v1_identity_hash": "7b6623f9bbc2ba1e0800d21485ad61b373f6d1f1e49beb401b53e8ae53185d7a"
+  },
+  "identity_hash": "afdd16b294c27215304fe71cf5ba91bf21f9d7f9d7b05f212de05a556cdca4cd",
+  "label": "POST_W12_BEA_V2_POSTHOC_EXPLORATORY"
+}

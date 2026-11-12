@@ -1,0 +1,1311 @@
+{
+  "checksum": "a3f2cbefdcf837628adf9952458e86aeae2c0d8156887143acb3877beac370fe",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "f20a389ace2267aa61eddcc235535452ccdae0e6"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 64,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "8e7eb72e429447e451d73b1b16854856d54e7caa6f1df30e31db48bdf6967479",
+    "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+    "scores": [
+      {
+        "cross_encoder_score": -11.334939002990723,
+        "dataset": "QASPER",
+        "end_char": 217,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "46117fedcfefe43aad00dda99a6bc5ee",
+        "passage_rank": 5,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "692b947df519c64dc2ff6daf9b1f7914",
+        "sentence_text": "Creative GANs for generating poems, lyrics, and metaphors\tGenerative models for text have substantially contributed to tasks like machine translation and language modeling, using maximum likelihood optimization (MLE).",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.335968017578125,
+        "dataset": "QASPER",
+        "end_char": 356,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "46117fedcfefe43aad00dda99a6bc5ee",
+        "passage_rank": 5,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "b17388d561a3ad6c4fba34aa7137fa00",
+        "sentence_text": "However, for creative text generation, where multiple outputs are possible and originality and uniqueness are encouraged, MLE falls short.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 218
+      },
+      {
+        "cross_encoder_score": -11.390787124633789,
+        "dataset": "QASPER",
+        "end_char": 446,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "46117fedcfefe43aad00dda99a6bc5ee",
+        "passage_rank": 5,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "085786855bb9e79222059b33c744bd2d",
+        "sentence_text": "Methods optimized for MLE lead to outputs that can be generic, repetitive and incoherent.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 357
+      },
+      {
+        "cross_encoder_score": -11.402973175048828,
+        "dataset": "QASPER",
+        "end_char": 537,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "46117fedcfefe43aad00dda99a6bc5ee",
+        "passage_rank": 5,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "5281e5cbbed8683af1f72b8bd04f3ce2",
+        "sentence_text": "In this work, we use a Generative Adversarial Network framework to alleviate this problem.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 447
+      },
+      {
+        "cross_encoder_score": -9.989303588867188,
+        "dataset": "QASPER",
+        "end_char": 734,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "46117fedcfefe43aad00dda99a6bc5ee",
+        "passage_rank": 5,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "799cd6bb8638e1947f1f50ba778c6e1c",
+        "sentence_text": "We evaluate our framework on poetry, lyrics and metaphor datasets, each with widely different characteristics, and report better performance of our objective function over other generative models.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 538
+      },
+      {
+        "cross_encoder_score": -11.316276550292969,
+        "dataset": "QASPER",
+        "end_char": 854,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "46117fedcfefe43aad00dda99a6bc5ee",
+        "passage_rank": 5,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "668fa49838cca355089a6ced7cf04f4c",
+        "sentence_text": "Introduction and related work\tLanguage models can be optimized to recognize syntax and semantics with great accuracy .",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 736
+      },
+      {
+        "cross_encoder_score": -11.062280654907227,
+        "dataset": "QASPER",
+        "end_char": 1010,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "46117fedcfefe43aad00dda99a6bc5ee",
+        "passage_rank": 5,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "ebe14c92eae08c3e889958f8f83ad00b",
+        "sentence_text": "However, the output generated can be repetitive and generic leading to monotonous or uninteresting responses (e.g \u201cI don't know\u201d) regardless of the input .",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 855
+      },
+      {
+        "cross_encoder_score": -11.313793182373047,
+        "dataset": "QASPER",
+        "end_char": 1185,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "46117fedcfefe43aad00dda99a6bc5ee",
+        "passage_rank": 5,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "5d989fba73bd3ff04b7808f1ec2af32f",
+        "sentence_text": "While application of attention ,  and advanced decoding mechanisms like beam search and variation sampling  have shown improvements, it does not solve the underlying problem.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1011
+      },
+      {
+        "cross_encoder_score": -11.350942611694336,
+        "dataset": "QASPER",
+        "end_char": 1344,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "46117fedcfefe43aad00dda99a6bc5ee",
+        "passage_rank": 5,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "0209bcfdbfa2d9d527894a248946766f",
+        "sentence_text": "In creative text generation, the objective is not strongly bound to the ground truth\u2014instead the objective is to generate diverse, unique or original samples.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1186
+      },
+      {
+        "cross_encoder_score": -11.264524459838867,
+        "dataset": "QASPER",
+        "end_char": 1417,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "46117fedcfefe43aad00dda99a6bc5ee",
+        "passage_rank": 5,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "e698d78bb6b4d5b7d896c04e9d878a4d",
+        "sentence_text": "We attempt to do this through a discriminator which can give feedback to",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1345
+      },
+      {
+        "cross_encoder_score": -11.434516906738281,
+        "dataset": "QASPER",
+        "end_char": 1507,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "6e12fe9f4fb34453770ff3febcc5a619",
+        "passage_rank": 7,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "138624535ddb17fbdbe5e851f79d27bf",
+        "sentence_text": "the generative model through a cost function that encourages sampling of creative tokens.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1418
+      },
+      {
+        "cross_encoder_score": -11.448415756225586,
+        "dataset": "QASPER",
+        "end_char": 1615,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "6e12fe9f4fb34453770ff3febcc5a619",
+        "passage_rank": 7,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "d04e1f7418621a534d23eec7d0e60a12",
+        "sentence_text": "The contributions of this paper are in the usage of a GAN framework to generate creative pieces of writing.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1508
+      },
+      {
+        "cross_encoder_score": -11.266951560974121,
+        "dataset": "QASPER",
+        "end_char": 1877,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "6e12fe9f4fb34453770ff3febcc5a619",
+        "passage_rank": 7,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "ab1e1067c07526a9494948a7c545efa4",
+        "sentence_text": "Our experiments suggest that generative text models, while very good at encapsulating semantic, syntactic and domain information, perform better with external feedback from a discriminator for fine-tuning objectiveless decoding tasks like that of creative text.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1616
+      },
+      {
+        "cross_encoder_score": -11.090185165405273,
+        "dataset": "QASPER",
+        "end_char": 1997,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "6e12fe9f4fb34453770ff3febcc5a619",
+        "passage_rank": 7,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "739a036e4c6d00b4daf9a38081febb73",
+        "sentence_text": "We show this by evaluating our model on three very different creative datasets containing poetry, metaphors and lyrics.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1878
+      },
+      {
+        "cross_encoder_score": -11.342503547668457,
+        "dataset": "QASPER",
+        "end_char": 2196,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "6e12fe9f4fb34453770ff3febcc5a619",
+        "passage_rank": 7,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "41a22d00db174a2b3a9fd65b20c85b6e",
+        "sentence_text": "Previous work on handling the shortcomings of MLE include length-normalizing sentence probability , future cost estimation , diversity-boosting objective function ,  or penalizing repeating tokens .",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 1998
+      },
+      {
+        "cross_encoder_score": -11.390625,
+        "dataset": "QASPER",
+        "end_char": 2357,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "6e12fe9f4fb34453770ff3febcc5a619",
+        "passage_rank": 7,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "28dc2f7ebc96534777d21f6a9ff7cdf6",
+        "sentence_text": "When it comes to poetry generation using generative text models, Zhang and Lapata , Yi et al.  and Wang et al.  use language modeling to generate Chinese poems.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 2197
+      },
+      {
+        "cross_encoder_score": -10.86690902709961,
+        "dataset": "QASPER",
+        "end_char": 2528,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "6e12fe9f4fb34453770ff3febcc5a619",
+        "passage_rank": 7,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "80f283415b0d5bd9e7ea8c1ce844709b",
+        "sentence_text": "However, none of these methods provide feedback on the quality of the generated sample and hence, do not address the qualitative objective required for creative decoding.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2358
+      },
+      {
+        "cross_encoder_score": -11.436781883239746,
+        "dataset": "QASPER",
+        "end_char": 2702,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "6e12fe9f4fb34453770ff3febcc5a619",
+        "passage_rank": 7,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "384205dfb03fb4a924c0329e2b095ec8",
+        "sentence_text": "For the task of text generation, MaskGAN  uses a Reinforcement Learning signal from the discriminator, FMD-GAN  uses an optimal transport mechanism as an objective function.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2529
+      },
+      {
+        "cross_encoder_score": -11.41069221496582,
+        "dataset": "QASPER",
+        "end_char": 2783,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "6e12fe9f4fb34453770ff3febcc5a619",
+        "passage_rank": 7,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "da6799c4a0610be49407abd41f5b0f43",
+        "sentence_text": "GumbelGAN  uses Gumbel-Softmax distribution that replaces the non-differentiable",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          1,
+          8,
+          0
+        ],
+        "source_position": 2703
+      },
+      {
+        "cross_encoder_score": -11.372956275939941,
+        "dataset": "QASPER",
+        "end_char": 2884,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "be96d31c860c1f61de069b6cafa5563e",
+        "passage_rank": 6,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "a07283114c2b3c10440d33f54bdbbea4",
+        "sentence_text": "sample from a categorical distribution with a differentiable sample to propagate stronger gradients.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2784
+      },
+      {
+        "cross_encoder_score": -11.390861511230469,
+        "dataset": "QASPER",
+        "end_char": 2952,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "be96d31c860c1f61de069b6cafa5563e",
+        "passage_rank": 6,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "fcbf687377ec7fbacc887ebaa1334469",
+        "sentence_text": "Li et al.  use a discriminator for a diversity promoting objective.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2885
+      },
+      {
+        "cross_encoder_score": -11.407960891723633,
+        "dataset": "QASPER",
+        "end_char": 3125,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "be96d31c860c1f61de069b6cafa5563e",
+        "passage_rank": 6,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "7ef0a9f560fe0316e534f877846d199a",
+        "sentence_text": "Yu et al.  use SeqGAN to generate poetry and comment on the performance of SeqGAN over MLE in human evaluations, encouraging our study of GANs for creative text generation.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 2953
+      },
+      {
+        "cross_encoder_score": -10.823594093322754,
+        "dataset": "QASPER",
+        "end_char": 3186,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "be96d31c860c1f61de069b6cafa5563e",
+        "passage_rank": 6,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "d709c501b8d615cc4a2abbf6a012e7e8",
+        "sentence_text": "However, these studies do not focus solely on creative text.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3126
+      },
+      {
+        "cross_encoder_score": -11.396525382995605,
+        "dataset": "QASPER",
+        "end_char": 3537,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "be96d31c860c1f61de069b6cafa5563e",
+        "passage_rank": 6,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "500c88988079c7565367b076fc8f4c22",
+        "sentence_text": "GANs for creative text generation\tUsing GANs, we can train generative models in a two-player game setting between a discriminator and a generator, where the discriminator (a binary classifier) learns to distinguish between real and fake data samples and the generator tries to fool the discriminator by generating authentic and high quality output .",
+        "sentence_token_cost": 64,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3188
+      },
+      {
+        "cross_encoder_score": -11.359552383422852,
+        "dataset": "QASPER",
+        "end_char": 3668,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "be96d31c860c1f61de069b6cafa5563e",
+        "passage_rank": 6,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "28f6d0953ec61fbb6702a8154e885564",
+        "sentence_text": "GANs have shown to be successful in image generation tasks  and recently, some progress has been observed in text generation , , .",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3538
+      },
+      {
+        "cross_encoder_score": -11.3472900390625,
+        "dataset": "QASPER",
+        "end_char": 3747,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "be96d31c860c1f61de069b6cafa5563e",
+        "passage_rank": 6,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "64b0a007ae9de12a014c56bb10d797ac",
+        "sentence_text": "Our generator is a language model trained using backpropagation through time .",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3669
+      },
+      {
+        "cross_encoder_score": -11.44625186920166,
+        "dataset": "QASPER",
+        "end_char": 3893,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "be96d31c860c1f61de069b6cafa5563e",
+        "passage_rank": 6,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "f7a9e70745fab1192da8806777aa671c",
+        "sentence_text": "During the pre-training phase we optimize for MLE and during the GAN training phase, we optimize on the creativity reward from the discriminator.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3748
+      },
+      {
+        "cross_encoder_score": -11.424344062805176,
+        "dataset": "QASPER",
+        "end_char": 4024,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "be96d31c860c1f61de069b6cafa5563e",
+        "passage_rank": 6,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "fb967a0110e05acee2bdcde01b47e05f",
+        "sentence_text": "The discriminator's encoder has the same architecture as the generator encoder module with the addition of a pooled decoder layer.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 3894
+      },
+      {
+        "cross_encoder_score": -11.420025825500488,
+        "dataset": "QASPER",
+        "end_char": 4106,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "be96d31c860c1f61de069b6cafa5563e",
+        "passage_rank": 6,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "1e3d78b2602b30b1a4fc84f35321b3e0",
+        "sentence_text": "The decoder contains 3 $[Dense Batch Normalization,ReLU]$ blocks and an addtional",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          2,
+          9,
+          0
+        ],
+        "source_position": 4025
+      },
+      {
+        "cross_encoder_score": -11.278241157531738,
+        "dataset": "QASPER",
+        "end_char": 4123,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "c9521b8429b8963552d04c3304237c99",
+        "passage_rank": 2,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "3a2776a2f8758dcacee8a9afc0f6567e",
+        "sentence_text": "$Sigmoid$ layer.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 4107
+      },
+      {
+        "cross_encoder_score": -11.37408447265625,
+        "dataset": "QASPER",
+        "end_char": 4342,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "c9521b8429b8963552d04c3304237c99",
+        "passage_rank": 2,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "097acb14a450bfb67a15dfdb7be4a629",
+        "sentence_text": "The discriminator decoder takes the hidden state at the last time step of a sequence concatenated with both the max-pooled and mean-pooled representation of the hidden states  and outputs a number in the range $[0,1]$.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 4124
+      },
+      {
+        "cross_encoder_score": -11.4440279006958,
+        "dataset": "QASPER",
+        "end_char": 4561,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "c9521b8429b8963552d04c3304237c99",
+        "passage_rank": 2,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "9fa154ff733dc4754178d580810a3694",
+        "sentence_text": "The difficulty of using GANs in text generation comes from the discrete nature of text, making the model non-differentiable hence, we update parameters for the generator model with policy gradients as described in Yu .",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4343
+      },
+      {
+        "cross_encoder_score": -11.361851692199707,
+        "dataset": "QASPER",
+        "end_char": 4624,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "c9521b8429b8963552d04c3304237c99",
+        "passage_rank": 2,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "038c2e1c804d4e2bf4fc8cdd3a9dd933",
+        "sentence_text": "We utilize AWD-LSTM  and TransformerXL  based language models.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4562
+      },
+      {
+        "cross_encoder_score": -11.43033218383789,
+        "dataset": "QASPER",
+        "end_char": 4706,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "c9521b8429b8963552d04c3304237c99",
+        "passage_rank": 2,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "cdc97f4e04c531e48bbbbe8839eb7e0f",
+        "sentence_text": "For model hyperparameters please to refer to Supplementary Section Table TABREF5.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 4625
+      },
+      {
+        "cross_encoder_score": -11.399125099182129,
+        "dataset": "QASPER",
+        "end_char": 4808,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "c9521b8429b8963552d04c3304237c99",
+        "passage_rank": 2,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "8f8106c6ba310d9ffab545d45f60b2a1",
+        "sentence_text": "We use Adam optimizer  with $\\beta 1= 0.7$ and $\\beta 2= 0.8$ similar to  and use a batch size of 50.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 4707
+      },
+      {
+        "cross_encoder_score": -11.448607444763184,
+        "dataset": "QASPER",
+        "end_char": 4909,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "c9521b8429b8963552d04c3304237c99",
+        "passage_rank": 2,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "dfb8d32ba88c98a05e785ff43462b424",
+        "sentence_text": "Other practices for LM training were the same as  and  for Transformer-XL and AWD-LSTM respectively.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 4809
+      },
+      {
+        "cross_encoder_score": -11.224533081054688,
+        "dataset": "QASPER",
+        "end_char": 5095,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "c9521b8429b8963552d04c3304237c99",
+        "passage_rank": 2,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "6eac5dcf427a7466f775f1ec18490863",
+        "sentence_text": "We refer to our proposed GAN as Creative-GAN and compare it to a baseline (a language model equivalent to our pre-trained generator) and a GumbelGAN model  across all proposed datasets.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 4910
+      },
+      {
+        "cross_encoder_score": -6.403510093688965,
+        "dataset": "QASPER",
+        "end_char": 5238,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "c9521b8429b8963552d04c3304237c99",
+        "passage_rank": 2,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "34c74e6d6c12b329d5569d5e2f6dfa32",
+        "sentence_text": "We use three creative English datasets with distinct linguistic characteristics: (1) A corpus of 740 classical and contemporary English poems,",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          3,
+          8,
+          0
+        ],
+        "source_position": 5096
+      },
+      {
+        "cross_encoder_score": -11.34504508972168,
+        "dataset": "QASPER",
+        "end_char": 5382,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "1b21dc53f907cefc49007ea8d353cfa7",
+        "passage_rank": 3,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "e2606cb7d3fb68aa40be4e0a617a6766",
+        "sentence_text": "(2) a corpus of 14950 metaphor sentences retrieved from a metaphor database website and (3) a corpus of 1500 song lyrics ranging across genres.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "source_position": 5239
+      },
+      {
+        "cross_encoder_score": -11.371262550354004,
+        "dataset": "QASPER",
+        "end_char": 5506,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "1b21dc53f907cefc49007ea8d353cfa7",
+        "passage_rank": 3,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "01af0399530029ad87a89330c1250562",
+        "sentence_text": "The mix of linguistic styles within this corpus offers the potential for interesting variation during the generation phase.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "source_position": 5383
+      },
+      {
+        "cross_encoder_score": -11.141525268554688,
+        "dataset": "QASPER",
+        "end_char": 5560,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "1b21dc53f907cefc49007ea8d353cfa7",
+        "passage_rank": 3,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "fdcc983826e305f8bfe31071638792d2",
+        "sentence_text": "We use the same pre-processing as in earlier work , .",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "source_position": 5507
+      },
+      {
+        "cross_encoder_score": -10.974379539489746,
+        "dataset": "QASPER",
+        "end_char": 5640,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "1b21dc53f907cefc49007ea8d353cfa7",
+        "passage_rank": 3,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "44b90f9e4e1726ecf2b3260508583923",
+        "sentence_text": "We reserve 10% of our data for test set and another 10% for our validation set.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "source_position": 5561
+      },
+      {
+        "cross_encoder_score": -11.140780448913574,
+        "dataset": "QASPER",
+        "end_char": 5797,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "1b21dc53f907cefc49007ea8d353cfa7",
+        "passage_rank": 3,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "09c479f5ef14d2c1a96cf910b83afbd5",
+        "sentence_text": "We first pre-train our generator on the Gutenberg dataset  for 20 epochs and then fine-tune  them to our target datasets with a language modeling objective.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "source_position": 5641
+      },
+      {
+        "cross_encoder_score": -11.330694198608398,
+        "dataset": "QASPER",
+        "end_char": 5894,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "1b21dc53f907cefc49007ea8d353cfa7",
+        "passage_rank": 3,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "75c9e78c01571f53ddc159be28026fc0",
+        "sentence_text": "The discriminator's encoder is initialized to the same weights as our fine-tuned language model.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          4,
+          5,
+          0
+        ],
+        "source_position": 5798
+      },
+      {
+        "cross_encoder_score": -11.29007625579834,
+        "dataset": "QASPER",
+        "end_char": 5991,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "1b21dc53f907cefc49007ea8d353cfa7",
+        "passage_rank": 3,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "732e59086123e53b46e7aa59a73be853",
+        "sentence_text": "Once we have our fine-tuned encoders for each target dataset, we train in an adversarial manner.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          4,
+          6,
+          0
+        ],
+        "source_position": 5895
+      },
+      {
+        "cross_encoder_score": -11.374286651611328,
+        "dataset": "QASPER",
+        "end_char": 6070,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "1b21dc53f907cefc49007ea8d353cfa7",
+        "passage_rank": 3,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "0998670164c5933182616ac32a70bfa2",
+        "sentence_text": "The discriminator objective here is to score the quality of the creative text.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          4,
+          7,
+          0
+        ],
+        "source_position": 5992
+      },
+      {
+        "cross_encoder_score": -11.416116714477539,
+        "dataset": "QASPER",
+        "end_char": 6189,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "1b21dc53f907cefc49007ea8d353cfa7",
+        "passage_rank": 3,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "de4145e90fc2510ab3423a8152e32973",
+        "sentence_text": "The discriminator is trained for 3 iterations for every iteration of the generator, a practice seen in previous work .",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          4,
+          8,
+          0
+        ],
+        "source_position": 6071
+      },
+      {
+        "cross_encoder_score": -11.428446769714355,
+        "dataset": "QASPER",
+        "end_char": 6276,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "1b21dc53f907cefc49007ea8d353cfa7",
+        "passage_rank": 3,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "ad8952deb86d2dc58439fd95ae5c8465",
+        "sentence_text": "Creative-GAN relies on using the reward from the discriminator ,  for backpropagation.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          4,
+          9,
+          0
+        ],
+        "source_position": 6190
+      },
+      {
+        "cross_encoder_score": -11.435347557067871,
+        "dataset": "QASPER",
+        "end_char": 6330,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "1b21dc53f907cefc49007ea8d353cfa7",
+        "passage_rank": 3,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "2947c41d40f6ccb1a25145554944c865",
+        "sentence_text": "We follow a similar training procedure for GumbelGAN.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          4,
+          10,
+          0
+        ],
+        "source_position": 6277
+      },
+      {
+        "cross_encoder_score": -11.313965797424316,
+        "dataset": "QASPER",
+        "end_char": 6445,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "1b21dc53f907cefc49007ea8d353cfa7",
+        "passage_rank": 3,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "b6cb0b128f521172836b35460f84607b",
+        "sentence_text": "Outputs are generated through sampling over a multinomial distribution for all methods, instead of $argmax$ on the",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          4,
+          11,
+          0
+        ],
+        "source_position": 6331
+      },
+      {
+        "cross_encoder_score": -11.312345504760742,
+        "dataset": "QASPER",
+        "end_char": 6532,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "7c5af6e77d6b4f43aa3b59a970ac9545",
+        "passage_rank": 4,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "d22d60185f781553c2dc975dfac1ce09",
+        "sentence_text": "log-likelihood probabilities, as sampling has shown to produce better output quality .",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 6446
+      },
+      {
+        "cross_encoder_score": -11.419977188110352,
+        "dataset": "QASPER",
+        "end_char": 6679,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "7c5af6e77d6b4f43aa3b59a970ac9545",
+        "passage_rank": 4,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "09bd3402b9b11304cd7ef2d475afbcbe",
+        "sentence_text": "Please refer to Supplementary Section Table TABREF6 for training parameters of each dataset and Table TABREF5 for hyperparameters of each encoder.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 6533
+      },
+      {
+        "cross_encoder_score": -11.351922988891602,
+        "dataset": "QASPER",
+        "end_char": 6747,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "7c5af6e77d6b4f43aa3b59a970ac9545",
+        "passage_rank": 4,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "1b62e2cf2a647351cfac9cd33315d853",
+        "sentence_text": "We pick these values after experimentation with our validation set.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 6680
+      },
+      {
+        "cross_encoder_score": -11.395763397216797,
+        "dataset": "QASPER",
+        "end_char": 6804,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "7c5af6e77d6b4f43aa3b59a970ac9545",
+        "passage_rank": 4,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "1ab68104b3a6635e985a87f44de1005b",
+        "sentence_text": "Training and output generation code can be found online.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 6748
+      },
+      {
+        "cross_encoder_score": -11.380823135375977,
+        "dataset": "QASPER",
+        "end_char": 6899,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "7c5af6e77d6b4f43aa3b59a970ac9545",
+        "passage_rank": 4,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "b17d9ce102b1912acae6953c02a85668",
+        "sentence_text": "Evaluation and conclusion\tEvaluating creative generation tasks is both critical and complex .",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 6806
+      },
+      {
+        "cross_encoder_score": -10.684462547302246,
+        "dataset": "QASPER",
+        "end_char": 7148,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "7c5af6e77d6b4f43aa3b59a970ac9545",
+        "passage_rank": 4,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "a3b2c822e3f5553172d343b8b7219cb2",
+        "sentence_text": "Along the lines of previous research on evaluating text generation tasks , we report the perplexity scores of our test set on the evaluated models in the Supplementary Section, Table TABREF4 Our model shows improvements over baseline and GumbelGAN.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 6900
+      },
+      {
+        "cross_encoder_score": -11.333464622497559,
+        "dataset": "QASPER",
+        "end_char": 7301,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "7c5af6e77d6b4f43aa3b59a970ac9545",
+        "passage_rank": 4,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "aef14b06db0e374d5d80f9ab22e4f7ed",
+        "sentence_text": "Common computational methods like BLEU  and perplexity are at best a heuristic and not strong indicators of good performance in text generation models .",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 7149
+      },
+      {
+        "cross_encoder_score": -11.09835147857666,
+        "dataset": "QASPER",
+        "end_char": 7415,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "7c5af6e77d6b4f43aa3b59a970ac9545",
+        "passage_rank": 4,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "7e2d61d9169da8a8675b6b4ea5fa7146",
+        "sentence_text": "Particularly, since these scores use target sequences as a reference, it has the same pitfalls as relying on MLE.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 7302
+      },
+      {
+        "cross_encoder_score": -11.408791542053223,
+        "dataset": "QASPER",
+        "end_char": 7541,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "7c5af6e77d6b4f43aa3b59a970ac9545",
+        "passage_rank": 4,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "8df6683c4df4ff7f58c4396ca261c86c",
+        "sentence_text": "The advantages in this approach lie in the discriminator's ability to influence the generator to explore other possibilities.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          5,
+          8,
+          0
+        ],
+        "source_position": 7416
+      },
+      {
+        "cross_encoder_score": -11.272710800170898,
+        "dataset": "QASPER",
+        "end_char": 7600,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "7c5af6e77d6b4f43aa3b59a970ac9545",
+        "passage_rank": 4,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "32fbdbf0ff91cf1d736a11b63450e768",
+        "sentence_text": "Sample outputs for our model can be found on our website .",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          5,
+          9,
+          0
+        ],
+        "source_position": 7542
+      },
+      {
+        "cross_encoder_score": -9.7495698928833,
+        "dataset": "QASPER",
+        "end_char": 7749,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "7c5af6e77d6b4f43aa3b59a970ac9545",
+        "passage_rank": 4,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "145dfdc55ea0e7ba33b5724971009d0c",
+        "sentence_text": "Supplementary Material\tIn this section, we report our results on computational metrics, hyperparameters and training configurations for our models.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          5,
+          10,
+          0
+        ],
+        "source_position": 7602
+      },
+      {
+        "cross_encoder_score": -11.123760223388672,
+        "dataset": "QASPER",
+        "end_char": 7877,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "7c5af6e77d6b4f43aa3b59a970ac9545",
+        "passage_rank": 4,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "d5413c06f33af2c7504cf7f222aa3b31",
+        "sentence_text": "Table TABREF4 shows the results of the perplexity score evaluation of the evaluated models, Table TABREF5 shows hyperparameters",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          5,
+          11,
+          0
+        ],
+        "source_position": 7750
+      },
+      {
+        "cross_encoder_score": -11.415023803710938,
+        "dataset": "QASPER",
+        "end_char": 7951,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "f3dfa6b8b4ce97b2e9ab7ee9da33b41d",
+        "passage_rank": 1,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "5883831d0411918086ce2bebc9d7e762",
+        "sentence_text": "for each encoding method and Table TABREF6 shows our training parameters.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 7878
+      },
+      {
+        "cross_encoder_score": -11.211713790893555,
+        "dataset": "QASPER",
+        "end_char": 8106,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "f3dfa6b8b4ce97b2e9ab7ee9da33b41d",
+        "passage_rank": 1,
+        "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6",
+        "sentence_id": "3626088aadd9c5bd6f1a5b840a1965d9",
+        "sentence_text": "In Table TABREF6, the values for Gutenberg dataset in columns, GumbelGAN and Creative-GAN are empty as we only pretrain our LMs with the Gutenberg dataset",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 7952
+      }
+    ],
+    "scoring_seconds": 0.25568765110801905,
+    "source_fingerprint": "f27d164680b0d696ac93145c0f477208af13f96db72c65b4e2ef3eee1944c44a"
+  }
+}

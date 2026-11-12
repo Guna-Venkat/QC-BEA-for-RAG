@@ -1,0 +1,1691 @@
+{
+  "checksum": "5e807ef98381891dcf0dc2e60a3cc7768c2dbe2202b611f101dec31438d5a079",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "354"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 83,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "ae98ebd4f819f0eb71de1b18eaaf9b9af8d5af09d96d0841065582f56080c976",
+    "query_id": "354",
+    "scores": [
+      {
+        "cross_encoder_score": -3.623145818710327,
+        "dataset": "SciFact",
+        "end_char": 107,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "e97034a5582706e1f9d6521417cbcba1",
+        "passage_rank": 2,
+        "query_id": "354",
+        "sentence_id": "e28f25e17509e4be3dcb3ba47e003d40",
+        "sentence_text": "The mammalian Scribble polarity protein regulates epithelial cell adhesion and migration through E-cadherin",
+        "sentence_token_cost": 21,
+        "source_order": [
+          219,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.0924062728881836,
+        "dataset": "SciFact",
+        "end_char": 272,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "e97034a5582706e1f9d6521417cbcba1",
+        "passage_rank": 2,
+        "query_id": "354",
+        "sentence_id": "7591673bc3d2fdf95349fab33b54ab6b",
+        "sentence_text": "Scribble (Scrib) is a conserved polarity protein required in Drosophila melanogaster for synaptic function, neuroblast differentiation, and epithelial polarization.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          219,
+          0,
+          1,
+          0
+        ],
+        "source_position": 108
+      },
+      {
+        "cross_encoder_score": -9.85738468170166,
+        "dataset": "SciFact",
+        "end_char": 303,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "e97034a5582706e1f9d6521417cbcba1",
+        "passage_rank": 2,
+        "query_id": "354",
+        "sentence_id": "8e8d0ce15f8a661019845ce2cc0a8027",
+        "sentence_text": "It is also a tumor suppressor.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          219,
+          0,
+          2,
+          0
+        ],
+        "source_position": 273
+      },
+      {
+        "cross_encoder_score": -8.430547714233398,
+        "dataset": "SciFact",
+        "end_char": 417,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "e97034a5582706e1f9d6521417cbcba1",
+        "passage_rank": 2,
+        "query_id": "354",
+        "sentence_id": "f08ac9fed8e99b5efcf9c6dcb0249e95",
+        "sentence_text": "In rodents, Scrib has been implicated in receptor recycling and planar polarity but not in apical/basal polarity.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          219,
+          0,
+          3,
+          0
+        ],
+        "source_position": 304
+      },
+      {
+        "cross_encoder_score": -7.161876201629639,
+        "dataset": "SciFact",
+        "end_char": 523,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "e97034a5582706e1f9d6521417cbcba1",
+        "passage_rank": 2,
+        "query_id": "354",
+        "sentence_id": "a1bab1f4ea6e0c5fdada6282faab9359",
+        "sentence_text": "We now show that knockdown of Scrib disrupts adhesion between Madin\u2013Darby canine kidney epithelial cells.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          219,
+          0,
+          4,
+          0
+        ],
+        "source_position": 418
+      },
+      {
+        "cross_encoder_score": -8.405484199523926,
+        "dataset": "SciFact",
+        "end_char": 632,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "e97034a5582706e1f9d6521417cbcba1",
+        "passage_rank": 2,
+        "query_id": "354",
+        "sentence_id": "41fab1a40c3a87924a4874ecebed94ec",
+        "sentence_text": "As a consequence, the cells acquire a mesenchymal appearance, migrate more rapidly, and lose directionality.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          219,
+          0,
+          5,
+          0
+        ],
+        "source_position": 524
+      },
+      {
+        "cross_encoder_score": -10.709636688232422,
+        "dataset": "SciFact",
+        "end_char": 716,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "e97034a5582706e1f9d6521417cbcba1",
+        "passage_rank": 2,
+        "query_id": "354",
+        "sentence_id": "4b0a1378bb104a092ac222fd0b09fa34",
+        "sentence_text": "Although tight junction assembly is delayed, confluent monolayers remain polarized.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          219,
+          0,
+          6,
+          0
+        ],
+        "source_position": 633
+      },
+      {
+        "cross_encoder_score": -8.655028343200684,
+        "dataset": "SciFact",
+        "end_char": 790,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "e97034a5582706e1f9d6521417cbcba1",
+        "passage_rank": 2,
+        "query_id": "354",
+        "sentence_id": "22fb0d01d76144c9647ebff500d86da4",
+        "sentence_text": "These effects are independent of Rac activation or Scrib binding to \u03b2PIX.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          219,
+          0,
+          7,
+          0
+        ],
+        "source_position": 717
+      },
+      {
+        "cross_encoder_score": -5.297222137451172,
+        "dataset": "SciFact",
+        "end_char": 863,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "e97034a5582706e1f9d6521417cbcba1",
+        "passage_rank": 2,
+        "query_id": "354",
+        "sentence_id": "17c2f4cdaa5ebf4abc7ab7c039071d1a",
+        "sentence_text": "Rather, Scrib depletion disrupts E-cadherin\u2013mediated cell\u2013cell adhesion.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          219,
+          0,
+          8,
+          0
+        ],
+        "source_position": 791
+      },
+      {
+        "cross_encoder_score": -10.217443466186523,
+        "dataset": "SciFact",
+        "end_char": 944,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "e97034a5582706e1f9d6521417cbcba1",
+        "passage_rank": 2,
+        "query_id": "354",
+        "sentence_id": "e061dacf03445cf56279a65bc3b32736",
+        "sentence_text": "The changes in morphology and migration are phenocopied by E-cadherin knockdown.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          219,
+          0,
+          9,
+          0
+        ],
+        "source_position": 864
+      },
+      {
+        "cross_encoder_score": -10.814373970031738,
+        "dataset": "SciFact",
+        "end_char": 1079,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "e97034a5582706e1f9d6521417cbcba1",
+        "passage_rank": 2,
+        "query_id": "354",
+        "sentence_id": "69235de9e92a1a6e3f9c66169fdc25b8",
+        "sentence_text": "Adhesion is partially rescued by expression of an E-cadherin\u2013\u03b1-catenin fusion protein but not by E-cadherin\u2013green fluorescent protein.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          219,
+          0,
+          10,
+          0
+        ],
+        "source_position": 945
+      },
+      {
+        "cross_encoder_score": -5.425062656402588,
+        "dataset": "SciFact",
+        "end_char": 1315,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "e97034a5582706e1f9d6521417cbcba1",
+        "passage_rank": 2,
+        "query_id": "354",
+        "sentence_id": "82b869286c39c2194b8a8b4e9119310d",
+        "sentence_text": "These results suggest that Scrib stabilizes the coupling between E-cadherin and the catenins and are consistent with the idea that mammalian Scrib could behave as a tumor suppressor by regulating epithelial cell adhesion and migration.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          219,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1080
+      },
+      {
+        "cross_encoder_score": -8.415989875793457,
+        "dataset": "SciFact",
+        "end_char": 115,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "2235b30904536e7ded5665e3c8be1ea6",
+        "passage_rank": 5,
+        "query_id": "354",
+        "sentence_id": "913b4bf9d243db5097d7c45ba67c55ed",
+        "sentence_text": "Spatiotemporal regulation of epithelial-mesenchymal transition is essential for squamous cell carcinoma metastasis.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          326,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.885920524597168,
+        "dataset": "SciFact",
+        "end_char": 266,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "2235b30904536e7ded5665e3c8be1ea6",
+        "passage_rank": 5,
+        "query_id": "354",
+        "sentence_id": "926c7ca3166d85bb2b942deab8d4baec",
+        "sentence_text": "Epithelial-mesenchymal transition (EMT) is implicated in converting stationary epithelial tumor cells into motile mesenchymal cells during metastasis.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          326,
+          0,
+          1,
+          0
+        ],
+        "source_position": 116
+      },
+      {
+        "cross_encoder_score": -11.070211410522461,
+        "dataset": "SciFact",
+        "end_char": 410,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "2235b30904536e7ded5665e3c8be1ea6",
+        "passage_rank": 5,
+        "query_id": "354",
+        "sentence_id": "74af5ffdd01746d4aa5cfe4bb0d5c19f",
+        "sentence_text": "However, the involvement of EMT in metastasis is still controversial, due to the lack of a mesenchymal phenotype in human carcinoma metastases.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          326,
+          0,
+          2,
+          0
+        ],
+        "source_position": 267
+      },
+      {
+        "cross_encoder_score": -10.977869987487793,
+        "dataset": "SciFact",
+        "end_char": 635,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "2235b30904536e7ded5665e3c8be1ea6",
+        "passage_rank": 5,
+        "query_id": "354",
+        "sentence_id": "50f940ba1eb5ee003ca4e4e950255ee6",
+        "sentence_text": "Using a spontaneous squamous cell carcinoma mouse model, we show that activation of the EMT-inducing transcription factor Twist1 is sufficient to promote carcinoma cells to undergo EMT and disseminate into blood circulation.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          326,
+          0,
+          3,
+          0
+        ],
+        "source_position": 411
+      },
+      {
+        "cross_encoder_score": -8.184809684753418,
+        "dataset": "SciFact",
+        "end_char": 789,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "2235b30904536e7ded5665e3c8be1ea6",
+        "passage_rank": 5,
+        "query_id": "354",
+        "sentence_id": "ea5c5f23a43880555ab4188c545a4467",
+        "sentence_text": "Importantly, in distant sites, turning off Twist1 to allow reversion of EMT is essential for disseminated tumor cells to proliferate and form metastases.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          326,
+          0,
+          4,
+          0
+        ],
+        "source_position": 636
+      },
+      {
+        "cross_encoder_score": -11.05322265625,
+        "dataset": "SciFact",
+        "end_char": 958,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "2235b30904536e7ded5665e3c8be1ea6",
+        "passage_rank": 5,
+        "query_id": "354",
+        "sentence_id": "c5fedf6ad765c7562e46a270a4763712",
+        "sentence_text": "Our study demonstrates in vivo the requirement of \"reversible EMT\" in tumor metastasis and may resolve the controversy on the importance of EMT in carcinoma metastasis.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          326,
+          0,
+          5,
+          0
+        ],
+        "source_position": 790
+      },
+      {
+        "cross_encoder_score": -10.065507888793945,
+        "dataset": "SciFact",
+        "end_char": 118,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "faefa6df5e49137e56f5d7f414e9d56f",
+        "passage_rank": 8,
+        "query_id": "354",
+        "sentence_id": "a39e644c6639e8747127b2f379f9e803",
+        "sentence_text": "Aberrant luminal progenitors as the candidate target population for basal tumor development in BRCA1 mutation carriers",
+        "sentence_token_cost": 22,
+        "source_order": [
+          338,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.264679908752441,
+        "dataset": "SciFact",
+        "end_char": 295,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "faefa6df5e49137e56f5d7f414e9d56f",
+        "passage_rank": 8,
+        "query_id": "354",
+        "sentence_id": "b38e2346f4f9d983dbe48d615470e1af",
+        "sentence_text": "Basal-like breast cancers arising in women carrying mutations in the BRCA1 gene, encoding the tumor suppressor protein BRCA1, are thought to develop from the mammary stem cell.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          338,
+          0,
+          1,
+          0
+        ],
+        "source_position": 119
+      },
+      {
+        "cross_encoder_score": -8.577436447143555,
+        "dataset": "SciFact",
+        "end_char": 541,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "faefa6df5e49137e56f5d7f414e9d56f",
+        "passage_rank": 8,
+        "query_id": "354",
+        "sentence_id": "5a8bdbf59c1b3ac9414191ac9dce8aa9",
+        "sentence_text": "To explore early cellular changes that occur in BRCA1 mutation carriers, we have prospectively isolated distinct epithelial subpopulations from normal mammary tissue and preneoplastic specimens from individuals heterozygous for a BRCA1 mutation.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          338,
+          0,
+          2,
+          0
+        ],
+        "source_position": 296
+      },
+      {
+        "cross_encoder_score": -10.79152774810791,
+        "dataset": "SciFact",
+        "end_char": 656,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "faefa6df5e49137e56f5d7f414e9d56f",
+        "passage_rank": 8,
+        "query_id": "354",
+        "sentence_id": "4de1061e0245b6970c21862c11e25f98",
+        "sentence_text": "We describe three epithelial subsets including basal stem/progenitor, luminal progenitor and mature luminal cells.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          338,
+          0,
+          3,
+          0
+        ],
+        "source_position": 542
+      },
+      {
+        "cross_encoder_score": -10.905278205871582,
+        "dataset": "SciFact",
+        "end_char": 824,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "faefa6df5e49137e56f5d7f414e9d56f",
+        "passage_rank": 8,
+        "query_id": "354",
+        "sentence_id": "8fcb17cb143f92cd9b5188e1193497aa",
+        "sentence_text": "Unexpectedly, we found that breast tissue from BRCA1 mutation carriers harbors an expanded luminal progenitor population that shows factor-independent growth in vitro.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          338,
+          0,
+          4,
+          0
+        ],
+        "source_position": 657
+      },
+      {
+        "cross_encoder_score": -10.290205001831055,
+        "dataset": "SciFact",
+        "end_char": 1067,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "faefa6df5e49137e56f5d7f414e9d56f",
+        "passage_rank": 8,
+        "query_id": "354",
+        "sentence_id": "2979d35a33f5a50e3a3df93ce23d14f5",
+        "sentence_text": "Moreover, gene expression profiling revealed that breast tissue heterozygous for a BRCA1 mutation and basal breast tumors were more similar to normal luminal progenitor cells than any other subset, including the stem cell\u2013enriched population.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          338,
+          0,
+          5,
+          0
+        ],
+        "source_position": 825
+      },
+      {
+        "cross_encoder_score": -10.763594627380371,
+        "dataset": "SciFact",
+        "end_char": 1254,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "faefa6df5e49137e56f5d7f414e9d56f",
+        "passage_rank": 8,
+        "query_id": "354",
+        "sentence_id": "cbefd54c183a5df5dd9ed6b1fbfbc2c2",
+        "sentence_text": "The c-KIT tyrosine kinase receptor (encoded by KIT) emerged as a key marker of luminal progenitor cells and was more highly expressed in BRCA1-associated preneoplastic tissue and tumors.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          338,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1068
+      },
+      {
+        "cross_encoder_score": -6.638452529907227,
+        "dataset": "SciFact",
+        "end_char": 1388,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "faefa6df5e49137e56f5d7f414e9d56f",
+        "passage_rank": 8,
+        "query_id": "354",
+        "sentence_id": "ad520b1b0837a39a02a3c1aa10f690ca",
+        "sentence_text": "Our findings suggest that an aberrant luminal progenitor population is a target for transformation in BRCA1-associated basal tumors .",
+        "sentence_token_cost": 25,
+        "source_order": [
+          338,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1255
+      },
+      {
+        "cross_encoder_score": -11.14883804321289,
+        "dataset": "SciFact",
+        "end_char": 90,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "5d839695ed942fb2f109923d13b74986",
+        "passage_rank": 7,
+        "query_id": "354",
+        "sentence_id": "f2dd6b0aea8e1b08d607cd4476f37940",
+        "sentence_text": "A genetic screen identifies an LKB1\u2013MARK signalling axis controlling the Hippo\u2013YAP pathway",
+        "sentence_token_cost": 20,
+        "source_order": [
+          344,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.49899673461914,
+        "dataset": "SciFact",
+        "end_char": 211,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "5d839695ed942fb2f109923d13b74986",
+        "passage_rank": 7,
+        "query_id": "354",
+        "sentence_id": "e60a46ad38d6f11d669b0089966b3472",
+        "sentence_text": "The Hippo\u2013YAP pathway is an emerging signalling cascade involved in the regulation of stem cell activity and organ size.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          344,
+          0,
+          1,
+          0
+        ],
+        "source_position": 91
+      },
+      {
+        "cross_encoder_score": -10.791274070739746,
+        "dataset": "SciFact",
+        "end_char": 308,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "5d839695ed942fb2f109923d13b74986",
+        "passage_rank": 7,
+        "query_id": "354",
+        "sentence_id": "f28bcbba0dcbd66125f34b0b4ddfa704",
+        "sentence_text": "To identify components of this pathway, we performed an RNAi-based kinome screen in human cells.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          344,
+          0,
+          2,
+          0
+        ],
+        "source_position": 212
+      },
+      {
+        "cross_encoder_score": -10.67669677734375,
+        "dataset": "SciFact",
+        "end_char": 436,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "5d839695ed942fb2f109923d13b74986",
+        "passage_rank": 7,
+        "query_id": "354",
+        "sentence_id": "292a2bfe576394878416371baa50b1c3",
+        "sentence_text": "Our screen identified several kinases not previously associated with Hippo signalling that control multiple cellular processes.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          344,
+          0,
+          3,
+          0
+        ],
+        "source_position": 309
+      },
+      {
+        "cross_encoder_score": -10.611912727355957,
+        "dataset": "SciFact",
+        "end_char": 545,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "5d839695ed942fb2f109923d13b74986",
+        "passage_rank": 7,
+        "query_id": "354",
+        "sentence_id": "2a42326cf54c901287051425d64325be",
+        "sentence_text": "One of the hits, LKB1, is a common tumour suppressor whose mechanism of action is only partially understood.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          344,
+          0,
+          4,
+          0
+        ],
+        "source_position": 437
+      },
+      {
+        "cross_encoder_score": -6.407298564910889,
+        "dataset": "SciFact",
+        "end_char": 761,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "5d839695ed942fb2f109923d13b74986",
+        "passage_rank": 7,
+        "query_id": "354",
+        "sentence_id": "32a0d539da1b32cfcd9d8e695d754171",
+        "sentence_text": "We demonstrate that LKB1 acts through its substrates of the microtubule affinity-regulating kinase family to regulate the localization of the polarity determinant Scribble and the activity of the core Hippo kinases.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          344,
+          0,
+          5,
+          0
+        ],
+        "source_position": 546
+      },
+      {
+        "cross_encoder_score": -10.662872314453125,
+        "dataset": "SciFact",
+        "end_char": 863,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "5d839695ed942fb2f109923d13b74986",
+        "passage_rank": 7,
+        "query_id": "354",
+        "sentence_id": "2dac6c20270392cfe03f75651c90e569",
+        "sentence_text": "Our data also indicate that YAP is functionally important for the tumour suppressive effects of LKB1.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          344,
+          0,
+          6,
+          0
+        ],
+        "source_position": 762
+      },
+      {
+        "cross_encoder_score": -10.915578842163086,
+        "dataset": "SciFact",
+        "end_char": 1024,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "5d839695ed942fb2f109923d13b74986",
+        "passage_rank": 7,
+        "query_id": "354",
+        "sentence_id": "dd337bade419740a31569cfd48ece076",
+        "sentence_text": "Our results identify a signalling axis that links YAP activation with LKB1 mutations, and have implications for the treatment of LKB1-mutant human malignancies.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          344,
+          0,
+          7,
+          0
+        ],
+        "source_position": 864
+      },
+      {
+        "cross_encoder_score": -11.078730583190918,
+        "dataset": "SciFact",
+        "end_char": 1125,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "5d839695ed942fb2f109923d13b74986",
+        "passage_rank": 7,
+        "query_id": "354",
+        "sentence_id": "2f9c661208ed5ef94b02bfbc9b5e9bad",
+        "sentence_text": "In addition, our findings provide insight into upstream signals of the Hippo\u2013YAP signalling cascade.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          344,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1025
+      },
+      {
+        "cross_encoder_score": 4.604926586151123,
+        "dataset": "SciFact",
+        "end_char": 105,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "0e35a357e7f1a12fae8aa015fe2fab9a",
+        "passage_rank": 1,
+        "query_id": "354",
+        "sentence_id": "3b14354cad1f04956607c09f3512afc1",
+        "sentence_text": "Deregulation of Scribble Promotes Mammary Tumorigenesis and Reveals a Role for Cell Polarity in Carcinoma",
+        "sentence_token_cost": 28,
+        "source_order": [
+          1561,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -0.9525635838508606,
+        "dataset": "SciFact",
+        "end_char": 226,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "0e35a357e7f1a12fae8aa015fe2fab9a",
+        "passage_rank": 1,
+        "query_id": "354",
+        "sentence_id": "edc989f04f3a608463699269b49a956c",
+        "sentence_text": "Loss of cell polarity proteins such as Scribble induces neoplasia in Drosophila by promoting uncontrolled proliferation.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          1561,
+          0,
+          1,
+          0
+        ],
+        "source_position": 106
+      },
+      {
+        "cross_encoder_score": -6.976938247680664,
+        "dataset": "SciFact",
+        "end_char": 320,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "0e35a357e7f1a12fae8aa015fe2fab9a",
+        "passage_rank": 1,
+        "query_id": "354",
+        "sentence_id": "e5b1fb48acc68630745a0712533fd34f",
+        "sentence_text": "In mammals, the role that polarity proteins play during tumorigenesis is not well understood.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          1561,
+          0,
+          2,
+          0
+        ],
+        "source_position": 227
+      },
+      {
+        "cross_encoder_score": 3.743858814239502,
+        "dataset": "SciFact",
+        "end_char": 547,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "0e35a357e7f1a12fae8aa015fe2fab9a",
+        "passage_rank": 1,
+        "query_id": "354",
+        "sentence_id": "92ad5390bdc4b2ad008e8b6659fb8dcd",
+        "sentence_text": "Here, we demonstrate that depletion of Scribble in mammary epithelia disrupts cell polarity, blocks three-dimensional morphogenesis, inhibits apoptosis, and induces dysplasia in vivo that progress to tumors after long latency.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          1561,
+          0,
+          3,
+          0
+        ],
+        "source_position": 321
+      },
+      {
+        "cross_encoder_score": 1.2518677711486816,
+        "dataset": "SciFact",
+        "end_char": 708,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "0e35a357e7f1a12fae8aa015fe2fab9a",
+        "passage_rank": 1,
+        "query_id": "354",
+        "sentence_id": "82035ab808cfe0fcaf118de615fc2c95",
+        "sentence_text": "Loss of Scribble cooperates with oncogenes such as c-myc to transform epithelial cells and induce tumors in vivo by blocking activation of an apoptosis pathway.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          1561,
+          0,
+          4,
+          0
+        ],
+        "source_position": 548
+      },
+      {
+        "cross_encoder_score": 3.4144599437713623,
+        "dataset": "SciFact",
+        "end_char": 823,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "0e35a357e7f1a12fae8aa015fe2fab9a",
+        "passage_rank": 1,
+        "query_id": "354",
+        "sentence_id": "49f01949b9c916c37cd9772eddf2c6f6",
+        "sentence_text": "Like depletion, mislocalization of Scribble from cell-cell junction was sufficient to promote cell transformation.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          1561,
+          0,
+          5,
+          0
+        ],
+        "source_position": 709
+      },
+      {
+        "cross_encoder_score": 3.6857998371124268,
+        "dataset": "SciFact",
+        "end_char": 938,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "0e35a357e7f1a12fae8aa015fe2fab9a",
+        "passage_rank": 1,
+        "query_id": "354",
+        "sentence_id": "e6f6c25aa6f637a21e7238ce02a336d1",
+        "sentence_text": "Interestingly, spontaneous mammary tumors in mice and humans possess both downregulated and mislocalized Scribble.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          1561,
+          0,
+          6,
+          0
+        ],
+        "source_position": 824
+      },
+      {
+        "cross_encoder_score": 1.106001615524292,
+        "dataset": "SciFact",
+        "end_char": 1157,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "0e35a357e7f1a12fae8aa015fe2fab9a",
+        "passage_rank": 1,
+        "query_id": "354",
+        "sentence_id": "168783cf91b26eef49071a493b620dde",
+        "sentence_text": "Thus, we demonstrate that scribble inhibits breast cancer formation and that deregulation of polarity pathways promotes dysplastic and neoplastic growth in mammals by disrupting morphogenesis and inhibiting cell death.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          1561,
+          0,
+          7,
+          0
+        ],
+        "source_position": 939
+      },
+      {
+        "cross_encoder_score": -9.302750587463379,
+        "dataset": "SciFact",
+        "end_char": 89,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "825cc9a9c09a1a2f64e88123eb93ce9d",
+        "passage_rank": 3,
+        "query_id": "354",
+        "sentence_id": "9bc8680b10cd0106ef065e033c82a0c7",
+        "sentence_text": "Loss of negative regulation by Numb over Notch is relevant to human breast carcinogenesis",
+        "sentence_token_cost": 17,
+        "source_order": [
+          2587,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.847379684448242,
+        "dataset": "SciFact",
+        "end_char": 221,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "825cc9a9c09a1a2f64e88123eb93ce9d",
+        "passage_rank": 3,
+        "query_id": "354",
+        "sentence_id": "bf716de43ad4101ba05ea09a6f27b89e",
+        "sentence_text": "The biological antagonism between Notch and Numb controls the proliferative/differentiative balance in development and homeostasis.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          2587,
+          0,
+          1,
+          0
+        ],
+        "source_position": 90
+      },
+      {
+        "cross_encoder_score": -9.709022521972656,
+        "dataset": "SciFact",
+        "end_char": 393,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "825cc9a9c09a1a2f64e88123eb93ce9d",
+        "passage_rank": 3,
+        "query_id": "354",
+        "sentence_id": "c653845ef5caf0ac4c9d1d55e9c69795",
+        "sentence_text": "Although altered Notch signaling has been linked to human diseases, including cancer, evidence for a substantial involvement of Notch in human tumors has remained elusive.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          2587,
+          0,
+          2,
+          0
+        ],
+        "source_position": 222
+      },
+      {
+        "cross_encoder_score": -7.247893333435059,
+        "dataset": "SciFact",
+        "end_char": 563,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "825cc9a9c09a1a2f64e88123eb93ce9d",
+        "passage_rank": 3,
+        "query_id": "354",
+        "sentence_id": "a38bb406d77c3876e76d75a812f937c8",
+        "sentence_text": "Here, we show that Numb-mediated control on Notch signaling is lost in \u223c50% of human mammary carcinomas, due to specific Numb ubiquitination and proteasomal degradation.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          2587,
+          0,
+          3,
+          0
+        ],
+        "source_position": 394
+      },
+      {
+        "cross_encoder_score": -10.18492317199707,
+        "dataset": "SciFact",
+        "end_char": 722,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "825cc9a9c09a1a2f64e88123eb93ce9d",
+        "passage_rank": 3,
+        "query_id": "354",
+        "sentence_id": "d5d1d37137474eaed4498e5c7d3c4386",
+        "sentence_text": "Mechanistically, Numb operates as an oncosuppressor, as its ectopic expression in Numb-negative, but not in Numb-positive, tumor cells inhibits proliferation.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          2587,
+          0,
+          4,
+          0
+        ],
+        "source_position": 564
+      },
+      {
+        "cross_encoder_score": -10.440390586853027,
+        "dataset": "SciFact",
+        "end_char": 848,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "825cc9a9c09a1a2f64e88123eb93ce9d",
+        "passage_rank": 3,
+        "query_id": "354",
+        "sentence_id": "71df1cd70fd7ad7a792005d1cde4abfe",
+        "sentence_text": "Increased Notch signaling is observed in Numb-negative tumors, but reverts to basal levels after enforced expression of Numb.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          2587,
+          0,
+          5,
+          0
+        ],
+        "source_position": 723
+      },
+      {
+        "cross_encoder_score": -10.042665481567383,
+        "dataset": "SciFact",
+        "end_char": 960,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "825cc9a9c09a1a2f64e88123eb93ce9d",
+        "passage_rank": 3,
+        "query_id": "354",
+        "sentence_id": "3848be34a5c37901c0b083538007f2c6",
+        "sentence_text": "Conversely, Numb silencing increases Notch signaling in normal breast cells and in Numb-positive breast tumors.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2587,
+          0,
+          6,
+          0
+        ],
+        "source_position": 849
+      },
+      {
+        "cross_encoder_score": -9.758831024169922,
+        "dataset": "SciFact",
+        "end_char": 1099,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "825cc9a9c09a1a2f64e88123eb93ce9d",
+        "passage_rank": 3,
+        "query_id": "354",
+        "sentence_id": "7b277e843a9550bdcc7a206bb31e1a81",
+        "sentence_text": "Finally, growth suppression of Numb-negative, but not Numb-positive, breast tumors can be achieved by pharmacological inhibition of Notch.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          2587,
+          0,
+          7,
+          0
+        ],
+        "source_position": 961
+      },
+      {
+        "cross_encoder_score": -5.232798099517822,
+        "dataset": "SciFact",
+        "end_char": 1270,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "825cc9a9c09a1a2f64e88123eb93ce9d",
+        "passage_rank": 3,
+        "query_id": "354",
+        "sentence_id": "00209f838799743094a98615feb24e9d",
+        "sentence_text": "Thus, the Numb/Notch biological antagonism is relevant to the homeostasis of the normal mammary parenchyma and its subversion contributes to human mammary carcinogenesis.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          2587,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1100
+      },
+      {
+        "cross_encoder_score": -10.380643844604492,
+        "dataset": "SciFact",
+        "end_char": 152,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "b490d59347b6d861af8f42f5f67bc4e9",
+        "passage_rank": 9,
+        "query_id": "354",
+        "sentence_id": "16f39490c2b50b5d2be67c0808faa5bd",
+        "sentence_text": "GATA3 transcription factor abrogates Smad4 transcription factor-mediated fascin overexpression, invadopodium formation, and breast cancer cell invasion.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          3015,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.355632781982422,
+        "dataset": "SciFact",
+        "end_char": 254,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "b490d59347b6d861af8f42f5f67bc4e9",
+        "passage_rank": 9,
+        "query_id": "354",
+        "sentence_id": "01fccabb179393dbeb69d3d73861cb42",
+        "sentence_text": "Transforming growth factor \u03b2 (TGF\u03b2) is a potent and context-dependent regulator of tumor progression.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          3015,
+          0,
+          1,
+          0
+        ],
+        "source_position": 153
+      },
+      {
+        "cross_encoder_score": -10.86323356628418,
+        "dataset": "SciFact",
+        "end_char": 344,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "b490d59347b6d861af8f42f5f67bc4e9",
+        "passage_rank": 9,
+        "query_id": "354",
+        "sentence_id": "f6c4bc631b9d9c786440a10535abacf2",
+        "sentence_text": "TGF\u03b2 promotes the lung metastasis of basal-like (but not the luminal-like) breast cancer.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3015,
+          0,
+          2,
+          0
+        ],
+        "source_position": 255
+      },
+      {
+        "cross_encoder_score": -10.42957878112793,
+        "dataset": "SciFact",
+        "end_char": 521,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "b490d59347b6d861af8f42f5f67bc4e9",
+        "passage_rank": 9,
+        "query_id": "354",
+        "sentence_id": "e6a1e83a5c62f27f3eed59608f49b0e1",
+        "sentence_text": "Here, we demonstrated that fascin, a pro-metastasis actin bundling protein, was a direct target of the canonical TGF\u03b2-Smad4 signaling pathway in basal-like breast cancer cells.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          3015,
+          0,
+          3,
+          0
+        ],
+        "source_position": 345
+      },
+      {
+        "cross_encoder_score": -10.7706298828125,
+        "dataset": "SciFact",
+        "end_char": 636,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "b490d59347b6d861af8f42f5f67bc4e9",
+        "passage_rank": 9,
+        "query_id": "354",
+        "sentence_id": "30b21ff69ba782b5d49692bc1cba7fdb",
+        "sentence_text": "TGF\u03b2 and Smad4 induced fascin overexpression by directly binding to a Smad binding element on the fascin promoter.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          3015,
+          0,
+          4,
+          0
+        ],
+        "source_position": 522
+      },
+      {
+        "cross_encoder_score": -5.671284198760986,
+        "dataset": "SciFact",
+        "end_char": 823,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "b490d59347b6d861af8f42f5f67bc4e9",
+        "passage_rank": 9,
+        "query_id": "354",
+        "sentence_id": "c242e335b8d2bc93f0b9ba1cbdc6ab55",
+        "sentence_text": "We identified GATA3, a transcription factor crucial for mammary gland morphogenesis and luminal differentiation, as a negative regulator of TGF\u03b2- and Smad4-induced fascin overexpression.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          3015,
+          0,
+          5,
+          0
+        ],
+        "source_position": 637
+      },
+      {
+        "cross_encoder_score": -9.728235244750977,
+        "dataset": "SciFact",
+        "end_char": 1103,
+        "pair_tokens_before_truncation": 99,
+        "pair_truncated": false,
+        "passage_id": "b490d59347b6d861af8f42f5f67bc4e9",
+        "passage_rank": 9,
+        "query_id": "354",
+        "sentence_id": "b5e6ac675c2fcc4e9111b47991a9e6c1",
+        "sentence_text": "When ectopically expressed in basal-like breast cancer cells, GATA-3 abrogated TGF\u03b2- and Smad4-mediated overexpression of fascin and other TGF\u03b2 response genes, invadopodium formation, cell migration, and invasion, suggesting suppression of the canonical TGF\u03b2-Smad signaling axis.",
+        "sentence_token_cost": 66,
+        "source_order": [
+          3015,
+          0,
+          6,
+          0
+        ],
+        "source_position": 824
+      },
+      {
+        "cross_encoder_score": -11.111477851867676,
+        "dataset": "SciFact",
+        "end_char": 1337,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "b490d59347b6d861af8f42f5f67bc4e9",
+        "passage_rank": 9,
+        "query_id": "354",
+        "sentence_id": "1fcc686e361aa84e7a3789317924c3d0",
+        "sentence_text": "Mechanistically, GATA3 abrogated the canonical TGF\u03b2-Smad signaling by abolishing interactions between Smad4 and its DNA binding elements, potentially through physical interactions between the N-terminal of GATA3 and Smad3/4 proteins.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          3015,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1104
+      },
+      {
+        "cross_encoder_score": -9.143027305603027,
+        "dataset": "SciFact",
+        "end_char": 1479,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "b490d59347b6d861af8f42f5f67bc4e9",
+        "passage_rank": 9,
+        "query_id": "354",
+        "sentence_id": "31036bf39704086d2952037e88a49ed9",
+        "sentence_text": "Our findings provide mechanistic insight into how TGF\u03b2-mediated cell motility and invasiveness are differentially regulated in breast cancer.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          3015,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1338
+      },
+      {
+        "cross_encoder_score": -9.879199028015137,
+        "dataset": "SciFact",
+        "end_char": 62,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "2295d32373598b4f54b2f942e5ffe866",
+        "passage_rank": 4,
+        "query_id": "354",
+        "sentence_id": "ac8a183cf16b9258278621fa28b73f4e",
+        "sentence_text": "Regulation of in situ to invasive breast carcinoma transition.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          3036,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.235207557678223,
+        "dataset": "SciFact",
+        "end_char": 196,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "2295d32373598b4f54b2f942e5ffe866",
+        "passage_rank": 4,
+        "query_id": "354",
+        "sentence_id": "3e7b6ef87c5db0cb807599a213bc1761",
+        "sentence_text": "The transition of ductal carcinoma in situ (DCIS) to invasive carcinoma is a poorly understood key event in breast tumor progression.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          3036,
+          0,
+          1,
+          0
+        ],
+        "source_position": 63
+      },
+      {
+        "cross_encoder_score": -10.533672332763672,
+        "dataset": "SciFact",
+        "end_char": 358,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "2295d32373598b4f54b2f942e5ffe866",
+        "passage_rank": 4,
+        "query_id": "354",
+        "sentence_id": "bef8a73a0c4c7d0b84ae9867362640bc",
+        "sentence_text": "Here, we analyzed the role of myoepithelial cells and fibroblasts in the progression of in situ carcinomas using a model of human DCIS and primary breast tumors.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          3036,
+          0,
+          2,
+          0
+        ],
+        "source_position": 197
+      },
+      {
+        "cross_encoder_score": -9.771071434020996,
+        "dataset": "SciFact",
+        "end_char": 455,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "2295d32373598b4f54b2f942e5ffe866",
+        "passage_rank": 4,
+        "query_id": "354",
+        "sentence_id": "f3054d65f1253f94db79d668342c4daf",
+        "sentence_text": "Progression to invasion was promoted by fibroblasts and inhibited by normal myoepithelial cells.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3036,
+          0,
+          3,
+          0
+        ],
+        "source_position": 359
+      },
+      {
+        "cross_encoder_score": -10.148812294006348,
+        "dataset": "SciFact",
+        "end_char": 768,
+        "pair_tokens_before_truncation": 95,
+        "pair_truncated": false,
+        "passage_id": "2295d32373598b4f54b2f942e5ffe866",
+        "passage_rank": 4,
+        "query_id": "354",
+        "sentence_id": "ff843bd3847c40d8560025576b36dff4",
+        "sentence_text": "Molecular profiles of isolated luminal epithelial and myoepithelial cells identified an intricate interaction network involving TGFbeta, Hedgehog, cell adhesion, and p63 required for myoepithelial cell differentiation, the elimination of which resulted in loss of myoepithelial cells and progression to invasion.",
+        "sentence_token_cost": 66,
+        "source_order": [
+          3036,
+          0,
+          4,
+          0
+        ],
+        "source_position": 456
+      },
+      {
+        "cross_encoder_score": -9.133155822753906,
+        "dataset": "SciFact",
+        "end_char": 187,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "45ae4c95064a4d5f22170076b4ef7f71",
+        "passage_rank": 10,
+        "query_id": "354",
+        "sentence_id": "15ff8d30af5c5cdddb80bb8228c11c1f",
+        "sentence_text": "Aberrant expression and altered cellular localization of desmosomal and hemidesmosomal proteins are associated with aggressive clinicopathological features of oral squamous cell carcinoma",
+        "sentence_token_cost": 32,
+        "source_order": [
+          3384,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.954586029052734,
+        "dataset": "SciFact",
+        "end_char": 303,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "45ae4c95064a4d5f22170076b4ef7f71",
+        "passage_rank": 10,
+        "query_id": "354",
+        "sentence_id": "d6f7faea19201162ee4c28c6c5d1c914",
+        "sentence_text": "Disruption of cell adhesion plays a central role in dedifferentiation, invasion, and metastasis of various cancers.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3384,
+          0,
+          1,
+          0
+        ],
+        "source_position": 188
+      },
+      {
+        "cross_encoder_score": -9.966158866882324,
+        "dataset": "SciFact",
+        "end_char": 422,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "45ae4c95064a4d5f22170076b4ef7f71",
+        "passage_rank": 10,
+        "query_id": "354",
+        "sentence_id": "4144e4b72cba9bd00401efa223fc69c9",
+        "sentence_text": "The desmosome and hemidesmosome are anchoring junctions that control cell-cell and cell-matrix adhesion, respectively.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          3384,
+          0,
+          2,
+          0
+        ],
+        "source_position": 304
+      },
+      {
+        "cross_encoder_score": -10.82603931427002,
+        "dataset": "SciFact",
+        "end_char": 755,
+        "pair_tokens_before_truncation": 131,
+        "pair_truncated": false,
+        "passage_id": "45ae4c95064a4d5f22170076b4ef7f71",
+        "passage_rank": 10,
+        "query_id": "354",
+        "sentence_id": "da1cc46e6580df033fefdadaf7085baf",
+        "sentence_text": "To clarify their contributions in mediating the biological properties of oral cancer, we immunohistochemically examined the expression of desmoglein 1 (DSG1), DSG2, DSG3, desmocollin 2 (DSC2), integrin beta 4 (ITGB4), laminin gamma chain 2 (LAMC2), and collagen type 17 alpha 1 (COL17A1) in 51 cases of oral squamous cell carcinoma.",
+        "sentence_token_cost": 105,
+        "source_order": [
+          3384,
+          0,
+          3,
+          0
+        ],
+        "source_position": 423
+      },
+      {
+        "cross_encoder_score": -10.883441925048828,
+        "dataset": "SciFact",
+        "end_char": 925,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "45ae4c95064a4d5f22170076b4ef7f71",
+        "passage_rank": 10,
+        "query_id": "354",
+        "sentence_id": "6c3cdcb9d85da20a33dfa4a7b5b7db19",
+        "sentence_text": "On normal oral epithelial cells, DSG1, DSG3, DSC2, and COL17A1 were expressed on the plasma membrane, while ITGB4 and mature LAMC2 were present at the basement membrane.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          3384,
+          0,
+          4,
+          0
+        ],
+        "source_position": 756
+      },
+      {
+        "cross_encoder_score": -10.350078582763672,
+        "dataset": "SciFact",
+        "end_char": 1029,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "45ae4c95064a4d5f22170076b4ef7f71",
+        "passage_rank": 10,
+        "query_id": "354",
+        "sentence_id": "b367c55d11722137d3c57c6ec0987595",
+        "sentence_text": "In cancer, the expression of DSG1, DSG3, DSC2, and COL17A1 decreased and internalized to the cytoplasm.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          3384,
+          0,
+          5,
+          0
+        ],
+        "source_position": 926
+      },
+      {
+        "cross_encoder_score": -10.172442436218262,
+        "dataset": "SciFact",
+        "end_char": 1132,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "45ae4c95064a4d5f22170076b4ef7f71",
+        "passage_rank": 10,
+        "query_id": "354",
+        "sentence_id": "dd95032591360cdb67b82e58ef721969",
+        "sentence_text": "Cytoplasmic expression of DSG2, ITGB4, and LAMC2 was induced in the cancer cells facing to the stroma.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          3384,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1030
+      },
+      {
+        "cross_encoder_score": -10.953389167785645,
+        "dataset": "SciFact",
+        "end_char": 1325,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "45ae4c95064a4d5f22170076b4ef7f71",
+        "passage_rank": 10,
+        "query_id": "354",
+        "sentence_id": "4e78202b3003cffcb05693d863ab6188",
+        "sentence_text": "We scored immunohistochemical expression and correlated this to clinicopathological parameters including histologic differentiation, pattern of invasion, and presence of lymph node metastasis.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          3384,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1133
+      },
+      {
+        "cross_encoder_score": -10.934730529785156,
+        "dataset": "SciFact",
+        "end_char": 1516,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "45ae4c95064a4d5f22170076b4ef7f71",
+        "passage_rank": 10,
+        "query_id": "354",
+        "sentence_id": "e84ed389ff623ca4397a53c623c757b4",
+        "sentence_text": "Decrease of DSG3 and DSC2 expression correlated with a more aggressive cancer phenotype: less differentiated and more invasive histologic features and a higher incidence of nodal metastasis.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          3384,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1326
+      },
+      {
+        "cross_encoder_score": -10.888176918029785,
+        "dataset": "SciFact",
+        "end_char": 1613,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "45ae4c95064a4d5f22170076b4ef7f71",
+        "passage_rank": 10,
+        "query_id": "354",
+        "sentence_id": "b6b8558a04f39e347ac446cfcc7b3f3e",
+        "sentence_text": "Lower COL17A1 and higher LAMC2 expression were also associated with a more aggressive phenotype.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3384,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1517
+      },
+      {
+        "cross_encoder_score": -9.05815315246582,
+        "dataset": "SciFact",
+        "end_char": 1821,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "45ae4c95064a4d5f22170076b4ef7f71",
+        "passage_rank": 10,
+        "query_id": "354",
+        "sentence_id": "f12102c016fb39294978e76544ac06e9",
+        "sentence_text": "The present study demonstrates that aberrant expression and altered cellular localization of desmosomal and hemidesmosomal proteins are associated with aggressive clinicopathological features of oral cancer.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          3384,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1614
+      },
+      {
+        "cross_encoder_score": -9.92386531829834,
+        "dataset": "SciFact",
+        "end_char": 1956,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "45ae4c95064a4d5f22170076b4ef7f71",
+        "passage_rank": 10,
+        "query_id": "354",
+        "sentence_id": "a7fbdd2d358677c70d2663ebfdfaa6fe",
+        "sentence_text": "This reinforces the notion that disturbance of the keratin-associated anchoring junctions confers aggressive features to cancer cells.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3384,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1822
+      },
+      {
+        "cross_encoder_score": -7.082339286804199,
+        "dataset": "SciFact",
+        "end_char": 116,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "2f99b8f8ef677334d675671d0bf2056b",
+        "passage_rank": 6,
+        "query_id": "354",
+        "sentence_id": "470f0d4050a0af4724313c896cbf7a5c",
+        "sentence_text": "Metabolic reprogramming of stromal fibroblasts through p62-mTORC1 signaling promotes inflammation and tumorigenesis.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          3928,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.749517440795898,
+        "dataset": "SciFact",
+        "end_char": 286,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "2f99b8f8ef677334d675671d0bf2056b",
+        "passage_rank": 6,
+        "query_id": "354",
+        "sentence_id": "8570a6245d0e8123e47197dc42706617",
+        "sentence_text": "The tumor microenvironment plays a critical role in cancer progression, but the precise mechanisms by which stromal cells influence the epithelium are poorly understood.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          3928,
+          0,
+          1,
+          0
+        ],
+        "source_position": 117
+      },
+      {
+        "cross_encoder_score": -7.647753715515137,
+        "dataset": "SciFact",
+        "end_char": 504,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "2f99b8f8ef677334d675671d0bf2056b",
+        "passage_rank": 6,
+        "query_id": "354",
+        "sentence_id": "f566eece45e9c1625176b4e1175cb965",
+        "sentence_text": "Here we show that p62 levels were reduced in the stroma of several tumors and that its loss in the tumor microenvironment or stromal fibroblasts resulted in increased tumorigenesis of epithelial prostate cancer cells.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          3928,
+          0,
+          2,
+          0
+        ],
+        "source_position": 287
+      },
+      {
+        "cross_encoder_score": -8.457759857177734,
+        "dataset": "SciFact",
+        "end_char": 755,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "2f99b8f8ef677334d675671d0bf2056b",
+        "passage_rank": 6,
+        "query_id": "354",
+        "sentence_id": "7074ca99cc7daa9dc1736cedc665db69",
+        "sentence_text": "The mechanism involves the regulation of cellular redox through an mTORC1/c-Myc pathway of stromal glucose and amino acid metabolism, resulting in increased stromal IL-6 production, which is required for tumor promotion in the epithelial compartment.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          3928,
+          0,
+          3,
+          0
+        ],
+        "source_position": 505
+      },
+      {
+        "cross_encoder_score": -9.38460922241211,
+        "dataset": "SciFact",
+        "end_char": 874,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "2f99b8f8ef677334d675671d0bf2056b",
+        "passage_rank": 6,
+        "query_id": "354",
+        "sentence_id": "1eade732cf432e7e2fbcf4d590e212d1",
+        "sentence_text": "Thus, p62 is an anti-inflammatory tumor suppressor that acts through the modulation of metabolism in the tumor stroma.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3928,
+          0,
+          4,
+          0
+        ],
+        "source_position": 756
+      }
+    ],
+    "scoring_seconds": 0.5046379800187424,
+    "source_fingerprint": "6fcd64e5f4ca2fcac4b383de44f29f30b54cb941b380e6c93367e33863b95623"
+  }
+}

@@ -1,0 +1,1811 @@
+{
+  "checksum": "4c364bc1318aca133f83c12c8853978b1d39cb3f825cbb01c98c460ffde32e40",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "993"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 89,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "e4a481b52f382704c1f013808279d7f305b0cd6815d6a5591093b46c4e696787",
+    "query_id": "993",
+    "scores": [
+      {
+        "cross_encoder_score": -9.030900955200195,
+        "dataset": "SciFact",
+        "end_char": 74,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "ea056b4bac58358b7222e3c280b8b4ac",
+        "passage_rank": 7,
+        "query_id": "993",
+        "sentence_id": "b5b04aff01e7dd88dd7e0f19d07eefd0",
+        "sentence_text": "hnRNP A1 associates with telomere ends and stimulates telomerase activity.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          216,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.627663612365723,
+        "dataset": "SciFact",
+        "end_char": 227,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "ea056b4bac58358b7222e3c280b8b4ac",
+        "passage_rank": 7,
+        "query_id": "993",
+        "sentence_id": "d6e9f67bcec174be278bd9964cd2b184",
+        "sentence_text": "Telomerase is a ribonucleoprotein enzyme complex that reverse-transcribes an integral RNA template to add short DNA repeats to the 3'-ends of telomeres.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          216,
+          0,
+          1,
+          0
+        ],
+        "source_position": 75
+      },
+      {
+        "cross_encoder_score": -3.1922342777252197,
+        "dataset": "SciFact",
+        "end_char": 308,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "ea056b4bac58358b7222e3c280b8b4ac",
+        "passage_rank": 7,
+        "query_id": "993",
+        "sentence_id": "679f49b304ed254e900f128b2f42d3fd",
+        "sentence_text": "G-quadruplex structure in a DNA substrate can block its extension by telomerase.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          216,
+          0,
+          2,
+          0
+        ],
+        "source_position": 228
+      },
+      {
+        "cross_encoder_score": -7.4282073974609375,
+        "dataset": "SciFact",
+        "end_char": 536,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "ea056b4bac58358b7222e3c280b8b4ac",
+        "passage_rank": 7,
+        "query_id": "993",
+        "sentence_id": "8d650b90a1e26a2ba2d752342939cb55",
+        "sentence_text": "We have found that hnRNP A1--which was previously implicated in telomere length regulation--binds to both single-stranded and structured human telomeric repeats, and in the latter case, it disrupts their higher-order structure.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          216,
+          0,
+          3,
+          0
+        ],
+        "source_position": 309
+      },
+      {
+        "cross_encoder_score": -9.362753868103027,
+        "dataset": "SciFact",
+        "end_char": 783,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "ea056b4bac58358b7222e3c280b8b4ac",
+        "passage_rank": 7,
+        "query_id": "993",
+        "sentence_id": "13c40bffac12faf1d17f6189314c07d7",
+        "sentence_text": "Using an in vitro telomerase assay, we observed that depletion of hnRNP A/B proteins from 293 human embryonic kidney cell extracts dramatically reduced telomerase activity, which was fully recovered upon addition of purified recombinant hnRNP A1.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          216,
+          0,
+          4,
+          0
+        ],
+        "source_position": 537
+      },
+      {
+        "cross_encoder_score": -9.395933151245117,
+        "dataset": "SciFact",
+        "end_char": 897,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "ea056b4bac58358b7222e3c280b8b4ac",
+        "passage_rank": 7,
+        "query_id": "993",
+        "sentence_id": "fe3f6541e341f8c063014d8993038604",
+        "sentence_text": "This finding suggests that hnRNP A1 functions as an auxiliary, if not essential, factor of telomerase holoenzyme.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          216,
+          0,
+          5,
+          0
+        ],
+        "source_position": 784
+      },
+      {
+        "cross_encoder_score": -9.5803804397583,
+        "dataset": "SciFact",
+        "end_char": 1006,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "ea056b4bac58358b7222e3c280b8b4ac",
+        "passage_rank": 7,
+        "query_id": "993",
+        "sentence_id": "b5bc30e6300cba9744b8d7003d8271da",
+        "sentence_text": "We further show, using chromatin immunoprecipitation, that hnRNP A1 associates with human telomeres in vivo.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          216,
+          0,
+          6,
+          0
+        ],
+        "source_position": 898
+      },
+      {
+        "cross_encoder_score": -1.7640752792358398,
+        "dataset": "SciFact",
+        "end_char": 1158,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "ea056b4bac58358b7222e3c280b8b4ac",
+        "passage_rank": 7,
+        "query_id": "993",
+        "sentence_id": "0bcd48d07b9cfa414055121620f5a97b",
+        "sentence_text": "We propose that hnRNP A1 stimulates telomere elongation through unwinding of a G-quadruplex or G-G hairpin structure formed at each translocation step.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          216,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1007
+      },
+      {
+        "cross_encoder_score": -8.642322540283203,
+        "dataset": "SciFact",
+        "end_char": 62,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "4fc474b37cd1191fd3b8352a002e6dda",
+        "passage_rank": 10,
+        "query_id": "993",
+        "sentence_id": "9e65f3f8de8284848890a80d136503e4",
+        "sentence_text": "The yeast Pif1p helicase removes telomerase from telomeric DNA",
+        "sentence_token_cost": 18,
+        "source_order": [
+          812,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.030274391174316,
+        "dataset": "SciFact",
+        "end_char": 121,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "4fc474b37cd1191fd3b8352a002e6dda",
+        "passage_rank": 10,
+        "query_id": "993",
+        "sentence_id": "57bb9d317ce01d1e7e815ea9bfdfff96",
+        "sentence_text": "Telomeres are the physical ends of eukaryotic chromosomes.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          812,
+          0,
+          1,
+          0
+        ],
+        "source_position": 63
+      },
+      {
+        "cross_encoder_score": -9.101703643798828,
+        "dataset": "SciFact",
+        "end_char": 362,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "4fc474b37cd1191fd3b8352a002e6dda",
+        "passage_rank": 10,
+        "query_id": "993",
+        "sentence_id": "5ed30bfff5c0789334f5ed56cd2def2a",
+        "sentence_text": "Genetic studies have established that the baker's yeast Pif1p DNA helicase is a negative regulator of telomerase, the specialized reverse transcriptase that maintains telomeric DNA, but the biochemical basis for this inhibition was unknown.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          812,
+          0,
+          2,
+          0
+        ],
+        "source_position": 122
+      },
+      {
+        "cross_encoder_score": -8.943069458007812,
+        "dataset": "SciFact",
+        "end_char": 492,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "4fc474b37cd1191fd3b8352a002e6dda",
+        "passage_rank": 10,
+        "query_id": "993",
+        "sentence_id": "c17f6993f27dca526ede63865692c05a",
+        "sentence_text": "Here we show that in vitro, Pif1p reduces the processivity of telomerase and releases telomerase from telomeric oligonucleotides.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          812,
+          0,
+          3,
+          0
+        ],
+        "source_position": 363
+      },
+      {
+        "cross_encoder_score": -9.478646278381348,
+        "dataset": "SciFact",
+        "end_char": 601,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "4fc474b37cd1191fd3b8352a002e6dda",
+        "passage_rank": 10,
+        "query_id": "993",
+        "sentence_id": "12e2268e6693c76f6b6824cd09efb6f2",
+        "sentence_text": "The released telomerase is enzymatically active because it is able to lengthen a challenger oligonucleotide.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          812,
+          0,
+          4,
+          0
+        ],
+        "source_position": 493
+      },
+      {
+        "cross_encoder_score": -8.804210662841797,
+        "dataset": "SciFact",
+        "end_char": 840,
+        "pair_tokens_before_truncation": 91,
+        "pair_truncated": false,
+        "passage_id": "4fc474b37cd1191fd3b8352a002e6dda",
+        "passage_rank": 10,
+        "query_id": "993",
+        "sentence_id": "0ee354f508186abce855c8b5603ba957",
+        "sentence_text": "In vivo, overexpression of Pif1p reduces telomerase association with telomeres, whereas depleting cells of Pif1p increases the levels of telomere-bound Est1p, a telomerase subunit that is present on the telomere when telomerase is active.",
+        "sentence_token_cost": 63,
+        "source_order": [
+          812,
+          0,
+          5,
+          0
+        ],
+        "source_position": 602
+      },
+      {
+        "cross_encoder_score": -10.734611511230469,
+        "dataset": "SciFact",
+        "end_char": 978,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "4fc474b37cd1191fd3b8352a002e6dda",
+        "passage_rank": 10,
+        "query_id": "993",
+        "sentence_id": "89d5d8e7a92f5f5acf5c14b4e8fc7c0e",
+        "sentence_text": "We propose that Pif1p helicase activity limits telomerase action both in vivo and in vitro by displacing active telomerase from DNA ends.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          812,
+          0,
+          6,
+          0
+        ],
+        "source_position": 841
+      },
+      {
+        "cross_encoder_score": -6.706063747406006,
+        "dataset": "SciFact",
+        "end_char": 72,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "883bcd098d126ec04af2e9b7ded5375e",
+        "passage_rank": 6,
+        "query_id": "993",
+        "sentence_id": "c82ab0abbaf75e05f88ceff27b7f7652",
+        "sentence_text": "Pif1 family helicases suppress genome instability at G-quadruplex motifs",
+        "sentence_token_cost": 17,
+        "source_order": [
+          844,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.611624717712402,
+        "dataset": "SciFact",
+        "end_char": 219,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "883bcd098d126ec04af2e9b7ded5375e",
+        "passage_rank": 6,
+        "query_id": "993",
+        "sentence_id": "bc38a1f209066640952aedcf83b68cfd",
+        "sentence_text": "The Saccharomyces cerevisiae Pif1 helicase is the prototypical member of the Pif1 DNA helicase family, which is conserved from bacteria to humans.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          844,
+          0,
+          1,
+          0
+        ],
+        "source_position": 73
+      },
+      {
+        "cross_encoder_score": -4.7457146644592285,
+        "dataset": "SciFact",
+        "end_char": 316,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "883bcd098d126ec04af2e9b7ded5375e",
+        "passage_rank": 6,
+        "query_id": "993",
+        "sentence_id": "dcc3d78013f22cec7e121b6f64cfbf58",
+        "sentence_text": "Here we show that exceptionally potent G-quadruplex unwinding is conserved among Pif1 helicases.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          844,
+          0,
+          2,
+          0
+        ],
+        "source_position": 220
+      },
+      {
+        "cross_encoder_score": -6.4950690269470215,
+        "dataset": "SciFact",
+        "end_char": 463,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "883bcd098d126ec04af2e9b7ded5375e",
+        "passage_rank": 6,
+        "query_id": "993",
+        "sentence_id": "3fd2725fb0454d699c1cbe1abaf6f027",
+        "sentence_text": "Moreover, Pif1 helicases from organisms separated by more than 3 billion years of evolution suppressed DNA damage at G-quadruplex motifs in yeast.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          844,
+          0,
+          3,
+          0
+        ],
+        "source_position": 317
+      },
+      {
+        "cross_encoder_score": -3.584321975708008,
+        "dataset": "SciFact",
+        "end_char": 581,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "883bcd098d126ec04af2e9b7ded5375e",
+        "passage_rank": 6,
+        "query_id": "993",
+        "sentence_id": "6c393431ae847d697eebf4b3f7b1c90b",
+        "sentence_text": "The G-quadruplex-induced damage generated in the absence of Pif1 helicases led to new genetic and epigenetic changes.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          844,
+          0,
+          4,
+          0
+        ],
+        "source_position": 464
+      },
+      {
+        "cross_encoder_score": -2.9237711429595947,
+        "dataset": "SciFact",
+        "end_char": 707,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "883bcd098d126ec04af2e9b7ded5375e",
+        "passage_rank": 6,
+        "query_id": "993",
+        "sentence_id": "f1d0b2d0f5c9e2580c6eb9025e923fe5",
+        "sentence_text": "Furthermore, when expressed in yeast, human PIF1 suppressed both G-quadruplex-associated DNA damage and telomere lengthening.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          844,
+          0,
+          5,
+          0
+        ],
+        "source_position": 582
+      },
+      {
+        "cross_encoder_score": -5.644067764282227,
+        "dataset": "SciFact",
+        "end_char": 130,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "0a4be3d8c0c7818b3c3008058b1d7aeb",
+        "passage_rank": 9,
+        "query_id": "993",
+        "sentence_id": "a9e12e130d17e9980768b20096dd07ac",
+        "sentence_text": "Insights into G-quadruplex specific recognition by the DEAH-box helicase RHAU: Solution structure of a peptide-quadruplex complex.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          1177,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.006263256072998,
+        "dataset": "SciFact",
+        "end_char": 301,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "0a4be3d8c0c7818b3c3008058b1d7aeb",
+        "passage_rank": 9,
+        "query_id": "993",
+        "sentence_id": "11c0566c5e4877098b4d21016c22dded",
+        "sentence_text": "Four-stranded nucleic acid structures called G-quadruplexes have been associated with important cellular processes, which should require G-quadruplex-protein interaction.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          1177,
+          0,
+          1,
+          0
+        ],
+        "source_position": 131
+      },
+      {
+        "cross_encoder_score": -5.4736328125,
+        "dataset": "SciFact",
+        "end_char": 406,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "0a4be3d8c0c7818b3c3008058b1d7aeb",
+        "passage_rank": 9,
+        "query_id": "993",
+        "sentence_id": "c2424f099e774856c56cddaa9e38f5ee",
+        "sentence_text": "However, the structural basis for specific G-quadruplex recognition by proteins has not been understood.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          1177,
+          0,
+          2,
+          0
+        ],
+        "source_position": 302
+      },
+      {
+        "cross_encoder_score": -5.716651439666748,
+        "dataset": "SciFact",
+        "end_char": 585,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "0a4be3d8c0c7818b3c3008058b1d7aeb",
+        "passage_rank": 9,
+        "query_id": "993",
+        "sentence_id": "5055f2f740904d1ef50c73a9666ddaeb",
+        "sentence_text": "The DEAH (Asp-Glu-Ala-His) box RNA helicase associated with AU-rich element (RHAU) (also named DHX36 or G4R1) specifically binds to and resolves parallel-stranded G-quadruplexes.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          1177,
+          0,
+          3,
+          0
+        ],
+        "source_position": 407
+      },
+      {
+        "cross_encoder_score": -4.733827590942383,
+        "dataset": "SciFact",
+        "end_char": 740,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "0a4be3d8c0c7818b3c3008058b1d7aeb",
+        "passage_rank": 9,
+        "query_id": "993",
+        "sentence_id": "b082c1829a20c35244551b2fcc6cda82",
+        "sentence_text": "Here we identified an 18-amino acid G-quadruplex-binding domain of RHAU and determined the structure of this peptide bound to a parallel DNA G-quadruplex.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          1177,
+          0,
+          4,
+          0
+        ],
+        "source_position": 586
+      },
+      {
+        "cross_encoder_score": -6.022993564605713,
+        "dataset": "SciFact",
+        "end_char": 821,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "0a4be3d8c0c7818b3c3008058b1d7aeb",
+        "passage_rank": 9,
+        "query_id": "993",
+        "sentence_id": "c23ba636a8befbb2bc25add83d6e275b",
+        "sentence_text": "Our structure explains how RHAU specifically recognizes parallel G-quadruplexes.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          1177,
+          0,
+          5,
+          0
+        ],
+        "source_position": 741
+      },
+      {
+        "cross_encoder_score": -3.033212900161743,
+        "dataset": "SciFact",
+        "end_char": 1049,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "0a4be3d8c0c7818b3c3008058b1d7aeb",
+        "passage_rank": 9,
+        "query_id": "993",
+        "sentence_id": "e8ed67395e68d97e31a69ac093d6d8bf",
+        "sentence_text": "The peptide covers a terminal guanine base tetrad (G-tetrad), and clamps the G-quadruplex using three-anchor-point electrostatic interactions between three positively charged amino acids and negatively charged phosphate groups.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          1177,
+          0,
+          6,
+          0
+        ],
+        "source_position": 822
+      },
+      {
+        "cross_encoder_score": -5.870021343231201,
+        "dataset": "SciFact",
+        "end_char": 1159,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "0a4be3d8c0c7818b3c3008058b1d7aeb",
+        "passage_rank": 9,
+        "query_id": "993",
+        "sentence_id": "29b8e589df70e2efe836280e1a23ac59",
+        "sentence_text": "This binding mode is strikingly similar to that of most ligands selected for specific G-quadruplex targeting.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          1177,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1050
+      },
+      {
+        "cross_encoder_score": -6.373600959777832,
+        "dataset": "SciFact",
+        "end_char": 1276,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "0a4be3d8c0c7818b3c3008058b1d7aeb",
+        "passage_rank": 9,
+        "query_id": "993",
+        "sentence_id": "81ca84a4716a21966f46779a6047496a",
+        "sentence_text": "Binding to an exposed G-tetrad represents a simple and efficient way to specifically target G-quadruplex structures.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          1177,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1160
+      },
+      {
+        "cross_encoder_score": -6.194460868835449,
+        "dataset": "SciFact",
+        "end_char": 127,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "d2328671023cbb54834c2a2e59a0a555",
+        "passage_rank": 8,
+        "query_id": "993",
+        "sentence_id": "6c63449e7d519ec3bdb0717b5d94e012",
+        "sentence_text": "The essential Schizosaccharomyces pombe Pfh1 DNA helicase promotes fork movement past G-quadruplex motifs to prevent DNA damage",
+        "sentence_token_cost": 32,
+        "source_order": [
+          2118,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.2429304122924805,
+        "dataset": "SciFact",
+        "end_char": 304,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "d2328671023cbb54834c2a2e59a0a555",
+        "passage_rank": 8,
+        "query_id": "993",
+        "sentence_id": "7e0229b34093b562fa0bbc850ac2a222",
+        "sentence_text": "BACKGROUND G-quadruplexes (G4s) are stable non-canonical DNA secondary structures consisting of stacked arrays of four guanines, each held together by Hoogsteen hydrogen bonds.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          2118,
+          0,
+          1,
+          0
+        ],
+        "source_position": 128
+      },
+      {
+        "cross_encoder_score": -10.569001197814941,
+        "dataset": "SciFact",
+        "end_char": 432,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "d2328671023cbb54834c2a2e59a0a555",
+        "passage_rank": 8,
+        "query_id": "993",
+        "sentence_id": "b27ee951d7e73b61cd6c235b94a42ce0",
+        "sentence_text": "Sequences with the ability to form these structures in vitro, G4 motifs, are found throughout bacterial and eukaryotic genomes.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          2118,
+          0,
+          2,
+          0
+        ],
+        "source_position": 305
+      },
+      {
+        "cross_encoder_score": -10.315912246704102,
+        "dataset": "SciFact",
+        "end_char": 625,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "d2328671023cbb54834c2a2e59a0a555",
+        "passage_rank": 8,
+        "query_id": "993",
+        "sentence_id": "04109bf911c32ff4d218e44c6246fbef",
+        "sentence_text": "The budding yeast Pif1 DNA helicase, as well as several bacterial Pif1 family helicases, unwind G4 structures robustly in vitro and suppress G4-induced DNA damage in S. cerevisiae in vivo.   \n",
+        "sentence_token_cost": 49,
+        "source_order": [
+          2118,
+          0,
+          3,
+          0
+        ],
+        "source_position": 433
+      },
+      {
+        "cross_encoder_score": -9.927223205566406,
+        "dataset": "SciFact",
+        "end_char": 847,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "d2328671023cbb54834c2a2e59a0a555",
+        "passage_rank": 8,
+        "query_id": "993",
+        "sentence_id": "cd557a7702ae553571b98484211a47b4",
+        "sentence_text": "RESULTS We determined the genomic distribution and evolutionary conservation of G4 motifs in four fission yeast species and investigated the relationship between G4 motifs and Pfh1, the sole S. pombe Pif1 family helicase.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          2118,
+          0,
+          4,
+          0
+        ],
+        "source_position": 626
+      },
+      {
+        "cross_encoder_score": -9.575439453125,
+        "dataset": "SciFact",
+        "end_char": 993,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "d2328671023cbb54834c2a2e59a0a555",
+        "passage_rank": 8,
+        "query_id": "993",
+        "sentence_id": "74a513a5f30dfd7fde5f50d9a58ad1ee",
+        "sentence_text": "Using chromatin immunoprecipitation combined with deep sequencing, we found that many G4 motifs in the S. pombe genome were associated with Pfh1.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          2118,
+          0,
+          5,
+          0
+        ],
+        "source_position": 848
+      },
+      {
+        "cross_encoder_score": -8.592443466186523,
+        "dataset": "SciFact",
+        "end_char": 1166,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "d2328671023cbb54834c2a2e59a0a555",
+        "passage_rank": 8,
+        "query_id": "993",
+        "sentence_id": "73dbe48466eef955771fb2b0b5b04cb8",
+        "sentence_text": "Cells depleted of Pfh1 had increased fork pausing and DNA damage near G4 motifs, as indicated by high DNA polymerase occupancy and phosphorylated histone H2A, respectively.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          2118,
+          0,
+          6,
+          0
+        ],
+        "source_position": 994
+      },
+      {
+        "cross_encoder_score": -10.087743759155273,
+        "dataset": "SciFact",
+        "end_char": 1220,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "d2328671023cbb54834c2a2e59a0a555",
+        "passage_rank": 8,
+        "query_id": "993",
+        "sentence_id": "8c774c8c36eadfbb064f0c2975703e5c",
+        "sentence_text": "In general, G4 motifs were underrepresented in genes.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          2118,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1167
+      },
+      {
+        "cross_encoder_score": -10.236132621765137,
+        "dataset": "SciFact",
+        "end_char": 1450,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "d2328671023cbb54834c2a2e59a0a555",
+        "passage_rank": 8,
+        "query_id": "993",
+        "sentence_id": "2a5ea10b075f5ca315f7eba0cf7d2d4a",
+        "sentence_text": "However, Pfh1-associated G4 motifs were located on the transcribed strand of highly transcribed genes significantly more often than expected, suggesting that Pfh1 has a function in replication or transcription at these sites.   \n",
+        "sentence_token_cost": 44,
+        "source_order": [
+          2118,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1221
+      },
+      {
+        "cross_encoder_score": -9.231639862060547,
+        "dataset": "SciFact",
+        "end_char": 1598,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "d2328671023cbb54834c2a2e59a0a555",
+        "passage_rank": 8,
+        "query_id": "993",
+        "sentence_id": "c688c040e3b9e5e627310ae091359379",
+        "sentence_text": "CONCLUSIONS In the absence of functional Pfh1, unresolved G4 structures cause fork pausing and DNA damage of the sort associated with human tumors.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          2118,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1451
+      },
+      {
+        "cross_encoder_score": -5.9527740478515625,
+        "dataset": "SciFact",
+        "end_char": 78,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "737708a071d05dd0966e61b85d6fb19a",
+        "passage_rank": 2,
+        "query_id": "993",
+        "sentence_id": "4fdb76d5581688341413c19b3567d147",
+        "sentence_text": "Targeting BRCA1 and BRCA2 Deficiencies with G-Quadruplex-Interacting Compounds",
+        "sentence_token_cost": 23,
+        "source_order": [
+          2627,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.568894147872925,
+        "dataset": "SciFact",
+        "end_char": 189,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "737708a071d05dd0966e61b85d6fb19a",
+        "passage_rank": 2,
+        "query_id": "993",
+        "sentence_id": "7686650fe1954990651691010337f7ff",
+        "sentence_text": "G-quadruplex (G4)-forming genomic sequences, including telomeres, represent natural replication fork barriers.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2627,
+          0,
+          1,
+          0
+        ],
+        "source_position": 79
+      },
+      {
+        "cross_encoder_score": -11.183919906616211,
+        "dataset": "SciFact",
+        "end_char": 360,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "737708a071d05dd0966e61b85d6fb19a",
+        "passage_rank": 2,
+        "query_id": "993",
+        "sentence_id": "0c51458007cb16678cfaae8b71dc0cd1",
+        "sentence_text": "Stalled replication forks can be stabilized and restarted by homologous recombination (HR), which also repairs DNA double-strand breaks (DSBs) arising at collapsed forks.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          2627,
+          0,
+          2,
+          0
+        ],
+        "source_position": 190
+      },
+      {
+        "cross_encoder_score": -9.421738624572754,
+        "dataset": "SciFact",
+        "end_char": 427,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "737708a071d05dd0966e61b85d6fb19a",
+        "passage_rank": 2,
+        "query_id": "993",
+        "sentence_id": "dc1316920559072974675a8496d399e4",
+        "sentence_text": "We have previously shown that HR facilitates telomere replication.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          2627,
+          0,
+          3,
+          0
+        ],
+        "source_position": 361
+      },
+      {
+        "cross_encoder_score": -7.435394287109375,
+        "dataset": "SciFact",
+        "end_char": 571,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "737708a071d05dd0966e61b85d6fb19a",
+        "passage_rank": 2,
+        "query_id": "993",
+        "sentence_id": "0ce4bf648638aff6bf394838506785e6",
+        "sentence_text": "Here, we demonstrate that the replication efficiency of guanine-rich (G-rich) telomeric repeats is decreased significantly in cells lacking HR.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          2627,
+          0,
+          4,
+          0
+        ],
+        "source_position": 428
+      },
+      {
+        "cross_encoder_score": 2.363130807876587,
+        "dataset": "SciFact",
+        "end_char": 746,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "737708a071d05dd0966e61b85d6fb19a",
+        "passage_rank": 2,
+        "query_id": "993",
+        "sentence_id": "e4bfceba52c1fd9ffd3fb48eb7c020a1",
+        "sentence_text": "Treatment with the G4-stabilizing compound pyridostatin (PDS) increases telomere fragility in BRCA2-deficient cells, suggesting that G4 formation drives telomere instability.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          2627,
+          0,
+          5,
+          0
+        ],
+        "source_position": 572
+      },
+      {
+        "cross_encoder_score": -10.21176815032959,
+        "dataset": "SciFact",
+        "end_char": 960,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "737708a071d05dd0966e61b85d6fb19a",
+        "passage_rank": 2,
+        "query_id": "993",
+        "sentence_id": "50a1e218fb78d3a6c55b9bf81819bb5d",
+        "sentence_text": "Remarkably, PDS reduces proliferation of HR-defective cells by inducing DSB accumulation, checkpoint activation, and deregulated G2/M progression and by enhancing the replication defect intrinsic to HR deficiency.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          2627,
+          0,
+          6,
+          0
+        ],
+        "source_position": 747
+      },
+      {
+        "cross_encoder_score": -10.480149269104004,
+        "dataset": "SciFact",
+        "end_char": 1073,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "737708a071d05dd0966e61b85d6fb19a",
+        "passage_rank": 2,
+        "query_id": "993",
+        "sentence_id": "47c6ce7288f91c1beb1d06dda189f3c5",
+        "sentence_text": "PDS toxicity extends to HR-defective cells that have acquired olaparib resistance through loss of 53BP1 or REV7.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          2627,
+          0,
+          7,
+          0
+        ],
+        "source_position": 961
+      },
+      {
+        "cross_encoder_score": -10.047378540039062,
+        "dataset": "SciFact",
+        "end_char": 1263,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "737708a071d05dd0966e61b85d6fb19a",
+        "passage_rank": 2,
+        "query_id": "993",
+        "sentence_id": "22e817027e9d680bcff913965b8bbb19",
+        "sentence_text": "Altogether, these results highlight the therapeutic potential of G4-stabilizing drugs to selectively eliminate HR-compromised cells and tumors, including those resistant to PARP inhibition.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          2627,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1074
+      },
+      {
+        "cross_encoder_score": -4.82004451751709,
+        "dataset": "SciFact",
+        "end_char": 84,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "b5ec65a24de28dd2d7a07a413984627c",
+        "passage_rank": 5,
+        "query_id": "993",
+        "sentence_id": "3704fe0aabb810457fbfdf72283687f8",
+        "sentence_text": "G-quadruplexes significantly stimulate Pif1 helicase-catalyzed duplex DNA unwinding.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3808,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.55491304397583,
+        "dataset": "SciFact",
+        "end_char": 303,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "b5ec65a24de28dd2d7a07a413984627c",
+        "passage_rank": 5,
+        "query_id": "993",
+        "sentence_id": "7af3f6a75e484bacd10e6733a8491f53",
+        "sentence_text": "The evolutionarily conserved G-quadruplexes (G4s) are faithfully inherited and serve a variety of cellular functions such as telomere maintenance, gene regulation, DNA replication initiation, and epigenetic regulation.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          3808,
+          0,
+          1,
+          0
+        ],
+        "source_position": 85
+      },
+      {
+        "cross_encoder_score": -10.968122482299805,
+        "dataset": "SciFact",
+        "end_char": 459,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "b5ec65a24de28dd2d7a07a413984627c",
+        "passage_rank": 5,
+        "query_id": "993",
+        "sentence_id": "a0d29442baca182b9c62a975e209c20d",
+        "sentence_text": "Different from the Watson-Crick base-pairing found in duplex DNA, G4s are formed via Hoogsteen base pairing and are very stable and compact DNA structures.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3808,
+          0,
+          2,
+          0
+        ],
+        "source_position": 304
+      },
+      {
+        "cross_encoder_score": -10.683711051940918,
+        "dataset": "SciFact",
+        "end_char": 562,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "b5ec65a24de28dd2d7a07a413984627c",
+        "passage_rank": 5,
+        "query_id": "993",
+        "sentence_id": "712cc631434445ac5182ec98529437f1",
+        "sentence_text": "Failure of untangling them in the cell impedes DNA-based transactions and leads to genome instability.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3808,
+          0,
+          3,
+          0
+        ],
+        "source_position": 460
+      },
+      {
+        "cross_encoder_score": -9.219236373901367,
+        "dataset": "SciFact",
+        "end_char": 633,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "b5ec65a24de28dd2d7a07a413984627c",
+        "passage_rank": 5,
+        "query_id": "993",
+        "sentence_id": "9bc07ee2ce68e7ba2f7c8cb0ba5f52a2",
+        "sentence_text": "Cells have evolved highly specific helicases to resolve G4 structures.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          3808,
+          0,
+          4,
+          0
+        ],
+        "source_position": 563
+      },
+      {
+        "cross_encoder_score": -10.53546142578125,
+        "dataset": "SciFact",
+        "end_char": 918,
+        "pair_tokens_before_truncation": 97,
+        "pair_truncated": false,
+        "passage_id": "b5ec65a24de28dd2d7a07a413984627c",
+        "passage_rank": 5,
+        "query_id": "993",
+        "sentence_id": "451c48e4b61c4cb53809fc15fee3af41",
+        "sentence_text": "We used a recombinant nuclear form of Saccharomyces cerevisiae Pif1 to characterize Pif1-mediated DNA unwinding with a substrate mimicking an ongoing lagging strand synthesis stalled by G4s, which resembles a replication origin and a G4-structured flap in Okazaki fragment maturation.",
+        "sentence_token_cost": 65,
+        "source_order": [
+          3808,
+          0,
+          5,
+          0
+        ],
+        "source_position": 634
+      },
+      {
+        "cross_encoder_score": -10.02099609375,
+        "dataset": "SciFact",
+        "end_char": 1012,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "b5ec65a24de28dd2d7a07a413984627c",
+        "passage_rank": 5,
+        "query_id": "993",
+        "sentence_id": "76fcb8a0433552580e14cc441221cce7",
+        "sentence_text": "We find that the presence of G4 may greatly stimulate the Pif1 helicase to unwind duplex DNA.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3808,
+          0,
+          6,
+          0
+        ],
+        "source_position": 919
+      },
+      {
+        "cross_encoder_score": -10.483771324157715,
+        "dataset": "SciFact",
+        "end_char": 1145,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "b5ec65a24de28dd2d7a07a413984627c",
+        "passage_rank": 5,
+        "query_id": "993",
+        "sentence_id": "9e2d372f930ec1ab7deab5b1bf6fc25e",
+        "sentence_text": "Further studies reveal that this stimulation results from G4-enhanced Pif1 dimerization, which is required for duplex DNA unwinding.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          3808,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1013
+      },
+      {
+        "cross_encoder_score": -8.926505088806152,
+        "dataset": "SciFact",
+        "end_char": 1222,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "b5ec65a24de28dd2d7a07a413984627c",
+        "passage_rank": 5,
+        "query_id": "993",
+        "sentence_id": "983356f574a136d5893722a1765d0b41",
+        "sentence_text": "This finding provides new insights into the properties and functions of G4s.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          3808,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1146
+      },
+      {
+        "cross_encoder_score": -10.673742294311523,
+        "dataset": "SciFact",
+        "end_char": 1541,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "b5ec65a24de28dd2d7a07a413984627c",
+        "passage_rank": 5,
+        "query_id": "993",
+        "sentence_id": "2381f6a9341a317294e608b7d7173d3c",
+        "sentence_text": "We discuss the observed activation phenomenon in relation to the possible regulatory role of G4s in the rapid rescue of the stalled lagging strand synthesis by helping the replicator recognize and activate the replication origin as well as by quickly removing the G4-structured flap during Okazaki fragment maturation.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          3808,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1223
+      },
+      {
+        "cross_encoder_score": -4.045842170715332,
+        "dataset": "SciFact",
+        "end_char": 118,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "b3c4d330037cf0156a427fc69feb1344",
+        "passage_rank": 3,
+        "query_id": "993",
+        "sentence_id": "fdafd76e8eb5292df88b06c4f9e2c5f2",
+        "sentence_text": "In vitro generated antibodies specific for telomeric guanine-quadruplex DNA react with Stylonychia lemnae macronuclei.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          3823,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.30065393447876,
+        "dataset": "SciFact",
+        "end_char": 284,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "b3c4d330037cf0156a427fc69feb1344",
+        "passage_rank": 3,
+        "query_id": "993",
+        "sentence_id": "4e33716604be9f34ee9fac65f4bc46f1",
+        "sentence_text": "Most eukaryotic telomeres contain a repeating motif with stretches of guanine residues that form a 3'-terminal overhang extending beyond the telomeric duplex region.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          3823,
+          0,
+          1,
+          0
+        ],
+        "source_position": 119
+      },
+      {
+        "cross_encoder_score": -5.708738327026367,
+        "dataset": "SciFact",
+        "end_char": 379,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "b3c4d330037cf0156a427fc69feb1344",
+        "passage_rank": 3,
+        "query_id": "993",
+        "sentence_id": "a8854e09e5076b0502668928abce0032",
+        "sentence_text": "The telomeric repeat of hypotrichous ciliates, d(T(4)G(4)), forms a 16-nucleotide 3'-overhang.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          3823,
+          0,
+          2,
+          0
+        ],
+        "source_position": 285
+      },
+      {
+        "cross_encoder_score": -9.466119766235352,
+        "dataset": "SciFact",
+        "end_char": 490,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "b3c4d330037cf0156a427fc69feb1344",
+        "passage_rank": 3,
+        "query_id": "993",
+        "sentence_id": "4f73879a5d555da9a11046bf40591713",
+        "sentence_text": "Such sequences can adopt parallel-stranded as well as antiparallel-stranded quadruplex conformations in vitro.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3823,
+          0,
+          3,
+          0
+        ],
+        "source_position": 380
+      },
+      {
+        "cross_encoder_score": -6.123078346252441,
+        "dataset": "SciFact",
+        "end_char": 738,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "b3c4d330037cf0156a427fc69feb1344",
+        "passage_rank": 3,
+        "query_id": "993",
+        "sentence_id": "6b8e3ed5dcbb6006e07db26acebbc91e",
+        "sentence_text": "Although it has been proposed that guanine-quadruplex conformations may have important cellular roles including telomere function, recombination, and transcription, evidence for the existence of this DNA structure in vivo has been elusive to date.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          3823,
+          0,
+          4,
+          0
+        ],
+        "source_position": 491
+      },
+      {
+        "cross_encoder_score": -4.366664409637451,
+        "dataset": "SciFact",
+        "end_char": 953,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "b3c4d330037cf0156a427fc69feb1344",
+        "passage_rank": 3,
+        "query_id": "993",
+        "sentence_id": "39823fe16b1447d2459e4ebeb830416b",
+        "sentence_text": "We have generated high-affinity single-chain antibody fragment (scFv) probes for the guanine-quadruplex formed by the Stylonychia telomeric repeat, by ribosome display from the Human Combinatorial Antibody Library.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          3823,
+          0,
+          5,
+          0
+        ],
+        "source_position": 739
+      },
+      {
+        "cross_encoder_score": -8.281858444213867,
+        "dataset": "SciFact",
+        "end_char": 1218,
+        "pair_tokens_before_truncation": 98,
+        "pair_truncated": false,
+        "passage_id": "b3c4d330037cf0156a427fc69feb1344",
+        "passage_rank": 3,
+        "query_id": "993",
+        "sentence_id": "b2d06055a746372ee8ec9d827a3456ce",
+        "sentence_text": "Of the scFvs selected, one (Sty3) had an affinity of K(d) = 125 pM for the parallel-stranded guanine-quadruplex and could discriminate with at least 1,000-fold specificity between parallel or antiparallel quadruplex conformations formed by the same sequence motif.",
+        "sentence_token_cost": 71,
+        "source_order": [
+          3823,
+          0,
+          6,
+          0
+        ],
+        "source_position": 954
+      },
+      {
+        "cross_encoder_score": -8.89790153503418,
+        "dataset": "SciFact",
+        "end_char": 1332,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "b3c4d330037cf0156a427fc69feb1344",
+        "passage_rank": 3,
+        "query_id": "993",
+        "sentence_id": "b024f68a2e98007a084206bd5728a721",
+        "sentence_text": "A second scFv (Sty49) bound both the parallel and antiparallel quadruplex with similar (K(d) = 3--5 nM) affinity.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          3823,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1219
+      },
+      {
+        "cross_encoder_score": -10.562701225280762,
+        "dataset": "SciFact",
+        "end_char": 1474,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "b3c4d330037cf0156a427fc69feb1344",
+        "passage_rank": 3,
+        "query_id": "993",
+        "sentence_id": "0f912e68f5f52969052a7cbbbbd117b1",
+        "sentence_text": "Indirect immunofluorescence studies show that Sty49 reacts specifically with the macronucleus but not the micronucleus of Stylonychia lemnae.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          3823,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1333
+      },
+      {
+        "cross_encoder_score": -3.1229605674743652,
+        "dataset": "SciFact",
+        "end_char": 1654,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "b3c4d330037cf0156a427fc69feb1344",
+        "passage_rank": 3,
+        "query_id": "993",
+        "sentence_id": "4f04f9eecb2b504a15ccbb6e5b62a99d",
+        "sentence_text": "The replication band, the region where replication and telomere elongation take place, was also not stained, suggesting that the guanine-quadruplex is resolved during replication.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          3823,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1475
+      },
+      {
+        "cross_encoder_score": -5.117279052734375,
+        "dataset": "SciFact",
+        "end_char": 1872,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "b3c4d330037cf0156a427fc69feb1344",
+        "passage_rank": 3,
+        "query_id": "993",
+        "sentence_id": "76f7d65a08b9acbc3c1e69975e7563b6",
+        "sentence_text": "Our results provide experimental evidence that the telomeres of Stylonychia macronuclei adopt in vivo a guanine-quadruplex structure, indicating that this structure may have an important role for telomere functioning.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          3823,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1655
+      },
+      {
+        "cross_encoder_score": 0.009261028841137886,
+        "dataset": "SciFact",
+        "end_char": 177,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "43b490a4840c69a364726b5d7ab8e7c8",
+        "passage_rank": 1,
+        "query_id": "993",
+        "sentence_id": "4c81714748f9a78b87420e552452b1c8",
+        "sentence_text": "The different biological effects of telomestatin and TMPyP4 can be attributed to their selectivity for interaction with intramolecular or intermolecular G-quadruplex structures.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          3880,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.553586483001709,
+        "dataset": "SciFact",
+        "end_char": 402,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "43b490a4840c69a364726b5d7ab8e7c8",
+        "passage_rank": 1,
+        "query_id": "993",
+        "sentence_id": "d0e57be71a89cfc74b23aa519a79b56c",
+        "sentence_text": "Demonstration of the existence of G-quadruplex structures in telomeres of Stylonychia macronuclei and in the promoter of c-myc in human cells has validated these secondary DNA structures as potential targets for drug design.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          3880,
+          0,
+          1,
+          0
+        ],
+        "source_position": 178
+      },
+      {
+        "cross_encoder_score": -5.915412902832031,
+        "dataset": "SciFact",
+        "end_char": 533,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "43b490a4840c69a364726b5d7ab8e7c8",
+        "passage_rank": 1,
+        "query_id": "993",
+        "sentence_id": "1a597ad862781f8788af7a3fa7fdbaac",
+        "sentence_text": "The next important issue is the selectivity of G-quadruplex-interactive agents for the different types of G-quadruplex structures.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          3880,
+          0,
+          2,
+          0
+        ],
+        "source_position": 403
+      },
+      {
+        "cross_encoder_score": -0.6295154094696045,
+        "dataset": "SciFact",
+        "end_char": 755,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "43b490a4840c69a364726b5d7ab8e7c8",
+        "passage_rank": 1,
+        "query_id": "993",
+        "sentence_id": "9927898a57d63342c33988ef945aa525",
+        "sentence_text": "In this study, we have taken an important step in associating specific biological effects of these drugs with selective interaction with either intermolecular or intramolecular G-quadruplex structures formed in telomeres.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          3880,
+          0,
+          3,
+          0
+        ],
+        "source_position": 534
+      },
+      {
+        "cross_encoder_score": 1.076716661453247,
+        "dataset": "SciFact",
+        "end_char": 932,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "43b490a4840c69a364726b5d7ab8e7c8",
+        "passage_rank": 1,
+        "query_id": "993",
+        "sentence_id": "29ac7c3c60eb1f39862037b8fa36fc92",
+        "sentence_text": "Telomestatin is a natural product isolated from Streptomyces anulatus 3533-SV4 and has been shown to be a very potent telomerase inhibitor through its G-quadruplex interaction.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          3880,
+          0,
+          4,
+          0
+        ],
+        "source_position": 756
+      },
+      {
+        "cross_encoder_score": 0.49778008460998535,
+        "dataset": "SciFact",
+        "end_char": 1157,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "43b490a4840c69a364726b5d7ab8e7c8",
+        "passage_rank": 1,
+        "query_id": "993",
+        "sentence_id": "95cd505b0a782e48a9912bcc13cf1470",
+        "sentence_text": "We have demonstrated that telomestatin interacts preferentially with intramolecular versus intermolecular G-quadruplex structures and also has a 70-fold selectivity for intramolecular G-quadruplex structures over duplex DNA.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          3880,
+          0,
+          5,
+          0
+        ],
+        "source_position": 933
+      },
+      {
+        "cross_encoder_score": 2.736069440841675,
+        "dataset": "SciFact",
+        "end_char": 1300,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "43b490a4840c69a364726b5d7ab8e7c8",
+        "passage_rank": 1,
+        "query_id": "993",
+        "sentence_id": "b8147b7b542462c35b46439beebb1108",
+        "sentence_text": "Telomestatin is able to stabilize G-quadruplex structures that are formed from duplex human telomeric DNA as well as from single-stranded DNA.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          3880,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1158
+      },
+      {
+        "cross_encoder_score": 1.8205331563949585,
+        "dataset": "SciFact",
+        "end_char": 1480,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "43b490a4840c69a364726b5d7ab8e7c8",
+        "passage_rank": 1,
+        "query_id": "993",
+        "sentence_id": "c46779bc184c1f0c130149580cbe96e0",
+        "sentence_text": "Importantly, telomestatin stabilizes these G-quadruplex structures in the absence of monovalent cations, which is a unique characteristic among G-quadruplex-interactive compounds.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          3880,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1301
+      },
+      {
+        "cross_encoder_score": -4.657445430755615,
+        "dataset": "SciFact",
+        "end_char": 1605,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "43b490a4840c69a364726b5d7ab8e7c8",
+        "passage_rank": 1,
+        "query_id": "993",
+        "sentence_id": "fdbdd6a3565e12425fae29146c2f542c",
+        "sentence_text": "At noncytotoxic concentrations, telomestatin suppresses the proliferation of telomerase-positive cells within several weeks.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3880,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1481
+      },
+      {
+        "cross_encoder_score": -1.529657006263733,
+        "dataset": "SciFact",
+        "end_char": 1854,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "43b490a4840c69a364726b5d7ab8e7c8",
+        "passage_rank": 1,
+        "query_id": "993",
+        "sentence_id": "2267532ccad9ebfdf00919044e103d20",
+        "sentence_text": "In contrast, TMPyP4, a compound that preferentially facilitates the formation of intermolecular G-quadruplex structures, suppresses the proliferation of alternative lengthening of telomeres (ALT)-positive cells as well as telomerase-positive cells.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          3880,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1606
+      },
+      {
+        "cross_encoder_score": 1.496755599975586,
+        "dataset": "SciFact",
+        "end_char": 2447,
+        "pair_tokens_before_truncation": 166,
+        "pair_truncated": false,
+        "passage_id": "43b490a4840c69a364726b5d7ab8e7c8",
+        "passage_rank": 1,
+        "query_id": "993",
+        "sentence_id": "ccfbc7e12e58a0c863caf03ac9e531a9",
+        "sentence_text": "We have also demonstrated that TMPyP4 induces anaphase bridges in sea urchin embryos, whereas telomestatin did not have this effect, leading us to conclude that the selectivity of telomestatin for intramolecular G-quadruplex structures and TMPyP4 for intermolecular G-quadruplex structures is important in mediating different biological effects: stabilization of intramolecular G-quadruplex structures produces telomerase inhibition and accelerated telomere shortening, whereas facilitation of the formation of intermolecular G-quadruplex structures induces the formation of anaphase bridges.",
+        "sentence_token_cost": 128,
+        "source_order": [
+          3880,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1855
+      },
+      {
+        "cross_encoder_score": -5.247338771820068,
+        "dataset": "SciFact",
+        "end_char": 92,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "ccacda79af601be03ebbef8e7416d00a",
+        "passage_rank": 4,
+        "query_id": "993",
+        "sentence_id": "085f3c9f70bd431079499da8f8c462cc",
+        "sentence_text": "Rational design of acridine-based ligands with selectivity for human telomeric quadruplexes.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3912,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.268553256988525,
+        "dataset": "SciFact",
+        "end_char": 265,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "ccacda79af601be03ebbef8e7416d00a",
+        "passage_rank": 4,
+        "query_id": "993",
+        "sentence_id": "1219aa1019e0cb11b86160165e333615",
+        "sentence_text": "Structure-based modeling methods have been used to design a series of disubstituted triazole-linked acridine compounds with selectivity for human telomeric quadruplex DNAs.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          3912,
+          0,
+          1,
+          0
+        ],
+        "source_position": 93
+      },
+      {
+        "cross_encoder_score": -8.995034217834473,
+        "dataset": "SciFact",
+        "end_char": 528,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "ccacda79af601be03ebbef8e7416d00a",
+        "passage_rank": 4,
+        "query_id": "993",
+        "sentence_id": "567a9e4ce4f56be69c33a901832f45ef",
+        "sentence_text": "A focused library of these compounds was prepared using click chemistry and the selectivity concept was validated against two promoter quadruplexes from the c-kit gene with known molecular structures, as well as with duplex DNA using a FRET-based melting method.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          3912,
+          0,
+          2,
+          0
+        ],
+        "source_position": 266
+      },
+      {
+        "cross_encoder_score": -8.56243896484375,
+        "dataset": "SciFact",
+        "end_char": 656,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "ccacda79af601be03ebbef8e7416d00a",
+        "passage_rank": 4,
+        "query_id": "993",
+        "sentence_id": "8c6f6f551377e985a900ff8b79801e9e",
+        "sentence_text": "Lead compounds were found to have reduced effects on the thermal stability of the c-kit quadruplexes and duplex DNA structures.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3912,
+          0,
+          3,
+          0
+        ],
+        "source_position": 529
+      },
+      {
+        "cross_encoder_score": -7.296048641204834,
+        "dataset": "SciFact",
+        "end_char": 838,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "ccacda79af601be03ebbef8e7416d00a",
+        "passage_rank": 4,
+        "query_id": "993",
+        "sentence_id": "785a8e9518041b98b45bdb591e23d9e2",
+        "sentence_text": "These effects were further explored with a series of competition experiments, which confirmed that binding to duplex DNA is very low even at high duplex:telomeric quadruplex ratios.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3912,
+          0,
+          4,
+          0
+        ],
+        "source_position": 657
+      },
+      {
+        "cross_encoder_score": -4.1012468338012695,
+        "dataset": "SciFact",
+        "end_char": 993,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "ccacda79af601be03ebbef8e7416d00a",
+        "passage_rank": 4,
+        "query_id": "993",
+        "sentence_id": "b3f52bbb86139e92589175b3a0d6015d",
+        "sentence_text": "Selectivity to the c-kit quadruplexes is more complex, with some evidence of their stabilization at increasing excess over human telomeric quadruplex DNA.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          3912,
+          0,
+          5,
+          0
+        ],
+        "source_position": 839
+      },
+      {
+        "cross_encoder_score": -10.898919105529785,
+        "dataset": "SciFact",
+        "end_char": 1144,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "ccacda79af601be03ebbef8e7416d00a",
+        "passage_rank": 4,
+        "query_id": "993",
+        "sentence_id": "2bd039223d1cdab45cadd84255dc2d2f",
+        "sentence_text": "Selectivity is a result of the dimensions of the triazole-acridine compounds, and in particular the separation of the two alkyl-amino terminal groups.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          3912,
+          0,
+          6,
+          0
+        ],
+        "source_position": 994
+      },
+      {
+        "cross_encoder_score": -8.646806716918945,
+        "dataset": "SciFact",
+        "end_char": 1483,
+        "pair_tokens_before_truncation": 90,
+        "pair_truncated": false,
+        "passage_id": "ccacda79af601be03ebbef8e7416d00a",
+        "passage_rank": 4,
+        "query_id": "993",
+        "sentence_id": "c7fe2c9ec1f7521078ddceddaab6839e",
+        "sentence_text": "Both lead compounds also have selective inhibitory effects on the proliferation of cancer cell lines compared to a normal cell line, and one has been shown to inhibit the activity of the telomerase enzyme, which is selectively expressed in tumor cells, where it plays a role in maintaining telomere integrity and cellular immortalization.",
+        "sentence_token_cost": 63,
+        "source_order": [
+          3912,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1145
+      }
+    ],
+    "scoring_seconds": 0.7230951549718156,
+    "source_fingerprint": "a103f4abf33db8da5cebcee235456104101c02e0dc0672c67eb25048c23c7f31"
+  }
+}

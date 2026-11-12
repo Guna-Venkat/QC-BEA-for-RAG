@@ -1,0 +1,27 @@
+{
+  "all_pre_reader": true,
+  "eligibility": "Exact SENTENCE identity, current frozen SFR pool, non-BM25 historical context; never assign passage/clause labels to sentences",
+  "features": [
+    "query_sentence_cosine",
+    "passage_query_cosine",
+    "retrieval_rank",
+    "sentence_rank_within_parent",
+    "sentence_position_normalized",
+    "sentence_token_cost",
+    "passage_token_cost",
+    "number_of_sentences_in_parent",
+    "budget_label",
+    "candidate_pool_width",
+    "candidate_sentence_mean_similarity_to_pool",
+    "candidate_sentence_max_similarity_to_other_candidates"
+  ],
+  "hash": "d11cd0131dd829fd7d63f6f6de63c120a640d9f913dff3194409660a6d4115d2",
+  "neutral": "Negative class for each binary target; not synonymous with useless",
+  "position": "Source-order index/(parent sentence count-1)",
+  "query_length_omitted": "Not needed; original query token lengths are not cached",
+  "sentence_rank": "Descending query cosine within parent, source-offset tie break",
+  "targets": [
+    "HELPFUL",
+    "HARMFUL"
+  ]
+}

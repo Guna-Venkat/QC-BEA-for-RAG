@@ -1,0 +1,167 @@
+{
+  "label": "POST_W12_EXPLORATORY",
+  "rows": [
+    {
+      "dataset": "SciFact",
+      "budget": 256,
+      "method": "FIXED_SENTENCE",
+      "accuracy": 0.7266666666666667,
+      "macro_f1": 0.7011211892164274,
+      "classes": {
+        "SUPPORT": {
+          "precision": 0.7792207792207793,
+          "recall": 0.8571428571428571,
+          "f1": 0.8163265306122449,
+          "support": 70
+        },
+        "REFUTE": {
+          "precision": 0.625,
+          "recall": 0.78125,
+          "f1": 0.6944444444444444,
+          "support": 32
+        },
+        "NOT_ENOUGH_INFO": {
+          "precision": 0.7272727272727273,
+          "recall": 0.5,
+          "f1": 0.5925925925925926,
+          "support": 48
+        }
+      }
+    },
+    {
+      "dataset": "SciFact",
+      "budget": 256,
+      "method": "QBGF_FULL",
+      "accuracy": 0.68,
+      "macro_f1": 0.6600793256530962,
+      "classes": {
+        "SUPPORT": {
+          "precision": 0.7714285714285715,
+          "recall": 0.7714285714285715,
+          "f1": 0.7714285714285715,
+          "support": 70
+        },
+        "REFUTE": {
+          "precision": 0.6551724137931034,
+          "recall": 0.59375,
+          "f1": 0.6229508196721312,
+          "support": 32
+        },
+        "NOT_ENOUGH_INFO": {
+          "precision": 0.5686274509803921,
+          "recall": 0.6041666666666666,
+          "f1": 0.5858585858585859,
+          "support": 48
+        }
+      }
+    },
+    {
+      "dataset": "SciFact",
+      "budget": 256,
+      "method": "BEA_QBGF",
+      "accuracy": 0.6333333333333333,
+      "macro_f1": 0.6255134119921418,
+      "classes": {
+        "SUPPORT": {
+          "precision": 0.7796610169491526,
+          "recall": 0.6571428571428571,
+          "f1": 0.7131782945736435,
+          "support": 70
+        },
+        "REFUTE": {
+          "precision": 0.6333333333333333,
+          "recall": 0.59375,
+          "f1": 0.6129032258064516,
+          "support": 32
+        },
+        "NOT_ENOUGH_INFO": {
+          "precision": 0.4918032786885246,
+          "recall": 0.625,
+          "f1": 0.5504587155963303,
+          "support": 48
+        }
+      }
+    },
+    {
+      "dataset": "SciFact",
+      "budget": 1024,
+      "method": "FIXED_SENTENCE",
+      "accuracy": 0.7133333333333334,
+      "macro_f1": 0.674831822285019,
+      "classes": {
+        "SUPPORT": {
+          "precision": 0.7848101265822784,
+          "recall": 0.8857142857142857,
+          "f1": 0.8322147651006712,
+          "support": 70
+        },
+        "REFUTE": {
+          "precision": 0.5348837209302325,
+          "recall": 0.71875,
+          "f1": 0.6133333333333333,
+          "support": 32
+        },
+        "NOT_ENOUGH_INFO": {
+          "precision": 0.7857142857142857,
+          "recall": 0.4583333333333333,
+          "f1": 0.5789473684210527,
+          "support": 48
+        }
+      }
+    },
+    {
+      "dataset": "SciFact",
+      "budget": 1024,
+      "method": "QBGF_FULL",
+      "accuracy": 0.6933333333333334,
+      "macro_f1": 0.6550242219869742,
+      "classes": {
+        "SUPPORT": {
+          "precision": 0.7792207792207793,
+          "recall": 0.8571428571428571,
+          "f1": 0.8163265306122449,
+          "support": 70
+        },
+        "REFUTE": {
+          "precision": 0.5128205128205128,
+          "recall": 0.625,
+          "f1": 0.5633802816901409,
+          "support": 32
+        },
+        "NOT_ENOUGH_INFO": {
+          "precision": 0.7058823529411765,
+          "recall": 0.5,
+          "f1": 0.5853658536585366,
+          "support": 48
+        }
+      }
+    },
+    {
+      "dataset": "SciFact",
+      "budget": 1024,
+      "method": "BEA_QBGF",
+      "accuracy": 0.72,
+      "macro_f1": 0.6992519917893052,
+      "classes": {
+        "SUPPORT": {
+          "precision": 0.7945205479452054,
+          "recall": 0.8285714285714286,
+          "f1": 0.8111888111888111,
+          "support": 70
+        },
+        "REFUTE": {
+          "precision": 0.6571428571428571,
+          "recall": 0.71875,
+          "f1": 0.6865671641791045,
+          "support": 32
+        },
+        "NOT_ENOUGH_INFO": {
+          "precision": 0.6428571428571429,
+          "recall": 0.5625,
+          "f1": 0.6,
+          "support": 48
+        }
+      }
+    }
+  ]
+}

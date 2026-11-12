@@ -1,0 +1,1571 @@
+{
+  "checksum": "757ec99fe6406d5a034a38a8dd4d2d3d12a5cc5b76f1841cdbbf022ab270379f",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "536"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 77,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "c6db113d89472dd65993349049aa8f4d5ea229a20aa8f93ae7ad28503dbe6eaa",
+    "query_id": "536",
+    "scores": [
+      {
+        "cross_encoder_score": -9.344701766967773,
+        "dataset": "SciFact",
+        "end_char": 57,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "f4ec482d433442476c3f94756f52cedb",
+        "passage_rank": 9,
+        "query_id": "536",
+        "sentence_id": "da04e455d13dc12159fd4bbbde7df29d",
+        "sentence_text": "Leptin treatment ameliorates anxiety in ob/ob obese mice.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          403,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.35043716430664,
+        "dataset": "SciFact",
+        "end_char": 156,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "f4ec482d433442476c3f94756f52cedb",
+        "passage_rank": 9,
+        "query_id": "536",
+        "sentence_id": "aa7d489d3996583ed1a8649bba317d9e",
+        "sentence_text": "We investigated whether or not administered leptin influences anxiety-like behavior in ob/ob mice.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          403,
+          0,
+          1,
+          0
+        ],
+        "source_position": 58
+      },
+      {
+        "cross_encoder_score": -10.454642295837402,
+        "dataset": "SciFact",
+        "end_char": 234,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "f4ec482d433442476c3f94756f52cedb",
+        "passage_rank": 9,
+        "query_id": "536",
+        "sentence_id": "2ac9cb3761c5ddaef5054b6ce260cb91",
+        "sentence_text": "Repeated intraperitoneal administrations of leptin were continued for 5 days.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          403,
+          0,
+          2,
+          0
+        ],
+        "source_position": 157
+      },
+      {
+        "cross_encoder_score": -10.597314834594727,
+        "dataset": "SciFact",
+        "end_char": 291,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "f4ec482d433442476c3f94756f52cedb",
+        "passage_rank": 9,
+        "query_id": "536",
+        "sentence_id": "770f93576ebf61d083d5448bf53bacc8",
+        "sentence_text": "Anxiety was assessed in the standard elevated plus maze.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          403,
+          0,
+          3,
+          0
+        ],
+        "source_position": 235
+      },
+      {
+        "cross_encoder_score": -10.432805061340332,
+        "dataset": "SciFact",
+        "end_char": 323,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "f4ec482d433442476c3f94756f52cedb",
+        "passage_rank": 9,
+        "query_id": "536",
+        "sentence_id": "4dc619d8b7b1852301f3647ac68101e0",
+        "sentence_text": "Body weight was measured daily.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          403,
+          0,
+          4,
+          0
+        ],
+        "source_position": 292
+      },
+      {
+        "cross_encoder_score": -10.893367767333984,
+        "dataset": "SciFact",
+        "end_char": 478,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "f4ec482d433442476c3f94756f52cedb",
+        "passage_rank": 9,
+        "query_id": "536",
+        "sentence_id": "d4820d09c8e064c3d63683e3fc815644",
+        "sentence_text": "Repeated administrations of leptin significantly increased the percentage of the total number of entries in the open arms and the number of total entries.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          403,
+          0,
+          5,
+          0
+        ],
+        "source_position": 324
+      },
+      {
+        "cross_encoder_score": -10.865303039550781,
+        "dataset": "SciFact",
+        "end_char": 546,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "f4ec482d433442476c3f94756f52cedb",
+        "passage_rank": 9,
+        "query_id": "536",
+        "sentence_id": "41d3571ee50ae4b50b6fcea438c6e4aa",
+        "sentence_text": "The body weight was significantly reduced by 13.2% after treatment.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          403,
+          0,
+          6,
+          0
+        ],
+        "source_position": 479
+      },
+      {
+        "cross_encoder_score": -9.872072219848633,
+        "dataset": "SciFact",
+        "end_char": 624,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "f4ec482d433442476c3f94756f52cedb",
+        "passage_rank": 9,
+        "query_id": "536",
+        "sentence_id": "9c95923f022cae019eece5846dcb1e02",
+        "sentence_text": "Leptin treatment ameliorated not only obesity but also anxiety in ob/ob mice.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          403,
+          0,
+          7,
+          0
+        ],
+        "source_position": 547
+      },
+      {
+        "cross_encoder_score": -11.13293743133545,
+        "dataset": "SciFact",
+        "end_char": 727,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "f4ec482d433442476c3f94756f52cedb",
+        "passage_rank": 9,
+        "query_id": "536",
+        "sentence_id": "f42da7bb97f06898cc6d16d180b11594",
+        "sentence_text": "Our results indicate that the treatment of obesity may lead to the solution of psychological problems.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          403,
+          0,
+          8,
+          0
+        ],
+        "source_position": 625
+      },
+      {
+        "cross_encoder_score": -7.647213459014893,
+        "dataset": "SciFact",
+        "end_char": 124,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "c90e4a77702e19062162ea0cb928e974",
+        "passage_rank": 5,
+        "query_id": "536",
+        "sentence_id": "7aca0ca69b215c51a75f2d88d4d507dc",
+        "sentence_text": "\u03b2-Adrenergic receptor antagonism prevents anxiety-like behavior and microglial reactivity induced by repeated social defeat.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          447,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.534093856811523,
+        "dataset": "SciFact",
+        "end_char": 264,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "c90e4a77702e19062162ea0cb928e974",
+        "passage_rank": 5,
+        "query_id": "536",
+        "sentence_id": "871f605ca93cf7c1ad52e5f9be7c39fa",
+        "sentence_text": "Psychosocial stress is associated with altered immune function and development of psychological disorders including anxiety and depression.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          447,
+          0,
+          1,
+          0
+        ],
+        "source_position": 125
+      },
+      {
+        "cross_encoder_score": -8.275505065917969,
+        "dataset": "SciFact",
+        "end_char": 477,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "c90e4a77702e19062162ea0cb928e974",
+        "passage_rank": 5,
+        "query_id": "536",
+        "sentence_id": "8def9d522437d333bdf8003abdfd1b9b",
+        "sentence_text": "Here we show that repeated social defeat in mice increased c-Fos staining in brain regions associated with fear and threat appraisal and promoted anxiety-like behavior in a \u03b2-adrenergic receptor-dependent manner.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          447,
+          0,
+          2,
+          0
+        ],
+        "source_position": 265
+      },
+      {
+        "cross_encoder_score": -10.880626678466797,
+        "dataset": "SciFact",
+        "end_char": 616,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "c90e4a77702e19062162ea0cb928e974",
+        "passage_rank": 5,
+        "query_id": "536",
+        "sentence_id": "0dbe1b3a8950424dd7346e59d33decd3",
+        "sentence_text": "Repeated social defeat also significantly increased the number of CD11b(+)/CD45(high)/Ly6C(high) macrophages that trafficked to the brain.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          447,
+          0,
+          3,
+          0
+        ],
+        "source_position": 478
+      },
+      {
+        "cross_encoder_score": -10.432180404663086,
+        "dataset": "SciFact",
+        "end_char": 777,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "c90e4a77702e19062162ea0cb928e974",
+        "passage_rank": 5,
+        "query_id": "536",
+        "sentence_id": "8df51d34091742f244ba4bf0829d01cc",
+        "sentence_text": "In addition, several inflammatory markers were increased on the surface of microglia (CD14, CD86, and TLR4) and macrophages (CD14 and CD86) after social defeat.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          447,
+          0,
+          4,
+          0
+        ],
+        "source_position": 617
+      },
+      {
+        "cross_encoder_score": -10.662397384643555,
+        "dataset": "SciFact",
+        "end_char": 912,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "c90e4a77702e19062162ea0cb928e974",
+        "passage_rank": 5,
+        "query_id": "536",
+        "sentence_id": "ba0abe0ff1ab09dbb979daeb80a52bae",
+        "sentence_text": "Repeated social defeat also increased the presence of deramified microglia in the medial amygdala, prefrontal cortex, and hippocampus.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          447,
+          0,
+          5,
+          0
+        ],
+        "source_position": 778
+      },
+      {
+        "cross_encoder_score": -9.491836547851562,
+        "dataset": "SciFact",
+        "end_char": 1167,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "c90e4a77702e19062162ea0cb928e974",
+        "passage_rank": 5,
+        "query_id": "536",
+        "sentence_id": "cf279c0b9edccba9dd4f7ccaab282ef7",
+        "sentence_text": "Moreover, mRNA analysis of microglia indicated that repeated social defeat increased levels of interleukin (IL)-1\u03b2 and reduced levels of glucocorticoid responsive genes [glucocorticoid-induced leucine zipper (GILZ) and FK506 binding protein-51 (FKBP51)].",
+        "sentence_token_cost": 66,
+        "source_order": [
+          447,
+          0,
+          6,
+          0
+        ],
+        "source_position": 913
+      },
+      {
+        "cross_encoder_score": -9.098536491394043,
+        "dataset": "SciFact",
+        "end_char": 1292,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "c90e4a77702e19062162ea0cb928e974",
+        "passage_rank": 5,
+        "query_id": "536",
+        "sentence_id": "5d304418257630dc72a160805d00b7e5",
+        "sentence_text": "The stress-dependent changes in microglia and macrophages were prevented by propranolol, a \u03b2-adrenergic receptor antagonist.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          447,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1168
+      },
+      {
+        "cross_encoder_score": -10.180281639099121,
+        "dataset": "SciFact",
+        "end_char": 1550,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "c90e4a77702e19062162ea0cb928e974",
+        "passage_rank": 5,
+        "query_id": "536",
+        "sentence_id": "cdf1a85d69807fd517e755774f05ce69",
+        "sentence_text": "Microglia isolated from socially defeated mice and cultured ex vivo produced markedly higher levels of IL-6, tumor necrosis factor-\u03b1, and monocyte chemoattractant protein-1 after stimulation with lipopolysaccharide compared with microglia from control mice.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          447,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1293
+      },
+      {
+        "cross_encoder_score": -7.113770484924316,
+        "dataset": "SciFact",
+        "end_char": 1763,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "c90e4a77702e19062162ea0cb928e974",
+        "passage_rank": 5,
+        "query_id": "536",
+        "sentence_id": "06290730bb99a3953ed7438f0d3ed980",
+        "sentence_text": "Last, repeated social defeat increased c-Fos activation in IL-1 receptor type-1-deficient mice, but did not promote anxiety-like behavior or microglia activation in the absence of functional IL-1 receptor type-1.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          447,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1551
+      },
+      {
+        "cross_encoder_score": -7.106295585632324,
+        "dataset": "SciFact",
+        "end_char": 1946,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "c90e4a77702e19062162ea0cb928e974",
+        "passage_rank": 5,
+        "query_id": "536",
+        "sentence_id": "945a8e6e7fc3bf78d87557d758af433b",
+        "sentence_text": "These findings indicate that repeated social defeat-induced anxiety-like behavior and enhanced reactivity of microglia was dependent on activation of \u03b2-adrenergic and IL-1 receptors.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          447,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1764
+      },
+      {
+        "cross_encoder_score": -1.2531721591949463,
+        "dataset": "SciFact",
+        "end_char": 137,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "cb6285765e05d48869d29100c4b4e52b",
+        "passage_rank": 8,
+        "query_id": "536",
+        "sentence_id": "7442a99ea14a8e7942087866110e6a68",
+        "sentence_text": "Effects of Hypoxia and Oxidative Stress on Expression of Neprilysin in Human Neuroblastoma Cells and Rat Cortical Neurones and Astrocytes",
+        "sentence_token_cost": 35,
+        "source_order": [
+          1608,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.907273292541504,
+        "dataset": "SciFact",
+        "end_char": 360,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "cb6285765e05d48869d29100c4b4e52b",
+        "passage_rank": 8,
+        "query_id": "536",
+        "sentence_id": "936224fc16b78258634ce9aeec4da868",
+        "sentence_text": "Pathogenesis of Alzheimer\u2019s disease (AD), which is characterised by accumulation of extracellular deposits of \u03b2-amyloid peptide (A\u03b2) in the brain, has recently been linked to vascular disorders such as ischemia and stroke.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          1608,
+          0,
+          1,
+          0
+        ],
+        "source_position": 138
+      },
+      {
+        "cross_encoder_score": -9.94387435913086,
+        "dataset": "SciFact",
+        "end_char": 527,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "cb6285765e05d48869d29100c4b4e52b",
+        "passage_rank": 8,
+        "query_id": "536",
+        "sentence_id": "a5c06dff0a0369c7384865504e3f0dc5",
+        "sentence_text": "A\u03b2 is constantly produced in the brain from amyloid precursor protein (APP) through its cleavage by \u03b2- and \u03b3-secretases and certain A\u03b2 species are toxic for neurones.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          1608,
+          0,
+          2,
+          0
+        ],
+        "source_position": 361
+      },
+      {
+        "cross_encoder_score": -9.466954231262207,
+        "dataset": "SciFact",
+        "end_char": 700,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "cb6285765e05d48869d29100c4b4e52b",
+        "passage_rank": 8,
+        "query_id": "536",
+        "sentence_id": "1c0f6697d2ee35dc838366c1b6dbd770",
+        "sentence_text": "The brain has an endogenous mechanism of A\u03b2 removal via proteolytic degradation and the zinc metalloproteinase neprilysin (NEP) is a critical regulator of A\u03b2 concentration.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          1608,
+          0,
+          3,
+          0
+        ],
+        "source_position": 528
+      },
+      {
+        "cross_encoder_score": -8.955293655395508,
+        "dataset": "SciFact",
+        "end_char": 747,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "cb6285765e05d48869d29100c4b4e52b",
+        "passage_rank": 8,
+        "query_id": "536",
+        "sentence_id": "0440ffaafe03bb4e438d131c91c47434",
+        "sentence_text": "Down-regulation of NEP could predispose to AD.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          1608,
+          0,
+          4,
+          0
+        ],
+        "source_position": 701
+      },
+      {
+        "cross_encoder_score": -2.0636768341064453,
+        "dataset": "SciFact",
+        "end_char": 1042,
+        "pair_tokens_before_truncation": 92,
+        "pair_truncated": false,
+        "passage_id": "cb6285765e05d48869d29100c4b4e52b",
+        "passage_rank": 8,
+        "query_id": "536",
+        "sentence_id": "344020f96dab48eb8a34a6e4bed99dd3",
+        "sentence_text": "By comparing the effects of hypoxia and oxidative stress on expression and activity of the A\u03b2-degrading enzyme NEP in human neuroblastoma NB7 cells and rat primary cortical neurones we have demonstrated that hypoxia reduced NEP expression at the protein and mRNA levels as well as its activity.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          1608,
+          0,
+          5,
+          0
+        ],
+        "source_position": 748
+      },
+      {
+        "cross_encoder_score": -8.058853149414062,
+        "dataset": "SciFact",
+        "end_char": 1107,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "cb6285765e05d48869d29100c4b4e52b",
+        "passage_rank": 8,
+        "query_id": "536",
+        "sentence_id": "b4181e9b4d7e0bfb8b173c745feb890d",
+        "sentence_text": "On contrary in astrocytes hypoxia increased NEP mRNA expression.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          1608,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1043
+      },
+      {
+        "cross_encoder_score": -10.090726852416992,
+        "dataset": "SciFact",
+        "end_char": 60,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "2848cfefe1231ac143786bf37267bda6",
+        "passage_rank": 10,
+        "query_id": "536",
+        "sentence_id": "5bf4a4a234e8719392230995fd544616",
+        "sentence_text": "Behavioral characterization of neuropeptide Y knockout mice.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          1735,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.683209419250488,
+        "dataset": "SciFact",
+        "end_char": 339,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "2848cfefe1231ac143786bf37267bda6",
+        "passage_rank": 10,
+        "query_id": "536",
+        "sentence_id": "29a6dff7c8a5526576adc5ec15a17a06",
+        "sentence_text": "An extensive behavioral characterization was conducted with mice lacking the gene for neuropeptide Y (NPY) including response to 24 and 48 h fast and challenge with small molecule antagonists of NPY receptors implicated in mediating the feeding effects of NPY (i.e., Y1 and Y5).",
+        "sentence_token_cost": 63,
+        "source_order": [
+          1735,
+          0,
+          1,
+          0
+        ],
+        "source_position": 61
+      },
+      {
+        "cross_encoder_score": -10.376483917236328,
+        "dataset": "SciFact",
+        "end_char": 531,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "2848cfefe1231ac143786bf37267bda6",
+        "passage_rank": 10,
+        "query_id": "536",
+        "sentence_id": "a7669484deb461e60889ae2f848b80f1",
+        "sentence_text": "In addition, wildtype (WT) and NPY knockout (KO) mice were tested in locomotor monitors, elevated plus maze, inhibitory avoidance, acoustic startle, prepulse inhibition, and hot plate assays.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          1735,
+          0,
+          2,
+          0
+        ],
+        "source_position": 340
+      },
+      {
+        "cross_encoder_score": -10.618898391723633,
+        "dataset": "SciFact",
+        "end_char": 657,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "2848cfefe1231ac143786bf37267bda6",
+        "passage_rank": 10,
+        "query_id": "536",
+        "sentence_id": "0d9e3cf6fa531a858720f1d00835a96d",
+        "sentence_text": "One of the major findings was that the NPY KO mice have a reduced food intake relative to WT controls in response to fasting.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          1735,
+          0,
+          3,
+          0
+        ],
+        "source_position": 532
+      },
+      {
+        "cross_encoder_score": -10.0752592086792,
+        "dataset": "SciFact",
+        "end_char": 816,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "2848cfefe1231ac143786bf37267bda6",
+        "passage_rank": 10,
+        "query_id": "536",
+        "sentence_id": "1597f89d8ca9990fafa4356a56e0c889",
+        "sentence_text": "Also, based on data from the behavioral models, the NPY KO mice may have an anxiogenic-like phenotype, and appear to be hypoalgesic in the hot plate paradigm.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          1735,
+          0,
+          4,
+          0
+        ],
+        "source_position": 658
+      },
+      {
+        "cross_encoder_score": -8.950678825378418,
+        "dataset": "SciFact",
+        "end_char": 945,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "2848cfefe1231ac143786bf37267bda6",
+        "passage_rank": 10,
+        "query_id": "536",
+        "sentence_id": "4ddd7007191eca941bc38bfed63323d8",
+        "sentence_text": "The data from these studies provide further evidence of involvement of NPY in energy balance, anxiety, and possibly nociception.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          1735,
+          0,
+          5,
+          0
+        ],
+        "source_position": 817
+      },
+      {
+        "cross_encoder_score": -5.686010837554932,
+        "dataset": "SciFact",
+        "end_char": 121,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "65fc26eff8a50e06b1651dff839634cc",
+        "passage_rank": 4,
+        "query_id": "536",
+        "sentence_id": "2cb3df038357c1c20afdfbaed662f599",
+        "sentence_text": "Synaptic glutamate release by ventromedial hypothalamic neurons is part of the neurocircuitry that prevents hypoglycemia.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1975,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.509389877319336,
+        "dataset": "SciFact",
+        "end_char": 210,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "65fc26eff8a50e06b1651dff839634cc",
+        "passage_rank": 4,
+        "query_id": "536",
+        "sentence_id": "2742bdfc7eca4b81d3a77bd0499df53d",
+        "sentence_text": "The importance of neuropeptides in the hypothalamus has been experimentally established.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          1975,
+          0,
+          1,
+          0
+        ],
+        "source_position": 122
+      },
+      {
+        "cross_encoder_score": -10.109533309936523,
+        "dataset": "SciFact",
+        "end_char": 348,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "65fc26eff8a50e06b1651dff839634cc",
+        "passage_rank": 4,
+        "query_id": "536",
+        "sentence_id": "30c26193db1aa93dd2fc98150cd1a22a",
+        "sentence_text": "Due to difficulties in assessing function in vivo, the roles of the fast-acting neurotransmitters glutamate and GABA are largely unknown.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          1975,
+          0,
+          2,
+          0
+        ],
+        "source_position": 211
+      },
+      {
+        "cross_encoder_score": -10.2721586227417,
+        "dataset": "SciFact",
+        "end_char": 513,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "65fc26eff8a50e06b1651dff839634cc",
+        "passage_rank": 4,
+        "query_id": "536",
+        "sentence_id": "45d2c54ae96d0aa62095aa0753bb7d58",
+        "sentence_text": "Synaptic vesicular transporters (VGLUTs for glutamate and VGAT for GABA) are required for vesicular uptake and, consequently, synaptic release of neurotransmitters.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          1975,
+          0,
+          3,
+          0
+        ],
+        "source_position": 349
+      },
+      {
+        "cross_encoder_score": -5.465651988983154,
+        "dataset": "SciFact",
+        "end_char": 605,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "65fc26eff8a50e06b1651dff839634cc",
+        "passage_rank": 4,
+        "query_id": "536",
+        "sentence_id": "ac7eb628311b8eda4051d1314a46ffc2",
+        "sentence_text": "Ventromedial hypothalamic (VMH) neurons are predominantly glutamatergic and express VGLUT2.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          1975,
+          0,
+          4,
+          0
+        ],
+        "source_position": 514
+      },
+      {
+        "cross_encoder_score": -8.183645248413086,
+        "dataset": "SciFact",
+        "end_char": 758,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "65fc26eff8a50e06b1651dff839634cc",
+        "passage_rank": 4,
+        "query_id": "536",
+        "sentence_id": "e20b4958f2c6930b178c1021736cfb72",
+        "sentence_text": "To evaluate the role of glutamate release from VMH neurons, we generated mice lacking VGLUT2 selectively in SF1 neurons (a major subset of VMH neurons).",
+        "sentence_token_cost": 35,
+        "source_order": [
+          1975,
+          0,
+          5,
+          0
+        ],
+        "source_position": 606
+      },
+      {
+        "cross_encoder_score": -6.768004417419434,
+        "dataset": "SciFact",
+        "end_char": 1010,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "65fc26eff8a50e06b1651dff839634cc",
+        "passage_rank": 4,
+        "query_id": "536",
+        "sentence_id": "4f6355d93e42b0e6d45c26673574e7a0",
+        "sentence_text": "These mice have hypoglycemia during fasting secondary to impaired fasting-induced increases in the glucose-raising pancreatic hormone glucagon and impaired induction in liver of mRNAs encoding PGC-1alpha and the gluconeogenic enzymes PEPCK and G6Pase.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          1975,
+          0,
+          6,
+          0
+        ],
+        "source_position": 759
+      },
+      {
+        "cross_encoder_score": -7.027828216552734,
+        "dataset": "SciFact",
+        "end_char": 1147,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "65fc26eff8a50e06b1651dff839634cc",
+        "passage_rank": 4,
+        "query_id": "536",
+        "sentence_id": "b81e957ffd10c6ef6e0d40abf7d716a5",
+        "sentence_text": "Similarly, these mice have defective counterregulatory responses to insulin-induced hypoglycemia and 2-deoxyglucose (an antimetabolite).",
+        "sentence_token_cost": 32,
+        "source_order": [
+          1975,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1011
+      },
+      {
+        "cross_encoder_score": -6.7167277336120605,
+        "dataset": "SciFact",
+        "end_char": 1276,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "65fc26eff8a50e06b1651dff839634cc",
+        "passage_rank": 4,
+        "query_id": "536",
+        "sentence_id": "f70c646e9e2c36cf2f2144ab43486daf",
+        "sentence_text": "Thus, glutamate release from VMH neurons is an important component of the neurocircuitry that functions to prevent hypoglycemia.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          1975,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1148
+      },
+      {
+        "cross_encoder_score": -6.48233699798584,
+        "dataset": "SciFact",
+        "end_char": 38,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "7197523f4eeaa480dacc77ee306d8d0f",
+        "passage_rank": 1,
+        "query_id": "536",
+        "sentence_id": "66be98304e9b09b0417a2d5077f8c081",
+        "sentence_text": "A KEY ROLE FOR OREXIN IN PANIC ANXIETY",
+        "sentence_token_cost": 14,
+        "source_order": [
+          2583,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.140320777893066,
+        "dataset": "SciFact",
+        "end_char": 126,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "7197523f4eeaa480dacc77ee306d8d0f",
+        "passage_rank": 1,
+        "query_id": "536",
+        "sentence_id": "ae6f7c94c23d818b3f00204f243a7663",
+        "sentence_text": "Panic disorder is a severe anxiety disorder with recurrent, debilitating panic attacks.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          2583,
+          0,
+          1,
+          0
+        ],
+        "source_position": 39
+      },
+      {
+        "cross_encoder_score": -4.181966304779053,
+        "dataset": "SciFact",
+        "end_char": 365,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "7197523f4eeaa480dacc77ee306d8d0f",
+        "passage_rank": 1,
+        "query_id": "536",
+        "sentence_id": "18ee8299f100e245fe418b4947f31b3c",
+        "sentence_text": "In individuals with panic disorder there is evidence of decreased central gamma-aminobutyric acid (GABA) activity as well as marked increases in autonomic and respiratory responses after intravenous infusions of hypertonic sodium lactate.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          2583,
+          0,
+          2,
+          0
+        ],
+        "source_position": 127
+      },
+      {
+        "cross_encoder_score": 4.378854751586914,
+        "dataset": "SciFact",
+        "end_char": 600,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "7197523f4eeaa480dacc77ee306d8d0f",
+        "passage_rank": 1,
+        "query_id": "536",
+        "sentence_id": "9711aa8827a00177e7f358c7bf44717b",
+        "sentence_text": "In a rat model of panic disorder, chronic inhibition of GABA synthesis in the dorsomedial-perifornical hypothalamus of rats produces anxiety-like states and a similar vulnerability to sodium lactate-induced cardioexcitatory responses.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          2583,
+          0,
+          3,
+          0
+        ],
+        "source_position": 366
+      },
+      {
+        "cross_encoder_score": 1.4942415952682495,
+        "dataset": "SciFact",
+        "end_char": 842,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "7197523f4eeaa480dacc77ee306d8d0f",
+        "passage_rank": 1,
+        "query_id": "536",
+        "sentence_id": "66b5bacc2fdba33eae1d19dd3ca4b451",
+        "sentence_text": "The dorsomedial-perifornical hypothalamus is enriched in neurons containing orexin (ORX, also known as hypocretin), which have a crucial role in arousal, vigilance and central autonomic mobilization, all of which are key components of panic.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          2583,
+          0,
+          4,
+          0
+        ],
+        "source_position": 601
+      },
+      {
+        "cross_encoder_score": 5.476947784423828,
+        "dataset": "SciFact",
+        "end_char": 1114,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "7197523f4eeaa480dacc77ee306d8d0f",
+        "passage_rank": 1,
+        "query_id": "536",
+        "sentence_id": "4ef26d6bc7b66449e95cfa690de156e1",
+        "sentence_text": "Here we show that activation of ORX-synthesizing neurons is necessary for developing a panic-prone state in the rat panic model, and either silencing of the hypothalamic gene encoding ORX (Hcrt) with RNAi or systemic ORX-1 receptor antagonists blocks the panic responses.",
+        "sentence_token_cost": 63,
+        "source_order": [
+          2583,
+          0,
+          5,
+          0
+        ],
+        "source_position": 843
+      },
+      {
+        "cross_encoder_score": -7.349217414855957,
+        "dataset": "SciFact",
+        "end_char": 1270,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "7197523f4eeaa480dacc77ee306d8d0f",
+        "passage_rank": 1,
+        "query_id": "536",
+        "sentence_id": "534fd2a55a46ac35305db1c88c97bdb8",
+        "sentence_text": "Moreover, we show that human subjects with panic anxiety have elevated levels of ORX in the cerebrospinal fluid compared to subjects without panic anxiety.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          2583,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1115
+      },
+      {
+        "cross_encoder_score": -6.102181434631348,
+        "dataset": "SciFact",
+        "end_char": 1473,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "7197523f4eeaa480dacc77ee306d8d0f",
+        "passage_rank": 1,
+        "query_id": "536",
+        "sentence_id": "aba4581584e46e7f7e3bf127e4a036a2",
+        "sentence_text": "Taken together, our results suggest that the ORX system may be involved in the pathophysiology of panic anxiety and that ORX antagonists constitute a potential new treatment strategy for panic disorder.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          2583,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1271
+      },
+      {
+        "cross_encoder_score": -7.803127288818359,
+        "dataset": "SciFact",
+        "end_char": 63,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "5c6158b493cc7a02c446a6693262552d",
+        "passage_rank": 7,
+        "query_id": "536",
+        "sentence_id": "f64a15a7d44eb290e2e2fbf998cd20ff",
+        "sentence_text": "Modulation of anxiety through blockade of anandamide hydrolysis",
+        "sentence_token_cost": 13,
+        "source_order": [
+          3100,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.829670906066895,
+        "dataset": "SciFact",
+        "end_char": 291,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "5c6158b493cc7a02c446a6693262552d",
+        "passage_rank": 7,
+        "query_id": "536",
+        "sentence_id": "09b203ca7428df2ed718c366f72869e4",
+        "sentence_text": "The psychoactive constituent of cannabis, \u03949-tetrahydrocannabinol, produces in humans subjective responses mediated by CB1 cannabinoid receptors, indicating that endogenous cannabinoids may contribute to the control of emotion.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          3100,
+          0,
+          1,
+          0
+        ],
+        "source_position": 64
+      },
+      {
+        "cross_encoder_score": -10.784830093383789,
+        "dataset": "SciFact",
+        "end_char": 455,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "5c6158b493cc7a02c446a6693262552d",
+        "passage_rank": 7,
+        "query_id": "536",
+        "sentence_id": "244f89a494a16991257b8ab993a80371",
+        "sentence_text": "But the variable effects of \u03949-tetrahydrocannabinol obscure the interpretation of these results and limit the therapeutic potential of direct cannabinoid agonists.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          3100,
+          0,
+          2,
+          0
+        ],
+        "source_position": 292
+      },
+      {
+        "cross_encoder_score": -10.979289054870605,
+        "dataset": "SciFact",
+        "end_char": 589,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "5c6158b493cc7a02c446a6693262552d",
+        "passage_rank": 7,
+        "query_id": "536",
+        "sentence_id": "966e1bd5330c6e3cd983d4ff64a95b89",
+        "sentence_text": "An alternative approach may be to develop drugs that amplify the effects of endogenous cannabinoids by preventing their inactivation.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3100,
+          0,
+          3,
+          0
+        ],
+        "source_position": 456
+      },
+      {
+        "cross_encoder_score": -10.987001419067383,
+        "dataset": "SciFact",
+        "end_char": 786,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "5c6158b493cc7a02c446a6693262552d",
+        "passage_rank": 7,
+        "query_id": "536",
+        "sentence_id": "6cc2b32344ca8935d3f0a25902bc3a4e",
+        "sentence_text": "Here we describe a class of potent, selective and systemically active inhibitors of fatty acid amide hydrolase, the enzyme responsible for the degradation of the endogenous cannabinoid anandamide.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          3100,
+          0,
+          4,
+          0
+        ],
+        "source_position": 590
+      },
+      {
+        "cross_encoder_score": -4.64692497253418,
+        "dataset": "SciFact",
+        "end_char": 966,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "5c6158b493cc7a02c446a6693262552d",
+        "passage_rank": 7,
+        "query_id": "536",
+        "sentence_id": "48a9cb88da56b81a5af4292ceaf6550b",
+        "sentence_text": "Like clinically used anti-anxiety drugs, in rats the inhibitors exhibit benzodiazepine-like properties in the elevated zero-maze test and suppress isolation-induced vocalizations.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          3100,
+          0,
+          5,
+          0
+        ],
+        "source_position": 787
+      },
+      {
+        "cross_encoder_score": -9.433083534240723,
+        "dataset": "SciFact",
+        "end_char": 1080,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "5c6158b493cc7a02c446a6693262552d",
+        "passage_rank": 7,
+        "query_id": "536",
+        "sentence_id": "0252de2d13b4219f2402f82205cdb091",
+        "sentence_text": "These effects are accompanied by augmented brain levels of anandamide and are prevented by CB1 receptor blockade.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          3100,
+          0,
+          6,
+          0
+        ],
+        "source_position": 967
+      },
+      {
+        "cross_encoder_score": -10.447003364562988,
+        "dataset": "SciFact",
+        "end_char": 1270,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "5c6158b493cc7a02c446a6693262552d",
+        "passage_rank": 7,
+        "query_id": "536",
+        "sentence_id": "d09edaaebef9bad47f79753df9d49934",
+        "sentence_text": "Our results indicate that anandamide participates in the modulation of emotional states and point to fatty acid amide hydrolase inhibition as an innovative approach to anti-anxiety therapy.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          3100,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1081
+      },
+      {
+        "cross_encoder_score": -9.079669952392578,
+        "dataset": "SciFact",
+        "end_char": 67,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "b435db17b13a4aa1778045f49f9edd5b",
+        "passage_rank": 3,
+        "query_id": "536",
+        "sentence_id": "264d970b7f55de3c89fede3e68758b10",
+        "sentence_text": "Agouti-related peptide\u2013expressing neurons are mandatory for feeding",
+        "sentence_token_cost": 13,
+        "source_order": [
+          3339,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.420074462890625,
+        "dataset": "SciFact",
+        "end_char": 242,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "b435db17b13a4aa1778045f49f9edd5b",
+        "passage_rank": 3,
+        "query_id": "536",
+        "sentence_id": "b6da25b6f6a25dff642ed449c0eaf26f",
+        "sentence_text": "Multiple hormones controlling energy homeostasis regulate the expression of neuropeptide Y (NPY) and agouti-related peptide (AgRP) in the arcuate nucleus of the hypothalamus.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          3339,
+          0,
+          1,
+          0
+        ],
+        "source_position": 68
+      },
+      {
+        "cross_encoder_score": -9.235300064086914,
+        "dataset": "SciFact",
+        "end_char": 345,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "b435db17b13a4aa1778045f49f9edd5b",
+        "passage_rank": 3,
+        "query_id": "536",
+        "sentence_id": "4e946b0e6558355fc6ab059c46fd05d4",
+        "sentence_text": "Nevertheless, inactivation of the genes encoding NPY and/or AgRP has no impact on food intake in mice.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3339,
+          0,
+          2,
+          0
+        ],
+        "source_position": 243
+      },
+      {
+        "cross_encoder_score": -5.850101947784424,
+        "dataset": "SciFact",
+        "end_char": 585,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "b435db17b13a4aa1778045f49f9edd5b",
+        "passage_rank": 3,
+        "query_id": "536",
+        "sentence_id": "cf5bcf29bb063ea9635f1cef901661ab",
+        "sentence_text": "Here we demonstrate that induced selective ablation of AgRP-expressing neurons in adult mice results in acute reduction of feeding, demonstrating direct evidence for a critical role of these neurons in the regulation of energy homeostasis.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          3339,
+          0,
+          3,
+          0
+        ],
+        "source_position": 346
+      },
+      {
+        "cross_encoder_score": -4.1921491622924805,
+        "dataset": "SciFact",
+        "end_char": 151,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "592f5fea7d905f9ee1993b94942e1357",
+        "passage_rank": 6,
+        "query_id": "536",
+        "sentence_id": "f5f0ce3371638087ba6136cec0f6768f",
+        "sentence_text": "Intrahippocampal administration of an androgen receptor antagonist, flutamide, can increase anxiety-like behavior in intact and DHT-replaced male rats.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          3749,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.12091064453125,
+        "dataset": "SciFact",
+        "end_char": 342,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "592f5fea7d905f9ee1993b94942e1357",
+        "passage_rank": 6,
+        "query_id": "536",
+        "sentence_id": "7ab12166d6e672b711eb8ba32ae4409a",
+        "sentence_text": "Testosterone (T) and its 5alpha-reduced metabolite, dihydrotestosterone (DHT), can decrease anxiety-like behavior; however, the mechanisms underlying these effects have not been established.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          3749,
+          0,
+          1,
+          0
+        ],
+        "source_position": 152
+      },
+      {
+        "cross_encoder_score": -9.215311050415039,
+        "dataset": "SciFact",
+        "end_char": 590,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "592f5fea7d905f9ee1993b94942e1357",
+        "passage_rank": 6,
+        "query_id": "536",
+        "sentence_id": "7219e530e363a8ca12d090f1c0d59c37",
+        "sentence_text": "First, we hypothesized that if T reduces anxiety-like behavior through actions of its 5alpha-reduced metabolite, DHT, then gonadectomy (GDX) would increase anxiety-like behavior, an effect which would be reversed by systemic administration of DHT.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          3749,
+          0,
+          2,
+          0
+        ],
+        "source_position": 343
+      },
+      {
+        "cross_encoder_score": -3.186671495437622,
+        "dataset": "SciFact",
+        "end_char": 926,
+        "pair_tokens_before_truncation": 98,
+        "pair_truncated": false,
+        "passage_id": "592f5fea7d905f9ee1993b94942e1357",
+        "passage_rank": 6,
+        "query_id": "536",
+        "sentence_id": "514b2267925b4bf621e3a2599819bf26",
+        "sentence_text": "Second, we hypothesized that if T and DHT reduce anxiety-like behavior in part through actions at intracellular androgen receptors in the hippocampus, then administration of an androgen receptor antagonist, flutamide, directly to the hippocampus should increase anxiety-like behavior of intact and DHT-replaced, but not GDX, male rats.",
+        "sentence_token_cost": 69,
+        "source_order": [
+          3749,
+          0,
+          3,
+          0
+        ],
+        "source_position": 591
+      },
+      {
+        "cross_encoder_score": -8.187315940856934,
+        "dataset": "SciFact",
+        "end_char": 1155,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "592f5fea7d905f9ee1993b94942e1357",
+        "passage_rank": 6,
+        "query_id": "536",
+        "sentence_id": "fefb183af5524ffb9488f599b84aff89",
+        "sentence_text": "Inserts that were empty or contained flutamide were applied directly to the dorsal hippocampus of intact, GDX, or GDX and DHT-replaced rats 2 h prior to testing in the open field, elevated plus maze, or defensive freezing tasks.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          3749,
+          0,
+          4,
+          0
+        ],
+        "source_position": 927
+      },
+      {
+        "cross_encoder_score": -6.373022079467773,
+        "dataset": "SciFact",
+        "end_char": 1250,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "592f5fea7d905f9ee1993b94942e1357",
+        "passage_rank": 6,
+        "query_id": "536",
+        "sentence_id": "6ad3aff2448a7c4f1fd0e21c6f1dd9b7",
+        "sentence_text": "GDX rats exhibited significantly more anxiety-like behaviors than intact or DHT-replaced rats.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3749,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1156
+      },
+      {
+        "cross_encoder_score": -5.926296234130859,
+        "dataset": "SciFact",
+        "end_char": 1412,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "592f5fea7d905f9ee1993b94942e1357",
+        "passage_rank": 6,
+        "query_id": "536",
+        "sentence_id": "4073b6bce59125b49172414d168fc73a",
+        "sentence_text": "Intact and DHT-replaced rats administered flutamide to the hippocampus showed significantly more anxiety-like behavior than did intact and DHT-replaced controls.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          3749,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1251
+      },
+      {
+        "cross_encoder_score": -6.038198947906494,
+        "dataset": "SciFact",
+        "end_char": 1489,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "592f5fea7d905f9ee1993b94942e1357",
+        "passage_rank": 6,
+        "query_id": "536",
+        "sentence_id": "0076ae30cdf5ab40a980981221d5d36c",
+        "sentence_text": "However, flutamide alone did not increase anxiety-like behavior of GDX rats.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          3749,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1413
+      },
+      {
+        "cross_encoder_score": -4.467349052429199,
+        "dataset": "SciFact",
+        "end_char": 1657,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "592f5fea7d905f9ee1993b94942e1357",
+        "passage_rank": 6,
+        "query_id": "536",
+        "sentence_id": "b7bc55d682094505c7ee47a70511380c",
+        "sentence_text": "Together, these findings suggest that androgens can decrease anxiety-like behavior of male rats in part through DHT's actions at androgen receptors in the hippocampus.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          3749,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1490
+      },
+      {
+        "cross_encoder_score": -9.971912384033203,
+        "dataset": "SciFact",
+        "end_char": 117,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "f302217705d123e099c75ef1023a2a21",
+        "passage_rank": 2,
+        "query_id": "536",
+        "sentence_id": "978dbb0f6095db9b5ecb2d3f9cf8d3a7",
+        "sentence_text": "Enhancement of anxiety-like responsiveness to the cannabinoid CB(1) receptor agonist HU-210 following chronic stress.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          4821,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.014357566833496,
+        "dataset": "SciFact",
+        "end_char": 365,
+        "pair_tokens_before_truncation": 93,
+        "pair_truncated": false,
+        "passage_id": "f302217705d123e099c75ef1023a2a21",
+        "passage_rank": 2,
+        "query_id": "536",
+        "sentence_id": "b322cf795be1fd838a434a8a1ef2b2a2",
+        "sentence_text": "The effect that chronic unpredictable stress had on the anxiety-like response elicited by the cannabinoid receptor agonist HU-210 [3-(1,1-dimethylheptyl)-(-)-11-hydroxy-delta 8-tetrahydrocannabinol] in the elevated plus maze was investigated here.",
+        "sentence_token_cost": 68,
+        "source_order": [
+          4821,
+          0,
+          1,
+          0
+        ],
+        "source_position": 118
+      },
+      {
+        "cross_encoder_score": -9.160055160522461,
+        "dataset": "SciFact",
+        "end_char": 618,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "f302217705d123e099c75ef1023a2a21",
+        "passage_rank": 2,
+        "query_id": "536",
+        "sentence_id": "b606e5b9ada4dfd7bdf551b54af322b4",
+        "sentence_text": "Male Long-Evans rats were either unstressed or were subjected to a 21-day regimen of chronic unpredictable stress, and subsequently were subdivided into three testing groups (vehicle, 10 and 50 microg/kg of HU-210) and tested on the elevated plus maze.",
+        "sentence_token_cost": 63,
+        "source_order": [
+          4821,
+          0,
+          2,
+          0
+        ],
+        "source_position": 366
+      },
+      {
+        "cross_encoder_score": -7.959381580352783,
+        "dataset": "SciFact",
+        "end_char": 772,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "f302217705d123e099c75ef1023a2a21",
+        "passage_rank": 2,
+        "query_id": "536",
+        "sentence_id": "1f33ac691dd103f3caaf586ff35ff660",
+        "sentence_text": "Results demonstrated that in unstressed animals, a low dose of HU-210 induced an anxiolytic response, whereas a high dose induced an anxiogenic response.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          4821,
+          0,
+          3,
+          0
+        ],
+        "source_position": 619
+      },
+      {
+        "cross_encoder_score": -7.697836399078369,
+        "dataset": "SciFact",
+        "end_char": 873,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "f302217705d123e099c75ef1023a2a21",
+        "passage_rank": 2,
+        "query_id": "536",
+        "sentence_id": "ca4f22e53a65bc74e96adff9d4228c09",
+        "sentence_text": "Further, in stressed animals both the low and the high doses of HU-210 induced anxiogenic responses.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          4821,
+          0,
+          4,
+          0
+        ],
+        "source_position": 773
+      },
+      {
+        "cross_encoder_score": -9.942718505859375,
+        "dataset": "SciFact",
+        "end_char": 1032,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "f302217705d123e099c75ef1023a2a21",
+        "passage_rank": 2,
+        "query_id": "536",
+        "sentence_id": "5101be40bffcb5724f9a5c6ea9d652ad",
+        "sentence_text": "These findings suggest that chronic stress enhances either cannabinoid receptor responsivity or one of the interacting systems implicated in emotional states.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          4821,
+          0,
+          5,
+          0
+        ],
+        "source_position": 874
+      }
+    ],
+    "scoring_seconds": 0.3637451250106096,
+    "source_fingerprint": "65eb9ae1b6dc871055f88521454e48391794cbcf8e1c2811ed3972e761050392"
+  }
+}

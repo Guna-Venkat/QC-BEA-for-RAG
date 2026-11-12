@@ -1,0 +1,1811 @@
+{
+  "checksum": "c28896b6052e169258b647038c8d5bcf5e96e9ba01ff9c5d5ecc9fbaee854549",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 89,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "453a3144805b79efbcd4b5a870e1f9687086d0b1483f61540402e36320e30353",
+    "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+    "scores": [
+      {
+        "cross_encoder_score": -11.325081825256348,
+        "dataset": "QASPER",
+        "end_char": 277,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "022a63e4f532b0e618b7a64973db59ce",
+        "passage_rank": 10,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "c6746a5bf4d057579f5339ec410033d0",
+        "sentence_text": "ARAML: A Stable Adversarial Training Framework for Text Generation\tMost of the existing generative adversarial networks (GAN) for text generation suffer from the instability of reinforcement learning training algorithms such as policy gradient, leading to unstable performance.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.868901252746582,
+        "dataset": "QASPER",
+        "end_char": 394,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "022a63e4f532b0e618b7a64973db59ce",
+        "passage_rank": 10,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "147c0a8bc13379109a06dd529465dbc6",
+        "sentence_text": "To tackle this problem, we propose a novel framework called Adversarial Reward Augmented Maximum Likelihood (ARAML).",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 278
+      },
+      {
+        "cross_encoder_score": 3.7194690704345703,
+        "dataset": "QASPER",
+        "end_char": 574,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "022a63e4f532b0e618b7a64973db59ce",
+        "passage_rank": 10,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "2682a1d3adf4ec223c450266a407f0a2",
+        "sentence_text": "During adversarial training, the discriminator assigns rewards to samples which are acquired from a stationary distribution near the data rather than the generator's distribution.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 395
+      },
+      {
+        "cross_encoder_score": 3.197540283203125,
+        "dataset": "QASPER",
+        "end_char": 705,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "022a63e4f532b0e618b7a64973db59ce",
+        "passage_rank": 10,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "c8d5c06dedf834f712b4fe0dc0b214be",
+        "sentence_text": "The generator is optimized with maximum likelihood estimation augmented by the discriminator's rewards instead of policy gradient.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 575
+      },
+      {
+        "cross_encoder_score": -11.23686408996582,
+        "dataset": "QASPER",
+        "end_char": 816,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "022a63e4f532b0e618b7a64973db59ce",
+        "passage_rank": 10,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "fa604ad3c76b16adbd12d48af99753a6",
+        "sentence_text": "Experiments show that our model can outperform state-of-the-art text GANs with a more stable training process.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 706
+      },
+      {
+        "cross_encoder_score": -11.233152389526367,
+        "dataset": "QASPER",
+        "end_char": 955,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "022a63e4f532b0e618b7a64973db59ce",
+        "passage_rank": 10,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "f01e88ae12fa26ebbc616c631ae52274",
+        "sentence_text": "Introduction\tNatural text generation, as a key task in NLP, has been advanced substantially thanks to the flourish of neural models  ,  .",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 818
+      },
+      {
+        "cross_encoder_score": -11.15071964263916,
+        "dataset": "QASPER",
+        "end_char": 1118,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "022a63e4f532b0e618b7a64973db59ce",
+        "passage_rank": 10,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "8efa54b514dfeb4fc67658ab4d562f01",
+        "sentence_text": "Typical frameworks such as sequence-to-sequence (seq2seq) have been applied to various generation tasks, including machine translation  and dialogue generation  .",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 956
+      },
+      {
+        "cross_encoder_score": -11.366943359375,
+        "dataset": "QASPER",
+        "end_char": 1323,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "022a63e4f532b0e618b7a64973db59ce",
+        "passage_rank": 10,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "cdf29707253425b4ad8360676fc65a8a",
+        "sentence_text": "The standard paradigm to train such neural models is maximum likelihood estimation (MLE), which maximizes the log-likelihood of observing each word in the text given the ground-truth proceeding context  .",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1119
+      },
+      {
+        "cross_encoder_score": -11.236381530761719,
+        "dataset": "QASPER",
+        "end_char": 1394,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "022a63e4f532b0e618b7a64973db59ce",
+        "passage_rank": 10,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "db744c30b770c82a1b7169c68c8019e4",
+        "sentence_text": "Although widely used, MLE suffers from the exposure bias problem  ,  :",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1324
+      },
+      {
+        "cross_encoder_score": -11.142365455627441,
+        "dataset": "QASPER",
+        "end_char": 1554,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "4e6bf9aa94d657bc3a7be1234d1a0807",
+        "passage_rank": 5,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "98bab00732859ea80f79630776a5390c",
+        "sentence_text": "during test, the model sequentially predicts the next word conditioned on its previous generated words while during training conditioned on ground-truth words.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1395
+      },
+      {
+        "cross_encoder_score": 1.4669246673583984,
+        "dataset": "QASPER",
+        "end_char": 1917,
+        "pair_tokens_before_truncation": 91,
+        "pair_truncated": false,
+        "passage_id": "4e6bf9aa94d657bc3a7be1234d1a0807",
+        "passage_rank": 5,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "a964835642fc9a6b85fb85e25459730f",
+        "sentence_text": "To tackle this problem, generative adversarial networks (GAN) with reinforcement learning (RL) training approaches have been introduced to text generation tasks  ,  ,  ,  ,  ,  ,  , where the discriminator is trained to distinguish real and generated text samples to provide reward signals for the generator, and the generator is optimized via policy gradient  .",
+        "sentence_token_cost": 72,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1555
+      },
+      {
+        "cross_encoder_score": -11.274904251098633,
+        "dataset": "QASPER",
+        "end_char": 2049,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "4e6bf9aa94d657bc3a7be1234d1a0807",
+        "passage_rank": 5,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "418a14a7fbdc2a98dc2369f96d79b293",
+        "sentence_text": "However, recent studies have shown that potential issues of training GANs on discrete data are more severe than exposure bias  ,  .",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1918
+      },
+      {
+        "cross_encoder_score": -10.890851974487305,
+        "dataset": "QASPER",
+        "end_char": 2152,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "4e6bf9aa94d657bc3a7be1234d1a0807",
+        "passage_rank": 5,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "0d4ccc9bf7bd3ff66f1ef6e3ed78d926",
+        "sentence_text": "One of the fundamental issues when generating discrete text samples with GANs is training instability.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 2050
+      },
+      {
+        "cross_encoder_score": 2.6718008518218994,
+        "dataset": "QASPER",
+        "end_char": 2384,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "4e6bf9aa94d657bc3a7be1234d1a0807",
+        "passage_rank": 5,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "371c1a8a74b890078bc6a4ba2b6ccb80",
+        "sentence_text": "Updating the generator with policy gradient always leads to an unstable training process because it's difficult for the generator to derive positive and stable reward signals from the discriminator even with careful pre-training  .",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 2153
+      },
+      {
+        "cross_encoder_score": -2.356760025024414,
+        "dataset": "QASPER",
+        "end_char": 2513,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "4e6bf9aa94d657bc3a7be1234d1a0807",
+        "passage_rank": 5,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "13f4ea1bc622afe24426c297b3c51932",
+        "sentence_text": "As a result, the generator gets lost due to the high variance of reward signals and the training process may finally collapse  .",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 2385
+      },
+      {
+        "cross_encoder_score": -10.426652908325195,
+        "dataset": "QASPER",
+        "end_char": 2714,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "4e6bf9aa94d657bc3a7be1234d1a0807",
+        "passage_rank": 5,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "9034045676346f7cc55f0944dd2d82e5",
+        "sentence_text": "In this paper, we propose a novel adversarial training framework called Adversarial Reward Augmented Maximum Likelihood (ARAML) to deal with the instability issue of training GANs for text generation.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2514
+      },
+      {
+        "cross_encoder_score": -10.71784496307373,
+        "dataset": "QASPER",
+        "end_char": 2766,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "4e6bf9aa94d657bc3a7be1234d1a0807",
+        "passage_rank": 5,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "c3d82cc23f9539836de9067143f6d172",
+        "sentence_text": "At each iteration of adversarial training, we first",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2715
+      },
+      {
+        "cross_encoder_score": -0.37211403250694275,
+        "dataset": "QASPER",
+        "end_char": 2855,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "f995b9e1bd856843ecae9bd38a2892de",
+        "passage_rank": 6,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "861b426f4b27c0906b740cfe206e66e3",
+        "sentence_text": "train the discriminator to assign higher rewards to real data than to generated samples.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2767
+      },
+      {
+        "cross_encoder_score": 2.8941519260406494,
+        "dataset": "QASPER",
+        "end_char": 3082,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "f995b9e1bd856843ecae9bd38a2892de",
+        "passage_rank": 6,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "9c0f63a8b197d7d927589b986c4194cc",
+        "sentence_text": "Then, inspired by reward augmented maximum likelihood (RAML)  , the generator is updated on the samples acquired from a stationary distribution with maximum likelihood estimation (MLE), weighted by the discriminator's rewards.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2856
+      },
+      {
+        "cross_encoder_score": -9.189821243286133,
+        "dataset": "QASPER",
+        "end_char": 3320,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "f995b9e1bd856843ecae9bd38a2892de",
+        "passage_rank": 6,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "0b96b675de9ef19e2b8979b951cbf6e7",
+        "sentence_text": "This stationary distribution is designed to guarantee that training samples are surrounding the real data, thus the exploration space of our generator is indeed restricted by the MLE training objective, resulting in more stable training.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 3083
+      },
+      {
+        "cross_encoder_score": -9.458488464355469,
+        "dataset": "QASPER",
+        "end_char": 3569,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "f995b9e1bd856843ecae9bd38a2892de",
+        "passage_rank": 6,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "ed4adf7b137c614945a3ded2f4211d6e",
+        "sentence_text": "Compared to other text GANs with RL training techniques, our framework acquires samples from the stationary distribution rather than the generator's distribution, and uses RAML training paradigm to optimize the generator instead of policy gradient.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3321
+      },
+      {
+        "cross_encoder_score": -10.573809623718262,
+        "dataset": "QASPER",
+        "end_char": 3610,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "f995b9e1bd856843ecae9bd38a2892de",
+        "passage_rank": 6,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "35853d1ff6e6339b8b5c0e9c1ec29e0a",
+        "sentence_text": "Our contributions are mainly as follows:",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3570
+      },
+      {
+        "cross_encoder_score": -11.272961616516113,
+        "dataset": "QASPER",
+        "end_char": 3739,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "f995b9e1bd856843ecae9bd38a2892de",
+        "passage_rank": 6,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "75ddb57d698f0437c4b4ea455cb3b517",
+        "sentence_text": "Related Work\tRecently, text generation has been widely studied with neural models trained with maximum likelihood estimation  .",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3612
+      },
+      {
+        "cross_encoder_score": -10.781744003295898,
+        "dataset": "QASPER",
+        "end_char": 3788,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "f995b9e1bd856843ecae9bd38a2892de",
+        "passage_rank": 6,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "4173b4008fe0822c52bf68181a9894ea",
+        "sentence_text": "However, MLE tends to generate universal text  .",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3740
+      },
+      {
+        "cross_encoder_score": -11.09217643737793,
+        "dataset": "QASPER",
+        "end_char": 4020,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "f995b9e1bd856843ecae9bd38a2892de",
+        "passage_rank": 6,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "c2fb165090a185e3c3201a415f72aa39",
+        "sentence_text": "Various methods have been proposed to enhance the generation quality by refining the objective function  ,  or modifying the generation distribution with external information like topic  , sentence type  , emotion  and knowledge  .",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3789
+      },
+      {
+        "cross_encoder_score": -11.206664085388184,
+        "dataset": "QASPER",
+        "end_char": 4089,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "f995b9e1bd856843ecae9bd38a2892de",
+        "passage_rank": 6,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "b81f84b14e16396d1ebdb53fed5dac1d",
+        "sentence_text": "As mentioned above, MLE suffers from the exposure bias problem  ,  .",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 4021
+      },
+      {
+        "cross_encoder_score": -11.19861125946045,
+        "dataset": "QASPER",
+        "end_char": 4208,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "f995b9e1bd856843ecae9bd38a2892de",
+        "passage_rank": 6,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "5224de47745b06deb36d5e69a7cc1ec2",
+        "sentence_text": "Thus, reinforcement learning has been introduced to text generation tasks such as policy gradient  and actor-critic  .",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          2,
+          9,
+          0
+        ],
+        "source_position": 4090
+      },
+      {
+        "cross_encoder_score": -9.534754753112793,
+        "dataset": "QASPER",
+        "end_char": 4218,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "f995b9e1bd856843ecae9bd38a2892de",
+        "passage_rank": 6,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "61d9279c4ff5a32a1fb131ba994dd468",
+        "sentence_text": "proposed",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          2,
+          10,
+          0
+        ],
+        "source_position": 4210
+      },
+      {
+        "cross_encoder_score": -9.186542510986328,
+        "dataset": "QASPER",
+        "end_char": 4414,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "9e80e04c8ff416bd2094e861781627f2",
+        "passage_rank": 2,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "a8de2973cfeafc8c9cd4be9dd316d6c9",
+        "sentence_text": "an efficient and stable approach called Reward Augmented Maximum Likelihood (RAML), which connects the log-likelihood and expected rewards to incorporate MLE training objective into RL framework.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 4219
+      },
+      {
+        "cross_encoder_score": -1.0004619359970093,
+        "dataset": "QASPER",
+        "end_char": 4619,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "9e80e04c8ff416bd2094e861781627f2",
+        "passage_rank": 2,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "d0d0c76a5975f7ad57fa478984203df5",
+        "sentence_text": "Since some text generation tasks have no explicit metrics to be directly optimized, adversarial training has been applied to generating discrete text samples with a discriminator to learn a proper reward.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 4415
+      },
+      {
+        "cross_encoder_score": 2.4759538173675537,
+        "dataset": "QASPER",
+        "end_char": 4800,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "9e80e04c8ff416bd2094e861781627f2",
+        "passage_rank": 2,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "ed24c561b6f742962a2b8c4f2b9543dd",
+        "sentence_text": "For instance, SeqGAN  devised a discriminator to distinguish the real data and generated samples, and a generator to maximize the reward from the discriminator via policy gradient.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4620
+      },
+      {
+        "cross_encoder_score": -1.638641357421875,
+        "dataset": "QASPER",
+        "end_char": 4889,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "9e80e04c8ff416bd2094e861781627f2",
+        "passage_rank": 2,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "84d5b012a337842f42a74cd3aa041a41",
+        "sentence_text": "Other variants of GANs have been proposed to improve the generator or the discriminator.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4801
+      },
+      {
+        "cross_encoder_score": -7.9345173835754395,
+        "dataset": "QASPER",
+        "end_char": 5044,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "9e80e04c8ff416bd2094e861781627f2",
+        "passage_rank": 2,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "1fca73d952f4c63f8956867f8862dbf8",
+        "sentence_text": "To improve the generator, MaliGAN  developed a normalized maximum likelihood optimization target for the generator to stably model the discrete sequences.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 4890
+      },
+      {
+        "cross_encoder_score": 3.95528507232666,
+        "dataset": "QASPER",
+        "end_char": 5188,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "9e80e04c8ff416bd2094e861781627f2",
+        "passage_rank": 2,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "da819deeddcd1cc407da04973918dc4d",
+        "sentence_text": "LeakGAN  guided the generator with reward signals leaked from the discriminator at all generation steps to deal with long text generation task.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 5045
+      },
+      {
+        "cross_encoder_score": -9.032513618469238,
+        "dataset": "QASPER",
+        "end_char": 5378,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "9e80e04c8ff416bd2094e861781627f2",
+        "passage_rank": 2,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "e3d5cd1bd59ab6f521cef443c7a6caec",
+        "sentence_text": "MaskGAN  employed an actor-critic architecture to make the generator fill in missing text conditioned on the surrounding context, which is expected to mitigate the problem of mode collapse.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 5189
+      },
+      {
+        "cross_encoder_score": -5.402123928070068,
+        "dataset": "QASPER",
+        "end_char": 5547,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "9e80e04c8ff416bd2094e861781627f2",
+        "passage_rank": 2,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "024cc769652d166ff5e886416ffaa0cd",
+        "sentence_text": "As for the discriminator, RankGAN  replaced traditional discriminator with a ranker to learn the relative ranking information between the real texts and generated ones.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 5379
+      },
+      {
+        "cross_encoder_score": 3.5121922492980957,
+        "dataset": "QASPER",
+        "end_char": 5694,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "9e80e04c8ff416bd2094e861781627f2",
+        "passage_rank": 2,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "99c377b5ba8bd7b3c861bf73223ebfa3",
+        "sentence_text": "Inverse reinforcement learning  used a trainable reward approximator as the discriminator to provide dense reward signals at each generation step.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          3,
+          8,
+          0
+        ],
+        "source_position": 5548
+      },
+      {
+        "cross_encoder_score": -1.7205730676651,
+        "dataset": "QASPER",
+        "end_char": 5835,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "e36c85dcaa4fde0f0154491f9ebfc7a3",
+        "passage_rank": 7,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "029e314d53050dad0c326e3160dad867",
+        "sentence_text": "DPGAN  introduced a language model based discriminator and regarded cross-entropy as rewards to promote the diversity of generation results.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "source_position": 5695
+      },
+      {
+        "cross_encoder_score": -2.618983030319214,
+        "dataset": "QASPER",
+        "end_char": 6027,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "e36c85dcaa4fde0f0154491f9ebfc7a3",
+        "passage_rank": 7,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "876a2233a3bcbd990330f9548747549c",
+        "sentence_text": "The most similar works to our model are RAML  and MaliGAN  : 1) Compared with RAML, our model adds a discriminator to learn the reward signals instead of choosing existing metrics as rewards.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "source_position": 5836
+      },
+      {
+        "cross_encoder_score": -10.980618476867676,
+        "dataset": "QASPER",
+        "end_char": 6153,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "e36c85dcaa4fde0f0154491f9ebfc7a3",
+        "passage_rank": 7,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "f0c50c03c89dbc1ad5240112899c493f",
+        "sentence_text": "We believe that our model can adapt to various text generation tasks, particularly those without explicit evaluation metrics.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "source_position": 6028
+      },
+      {
+        "cross_encoder_score": -8.792051315307617,
+        "dataset": "QASPER",
+        "end_char": 6338,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "e36c85dcaa4fde0f0154491f9ebfc7a3",
+        "passage_rank": 7,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "a18de260d69acc435cb94749d804cd54",
+        "sentence_text": "2) Unlike MaliGAN, we acquire samples from a fixed distribution near the real data rather than the generator's distribution, which is expected to make the training process more stable.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "source_position": 6154
+      },
+      {
+        "cross_encoder_score": -11.339422225952148,
+        "dataset": "QASPER",
+        "end_char": 6563,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "e36c85dcaa4fde0f0154491f9ebfc7a3",
+        "passage_rank": 7,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "54055b6acfa48d3c8b7b99c759edc525",
+        "sentence_text": "Task Definition and Model Overview\tText generation can be formulated as follows: given the real data distribution INLINEFORM0 , the task is to train a generative model INLINEFORM1 where INLINEFORM2 can fit INLINEFORM3 well.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "source_position": 6340
+      },
+      {
+        "cross_encoder_score": -11.334833145141602,
+        "dataset": "QASPER",
+        "end_char": 6659,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "e36c85dcaa4fde0f0154491f9ebfc7a3",
+        "passage_rank": 7,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "04d03ce5ab0856c723116173f74269f4",
+        "sentence_text": "In this formulation, INLINEFORM4 and INLINEFORM5 denotes a word in the vocabulary INLINEFORM6 .",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          4,
+          5,
+          0
+        ],
+        "source_position": 6564
+      },
+      {
+        "cross_encoder_score": -11.169373512268066,
+        "dataset": "QASPER",
+        "end_char": 6713,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "e36c85dcaa4fde0f0154491f9ebfc7a3",
+        "passage_rank": 7,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "f28b1f3ab668fc869d00939c42569143",
+        "sentence_text": "Figure FIGREF3 shows the overview of our model ARAML.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          4,
+          6,
+          0
+        ],
+        "source_position": 6660
+      },
+      {
+        "cross_encoder_score": -1.4747651815414429,
+        "dataset": "QASPER",
+        "end_char": 6867,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "e36c85dcaa4fde0f0154491f9ebfc7a3",
+        "passage_rank": 7,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "c5e0dc2fd2deb133fa99224e609d554c",
+        "sentence_text": "This adversarial training framework consists of two phases: 1) The discriminator is trained to assign higher rewards to real data than to generated data.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          4,
+          7,
+          0
+        ],
+        "source_position": 6714
+      },
+      {
+        "cross_encoder_score": -3.5718305110931396,
+        "dataset": "QASPER",
+        "end_char": 6996,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "e36c85dcaa4fde0f0154491f9ebfc7a3",
+        "passage_rank": 7,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "b9a5f05806d7cfb6d0912d626ca979e7",
+        "sentence_text": "2) The generator is trained on the samples acquired from a stationary distribution with reward augmented MLE training objective.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          4,
+          8,
+          0
+        ],
+        "source_position": 6868
+      },
+      {
+        "cross_encoder_score": -10.639663696289062,
+        "dataset": "QASPER",
+        "end_char": 7019,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "e36c85dcaa4fde0f0154491f9ebfc7a3",
+        "passage_rank": 7,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "87f8d68336adf21cc635e00e037ec067",
+        "sentence_text": "This training paradigm",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          4,
+          9,
+          0
+        ],
+        "source_position": 6997
+      },
+      {
+        "cross_encoder_score": -7.685611724853516,
+        "dataset": "QASPER",
+        "end_char": 7153,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "35f309ab5051ac518adfe95b84849adb",
+        "passage_rank": 3,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "0babe3b44baa7c9869f66ca8a8dcb8fd",
+        "sentence_text": "of the generator indeed constrains the search space with the MLE training objective, which alleviates the issue of unstable training.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 7020
+      },
+      {
+        "cross_encoder_score": -4.383853435516357,
+        "dataset": "QASPER",
+        "end_char": 7264,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "35f309ab5051ac518adfe95b84849adb",
+        "passage_rank": 3,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "0e0a91dca414f7914da14711cf13b662",
+        "sentence_text": "Discriminator\tThe discriminator INLINEFORM0 aims to distinguish real data and generated data like other GANs.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 7155
+      },
+      {
+        "cross_encoder_score": -1.7508987188339233,
+        "dataset": "QASPER",
+        "end_char": 7544,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "35f309ab5051ac518adfe95b84849adb",
+        "passage_rank": 3,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "1c1689ea4fcf3ae8c4551dea5c02127a",
+        "sentence_text": "Inspired by Least-Square GAN  , we devise the loss function as follows: DISPLAYFORM0  This loss function forces the discriminator to assign higher rewards to real data than to generated data, so the discriminator can learn to provide more proper rewards as the training proceeds.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 7265
+      },
+      {
+        "cross_encoder_score": 1.3255964517593384,
+        "dataset": "QASPER",
+        "end_char": 7875,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "35f309ab5051ac518adfe95b84849adb",
+        "passage_rank": 3,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "99e73145d6861281210f3ddc5b6639c2",
+        "sentence_text": "Generator\tThe training objective of our generator INLINEFORM0 is derived from the objective of other discrete GANs with RL training method: DISPLAYFORM0   where INLINEFORM0 denotes the rewards from the discriminator INLINEFORM1 and the entropy regularized term INLINEFORM2 encourages INLINEFORM3 to generate diverse text samples.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 7546
+      },
+      {
+        "cross_encoder_score": -11.272468566894531,
+        "dataset": "QASPER",
+        "end_char": 7948,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "35f309ab5051ac518adfe95b84849adb",
+        "passage_rank": 3,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "cfc278dbba5e4b7044fa58f1468a1eff",
+        "sentence_text": "INLINEFORM4 is a temperature hyper-parameter to balance these two terms.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 7876
+      },
+      {
+        "cross_encoder_score": -11.298077583312988,
+        "dataset": "QASPER",
+        "end_char": 8087,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "35f309ab5051ac518adfe95b84849adb",
+        "passage_rank": 3,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "8db95b3b4bc56b54d8ea276ca242ce6b",
+        "sentence_text": "As mentioned above, discrete GANs suffer from the instability issue due to policy gradient, thus they are consequently difficult to train.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 7949
+      },
+      {
+        "cross_encoder_score": -11.376911163330078,
+        "dataset": "QASPER",
+        "end_char": 8237,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "35f309ab5051ac518adfe95b84849adb",
+        "passage_rank": 3,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "473e179928a2886faca94df6f90c3b7b",
+        "sentence_text": "Inspired by RAML  , we introduce an exponential payoff distribution INLINEFORM0 to connect RL loss with RAML loss: DISPLAYFORM0   where INLINEFORM0 .",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 8088
+      },
+      {
+        "cross_encoder_score": -11.325478553771973,
+        "dataset": "QASPER",
+        "end_char": 8315,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "35f309ab5051ac518adfe95b84849adb",
+        "passage_rank": 3,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "7a43b804ea11a82f618952265e32bda1",
+        "sentence_text": "Thus, we can rewrite INLINEFORM1 with INLINEFORM2 and INLINEFORM3 as follows:",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 8238
+      },
+      {
+        "cross_encoder_score": -9.986848831176758,
+        "dataset": "QASPER",
+        "end_char": 8519,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "c0a49ce311311fcce0b539140c9be4ef",
+        "passage_rank": 1,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "4123c3739d7c77e9fd0642c1c5c7a1ca",
+        "sentence_text": "DISPLAYFORM0   Following RAML, we remove the constant term and optimize the KL divergence in the opposite direction: DISPLAYFORM0   where INLINEFORM0 is a constant in the training phase of the generator.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 8316
+      },
+      {
+        "cross_encoder_score": -11.212896347045898,
+        "dataset": "QASPER",
+        "end_char": 8674,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "c0a49ce311311fcce0b539140c9be4ef",
+        "passage_rank": 1,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "ff710facce05232697aa7a53fe0300a6",
+        "sentence_text": "It has been proved that INLINEFORM1 and INLINEFORM2 are equivalent up to their first order Taylor approximations, and they have the same global optimum  .",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 8520
+      },
+      {
+        "cross_encoder_score": -8.162918090820312,
+        "dataset": "QASPER",
+        "end_char": 8877,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "c0a49ce311311fcce0b539140c9be4ef",
+        "passage_rank": 1,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "568331952d8201e0800ab8600c74a9d4",
+        "sentence_text": "INLINEFORM3 can be trained in a MLE-like fashion but sampling from the distribution INLINEFORM4 is intractable in the adversarial setting, because INLINEFORM5 varies with the discriminator INLINEFORM6 .",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 8675
+      },
+      {
+        "cross_encoder_score": -11.332894325256348,
+        "dataset": "QASPER",
+        "end_char": 9083,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "c0a49ce311311fcce0b539140c9be4ef",
+        "passage_rank": 1,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "62e2332e7d7908767e0be1d69f963313",
+        "sentence_text": "Thus, we introduce importance sampling to separate sampling process from INLINEFORM7 and obtain the final loss function: DISPLAYFORM0   where INLINEFORM0 denotes a stationary distribution and INLINEFORM1 .",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 8878
+      },
+      {
+        "cross_encoder_score": -3.940394163131714,
+        "dataset": "QASPER",
+        "end_char": 9289,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "c0a49ce311311fcce0b539140c9be4ef",
+        "passage_rank": 1,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "6679cef0d41e160f05ea99aa1f5d76e0",
+        "sentence_text": "To optimize this loss function, we first construct the fixed distribution INLINEFORM2 to get samples, and devise the proper reward function INLINEFORM3 to train the generator in a stable and effective way.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 9084
+      },
+      {
+        "cross_encoder_score": -11.31009578704834,
+        "dataset": "QASPER",
+        "end_char": 9505,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "c0a49ce311311fcce0b539140c9be4ef",
+        "passage_rank": 1,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "e6356a1d5b49661e28e7691d3ad64660",
+        "sentence_text": "We construct the distribution INLINEFORM0 based on INLINEFORM1 : DISPLAYFORM0   In this way, INLINEFORM0 can be designed to guarantee that INLINEFORM1 is near INLINEFORM2 , leading to a more stable training process.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 9290
+      },
+      {
+        "cross_encoder_score": -11.280306816101074,
+        "dataset": "QASPER",
+        "end_char": 9576,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "c0a49ce311311fcce0b539140c9be4ef",
+        "passage_rank": 1,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "d288d1fe966339a859436c4d91a3fa67",
+        "sentence_text": "To obtain a new sample INLINEFORM3 from a real data sample INLINEFORM4",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 9506
+      },
+      {
+        "cross_encoder_score": -10.515095710754395,
+        "dataset": "QASPER",
+        "end_char": 12184,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "1985b554367b04543df2b892bda41746",
+        "passage_rank": 4,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "7de04df6a35036f05cf47c5a03f29c08",
+        "sentence_text": "strategies in the experiment.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 12155
+      },
+      {
+        "cross_encoder_score": 2.9945645332336426,
+        "dataset": "QASPER",
+        "end_char": 12493,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "1985b554367b04543df2b892bda41746",
+        "passage_rank": 4,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "ab3269d4ece71e4738bf8318da66f809",
+        "sentence_text": "We devise the reward function INLINEFORM0 according to the discriminator's output INLINEFORM1 and the stationary distribution INLINEFORM2 : DISPLAYFORM0   Intuitively, this reward function encourages the generator to generate sentences with large sampling probability and high rewards from the discriminator.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 12185
+      },
+      {
+        "cross_encoder_score": -10.378961563110352,
+        "dataset": "QASPER",
+        "end_char": 12671,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "1985b554367b04543df2b892bda41746",
+        "passage_rank": 4,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "a276abd2f6596a5e710cd4ceb563603e",
+        "sentence_text": "Thus, the weight of samples INLINEFORM0 can be calculated as follows: DISPLAYFORM0   So far, we can successfully optimize the generator's loss INLINEFORM0 via Equation EQREF12 .",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 12494
+      },
+      {
+        "cross_encoder_score": 2.292001724243164,
+        "dataset": "QASPER",
+        "end_char": 12912,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "1985b554367b04543df2b892bda41746",
+        "passage_rank": 4,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "8cc0d200e27f1f005c9c9b98b5b636d8",
+        "sentence_text": "This training paradigm makes our generator avoid possible variances caused by policy gradient and get more stable reward signals from the discriminator, because our generator is restricted to explore the training samples near the real data.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 12672
+      },
+      {
+        "cross_encoder_score": 2.3550145626068115,
+        "dataset": "QASPER",
+        "end_char": 13383,
+        "pair_tokens_before_truncation": 154,
+        "pair_truncated": false,
+        "passage_id": "1985b554367b04543df2b892bda41746",
+        "passage_rank": 4,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "9a23ad0079012791274c012b176fc28c",
+        "sentence_text": "[htb] Adversarial Reward Augmented Maximum Likelihood [1]  Total adversarial training iterations: INLINEFORM0  Steps of training generator: INLINEFORM0  Steps of training discriminator: INLINEFORM0  Pre-train the generator INLINEFORM0 with MLE loss Generate samples from INLINEFORM1 Pre-train the discriminator INLINEFORM2 via Eq.( EQREF6 ) Construct INLINEFORM3 via Eq.( EQREF14 ) - Eq.( EQREF19 ) each INLINEFORM4 each INLINEFORM5 Update INLINEFORM6 via Eq.( EQREF12 )",
+        "sentence_token_cost": 118,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 12913
+      },
+      {
+        "cross_encoder_score": -5.632742881774902,
+        "dataset": "QASPER",
+        "end_char": 14728,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "582eaaf8c6f0f802924423432296e9f6",
+        "passage_rank": 8,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "153f78293722b7e9503752ae629e9b71",
+        "sentence_text": "rewards.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 14720
+      },
+      {
+        "cross_encoder_score": -8.485099792480469,
+        "dataset": "QASPER",
+        "end_char": 14820,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "582eaaf8c6f0f802924423432296e9f6",
+        "passage_rank": 8,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "dd1f65634faae4cbb6f0a40d88068780",
+        "sentence_text": "Our model is also similar to MaliGAN, which gets samples from the generator's distribution.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 14729
+      },
+      {
+        "cross_encoder_score": -3.4606845378875732,
+        "dataset": "QASPER",
+        "end_char": 14982,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "582eaaf8c6f0f802924423432296e9f6",
+        "passage_rank": 8,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "cc6fdfefb0f6ba0e0f51a27a508aa725",
+        "sentence_text": "In MaliGAN's training objective, INLINEFORM0 also indicates the generator's distribution but it's used in the sampling phase and fixed at each optimization step.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 14821
+      },
+      {
+        "cross_encoder_score": -11.089226722717285,
+        "dataset": "QASPER",
+        "end_char": 15018,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "582eaaf8c6f0f802924423432296e9f6",
+        "passage_rank": 8,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "58c60d5856ccbe565e542763be5606fd",
+        "sentence_text": "The weight of samples INLINEFORM1 .",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 14983
+      },
+      {
+        "cross_encoder_score": -3.662761926651001,
+        "dataset": "QASPER",
+        "end_char": 15246,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "582eaaf8c6f0f802924423432296e9f6",
+        "passage_rank": 8,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "1aa5e421bdd004324b8a3cb9dae60b65",
+        "sentence_text": "Different from our model, MaliGAN acquires samples from the generator's distribution INLINEFORM2 , which usually brings samples with low rewards even with careful pre-training for the generator, leading to training instability.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 15019
+      },
+      {
+        "cross_encoder_score": -11.28497314453125,
+        "dataset": "QASPER",
+        "end_char": 15385,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "582eaaf8c6f0f802924423432296e9f6",
+        "passage_rank": 8,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "fe585dc3c852f6fae57e2aad5fc404bd",
+        "sentence_text": "Instead, our framework gets samples from a stationary distribution INLINEFORM3 around real data, thus our training process is more stable.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 15247
+      },
+      {
+        "cross_encoder_score": -11.412080764770508,
+        "dataset": "QASPER",
+        "end_char": 15531,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "582eaaf8c6f0f802924423432296e9f6",
+        "passage_rank": 8,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "cdcb5522583218ca3ddd0fac2757beb2",
+        "sentence_text": "Datasets\tWe evaluated ARAML on three datasets: COCO image caption dataset  , EMNLP2017 WMT dataset and WeiboDial single-turn dialogue dataset  .",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 15387
+      },
+      {
+        "cross_encoder_score": -11.340887069702148,
+        "dataset": "QASPER",
+        "end_char": 15710,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "582eaaf8c6f0f802924423432296e9f6",
+        "passage_rank": 8,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "2bd7fd554f17a0c308a7061e87dd96c6",
+        "sentence_text": "COCO and EMNLP2017 WMT are the common benchmarks with no input to evaluate the performance of discrete GANs, and we followed the existing works to preprocess these datasets  ,  .",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 15532
+      },
+      {
+        "cross_encoder_score": -11.271417617797852,
+        "dataset": "QASPER",
+        "end_char": 15813,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "582eaaf8c6f0f802924423432296e9f6",
+        "passage_rank": 8,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "a822ca85655a83fed792266a04ae02fc",
+        "sentence_text": "WeiboDial, as a dialogue dataset, was applied to test the performance of our model with input trigger.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          11,
+          8,
+          0
+        ],
+        "source_position": 15711
+      },
+      {
+        "cross_encoder_score": -11.266658782958984,
+        "dataset": "QASPER",
+        "end_char": 15940,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "582eaaf8c6f0f802924423432296e9f6",
+        "passage_rank": 8,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "e08c967c07f7081a63397f4185c098d2",
+        "sentence_text": "We simply removed post-response pairs containing low-frequency words and randomly selected a subset for our training/test set.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          11,
+          9,
+          0
+        ],
+        "source_position": 15814
+      },
+      {
+        "cross_encoder_score": -10.946608543395996,
+        "dataset": "QASPER",
+        "end_char": 15973,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "582eaaf8c6f0f802924423432296e9f6",
+        "passage_rank": 8,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "c567407aaf022d759765a6f5e8bdbd63",
+        "sentence_text": "The statistics of three datasets",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          11,
+          10,
+          0
+        ],
+        "source_position": 15941
+      },
+      {
+        "cross_encoder_score": -10.613299369812012,
+        "dataset": "QASPER",
+        "end_char": 16007,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "a2a00531bfb11d3ffdf0d34c72b8be42",
+        "passage_rank": 9,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "9336474aa2d992b38229b1a536745b06",
+        "sentence_text": "are presented in Table TABREF28 .",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 15974
+      },
+      {
+        "cross_encoder_score": -11.145153999328613,
+        "dataset": "QASPER",
+        "end_char": 16072,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "a2a00531bfb11d3ffdf0d34c72b8be42",
+        "passage_rank": 9,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "f43cfe6ac2d03fde74c20eadbfb21110",
+        "sentence_text": "Baselines\tWe compared our model with MLE, RL and GAN baselines.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 16009
+      },
+      {
+        "cross_encoder_score": -11.371519088745117,
+        "dataset": "QASPER",
+        "end_char": 16252,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "a2a00531bfb11d3ffdf0d34c72b8be42",
+        "passage_rank": 9,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "2e5e155458e638d35716ca8db24e2296",
+        "sentence_text": "Since COCO and EMNLP2017 WMT don't have input while WeiboDial regards posts as input, we chose the following baselines respectively: MLE: a RNN model trained with MLE objective  .",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 16073
+      },
+      {
+        "cross_encoder_score": -11.354802131652832,
+        "dataset": "QASPER",
+        "end_char": 16312,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "a2a00531bfb11d3ffdf0d34c72b8be42",
+        "passage_rank": 9,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "22a0c9ef88a72d369a64ca9e5cc0ae4e",
+        "sentence_text": "Its extension, Seq2Seq, can work on the dialogue dataset  .",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 16253
+      },
+      {
+        "cross_encoder_score": 0.9863426685333252,
+        "dataset": "QASPER",
+        "end_char": 16440,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "a2a00531bfb11d3ffdf0d34c72b8be42",
+        "passage_rank": 9,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "9351bd62595809c8d880aad75039682c",
+        "sentence_text": "SeqGAN: The first text GAN model that updates the generator with policy gradient based on the rewards from the discriminator  .",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 16313
+      },
+      {
+        "cross_encoder_score": 2.019205093383789,
+        "dataset": "QASPER",
+        "end_char": 16565,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "a2a00531bfb11d3ffdf0d34c72b8be42",
+        "passage_rank": 9,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "5c53132e9befc72ab10ac920f8d10830",
+        "sentence_text": "LeakGAN: A variant of SeqGAN that provides rewards based on the leaked information of the discriminator for the generator  .",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 16441
+      },
+      {
+        "cross_encoder_score": -9.451715469360352,
+        "dataset": "QASPER",
+        "end_char": 16673,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "a2a00531bfb11d3ffdf0d34c72b8be42",
+        "passage_rank": 9,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "5ba586a5383befb28de681d57658f88c",
+        "sentence_text": "MaliGAN: A variant of SeqGAN that optimizes the generator with a normalized maximum likelihood objective  .",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 16566
+      },
+      {
+        "cross_encoder_score": -2.637535810470581,
+        "dataset": "QASPER",
+        "end_char": 16803,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "a2a00531bfb11d3ffdf0d34c72b8be42",
+        "passage_rank": 9,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "b81a406246321cb0a45528b5e26307c7",
+        "sentence_text": "IRL: This inverse reinforcement learning method replaces the discriminator with a reward approximator to provide dense rewards  .",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          12,
+          7,
+          0
+        ],
+        "source_position": 16674
+      },
+      {
+        "cross_encoder_score": -10.240975379943848,
+        "dataset": "QASPER",
+        "end_char": 16913,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "a2a00531bfb11d3ffdf0d34c72b8be42",
+        "passage_rank": 9,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "1cc05b334799911939e87aac4acc9303",
+        "sentence_text": "RAML: A RL approach to incorporate MLE objective into RL training framework, which regards BLEU as rewards  .",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          12,
+          8,
+          0
+        ],
+        "source_position": 16804
+      },
+      {
+        "cross_encoder_score": -11.264930725097656,
+        "dataset": "QASPER",
+        "end_char": 17038,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "a2a00531bfb11d3ffdf0d34c72b8be42",
+        "passage_rank": 9,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "88964ee400b9ecd64b5acfac20e54c2f",
+        "sentence_text": "DialogGAN: An extension of SeqGAN tuned to dialogue generation task with MLE objective added to the adversarial objective  .",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          12,
+          9,
+          0
+        ],
+        "source_position": 16914
+      },
+      {
+        "cross_encoder_score": -3.2031593322753906,
+        "dataset": "QASPER",
+        "end_char": 17153,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "a2a00531bfb11d3ffdf0d34c72b8be42",
+        "passage_rank": 9,
+        "query_id": "c262d3d1c5a8b6fef6b594d5eee86bc2b09e3baf",
+        "sentence_id": "65e6634d0a14849f98201e27b4b11e02",
+        "sentence_text": "DPGAN: A variant of DialogGAN which uses a language model based discriminator and regards cross-entropy as rewards",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          12,
+          10,
+          0
+        ],
+        "source_position": 17039
+      }
+    ],
+    "scoring_seconds": 0.6060901801101863,
+    "source_fingerprint": "656f6131b7264c80e3b9efa5bfa05da5c635dfbd68ff93a34c4ad56814fa7d46"
+  }
+}

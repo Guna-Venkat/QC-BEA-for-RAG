@@ -1,0 +1,49 @@
+{
+  "clearly_degraded_cells": [
+    [
+      "QASPER",
+      256
+    ],
+    [
+      "QASPER",
+      1024
+    ]
+  ],
+  "conditions": {
+    "different_from_fixed": true,
+    "escalation_active": true,
+    "meaningful_dimension_present": true,
+    "not_clearly_degraded_in_most_cells": true,
+    "not_degenerate_empty": true
+  },
+  "decision": "PROMISING",
+  "different_context_fraction": 1.0,
+  "empty_cell_fraction": 0.0,
+  "identity_hash": "7b6623f9bbc2ba1e0800d21485ad61b373f6d1f1e49beb401b53e8ae53185d7a",
+  "interpretation": "Global preregistered exploratory gate; no dataset-specific promotion, no proof of noninferiority, no final-method replacement",
+  "label": "POST_W12_EXPLORATORY",
+  "meaningful_dimensions": [
+    {
+      "budget": 1024,
+      "comparator": "FIXED_SENTENCE",
+      "coverage_change": -0.015372023511552091,
+      "dataset": "SciFact",
+      "dimension": "efficiency/coverage/redundancy",
+      "note": "quality point estimates competitive; not proven statistical noninferiority",
+      "redundancy_reduction": 0.08405074373557164,
+      "token_reduction": 0.31809542470853336
+    },
+    {
+      "budget": 1024,
+      "comparator": "QBGF_FULL",
+      "coverage_change": -0.009585728308041719,
+      "dataset": "SciFact",
+      "dimension": "efficiency/coverage/redundancy",
+      "note": "quality point estimates competitive; not proven statistical noninferiority",
+      "redundancy_reduction": 0.04009281454090119,
+      "token_reduction": 0.31677006439453437
+    }
+  ],
+  "rows_hash": "ed7eb498e1d632ead6180851f1868c41f56fdec605bd18ed5e5841f482b94c39",
+  "upgrade_cell_fraction": 0.11333333333333333
+}

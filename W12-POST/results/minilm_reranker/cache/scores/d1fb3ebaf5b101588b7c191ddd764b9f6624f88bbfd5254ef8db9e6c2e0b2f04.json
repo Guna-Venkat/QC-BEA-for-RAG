@@ -1,0 +1,551 @@
+{
+  "checksum": "1df8b9e29cac4faf394fcd43bfdfc8e764d0d658565cd4a0d82c008292778d09",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5ab2f88755429976abd1bbe0"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 26,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "7d556022e6fd621849a69d5cfa00dea13fa0d4dd67009eb83156a0e20839e7f1",
+    "query_id": "5ab2f88755429976abd1bbe0",
+    "scores": [
+      {
+        "cross_encoder_score": -3.093888282775879,
+        "dataset": "HotpotQA",
+        "end_char": 9,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "dce80b0aeac8e2ee55dea07cffde4b91",
+        "passage_rank": 1,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "ca01d064c150512e30372b1242fb1456",
+        "sentence_text": "Morrissey",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.5105390548706055,
+        "dataset": "HotpotQA",
+        "end_char": 134,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "dce80b0aeac8e2ee55dea07cffde4b91",
+        "passage_rank": 1,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "798733c0d8dc423b48562ea8015fd63a",
+        "sentence_text": "Steven Patrick Morrissey (born 22 May 1959), professionally known as Morrissey, is an English singer, songwriter and author.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 10
+      },
+      {
+        "cross_encoder_score": 0.17742788791656494,
+        "dataset": "HotpotQA",
+        "end_char": 247,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "dce80b0aeac8e2ee55dea07cffde4b91",
+        "passage_rank": 1,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "014d711d447c6ff04b2e7c26093834a6",
+        "sentence_text": " He rose to prominence as the lead singer of the indie rock band the Smiths, which was active from 1982 to 1987.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 135
+      },
+      {
+        "cross_encoder_score": -3.797701835632324,
+        "dataset": "HotpotQA",
+        "end_char": 354,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "dce80b0aeac8e2ee55dea07cffde4b91",
+        "passage_rank": 1,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "06b1ec510cd0b67ac8e619d067d12d0c",
+        "sentence_text": " Since then, Morrissey has had a solo career, making the top ten of the UK Singles Chart on ten occasions.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 248
+      },
+      {
+        "cross_encoder_score": -8.491103172302246,
+        "dataset": "HotpotQA",
+        "end_char": 11,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "8a58ffb414b78878c1c64f88b39c0706",
+        "passage_rank": 6,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "0a72ac9192130d4800f09c2dbd74f254",
+        "sentence_text": "Lovelyville",
+        "sentence_token_cost": 3,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.137212872505188,
+        "dataset": "HotpotQA",
+        "end_char": 144,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "8a58ffb414b78878c1c64f88b39c0706",
+        "passage_rank": 6,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "ad802d34945842b7f3565834f012a434",
+        "sentence_text": "Lovelyville is the third album by Thinking Fellers Union Local 282, released December 12, 1991 on LP and CD through Matador Records.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 12
+      },
+      {
+        "cross_encoder_score": -10.543898582458496,
+        "dataset": "HotpotQA",
+        "end_char": 205,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "8a58ffb414b78878c1c64f88b39c0706",
+        "passage_rank": 6,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "2fe098701d524b1c1e0ad4a8a2e20b4c",
+        "sentence_text": " The CD contains bonus tracks entitled \"The Crowded Diaper.\"",
+        "sentence_token_cost": 13,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 145
+      },
+      {
+        "cross_encoder_score": -9.53906536102295,
+        "dataset": "HotpotQA",
+        "end_char": 20,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "cf8c44502004011425bd42cbb81505b9",
+        "passage_rank": 8,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "41f4456d412714290e11b94d9aebc15d",
+        "sentence_text": "Where's Officer Tuba",
+        "sentence_token_cost": 5,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.0264289379119873,
+        "dataset": "HotpotQA",
+        "end_char": 114,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "cf8c44502004011425bd42cbb81505b9",
+        "passage_rank": 8,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "877c6ac1c79209cc3b18e97f8303f46e",
+        "sentence_text": "Where's Officer Tuba is an EP by the band Thinking Fellers Union Local 282, released in 1993.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 21
+      },
+      {
+        "cross_encoder_score": -9.747272491455078,
+        "dataset": "HotpotQA",
+        "end_char": 19,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "bb1804a92719465222688820a862fbe3",
+        "passage_rank": 10,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "0205e4cbca6dd4fc664b588cdc7dfd12",
+        "sentence_text": "The Funeral Pudding",
+        "sentence_token_cost": 5,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.281673789024353,
+        "dataset": "HotpotQA",
+        "end_char": 142,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "bb1804a92719465222688820a862fbe3",
+        "passage_rank": 10,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "295baa8315e8320908627c6e5230fe63",
+        "sentence_text": "The Funeral Pudding is an EP by the band Thinking Fellers Union Local 282, released in February 1994 through Ajax Records.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 20
+      },
+      {
+        "cross_encoder_score": -9.587481498718262,
+        "dataset": "HotpotQA",
+        "end_char": 24,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "445793c46678cfabf15069b363a7413f",
+        "passage_rank": 9,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "158880edeb275deccaf9011b3855ffda",
+        "sentence_text": "The Strapping Fieldhands",
+        "sentence_token_cost": 5,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.68170166015625,
+        "dataset": "HotpotQA",
+        "end_char": 181,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "445793c46678cfabf15069b363a7413f",
+        "passage_rank": 9,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "8aeb7c3660c5a33fa6939ec819530771",
+        "sentence_text": "The Strapping Fieldhands are an American indie rock band based in Pennsylvania, and are associated with the Siltbreeze label and American lo-fi psych scene.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 25
+      },
+      {
+        "cross_encoder_score": -10.157687187194824,
+        "dataset": "HotpotQA",
+        "end_char": 257,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "445793c46678cfabf15069b363a7413f",
+        "passage_rank": 9,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "b2a44b94c8d1222d55ab1c9af37a6c36",
+        "sentence_text": " The band's first live incarnation was a three-piece opening for The Frogs.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 182
+      },
+      {
+        "cross_encoder_score": 1.6003916263580322,
+        "dataset": "HotpotQA",
+        "end_char": 479,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "445793c46678cfabf15069b363a7413f",
+        "passage_rank": 9,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "a9298589749b0ab5ebb7cf4de7efa5c0",
+        "sentence_text": " During the 1990s the Fieldhands would tour extensively with The Grifters, Guided by Voices, Pavement, and Thinking Fellers Union Local 282, playing shows with The Fall, Jon Spencer Blues Explosion, Royal Trux and others.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          4,
+          0,
+          3,
+          0
+        ],
+        "source_position": 258
+      },
+      {
+        "cross_encoder_score": -9.681428909301758,
+        "dataset": "HotpotQA",
+        "end_char": 23,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "787fb20edc5777b920f2bcd34a566798",
+        "passage_rank": 3,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "07e2dae5290dab939ab15ae26f9dde3c",
+        "sentence_text": "Admonishing the Bishops",
+        "sentence_token_cost": 6,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.486422061920166,
+        "dataset": "HotpotQA",
+        "end_char": 186,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "787fb20edc5777b920f2bcd34a566798",
+        "passage_rank": 3,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "66add8fd62a38b672aab6636e148f670",
+        "sentence_text": "Admonishing the Bishops is an EP by the band Thinking Fellers Union Local 282, released as a CD and 10\" vinyl record on October 26, 1993, through Matador Records.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 24
+      },
+      {
+        "cross_encoder_score": -2.0689151287078857,
+        "dataset": "HotpotQA",
+        "end_char": 321,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "787fb20edc5777b920f2bcd34a566798",
+        "passage_rank": 3,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "58845a8dde4445a109f18625a8437214",
+        "sentence_text": " The EP's title refers to Alan and Rick Bishop of the Sun City Girls with whom the Thinking Fellers had toured with the previous year.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 187
+      },
+      {
+        "cross_encoder_score": 2.2822861671447754,
+        "dataset": "HotpotQA",
+        "end_char": 32,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "bb894295ce79c536a2b2f2e636b27e9b",
+        "passage_rank": 2,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "f8150936c8b45e8d194a86633251d568",
+        "sentence_text": "Thinking Fellers Union Local 282",
+        "sentence_token_cost": 9,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 4.472561359405518,
+        "dataset": "HotpotQA",
+        "end_char": 188,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "bb894295ce79c536a2b2f2e636b27e9b",
+        "passage_rank": 2,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "32d05dd14942c8bd3bb6f45fb0b62dd5",
+        "sentence_text": "Thinking Fellers Union Local 282 is an experimental indie rock group formed in 1986 in San Francisco, California, though half of its members are from Iowa.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 33
+      },
+      {
+        "cross_encoder_score": -9.277982711791992,
+        "dataset": "HotpotQA",
+        "end_char": 27,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "ef9631f7c4be7832c1c34e43c30f4249",
+        "passage_rank": 5,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "3280d04024e8be1172cb6ebe657d3dbb",
+        "sentence_text": "Strangers from the Universe",
+        "sentence_token_cost": 5,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.47958505153656,
+        "dataset": "HotpotQA",
+        "end_char": 167,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "ef9631f7c4be7832c1c34e43c30f4249",
+        "passage_rank": 5,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "27783ce180aab5685372d364be79b494",
+        "sentence_text": "Strangers from the Universe is the fifth album by Thinking Fellers Union Local 282, released on September 12, 1994 through Matador Records.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 28
+      },
+      {
+        "cross_encoder_score": -8.978144645690918,
+        "dataset": "HotpotQA",
+        "end_char": 15,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "518d31cc07ec3c5087c3dd4946044e91",
+        "passage_rank": 7,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "51a3af95494aa703b15c16613af43e88",
+        "sentence_text": "I Hope It Lands",
+        "sentence_token_cost": 4,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.2346774339675903,
+        "dataset": "HotpotQA",
+        "end_char": 137,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "518d31cc07ec3c5087c3dd4946044e91",
+        "passage_rank": 7,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "719a33fc968f7cfa99f6df7755cb2f8f",
+        "sentence_text": "I Hope It Lands is the sixth album by Thinking Fellers Union Local 282, released in April 1996 through Communion Records.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 16
+      },
+      {
+        "cross_encoder_score": -9.195206642150879,
+        "dataset": "HotpotQA",
+        "end_char": 20,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "77310fa1b2290d9efd887697f6098d11",
+        "passage_rank": 4,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "99d2d0cfddc8efe4b3be9762980d5f2e",
+        "sentence_text": "Mother of All Saints",
+        "sentence_token_cost": 4,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.425478458404541,
+        "dataset": "HotpotQA",
+        "end_char": 175,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "77310fa1b2290d9efd887697f6098d11",
+        "passage_rank": 4,
+        "query_id": "5ab2f88755429976abd1bbe0",
+        "sentence_id": "44e60c4549b4792ab9ca93d1f4795b8c",
+        "sentence_text": "Mother of All Saints is the fourth album by Thinking Fellers Union Local 282, released as a CD and double-LP on November 13, 1992 through Matador Records.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 21
+      }
+    ],
+    "scoring_seconds": 0.1276201729197055,
+    "source_fingerprint": "978e62f558746b28328c44b4c461db21cad923f5b796bbe2928f3d08a87bba4d"
+  }
+}

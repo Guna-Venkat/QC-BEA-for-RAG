@@ -1,0 +1,1911 @@
+{
+  "checksum": "03bee550352bbe11cd31e967e1b862572c5dbad02104d984392140eeb9116b21",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "a103636c8d1dbfa53341133aeb751ffec269415c"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 94,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "c80f05f190ffcf9b47f3c148902cff250cd56e4c44613ba291dd763a0b935e38",
+    "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+    "scores": [
+      {
+        "cross_encoder_score": -10.023394584655762,
+        "dataset": "QASPER",
+        "end_char": 263,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "c2110903c5ee3c1f88e06abf58fd2aa4",
+        "passage_rank": 10,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "924133c585d77367e1e3d8aecb4ee88f",
+        "sentence_text": "Multilingual Sentiment Analysis: An RNN-Based Framework for Limited Data\tSentiment analysis is a widely studied NLP task where the goal is to determine opinions, emotions, and evaluations of users towards a product, an entity or a service that they are reviewing.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.157526969909668,
+        "dataset": "QASPER",
+        "end_char": 357,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "c2110903c5ee3c1f88e06abf58fd2aa4",
+        "passage_rank": 10,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "dd4dc1a81bd707d369396fdfb210cec7",
+        "sentence_text": "One of the biggest challenges for sentiment analysis is that it is highly language dependent.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 264
+      },
+      {
+        "cross_encoder_score": -11.052999496459961,
+        "dataset": "QASPER",
+        "end_char": 441,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "c2110903c5ee3c1f88e06abf58fd2aa4",
+        "passage_rank": 10,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "34acc5d44fa3601342b0e51726725ed5",
+        "sentence_text": "Word embeddings, sentiment lexicons, and even annotated data are language specific.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 358
+      },
+      {
+        "cross_encoder_score": -11.254685401916504,
+        "dataset": "QASPER",
+        "end_char": 577,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "c2110903c5ee3c1f88e06abf58fd2aa4",
+        "passage_rank": 10,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "75770820c952f81ef7eb5608eb5b1ddd",
+        "sentence_text": "Further, optimizing models for each language is very time consuming and labor intensive especially for recurrent neural network models.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 442
+      },
+      {
+        "cross_encoder_score": -11.337990760803223,
+        "dataset": "QASPER",
+        "end_char": 670,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "c2110903c5ee3c1f88e06abf58fd2aa4",
+        "passage_rank": 10,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "3cda6b96d4861b9922929f29d3df65c1",
+        "sentence_text": "From a resource perspective, it is very challenging to collect data for different languages.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 578
+      },
+      {
+        "cross_encoder_score": -11.270601272583008,
+        "dataset": "QASPER",
+        "end_char": 919,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "c2110903c5ee3c1f88e06abf58fd2aa4",
+        "passage_rank": 10,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "229635b700e38cd46d4601863c5b8989",
+        "sentence_text": "In this paper, we look for an answer to the following research question: can a sentiment analysis model trained on a language be reused for sentiment analysis in other languages, Russian, Spanish, Turkish, and Dutch, where the data is more limited?",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 671
+      },
+      {
+        "cross_encoder_score": -11.144661903381348,
+        "dataset": "QASPER",
+        "end_char": 1076,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "c2110903c5ee3c1f88e06abf58fd2aa4",
+        "passage_rank": 10,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "8065238a9e0362cfb7153fc6978b8097",
+        "sentence_text": "Our goal is to build a single model in the language with the largest dataset available for the task, and reuse it for languages that have limited resources.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 920
+      },
+      {
+        "cross_encoder_score": -11.263486862182617,
+        "dataset": "QASPER",
+        "end_char": 1187,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "c2110903c5ee3c1f88e06abf58fd2aa4",
+        "passage_rank": 10,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "d721c8225edb794dfd7d73bea7f282cc",
+        "sentence_text": "For this purpose, we train a sentiment analysis model using recurrent neural networks with reviews in English.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1077
+      },
+      {
+        "cross_encoder_score": -11.38027572631836,
+        "dataset": "QASPER",
+        "end_char": 1281,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "c2110903c5ee3c1f88e06abf58fd2aa4",
+        "passage_rank": 10,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "19371e29151313f5c714b8f992f43b88",
+        "sentence_text": "We then translate reviews in other languages and reuse this model to evaluate the sentiments.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1188
+      },
+      {
+        "cross_encoder_score": -10.966086387634277,
+        "dataset": "QASPER",
+        "end_char": 1419,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "c2110903c5ee3c1f88e06abf58fd2aa4",
+        "passage_rank": 10,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "f98da0eccd9d7f45ae354c2b653efcaa",
+        "sentence_text": "Experimental results show that our robust approach of single model trained on English reviews statistically significantly outperforms the",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1282
+      },
+      {
+        "cross_encoder_score": 2.973423957824707,
+        "dataset": "QASPER",
+        "end_char": 1461,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "adf311ccde08443b412905b5b2ecf262",
+        "passage_rank": 1,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "f4e02105483ff3fb1325b2db5dee4aee",
+        "sentence_text": "baselines in several different languages.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1420
+      },
+      {
+        "cross_encoder_score": -11.348289489746094,
+        "dataset": "QASPER",
+        "end_char": 1599,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "adf311ccde08443b412905b5b2ecf262",
+        "passage_rank": 1,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "85d2a563b828a5181f7859bcbf659159",
+        "sentence_text": "Introduction\tWith the steady growth in the commercial websites and social media venues, the access to users' reviews have become easier.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1463
+      },
+      {
+        "cross_encoder_score": -11.029657363891602,
+        "dataset": "QASPER",
+        "end_char": 1736,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "adf311ccde08443b412905b5b2ecf262",
+        "passage_rank": 1,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "f927aa5ac1bb3845f8e3f80387b05820",
+        "sentence_text": "As the amount of data that can be mined for opinion increased, commercial companies' interests for sentiment analysis increased as well.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1600
+      },
+      {
+        "cross_encoder_score": -10.216856002807617,
+        "dataset": "QASPER",
+        "end_char": 1854,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "adf311ccde08443b412905b5b2ecf262",
+        "passage_rank": 1,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "cc7c69c49a102f7841a8cf49f72e0fc2",
+        "sentence_text": "Sentiment analysis is an important part of understanding user behavior and opinions on products, places, or services.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1737
+      },
+      {
+        "cross_encoder_score": -10.995183944702148,
+        "dataset": "QASPER",
+        "end_char": 2069,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "adf311ccde08443b412905b5b2ecf262",
+        "passage_rank": 1,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "bece49de0b98f60097373e6c46e1c475",
+        "sentence_text": "Sentiment analysis has long been studied by the research community, leading to several sentiment-related resources such as sentiment dictionaries that can be used as features for machine learning models  ,  ,  ,  .",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 1855
+      },
+      {
+        "cross_encoder_score": -11.142992973327637,
+        "dataset": "QASPER",
+        "end_char": 2256,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "adf311ccde08443b412905b5b2ecf262",
+        "passage_rank": 1,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "cee923231a94e37f8e76200d0e7289d6",
+        "sentence_text": "These resources help increase sentiment analysis accuracies; however, they are highly dependent on language and require researchers to build such resources for every language to process.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 2070
+      },
+      {
+        "cross_encoder_score": -10.289121627807617,
+        "dataset": "QASPER",
+        "end_char": 2380,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "adf311ccde08443b412905b5b2ecf262",
+        "passage_rank": 1,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "839fe99addee1bea5a3fbc1fb0c7085b",
+        "sentence_text": "Feature engineering is a large part of the model building phase for most sentiment analysis and emotion detection models  .",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2257
+      },
+      {
+        "cross_encoder_score": -9.879066467285156,
+        "dataset": "QASPER",
+        "end_char": 2468,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "adf311ccde08443b412905b5b2ecf262",
+        "passage_rank": 1,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "fdd7efee20cb007072cbf5c7013b5d87",
+        "sentence_text": "Determining the correct set of features is a task that requires thorough investigation.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2381
+      },
+      {
+        "cross_encoder_score": -11.203604698181152,
+        "dataset": "QASPER",
+        "end_char": 2614,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "adf311ccde08443b412905b5b2ecf262",
+        "passage_rank": 1,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "e59a04d9be622ee08c9642a50aabcfb4",
+        "sentence_text": "Furthermore, these features are mostly language and dataset dependent making it even further challenging to build models for different languages.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          1,
+          8,
+          0
+        ],
+        "source_position": 2469
+      },
+      {
+        "cross_encoder_score": -11.2151517868042,
+        "dataset": "QASPER",
+        "end_char": 2868,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "adf311ccde08443b412905b5b2ecf262",
+        "passage_rank": 1,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "6ab7a507f2ac4997e4b395b758e3e8b9",
+        "sentence_text": "For example, the sentiment and emotion lexicons, as well as pre-trained word embeddings are not completely transferable to other languages which replicates the efforts for every language that users would like to build sentiment classification models on.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          1,
+          9,
+          0
+        ],
+        "source_position": 2615
+      },
+      {
+        "cross_encoder_score": -11.097514152526855,
+        "dataset": "QASPER",
+        "end_char": 2907,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "adf311ccde08443b412905b5b2ecf262",
+        "passage_rank": 1,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "a4784b3c08671ddda49f693fa3dc4f94",
+        "sentence_text": "For languages and tasks where the data",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          1,
+          10,
+          0
+        ],
+        "source_position": 2869
+      },
+      {
+        "cross_encoder_score": -10.823127746582031,
+        "dataset": "QASPER",
+        "end_char": 5689,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "d02b2ceec0fcf103c1025504a6ba6cc4",
+        "passage_rank": 8,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "8c0b69f97d68b53b8d24349f9be3e3df",
+        "sentence_text": "of the information that are found useful for improving sentiment analysis accuracies.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "source_position": 5604
+      },
+      {
+        "cross_encoder_score": -11.278926849365234,
+        "dataset": "QASPER",
+        "end_char": 5900,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "d02b2ceec0fcf103c1025504a6ba6cc4",
+        "passage_rank": 8,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "6e31f11a7f9da7d1e2a5d85b3b7a1453",
+        "sentence_text": "Although these features are beneficial, extracting them requires language-dependent data (e.g., a sentiment dictionary for Spanish is trained on Spanish data instead of using all data from different languages).",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "source_position": 5690
+      },
+      {
+        "cross_encoder_score": -11.086495399475098,
+        "dataset": "QASPER",
+        "end_char": 6116,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "d02b2ceec0fcf103c1025504a6ba6cc4",
+        "passage_rank": 8,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "1904bc0c97b391fc4502c2bcb76a7c88",
+        "sentence_text": "Our goal in this work is to streamline the feature engineering phase by not relying on any dictionary other than English word embeddings that are trained on any data (i.e. not necessarily sentiment analysis corpus).",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "source_position": 5901
+      },
+      {
+        "cross_encoder_score": -11.383419036865234,
+        "dataset": "QASPER",
+        "end_char": 6312,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "d02b2ceec0fcf103c1025504a6ba6cc4",
+        "passage_rank": 8,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "acdea6b71d7ba062d835125ef9fa960b",
+        "sentence_text": "To that end, we utilize off-the-shelf machine translation tools to first translate corpora to the language where more training data is available and use the translated corpora to do inference on.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "source_position": 6117
+      },
+      {
+        "cross_encoder_score": -11.27906608581543,
+        "dataset": "QASPER",
+        "end_char": 6410,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "d02b2ceec0fcf103c1025504a6ba6cc4",
+        "passage_rank": 8,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "cad941a3cdbcc6c2ecbba56c3f6eecdb",
+        "sentence_text": "Machine translation for multilingual sentiment analysis has also seen attention from researchers.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "source_position": 6313
+      },
+      {
+        "cross_encoder_score": -11.289019584655762,
+        "dataset": "QASPER",
+        "end_char": 6489,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "d02b2ceec0fcf103c1025504a6ba6cc4",
+        "passage_rank": 8,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "3d6c43a1fbff75cd8f87eb3d6c5b2f75",
+        "sentence_text": "Hiroshi et al.  translated only sentiment units with a pattern-based approach.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          4,
+          5,
+          0
+        ],
+        "source_position": 6411
+      },
+      {
+        "cross_encoder_score": -11.343746185302734,
+        "dataset": "QASPER",
+        "end_char": 6611,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "d02b2ceec0fcf103c1025504a6ba6cc4",
+        "passage_rank": 8,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "27f614b0cdff8fa94851648287da0447",
+        "sentence_text": "Balahur and Turchi  used uni-grams, bi-grams and tf-idf features for building support vector machines on translated text.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          4,
+          6,
+          0
+        ],
+        "source_position": 6490
+      },
+      {
+        "cross_encoder_score": -11.004154205322266,
+        "dataset": "QASPER",
+        "end_char": 6744,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "d02b2ceec0fcf103c1025504a6ba6cc4",
+        "passage_rank": 8,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "d9614a2b62867e734948df629ab15ac5",
+        "sentence_text": "Boyd-Graber and Resnik  built Latent Dirichlet Allocation models to investigate how multilingual concepts are clustered into topics.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          4,
+          7,
+          0
+        ],
+        "source_position": 6612
+      },
+      {
+        "cross_encoder_score": -11.43368911743164,
+        "dataset": "QASPER",
+        "end_char": 6839,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "d02b2ceec0fcf103c1025504a6ba6cc4",
+        "passage_rank": 8,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "5c9f1a403d941158a3186b320088a35f",
+        "sentence_text": "Mohammed et al.  translate Twitter posts to English as well as the English sentiment lexicons.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          4,
+          8,
+          0
+        ],
+        "source_position": 6745
+      },
+      {
+        "cross_encoder_score": -10.960895538330078,
+        "dataset": "QASPER",
+        "end_char": 6957,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "d02b2ceec0fcf103c1025504a6ba6cc4",
+        "passage_rank": 8,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "2ca5fceeb69ea1010e6161722d7e203e",
+        "sentence_text": "Tellez et al.  propose a framework where language-dependent and independent features are used with an SVM classifier.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          4,
+          9,
+          0
+        ],
+        "source_position": 6840
+      },
+      {
+        "cross_encoder_score": -9.163297653198242,
+        "dataset": "QASPER",
+        "end_char": 6963,
+        "pair_tokens_before_truncation": 10,
+        "pair_truncated": false,
+        "passage_id": "d02b2ceec0fcf103c1025504a6ba6cc4",
+        "passage_rank": 8,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "be55faca8c3525369e0b2fd0e9115c39",
+        "sentence_text": "These",
+        "sentence_token_cost": 1,
+        "source_order": [
+          0,
+          4,
+          10,
+          0
+        ],
+        "source_position": 6958
+      },
+      {
+        "cross_encoder_score": -11.296832084655762,
+        "dataset": "QASPER",
+        "end_char": 8466,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "87e650dc42039ddcf03ae5ce0a28c0f2",
+        "passage_rank": 7,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "876e98672782f452e199356bbc012c16",
+        "sentence_text": "English via machine translation and then inference takes place.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 8403
+      },
+      {
+        "cross_encoder_score": -11.155523300170898,
+        "dataset": "QASPER",
+        "end_char": 8533,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "87e650dc42039ddcf03ae5ce0a28c0f2",
+        "passage_rank": 7,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "ce55247d3b7469eb32398504a9bce639",
+        "sentence_text": "Figure FIGREF1 shows our multilingual sentiment analysis approach.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 8467
+      },
+      {
+        "cross_encoder_score": -10.976654052734375,
+        "dataset": "QASPER",
+        "end_char": 8696,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "87e650dc42039ddcf03ae5ce0a28c0f2",
+        "passage_rank": 7,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "a04eaf123e9b62a27ba13e86381440cb",
+        "sentence_text": "It is important to note that this approach does not utilize any resource in any of the languages of the test sets (e.g., word embeddings, lexicons, training set).",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 8534
+      },
+      {
+        "cross_encoder_score": -11.16958236694336,
+        "dataset": "QASPER",
+        "end_char": 8826,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "87e650dc42039ddcf03ae5ce0a28c0f2",
+        "passage_rank": 7,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "36188b8cb75ee1d8f495103cd68a7d15",
+        "sentence_text": "Deep learning approaches have been successful in many applications ranging from computer vision to natural language processing  .",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 8697
+      },
+      {
+        "cross_encoder_score": -9.695080757141113,
+        "dataset": "QASPER",
+        "end_char": 9033,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "87e650dc42039ddcf03ae5ce0a28c0f2",
+        "passage_rank": 7,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "5a024339c788454c39a69bda7105fb22",
+        "sentence_text": "Recurrent neural network (RNN) including Long Short Term Memory (LSTM) and Gated Recurrent Units (GRU) are subsets of deep learning algorithms where the dependencies between tokens can be used by the model.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 8827
+      },
+      {
+        "cross_encoder_score": -11.244902610778809,
+        "dataset": "QASPER",
+        "end_char": 9140,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "87e650dc42039ddcf03ae5ce0a28c0f2",
+        "passage_rank": 7,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "b3dcbddc721cd7b6bbcf8e122b87fc20",
+        "sentence_text": "These models can also be used with variable length input vectors which makes them suitable for text input.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 9034
+      },
+      {
+        "cross_encoder_score": -10.70539379119873,
+        "dataset": "QASPER",
+        "end_char": 9273,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "87e650dc42039ddcf03ae5ce0a28c0f2",
+        "passage_rank": 7,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "8e336d17871959f50a389ceeb99bd19d",
+        "sentence_text": "LSTM and GRU models allow operations of sequences of vectors over time and have the capability to `remember' previous information  .",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 9141
+      },
+      {
+        "cross_encoder_score": -11.186631202697754,
+        "dataset": "QASPER",
+        "end_char": 9417,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "87e650dc42039ddcf03ae5ce0a28c0f2",
+        "passage_rank": 7,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "1d63425c1a30f5ace9dc2ef1ceef787c",
+        "sentence_text": "RNN have been found useful for several natural language processing tasks including language modeling, text classification, machine translation.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 9274
+      },
+      {
+        "cross_encoder_score": -11.130073547363281,
+        "dataset": "QASPER",
+        "end_char": 9575,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "87e650dc42039ddcf03ae5ce0a28c0f2",
+        "passage_rank": 7,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "9e9d765270e759aab6c33c3b857217e6",
+        "sentence_text": "RNN can also utilize pre-trained word embeddings (numeric vector representations of words trained on unlabeled data) without requiring hand-crafted features.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 9418
+      },
+      {
+        "cross_encoder_score": -11.224541664123535,
+        "dataset": "QASPER",
+        "end_char": 9727,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "87e650dc42039ddcf03ae5ce0a28c0f2",
+        "passage_rank": 7,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "70bdefa2cdb198fb7534340032e1ff25",
+        "sentence_text": "Therefore in this paper, we employ an RNN architecture that takes text and pre-trained word embeddings as inputs and generates a classification result.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          6,
+          9,
+          0
+        ],
+        "source_position": 9576
+      },
+      {
+        "cross_encoder_score": -11.118875503540039,
+        "dataset": "QASPER",
+        "end_char": 9812,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "87e650dc42039ddcf03ae5ce0a28c0f2",
+        "passage_rank": 7,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "f94dd725da59048994363626794258ca",
+        "sentence_text": "Word embeddings represent words as numeric vectors and capture semantic information.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          6,
+          10,
+          0
+        ],
+        "source_position": 9728
+      },
+      {
+        "cross_encoder_score": -8.652703285217285,
+        "dataset": "QASPER",
+        "end_char": 9821,
+        "pair_tokens_before_truncation": 11,
+        "pair_truncated": false,
+        "passage_id": "87e650dc42039ddcf03ae5ce0a28c0f2",
+        "passage_rank": 7,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "f041857f8245952dc72c3c5371a9d33a",
+        "sentence_text": "They are",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          6,
+          11,
+          0
+        ],
+        "source_position": 9813
+      },
+      {
+        "cross_encoder_score": -11.396154403686523,
+        "dataset": "QASPER",
+        "end_char": 11189,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "49f075f047f3a73051c5c78fe3b4734b",
+        "passage_rank": 3,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "026d2dcdb58937bccf57d4f185721eaa",
+        "sentence_text": "model, we used three different training sets as provided in Table TABREF5 .",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 11114
+      },
+      {
+        "cross_encoder_score": -11.101380348205566,
+        "dataset": "QASPER",
+        "end_char": 11386,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "49f075f047f3a73051c5c78fe3b4734b",
+        "passage_rank": 3,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "1eb630779daf9cac5aefcdc836b4654e",
+        "sentence_text": "One of these three datasets (Amazon reviews  ,  ) is larger and has product reviews from several different categories including book reviews, electronics products reviews, and application reviews.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 11190
+      },
+      {
+        "cross_encoder_score": -10.85810661315918,
+        "dataset": "QASPER",
+        "end_char": 11463,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "49f075f047f3a73051c5c78fe3b4734b",
+        "passage_rank": 3,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "624d02de3281945d6b1285d73f541e6e",
+        "sentence_text": "The other two datasets are to make the model more specialized in the domain.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 11387
+      },
+      {
+        "cross_encoder_score": -11.417482376098633,
+        "dataset": "QASPER",
+        "end_char": 11667,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "49f075f047f3a73051c5c78fe3b4734b",
+        "passage_rank": 3,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "012c8f1d821c4a9546ceaaaf2b5441ea",
+        "sentence_text": "In this paper we focus on restaurant reviews as our domain and use Yelp restaurant reviews dataset extracted from Yelp Dataset Challenge  and restaurant reviews dataset as part of a Kaggle competition  .",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 11464
+      },
+      {
+        "cross_encoder_score": -11.228919982910156,
+        "dataset": "QASPER",
+        "end_char": 11735,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "49f075f047f3a73051c5c78fe3b4734b",
+        "passage_rank": 3,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "9b763fcea1e6df32ae2cfc8b0eb65e90",
+        "sentence_text": "For evaluation of the multilingual approach, we use four languages.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 11668
+      },
+      {
+        "cross_encoder_score": -11.233537673950195,
+        "dataset": "QASPER",
+        "end_char": 11798,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "49f075f047f3a73051c5c78fe3b4734b",
+        "passage_rank": 3,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "32b8bd15419540c479c8169e930a9764",
+        "sentence_text": "These datasets are part of SemEval-2016 Challenge Task 5  ,  .",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 11736
+      },
+      {
+        "cross_encoder_score": -10.718742370605469,
+        "dataset": "QASPER",
+        "end_char": 11866,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "49f075f047f3a73051c5c78fe3b4734b",
+        "passage_rank": 3,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "a599e3604270ad99062d130d73c76dd0",
+        "sentence_text": "Table TABREF7 shows the number of observations in each test corpus.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 11799
+      },
+      {
+        "cross_encoder_score": 0.3087228536605835,
+        "dataset": "QASPER",
+        "end_char": 12079,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "49f075f047f3a73051c5c78fe3b4734b",
+        "passage_rank": 3,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "a7bef8b928a43ded74a228dc11936d8a",
+        "sentence_text": "Experimental Results\tFor experimental results, we report majority baseline for each language where the majority baseline corresponds to a model's accuracy if it always predicts the majority class in the dataset.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 11868
+      },
+      {
+        "cross_encoder_score": -0.5955159068107605,
+        "dataset": "QASPER",
+        "end_char": 12297,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "49f075f047f3a73051c5c78fe3b4734b",
+        "passage_rank": 3,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "ce8f496d6143e0a01aaaff368fdccf42",
+        "sentence_text": "For example, if the dataset has 60% of all reviews positive and 40% negative, majority baseline would be 60% because a model that always predicts \u201cpositive\u201d will be 60% accurate and will make mistakes 40% of the time.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "source_position": 12080
+      },
+      {
+        "cross_encoder_score": -0.7938109636306763,
+        "dataset": "QASPER",
+        "end_char": 12370,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "49f075f047f3a73051c5c78fe3b4734b",
+        "passage_rank": 3,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "5c10a8b4f3606abb564b852586561a8f",
+        "sentence_text": "In addition to the majority baseline, we also compare our results with a",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          8,
+          9,
+          0
+        ],
+        "source_position": 12298
+      },
+      {
+        "cross_encoder_score": -11.235271453857422,
+        "dataset": "QASPER",
+        "end_char": 12394,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "e5bcec4707ddc039a99646fdf252e0fc",
+        "passage_rank": 6,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "81c53389b742f864f8951210d93515de",
+        "sentence_text": "lexicon-based approach.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 12371
+      },
+      {
+        "cross_encoder_score": -11.354737281799316,
+        "dataset": "QASPER",
+        "end_char": 12495,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "e5bcec4707ddc039a99646fdf252e0fc",
+        "passage_rank": 6,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "00445578452b0e1d4e715b6940212911",
+        "sentence_text": "We use SentiWordNet  to obtain a positive and a negative sentiment score for each token in a review.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 12395
+      },
+      {
+        "cross_encoder_score": -11.107535362243652,
+        "dataset": "QASPER",
+        "end_char": 12632,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "e5bcec4707ddc039a99646fdf252e0fc",
+        "passage_rank": 6,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "78cb079752cc785f75f9004a1910cae3",
+        "sentence_text": "Then sum of positive sentiment scores and negative sentiment scores for each review is obtained by summing up the scores for each token.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 12496
+      },
+      {
+        "cross_encoder_score": -10.564297676086426,
+        "dataset": "QASPER",
+        "end_char": 12761,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "e5bcec4707ddc039a99646fdf252e0fc",
+        "passage_rank": 6,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "9e76c5bc6aeed7c33e83a8d66dd0c38b",
+        "sentence_text": "If the positive sum score for a given review is greater than the negative sum score, we accept that review as a positive review.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 12633
+      },
+      {
+        "cross_encoder_score": -9.473413467407227,
+        "dataset": "QASPER",
+        "end_char": 12866,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "e5bcec4707ddc039a99646fdf252e0fc",
+        "passage_rank": 6,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "ebc3fa37bb81d2ddd05cdf959c31f21b",
+        "sentence_text": "If negative sum is larger than or equal to the positive sum, the review is labeled as a negative review.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 12762
+      },
+      {
+        "cross_encoder_score": -1.5565969944000244,
+        "dataset": "QASPER",
+        "end_char": 12940,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "e5bcec4707ddc039a99646fdf252e0fc",
+        "passage_rank": 6,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "bf8e54477575a3bb2ede73f33e8f2308",
+        "sentence_text": "RNN outperforms both baselines in all four datasets (see Table TABREF9 ).",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 12867
+      },
+      {
+        "cross_encoder_score": 1.4372035264968872,
+        "dataset": "QASPER",
+        "end_char": 13172,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "e5bcec4707ddc039a99646fdf252e0fc",
+        "passage_rank": 6,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "ce73903afb9804226fabd8c47c8866fc",
+        "sentence_text": "Also for Spanish restaurant review, the lexicon-based baseline is below the majority baseline which shows that solely translating data and using lexicons is not sufficient to achieve good results in multilingual sentiment analysis.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          9,
+          6,
+          0
+        ],
+        "source_position": 12941
+      },
+      {
+        "cross_encoder_score": -10.176987648010254,
+        "dataset": "QASPER",
+        "end_char": 13292,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "e5bcec4707ddc039a99646fdf252e0fc",
+        "passage_rank": 6,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "c5f80c33c7f19240ee777d5538486514",
+        "sentence_text": "Among the wrong classifications for each test set, we calculated the percentage of false positives and false negatives.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          9,
+          7,
+          0
+        ],
+        "source_position": 13173
+      },
+      {
+        "cross_encoder_score": -10.876769065856934,
+        "dataset": "QASPER",
+        "end_char": 13385,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "e5bcec4707ddc039a99646fdf252e0fc",
+        "passage_rank": 6,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "1760ff4b3887ace8c4781edbea24b89c",
+        "sentence_text": "Table TABREF10 shows the distribution of false positives and false negatives for each class.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          9,
+          8,
+          0
+        ],
+        "source_position": 13293
+      },
+      {
+        "cross_encoder_score": -10.381843566894531,
+        "dataset": "QASPER",
+        "end_char": 13481,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "e5bcec4707ddc039a99646fdf252e0fc",
+        "passage_rank": 6,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "82b0111bccf5f1da4c22e6193338e11f",
+        "sentence_text": "In all four classes, the number of false negatives are more than the number of false positives.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          9,
+          9,
+          0
+        ],
+        "source_position": 13386
+      },
+      {
+        "cross_encoder_score": -10.969892501831055,
+        "dataset": "QASPER",
+        "end_char": 13640,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "e5bcec4707ddc039a99646fdf252e0fc",
+        "passage_rank": 6,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "2c18eb0bf5f8b381a56e76e647f19a69",
+        "sentence_text": "This can be explained by the unbalanced training dataset where the number of positive reviews are more than the number of negative reviews (59,577 vs 17,132).",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          9,
+          10,
+          0
+        ],
+        "source_position": 13482
+      },
+      {
+        "cross_encoder_score": -0.23813213407993317,
+        "dataset": "QASPER",
+        "end_char": 13798,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "a4f50f14979e1a7486852bf78f12cea8",
+        "passage_rank": 4,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "67ba0289d92179c431d90cc7cc4c8276",
+        "sentence_text": "To be able to see the difference between baseline and RNN, we took each method's results as a group (4 values: one for each language) and compared the means.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 13641
+      },
+      {
+        "cross_encoder_score": -0.2969870865345001,
+        "dataset": "QASPER",
+        "end_char": 14034,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "a4f50f14979e1a7486852bf78f12cea8",
+        "passage_rank": 4,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "350973f59d64fb029da048a7ce63353c",
+        "sentence_text": "Post hoc comparisons using the Tukey HSD test indicated that the mean accuracies for baselines (majority and lexicon-based) are significantly different than RNN accuracies as can be seen in Table TABREF12 (family-wise error rate=0.06).",
+        "sentence_token_cost": 56,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 13799
+      },
+      {
+        "cross_encoder_score": -2.073082685470581,
+        "dataset": "QASPER",
+        "end_char": 14181,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "a4f50f14979e1a7486852bf78f12cea8",
+        "passage_rank": 4,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "711f639cb2dace8387d0f0c2113f64ba",
+        "sentence_text": "When RNN is compared with lexicon-based baseline and majority baseline, the null hypothesis can be rejected meaning that each test is significant.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 14035
+      },
+      {
+        "cross_encoder_score": -2.1267175674438477,
+        "dataset": "QASPER",
+        "end_char": 14307,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "a4f50f14979e1a7486852bf78f12cea8",
+        "passage_rank": 4,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "009549f99bcdafa378be20de90d6d574",
+        "sentence_text": "In addition to these comparisons, we also calculated the effect sizes (using Cohen's d) between the baselines and our method.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 14182
+      },
+      {
+        "cross_encoder_score": -0.4945628046989441,
+        "dataset": "QASPER",
+        "end_char": 14503,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "a4f50f14979e1a7486852bf78f12cea8",
+        "passage_rank": 4,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "09f1a15ec53d1a829b7a37cc1adbee5d",
+        "sentence_text": "The results are aligning with Tukey HSD results such that while our method versus baselines have very large effect sizes, lexicon-based baseline and majority baseline have negligible effect size.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 14308
+      },
+      {
+        "cross_encoder_score": -9.83133316040039,
+        "dataset": "QASPER",
+        "end_char": 14596,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "a4f50f14979e1a7486852bf78f12cea8",
+        "passage_rank": 4,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "c5fd5915c2edfe8373acc17fa0043fe3",
+        "sentence_text": "Figure FIGREF11 shows the differences in minimum and maximum values of all three approaches.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 14504
+      },
+      {
+        "cross_encoder_score": -3.4502203464508057,
+        "dataset": "QASPER",
+        "end_char": 14701,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "a4f50f14979e1a7486852bf78f12cea8",
+        "passage_rank": 4,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "35e3c46a82d4e1aa08ed47477bfeef63",
+        "sentence_text": "As the figure shows, RNN significantly outperforms both baselines for the sentiment classification task.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 14597
+      },
+      {
+        "cross_encoder_score": -11.373409271240234,
+        "dataset": "QASPER",
+        "end_char": 14814,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "a4f50f14979e1a7486852bf78f12cea8",
+        "passage_rank": 4,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "9ba6b7c0b27539bdcd336665a6158d58",
+        "sentence_text": "Discussion\tOne of the crucial elements while using machine translation is to have highly accurate translations.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 14703
+      },
+      {
+        "cross_encoder_score": -11.380326271057129,
+        "dataset": "QASPER",
+        "end_char": 14913,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "a4f50f14979e1a7486852bf78f12cea8",
+        "passage_rank": 4,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "86664dea5ce16c76c2db599bfaf0aaa1",
+        "sentence_text": "It is likely that non-English words would not have word embeddings, which will dramatically affect",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          10,
+          8,
+          0
+        ],
+        "source_position": 14815
+      },
+      {
+        "cross_encoder_score": -10.487841606140137,
+        "dataset": "QASPER",
+        "end_char": 14946,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "1f3294d50bb4b1c5f305689eee54229c",
+        "passage_rank": 9,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "55cd603b947dab30913bb300ebd7c2f5",
+        "sentence_text": "the effectiveness of the system.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 14914
+      },
+      {
+        "cross_encoder_score": -11.233802795410156,
+        "dataset": "QASPER",
+        "end_char": 15014,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "1f3294d50bb4b1c5f305689eee54229c",
+        "passage_rank": 9,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "807c9bbfe9eee16b3fe9273a61d0d610",
+        "sentence_text": "We analyzed the effect of incorrect translations into our approach.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 14947
+      },
+      {
+        "cross_encoder_score": -10.458625793457031,
+        "dataset": "QASPER",
+        "end_char": 15162,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "1f3294d50bb4b1c5f305689eee54229c",
+        "passage_rank": 9,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "82f6ebe8fc3ef9de263f25c3aedd44c2",
+        "sentence_text": "To that end, we extracted all wrong predictions from the test set and computed the ratio of misclassifications that have non-English words in them.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 15015
+      },
+      {
+        "cross_encoder_score": -11.28065299987793,
+        "dataset": "QASPER",
+        "end_char": 15348,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "1f3294d50bb4b1c5f305689eee54229c",
+        "passage_rank": 9,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "a80fbd0acbd4b5430719d63125647150",
+        "sentence_text": "We first extracted all misclassifications for a given language and for each observation in the misclassification set, we iterated through each token to check if the token is in English.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 15163
+      },
+      {
+        "cross_encoder_score": -10.806558609008789,
+        "dataset": "QASPER",
+        "end_char": 15506,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "1f3294d50bb4b1c5f305689eee54229c",
+        "passage_rank": 9,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "d5bf11ebd7ff0feb85af42dabf32487b",
+        "sentence_text": "In this way, we counted the number of observations that contained at least one non-English word and divided that with the size of the misclassifications set.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 15349
+      },
+      {
+        "cross_encoder_score": -11.289783477783203,
+        "dataset": "QASPER",
+        "end_char": 15582,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "1f3294d50bb4b1c5f305689eee54229c",
+        "passage_rank": 9,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "d983c18c65936c072bf459ade6814fd3",
+        "sentence_text": "We used this ratio to investigate the effect of machine translation errors.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 15507
+      },
+      {
+        "cross_encoder_score": -11.268336296081543,
+        "dataset": "QASPER",
+        "end_char": 15733,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "1f3294d50bb4b1c5f305689eee54229c",
+        "passage_rank": 9,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "5d57ca6a0e08cb93763332f4464f43a4",
+        "sentence_text": "We found that 25.84% of Dutch, 21.76% of Turkish, 24.46% Spanish, and 10.71% of Russian reviews that were misclassified had non-English words in them.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 15583
+      },
+      {
+        "cross_encoder_score": -11.388176918029785,
+        "dataset": "QASPER",
+        "end_char": 15798,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "1f3294d50bb4b1c5f305689eee54229c",
+        "passage_rank": 9,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "59adf6cd0ea3d20ec8ddadd33f93d891",
+        "sentence_text": "These non-English words might be causing the misclassifications.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 15734
+      },
+      {
+        "cross_encoder_score": -11.301960945129395,
+        "dataset": "QASPER",
+        "end_char": 15893,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "1f3294d50bb4b1c5f305689eee54229c",
+        "passage_rank": 9,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "cd21dc1ef991e278c6495c873609bc22",
+        "sentence_text": "However, a large portion of the missclassifications is not caused due to not-translated words.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          11,
+          8,
+          0
+        ],
+        "source_position": 15799
+      },
+      {
+        "cross_encoder_score": -11.345165252685547,
+        "dataset": "QASPER",
+        "end_char": 15986,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "1f3294d50bb4b1c5f305689eee54229c",
+        "passage_rank": 9,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "dd039119533effa78064e6ab89bc8fb0",
+        "sentence_text": "At the end, the machine translation errors has some but not noticeable effects on our model.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          11,
+          9,
+          0
+        ],
+        "source_position": 15894
+      },
+      {
+        "cross_encoder_score": -11.247739791870117,
+        "dataset": "QASPER",
+        "end_char": 16103,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "1f3294d50bb4b1c5f305689eee54229c",
+        "passage_rank": 9,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "a8630cdf20cb2d91d68ca615b1009844",
+        "sentence_text": "Therefore, we can claim that machine translation preserves most of the information necessary for sentiment analysis.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          11,
+          10,
+          0
+        ],
+        "source_position": 15987
+      },
+      {
+        "cross_encoder_score": -10.75243854522705,
+        "dataset": "QASPER",
+        "end_char": 16125,
+        "pair_tokens_before_truncation": 13,
+        "pair_truncated": false,
+        "passage_id": "1f3294d50bb4b1c5f305689eee54229c",
+        "passage_rank": 9,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "fa86ff86d1775616b8fcad20a113130a",
+        "sentence_text": "We also evaluated our",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          11,
+          11,
+          0
+        ],
+        "source_position": 16104
+      },
+      {
+        "cross_encoder_score": -11.001422882080078,
+        "dataset": "QASPER",
+        "end_char": 16236,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "2984013a6961c4359cde058711bcafff",
+        "passage_rank": 5,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "738d65aa3c224044410a8a18cf733bf0",
+        "sentence_text": "model with an English corpus  to see its performance without any interference from machine translation errors.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 16126
+      },
+      {
+        "cross_encoder_score": -0.8225233554840088,
+        "dataset": "QASPER",
+        "end_char": 16387,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "2984013a6961c4359cde058711bcafff",
+        "passage_rank": 5,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "06a74ef94cf7d6358a010c5fac79b142",
+        "sentence_text": "Using the English data for testing, the model achieved 87.06% accuracy where a majority baseline was 68.37% and the lexicon-based baseline was 60.10%.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 16237
+      },
+      {
+        "cross_encoder_score": -4.685612201690674,
+        "dataset": "QASPER",
+        "end_char": 16907,
+        "pair_tokens_before_truncation": 147,
+        "pair_truncated": false,
+        "passage_id": "2984013a6961c4359cde058711bcafff",
+        "passage_rank": 5,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "a759e99bd1dadaaf64bb1d31a8c242c4",
+        "sentence_text": "Considering the improvements over the majority baseline achieved by the RNN model for both non-English (on the average 22.76% relative improvement; 15.82% relative improvement on Spanish, 72.71% vs. 84.21%, 30.53% relative improvement on Turkish, 56.97% vs. 74.36%, 37.13% relative improvement on Dutch, 59.63% vs. 81.77%, and 7.55% relative improvement on Russian, 79.60% vs. 85.62%) and English test sets (27.34% relative improvement), we can draw the conclusion that our model is robust to handle multiple languages.",
+        "sentence_token_cost": 173,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 16388
+      },
+      {
+        "cross_encoder_score": -11.269129753112793,
+        "dataset": "QASPER",
+        "end_char": 16992,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "2984013a6961c4359cde058711bcafff",
+        "passage_rank": 5,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "1d3669d4990722ee3e99aeead14d36cb",
+        "sentence_text": "Building separate models for each language requires both labeled and unlabeled data.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 16908
+      },
+      {
+        "cross_encoder_score": -11.09567642211914,
+        "dataset": "QASPER",
+        "end_char": 17032,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "2984013a6961c4359cde058711bcafff",
+        "passage_rank": 5,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "4728945b056c7fc30ea00c5e4e24df25",
+        "sentence_text": "Even though having lots of labeled data",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 16993
+      },
+      {
+        "cross_encoder_score": -1.4594382047653198,
+        "dataset": "QASPER",
+        "end_char": 18612,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "f1042ba75f910a3fad85e2f44855648a",
+        "passage_rank": 2,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "d9d428cad6fc825f7bb45864ef0d69b0",
+        "sentence_text": "approach outperforms both the majority baseline and the lexicon-based baseline.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 18533
+      },
+      {
+        "cross_encoder_score": -11.118945121765137,
+        "dataset": "QASPER",
+        "end_char": 18692,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "f1042ba75f910a3fad85e2f44855648a",
+        "passage_rank": 2,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "2bd79b57b4f05bfe4bb8ff24b27e70a5",
+        "sentence_text": "In this paper we made the sentiment analysis model specific to a single domain.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 18613
+      },
+      {
+        "cross_encoder_score": -11.249168395996094,
+        "dataset": "QASPER",
+        "end_char": 18873,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "f1042ba75f910a3fad85e2f44855648a",
+        "passage_rank": 2,
+        "query_id": "a103636c8d1dbfa53341133aeb751ffec269415c",
+        "sentence_id": "6a2543a26ba557fd3583146e2844133f",
+        "sentence_text": "For future work, we would like to investigate the effectiveness of our model on different review domains including hotel reviews and on different problems such as detecting stance.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          14,
+          2,
+          0
+        ],
+        "source_position": 18693
+      }
+    ],
+    "scoring_seconds": 0.47724671696778387,
+    "source_fingerprint": "ce022e0eb5cbae8f1f00e5c1d2431fea25afb739da6714cac78aca017523f7a2"
+  }
+}

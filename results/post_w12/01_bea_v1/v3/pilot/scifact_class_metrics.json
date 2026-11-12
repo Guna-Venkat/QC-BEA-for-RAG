@@ -1,0 +1,167 @@
+{
+  "label": "POST_W12_EXPLORATORY",
+  "rows": [
+    {
+      "dataset": "SciFact",
+      "budget": 256,
+      "method": "FIXED_SENTENCE",
+      "accuracy": 0.64,
+      "macro_f1": 0.6289147093120108,
+      "classes": {
+        "SUPPORT": {
+          "precision": 0.68,
+          "recall": 0.7391304347826086,
+          "f1": 0.7083333333333334,
+          "support": 23
+        },
+        "REFUTE": {
+          "precision": 0.6666666666666666,
+          "recall": 0.7272727272727273,
+          "f1": 0.6956521739130435,
+          "support": 11
+        },
+        "NOT_ENOUGH_INFO": {
+          "precision": 0.5384615384615384,
+          "recall": 0.4375,
+          "f1": 0.4827586206896552,
+          "support": 16
+        }
+      }
+    },
+    {
+      "dataset": "SciFact",
+      "budget": 256,
+      "method": "QBGF_FULL",
+      "accuracy": 0.54,
+      "macro_f1": 0.5309941520467836,
+      "classes": {
+        "SUPPORT": {
+          "precision": 0.6363636363636364,
+          "recall": 0.6086956521739131,
+          "f1": 0.6222222222222222,
+          "support": 23
+        },
+        "REFUTE": {
+          "precision": 0.625,
+          "recall": 0.45454545454545453,
+          "f1": 0.5263157894736842,
+          "support": 11
+        },
+        "NOT_ENOUGH_INFO": {
+          "precision": 0.4,
+          "recall": 0.5,
+          "f1": 0.4444444444444444,
+          "support": 16
+        }
+      }
+    },
+    {
+      "dataset": "SciFact",
+      "budget": 256,
+      "method": "BEA_QBGF",
+      "accuracy": 0.62,
+      "macro_f1": 0.6127383197150639,
+      "classes": {
+        "SUPPORT": {
+          "precision": 0.75,
+          "recall": 0.6521739130434783,
+          "f1": 0.6976744186046512,
+          "support": 23
+        },
+        "REFUTE": {
+          "precision": 0.6666666666666666,
+          "recall": 0.5454545454545454,
+          "f1": 0.6,
+          "support": 11
+        },
+        "NOT_ENOUGH_INFO": {
+          "precision": 0.47619047619047616,
+          "recall": 0.625,
+          "f1": 0.5405405405405406,
+          "support": 16
+        }
+      }
+    },
+    {
+      "dataset": "SciFact",
+      "budget": 1024,
+      "method": "FIXED_SENTENCE",
+      "accuracy": 0.64,
+      "macro_f1": 0.5533333333333333,
+      "classes": {
+        "SUPPORT": {
+          "precision": 0.6875,
+          "recall": 0.9565217391304348,
+          "f1": 0.8,
+          "support": 23
+        },
+        "REFUTE": {
+          "precision": 0.5,
+          "recall": 0.6363636363636364,
+          "f1": 0.56,
+          "support": 11
+        },
+        "NOT_ENOUGH_INFO": {
+          "precision": 0.75,
+          "recall": 0.1875,
+          "f1": 0.3,
+          "support": 16
+        }
+      }
+    },
+    {
+      "dataset": "SciFact",
+      "budget": 1024,
+      "method": "QBGF_FULL",
+      "accuracy": 0.64,
+      "macro_f1": 0.5881045751633986,
+      "classes": {
+        "SUPPORT": {
+          "precision": 0.7142857142857143,
+          "recall": 0.8695652173913043,
+          "f1": 0.7843137254901961,
+          "support": 23
+        },
+        "REFUTE": {
+          "precision": 0.46153846153846156,
+          "recall": 0.5454545454545454,
+          "f1": 0.5,
+          "support": 11
+        },
+        "NOT_ENOUGH_INFO": {
+          "precision": 0.6666666666666666,
+          "recall": 0.375,
+          "f1": 0.48,
+          "support": 16
+        }
+      }
+    },
+    {
+      "dataset": "SciFact",
+      "budget": 1024,
+      "method": "BEA_QBGF",
+      "accuracy": 0.66,
+      "macro_f1": 0.6431549537932516,
+      "classes": {
+        "SUPPORT": {
+          "precision": 0.7083333333333334,
+          "recall": 0.7391304347826086,
+          "f1": 0.723404255319149,
+          "support": 23
+        },
+        "REFUTE": {
+          "precision": 0.6666666666666666,
+          "recall": 0.5454545454545454,
+          "f1": 0.6,
+          "support": 11
+        },
+        "NOT_ENOUGH_INFO": {
+          "precision": 0.5882352941176471,
+          "recall": 0.625,
+          "f1": 0.6060606060606061,
+          "support": 16
+        }
+      }
+    }
+  ]
+}

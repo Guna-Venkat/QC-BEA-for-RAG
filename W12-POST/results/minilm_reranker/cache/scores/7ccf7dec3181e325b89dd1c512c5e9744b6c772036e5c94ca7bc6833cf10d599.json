@@ -1,0 +1,2051 @@
+{
+  "checksum": "6b05e3e5bb0abe4643ac87722e64e6b308462f3c7dac965c87361f9ecbb86c7b",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "37a79be0148e1751ffb2daabe4c8ec6680036106"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 101,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "2a9936558886c79afcf1bf17ac3a4e695f1cbb46ef49bb0e08c842b58abb2fc1",
+    "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+    "scores": [
+      {
+        "cross_encoder_score": -11.377930641174316,
+        "dataset": "QASPER",
+        "end_char": 230,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "cf1dc0142303f80fd412b49f66a65da3",
+        "passage_rank": 5,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "fdef67a93a406f968ca71788f364a686",
+        "sentence_text": "UTCNN: a Deep Learning Model of Stance Classificationon on Social Media Text\tMost neural network models for document classification on social media focus on text infor-mation to the neglect of other information on these platforms.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.788469314575195,
+        "dataset": "QASPER",
+        "end_char": 409,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "cf1dc0142303f80fd412b49f66a65da3",
+        "passage_rank": 5,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "d1d5f193f048257f4cc0f8a48ce871d4",
+        "sentence_text": "In this paper, we classify post stance on social media channels and develop UTCNN, a neural network model that incorporates user tastes, topic tastes, and user comments on posts.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 231
+      },
+      {
+        "cross_encoder_score": -11.210186958312988,
+        "dataset": "QASPER",
+        "end_char": 507,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "cf1dc0142303f80fd412b49f66a65da3",
+        "passage_rank": 5,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "52bae802d81a10325a957da1ce732293",
+        "sentence_text": "UTCNN not only works on social media texts, but also analyzes texts in forums and message boards.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 410
+      },
+      {
+        "cross_encoder_score": 4.379345893859863,
+        "dataset": "QASPER",
+        "end_char": 828,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "cf1dc0142303f80fd412b49f66a65da3",
+        "passage_rank": 5,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "2750826f80939aaa6a053eb0d6b43972",
+        "sentence_text": "Experiments performed on Chinese Facebook data and English online debate forum data show that UTCNN achieves a 0.755 macro-average f-score for supportive, neutral, and unsupportive stance classes on Facebook data, which is significantly better than models in which either user, topic, or comment information is withheld.",
+        "sentence_token_cost": 63,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 508
+      },
+      {
+        "cross_encoder_score": -11.426582336425781,
+        "dataset": "QASPER",
+        "end_char": 934,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "cf1dc0142303f80fd412b49f66a65da3",
+        "passage_rank": 5,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "0933a99fd8fdf329282dc5aa93570ea3",
+        "sentence_text": "This model design greatly mitigates the lack of data for the minor class without the use of oversampling.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 829
+      },
+      {
+        "cross_encoder_score": -11.205940246582031,
+        "dataset": "QASPER",
+        "end_char": 1186,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "cf1dc0142303f80fd412b49f66a65da3",
+        "passage_rank": 5,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "c761ef16782afc037d9850c2f262218d",
+        "sentence_text": "In addition, UTCNN yields a 0.842 accuracy on English online debate forum data, which also significantly outperforms results from previous work as well as other deep learning models, showing that UTCNN performs well regardless of language or platform.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 935
+      },
+      {
+        "cross_encoder_score": -11.378339767456055,
+        "dataset": "QASPER",
+        "end_char": 1287,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "cf1dc0142303f80fd412b49f66a65da3",
+        "passage_rank": 5,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "757c14c73775b0c74cd571623d602827",
+        "sentence_text": "Introduction\t This work is licenced under a Creative Commons Attribution 4.0 International License.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1188
+      },
+      {
+        "cross_encoder_score": -11.17361068725586,
+        "dataset": "QASPER",
+        "end_char": 1304,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "cf1dc0142303f80fd412b49f66a65da3",
+        "passage_rank": 5,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "a06616f8fe7a9577385a1a7ffee7921e",
+        "sentence_text": "License details:",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1288
+      },
+      {
+        "cross_encoder_score": -11.435872077941895,
+        "dataset": "QASPER",
+        "end_char": 1459,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "b4414d235317639809df75c9d285d404",
+        "passage_rank": 3,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "9f447d39a038f9056e8336b536a8374b",
+        "sentence_text": "http://creativecommons.org/licenses/by/4.0/ Deep neural networks have been widely used in text classification and have achieved promising results  ,  ,  .",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1305
+      },
+      {
+        "cross_encoder_score": -11.314788818359375,
+        "dataset": "QASPER",
+        "end_char": 1585,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "b4414d235317639809df75c9d285d404",
+        "passage_rank": 3,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "7438b8cb4e693b3d14ffcd58eea8a0eb",
+        "sentence_text": "Most focus on content information and use models such as convolutional neural networks (CNN)  or recursive neural networks  .",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1460
+      },
+      {
+        "cross_encoder_score": -10.70281982421875,
+        "dataset": "QASPER",
+        "end_char": 1715,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "b4414d235317639809df75c9d285d404",
+        "passage_rank": 3,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "c564ac3278bd3f0b002da284eb0cf2e5",
+        "sentence_text": "However, for user-generated posts on social media like Facebook or Twitter, there is more information that should not be ignored.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1586
+      },
+      {
+        "cross_encoder_score": -11.300413131713867,
+        "dataset": "QASPER",
+        "end_char": 1853,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "b4414d235317639809df75c9d285d404",
+        "passage_rank": 3,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "c9b5ea57f05241b7f62086fa6f078f1a",
+        "sentence_text": "On social media platforms, a user can act either as the author of a post or as a reader who expresses his or her comments about the post.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1716
+      },
+      {
+        "cross_encoder_score": -9.985209465026855,
+        "dataset": "QASPER",
+        "end_char": 1952,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "b4414d235317639809df75c9d285d404",
+        "passage_rank": 3,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "383434d85e4100c8100620b4c6fa7570",
+        "sentence_text": "In this paper, we classify posts taking into account post authorship, likes, topics, and comments.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 1854
+      },
+      {
+        "cross_encoder_score": -11.060853004455566,
+        "dataset": "QASPER",
+        "end_char": 2030,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "b4414d235317639809df75c9d285d404",
+        "passage_rank": 3,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "043fa5836fad55cdb309eab2866dae56",
+        "sentence_text": "In particular, users and their \u201clikes\u201d hold strong potential for text mining.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 1953
+      },
+      {
+        "cross_encoder_score": -10.213180541992188,
+        "dataset": "QASPER",
+        "end_char": 2165,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "b4414d235317639809df75c9d285d404",
+        "passage_rank": 3,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "a31677a9cdc8d9e43afd53a04f226e3b",
+        "sentence_text": "For example, given a set of posts that are related to a specific topic, a user's likes and dislikes provide clues for stance labeling.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2031
+      },
+      {
+        "cross_encoder_score": -11.216314315795898,
+        "dataset": "QASPER",
+        "end_char": 2404,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "b4414d235317639809df75c9d285d404",
+        "passage_rank": 3,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "28f13840a146340caff8326d2c650f4f",
+        "sentence_text": "From a user point of view, users with positive attitudes toward the issue leave positive comments on the posts with praise or even just the post's content; from a post point of view, positive posts attract users who hold positive stances.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2166
+      },
+      {
+        "cross_encoder_score": -10.725137710571289,
+        "dataset": "QASPER",
+        "end_char": 2539,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "b4414d235317639809df75c9d285d404",
+        "passage_rank": 3,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "cea51b9d5890f2726cb0490cea92dcb2",
+        "sentence_text": "We also investigate the influence of topics: different topics are associated with different stance labeling tendencies and word usage.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          1,
+          8,
+          0
+        ],
+        "source_position": 2405
+      },
+      {
+        "cross_encoder_score": -9.763166427612305,
+        "dataset": "QASPER",
+        "end_char": 2610,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "b4414d235317639809df75c9d285d404",
+        "passage_rank": 3,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "d7ed7e890a1d77ae68ef501decd306ff",
+        "sentence_text": "For example we discuss women's rights and unwanted babies on the topic",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          1,
+          9,
+          0
+        ],
+        "source_position": 2540
+      },
+      {
+        "cross_encoder_score": -11.030146598815918,
+        "dataset": "QASPER",
+        "end_char": 2698,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "08114c7c4541912fb88fb758bfda72b0",
+        "passage_rank": 9,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "26005ba5c9c65b17cb3045f320d3ca45",
+        "sentence_text": "of abortion, but we criticize medicine usage or crime when on the topic of marijuana  .",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2611
+      },
+      {
+        "cross_encoder_score": -9.923791885375977,
+        "dataset": "QASPER",
+        "end_char": 2839,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "08114c7c4541912fb88fb758bfda72b0",
+        "passage_rank": 9,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "c56e4643c83773b07726b5707409842f",
+        "sentence_text": "Even for posts on a specific topic like nuclear power, a variety of arguments are raised: green energy, radiation, air pollution, and so on.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2699
+      },
+      {
+        "cross_encoder_score": -11.102415084838867,
+        "dataset": "QASPER",
+        "end_char": 2902,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "08114c7c4541912fb88fb758bfda72b0",
+        "passage_rank": 9,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "8b116acd4bd42d24ef80c34d69c09bce",
+        "sentence_text": "As for comments, we treat them as additional text information.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 2840
+      },
+      {
+        "cross_encoder_score": -11.343146324157715,
+        "dataset": "QASPER",
+        "end_char": 3068,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "08114c7c4541912fb88fb758bfda72b0",
+        "passage_rank": 9,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "f88a3e986988b1243651b1d4ce32b1cd",
+        "sentence_text": "The arguments in the comments and the commenters (the users who leave the comments) provide hints on the post's content and further facilitate stance classification.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 2903
+      },
+      {
+        "cross_encoder_score": -10.8208646774292,
+        "dataset": "QASPER",
+        "end_char": 3215,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "08114c7c4541912fb88fb758bfda72b0",
+        "passage_rank": 9,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "ff68cc3a296a59579694e7b7a2aab6ec",
+        "sentence_text": "In this paper, we propose the user-topic-comment neural network (UTCNN), a deep learning model that utilizes user, topic, and comment information.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3069
+      },
+      {
+        "cross_encoder_score": -10.710521697998047,
+        "dataset": "QASPER",
+        "end_char": 3403,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "08114c7c4541912fb88fb758bfda72b0",
+        "passage_rank": 9,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "80b4d3e80a1907d39f7e82d99d5b8afe",
+        "sentence_text": "We attempt to learn user and topic representations which encode user interactions and topic influences to further enhance text classification, and we also incorporate comment information.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3216
+      },
+      {
+        "cross_encoder_score": -11.224883079528809,
+        "dataset": "QASPER",
+        "end_char": 3502,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "08114c7c4541912fb88fb758bfda72b0",
+        "passage_rank": 9,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "d00c801058502d6b2dcd9281ff218a98",
+        "sentence_text": "We evaluate this model on a post stance classification task on forum-style social media platforms.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3404
+      },
+      {
+        "cross_encoder_score": -11.196500778198242,
+        "dataset": "QASPER",
+        "end_char": 3553,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "08114c7c4541912fb88fb758bfda72b0",
+        "passage_rank": 9,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "21e276395104d53bff3a6b8c306f9482",
+        "sentence_text": "The contributions of this paper are as follows: 1.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3503
+      },
+      {
+        "cross_encoder_score": -11.204719543457031,
+        "dataset": "QASPER",
+        "end_char": 3768,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "08114c7c4541912fb88fb758bfda72b0",
+        "passage_rank": 9,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "388b4bca066b440073ccb27c9df09135",
+        "sentence_text": "We propose UTCNN, a neural network for text in modern social media channels as well as legacy social media, forums, and message boards \u2014 anywhere that reveals users, their tastes, as well as their replies to posts.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 3554
+      },
+      {
+        "cross_encoder_score": -9.618515968322754,
+        "dataset": "QASPER",
+        "end_char": 3771,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "08114c7c4541912fb88fb758bfda72b0",
+        "passage_rank": 9,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "ad20fc994789e58ce749630a69023933",
+        "sentence_text": "2.",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          2,
+          9,
+          0
+        ],
+        "source_position": 3769
+      },
+      {
+        "cross_encoder_score": -11.142840385437012,
+        "dataset": "QASPER",
+        "end_char": 3864,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "08114c7c4541912fb88fb758bfda72b0",
+        "passage_rank": 9,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "ebb01ea1a0b1d5fc65041e28da27645d",
+        "sentence_text": "When classifying social media post stances, we leverage users, including authors and likers.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          2,
+          10,
+          0
+        ],
+        "source_position": 3772
+      },
+      {
+        "cross_encoder_score": -11.37192153930664,
+        "dataset": "QASPER",
+        "end_char": 3934,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "08114c7c4541912fb88fb758bfda72b0",
+        "passage_rank": 9,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "e624fa1c3257b14b021ee064129aed8f",
+        "sentence_text": "User embeddings can be generated even for users who have never posted",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          2,
+          11,
+          0
+        ],
+        "source_position": 3865
+      },
+      {
+        "cross_encoder_score": -11.283376693725586,
+        "dataset": "QASPER",
+        "end_char": 5296,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "371c8229ac3c91aa07e6993db2da5965",
+        "passage_rank": 1,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "cc5e7b0e415c12b08f2d5a1529b041e7",
+        "sentence_text": "to model relationships between posts.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "source_position": 5259
+      },
+      {
+        "cross_encoder_score": -11.43787670135498,
+        "dataset": "QASPER",
+        "end_char": 5638,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "371c8229ac3c91aa07e6993db2da5965",
+        "passage_rank": 1,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "14dc7a762917057ce74a0c5b88f08e4f",
+        "sentence_text": "For example, Hasan and Ng use hidden Markov models (HMMs) to model dependent relationships to the preceding post  ; Burfoot et al. use iterative classification to repeatedly generate new estimates based on the current state of knowledge  ; Sridhar et al. use probabilistic soft logic (PSL) to model reply links via collaborative filtering  .",
+        "sentence_token_cost": 72,
+        "source_order": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "source_position": 5297
+      },
+      {
+        "cross_encoder_score": -8.676980972290039,
+        "dataset": "QASPER",
+        "end_char": 5712,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "371c8229ac3c91aa07e6993db2da5965",
+        "passage_rank": 1,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "cfe57088fd31b164511b1658acad3313",
+        "sentence_text": "In the Facebook dataset we study, we use comments instead of reply links.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "source_position": 5639
+      },
+      {
+        "cross_encoder_score": -11.436052322387695,
+        "dataset": "QASPER",
+        "end_char": 5880,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "371c8229ac3c91aa07e6993db2da5965",
+        "passage_rank": 1,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "683bbaf6ec5df6cb65e5c54c796b563c",
+        "sentence_text": "However, as the ultimate goal in this paper is predicting not comment stance but post stance, we treat comments as extra information for use in predicting post stance.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "source_position": 5713
+      },
+      {
+        "cross_encoder_score": -11.436443328857422,
+        "dataset": "QASPER",
+        "end_char": 6032,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "371c8229ac3c91aa07e6993db2da5965",
+        "passage_rank": 1,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "f3e1dd08c6863d0a7701be5c1df01ee3",
+        "sentence_text": "Deep Learning on Extra-Linguistic Features\tIn recent years neural network models have been applied to document sentiment classification  ,  ,  ,  ,  .",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "source_position": 5882
+      },
+      {
+        "cross_encoder_score": -11.398612022399902,
+        "dataset": "QASPER",
+        "end_char": 6115,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "371c8229ac3c91aa07e6993db2da5965",
+        "passage_rank": 1,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "6bde01b5627d2b95fa5637ac0aa34554",
+        "sentence_text": "Text features can be used in deep networks to capture text semantics or sentiment.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          4,
+          5,
+          0
+        ],
+        "source_position": 6033
+      },
+      {
+        "cross_encoder_score": -11.09739875793457,
+        "dataset": "QASPER",
+        "end_char": 6551,
+        "pair_tokens_before_truncation": 98,
+        "pair_truncated": false,
+        "passage_id": "371c8229ac3c91aa07e6993db2da5965",
+        "passage_rank": 1,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "00f211c07124fd2737a21067aa054909",
+        "sentence_text": "For example, Dong et al. use an adaptive layer in a recursive neural network for target-dependent Twitter sentiment analysis, where targets are topics such as windows 7 or taylor swift  ,  ; recursive neural tensor networks (RNTNs) utilize sentence parse trees to capture sentence-level sentiment for movie reviews  ; Le and Mikolov predict sentiment by using paragraph vectors to model each paragraph as a continuous representation  .",
+        "sentence_token_cost": 84,
+        "source_order": [
+          0,
+          4,
+          6,
+          0
+        ],
+        "source_position": 6116
+      },
+      {
+        "cross_encoder_score": -10.354576110839844,
+        "dataset": "QASPER",
+        "end_char": 6561,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "371c8229ac3c91aa07e6993db2da5965",
+        "passage_rank": 1,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "a334dc615655fe78dfc3328327bfd6c2",
+        "sentence_text": "They show",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          4,
+          7,
+          0
+        ],
+        "source_position": 6552
+      },
+      {
+        "cross_encoder_score": -11.195272445678711,
+        "dataset": "QASPER",
+        "end_char": 13255,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "ffe4273b915a9ab09716419c6d764413",
+        "passage_rank": 4,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "87b2b2336ac877985eca67da7d27e700",
+        "sentence_text": "or merging layers.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 13237
+      },
+      {
+        "cross_encoder_score": -11.43493938446045,
+        "dataset": "QASPER",
+        "end_char": 13324,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "ffe4273b915a9ab09716419c6d764413",
+        "passage_rank": 4,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "2dbcf8178ce798d740da0ef542e5783d",
+        "sentence_text": "Indeed, we believe this is one reason for UTCNN's performance gains.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 13256
+      },
+      {
+        "cross_encoder_score": -11.151905059814453,
+        "dataset": "QASPER",
+        "end_char": 13601,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "ffe4273b915a9ab09716419c6d764413",
+        "passage_rank": 4,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "556f4290612a83b09e563872e77e81d4",
+        "sentence_text": "Finally, the pooled comment representation, together with user vector embedding INLINEFORM0 , topic vector embedding INLINEFORM1 , and document representation are fed to a fully connected network, and softmax is applied to yield the final stance label prediction for the post.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 13325
+      },
+      {
+        "cross_encoder_score": -11.451528549194336,
+        "dataset": "QASPER",
+        "end_char": 13739,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "ffe4273b915a9ab09716419c6d764413",
+        "passage_rank": 4,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "2ecb1620048e16e2d07655ca70a9678c",
+        "sentence_text": "Experiment\tWe start with the experimental dataset and then describe the training process as well as the implementation of the baselines.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 13603
+      },
+      {
+        "cross_encoder_score": -11.37348461151123,
+        "dataset": "QASPER",
+        "end_char": 13853,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "ffe4273b915a9ab09716419c6d764413",
+        "passage_rank": 4,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "03a26afaeff86cf8536fe2da2457e8dc",
+        "sentence_text": "We also implement several variations to reveal the effects of features: authors, likers, comment, and commenters.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 13740
+      },
+      {
+        "cross_encoder_score": -11.411458015441895,
+        "dataset": "QASPER",
+        "end_char": 13916,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "ffe4273b915a9ab09716419c6d764413",
+        "passage_rank": 4,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "cf4fd9aa4ccf4912d044458c919e0f1f",
+        "sentence_text": "In the results section we compare our model with related work.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 13854
+      },
+      {
+        "cross_encoder_score": -11.440869331359863,
+        "dataset": "QASPER",
+        "end_char": 14006,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "ffe4273b915a9ab09716419c6d764413",
+        "passage_rank": 4,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "9bc6c3ae6ed4afff341c82742d5bf66d",
+        "sentence_text": "Dataset\tWe tested the proposed UTCNN on two different datasets: FBFans and CreateDebate.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 13918
+      },
+      {
+        "cross_encoder_score": 1.332736849784851,
+        "dataset": "QASPER",
+        "end_char": 14172,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "ffe4273b915a9ab09716419c6d764413",
+        "passage_rank": 4,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "7e99aa8d777bf74c0fd749e4a580ff8a",
+        "sentence_text": "FBFans is a privately-owned, single-topic, Chinese, unbalanced, social media dataset, and CreateDebate is a public, multiple-topic, English, balanced, forum dataset.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 14007
+      },
+      {
+        "cross_encoder_score": -10.817970275878906,
+        "dataset": "QASPER",
+        "end_char": 14312,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "ffe4273b915a9ab09716419c6d764413",
+        "passage_rank": 4,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "25af681f4f14debb495696b61c71a65e",
+        "sentence_text": "Results using these two datasets show the applicability and superiority for different topics, languages, data distributions, and platforms.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          10,
+          8,
+          0
+        ],
+        "source_position": 14173
+      },
+      {
+        "cross_encoder_score": 2.4050698280334473,
+        "dataset": "QASPER",
+        "end_char": 14481,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "ffe4273b915a9ab09716419c6d764413",
+        "passage_rank": 4,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "b64bd0907c0c1859de2452246bda78ee",
+        "sentence_text": "The FBFans dataset contains data from anti-nuclear-power Chinese Facebook fan groups from September 2013 to August 2014, including posts and their author and liker IDs.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          10,
+          9,
+          0
+        ],
+        "source_position": 14313
+      },
+      {
+        "cross_encoder_score": -10.27779769897461,
+        "dataset": "QASPER",
+        "end_char": 14502,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "ffe4273b915a9ab09716419c6d764413",
+        "passage_rank": 4,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "82a485e51c20f900f58734e5e2a779f5",
+        "sentence_text": "There are a total of",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          10,
+          10,
+          0
+        ],
+        "source_position": 14482
+      },
+      {
+        "cross_encoder_score": -11.263020515441895,
+        "dataset": "QASPER",
+        "end_char": 15694,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "f2c845c433f249c84c7bcdf66e0c63b1",
+        "passage_rank": 2,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "8a7608c741cb792a95c3abfbe17e29b9",
+        "sentence_text": "posts was much larger than that of the unsupportive (Uns) ones: this is thus highly skewed data, which complicates stance classification.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 15557
+      },
+      {
+        "cross_encoder_score": -10.578169822692871,
+        "dataset": "QASPER",
+        "end_char": 15745,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "f2c845c433f249c84c7bcdf66e0c63b1",
+        "passage_rank": 2,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "1c5cc9ca4eb9fcae8356bb341baad354",
+        "sentence_text": "On average, 161.1 users were involved in one post.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 15695
+      },
+      {
+        "cross_encoder_score": -11.179883003234863,
+        "dataset": "QASPER",
+        "end_char": 15806,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "f2c845c433f249c84c7bcdf66e0c63b1",
+        "passage_rank": 2,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "b5498f258a8337302a0dc28655d53837",
+        "sentence_text": "The maximum was 23,297 and the minimum was one (the author).",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 15746
+      },
+      {
+        "cross_encoder_score": -11.24341106414795,
+        "dataset": "QASPER",
+        "end_char": 15863,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "f2c845c433f249c84c7bcdf66e0c63b1",
+        "passage_rank": 2,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "c59ac38338870ec4e1f1a1f5550a65be",
+        "sentence_text": "For comments, on average there were 3 comments per post.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 15807
+      },
+      {
+        "cross_encoder_score": -11.145687103271484,
+        "dataset": "QASPER",
+        "end_char": 15911,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "f2c845c433f249c84c7bcdf66e0c63b1",
+        "passage_rank": 2,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "60ba28bb3145456710edf4ac2ea1fcfd",
+        "sentence_text": "The maximum was 1,092 and the minimum was zero.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 15864
+      },
+      {
+        "cross_encoder_score": -11.410158157348633,
+        "dataset": "QASPER",
+        "end_char": 16087,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "f2c845c433f249c84c7bcdf66e0c63b1",
+        "passage_rank": 2,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "df133e67f07bfce660e068466257a7bf",
+        "sentence_text": "To test whether the assumption of this paper \u2013 posts attract users who hold the same stance to like them \u2013 is reliable, we examine the likes from authors of different stances.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 15912
+      },
+      {
+        "cross_encoder_score": -11.288003921508789,
+        "dataset": "QASPER",
+        "end_char": 16139,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "f2c845c433f249c84c7bcdf66e0c63b1",
+        "passage_rank": 2,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "5aae13ac8b2617555d3e0661d0c76285",
+        "sentence_text": "Posts in FBFans dataset are used for this analysis.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 16088
+      },
+      {
+        "cross_encoder_score": -11.352707862854004,
+        "dataset": "QASPER",
+        "end_char": 16221,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "f2c845c433f249c84c7bcdf66e0c63b1",
+        "passage_rank": 2,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "8b07e7c15d7decf01308510d320ce668",
+        "sentence_text": "We calculate the like statistics of each distinct author from these 32,595 posts.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          12,
+          7,
+          0
+        ],
+        "source_position": 16140
+      },
+      {
+        "cross_encoder_score": -11.31571102142334,
+        "dataset": "QASPER",
+        "end_char": 16371,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "f2c845c433f249c84c7bcdf66e0c63b1",
+        "passage_rank": 2,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "a0fc6f5c492bffbd6b3396b25f9a979c",
+        "sentence_text": "As the numbers of authors in the Sup, Neu and Uns stances are largely imbalanced, these numbers are normalized by the number of users of each stance.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          12,
+          8,
+          0
+        ],
+        "source_position": 16222
+      },
+      {
+        "cross_encoder_score": -11.18072509765625,
+        "dataset": "QASPER",
+        "end_char": 16405,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "f2c845c433f249c84c7bcdf66e0c63b1",
+        "passage_rank": 2,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "918e30ed20c9997b8391abf60ee2c141",
+        "sentence_text": "Table TABREF13 shows the results.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          12,
+          9,
+          0
+        ],
+        "source_position": 16372
+      },
+      {
+        "cross_encoder_score": -11.267887115478516,
+        "dataset": "QASPER",
+        "end_char": 16478,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "f2c845c433f249c84c7bcdf66e0c63b1",
+        "passage_rank": 2,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "1818b0d848b9da417a85edc06716abdc",
+        "sentence_text": "Posts with stances (i.e., not neutral) attract users of the same stance.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          12,
+          10,
+          0
+        ],
+        "source_position": 16406
+      },
+      {
+        "cross_encoder_score": -11.355838775634766,
+        "dataset": "QASPER",
+        "end_char": 16647,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "f2c845c433f249c84c7bcdf66e0c63b1",
+        "passage_rank": 2,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "acc2822616d3106a6b53f114a5a9f745",
+        "sentence_text": "Neutral posts also attract both supportive and neutral users, like what we observe in supportive posts, but just the neutral posts can attract even more neutral likers.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          12,
+          11,
+          0
+        ],
+        "source_position": 16479
+      },
+      {
+        "cross_encoder_score": -10.65176010131836,
+        "dataset": "QASPER",
+        "end_char": 16683,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "f2c845c433f249c84c7bcdf66e0c63b1",
+        "passage_rank": 2,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "c010d0596868fba7f5322103b2df395d",
+        "sentence_text": "These results do suggest that users",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          12,
+          12,
+          0
+        ],
+        "source_position": 16648
+      },
+      {
+        "cross_encoder_score": -11.392738342285156,
+        "dataset": "QASPER",
+        "end_char": 16850,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "c25a533014333d849d4f1ebc6e393edc",
+        "passage_rank": 8,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "8576587b81df321d6f2b42b769ff5c93",
+        "sentence_text": "prefer posts of the same stance, or at least posts of no obvious stance which might cause annoyance when reading, and hence support the user modeling in our approach.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "source_position": 16684
+      },
+      {
+        "cross_encoder_score": -6.148285388946533,
+        "dataset": "QASPER",
+        "end_char": 17017,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "c25a533014333d849d4f1ebc6e393edc",
+        "passage_rank": 8,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "aedf743782ad0c5ff07e75d91cc133fc",
+        "sentence_text": "The CreateDebate dataset was collected from an English online debate forum discussing four topics: abortion (ABO), gay rights (GAY), Obama (OBA), and marijuana (MAR).",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          13,
+          1,
+          0
+        ],
+        "source_position": 16851
+      },
+      {
+        "cross_encoder_score": -11.040396690368652,
+        "dataset": "QASPER",
+        "end_char": 17069,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "c25a533014333d849d4f1ebc6e393edc",
+        "passage_rank": 8,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "7d21eea8a802dfd65afbb9c80a08447a",
+        "sentence_text": "The posts are annotated as for (F) and against (A).",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          13,
+          2,
+          0
+        ],
+        "source_position": 17018
+      },
+      {
+        "cross_encoder_score": -11.169790267944336,
+        "dataset": "QASPER",
+        "end_char": 17176,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "c25a533014333d849d4f1ebc6e393edc",
+        "passage_rank": 8,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "cbe89dd1a5adebeac749448973fc20d6",
+        "sentence_text": "Replies to posts in this dataset are also labeled with stance and hence use the same data format as posts.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          13,
+          3,
+          0
+        ],
+        "source_position": 17070
+      },
+      {
+        "cross_encoder_score": -11.393193244934082,
+        "dataset": "QASPER",
+        "end_char": 17250,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "c25a533014333d849d4f1ebc6e393edc",
+        "passage_rank": 8,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "3f2481726e7c3f0e077f77f825563508",
+        "sentence_text": "The labeling results are shown in the right-hand side of Table TABREF12 .",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          13,
+          4,
+          0
+        ],
+        "source_position": 17177
+      },
+      {
+        "cross_encoder_score": -11.361263275146484,
+        "dataset": "QASPER",
+        "end_char": 17320,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "c25a533014333d849d4f1ebc6e393edc",
+        "passage_rank": 8,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "e47d1db18a732f5fd047f4581bcb89db",
+        "sentence_text": "We observe that the dataset is more balanced than the FBFans dataset.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          13,
+          5,
+          0
+        ],
+        "source_position": 17251
+      },
+      {
+        "cross_encoder_score": -10.316079139709473,
+        "dataset": "QASPER",
+        "end_char": 17376,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "c25a533014333d849d4f1ebc6e393edc",
+        "passage_rank": 8,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "5f9bf8770df21ed37a3a71c1e5048058",
+        "sentence_text": "In addition, there are 977 unique users in the dataset.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          13,
+          6,
+          0
+        ],
+        "source_position": 17321
+      },
+      {
+        "cross_encoder_score": -11.47113037109375,
+        "dataset": "QASPER",
+        "end_char": 17529,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "c25a533014333d849d4f1ebc6e393edc",
+        "passage_rank": 8,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "d8880470b85c541c8b21446bd8937551",
+        "sentence_text": "To compare with Hasan and Ng's work, we conducted five-fold cross-validation and present the annotation results as the average number of all folds  ,  .",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          13,
+          7,
+          0
+        ],
+        "source_position": 17377
+      },
+      {
+        "cross_encoder_score": -11.413182258605957,
+        "dataset": "QASPER",
+        "end_char": 17682,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "c25a533014333d849d4f1ebc6e393edc",
+        "passage_rank": 8,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "01fdf0924f8d44408beeffbd6d8eeb02",
+        "sentence_text": "The FBFans dataset has more integrated functions than the CreateDebate dataset; thus our model can utilize all linguistic and extra-linguistic features.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          13,
+          8,
+          0
+        ],
+        "source_position": 17530
+      },
+      {
+        "cross_encoder_score": -11.31618881225586,
+        "dataset": "QASPER",
+        "end_char": 17882,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "c25a533014333d849d4f1ebc6e393edc",
+        "passage_rank": 8,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "297e866a0de866df1dc1e0ef83eaa68f",
+        "sentence_text": "For the CreateDebate dataset, on the other hand, the like and comment features are not available (as there is a stance label for each reply, replies are evaluated as posts as other previous work) but",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          13,
+          9,
+          0
+        ],
+        "source_position": 17683
+      },
+      {
+        "cross_encoder_score": -9.846577644348145,
+        "dataset": "QASPER",
+        "end_char": 17963,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "268ad1f59716a3f98c43d5768d52f65c",
+        "passage_rank": 6,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "e77b4325c7cf4abb5c5708374fee1cae",
+        "sentence_text": "we still implemented our model using the content, author, and topic information.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 17883
+      },
+      {
+        "cross_encoder_score": -11.44751262664795,
+        "dataset": "QASPER",
+        "end_char": 18078,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "268ad1f59716a3f98c43d5768d52f65c",
+        "passage_rank": 6,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "54e1013ff6cc83a690b992fd820ce4dc",
+        "sentence_text": "Settings\tIn the UTCNN training process, cross-entropy was used as the loss function and AdaGrad as the optimizer.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 17965
+      },
+      {
+        "cross_encoder_score": -11.419599533081055,
+        "dataset": "QASPER",
+        "end_char": 18335,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "268ad1f59716a3f98c43d5768d52f65c",
+        "passage_rank": 6,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "718b1754063419e142ec049809b571b9",
+        "sentence_text": "For FBFans dataset, we learned the 50-dimensional word embeddings on the whole dataset using GloVe  to capture the word semantics; for CreateDebate dataset we used the publicly available English 50-dimensional word embeddings, pre-trained also using GloVe.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          0,
+          14,
+          2,
+          0
+        ],
+        "source_position": 18079
+      },
+      {
+        "cross_encoder_score": -11.459383010864258,
+        "dataset": "QASPER",
+        "end_char": 18393,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "268ad1f59716a3f98c43d5768d52f65c",
+        "passage_rank": 6,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "05eb2c72058fa19c4fbe09fc52d439b1",
+        "sentence_text": "These word embeddings were fixed in the training process.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          14,
+          3,
+          0
+        ],
+        "source_position": 18336
+      },
+      {
+        "cross_encoder_score": -11.323271751403809,
+        "dataset": "QASPER",
+        "end_char": 18428,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "268ad1f59716a3f98c43d5768d52f65c",
+        "passage_rank": 6,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "4f7b4eb06fd7877b2669b99ac1dd4831",
+        "sentence_text": "The learning rate was set to 0.03.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          14,
+          4,
+          0
+        ],
+        "source_position": 18394
+      },
+      {
+        "cross_encoder_score": -9.418647766113281,
+        "dataset": "QASPER",
+        "end_char": 18512,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "268ad1f59716a3f98c43d5768d52f65c",
+        "passage_rank": 6,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "fe3026a5e034cb0a0bc4da9d9e9409b0",
+        "sentence_text": "All user and topic embeddings were randomly initialized in the range of [-0.1 0.1].",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          14,
+          5,
+          0
+        ],
+        "source_position": 18429
+      },
+      {
+        "cross_encoder_score": -11.103354454040527,
+        "dataset": "QASPER",
+        "end_char": 18648,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "268ad1f59716a3f98c43d5768d52f65c",
+        "passage_rank": 6,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "0ebdfdaa7b66a59cc9f0b8a436aa20dd",
+        "sentence_text": "Matrix embeddings for users and topics were sized at 250 ( INLINEFORM0 ); vector embeddings for users and topics were set to length 10.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          14,
+          6,
+          0
+        ],
+        "source_position": 18513
+      },
+      {
+        "cross_encoder_score": -9.396800994873047,
+        "dataset": "QASPER",
+        "end_char": 18835,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "268ad1f59716a3f98c43d5768d52f65c",
+        "passage_rank": 6,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "5fced3c644f28dc0467f10b2ba6de345",
+        "sentence_text": "We applied the LDA topic model  on the FBFans dataset to determine the latent topics with which to build topic embeddings, as there is only one general known topic: nuclear power plants.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          14,
+          7,
+          0
+        ],
+        "source_position": 18649
+      },
+      {
+        "cross_encoder_score": -10.252669334411621,
+        "dataset": "QASPER",
+        "end_char": 18913,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "268ad1f59716a3f98c43d5768d52f65c",
+        "passage_rank": 6,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "2da7fd1284af2c6145942252ab87f395",
+        "sentence_text": "We learned 100 latent topics and assigned the top three topics for each post.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          14,
+          8,
+          0
+        ],
+        "source_position": 18836
+      },
+      {
+        "cross_encoder_score": -7.214038848876953,
+        "dataset": "QASPER",
+        "end_char": 19062,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "268ad1f59716a3f98c43d5768d52f65c",
+        "passage_rank": 6,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "a66d6348240269a54d3036539bf59a5a",
+        "sentence_text": "For the CreateDebate dataset, which itself constitutes four topics, the topic labels for posts were used directly without additionally applying LDA.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          14,
+          9,
+          0
+        ],
+        "source_position": 18914
+      },
+      {
+        "cross_encoder_score": -9.938431739807129,
+        "dataset": "QASPER",
+        "end_char": 19070,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "268ad1f59716a3f98c43d5768d52f65c",
+        "passage_rank": 6,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "999da488c5acbe0ad980d01d8bd96960",
+        "sentence_text": "For the",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          14,
+          10,
+          0
+        ],
+        "source_position": 19063
+      },
+      {
+        "cross_encoder_score": -11.178449630737305,
+        "dataset": "QASPER",
+        "end_char": 22926,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "c2aaf1c4e0d97d9c94c1ec809859da49",
+        "passage_rank": 10,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "a3e6ff1e8b34f45c4a9bdb5300adc438",
+        "sentence_text": "especially useful when the dataset is highly imbalanced.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          18,
+          0,
+          0
+        ],
+        "source_position": 22870
+      },
+      {
+        "cross_encoder_score": -11.41751766204834,
+        "dataset": "QASPER",
+        "end_char": 23009,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "c2aaf1c4e0d97d9c94c1ec809859da49",
+        "passage_rank": 10,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "1ff7b1813006577f237feb22ceb1dc87",
+        "sentence_text": "All models that consider user information predict the minority class successfully.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          18,
+          1,
+          0
+        ],
+        "source_position": 22927
+      },
+      {
+        "cross_encoder_score": -11.245182991027832,
+        "dataset": "QASPER",
+        "end_char": 23110,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "c2aaf1c4e0d97d9c94c1ec809859da49",
+        "passage_rank": 10,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "bf93dbb1b0485f24305d090c740a1ba6",
+        "sentence_text": "UCTNN without topic information works well but achieves lower performance than the full UTCNN model.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          18,
+          2,
+          0
+        ],
+        "source_position": 23010
+      },
+      {
+        "cross_encoder_score": -10.827524185180664,
+        "dataset": "QASPER",
+        "end_char": 23367,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "c2aaf1c4e0d97d9c94c1ec809859da49",
+        "passage_rank": 10,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "e1997349617d7fd38ef5142f047a680d",
+        "sentence_text": "The 4.9% performance gain brought by LDA shows that although it is satisfactory for single topic datasets, adding that latent topics still benefits performance: even when we are discussing the same topic, we use different arguments and supporting evidence.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          18,
+          3,
+          0
+        ],
+        "source_position": 23111
+      },
+      {
+        "cross_encoder_score": -11.225300788879395,
+        "dataset": "QASPER",
+        "end_char": 23558,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "c2aaf1c4e0d97d9c94c1ec809859da49",
+        "passage_rank": 10,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "6514402a3d0725ab2ea89bc6b5d9980c",
+        "sentence_text": "Lastly, we get 4.8% improvement when adding comment information and it achieves comparable performance to UTCNN without topic information, which shows that comments also benefit performance.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          18,
+          4,
+          0
+        ],
+        "source_position": 23368
+      },
+      {
+        "cross_encoder_score": -11.391046524047852,
+        "dataset": "QASPER",
+        "end_char": 23682,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "c2aaf1c4e0d97d9c94c1ec809859da49",
+        "passage_rank": 10,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "e9dcf6025e20412b984e45aa661ca181",
+        "sentence_text": "For platforms where user IDs are pixelated or otherwise hidden, adding comments to a text model still improves performance.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          18,
+          5,
+          0
+        ],
+        "source_position": 23559
+      },
+      {
+        "cross_encoder_score": -11.413418769836426,
+        "dataset": "QASPER",
+        "end_char": 23910,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "c2aaf1c4e0d97d9c94c1ec809859da49",
+        "passage_rank": 10,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "f168262b6a3c99aa16a747793b59d0e2",
+        "sentence_text": "In its integration of user, content, and comment information, the full UTCNN produces the highest f-scores on all Sup, Neu, and Uns stances among models that predict the Uns class, and the highest macro-average f-score overall.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          18,
+          6,
+          0
+        ],
+        "source_position": 23683
+      },
+      {
+        "cross_encoder_score": -10.748504638671875,
+        "dataset": "QASPER",
+        "end_char": 24113,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "c2aaf1c4e0d97d9c94c1ec809859da49",
+        "passage_rank": 10,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "2ca1c16db4ccba03ad2f8887cd9f3653",
+        "sentence_text": "This shows its ability to balance a biased dataset and supports our claim that UTCNN successfully bridges content and user, topic, and comment information for stance classification on social media text.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          18,
+          7,
+          0
+        ],
+        "source_position": 23911
+      },
+      {
+        "cross_encoder_score": -11.368861198425293,
+        "dataset": "QASPER",
+        "end_char": 24190,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "c2aaf1c4e0d97d9c94c1ec809859da49",
+        "passage_rank": 10,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "f5b1ba17ca5b62aa43a0d79f5a058a96",
+        "sentence_text": "Another merit of UTCNN is that it does not require a balanced training data.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          18,
+          8,
+          0
+        ],
+        "source_position": 24114
+      },
+      {
+        "cross_encoder_score": -11.32780647277832,
+        "dataset": "QASPER",
+        "end_char": 24249,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "c2aaf1c4e0d97d9c94c1ec809859da49",
+        "passage_rank": 10,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "516c1e436628db3e75e425a4a1dc6978",
+        "sentence_text": "This is supported by its outperforming other models though",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          18,
+          9,
+          0
+        ],
+        "source_position": 24191
+      },
+      {
+        "cross_encoder_score": -11.405064582824707,
+        "dataset": "QASPER",
+        "end_char": 25650,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "3723110e9b9505bd4e52ffcfb8d7d23b",
+        "passage_rank": 7,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "ec8c113ee5a96e6bf2057a5803e50441",
+        "sentence_text": "user: one for the author/liker role and the other for the commenter role.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          20,
+          0,
+          0
+        ],
+        "source_position": 25577
+      },
+      {
+        "cross_encoder_score": -11.452054023742676,
+        "dataset": "QASPER",
+        "end_char": 25821,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "3723110e9b9505bd4e52ffcfb8d7d23b",
+        "passage_rank": 7,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "7ee1033f2c3a8d7f90bff1ec1c4ab06c",
+        "sentence_text": "Results on CreateDebate Dataset\tTable TABREF24 shows the results of UTCNN, baselines as we implemented on the FBFans datset and related work on the CreateDebate dataset.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          20,
+          1,
+          0
+        ],
+        "source_position": 25652
+      },
+      {
+        "cross_encoder_score": -11.425409317016602,
+        "dataset": "QASPER",
+        "end_char": 25919,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "3723110e9b9505bd4e52ffcfb8d7d23b",
+        "passage_rank": 7,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "cb93151df791b29dab8d67b1f083ce1c",
+        "sentence_text": "We do not adopt oversampling on these models because the CreateDebate dataset is almost balanced.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          20,
+          2,
+          0
+        ],
+        "source_position": 25822
+      },
+      {
+        "cross_encoder_score": -11.215254783630371,
+        "dataset": "QASPER",
+        "end_char": 26484,
+        "pair_tokens_before_truncation": 123,
+        "pair_truncated": false,
+        "passage_id": "3723110e9b9505bd4e52ffcfb8d7d23b",
+        "passage_rank": 7,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "ae16c4c04bf07b3f71acf7ace40169ec",
+        "sentence_text": "In previous work, integer linear programming (ILP) or linear-chain conditional random fields (CRFs) were proposed to integrate text features, author, ideology, and user-interaction constraints, where text features are unigram, bigram, and POS-dependencies; the author constraint tends to require that posts from the same author for the same topic hold the same stance; the ideology constraint aims to capture inferences between topics for the same author; the user-interaction constraint models relationships among posts via user interactions such as replies  ,  .",
+        "sentence_token_cost": 108,
+        "source_order": [
+          0,
+          20,
+          3,
+          0
+        ],
+        "source_position": 25920
+      },
+      {
+        "cross_encoder_score": -11.464363098144531,
+        "dataset": "QASPER",
+        "end_char": 26577,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "3723110e9b9505bd4e52ffcfb8d7d23b",
+        "passage_rank": 7,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "2db5aaf388180b0c15d67e1cd6ac8e92",
+        "sentence_text": "The SVM with n-gram or average word embedding feature performs just similar to the majority.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          20,
+          4,
+          0
+        ],
+        "source_position": 26485
+      },
+      {
+        "cross_encoder_score": -11.436792373657227,
+        "dataset": "QASPER",
+        "end_char": 26653,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "3723110e9b9505bd4e52ffcfb8d7d23b",
+        "passage_rank": 7,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "e416bd70e0e9be367055d2e6049686df",
+        "sentence_text": "However, with the transformed word embedding, it achieves superior results.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          20,
+          5,
+          0
+        ],
+        "source_position": 26578
+      },
+      {
+        "cross_encoder_score": -10.19136905670166,
+        "dataset": "QASPER",
+        "end_char": 26750,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "3723110e9b9505bd4e52ffcfb8d7d23b",
+        "passage_rank": 7,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "c644b0dc36a50ca81878e09f04eb7c60",
+        "sentence_text": "It shows that the learned user and topic embeddings really capture the user and topic semantics.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          20,
+          6,
+          0
+        ],
+        "source_position": 26654
+      },
+      {
+        "cross_encoder_score": -11.353909492492676,
+        "dataset": "QASPER",
+        "end_char": 26856,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "3723110e9b9505bd4e52ffcfb8d7d23b",
+        "passage_rank": 7,
+        "query_id": "37a79be0148e1751ffb2daabe4c8ec6680036106",
+        "sentence_id": "8bd5d8a4b4c6d75e0a8cf92657111aa5",
+        "sentence_text": "This finding is not so obvious in the FBFans dataset and it might be due to the unfavorable data skewness",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          20,
+          7,
+          0
+        ],
+        "source_position": 26751
+      }
+    ],
+    "scoring_seconds": 0.45272089703939855,
+    "source_fingerprint": "51c6f24c6922578fc3ed2841c4af14b6fe27875031aeadc203555b54d45194b0"
+  }
+}

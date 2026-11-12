@@ -1,0 +1,2331 @@
+{
+  "checksum": "e2052b1478ff2f390582f7de65b5c49fb7e2f702c7da73b4c0ecfbe9397c3dcd",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "212"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 115,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "91c14b129db1953040f653b5fbbeed6e98d312ff2e57e8bb0a63e2018c32faaf",
+    "query_id": "212",
+    "scores": [
+      {
+        "cross_encoder_score": -8.818207740783691,
+        "dataset": "SciFact",
+        "end_char": 122,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "2f5082fab790c31f3b4d1959dea013b8",
+        "passage_rank": 8,
+        "query_id": "212",
+        "sentence_id": "474c4d0dbe10cbf409d6398dbee4eada",
+        "sentence_text": "Age\u2010associated microRNA expression in human peripheral blood is associated with all\u2010cause mortality and age\u2010related traits",
+        "sentence_token_cost": 22,
+        "source_order": [
+          124,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.481420516967773,
+        "dataset": "SciFact",
+        "end_char": 246,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "2f5082fab790c31f3b4d1959dea013b8",
+        "passage_rank": 8,
+        "query_id": "212",
+        "sentence_id": "891b00712a3bdb1e019113993b1b549c",
+        "sentence_text": "Recent studies provide evidence of correlations of DNA methylation and expression of protein-coding genes with human aging.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          124,
+          0,
+          1,
+          0
+        ],
+        "source_position": 123
+      },
+      {
+        "cross_encoder_score": -10.25709342956543,
+        "dataset": "SciFact",
+        "end_char": 366,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "2f5082fab790c31f3b4d1959dea013b8",
+        "passage_rank": 8,
+        "query_id": "212",
+        "sentence_id": "a12c36299e378ba9acdc55495538b1bf",
+        "sentence_text": "The relations of microRNA expression with age and age-related clinical outcomes have not been characterized thoroughly.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          124,
+          0,
+          2,
+          0
+        ],
+        "source_position": 247
+      },
+      {
+        "cross_encoder_score": -8.552684783935547,
+        "dataset": "SciFact",
+        "end_char": 563,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "2f5082fab790c31f3b4d1959dea013b8",
+        "passage_rank": 8,
+        "query_id": "212",
+        "sentence_id": "4125e8e05e2ab8f7bed067143233f1e3",
+        "sentence_text": "We explored associations of age with whole-blood microRNA expression in 5221 adults and identified 127 microRNAs that were differentially expressed by age at P < 3.3 \u00d7 10-4 (Bonferroni-corrected).",
+        "sentence_token_cost": 56,
+        "source_order": [
+          124,
+          0,
+          3,
+          0
+        ],
+        "source_position": 367
+      },
+      {
+        "cross_encoder_score": -11.015109062194824,
+        "dataset": "SciFact",
+        "end_char": 620,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "2f5082fab790c31f3b4d1959dea013b8",
+        "passage_rank": 8,
+        "query_id": "212",
+        "sentence_id": "ff29031078ac51910ef044fbe1c36720",
+        "sentence_text": "Most microRNAs were underexpressed in older individuals.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          124,
+          0,
+          4,
+          0
+        ],
+        "source_position": 564
+      },
+      {
+        "cross_encoder_score": -10.4672212600708,
+        "dataset": "SciFact",
+        "end_char": 843,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "2f5082fab790c31f3b4d1959dea013b8",
+        "passage_rank": 8,
+        "query_id": "212",
+        "sentence_id": "4afb0e34e3db9ca238c1d6dc8077044b",
+        "sentence_text": "Integrative analysis of microRNA and mRNA expression revealed changes in age-associated mRNA expression possibly driven by age-associated microRNAs in pathways that involve RNA processing, translation, and immune function.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          124,
+          0,
+          5,
+          0
+        ],
+        "source_position": 621
+      },
+      {
+        "cross_encoder_score": -10.801512718200684,
+        "dataset": "SciFact",
+        "end_char": 947,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "2f5082fab790c31f3b4d1959dea013b8",
+        "passage_rank": 8,
+        "query_id": "212",
+        "sentence_id": "48073002000baff1309347d54543836c",
+        "sentence_text": "We fitted a linear model to predict 'microRNA age' that incorporated expression levels of 80 microRNAs.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          124,
+          0,
+          6,
+          0
+        ],
+        "source_position": 844
+      },
+      {
+        "cross_encoder_score": -3.7780985832214355,
+        "dataset": "SciFact",
+        "end_char": 1148,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "2f5082fab790c31f3b4d1959dea013b8",
+        "passage_rank": 8,
+        "query_id": "212",
+        "sentence_id": "3cfd8f5524847e27650b14410204d9a1",
+        "sentence_text": "MicroRNA age correlated modestly with predicted age from DNA methylation (r = 0.3) and mRNA expression (r = 0.2), suggesting that microRNA age may complement mRNA and epigenetic age prediction models.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          124,
+          0,
+          7,
+          0
+        ],
+        "source_position": 948
+      },
+      {
+        "cross_encoder_score": -8.349193572998047,
+        "dataset": "SciFact",
+        "end_char": 1413,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "2f5082fab790c31f3b4d1959dea013b8",
+        "passage_rank": 8,
+        "query_id": "212",
+        "sentence_id": "6e99d2b079734c7f5499273c47223f2a",
+        "sentence_text": "We used the difference between microRNA age and chronological age as a biomarker of accelerated aging (\u0394age) and found that \u0394age was associated with all-cause mortality (hazards ratio 1.1 per year difference, P = 4.2 \u00d7 10-5 adjusted for sex and chronological age).",
+        "sentence_token_cost": 66,
+        "source_order": [
+          124,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1149
+      },
+      {
+        "cross_encoder_score": -9.252094268798828,
+        "dataset": "SciFact",
+        "end_char": 1526,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "2f5082fab790c31f3b4d1959dea013b8",
+        "passage_rank": 8,
+        "query_id": "212",
+        "sentence_id": "27bccb2743049bd78e8469dd339d5e2a",
+        "sentence_text": "Additionally, \u0394age was associated with coronary heart disease, hypertension, blood pressure, and glucose levels.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          124,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1414
+      },
+      {
+        "cross_encoder_score": -11.13979721069336,
+        "dataset": "SciFact",
+        "end_char": 1640,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "2f5082fab790c31f3b4d1959dea013b8",
+        "passage_rank": 8,
+        "query_id": "212",
+        "sentence_id": "a23da2581db6a3b9253e849d61d0cdb5",
+        "sentence_text": "In conclusion, we constructed a microRNA age prediction model based on whole-blood microRNA expression profiling.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          124,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1527
+      },
+      {
+        "cross_encoder_score": -10.101825714111328,
+        "dataset": "SciFact",
+        "end_char": 1781,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "2f5082fab790c31f3b4d1959dea013b8",
+        "passage_rank": 8,
+        "query_id": "212",
+        "sentence_id": "7d76c3fddec0edb877e8cb6d224c34b2",
+        "sentence_text": "Age-associated microRNAs and their targets have potential utility to detect accelerated aging and to predict risks for age-related diseases.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          124,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1641
+      },
+      {
+        "cross_encoder_score": -10.834248542785645,
+        "dataset": "SciFact",
+        "end_char": 134,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "7ad6e9d14e738ec5d4513f6f964a5841",
+        "passage_rank": 7,
+        "query_id": "212",
+        "sentence_id": "d0438ec3c8df17c4fdf7439e3ab724e9",
+        "sentence_text": "Diverse interventions that extend mouse lifespan suppress shared age-associated epigenetic changes at critical gene regulatory regions",
+        "sentence_token_cost": 20,
+        "source_order": [
+          848,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.146185874938965,
+        "dataset": "SciFact",
+        "end_char": 204,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "7ad6e9d14e738ec5d4513f6f964a5841",
+        "passage_rank": 7,
+        "query_id": "212",
+        "sentence_id": "d801e14ddd4a75aef9c8161f5f88b0de",
+        "sentence_text": "BACKGROUND Age-associated epigenetic changes are implicated in aging.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          848,
+          0,
+          1,
+          0
+        ],
+        "source_position": 135
+      },
+      {
+        "cross_encoder_score": 0.964430570602417,
+        "dataset": "SciFact",
+        "end_char": 317,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "7ad6e9d14e738ec5d4513f6f964a5841",
+        "passage_rank": 7,
+        "query_id": "212",
+        "sentence_id": "6e4a3941ab987eb8bff5745605dd0159",
+        "sentence_text": "Notably, age-associated DNA methylation changes comprise a so-called aging \"clock\", a robust biomarker of aging.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          848,
+          0,
+          2,
+          0
+        ],
+        "source_position": 205
+      },
+      {
+        "cross_encoder_score": -11.343317031860352,
+        "dataset": "SciFact",
+        "end_char": 443,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "7ad6e9d14e738ec5d4513f6f964a5841",
+        "passage_rank": 7,
+        "query_id": "212",
+        "sentence_id": "43916fa7e5308561413976cb4c924665",
+        "sentence_text": "However, while genetic, dietary and drug interventions can extend lifespan, their impact on the epigenome is uncharacterised.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          848,
+          0,
+          3,
+          0
+        ],
+        "source_position": 318
+      },
+      {
+        "cross_encoder_score": 0.32129719853401184,
+        "dataset": "SciFact",
+        "end_char": 730,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "7ad6e9d14e738ec5d4513f6f964a5841",
+        "passage_rank": 7,
+        "query_id": "212",
+        "sentence_id": "8c942188d85cfd17860910cf2aa203c5",
+        "sentence_text": "To fill this knowledge gap, we defined age-associated DNA methylation changes at the whole-genome, single-nucleotide level in mouse liver and tested the impact of longevity-promoting interventions, specifically the Ames dwarf Prop1 df/df mutation, calorie restriction and rapamycin.   \n",
+        "sentence_token_cost": 57,
+        "source_order": [
+          848,
+          0,
+          4,
+          0
+        ],
+        "source_position": 444
+      },
+      {
+        "cross_encoder_score": -9.887121200561523,
+        "dataset": "SciFact",
+        "end_char": 913,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "7ad6e9d14e738ec5d4513f6f964a5841",
+        "passage_rank": 7,
+        "query_id": "212",
+        "sentence_id": "afef5632c27d797847e0d556d144b82f",
+        "sentence_text": "RESULTS In wild-type mice fed an unsupplemented ad libitum diet, age-associated hypomethylation was enriched at super-enhancers in highly expressed genes critical for liver function.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          848,
+          0,
+          5,
+          0
+        ],
+        "source_position": 731
+      },
+      {
+        "cross_encoder_score": -10.400531768798828,
+        "dataset": "SciFact",
+        "end_char": 1012,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "7ad6e9d14e738ec5d4513f6f964a5841",
+        "passage_rank": 7,
+        "query_id": "212",
+        "sentence_id": "84b8e6251ba6ae948830c0b668ca0181",
+        "sentence_text": "Genes harbouring hypomethylated enhancers were enriched for genes that change expression with age.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          848,
+          0,
+          6,
+          0
+        ],
+        "source_position": 914
+      },
+      {
+        "cross_encoder_score": -10.370769500732422,
+        "dataset": "SciFact",
+        "end_char": 1174,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "7ad6e9d14e738ec5d4513f6f964a5841",
+        "passage_rank": 7,
+        "query_id": "212",
+        "sentence_id": "78d0ad2247d4c788b93a8c5d7928d2dd",
+        "sentence_text": "Hypermethylation was enriched at CpG islands marked with bivalent activating and repressing histone modifications and resembled hypermethylation in liver cancer.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          848,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1013
+      },
+      {
+        "cross_encoder_score": 0.45049405097961426,
+        "dataset": "SciFact",
+        "end_char": 1340,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "7ad6e9d14e738ec5d4513f6f964a5841",
+        "passage_rank": 7,
+        "query_id": "212",
+        "sentence_id": "83861771049224ca29bb8633ceaa8ce1",
+        "sentence_text": "Age-associated methylation changes are suppressed in Ames dwarf and calorie restricted mice and more selectively and less specifically in rapamycin treated mice.   \n",
+        "sentence_token_cost": 28,
+        "source_order": [
+          848,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1175
+      },
+      {
+        "cross_encoder_score": -5.439751625061035,
+        "dataset": "SciFact",
+        "end_char": 1454,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "7ad6e9d14e738ec5d4513f6f964a5841",
+        "passage_rank": 7,
+        "query_id": "212",
+        "sentence_id": "b5c3618cf1a951bc958c37c0348861d8",
+        "sentence_text": "CONCLUSIONS Age-associated hypo- and hypermethylation events occur at distinct regulatory features of the genome.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          848,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1341
+      },
+      {
+        "cross_encoder_score": -1.3324962854385376,
+        "dataset": "SciFact",
+        "end_char": 1725,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "7ad6e9d14e738ec5d4513f6f964a5841",
+        "passage_rank": 7,
+        "query_id": "212",
+        "sentence_id": "a2fd904dd9d7d4ea4f435cdc0a863483",
+        "sentence_text": "Distinct longevity-promoting interventions, specifically genetic, dietary and drug interventions, suppress some age-associated methylation changes, consistent with the idea that these interventions exert their beneficial effects, in part, by modulation of the epigenome.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          848,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1455
+      },
+      {
+        "cross_encoder_score": -6.241567134857178,
+        "dataset": "SciFact",
+        "end_char": 1879,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "7ad6e9d14e738ec5d4513f6f964a5841",
+        "passage_rank": 7,
+        "query_id": "212",
+        "sentence_id": "4349463e0fd9a23b3d62343c82a8dc7b",
+        "sentence_text": "This study is a foundation to understand the epigenetic contribution to healthy aging and longevity and the molecular basis of the DNA methylation clock.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          848,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1726
+      },
+      {
+        "cross_encoder_score": -5.3124003410339355,
+        "dataset": "SciFact",
+        "end_char": 130,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "9918d5660fdc8b763161bd4d8a49b45c",
+        "passage_rank": 6,
+        "query_id": "212",
+        "sentence_id": "1c492273ffde00640671999cefbf4e03",
+        "sentence_text": "DNA Methylation in the Human Cerebral Cortex Is Dynamically Regulated throughout the Life Span and Involves Differentiated Neurons",
+        "sentence_token_cost": 27,
+        "source_order": [
+          907,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.228292942047119,
+        "dataset": "SciFact",
+        "end_char": 305,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "9918d5660fdc8b763161bd4d8a49b45c",
+        "passage_rank": 6,
+        "query_id": "212",
+        "sentence_id": "4a5f4db87aa81d316d33edb84669d5b8",
+        "sentence_text": "The role of DNA cytosine methylation, an epigenetic regulator of chromatin structure and function, during normal and pathological brain development and aging remains unclear.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          907,
+          0,
+          1,
+          0
+        ],
+        "source_position": 131
+      },
+      {
+        "cross_encoder_score": -2.0176868438720703,
+        "dataset": "SciFact",
+        "end_char": 564,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "9918d5660fdc8b763161bd4d8a49b45c",
+        "passage_rank": 6,
+        "query_id": "212",
+        "sentence_id": "2626aa5fc62513ea6b1193e8dc002176",
+        "sentence_text": "Here, we examined by MethyLight PCR the DNA methylation status at 50 loci, encompassing primarily 5\u2032 CpG islands of genes related to CNS growth and development, in temporal neocortex of 125 subjects ranging in age from 17 weeks of gestation to 104 years old.",
+        "sentence_token_cost": 69,
+        "source_order": [
+          907,
+          0,
+          2,
+          0
+        ],
+        "source_position": 306
+      },
+      {
+        "cross_encoder_score": -11.369619369506836,
+        "dataset": "SciFact",
+        "end_char": 694,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "9918d5660fdc8b763161bd4d8a49b45c",
+        "passage_rank": 6,
+        "query_id": "212",
+        "sentence_id": "35b1c18379e8da6fc25205227e3e600d",
+        "sentence_text": "Two psychiatric disease cohorts\u2014defined by chronic neurodegeneration (Alzheimer's) or lack thereof (schizophrenia)\u2014were included.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          907,
+          0,
+          3,
+          0
+        ],
+        "source_position": 565
+      },
+      {
+        "cross_encoder_score": -2.402238368988037,
+        "dataset": "SciFact",
+        "end_char": 929,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "9918d5660fdc8b763161bd4d8a49b45c",
+        "passage_rank": 6,
+        "query_id": "212",
+        "sentence_id": "b3b54a2218570c16fa2811e3a84c8fc4",
+        "sentence_text": "A robust and progressive rise in DNA methylation levels across the lifespan was observed for 8/50 loci (GABRA2, GAD1, HOXA1, NEUROD1, NEUROD2, PGR, STK11, SYK) typically in conjunction with declining levels of the corresponding mRNAs.",
+        "sentence_token_cost": 73,
+        "source_order": [
+          907,
+          0,
+          4,
+          0
+        ],
+        "source_position": 695
+      },
+      {
+        "cross_encoder_score": -4.951829433441162,
+        "dataset": "SciFact",
+        "end_char": 1050,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "9918d5660fdc8b763161bd4d8a49b45c",
+        "passage_rank": 6,
+        "query_id": "212",
+        "sentence_id": "f925efc895f32cb9d62aee3f6ea1c454",
+        "sentence_text": "Another 16 loci were defined by a sharp rise in DNA methylation levels within the first few months or years after birth.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          907,
+          0,
+          5,
+          0
+        ],
+        "source_position": 930
+      },
+      {
+        "cross_encoder_score": -9.684765815734863,
+        "dataset": "SciFact",
+        "end_char": 1215,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "9918d5660fdc8b763161bd4d8a49b45c",
+        "passage_rank": 6,
+        "query_id": "212",
+        "sentence_id": "53b389b134cd2922779b9992d9a6778d",
+        "sentence_text": "Disease-associated changes were limited to 2/50 loci in the Alzheimer's cohort, which appeared to reflect an acceleration of the age-related change in normal brain.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          907,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1051
+      },
+      {
+        "cross_encoder_score": -0.024227596819400787,
+        "dataset": "SciFact",
+        "end_char": 1471,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "9918d5660fdc8b763161bd4d8a49b45c",
+        "passage_rank": 6,
+        "query_id": "212",
+        "sentence_id": "025c220753257fa7427f9e1855f9edb3",
+        "sentence_text": "Additionally, methylation studies on sorted nuclei provided evidence for bidirectional methylation events in cortical neurons during the transition from childhood to advanced age, as reflected by significant increases at 3, and a decrease at 1 of 10 loci.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          907,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1216
+      },
+      {
+        "cross_encoder_score": -7.9821295738220215,
+        "dataset": "SciFact",
+        "end_char": 1638,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "9918d5660fdc8b763161bd4d8a49b45c",
+        "passage_rank": 6,
+        "query_id": "212",
+        "sentence_id": "7cdaea51d2ad7dfeee729aa3af721977",
+        "sentence_text": "Furthermore, the DNMT3a de novo DNA methyl-transferase was expressed across all ages, including a subset of neurons residing in layers III and V of the mature cortex.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          907,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1472
+      },
+      {
+        "cross_encoder_score": -2.1636624336242676,
+        "dataset": "SciFact",
+        "end_char": 1862,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "9918d5660fdc8b763161bd4d8a49b45c",
+        "passage_rank": 6,
+        "query_id": "212",
+        "sentence_id": "559c88f0faaee20fb87dea064e45331a",
+        "sentence_text": "Therefore, DNA methylation is dynamically regulated in the human cerebral cortex throughout the lifespan, involves differentiated neurons, and affects a substantial portion of genes predominantly by an age-related increase.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          907,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1639
+      },
+      {
+        "cross_encoder_score": -3.212498903274536,
+        "dataset": "SciFact",
+        "end_char": 51,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "3dcf64d8c85386e7f8deb704f4b4929b",
+        "passage_rank": 2,
+        "query_id": "212",
+        "sentence_id": "8f50b35e14b24ccc76af5b8d75ce7293",
+        "sentence_text": "DNA methylation age of human tissues and cell types",
+        "sentence_token_cost": 10,
+        "source_order": [
+          1407,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.5069420337677,
+        "dataset": "SciFact",
+        "end_char": 291,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "3dcf64d8c85386e7f8deb704f4b4929b",
+        "passage_rank": 2,
+        "query_id": "212",
+        "sentence_id": "551457fb37c82cacb0d632f861e5733a",
+        "sentence_text": "BACKGROUND It is not yet known whether DNA methylation levels can be used to accurately predict age across a broad spectrum of human tissues and cell types, nor whether the resulting age prediction is a biologically meaningful measure.   \n",
+        "sentence_token_cost": 43,
+        "source_order": [
+          1407,
+          0,
+          1,
+          0
+        ],
+        "source_position": 52
+      },
+      {
+        "cross_encoder_score": -4.085732936859131,
+        "dataset": "SciFact",
+        "end_char": 427,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "3dcf64d8c85386e7f8deb704f4b4929b",
+        "passage_rank": 2,
+        "query_id": "212",
+        "sentence_id": "9f415867344882ea55bcc657c67d0dfa",
+        "sentence_text": "RESULTS I developed a multi-tissue predictor of age that allows one to estimate the DNA methylation age of most tissues and cell types.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          1407,
+          0,
+          2,
+          0
+        ],
+        "source_position": 292
+      },
+      {
+        "cross_encoder_score": -8.838969230651855,
+        "dataset": "SciFact",
+        "end_char": 600,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "3dcf64d8c85386e7f8deb704f4b4929b",
+        "passage_rank": 2,
+        "query_id": "212",
+        "sentence_id": "c706a40e0ec44a55d771d6781a1927a4",
+        "sentence_text": "The predictor, which is freely available, was developed using 8,000 samples from 82 Illumina DNA methylation array datasets, encompassing 51 healthy tissues and cell types.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          1407,
+          0,
+          3,
+          0
+        ],
+        "source_position": 428
+      },
+      {
+        "cross_encoder_score": -0.06885062158107758,
+        "dataset": "SciFact",
+        "end_char": 913,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "3dcf64d8c85386e7f8deb704f4b4929b",
+        "passage_rank": 2,
+        "query_id": "212",
+        "sentence_id": "79f33e7d37895acd6b185c7aaac8f371",
+        "sentence_text": "I found that DNA methylation age has the following properties: first, it is close to zero for embryonic and induced pluripotent stem cells; second, it correlates with cell passage number; third, it gives rise to a highly heritable measure of age acceleration; and, fourth, it is applicable to chimpanzee tissues.",
+        "sentence_token_cost": 66,
+        "source_order": [
+          1407,
+          0,
+          4,
+          0
+        ],
+        "source_position": 601
+      },
+      {
+        "cross_encoder_score": -10.758426666259766,
+        "dataset": "SciFact",
+        "end_char": 1080,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "3dcf64d8c85386e7f8deb704f4b4929b",
+        "passage_rank": 2,
+        "query_id": "212",
+        "sentence_id": "d84b0b18434ea1ff2874cbb82af0c17e",
+        "sentence_text": "Analysis of 6,000 cancer samples from 32 datasets showed that all of the considered 20 cancer types exhibit significant age acceleration, with an average of 36 years.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          1407,
+          0,
+          5,
+          0
+        ],
+        "source_position": 914
+      },
+      {
+        "cross_encoder_score": 1.951258897781372,
+        "dataset": "SciFact",
+        "end_char": 1286,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "3dcf64d8c85386e7f8deb704f4b4929b",
+        "passage_rank": 2,
+        "query_id": "212",
+        "sentence_id": "09f199b1c56c9a0650cc0e8bd8fcec51",
+        "sentence_text": "Low age-acceleration of cancer tissue is associated with a high number of somatic mutations and TP53 mutations, while mutations in steroid receptors greatly accelerate DNA methylation age in breast cancer.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          1407,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1081
+      },
+      {
+        "cross_encoder_score": -11.217597007751465,
+        "dataset": "SciFact",
+        "end_char": 1416,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "3dcf64d8c85386e7f8deb704f4b4929b",
+        "passage_rank": 2,
+        "query_id": "212",
+        "sentence_id": "8899aa2c652e0b6513fa115dc80e8ef7",
+        "sentence_text": "Finally, I characterize the 353 CpG sites that together form an aging clock in terms of chromatin states and tissue variance.   \n",
+        "sentence_token_cost": 29,
+        "source_order": [
+          1407,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1287
+      },
+      {
+        "cross_encoder_score": -2.328784704208374,
+        "dataset": "SciFact",
+        "end_char": 1531,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "3dcf64d8c85386e7f8deb704f4b4929b",
+        "passage_rank": 2,
+        "query_id": "212",
+        "sentence_id": "5330c7e979ee7262f1650ec4178211b8",
+        "sentence_text": "CONCLUSIONS I propose that DNA methylation age measures the cumulative effect of an epigenetic maintenance system.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1407,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1417
+      },
+      {
+        "cross_encoder_score": -11.349099159240723,
+        "dataset": "SciFact",
+        "end_char": 1655,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "3dcf64d8c85386e7f8deb704f4b4929b",
+        "passage_rank": 2,
+        "query_id": "212",
+        "sentence_id": "0f25183d123e3c74e1fc07ec359e24d4",
+        "sentence_text": "This novel epigenetic clock can be used to address a host of questions in developmental biology, cancer and aging research.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          1407,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1532
+      },
+      {
+        "cross_encoder_score": -5.40169095993042,
+        "dataset": "SciFact",
+        "end_char": 40,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "0630cd90943f0face53b9bb7007cb070",
+        "passage_rank": 3,
+        "query_id": "212",
+        "sentence_id": "0df2072b3a7ed1795ca0e2f9dafab790",
+        "sentence_text": " DNA methylation and healthy human aging",
+        "sentence_token_cost": 7,
+        "source_order": [
+          1628,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.672381401062012,
+        "dataset": "SciFact",
+        "end_char": 207,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "0630cd90943f0face53b9bb7007cb070",
+        "passage_rank": 3,
+        "query_id": "212",
+        "sentence_id": "8043f39562134c054a80657df11a286d",
+        "sentence_text": "The process of aging results in a host of changes at the cellular and molecular levels, which include senescence, telomere shortening, and changes in gene expression.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          1628,
+          0,
+          1,
+          0
+        ],
+        "source_position": 41
+      },
+      {
+        "cross_encoder_score": -11.235774993896484,
+        "dataset": "SciFact",
+        "end_char": 353,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "0630cd90943f0face53b9bb7007cb070",
+        "passage_rank": 3,
+        "query_id": "212",
+        "sentence_id": "57484e665ea4e17b79284e074711a720",
+        "sentence_text": "Epigenetic patterns also change over the lifespan, suggesting that epigenetic changes may constitute an important component of the aging process.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          1628,
+          0,
+          2,
+          0
+        ],
+        "source_position": 208
+      },
+      {
+        "cross_encoder_score": -6.792444705963135,
+        "dataset": "SciFact",
+        "end_char": 479,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "0630cd90943f0face53b9bb7007cb070",
+        "passage_rank": 3,
+        "query_id": "212",
+        "sentence_id": "82e548fa1d6ca8f5d81eb2e024d84e85",
+        "sentence_text": "The epigenetic mark that has been most highly studied is DNA methylation, the presence of methyl groups at CpG dinucleotides.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          1628,
+          0,
+          3,
+          0
+        ],
+        "source_position": 354
+      },
+      {
+        "cross_encoder_score": -11.113739013671875,
+        "dataset": "SciFact",
+        "end_char": 580,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "0630cd90943f0face53b9bb7007cb070",
+        "passage_rank": 3,
+        "query_id": "212",
+        "sentence_id": "aa02aa13dc89b8da5c5fc33e03bcd472",
+        "sentence_text": "These dinucleotides are often located near gene promoters and associate with gene expression levels.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          1628,
+          0,
+          4,
+          0
+        ],
+        "source_position": 480
+      },
+      {
+        "cross_encoder_score": -3.9618520736694336,
+        "dataset": "SciFact",
+        "end_char": 731,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "0630cd90943f0face53b9bb7007cb070",
+        "passage_rank": 3,
+        "query_id": "212",
+        "sentence_id": "91dcafccecb4a92680402d885a4db3a7",
+        "sentence_text": "Early studies indicated that global levels of DNA methylation increase over the first few years of life and then decrease beginning in late adulthood.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          1628,
+          0,
+          5,
+          0
+        ],
+        "source_position": 581
+      },
+      {
+        "cross_encoder_score": -2.212916851043701,
+        "dataset": "SciFact",
+        "end_char": 950,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "0630cd90943f0face53b9bb7007cb070",
+        "passage_rank": 3,
+        "query_id": "212",
+        "sentence_id": "2f5eb9378b811303c2db38d48423cccc",
+        "sentence_text": "Recently, with the advent of microarray and next-generation sequencing technologies, increases in variability of DNA methylation with age have been observed, and a number of site-specific patterns have been identified.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          1628,
+          0,
+          6,
+          0
+        ],
+        "source_position": 732
+      },
+      {
+        "cross_encoder_score": -7.652440071105957,
+        "dataset": "SciFact",
+        "end_char": 1160,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "0630cd90943f0face53b9bb7007cb070",
+        "passage_rank": 3,
+        "query_id": "212",
+        "sentence_id": "a6dbc5d1abef01fe3df4a0e1593c9b69",
+        "sentence_text": "It has also been shown that certain CpG sites are highly associated with age, to the extent that prediction models using a small number of these sites can accurately predict the chronological age of the donor.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          1628,
+          0,
+          7,
+          0
+        ],
+        "source_position": 951
+      },
+      {
+        "cross_encoder_score": -1.5582749843597412,
+        "dataset": "SciFact",
+        "end_char": 1333,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "0630cd90943f0face53b9bb7007cb070",
+        "passage_rank": 3,
+        "query_id": "212",
+        "sentence_id": "2600f23c07f36bfd1160ce4981a32a4d",
+        "sentence_text": "Together, these observations point to the existence of two phenomena that both contribute to age-related DNA methylation changes: epigenetic drift and the epigenetic clock.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          1628,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1161
+      },
+      {
+        "cross_encoder_score": -6.166395664215088,
+        "dataset": "SciFact",
+        "end_char": 1551,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "0630cd90943f0face53b9bb7007cb070",
+        "passage_rank": 3,
+        "query_id": "212",
+        "sentence_id": "e7f702e357be9a5dc94a20e19176221a",
+        "sentence_text": "In this review, we focus on healthy human aging throughout the lifetime and discuss the dynamics of DNA methylation as well as how interactions between the genome, environment, and the epigenome influence aging rates.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          1628,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1334
+      },
+      {
+        "cross_encoder_score": -10.720263481140137,
+        "dataset": "SciFact",
+        "end_char": 1694,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "0630cd90943f0face53b9bb7007cb070",
+        "passage_rank": 3,
+        "query_id": "212",
+        "sentence_id": "c9329d07bf21e828aab52678370a2e16",
+        "sentence_text": "We also discuss the impact of determining 'epigenetic age' for human health and outline some important caveats to existing and future studies.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          1628,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1552
+      },
+      {
+        "cross_encoder_score": -2.9048333168029785,
+        "dataset": "SciFact",
+        "end_char": 75,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "62bafd3574c0041c512e52fa6c6f33d4",
+        "passage_rank": 4,
+        "query_id": "212",
+        "sentence_id": "7388e279732979e7dd0f5416e654f2e7",
+        "sentence_text": "Widespread and tissue specific age-related DNA methylation changes in mice.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          1986,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -0.4464465081691742,
+        "dataset": "SciFact",
+        "end_char": 293,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "62bafd3574c0041c512e52fa6c6f33d4",
+        "passage_rank": 4,
+        "query_id": "212",
+        "sentence_id": "3317c28bebed0ce2a83f9c481b3ff164",
+        "sentence_text": "Aberrant methylation of promoter CpG islands in cancer is associated with silencing of tumor-suppressor genes, and age-dependent hypermethylation in normal appearing mucosa may be a risk factor for human colon cancer.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          1986,
+          0,
+          1,
+          0
+        ],
+        "source_position": 76
+      },
+      {
+        "cross_encoder_score": -0.9806941747665405,
+        "dataset": "SciFact",
+        "end_char": 391,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "62bafd3574c0041c512e52fa6c6f33d4",
+        "passage_rank": 4,
+        "query_id": "212",
+        "sentence_id": "b4f61fae5a8b0762667f45b51960e925",
+        "sentence_text": "It is not known whether this age-related DNA methylation phenomenon is specific to human tissues.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          1986,
+          0,
+          2,
+          0
+        ],
+        "source_position": 294
+      },
+      {
+        "cross_encoder_score": -7.428098201751709,
+        "dataset": "SciFact",
+        "end_char": 572,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "62bafd3574c0041c512e52fa6c6f33d4",
+        "passage_rank": 4,
+        "query_id": "212",
+        "sentence_id": "94d79a6c1d52e601667ce0e4e6fe8f48",
+        "sentence_text": "We performed comprehensive DNA methylation profiling of promoter regions in aging mouse intestine using methylated CpG island amplification in combination with microarray analysis.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          1986,
+          0,
+          3,
+          0
+        ],
+        "source_position": 392
+      },
+      {
+        "cross_encoder_score": -2.823560953140259,
+        "dataset": "SciFact",
+        "end_char": 766,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "62bafd3574c0041c512e52fa6c6f33d4",
+        "passage_rank": 4,
+        "query_id": "212",
+        "sentence_id": "0b2e6937cb649da49fc2591c51a4e641",
+        "sentence_text": "By comparing C57BL/6 mice at 3-mo-old versus 35-mo-old for 3627 detectable autosomal genes, we found 774 (21%) that showed increased methylation and 466 (13%) that showed decreased methylation.",
+        "sentence_token_cost": 64,
+        "source_order": [
+          1986,
+          0,
+          4,
+          0
+        ],
+        "source_position": 573
+      },
+      {
+        "cross_encoder_score": -3.9965007305145264,
+        "dataset": "SciFact",
+        "end_char": 926,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "62bafd3574c0041c512e52fa6c6f33d4",
+        "passage_rank": 4,
+        "query_id": "212",
+        "sentence_id": "a2a57f12cd34608e72c7ea831e686567",
+        "sentence_text": "We used pyrosequencing to quantitatively validate the microarray data and confirmed linear age-related methylation changes for all 12 genomic regions examined.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          1986,
+          0,
+          5,
+          0
+        ],
+        "source_position": 767
+      },
+      {
+        "cross_encoder_score": -1.3235450983047485,
+        "dataset": "SciFact",
+        "end_char": 1013,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "62bafd3574c0041c512e52fa6c6f33d4",
+        "passage_rank": 4,
+        "query_id": "212",
+        "sentence_id": "2757c797b0dd0c6273b11648496be8ed",
+        "sentence_text": "We then examined 11 changed genomic loci for age-related methylation in other tissues.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          1986,
+          0,
+          6,
+          0
+        ],
+        "source_position": 927
+      },
+      {
+        "cross_encoder_score": -11.37656307220459,
+        "dataset": "SciFact",
+        "end_char": 1187,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "62bafd3574c0041c512e52fa6c6f33d4",
+        "passage_rank": 4,
+        "query_id": "212",
+        "sentence_id": "54344ccb0335a9f0494b605241f4ee9b",
+        "sentence_text": "Of these, three of 11 showed similar changes in lung, seven of 11 changed in liver, and six of 11 changed in spleen, though to a lower degree than the changes seen in colon.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          1986,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1014
+      },
+      {
+        "cross_encoder_score": -7.691798210144043,
+        "dataset": "SciFact",
+        "end_char": 1378,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "62bafd3574c0041c512e52fa6c6f33d4",
+        "passage_rank": 4,
+        "query_id": "212",
+        "sentence_id": "b1cdf8068355995899b98c96987ff755",
+        "sentence_text": "There was partial conservation between age-related hypermethylation in human and mouse intestines, and Polycomb targets in embryonic stem cells were enriched among the hypermethylated genes.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          1986,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1188
+      },
+      {
+        "cross_encoder_score": -10.415251731872559,
+        "dataset": "SciFact",
+        "end_char": 1567,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "62bafd3574c0041c512e52fa6c6f33d4",
+        "passage_rank": 4,
+        "query_id": "212",
+        "sentence_id": "05e9bea48af9bbbf397c02d4b255eca5",
+        "sentence_text": "Our findings demonstrate a surprisingly high rate of hyper- and hypomethylation as a function of age in normal mouse small intestine tissues and a strong tissue-specificity to the process.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          1986,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1379
+      },
+      {
+        "cross_encoder_score": -10.712417602539062,
+        "dataset": "SciFact",
+        "end_char": 1649,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "62bafd3574c0041c512e52fa6c6f33d4",
+        "passage_rank": 4,
+        "query_id": "212",
+        "sentence_id": "7d49b7f03162d2340a822ab674925967",
+        "sentence_text": "We conclude that epigenetic deregulation is a common feature of aging in mammals.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          1986,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1568
+      },
+      {
+        "cross_encoder_score": -1.261507272720337,
+        "dataset": "SciFact",
+        "end_char": 107,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "f5a1ae868d837a7bef89c7335ebec9d2",
+        "passage_rank": 5,
+        "query_id": "212",
+        "sentence_id": "c8ac4fa84ddf0fd345fb21d6df17fd4c",
+        "sentence_text": "Age-Associated Sperm DNA Methylation Alterations: Possible Implications in Offspring Disease Susceptibility",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2388,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.993852615356445,
+        "dataset": "SciFact",
+        "end_char": 199,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "f5a1ae868d837a7bef89c7335ebec9d2",
+        "passage_rank": 5,
+        "query_id": "212",
+        "sentence_id": "a446672c2e739bdf52b42611026dbd63",
+        "sentence_text": "Recent evidence demonstrates a role for paternal aging on offspring disease susceptibility.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          2388,
+          0,
+          1,
+          0
+        ],
+        "source_position": 108
+      },
+      {
+        "cross_encoder_score": -8.927108764648438,
+        "dataset": "SciFact",
+        "end_char": 468,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "f5a1ae868d837a7bef89c7335ebec9d2",
+        "passage_rank": 5,
+        "query_id": "212",
+        "sentence_id": "53cc898de266b10c4c70505537b4a03a",
+        "sentence_text": "It is well established that various neuropsychiatric disorders (schizophrenia, autism, etc.), trinucleotide expansion associated diseases (myotonic dystrophy, Huntington's, etc.) and even some forms of cancer have increased incidence in the offspring of older fathers.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          2388,
+          0,
+          2,
+          0
+        ],
+        "source_position": 200
+      },
+      {
+        "cross_encoder_score": -11.165362358093262,
+        "dataset": "SciFact",
+        "end_char": 653,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "f5a1ae868d837a7bef89c7335ebec9d2",
+        "passage_rank": 5,
+        "query_id": "212",
+        "sentence_id": "72784722be92823effc07ba4de3fa642",
+        "sentence_text": "Despite strong epidemiological evidence that these alterations are more common in offspring sired by older fathers, in most cases the mechanisms that drive these processes are unclear.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          2388,
+          0,
+          3,
+          0
+        ],
+        "source_position": 469
+      },
+      {
+        "cross_encoder_score": -7.185405254364014,
+        "dataset": "SciFact",
+        "end_char": 770,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "f5a1ae868d837a7bef89c7335ebec9d2",
+        "passage_rank": 5,
+        "query_id": "212",
+        "sentence_id": "47e70b64d4a2ef23d89d833502930c4d",
+        "sentence_text": "However, it is commonly believed that epigenetics, and specifically DNA methylation alterations, likely play a role.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          2388,
+          0,
+          4,
+          0
+        ],
+        "source_position": 654
+      },
+      {
+        "cross_encoder_score": -4.805506229400635,
+        "dataset": "SciFact",
+        "end_char": 867,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "f5a1ae868d837a7bef89c7335ebec9d2",
+        "passage_rank": 5,
+        "query_id": "212",
+        "sentence_id": "c3e1639942c452d79ae3c2e1bd0078e9",
+        "sentence_text": "In this study we have investigated the impact of aging on DNA methylation in mature human sperm.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2388,
+          0,
+          5,
+          0
+        ],
+        "source_position": 771
+      },
+      {
+        "cross_encoder_score": -7.106280326843262,
+        "dataset": "SciFact",
+        "end_char": 1073,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "f5a1ae868d837a7bef89c7335ebec9d2",
+        "passage_rank": 5,
+        "query_id": "212",
+        "sentence_id": "3b94edda910aaab57e52e98304eba917",
+        "sentence_text": "Using a methylation array approach we evaluated changes to sperm DNA methylation patterns in 17 fertile donors by comparing the sperm methylome of 2 samples collected from each individual 9-19 years apart.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          2388,
+          0,
+          6,
+          0
+        ],
+        "source_position": 868
+      },
+      {
+        "cross_encoder_score": -8.634088516235352,
+        "dataset": "SciFact",
+        "end_char": 1248,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "f5a1ae868d837a7bef89c7335ebec9d2",
+        "passage_rank": 5,
+        "query_id": "212",
+        "sentence_id": "a227cbb1936948c4ea1e03b7ea994d6d",
+        "sentence_text": "With this design we have identified 139 regions that are significantly and consistently hypomethylated with age and 8 regions that are significantly hypermethylated with age.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          2388,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1074
+      },
+      {
+        "cross_encoder_score": -11.148441314697266,
+        "dataset": "SciFact",
+        "end_char": 1339,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "f5a1ae868d837a7bef89c7335ebec9d2",
+        "passage_rank": 5,
+        "query_id": "212",
+        "sentence_id": "165a57129e8953b37f28469d57ba5c11",
+        "sentence_text": "A representative subset of these alterations have been confirmed in an independent cohort.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          2388,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1249
+      },
+      {
+        "cross_encoder_score": -2.0347726345062256,
+        "dataset": "SciFact",
+        "end_char": 1446,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "f5a1ae868d837a7bef89c7335ebec9d2",
+        "passage_rank": 5,
+        "query_id": "212",
+        "sentence_id": "37825991eaf221dd8fcfcd6862f2ef76",
+        "sentence_text": "A total of 117 genes are associated with these regions of methylation alterations (promoter or gene body).",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2388,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1340
+      },
+      {
+        "cross_encoder_score": 0.14444315433502197,
+        "dataset": "SciFact",
+        "end_char": 1606,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "f5a1ae868d837a7bef89c7335ebec9d2",
+        "passage_rank": 5,
+        "query_id": "212",
+        "sentence_id": "9695725a6a53741402097344ae9e58e3",
+        "sentence_text": "Intriguingly, a portion of the age-related changes in sperm DNA methylation are located at genes previously associated with schizophrenia and bipolar disorder.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          2388,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1447
+      },
+      {
+        "cross_encoder_score": 0.7413211464881897,
+        "dataset": "SciFact",
+        "end_char": 1897,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "f5a1ae868d837a7bef89c7335ebec9d2",
+        "passage_rank": 5,
+        "query_id": "212",
+        "sentence_id": "594fc9e77c66d7fe25c6cea6c91d1801",
+        "sentence_text": "While our data does not establish a causative relationship, it does raise the possibility that the age-associated methylation of the candidate genes that we observe in sperm might contribute to the increased incidence of neuropsychiatric and other disorders in the offspring of older males.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          2388,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1607
+      },
+      {
+        "cross_encoder_score": -11.350329399108887,
+        "dataset": "SciFact",
+        "end_char": 2007,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "f5a1ae868d837a7bef89c7335ebec9d2",
+        "passage_rank": 5,
+        "query_id": "212",
+        "sentence_id": "b207f2f8212dbeb483054765b431670a",
+        "sentence_text": "However, further study is required to determine whether, and to what extent, a causative relationship exists.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2388,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1898
+      },
+      {
+        "cross_encoder_score": -10.543142318725586,
+        "dataset": "SciFact",
+        "end_char": 135,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "e6dfa9b0d78787957ba4efd04cc37837",
+        "passage_rank": 10,
+        "query_id": "212",
+        "sentence_id": "474dea21eaedfef99a7ec218588aacd8",
+        "sentence_text": "Evaluation of the association between the first observation and the longitudinal change in C-reactive protein, and all-cause mortality.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3128,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.306361675262451,
+        "dataset": "SciFact",
+        "end_char": 406,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "e6dfa9b0d78787957ba4efd04cc37837",
+        "passage_rank": 10,
+        "query_id": "212",
+        "sentence_id": "0f31da0a7ad7a35447ba94f25452fa3a",
+        "sentence_text": "OBJECTIVE To evaluate the association between vascular inflammation as measured by subacute C-reactive protein (CRP; 1-10 mg/l) and all-cause mortality and the association between change in CRP status (normal <or=3 mg/l and elevated >3 mg/l) and all-cause mortality.   \n",
+        "sentence_token_cost": 66,
+        "source_order": [
+          3128,
+          0,
+          1,
+          0
+        ],
+        "source_position": 136
+      },
+      {
+        "cross_encoder_score": -11.454293251037598,
+        "dataset": "SciFact",
+        "end_char": 557,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "e6dfa9b0d78787957ba4efd04cc37837",
+        "passage_rank": 10,
+        "query_id": "212",
+        "sentence_id": "2f55604797aef66f02306e60062b2db0",
+        "sentence_text": "METHODS Probabilistic record linkage was used to match hospital episode data, laboratory reports and mortality statistics in a large urban population.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          3128,
+          0,
+          2,
+          0
+        ],
+        "source_position": 407
+      },
+      {
+        "cross_encoder_score": -11.405608177185059,
+        "dataset": "SciFact",
+        "end_char": 634,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "e6dfa9b0d78787957ba4efd04cc37837",
+        "passage_rank": 10,
+        "query_id": "212",
+        "sentence_id": "2d567753f02d6e0e09d2f4366c36e916",
+        "sentence_text": "Survival was evaluated using Cox proportional hazards regression models.   \n",
+        "sentence_token_cost": 12,
+        "source_order": [
+          3128,
+          0,
+          3,
+          0
+        ],
+        "source_position": 558
+      },
+      {
+        "cross_encoder_score": -9.389629364013672,
+        "dataset": "SciFact",
+        "end_char": 725,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "e6dfa9b0d78787957ba4efd04cc37837",
+        "passage_rank": 10,
+        "query_id": "212",
+        "sentence_id": "6a6b27435f216ec05fcc504cbe7fc556",
+        "sentence_text": "RESULTS 22 962 patients had their first CRP measurement in the subacute range (1-10 mg/l).",
+        "sentence_token_cost": 28,
+        "source_order": [
+          3128,
+          0,
+          4,
+          0
+        ],
+        "source_position": 635
+      },
+      {
+        "cross_encoder_score": -5.914690971374512,
+        "dataset": "SciFact",
+        "end_char": 967,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "e6dfa9b0d78787957ba4efd04cc37837",
+        "passage_rank": 10,
+        "query_id": "212",
+        "sentence_id": "1b0526feb6bc7e8dbabcb17cbdf2da2a",
+        "sentence_text": "Analysis grouped by each additional unit increase in CRP across the subacute range was associated with a 7.3% (95% CI 5.4% to 9.2%) increase in the hazard ratio (HR) of death over 4 years, after controlling for confounding factors (p<0.001).",
+        "sentence_token_cost": 70,
+        "source_order": [
+          3128,
+          0,
+          5,
+          0
+        ],
+        "source_position": 726
+      },
+      {
+        "cross_encoder_score": -9.649673461914062,
+        "dataset": "SciFact",
+        "end_char": 1045,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "e6dfa9b0d78787957ba4efd04cc37837",
+        "passage_rank": 10,
+        "query_id": "212",
+        "sentence_id": "1c24973558a1b2785de18048a588e3d1",
+        "sentence_text": "Repeated CRP observations around 1 year apart were recorded in 5811 subjects.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3128,
+          0,
+          6,
+          0
+        ],
+        "source_position": 968
+      },
+      {
+        "cross_encoder_score": -8.817963600158691,
+        "dataset": "SciFact",
+        "end_char": 1247,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "e6dfa9b0d78787957ba4efd04cc37837",
+        "passage_rank": 10,
+        "query_id": "212",
+        "sentence_id": "d5d20f72dbb4466aac95bfe7e2294212",
+        "sentence_text": "After controlling for confounding factors, in patients whose CRP changed from normal (<or=3 mg/l) to elevated (>3 mg/l), the HR increased 6.7-fold (p<0.001) relative to cases whose CRP remained normal.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          3128,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1046
+      },
+      {
+        "cross_encoder_score": -8.937524795532227,
+        "dataset": "SciFact",
+        "end_char": 1374,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "e6dfa9b0d78787957ba4efd04cc37837",
+        "passage_rank": 10,
+        "query_id": "212",
+        "sentence_id": "4d878d2cde82fbd2b6576ed80e749bec",
+        "sentence_text": "By comparison, among those subjects whose CRP was reduced from elevated to normal, the hazard ratio halved to 3.5 (p = 0.018).",
+        "sentence_token_cost": 36,
+        "source_order": [
+          3128,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1248
+      },
+      {
+        "cross_encoder_score": -11.37917709350586,
+        "dataset": "SciFact",
+        "end_char": 1478,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "e6dfa9b0d78787957ba4efd04cc37837",
+        "passage_rank": 10,
+        "query_id": "212",
+        "sentence_id": "1e8296b8a42d033cd32310f22ad63f1a",
+        "sentence_text": "In an underpowered analysis of time to cardiovascular events, an identical pattern of risk emerged.   \n",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3128,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1375
+      },
+      {
+        "cross_encoder_score": -10.25090217590332,
+        "dataset": "SciFact",
+        "end_char": 1616,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "e6dfa9b0d78787957ba4efd04cc37837",
+        "passage_rank": 10,
+        "query_id": "212",
+        "sentence_id": "634d86c27a10810328b2f7d747b19d9b",
+        "sentence_text": "CONCLUSIONS CRP level predicted all-cause mortality, and additional inclusion of prior change in CRP level and current CRP level more so.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          3128,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1479
+      },
+      {
+        "cross_encoder_score": -9.330376625061035,
+        "dataset": "SciFact",
+        "end_char": 1705,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "e6dfa9b0d78787957ba4efd04cc37837",
+        "passage_rank": 10,
+        "query_id": "212",
+        "sentence_id": "dd10237acaa6c36c6e22234c4b894885",
+        "sentence_text": "Increasing vascular inflammation, as measured by CRP, increases the likelihood of death.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          3128,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1617
+      },
+      {
+        "cross_encoder_score": -2.533871650695801,
+        "dataset": "SciFact",
+        "end_char": 56,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "8313466e308110e5474f4b1f6d212b3c",
+        "passage_rank": 1,
+        "query_id": "212",
+        "sentence_id": "47e4cda3eea054d5be6da9683ad7ab51",
+        "sentence_text": "Caloric restriction delays age-related methylation drift",
+        "sentence_token_cost": 9,
+        "source_order": [
+          3270,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.293567657470703,
+        "dataset": "SciFact",
+        "end_char": 131,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "8313466e308110e5474f4b1f6d212b3c",
+        "passage_rank": 1,
+        "query_id": "212",
+        "sentence_id": "ac3a5fd581e1f5fdf6706d1248764873",
+        "sentence_text": "In mammals, caloric restriction consistently results in extended lifespan.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          3270,
+          0,
+          1,
+          0
+        ],
+        "source_position": 57
+      },
+      {
+        "cross_encoder_score": -0.05927136912941933,
+        "dataset": "SciFact",
+        "end_char": 323,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "8313466e308110e5474f4b1f6d212b3c",
+        "passage_rank": 1,
+        "query_id": "212",
+        "sentence_id": "4fbd64b988edd195eda935c0fbd8018b",
+        "sentence_text": "Epigenetic information encoded by DNA methylation is tightly regulated, but shows a striking drift associated with age that includes both gains and losses of DNA methylation at various sites.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3270,
+          0,
+          2,
+          0
+        ],
+        "source_position": 132
+      },
+      {
+        "cross_encoder_score": -11.395173072814941,
+        "dataset": "SciFact",
+        "end_char": 485,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "8313466e308110e5474f4b1f6d212b3c",
+        "passage_rank": 1,
+        "query_id": "212",
+        "sentence_id": "35340479c7d4e613092fa562f4dbbfc2",
+        "sentence_text": "Here, we report that epigenetic drift is conserved across species and the rate of drift correlates with lifespan when comparing mice, rhesus monkeys, and humans.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          3270,
+          0,
+          3,
+          0
+        ],
+        "source_position": 324
+      },
+      {
+        "cross_encoder_score": -1.8831570148468018,
+        "dataset": "SciFact",
+        "end_char": 764,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "8313466e308110e5474f4b1f6d212b3c",
+        "passage_rank": 1,
+        "query_id": "212",
+        "sentence_id": "613748556a0f667482bcff598c35a831",
+        "sentence_text": "Twenty-two to 30-year-old rhesus monkeys exposed to 30% caloric restriction since 7-14 years of age showed attenuation of age-related methylation drift compared to ad libitum-fed controls such that their blood methylation age appeared 7 years younger than their chronologic age.",
+        "sentence_token_cost": 64,
+        "source_order": [
+          3270,
+          0,
+          4,
+          0
+        ],
+        "source_position": 486
+      },
+      {
+        "cross_encoder_score": -10.81633472442627,
+        "dataset": "SciFact",
+        "end_char": 893,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "8313466e308110e5474f4b1f6d212b3c",
+        "passage_rank": 1,
+        "query_id": "212",
+        "sentence_id": "98ed7b5ee20a33844b5cc5684cc97463",
+        "sentence_text": "Even more pronounced effects were seen in 2.7-3.2-year-old mice exposed to 40% caloric restriction starting at 0.3 years of age.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          3270,
+          0,
+          5,
+          0
+        ],
+        "source_position": 765
+      },
+      {
+        "cross_encoder_score": -7.083758354187012,
+        "dataset": "SciFact",
+        "end_char": 1025,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "8313466e308110e5474f4b1f6d212b3c",
+        "passage_rank": 1,
+        "query_id": "212",
+        "sentence_id": "b3c315642509b1ef1993b3fe7cfc09b4",
+        "sentence_text": "The effects of caloric restriction on DNA methylation were detectable across different tissues and correlated with gene expression.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3270,
+          0,
+          6,
+          0
+        ],
+        "source_position": 894
+      },
+      {
+        "cross_encoder_score": -11.30067253112793,
+        "dataset": "SciFact",
+        "end_char": 1099,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "8313466e308110e5474f4b1f6d212b3c",
+        "passage_rank": 1,
+        "query_id": "212",
+        "sentence_id": "2aca54896283f6715ea3e11d23212061",
+        "sentence_text": "We propose that epigenetic drift is a determinant of lifespan in mammals.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          3270,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1026
+      },
+      {
+        "cross_encoder_score": -11.129912376403809,
+        "dataset": "SciFact",
+        "end_char": 1167,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "8313466e308110e5474f4b1f6d212b3c",
+        "passage_rank": 1,
+        "query_id": "212",
+        "sentence_id": "97464c3b4fe3095dcd739e19c3ea0d77",
+        "sentence_text": "Caloric restriction has been shown to increase lifespan in mammals.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          3270,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1100
+      },
+      {
+        "cross_encoder_score": -0.45927199721336365,
+        "dataset": "SciFact",
+        "end_char": 1375,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "8313466e308110e5474f4b1f6d212b3c",
+        "passage_rank": 1,
+        "query_id": "212",
+        "sentence_id": "43b3b9ce1c869ac0ea43d07a4d5fb23b",
+        "sentence_text": "Here, the authors provide evidence that age-related methylation drift correlates with lifespan and that caloric restriction in mice and rhesus monkeys results in attenuation of age-related methylation drift.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          3270,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1168
+      },
+      {
+        "cross_encoder_score": -6.907780170440674,
+        "dataset": "SciFact",
+        "end_char": 66,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "cbf77a180a381a8f60175ea14dd38fd0",
+        "passage_rank": 9,
+        "query_id": "212",
+        "sentence_id": "06fd3a7d890bd47bfb0f1c16f560e148",
+        "sentence_text": "Rapid DNA methylation changes after exposure to traffic particles.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          4847,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.252150535583496,
+        "dataset": "SciFact",
+        "end_char": 213,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "cbf77a180a381a8f60175ea14dd38fd0",
+        "passage_rank": 9,
+        "query_id": "212",
+        "sentence_id": "4e4ca99838bbb7208a7406d5dd12f75c",
+        "sentence_text": "RATIONALE Exposure to particulate air pollution has been related to increased hospitalization and death, particularly from cardiovascular disease.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          4847,
+          0,
+          1,
+          0
+        ],
+        "source_position": 67
+      },
+      {
+        "cross_encoder_score": -1.2167807817459106,
+        "dataset": "SciFact",
+        "end_char": 365,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "cbf77a180a381a8f60175ea14dd38fd0",
+        "passage_rank": 9,
+        "query_id": "212",
+        "sentence_id": "65da2c43917258242688f6421eac6e7f",
+        "sentence_text": "Lower blood DNA methylation content is found in processes related to cardiovascular outcomes, such as oxidative stress, aging, and atherosclerosis.   \n",
+        "sentence_token_cost": 28,
+        "source_order": [
+          4847,
+          0,
+          2,
+          0
+        ],
+        "source_position": 214
+      },
+      {
+        "cross_encoder_score": -6.8036065101623535,
+        "dataset": "SciFact",
+        "end_char": 534,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "cbf77a180a381a8f60175ea14dd38fd0",
+        "passage_rank": 9,
+        "query_id": "212",
+        "sentence_id": "8d33abd09198f5e11be13d6e6807e085",
+        "sentence_text": "OBJECTIVES We evaluated whether particulate pollution modifies DNA methylation in heavily methylated sequences with high representation throughout the human genome.   \n",
+        "sentence_token_cost": 26,
+        "source_order": [
+          4847,
+          0,
+          3,
+          0
+        ],
+        "source_position": 366
+      },
+      {
+        "cross_encoder_score": -6.097949028015137,
+        "dataset": "SciFact",
+        "end_char": 799,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "cbf77a180a381a8f60175ea14dd38fd0",
+        "passage_rank": 9,
+        "query_id": "212",
+        "sentence_id": "f061ae3317d5c0071ee9321b813c741d",
+        "sentence_text": "METHODS We measured DNA methylation of long interspersed nucleotide element (LINE)-1 and Alu repetitive elements by quantitative polymerase chain reaction-pyrosequencing of 1,097 blood samples from 718 elderly participants in the Boston area Normative Aging Study.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          4847,
+          0,
+          4,
+          0
+        ],
+        "source_position": 535
+      },
+      {
+        "cross_encoder_score": -11.439323425292969,
+        "dataset": "SciFact",
+        "end_char": 903,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "cbf77a180a381a8f60175ea14dd38fd0",
+        "passage_rank": 9,
+        "query_id": "212",
+        "sentence_id": "9ffe4a129d0910c9fe421a30e7c93f5d",
+        "sentence_text": "We used covariate-adjusted mixed models to account for within-subject correlation in repeated measures.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          4847,
+          0,
+          5,
+          0
+        ],
+        "source_position": 800
+      },
+      {
+        "cross_encoder_score": -7.161390781402588,
+        "dataset": "SciFact",
+        "end_char": 1142,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "cbf77a180a381a8f60175ea14dd38fd0",
+        "passage_rank": 9,
+        "query_id": "212",
+        "sentence_id": "e6acf69797c93c3d16f8cf346f3204ad",
+        "sentence_text": "We estimated the effects on DNA methylation of ambient particulate pollutants (black carbon, particulate matter with aerodynamic diameter < or = 2.5 microm [PM2.5], or sulfate) in multiple time windows (4 h to 7 d) before the examination.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          4847,
+          0,
+          6,
+          0
+        ],
+        "source_position": 904
+      },
+      {
+        "cross_encoder_score": -3.5697686672210693,
+        "dataset": "SciFact",
+        "end_char": 1336,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "cbf77a180a381a8f60175ea14dd38fd0",
+        "passage_rank": 9,
+        "query_id": "212",
+        "sentence_id": "c07466429b1bb2f9a4aee5bacbe33211",
+        "sentence_text": "We estimated standardized regression coefficients (beta) expressing the fraction of a standard deviation change in DNA methylation associated with a standard deviation increase in exposure.   \n",
+        "sentence_token_cost": 30,
+        "source_order": [
+          4847,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1143
+      },
+      {
+        "cross_encoder_score": -4.565770149230957,
+        "dataset": "SciFact",
+        "end_char": 1488,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "cbf77a180a381a8f60175ea14dd38fd0",
+        "passage_rank": 9,
+        "query_id": "212",
+        "sentence_id": "0a7ff5d5972ea80e1f9fd77bf9503427",
+        "sentence_text": "MEASUREMENTS AND MAIN RESULTS Repetitive element DNA methylation varied in association with time-related variables, such as day of the week and season.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          4847,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1337
+      },
+      {
+        "cross_encoder_score": -2.965395927429199,
+        "dataset": "SciFact",
+        "end_char": 1722,
+        "pair_tokens_before_truncation": 99,
+        "pair_truncated": false,
+        "passage_id": "cbf77a180a381a8f60175ea14dd38fd0",
+        "passage_rank": 9,
+        "query_id": "212",
+        "sentence_id": "4aa1fba2f7ed317be4bafb48bec655ef",
+        "sentence_text": "LINE-1 methylation decreased after recent exposure to higher black carbon (beta = -0.11; 95% confidence interval [CI], -0.18 to -0.04; P = 0.002) and PM2.5 (beta = -0.13; 95% CI, -0.19 to -0.06; P < 0.001 for the 7-d moving average).",
+        "sentence_token_cost": 100,
+        "source_order": [
+          4847,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1489
+      },
+      {
+        "cross_encoder_score": -3.951199531555176,
+        "dataset": "SciFact",
+        "end_char": 1900,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "cbf77a180a381a8f60175ea14dd38fd0",
+        "passage_rank": 9,
+        "query_id": "212",
+        "sentence_id": "c202702fe783bbc230e2070a1d4f01bc",
+        "sentence_text": "In two-pollutant models, only black carbon, a tracer of traffic particles, was significantly associated with LINE-1 methylation (beta = -0.09; 95% CI, -0.17 to -0.01; P = 0.03).",
+        "sentence_token_cost": 62,
+        "source_order": [
+          4847,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1723
+      },
+      {
+        "cross_encoder_score": -4.374658107757568,
+        "dataset": "SciFact",
+        "end_char": 1962,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "cbf77a180a381a8f60175ea14dd38fd0",
+        "passage_rank": 9,
+        "query_id": "212",
+        "sentence_id": "d8e2985badd6a108cdbce0bd1a0a4fb5",
+        "sentence_text": "No association was found with Alu methylation (P > 0.12).   \n",
+        "sentence_token_cost": 19,
+        "source_order": [
+          4847,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1901
+      },
+      {
+        "cross_encoder_score": -5.9039764404296875,
+        "dataset": "SciFact",
+        "end_char": 2059,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "cbf77a180a381a8f60175ea14dd38fd0",
+        "passage_rank": 9,
+        "query_id": "212",
+        "sentence_id": "3dec49c962f368e7d54cfae19a3b12f6",
+        "sentence_text": "CONCLUSIONS We found decreased repeated-element methylation after exposure to traffic particles.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          4847,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1963
+      },
+      {
+        "cross_encoder_score": -5.820605278015137,
+        "dataset": "SciFact",
+        "end_char": 2156,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "cbf77a180a381a8f60175ea14dd38fd0",
+        "passage_rank": 9,
+        "query_id": "212",
+        "sentence_id": "61d0812b0c23cc8f5a289a9c6d8de7e6",
+        "sentence_text": "Whether decreased methylation mediates exposure-related health effects remains to be determined.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          4847,
+          0,
+          13,
+          0
+        ],
+        "source_position": 2060
+      }
+    ],
+    "scoring_seconds": 0.4752232260070741,
+    "source_fingerprint": "bc4fa8cfe098c9d54ae673c46661e9a66701403f920bf3f01b16677d6ca18e91"
+  }
+}

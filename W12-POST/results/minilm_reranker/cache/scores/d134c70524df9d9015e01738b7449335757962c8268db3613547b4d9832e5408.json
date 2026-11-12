@@ -1,0 +1,771 @@
+{
+  "checksum": "2741a6ff0212cf9f1b4191fb96fa26b024b09bca389822e86fae263a276f4cdb",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5a739d8c55429905862fe073"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 37,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "15f3e6ad5f1a788a84000c88409a008c9bffe760e7d2cc016eca97f4211bcc6a",
+    "query_id": "5a739d8c55429905862fe073",
+    "scores": [
+      {
+        "cross_encoder_score": -2.6220414638519287,
+        "dataset": "HotpotQA",
+        "end_char": 28,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "6e7451de3885be0718780b53f10f423f",
+        "passage_rank": 10,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "1fcaa5d2c5c818ed408116c73b6afb53",
+        "sentence_text": "Huckleberry Finn (1931 film)",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.739729881286621,
+        "dataset": "HotpotQA",
+        "end_char": 194,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "6e7451de3885be0718780b53f10f423f",
+        "passage_rank": 10,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "f853f1c9336c1fe8499cdf6c6a243ac6",
+        "sentence_text": "Huckleberry Finn (1931) is an American Pre-Code comedy film directed by Norman Taurog and starring Jackie Coogan as Tom Sawyer and Junior Durkin as Huckleberry Finn.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 29
+      },
+      {
+        "cross_encoder_score": -0.6352286338806152,
+        "dataset": "HotpotQA",
+        "end_char": 284,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "6e7451de3885be0718780b53f10f423f",
+        "passage_rank": 10,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "e22d1de471e1522484cd521fbb13793b",
+        "sentence_text": " The picture was based upon the novel \"The Adventures of Huckleberry Finn\" by Mark Twain.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 195
+      },
+      {
+        "cross_encoder_score": -5.957008361816406,
+        "dataset": "HotpotQA",
+        "end_char": 18,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "8b64c9937ef2976ba43408fd5754d811",
+        "passage_rank": 2,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "a6ab36ac8def8573b763959ad1bdb73e",
+        "sentence_text": "Santa Fe, Missouri",
+        "sentence_token_cost": 4,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.426420211791992,
+        "dataset": "HotpotQA",
+        "end_char": 114,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "8b64c9937ef2976ba43408fd5754d811",
+        "passage_rank": 2,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "cb7bef74eed750fd4e99cd8e80ab6065",
+        "sentence_text": "Santa Fe is an unincorporated community in southeastern Monroe County, Missouri, United States.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 19
+      },
+      {
+        "cross_encoder_score": -7.8902506828308105,
+        "dataset": "HotpotQA",
+        "end_char": 222,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "8b64c9937ef2976ba43408fd5754d811",
+        "passage_rank": 2,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "692b11ededa0315fca3016ecbdc0beec",
+        "sentence_text": " It is located about twenty-five miles north of Mexico, Missouri near the southern edge of Mark Twain Lake.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 115
+      },
+      {
+        "cross_encoder_score": 0.519359290599823,
+        "dataset": "HotpotQA",
+        "end_char": 335,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "8b64c9937ef2976ba43408fd5754d811",
+        "passage_rank": 2,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "79f539dc82f24ec8eaeed42249a750ea",
+        "sentence_text": " The Clemens family (of which was Samuel Clemens, a.k.a. \"Mark Twain\") owned several tracts of land in the area.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "source_position": 223
+      },
+      {
+        "cross_encoder_score": -4.398440837860107,
+        "dataset": "HotpotQA",
+        "end_char": 20,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "7e8d7abe3963c7714f70c876f10302bd",
+        "passage_rank": 7,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "a7f58f962bcf762a60e4a052342bec20",
+        "sentence_text": "Huckleberry no B\u014dken",
+        "sentence_token_cost": 7,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -0.22268745303153992,
+        "dataset": "HotpotQA",
+        "end_char": 145,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "7e8d7abe3963c7714f70c876f10302bd",
+        "passage_rank": 7,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "36e0197cd84d5345221634823271f69d",
+        "sentence_text": "Huckleberry no B\u014dken (\u30cf\u30c3\u30af\u30eb\u30d9\u30ea\u30a3\u306e\u5192\u967a ) is a 1976 anime series based on the novel \"Adventures of Huckleberry Finn\" by Mark Twain.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 21
+      },
+      {
+        "cross_encoder_score": -4.967514514923096,
+        "dataset": "HotpotQA",
+        "end_char": 193,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "7e8d7abe3963c7714f70c876f10302bd",
+        "passage_rank": 7,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "18e6d6b5bc5c2d6a7d9c72fd336e1a47",
+        "sentence_text": " It is the first of two Huckleberry Finn anime.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 146
+      },
+      {
+        "cross_encoder_score": -3.6635186672210693,
+        "dataset": "HotpotQA",
+        "end_char": 280,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "7e8d7abe3963c7714f70c876f10302bd",
+        "passage_rank": 7,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "13816f4f3a00ee64587e3e5983849a32",
+        "sentence_text": " A second Huck Finn television series was made in 1994, \"Huckleberry Finn Monogatari\".",
+        "sentence_token_cost": 25,
+        "source_order": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "source_position": 194
+      },
+      {
+        "cross_encoder_score": -9.770421028137207,
+        "dataset": "HotpotQA",
+        "end_char": 21,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "a4430ef1db6043fa7393ec23b39e7bc2",
+        "passage_rank": 9,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "aac8510a993484817dd2c67ddf51faf8",
+        "sentence_text": "Tom Sawyer, Detective",
+        "sentence_token_cost": 4,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.096155166625977,
+        "dataset": "HotpotQA",
+        "end_char": 75,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "a4430ef1db6043fa7393ec23b39e7bc2",
+        "passage_rank": 9,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "05b321508e8ce69509691931632c699c",
+        "sentence_text": "Tom Sawyer, Detective is an 1896 novel by Mark Twain.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 22
+      },
+      {
+        "cross_encoder_score": -0.9795064926147461,
+        "dataset": "HotpotQA",
+        "end_char": 206,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "a4430ef1db6043fa7393ec23b39e7bc2",
+        "passage_rank": 9,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "87d8479a76baa17a124e2517ab53238b",
+        "sentence_text": " It is a sequel to \"The Adventures of Tom Sawyer\" (1876), \"Adventures of Huckleberry Finn\" (1884), and \"Tom Sawyer Abroad\" (1894).",
+        "sentence_token_cost": 47,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 76
+      },
+      {
+        "cross_encoder_score": -10.613350868225098,
+        "dataset": "HotpotQA",
+        "end_char": 329,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "a4430ef1db6043fa7393ec23b39e7bc2",
+        "passage_rank": 9,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "912382d9e136e1abcda9f21855dcd057",
+        "sentence_text": " Tom Sawyer attempts to solve a mysterious murder in this burlesque of the immensely popular detective novels of the time.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "source_position": 207
+      },
+      {
+        "cross_encoder_score": -2.9237871170043945,
+        "dataset": "HotpotQA",
+        "end_char": 440,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "a4430ef1db6043fa7393ec23b39e7bc2",
+        "passage_rank": 9,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "4d5ee33663aa960bccac6513c7816fee",
+        "sentence_text": " Like \"Adventures of Huckleberry Finn\", the story is told using the first-person narrative voice of Huck Finn.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3,
+          0,
+          4,
+          0
+        ],
+        "source_position": 330
+      },
+      {
+        "cross_encoder_score": -4.1564741134643555,
+        "dataset": "HotpotQA",
+        "end_char": 39,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "9df1571e83a0625bce77256c3e5d2678",
+        "passage_rank": 5,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "be5e421d6de89ce439827ed113cfa8d8",
+        "sentence_text": "The Adventures of Huck Finn (1993 film)",
+        "sentence_token_cost": 12,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -0.897174060344696,
+        "dataset": "HotpotQA",
+        "end_char": 417,
+        "pair_tokens_before_truncation": 107,
+        "pair_truncated": false,
+        "passage_id": "9df1571e83a0625bce77256c3e5d2678",
+        "passage_rank": 5,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "fc2115f899e8a8aad6a70b0600d1baa7",
+        "sentence_text": "The Adventures of Huck Finn is a 1993 American adventure film written and directed by Stephen Sommers, distributed by Walt Disney Studios Motion Pictures and Buena Vista Pictures, and starring Elijah Wood, Courtney B. Vance, Jason Robards and Robbie Coltrane; it is based on Mark Twain's novel \"Adventures of Huckleberry Finn\" and focuses on at least three-fourths of the book.",
+        "sentence_token_cost": 86,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 40
+      },
+      {
+        "cross_encoder_score": -3.493969440460205,
+        "dataset": "HotpotQA",
+        "end_char": 584,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "9df1571e83a0625bce77256c3e5d2678",
+        "passage_rank": 5,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "c2b9fc82b793285d2a54f630de0a6e39",
+        "sentence_text": " The film follows a boy named Huckleberry Finn and an escaped slave named Jim, who travel the Mississippi River together and overcome various obstacles along the way.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 418
+      },
+      {
+        "cross_encoder_score": -2.843017816543579,
+        "dataset": "HotpotQA",
+        "end_char": 28,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "c71923cba0792dd3c3eaeb6413c99301",
+        "passage_rank": 6,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "7f56b0c3788c135c4c83aea978ebc2c4",
+        "sentence_text": "Huckleberry Finn (1920 film)",
+        "sentence_token_cost": 11,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 0.32232537865638733,
+        "dataset": "HotpotQA",
+        "end_char": 171,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "c71923cba0792dd3c3eaeb6413c99301",
+        "passage_rank": 6,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "11a110c825aef0c23da5d3341a1eb2f7",
+        "sentence_text": "Huckleberry Finn is a surviving American silent dramatic rural film from 1920, based on Mark Twain's classic \"Adventures of Huckleberry Finn\".",
+        "sentence_token_cost": 36,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 29
+      },
+      {
+        "cross_encoder_score": -10.94788646697998,
+        "dataset": "HotpotQA",
+        "end_char": 256,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "c71923cba0792dd3c3eaeb6413c99301",
+        "passage_rank": 6,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "d67f43b873a3ee126277aaa2449b33ac",
+        "sentence_text": " It was produced by Famous Players-Lasky and distributed through Paramount Pictures.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 172
+      },
+      {
+        "cross_encoder_score": -2.2433085441589355,
+        "dataset": "HotpotQA",
+        "end_char": 455,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "c71923cba0792dd3c3eaeb6413c99301",
+        "passage_rank": 6,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "8db8af0da2385d2ebfcb0bddbfed650a",
+        "sentence_text": " William Desmond Taylor directed \"Huckleberry Finn\", as he had the 1917 film version of \"Tom Sawyer\", using a scenario written by Julia Crawford Ivers, who also had been the writer for \"Tom Sawyer\".",
+        "sentence_token_cost": 47,
+        "source_order": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "source_position": 257
+      },
+      {
+        "cross_encoder_score": -8.4173583984375,
+        "dataset": "HotpotQA",
+        "end_char": 10,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "c7f5e4764636942a6b4728b222a8aa93",
+        "passage_rank": 3,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "c36a05303fa3538a0b0a3000d1c7f374",
+        "sentence_text": "Mark Twain",
+        "sentence_token_cost": 3,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.140128135681152,
+        "dataset": "HotpotQA",
+        "end_char": 187,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "c7f5e4764636942a6b4728b222a8aa93",
+        "passage_rank": 3,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "b88ce13a2b7e69ce5a3895d4bd4305b0",
+        "sentence_text": "Samuel Langhorne Clemens (November 30, 1835 \u2013 April 21, 1910), better known by his pen name Mark Twain, was an American writer, humorist, entrepreneur, publisher, and lecturer.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 11
+      },
+      {
+        "cross_encoder_score": -0.3646278381347656,
+        "dataset": "HotpotQA",
+        "end_char": 360,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "c7f5e4764636942a6b4728b222a8aa93",
+        "passage_rank": 3,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "06d62e9bd07547d02ca5ffdf9803b26a",
+        "sentence_text": " Among his novels are \"The Adventures of Tom Sawyer\" (1876) and its sequel, the \"Adventures of Huckleberry Finn\" (1885), the latter often called \"The Great American Novel\".",
+        "sentence_token_cost": 48,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 188
+      },
+      {
+        "cross_encoder_score": -4.288578510284424,
+        "dataset": "HotpotQA",
+        "end_char": 33,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "b4dfe7f9a549db1fbd99a5e2e323f832",
+        "passage_rank": 8,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "fbdf0be30532e4f8a7884095e26bb66e",
+        "sentence_text": "Tom Sawyer &amp; Huckleberry Finn",
+        "sentence_token_cost": 9,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.9241766929626465,
+        "dataset": "HotpotQA",
+        "end_char": 283,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "b4dfe7f9a549db1fbd99a5e2e323f832",
+        "passage_rank": 8,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "ae6d0696bdef6a1c046adf8e07615dd5",
+        "sentence_text": "Tom Sawyer & Huckleberry Finn is a 2014 American comedy-drama/adventure film starring Joel Courtney as Tom Sawyer, Jake T. Austin as Huckleberry Finn, Katherine McNamara as Becky Thatcher, Noah Munck as Ben Rogers, and with Val Kilmer as Mark Twain.",
+        "sentence_token_cost": 63,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 34
+      },
+      {
+        "cross_encoder_score": -1.391040325164795,
+        "dataset": "HotpotQA",
+        "end_char": 388,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "b4dfe7f9a549db1fbd99a5e2e323f832",
+        "passage_rank": 8,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "c06a46c161c1b55bc918e84d92ea602c",
+        "sentence_text": " It is based on Mark Twain's novels \"The Adventures of Tom Sawyer\" and \"Adventures of Huckleberry Finn\".",
+        "sentence_token_cost": 27,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 284
+      },
+      {
+        "cross_encoder_score": -9.879801750183105,
+        "dataset": "HotpotQA",
+        "end_char": 452,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "b4dfe7f9a549db1fbd99a5e2e323f832",
+        "passage_rank": 8,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "b1f4dcfc1567eb0ddb21531249c41446",
+        "sentence_text": " Directed by Jo Kastner, the film is released by VMI Worldwide.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 389
+      },
+      {
+        "cross_encoder_score": -2.9442429542541504,
+        "dataset": "HotpotQA",
+        "end_char": 32,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "342b54b2a1f42b37ddd8ccfbb524001a",
+        "passage_rank": 4,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "93eb49c056f1d620aefc30234a533162",
+        "sentence_text": "Huckleberry Finn and His Friends",
+        "sentence_token_cost": 7,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 0.030508197844028473,
+        "dataset": "HotpotQA",
+        "end_char": 274,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "342b54b2a1f42b37ddd8ccfbb524001a",
+        "passage_rank": 4,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "369a0a22376d7038f4be42a8738e5323",
+        "sentence_text": "Huckleberry Finn and His Friends was a 1979 television series documenting the exploits of Huckleberry Finn and Tom Sawyer, based on the novels \"The Adventures of Tom Sawyer\" and \"Adventures of Huckleberry Finn\" by American writer Mark Twain.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 33
+      },
+      {
+        "cross_encoder_score": -2.152038335800171,
+        "dataset": "HotpotQA",
+        "end_char": 30,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "751b7b8b08b0e2429f3fdb6b17b270af",
+        "passage_rank": 1,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "8f7ea8b3a0c2e16a244ad33e956b31d7",
+        "sentence_text": "Adventures of Huckleberry Finn",
+        "sentence_token_cost": 8,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.4853044748306274,
+        "dataset": "HotpotQA",
+        "end_char": 251,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "751b7b8b08b0e2429f3fdb6b17b270af",
+        "passage_rank": 1,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "b7a01977cc13dbe719c0de1cad125ad0",
+        "sentence_text": "Adventures of Huckleberry Finn (or, in more recent editions, The Adventures of Huckleberry Finn) is a novel by Mark Twain, first published in the United Kingdom in December 1884 and in the United States in February 1885.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 31
+      },
+      {
+        "cross_encoder_score": -9.532175064086914,
+        "dataset": "HotpotQA",
+        "end_char": 447,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "751b7b8b08b0e2429f3fdb6b17b270af",
+        "passage_rank": 1,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "d702347210c25394857ecf774515ebc8",
+        "sentence_text": " Commonly named among the Great American Novels, the work is among the first in major American literature to be written throughout in vernacular English, characterized by local color regionalism.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 252
+      },
+      {
+        "cross_encoder_score": -1.8589521646499634,
+        "dataset": "HotpotQA",
+        "end_char": 620,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "751b7b8b08b0e2429f3fdb6b17b270af",
+        "passage_rank": 1,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "05938056e5b530a7e460c5ae269586a0",
+        "sentence_text": " It is told in the first person by Huckleberry \"Huck\" Finn, a friend of Tom Sawyer the narrator of two other Twain novels (\"Tom Sawyer Abroad\" and \"Tom Sawyer, Detective\").",
+        "sentence_token_cost": 43,
+        "source_order": [
+          9,
+          0,
+          3,
+          0
+        ],
+        "source_position": 448
+      },
+      {
+        "cross_encoder_score": -8.975991249084473,
+        "dataset": "HotpotQA",
+        "end_char": 678,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "751b7b8b08b0e2429f3fdb6b17b270af",
+        "passage_rank": 1,
+        "query_id": "5a739d8c55429905862fe073",
+        "sentence_id": "8d897df620fdb332e3f5582daf977836",
+        "sentence_text": " It is a direct sequel to \"The Adventures of Tom Sawyer\".",
+        "sentence_token_cost": 13,
+        "source_order": [
+          9,
+          0,
+          4,
+          0
+        ],
+        "source_position": 621
+      }
+    ],
+    "scoring_seconds": 0.26628899096976966,
+    "source_fingerprint": "066b99a307146307a13f61c9ba3c710919f7aba71505cfc8f8c7366ccdea496c"
+  }
+}
