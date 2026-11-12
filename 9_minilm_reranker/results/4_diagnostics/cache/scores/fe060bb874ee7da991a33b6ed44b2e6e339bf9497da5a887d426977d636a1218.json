@@ -1,0 +1,1911 @@
+{
+  "checksum": "2a9aa5630de43110028841550f2d8bc700c37a5385773d28e302d1f4f00cede9",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "7b4992e2d26577246a16ac0d1efc995ab4695d24"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 94,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "687f7e1ab91c22df2d0c5339a05a2330b4d11ffb0083069ef41e10f882373b1d",
+    "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+    "scores": [
+      {
+        "cross_encoder_score": -10.957252502441406,
+        "dataset": "QASPER",
+        "end_char": 178,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "f39acaaf33876fd998648c1331129079",
+        "passage_rank": 10,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "8511c41bb3279e1fe7d6559e650a6e48",
+        "sentence_text": "Artificial Error Generation with Machine Translation and Syntactic Patterns\tShortage of available training data is holding back progress in the area of automated error detection.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.956522941589355,
+        "dataset": "QASPER",
+        "end_char": 311,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "f39acaaf33876fd998648c1331129079",
+        "passage_rank": 10,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "96cec3cb13f71abc6a7dfd7ed7f6db42",
+        "sentence_text": "This paper investigates two alternative methods for artificially generating writing errors, in order to create additional resources.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 179
+      },
+      {
+        "cross_encoder_score": -10.93430233001709,
+        "dataset": "QASPER",
+        "end_char": 445,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "f39acaaf33876fd998648c1331129079",
+        "passage_rank": 10,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "06bac5178011a2071021a8f1f6aec469",
+        "sentence_text": "We propose treating error generation as a machine translation task, where grammatically correct text is translated to contain errors.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 312
+      },
+      {
+        "cross_encoder_score": -9.629359245300293,
+        "dataset": "QASPER",
+        "end_char": 614,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "f39acaaf33876fd998648c1331129079",
+        "passage_rank": 10,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "47d6be0cf486d6cf7037bd18dbd81e5d",
+        "sentence_text": "In addition, we explore a system for extracting textual patterns from an annotated corpus, which can then be used to insert errors into grammatically correct sentences.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 446
+      },
+      {
+        "cross_encoder_score": -10.66447925567627,
+        "dataset": "QASPER",
+        "end_char": 772,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "f39acaaf33876fd998648c1331129079",
+        "passage_rank": 10,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "a27e72ba46f3e839d6b46e3fb8ff3a0b",
+        "sentence_text": "Our experiments show that the inclusion of artificially generated errors significantly improves error detection accuracy on both FCE and CoNLL 2014 datasets.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 615
+      },
+      {
+        "cross_encoder_score": -11.264595031738281,
+        "dataset": "QASPER",
+        "end_char": 983,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "f39acaaf33876fd998648c1331129079",
+        "passage_rank": 10,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "570cc8b2a08bd39da30428ad3ebde796",
+        "sentence_text": "Introduction\tWriting errors can occur in many different forms \u2013 from relatively simple punctuation and determiner errors, to mistakes including word tense and form, incorrect collocations and erroneous idioms.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 774
+      },
+      {
+        "cross_encoder_score": -10.949539184570312,
+        "dataset": "QASPER",
+        "end_char": 1122,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "f39acaaf33876fd998648c1331129079",
+        "passage_rank": 10,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "c53f9fc8330539a9d3e9fc9f533aec96",
+        "sentence_text": "Automatically identifying all of these errors is a challenging task, especially as the amount of available annotated data is very limited.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 984
+      },
+      {
+        "cross_encoder_score": -10.762141227722168,
+        "dataset": "QASPER",
+        "end_char": 1293,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "f39acaaf33876fd998648c1331129079",
+        "passage_rank": 10,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "c862bff5c71f03b59b1c727e3f972bb1",
+        "sentence_text": "Rei2016 showed that while some error detection algorithms perform better than others, it is additional training data that has the biggest impact on improving performance.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1123
+      },
+      {
+        "cross_encoder_score": -10.566244125366211,
+        "dataset": "QASPER",
+        "end_char": 1515,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "f39acaaf33876fd998648c1331129079",
+        "passage_rank": 10,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "c6bdf84e5005ba8686cf3730f02465fa",
+        "sentence_text": "Being able to generate realistic artificial data would allow for any grammatically correct text to be transformed into annotated examples containing writing errors, producing large amounts of additional training examples.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1294
+      },
+      {
+        "cross_encoder_score": -9.621031761169434,
+        "dataset": "QASPER",
+        "end_char": 1792,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "b8acb6317295f105c4a1c91e509d33af",
+        "passage_rank": 5,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "249406023dd59b502ce2ec2b556abf62",
+        "sentence_text": "Supervised error generation systems would also provide an efficient method for anonymising the source corpus \u2013 error statistics from a private corpus can be aggregated and applied to a different target text, obscuring sensitive information in the original examination scripts.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1516
+      },
+      {
+        "cross_encoder_score": -11.015872955322266,
+        "dataset": "QASPER",
+        "end_char": 2062,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "b8acb6317295f105c4a1c91e509d33af",
+        "passage_rank": 5,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "4f37eb0bcac7021a123477b2f7221605",
+        "sentence_text": "However, the task of creating incorrect data is somewhat more difficult than might initially appear \u2013 naive methods for error generation can create data that does not resemble natural errors, thereby making downstream systems learn misleading or uninformative patterns.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1793
+      },
+      {
+        "cross_encoder_score": -10.827038764953613,
+        "dataset": "QASPER",
+        "end_char": 2218,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "b8acb6317295f105c4a1c91e509d33af",
+        "passage_rank": 5,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "75936645ac75c5ef04bc4fe7c16d7f6c",
+        "sentence_text": "Previous work on artificial error generation (AEG) has focused on specific error types, such as prepositions and determiners  ,  , or noun number errors  .",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 2063
+      },
+      {
+        "cross_encoder_score": -7.92435884475708,
+        "dataset": "QASPER",
+        "end_char": 2391,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "b8acb6317295f105c4a1c91e509d33af",
+        "passage_rank": 5,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "020a0a71f7d0974d86fefb112041011d",
+        "sentence_text": "Felice2014a investigated the use of linguistic information when generating artificial data for error correction, but also restricting the approach to only five error types.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 2219
+      },
+      {
+        "cross_encoder_score": -9.955453872680664,
+        "dataset": "QASPER",
+        "end_char": 2537,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "b8acb6317295f105c4a1c91e509d33af",
+        "passage_rank": 5,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "ff02d13a7b67312b42d300826e133966",
+        "sentence_text": "There has been very limited research on generating artificial data for all types, which is important for general-purpose error detection systems.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 2392
+      },
+      {
+        "cross_encoder_score": -11.127211570739746,
+        "dataset": "QASPER",
+        "end_char": 2734,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "b8acb6317295f105c4a1c91e509d33af",
+        "passage_rank": 5,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "85b9898af149ddd3aaa3ed636264c211",
+        "sentence_text": "For example, the error types investigated by Felice2014a cover only 35.74% of all errors present in the CoNLL 2014 training dataset, providing no additional information for the majority of errors.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 2538
+      },
+      {
+        "cross_encoder_score": -10.700571060180664,
+        "dataset": "QASPER",
+        "end_char": 2837,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "b8acb6317295f105c4a1c91e509d33af",
+        "passage_rank": 5,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "ef72fcef7c76e65d0a4c0e244ad83b3f",
+        "sentence_text": "In this paper, we investigate two supervised approaches for generating all types of artificial errors.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2735
+      },
+      {
+        "cross_encoder_score": -10.648195266723633,
+        "dataset": "QASPER",
+        "end_char": 2891,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "b8acb6317295f105c4a1c91e509d33af",
+        "passage_rank": 5,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "b98cc7aaf5ca421ac3698eaec8746109",
+        "sentence_text": "We propose a framework for generating errors based on",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2838
+      },
+      {
+        "cross_encoder_score": -10.79611873626709,
+        "dataset": "QASPER",
+        "end_char": 2999,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "0044b74739f2244cacfa8a782e3f0091",
+        "passage_rank": 8,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "f6a66dd00056714b9e94a3c7437e67eb",
+        "sentence_text": "statistical machine translation (SMT), training a model to translate from correct into incorrect sentences.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2892
+      },
+      {
+        "cross_encoder_score": -10.943500518798828,
+        "dataset": "QASPER",
+        "end_char": 3131,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "0044b74739f2244cacfa8a782e3f0091",
+        "passage_rank": 8,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "6acbb2402f259259cc6fcf7be50fc8c8",
+        "sentence_text": "In addition, we describe a method for learning error patterns from an annotated corpus and transplanting them into error-free text.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 3000
+      },
+      {
+        "cross_encoder_score": -10.69427490234375,
+        "dataset": "QASPER",
+        "end_char": 3220,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "0044b74739f2244cacfa8a782e3f0091",
+        "passage_rank": 8,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "cca6e4dae449955008bea1e71fad2706",
+        "sentence_text": "We evaluate the effect of introducing artificial data on two error detection benchmarks.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 3132
+      },
+      {
+        "cross_encoder_score": -10.314374923706055,
+        "dataset": "QASPER",
+        "end_char": 3462,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "0044b74739f2244cacfa8a782e3f0091",
+        "passage_rank": 8,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "6d1b7a3f341040dcc2788d8badd108e8",
+        "sentence_text": "Our results show that each method provides significant improvements over using only the available training set, and a combination of both gives an absolute improvement of 4.3% in INLINEFORM0 , without requiring any additional annotated data.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3221
+      },
+      {
+        "cross_encoder_score": -11.002087593078613,
+        "dataset": "QASPER",
+        "end_char": 3538,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "0044b74739f2244cacfa8a782e3f0091",
+        "passage_rank": 8,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "8b4e670ce8c43affa67f7d612c9bf464",
+        "sentence_text": "Error Generation Methods\tWe investigate two alternative methods for AEG.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3466
+      },
+      {
+        "cross_encoder_score": -10.852510452270508,
+        "dataset": "QASPER",
+        "end_char": 3651,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "0044b74739f2244cacfa8a782e3f0091",
+        "passage_rank": 8,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "1e867434bf7dc6847cc77c7ddbebae91",
+        "sentence_text": "The models receive grammatically correct text as input and modify certain tokens to produce incorrect sequences.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3539
+      },
+      {
+        "cross_encoder_score": -10.356866836547852,
+        "dataset": "QASPER",
+        "end_char": 3806,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "0044b74739f2244cacfa8a782e3f0091",
+        "passage_rank": 8,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "ea0773e52f7673bc67227c9e1dc6d5d8",
+        "sentence_text": "The alternative versions of each sentence are aligned using Levenshtein distance, allowing us to identify specific words that need to be marked as errors.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3652
+      },
+      {
+        "cross_encoder_score": -10.942145347595215,
+        "dataset": "QASPER",
+        "end_char": 4000,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "0044b74739f2244cacfa8a782e3f0091",
+        "passage_rank": 8,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "3976d8df9dc17216cabd66ca01c8fe75",
+        "sentence_text": "While these alignments are not always perfect, we found them to be sufficient for practical purposes, since alternative alignments of similar sentences often result in the same binary labeling.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3807
+      },
+      {
+        "cross_encoder_score": -10.758272171020508,
+        "dataset": "QASPER",
+        "end_char": 4102,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "0044b74739f2244cacfa8a782e3f0091",
+        "passage_rank": 8,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "9c61574b3036fc12b859b5990e5890e9",
+        "sentence_text": "Future work could explore more advanced alignment methods, such as proposed by felice-bryant-briscoe.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 4001
+      },
+      {
+        "cross_encoder_score": -9.039539337158203,
+        "dataset": "QASPER",
+        "end_char": 4205,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "0044b74739f2244cacfa8a782e3f0091",
+        "passage_rank": 8,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "a4a5f5e89e99bc41533d5f0ac6dea290",
+        "sentence_text": "In Section SECREF4 , this automatically labeled data is then used for training error detection models.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          2,
+          9,
+          0
+        ],
+        "source_position": 4103
+      },
+      {
+        "cross_encoder_score": -11.22262191772461,
+        "dataset": "QASPER",
+        "end_char": 4309,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "0044b74739f2244cacfa8a782e3f0091",
+        "passage_rank": 8,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "cf26c0cb811c4ff5bad0096bffe6a156",
+        "sentence_text": "Machine Translation\tWe treat AEG as a translation task \u2013 given a correct sentence as input, the system",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          2,
+          10,
+          0
+        ],
+        "source_position": 4207
+      },
+      {
+        "cross_encoder_score": -10.77485466003418,
+        "dataset": "QASPER",
+        "end_char": 4408,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "4b231caa938c4c83bc7d3e30b1ebc422",
+        "passage_rank": 9,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "03dbcd9e910e2a3228530688c71d0671",
+        "sentence_text": "would learn to translate it to contain likely errors, based on a training corpus of parallel data.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 4310
+      },
+      {
+        "cross_encoder_score": -10.197626113891602,
+        "dataset": "QASPER",
+        "end_char": 4590,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "4b231caa938c4c83bc7d3e30b1ebc422",
+        "passage_rank": 9,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "fedb7d3e750f8d2daef278ae742a7bdb",
+        "sentence_text": "Existing SMT approaches are already optimised for identifying context patterns that correspond to specific output sequences, which is also required for generating human-like errors.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 4409
+      },
+      {
+        "cross_encoder_score": -10.786983489990234,
+        "dataset": "QASPER",
+        "end_char": 4826,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "4b231caa938c4c83bc7d3e30b1ebc422",
+        "passage_rank": 9,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "1b8bf86f66f9871abc63e9453b21fbfa",
+        "sentence_text": "The reverse of this idea, translating from incorrect to correct sentences, has been shown to work well for error correction tasks  ,  , and round-trip translation has also been shown to be promising for correcting grammatical errors  .",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4591
+      },
+      {
+        "cross_encoder_score": -11.38122844696045,
+        "dataset": "QASPER",
+        "end_char": 4909,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "4b231caa938c4c83bc7d3e30b1ebc422",
+        "passage_rank": 9,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "3089421bc14ad4fb38a19dd45cf0f1d8",
+        "sentence_text": "Following previous work  ,  , we build a phrase-based SMT error generation system.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4827
+      },
+      {
+        "cross_encoder_score": -10.842743873596191,
+        "dataset": "QASPER",
+        "end_char": 5071,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "4b231caa938c4c83bc7d3e30b1ebc422",
+        "passage_rank": 9,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "e3b469a0e88ef00a070e178f4aa28642",
+        "sentence_text": "During training, error-corrected sentences in the training data are treated as the source, and the original sentences written by language learners as the target.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 4910
+      },
+      {
+        "cross_encoder_score": -8.245413780212402,
+        "dataset": "QASPER",
+        "end_char": 5160,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "4b231caa938c4c83bc7d3e30b1ebc422",
+        "passage_rank": 9,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "37490d6e50387f7ba25d203f83bfddf0",
+        "sentence_text": "Pialign  is used to create a phrase translation table directly from model probabilities.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 5072
+      },
+      {
+        "cross_encoder_score": -11.081936836242676,
+        "dataset": "QASPER",
+        "end_char": 5308,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "4b231caa938c4c83bc7d3e30b1ebc422",
+        "passage_rank": 9,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "9694b06792b71b677978d5969ca3c9b8",
+        "sentence_text": "In addition to default features, we add character-level Levenshtein distance to each mapping in the phrase table, as proposed by Felice:2014-CoNLL.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 5161
+      },
+      {
+        "cross_encoder_score": -10.186097145080566,
+        "dataset": "QASPER",
+        "end_char": 5457,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "4b231caa938c4c83bc7d3e30b1ebc422",
+        "passage_rank": 9,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "921a612bce5feb7a2caf2eb28c8e5ebf",
+        "sentence_text": "Decoding is performed using Moses  and the language model used during decoding is built from the original erroneous sentences in the learner corpus.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 5309
+      },
+      {
+        "cross_encoder_score": -9.574433326721191,
+        "dataset": "QASPER",
+        "end_char": 5560,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "4b231caa938c4c83bc7d3e30b1ebc422",
+        "passage_rank": 9,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "df3d6a0e3e1f861e4364bc5cfd0ade62",
+        "sentence_text": "The IRSTLM Toolkit  is used for building a 5-gram language model with modified Kneser-Ney smoothing  .",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          3,
+          8,
+          0
+        ],
+        "source_position": 5458
+      },
+      {
+        "cross_encoder_score": -11.144670486450195,
+        "dataset": "QASPER",
+        "end_char": 5599,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "4b231caa938c4c83bc7d3e30b1ebc422",
+        "passage_rank": 9,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "b79e5981ac2ec6c55aabea54c5f0b6cf",
+        "sentence_text": "Pattern Extraction\tWe also describe a",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          3,
+          9,
+          0
+        ],
+        "source_position": 5562
+      },
+      {
+        "cross_encoder_score": -10.464447975158691,
+        "dataset": "QASPER",
+        "end_char": 5748,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "730c1a7f39975648de449b535b663571",
+        "passage_rank": 3,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "8225ba57c9f9e5cb2de6a0fccab0bc88",
+        "sentence_text": "method for AEG using patterns over words and part-of-speech (POS) tags, extracting known incorrect sequences from a corpus of annotated corrections.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "source_position": 5600
+      },
+      {
+        "cross_encoder_score": -10.38241195678711,
+        "dataset": "QASPER",
+        "end_char": 5969,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "730c1a7f39975648de449b535b663571",
+        "passage_rank": 3,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "6a5c6495fc422db5ce358dfe4a7bafff",
+        "sentence_text": "This approach is based on the best method identified by Felice2014a, using error type distributions; while they covered only 5 error types, we relax this restriction and learn patterns for generating all types of errors.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "source_position": 5749
+      },
+      {
+        "cross_encoder_score": -8.32621955871582,
+        "dataset": "QASPER",
+        "end_char": 6134,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "730c1a7f39975648de449b535b663571",
+        "passage_rank": 3,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "bf6cab5d7252e90690f3c098b28f38ed",
+        "sentence_text": "The original and corrected sentences in the corpus are aligned and used to identify short transformation patterns in the form of (incorrect phrase, correct phrase).",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "source_position": 5970
+      },
+      {
+        "cross_encoder_score": -10.515355110168457,
+        "dataset": "QASPER",
+        "end_char": 6232,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "730c1a7f39975648de449b535b663571",
+        "passage_rank": 3,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "9c0d2f6fb1d201434214bbd151840cb4",
+        "sentence_text": "The length of each pattern is the affected phrase, plus up to one token of context on both sides.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "source_position": 6135
+      },
+      {
+        "cross_encoder_score": -10.572936058044434,
+        "dataset": "QASPER",
+        "end_char": 6375,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "730c1a7f39975648de449b535b663571",
+        "passage_rank": 3,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "0cb55d85d95bb4767dab644a3f3274d7",
+        "sentence_text": "If a word form changes between the incorrect and correct text, it is fully saved in the pattern, otherwise the POS tags are used for matching.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "source_position": 6233
+      },
+      {
+        "cross_encoder_score": -11.22021198272705,
+        "dataset": "QASPER",
+        "end_char": 6671,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "730c1a7f39975648de449b535b663571",
+        "passage_rank": 3,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "fba7de62f234bf3b8b6b7b44d5eafcf9",
+        "sentence_text": "For example, the original sentence `We went shop on Saturday' and the corrected version `We went shopping on Saturday' would produce the following pattern: (VVD shop_VV0 II, VVD shopping_VVG II) After collecting statistics from the background corpus, errors can be inserted into error-free text.",
+        "sentence_token_cost": 63,
+        "source_order": [
+          0,
+          4,
+          5,
+          0
+        ],
+        "source_position": 6376
+      },
+      {
+        "cross_encoder_score": -11.303101539611816,
+        "dataset": "QASPER",
+        "end_char": 6775,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "730c1a7f39975648de449b535b663571",
+        "passage_rank": 3,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "805dfb0b55859247245e0b6c198968f1",
+        "sentence_text": "The learned patterns are now reversed, looking for the correct side of the tuple in the input sentence.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          4,
+          6,
+          0
+        ],
+        "source_position": 6672
+      },
+      {
+        "cross_encoder_score": -9.656243324279785,
+        "dataset": "QASPER",
+        "end_char": 6849,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "730c1a7f39975648de449b535b663571",
+        "passage_rank": 3,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "30051fe62c67ebbf883cd6ae268cdde0",
+        "sentence_text": "We only use patterns with frequency INLINEFORM0 , which yields a total of",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          4,
+          7,
+          0
+        ],
+        "source_position": 6776
+      },
+      {
+        "cross_encoder_score": -11.323039054870605,
+        "dataset": "QASPER",
+        "end_char": 6889,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "71d99c2c54e218f62a9e53ca56721430",
+        "passage_rank": 7,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "8f478979a00997fb4ab520a190cfa7eb",
+        "sentence_text": "35,625 patterns from our training data.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 6850
+      },
+      {
+        "cross_encoder_score": -10.66102409362793,
+        "dataset": "QASPER",
+        "end_char": 7096,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "71d99c2c54e218f62a9e53ca56721430",
+        "passage_rank": 7,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "4a43476014d39f374dbe62a2620e39d0",
+        "sentence_text": "For each input sentence, we first decide how many errors will be generated (using probabilities from the background corpus) and attempt to create them by sampling from the collection of applicable patterns.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 6890
+      },
+      {
+        "cross_encoder_score": -10.799810409545898,
+        "dataset": "QASPER",
+        "end_char": 7201,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "71d99c2c54e218f62a9e53ca56721430",
+        "passage_rank": 7,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "c62d9a34dead5750d2ad4c6e97a080b0",
+        "sentence_text": "This process is repeated until all the required errors have been generated or the sentence is exhausted.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 7097
+      },
+      {
+        "cross_encoder_score": -10.475290298461914,
+        "dataset": "QASPER",
+        "end_char": 7375,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "71d99c2c54e218f62a9e53ca56721430",
+        "passage_rank": 7,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "0dcae6c7137ab6bb391f61fee1a8b8e7",
+        "sentence_text": "During generation, we try to balance the distribution of error types as well as keeping the same proportion of incorrect and correct sentences as in the background corpus  .",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 7202
+      },
+      {
+        "cross_encoder_score": -11.277327537536621,
+        "dataset": "QASPER",
+        "end_char": 7450,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "71d99c2c54e218f62a9e53ca56721430",
+        "passage_rank": 7,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "451c224dd513d51791434134b499c397",
+        "sentence_text": "The required POS tags were generated with RASP  , using the CLAWS2 tagset.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 7376
+      },
+      {
+        "cross_encoder_score": -11.058938980102539,
+        "dataset": "QASPER",
+        "end_char": 7574,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "71d99c2c54e218f62a9e53ca56721430",
+        "passage_rank": 7,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "41b2785ac9ec531322c8efcc376cfdde",
+        "sentence_text": "Error Detection Model\tWe construct a neural sequence labeling model for error detection, following the previous work  ,  .",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 7452
+      },
+      {
+        "cross_encoder_score": -10.230320930480957,
+        "dataset": "QASPER",
+        "end_char": 7744,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "71d99c2c54e218f62a9e53ca56721430",
+        "passage_rank": 7,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "29e9912a4474065bfb13787d700711f5",
+        "sentence_text": "The model receives a sequence of tokens as input and outputs a prediction for each position, indicating whether the token is correct or incorrect in the current context.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 7575
+      },
+      {
+        "cross_encoder_score": -10.843135833740234,
+        "dataset": "QASPER",
+        "end_char": 7847,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "71d99c2c54e218f62a9e53ca56721430",
+        "passage_rank": 7,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "5d08065f86565c37091f463b9aede02c",
+        "sentence_text": "The tokens are first mapped to a distributed vector space, resulting in a sequence of word embeddings.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 7745
+      },
+      {
+        "cross_encoder_score": -10.770476341247559,
+        "dataset": "QASPER",
+        "end_char": 7984,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "71d99c2c54e218f62a9e53ca56721430",
+        "passage_rank": 7,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "cad10dbda50b95f25cda16d171fcae86",
+        "sentence_text": "Next, the embeddings are given as input to a bidirectional LSTM  , in order to create context-dependent representations for every token.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          5,
+          8,
+          0
+        ],
+        "source_position": 7848
+      },
+      {
+        "cross_encoder_score": -10.79486083984375,
+        "dataset": "QASPER",
+        "end_char": 8149,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "71d99c2c54e218f62a9e53ca56721430",
+        "passage_rank": 7,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "00f175ae885b882a5cccc5034e77d9c1",
+        "sentence_text": "The hidden states from forward- and backward-LSTMs are concatenated for each word position, resulting in representations that are conditioned on the whole sequence.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          5,
+          9,
+          0
+        ],
+        "source_position": 7985
+      },
+      {
+        "cross_encoder_score": -11.199973106384277,
+        "dataset": "QASPER",
+        "end_char": 8230,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "71d99c2c54e218f62a9e53ca56721430",
+        "passage_rank": 7,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "2404b187321967d55931ab0061bc37be",
+        "sentence_text": "This concatenated vector is then passed through an additional feedforward layer,",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          5,
+          10,
+          0
+        ],
+        "source_position": 8150
+      },
+      {
+        "cross_encoder_score": -6.8671698570251465,
+        "dataset": "QASPER",
+        "end_char": 8358,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "6f3a871496b05487942f6818fdaf5bfe",
+        "passage_rank": 6,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "359890e767ec6ddcb3daab76f6d3d146",
+        "sentence_text": "and a softmax over the two possible labels (correct and incorrect) is used to output a probability distribution for each token.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 8231
+      },
+      {
+        "cross_encoder_score": -10.283208847045898,
+        "dataset": "QASPER",
+        "end_char": 8457,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "6f3a871496b05487942f6818fdaf5bfe",
+        "passage_rank": 6,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "39ed7622a990aab612279773026811cc",
+        "sentence_text": "The model is optimised by minimising categorical cross-entropy with respect to the correct labels.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 8359
+      },
+      {
+        "cross_encoder_score": -1.4734121561050415,
+        "dataset": "QASPER",
+        "end_char": 8612,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "6f3a871496b05487942f6818fdaf5bfe",
+        "passage_rank": 6,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "dd31a862ed8e1de40a2397c73e5546b9",
+        "sentence_text": "We use AdaDelta  for calculating an adaptive learning rate during training, which accounts for a higher baseline performance compared to previous results.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 8458
+      },
+      {
+        "cross_encoder_score": -9.796628952026367,
+        "dataset": "QASPER",
+        "end_char": 8758,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "6f3a871496b05487942f6818fdaf5bfe",
+        "passage_rank": 6,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "9fca60efac00e59e0a497bd9a1d05bbd",
+        "sentence_text": "Evaluation\tWe trained our error generation models on the public FCE training set  and used them to generate additional artificial training data.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 8614
+      },
+      {
+        "cross_encoder_score": -9.757560729980469,
+        "dataset": "QASPER",
+        "end_char": 9072,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "6f3a871496b05487942f6818fdaf5bfe",
+        "passage_rank": 6,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "63cc51a8ebcfae1d785933f10df549a1",
+        "sentence_text": "Grammatically correct text is needed as the starting point for inserting artificial errors, and we used two different sources: 1) the corrected version of the same FCE training set on which the system is trained (450K tokens), and 2) example sentences extracted from the English Vocabulary Profile (270K tokens)..",
+        "sentence_token_cost": 68,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 8759
+      },
+      {
+        "cross_encoder_score": -8.856271743774414,
+        "dataset": "QASPER",
+        "end_char": 9332,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "6f3a871496b05487942f6818fdaf5bfe",
+        "passage_rank": 6,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "22acd23ef4e935af29434d6eb10e187c",
+        "sentence_text": "While there are other text corpora that could be used (e.g., Wikipedia and news articles), our development experiments showed that keeping the writing style and vocabulary close to the target domain gives better results compared to simply including more data.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 9073
+      },
+      {
+        "cross_encoder_score": -10.502671241760254,
+        "dataset": "QASPER",
+        "end_char": 9508,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "6f3a871496b05487942f6818fdaf5bfe",
+        "passage_rank": 6,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "42fc1b536183150b2fbb980e89e270ef",
+        "sentence_text": "We evaluated our detection models on three benchmarks: the FCE test data (41K tokens) and the two alternative annotations of the CoNLL 2014 Shared Task dataset (30K tokens)  .",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 9333
+      },
+      {
+        "cross_encoder_score": -10.022475242614746,
+        "dataset": "QASPER",
+        "end_char": 9513,
+        "pair_tokens_before_truncation": 10,
+        "pair_truncated": false,
+        "passage_id": "6f3a871496b05487942f6818fdaf5bfe",
+        "passage_rank": 6,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "f39ef1fca811e65b0560f91ebd26a18a",
+        "sentence_text": "Each",
+        "sentence_token_cost": 1,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 9509
+      },
+      {
+        "cross_encoder_score": -7.692325115203857,
+        "dataset": "QASPER",
+        "end_char": 9724,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "c932f64aa26f6de9900b6ba19a80f661",
+        "passage_rank": 1,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "d8aceda635f5516f9061c64dfaa67de4",
+        "sentence_text": "artificial error generation system was used to generate 3 different versions of the artificial data, which were then combined with the original annotated dataset and used for training an error detection system.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 9514
+      },
+      {
+        "cross_encoder_score": -11.366679191589355,
+        "dataset": "QASPER",
+        "end_char": 9858,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "c932f64aa26f6de9900b6ba19a80f661",
+        "passage_rank": 1,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "dad80dc9654ac3eba4a0bee27d381997",
+        "sentence_text": "Table TABREF1 contains example sentences from the error generation systems, highlighting each of the edits that are marked as errors.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 9725
+      },
+      {
+        "cross_encoder_score": -11.265035629272461,
+        "dataset": "QASPER",
+        "end_char": 9917,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "c932f64aa26f6de9900b6ba19a80f661",
+        "passage_rank": 1,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "55b3bd18aad70c65fa08635d7f33e177",
+        "sentence_text": "The error detection results can be seen in Table TABREF4 .",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 9859
+      },
+      {
+        "cross_encoder_score": -7.219703197479248,
+        "dataset": "QASPER",
+        "end_char": 10081,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "c932f64aa26f6de9900b6ba19a80f661",
+        "passage_rank": 1,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "99f7b7614bd6774e21f8580f717c3282",
+        "sentence_text": "We use INLINEFORM0 as the main evaluation measure, which was established as the preferred measure for error correction and detection by the CoNLL-14 shared task  .",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 9918
+      },
+      {
+        "cross_encoder_score": -9.88790512084961,
+        "dataset": "QASPER",
+        "end_char": 10352,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "c932f64aa26f6de9900b6ba19a80f661",
+        "passage_rank": 1,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "844afd04c97f9abb5789671ec944cbf5",
+        "sentence_text": "INLINEFORM1 calculates a weighted harmonic mean of precision and recall, which assigns twice as much importance to precision \u2013 this is motivated by practical applications, where accurate predictions from an error detection system are more important compared to coverage.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 10082
+      },
+      {
+        "cross_encoder_score": -10.784099578857422,
+        "dataset": "QASPER",
+        "end_char": 10477,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "c932f64aa26f6de9900b6ba19a80f661",
+        "passage_rank": 1,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "a5341747c5483c2bf39d21cb86fa1750",
+        "sentence_text": "For comparison, we also report the performance of the error detection system by Rei2016, trained using the same FCE dataset.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 10353
+      },
+      {
+        "cross_encoder_score": -9.324983596801758,
+        "dataset": "QASPER",
+        "end_char": 10640,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "c932f64aa26f6de9900b6ba19a80f661",
+        "passage_rank": 1,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "d0b62a758054cd4ca1e8e179d107a0e5",
+        "sentence_text": "The results show that error detection performance is substantially improved by making use of artificially generated data, created by any of the described methods.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 10478
+      },
+      {
+        "cross_encoder_score": -10.77634334564209,
+        "dataset": "QASPER",
+        "end_char": 10865,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "c932f64aa26f6de9900b6ba19a80f661",
+        "passage_rank": 1,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "c420f5d677b23fccfd6eb69c18b8ce87",
+        "sentence_text": "When comparing the error generation system by Felice2014a (FY14) with our pattern-based (PAT) and machine translation (MT) approaches, we see that the latter methods covering all error types consistently improve performance.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "source_position": 10641
+      },
+      {
+        "cross_encoder_score": -9.729199409484863,
+        "dataset": "QASPER",
+        "end_char": 10875,
+        "pair_tokens_before_truncation": 11,
+        "pair_truncated": false,
+        "passage_id": "c932f64aa26f6de9900b6ba19a80f661",
+        "passage_rank": 1,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "886c72b4981f493bb78680f7898a01b4",
+        "sentence_text": "While the",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          7,
+          8,
+          0
+        ],
+        "source_position": 10866
+      },
+      {
+        "cross_encoder_score": -10.865118026733398,
+        "dataset": "QASPER",
+        "end_char": 11012,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "c13ebcc55d3e87e5b51ceb4f5f09dc2c",
+        "passage_rank": 4,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "fc6b8983a8de7c033de68bf5ffd8f05e",
+        "sentence_text": "added error types tend to be less frequent and more complicated to capture, the added coverage is indeed beneficial for error detection.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 10876
+      },
+      {
+        "cross_encoder_score": -10.364670753479004,
+        "dataset": "QASPER",
+        "end_char": 11149,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "c13ebcc55d3e87e5b51ceb4f5f09dc2c",
+        "passage_rank": 4,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "8a8f9da53f79dceb37da560fc121fb9f",
+        "sentence_text": "Combining the pattern-based approach with the machine translation system (Ann+PAT+MT) gave the best overall performance on all datasets.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 11013
+      },
+      {
+        "cross_encoder_score": -10.692975044250488,
+        "dataset": "QASPER",
+        "end_char": 11296,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "c13ebcc55d3e87e5b51ceb4f5f09dc2c",
+        "passage_rank": 4,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "a7619756aeaa77d8e0d3e220951d0b04",
+        "sentence_text": "The two frameworks learn to generate different types of errors, and taking advantage of both leads to substantial improvements in error detection.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 11150
+      },
+      {
+        "cross_encoder_score": -6.816445827484131,
+        "dataset": "QASPER",
+        "end_char": 11509,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "c13ebcc55d3e87e5b51ceb4f5f09dc2c",
+        "passage_rank": 4,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "9d1924bc1cbdcc2d45e6ff318d3f7d17",
+        "sentence_text": "We used the Approximate Randomisation Test  ,  to calculate statistical significance and found that the improvement for each of the systems using artificial data was significant over using only manual annotation.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 11297
+      },
+      {
+        "cross_encoder_score": -10.717048645019531,
+        "dataset": "QASPER",
+        "end_char": 11639,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "c13ebcc55d3e87e5b51ceb4f5f09dc2c",
+        "passage_rank": 4,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "b4a8d0b7533f06e92748220126c7b7a1",
+        "sentence_text": "In addition, the final combination system is also significantly better compared to the Felice2014a system, on all three datasets.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 11510
+      },
+      {
+        "cross_encoder_score": -10.775450706481934,
+        "dataset": "QASPER",
+        "end_char": 11795,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "c13ebcc55d3e87e5b51ceb4f5f09dc2c",
+        "passage_rank": 4,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "d9ec5da235aa52b4495a1e5fdbdb53a1",
+        "sentence_text": "While Rei2016 also report separate experiments that achieve even higher performance, these models were trained on a considerably larger proprietary corpus.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 11640
+      },
+      {
+        "cross_encoder_score": -10.746091842651367,
+        "dataset": "QASPER",
+        "end_char": 12001,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "c13ebcc55d3e87e5b51ceb4f5f09dc2c",
+        "passage_rank": 4,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "092f14575278fcca5b2d2f6aa7e09f89",
+        "sentence_text": "In this paper we compare error detection frameworks trained on the same publicly available FCE dataset, thereby removing the confounding factor of dataset size and only focusing on the model architectures.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 11796
+      },
+      {
+        "cross_encoder_score": -10.736376762390137,
+        "dataset": "QASPER",
+        "end_char": 12227,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "c13ebcc55d3e87e5b51ceb4f5f09dc2c",
+        "passage_rank": 4,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "04c4a7f48de64d09976db735c3e9f6df",
+        "sentence_text": "The error generation methods can generate alternative versions of the same input text \u2013 the pattern-based method randomly samples the error locations, and the SMT system can provide an n-best list of alternative translations.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 12002
+      },
+      {
+        "cross_encoder_score": -11.039605140686035,
+        "dataset": "QASPER",
+        "end_char": 12331,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "c13ebcc55d3e87e5b51ceb4f5f09dc2c",
+        "passage_rank": 4,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "f8abe22289f3b2533557b779e8beaf6e",
+        "sentence_text": "Therefore, we also investigated the combination of multiple error-generated versions of the input files",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "source_position": 12228
+      },
+      {
+        "cross_encoder_score": -10.89549732208252,
+        "dataset": "QASPER",
+        "end_char": 12369,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "25de2c4ce58549a7f441449eff3f23c7",
+        "passage_rank": 2,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "fda98ae597a839282fec2d1c84e2b46a",
+        "sentence_text": "when training error detection models.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 12332
+      },
+      {
+        "cross_encoder_score": -11.045573234558105,
+        "dataset": "QASPER",
+        "end_char": 12537,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "25de2c4ce58549a7f441449eff3f23c7",
+        "passage_rank": 2,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "2b500dfd023ed111af9c685ed9388121",
+        "sentence_text": "Figure FIGREF6 shows the INLINEFORM0 score on the development set, as the training data is increased by using more translations from the n-best list of the SMT system.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 12370
+      },
+      {
+        "cross_encoder_score": -10.856821060180664,
+        "dataset": "QASPER",
+        "end_char": 12796,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "25de2c4ce58549a7f441449eff3f23c7",
+        "passage_rank": 2,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "29294130f8c846c7242c153df9f06d96",
+        "sentence_text": "These results reveal that allowing the model to see multiple alternative versions of the same file gives a distinct improvement \u2013 showing the model both correct and incorrect variations of the same sentences likely assists in learning a discriminative model.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 12538
+      },
+      {
+        "cross_encoder_score": -11.160831451416016,
+        "dataset": "QASPER",
+        "end_char": 12854,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "25de2c4ce58549a7f441449eff3f23c7",
+        "passage_rank": 2,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "44da4bfaf75a17a7045ef3b401d73fd7",
+        "sentence_text": "Related Work\tOur work builds on prior research into AEG.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 12798
+      },
+      {
+        "cross_encoder_score": -11.114341735839844,
+        "dataset": "QASPER",
+        "end_char": 12965,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "25de2c4ce58549a7f441449eff3f23c7",
+        "passage_rank": 2,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "bb0dcdba29c290fa4fac281772a9dfb9",
+        "sentence_text": "Brockett2006 constructed regular expressions for transforming correct sentences to contain noun number errors.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 12855
+      },
+      {
+        "cross_encoder_score": -10.996262550354004,
+        "dataset": "QASPER",
+        "end_char": 13070,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "25de2c4ce58549a7f441449eff3f23c7",
+        "passage_rank": 2,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "a13d05e62479ca1d0e7d513bc25b5607",
+        "sentence_text": "Rozovskaya2010a learned confusion sets from an annotated corpus in order to generate preposition errors.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 12966
+      },
+      {
+        "cross_encoder_score": -9.82129955291748,
+        "dataset": "QASPER",
+        "end_char": 13227,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "25de2c4ce58549a7f441449eff3f23c7",
+        "passage_rank": 2,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "2344c1315512934f34aa5e4a38d69dcd",
+        "sentence_text": "Foster2009 devised a tool for generating errors for different types using patterns provided by the user or collected automatically from an annotated corpus.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          9,
+          6,
+          0
+        ],
+        "source_position": 13071
+      },
+      {
+        "cross_encoder_score": -10.620245933532715,
+        "dataset": "QASPER",
+        "end_char": 13337,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "25de2c4ce58549a7f441449eff3f23c7",
+        "passage_rank": 2,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "e23e67e62bc38e5d7b945de1bd95cff1",
+        "sentence_text": "However, their method uses a limited number of edit operations and is thus unable to generate complex errors.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          9,
+          7,
+          0
+        ],
+        "source_position": 13228
+      },
+      {
+        "cross_encoder_score": -10.78509521484375,
+        "dataset": "QASPER",
+        "end_char": 13453,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "25de2c4ce58549a7f441449eff3f23c7",
+        "passage_rank": 2,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "3457405d35e08eb9ca9f77e6eeed6b6c",
+        "sentence_text": "Cahill2013 compared different training methodologies and showed that artificial errors helped correct prepositions.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          9,
+          8,
+          0
+        ],
+        "source_position": 13338
+      },
+      {
+        "cross_encoder_score": -11.09363079071045,
+        "dataset": "QASPER",
+        "end_char": 13600,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "25de2c4ce58549a7f441449eff3f23c7",
+        "passage_rank": 2,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "48d167092920870f4c9946f4826d0bfa",
+        "sentence_text": "Felice2014a learned error type distributions for generating five types of errors, and the system in Section SECREF3 is an extension of this model.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          9,
+          9,
+          0
+        ],
+        "source_position": 13454
+      },
+      {
+        "cross_encoder_score": -10.908491134643555,
+        "dataset": "QASPER",
+        "end_char": 13688,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "25de2c4ce58549a7f441449eff3f23c7",
+        "passage_rank": 2,
+        "query_id": "7b4992e2d26577246a16ac0d1efc995ab4695d24",
+        "sentence_id": "a622a79df5b31714b62eeee74c91e922",
+        "sentence_text": "While previous work focused on generating a specific subset of error types, we explored",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          9,
+          10,
+          0
+        ],
+        "source_position": 13601
+      }
+    ],
+    "scoring_seconds": 0.2873150199884549,
+    "source_fingerprint": "1ec969b30a902b0026df7f6c18ba608448d4d1341afc93055aaa740254b33f53"
+  }
+}

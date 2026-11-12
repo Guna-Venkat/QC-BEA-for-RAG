@@ -1,0 +1,1 @@
+../../../../../../../4_multigranular_evidence_study/docs/study_summary/interpretation.md

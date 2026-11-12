@@ -1,0 +1,1831 @@
+{
+  "checksum": "f4b5b2c15a7942689a5f07b9a565f02092ac108fc33c283086f3c01f68db8795",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "67ec8ef85844e01746c13627090dc2706bb2a4f3"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 90,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "7cd482912e68594ea12f766e4785c138105df5e5bbe2a2db94e39ca3a2b0e90b",
+    "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+    "scores": [
+      {
+        "cross_encoder_score": -11.397608757019043,
+        "dataset": "QASPER",
+        "end_char": 4106,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "37b5a136a66ed6242ebf9fb718b7a522",
+        "passage_rank": 8,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "f74c177b6d02392b9d0be46ee111c46f",
+        "sentence_text": "adversarially-chosen 1-character swap in the sentence, which can only be restored to $69.2$ by adversarial training.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 3990
+      },
+      {
+        "cross_encoder_score": -10.931154251098633,
+        "dataset": "QASPER",
+        "end_char": 4304,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "37b5a136a66ed6242ebf9fb718b7a522",
+        "passage_rank": 8,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "eb93f4f3d15a2cf5c4cde12bdbe896e8",
+        "sentence_text": "Third (our primary contribution), we propose a task-agnostic defense, attaching a word recognition model that predicts each word in a sentence given a full sequence of (possibly misspelled) inputs.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 4107
+      },
+      {
+        "cross_encoder_score": -11.312652587890625,
+        "dataset": "QASPER",
+        "end_char": 4394,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "37b5a136a66ed6242ebf9fb718b7a522",
+        "passage_rank": 8,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "affd4799bb89c2ef75a1a5340bdd95d7",
+        "sentence_text": "The word recognition model's outputs form the input to a downstream classification model.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4305
+      },
+      {
+        "cross_encoder_score": -6.75588846206665,
+        "dataset": "QASPER",
+        "end_char": 4495,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "37b5a136a66ed6242ebf9fb718b7a522",
+        "passage_rank": 8,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "b11be87360b10461a82f53cac27e2f4c",
+        "sentence_text": "Our word recognition models build upon the RNN-based semi-character word recognition model due to  .",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4395
+      },
+      {
+        "cross_encoder_score": -10.643099784851074,
+        "dataset": "QASPER",
+        "end_char": 4665,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "37b5a136a66ed6242ebf9fb718b7a522",
+        "passage_rank": 8,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "1228166fe1d80e93c1874e768c46c5a9",
+        "sentence_text": "While our word recognizers are trained on domain-specific text from the task at hand, they often predict UNK at test time, owing to the small domain-specific vocabulary.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 4496
+      },
+      {
+        "cross_encoder_score": -11.31987190246582,
+        "dataset": "QASPER",
+        "end_char": 4820,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "37b5a136a66ed6242ebf9fb718b7a522",
+        "passage_rank": 8,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "655db42e5502e22aaec6828bb4cee0f1",
+        "sentence_text": "To handle unobserved and rare words, we propose several backoff strategies including falling back on a generic word recognizer trained on a larger corpus.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 4666
+      },
+      {
+        "cross_encoder_score": -11.370217323303223,
+        "dataset": "QASPER",
+        "end_char": 5132,
+        "pair_tokens_before_truncation": 102,
+        "pair_truncated": false,
+        "passage_id": "37b5a136a66ed6242ebf9fb718b7a522",
+        "passage_rank": 8,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "d30b25923e98d343db9a00d66f64ccc4",
+        "sentence_text": "Incorporating our defenses, BERT models subject to 1-character attacks are restored to $88.3$ , $81.1$ , $78.0$ accuracy for swap, drop, add attacks respectively, as compared to $69.2$ , $63.6$ , and $50.0$ for adversarial training Fourth, we offer a detailed qualitative analysis, demonstrating that a low word",
+        "sentence_token_cost": 91,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 4821
+      },
+      {
+        "cross_encoder_score": -10.894786834716797,
+        "dataset": "QASPER",
+        "end_char": 6570,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "29e094bfc4108076bbdef4f4f7d5e2e1",
+        "passage_rank": 9,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "b18f47dec2b89723c2c4266f6d926d02",
+        "sentence_text": "ours is on improving the worst case adversarial performance.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 6510
+      },
+      {
+        "cross_encoder_score": -10.995423316955566,
+        "dataset": "QASPER",
+        "end_char": 6667,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "29e094bfc4108076bbdef4f4f7d5e2e1",
+        "passage_rank": 9,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "0a5a2837a33215943a1415a6b3e6ab18",
+        "sentence_text": "Similarly,  studied how synthetic and natural noise affects character-level machine translation.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 6571
+      },
+      {
+        "cross_encoder_score": -11.115525245666504,
+        "dataset": "QASPER",
+        "end_char": 6776,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "29e094bfc4108076bbdef4f4f7d5e2e1",
+        "passage_rank": 9,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "71bc5598ade5ff13d1b057f072d69aeb",
+        "sentence_text": "They considered structure invariant representations and adversarial training as defenses against such noise.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 6668
+      },
+      {
+        "cross_encoder_score": -11.111196517944336,
+        "dataset": "QASPER",
+        "end_char": 6899,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "29e094bfc4108076bbdef4f4f7d5e2e1",
+        "passage_rank": 9,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "0a9f946b2b0662d10f5d0e70d0141507",
+        "sentence_text": "Here, we show that an auxiliary word recognition model, which can be trained on unlabeled data, provides a strong defense.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 6777
+      },
+      {
+        "cross_encoder_score": -10.873957633972168,
+        "dataset": "QASPER",
+        "end_char": 6988,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "29e094bfc4108076bbdef4f4f7d5e2e1",
+        "passage_rank": 9,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "f8c9a80031175589279744f38dbab0d3",
+        "sentence_text": "Spelling correction  is often viewed as a sub-task of grammatical error correction  ,  .",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 6900
+      },
+      {
+        "cross_encoder_score": -11.247440338134766,
+        "dataset": "QASPER",
+        "end_char": 7120,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "29e094bfc4108076bbdef4f4f7d5e2e1",
+        "passage_rank": 9,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "ee1c547680b97dd4626f1a8f06ce32b0",
+        "sentence_text": "Classic methods rely on a source language model and a noisy channel model to find the most likely correction for a given word  ,  .",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 6989
+      },
+      {
+        "cross_encoder_score": -9.98830795288086,
+        "dataset": "QASPER",
+        "end_char": 7247,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "29e094bfc4108076bbdef4f4f7d5e2e1",
+        "passage_rank": 9,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "53b172f9f02784180479817b0ea7fa60",
+        "sentence_text": "Recently, neural techniques have been applied to the task  ,  , which model the context and orthography of the input together.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 7121
+      },
+      {
+        "cross_encoder_score": -10.389894485473633,
+        "dataset": "QASPER",
+        "end_char": 7286,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "29e094bfc4108076bbdef4f4f7d5e2e1",
+        "passage_rank": 9,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "9abc14ab54676b056e6725ad14f7f5ec",
+        "sentence_text": "Our work extends the ScRNN model of  .",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 7248
+      },
+      {
+        "cross_encoder_score": -11.402339935302734,
+        "dataset": "QASPER",
+        "end_char": 7483,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "29e094bfc4108076bbdef4f4f7d5e2e1",
+        "passage_rank": 9,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "91f5662a01127826897f2adfe90b95cf",
+        "sentence_text": "Robust Word Recognition\tTo tackle character-level adversarial attacks, we introduce a simple two-stage solution, placing a word recognition model ( $W$ ) before the downstream classifier ( $C$ ).",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          5,
+          8,
+          0
+        ],
+        "source_position": 7288
+      },
+      {
+        "cross_encoder_score": -11.109567642211914,
+        "dataset": "QASPER",
+        "end_char": 7564,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "29e094bfc4108076bbdef4f4f7d5e2e1",
+        "passage_rank": 9,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "f3e4c24bf3606a59cd77ad3e7200c950",
+        "sentence_text": "Under this scheme, all inputs are classified by the composed model $C \\circ W$ .",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          5,
+          9,
+          0
+        ],
+        "source_position": 7484
+      },
+      {
+        "cross_encoder_score": -11.112079620361328,
+        "dataset": "QASPER",
+        "end_char": 7795,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "29e094bfc4108076bbdef4f4f7d5e2e1",
+        "passage_rank": 9,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "c9c9d0b9491e2e96e18ba20b7936a4a9",
+        "sentence_text": "This modular approach, with $W$ and $C$ trained separately, offers several benefits: (i) we can deploy the same word recognition model for multiple downstream classification tasks/models; and (ii) we can train the word recognition",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          5,
+          10,
+          0
+        ],
+        "source_position": 7565
+      },
+      {
+        "cross_encoder_score": -10.78099536895752,
+        "dataset": "QASPER",
+        "end_char": 7832,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "766f0a8a256cc3f2df5426edcfa16b8a",
+        "passage_rank": 2,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "b2d823dfe10835b56260614dd876630b",
+        "sentence_text": "model with larger unlabeled corpora.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 7796
+      },
+      {
+        "cross_encoder_score": -11.292096138000488,
+        "dataset": "QASPER",
+        "end_char": 8049,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "766f0a8a256cc3f2df5426edcfa16b8a",
+        "passage_rank": 2,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "b261c49dfea99f89bd69638580f1486e",
+        "sentence_text": "Against adversarial mistakes, two important factors govern the robustness of this combined model: $W$ 's accuracy in recognizing misspelled words and $W$ 's sensitivity to adversarial perturbations on the same input.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 7833
+      },
+      {
+        "cross_encoder_score": -10.459307670593262,
+        "dataset": "QASPER",
+        "end_char": 8091,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "766f0a8a256cc3f2df5426edcfa16b8a",
+        "passage_rank": 2,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "a83e2e7f61c73ba3c4026d2196a0e3fd",
+        "sentence_text": "We discuss these aspects in detail below.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 8050
+      },
+      {
+        "cross_encoder_score": -4.6396074295043945,
+        "dataset": "QASPER",
+        "end_char": 8236,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "766f0a8a256cc3f2df5426edcfa16b8a",
+        "passage_rank": 2,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "da1861d349106a865cf1daf279bb937f",
+        "sentence_text": "ScRNN with Backoff\tWe now describe semi-character RNNs for word recognition, explain their limitations, and suggest techniques to improve them.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 8093
+      },
+      {
+        "cross_encoder_score": -3.698850393295288,
+        "dataset": "QASPER",
+        "end_char": 8434,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "766f0a8a256cc3f2df5426edcfa16b8a",
+        "passage_rank": 2,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "6b2138252cee5a32788e812579a97716",
+        "sentence_text": "Inspired by the psycholinguistic studies  ,  ,  proposed a semi-character based RNN (ScRNN) that processes a sentence of words with misspelled characters, predicting the correct words at each step.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 8237
+      },
+      {
+        "cross_encoder_score": -11.429415702819824,
+        "dataset": "QASPER",
+        "end_char": 8549,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "766f0a8a256cc3f2df5426edcfa16b8a",
+        "passage_rank": 2,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "bb9ff362db704ca8dc583a37be986495",
+        "sentence_text": "Let $s = \\lbrace w_1, w_2, \\dots , w_n\\rbrace $ denote the input sentence, a sequence of constituent words $w_i$ .",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 8435
+      },
+      {
+        "cross_encoder_score": -11.387514114379883,
+        "dataset": "QASPER",
+        "end_char": 8821,
+        "pair_tokens_before_truncation": 110,
+        "pair_truncated": false,
+        "passage_id": "766f0a8a256cc3f2df5426edcfa16b8a",
+        "passage_rank": 2,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "b5ef361f0a32dfc114df0f23fc0aa807",
+        "sentence_text": "Each input word ( $w_i$ ) is represented by concatenating (i) a one hot vector of the first character ( $\\mathbf {w_{i1}}$ ); (ii) a one hot representation of the last character ( $\\mathbf {w_{il}}$ , where $l$ is the length of word $w_i$ ); and (iii) a bag of characters",
+        "sentence_token_cost": 81,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 8550
+      },
+      {
+        "cross_encoder_score": -11.369789123535156,
+        "dataset": "QASPER",
+        "end_char": 8904,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "c4c549c844ddf1a13af4bd67ee772c8b",
+        "passage_rank": 1,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "6e4fca6d617073801d26d063309c7c52",
+        "sentence_text": "representation of the internal characters ( $\\sum _{j=2}^{l-1}\\mathbf {w_{ij}})$ .",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 8822
+      },
+      {
+        "cross_encoder_score": -10.909368515014648,
+        "dataset": "QASPER",
+        "end_char": 9025,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "c4c549c844ddf1a13af4bd67ee772c8b",
+        "passage_rank": 1,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "92e1ebcb3c98e796c624fb4d718c515d",
+        "sentence_text": "ScRNN treats the first and the last characters individually, and is agnostic to the ordering of the internal characters.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 8905
+      },
+      {
+        "cross_encoder_score": -11.285615921020508,
+        "dataset": "QASPER",
+        "end_char": 9093,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "c4c549c844ddf1a13af4bd67ee772c8b",
+        "passage_rank": 1,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "b9672a1dd34bb0c594869b96667fb94f",
+        "sentence_text": "Each word, represented accordingly, is then fed into a BiLSTM cell.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 9026
+      },
+      {
+        "cross_encoder_score": -11.03812026977539,
+        "dataset": "QASPER",
+        "end_char": 9267,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "c4c549c844ddf1a13af4bd67ee772c8b",
+        "passage_rank": 1,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "cf7499966aefeab98cb24a1b096ab8ba",
+        "sentence_text": "At each sequence step, the training target is the correct corresponding word (output dimension equal to vocabulary size), and the model is optimized with cross-entropy loss.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 9094
+      },
+      {
+        "cross_encoder_score": -11.033411979675293,
+        "dataset": "QASPER",
+        "end_char": 9467,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "c4c549c844ddf1a13af4bd67ee772c8b",
+        "passage_rank": 1,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "cc34762a3b0d62858cdc2d272dd30d1b",
+        "sentence_text": "While  demonstrate strong word recognition performance, a drawback of their evaluation setup is that they only attack and evaluate on the subset of words that are a part of their training vocabulary.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 9268
+      },
+      {
+        "cross_encoder_score": -11.379440307617188,
+        "dataset": "QASPER",
+        "end_char": 9576,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "c4c549c844ddf1a13af4bd67ee772c8b",
+        "passage_rank": 1,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "b313981667f644ced56545f0c5729173",
+        "sentence_text": "In such a setting, the word recognition performance is unreasonably dependent on the chosen vocabulary size.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 9468
+      },
+      {
+        "cross_encoder_score": -11.039121627807617,
+        "dataset": "QASPER",
+        "end_char": 9725,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "c4c549c844ddf1a13af4bd67ee772c8b",
+        "passage_rank": 1,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "b4e9ab9f91a80a031f301e94fafa80b1",
+        "sentence_text": "In principle, one can design models to predict (correctly) only a few chosen words, and ignore the remaining majority and still reach 100% accuracy.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 9577
+      },
+      {
+        "cross_encoder_score": -11.229260444641113,
+        "dataset": "QASPER",
+        "end_char": 9864,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "c4c549c844ddf1a13af4bd67ee772c8b",
+        "passage_rank": 1,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "92bc72e0f6812e7e36becd07a2754e45",
+        "sentence_text": "For the adversarial setting, rare and unseen words in the wild are particularly critical, as they provide opportunities for the attackers.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "source_position": 9726
+      },
+      {
+        "cross_encoder_score": -11.311285972595215,
+        "dataset": "QASPER",
+        "end_char": 9929,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "c4c549c844ddf1a13af4bd67ee772c8b",
+        "passage_rank": 1,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "bfaa153319dd1655b6cba12cf4dad279",
+        "sentence_text": "A reliable word-recognizer should handle these cases gracefully.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          7,
+          8,
+          0
+        ],
+        "source_position": 9865
+      },
+      {
+        "cross_encoder_score": -11.0735445022583,
+        "dataset": "QASPER",
+        "end_char": 10064,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "c4c549c844ddf1a13af4bd67ee772c8b",
+        "passage_rank": 1,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "a4ddea47577da825c809ba9507c1274b",
+        "sentence_text": "Below, we explore different ways to back off when the ScRNN predicts UNK (a frequent outcome for rare and unseen words): Pass-through:",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          7,
+          9,
+          0
+        ],
+        "source_position": 9930
+      },
+      {
+        "cross_encoder_score": -11.40185260772705,
+        "dataset": "QASPER",
+        "end_char": 14348,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "1c18dab1246c5f43e3fd65e7ae6bb5b2",
+        "passage_rank": 10,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "e7dfa915ca893461a6145a2a3d7b1b67",
+        "sentence_text": "$s^{\\prime }_i$ is close to $s$ under some notion of distance between sentences.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 14268
+      },
+      {
+        "cross_encoder_score": -11.384381294250488,
+        "dataset": "QASPER",
+        "end_char": 14586,
+        "pair_tokens_before_truncation": 119,
+        "pair_truncated": false,
+        "passage_id": "1c18dab1246c5f43e3fd65e7ae6bb5b2",
+        "passage_rank": 10,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "72370586140d7d9bd598238e7db8a73a",
+        "sentence_text": "We define the robustness of classifier $C$ to the adversary $A$ as:  $$R_{C,A} = \\mathbb {E}_s \\left[\\min _{s^{\\prime } \\in A(s)} \\mathbb {1}[C(s^{\\prime }) = y]\\right],$$   (Eq. 14)  where $y$ represents the ground truth label for $s$ .",
+        "sentence_token_cost": 90,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 14349
+      },
+      {
+        "cross_encoder_score": -11.307571411132812,
+        "dataset": "QASPER",
+        "end_char": 14751,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "1c18dab1246c5f43e3fd65e7ae6bb5b2",
+        "passage_rank": 10,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "da8c88276bb6b27bbad9904af9b1d5ec",
+        "sentence_text": "In practice, a real-world adversary may only be able to query the classifier a few times, hence $R_{C,A}$ represents the worst-case adversarial performance of $C$ .",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 14587
+      },
+      {
+        "cross_encoder_score": -11.246557235717773,
+        "dataset": "QASPER",
+        "end_char": 14878,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "1c18dab1246c5f43e3fd65e7ae6bb5b2",
+        "passage_rank": 10,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "752b40abda981bee3a385e03b02d6ef6",
+        "sentence_text": "Methods for generating adversarial examples, such as HotFlip  , focus on efficient algorithms for searching the $\\min $ above.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 14752
+      },
+      {
+        "cross_encoder_score": -11.146342277526855,
+        "dataset": "QASPER",
+        "end_char": 14955,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "1c18dab1246c5f43e3fd65e7ae6bb5b2",
+        "passage_rank": 10,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "a3c32529e00765867cd81810007d57aa",
+        "sentence_text": "Improving $R_{C,A}$ would imply better robustness against all these methods.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 14879
+      },
+      {
+        "cross_encoder_score": -11.417884826660156,
+        "dataset": "QASPER",
+        "end_char": 15107,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "1c18dab1246c5f43e3fd65e7ae6bb5b2",
+        "passage_rank": 10,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "90e870b42741124ec40bcdae561bd014",
+        "sentence_text": "We explore adversaries which perturb sentences with four types of character-level edits: (1) Swap: swapping two adjacent internal characters of a word.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 14956
+      },
+      {
+        "cross_encoder_score": -11.20232105255127,
+        "dataset": "QASPER",
+        "end_char": 15159,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "1c18dab1246c5f43e3fd65e7ae6bb5b2",
+        "passage_rank": 10,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "08ca93b2c36fb8eede39f9a398c5166d",
+        "sentence_text": "(2) Drop: removing an internal character of a word.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 15108
+      },
+      {
+        "cross_encoder_score": -11.369104385375977,
+        "dataset": "QASPER",
+        "end_char": 15252,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "1c18dab1246c5f43e3fd65e7ae6bb5b2",
+        "passage_rank": 10,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "67d486a40a8c3cd0d2c12978f1160537",
+        "sentence_text": "(3) Keyboard: substituting an internal character with adjacent characters of QWERTY keyboard",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          12,
+          7,
+          0
+        ],
+        "source_position": 15160
+      },
+      {
+        "cross_encoder_score": -11.419970512390137,
+        "dataset": "QASPER",
+        "end_char": 16605,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "f6a5093fb89bba613132874f14946fbe",
+        "passage_rank": 6,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "de39989de792b898e2cf5ec253a151e0",
+        "sentence_text": "As a background corpus, we use the IMDB movie reviews  , which contain 54K movie reviews, and a vocabulary of over 78K words.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 16480
+      },
+      {
+        "cross_encoder_score": -11.23910140991211,
+        "dataset": "QASPER",
+        "end_char": 16658,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "f6a5093fb89bba613132874f14946fbe",
+        "passage_rank": 6,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "fd1f5472cd90485cfe4dfa29d7deed23",
+        "sentence_text": "The two datasets do not share any reviews in common.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 16606
+      },
+      {
+        "cross_encoder_score": -10.94734001159668,
+        "dataset": "QASPER",
+        "end_char": 16742,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "f6a5093fb89bba613132874f14946fbe",
+        "passage_rank": 6,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "7a841df5d9f815739d9a769c3caf6971",
+        "sentence_text": "The spell-correction models are evaluated on their ability to correct misspellings.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          14,
+          2,
+          0
+        ],
+        "source_position": 16659
+      },
+      {
+        "cross_encoder_score": -11.158262252807617,
+        "dataset": "QASPER",
+        "end_char": 16921,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "f6a5093fb89bba613132874f14946fbe",
+        "passage_rank": 6,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "b111ede5e668d9f309d158288360e1c7",
+        "sentence_text": "The test setting consists of reviews where each word (with length $\\ge 4$ , barring stopwords) is attacked by one of the attack types (from swap, add, drop and keyboard attacks).",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          14,
+          3,
+          0
+        ],
+        "source_position": 16743
+      },
+      {
+        "cross_encoder_score": -11.227781295776367,
+        "dataset": "QASPER",
+        "end_char": 17007,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "f6a5093fb89bba613132874f14946fbe",
+        "passage_rank": 6,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "b25d36053c6b036961619fb71f933d23",
+        "sentence_text": "In the all attack setting, we mix all attacks by randomly choosing one for each word.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          14,
+          4,
+          0
+        ],
+        "source_position": 16922
+      },
+      {
+        "cross_encoder_score": -11.162631034851074,
+        "dataset": "QASPER",
+        "end_char": 17064,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "f6a5093fb89bba613132874f14946fbe",
+        "passage_rank": 6,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "7ea65098f4306a62b5a790f259acb210",
+        "sentence_text": "This most closely resembles a real world attack setting.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          14,
+          5,
+          0
+        ],
+        "source_position": 17008
+      },
+      {
+        "cross_encoder_score": -11.385215759277344,
+        "dataset": "QASPER",
+        "end_char": 17185,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "f6a5093fb89bba613132874f14946fbe",
+        "passage_rank": 6,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "6e383f174c3f476d3b20e02734e8707d",
+        "sentence_text": "In addition to our word recognition models, we also compare to After The Deadline (ATD), an open-source spell corrector.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          14,
+          6,
+          0
+        ],
+        "source_position": 17065
+      },
+      {
+        "cross_encoder_score": -11.139843940734863,
+        "dataset": "QASPER",
+        "end_char": 17241,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "f6a5093fb89bba613132874f14946fbe",
+        "passage_rank": 6,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "d5278cc70b7ab5d7d4c058d07e3e6952",
+        "sentence_text": "We found ATD to be the best freely-available corrector.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          14,
+          7,
+          0
+        ],
+        "source_position": 17186
+      },
+      {
+        "cross_encoder_score": -11.241249084472656,
+        "dataset": "QASPER",
+        "end_char": 17337,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "f6a5093fb89bba613132874f14946fbe",
+        "passage_rank": 6,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "6f7856635dd53e6010266f509759de24",
+        "sentence_text": "We refer the reader to  for comparisons of ScRNN to other anonymized commercial spell checkers.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          14,
+          8,
+          0
+        ],
+        "source_position": 17242
+      },
+      {
+        "cross_encoder_score": -11.079950332641602,
+        "dataset": "QASPER",
+        "end_char": 17424,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "f6a5093fb89bba613132874f14946fbe",
+        "passage_rank": 6,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "a6477cf9382705ca55a0f17c3991a63d",
+        "sentence_text": "For the ScRNN model, we use a single-layer Bi-LSTM with a hidden dimension size of 50.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          14,
+          9,
+          0
+        ],
+        "source_position": 17338
+      },
+      {
+        "cross_encoder_score": -11.358809471130371,
+        "dataset": "QASPER",
+        "end_char": 17549,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "f6a5093fb89bba613132874f14946fbe",
+        "passage_rank": 6,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "983a8e2d9730fdb79cfb012dd70168b9",
+        "sentence_text": "The input representation consists of 198 dimensions, which is thrice the number of unique characters (66) in the vocabulary.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          14,
+          10,
+          0
+        ],
+        "source_position": 17425
+      },
+      {
+        "cross_encoder_score": -11.313257217407227,
+        "dataset": "QASPER",
+        "end_char": 17601,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "f6a5093fb89bba613132874f14946fbe",
+        "passage_rank": 6,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "fdbf057487ec61965d478c05a79df311",
+        "sentence_text": "We cap the vocabulary size to 10K words, whereas we",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          14,
+          11,
+          0
+        ],
+        "source_position": 17550
+      },
+      {
+        "cross_encoder_score": -11.317005157470703,
+        "dataset": "QASPER",
+        "end_char": 17683,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "e10e4eacffe2915b6fc2f0f9c7e3853e",
+        "passage_rank": 3,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "d9f660b19a1ab35d9d7cfe67fcd9f79c",
+        "sentence_text": "use the entire vocabulary of 78470 words when we backoff to the background model.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          15,
+          0,
+          0
+        ],
+        "source_position": 17602
+      },
+      {
+        "cross_encoder_score": -10.966996192932129,
+        "dataset": "QASPER",
+        "end_char": 17896,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "e10e4eacffe2915b6fc2f0f9c7e3853e",
+        "passage_rank": 3,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "7b6929f3e5ff50b572d86cd90579c8a4",
+        "sentence_text": "For training these networks, we corrupt the movie reviews according to all attack types, i.e., applying one of the 4 attack types to each word, and trying to reconstruct the original words via cross entropy loss.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          15,
+          1,
+          0
+        ],
+        "source_position": 17684
+      },
+      {
+        "cross_encoder_score": -11.34646224975586,
+        "dataset": "QASPER",
+        "end_char": 18018,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "e10e4eacffe2915b6fc2f0f9c7e3853e",
+        "passage_rank": 3,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "af9c5080eae25ca7e2fd5424746efdee",
+        "sentence_text": "We calculate the word error rates (WER) of each of the models for different attacks and present our findings in Table 2 .",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          15,
+          2,
+          0
+        ],
+        "source_position": 17897
+      },
+      {
+        "cross_encoder_score": -11.255148887634277,
+        "dataset": "QASPER",
+        "end_char": 18182,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "e10e4eacffe2915b6fc2f0f9c7e3853e",
+        "passage_rank": 3,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "edb63a4c48e31464c378b2137ed5fe02",
+        "sentence_text": "Note that ATD incorrectly predicts $11.2$ words for every 100 words (in the `all' setting), whereas, all of the backoff variations of the ScRNN reconstruct better.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          15,
+          3,
+          0
+        ],
+        "source_position": 18019
+      },
+      {
+        "cross_encoder_score": -11.319598197937012,
+        "dataset": "QASPER",
+        "end_char": 18350,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "e10e4eacffe2915b6fc2f0f9c7e3853e",
+        "passage_rank": 3,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "7a704675c0b22b414a7901db82edd2e3",
+        "sentence_text": "The most accurate variant involves backing off to the background model, resulting in a low error rate of $6.9\\%$ , leading to the best performance on word recognition.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          15,
+          4,
+          0
+        ],
+        "source_position": 18183
+      },
+      {
+        "cross_encoder_score": -11.193181991577148,
+        "dataset": "QASPER",
+        "end_char": 18466,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "e10e4eacffe2915b6fc2f0f9c7e3853e",
+        "passage_rank": 3,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "5a3c481e9da195434046668e21a40849",
+        "sentence_text": "This is a $32\\%$ relative error reduction compared to the vanilla ScRNN model with a pass-through backoff strategy.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          15,
+          5,
+          0
+        ],
+        "source_position": 18351
+      },
+      {
+        "cross_encoder_score": -11.309901237487793,
+        "dataset": "QASPER",
+        "end_char": 18674,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "e10e4eacffe2915b6fc2f0f9c7e3853e",
+        "passage_rank": 3,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "e1c1290190237cbc9480e7a8d529d152",
+        "sentence_text": "We can attribute the improved performance to the fact that there are $5.25\\%$ words in the test corpus that are unseen in the training corpus, and are thus only recoverable by backing off to a larger corpus.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          15,
+          6,
+          0
+        ],
+        "source_position": 18467
+      },
+      {
+        "cross_encoder_score": -10.872340202331543,
+        "dataset": "QASPER",
+        "end_char": 18734,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "e10e4eacffe2915b6fc2f0f9c7e3853e",
+        "passage_rank": 3,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "fd678c2d9e0d214dad0f3d990bb39b67",
+        "sentence_text": "Notably, only training on the larger background corpus does",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          15,
+          7,
+          0
+        ],
+        "source_position": 18675
+      },
+      {
+        "cross_encoder_score": -11.31960391998291,
+        "dataset": "QASPER",
+        "end_char": 18870,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "74791c5ce7e718e1dd3fd154afa46495",
+        "passage_rank": 4,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "c154e528d7182ea03d5141289a19ad6a",
+        "sentence_text": "worse, at $8.7\\%$ , since the distribution of word frequencies is different in the background corpus compared to the foreground corpus.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "source_position": 18735
+      },
+      {
+        "cross_encoder_score": -10.51048755645752,
+        "dataset": "QASPER",
+        "end_char": 19054,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "74791c5ce7e718e1dd3fd154afa46495",
+        "passage_rank": 4,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "3998d1d783b0f6f680cae8b30d972a62",
+        "sentence_text": "Robustness to adversarial attacks\tWe use sentiment analysis and paraphrase detection as downstream tasks, as for these two tasks, 1-2 character edits do not change the output labels.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          16,
+          1,
+          0
+        ],
+        "source_position": 18872
+      },
+      {
+        "cross_encoder_score": -11.230358123779297,
+        "dataset": "QASPER",
+        "end_char": 19213,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "74791c5ce7e718e1dd3fd154afa46495",
+        "passage_rank": 4,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "3ccb3fa1deb531fbc374051c8be75bf8",
+        "sentence_text": "For sentiment classification, we systematically study the effect of character-level adversarial attacks on two architectures and four different input formats.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          16,
+          2,
+          0
+        ],
+        "source_position": 19055
+      },
+      {
+        "cross_encoder_score": -11.317571640014648,
+        "dataset": "QASPER",
+        "end_char": 19345,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "74791c5ce7e718e1dd3fd154afa46495",
+        "passage_rank": 4,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "09aa20a038e22e93705f7032bbd6e975",
+        "sentence_text": "The first architecture encodes the input sentence into a sequence of embeddings, which are then sequentially processed by a BiLSTM.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          16,
+          3,
+          0
+        ],
+        "source_position": 19214
+      },
+      {
+        "cross_encoder_score": -11.241742134094238,
+        "dataset": "QASPER",
+        "end_char": 19459,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "74791c5ce7e718e1dd3fd154afa46495",
+        "passage_rank": 4,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "ff841eb652c31b4ebf32364c9c8f0950",
+        "sentence_text": "The first and last states of the BiLSTM are then used by the softmax layer to predict the sentiment of the input.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          16,
+          4,
+          0
+        ],
+        "source_position": 19346
+      },
+      {
+        "cross_encoder_score": -11.412569999694824,
+        "dataset": "QASPER",
+        "end_char": 19792,
+        "pair_tokens_before_truncation": 101,
+        "pair_truncated": false,
+        "passage_id": "74791c5ce7e718e1dd3fd154afa46495",
+        "passage_rank": 4,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "460f3b243c1f1b2ec8e76b356096e6da",
+        "sentence_text": "We consider three input formats for this architecture: (1) Word-only: where the input words are encoded using a lookup table; (2) Char-only: where the input words are encoded using a separate single-layered BiLSTM over their characters; and (3) Word $+$ Char: where the input words are encoded using a concatenation of (1) and (2) .",
+        "sentence_token_cost": 79,
+        "source_order": [
+          0,
+          16,
+          5,
+          0
+        ],
+        "source_position": 19460
+      },
+      {
+        "cross_encoder_score": -11.3167085647583,
+        "dataset": "QASPER",
+        "end_char": 19899,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "74791c5ce7e718e1dd3fd154afa46495",
+        "passage_rank": 4,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "cbf40f7fb9ff343ae2ed2c1a722610f0",
+        "sentence_text": "The second architecture uses the fine-tuned BERT model  , with an input format of word-piece tokenization.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          16,
+          6,
+          0
+        ],
+        "source_position": 19793
+      },
+      {
+        "cross_encoder_score": -10.927322387695312,
+        "dataset": "QASPER",
+        "end_char": 19950,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "74791c5ce7e718e1dd3fd154afa46495",
+        "passage_rank": 4,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "fd83ea78482db51064e23fe79669cb71",
+        "sentence_text": "This model has recently set a new state-of-the-art",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          16,
+          7,
+          0
+        ],
+        "source_position": 19900
+      },
+      {
+        "cross_encoder_score": -11.347585678100586,
+        "dataset": "QASPER",
+        "end_char": 21319,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "243532acfd50e9dffdd976a1bdfa6c61",
+        "passage_rank": 7,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "b3e83a8e9e8bbc54a785bece9a15508c",
+        "sentence_text": "$90.3\\%$ ) followed by word+char models ( $80.5\\%$ ), word-only models ( $79.2\\%$ ) and then char-only models ( $70.3\\%$ ).",
+        "sentence_token_cost": 53,
+        "source_order": [
+          0,
+          18,
+          0,
+          0
+        ],
+        "source_position": 21196
+      },
+      {
+        "cross_encoder_score": -11.150206565856934,
+        "dataset": "QASPER",
+        "end_char": 21531,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "243532acfd50e9dffdd976a1bdfa6c61",
+        "passage_rank": 7,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "3463da4707d34ba02e1bb3aacee9834b",
+        "sentence_text": "However, even single-character attacks (chosen adversarially) can be catastrophic, resulting in a significantly degraded performance of $46\\%$ , $57\\%$ , $59\\%$ and $33\\%$ , respectively under the `all' setting.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          0,
+          18,
+          1,
+          0
+        ],
+        "source_position": 21320
+      },
+      {
+        "cross_encoder_score": -11.081803321838379,
+        "dataset": "QASPER",
+        "end_char": 21692,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "243532acfd50e9dffdd976a1bdfa6c61",
+        "passage_rank": 7,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "1cb2ed01c5b39f16e3070d1236c77dd0",
+        "sentence_text": "Intuitively, one might suppose that word-piece and character-level models would be more robust to such attacks given they can make use of the remaining context.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          18,
+          2,
+          0
+        ],
+        "source_position": 21532
+      },
+      {
+        "cross_encoder_score": -10.102029800415039,
+        "dataset": "QASPER",
+        "end_char": 21745,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "243532acfd50e9dffdd976a1bdfa6c61",
+        "passage_rank": 7,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "33fe0e574958876e952741a0f2c8254e",
+        "sentence_text": "However, we find that they are the more susceptible.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          18,
+          3,
+          0
+        ],
+        "source_position": 21693
+      },
+      {
+        "cross_encoder_score": -11.229835510253906,
+        "dataset": "QASPER",
+        "end_char": 22000,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "243532acfd50e9dffdd976a1bdfa6c61",
+        "passage_rank": 7,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "7605eda2b0387ea8c4c4ecfbf2352f6b",
+        "sentence_text": "To see why, note that the word `beautiful' can only be altered in a few ways for word-only models, either leading to an UNK or an existing vocabulary word, whereas, word-piece and character-only models treat each unique character combination differently.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          18,
+          4,
+          0
+        ],
+        "source_position": 21746
+      },
+      {
+        "cross_encoder_score": -10.693873405456543,
+        "dataset": "QASPER",
+        "end_char": 22060,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "243532acfd50e9dffdd976a1bdfa6c61",
+        "passage_rank": 7,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "8acdde4efe1692bab30458ca6ea91288",
+        "sentence_text": "This provides more variations that an attacker can exploit.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          18,
+          5,
+          0
+        ],
+        "source_position": 22001
+      },
+      {
+        "cross_encoder_score": -11.002447128295898,
+        "dataset": "QASPER",
+        "end_char": 22159,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "243532acfd50e9dffdd976a1bdfa6c61",
+        "passage_rank": 7,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "ae82c0ef109136bb5213bbb151f4c101",
+        "sentence_text": "Following similar reasoning, add and key attacks pose a greater threat than swap and drop attacks.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          18,
+          6,
+          0
+        ],
+        "source_position": 22061
+      },
+      {
+        "cross_encoder_score": -11.416274070739746,
+        "dataset": "QASPER",
+        "end_char": 22256,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "243532acfd50e9dffdd976a1bdfa6c61",
+        "passage_rank": 7,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "27ebde39ddeaf6598246dbdb2ac70876",
+        "sentence_text": "The robustness of different models can be ordered as word-only $>$ word+char $>$ char-only $\\sim",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          18,
+          7,
+          0
+        ],
+        "source_position": 22160
+      },
+      {
+        "cross_encoder_score": -11.322747230529785,
+        "dataset": "QASPER",
+        "end_char": 24725,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "3c2dae6f2aa45d5ec3897c961a7aa8d9",
+        "passage_rank": 5,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "828fda51f4259eec23d1c8dcc37959aa",
+        "sentence_text": "modifies certain correctly spelled entity names.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          21,
+          0,
+          0
+        ],
+        "source_position": 24677
+      },
+      {
+        "cross_encoder_score": -6.040964126586914,
+        "dataset": "QASPER",
+        "end_char": 24822,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "3c2dae6f2aa45d5ec3897c961a7aa8d9",
+        "passage_rank": 5,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "37711ce1428372d921e5c3b2ce295012",
+        "sentence_text": "Since the two variants are already effective, we did not train a background model for this task.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          21,
+          1,
+          0
+        ],
+        "source_position": 24726
+      },
+      {
+        "cross_encoder_score": -11.329960823059082,
+        "dataset": "QASPER",
+        "end_char": 25012,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "3c2dae6f2aa45d5ec3897c961a7aa8d9",
+        "passage_rank": 5,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "94c7194e4e3816cfbd66274c1567b2ea",
+        "sentence_text": "Understanding Model Sensitivity\tTo study model sensitivity, for each sentence, we perturb one randomly-chosen word and replace it with all possible perturbations under a given attack type.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          21,
+          2,
+          0
+        ],
+        "source_position": 24824
+      },
+      {
+        "cross_encoder_score": -11.235621452331543,
+        "dataset": "QASPER",
+        "end_char": 25128,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "3c2dae6f2aa45d5ec3897c961a7aa8d9",
+        "passage_rank": 5,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "ef12bc1ae348a9ce9e1a0c7a88a87c0f",
+        "sentence_text": "The resulting set of perturbed sentences is then fed to the word recognizer (whose sensitivity is to be estimated).",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          21,
+          3,
+          0
+        ],
+        "source_position": 25013
+      },
+      {
+        "cross_encoder_score": -11.327884674072266,
+        "dataset": "QASPER",
+        "end_char": 25227,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "3c2dae6f2aa45d5ec3897c961a7aa8d9",
+        "passage_rank": 5,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "32710c73e2cd1c76c5113235f853f93e",
+        "sentence_text": "As described in equation 12 , we count the number of unique predictions from the output sentences.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          21,
+          4,
+          0
+        ],
+        "source_position": 25129
+      },
+      {
+        "cross_encoder_score": -11.242794036865234,
+        "dataset": "QASPER",
+        "end_char": 25326,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "3c2dae6f2aa45d5ec3897c961a7aa8d9",
+        "passage_rank": 5,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "9a74a381e8e96de16c3aadaebb205248",
+        "sentence_text": "Two corrections are considered unique if they are mapped differently by the downstream classifier.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          21,
+          5,
+          0
+        ],
+        "source_position": 25228
+      },
+      {
+        "cross_encoder_score": -11.215956687927246,
+        "dataset": "QASPER",
+        "end_char": 25393,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "3c2dae6f2aa45d5ec3897c961a7aa8d9",
+        "passage_rank": 5,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "d26012bf8dfc574766c63459dfa4d62d",
+        "sentence_text": "The neutral backoff variant has the lowest sensitivity (Table 5 ).",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          21,
+          6,
+          0
+        ],
+        "source_position": 25327
+      },
+      {
+        "cross_encoder_score": -10.432999610900879,
+        "dataset": "QASPER",
+        "end_char": 25543,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "3c2dae6f2aa45d5ec3897c961a7aa8d9",
+        "passage_rank": 5,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "d287a02015b03cada93106f347ffb4e1",
+        "sentence_text": "This is expected, as it returns a fixed neutral word whenever the ScRNN predicts an UNK, therefore reducing the number of unique outputs it predicts.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          21,
+          7,
+          0
+        ],
+        "source_position": 25394
+      },
+      {
+        "cross_encoder_score": -11.41226577758789,
+        "dataset": "QASPER",
+        "end_char": 25771,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "3c2dae6f2aa45d5ec3897c961a7aa8d9",
+        "passage_rank": 5,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "f62c0ff24ab8192c3e1dcc183bd24f7b",
+        "sentence_text": "Open vocabulary (i.e. char-only, word+char, word-piece) downstream classifiers consider every unique combination of characters differently, whereas word-only classifiers internally treat all out of vocabulary (OOV) words alike.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          21,
+          8,
+          0
+        ],
+        "source_position": 25544
+      },
+      {
+        "cross_encoder_score": -11.356621742248535,
+        "dataset": "QASPER",
+        "end_char": 25971,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "3c2dae6f2aa45d5ec3897c961a7aa8d9",
+        "passage_rank": 5,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "552591d42737f8aeadd9bdfea698962b",
+        "sentence_text": "Hence, for char-only, word+char, and word-piece models, the pass-through version is more sensitive than the background variant, as it passes words as is (and each combination is considered uniquely).",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          21,
+          9,
+          0
+        ],
+        "source_position": 25772
+      },
+      {
+        "cross_encoder_score": -10.725645065307617,
+        "dataset": "QASPER",
+        "end_char": 25994,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "3c2dae6f2aa45d5ec3897c961a7aa8d9",
+        "passage_rank": 5,
+        "query_id": "67ec8ef85844e01746c13627090dc2706bb2a4f3",
+        "sentence_id": "bd18326b1f550c97dd004577603484fc",
+        "sentence_text": "However, for word-only",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          21,
+          10,
+          0
+        ],
+        "source_position": 25972
+      }
+    ],
+    "scoring_seconds": 0.4789307250175625,
+    "source_fingerprint": "7bd3d494c5bc65da328eb69562893591a729fa7d49723f928259d7b96c022b22"
+  }
+}

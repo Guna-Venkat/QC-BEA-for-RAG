@@ -1,0 +1,310 @@
+[
+  {
+    "check": "all canonical source files match manifest SHA",
+    "passed": true,
+    "detail": 7391
+  },
+  {
+    "check": "external source comparisons unchanged",
+    "passed": true,
+    "detail": 7173
+  },
+  {
+    "check": "pre-pass research content preserved; generated-metadata retirement explicitly logged",
+    "passed": true,
+    "detail": {
+      "files": 3447,
+      "failures": []
+    }
+  },
+  {
+    "check": "all notebooks byte-identical to recorded source",
+    "passed": true,
+    "detail": 50
+  },
+  {
+    "check": "notebook JSON parses without execution",
+    "passed": true,
+    "detail": 50
+  },
+  {
+    "check": "all symlink targets remain inside curated folder",
+    "passed": true,
+    "detail": 6927
+  },
+  {
+    "check": "all symlink views/compatibility paths resolve",
+    "passed": true,
+    "detail": []
+  },
+  {
+    "check": "copied algorithm/module syntax valid",
+    "passed": true,
+    "detail": {
+      "files": 398,
+      "errors": []
+    }
+  },
+  {
+    "check": "official baseline source SHA256 and Git blob identities",
+    "passed": true,
+    "detail": 203
+  },
+  {
+    "check": "numbered code views preserve exact module bytes",
+    "passed": true,
+    "detail": 31
+  },
+  {
+    "check": "function/class line index matches actual AST",
+    "passed": true,
+    "detail": {
+      "symbols": 2269,
+      "failures": []
+    }
+  },
+  {
+    "check": "FIXED_SENTENCE has main code/runner/config/notebook/result/statistics/README",
+    "passed": true,
+    "detail": {
+      "source": "11_shared_infrastructure/runtime/src/week12/algorithm.py",
+      "entry": "11_shared_infrastructure/runtime/scripts/week12/run.py",
+      "config": "5_qbgf/configs/1_protocol.yaml",
+      "nb": "5_qbgf/notebooks/3_qbgf_validation_surface.ipynb",
+      "result": "5_qbgf/results/1_primary/1_qbgf_validation_and_ablation_summary.csv",
+      "stats": "5_qbgf/results/3_statistics/1_validation_and_query_conditioning_paired_tests.csv"
+    }
+  },
+  {
+    "check": "QBGF_FULL / QBGF_NO_QUERY has main code/runner/config/notebook/result/statistics/README",
+    "passed": true,
+    "detail": {
+      "source": "11_shared_infrastructure/runtime/src/week12/algorithm.py",
+      "entry": "11_shared_infrastructure/runtime/scripts/week12/run.py",
+      "config": "5_qbgf/configs/1_protocol.yaml",
+      "nb": "5_qbgf/notebooks/5_qbgf_query_and_fusion_ablations.ipynb",
+      "result": "5_qbgf/results/1_primary/1_qbgf_validation_and_ablation_summary.csv",
+      "stats": "5_qbgf/results/3_statistics/1_validation_and_query_conditioning_paired_tests.csv"
+    }
+  },
+  {
+    "check": "BEA_QBGF_V1 has main code/runner/config/notebook/result/statistics/README",
+    "passed": true,
+    "detail": {
+      "source": "11_shared_infrastructure/runtime/src/post_w12/bea_qbgf/allocator.py",
+      "entry": "11_shared_infrastructure/runtime/W12-POST/run.py",
+      "config": "7_bea_v1/configs/1_config.json",
+      "nb": "7_bea_v1/notebooks/1_bea_v1_exploratory_pipeline.ipynb",
+      "result": "7_bea_v1/results/1_primary/1_bea_v1_pilot_quality_results.csv",
+      "stats": "7_bea_v1/results/3_statistics/1_bea_v1_pilot_paired_tests.csv"
+    }
+  },
+  {
+    "check": "BEA_V2 has main code/runner/config/notebook/result/statistics/README",
+    "passed": true,
+    "detail": {
+      "source": "11_shared_infrastructure/runtime/src/post_w12/bea_v2/allocator.py",
+      "entry": "11_shared_infrastructure/runtime/W12-POST/run_bea_v2.py",
+      "config": "8_bea_v2/configs/1_bea_v2_config.json",
+      "nb": "8_bea_v2/notebooks/1_bea_v2_phelp_and_calibration.ipynb",
+      "result": "8_bea_v2/results/3_posthoc_reader_run/1_bea_v2_posthoc_quality_results.csv",
+      "stats": "8_bea_v2/results/3_posthoc_reader_run/2_bea_v2_posthoc_paired_tests.csv"
+    }
+  },
+  {
+    "check": "MINILM_CE_SENTENCE has main code/runner/config/notebook/result/statistics/README",
+    "passed": true,
+    "detail": {
+      "source": "11_shared_infrastructure/runtime/W12-POST/reranker_baseline/minilm_reranker.py",
+      "entry": "11_shared_infrastructure/runtime/W12-POST/run_minilm_reranker.py",
+      "config": "11_shared_infrastructure/runtime/W12-POST/reranker_baseline/protocol.py",
+      "nb": "9_minilm_reranker/notebooks/1_minilm_baseline_comparison.ipynb",
+      "result": "9_minilm_reranker/results/1_primary/1_minilm_matched_quality_results.csv",
+      "stats": "10_final_method_comparison/results/3_paired_statistical_comparisons.csv"
+    }
+  },
+  {
+    "check": "final freeze SHA unchanged",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "split payload and registered hash unchanged",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "frozen method/model/precision/budgets",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "exact frozen five confirmation systems",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "HotpotQA TRAIN/VAL ID and group separation",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "HotpotQA TRAIN/CONFIRM ID and group separation",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "HotpotQA VAL/CONFIRM ID and group separation",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "HotpotQA freeze confirmation membership",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "QASPER TRAIN/VAL ID and group separation",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "QASPER TRAIN/CONFIRM ID and group separation",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "QASPER VAL/CONFIRM ID and group separation",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "QASPER freeze confirmation membership",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "SciFact TRAIN/VAL ID and group separation",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "SciFact TRAIN/CONFIRM ID and group separation",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "SciFact VAL/CONFIRM ID and group separation",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "SciFact freeze confirmation membership",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "QASPER no fresh confirmation",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "results/post_w12/bea_v2/posthoc_tau8e5/rows/ exact grid/checksums/budget/group",
+    "passed": true,
+    "detail": 1200
+  },
+  {
+    "check": "W12-POST/results/minilm_reranker/rows/ exact grid/checksums/budget/group",
+    "passed": true,
+    "detail": 300
+  },
+  {
+    "check": "restored V1 pilot raw grid/checksums",
+    "passed": true,
+    "detail": 900
+  },
+  {
+    "check": "restored V1 expanded raw grid/checksums",
+    "passed": true,
+    "detail": 2700
+  },
+  {
+    "check": "shared exact matched source pool inventory",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "matched source pool checksums and membership",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "HotpotQA V2 held-out group isolation",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "QASPER V2 held-out group isolation",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "SciFact V2 held-out group isolation",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "P_help model bundle hashes without loading",
+    "passed": true,
+    "detail": 15
+  },
+  {
+    "check": "V1 effective frozen hyperparameters documented",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "V2 termination artifact preserved",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "all four prespecified resolution points ineligible",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "post-hoc threshold not silently calibrated",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "recorded MiniLM family24 and no Holm discoveries",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "early defense scalars have machine evidence",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "documented generation caps match frozen config",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "all current defense/navigation links resolve",
+    "passed": true,
+    "detail": {
+      "documents": 114,
+      "links": 1460,
+      "broken": []
+    }
+  },
+  {
+    "check": "no unresolved function placeholders in current maps",
+    "passed": true,
+    "detail": ""
+  }
+]

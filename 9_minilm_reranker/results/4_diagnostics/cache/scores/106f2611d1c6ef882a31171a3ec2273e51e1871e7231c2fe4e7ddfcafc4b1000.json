@@ -1,0 +1,1691 @@
+{
+  "checksum": "eb1cc3907b34da2b5ccffbf9edc6fb04fb052381f8ec14a864d1a8a407e88a12",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "97d1ac71eed13d4f51f29aac0e1a554007907df8"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 83,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "c6adae3858a39087c6fbd8d91e7661f5c90bde1bfb24418b1a5ac3d672bb58ec",
+    "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+    "scores": [
+      {
+        "cross_encoder_score": -3.57388973236084,
+        "dataset": "QASPER",
+        "end_char": 250,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "dc2da294577a7c2f289d08cb8ca8e0ec",
+        "passage_rank": 7,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "c13b78a339aa7744689032e011053a48",
+        "sentence_text": "Text Summarization with Pretrained Encoders\tBidirectional Encoder Representations from Transformers (BERT) represents the latest incarnation of pretrained language models which have recently advanced a wide range of natural language processing tasks.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.26891803741455,
+        "dataset": "QASPER",
+        "end_char": 408,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "dc2da294577a7c2f289d08cb8ca8e0ec",
+        "passage_rank": 7,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "c028a233efed1c0e9d9705676526b288",
+        "sentence_text": "In this paper, we showcase how BERT can be usefully applied in text summarization and propose a general framework for both extractive and abstractive models.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 251
+      },
+      {
+        "cross_encoder_score": 7.489489555358887,
+        "dataset": "QASPER",
+        "end_char": 565,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "dc2da294577a7c2f289d08cb8ca8e0ec",
+        "passage_rank": 7,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "d685b1bfd369b9f3d2d99b4fcbed9911",
+        "sentence_text": "We introduce a novel document-level encoder based on BERT which is able to express the semantics of a document and obtain representations for its sentences.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 409
+      },
+      {
+        "cross_encoder_score": -6.674909591674805,
+        "dataset": "QASPER",
+        "end_char": 673,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "dc2da294577a7c2f289d08cb8ca8e0ec",
+        "passage_rank": 7,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "38f45b1494912808c86a6a8c86822677",
+        "sentence_text": "Our extractive model is built on top of this encoder by stacking several inter-sentence Transformer layers.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 566
+      },
+      {
+        "cross_encoder_score": -7.100536346435547,
+        "dataset": "QASPER",
+        "end_char": 915,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "dc2da294577a7c2f289d08cb8ca8e0ec",
+        "passage_rank": 7,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "6ac09cf201fb29e2875aa5a38dc8b3a6",
+        "sentence_text": "For abstractive summarization, we propose a new fine-tuning schedule which adopts different optimizers for the encoder and the decoder as a means of alleviating the mismatch between the two (the former is pretrained while the latter is not).",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 674
+      },
+      {
+        "cross_encoder_score": -11.464262008666992,
+        "dataset": "QASPER",
+        "end_char": 1032,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "dc2da294577a7c2f289d08cb8ca8e0ec",
+        "passage_rank": 7,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "959395bb0cb023d4f6b9a506553ee6e7",
+        "sentence_text": "We also demonstrate that a two-staged fine-tuning approach can further boost the quality of the generated summaries.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 916
+      },
+      {
+        "cross_encoder_score": -11.40395736694336,
+        "dataset": "QASPER",
+        "end_char": 1178,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "dc2da294577a7c2f289d08cb8ca8e0ec",
+        "passage_rank": 7,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "0de53c57604677dca44155825aee2fd8",
+        "sentence_text": "Experiments on three datasets show that our model achieves state-of-the-art results across the board in both extractive and abstractive settings.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1033
+      },
+      {
+        "cross_encoder_score": -11.140705108642578,
+        "dataset": "QASPER",
+        "end_char": 1218,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "dc2da294577a7c2f289d08cb8ca8e0ec",
+        "passage_rank": 7,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "3ceb23707fb3cc59ef203b36fae3bc89",
+        "sentence_text": "Our code is available at this https URL",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1179
+      },
+      {
+        "cross_encoder_score": -11.412416458129883,
+        "dataset": "QASPER",
+        "end_char": 1367,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "dc2da294577a7c2f289d08cb8ca8e0ec",
+        "passage_rank": 7,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "058c57098fecd1c6bb7cb9978b382d6d",
+        "sentence_text": "Introduction\tLanguage model pretraining has advanced the state of the art in many NLP tasks ranging from sentiment analysis, to question answering,",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1220
+      },
+      {
+        "cross_encoder_score": -11.285187721252441,
+        "dataset": "QASPER",
+        "end_char": 1445,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "bce47bad7d6dd885de362dd3c461061a",
+        "passage_rank": 8,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "34101b17b9f16f82e6b17dfd2c2ba5a0",
+        "sentence_text": "natural language inference, named entity recognition, and textual similarity.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1368
+      },
+      {
+        "cross_encoder_score": -8.03765869140625,
+        "dataset": "QASPER",
+        "end_char": 1585,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "bce47bad7d6dd885de362dd3c461061a",
+        "passage_rank": 8,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "63f85c901ade409a29281860cd680f8c",
+        "sentence_text": "State-of-the-art pretrained models include ELMo , GPT , and more recently Bidirectional Encoder Representations from Transformers (Bert; ).",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1446
+      },
+      {
+        "cross_encoder_score": -10.826417922973633,
+        "dataset": "QASPER",
+        "end_char": 1866,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "bce47bad7d6dd885de362dd3c461061a",
+        "passage_rank": 8,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "d2b03d04e260c2bf90ff2b3d3f2db1b4",
+        "sentence_text": "Bert combines both word and sentence representations in a single very large Transformer ; it is pretrained on vast amounts of text, with an unsupervised objective of masked language modeling and next-sentence prediction and can be fine-tuned with various task-specific objectives.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1586
+      },
+      {
+        "cross_encoder_score": -0.5528141856193542,
+        "dataset": "QASPER",
+        "end_char": 2211,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "bce47bad7d6dd885de362dd3c461061a",
+        "passage_rank": 8,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "185018d0a18657ea768268334d9f542e",
+        "sentence_text": "In most cases, pretrained language models have been employed as encoders for sentence- and paragraph-level natural language understanding problems  involving various classification tasks (e.g., predicting whether any two sentences are in an entailment relationship; or determining the completion of a sentence among four alternative sentences).",
+        "sentence_token_cost": 56,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1867
+      },
+      {
+        "cross_encoder_score": -11.348119735717773,
+        "dataset": "QASPER",
+        "end_char": 2304,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "bce47bad7d6dd885de362dd3c461061a",
+        "passage_rank": 8,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "891527141d3dc18d3352dc499a93309d",
+        "sentence_text": "In this paper, we examine the influence of language model pretraining on text summarization.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 2212
+      },
+      {
+        "cross_encoder_score": -11.44896411895752,
+        "dataset": "QASPER",
+        "end_char": 2463,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "bce47bad7d6dd885de362dd3c461061a",
+        "passage_rank": 8,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "0c0d59dadf289e36943b8f1f9315b985",
+        "sentence_text": "Different from previous tasks, summarization requires wide-coverage natural language understanding going beyond the meaning of individual words and sentences.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 2305
+      },
+      {
+        "cross_encoder_score": -10.746031761169434,
+        "dataset": "QASPER",
+        "end_char": 2558,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "bce47bad7d6dd885de362dd3c461061a",
+        "passage_rank": 8,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "214b49f4af5c8685608554f4541d252f",
+        "sentence_text": "The aim is to condense a document into a shorter version while preserving most of its meaning.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2464
+      },
+      {
+        "cross_encoder_score": -8.173918724060059,
+        "dataset": "QASPER",
+        "end_char": 2863,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "bce47bad7d6dd885de362dd3c461061a",
+        "passage_rank": 8,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "4e2b19c8579eb7b9fd411a1fbf0bd679",
+        "sentence_text": "Furthermore, under abstractive modeling formulations, the task requires language generation capabilities in order to create summaries containing novel words and phrases not featured in the source text, while extractive summarization is often defined as a binary classification task with labels indicating",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2559
+      },
+      {
+        "cross_encoder_score": -11.44815444946289,
+        "dataset": "QASPER",
+        "end_char": 2941,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "dc9dc2f33b7d05fa0e24a4dec251ae1a",
+        "passage_rank": 6,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "27913f6e7e1184fcfe0ad0281514eade",
+        "sentence_text": "whether a text span (typically a sentence) should be included in the summary.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2864
+      },
+      {
+        "cross_encoder_score": -11.114564895629883,
+        "dataset": "QASPER",
+        "end_char": 3088,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "dc9dc2f33b7d05fa0e24a4dec251ae1a",
+        "passage_rank": 6,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "99a5d77022fd468165cc16db4ba7ac4f",
+        "sentence_text": "We explore the potential of Bert for text summarization under a general framework encompassing both extractive and abstractive modeling paradigms.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2942
+      },
+      {
+        "cross_encoder_score": 7.406357288360596,
+        "dataset": "QASPER",
+        "end_char": 3225,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "dc9dc2f33b7d05fa0e24a4dec251ae1a",
+        "passage_rank": 6,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "a9537463970b12b174651d0bf34ff714",
+        "sentence_text": "We propose a novel document-level encoder based on Bert which is able to encode a document and obtain representations for its sentences.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 3089
+      },
+      {
+        "cross_encoder_score": -0.1944057196378708,
+        "dataset": "QASPER",
+        "end_char": 3393,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "dc9dc2f33b7d05fa0e24a4dec251ae1a",
+        "passage_rank": 6,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "1c64846df6ef66053cc387100ba8690b",
+        "sentence_text": "Our extractive model is built on top of this encoder by stacking several inter-sentence Transformer layers to capture document-level features for extracting sentences.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3226
+      },
+      {
+        "cross_encoder_score": -5.5889482498168945,
+        "dataset": "QASPER",
+        "end_char": 3548,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "dc9dc2f33b7d05fa0e24a4dec251ae1a",
+        "passage_rank": 6,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "3952d0cbefe92acb1d8205b0a2d6ab5d",
+        "sentence_text": "Our abstractive model adopts an encoder-decoder architecture, combining the same pretrained Bert encoder with a randomly-initialized Transformer decoder .",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3394
+      },
+      {
+        "cross_encoder_score": -7.226039409637451,
+        "dataset": "QASPER",
+        "end_char": 3754,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "dc9dc2f33b7d05fa0e24a4dec251ae1a",
+        "passage_rank": 6,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "79abc6b69944a700000da7d32bda075f",
+        "sentence_text": "We design a new training schedule which separates the optimizers of the encoder and the decoder in order to accommodate the fact that the former is pretrained while the latter must be trained from scratch.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3549
+      },
+      {
+        "cross_encoder_score": -5.394323348999023,
+        "dataset": "QASPER",
+        "end_char": 4059,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "dc9dc2f33b7d05fa0e24a4dec251ae1a",
+        "passage_rank": 6,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "c8bb17dfef01177d3ef5024929e9e96e",
+        "sentence_text": "Finally, motivated by previous work showing that the combination of extractive and abstractive objectives can help generate better summaries , we present a two-stage approach where the encoder is fine-tuned twice, first with an extractive objective and subsequently on the abstractive summarization task.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3755
+      },
+      {
+        "cross_encoder_score": -10.90536117553711,
+        "dataset": "QASPER",
+        "end_char": 4330,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "dc9dc2f33b7d05fa0e24a4dec251ae1a",
+        "passage_rank": 6,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "00ccadae3c3713e5532463537dc5387c",
+        "sentence_text": "We evaluate the proposed approach on three single-document news summarization datasets representative of different writing conventions (e.g., important information is concentrated at the beginning of the document or distributed more evenly throughout) and summary styles",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 4060
+      },
+      {
+        "cross_encoder_score": -11.386811256408691,
+        "dataset": "QASPER",
+        "end_char": 4396,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "ff29da7cb6d2a4ebc23566dea5efe04e",
+        "passage_rank": 5,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "ef00ebb69863558e5c79f3fa6d750729",
+        "sentence_text": "(e.g., verbose vs. more telegraphic; extractive vs. abstractive).",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 4331
+      },
+      {
+        "cross_encoder_score": -11.397037506103516,
+        "dataset": "QASPER",
+        "end_char": 4542,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "ff29da7cb6d2a4ebc23566dea5efe04e",
+        "passage_rank": 5,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "7674114114aac50950ddcf2bc2fa4588",
+        "sentence_text": "Across datasets, we experimentally show that the proposed models achieve state-of-the-art results under both extractive and abstractive settings.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 4397
+      },
+      {
+        "cross_encoder_score": -2.7807276248931885,
+        "dataset": "QASPER",
+        "end_char": 4848,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "ff29da7cb6d2a4ebc23566dea5efe04e",
+        "passage_rank": 5,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "95ddd40248a24dbadd7e221481d7d755",
+        "sentence_text": "Our contributions in this work are three-fold: a) we highlight the importance of document encoding for the summarization task; a variety of recently proposed techniques aim to enhance summarization performance via copying mechanisms , , , reinforcement learning , , , and multiple communicating encoders .",
+        "sentence_token_cost": 53,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4543
+      },
+      {
+        "cross_encoder_score": -11.426203727722168,
+        "dataset": "QASPER",
+        "end_char": 5351,
+        "pair_tokens_before_truncation": 111,
+        "pair_truncated": false,
+        "passage_id": "ff29da7cb6d2a4ebc23566dea5efe04e",
+        "passage_rank": 5,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "1655f867bf5c9e8a850f4a0fefac31c2",
+        "sentence_text": "We achieve better results with a minimum-requirement model without using any of these mechanisms; b) we showcase ways to effectively employ pretrained language models in summarization under both extractive and abstractive settings; we would expect any improvements in model pretraining to translate in better summarization in the future; and c) the proposed models can be used as a stepping stone to further improve summarization performance as well as baselines against which new proposals are tested.",
+        "sentence_token_cost": 92,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4849
+      },
+      {
+        "cross_encoder_score": -11.39838695526123,
+        "dataset": "QASPER",
+        "end_char": 5548,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "ff29da7cb6d2a4ebc23566dea5efe04e",
+        "passage_rank": 5,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "7485b23e1457dd678820a87dfdf73695",
+        "sentence_text": "Background ::: Pretrained Language Models\tPretrained language models , , , ,  have recently emerged as a key technology for achieving impressive gains in a wide variety of natural language tasks.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 5353
+      },
+      {
+        "cross_encoder_score": -11.363992691040039,
+        "dataset": "QASPER",
+        "end_char": 5697,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "ff29da7cb6d2a4ebc23566dea5efe04e",
+        "passage_rank": 5,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "bab49e1a1bcd8ca8f49f67bcca2ee9e7",
+        "sentence_text": "These models extend the idea of word embeddings by learning contextual representations from large-scale corpora using a language modeling objective.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 5549
+      },
+      {
+        "cross_encoder_score": -7.308811187744141,
+        "dataset": "QASPER",
+        "end_char": 5753,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "ff29da7cb6d2a4ebc23566dea5efe04e",
+        "passage_rank": 5,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "9bd1cce7baf2b69379f39fbd7a105274",
+        "sentence_text": "Bidirectional Encoder Representations from Transformers",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 5698
+      },
+      {
+        "cross_encoder_score": -11.354185104370117,
+        "dataset": "QASPER",
+        "end_char": 9577,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "4af52fe070a81f37f5b35b4efb976a82",
+        "passage_rank": 4,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "92b7102be825d61f3ea82b69381be3d4",
+        "sentence_text": "track of words that have been summarized.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 9536
+      },
+      {
+        "cross_encoder_score": -2.8280415534973145,
+        "dataset": "QASPER",
+        "end_char": 9745,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "4af52fe070a81f37f5b35b4efb976a82",
+        "passage_rank": 4,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "325acee777f36549bd6bbc391450874f",
+        "sentence_text": "propose an abstractive system where multiple agents (encoders) represent the document together with a hierarchical attention mechanism (over the agents) for decoding.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 9579
+      },
+      {
+        "cross_encoder_score": -11.112305641174316,
+        "dataset": "QASPER",
+        "end_char": 9840,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "4af52fe070a81f37f5b35b4efb976a82",
+        "passage_rank": 4,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "bbdaf2607340b37d8c7f12e5e69c5714",
+        "sentence_text": "Their Deep Communicating Agents (DCA) model is trained end-to-end with reinforcement learning.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 9746
+      },
+      {
+        "cross_encoder_score": -11.125249862670898,
+        "dataset": "QASPER",
+        "end_char": 10042,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "4af52fe070a81f37f5b35b4efb976a82",
+        "passage_rank": 4,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "868120232d15a4deae386e4b01282b9d",
+        "sentence_text": "also present a deep reinforced model (DRM) for abstractive summarization which handles the coverage problem with an intra-attention mechanism where the decoder attends over previously generated words.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 9842
+      },
+      {
+        "cross_encoder_score": -11.139849662780762,
+        "dataset": "QASPER",
+        "end_char": 10264,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "4af52fe070a81f37f5b35b4efb976a82",
+        "passage_rank": 4,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "6fd00506b3f295a1c0b7bb580294ecbb",
+        "sentence_text": "follow a bottom-up approach (BottomUp); a content selector first determines which phrases in the source document should be part of the summary, and a copy mechanism is applied only to preselected phrases during decoding.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 10044
+      },
+      {
+        "cross_encoder_score": -11.3631591796875,
+        "dataset": "QASPER",
+        "end_char": 10486,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "4af52fe070a81f37f5b35b4efb976a82",
+        "passage_rank": 4,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "b51c7241abded25a6b80f0a08cfabad4",
+        "sentence_text": "propose an abstractive model which is particularly suited to extreme summarization (i.e., single sentence summaries), based on convolutional neural networks and additionally conditioned on topic distributions (TConvS2S).",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 10266
+      },
+      {
+        "cross_encoder_score": -8.112717628479004,
+        "dataset": "QASPER",
+        "end_char": 10668,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "4af52fe070a81f37f5b35b4efb976a82",
+        "passage_rank": 4,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "12eb175f072f71c5e128150fe264a843",
+        "sentence_text": "Fine-tuning Bert for Summarization ::: Summarization Encoder\tAlthough Bert has been used to fine-tune various NLP tasks, its application to summarization is not as straightforward.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 10488
+      },
+      {
+        "cross_encoder_score": -10.466713905334473,
+        "dataset": "QASPER",
+        "end_char": 10872,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "4af52fe070a81f37f5b35b4efb976a82",
+        "passage_rank": 4,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "bfa765e2664370dbaf41d6f2589b285b",
+        "sentence_text": "Since Bert is trained as a masked-language model, the output vectors are grounded to tokens instead of sentences, while in extractive summarization, most models manipulate sentence-level representations.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "source_position": 10669
+      },
+      {
+        "cross_encoder_score": -11.352351188659668,
+        "dataset": "QASPER",
+        "end_char": 10915,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "4af52fe070a81f37f5b35b4efb976a82",
+        "passage_rank": 4,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "c09493b302b925285d0633ed6c646eb1",
+        "sentence_text": "Although segmentation embeddings represent",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          7,
+          8,
+          0
+        ],
+        "source_position": 10873
+      },
+      {
+        "cross_encoder_score": -10.630475997924805,
+        "dataset": "QASPER",
+        "end_char": 14250,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "bfbd17ab33a8746c1d6fe3507b705a1d",
+        "passage_rank": 1,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "5ba0ae786039b496643bc71745100caf",
+        "sentence_text": "or vice versa.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 14236
+      },
+      {
+        "cross_encoder_score": -8.615412712097168,
+        "dataset": "QASPER",
+        "end_char": 14370,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "bfbd17ab33a8746c1d6fe3507b705a1d",
+        "passage_rank": 1,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "25d7f90bc0382f119b63f45f4efda318",
+        "sentence_text": "To circumvent this, we design a new fine-tuning schedule which separates the optimizers of the encoder and the decoder.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 14251
+      },
+      {
+        "cross_encoder_score": -9.827333450317383,
+        "dataset": "QASPER",
+        "end_char": 14781,
+        "pair_tokens_before_truncation": 185,
+        "pair_truncated": false,
+        "passage_id": "bfbd17ab33a8746c1d6fe3507b705a1d",
+        "passage_rank": 1,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "a15597a176eb6a689928f85eba20d528",
+        "sentence_text": "We use two Adam optimizers with $\\beta _1=0.9$ and $\\beta _2=0.999$ for the encoder and the decoder, respectively, each with different warmup-steps and learning rates: where $\\tilde{lr}_{\\mathcal {E}}=2e^{-3}$, and $\\operatorname{\\operatorname{warmup}}_{\\mathcal {E}}=20,000$ for the encoder and $\\tilde{lr}_{\\mathcal {D}}=0.1$, and $\\operatorname{\\operatorname{warmup}}_{\\mathcal {D}}=10,000$ for the decoder.",
+        "sentence_token_cost": 145,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 14371
+      },
+      {
+        "cross_encoder_score": -5.8726372718811035,
+        "dataset": "QASPER",
+        "end_char": 15013,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "bfbd17ab33a8746c1d6fe3507b705a1d",
+        "passage_rank": 1,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "bfe08296a3c0484304f9d7cfd65bb1e3",
+        "sentence_text": "This is based on the assumption that the pretrained encoder should be fine-tuned with a smaller learning rate and smoother decay (so that the encoder can be trained with more accurate gradients when the decoder is becoming stable).",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 14782
+      },
+      {
+        "cross_encoder_score": -8.821301460266113,
+        "dataset": "QASPER",
+        "end_char": 15185,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "bfbd17ab33a8746c1d6fe3507b705a1d",
+        "passage_rank": 1,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "d1e4a549f42f45acc6f5a262f4d5d751",
+        "sentence_text": "In addition, we propose a two-stage fine-tuning approach, where we first fine-tune the encoder on the extractive summarization task (Section SECREF8) and then fine-tune it",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 15014
+      },
+      {
+        "cross_encoder_score": -11.409358978271484,
+        "dataset": "QASPER",
+        "end_char": 17558,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "9e97d79ed0c221c489c34fdfccd55eef",
+        "passage_rank": 10,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "ee0fd5572438ed84b8e7820f211b455d",
+        "sentence_text": "Stanford CoreNLP toolkit  and pre-processed following .",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 17503
+      },
+      {
+        "cross_encoder_score": -9.998847961425781,
+        "dataset": "QASPER",
+        "end_char": 17604,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "9e97d79ed0c221c489c34fdfccd55eef",
+        "passage_rank": 10,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "97ee60a0daa3a754a10e7fa6f1cdd0c3",
+        "sentence_text": "Input documents were truncated to 800 tokens.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 17559
+      },
+      {
+        "cross_encoder_score": -11.441855430603027,
+        "dataset": "QASPER",
+        "end_char": 17787,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "9e97d79ed0c221c489c34fdfccd55eef",
+        "passage_rank": 10,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "23dbc3cef2d0eb1a21759ee18961800e",
+        "sentence_text": "Experimental Setup ::: Summarization Datasets ::: XSum\tcontains 226,711 news articles accompanied with a one-sentence summary, answering the question \u201cWhat is this article about?\u201d.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          14,
+          2,
+          0
+        ],
+        "source_position": 17607
+      },
+      {
+        "cross_encoder_score": -11.464799880981445,
+        "dataset": "QASPER",
+        "end_char": 17930,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "9e97d79ed0c221c489c34fdfccd55eef",
+        "passage_rank": 10,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "0562549c418924dc10a3c7026ac02032",
+        "sentence_text": "We used the splits of  for training, validation, and testing (204,045/11,332/11,334) and followed the pre-processing introduced in their work.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          14,
+          3,
+          0
+        ],
+        "source_position": 17788
+      },
+      {
+        "cross_encoder_score": -9.75304126739502,
+        "dataset": "QASPER",
+        "end_char": 17976,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "9e97d79ed0c221c489c34fdfccd55eef",
+        "passage_rank": 10,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "254aa55e679784720b7d565d91e45450",
+        "sentence_text": "Input documents were truncated to 512 tokens.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          14,
+          4,
+          0
+        ],
+        "source_position": 17931
+      },
+      {
+        "cross_encoder_score": -9.394660949707031,
+        "dataset": "QASPER",
+        "end_char": 18147,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "9e97d79ed0c221c489c34fdfccd55eef",
+        "passage_rank": 10,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "45b4c19c935b2bae9729b2dd1a55bf5c",
+        "sentence_text": "Aside from various statistics on the three datasets, Table TABREF12 also reports the proportion of novel bi-grams in gold summaries as a measure of their abstractiveness.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          14,
+          5,
+          0
+        ],
+        "source_position": 17977
+      },
+      {
+        "cross_encoder_score": -11.374356269836426,
+        "dataset": "QASPER",
+        "end_char": 18357,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "9e97d79ed0c221c489c34fdfccd55eef",
+        "passage_rank": 10,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "011b9d1e7075113bff6af1487b53bea5",
+        "sentence_text": "We would expect models with extractive biases to perform better on datasets with (mostly) extractive summaries, and abstractive models to perform more rewrite operations on datasets with abstractive summaries.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          14,
+          6,
+          0
+        ],
+        "source_position": 18148
+      },
+      {
+        "cross_encoder_score": -11.392325401306152,
+        "dataset": "QASPER",
+        "end_char": 18439,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "9e97d79ed0c221c489c34fdfccd55eef",
+        "passage_rank": 10,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "5f6776415226c0f404338f21da24497f",
+        "sentence_text": "CNN/DailyMail and NYT are somewhat abstractive, while XSum is highly abstractive.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          14,
+          7,
+          0
+        ],
+        "source_position": 18358
+      },
+      {
+        "cross_encoder_score": -11.393117904663086,
+        "dataset": "QASPER",
+        "end_char": 18602,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "9e97d79ed0c221c489c34fdfccd55eef",
+        "passage_rank": 10,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "5b21bae5dd2fd1b57f3207cb97af6359",
+        "sentence_text": "Experimental Setup ::: Implementation Details\tFor both extractive and abstractive settings, we used PyTorch, OpenNMT  and the `bert-base-uncased' version of Bert",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          14,
+          8,
+          0
+        ],
+        "source_position": 18441
+      },
+      {
+        "cross_encoder_score": -10.687314987182617,
+        "dataset": "QASPER",
+        "end_char": 24769,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "65111f99bbfcc969ad694dbd6b7d1e03",
+        "passage_rank": 3,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "4bae3aaa4fca372884e42c721e8d7222",
+        "sentence_text": "of a single sentence conveying the gist of the document.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          20,
+          0,
+          0
+        ],
+        "source_position": 24713
+      },
+      {
+        "cross_encoder_score": -10.803924560546875,
+        "dataset": "QASPER",
+        "end_char": 25020,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "65111f99bbfcc969ad694dbd6b7d1e03",
+        "passage_rank": 3,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "f4858845559c61bfb08ed10f3f2ea2ff",
+        "sentence_text": "Extractive models here perform poorly as corroborated by the low performance of the Lead baseline (which simply selects the leading sentence from the document), and the Oracle (which selects a single-best sentence in each document) in Table TABREF26.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          20,
+          1,
+          0
+        ],
+        "source_position": 24770
+      },
+      {
+        "cross_encoder_score": -11.40685749053955,
+        "dataset": "QASPER",
+        "end_char": 25097,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "65111f99bbfcc969ad694dbd6b7d1e03",
+        "passage_rank": 3,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "6b3440c6a393199928b3962467e378b4",
+        "sentence_text": "As a result, we do not report results for extractive models on this dataset.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          20,
+          2,
+          0
+        ],
+        "source_position": 25021
+      },
+      {
+        "cross_encoder_score": -11.434675216674805,
+        "dataset": "QASPER",
+        "end_char": 25255,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "65111f99bbfcc969ad694dbd6b7d1e03",
+        "passage_rank": 3,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "e9eb0fa6f02d9cd2969a36267c0d9f7e",
+        "sentence_text": "The second block in Table TABREF26 presents the results of various abstractive models taken from  and also includes our own abstractive Transformer baseline.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          20,
+          3,
+          0
+        ],
+        "source_position": 25098
+      },
+      {
+        "cross_encoder_score": -11.482314109802246,
+        "dataset": "QASPER",
+        "end_char": 25397,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "65111f99bbfcc969ad694dbd6b7d1e03",
+        "passage_rank": 3,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "c25487039aad6da30faf7d7406feb79b",
+        "sentence_text": "In the third block we show the results of our Bert summarizers which again are superior to all previously reported models (by a wide margin).",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          20,
+          4,
+          0
+        ],
+        "source_position": 25256
+      },
+      {
+        "cross_encoder_score": -8.913444519042969,
+        "dataset": "QASPER",
+        "end_char": 25532,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "65111f99bbfcc969ad694dbd6b7d1e03",
+        "passage_rank": 3,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "38b0edcf76c28599a99956002e7b8452",
+        "sentence_text": "Results ::: Model Analysis ::: Learning Rates\tRecall that our abstractive model uses separate optimizers for the encoder and decoder.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          20,
+          5,
+          0
+        ],
+        "source_position": 25399
+      },
+      {
+        "cross_encoder_score": -11.503540992736816,
+        "dataset": "QASPER",
+        "end_char": 25697,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "65111f99bbfcc969ad694dbd6b7d1e03",
+        "passage_rank": 3,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "6e79e19551673fbc7a847149edbd3efa",
+        "sentence_text": "In Table TABREF27 we examine whether the combination of different learning rates ($\\tilde{lr}_{\\mathcal {E}}$ and $\\tilde{lr}_{\\mathcal {D}}$) is indeed beneficial.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          20,
+          6,
+          0
+        ],
+        "source_position": 25533
+      },
+      {
+        "cross_encoder_score": -9.815666198730469,
+        "dataset": "QASPER",
+        "end_char": 25818,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "65111f99bbfcc969ad694dbd6b7d1e03",
+        "passage_rank": 3,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "6be3aca06cf600a6ed67c6078b07f5b1",
+        "sentence_text": "Specifically, we report model perplexity on the CNN/DailyMail validation set for varying encoder/decoder learning rates.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          20,
+          7,
+          0
+        ],
+        "source_position": 25698
+      },
+      {
+        "cross_encoder_score": -11.430142402648926,
+        "dataset": "QASPER",
+        "end_char": 25885,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "65111f99bbfcc969ad694dbd6b7d1e03",
+        "passage_rank": 3,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "37b6a136f01016d06173ca4466452c49",
+        "sentence_text": "We can see that the model performs best with $\\tilde{lr}_{\\mathcal",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          20,
+          8,
+          0
+        ],
+        "source_position": 25819
+      },
+      {
+        "cross_encoder_score": -11.442259788513184,
+        "dataset": "QASPER",
+        "end_char": 25933,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "629bdd9d7effc77e9d332e0d1feb9075",
+        "passage_rank": 2,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "384ef7dc422e8ca30388217f4057dfc5",
+        "sentence_text": "{E}}=2e-3$ and $\\tilde{lr}_{\\mathcal {D}}=0.1$.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          21,
+          0,
+          0
+        ],
+        "source_position": 25886
+      },
+      {
+        "cross_encoder_score": -11.495992660522461,
+        "dataset": "QASPER",
+        "end_char": 26112,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "629bdd9d7effc77e9d332e0d1feb9075",
+        "passage_rank": 2,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "e4de6530c4ad587cac4ff769cb8542eb",
+        "sentence_text": "Results ::: Model Analysis ::: Position of Extracted Sentences\tIn addition to the evaluation based on ROUGE, we also analyzed in more detail the summaries produced by our model.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          21,
+          1,
+          0
+        ],
+        "source_position": 25935
+      },
+      {
+        "cross_encoder_score": -11.339868545532227,
+        "dataset": "QASPER",
+        "end_char": 26254,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "629bdd9d7effc77e9d332e0d1feb9075",
+        "passage_rank": 2,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "20352c351db58b6d28c1940b02b7544c",
+        "sentence_text": "For the extractive setting, we looked at the position (in the source document) of the sentences which were selected to appear in the summary.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          21,
+          2,
+          0
+        ],
+        "source_position": 26113
+      },
+      {
+        "cross_encoder_score": -11.370664596557617,
+        "dataset": "QASPER",
+        "end_char": 26387,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "629bdd9d7effc77e9d332e0d1feb9075",
+        "passage_rank": 2,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "84b04d01af3754b6757e9f9be7957c75",
+        "sentence_text": "Figure FIGREF31 shows the proportion of selected summary sentences which appear in the source document at positions 1, 2, and so on.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          21,
+          3,
+          0
+        ],
+        "source_position": 26255
+      },
+      {
+        "cross_encoder_score": -11.423844337463379,
+        "dataset": "QASPER",
+        "end_char": 26522,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "629bdd9d7effc77e9d332e0d1feb9075",
+        "passage_rank": 2,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "91db42dd169cb869c988f767b0c3d345",
+        "sentence_text": "The analysis was conducted on the CNN/DailyMail dataset for Oracle summaries, and those produced by BertSumExt and the TransformerExt.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          21,
+          4,
+          0
+        ],
+        "source_position": 26388
+      },
+      {
+        "cross_encoder_score": -10.921399116516113,
+        "dataset": "QASPER",
+        "end_char": 26707,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "629bdd9d7effc77e9d332e0d1feb9075",
+        "passage_rank": 2,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "1528751c2a3d46a632bb46119ae94697",
+        "sentence_text": "We can see that Oracle summary sentences are fairly smoothly distributed across documents, while summaries created by TransformerExt mostly concentrate on the first document sentences.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          21,
+          5,
+          0
+        ],
+        "source_position": 26523
+      },
+      {
+        "cross_encoder_score": -3.2296652793884277,
+        "dataset": "QASPER",
+        "end_char": 26905,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "629bdd9d7effc77e9d332e0d1feb9075",
+        "passage_rank": 2,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "913bfde6a9378981510f057d371e6167",
+        "sentence_text": "BertSumExt outputs are more similar to Oracle summaries, indicating that with the pretrained encoder, the model relies less on shallow position features, and learns deeper document representations.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          21,
+          6,
+          0
+        ],
+        "source_position": 26708
+      },
+      {
+        "cross_encoder_score": -9.354572296142578,
+        "dataset": "QASPER",
+        "end_char": 27107,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "629bdd9d7effc77e9d332e0d1feb9075",
+        "passage_rank": 2,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "d5ca09253a6a3bea94d227fe9dcd0e5d",
+        "sentence_text": "Results ::: Model Analysis ::: Novel N-grams\tWe also analyzed the output of abstractive systems by calculating the proportion of novel n-grams that appear in the summaries but not in the source texts.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          21,
+          7,
+          0
+        ],
+        "source_position": 26907
+      },
+      {
+        "cross_encoder_score": -11.089715957641602,
+        "dataset": "QASPER",
+        "end_char": 27139,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "629bdd9d7effc77e9d332e0d1feb9075",
+        "passage_rank": 2,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "fac564ea8465847bad0b92aa0f724690",
+        "sentence_text": "The results are shown in Figure",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          21,
+          8,
+          0
+        ],
+        "source_position": 27108
+      },
+      {
+        "cross_encoder_score": -11.324531555175781,
+        "dataset": "QASPER",
+        "end_char": 29838,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "9816a68aaff1ff2d8f5715cd977cc9f2",
+        "passage_rank": 9,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "746636efb1de36b74edca2f3a19e526e",
+        "sentence_text": "abstractive) against various state-of-the-art systems (whose output is publicly available), the Lead baseline, and the Gold standard as an upper bound.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          24,
+          0,
+          0
+        ],
+        "source_position": 29687
+      },
+      {
+        "cross_encoder_score": -11.447709083557129,
+        "dataset": "QASPER",
+        "end_char": 29990,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "9816a68aaff1ff2d8f5715cd977cc9f2",
+        "passage_rank": 9,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "cd8faa0a0e2993d1b1a1f40ac14314d7",
+        "sentence_text": "As shown in both tables participants overwhelmingly prefer the output of our model against comparison systems across datasets and evaluation paradigms.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          24,
+          1,
+          0
+        ],
+        "source_position": 29839
+      },
+      {
+        "cross_encoder_score": -11.509713172912598,
+        "dataset": "QASPER",
+        "end_char": 30174,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "9816a68aaff1ff2d8f5715cd977cc9f2",
+        "passage_rank": 9,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "90aa2ccbff4512f620ba2651085de81b",
+        "sentence_text": "All differences between BertSum and comparison models are statistically significant ($p<0.05$), with the exception of TConvS2S (see Table TABREF38; XSum) in the QA evaluation setting.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          24,
+          2,
+          0
+        ],
+        "source_position": 29991
+      },
+      {
+        "cross_encoder_score": -11.360963821411133,
+        "dataset": "QASPER",
+        "end_char": 30282,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "9816a68aaff1ff2d8f5715cd977cc9f2",
+        "passage_rank": 9,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "8549f2757fc7aecce34b13f7d1cfe4e9",
+        "sentence_text": "Conclusions\tIn this paper, we showcased how pretrained Bert can be usefully applied in text summarization.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          24,
+          3,
+          0
+        ],
+        "source_position": 30176
+      },
+      {
+        "cross_encoder_score": 6.776894569396973,
+        "dataset": "QASPER",
+        "end_char": 30411,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "9816a68aaff1ff2d8f5715cd977cc9f2",
+        "passage_rank": 9,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "5806bccf587e8f7bf0fb367ad2d61752",
+        "sentence_text": "We introduced a novel document-level encoder and proposed a general framework for both abstractive and extractive summarization.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          24,
+          4,
+          0
+        ],
+        "source_position": 30283
+      },
+      {
+        "cross_encoder_score": -11.477360725402832,
+        "dataset": "QASPER",
+        "end_char": 30579,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "9816a68aaff1ff2d8f5715cd977cc9f2",
+        "passage_rank": 9,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "e5beb81500ad3aed90305c2ad11edf08",
+        "sentence_text": "Experimental results across three datasets show that our model achieves state-of-the-art results across the board under automatic and human-based evaluation protocols.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          24,
+          5,
+          0
+        ],
+        "source_position": 30412
+      },
+      {
+        "cross_encoder_score": -5.071631908416748,
+        "dataset": "QASPER",
+        "end_char": 30743,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "9816a68aaff1ff2d8f5715cd977cc9f2",
+        "passage_rank": 9,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "8e4793719ff46660f9e7aad592048483",
+        "sentence_text": "Although we mainly focused on document encoding for summarization, in the future, we would like to take advantage the capabilities of Bert for language generation.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          24,
+          6,
+          0
+        ],
+        "source_position": 30580
+      },
+      {
+        "cross_encoder_score": -11.374890327453613,
+        "dataset": "QASPER",
+        "end_char": 30835,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "9816a68aaff1ff2d8f5715cd977cc9f2",
+        "passage_rank": 9,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "06440e39483c74f71226136bd77ed2fb",
+        "sentence_text": "Acknowledgments\tThis research is supported by a Google PhD Fellowship to the first author.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          24,
+          7,
+          0
+        ],
+        "source_position": 30745
+      },
+      {
+        "cross_encoder_score": -11.221753120422363,
+        "dataset": "QASPER",
+        "end_char": 30982,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "9816a68aaff1ff2d8f5715cd977cc9f2",
+        "passage_rank": 9,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "50eebf6214261d98891d72cbe1958731",
+        "sentence_text": "We gratefully acknowledge the support of the European Research Council (Lapata, award number 681760, \u201cTranslating Multiple Modalities into Text\u201d).",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          24,
+          8,
+          0
+        ],
+        "source_position": 30836
+      },
+      {
+        "cross_encoder_score": -10.8815336227417,
+        "dataset": "QASPER",
+        "end_char": 31001,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "9816a68aaff1ff2d8f5715cd977cc9f2",
+        "passage_rank": 9,
+        "query_id": "97d1ac71eed13d4f51f29aac0e1a554007907df8",
+        "sentence_id": "32f27873d7b5126c67399cbd6dbfa1c5",
+        "sentence_text": "We would also like",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          24,
+          9,
+          0
+        ],
+        "source_position": 30983
+      }
+    ],
+    "scoring_seconds": 0.7602311219088733,
+    "source_fingerprint": "2f4f525b2f8c60e60b074008320de1d4c8c27b70e1350f2d646121bdeedc3b6c"
+  }
+}

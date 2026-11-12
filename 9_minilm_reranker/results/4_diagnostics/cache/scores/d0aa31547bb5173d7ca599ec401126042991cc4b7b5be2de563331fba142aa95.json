@@ -1,0 +1,1611 @@
+{
+  "checksum": "628ff5270e64f182c67eaef7591add530b878b7a2da294ddbc800f9abf6cd7de",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "1292"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 79,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "b743b1fbc57b74a808060066d6e40077236f7fd039379e6561876c2b29d2ccf8",
+    "query_id": "1292",
+    "scores": [
+      {
+        "cross_encoder_score": -8.091714859008789,
+        "dataset": "SciFact",
+        "end_char": 68,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "9546cd0ec665dfa6c9fb1b78db6f6ce7",
+        "passage_rank": 6,
+        "query_id": "1292",
+        "sentence_id": "75c3c104e82b3f75aebf501434d5d08b",
+        "sentence_text": "Mechanisms linking obesity to insulin resistance and type 2 diabetes",
+        "sentence_token_cost": 13,
+        "source_order": [
+          22,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.5389084815979,
+        "dataset": "SciFact",
+        "end_char": 167,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "9546cd0ec665dfa6c9fb1b78db6f6ce7",
+        "passage_rank": 6,
+        "query_id": "1292",
+        "sentence_id": "39fa92d7a72183c40e7eeb4b4af25702",
+        "sentence_text": "Obesity is associated with an increased risk of developing insulin resistance and type 2 diabetes.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          22,
+          0,
+          1,
+          0
+        ],
+        "source_position": 69
+      },
+      {
+        "cross_encoder_score": -10.446843147277832,
+        "dataset": "SciFact",
+        "end_char": 387,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "9546cd0ec665dfa6c9fb1b78db6f6ce7",
+        "passage_rank": 6,
+        "query_id": "1292",
+        "sentence_id": "2062d6750bb1fbb3700281f07a910635",
+        "sentence_text": "In obese individuals, adipose tissue releases increased amounts of non-esterified fatty acids, glycerol, hormones, pro-inflammatory cytokines and other factors that are involved in the development of insulin resistance.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          22,
+          0,
+          2,
+          0
+        ],
+        "source_position": 168
+      },
+      {
+        "cross_encoder_score": -9.061182022094727,
+        "dataset": "SciFact",
+        "end_char": 553,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "9546cd0ec665dfa6c9fb1b78db6f6ce7",
+        "passage_rank": 6,
+        "query_id": "1292",
+        "sentence_id": "4eddbc739f77cb1ca55e1e23f0648f19",
+        "sentence_text": "When insulin resistance is accompanied by dysfunction of pancreatic islet \u03b2-cells \u2014 the cells that release insulin \u2014 failure to control blood glucose levels results.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          22,
+          0,
+          3,
+          0
+        ],
+        "source_position": 388
+      },
+      {
+        "cross_encoder_score": -5.265646457672119,
+        "dataset": "SciFact",
+        "end_char": 666,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "9546cd0ec665dfa6c9fb1b78db6f6ce7",
+        "passage_rank": 6,
+        "query_id": "1292",
+        "sentence_id": "592e9d47dd98a29acf6e2fa3b645c5f1",
+        "sentence_text": "Abnormalities in \u03b2-cell function are therefore critical in defining the risk and development of type 2 diabetes.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          22,
+          0,
+          4,
+          0
+        ],
+        "source_position": 554
+      },
+      {
+        "cross_encoder_score": -9.75643539428711,
+        "dataset": "SciFact",
+        "end_char": 808,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "9546cd0ec665dfa6c9fb1b78db6f6ce7",
+        "passage_rank": 6,
+        "query_id": "1292",
+        "sentence_id": "2697e7509004324be7712bea085833b1",
+        "sentence_text": "This knowledge is fostering exploration of the molecular and genetic basis of the disease and new approaches to its treatment and prevention.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          22,
+          0,
+          5,
+          0
+        ],
+        "source_position": 667
+      },
+      {
+        "cross_encoder_score": -7.60003662109375,
+        "dataset": "SciFact",
+        "end_char": 132,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 10,
+        "query_id": "1292",
+        "sentence_id": "1442f031c60692afcdef0823873fefb9",
+        "sentence_text": "Type 1 diabetes-associated IL2RA variation lowers IL-2 signaling and contributes to diminished CD4+CD25+ regulatory T cell function.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1977,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.113429546356201,
+        "dataset": "SciFact",
+        "end_char": 432,
+        "pair_tokens_before_truncation": 86,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 10,
+        "query_id": "1292",
+        "sentence_id": "782f5a0f0580e38ae2fa32bbe437a990",
+        "sentence_text": "Numerous reports have demonstrated that CD4(+)CD25(+) regulatory T cells (Tregs) from individuals with a range of human autoimmune diseases, including type 1 diabetes, are deficient in their ability to control autologous proinflammatory responses when compared with nondiseased, control individuals.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          1977,
+          0,
+          1,
+          0
+        ],
+        "source_position": 133
+      },
+      {
+        "cross_encoder_score": -9.897262573242188,
+        "dataset": "SciFact",
+        "end_char": 564,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 10,
+        "query_id": "1292",
+        "sentence_id": "d25412d51cc27f2acb0a603ee9f82429",
+        "sentence_text": "Treg dysfunction could be a primary, causal event or may result from perturbations in the immune system during disease development.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          1977,
+          0,
+          2,
+          0
+        ],
+        "source_position": 433
+      },
+      {
+        "cross_encoder_score": -7.62238073348999,
+        "dataset": "SciFact",
+        "end_char": 677,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 10,
+        "query_id": "1292",
+        "sentence_id": "eeb7ce014a6fd912371ed22ca227711f",
+        "sentence_text": "Polymorphisms in genes associated with Treg function, such as IL2RA, confer a higher risk of autoimmune disease.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          1977,
+          0,
+          3,
+          0
+        ],
+        "source_position": 565
+      },
+      {
+        "cross_encoder_score": -9.833269119262695,
+        "dataset": "SciFact",
+        "end_char": 833,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 10,
+        "query_id": "1292",
+        "sentence_id": "6616aa5dc391a1e527c390de0b5fd266",
+        "sentence_text": "Although this suggests a primary role for defective Tregs in autoimmunity, a link between IL2RA gene polymorphisms and Treg function has not been examined.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          1977,
+          0,
+          4,
+          0
+        ],
+        "source_position": 678
+      },
+      {
+        "cross_encoder_score": -7.470431804656982,
+        "dataset": "SciFact",
+        "end_char": 971,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 10,
+        "query_id": "1292",
+        "sentence_id": "0933ae620f5b24092d900232e6ed248a",
+        "sentence_text": "We addressed this by examining the impact of an IL2RA haplotype associated with type 1 diabetes on Treg fitness and suppressive function.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1977,
+          0,
+          5,
+          0
+        ],
+        "source_position": 834
+      },
+      {
+        "cross_encoder_score": -9.986343383789062,
+        "dataset": "SciFact",
+        "end_char": 1068,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 10,
+        "query_id": "1292",
+        "sentence_id": "a1bf84f766c6cde623211c774a8e57de",
+        "sentence_text": "Studies were conducted using healthy human subjects to avoid any confounding effects of disease.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          1977,
+          0,
+          6,
+          0
+        ],
+        "source_position": 972
+      },
+      {
+        "cross_encoder_score": -7.594438552856445,
+        "dataset": "SciFact",
+        "end_char": 1433,
+        "pair_tokens_before_truncation": 105,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 10,
+        "query_id": "1292",
+        "sentence_id": "9446c65b91a65b0a44ba71572b3fb816",
+        "sentence_text": "We demonstrated that the presence of an autoimmune disease-associated IL2RA haplotype correlates with diminished IL-2 responsiveness in Ag-experienced CD4(+) T cells, as measured by phosphorylation of STAT5a, and is associated with lower levels of FOXP3 expression by Tregs and a reduction in their ability to suppress proliferation of autologous effector T cells.",
+        "sentence_token_cost": 76,
+        "source_order": [
+          1977,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1069
+      },
+      {
+        "cross_encoder_score": -10.064298629760742,
+        "dataset": "SciFact",
+        "end_char": 1671,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "8cd4cbb103810f8951b7073fb98d8e37",
+        "passage_rank": 10,
+        "query_id": "1292",
+        "sentence_id": "a29ae779a60ca7faa91631271c811d72",
+        "sentence_text": "These data offer a rationale that contributes to the molecular and cellular mechanisms through which polymorphisms in the IL-2RA gene affect immune regulation, and consequently upon susceptibility to autoimmune and inflammatory diseases.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          1977,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1434
+      },
+      {
+        "cross_encoder_score": -5.828639030456543,
+        "dataset": "SciFact",
+        "end_char": 119,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "9b0b1cc514ae99a29ac44916474ac46d",
+        "passage_rank": 2,
+        "query_id": "1292",
+        "sentence_id": "7b548a87c8dadb50031fdfc91dc16fdd",
+        "sentence_text": "Genetic and epigenetic mutations affect the DNA binding capability of human ZFP57 in transient neonatal diabetes type 1",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2193,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.989469528198242,
+        "dataset": "SciFact",
+        "end_char": 292,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "9b0b1cc514ae99a29ac44916474ac46d",
+        "passage_rank": 2,
+        "query_id": "1292",
+        "sentence_id": "eaed617f9dc30e470bf3359581df189b",
+        "sentence_text": "In the mouse, ZFP57 contains three classical Cys2His2 zinc finger domains (ZF) and recognizes the methylated TGC(met)CGC target sequence using the first and the second ZFs.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          2193,
+          0,
+          1,
+          0
+        ],
+        "source_position": 120
+      },
+      {
+        "cross_encoder_score": -10.506932258605957,
+        "dataset": "SciFact",
+        "end_char": 512,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "9b0b1cc514ae99a29ac44916474ac46d",
+        "passage_rank": 2,
+        "query_id": "1292",
+        "sentence_id": "33b140b4e01dbc7d0419691aabf8c026",
+        "sentence_text": "In this study, we demonstrate that the human ZFP57 (hZFP57) containing six Cys2His2 ZFs, binds the same methylated sequence through the third and the fourth ZFs, and identify the aminoacids critical for DNA interaction.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          2193,
+          0,
+          2,
+          0
+        ],
+        "source_position": 293
+      },
+      {
+        "cross_encoder_score": -2.154282808303833,
+        "dataset": "SciFact",
+        "end_char": 768,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "9b0b1cc514ae99a29ac44916474ac46d",
+        "passage_rank": 2,
+        "query_id": "1292",
+        "sentence_id": "7b4677db53be39fc0edfb172096d3aff",
+        "sentence_text": "In addition, we present evidences indicating that hZFP57 mutations and hypomethylation of the TNDM1 ICR both associated with Transient Neonatal Diabetes Mellitus type 1 result in loss of hZFP57 binding to the TNDM1 locus, likely causing PLAGL1 activation.",
+        "sentence_token_cost": 67,
+        "source_order": [
+          2193,
+          0,
+          3,
+          0
+        ],
+        "source_position": 513
+      },
+      {
+        "cross_encoder_score": -6.557603359222412,
+        "dataset": "SciFact",
+        "end_char": 130,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "e7dfc7381f31921434dc9f2fec23c930",
+        "passage_rank": 4,
+        "query_id": "1292",
+        "sentence_id": "ac1925f2f36758f3a123fe787705b5d4",
+        "sentence_text": "Large-scale genetic fine mapping and genotype-phenotype associations implicate polymorphism in the IL2RA region in type 1 diabetes",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2297,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.204339027404785,
+        "dataset": "SciFact",
+        "end_char": 221,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "e7dfc7381f31921434dc9f2fec23c930",
+        "passage_rank": 4,
+        "query_id": "1292",
+        "sentence_id": "5f6c0a565224e5e074dd36bcea8bd5cf",
+        "sentence_text": "Genome-wide association studies are now identifying disease-associated chromosome regions.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          2297,
+          0,
+          1,
+          0
+        ],
+        "source_position": 131
+      },
+      {
+        "cross_encoder_score": -11.004286766052246,
+        "dataset": "SciFact",
+        "end_char": 451,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "e7dfc7381f31921434dc9f2fec23c930",
+        "passage_rank": 4,
+        "query_id": "1292",
+        "sentence_id": "309a0a1e1c45b0f34309ea05aa21e596",
+        "sentence_text": "However, even after convincing replication, the localization of the causal variant(s) requires comprehensive resequencing, extensive genotyping and statistical analyses in large sample sets leading to targeted functional studies.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          2297,
+          0,
+          2,
+          0
+        ],
+        "source_position": 222
+      },
+      {
+        "cross_encoder_score": -7.021432876586914,
+        "dataset": "SciFact",
+        "end_char": 819,
+        "pair_tokens_before_truncation": 127,
+        "pair_truncated": false,
+        "passage_id": "e7dfc7381f31921434dc9f2fec23c930",
+        "passage_rank": 4,
+        "query_id": "1292",
+        "sentence_id": "198b8898b846e800753e801244553c06",
+        "sentence_text": "Here, we have localized the type 1 diabetes (T1D) association in the interleukin 2 receptor alpha (IL2RA) gene region to two independent groups of SNPs, spanning overlapping regions of 14 and 40 kb, encompassing IL2RA intron 1 and the 5\u2032 regions of IL2RA and RBM17 (odds ratio = 2.04, 95% confidence interval = 1.70\u20132.45; P = 1.92 \u00d7 10\u221228; control frequency = 0.635).",
+        "sentence_token_cost": 131,
+        "source_order": [
+          2297,
+          0,
+          3,
+          0
+        ],
+        "source_position": 452
+      },
+      {
+        "cross_encoder_score": -6.843371391296387,
+        "dataset": "SciFact",
+        "end_char": 1046,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "e7dfc7381f31921434dc9f2fec23c930",
+        "passage_rank": 4,
+        "query_id": "1292",
+        "sentence_id": "de8b673782bd150747dca0a9597bea75",
+        "sentence_text": "Furthermore, we have associated IL2RA T1D susceptibility genotypes with lower circulating levels of the biomarker, soluble IL-2RA (P = 6.28 \u00d7 10\u221228), suggesting that an inherited lower immune responsiveness predisposes to T1D.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          2297,
+          0,
+          4,
+          0
+        ],
+        "source_position": 820
+      },
+      {
+        "cross_encoder_score": -4.8186798095703125,
+        "dataset": "SciFact",
+        "end_char": 135,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "7346e1d0d1b58b65eb94ee54b0f9358c",
+        "passage_rank": 8,
+        "query_id": "1292",
+        "sentence_id": "f8f1e7d14b2c1434c8ac7306dbe6f02b",
+        "sentence_text": "Mendelian Randomization Study of B-Type Natriuretic Peptide and Type 2 Diabetes: Evidence of Causal Association from Population Studies",
+        "sentence_token_cost": 29,
+        "source_order": [
+          2533,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -0.09153199940919876,
+        "dataset": "SciFact",
+        "end_char": 430,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "7346e1d0d1b58b65eb94ee54b0f9358c",
+        "passage_rank": 8,
+        "query_id": "1292",
+        "sentence_id": "66523bc07f30db155bc4e26ddb868279",
+        "sentence_text": "BACKGROUND Genetic and epidemiological evidence suggests an inverse association between B-type natriuretic peptide (BNP) levels in blood and risk of type 2 diabetes (T2D), but the prospective association of BNP with T2D is uncertain, and it is unclear whether the association is confounded.   \n",
+        "sentence_token_cost": 63,
+        "source_order": [
+          2533,
+          0,
+          1,
+          0
+        ],
+        "source_position": 136
+      },
+      {
+        "cross_encoder_score": -7.649715423583984,
+        "dataset": "SciFact",
+        "end_char": 705,
+        "pair_tokens_before_truncation": 91,
+        "pair_truncated": false,
+        "passage_id": "7346e1d0d1b58b65eb94ee54b0f9358c",
+        "passage_rank": 8,
+        "query_id": "1292",
+        "sentence_id": "b8f1612a99a8464eef951ff8708a5033",
+        "sentence_text": "METHODS AND FINDINGS We analysed the association between levels of the N-terminal fragment of pro-BNP (NT-pro-BNP) in blood and risk of incident T2D in a prospective case-cohort study and genotyped the variant rs198389 within the BNP locus in three T2D case-control studies.",
+        "sentence_token_cost": 69,
+        "source_order": [
+          2533,
+          0,
+          2,
+          0
+        ],
+        "source_position": 431
+      },
+      {
+        "cross_encoder_score": -10.688284873962402,
+        "dataset": "SciFact",
+        "end_char": 795,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "7346e1d0d1b58b65eb94ee54b0f9358c",
+        "passage_rank": 8,
+        "query_id": "1292",
+        "sentence_id": "bbd7bbe4470ba20de8c5b36a938ed5bf",
+        "sentence_text": "We combined our results with existing data in a meta-analysis of 11 case-control studies.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2533,
+          0,
+          3,
+          0
+        ],
+        "source_position": 706
+      },
+      {
+        "cross_encoder_score": -9.420761108398438,
+        "dataset": "SciFact",
+        "end_char": 1017,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "7346e1d0d1b58b65eb94ee54b0f9358c",
+        "passage_rank": 8,
+        "query_id": "1292",
+        "sentence_id": "4d1de5186b0309cd6d3140a4ed4ec1cd",
+        "sentence_text": "Using a Mendelian randomization approach, we compared the observed association between rs198389 and T2D to that expected from the NT-pro-BNP level to T2D association and the NT-pro-BNP difference per C allele of rs198389.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          2533,
+          0,
+          4,
+          0
+        ],
+        "source_position": 796
+      },
+      {
+        "cross_encoder_score": -8.654170036315918,
+        "dataset": "SciFact",
+        "end_char": 1499,
+        "pair_tokens_before_truncation": 143,
+        "pair_truncated": false,
+        "passage_id": "7346e1d0d1b58b65eb94ee54b0f9358c",
+        "passage_rank": 8,
+        "query_id": "1292",
+        "sentence_id": "2da4b9b33d5e71634fb278bc62d8000e",
+        "sentence_text": "In participants of our case-cohort study who were free of T2D and cardiovascular disease at baseline, we observed a 21% (95% CI 3%-36%) decreased risk of incident T2D per one standard deviation (SD) higher log-transformed NT-pro-BNP levels in analysis adjusted for age, sex, body mass index, systolic blood pressure, smoking, family history of T2D, history of hypertension, and levels of triglycerides, high-density lipoprotein cholesterol, and low-density lipoprotein cholesterol.",
+        "sentence_token_cost": 114,
+        "source_order": [
+          2533,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1018
+      },
+      {
+        "cross_encoder_score": -8.156266212463379,
+        "dataset": "SciFact",
+        "end_char": 1936,
+        "pair_tokens_before_truncation": 165,
+        "pair_truncated": false,
+        "passage_id": "7346e1d0d1b58b65eb94ee54b0f9358c",
+        "passage_rank": 8,
+        "query_id": "1292",
+        "sentence_id": "824a546725d6033edd18c10a23d5900c",
+        "sentence_text": "The association between rs198389 and T2D observed in case-control studies (odds ratio = 0.94 per C allele, 95% CI 0.91-0.97) was similar to that expected (0.96, 0.93-0.98) based on the pooled estimate for the log-NT-pro-BNP level to T2D association derived from a meta-analysis of our study and published data (hazard ratio = 0.82 per SD, 0.74-0.90) and the difference in NT-pro-BNP levels (0.22 SD, 0.15-0.29) per C allele of rs198389.",
+        "sentence_token_cost": 164,
+        "source_order": [
+          2533,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1500
+      },
+      {
+        "cross_encoder_score": -3.2157084941864014,
+        "dataset": "SciFact",
+        "end_char": 2039,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "7346e1d0d1b58b65eb94ee54b0f9358c",
+        "passage_rank": 8,
+        "query_id": "1292",
+        "sentence_id": "ce144108a3c083f3aa7c128b562cc916",
+        "sentence_text": "No significant associations were observed between the rs198389 genotype and potential confounders.   \n",
+        "sentence_token_cost": 22,
+        "source_order": [
+          2533,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1937
+      },
+      {
+        "cross_encoder_score": -10.449934959411621,
+        "dataset": "SciFact",
+        "end_char": 2151,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "7346e1d0d1b58b65eb94ee54b0f9358c",
+        "passage_rank": 8,
+        "query_id": "1292",
+        "sentence_id": "1c240417f7d5ca6ec67d82745aac4dfc",
+        "sentence_text": "CONCLUSIONS Our results provide evidence for a potential causal role of the BNP system in the aetiology of T2D.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          2533,
+          0,
+          8,
+          0
+        ],
+        "source_position": 2040
+      },
+      {
+        "cross_encoder_score": -7.865455627441406,
+        "dataset": "SciFact",
+        "end_char": 2284,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "7346e1d0d1b58b65eb94ee54b0f9358c",
+        "passage_rank": 8,
+        "query_id": "1292",
+        "sentence_id": "342db5f116c6e068ff9707939f1bf305",
+        "sentence_text": "Further studies are needed to investigate the mechanisms underlying this association and possibilities for preventive interventions.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          2533,
+          0,
+          9,
+          0
+        ],
+        "source_position": 2152
+      },
+      {
+        "cross_encoder_score": -9.951447486877441,
+        "dataset": "SciFact",
+        "end_char": 2342,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "7346e1d0d1b58b65eb94ee54b0f9358c",
+        "passage_rank": 8,
+        "query_id": "1292",
+        "sentence_id": "2f8606ca5ab46a60e2397f8f85ed7b26",
+        "sentence_text": "Please see later in the article for the Editors' Summary.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          2533,
+          0,
+          10,
+          0
+        ],
+        "source_position": 2285
+      },
+      {
+        "cross_encoder_score": -8.52299690246582,
+        "dataset": "SciFact",
+        "end_char": 79,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 9,
+        "query_id": "1292",
+        "sentence_id": "a468a29f40feb7f1c8f02d678f34018d",
+        "sentence_text": "Functional and molecular defects of pancreatic islets in human type 2 diabetes.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          2633,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.393043518066406,
+        "dataset": "SciFact",
+        "end_char": 372,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 9,
+        "query_id": "1292",
+        "sentence_id": "5ad2dda26ba267ea6ee9b52f65b64a97",
+        "sentence_text": "To shed further light on the primary alterations of insulin secretion in type 2 diabetes and the possible mechanisms involved, we studied several functional and molecular properties of islets isolated from the pancreata of 13 type 2 diabetic and 13 matched nondiabetic cadaveric organ donors.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          2633,
+          0,
+          1,
+          0
+        ],
+        "source_position": 80
+      },
+      {
+        "cross_encoder_score": -9.366052627563477,
+        "dataset": "SciFact",
+        "end_char": 578,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 9,
+        "query_id": "1292",
+        "sentence_id": "b566d426e58f3b5f60b87f9e53a9e325",
+        "sentence_text": "Glucose-stimulated insulin secretion from type 2 diabetic islets was significantly lower than from control islets, whereas arginine- and glibenclamide-stimulated insulin release was less markedly affected.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          2633,
+          0,
+          2,
+          0
+        ],
+        "source_position": 373
+      },
+      {
+        "cross_encoder_score": -7.220314025878906,
+        "dataset": "SciFact",
+        "end_char": 703,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 9,
+        "query_id": "1292",
+        "sentence_id": "da9f92e1a7733d40b90d2217e8d90f77",
+        "sentence_text": "The defects were accompanied by reduced mRNA expression of GLUT1 and -2 and glucokinase and by diminished glucose oxidation.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2633,
+          0,
+          3,
+          0
+        ],
+        "source_position": 579
+      },
+      {
+        "cross_encoder_score": -10.541035652160645,
+        "dataset": "SciFact",
+        "end_char": 769,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 9,
+        "query_id": "1292",
+        "sentence_id": "b769d04b7313b1b5e993dc31190e23b6",
+        "sentence_text": "In addition, AMP-activated protein kinase activation was reduced.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          2633,
+          0,
+          4,
+          0
+        ],
+        "source_position": 704
+      },
+      {
+        "cross_encoder_score": -10.21670913696289,
+        "dataset": "SciFact",
+        "end_char": 918,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 9,
+        "query_id": "1292",
+        "sentence_id": "3bafba2d94e923bd29a3d05ffd58f840",
+        "sentence_text": "Furthermore, the expression of insulin was decreased, and that of pancreatic duodenal homeobox-1 (PDX-1) and forkhead box O1 (Foxo-1) was increased.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          2633,
+          0,
+          5,
+          0
+        ],
+        "source_position": 770
+      },
+      {
+        "cross_encoder_score": -8.628464698791504,
+        "dataset": "SciFact",
+        "end_char": 1166,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 9,
+        "query_id": "1292",
+        "sentence_id": "d336214f1d04e46ea950717c6d4e453b",
+        "sentence_text": "Nitrotyrosine and 8-hydroxy-2'-deoxyguanosine concentrations, markers of oxidative stress, were significantly higher in type 2 diabetic than control islets, and they were correlated with the degree of glucose-stimulated insulin release impairment.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          2633,
+          0,
+          6,
+          0
+        ],
+        "source_position": 919
+      },
+      {
+        "cross_encoder_score": -9.380532264709473,
+        "dataset": "SciFact",
+        "end_char": 1359,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 9,
+        "query_id": "1292",
+        "sentence_id": "1a4af99ca707da6c093ab7a28cef16a6",
+        "sentence_text": "Accordingly, 24-h exposure to glutathione significantly improved glucose-stimulated insulin release and decreased nitrotyrosine concentration, with partial recovery of insulin mRNA expression.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          2633,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1167
+      },
+      {
+        "cross_encoder_score": -5.055632591247559,
+        "dataset": "SciFact",
+        "end_char": 1514,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 9,
+        "query_id": "1292",
+        "sentence_id": "a2fd32d57ccc153c0832af6724b25b63",
+        "sentence_text": "These results provide direct evidence that the defects of insulin secretion in type 2 diabetic islets are associated with multiple islet cell alterations.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          2633,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1360
+      },
+      {
+        "cross_encoder_score": -8.819952964782715,
+        "dataset": "SciFact",
+        "end_char": 1651,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 9,
+        "query_id": "1292",
+        "sentence_id": "a35e7cb13d09ac942a84de0422b7c5c8",
+        "sentence_text": "Most importantly, the current study shows that the functional impairment of type 2 diabetic islets can be, at least in part, reversible.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          2633,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1515
+      },
+      {
+        "cross_encoder_score": -9.390169143676758,
+        "dataset": "SciFact",
+        "end_char": 1781,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 9,
+        "query_id": "1292",
+        "sentence_id": "ffb5627e5be933501555f3c4583a76b1",
+        "sentence_text": "In this regard, it is suggested that reducing islet cell oxidative stress is a potential target of human type 2 diabetes therapy.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2633,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1652
+      },
+      {
+        "cross_encoder_score": -4.250483989715576,
+        "dataset": "SciFact",
+        "end_char": 49,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 5,
+        "query_id": "1292",
+        "sentence_id": "72225f47a13b9058094cf0af0996de8c",
+        "sentence_text": "Metabolic syndrome as a risk factor for diabetes.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          3987,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.586470603942871,
+        "dataset": "SciFact",
+        "end_char": 345,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 5,
+        "query_id": "1292",
+        "sentence_id": "b9719eb12bfb0ffb2c74d181492b446b",
+        "sentence_text": "The metabolic syndrome was initially described as an insulin-resistance syndrome characterized by the clustering of metabolic traits such as high triglycerides, low high-density lipoprotein cholesterol, high blood pressure, abdominal obesity and different degrees of impaired glucose regulation.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          3987,
+          0,
+          1,
+          0
+        ],
+        "source_position": 50
+      },
+      {
+        "cross_encoder_score": -0.849198579788208,
+        "dataset": "SciFact",
+        "end_char": 731,
+        "pair_tokens_before_truncation": 88,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 5,
+        "query_id": "1292",
+        "sentence_id": "23a969714bf7f8a20ed008c86ef72867",
+        "sentence_text": "Although different definitions have been developed by various consensus groups, epidemiological studies demonstrate that they all associate the metabolic syndrome with a similar cardiometabolic risk, which is high for diabetes (ranging between three- and 20-fold), depending on the number of components and the inclusion of impaired fasting glucose, impaired glucose tolerance or both.",
+        "sentence_token_cost": 67,
+        "source_order": [
+          3987,
+          0,
+          2,
+          0
+        ],
+        "source_position": 346
+      },
+      {
+        "cross_encoder_score": -8.998022079467773,
+        "dataset": "SciFact",
+        "end_char": 882,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 5,
+        "query_id": "1292",
+        "sentence_id": "c961c3c00b96f720fa7257ca0d118a8e",
+        "sentence_text": "The latter appear to indicate the failure of the beta cell to produce enough insulin to compensate for the increased demand due to insulin resistance.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          3987,
+          0,
+          3,
+          0
+        ],
+        "source_position": 732
+      },
+      {
+        "cross_encoder_score": -8.71005630493164,
+        "dataset": "SciFact",
+        "end_char": 1019,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 5,
+        "query_id": "1292",
+        "sentence_id": "d3c0648e4bd06b6e94c49c1465136c9f",
+        "sentence_text": "There is a hyperbolic relationship between insulin production and insulin sensitivity, which can be calculated by the disposition index.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3987,
+          0,
+          4,
+          0
+        ],
+        "source_position": 883
+      },
+      {
+        "cross_encoder_score": -2.193392038345337,
+        "dataset": "SciFact",
+        "end_char": 1094,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 5,
+        "query_id": "1292",
+        "sentence_id": "926c4401fd51ec2b7b101fd79b6c8587",
+        "sentence_text": "When this is altered there is a higher risk of developing Type 2 diabetes.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          3987,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1020
+      },
+      {
+        "cross_encoder_score": -7.243192195892334,
+        "dataset": "SciFact",
+        "end_char": 1429,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 5,
+        "query_id": "1292",
+        "sentence_id": "cee76799ed91b895bae4c33fa7950587",
+        "sentence_text": "There have been no clinical trials in subjects selected by the diagnosis of metabolic syndrome, but structured lifestyle changes have been tested in people with impaired fasting glucose/impaired glucose tolerance and have been able to reduce incident Type 2 diabetes by almost 50%, as long as a weight loss of at least 5% is achieved.",
+        "sentence_token_cost": 65,
+        "source_order": [
+          3987,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1095
+      },
+      {
+        "cross_encoder_score": -10.08179759979248,
+        "dataset": "SciFact",
+        "end_char": 1516,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 5,
+        "query_id": "1292",
+        "sentence_id": "b78b3adff64836573e3bb625656ffbe7",
+        "sentence_text": "Oral antidiabetic and anti-obesity drugs have also been successful to a lesser degree.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3987,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1430
+      },
+      {
+        "cross_encoder_score": -7.76077938079834,
+        "dataset": "SciFact",
+        "end_char": 1573,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 5,
+        "query_id": "1292",
+        "sentence_id": "ed05b209f75454233a5f32f58a49df51",
+        "sentence_text": "Some fibrates have reduced or delayed incident diabetes.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          3987,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1517
+      },
+      {
+        "cross_encoder_score": -11.103326797485352,
+        "dataset": "SciFact",
+        "end_char": 1649,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 5,
+        "query_id": "1292",
+        "sentence_id": "2dd1cc34defae3c7affbce0bcc99870f",
+        "sentence_text": "Extended-release niacin has a neutral effect and statins are controversial.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          3987,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1574
+      },
+      {
+        "cross_encoder_score": -9.168901443481445,
+        "dataset": "SciFact",
+        "end_char": 1746,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 5,
+        "query_id": "1292",
+        "sentence_id": "10af6acf3889d0503e3ee3d0aec0a14b",
+        "sentence_text": "ACE inhibitors and ARBs are the antihypertensive agents least associated with incident diabetes.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3987,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1650
+      },
+      {
+        "cross_encoder_score": -7.022137641906738,
+        "dataset": "SciFact",
+        "end_char": 153,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "ca5e358ec1d2667479bd9db0bd9d7465",
+        "passage_rank": 3,
+        "query_id": "1292",
+        "sentence_id": "e54ffb8ff5c26fb4c187691d847ef9f3",
+        "sentence_text": "The prevalence of congenital malformations is still higher in pregnant women with pregestational diabetes despite near-normal HbA1c: a literature review.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          4204,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.671955585479736,
+        "dataset": "SciFact",
+        "end_char": 474,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "ca5e358ec1d2667479bd9db0bd9d7465",
+        "passage_rank": 3,
+        "query_id": "1292",
+        "sentence_id": "0785d18dd9df681c2975d9b154441dd5",
+        "sentence_text": "AIMS/HYPOTHESIS We assessed the association between congenital malformations and maternal hyperglycemia in pregnant women with pregestational (type 1 or type 2) diabetes and investigated if the rate of congenital malformations was similar in women with near-normal glycemic control compared to the background population.",
+        "sentence_token_cost": 66,
+        "source_order": [
+          4204,
+          0,
+          1,
+          0
+        ],
+        "source_position": 154
+      },
+      {
+        "cross_encoder_score": -3.726398229598999,
+        "dataset": "SciFact",
+        "end_char": 688,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "ca5e358ec1d2667479bd9db0bd9d7465",
+        "passage_rank": 3,
+        "query_id": "1292",
+        "sentence_id": "cdddd676bbf7cbf7a4bcba4db9d090e3",
+        "sentence_text": "We also assessed the association between congenital malformations and maternal hyperglycemia in pregnant women with pregestational diabetes with special focus on women with near-normal HbA1c in early pregnancy.   ",
+        "sentence_token_cost": 43,
+        "source_order": [
+          4204,
+          0,
+          2,
+          0
+        ],
+        "source_position": 475
+      },
+      {
+        "cross_encoder_score": -7.953711986541748,
+        "dataset": "SciFact",
+        "end_char": 979,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "ca5e358ec1d2667479bd9db0bd9d7465",
+        "passage_rank": 3,
+        "query_id": "1292",
+        "sentence_id": "ddd2b6be7f688c307ccdf36084265c92",
+        "sentence_text": "MATERIALS AND METHODS This is a literature review based on an electronic literature search of the databases PubMed, Cochrane, Embase and Web of Science conducted in July 2017 using the search terms diabetes, pregnancy, HbA1c or glycemic control and congenital anomaly or congenital anomaly.",
+        "sentence_token_cost": 65,
+        "source_order": [
+          4204,
+          0,
+          3,
+          0
+        ],
+        "source_position": 689
+      },
+      {
+        "cross_encoder_score": -7.136831283569336,
+        "dataset": "SciFact",
+        "end_char": 1143,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "ca5e358ec1d2667479bd9db0bd9d7465",
+        "passage_rank": 3,
+        "query_id": "1292",
+        "sentence_id": "d0e611eee53a9649372675f2d5db30c7",
+        "sentence_text": "We included original papers in English published after 1997 with data on congenital malformations and HbA1c in at least 250 women with pregestational diabetes.   \n",
+        "sentence_token_cost": 42,
+        "source_order": [
+          4204,
+          0,
+          4,
+          0
+        ],
+        "source_position": 980
+      },
+      {
+        "cross_encoder_score": -8.681142807006836,
+        "dataset": "SciFact",
+        "end_char": 1260,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "ca5e358ec1d2667479bd9db0bd9d7465",
+        "passage_rank": 3,
+        "query_id": "1292",
+        "sentence_id": "ffab8df40bf96f1309563e8be0f20925",
+        "sentence_text": "RESULTS Nine papers with in total 6225 women with type 1 diabetes and 2334 women with type 2 diabetes were included.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          4204,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1144
+      },
+      {
+        "cross_encoder_score": -5.016819953918457,
+        "dataset": "SciFact",
+        "end_char": 1512,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "ca5e358ec1d2667479bd9db0bd9d7465",
+        "passage_rank": 3,
+        "query_id": "1292",
+        "sentence_id": "20d045375106a267e9c0b00879b603c5",
+        "sentence_text": "The prevalence of congenital malformations was 6.4% in women with type 1 diabetes and 4.3% in women with type 2 diabetes and for the combined group of women with pregestational diabetes, the relative risk compared to the background population was 3.2.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          4204,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1261
+      },
+      {
+        "cross_encoder_score": -8.419638633728027,
+        "dataset": "SciFact",
+        "end_char": 1737,
+        "pair_tokens_before_truncation": 98,
+        "pair_truncated": false,
+        "passage_id": "ca5e358ec1d2667479bd9db0bd9d7465",
+        "passage_rank": 3,
+        "query_id": "1292",
+        "sentence_id": "44ebc9ee6bb074abca311496adccd118",
+        "sentence_text": "In women with HbA1c < 53 mmol/mol (7.0%) in early pregnancy or HbA1c 53-64 mmol/mol (7.0-8.0%) the prevalence of congenital malformations was 4.3 and 3.7%, respectively, with a relative risk of 2.2 and 1.9, respectively.   \n",
+        "sentence_token_cost": 86,
+        "source_order": [
+          4204,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1513
+      },
+      {
+        "cross_encoder_score": -8.182487487792969,
+        "dataset": "SciFact",
+        "end_char": 1937,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "ca5e358ec1d2667479bd9db0bd9d7465",
+        "passage_rank": 3,
+        "query_id": "1292",
+        "sentence_id": "ef66e62a3253127aa2ca871cfb91fd68",
+        "sentence_text": "CONCLUSIONS In pregnant women with pregestational diabetes the prevalence of congenital abnormalities was threefold higher in women with pregestational diabetes compared to the background population.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          4204,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1738
+      },
+      {
+        "cross_encoder_score": -6.187900543212891,
+        "dataset": "SciFact",
+        "end_char": 2115,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "ca5e358ec1d2667479bd9db0bd9d7465",
+        "passage_rank": 3,
+        "query_id": "1292",
+        "sentence_id": "2b97d425b61ccd6d8aa1b986e6fcf9e8",
+        "sentence_text": "However, HbA1c below 53 mmol/mol (7.0%) in early pregnancy was also associated with a two times increased risk of congenital malformations compared to the background population.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          4204,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1938
+      },
+      {
+        "cross_encoder_score": -4.900158405303955,
+        "dataset": "SciFact",
+        "end_char": 100,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d72454186239b8ef18001550f4fcd7a2",
+        "passage_rank": 7,
+        "query_id": "1292",
+        "sentence_id": "20d7955569e189f8d409d5154edf298c",
+        "sentence_text": "Comparative risk of new-onset diabetes mellitus for antihypertensive drugs: A network meta-analysis.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          4889,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.9039387702941895,
+        "dataset": "SciFact",
+        "end_char": 257,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "d72454186239b8ef18001550f4fcd7a2",
+        "passage_rank": 7,
+        "query_id": "1292",
+        "sentence_id": "9b76e1687d17a733894ba894ddc86e0a",
+        "sentence_text": "New-onset diabetes mellitus (NOD) refers to forms of diabetes mellitus that develop during the therapeutic processes of other diseases such as hypertension.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          4889,
+          0,
+          1,
+          0
+        ],
+        "source_position": 101
+      },
+      {
+        "cross_encoder_score": -11.147615432739258,
+        "dataset": "SciFact",
+        "end_char": 454,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "d72454186239b8ef18001550f4fcd7a2",
+        "passage_rank": 7,
+        "query_id": "1292",
+        "sentence_id": "0ed1b034d025125091242a58dd800ff3",
+        "sentence_text": "This study has been conducted in a network meta-analysis to compare antihypertensive drugs by identifying both the advantages and disadvantages on NOD by focusing on their respective effect rates.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          4889,
+          0,
+          2,
+          0
+        ],
+        "source_position": 258
+      },
+      {
+        "cross_encoder_score": -11.174431800842285,
+        "dataset": "SciFact",
+        "end_char": 589,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "d72454186239b8ef18001550f4fcd7a2",
+        "passage_rank": 7,
+        "query_id": "1292",
+        "sentence_id": "04fa35851cc5c83d2ddb87cf7c996c87",
+        "sentence_text": "Odd ratios and corresponding 95% confidence intervals or credible intervals were calculated within pairwise and network meta-analysis.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          4889,
+          0,
+          3,
+          0
+        ],
+        "source_position": 455
+      },
+      {
+        "cross_encoder_score": -10.909547805786133,
+        "dataset": "SciFact",
+        "end_char": 712,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d72454186239b8ef18001550f4fcd7a2",
+        "passage_rank": 7,
+        "query_id": "1292",
+        "sentence_id": "e9608c0f8b4d1757df3ef81b047415c3",
+        "sentence_text": "A total of 38 articles with 224 140 patients were included to evaluate the preventive effect of hypertension drugs on NOD.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          4889,
+          0,
+          4,
+          0
+        ],
+        "source_position": 590
+      },
+      {
+        "cross_encoder_score": -9.061713218688965,
+        "dataset": "SciFact",
+        "end_char": 1251,
+        "pair_tokens_before_truncation": 152,
+        "pair_truncated": false,
+        "passage_id": "d72454186239b8ef18001550f4fcd7a2",
+        "passage_rank": 7,
+        "query_id": "1292",
+        "sentence_id": "f122230df7a2ef8b10991f27bc129456",
+        "sentence_text": "From the network meta-analysis it was evident that both angiotensin-converting enzyme inhibitor as well as angiotensin receptor blocker treatments are associated with a lower risk of developing NOD compared with placebo, with ranking probabilities of 79.81% and 72.77%, respectively, while \u03b2-blockers and calcium channel blockers may significantly increase the probability of developing NOD (\u03b2-blockers: odds ratio, 2.18 [95% credible intervals: 1.36-3.50]; calcium channel blockers: odds ratio, 1.16 [95% credible intervals, 1.05-1.29]).",
+        "sentence_token_cost": 141,
+        "source_order": [
+          4889,
+          0,
+          5,
+          0
+        ],
+        "source_position": 713
+      },
+      {
+        "cross_encoder_score": -10.914994239807129,
+        "dataset": "SciFact",
+        "end_char": 1359,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "d72454186239b8ef18001550f4fcd7a2",
+        "passage_rank": 7,
+        "query_id": "1292",
+        "sentence_id": "d77cd01094b16dd29d6bb20184e44c32",
+        "sentence_text": "In conclusion, angiotensin receptor blockers have an advantage over the other treatments regarding the NOD.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          4889,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1252
+      },
+      {
+        "cross_encoder_score": -0.20448900759220123,
+        "dataset": "SciFact",
+        "end_char": 104,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "846171362d701acaa6f40c5c97ecf725",
+        "passage_rank": 1,
+        "query_id": "1292",
+        "sentence_id": "aece5164b61758ba16476090fda4f964",
+        "sentence_text": "Macrosomia and Hyperinsulinaemic Hypoglycaemia in Patients with Heterozygous Mutations in the HNF4A Gene",
+        "sentence_token_cost": 32,
+        "source_order": [
+          5054,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.508988380432129,
+        "dataset": "SciFact",
+        "end_char": 192,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "846171362d701acaa6f40c5c97ecf725",
+        "passage_rank": 1,
+        "query_id": "1292",
+        "sentence_id": "4dbdc2b9ce2c5c3e2c4126aebe930997",
+        "sentence_text": "Background  Macrosomia is associated with considerable neonatal and maternal morbidity.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          5054,
+          0,
+          1,
+          0
+        ],
+        "source_position": 105
+      },
+      {
+        "cross_encoder_score": -10.655116081237793,
+        "dataset": "SciFact",
+        "end_char": 247,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "846171362d701acaa6f40c5c97ecf725",
+        "passage_rank": 1,
+        "query_id": "1292",
+        "sentence_id": "b5457d730ad030ecd72e45a8c664a909",
+        "sentence_text": "Factors that predict macrosomia are poorly understood.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          5054,
+          0,
+          2,
+          0
+        ],
+        "source_position": 193
+      },
+      {
+        "cross_encoder_score": -8.557549476623535,
+        "dataset": "SciFact",
+        "end_char": 416,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "846171362d701acaa6f40c5c97ecf725",
+        "passage_rank": 1,
+        "query_id": "1292",
+        "sentence_id": "25b409de406b83175fab325f6ce5e131",
+        "sentence_text": "The increased rate of macrosomia in the offspring of pregnant women with diabetes and in congenital hyperinsulinaemia is mediated by increased foetal insulin secretion.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          5054,
+          0,
+          3,
+          0
+        ],
+        "source_position": 248
+      },
+      {
+        "cross_encoder_score": -0.44289809465408325,
+        "dataset": "SciFact",
+        "end_char": 833,
+        "pair_tokens_before_truncation": 140,
+        "pair_truncated": false,
+        "passage_id": "846171362d701acaa6f40c5c97ecf725",
+        "passage_rank": 1,
+        "query_id": "1292",
+        "sentence_id": "e3668d63db24e50730088753ca5d29a5",
+        "sentence_text": "We assessed the in utero and neonatal role of two key regulators of pancreatic insulin secretion by studying birthweight and the incidence of neonatal hypoglycaemia in patients with heterozygous mutations in the maturity-onset diabetes of the young (MODY) genes HNF4A (encoding HNF-4\u03b1) and HNF1A/TCF1 (encoding HNF-1\u03b1), and the effect of pancreatic deletion of Hnf4a on foetal and neonatal insulin secretion in mice.",
+        "sentence_token_cost": 106,
+        "source_order": [
+          5054,
+          0,
+          4,
+          0
+        ],
+        "source_position": 417
+      }
+    ],
+    "scoring_seconds": 0.6198621849762276,
+    "source_fingerprint": "fc6a4f54701d92cf78a0ba6245be0e8a9fb4e1cbd4a1d7478af34db2672c42b0"
+  }
+}

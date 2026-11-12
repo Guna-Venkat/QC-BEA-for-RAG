@@ -1,0 +1,1511 @@
+{
+  "checksum": "f78e8b2611daba5c61926577ab4ebed90dab90151cff3c4ee3cc98daacc198e9",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "1202"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 74,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "2cf0c4533618071b1174684b9e08c2a8cda1c2451536ec8a9f18359a70cc6024",
+    "query_id": "1202",
+    "scores": [
+      {
+        "cross_encoder_score": -7.982540607452393,
+        "dataset": "SciFact",
+        "end_char": 69,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "b1d65e6661708d7a94299b5f22531c85",
+        "passage_rank": 9,
+        "query_id": "1202",
+        "sentence_id": "d5a8f05fe792f56b805d6f34a86052d2",
+        "sentence_text": "Human IRGM induces autophagy to eliminate intracellular mycobacteria.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          421,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.080431938171387,
+        "dataset": "SciFact",
+        "end_char": 178,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "b1d65e6661708d7a94299b5f22531c85",
+        "passage_rank": 9,
+        "query_id": "1202",
+        "sentence_id": "3ea9f9193b7f9f18b305d08057e00a1c",
+        "sentence_text": "Immunity-related p47 guanosine triphosphatases (IRG) play a role in defense against intracellular pathogens.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          421,
+          0,
+          1,
+          0
+        ],
+        "source_position": 70
+      },
+      {
+        "cross_encoder_score": -10.230363845825195,
+        "dataset": "SciFact",
+        "end_char": 386,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "b1d65e6661708d7a94299b5f22531c85",
+        "passage_rank": 9,
+        "query_id": "1202",
+        "sentence_id": "721a7ff8b62b86daeb4d0d5ed6453319",
+        "sentence_text": "We found that the murine Irgm1 (LRG-47) guanosine triphosphatase induced autophagy and generated large autolysosomal organelles as a mechanism for the elimination of intracellular Mycobacterium tuberculosis.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          421,
+          0,
+          2,
+          0
+        ],
+        "source_position": 179
+      },
+      {
+        "cross_encoder_score": -10.927001953125,
+        "dataset": "SciFact",
+        "end_char": 610,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "b1d65e6661708d7a94299b5f22531c85",
+        "passage_rank": 9,
+        "query_id": "1202",
+        "sentence_id": "6ed60a95370a86b858e5a94356c9badc",
+        "sentence_text": "We also identified a function for a human IRG protein in the control of intracellular pathogens and report that the human Irgm1 ortholog, IRGM, plays a role in autophagy and in the reduction of intracellular bacillary load.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          421,
+          0,
+          3,
+          0
+        ],
+        "source_position": 387
+      },
+      {
+        "cross_encoder_score": -2.9423038959503174,
+        "dataset": "SciFact",
+        "end_char": 78,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 1,
+        "query_id": "1202",
+        "sentence_id": "4219d0d3cb102c853230ebc0c5b1d849",
+        "sentence_text": "Inflammatory signaling in human Tuberculosis granulomas is spatially organized",
+        "sentence_token_cost": 14,
+        "source_order": [
+          617,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.456968307495117,
+        "dataset": "SciFact",
+        "end_char": 141,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 1,
+        "query_id": "1202",
+        "sentence_id": "196b262cd476c657fa3e347ea958acfe",
+        "sentence_text": "Granulomas are the pathological hallmark of tuberculosis (TB).",
+        "sentence_token_cost": 12,
+        "source_order": [
+          617,
+          0,
+          1,
+          0
+        ],
+        "source_position": 79
+      },
+      {
+        "cross_encoder_score": -9.917823791503906,
+        "dataset": "SciFact",
+        "end_char": 219,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 1,
+        "query_id": "1202",
+        "sentence_id": "a7acaebecef219075d19124baf930a9a",
+        "sentence_text": "However, their function and mechanisms of formation remain poorly understood.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          617,
+          0,
+          2,
+          0
+        ],
+        "source_position": 142
+      },
+      {
+        "cross_encoder_score": -3.9315853118896484,
+        "dataset": "SciFact",
+        "end_char": 358,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 1,
+        "query_id": "1202",
+        "sentence_id": "dd44f87c68ae7b00275379e0cecf9972",
+        "sentence_text": "To understand the role of granulomas in TB, we analyzed the proteomes of granulomas from subjects with tuberculosis in an unbiased manner.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          617,
+          0,
+          3,
+          0
+        ],
+        "source_position": 220
+      },
+      {
+        "cross_encoder_score": -7.054244518280029,
+        "dataset": "SciFact",
+        "end_char": 496,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 1,
+        "query_id": "1202",
+        "sentence_id": "b21c8407d670286922d41264427d0741",
+        "sentence_text": "Using laser-capture microdissection, mass spectrometry and confocal microscopy, we generated detailed molecular maps of human granulomas.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          617,
+          0,
+          4,
+          0
+        ],
+        "source_position": 359
+      },
+      {
+        "cross_encoder_score": 5.493771076202393,
+        "dataset": "SciFact",
+        "end_char": 695,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 1,
+        "query_id": "1202",
+        "sentence_id": "683c17a3e6566a8d9c7bfaaa537e2fb2",
+        "sentence_text": "We found that the centers of granulomas have a pro-inflammatory environment that is characterized by the presence of antimicrobial peptides, reactive oxygen species and pro-inflammatory eicosanoids.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          617,
+          0,
+          5,
+          0
+        ],
+        "source_position": 497
+      },
+      {
+        "cross_encoder_score": -9.079239845275879,
+        "dataset": "SciFact",
+        "end_char": 790,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 1,
+        "query_id": "1202",
+        "sentence_id": "09a57767f5d39a9c18bdb3b88e917c35",
+        "sentence_text": "Conversely, the tissue surrounding the caseum has a comparatively anti-inflammatory signature.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          617,
+          0,
+          6,
+          0
+        ],
+        "source_position": 696
+      },
+      {
+        "cross_encoder_score": -11.059001922607422,
+        "dataset": "SciFact",
+        "end_char": 871,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 1,
+        "query_id": "1202",
+        "sentence_id": "d9f6bb3c542ca0735ab87fe2b9d92da7",
+        "sentence_text": "These findings are consistent across a set of six human subjects and in rabbits.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          617,
+          0,
+          7,
+          0
+        ],
+        "source_position": 791
+      },
+      {
+        "cross_encoder_score": -0.32966363430023193,
+        "dataset": "SciFact",
+        "end_char": 1059,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 1,
+        "query_id": "1202",
+        "sentence_id": "59746254eac24596ad1bcec39fc6c1c5",
+        "sentence_text": "Although the balance between systemic pro- and anti-inflammatory signals is crucial to TB disease outcome, here we find that these signals are physically segregated within each granuloma.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          617,
+          0,
+          8,
+          0
+        ],
+        "source_position": 872
+      },
+      {
+        "cross_encoder_score": -1.7740286588668823,
+        "dataset": "SciFact",
+        "end_char": 1310,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 1,
+        "query_id": "1202",
+        "sentence_id": "495d4e3bb682e87025dc233541bf741a",
+        "sentence_text": "From the protein and lipid snapshots of human and rabbit lesions analyzed here, we hypothesize that the pathologic response to TB is shaped by the precise anatomical localization of these inflammatory pathways during the development of the granuloma.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          617,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1060
+      },
+      {
+        "cross_encoder_score": -7.913286209106445,
+        "dataset": "SciFact",
+        "end_char": 80,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "0b16e4bdf28b423c09ad57afeb5913f6",
+        "passage_rank": 4,
+        "query_id": "1202",
+        "sentence_id": "3625b4d10356efbe6448c5af4bc8f4d8",
+        "sentence_text": "Centrosome polarization delivers secretory granules to the immunological synapse",
+        "sentence_token_cost": 15,
+        "source_order": [
+          789,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.481072902679443,
+        "dataset": "SciFact",
+        "end_char": 311,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "0b16e4bdf28b423c09ad57afeb5913f6",
+        "passage_rank": 4,
+        "query_id": "1202",
+        "sentence_id": "ccc62b7f0835e9c4c9ced16fb69ed029",
+        "sentence_text": "Cytotoxic T lymphocytes (CTLs) destroy virally infected and tumorigenic cells by releasing the contents of specialized secretory lysosomes\u2014termed \u2018lytic granules\u2019\u2014at the immunological synapse formed between the CTL and the target.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          789,
+          0,
+          1,
+          0
+        ],
+        "source_position": 81
+      },
+      {
+        "cross_encoder_score": -6.728640556335449,
+        "dataset": "SciFact",
+        "end_char": 533,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "0b16e4bdf28b423c09ad57afeb5913f6",
+        "passage_rank": 4,
+        "query_id": "1202",
+        "sentence_id": "bb36731d89e704b8f6ff244b429487bb",
+        "sentence_text": "On contact with the target cell, the microtubule organizing centre of the CTL polarizes towards the target and granules move along microtubules in a minus-end direction towards the polarized microtubule organizing centre.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          789,
+          0,
+          2,
+          0
+        ],
+        "source_position": 312
+      },
+      {
+        "cross_encoder_score": -10.61628246307373,
+        "dataset": "SciFact",
+        "end_char": 594,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "0b16e4bdf28b423c09ad57afeb5913f6",
+        "passage_rank": 4,
+        "query_id": "1202",
+        "sentence_id": "44ae6cfa640b76b31b3f9059711c53dd",
+        "sentence_text": "However, the final steps of secretion have remained unclear.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          789,
+          0,
+          3,
+          0
+        ],
+        "source_position": 534
+      },
+      {
+        "cross_encoder_score": -10.527236938476562,
+        "dataset": "SciFact",
+        "end_char": 832,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "0b16e4bdf28b423c09ad57afeb5913f6",
+        "passage_rank": 4,
+        "query_id": "1202",
+        "sentence_id": "09d282bad299002225097dc3e81f9383",
+        "sentence_text": "Here we show that CTLs do not require actin or plus-end microtubule motors for secretion, but instead the centrosome moves to and contacts the plasma membrane at the central supramolecular activation cluster of the immunological synapse.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          789,
+          0,
+          4,
+          0
+        ],
+        "source_position": 595
+      },
+      {
+        "cross_encoder_score": -10.477313995361328,
+        "dataset": "SciFact",
+        "end_char": 944,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "0b16e4bdf28b423c09ad57afeb5913f6",
+        "passage_rank": 4,
+        "query_id": "1202",
+        "sentence_id": "4f45751e900c6a6291914cf2234aad60",
+        "sentence_text": "Actin and IQGAP1 are cleared away from the synapse, and granules are delivered directly to the plasma membrane.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          789,
+          0,
+          5,
+          0
+        ],
+        "source_position": 833
+      },
+      {
+        "cross_encoder_score": -9.405960083007812,
+        "dataset": "SciFact",
+        "end_char": 1153,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "0b16e4bdf28b423c09ad57afeb5913f6",
+        "passage_rank": 4,
+        "query_id": "1202",
+        "sentence_id": "e74bb6c1ad643c2f11ea2a07dc1203fc",
+        "sentence_text": "These data show that CTLs use a previously unreported mechanism for delivering secretory granules to the immunological synapse, with granule secretion controlled by centrosome delivery to the plasma membrane.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          789,
+          0,
+          6,
+          0
+        ],
+        "source_position": 945
+      },
+      {
+        "cross_encoder_score": -7.630441665649414,
+        "dataset": "SciFact",
+        "end_char": 93,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "3b64421183f21333a7c510e06d949521",
+        "passage_rank": 6,
+        "query_id": "1202",
+        "sentence_id": "059b6ba441479a01c942ae724fc9cd98",
+        "sentence_text": "Defective tryptophan catabolism underlies inflammation in mouse chronic granulomatous disease",
+        "sentence_token_cost": 21,
+        "source_order": [
+          791,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.393673419952393,
+        "dataset": "SciFact",
+        "end_char": 247,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "3b64421183f21333a7c510e06d949521",
+        "passage_rank": 6,
+        "query_id": "1202",
+        "sentence_id": "a977f3d762df7ecef573df55c314f01f",
+        "sentence_text": "Half a century ago, chronic granulomatous disease (CGD) was first described as a disease fatally affecting the ability of children to survive infections.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          791,
+          0,
+          1,
+          0
+        ],
+        "source_position": 94
+      },
+      {
+        "cross_encoder_score": -10.655624389648438,
+        "dataset": "SciFact",
+        "end_char": 410,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "3b64421183f21333a7c510e06d949521",
+        "passage_rank": 6,
+        "query_id": "1202",
+        "sentence_id": "587a32c0c2d1016a7d012f7996de15bc",
+        "sentence_text": "Various milestone discoveries have since been made, from an insufficient ability of patients\u2019 leucocytes to kill microbes to the underlying genetic abnormalities.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          791,
+          0,
+          2,
+          0
+        ],
+        "source_position": 248
+      },
+      {
+        "cross_encoder_score": -10.244011878967285,
+        "dataset": "SciFact",
+        "end_char": 604,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "3b64421183f21333a7c510e06d949521",
+        "passage_rank": 6,
+        "query_id": "1202",
+        "sentence_id": "da44561d78dd1bb50960b96421859f13",
+        "sentence_text": "In this inherited disorder, phagocytes lack NADPH oxidase activity and do not generate reactive oxygen species, most notably superoxide anion, causing recurrent bacterial and fungal infections.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          791,
+          0,
+          3,
+          0
+        ],
+        "source_position": 411
+      },
+      {
+        "cross_encoder_score": -3.5502045154571533,
+        "dataset": "SciFact",
+        "end_char": 728,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "3b64421183f21333a7c510e06d949521",
+        "passage_rank": 6,
+        "query_id": "1202",
+        "sentence_id": "c2bd615c32fc3938d69188dd35bca122",
+        "sentence_text": "Patients with CGD also suffer from chronic inflammatory conditions, most prominently granuloma formation in hollow viscera.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          791,
+          0,
+          4,
+          0
+        ],
+        "source_position": 605
+      },
+      {
+        "cross_encoder_score": -6.915093421936035,
+        "dataset": "SciFact",
+        "end_char": 878,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "3b64421183f21333a7c510e06d949521",
+        "passage_rank": 6,
+        "query_id": "1202",
+        "sentence_id": "8f1d5ef23ef7bd8b9c69a7daa0f470cc",
+        "sentence_text": "The precise mechanisms of the increased microbial pathogenicity have been unclear, and more so the reasons for the exaggerated inflammatory response.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          791,
+          0,
+          5,
+          0
+        ],
+        "source_position": 729
+      },
+      {
+        "cross_encoder_score": -10.04782485961914,
+        "dataset": "SciFact",
+        "end_char": 1206,
+        "pair_tokens_before_truncation": 102,
+        "pair_truncated": false,
+        "passage_id": "3b64421183f21333a7c510e06d949521",
+        "passage_rank": 6,
+        "query_id": "1202",
+        "sentence_id": "9ba203460cca8466bde64830fb1a9c7b",
+        "sentence_text": "Here we show that a superoxide-dependent step in tryptophan metabolism along the kynurenine pathway is blocked in CGD mice with lethal pulmonary aspergillosis, leading to unrestrained V\u03b31+ \u03b3\u03b4 T-cell reactivity, dominant production of interleukin (IL)-17, defective regulatory T-cell activity and acute inflammatory lung injury.",
+        "sentence_token_cost": 75,
+        "source_order": [
+          791,
+          0,
+          6,
+          0
+        ],
+        "source_position": 879
+      },
+      {
+        "cross_encoder_score": -10.338077545166016,
+        "dataset": "SciFact",
+        "end_char": 1459,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "3b64421183f21333a7c510e06d949521",
+        "passage_rank": 6,
+        "query_id": "1202",
+        "sentence_id": "45f3371e3c2995935ca336b04cff5a82",
+        "sentence_text": "Although beneficial effects are induced by IL-17 neutralization or \u03b3\u03b4 T-cell contraction, complete cure and reversal of the hyperinflammatory phenotype are achieved by replacement therapy with a natural kynurenine distal to the blockade in the pathway.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          791,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1207
+      },
+      {
+        "cross_encoder_score": -10.88663101196289,
+        "dataset": "SciFact",
+        "end_char": 1678,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "3b64421183f21333a7c510e06d949521",
+        "passage_rank": 6,
+        "query_id": "1202",
+        "sentence_id": "e7ec506512c79f09fab7df61267c7312",
+        "sentence_text": "Effective therapy, which includes co-administration of recombinant interferon-\u03b3 (IFN-\u03b3), restores production of downstream immunoactive metabolites and enables the emergence of regulatory V\u03b34+ \u03b3\u03b4 and Foxp3+ \u03b1\u03b2 T cells.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          791,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1460
+      },
+      {
+        "cross_encoder_score": -11.029603004455566,
+        "dataset": "SciFact",
+        "end_char": 1900,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "3b64421183f21333a7c510e06d949521",
+        "passage_rank": 6,
+        "query_id": "1202",
+        "sentence_id": "f65dbb6a463f3a13b13377d43d0f1cc4",
+        "sentence_text": "Therefore, paradoxically, the lack of reactive oxygen species contributes to the hyperinflammatory phenotype associated with NADPH oxidase deficiencies, through a dysfunctional kynurenine pathway of tryptophan catabolism.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          791,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1679
+      },
+      {
+        "cross_encoder_score": -11.094892501831055,
+        "dataset": "SciFact",
+        "end_char": 2009,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "3b64421183f21333a7c510e06d949521",
+        "passage_rank": 6,
+        "query_id": "1202",
+        "sentence_id": "69a88ee2ea663e2a2c3815ad8c7da8eb",
+        "sentence_text": "Yet, this condition can be reverted by reactivating the pathway downstream of the superoxide-dependent step.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          791,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1901
+      },
+      {
+        "cross_encoder_score": -9.88728141784668,
+        "dataset": "SciFact",
+        "end_char": 120,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "8020f49fa4ea0244fb5759e5bc33d33c",
+        "passage_rank": 7,
+        "query_id": "1202",
+        "sentence_id": "08e5ea6fb43860bb7865220eaf8fc036",
+        "sentence_text": "Tumor necrosis factor signaling mediates resistance to mycobacteria by inhibiting bacterial growth and macrophage death.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2586,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.412922382354736,
+        "dataset": "SciFact",
+        "end_char": 322,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "8020f49fa4ea0244fb5759e5bc33d33c",
+        "passage_rank": 7,
+        "query_id": "1202",
+        "sentence_id": "37c970e717a31dc741842de867b52862",
+        "sentence_text": "Tumor necrosis factor (TNF), a key effector in controlling tuberculosis, is thought to exert protection by directing formation of granulomas, organized aggregates of macrophages and other immune cells.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          2586,
+          0,
+          1,
+          0
+        ],
+        "source_position": 121
+      },
+      {
+        "cross_encoder_score": -8.183836936950684,
+        "dataset": "SciFact",
+        "end_char": 601,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "8020f49fa4ea0244fb5759e5bc33d33c",
+        "passage_rank": 7,
+        "query_id": "1202",
+        "sentence_id": "648b446269d7588e8797dcd25271664a",
+        "sentence_text": "Loss of TNF signaling causes progression of tuberculosis in humans, and the increased mortality of Mycobacterium tuberculosis-infected mice is associated with disorganized necrotic granulomas, although the precise roles of TNF signaling preceding this endpoint remain undefined.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          2586,
+          0,
+          2,
+          0
+        ],
+        "source_position": 323
+      },
+      {
+        "cross_encoder_score": -11.210208892822266,
+        "dataset": "SciFact",
+        "end_char": 766,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "8020f49fa4ea0244fb5759e5bc33d33c",
+        "passage_rank": 7,
+        "query_id": "1202",
+        "sentence_id": "29558cf612f5cfc46f93a9a92d89e14b",
+        "sentence_text": "We monitored transparent Mycobacterium marinum-infected zebrafish live to conduct a stepwise dissection of how TNF signaling operates in mycobacterial pathogenesis.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          2586,
+          0,
+          3,
+          0
+        ],
+        "source_position": 602
+      },
+      {
+        "cross_encoder_score": -10.702956199645996,
+        "dataset": "SciFact",
+        "end_char": 873,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "8020f49fa4ea0244fb5759e5bc33d33c",
+        "passage_rank": 7,
+        "query_id": "1202",
+        "sentence_id": "fbbad2121d996755a51aa62309c629ec",
+        "sentence_text": "We found that loss of TNF signaling caused increased mortality even when only innate immunity was operant.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          2586,
+          0,
+          4,
+          0
+        ],
+        "source_position": 767
+      },
+      {
+        "cross_encoder_score": -5.489984512329102,
+        "dataset": "SciFact",
+        "end_char": 1053,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "8020f49fa4ea0244fb5759e5bc33d33c",
+        "passage_rank": 7,
+        "query_id": "1202",
+        "sentence_id": "173d6b5aa353eaf3dd67d3b38169ef07",
+        "sentence_text": "In the absence of TNF, intracellular bacterial growth and granuloma formation were accelerated and was followed by necrotic death of overladen macrophages and granuloma breakdown.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          2586,
+          0,
+          5,
+          0
+        ],
+        "source_position": 874
+      },
+      {
+        "cross_encoder_score": -6.40895938873291,
+        "dataset": "SciFact",
+        "end_char": 1247,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "8020f49fa4ea0244fb5759e5bc33d33c",
+        "passage_rank": 7,
+        "query_id": "1202",
+        "sentence_id": "8a0a03e4093431478f33693bcc5bc38a",
+        "sentence_text": "Thus, TNF is not required for tuberculous granuloma formation, but maintains granuloma integrity indirectly by restricting mycobacterial growth within macrophages and preventing their necrosis.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          2586,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1054
+      },
+      {
+        "cross_encoder_score": -5.164818286895752,
+        "dataset": "SciFact",
+        "end_char": 69,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "b7269d70af7419bd2916daa87fd5da2e",
+        "passage_rank": 3,
+        "query_id": "1202",
+        "sentence_id": "ec48553e6f6cadf679dce444c7554239",
+        "sentence_text": "Memory CD4+ T cells induce innate responses independently of pathogen",
+        "sentence_token_cost": 13,
+        "source_order": [
+          2898,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.934601306915283,
+        "dataset": "SciFact",
+        "end_char": 195,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "b7269d70af7419bd2916daa87fd5da2e",
+        "passage_rank": 3,
+        "query_id": "1202",
+        "sentence_id": "f8caf0abcf29e09b49bc2733b5925471",
+        "sentence_text": "Inflammation induced by recognition of pathogen-associated molecular patterns markedly affects subsequent adaptive responses.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          2898,
+          0,
+          1,
+          0
+        ],
+        "source_position": 70
+      },
+      {
+        "cross_encoder_score": -6.324481010437012,
+        "dataset": "SciFact",
+        "end_char": 317,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "b7269d70af7419bd2916daa87fd5da2e",
+        "passage_rank": 3,
+        "query_id": "1202",
+        "sentence_id": "aac49c8d2fa05e821bfc43ea704a76f2",
+        "sentence_text": "We asked whether the adaptive immune system can also affect the character and magnitude of innate inflammatory responses.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2898,
+          0,
+          2,
+          0
+        ],
+        "source_position": 196
+      },
+      {
+        "cross_encoder_score": -5.9716596603393555,
+        "dataset": "SciFact",
+        "end_char": 555,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "b7269d70af7419bd2916daa87fd5da2e",
+        "passage_rank": 3,
+        "query_id": "1202",
+        "sentence_id": "b28cf574cf6a397dc5ed7d2356a7fea4",
+        "sentence_text": "We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          2898,
+          0,
+          3,
+          0
+        ],
+        "source_position": 318
+      },
+      {
+        "cross_encoder_score": -10.065139770507812,
+        "dataset": "SciFact",
+        "end_char": 891,
+        "pair_tokens_before_truncation": 104,
+        "pair_truncated": false,
+        "passage_id": "b7269d70af7419bd2916daa87fd5da2e",
+        "passage_rank": 3,
+        "query_id": "1202",
+        "sentence_id": "69f41ddce7f49763aad5ced83bac9060",
+        "sentence_text": "Memory CD4+ T cell\u2013induced IICs and viral control require cognate antigen recognition and are optimal when memory cells are either T helper type 1 (TH1) or TH17 polarized but are independent of interferon-\u03b3 (IFN-\u03b3) and tumor necrosis factor-\u03b1 (TNF-\u03b1) production and do not require activation of conserved pathogen recognition pathways.",
+        "sentence_token_cost": 84,
+        "source_order": [
+          2898,
+          0,
+          4,
+          0
+        ],
+        "source_position": 556
+      },
+      {
+        "cross_encoder_score": -3.362271308898926,
+        "dataset": "SciFact",
+        "end_char": 1054,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "b7269d70af7419bd2916daa87fd5da2e",
+        "passage_rank": 3,
+        "query_id": "1202",
+        "sentence_id": "fbd21dde70ecf37f5588a006f9b41dea",
+        "sentence_text": "This represents a previously undescribed mechanism by which memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          2898,
+          0,
+          5,
+          0
+        ],
+        "source_position": 892
+      },
+      {
+        "cross_encoder_score": -9.342713356018066,
+        "dataset": "SciFact",
+        "end_char": 99,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "2ab4edba08a05e4dd55b8084231de8c7",
+        "passage_rank": 8,
+        "query_id": "1202",
+        "sentence_id": "67cb78b28342dfe265107ca6fe8f3792",
+        "sentence_text": "TLR activation triggers the rapid differentiation of monocytes into macrophages and dendritic cells",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3199,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.639737129211426,
+        "dataset": "SciFact",
+        "end_char": 313,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "2ab4edba08a05e4dd55b8084231de8c7",
+        "passage_rank": 8,
+        "query_id": "1202",
+        "sentence_id": "6846aa5537b0facde88ec7035da93af8",
+        "sentence_text": "Leprosy enables investigation of mechanisms by which the innate immune system contributes to host defense against infection, because in one form, the disease progresses, and in the other, the infection is limited.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          3199,
+          0,
+          1,
+          0
+        ],
+        "source_position": 100
+      },
+      {
+        "cross_encoder_score": -8.514786720275879,
+        "dataset": "SciFact",
+        "end_char": 503,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "2ab4edba08a05e4dd55b8084231de8c7",
+        "passage_rank": 8,
+        "query_id": "1202",
+        "sentence_id": "9803c6384590aabf0d6539de697572f9",
+        "sentence_text": "We report that Toll-like receptor (TLR) activation of human monocytes induces rapid differentiation into two distinct subsets: DC-SIGN+ CD16+ macrophages and CD1b+ DC-SIGN\u2212 dendritic cells.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          3199,
+          0,
+          2,
+          0
+        ],
+        "source_position": 314
+      },
+      {
+        "cross_encoder_score": -10.982397079467773,
+        "dataset": "SciFact",
+        "end_char": 621,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "2ab4edba08a05e4dd55b8084231de8c7",
+        "passage_rank": 8,
+        "query_id": "1202",
+        "sentence_id": "065995d416307d4c081c493d29d9af6d",
+        "sentence_text": "DC-SIGN+ phagocytic macrophages were expanded by TLR-mediated upregulation of interleukin (IL)-15 and IL-15 receptor.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          3199,
+          0,
+          3,
+          0
+        ],
+        "source_position": 504
+      },
+      {
+        "cross_encoder_score": -2.971078634262085,
+        "dataset": "SciFact",
+        "end_char": 832,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "2ab4edba08a05e4dd55b8084231de8c7",
+        "passage_rank": 8,
+        "query_id": "1202",
+        "sentence_id": "56d510849d6ca6eca9f574bf7f3b7b5b",
+        "sentence_text": "CD1b+ dendritic cells were expanded by TLR-mediated upregulation of granulocyte-macrophage colony-stimulating factor (GM-CSF) and its receptor, promoted T cell activation and secreted proinflammatory cytokines.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          3199,
+          0,
+          4,
+          0
+        ],
+        "source_position": 622
+      },
+      {
+        "cross_encoder_score": -10.230494499206543,
+        "dataset": "SciFact",
+        "end_char": 1188,
+        "pair_tokens_before_truncation": 103,
+        "pair_truncated": false,
+        "passage_id": "2ab4edba08a05e4dd55b8084231de8c7",
+        "passage_rank": 8,
+        "query_id": "1202",
+        "sentence_id": "7d6cad89423bdf0142b7baaeafe59727",
+        "sentence_text": "Whereas DC-SIGN+ macrophages were detected in lesions and after TLR activation in all leprosy patients, CD1b+ dendritic cells were not detected in lesions or after TLR activation of peripheral monocytes in individuals with the progressive lepromatous form, except during reversal reactions in which bacilli were cleared by T helper type 1 (TH1) responses.",
+        "sentence_token_cost": 79,
+        "source_order": [
+          3199,
+          0,
+          5,
+          0
+        ],
+        "source_position": 833
+      },
+      {
+        "cross_encoder_score": -8.933095932006836,
+        "dataset": "SciFact",
+        "end_char": 1318,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "2ab4edba08a05e4dd55b8084231de8c7",
+        "passage_rank": 8,
+        "query_id": "1202",
+        "sentence_id": "ebc4f6b688e40a91bf18f5c2c71fec40",
+        "sentence_text": "In tuberculoid lepromatous lesions, DC-SIGN+ cells were positive for macrophage markers, but negative for dendritic cell markers.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          3199,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1189
+      },
+      {
+        "cross_encoder_score": -8.837886810302734,
+        "dataset": "SciFact",
+        "end_char": 1490,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "2ab4edba08a05e4dd55b8084231de8c7",
+        "passage_rank": 8,
+        "query_id": "1202",
+        "sentence_id": "d4606fe899769814aba3a6064f0b5914",
+        "sentence_text": "Thus, TLR-induced differentiation of monocytes into either macrophages or dendritic cells seems to crucially influence effective host defenses in human infectious disease.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          3199,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1319
+      },
+      {
+        "cross_encoder_score": -7.7940192222595215,
+        "dataset": "SciFact",
+        "end_char": 57,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "59b4da11c7cb6eb0089b694b681badb8",
+        "passage_rank": 10,
+        "query_id": "1202",
+        "sentence_id": "868cb5ccba940ab6a127f040440f3eab",
+        "sentence_text": "Autoimmune T cell responses in the central nervous system",
+        "sentence_token_cost": 10,
+        "source_order": [
+          3349,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.451332092285156,
+        "dataset": "SciFact",
+        "end_char": 176,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "59b4da11c7cb6eb0089b694b681badb8",
+        "passage_rank": 10,
+        "query_id": "1202",
+        "sentence_id": "2ca29cbd3eb871bbc57d1fd528493eea",
+        "sentence_text": "Autoreactive T cell responses have a crucial role in central nervous system (CNS) diseases such as multiple sclerosis.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3349,
+          0,
+          1,
+          0
+        ],
+        "source_position": 58
+      },
+      {
+        "cross_encoder_score": -9.703436851501465,
+        "dataset": "SciFact",
+        "end_char": 353,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "59b4da11c7cb6eb0089b694b681badb8",
+        "passage_rank": 10,
+        "query_id": "1202",
+        "sentence_id": "da3535b81ff9521f83b9d9679a3917ff",
+        "sentence_text": "Recent data indicate that CNS autoimmunity can be mediated by two distinct lineages of CD4+ T cells that are defined by the production of either interferon-\u03b3 or interleukin-17.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          3349,
+          0,
+          2,
+          0
+        ],
+        "source_position": 177
+      },
+      {
+        "cross_encoder_score": -8.894485473632812,
+        "dataset": "SciFact",
+        "end_char": 467,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "59b4da11c7cb6eb0089b694b681badb8",
+        "passage_rank": 10,
+        "query_id": "1202",
+        "sentence_id": "307b0632663730ddfa84f8cf9fd40d57",
+        "sentence_text": "The activity of these CD4+ T cell subsets within the CNS influences the pathology and clinical course of disease.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3349,
+          0,
+          3,
+          0
+        ],
+        "source_position": 354
+      },
+      {
+        "cross_encoder_score": -9.946075439453125,
+        "dataset": "SciFact",
+        "end_char": 559,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "59b4da11c7cb6eb0089b694b681badb8",
+        "passage_rank": 10,
+        "query_id": "1202",
+        "sentence_id": "62ebba07e06d3dde1cc9b485700599a7",
+        "sentence_text": "New animal models show that myelin-specific CD8+ T cells can also mediate CNS autoimmunity.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3349,
+          0,
+          4,
+          0
+        ],
+        "source_position": 468
+      },
+      {
+        "cross_encoder_score": -9.502330780029297,
+        "dataset": "SciFact",
+        "end_char": 725,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "59b4da11c7cb6eb0089b694b681badb8",
+        "passage_rank": 10,
+        "query_id": "1202",
+        "sentence_id": "0f6e9340bf2a352e0a39704647c293ac",
+        "sentence_text": "This Review focuses on recent progress in delineating the pathogenic mechanisms, regulation and interplay between these different T cell subsets in CNS autoimmunity.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          3349,
+          0,
+          5,
+          0
+        ],
+        "source_position": 560
+      },
+      {
+        "cross_encoder_score": -3.1222407817840576,
+        "dataset": "SciFact",
+        "end_char": 150,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "c9f79424a687cd3d49ec040412c1aa4a",
+        "passage_rank": 5,
+        "query_id": "1202",
+        "sentence_id": "1eb4cfcefb45a150ca2e3ea70e24aeac",
+        "sentence_text": "A systemic granulomatous response to Schistosoma mansoni eggs alters responsiveness of bone-marrow-derived macrophages to Toll-like receptor agonists.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          3636,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.019100666046143,
+        "dataset": "SciFact",
+        "end_char": 246,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "c9f79424a687cd3d49ec040412c1aa4a",
+        "passage_rank": 5,
+        "query_id": "1202",
+        "sentence_id": "9b7ae012e9d4d33659b8398f43325140",
+        "sentence_text": "Macrophages play a pivotal role in innate and acquired immune responses to Schistosoma mansoni.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          3636,
+          0,
+          1,
+          0
+        ],
+        "source_position": 151
+      },
+      {
+        "cross_encoder_score": -8.586163520812988,
+        "dataset": "SciFact",
+        "end_char": 423,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "c9f79424a687cd3d49ec040412c1aa4a",
+        "passage_rank": 5,
+        "query_id": "1202",
+        "sentence_id": "c4af93defab74ea9e739a281a5686522",
+        "sentence_text": "Classical (M1) or alternative (M2) activation states of these cells further delineate their roles in tissue damage through innate immunity or fibrotic remodeling, respectively.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          3636,
+          0,
+          2,
+          0
+        ],
+        "source_position": 247
+      },
+      {
+        "cross_encoder_score": -10.784360885620117,
+        "dataset": "SciFact",
+        "end_char": 598,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "c9f79424a687cd3d49ec040412c1aa4a",
+        "passage_rank": 5,
+        "query_id": "1202",
+        "sentence_id": "478c66d730541616eaf011d34e71a1ab",
+        "sentence_text": "In the present study, we addressed the following question: Does systemic Th2-type cytokine polarization evoked by S. mansoni affect macrophage differentiation and activation?",
+        "sentence_token_cost": 34,
+        "source_order": [
+          3636,
+          0,
+          3,
+          0
+        ],
+        "source_position": 424
+      },
+      {
+        "cross_encoder_score": -5.931605815887451,
+        "dataset": "SciFact",
+        "end_char": 863,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "c9f79424a687cd3d49ec040412c1aa4a",
+        "passage_rank": 5,
+        "query_id": "1202",
+        "sentence_id": "43482f855c302a8343a8af3ed13b7caf",
+        "sentence_text": "To this end, we analyzed bone marrow-derived macrophages from mice with S. mansoni egg-induced pulmonary granulomas and unchallenged (or na\u00efve) mice to determine their activation state and their response to specific TLR agonists, including S. mansoni egg antigens.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          3636,
+          0,
+          4,
+          0
+        ],
+        "source_position": 599
+      },
+      {
+        "cross_encoder_score": -10.442201614379883,
+        "dataset": "SciFact",
+        "end_char": 1118,
+        "pair_tokens_before_truncation": 97,
+        "pair_truncated": false,
+        "passage_id": "c9f79424a687cd3d49ec040412c1aa4a",
+        "passage_rank": 5,
+        "query_id": "1202",
+        "sentence_id": "73d4db4e5c646233b8692f838e051368",
+        "sentence_text": "Unlike na\u00efve macrophages, macrophages from Th2-polarized mice constitutively expressed significantly higher \"found in inflammatory zone-1\" (FIZZ1) and ST2 (M2 markers) and significantly lower NO synthase 2, CCL3, MIP-2, TNF-alpha, and IL-12 (M1 markers).",
+        "sentence_token_cost": 77,
+        "source_order": [
+          3636,
+          0,
+          5,
+          0
+        ],
+        "source_position": 864
+      },
+      {
+        "cross_encoder_score": -9.481955528259277,
+        "dataset": "SciFact",
+        "end_char": 1374,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "c9f79424a687cd3d49ec040412c1aa4a",
+        "passage_rank": 5,
+        "query_id": "1202",
+        "sentence_id": "dbf7591abb21f2e6853fe42d96cf197e",
+        "sentence_text": "Also, compared with na\u00efve macrophages, Th2-polarized macrophages exhibited enhanced responses to the presence of specific TLR agonists, which consistently induced significantly higher levels of gene and protein levels for M2 and M1 markers in these cells.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          3636,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1119
+      },
+      {
+        "cross_encoder_score": -0.22981171309947968,
+        "dataset": "SciFact",
+        "end_char": 1686,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "c9f79424a687cd3d49ec040412c1aa4a",
+        "passage_rank": 5,
+        "query_id": "1202",
+        "sentence_id": "9fc6950d480510fb28f891c753354233",
+        "sentence_text": "Together, these data show that signals received by bone marrow precursors during S. mansoni egg-induced granuloma responses dynamically alter the development of macrophages and enhance the TLR responsiveness of these cells, which may ultimately have a significant effect on the pulmonary granulomatous response.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          3636,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1375
+      },
+      {
+        "cross_encoder_score": -0.14879027009010315,
+        "dataset": "SciFact",
+        "end_char": 127,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "1bc5724920a7889b857241a7ef307cb6",
+        "passage_rank": 2,
+        "query_id": "1202",
+        "sentence_id": "07c1f22feba9c5a252fe98c831056361",
+        "sentence_text": "Human tuberculous granulomas induce peripheral lymphoid follicle-like structures to orchestrate local host defence in the lung.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          4413,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.744532346725464,
+        "dataset": "SciFact",
+        "end_char": 259,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "1bc5724920a7889b857241a7ef307cb6",
+        "passage_rank": 2,
+        "query_id": "1202",
+        "sentence_id": "f7bc1b949c2465ff643478c3b46a7179",
+        "sentence_text": "The human tuberculous granuloma provides the morphological basis for local immune processes central to the outcome of tuberculosis.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          4413,
+          0,
+          1,
+          0
+        ],
+        "source_position": 128
+      },
+      {
+        "cross_encoder_score": -10.957991600036621,
+        "dataset": "SciFact",
+        "end_char": 436,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "1bc5724920a7889b857241a7ef307cb6",
+        "passage_rank": 2,
+        "query_id": "1202",
+        "sentence_id": "a2a07507c0f5aae6f3591cd6c333d605",
+        "sentence_text": "Because of the scarcity of information in human patients, the aim of the present study was to gain insights into the functional and structural properties of infiltrated tissue.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          4413,
+          0,
+          2,
+          0
+        ],
+        "source_position": 260
+      },
+      {
+        "cross_encoder_score": -9.376476287841797,
+        "dataset": "SciFact",
+        "end_char": 636,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "1bc5724920a7889b857241a7ef307cb6",
+        "passage_rank": 2,
+        "query_id": "1202",
+        "sentence_id": "3aa33c39214858741eda17e8c96be583",
+        "sentence_text": "To this end, the mycobacterial load in lesions and dissemination to different tissue locations were investigated, as well as distribution, biological functions, and interactions of host immune cells.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          4413,
+          0,
+          3,
+          0
+        ],
+        "source_position": 437
+      },
+      {
+        "cross_encoder_score": -4.189186096191406,
+        "dataset": "SciFact",
+        "end_char": 804,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "1bc5724920a7889b857241a7ef307cb6",
+        "passage_rank": 2,
+        "query_id": "1202",
+        "sentence_id": "38f86339eb360caa890c4d5d4e6c224b",
+        "sentence_text": "Analysis of early granuloma formation in formerly healthy lung tissue revealed a spatio-temporal sequence of cellular infiltration to sites of mycobacterial infection.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          4413,
+          0,
+          4,
+          0
+        ],
+        "source_position": 637
+      },
+      {
+        "cross_encoder_score": 0.6625992655754089,
+        "dataset": "SciFact",
+        "end_char": 1167,
+        "pair_tokens_before_truncation": 113,
+        "pair_truncated": false,
+        "passage_id": "1bc5724920a7889b857241a7ef307cb6",
+        "passage_rank": 2,
+        "query_id": "1202",
+        "sentence_id": "61f5de9b6751dc9fd459a1affa950805",
+        "sentence_text": "A general structure of the developing granuloma was identified, comprising an inner cell layer with few CD8(+) cells surrounding the necrotic centre and an outer area of lymphocyte infiltration harbouring mycobacteria-containing antigen-presenting cells as well as CD4(+), CD8(+), and B cells in active follicle-like centres resembling secondary lymphoid organs.",
+        "sentence_token_cost": 74,
+        "source_order": [
+          4413,
+          0,
+          5,
+          0
+        ],
+        "source_position": 805
+      },
+      {
+        "cross_encoder_score": -3.032949209213257,
+        "dataset": "SciFact",
+        "end_char": 1364,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "1bc5724920a7889b857241a7ef307cb6",
+        "passage_rank": 2,
+        "query_id": "1202",
+        "sentence_id": "ddcd4fbfee88cd0ab8c95186d5d26846",
+        "sentence_text": "It is concluded that the follicular structures in the peripheral rim of granulomas serve as a morphological substrate for the orchestration of the enduring host response in pulmonary tuberculosis.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          4413,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1168
+      }
+    ],
+    "scoring_seconds": 0.4238274130038917,
+    "source_fingerprint": "a8ee3a4d6f4e6a7477b6ae3d4a0808ad2957db841d6a5148728efa42a966f1e1"
+  }
+}

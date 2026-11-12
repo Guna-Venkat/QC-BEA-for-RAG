@@ -1,0 +1,82 @@
+{
+  "scope": "Active top-level demo, reviewed without modification",
+  "synthetic_only": true,
+  "real_model_loads": 0,
+  "research_results_written": 0,
+  "dense_scoring_reproduction": {
+    "cosine_returns": "list",
+    "lexical_calls_with_successful_fake_encoder": 1,
+    "lexical_inputs": [
+      [
+        "Alpha sensors recorded a signal.",
+        "The sampling interval was one second.",
+        "Beta sensors were selected for remote operation.",
+        "Their batteries lasted forty-eight hours.",
+        "The expedition lasted thirty-six hours.",
+        "Remote operation required a battery lasting at least that long.",
+        "The enclosures had different colors.",
+        "Color was a secondary requirement.",
+        "The report compared measurement intervals and battery duration."
+      ]
+    ],
+    "methods": {
+      "FIXED_SENTENCE": {
+        "error": null,
+        "evidence_tokens": 245,
+        "model_source": null
+      },
+      "QBGF": {
+        "error": null,
+        "evidence_tokens": 229,
+        "model_source": null
+      },
+      "BEA_V1": {
+        "error": null,
+        "evidence_tokens": 50,
+        "model_source": null
+      },
+      "BEA_V2": {
+        "error": null,
+        "evidence_tokens": 50,
+        "model_source": null
+      }
+    }
+  },
+  "predictor_feature_mismatches": [
+    {
+      "sentence": "a",
+      "feature": "passage_query_cosine",
+      "canonical": 0.4,
+      "live": 0.1
+    },
+    {
+      "sentence": "a",
+      "feature": "sentence_rank_within_parent",
+      "canonical": 2.0,
+      "live": 1.0
+    },
+    {
+      "sentence": "a",
+      "feature": "sentence_position_normalized",
+      "canonical": 0.0,
+      "live": 0.5
+    },
+    {
+      "sentence": "b",
+      "feature": "passage_query_cosine",
+      "canonical": 0.4,
+      "live": 0.8
+    },
+    {
+      "sentence": "b",
+      "feature": "sentence_rank_within_parent",
+      "canonical": 1.0,
+      "live": 2.0
+    }
+  ],
+  "suite": {
+    "passed": 160,
+    "failed": 8,
+    "command": "PYTHONDONTWRITEBYTECODE=1 demo/.venv/bin/python -m pytest demo/tests -q -p no:cacheprovider --disable-warnings --tb=short"
+  }
+}

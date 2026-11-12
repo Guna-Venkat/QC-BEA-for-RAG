@@ -1,0 +1,1576 @@
+{
+  "scope": "FINAL_PROJECT_MAIN only",
+  "architecture_changes": 0,
+  "research_source_byte_changes": 0,
+  "old_imports_preserved": true,
+  "moves": [
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/week0",
+      "new_path": "11_shared_infrastructure/runtime/src/dataset_diagnostics",
+      "purpose": "Dataset adapters, evidence utilization and layer diagnostics",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/week0",
+      "files_preserved": 6,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week0/__init__.py",
+          "sha256": "cfeb0f9545896cab7f4a0221ef66a525d9e99f029e0118f553647f00854a9455"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week0/dataset_adapter.py",
+          "sha256": "d8ad1f2ac45372b89d0f622ad588a5640554cb408fa5d678ce01564171b0560c"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week0/dataset_analyzer.py",
+          "sha256": "36c91417ed3e641ce21214f0ad78fa8d0e7f3e76f7d5cb0d307ccc899d082095"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week0/evidence_utilization.py",
+          "sha256": "276c49703ce6cd3cb9b290cb2e9a3434e125ded8245d44009d2d004b7d51da1f"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week0/layer_analyzer.py",
+          "sha256": "889426c257d6f46cd11fce4635302a483dde295d8336eef5692d5ff213ebf019"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week0/plotting.py",
+          "sha256": "567c47b951991a2cd6f2b432752ade6045930ceab61a8ffe81ae8a31673eb838"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/week2",
+      "new_path": "11_shared_infrastructure/runtime/src/context_budget_surfaces",
+      "purpose": "Fixed-context response sweeps and query feature extraction",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/week2",
+      "files_preserved": 6,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week2/__init__.py",
+          "sha256": "8cf1f6241df4f8e23e4636d3c401dc18da9683f6ff7f9303aea6353d97459e5d"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week2/feature_extractor.py",
+          "sha256": "01c00a038f0f4947ee9a7dfe835acc5bc6370932be6316b70f0188119bd43a77"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week2/generate_validation_checkpoint.py",
+          "sha256": "3cd841e8f92502181b2b8284c412962422c503222236004268a702028cab1585"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week2/metrics_aggregator.py",
+          "sha256": "0f59339a50375d10541bf6dbd825b0ab53210a5d4eb903e80be0bbfc22b2923e"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week2/precompute_dev_embeddings.py",
+          "sha256": "db4b62b1df89464faf4c2f27e2481d3127814f837ed3313f161b5e3c86e1375b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week2/sweep_runner.py",
+          "sha256": "7fe0ff169a7e7850a73010bdbc3cfc7ffe70acab4fe557aabd8a4f4ed38d55c1"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/week3",
+      "new_path": "11_shared_infrastructure/runtime/src/context_oracle_analysis",
+      "purpose": "Oracle ceilings, epsilon targets and context heterogeneity",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/week3",
+      "files_preserved": 8,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week3/__init__.py",
+          "sha256": "1b2b4c215a556d5bc14138a0c4b7ff27d1e001fc50c35e9b02bdc57fac437431"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week3/epsilon_analysis.py",
+          "sha256": "3403410fb33601cd902a4c8a6bbca7e3ce9ca45b700bccf53b882b145a413658"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week3/feature_signal_analysis.py",
+          "sha256": "57356085b1b0112ddf7198efcdf140928db4c56bb86531e89f464a6a14061039"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week3/generate_plots.py",
+          "sha256": "8a674fd71471545eeaaf97cf517fb22c4c470e6c096c79eb05ff14a6c2405108"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week3/generate_scientific_report.py",
+          "sha256": "aa401ea0b441b53ad7b905d00ab0c4e3c0de2cbe5d50bec8230aeab94aba6349"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week3/heterogeneity_analysis.py",
+          "sha256": "1c0136ca98551be72515201df16acc8614d794506d026c24360506bdd3ec2f08"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week3/human_audit.py",
+          "sha256": "2fd14dc9e10a921711b29aedd9cda3fe57b3ca80f653dcb6a13db081a89a8f79"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week3/oracle_analysis.py",
+          "sha256": "048f08745a1e22e6da6ec11182cf1261419cd24fdf9d22f94103bc4ff9abaceb"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/week4",
+      "new_path": "11_shared_infrastructure/runtime/src/query_context_allocation",
+      "purpose": "Query-conditioned context allocation models and feature ablations",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/week4",
+      "files_preserved": 27,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/__init__.py",
+          "sha256": "bc876da6c4629dcb871819ffc43bbd0f61b9d9d8005ac11ecef2fa3a8a8feae8"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/additional_analysis.py",
+          "sha256": "a2e20f4f6b86faa62447cdff4816204c588b44355a507c8e2e808283369a853d"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/cross_validation.py",
+          "sha256": "ac33ba2a61647977807e6dc7fc69f853bebfa663acd52418db6df0e4e9a8a7a5"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/evaluation.py",
+          "sha256": "4a5d475b654e82b0b6e6d6cd354358be7eb0e22fb3345e9e4db471b36a045da3"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/feature_ablation.py",
+          "sha256": "2bc70c905112fcc8d2d89c00080cc3b008b9118349d97c1971d0170b5f496404"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/feature_discovery.py",
+          "sha256": "e89391269b09b3f2e97fac25a63bf156b7dd247d3a28e4d3d8ffb6081bb4cafc"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/feature_validation.py",
+          "sha256": "fc7dd236a54b93a3508a30ecce3b5115374d0c01a92afd1d31b9a23639a88592"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/features.py",
+          "sha256": "a735cf98bf5e55d8ac789cda9a4eed2e14a0485cc4b9bec94d9b98405d417e4e"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/generate_feature_discovery_notebook.py",
+          "sha256": "850b6db87f9908a1ef49108d3f8ebd7b5fba1787106f3838a9ae92077288d8a8"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/generate_feature_validation_notebook.py",
+          "sha256": "66d9a116cd61d151359a5f23916d27892384f500851dc01143fbbfa8d529daf5"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/generate_model_benchmark_notebook.py",
+          "sha256": "10b0f8125b3f7eb28183f9ca767e129b9a44174f62d7514a04e971d42c79fc26"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/generate_qcca_v2_diagnostic_notebook.py",
+          "sha256": "0c91de307bd114fb01def7f07bf5ffa956d0f1597710e2b78789f786aeafd3f4"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/generate_qcca_v2_final_validation_notebook.py",
+          "sha256": "9b55f7eb85e1a9a881d2a74e0d0a18f500e3cb8b2521daa24f5150bc09bf1518"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/generate_qcca_v2_notebook.py",
+          "sha256": "8df45922d93e3dac0ac864d365cadd6450ab70254f7139dee4d1b356b634c055"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/model_benchmark.py",
+          "sha256": "5515406feef533a8e015957feb2dbbcef83ff4a2015a2f6e82e45e7f22dfe9ea"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/pareto.py",
+          "sha256": "8146ff736cdcdfa9c53c9ba4a4f628c3422ee45f502c3cc4900f8d24adb974b4"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/precompute_query_embeddings.py",
+          "sha256": "fd2b83c009ec2da4e96153a01f81136799ce53d9ec80a4802359e36b13d488ee"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/qcca_models.py",
+          "sha256": "d1267bb335ab12afb6844fa9661198ab1b9e98069821cd4c2ff3eeba895d220e"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/qcca_rule.py",
+          "sha256": "0eb020c6633fb0608a17323e4d9b8e08c4848756e6cd8e039eab53794744370e"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/qcca_v2.py",
+          "sha256": "6c7bfc7f64c4dedb8919aaca658a5bff817b3fe774aeeebf20f183910132684f"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/qcca_v2_diagnostic.py",
+          "sha256": "9736988f5caa552abfcf3039d0a2bc45ad9a830a60cbcc9c13e8eee0a166bac0"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/qcca_v2_final_validation.py",
+          "sha256": "db8a9e3598b77accd130f8c677a73d469adbfefd8bc37e127599ced33f7115e5"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/reporting.py",
+          "sha256": "2e804ea8a37936f1e56d1796424896ef732b9a630bb1a3c32146fd24fcf7cbed"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/run_benchmark.py",
+          "sha256": "b372327644de5935d7f49df27f860fd2f8eb3ca41cf46c0750068110ffacce4a"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/targets.py",
+          "sha256": "f70301632a3af07a1a916bf9d17f71bf4ccf889f410abd71b2b09ce840128440"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/train_qcca.py",
+          "sha256": "d3add08522808a8cdb5d83ec86e30153bfcb76178d3ef23e99d2a0d4da1812c2"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week4/update_notebook.py",
+          "sha256": "052555ad08a15792b368295d57a659001ce10a9357f81b3b9cf91a4cea0e5561"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/week5",
+      "new_path": "11_shared_infrastructure/runtime/src/content_aware_allocation",
+      "purpose": "Passage-transformer allocation and regret prediction",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/week5",
+      "files_preserved": 13,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week5/__init__.py",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week5/architecture.py",
+          "sha256": "e6b5a0047e17dc319e19f0b5e65d9a9c4079765d1f674f26dc3c3760221d4702"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week5/data.py",
+          "sha256": "4aaa8677f84adc41e05c430109881d9c7c716831f2bd7a82acfbec2db2c692c3"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week5/evaluation.py",
+          "sha256": "38dd6ff8e7f443b1c2a23f166f35746cffaaf2c92804b21e3561af0fc93266ea"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week5/experiments.py",
+          "sha256": "a3c1ff412527868b73bc2a384e335747441dc23c7a72ce239433b37cc5d2ddf5"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week5/models.py",
+          "sha256": "4ea8be2cf723ea8fd9655f587037abaae455c6606a2ff1841a4213130cccba25"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week5/supervision.py",
+          "sha256": "45a406da39e5417ac5b4c7979ca5ca8f499292abaf7ca19f294357e1dcb9db76"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week5/training.py",
+          "sha256": "37c49fa48a2537dc2d1e588c78d72a67c996844b0269aa582707408ca16bc537"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week5/w5c/__init__.py",
+          "sha256": "d771da2c874c1f0d3661a80d62c6a2bfc1cf9cb52e942964a3e5a88bafb57955"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week5/w5c/adaptation.py",
+          "sha256": "6bc0567a1c03b7b232b654a23fe451c6f520a1c6d37fcd16bde53298c8efea49"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week5/w5c/evaluation.py",
+          "sha256": "16593147383c3fb8520c0daff47347cf0e4c313a54e6003ceea6b0b988c524f3"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week5/w5c/representation_analysis.py",
+          "sha256": "6a9ff495c9840d6c587132321ee4a2f9d02f4d11dfc728236a3f5eeaae3a1a1d"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week5/w5c/training.py",
+          "sha256": "51558db8ebceef8224f18e933d91cc721f31f80f22fb6418e67fbfab5e1057bf"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/week6",
+      "new_path": "11_shared_infrastructure/runtime/src/passage_routing",
+      "purpose": "Semantic passage routing and learned passage importance",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/week6",
+      "files_preserved": 9,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week6/__init__.py",
+          "sha256": "37bde2def8235aad9a2bf246594c0dc62a42c47c13f55fd4423adb2b56f107f6"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week6/data.py",
+          "sha256": "f2deac2c722c00ad5f12be9af2ade86b7864ca6ddacca247f5197bea5f25c7c6"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week6/disagreement.py",
+          "sha256": "665e8a4d6f08db208895f1ab28fae0141d2ba74bb331a3101d096b95d4c7a56c"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week6/evaluation.py",
+          "sha256": "45e9636fa25d0595b1c331003ea56f625a86511ec21d36207d388c6f8a8fab16"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week6/hybrid_routing.py",
+          "sha256": "0a9bcf8e580589230346169e798ea402c2d380b55a5097cf333ff8eecdd21037"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week6/models.py",
+          "sha256": "ea2eb4ac1c581accf0ab225557928d73b532da1f0fa3fd246c1da5e0ee249790"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week6/oracle.py",
+          "sha256": "dacd3367aa57337768206288c11efd24d8c7f41f838b18dcc764b8f4da6e0603"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week6/routing.py",
+          "sha256": "7bf448621c9d49d0a0a43ddba5a716e81e656b0ba08efa715beabe77f1ac2b9d"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week6/training.py",
+          "sha256": "34d40570196c4678b09495d439e6d19202e6dac66186bce7cca760666bc42181"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/week7",
+      "new_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies",
+      "purpose": "Routing-aware budgets, continuation and fidelity policies",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/week7",
+      "files_preserved": 74,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/__init__.py",
+          "sha256": "83c8da4d25d94c912f3b287c6ea08ce8ab42fedeaa2241f2668f47e4d9bfb72e"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7a/__init__.py",
+          "sha256": "e907cbfb0549be6a80fea3df4ac9fa290fff632f7f6d9566c68713c69e07d168"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7a/bootstrap.py",
+          "sha256": "abd540ced4cd80dd74e3af2c17c0f000290b507cafdc0c9def6ae583626e32eb"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7a/data.py",
+          "sha256": "434c3cb6019cc6f78ea989819bc6c2749699cb0466465c07ecbe817612fc4326"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7a/evaluation.py",
+          "sha256": "9e7e4ba47e47bbb4e420f082f16d6c31cfaafb0acd8b41005b1c57e1f10d9ecd"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7a/routing.py",
+          "sha256": "ae7aa60ca16a52186cccf4a4fc3a20c704f57ad60715373e924673f34778514b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7b/__init__.py",
+          "sha256": "cbef1f63adfc1d9decc1b0f794a0abd6cf76143ceea5f4171008ea1ef769be5b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7b/bootstrap.py",
+          "sha256": "34136d5a245f302faedd2c3e0cdb89c09ceef488e105840fdf4ac71c6d23beff"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7b/data.py",
+          "sha256": "f4d05c21faed4d751e4af39016007ca1fe6a7ef9513678bf47eeafca023d16a7"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7b/evaluation.py",
+          "sha256": "d39bae91fb97c2b14bf63b5b6c132cab2cb5e03e8eaf46eaa98b834bb113542d"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7b/features.py",
+          "sha256": "7f99748c597023d0d8f103b68a3171ef44a962f6dcd7589935999de8536daf0b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7b/oracle.py",
+          "sha256": "c5f686b852c12c81826ca087f9c85c531efe8ba3a326476a834a59b5e05bb119"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7b/response_surface.py",
+          "sha256": "2a441ad637b289b291dfb675275a53d5795ea18a3a55554723ed71100bec5c9d"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7b/training.py",
+          "sha256": "ca659325351ae1c5d4d0572f1e4155df74cc3fbaa9a62839feeecf0952b6328d"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c/__init__.py",
+          "sha256": "1391ddd5665fe48f941e4f9c41a4627a089aa4ecb20b7e045bf6e955255da718"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c/data.py",
+          "sha256": "6ab909a1f506fdd7388aa2b66ec94b91f4b6336f11e8a592b433ba01a878d401"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c/evaluation.py",
+          "sha256": "d4b96dc7228fd34be1887799dab7bb84f2954dce40ea48f6972fa126d11d0841"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c/features_coverage.py",
+          "sha256": "ac7cc40815055600b065580483e01a2162b2f71e8a699a7113f10c3bf541395b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c/features_crossencoder.py",
+          "sha256": "3e9504ebbc78ecc309a5e264227fa99ce9f19da5c6536a18b8964adf0231d6fd"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c/features_query.py",
+          "sha256": "6e17b452ed41b6c9d1d2003bf606f9d2e2ccdc38b5c43c19ef990043193ad474"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c/features_retrieval.py",
+          "sha256": "42bedaa54ad4bd6454cece552e37f8921117e71dd8fa985813edc35a7249bc2c"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c/features_set.py",
+          "sha256": "5e69b929825cb65f6ff7dff815e6220e60f9f2fad5ca119568d7b4fcdae35f2a"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c/generator_probe.py",
+          "sha256": "770d90c5b828ba9900daf7eea14fe0a50e538e1745fb0d39c10054cfb7b5e210"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c/leakage.py",
+          "sha256": "ad937a3d17259b08aaf80ef7be57682c207a541fcb66a6027b63fe69f25a32ba"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c/models_mlp.py",
+          "sha256": "465c10fd8e46d8e8a8b9a0589e7f1b0f38ae92d0ca02c241c51414df1d063ecc"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c/models_set.py",
+          "sha256": "c93753d45a85e85a84b9375da17eb2e32d1e57df13f125b70f09d9bf786b94a7"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c/models_tree.py",
+          "sha256": "578ca2e0b55fbb9dc8480c568d4e8c26d4b8ab78494d4728b273f74a228dc6f0"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c/policy.py",
+          "sha256": "5031e3e248de1a563101d5c4a234c71f9d44c0ff04a33abc8c30571169b4f3c4"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c/training.py",
+          "sha256": "8674f2c682e75d73788568b12ddd60eee83eb17f020fc179ebe7c802bdd9fc23"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c2/__init__.py",
+          "sha256": "bb1df56303e20cb8f408545de593c7daeed25fa0a82357460590f83171449af4"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c2/continuation.py",
+          "sha256": "cc271c17ee8cfc16c2dd04301a1627feb2e6610b56a8eebc8321f954be7b2c57"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c2/data.py",
+          "sha256": "60e2a1120efcfa98dc594ef4a930f2ded1a5078d5bcac9913edef37f135ef2a5"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c2/diagnostics.py",
+          "sha256": "c1e500b7a2bbea19e4f74e216e73c7084c70a1d1059eb72b84cd792391cd410d"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c2/evaluation.py",
+          "sha256": "9d88e0841ff51bf7eb67594ecf7405c6e9f227ae5492dc9573579f7b2e0bbfae"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c2/importance.py",
+          "sha256": "384c5316a2eeb228742dfdb9dd8039fab860db307a6df45e192a90ef716defb2"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c2/policy.py",
+          "sha256": "f66bded8a2ecb9ac58c1b3b723a1e561f68b8041653f6d08c5f9c6b6ff64e248"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c2/ranking.py",
+          "sha256": "24bd18169a192122f8e213d82ef1446be3bb2e09a9777fa8eed919608b66a5e2"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c2/regression.py",
+          "sha256": "60fd4d87ca572a1eb573d74ef8d5b204d71b6f1c302725d8c31374348af5f098"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c2/targets.py",
+          "sha256": "f5821ba9f79ec46a6dca81f2c7f8eed163d0891f0469185487c9aa6dd290648c"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c3/__init__.py",
+          "sha256": "e5f1aa4db841246313ecc3f2557eface6f0a3240ec49b13f5c7da017a4e0b46c"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c3/data.py",
+          "sha256": "e5bbb67fbc73555868fa865924200aab62d4d341509b790f484686bfb3faab77"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c3/delta_models.py",
+          "sha256": "33e7e17c5fba87ce1e374fead7f86bda7950dc7b1bcfd2ae019971f69d32dce2"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c3/diagnostics.py",
+          "sha256": "d5cb8faa1e29bf0faeb555a4160778892fca5c7ddfe45764180412f16ab26b7b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c3/downshift.py",
+          "sha256": "5b9b5bac44904b188f9e61990514e11cee2dcf1ec851cd1d993eccd3b7a74698"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c3/evaluation.py",
+          "sha256": "e2aa1d05d7815db2017b060ceba058e1cff05bb9557516f3b1e8cc83a7e9b9a2"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c3/oof.py",
+          "sha256": "2179abe8df65539112443d8e11c23ff616735a1f0c254744808502a55b78ed82"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c3/policy.py",
+          "sha256": "ea32b8d98be119b7b5a97b992be5e662dce275b7e95328d0ef3ea335228afac3"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c3/targets.py",
+          "sha256": "88692507be2d39dcd0afaedd2692af6cf9eca5d9db2dabf4434da29713c21780"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7c3/upshift.py",
+          "sha256": "9ee56df740959d4ee10127d87f9d53c94b76316caa26c23bbf8ec17f8b9c2c93"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7d/__init__.py",
+          "sha256": "e16335701add573a3e1f42122265b13dae8a517aeacf56f03be0e1cc4bb31484"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7d/bootstrap.py",
+          "sha256": "28496d9f7197126cb0d14bae0de51a809299b51378c2f876fa18efed907ded58"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7d/cross_encoder.py",
+          "sha256": "b508597721c5d20d38999f236b2578b08d4ac7b2ad8c22ca0c353fc3239abbf1"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7d/cross_encoder_features.py",
+          "sha256": "ad5731bee6c29afde5e932f4ad42f0d287c4b13e4f2da0fcf34de53fb28f0c63"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7d/data.py",
+          "sha256": "78c25b6b9d76b8f53c89df44d02abe956efaabb2d4fe3b36a014dcfd7a33aaff"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7d/evaluation.py",
+          "sha256": "4c50452afd76ca1cb05f90918462b936b192358914760cdf1aa39883e570f994"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7d/hierarchical_model.py",
+          "sha256": "0c86eb54f280f8de745b38d2d6f2ce6e0c49af2ee28e1cefefbb694218374eb9"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7d/listwise_llm.py",
+          "sha256": "efce55d16ed282cc8466e0a6ae503ebe631155ba4a74dd3d99486ab80ea401f3"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7d/lora_utils.py",
+          "sha256": "c23b43c2932124a7763f7080e9a4d446d81c1774ed1a874c35b6bf409215d5b0"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7d/multitask_heads.py",
+          "sha256": "76e94f354f000871843716a9a380c292dcfb894ff81232ff6d59f08465beb6bd"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7d/policy.py",
+          "sha256": "7954dd5f60bec3ce6916ee19ab47c233d808973af9e1ad072df1690d0bef6ebb"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7d/set_aggregator.py",
+          "sha256": "6ed5cc26e8ef3058288626dcde999b3e25fb7f8f071c189323c9e816cfc625a1"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7d/targets.py",
+          "sha256": "fe7825e23b8e16c18e7d98f6949168cbc7b4b1b0cc5573ecd6a9bf3a85f29ce6"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7d/training.py",
+          "sha256": "162bec51362f2d1524e75bdd45b4f5106a3cb8ec9bee253a1d2d715b0251aed3"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7e/__init__.py",
+          "sha256": "671598a546bc7f7cc29e50023f55a19580c4aa061e4c36197828d34d8166904a"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7e/analysis.py",
+          "sha256": "ba79fea6ba55db9821ab2115fd99ead8c08a8ece60e6c816a2697a8e350dc8d3"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7e/evaluation.py",
+          "sha256": "e1f2e272aec8dfb1dbe18afb2c3728a3cdccbbcf64455a5702204369e7ca4364"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7e/fidelity_allocator.py",
+          "sha256": "100902cbc2862065e3e0aa82301dfc1398dafdd709e38b563d75b2a6d35e22d9"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7e/generation.py",
+          "sha256": "f894ebe4f92c54a92b6f68ec3b58d506697561d56558577020f1bc1ad5de2cfb"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7e/m2_multi_vector.py",
+          "sha256": "b2c87c45144defd525e19b9f6d2af0112451d19cab49b4935908db780ac523d3"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7e/medium_compressor.py",
+          "sha256": "8665998e0afed76f0e11be39a72a781f67c520d740855d349b4351e6cd7863b7"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7e/prompt_builder.py",
+          "sha256": "c0477b051721663efacf7a9c7e3f5c9ed694f4b9d957d288160c7ec3c58c2283"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7e/sentence_scorer.py",
+          "sha256": "acecef39ca09783bb0da486bbdfce3788444c35ac555c9db2c72120aa477adc0"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7e/sentence_splitter.py",
+          "sha256": "afc85e8b8cedb044872c69a0483cc53dfdabdcf93fe876993b97ff6c508e7c7d"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week7/w7e/token_accounting.py",
+          "sha256": "0db9f95fe2aa46eebb27a0bb2eff1a275f2f2de55b4d2e412d87358f06af0a89"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/week9",
+      "new_path": "11_shared_infrastructure/runtime/src/evidence_representation",
+      "purpose": "Retrieval, sentence suppression and frozen execution support",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/week9",
+      "files_preserved": 9,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week9/__init__.py",
+          "sha256": "8ada5b08d8bea282bd03ebad194dd8cc16c9e15203e782a71e0341569fca4c60"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week9/backend.py",
+          "sha256": "02903e6ff27ceef0da809b76daa26f781a813fa9ba513e60964696c36b620e30"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week9/evaluation.py",
+          "sha256": "609018a7671ac987fa0cddc76f67e5dc59adb218aac5a6deab4a81fbe0930633"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week9/final_h05/__init__.py",
+          "sha256": "32bd97f3d50328b55f9cf65e7f618131fe5817bf5db634b10b817b2fe0fd0505"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week9/final_h05/historical_backend.py",
+          "sha256": "8541e4ccebf64c1290ad19883085265e0911ddd9db9cf339ee7a2969411ee6e4"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week9/final_h05/literal.py",
+          "sha256": "1be65e3d43d950e86081e18357c2d0bb86ee15077709f3b6604a1fa7a52de234"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week9/retrieval.py",
+          "sha256": "d92f0322ca09240b83d1ed982acadbbcb7d9758abd562db309f2d51071a53fb6"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week9/senttopk_e3/__init__.py",
+          "sha256": "0df30f2f685d75edd396a960762cd8b30f7b62939a03ebdf9fcbf1b784f599ef"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week9/senttopk_e3/sentences.py",
+          "sha256": "9ff672d6ee70a51d9bcd274dd5a550590fcb1e61ca5750c866b1fb9b917636e1"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/week10",
+      "new_path": "11_shared_infrastructure/runtime/src/reader_diagnostics",
+      "purpose": "Reader and evidence-utilization root-cause diagnostics",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/week10",
+      "files_preserved": 13,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week10/__init__.py",
+          "sha256": "a0c6c308837c55019ee0a282fb8b94f0adb3e01efd889c8083c2aa466489e182"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week10/root_cause/__init__.py",
+          "sha256": "e44f11798a11c71819ddb673986e6f426d5acabb4d6c4026eb5e8ed7012fb11e"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week10/root_cause/analysis.py",
+          "sha256": "533dcb8c5200b159155136a407d274bccdb5cbcaa8289ab870ca6b7cd1f24878"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week10/root_cause/data.py",
+          "sha256": "14ff0829cf29fc8f59869c5c9467bd8fab74df43c09f20db9c6421a07b61ac84"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week10/root_cause/dataset_audit.py",
+          "sha256": "d6f1aba9f41d5098d1fde8aed3bb8f7d6e8ede94d8e4b78b8be9f6b9d3bbb0c2"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week10/root_cause/encoding.py",
+          "sha256": "c73be6e8ec0adf3eb34e3b3272e0e2a14538793ae6be4c4b1c83b9ff83b6c42f"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week10/root_cause/preflight.py",
+          "sha256": "0404b7d21da063fc8dfb0eac838090d3b447cf818f80647ef02eb2849f6e6361"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week10/root_cause/protocol.py",
+          "sha256": "489f72b7fb2ec85c0c2daaf05765f227acd20dc4d8f13aca5852d070987044b3"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week10/root_cause/report.py",
+          "sha256": "bb099b4663e8054828caa78ea880a8a104bfbae4e8246ed2e450dd6cc1b121ec"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week10/root_cause/runner.py",
+          "sha256": "ff7cdb09e62c405048224cd461822eddc2f3bd68637868c1e67d6bc9daa0702e"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week10/root_cause/runtime.py",
+          "sha256": "1abe4072138e145938ac72383a69415af090a68ca9191c0694cec8f657dd215b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week10/root_cause/smoke.py",
+          "sha256": "afd713f7d5eede569255c5c62bd6e871d63ea657a023f9113bedbca8362b51b6"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week10/root_cause/storage.py",
+          "sha256": "64eab844936371ba55dde8745ea70aa86b80d22cc338b681c48720d769a37a33"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/week11",
+      "new_path": "11_shared_infrastructure/runtime/src/granularity_study",
+      "purpose": "Matched retrieval, hierarchy, budgets, readers and granularity experiments",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/week11",
+      "files_preserved": 28,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/__init__.py",
+          "sha256": "56e82aa61e9858084ff35120ea50d73176a35b12b5eecd9eb5c55aad62401581"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/bootstrap.py",
+          "sha256": "0702336530e4130cbdb55b05ea44e09d82685b0c1b260693a6d902ac402065d1"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/budgets.py",
+          "sha256": "a35e65ea2a24706701824bd20df495a70c609865190be8b79fee396b2132163e"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/cache.py",
+          "sha256": "0fdbe0c0f449a18af0c984730259c77ea9e37b8896e8ccfbaa050613e594ccaa"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/catalog.py",
+          "sha256": "7b1da1a075753e51a1ee5687a1bff633843992559f79a77f4c2d331adf07ea71"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/compressors.py",
+          "sha256": "df24bf84d27c1a4a04eee29e3f2c9ef1185d04d789fb0498ef9e38f92ec53e70"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/dashboard.py",
+          "sha256": "08ce82b9a12466c206d117f08f0ca97e424768147fa1b9b3f4fe35fd3701249b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/datasets.py",
+          "sha256": "b63e6706c9ed7bdbab14d1c2466d6b618c84d95e4c5483b8d1aefa60c717f907"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/embeddings.py",
+          "sha256": "24210268a127b868b95ffa4add237bc2079022a425cf58ba0b5941f89e0138e2"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/evaluation.py",
+          "sha256": "2bc3db70ed428b6320e3b85dd219307bbcc4e192ee6815f5874f00f953d86e76"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/factorial.py",
+          "sha256": "f48ad5033ed29a3b980db1e8e2c08ea16edb515413dfbabe4c7874118f55f7e5"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/fixtures.py",
+          "sha256": "54ac51f1317b02867f383b0a6a5c9bc4c900e1b279840246dadade9237b9e0ea"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/generation.py",
+          "sha256": "dd2d65424d9a522523464288b0ac3c0a35a44d18fee3de60a9b3c2dd6801ffb3"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/hierarchical.py",
+          "sha256": "0bc5eb38603add7c73fcde710b302c0cb8e83e3fff6878480ed23e51269fa52f"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/hierarchy.py",
+          "sha256": "29332314a9e085f590860b4b3a55be38888f0623974f9540c7f1c545ed73d019"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/oracle.py",
+          "sha256": "2a18bb8eee183450573e91448bbd2ccc77ff42117e0e582d3de334aaa4b28e2f"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/planning.py",
+          "sha256": "f5281d82ad85eac3d75be09dbaf47efc8e265130821f995d4422bffc16cf5c9a"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/plotting.py",
+          "sha256": "8e7906be2079f588a93c7a9db61a580e1d832181d628ebec4b6e3f84541863c0"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/prompts.py",
+          "sha256": "2a3bdb16d524534ca1bc6b6b37e874555bb9e7317728300bbc1e292292cb764f"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/propositions.py",
+          "sha256": "678be5b1df40bd0c4da43da19bd32ebcdd067dff692afd65206b45745ac203b6"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/protocol.py",
+          "sha256": "3277e8daeed10c8efcdf8bd8d81657055e3538c9092889e719497533cc779407"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/provenance.py",
+          "sha256": "fa83949c4ef23ff9b92b82b7b6f1dd1115b9671e2bfb80be62a4b4f272320fb2"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/qasper_adapter.py",
+          "sha256": "49349552f80c6b3d139bf14b8390b02f0f6d3095d6a7f213cd1507ee57f7a19d"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/readers.py",
+          "sha256": "b52b3928caa306f09acf0b8083f53bdd7e62b6c76f8952b7efe005e8b03d9f57"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/reporting.py",
+          "sha256": "f49c4653dc69697740178b013555fe2afd62823472f0269740f3b80add3a7cd8"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/retrievers.py",
+          "sha256": "1962a2830e167532c8fd329a13c5ce4ebba90755256df708a1d54f2dd8bd1dc5"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/runner.py",
+          "sha256": "5c93c15677fe047bccb1b2227f2d2630d6dcb615695db74b247d5974c508329b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week11/selectors.py",
+          "sha256": "f5f9f6f6ee567363a04f8e1275c83229eed0445fa41cac22fe5c974c44d29c40"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/week12",
+      "new_path": "11_shared_infrastructure/runtime/src/budgeted_evidence_fusion",
+      "purpose": "QBGF, exact packing, controlled evaluation and frozen protocol",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/week12",
+      "files_preserved": 18,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/__init__.py",
+          "sha256": "0fc062b5da0ef2f677fb4158824d65b6040b464886a43874df318e61e1cc870b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/algorithm.py",
+          "sha256": "433222886e997116cea673df24d32e2a3f81210663cfabcb5b689720f5bb5132"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/analysis.py",
+          "sha256": "3476d96b5c73cbd7a52dcd4bbf7bf4d8455cdbe0f06a2a1caa966742640e2265"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/canonical.py",
+          "sha256": "cab59065f864376d3e5f6b71dbb6d8d0f0252ac1c478d5c8755390e03e52d341"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/compression_runtime.py",
+          "sha256": "c602493a54760b97cc4817e0c1f9af2b9beeb44e67459caf31ce43301c0d90db"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/confirmation.py",
+          "sha256": "6b06f0b832d5ca2ceb2ecb6aa45fa51fae75f82cff3c843dd5e0c1e9ade345ea"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/data.py",
+          "sha256": "d05f249f7250fb08c783aeb40bf91132565a0dd066fbf73af273dd24d574511e"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/execution.py",
+          "sha256": "d7e8b3a78a30b84f306111f1198d238a986bcd4c7beee4eaa1fb322b608875d9"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/laboratory.py",
+          "sha256": "ed4d4c9d696e7a045891a80641aed1922e7d8eaa53374f0d0e59c615b989c604"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/lora.py",
+          "sha256": "5142e201e814b9d0059b986a639f38345a90abbf012e681027fe2b4819726d77"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/protocol.py",
+          "sha256": "bdcff5c7de6804fa80181a8987f1acee0f48ebcd6b622b5a6da200ed8bee98ed"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/qualification.py",
+          "sha256": "06cb62c15cd8c96ca44c85dd919eeeabd1948e4d8aa7971b54e8192cdc504359"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/reader.py",
+          "sha256": "ade75ad9d2630c135ef6e12866a4d104fba54adfc947479f7dcf7c89f544b94c"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/runner.py",
+          "sha256": "1b2d4dea274a8a245acf67887f25c222987894b7c40446f50da057b4af19ebd1"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/scheduling.py",
+          "sha256": "3da0370c5a1a237c1ba5a3feb082ec6fa72814b17ac4051ae94944131fc3e82b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/splits.py",
+          "sha256": "4f101d1328350d60b00aa53b3f3474e9ea9e743d550de8be71ff3eb32f6cb8c0"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/statistics.py",
+          "sha256": "bef18b170f53d9000369632de42765026fc3f0d3315423d0153f0d45dec2af57"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12/training_v2.py",
+          "sha256": "5cb933ce1b1cfd905b9da00ad42c6e9ecd14e925740cfa2e35bd6c8bdce5d830"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/week12_extension",
+      "new_path": "11_shared_infrastructure/runtime/src/baseline_comparisons",
+      "purpose": "Matched passage baselines and specialist SARA comparisons",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/week12_extension",
+      "files_preserved": 3,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12_extension/__init__.py",
+          "sha256": "56be4da2038f1edba17129d3160d61411158f38490283c8dcf825c1e3c276506"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12_extension/baselines.py",
+          "sha256": "64c17f44407549f1f0f96873df135bc26474dd838d14f57df093bf09d02d2738"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12_extension/specialists.py",
+          "sha256": "2b0e075c7e4db4045d6ecee260fedc10e71965c7066d9b7b12cae3ca219cdce6"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/week12_attribution",
+      "new_path": "11_shared_infrastructure/runtime/src/evidence_attribution",
+      "purpose": "No-refill evidence deletion and downstream-utility analysis",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/week12_attribution",
+      "files_preserved": 5,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12_attribution/__init__.py",
+          "sha256": "421438236e4e56ae49952e92d61b1c054be792a5cfb2c778038bb2d1879979da"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12_attribution/analysis.py",
+          "sha256": "7d117c016711659e65ed6b935305e02fbef08c1fc10007b47554bc227f79713a"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12_attribution/experiment.py",
+          "sha256": "8feda9ea0af7a15c0f1c442922a323314481422866ddfcbb807495e25cc4de77"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12_attribution/protocol.py",
+          "sha256": "e8032cf90a1743ce80e2b17abeb3d61ea8dab90c73f17c346553cca5ccb71804"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12_attribution/synthetic.py",
+          "sha256": "adfbd7b7386efc5016f1e2d7873316f27882733751b4918cb57fee9e090bd75d"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/week12_confirmation",
+      "new_path": "11_shared_infrastructure/runtime/src/frozen_confirmation",
+      "purpose": "Frozen final-method guards, execution and confirmation reporting",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/week12_confirmation",
+      "files_preserved": 7,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12_confirmation/__init__.py",
+          "sha256": "598db380be6734eee83f3f0bcd0deb527ce1d144b02b6a827be07d6589d4d973"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12_confirmation/cohort_loader.py",
+          "sha256": "1a5ac6c0f484e438c3a4d1ba4b6d6177c0cc3a3a9b3d1893509bad0c42e6ad92"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12_confirmation/confirmation_analysis.py",
+          "sha256": "57f56c7354c44a392e79c8c45b2b8edcb2d5ba14e5160cccaa01acd03fb9a21e"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12_confirmation/confirmation_report.py",
+          "sha256": "235c23a7bd83ba1629b3dbaee9043ee20def254d3f7f840748a19df9e1c3d27e"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12_confirmation/confirmation_runner.py",
+          "sha256": "0bdf8293564481c4a3a0c8e25f34530db45b58845929ca3001fe5754681c0418"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12_confirmation/freeze_guard.py",
+          "sha256": "8d1ed0bbd6f476f562909c4e4ed1fe27988d40d6f84a7f3c595252173cacac21"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12_confirmation/synthetic.py",
+          "sha256": "03db988866a7674cc87b106c6b0e7e5241b0cad706a8f9a1326b5bf6118e1c2d"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/week12_final_review.py",
+      "new_path": "11_shared_infrastructure/runtime/src/final_method_review.py",
+      "purpose": "Final selection and method-review checks",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/week12_final_review.py",
+      "files_preserved": 1,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/week12_final_review.py",
+          "sha256": "ad1b8cee232f6c8fab52871de1ba127b6fc640dd1fc6a980d2bcd8b701ea12f3"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/post_w12",
+      "new_path": "11_shared_infrastructure/runtime/src/exploratory_allocation",
+      "purpose": "BEA-v1, learned-helpfulness BEA-v2 and qualitative case studies",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/post_w12",
+      "files_preserved": 27,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/__init__.py",
+          "sha256": "33c16c4ab0ec5b9aae085f4217d71020279dc37a218c10176b1c3b406169fd49"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_qbgf/__init__.py",
+          "sha256": "0c6cf0f6ad14b2eefc86981e58b60a6570437088a3ae6c1ad03d7682f737b438"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_qbgf/allocator.py",
+          "sha256": "1a4c31208276f88aa562b3ef632d66db4101870d0a7a6da0be0f8349619efd4b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_qbgf/analysis.py",
+          "sha256": "7ce0de39f862f0530e7fca4c520131ea3d368713c24ae72747572ea1bb2020dd"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_qbgf/attribution.py",
+          "sha256": "d0b0ddad523f8e13d9d2649091340d01a1964ca64f71430b41912dd9677650f9"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_qbgf/calibration.py",
+          "sha256": "ee8786cd3279d3b5e9bde8a844d41f48f2f101cd82c060831735f011f7c172a5"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_qbgf/protocol.py",
+          "sha256": "226c723cc2641718c03443c970d228f1b59ef31214479179768cda527d2ea4f1"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_qbgf/resources.py",
+          "sha256": "cea5e7829be991ae31778f22c80da81b4738042e6b0501f1da761b62bdc8abdf"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_qbgf/runner.py",
+          "sha256": "52b9268d1b985a90f105db3710a24f124e83603be5b15305383e245a6d3d31a2"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_v2/__init__.py",
+          "sha256": "4982bb68205ea711bd79900f759fdc02c0bb947f5af0fddb12ce5b80f2710915"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_v2/allocator.py",
+          "sha256": "061f05769b174658eb6cfb85b442110689ba5819c39ba950db3f37514dfe8dfe"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_v2/analysis.py",
+          "sha256": "d7f70ad34a0540edd428f973a0b5b80bb9335ca4c306da7383153c058bd12685"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_v2/baselines.py",
+          "sha256": "a6ff432823db76e8829d4f75f7a384367e16a92ab6ef6d4680fbdd03047f4e51"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_v2/data.py",
+          "sha256": "76be4efef794611b1b125f86eb9e9d0fd136bd65d42a27909c07a4e261876818"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_v2/models.py",
+          "sha256": "d075c33b31412ab4bde140a22b8488914cc4f612e9ecb336ef8ef3830363d75a"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_v2/protocol.py",
+          "sha256": "4b3a09caa943c8ca77038df5ca4038eb1fac3e7d4e83d636a0fffa8a95925560"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_v2/stages.py",
+          "sha256": "60a1c821b98d42bbdf49e98e1ea2a0facffd932e383689064f5d08da02bc6bf6"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_v2/unseen.py",
+          "sha256": "f5a356363cb87cba9a8edf1261a840f75969522a1a1494e6d99437a182e81609"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_v2_posthoc/__init__.py",
+          "sha256": "4cef2374d9011b4fd3137adb929167c1979db048d95d4db418ab5979b5b5f517"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_v2_posthoc/analysis.py",
+          "sha256": "d612861251885ec0d1e349a971b0c7fa54ec9631d9f0eda0ac521019256c477c"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_v2_posthoc/protocol.py",
+          "sha256": "c5fdf8d6ca58170d6d99d1a7baded8c2597b1808919b0397ffd1a092f865071b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/bea_v2_posthoc/runner.py",
+          "sha256": "b1da7f0db90bce07848671f3820fbcc32bc2d4ff17921022ae42cf381865a209"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/final_case_study/__init__.py",
+          "sha256": "d41fcb333655eafe00e1f17e2f34205a8c56a8a0fc76c6b96c92838bb9124db0"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/final_case_study/analysis.py",
+          "sha256": "ce6c824f7e9d0a8b08cb2a7cd64bbee32d943bd13deb163b619b59f6c173c44c"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/final_case_study/gold.py",
+          "sha256": "d97221923588a08b7563dc78f049f799d121c7053422270340eba5be5a420d6d"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/final_case_study/selection.py",
+          "sha256": "605659743d136bdf8dd43a3c790522bdf379236c572f4c85431b46da541ef0be"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/post_w12/reporting.py",
+          "sha256": "7ca45ba1b218462d8a0cf8050e2e4be035abe4b991651440d11bb04a75fea528"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7a",
+      "new_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/modular_routing",
+      "purpose": "Compose budget allocation with semantic routing",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7a",
+      "files_preserved": 5,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7a/__init__.py",
+          "sha256": "e907cbfb0549be6a80fea3df4ac9fa290fff632f7f6d9566c68713c69e07d168"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7a/bootstrap.py",
+          "sha256": "abd540ced4cd80dd74e3af2c17c0f000290b507cafdc0c9def6ae583626e32eb"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7a/data.py",
+          "sha256": "434c3cb6019cc6f78ea989819bc6c2749699cb0466465c07ecbe817612fc4326"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7a/evaluation.py",
+          "sha256": "9e7e4ba47e47bbb4e420f082f16d6c31cfaafb0acd8b41005b1c57e1f10d9ecd"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7a/routing.py",
+          "sha256": "ae7aa60ca16a52186cccf4a4fc3a20c704f57ad60715373e924673f34778514b"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7b",
+      "new_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/routing_budget_surfaces",
+      "purpose": "Routing-aware context response surfaces",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7b",
+      "files_preserved": 8,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7b/__init__.py",
+          "sha256": "cbef1f63adfc1d9decc1b0f794a0abd6cf76143ceea5f4171008ea1ef769be5b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7b/bootstrap.py",
+          "sha256": "34136d5a245f302faedd2c3e0cdb89c09ceef488e105840fdf4ac71c6d23beff"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7b/data.py",
+          "sha256": "f4d05c21faed4d751e4af39016007ca1fe6a7ef9513678bf47eeafca023d16a7"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7b/evaluation.py",
+          "sha256": "d39bae91fb97c2b14bf63b5b6c132cab2cb5e03e8eaf46eaa98b834bb113542d"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7b/features.py",
+          "sha256": "7f99748c597023d0d8f103b68a3171ef44a962f6dcd7589935999de8536daf0b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7b/oracle.py",
+          "sha256": "c5f686b852c12c81826ca087f9c85c531efe8ba3a326476a834a59b5e05bb119"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7b/response_surface.py",
+          "sha256": "2a441ad637b289b291dfb675275a53d5795ea18a3a55554723ed71100bec5c9d"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7b/training.py",
+          "sha256": "ca659325351ae1c5d4d0572f1e4155df74cc3fbaa9a62839feeecf0952b6328d"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c",
+      "new_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/semantic_sufficiency",
+      "purpose": "Retrieval-aware sufficiency prediction",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c",
+      "files_preserved": 15,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c/__init__.py",
+          "sha256": "1391ddd5665fe48f941e4f9c41a4627a089aa4ecb20b7e045bf6e955255da718"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c/data.py",
+          "sha256": "6ab909a1f506fdd7388aa2b66ec94b91f4b6336f11e8a592b433ba01a878d401"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c/evaluation.py",
+          "sha256": "d4b96dc7228fd34be1887799dab7bb84f2954dce40ea48f6972fa126d11d0841"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c/features_coverage.py",
+          "sha256": "ac7cc40815055600b065580483e01a2162b2f71e8a699a7113f10c3bf541395b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c/features_crossencoder.py",
+          "sha256": "3e9504ebbc78ecc309a5e264227fa99ce9f19da5c6536a18b8964adf0231d6fd"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c/features_query.py",
+          "sha256": "6e17b452ed41b6c9d1d2003bf606f9d2e2ccdc38b5c43c19ef990043193ad474"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c/features_retrieval.py",
+          "sha256": "42bedaa54ad4bd6454cece552e37f8921117e71dd8fa985813edc35a7249bc2c"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c/features_set.py",
+          "sha256": "5e69b929825cb65f6ff7dff815e6220e60f9f2fad5ca119568d7b4fcdae35f2a"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c/generator_probe.py",
+          "sha256": "770d90c5b828ba9900daf7eea14fe0a50e538e1745fb0d39c10054cfb7b5e210"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c/leakage.py",
+          "sha256": "ad937a3d17259b08aaf80ef7be57682c207a541fcb66a6027b63fe69f25a32ba"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c/models_mlp.py",
+          "sha256": "465c10fd8e46d8e8a8b9a0589e7f1b0f38ae92d0ca02c241c51414df1d063ecc"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c/models_set.py",
+          "sha256": "c93753d45a85e85a84b9375da17eb2e32d1e57df13f125b70f09d9bf786b94a7"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c/models_tree.py",
+          "sha256": "578ca2e0b55fbb9dc8480c568d4e8c26d4b8ab78494d4728b273f74a228dc6f0"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c/policy.py",
+          "sha256": "5031e3e248de1a563101d5c4a234c71f9d44c0ff04a33abc8c30571169b4f3c4"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c/training.py",
+          "sha256": "8674f2c682e75d73788568b12ddd60eee83eb17f020fc179ebe7c802bdd9fc23"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c2",
+      "new_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/utility_continuation",
+      "purpose": "Utility-aware ranking and continuation",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c2",
+      "files_preserved": 10,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c2/__init__.py",
+          "sha256": "bb1df56303e20cb8f408545de593c7daeed25fa0a82357460590f83171449af4"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c2/continuation.py",
+          "sha256": "cc271c17ee8cfc16c2dd04301a1627feb2e6610b56a8eebc8321f954be7b2c57"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c2/data.py",
+          "sha256": "60e2a1120efcfa98dc594ef4a930f2ded1a5078d5bcac9913edef37f135ef2a5"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c2/diagnostics.py",
+          "sha256": "c1e500b7a2bbea19e4f74e216e73c7084c70a1d1059eb72b84cd792391cd410d"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c2/evaluation.py",
+          "sha256": "9d88e0841ff51bf7eb67594ecf7405c6e9f227ae5492dc9573579f7b2e0bbfae"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c2/importance.py",
+          "sha256": "384c5316a2eeb228742dfdb9dd8039fab860db307a6df45e192a90ef716defb2"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c2/policy.py",
+          "sha256": "f66bded8a2ecb9ac58c1b3b723a1e561f68b8041653f6d08c5f9c6b6ff64e248"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c2/ranking.py",
+          "sha256": "24bd18169a192122f8e213d82ef1446be3bb2e09a9777fa8eed919608b66a5e2"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c2/regression.py",
+          "sha256": "60fd4d87ca572a1eb573d74ef8d5b204d71b6f1c302725d8c31374348af5f098"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c2/targets.py",
+          "sha256": "f5821ba9f79ec46a6dca81f2c7f8eed163d0891f0469185487c9aa6dd290648c"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c3",
+      "new_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/anchor_deviation",
+      "purpose": "Anchor-and-deviate budget policies",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c3",
+      "files_preserved": 10,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c3/__init__.py",
+          "sha256": "e5f1aa4db841246313ecc3f2557eface6f0a3240ec49b13f5c7da017a4e0b46c"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c3/data.py",
+          "sha256": "e5bbb67fbc73555868fa865924200aab62d4d341509b790f484686bfb3faab77"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c3/delta_models.py",
+          "sha256": "33e7e17c5fba87ce1e374fead7f86bda7950dc7b1bcfd2ae019971f69d32dce2"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c3/diagnostics.py",
+          "sha256": "d5cb8faa1e29bf0faeb555a4160778892fca5c7ddfe45764180412f16ab26b7b"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c3/downshift.py",
+          "sha256": "5b9b5bac44904b188f9e61990514e11cee2dcf1ec851cd1d993eccd3b7a74698"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c3/evaluation.py",
+          "sha256": "e2aa1d05d7815db2017b060ceba058e1cff05bb9557516f3b1e8cc83a7e9b9a2"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c3/oof.py",
+          "sha256": "2179abe8df65539112443d8e11c23ff616735a1f0c254744808502a55b78ed82"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c3/policy.py",
+          "sha256": "ea32b8d98be119b7b5a97b992be5e662dce275b7e95328d0ef3ea335228afac3"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c3/targets.py",
+          "sha256": "88692507be2d39dcd0afaedd2692af6cf9eca5d9db2dabf4434da29713c21780"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7c3/upshift.py",
+          "sha256": "9ee56df740959d4ee10127d87f9d53c94b76316caa26c23bbf8ec17f8b9c2c93"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7d",
+      "new_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/generator_aligned_routing",
+      "purpose": "Generator-aligned cross-encoder fidelity routing",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7d",
+      "files_preserved": 14,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7d/__init__.py",
+          "sha256": "e16335701add573a3e1f42122265b13dae8a517aeacf56f03be0e1cc4bb31484"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7d/bootstrap.py",
+          "sha256": "28496d9f7197126cb0d14bae0de51a809299b51378c2f876fa18efed907ded58"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7d/cross_encoder.py",
+          "sha256": "b508597721c5d20d38999f236b2578b08d4ac7b2ad8c22ca0c353fc3239abbf1"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7d/cross_encoder_features.py",
+          "sha256": "ad5731bee6c29afde5e932f4ad42f0d287c4b13e4f2da0fcf34de53fb28f0c63"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7d/data.py",
+          "sha256": "78c25b6b9d76b8f53c89df44d02abe956efaabb2d4fe3b36a014dcfd7a33aaff"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7d/evaluation.py",
+          "sha256": "4c50452afd76ca1cb05f90918462b936b192358914760cdf1aa39883e570f994"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7d/hierarchical_model.py",
+          "sha256": "0c86eb54f280f8de745b38d2d6f2ce6e0c49af2ee28e1cefefbb694218374eb9"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7d/listwise_llm.py",
+          "sha256": "efce55d16ed282cc8466e0a6ae503ebe631155ba4a74dd3d99486ab80ea401f3"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7d/lora_utils.py",
+          "sha256": "c23b43c2932124a7763f7080e9a4d446d81c1774ed1a874c35b6bf409215d5b0"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7d/multitask_heads.py",
+          "sha256": "76e94f354f000871843716a9a380c292dcfb894ff81232ff6d59f08465beb6bd"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7d/policy.py",
+          "sha256": "7954dd5f60bec3ce6916ee19ab47c233d808973af9e1ad072df1690d0bef6ebb"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7d/set_aggregator.py",
+          "sha256": "6ed5cc26e8ef3058288626dcde999b3e25fb7f8f071c189323c9e816cfc625a1"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7d/targets.py",
+          "sha256": "fe7825e23b8e16c18e7d98f6949168cbc7b4b1b0cc5573ecd6a9bf3a85f29ce6"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7d/training.py",
+          "sha256": "162bec51362f2d1524e75bdd45b4f5106a3cb8ec9bee253a1d2d715b0251aed3"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7e",
+      "new_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/multifidelity_representation",
+      "purpose": "Multi-fidelity source representation and allocation",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7e",
+      "files_preserved": 11,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7e/__init__.py",
+          "sha256": "671598a546bc7f7cc29e50023f55a19580c4aa061e4c36197828d34d8166904a"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7e/analysis.py",
+          "sha256": "ba79fea6ba55db9821ab2115fd99ead8c08a8ece60e6c816a2697a8e350dc8d3"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7e/evaluation.py",
+          "sha256": "e1f2e272aec8dfb1dbe18afb2c3728a3cdccbbcf64455a5702204369e7ca4364"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7e/fidelity_allocator.py",
+          "sha256": "100902cbc2862065e3e0aa82301dfc1398dafdd709e38b563d75b2a6d35e22d9"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7e/generation.py",
+          "sha256": "f894ebe4f92c54a92b6f68ec3b58d506697561d56558577020f1bc1ad5de2cfb"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7e/m2_multi_vector.py",
+          "sha256": "b2c87c45144defd525e19b9f6d2af0112451d19cab49b4935908db780ac523d3"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7e/medium_compressor.py",
+          "sha256": "8665998e0afed76f0e11be39a72a781f67c520d740855d349b4351e6cd7863b7"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7e/prompt_builder.py",
+          "sha256": "c0477b051721663efacf7a9c7e3f5c9ed694f4b9d957d288160c7ec3c58c2283"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7e/sentence_scorer.py",
+          "sha256": "acecef39ca09783bb0da486bbdfce3788444c35ac555c9db2c72120aa477adc0"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7e/sentence_splitter.py",
+          "sha256": "afc85e8b8cedb044872c69a0483cc53dfdabdcf93fe876993b97ff6c508e7c7d"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/adaptive_routing_policies/w7e/token_accounting.py",
+          "sha256": "0db9f95fe2aa46eebb27a0bb2eff1a275f2f2de55b4d2e412d87358f06af0a89"
+        }
+      ]
+    },
+    {
+      "old_path": "11_shared_infrastructure/runtime/src/content_aware_allocation/w5c",
+      "new_path": "11_shared_infrastructure/runtime/src/content_aware_allocation/representation_adaptation",
+      "purpose": "Representation adaptation and content-aware training diagnostics",
+      "compatibility_alias": "11_shared_infrastructure/runtime/src/content_aware_allocation/w5c",
+      "files_preserved": 5,
+      "content_hashes_unchanged": true,
+      "files": [
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/content_aware_allocation/w5c/__init__.py",
+          "sha256": "d771da2c874c1f0d3661a80d62c6a2bfc1cf9cb52e942964a3e5a88bafb57955"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/content_aware_allocation/w5c/adaptation.py",
+          "sha256": "6bc0567a1c03b7b232b654a23fe451c6f520a1c6d37fcd16bde53298c8efea49"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/content_aware_allocation/w5c/evaluation.py",
+          "sha256": "16593147383c3fb8520c0daff47347cf0e4c313a54e6003ceea6b0b988c524f3"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/content_aware_allocation/w5c/representation_analysis.py",
+          "sha256": "6a9ff495c9840d6c587132321ee4a2f9d02f4d11dfc728236a3f5eeaae3a1a1d"
+        },
+        {
+          "legacy_path": "11_shared_infrastructure/runtime/src/content_aware_allocation/w5c/training.py",
+          "sha256": "51558db8ebceef8224f18e933d91cc721f31f80f22fb6418e67fbfab5e1057bf"
+        }
+      ]
+    }
+  ]
+}

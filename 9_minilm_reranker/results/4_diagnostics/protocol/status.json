@@ -1,0 +1,64 @@
+{
+  "cohorts": [
+    {
+      "budgets": [
+        256,
+        1024
+      ],
+      "dataset": "HotpotQA",
+      "n_groups": 50,
+      "n_queries": 50
+    },
+    {
+      "budgets": [
+        256,
+        1024
+      ],
+      "dataset": "QASPER",
+      "n_groups": 50,
+      "n_queries": 50
+    },
+    {
+      "budgets": [
+        256,
+        1024
+      ],
+      "dataset": "SciFact",
+      "n_groups": 50,
+      "n_queries": 50
+    }
+  ],
+  "completed_answer_rows": 0,
+  "configured_retrieval_width": 10,
+  "dependencies": {
+    "huggingface_hub": "0.36.2",
+    "numpy": "1.26.4",
+    "sentence-transformers": "5.7.0",
+    "torch": "2.14.0",
+    "transformers": "4.57.6"
+  },
+  "expected_minilm_rows": 300,
+  "free_disk_gib": 32.00178527832031,
+  "full_run_enabled": false,
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "matched_control_rows": 1200,
+  "missing_answer_upper_bound": 300,
+  "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+  "notice": "POST-W12 exploratory matched-cohort comparison on previously analyzed development data. No fresh holdout, confirmation or test claim. Official Week-12 policy unchanged.",
+  "reader_loaded": false,
+  "reranker_queries_scored": 3,
+  "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+  "short_frozen_pools": [
+    {
+      "available_passages": 8,
+      "dataset": "QASPER",
+      "query_id": "78292bc57ee68fdb93ed45430d80acca25a9e916"
+    },
+    {
+      "available_passages": 7,
+      "dataset": "QASPER",
+      "query_id": "f20a389ace2267aa61eddcc235535452ccdae0e6"
+    }
+  ]
+}

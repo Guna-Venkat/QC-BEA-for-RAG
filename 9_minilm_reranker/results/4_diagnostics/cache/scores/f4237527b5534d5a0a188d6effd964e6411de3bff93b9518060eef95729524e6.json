@@ -1,0 +1,1371 @@
+{
+  "checksum": "30713f1dd5da9d5b49259f8839f903fa0d17f6cda05596ee5527be05c5c32899",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5ae35b6b5542990afbd1e116"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 67,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "b8904d4725949bc1473218ef9e76f1d1b1e137003c323bed642b7cb6c84011ff",
+    "query_id": "5ae35b6b5542990afbd1e116",
+    "scores": [
+      {
+        "cross_encoder_score": -9.360605239868164,
+        "dataset": "HotpotQA",
+        "end_char": 32,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "e4dd29760454d73460523d79b12537e6",
+        "passage_rank": 9,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "bcbddf4e990e215060070024244c2f0b",
+        "sentence_text": "Ronald &quot;Slim&quot; Williams",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.5008275508880615,
+        "dataset": "HotpotQA",
+        "end_char": 214,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "e4dd29760454d73460523d79b12537e6",
+        "passage_rank": 9,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "93f96ef9d8e57812331b220d69ddcaca",
+        "sentence_text": "Ronald Jay \"Slim\" Williams (born 1964) is an American businessman who co-founded the record label Cash Money Records along with his younger brother, rapper Bryan \"Birdman\" Williams.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 33
+      },
+      {
+        "cross_encoder_score": -0.782210648059845,
+        "dataset": "HotpotQA",
+        "end_char": 335,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "e4dd29760454d73460523d79b12537e6",
+        "passage_rank": 9,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "bb915260d6c8db47333939b75bdbb5ed",
+        "sentence_text": " As with his younger brother, he is the executive producer for much of Cash Money artist's albums, especially Lil Wayne.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 215
+      },
+      {
+        "cross_encoder_score": -11.146027565002441,
+        "dataset": "HotpotQA",
+        "end_char": 516,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "e4dd29760454d73460523d79b12537e6",
+        "passage_rank": 9,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "fb37225b7c8f14e250cbb3290b53de47",
+        "sentence_text": " In February 2009, the Williams brothers were featured in CNBC's \"Newbos: The Rise of America's New Black Overclass\", a documentary show profiling several black multi-millionaires.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 336
+      },
+      {
+        "cross_encoder_score": -5.654910564422607,
+        "dataset": "HotpotQA",
+        "end_char": 614,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "e4dd29760454d73460523d79b12537e6",
+        "passage_rank": 9,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "dac5d7809ad5ff126ead5d2b401496b4",
+        "sentence_text": " Williams appeared in Lil Wayne's \"Behind The Music\" episode, which premiered September 10, 2009.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 517
+      },
+      {
+        "cross_encoder_score": -2.7809925079345703,
+        "dataset": "HotpotQA",
+        "end_char": 9,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "f5ca48c61cac6c9087be4578a8526878",
+        "passage_rank": 5,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "f753d7d10d4037f302f07a4da1aa0adf",
+        "sentence_text": "Lil Wayne",
+        "sentence_token_cost": 3,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.9027372598648071,
+        "dataset": "HotpotQA",
+        "end_char": 139,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "f5ca48c61cac6c9087be4578a8526878",
+        "passage_rank": 5,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "d2c1d7c685c4ee6c84062b5f76e8b76f",
+        "sentence_text": "Dwayne Michael Carter, Jr. (born September 27, 1982), known professionally as Lil Wayne, is an American hip hop recording artist.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 10
+      },
+      {
+        "cross_encoder_score": 1.6816685199737549,
+        "dataset": "HotpotQA",
+        "end_char": 329,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "f5ca48c61cac6c9087be4578a8526878",
+        "passage_rank": 5,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "a3735cede824f5264725498f7c315c76",
+        "sentence_text": " In 1991, at the age of nine, Lil Wayne joined Cash Money Records as the youngest member of the label, and half of the duo The B.G.'z, alongside fellow New Orleans-based rapper Lil' Doogie.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 140
+      },
+      {
+        "cross_encoder_score": 1.6732242107391357,
+        "dataset": "HotpotQA",
+        "end_char": 486,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "f5ca48c61cac6c9087be4578a8526878",
+        "passage_rank": 5,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "415100cd7774dcaa4d2d7ff8fa0ddc05",
+        "sentence_text": " In 1996, Lil Wayne joined the southern hip hop group Hot Boys, with his Cash Money label-mates Juvenile, Young Turk and Lil' Doogie (who now goes by B.G.).",
+        "sentence_token_cost": 43,
+        "source_order": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "source_position": 330
+      },
+      {
+        "cross_encoder_score": -10.156825065612793,
+        "dataset": "HotpotQA",
+        "end_char": 529,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "f5ca48c61cac6c9087be4578a8526878",
+        "passage_rank": 5,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "78d77dbf5803eff3a6e25ce51ef5fb7e",
+        "sentence_text": " Hot Boys debuted with \"Get It How U Live!",
+        "sentence_token_cost": 11,
+        "source_order": [
+          1,
+          0,
+          4,
+          0
+        ],
+        "source_position": 487
+      },
+      {
+        "cross_encoder_score": -8.016779899597168,
+        "dataset": "HotpotQA",
+        "end_char": 548,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "f5ca48c61cac6c9087be4578a8526878",
+        "passage_rank": 5,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "e10b6b49fa9aa2f7cc5e0b5a8776def5",
+        "sentence_text": "\", that same year.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          1,
+          0,
+          5,
+          0
+        ],
+        "source_position": 530
+      },
+      {
+        "cross_encoder_score": -8.796149253845215,
+        "dataset": "HotpotQA",
+        "end_char": 678,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "f5ca48c61cac6c9087be4578a8526878",
+        "passage_rank": 5,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "bb8dba5840439d89118b6cbed80b4b5f",
+        "sentence_text": " Most of the group's success came with their platinum-selling album \"Guerrilla Warfare\" (1999) and the 1999 single \"Bling Bling\".",
+        "sentence_token_cost": 38,
+        "source_order": [
+          1,
+          0,
+          6,
+          0
+        ],
+        "source_position": 549
+      },
+      {
+        "cross_encoder_score": 0.19020754098892212,
+        "dataset": "HotpotQA",
+        "end_char": 870,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "f5ca48c61cac6c9087be4578a8526878",
+        "passage_rank": 5,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "2269719a10a7c4bbbd50c4480f9516cf",
+        "sentence_text": " Along with being the flagship artist of Cash Money Records, Lil Wayne is also the Chief Executive Officer (CEO) of his own label imprint, Young Money Entertainment, which he founded in 2005.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          1,
+          0,
+          7,
+          0
+        ],
+        "source_position": 679
+      },
+      {
+        "cross_encoder_score": -8.799570083618164,
+        "dataset": "HotpotQA",
+        "end_char": 10,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "690a106a2a4d0d3392790fa83c015c1a",
+        "passage_rank": 8,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "df8883c61cfa0e9ddd81786f2dbf9997",
+        "sentence_text": "Big Tymers",
+        "sentence_token_cost": 4,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.76579761505127,
+        "dataset": "HotpotQA",
+        "end_char": 130,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "690a106a2a4d0d3392790fa83c015c1a",
+        "passage_rank": 8,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "4612cb49f00a2097cc72f5f22411dc52",
+        "sentence_text": "Big Tymers (stylized as Big Tymer$) was an American duo that was active since 1993 to 2005 from New Orleans, Louisiana.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 11
+      },
+      {
+        "cross_encoder_score": -5.233360767364502,
+        "dataset": "HotpotQA",
+        "end_char": 268,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "690a106a2a4d0d3392790fa83c015c1a",
+        "passage_rank": 8,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "438c654fc4d0f4d70cb9e080bda6df29",
+        "sentence_text": " Big Tymers consisted of Cash Money Records co-founder Birdman (then known as Baby) and former Cash Money in-house producer Mannie Fresh.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 131
+      },
+      {
+        "cross_encoder_score": -11.260505676269531,
+        "dataset": "HotpotQA",
+        "end_char": 343,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "690a106a2a4d0d3392790fa83c015c1a",
+        "passage_rank": 8,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "fa80cac97d0e78a3ed4661b1bf468b01",
+        "sentence_text": " Baby later changed his stage name to Birdman after the duo was dissolved.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "source_position": 269
+      },
+      {
+        "cross_encoder_score": -9.953171730041504,
+        "dataset": "HotpotQA",
+        "end_char": 491,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "690a106a2a4d0d3392790fa83c015c1a",
+        "passage_rank": 8,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "70894c2bc8d95622ceecee22ee62cce2",
+        "sentence_text": " The Big Tymers released their debut album in 1997 titled \"How You Luv That\", and a re-release version of their debut album, \"How You Luv That Vol.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          2,
+          0,
+          4,
+          0
+        ],
+        "source_position": 344
+      },
+      {
+        "cross_encoder_score": -9.295659065246582,
+        "dataset": "HotpotQA",
+        "end_char": 555,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "690a106a2a4d0d3392790fa83c015c1a",
+        "passage_rank": 8,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "f04282bb9b27f26e89d1f8da3ac48838",
+        "sentence_text": " 2\" which gave them an abundant amount of publicity afterwards.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          2,
+          0,
+          5,
+          0
+        ],
+        "source_position": 492
+      },
+      {
+        "cross_encoder_score": -6.294692516326904,
+        "dataset": "HotpotQA",
+        "end_char": 639,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "690a106a2a4d0d3392790fa83c015c1a",
+        "passage_rank": 8,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "cb966030bd7c3cd625f5586ac161b954",
+        "sentence_text": " They recorded their first platinum-selling album in 2000 titled \"I Got That Work\".",
+        "sentence_token_cost": 20,
+        "source_order": [
+          2,
+          0,
+          6,
+          0
+        ],
+        "source_position": 556
+      },
+      {
+        "cross_encoder_score": -8.402654647827148,
+        "dataset": "HotpotQA",
+        "end_char": 768,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "690a106a2a4d0d3392790fa83c015c1a",
+        "passage_rank": 8,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "cc8334c6dd80759030fe4131f6cbe8e2",
+        "sentence_text": " The lead single from \"I Got That Work\", \"Number One Stunna\" peaked at No. 24 on the Billboard Hot R&B/Hip-Hop Singles & Tracks.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          2,
+          0,
+          7,
+          0
+        ],
+        "source_position": 640
+      },
+      {
+        "cross_encoder_score": -7.8163347244262695,
+        "dataset": "HotpotQA",
+        "end_char": 842,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "690a106a2a4d0d3392790fa83c015c1a",
+        "passage_rank": 8,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "b4e98a35f4c2ad4b8e1fa53bf60fb4bf",
+        "sentence_text": " The group released its most successful album in 2002 titled \"Hood Rich\".",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2,
+          0,
+          8,
+          0
+        ],
+        "source_position": 769
+      },
+      {
+        "cross_encoder_score": -9.134736061096191,
+        "dataset": "HotpotQA",
+        "end_char": 980,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "690a106a2a4d0d3392790fa83c015c1a",
+        "passage_rank": 8,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "ebf49cc0b0be51ca8947cab30b4bf9b9",
+        "sentence_text": " The album reached No. 1 on the Billboard Hot 200 and spawned a major hit in \"Still Fly\" which reached No. 11 on the \"Billboard\" Hot 100.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          2,
+          0,
+          9,
+          0
+        ],
+        "source_position": 843
+      },
+      {
+        "cross_encoder_score": -5.379533767700195,
+        "dataset": "HotpotQA",
+        "end_char": 1107,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "690a106a2a4d0d3392790fa83c015c1a",
+        "passage_rank": 8,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "c57fac03805c4264f8c3288cabe10af8",
+        "sentence_text": " Later in 2002, Mannie Fresh resigned from Cash Money Records because of financial dispute with Birdman, and his brother Slim.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          2,
+          0,
+          10,
+          0
+        ],
+        "source_position": 981
+      },
+      {
+        "cross_encoder_score": -4.781493186950684,
+        "dataset": "HotpotQA",
+        "end_char": 1201,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "690a106a2a4d0d3392790fa83c015c1a",
+        "passage_rank": 8,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "44e92b66a444c0be87b349ff70b47cb6",
+        "sentence_text": " The group later reunited again in 2003 for their final album titled \"Big Money Heavyweight\".",
+        "sentence_token_cost": 22,
+        "source_order": [
+          2,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1108
+      },
+      {
+        "cross_encoder_score": -2.9581398963928223,
+        "dataset": "HotpotQA",
+        "end_char": 1335,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "690a106a2a4d0d3392790fa83c015c1a",
+        "passage_rank": 8,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "a5f6679892ec7f8d5f6caf1d04794433",
+        "sentence_text": " During an appearance on MTV RapFix, Lil Wayne announced that there will be a Big Tymers album featuring Birdman, himself, and Drake.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          2,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1202
+      },
+      {
+        "cross_encoder_score": -10.981952667236328,
+        "dataset": "HotpotQA",
+        "end_char": 1404,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "690a106a2a4d0d3392790fa83c015c1a",
+        "passage_rank": 8,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "b884a564d300526111c46a16e640a956",
+        "sentence_text": " Birdman stated that Mannie Fresh will not be a part of the project.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          2,
+          0,
+          13,
+          0
+        ],
+        "source_position": 1336
+      },
+      {
+        "cross_encoder_score": -7.018089294433594,
+        "dataset": "HotpotQA",
+        "end_char": 1506,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "690a106a2a4d0d3392790fa83c015c1a",
+        "passage_rank": 8,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "816f0c26a9bbeb9ecc25c5a67e0cc248",
+        "sentence_text": " The project is now unlikely to happen, due to the fading relationship between Birdman and Lil Wayne.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          2,
+          0,
+          14,
+          0
+        ],
+        "source_position": 1405
+      },
+      {
+        "cross_encoder_score": 3.3455824851989746,
+        "dataset": "HotpotQA",
+        "end_char": 25,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "afd917cd6a621e3c0a72fc1e49764611",
+        "passage_rank": 1,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "6584983867b013eb5c6d75383c521fde",
+        "sentence_text": "Knockout (Lil Wayne song)",
+        "sentence_token_cost": 9,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 6.889031887054443,
+        "dataset": "HotpotQA",
+        "end_char": 85,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "afd917cd6a621e3c0a72fc1e49764611",
+        "passage_rank": 1,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "824685972a88eb633a48c6b27bb474cd",
+        "sentence_text": "\"Knockout\" is a song by Lil Wayne from his album \"Rebirth\".",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 26
+      },
+      {
+        "cross_encoder_score": -10.357280731201172,
+        "dataset": "HotpotQA",
+        "end_char": 167,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "afd917cd6a621e3c0a72fc1e49764611",
+        "passage_rank": 1,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "42a70e9087ee684fa85e24695e142b94",
+        "sentence_text": " It features Nicki Minaj rapping near the end of the song and singing the chorus.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 86
+      },
+      {
+        "cross_encoder_score": -5.663827419281006,
+        "dataset": "HotpotQA",
+        "end_char": 283,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "afd917cd6a621e3c0a72fc1e49764611",
+        "passage_rank": 1,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "f9c352edb79034ac26de316158087545",
+        "sentence_text": " The song debuted at forty-four on the US \"Billboard\" Hot 100 due to strong digital sales with the album's release.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "source_position": 168
+      },
+      {
+        "cross_encoder_score": -2.561460018157959,
+        "dataset": "HotpotQA",
+        "end_char": 376,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "afd917cd6a621e3c0a72fc1e49764611",
+        "passage_rank": 1,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "69d08c5060fd00901217b0c2812faeeb",
+        "sentence_text": " This song revolves around Lil Wayne's personal relationships with a diverse group of women.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          3,
+          0,
+          4,
+          0
+        ],
+        "source_position": 284
+      },
+      {
+        "cross_encoder_score": -9.385403633117676,
+        "dataset": "HotpotQA",
+        "end_char": 13,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "62061e6dfac0230c25c3ae1ee52a4f0e",
+        "passage_rank": 4,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "1d2611d9cdea32b7f0e24c62e2822221",
+        "sentence_text": "Tha Carter IV",
+        "sentence_token_cost": 4,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 3.8943188190460205,
+        "dataset": "HotpotQA",
+        "end_char": 198,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "62061e6dfac0230c25c3ae1ee52a4f0e",
+        "passage_rank": 4,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "237d7b90f7fab42a1fd49497a814b80b",
+        "sentence_text": "Tha Carter IV is the ninth studio album by American rapper Lil Wayne, released on August 29, 2011, through Young Money Entertainment, Cash Money Records and Universal Republic Records.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 14
+      },
+      {
+        "cross_encoder_score": -1.1237574815750122,
+        "dataset": "HotpotQA",
+        "end_char": 547,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "62061e6dfac0230c25c3ae1ee52a4f0e",
+        "passage_rank": 4,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "dc2c65329a110e97207395f35db83219",
+        "sentence_text": " Recording sessions for the album began in late 2008, shortly after Lil Wayne's sixth studio album, \"Tha Carter III\" (2008) was released to strong sales and critical acclaim: however, the sessions were put on hold, as Lil Wayne claimed he did not want to follow an album he held in high regard so quickly with another, potentially inferior release.",
+        "sentence_token_cost": 79,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 199
+      },
+      {
+        "cross_encoder_score": -0.408989280462265,
+        "dataset": "HotpotQA",
+        "end_char": 678,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "62061e6dfac0230c25c3ae1ee52a4f0e",
+        "passage_rank": 4,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "b65b52908f7f3f6b93125f9fb3b603f4",
+        "sentence_text": " In the interim, Lil Wayne released his two other albums in 2010: the largely rock-themed \"Rebirth\", and \"I Am Not a Human Being\".",
+        "sentence_token_cost": 35,
+        "source_order": [
+          4,
+          0,
+          3,
+          0
+        ],
+        "source_position": 548
+      },
+      {
+        "cross_encoder_score": -3.799581289291382,
+        "dataset": "HotpotQA",
+        "end_char": 1036,
+        "pair_tokens_before_truncation": 87,
+        "pair_truncated": false,
+        "passage_id": "62061e6dfac0230c25c3ae1ee52a4f0e",
+        "passage_rank": 4,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "4cc10b48bc7445449bc2c6b12ecaa0d9",
+        "sentence_text": " The latter was reportedly composed from unreleased material from the original \"Tha Carter IV\" sessions, as the album was released whilst Wayne served a prison sentence at Rikers Island prison for illegal possession of a weapon, and was thus unable to record any new material: this also meant \"Tha Carter IV\"'s recording sessions were once more put on hold.",
+        "sentence_token_cost": 72,
+        "source_order": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "source_position": 679
+      },
+      {
+        "cross_encoder_score": -8.240530014038086,
+        "dataset": "HotpotQA",
+        "end_char": 11,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "a892949c1b036e41ddbf92d0e30607a9",
+        "passage_rank": 10,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "81adcf22740cdb7a2809ac8a2266a412",
+        "sentence_text": "Drew Correa",
+        "sentence_token_cost": 4,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.84044075012207,
+        "dataset": "HotpotQA",
+        "end_char": 154,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "a892949c1b036e41ddbf92d0e30607a9",
+        "passage_rank": 10,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "a4794b62b951a9e7044daaa9c5cf38f1",
+        "sentence_text": "Andrews Correa (born February 22, 1984), professionally known as Drew Correa, is a Brazilian-born American music producer from Miami, Florida.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 12
+      },
+      {
+        "cross_encoder_score": -11.21312141418457,
+        "dataset": "HotpotQA",
+        "end_char": 328,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "a892949c1b036e41ddbf92d0e30607a9",
+        "passage_rank": 10,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "02c6dee13b405a8ccd49582db28cdb28",
+        "sentence_text": " Born in Florian\u00f3polis, Correa moved to the United States at the age of four, and began his career in the hip hop industry at the age of 16, when he worked as a disc jockey.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 155
+      },
+      {
+        "cross_encoder_score": -11.043028831481934,
+        "dataset": "HotpotQA",
+        "end_char": 561,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "a892949c1b036e41ddbf92d0e30607a9",
+        "passage_rank": 10,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "a362d3acfd76143d72537c66b19693a2",
+        "sentence_text": " Graduating Full Sail University with a degree in Recording Arts in 2003, Drew subsequently worked as an engineer for American recording artists including Trina, Pitbull, Swizz Beatz, Rick Ross, Shakira, Juelz Santana , Wyclef Jean.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "source_position": 329
+      },
+      {
+        "cross_encoder_score": -10.538973808288574,
+        "dataset": "HotpotQA",
+        "end_char": 620,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "a892949c1b036e41ddbf92d0e30607a9",
+        "passage_rank": 10,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "19c907f71f53166a83e4f482c6aa2ecf",
+        "sentence_text": " While engineering, Correa found an interest in producing.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          5,
+          0,
+          4,
+          0
+        ],
+        "source_position": 562
+      },
+      {
+        "cross_encoder_score": 0.9571401476860046,
+        "dataset": "HotpotQA",
+        "end_char": 850,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "a892949c1b036e41ddbf92d0e30607a9",
+        "passage_rank": 10,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "ab9363cfcf44a9da48b0aa58cded2d21",
+        "sentence_text": " In 2005, he became Young Money Entertainment and Cash Money Records' resident engineer, having worked on albums such as Lil Wayne's \"Tha Carter II\", Lil Wayne and Birdman's \"Like Father Like Son\", and Birdman \"Five Star Stunna\".",
+        "sentence_token_cost": 57,
+        "source_order": [
+          5,
+          0,
+          5,
+          0
+        ],
+        "source_position": 621
+      },
+      {
+        "cross_encoder_score": -9.317636489868164,
+        "dataset": "HotpotQA",
+        "end_char": 1005,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "a892949c1b036e41ddbf92d0e30607a9",
+        "passage_rank": 10,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "ac1cda55502d4e8814cb861df2ed348e",
+        "sentence_text": " While recording these projects, Wayne and Birdman became aware of Correa's interests in producing, and in June 2007, Correa decided to leave engineering.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          5,
+          0,
+          6,
+          0
+        ],
+        "source_position": 851
+      },
+      {
+        "cross_encoder_score": -4.9268646240234375,
+        "dataset": "HotpotQA",
+        "end_char": 1188,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "a892949c1b036e41ddbf92d0e30607a9",
+        "passage_rank": 10,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "617d831563f7ff72fd7651101de399a4",
+        "sentence_text": " Initially struggling with relatively little work as a producer, Correa received his first major label placement, Lil Wayne's \"Mr. Carter\", featuring American rapper and mogul Jay-Z.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          5,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1006
+      },
+      {
+        "cross_encoder_score": -6.288802623748779,
+        "dataset": "HotpotQA",
+        "end_char": 1286,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "a892949c1b036e41ddbf92d0e30607a9",
+        "passage_rank": 10,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "997941936ef4b0eac3461ee671b8b749",
+        "sentence_text": " Drew Correa received a Grammy Award in 2009, for Best Rap Album, because of his work with Wayne.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          5,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1189
+      },
+      {
+        "cross_encoder_score": -4.375430107116699,
+        "dataset": "HotpotQA",
+        "end_char": 23,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "aecbaaafc58561f3218c6b18db8ff8bb",
+        "passage_rank": 7,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "cbc8bfa9f9787dde71df201cfb21acb0",
+        "sentence_text": "Cash Money Millionaires",
+        "sentence_token_cost": 4,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.9086241722106934,
+        "dataset": "HotpotQA",
+        "end_char": 196,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "aecbaaafc58561f3218c6b18db8ff8bb",
+        "passage_rank": 7,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "9df86a4f5faf76b3fe2601972c3ffb1a",
+        "sentence_text": "Cash Money Millionaires (also known as The Millionaires) was a supergroup of Cash Money recording artists from New Orleans, Louisiana, formed in 1996 and disbanded in 2001.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 24
+      },
+      {
+        "cross_encoder_score": -4.789965629577637,
+        "dataset": "HotpotQA",
+        "end_char": 320,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "aecbaaafc58561f3218c6b18db8ff8bb",
+        "passage_rank": 7,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "41dd816e73c66899cbe1f23b697136cd",
+        "sentence_text": " The group was composed of the Big Tymer$ (Birdman and Mannie Fresh) and the Hot Boy$ (B.G., Juvenile, Lil Wayne and Turk).",
+        "sentence_token_cost": 35,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 197
+      },
+      {
+        "cross_encoder_score": 3.1367721557617188,
+        "dataset": "HotpotQA",
+        "end_char": 495,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "aecbaaafc58561f3218c6b18db8ff8bb",
+        "passage_rank": 7,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "9f673c35cb43932dd2edaffe7bf814ed",
+        "sentence_text": " After meeting at Cash Money Records, established in 1991, the young money millionaires were introduced to the world in 2001, largely due to Lil Wayne's album, \"500 Degreez\".",
+        "sentence_token_cost": 47,
+        "source_order": [
+          6,
+          0,
+          3,
+          0
+        ],
+        "source_position": 321
+      },
+      {
+        "cross_encoder_score": -6.007578372955322,
+        "dataset": "HotpotQA",
+        "end_char": 596,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "aecbaaafc58561f3218c6b18db8ff8bb",
+        "passage_rank": 7,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "7c13f0a6dc4e81195f576718f73eb6b0",
+        "sentence_text": " The Cash Money Millionaires went on numerous tours, including tours with the Ruff Ryders and Nelly.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          6,
+          0,
+          4,
+          0
+        ],
+        "source_position": 496
+      },
+      {
+        "cross_encoder_score": -10.050846099853516,
+        "dataset": "HotpotQA",
+        "end_char": 724,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "aecbaaafc58561f3218c6b18db8ff8bb",
+        "passage_rank": 7,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "807fd510173ab0facfdacf7a0b363109",
+        "sentence_text": " In September 2000, the Millionaires released \"Baller Blockin\", the soundtrack to the \"Baller Blockin' \" in which they starred.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          6,
+          0,
+          5,
+          0
+        ],
+        "source_position": 597
+      },
+      {
+        "cross_encoder_score": -9.098491668701172,
+        "dataset": "HotpotQA",
+        "end_char": 778,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "aecbaaafc58561f3218c6b18db8ff8bb",
+        "passage_rank": 7,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "ce7418c6a7b8582729e3be84c1cabb66",
+        "sentence_text": " In 2001, the group disbanded due to monetary issues.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          6,
+          0,
+          6,
+          0
+        ],
+        "source_position": 725
+      },
+      {
+        "cross_encoder_score": -2.0283396244049072,
+        "dataset": "HotpotQA",
+        "end_char": 18,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "78643f7783623d564f59af15f177bbb3",
+        "passage_rank": 6,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "b827cdd5420383e5b6d34f35ce32d334",
+        "sentence_text": "Cash Money Records",
+        "sentence_token_cost": 3,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.1567296981811523,
+        "dataset": "HotpotQA",
+        "end_char": 183,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "78643f7783623d564f59af15f177bbb3",
+        "passage_rank": 6,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "8f729794457794305db40c78bf315b11",
+        "sentence_text": "Cash Money Records (formerly styled as Ca$h Money Records) is an American record label founded by two brothers, Bryan \"Birdman\" Williams and Ronald \"Slim\" Williams.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 19
+      },
+      {
+        "cross_encoder_score": -9.426504135131836,
+        "dataset": "HotpotQA",
+        "end_char": 267,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "78643f7783623d564f59af15f177bbb3",
+        "passage_rank": 6,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "be8fc5e0089b0ebd9474170531b06c41",
+        "sentence_text": " The label is distributed by Republic Records, which used to be Universal Republic.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 184
+      },
+      {
+        "cross_encoder_score": -0.2976360023021698,
+        "dataset": "HotpotQA",
+        "end_char": 506,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "78643f7783623d564f59af15f177bbb3",
+        "passage_rank": 6,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "362dd1a305a39eb21ac9e21f600291d0",
+        "sentence_text": " The label itself has been home to a roster of prominent hip hop artists that include Drake, Lil Wayne and Nicki Minaj, which has led Cash Money to being described as one of the most iconic and successful record labels in hip-hop history.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 268
+      },
+      {
+        "cross_encoder_score": -7.411594867706299,
+        "dataset": "HotpotQA",
+        "end_char": 561,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "78643f7783623d564f59af15f177bbb3",
+        "passage_rank": 6,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "3d7df9256dcc396000dde53deebc063a",
+        "sentence_text": " Cash Money is estimated to be worth $300 million USD.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          7,
+          0,
+          4,
+          0
+        ],
+        "source_position": 507
+      },
+      {
+        "cross_encoder_score": -7.821286201477051,
+        "dataset": "HotpotQA",
+        "end_char": 28,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "003277a805a85601144183c23241cb11",
+        "passage_rank": 3,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "8765c7eddba6b84b3e4c104c3fe01a9e",
+        "sentence_text": "Baller Blockin' (soundtrack)",
+        "sentence_token_cost": 9,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.8405343294143677,
+        "dataset": "HotpotQA",
+        "end_char": 175,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "003277a805a85601144183c23241cb11",
+        "passage_rank": 3,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "0191f1eeb9e962468e32ea9b262eb117",
+        "sentence_text": "Baller Blockin is the soundtrack for the film \"Baller Blockin'\" by the Cash Money Millionaires, released September 12, 2000 on Cash Money Records.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 29
+      },
+      {
+        "cross_encoder_score": 2.5604217052459717,
+        "dataset": "HotpotQA",
+        "end_char": 317,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "003277a805a85601144183c23241cb11",
+        "passage_rank": 3,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "e702343d7ab3b80447681f406f7c34b3",
+        "sentence_text": " The soundtrack features most of the then-roster of Cash Money Records, including Birdman, Mannie Fresh, Juvenile, B.G., Lil Wayne, and Turk.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          8,
+          0,
+          2,
+          0
+        ],
+        "source_position": 176
+      },
+      {
+        "cross_encoder_score": -9.753985404968262,
+        "dataset": "HotpotQA",
+        "end_char": 385,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "003277a805a85601144183c23241cb11",
+        "passage_rank": 3,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "be00566d828d6e78f12aa1245baf7404",
+        "sentence_text": " Other artists include E-40, UGK, Eightball & MJG, Nas and Mack 10.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          8,
+          0,
+          3,
+          0
+        ],
+        "source_position": 318
+      },
+      {
+        "cross_encoder_score": -0.7887959480285645,
+        "dataset": "HotpotQA",
+        "end_char": 25,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "db8ef0a379a5af989c9bb4994966b9fc",
+        "passage_rank": 2,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "ee7edfd071ca8e53a318666d6f97ffd0",
+        "sentence_text": "Rebirth (Lil Wayne album)",
+        "sentence_token_cost": 8,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 4.672156810760498,
+        "dataset": "HotpotQA",
+        "end_char": 189,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "db8ef0a379a5af989c9bb4994966b9fc",
+        "passage_rank": 2,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "0c6d6494693ef4fc358322c9d0454769",
+        "sentence_text": "Rebirth is the seventh studio album by American rapper Lil Wayne, released February 2, 2010, on Cash Money Records, Young Money Entertainment and Universal Motown.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 26
+      },
+      {
+        "cross_encoder_score": -7.953534126281738,
+        "dataset": "HotpotQA",
+        "end_char": 320,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "db8ef0a379a5af989c9bb4994966b9fc",
+        "passage_rank": 2,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "bfd6a6c5cb985e03e08f027e8935ccd3",
+        "sentence_text": " The album's production was primarily handled by Cool & Dre, DJ Infamous, DJ Nasty & LVM, Kevin Rudolf, and J.U.S.T.I.C.E. League.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 190
+      },
+      {
+        "cross_encoder_score": -3.688418388366699,
+        "dataset": "HotpotQA",
+        "end_char": 413,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "db8ef0a379a5af989c9bb4994966b9fc",
+        "passage_rank": 2,
+        "query_id": "5ae35b6b5542990afbd1e116",
+        "sentence_id": "7ca72524fa10b3827ea47234e3044386",
+        "sentence_text": " \"Rebirth\" was promoted as Wayne's rock music debut, though it includes some hip hop tracks.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          9,
+          0,
+          3,
+          0
+        ],
+        "source_position": 321
+      }
+    ],
+    "scoring_seconds": 0.29028610105160624,
+    "source_fingerprint": "34ad8666e6a8a3348930239e0a2b8fd62916a839dbb1ed6a9adfe61f1f361610"
+  }
+}

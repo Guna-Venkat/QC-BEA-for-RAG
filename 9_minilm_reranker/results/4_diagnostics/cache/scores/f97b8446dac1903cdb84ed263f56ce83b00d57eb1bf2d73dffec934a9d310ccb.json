@@ -1,0 +1,851 @@
+{
+  "checksum": "5bd7de9ca9f3d5c45ff5c6de2709d137ed2bf1b4b097498fd7f91a57073eedc0",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5ae73d505542991e8301cc2c"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 41,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "e23b80a74321910562c21731abe3e389272779c87f027a2536f297ba53e2c93b",
+    "query_id": "5ae73d505542991e8301cc2c",
+    "scores": [
+      {
+        "cross_encoder_score": -3.6083459854125977,
+        "dataset": "HotpotQA",
+        "end_char": 40,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "54592a6d5959478e4e1bf06b2f289934",
+        "passage_rank": 9,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "c24c98c67c664f867a3f02f456981512",
+        "sentence_text": "The Short Life of Jos\u00e9 Antonio Gutierrez",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 2.3377456665039062,
+        "dataset": "HotpotQA",
+        "end_char": 315,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "54592a6d5959478e4e1bf06b2f289934",
+        "passage_rank": 9,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "9a5feede1b994c07151d2661e8a67396",
+        "sentence_text": "The Short Life of Jos\u00e9 Antonio Gutierrez (Das kurze Leben des Jos\u00e9 Antonio Gutierrez) is a 2006 documentary film directed by Heidi Specogna about the second US Marine to die during the 2003 invasion of Iraq (Lt. Shane Childers was the first American to die in the Iraq war).",
+        "sentence_token_cost": 68,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 41
+      },
+      {
+        "cross_encoder_score": -2.6813433170318604,
+        "dataset": "HotpotQA",
+        "end_char": 447,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "54592a6d5959478e4e1bf06b2f289934",
+        "passage_rank": 9,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "70b84613c9abbbd2f27fd35b4aca4e60",
+        "sentence_text": " Guti\u00e9rrez came from Guatemala and was a so-called 'green card soldier' i.e. he obtained American citizenship only after his death.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 316
+      },
+      {
+        "cross_encoder_score": -8.524262428283691,
+        "dataset": "HotpotQA",
+        "end_char": 480,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "54592a6d5959478e4e1bf06b2f289934",
+        "passage_rank": 9,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "e8b2b21e48fdc0b374a3cf371637abd9",
+        "sentence_text": " He was killed by friendly fire.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 448
+      },
+      {
+        "cross_encoder_score": -7.839270114898682,
+        "dataset": "HotpotQA",
+        "end_char": 7,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "fa52c4576ad19c4502dc508067128502",
+        "passage_rank": 3,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "34227c6bd11f7e204407a5932ec7897f",
+        "sentence_text": "Gothika",
+        "sentence_token_cost": 3,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 6.361317157745361,
+        "dataset": "HotpotQA",
+        "end_char": 135,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "fa52c4576ad19c4502dc508067128502",
+        "passage_rank": 3,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "7deee0420ef6bb0110e43407d1a5ce10",
+        "sentence_text": "Gothika is a 2003 American psychological horror thriller film directed by Mathieu Kassovitz and written by Sebastian Gutierrez.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 8
+      },
+      {
+        "cross_encoder_score": -10.648372650146484,
+        "dataset": "HotpotQA",
+        "end_char": 306,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "fa52c4576ad19c4502dc508067128502",
+        "passage_rank": 3,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "2f78c4cb61bec1ecc2a0506896f69750",
+        "sentence_text": " Halle Berry plays a psychiatrist in a women's mental hospital who wakes up one day to find herself on the other side of the bars, accused of having murdered her husband.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 136
+      },
+      {
+        "cross_encoder_score": -2.9885306358337402,
+        "dataset": "HotpotQA",
+        "end_char": 378,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "fa52c4576ad19c4502dc508067128502",
+        "passage_rank": 3,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "b580e3ef6836b57deecc7446859e03c9",
+        "sentence_text": " The film was first released on November 21, 2003 in the United States.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "source_position": 307
+      },
+      {
+        "cross_encoder_score": -10.232804298400879,
+        "dataset": "HotpotQA",
+        "end_char": 569,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "fa52c4576ad19c4502dc508067128502",
+        "passage_rank": 3,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "e7223e3b7bff59f868c5e5893e56b7f2",
+        "sentence_text": " At the time of its release, and despite poor critical reception, \"Gothika\" was the most financially successful film from Dark Castle Entertainment, with a worldwide gross of $141.6 million.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          1,
+          0,
+          4,
+          0
+        ],
+        "source_position": 379
+      },
+      {
+        "cross_encoder_score": 1.649672508239746,
+        "dataset": "HotpotQA",
+        "end_char": 19,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "3eddb81f2a2e9790a7f4b5bc992fb495",
+        "passage_rank": 1,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "d0780582f0cafc71f877b2f40b55ea9f",
+        "sentence_text": "Sebastian Gutierrez",
+        "sentence_token_cost": 4,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 4.757225036621094,
+        "dataset": "HotpotQA",
+        "end_char": 128,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "3eddb81f2a2e9790a7f4b5bc992fb495",
+        "passage_rank": 1,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "13897be507b5985a16a8c2728ac1cac0",
+        "sentence_text": "Sebastian Gutierrez (born September 10, 1974) is a Venezuelan film director, screenwriter and film producer.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 20
+      },
+      {
+        "cross_encoder_score": 0.5038026571273804,
+        "dataset": "HotpotQA",
+        "end_char": 354,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "3eddb81f2a2e9790a7f4b5bc992fb495",
+        "passage_rank": 1,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "30872dd1190f1b49f3ae32a2099634ab",
+        "sentence_text": " known for writing the screenplays to the films \"Gothika\", \"Snakes on a Plane\", \"The Eye\" and \"The Big Bounce\", and writing and directing two independent female-driven ensemble comedies, \"Women in Trouble\" and \"Elektra Luxx\".",
+        "sentence_token_cost": 57,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 129
+      },
+      {
+        "cross_encoder_score": -7.722397804260254,
+        "dataset": "HotpotQA",
+        "end_char": 18,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "0ebebec4da7bbc6ee0c1e216929de062",
+        "passage_rank": 5,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "ddb9da43ebfaf846ec13719391dac285",
+        "sentence_text": "Rise: Blood Hunter",
+        "sentence_token_cost": 5,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 3.4165966510772705,
+        "dataset": "HotpotQA",
+        "end_char": 129,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "0ebebec4da7bbc6ee0c1e216929de062",
+        "passage_rank": 5,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "edaa961105693433071ff02a8d7047cb",
+        "sentence_text": "Rise: Blood Hunter is a 2007 American neo-noir action horror film written and directed by Sebastian Gutierrez.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 19
+      },
+      {
+        "cross_encoder_score": -9.725975036621094,
+        "dataset": "HotpotQA",
+        "end_char": 288,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "0ebebec4da7bbc6ee0c1e216929de062",
+        "passage_rank": 5,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "f83bbc0b7b6af8315a13f606fc96ed7a",
+        "sentence_text": " The film, starring Lucy Liu and Michael Chiklis, is a supernatural thriller about a reporter (Liu) who wakes up in a morgue to discover she is now a vampire.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 130
+      },
+      {
+        "cross_encoder_score": -9.999917030334473,
+        "dataset": "HotpotQA",
+        "end_char": 393,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "0ebebec4da7bbc6ee0c1e216929de062",
+        "passage_rank": 5,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "6d8d5027117442e0cb7617b860251f3d",
+        "sentence_text": " She vows revenge against the vampire cult responsible for her situation and hunts them down one by one.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "source_position": 289
+      },
+      {
+        "cross_encoder_score": -10.330660820007324,
+        "dataset": "HotpotQA",
+        "end_char": 524,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "0ebebec4da7bbc6ee0c1e216929de062",
+        "passage_rank": 5,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "31b967200d70e3d01ce5efe973b2a44e",
+        "sentence_text": " Chiklis plays a haunted police detective whose daughter is victimized by the same group and seeks answers for her gruesome death.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3,
+          0,
+          4,
+          0
+        ],
+        "source_position": 394
+      },
+      {
+        "cross_encoder_score": -8.464879989624023,
+        "dataset": "HotpotQA",
+        "end_char": 18,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "04e58064e7d20685faca9a3f29e03514",
+        "passage_rank": 10,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "4fa9c4a7dfd3ec4c7a1c0702122fad56",
+        "sentence_text": "The Alzheimer Case",
+        "sentence_token_cost": 3,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.0620110034942627,
+        "dataset": "HotpotQA",
+        "end_char": 232,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "04e58064e7d20685faca9a3f29e03514",
+        "passage_rank": 10,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "cb18aa63d26e6d698c6ab1bdf5f4edf3",
+        "sentence_text": "The Alzheimer Case, also known as \"The Alzheimer Affair\" or \"The Memory of a Killer\", Dutch: \"De Zaak Alzheimer\" , is a 2003 film directed by Erik Van Looy, based on the novel \"De Zaak Alzheimer\" by Jef Geeraerts.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 19
+      },
+      {
+        "cross_encoder_score": -7.848489761352539,
+        "dataset": "HotpotQA",
+        "end_char": 301,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "04e58064e7d20685faca9a3f29e03514",
+        "passage_rank": 10,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "f51933ffffca74fcb98c0599b31c0c36",
+        "sentence_text": " An American remake of the film is in development at Focus Features.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 233
+      },
+      {
+        "cross_encoder_score": -7.796745300292969,
+        "dataset": "HotpotQA",
+        "end_char": 335,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "04e58064e7d20685faca9a3f29e03514",
+        "passage_rank": 10,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "931f7db3787c830019a0da8ae4f08b68",
+        "sentence_text": " Stephane Sperry is the producer.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          4,
+          0,
+          3,
+          0
+        ],
+        "source_position": 302
+      },
+      {
+        "cross_encoder_score": -2.6315863132476807,
+        "dataset": "HotpotQA",
+        "end_char": 399,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "04e58064e7d20685faca9a3f29e03514",
+        "passage_rank": 10,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "e7704ffa74feeae02f024fbe9f792585",
+        "sentence_text": " Matthew Michaud adapted the screenplay from the original film.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "source_position": 336
+      },
+      {
+        "cross_encoder_score": -8.416077613830566,
+        "dataset": "HotpotQA",
+        "end_char": 22,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "17c0ce35e2db6997f58568eae47cbee1",
+        "passage_rank": 8,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "4ab5bab4d35f1c9c11ea937d6477b8c0",
+        "sentence_text": "Judas Kiss (1998 film)",
+        "sentence_token_cost": 10,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.47763442993164,
+        "dataset": "HotpotQA",
+        "end_char": 214,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "17c0ce35e2db6997f58568eae47cbee1",
+        "passage_rank": 8,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "693aca033e92bb2708c62f9b711e2627",
+        "sentence_text": "Judas Kiss is a 1998 American crime thriller film that starred Alan Rickman, Emma Thompson, Roscoe Lee Browne, Carla Gugino, Simon Baker-Denny, Gil Bellows, Richard Riehle, and Til Schweiger.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 23
+      },
+      {
+        "cross_encoder_score": 2.5081770420074463,
+        "dataset": "HotpotQA",
+        "end_char": 255,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "17c0ce35e2db6997f58568eae47cbee1",
+        "passage_rank": 8,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "40f4818799e03f2d14217ecde2857300",
+        "sentence_text": " It was directed by Sebastian Gutierrez.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 215
+      },
+      {
+        "cross_encoder_score": -8.551311492919922,
+        "dataset": "HotpotQA",
+        "end_char": 12,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "f7ad98d8c0184d8ffb4512e3b5f7553e",
+        "passage_rank": 6,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "f1cfae7eb4f638f086cbb2f315c94637",
+        "sentence_text": "She Creature",
+        "sentence_token_cost": 2,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.1280452013015747,
+        "dataset": "HotpotQA",
+        "end_char": 206,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "f7ad98d8c0184d8ffb4512e3b5f7553e",
+        "passage_rank": 6,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "9810915ab303f4552af01252f58dd791",
+        "sentence_text": "She Creature (originally billed as Mermaid Chronicles Part 1: She Creature) is a 2001 television film starring Rufus Sewell, Carla Gugino and Rya Kihlstedt and directed by Sebastian Gutierrez .",
+        "sentence_token_cost": 51,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 13
+      },
+      {
+        "cross_encoder_score": -8.890695571899414,
+        "dataset": "HotpotQA",
+        "end_char": 325,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "f7ad98d8c0184d8ffb4512e3b5f7553e",
+        "passage_rank": 6,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "8a36b777476bb1380d37a713f456adc9",
+        "sentence_text": " It is the first in a series of films made for Cinemax paying tribute to the films of American International Pictures.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 207
+      },
+      {
+        "cross_encoder_score": -9.882590293884277,
+        "dataset": "HotpotQA",
+        "end_char": 465,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "f7ad98d8c0184d8ffb4512e3b5f7553e",
+        "passage_rank": 6,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "5f90e90165f8d1504d58da392bd1ccab",
+        "sentence_text": " The films in this tribute series reused the titles of old American International Pictures films, but are not remakes of the earlier films.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          6,
+          0,
+          3,
+          0
+        ],
+        "source_position": 326
+      },
+      {
+        "cross_encoder_score": -8.223652839660645,
+        "dataset": "HotpotQA",
+        "end_char": 12,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "a7fbb5bffe311a92a8a6cd0d2b1fefb1",
+        "passage_rank": 4,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "c12e9b91926bdd29fa8e19039482be4a",
+        "sentence_text": "Elektra Luxx",
+        "sentence_token_cost": 5,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 3.435189723968506,
+        "dataset": "HotpotQA",
+        "end_char": 115,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "a7fbb5bffe311a92a8a6cd0d2b1fefb1",
+        "passage_rank": 4,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "ada504f7a21718db221405f48bd40c8a",
+        "sentence_text": "Elektra Luxx is a 2010 comedy film directed and written by Sebastian Gutierrez featuring Carla Gugino.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 13
+      },
+      {
+        "cross_encoder_score": -8.914986610412598,
+        "dataset": "HotpotQA",
+        "end_char": 181,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "a7fbb5bffe311a92a8a6cd0d2b1fefb1",
+        "passage_rank": 4,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "66add610ea0620c9989ffa79cfc50822",
+        "sentence_text": " The film is a sequel to the ensemble comedy, \"Women in Trouble\".",
+        "sentence_token_cost": 15,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 116
+      },
+      {
+        "cross_encoder_score": -9.113029479980469,
+        "dataset": "HotpotQA",
+        "end_char": 349,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "a7fbb5bffe311a92a8a6cd0d2b1fefb1",
+        "passage_rank": 4,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "cea767e3321a6681cc63d2ff0e038579",
+        "sentence_text": " The film premiered at the South by Southwest Film Festival 2010, where it was acquired by Sony Pictures and was released to the rest of the country on March 11, 2011.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 182
+      },
+      {
+        "cross_encoder_score": -7.545239448547363,
+        "dataset": "HotpotQA",
+        "end_char": 10,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "421c4513a0bba33bcc38b87a61912ff3",
+        "passage_rank": 2,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "a859649aeec9ed66cd0b2f0966ab7e16",
+        "sentence_text": "Hotel Noir",
+        "sentence_token_cost": 2,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 3.321221113204956,
+        "dataset": "HotpotQA",
+        "end_char": 87,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "421c4513a0bba33bcc38b87a61912ff3",
+        "passage_rank": 2,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "78a87308f15f21a4b8ffb71690ca5e5a",
+        "sentence_text": "Hotel Noir is a 2012 crime film directed and written by Sebastian Gutierrez.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 11
+      },
+      {
+        "cross_encoder_score": -7.845057487487793,
+        "dataset": "HotpotQA",
+        "end_char": 134,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "421c4513a0bba33bcc38b87a61912ff3",
+        "passage_rank": 2,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "6b1684d0e881553987eb2d1d157665f6",
+        "sentence_text": " The film stars Carla Gugino and Rufus Sewell.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          8,
+          0,
+          2,
+          0
+        ],
+        "source_position": 88
+      },
+      {
+        "cross_encoder_score": -7.730591773986816,
+        "dataset": "HotpotQA",
+        "end_char": 203,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "421c4513a0bba33bcc38b87a61912ff3",
+        "passage_rank": 2,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "633ade50099a1b215ee981824079f747",
+        "sentence_text": " The film was released at Video on demand on October 9, 2012 in USA.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          8,
+          0,
+          3,
+          0
+        ],
+        "source_position": 135
+      },
+      {
+        "cross_encoder_score": -10.40202522277832,
+        "dataset": "HotpotQA",
+        "end_char": 269,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "421c4513a0bba33bcc38b87a61912ff3",
+        "passage_rank": 2,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "dd46fca16ed86e1a5d1e7bf559e61252",
+        "sentence_text": " It was relaunched in 2016 in color, with the name \"City of Sin\".",
+        "sentence_token_cost": 22,
+        "source_order": [
+          8,
+          0,
+          4,
+          0
+        ],
+        "source_position": 204
+      },
+      {
+        "cross_encoder_score": -7.868271827697754,
+        "dataset": "HotpotQA",
+        "end_char": 19,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "928a8ce4d4d912a42885c353fa8f6cc2",
+        "passage_rank": 7,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "b4db991876e728038af2e134c397fc64",
+        "sentence_text": "The Eye (2008 film)",
+        "sentence_token_cost": 9,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 2.4285829067230225,
+        "dataset": "HotpotQA",
+        "end_char": 228,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "928a8ce4d4d912a42885c353fa8f6cc2",
+        "passage_rank": 7,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "66a91d2b35da358e817d825ba5c04bc1",
+        "sentence_text": "The Eye is a 2008 American supernatural horror film directed by David Moreau and Xavier Palud, scripted by Sebastian Gutierrez, and starring Jessica Alba, Parker Posey, Alessandro Nivola, and Rade \u0160erbed\u017eija.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 20
+      },
+      {
+        "cross_encoder_score": -8.62840461730957,
+        "dataset": "HotpotQA",
+        "end_char": 294,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "928a8ce4d4d912a42885c353fa8f6cc2",
+        "passage_rank": 7,
+        "query_id": "5ae73d505542991e8301cc2c",
+        "sentence_id": "ced5498d5bdc24a4a20470d3bc6b81b8",
+        "sentence_text": " It is a remake of the Pang Brothers' 2002 film of the same name.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 229
+      }
+    ],
+    "scoring_seconds": 0.1725058590527624,
+    "source_fingerprint": "d3464bccb3fabc9ab8c7655f7d5928fc3c07dfd5ce5d80ebb35dfed1c7f41749"
+  }
+}

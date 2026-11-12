@@ -1,0 +1,1731 @@
+{
+  "checksum": "be958710177ce50d7d2bc6eb93a3ca99bfef2462c8daf604aa763406c1a48f00",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "525"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 85,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "f33850a987370c13751ed820a3ed60166134b396e1ffc3a21c8be57667e8ec28",
+    "query_id": "525",
+    "scores": [
+      {
+        "cross_encoder_score": -6.145376205444336,
+        "dataset": "SciFact",
+        "end_char": 80,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "faffb8e8eac0bd0126ec8815c9b2d956",
+        "passage_rank": 7,
+        "query_id": "525",
+        "sentence_id": "0c9543f9feee84a09e0b7d643906a25f",
+        "sentence_text": "Histones are incorporated in trans during reassembly of the yeast PHO5 promoter.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          75,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.794461965560913,
+        "dataset": "SciFact",
+        "end_char": 253,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "faffb8e8eac0bd0126ec8815c9b2d956",
+        "passage_rank": 7,
+        "query_id": "525",
+        "sentence_id": "123e8ed70d68ca9991857905411a34a2",
+        "sentence_text": "In yeast, remodeling of PHO5 promoter chromatin upon activation is accompanied by transient hyperacetylation and subsequent eviction of histones from the promoter in trans.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          75,
+          0,
+          1,
+          0
+        ],
+        "source_position": 81
+      },
+      {
+        "cross_encoder_score": -9.017550468444824,
+        "dataset": "SciFact",
+        "end_char": 336,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "faffb8e8eac0bd0126ec8815c9b2d956",
+        "passage_rank": 7,
+        "query_id": "525",
+        "sentence_id": "5766f9e5ae9cb16a0183edffb859cf42",
+        "sentence_text": "In the course of rerepression, nucleosomes have to be reassembled on the promoter.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          75,
+          0,
+          2,
+          0
+        ],
+        "source_position": 254
+      },
+      {
+        "cross_encoder_score": -6.713900566101074,
+        "dataset": "SciFact",
+        "end_char": 433,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "faffb8e8eac0bd0126ec8815c9b2d956",
+        "passage_rank": 7,
+        "query_id": "525",
+        "sentence_id": "b0dfb503912e4102a519ddee23b6fb6c",
+        "sentence_text": "We have analyzed where the histones for reassembly of the inactive promoter chromatin come from.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          75,
+          0,
+          3,
+          0
+        ],
+        "source_position": 337
+      },
+      {
+        "cross_encoder_score": -7.873324871063232,
+        "dataset": "SciFact",
+        "end_char": 666,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "faffb8e8eac0bd0126ec8815c9b2d956",
+        "passage_rank": 7,
+        "query_id": "525",
+        "sentence_id": "76d22855a234efb66fbb3249a1a93fab",
+        "sentence_text": "The use of a strain with two differently tagged and differently regulated versions of histone H3 allowed us to discriminate between histones originating from the chromatin fraction and histones arising from the soluble histone pool.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          75,
+          0,
+          4,
+          0
+        ],
+        "source_position": 434
+      },
+      {
+        "cross_encoder_score": -7.19720983505249,
+        "dataset": "SciFact",
+        "end_char": 752,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "faffb8e8eac0bd0126ec8815c9b2d956",
+        "passage_rank": 7,
+        "query_id": "525",
+        "sentence_id": "c7ed91fe7bf2e0f73de85ae3dc87b6e3",
+        "sentence_text": "In this way, we show that the incorporated histones originate from a source in trans.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          75,
+          0,
+          5,
+          0
+        ],
+        "source_position": 667
+      },
+      {
+        "cross_encoder_score": -5.2520856857299805,
+        "dataset": "SciFact",
+        "end_char": 965,
+        "pair_tokens_before_truncation": 93,
+        "pair_truncated": false,
+        "passage_id": "faffb8e8eac0bd0126ec8815c9b2d956",
+        "passage_rank": 7,
+        "query_id": "525",
+        "sentence_id": "9cfd9dd3e6d4ec6144e90d8688abef78",
+        "sentence_text": "Promoter closure occurs very rapidly, and the histone chaperones Asf1 and Hir1 as well as the SWI/SNF nucleosome remodeling complex appear to be important for rapid reassembly of nucleosomes at the PHO5 promoter.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          75,
+          0,
+          6,
+          0
+        ],
+        "source_position": 753
+      },
+      {
+        "cross_encoder_score": -9.021992683410645,
+        "dataset": "SciFact",
+        "end_char": 85,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "e29810f3bd5deda746d5ba8cc5a00fda",
+        "passage_rank": 4,
+        "query_id": "525",
+        "sentence_id": "460b47c7114828e487bb99471ab208f7",
+        "sentence_text": "Epigenetic switch involved in activation of pioneer factor FOXA1-dependent enhancers.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          402,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.946004867553711,
+        "dataset": "SciFact",
+        "end_char": 204,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "e29810f3bd5deda746d5ba8cc5a00fda",
+        "passage_rank": 4,
+        "query_id": "525",
+        "sentence_id": "76f4c9bb112d967d87cc7c5cdaa6f655",
+        "sentence_text": "Transcription factors (TFs) bind specifically to discrete regions of mammalian genomes called cis-regulatory elements.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          402,
+          0,
+          1,
+          0
+        ],
+        "source_position": 86
+      },
+      {
+        "cross_encoder_score": -9.318977355957031,
+        "dataset": "SciFact",
+        "end_char": 325,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "e29810f3bd5deda746d5ba8cc5a00fda",
+        "passage_rank": 4,
+        "query_id": "525",
+        "sentence_id": "1037ee5be6ef578f786dfc585f52eb75",
+        "sentence_text": "Among those are enhancers, which play key roles in regulation of gene expression during development and differentiation.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          402,
+          0,
+          2,
+          0
+        ],
+        "source_position": 205
+      },
+      {
+        "cross_encoder_score": -9.99643611907959,
+        "dataset": "SciFact",
+        "end_char": 522,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "e29810f3bd5deda746d5ba8cc5a00fda",
+        "passage_rank": 4,
+        "query_id": "525",
+        "sentence_id": "7ef17a47328f9a4b984adb37bd34bcb9",
+        "sentence_text": "Despite the recognized central regulatory role exerted by chromatin in control of TF functions, much remains to be learned regarding the chromatin structure of enhancers and how it is established.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          402,
+          0,
+          3,
+          0
+        ],
+        "source_position": 326
+      },
+      {
+        "cross_encoder_score": -8.03238296508789,
+        "dataset": "SciFact",
+        "end_char": 697,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "e29810f3bd5deda746d5ba8cc5a00fda",
+        "passage_rank": 4,
+        "query_id": "525",
+        "sentence_id": "134fb968de69d5e06e91dc7e6cb7f71d",
+        "sentence_text": "Here, we have analyzed on a genomic-scale enhancers that recruit FOXA1, a pioneer transcription factor that triggers transcriptional competency of these cis-regulatory sites.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          402,
+          0,
+          4,
+          0
+        ],
+        "source_position": 523
+      },
+      {
+        "cross_encoder_score": -7.55224084854126,
+        "dataset": "SciFact",
+        "end_char": 917,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "e29810f3bd5deda746d5ba8cc5a00fda",
+        "passage_rank": 4,
+        "query_id": "525",
+        "sentence_id": "cb512b0e207498ffe9f0b5879532a1b3",
+        "sentence_text": "Importantly, we found that FOXA1 binds to genomic regions showing local DNA hypomethylation and that its cell-type-specific recruitment to chromatin is linked to differential DNA methylation levels of its binding sites.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          402,
+          0,
+          5,
+          0
+        ],
+        "source_position": 698
+      },
+      {
+        "cross_encoder_score": -3.5088155269622803,
+        "dataset": "SciFact",
+        "end_char": 1085,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "e29810f3bd5deda746d5ba8cc5a00fda",
+        "passage_rank": 4,
+        "query_id": "525",
+        "sentence_id": "68e9d936f0a6096498379519453c9fce",
+        "sentence_text": "Using neural differentiation as a model, we showed that induction of FOXA1 expression and its subsequent recruitment to enhancers is associated with DNA demethylation.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          402,
+          0,
+          6,
+          0
+        ],
+        "source_position": 918
+      },
+      {
+        "cross_encoder_score": -3.394498348236084,
+        "dataset": "SciFact",
+        "end_char": 1163,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "e29810f3bd5deda746d5ba8cc5a00fda",
+        "passage_rank": 4,
+        "query_id": "525",
+        "sentence_id": "875a5e97f4d3590cde4593ef3b796c69",
+        "sentence_text": "Concomitantly, histone H3 lysine 4 methylation is induced at these enhancers.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          402,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1086
+      },
+      {
+        "cross_encoder_score": -5.40875768661499,
+        "dataset": "SciFact",
+        "end_char": 1299,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "e29810f3bd5deda746d5ba8cc5a00fda",
+        "passage_rank": 4,
+        "query_id": "525",
+        "sentence_id": "3dd8407d0a31da27ced2055a83627c3c",
+        "sentence_text": "These epigenetic changes may both stabilize FOXA1 binding and allow for subsequent recruitment of transcriptional regulatory effectors.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          402,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1164
+      },
+      {
+        "cross_encoder_score": -9.925259590148926,
+        "dataset": "SciFact",
+        "end_char": 1433,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "e29810f3bd5deda746d5ba8cc5a00fda",
+        "passage_rank": 4,
+        "query_id": "525",
+        "sentence_id": "e7d7e6298ff21284de67a23f6e996083",
+        "sentence_text": "Interestingly, when cloned into reporter constructs, FOXA1-dependent enhancers were able to recapitulate their cell type specificity.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          402,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1300
+      },
+      {
+        "cross_encoder_score": -6.439379692077637,
+        "dataset": "SciFact",
+        "end_char": 1494,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "e29810f3bd5deda746d5ba8cc5a00fda",
+        "passage_rank": 4,
+        "query_id": "525",
+        "sentence_id": "f582b39999ffade4568b3445c60e8809",
+        "sentence_text": "However, their activities were inhibited by DNA methylation.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          402,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1434
+      },
+      {
+        "cross_encoder_score": -6.433928966522217,
+        "dataset": "SciFact",
+        "end_char": 1704,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "e29810f3bd5deda746d5ba8cc5a00fda",
+        "passage_rank": 4,
+        "query_id": "525",
+        "sentence_id": "445ba162e7579bd3486da258671f1154",
+        "sentence_text": "Hence, these enhancers are intrinsic cell-type-specific regulatory regions of which activities have to be potentiated by FOXA1 through induction of an epigenetic switch that includes notably DNA demethylation.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          402,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1495
+      },
+      {
+        "cross_encoder_score": -7.752316951751709,
+        "dataset": "SciFact",
+        "end_char": 69,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "502fbef05d81b31a07849e09e0e11500",
+        "passage_rank": 6,
+        "query_id": "525",
+        "sentence_id": "dd0d64bda46d9609d2c3e22f9f61c889",
+        "sentence_text": "DNA methylation status predicts cell type-specific enhancer activity.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          507,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.551460266113281,
+        "dataset": "SciFact",
+        "end_char": 230,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "502fbef05d81b31a07849e09e0e11500",
+        "passage_rank": 6,
+        "query_id": "525",
+        "sentence_id": "3bf5fe5c91108e3917e2bf63b0a7c327",
+        "sentence_text": "Cell-selective glucocorticoid receptor (GR) binding to distal regulatory elements is associated with cell type-specific regions of locally accessible chromatin.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          507,
+          0,
+          1,
+          0
+        ],
+        "source_position": 70
+      },
+      {
+        "cross_encoder_score": -8.811333656311035,
+        "dataset": "SciFact",
+        "end_char": 336,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "502fbef05d81b31a07849e09e0e11500",
+        "passage_rank": 6,
+        "query_id": "525",
+        "sentence_id": "3980589ee3b33ce6b819a40d87ee745c",
+        "sentence_text": "These regions can either pre-exist in chromatin (pre-programmed) or be induced by the receptor (de novo).",
+        "sentence_token_cost": 25,
+        "source_order": [
+          507,
+          0,
+          2,
+          0
+        ],
+        "source_position": 231
+      },
+      {
+        "cross_encoder_score": -9.133015632629395,
+        "dataset": "SciFact",
+        "end_char": 409,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "502fbef05d81b31a07849e09e0e11500",
+        "passage_rank": 6,
+        "query_id": "525",
+        "sentence_id": "4553992e2f9d30b0e663a0872b116eb9",
+        "sentence_text": "Mechanisms that create and maintain these sites are not well understood.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          507,
+          0,
+          3,
+          0
+        ],
+        "source_position": 337
+      },
+      {
+        "cross_encoder_score": -8.349886894226074,
+        "dataset": "SciFact",
+        "end_char": 589,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "502fbef05d81b31a07849e09e0e11500",
+        "passage_rank": 6,
+        "query_id": "525",
+        "sentence_id": "5e3b119ed198a24b93de35b994768106",
+        "sentence_text": "We observe a global enrichment of CpG density for pre-programmed elements, and implicate their demethylated state in the maintenance of open chromatin in a tissue-specific manner.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          507,
+          0,
+          4,
+          0
+        ],
+        "source_position": 410
+      },
+      {
+        "cross_encoder_score": -8.483244895935059,
+        "dataset": "SciFact",
+        "end_char": 787,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "502fbef05d81b31a07849e09e0e11500",
+        "passage_rank": 6,
+        "query_id": "525",
+        "sentence_id": "952b3945dd90749c45bb8ec5ca050a46",
+        "sentence_text": "In contrast, sites that are actively opened by GR (de novo) are characterized by low CpG density, and form a unique class of enhancers devoid of suppressive effect of agglomerated methyl-cytosines.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          507,
+          0,
+          5,
+          0
+        ],
+        "source_position": 590
+      },
+      {
+        "cross_encoder_score": -7.545873165130615,
+        "dataset": "SciFact",
+        "end_char": 914,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "502fbef05d81b31a07849e09e0e11500",
+        "passage_rank": 6,
+        "query_id": "525",
+        "sentence_id": "4b478287921193d87eecfecb60c6e984",
+        "sentence_text": "Furthermore, treatment with glucocorticoids induces rapid changes in methylation levels at selected CpGs within de novo sites.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          507,
+          0,
+          6,
+          0
+        ],
+        "source_position": 788
+      },
+      {
+        "cross_encoder_score": -8.514970779418945,
+        "dataset": "SciFact",
+        "end_char": 1055,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "502fbef05d81b31a07849e09e0e11500",
+        "passage_rank": 6,
+        "query_id": "525",
+        "sentence_id": "08005bfa38a7be773451f804de219e54",
+        "sentence_text": "Finally, we identify GR-binding elements with CpGs at critical positions, and show that methylation can affect GR-DNA interactions in vitro.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          507,
+          0,
+          7,
+          0
+        ],
+        "source_position": 915
+      },
+      {
+        "cross_encoder_score": -1.810552954673767,
+        "dataset": "SciFact",
+        "end_char": 1288,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "502fbef05d81b31a07849e09e0e11500",
+        "passage_rank": 6,
+        "query_id": "525",
+        "sentence_id": "eb37bdd3fd05c3410006474e4e07c6de",
+        "sentence_text": "The findings present a unique link between tissue-specific chromatin accessibility, DNA methylation and transcription factor binding and show that DNA methylation can be an integral component of gene regulation by nuclear receptors.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          507,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1056
+      },
+      {
+        "cross_encoder_score": -7.835498332977295,
+        "dataset": "SciFact",
+        "end_char": 96,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "464741f269554c05362701f27b4f6a5b",
+        "passage_rank": 3,
+        "query_id": "525",
+        "sentence_id": "735ca24f15b870b21e7d230c90bd7c47",
+        "sentence_text": "KDM5B regulates embryonic stem cell self-renewal and represses cryptic intragenic transcription.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          1193,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.6987714767456055,
+        "dataset": "SciFact",
+        "end_char": 239,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "464741f269554c05362701f27b4f6a5b",
+        "passage_rank": 3,
+        "query_id": "525",
+        "sentence_id": "30df9731d919475ee2b88b9f5ab3fb50",
+        "sentence_text": "Although regulation of histone methylation is believed to contribute to embryonic stem cell (ESC) self-renewal, the mechanisms remain obscure.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          1193,
+          0,
+          1,
+          0
+        ],
+        "source_position": 97
+      },
+      {
+        "cross_encoder_score": -3.738494396209717,
+        "dataset": "SciFact",
+        "end_char": 385,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "464741f269554c05362701f27b4f6a5b",
+        "passage_rank": 3,
+        "query_id": "525",
+        "sentence_id": "ebaa15357b03c6a6ac0a9193c49b84d3",
+        "sentence_text": "We show here that the histone H3 trimethyl lysine 4 (H3K4me3) demethylase, KDM5B, is a downstream Nanog target and critical for ESC self-renewal.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          1193,
+          0,
+          2,
+          0
+        ],
+        "source_position": 240
+      },
+      {
+        "cross_encoder_score": -9.612680435180664,
+        "dataset": "SciFact",
+        "end_char": 559,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "464741f269554c05362701f27b4f6a5b",
+        "passage_rank": 3,
+        "query_id": "525",
+        "sentence_id": "8389c3f242fd7bad503cb3c9186bb679",
+        "sentence_text": "Although KDM5B is believed to function as a promoter-bound repressor, we find that it paradoxically functions as an activator of a gene network associated with self-renewal.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          1193,
+          0,
+          3,
+          0
+        ],
+        "source_position": 386
+      },
+      {
+        "cross_encoder_score": -9.59106731414795,
+        "dataset": "SciFact",
+        "end_char": 728,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "464741f269554c05362701f27b4f6a5b",
+        "passage_rank": 3,
+        "query_id": "525",
+        "sentence_id": "0caac1836254a822216f78f185b43736",
+        "sentence_text": "ChIP-Seq reveals that KDM5B is predominantly targeted to intragenic regions and that it is recruited to H3K36me3 via an interaction with the chromodomain protein MRG15.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          1193,
+          0,
+          4,
+          0
+        ],
+        "source_position": 560
+      },
+      {
+        "cross_encoder_score": -7.121098518371582,
+        "dataset": "SciFact",
+        "end_char": 893,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "464741f269554c05362701f27b4f6a5b",
+        "passage_rank": 3,
+        "query_id": "525",
+        "sentence_id": "66dbc07fb3358e1254db2ac9edde122b",
+        "sentence_text": "Depletion of KDM5B or MRG15 increases intragenic H3K4me3, increases cryptic intragenic transcription, and inhibits transcriptional elongation of KDM5B target genes.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          1193,
+          0,
+          5,
+          0
+        ],
+        "source_position": 729
+      },
+      {
+        "cross_encoder_score": -7.047906875610352,
+        "dataset": "SciFact",
+        "end_char": 1087,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "464741f269554c05362701f27b4f6a5b",
+        "passage_rank": 3,
+        "query_id": "525",
+        "sentence_id": "4af4f4c9874c5424893784badbd9bbc2",
+        "sentence_text": "We propose that KDM5B activates self-renewal-associated gene expression by repressing cryptic initiation and maintaining an H3K4me3 gradient important for productive transcriptional elongation.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          1193,
+          0,
+          6,
+          0
+        ],
+        "source_position": 894
+      },
+      {
+        "cross_encoder_score": -2.831991672515869,
+        "dataset": "SciFact",
+        "end_char": 102,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "c1c5fa43d873a4ec053f53585cf08d4b",
+        "passage_rank": 10,
+        "query_id": "525",
+        "sentence_id": "a0d465f7bf58301f8f75257b684429e8",
+        "sentence_text": "The histone demethylases Jhdm1a/1b enhance somatic cell reprogramming in a vitamin-C-dependent manner.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          1344,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.921355247497559,
+        "dataset": "SciFact",
+        "end_char": 226,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "c1c5fa43d873a4ec053f53585cf08d4b",
+        "passage_rank": 10,
+        "query_id": "525",
+        "sentence_id": "5db9b31cd98597ca7d7406a4357c14b9",
+        "sentence_text": "Reprogramming of somatic cells into induced pluripotent stem cells (iPSCs) resets the epigenome to an embryonic-like state.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1344,
+          0,
+          1,
+          0
+        ],
+        "source_position": 103
+      },
+      {
+        "cross_encoder_score": -9.717556953430176,
+        "dataset": "SciFact",
+        "end_char": 315,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "c1c5fa43d873a4ec053f53585cf08d4b",
+        "passage_rank": 10,
+        "query_id": "525",
+        "sentence_id": "d39b9852cfa98d8c0664cdf509b692b4",
+        "sentence_text": "Vitamin C enhances the reprogramming process, but the underlying mechanisms are unclear.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          1344,
+          0,
+          2,
+          0
+        ],
+        "source_position": 227
+      },
+      {
+        "cross_encoder_score": -3.0256223678588867,
+        "dataset": "SciFact",
+        "end_char": 575,
+        "pair_tokens_before_truncation": 104,
+        "pair_truncated": false,
+        "passage_id": "c1c5fa43d873a4ec053f53585cf08d4b",
+        "passage_rank": 10,
+        "query_id": "525",
+        "sentence_id": "4713b5e41b67e9cc1a31c1e4bd777a07",
+        "sentence_text": "Here we show that the histone demethylases Jhdm1a/1b are key effectors of somatic cell reprogramming downstream of vitamin C. We first observed that vitamin C induces H3K36me2/3 demethylation in mouse embryonic fibroblasts in culture and during reprogramming.",
+        "sentence_token_cost": 67,
+        "source_order": [
+          1344,
+          0,
+          3,
+          0
+        ],
+        "source_position": 316
+      },
+      {
+        "cross_encoder_score": -7.127778053283691,
+        "dataset": "SciFact",
+        "end_char": 740,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "c1c5fa43d873a4ec053f53585cf08d4b",
+        "passage_rank": 10,
+        "query_id": "525",
+        "sentence_id": "d4c223488ff1956c76af7dc7d10baf70",
+        "sentence_text": "We then identified Jhdm1a/1b, two known vitamin-C-dependent H3K36 demethylases, as potent regulators of reprogramming through gain- and loss-of-function approaches.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          1344,
+          0,
+          4,
+          0
+        ],
+        "source_position": 576
+      },
+      {
+        "cross_encoder_score": -8.625822067260742,
+        "dataset": "SciFact",
+        "end_char": 895,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "c1c5fa43d873a4ec053f53585cf08d4b",
+        "passage_rank": 10,
+        "query_id": "525",
+        "sentence_id": "5cfe44e41c78bc03e3a3e9225f87f2cb",
+        "sentence_text": "Furthermore, we found that Jhdm1b accelerates cell cycle progression and suppresses cell senescence during reprogramming by repressing the Ink4/Arf locus.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          1344,
+          0,
+          5,
+          0
+        ],
+        "source_position": 741
+      },
+      {
+        "cross_encoder_score": -9.492670059204102,
+        "dataset": "SciFact",
+        "end_char": 1023,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "c1c5fa43d873a4ec053f53585cf08d4b",
+        "passage_rank": 10,
+        "query_id": "525",
+        "sentence_id": "4c925a8d3dc96b6ebeb91952238f1043",
+        "sentence_text": "Jhdm1b also cooperates with Oct4 to activate the microRNA cluster 302/367, an integral component of the pluripotency machinery.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          1344,
+          0,
+          6,
+          0
+        ],
+        "source_position": 896
+      },
+      {
+        "cross_encoder_score": -4.006824493408203,
+        "dataset": "SciFact",
+        "end_char": 1188,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "c1c5fa43d873a4ec053f53585cf08d4b",
+        "passage_rank": 10,
+        "query_id": "525",
+        "sentence_id": "811b38b81fcab7c3cc9b4d6e03e47c35",
+        "sentence_text": "Our results therefore reveal a role for H3K36me2/3 in cell fate determination and establish a link between histone demethylases and vitamin-C-induced reprogramming.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          1344,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1024
+      },
+      {
+        "cross_encoder_score": -5.3064351081848145,
+        "dataset": "SciFact",
+        "end_char": 97,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "e4baf0d53a9314a3ee38a654fb77fd96",
+        "passage_rank": 5,
+        "query_id": "525",
+        "sentence_id": "823e58af60b40843c48cd568e1bb9806",
+        "sentence_text": "RBP2 Belongs to a Family of Demethylases, Specific for Tri-and Dimethylated Lysine 4 on Histone 3",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1520,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.6195666790008545,
+        "dataset": "SciFact",
+        "end_char": 264,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "e4baf0d53a9314a3ee38a654fb77fd96",
+        "passage_rank": 5,
+        "query_id": "525",
+        "sentence_id": "3170c6387ae1eb934b4ce055895b5140",
+        "sentence_text": "Methylation of histones has been regarded as a stable modification defining the epigenetic program of the cell, which regulates chromatin structure and transcription.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1520,
+          0,
+          1,
+          0
+        ],
+        "source_position": 98
+      },
+      {
+        "cross_encoder_score": -2.2070722579956055,
+        "dataset": "SciFact",
+        "end_char": 375,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "e4baf0d53a9314a3ee38a654fb77fd96",
+        "passage_rank": 5,
+        "query_id": "525",
+        "sentence_id": "eada83b4e8fce5c0cebfe9926818001e",
+        "sentence_text": "However, the recent discovery of histone demethylases has challenged the stable nature of histone methylation.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1520,
+          0,
+          2,
+          0
+        ],
+        "source_position": 265
+      },
+      {
+        "cross_encoder_score": -3.934860944747925,
+        "dataset": "SciFact",
+        "end_char": 528,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "e4baf0d53a9314a3ee38a654fb77fd96",
+        "passage_rank": 5,
+        "query_id": "525",
+        "sentence_id": "05cd32133e943c616153e35ba8bd299a",
+        "sentence_text": "Here we demonstrate that the JARID1 proteins RBP2, PLU1, and SMCX are histone demethylases specific for di- and trimethylated histone 3 lysine 4 (H3K4).",
+        "sentence_token_cost": 50,
+        "source_order": [
+          1520,
+          0,
+          3,
+          0
+        ],
+        "source_position": 376
+      },
+      {
+        "cross_encoder_score": -9.918596267700195,
+        "dataset": "SciFact",
+        "end_char": 815,
+        "pair_tokens_before_truncation": 96,
+        "pair_truncated": false,
+        "passage_id": "e4baf0d53a9314a3ee38a654fb77fd96",
+        "passage_rank": 5,
+        "query_id": "525",
+        "sentence_id": "bc8145600f81c170d5ed1db5b71a19b6",
+        "sentence_text": "Consistent with a role for the JARID1 Drosophila homolog Lid in regulating expression of homeotic genes during development, we show that RBP2 is displaced from Hox genes during embryonic stem (ES) cell differentiation correlating with an increase of their H3K4me3 levels and expression.",
+        "sentence_token_cost": 66,
+        "source_order": [
+          1520,
+          0,
+          4,
+          0
+        ],
+        "source_position": 529
+      },
+      {
+        "cross_encoder_score": -10.013574600219727,
+        "dataset": "SciFact",
+        "end_char": 1002,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "e4baf0d53a9314a3ee38a654fb77fd96",
+        "passage_rank": 5,
+        "query_id": "525",
+        "sentence_id": "94390e1116ba5066feffd7c5cfb6c537",
+        "sentence_text": "Furthermore, we show that mutation or RNAi depletion of the C. elegans JARID1 homolog rbr-2 leads to increased levels of H3K4me3 during larval development and defects in vulva formation.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          1520,
+          0,
+          5,
+          0
+        ],
+        "source_position": 816
+      },
+      {
+        "cross_encoder_score": -5.6229119300842285,
+        "dataset": "SciFact",
+        "end_char": 1146,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "e4baf0d53a9314a3ee38a654fb77fd96",
+        "passage_rank": 5,
+        "query_id": "525",
+        "sentence_id": "2221836572d246401bfee977c2de9a26",
+        "sentence_text": "Taken together, these results suggest that H3K4me3/me2 demethylation regulated by the JARID1 family plays an important role during development.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          1520,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1003
+      },
+      {
+        "cross_encoder_score": 3.333456516265869,
+        "dataset": "SciFact",
+        "end_char": 106,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "2be16cb3089ff7f463f90dcade4828f5",
+        "passage_rank": 1,
+        "query_id": "525",
+        "sentence_id": "52e353ec13b776b28a8c694aabc4091f",
+        "sentence_text": "Histone Methylation-Dependent Mechanisms Impose Ligand Dependency for Gene Activation by Nuclear Receptors",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2225,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.3446038961410522,
+        "dataset": "SciFact",
+        "end_char": 370,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "2be16cb3089ff7f463f90dcade4828f5",
+        "passage_rank": 1,
+        "query_id": "525",
+        "sentence_id": "900a37349b0846d0076091c8c4af0e83",
+        "sentence_text": "Nuclear receptors undergo ligand-dependent conformational changes that are required for corepressor-coactivator exchange, but whether there is an actual requirement for specific epigenetic landmarks to impose ligand dependency for gene activation remains unknown.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          2225,
+          0,
+          1,
+          0
+        ],
+        "source_position": 107
+      },
+      {
+        "cross_encoder_score": 0.3424825668334961,
+        "dataset": "SciFact",
+        "end_char": 786,
+        "pair_tokens_before_truncation": 109,
+        "pair_truncated": false,
+        "passage_id": "2be16cb3089ff7f463f90dcade4828f5",
+        "passage_rank": 1,
+        "query_id": "525",
+        "sentence_id": "793443378540b36e54176cae558b648f",
+        "sentence_text": "Here we report an unexpected and general strategy that is based on the requirement for specific cohorts of inhibitory histone methyltransferases (HMTs) to impose gene-specific gatekeeper functions that prevent unliganded nuclear receptors and other classes of regulated transcription factors from binding to their target gene promoters and causing constitutive gene activation in the absence of stimulating signals.",
+        "sentence_token_cost": 71,
+        "source_order": [
+          2225,
+          0,
+          2,
+          0
+        ],
+        "source_position": 371
+      },
+      {
+        "cross_encoder_score": 0.2634689211845398,
+        "dataset": "SciFact",
+        "end_char": 1022,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "2be16cb3089ff7f463f90dcade4828f5",
+        "passage_rank": 1,
+        "query_id": "525",
+        "sentence_id": "485e47f3364bed5efbf89b5c5e5781cc",
+        "sentence_text": "This strategy, based at least in part on an HMT-dependent inhibitory histone code, imposes a requirement for specific histone demethylases, including LSD1, to permit ligand- and signal-dependent activation of regulated gene expression.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          2225,
+          0,
+          3,
+          0
+        ],
+        "source_position": 787
+      },
+      {
+        "cross_encoder_score": 0.527962327003479,
+        "dataset": "SciFact",
+        "end_char": 1233,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "2be16cb3089ff7f463f90dcade4828f5",
+        "passage_rank": 1,
+        "query_id": "525",
+        "sentence_id": "b20ad6b1c2423bed6081cb02320cae0b",
+        "sentence_text": "These events link an inhibitory methylation component of the histone code to a broadly used strategy that circumvents pathological constitutive gene induction by physiologically regulated transcription factors.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          2225,
+          0,
+          4,
+          0
+        ],
+        "source_position": 1023
+      },
+      {
+        "cross_encoder_score": -3.5079777240753174,
+        "dataset": "SciFact",
+        "end_char": 111,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "59271e8520cad002b57ef5c924ef5634",
+        "passage_rank": 2,
+        "query_id": "525",
+        "sentence_id": "d2d6c39151231cfdfeac8b61d2d4a5f6",
+        "sentence_text": "The Histone H3 Lysine-27 Demethylase Jmjd3 Links Inflammation to Inhibition of Polycomb-Mediated Gene Silencing",
+        "sentence_token_cost": 34,
+        "source_order": [
+          2880,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.852460861206055,
+        "dataset": "SciFact",
+        "end_char": 279,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "59271e8520cad002b57ef5c924ef5634",
+        "passage_rank": 2,
+        "query_id": "525",
+        "sentence_id": "cb07aae9ffc33ff44b579622e21ad418",
+        "sentence_text": "Epigenetic chromatin marks restrict the ability of differentiated cells to change gene expression programs in response to environmental cues and to transdifferentiate.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          2880,
+          0,
+          1,
+          0
+        ],
+        "source_position": 112
+      },
+      {
+        "cross_encoder_score": -3.743557929992676,
+        "dataset": "SciFact",
+        "end_char": 438,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "59271e8520cad002b57ef5c924ef5634",
+        "passage_rank": 2,
+        "query_id": "525",
+        "sentence_id": "6e17b362064e16efa61d68832b014fb9",
+        "sentence_text": "Polycomb group (PcG) proteins mediate gene silencing and repress transdifferentiation in a manner dependent on histone H3 lysine 27 trimethylation (H3K27me3).",
+        "sentence_token_cost": 46,
+        "source_order": [
+          2880,
+          0,
+          2,
+          0
+        ],
+        "source_position": 280
+      },
+      {
+        "cross_encoder_score": -9.90937328338623,
+        "dataset": "SciFact",
+        "end_char": 585,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "59271e8520cad002b57ef5c924ef5634",
+        "passage_rank": 2,
+        "query_id": "525",
+        "sentence_id": "210f52362ca251c7671e504d4b40c0cc",
+        "sentence_text": "However, macrophages migrated into inflamed tissues can transdifferentiate, but it is unknown whether inflammation alters PcG-dependent silencing.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          2880,
+          0,
+          3,
+          0
+        ],
+        "source_position": 439
+      },
+      {
+        "cross_encoder_score": -7.785741806030273,
+        "dataset": "SciFact",
+        "end_char": 745,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "59271e8520cad002b57ef5c924ef5634",
+        "passage_rank": 2,
+        "query_id": "525",
+        "sentence_id": "6d285b6f456d96b2cd2e9887f6c6bfc1",
+        "sentence_text": "Here we show that the JmjC-domain protein Jmjd3 is a H3K27me demethylase expressed in macrophages in response to bacterial products and inflammatory cytokines.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          2880,
+          0,
+          4,
+          0
+        ],
+        "source_position": 586
+      },
+      {
+        "cross_encoder_score": -7.477386951446533,
+        "dataset": "SciFact",
+        "end_char": 840,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "59271e8520cad002b57ef5c924ef5634",
+        "passage_rank": 2,
+        "query_id": "525",
+        "sentence_id": "9aeb600e89b43a61cd652e3902ee007a",
+        "sentence_text": "Jmjd3 binds PcG target genes and regulates their H3K27me3 levels and transcriptional activity.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          2880,
+          0,
+          5,
+          0
+        ],
+        "source_position": 746
+      },
+      {
+        "cross_encoder_score": -7.7810797691345215,
+        "dataset": "SciFact",
+        "end_char": 1151,
+        "pair_tokens_before_truncation": 88,
+        "pair_truncated": false,
+        "passage_id": "59271e8520cad002b57ef5c924ef5634",
+        "passage_rank": 2,
+        "query_id": "525",
+        "sentence_id": "7735c9628c3ea9e4ec7afcf8a1e10ef7",
+        "sentence_text": "The discovery of an inducible enzyme that erases a histone mark controlling differentiation and cell identity provides a link between inflammation and reprogramming of the epigenome, which could be the basis for macrophage plasticity and might explain the differentiation abnormalities in chronic inflammation.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          2880,
+          0,
+          6,
+          0
+        ],
+        "source_position": 841
+      },
+      {
+        "cross_encoder_score": -6.899537086486816,
+        "dataset": "SciFact",
+        "end_char": 87,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "95926d011cd40ff7e892fe608b6a18c9",
+        "sentence_text": "Activator Control of Nucleosome Occupancy in Activation and Repression of Transcription",
+        "sentence_token_cost": 17,
+        "source_order": [
+          2885,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.37637996673584,
+        "dataset": "SciFact",
+        "end_char": 183,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "e56d20f5ff160a795b69c4d61ada5bb5",
+        "sentence_text": "The relationship between chromatin structure and gene expression is a subject of intense study.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          2885,
+          0,
+          1,
+          0
+        ],
+        "source_position": 88
+      },
+      {
+        "cross_encoder_score": -6.910671234130859,
+        "dataset": "SciFact",
+        "end_char": 328,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "2440fad0e989561717edec216f89c622",
+        "sentence_text": "The universal transcriptional activator Gal4 removes promoter nucleosomes as it triggers transcription, but how it does so has remained obscure.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2885,
+          0,
+          2,
+          0
+        ],
+        "source_position": 184
+      },
+      {
+        "cross_encoder_score": -7.278752326965332,
+        "dataset": "SciFact",
+        "end_char": 438,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "eaf4d0e76e8211ccea3846f040129422",
+        "sentence_text": "The reverse process, repression of transcription, has often been correlated with the presence of nucleosomes.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2885,
+          0,
+          3,
+          0
+        ],
+        "source_position": 329
+      },
+      {
+        "cross_encoder_score": -8.49977970123291,
+        "dataset": "SciFact",
+        "end_char": 508,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "d69cf53252814680c36ee72ad0323b11",
+        "sentence_text": "But it is not known whether nucleosomes are required for that effect.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          2885,
+          0,
+          4,
+          0
+        ],
+        "source_position": 439
+      },
+      {
+        "cross_encoder_score": -10.308450698852539,
+        "dataset": "SciFact",
+        "end_char": 662,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "d91353b828f1a4bebdf671d05fc6fa0f",
+        "sentence_text": "A new quantitative assay describes, for any given location, the fraction of DNA molecules in the population that bears a nucleosome at any given instant.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          2885,
+          0,
+          5,
+          0
+        ],
+        "source_position": 509
+      },
+      {
+        "cross_encoder_score": -10.269633293151855,
+        "dataset": "SciFact",
+        "end_char": 860,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "9bcf23ed0a67611caecc0dfe47ad8851",
+        "sentence_text": "This allows us to follow the time courses of nucleosome removal and reformation, in wild-type and mutant cells, upon activation (by galactose) and repression (by glucose) of the GAL genes of yeast.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          2885,
+          0,
+          6,
+          0
+        ],
+        "source_position": 663
+      },
+      {
+        "cross_encoder_score": -9.226614952087402,
+        "dataset": "SciFact",
+        "end_char": 1055,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "c1223febf399f6f3c831eef188b0fa4d",
+        "sentence_text": "We show that upon being freed of its inhibitor Gal80 by the action of galactose, Gal4 quickly recruits SWI/SNF to the genes, and that nucleosome \"remodeler\" rapidly removes promoter nucleosomes.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          2885,
+          0,
+          7,
+          0
+        ],
+        "source_position": 861
+      },
+      {
+        "cross_encoder_score": -5.172539710998535,
+        "dataset": "SciFact",
+        "end_char": 1214,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "63e0cf049878d44417e585c1a7aeaae6",
+        "sentence_text": "In the absence of SWI/SNF, Gal4's action also results in nucleosome removal and the activation of transcription, but both processes are significantly delayed.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          2885,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1056
+      },
+      {
+        "cross_encoder_score": -7.377497673034668,
+        "dataset": "SciFact",
+        "end_char": 1289,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "c76097dff7ba53f4d040edeba4b866aa",
+        "sentence_text": "Addition of glucose to cells growing in galactose represses transcription.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          2885,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1215
+      },
+      {
+        "cross_encoder_score": -8.678205490112305,
+        "dataset": "SciFact",
+        "end_char": 1439,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "b2428371fe1f8b344d85bcca58f57046",
+        "sentence_text": "But if galactose remains present, Gal4 continues to work, recruiting SWI/SNF and maintaining the promoter nucleosome-free despite it being repressed.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          2885,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1290
+      },
+      {
+        "cross_encoder_score": -9.81773567199707,
+        "dataset": "SciFact",
+        "end_char": 1530,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "11779f2f4cf81ca2bb29e8ccb0707b7b",
+        "sentence_text": "This requirement for galactose is obviated in a mutant in which Gal4 works constitutively.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          2885,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1440
+      },
+      {
+        "cross_encoder_score": -8.626675605773926,
+        "dataset": "SciFact",
+        "end_char": 1664,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "64def5c6344613fad5e5b8eb4fb3d27b",
+        "sentence_text": "These results show how an activator's recruiting function can control chromatin structure both during gene activation and repression.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          2885,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1531
+      },
+      {
+        "cross_encoder_score": -8.941581726074219,
+        "dataset": "SciFact",
+        "end_char": 1801,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "e372456afd16cc9ce67c6c0086e0c86c",
+        "sentence_text": "Thus, both under activating and repressing conditions, the activator can recruit an enzymatic machine that removes promoter nucleosomes.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2885,
+          0,
+          13,
+          0
+        ],
+        "source_position": 1665
+      },
+      {
+        "cross_encoder_score": -9.488694190979004,
+        "dataset": "SciFact",
+        "end_char": 1953,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "26b933ce64b72d4907da994e146136a2",
+        "sentence_text": "Our results show that whereas promoter nucleosome removal invariably accompanies activation, reformation of nucleosomes is not required for repression.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2885,
+          0,
+          14,
+          0
+        ],
+        "source_position": 1802
+      },
+      {
+        "cross_encoder_score": -5.681884765625,
+        "dataset": "SciFact",
+        "end_char": 2305,
+        "pair_tokens_before_truncation": 112,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "69dfb994bcefee7284c2dfce0e9b65eb",
+        "sentence_text": "The finding that there are two routes to nucleosome removal and activation of transcription-one that requires the action of SWI/SNF recruited by the activator, and a slower one that does not-clarifies our understanding of the early events of gene activation, and in particular corrects earlier reports that SWI/SNF plays no role in GAL gene induction.",
+        "sentence_token_cost": 71,
+        "source_order": [
+          2885,
+          0,
+          15,
+          0
+        ],
+        "source_position": 1954
+      },
+      {
+        "cross_encoder_score": -10.275649070739746,
+        "dataset": "SciFact",
+        "end_char": 2587,
+        "pair_tokens_before_truncation": 90,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "71b338f28f32698e3888a0e1373092bf",
+        "sentence_text": "Our finding that chromatin structure is irrelevant for repression as studied here-that is, repression sets in as efficiently whether or not promoter nucleosomes are allowed to reform-contradicts the widely held, but little tested, idea that nucleosomes are required for repression.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          2885,
+          0,
+          16,
+          0
+        ],
+        "source_position": 2306
+      },
+      {
+        "cross_encoder_score": -9.058168411254883,
+        "dataset": "SciFact",
+        "end_char": 2656,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "cd955b14e63ffbd83f56edc4d3a17cf6",
+        "sentence_text": "These findings were made possible by our nucleosome occupancy assay.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          2885,
+          0,
+          17,
+          0
+        ],
+        "source_position": 2588
+      },
+      {
+        "cross_encoder_score": -9.817739486694336,
+        "dataset": "SciFact",
+        "end_char": 2748,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "e80e4f9cc84596e3181d622f08bb9140",
+        "passage_rank": 9,
+        "query_id": "525",
+        "sentence_id": "00086f7b8e00c14152ed212f850e18f4",
+        "sentence_text": "The assay, we believe, will prove useful in studying other outstanding issues in the field.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          2885,
+          0,
+          18,
+          0
+        ],
+        "source_position": 2657
+      },
+      {
+        "cross_encoder_score": -7.160369396209717,
+        "dataset": "SciFact",
+        "end_char": 68,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "9c5ba5c29bdd99c3a2b36d2682188e00",
+        "passage_rank": 8,
+        "query_id": "525",
+        "sentence_id": "c830bd97dd467fc50c79f1c02164350b",
+        "sentence_text": "Controlling nuclear receptors: the circular logic of cofactor cycles",
+        "sentence_token_cost": 12,
+        "source_order": [
+          2999,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.612371921539307,
+        "dataset": "SciFact",
+        "end_char": 242,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "9c5ba5c29bdd99c3a2b36d2682188e00",
+        "passage_rank": 8,
+        "query_id": "525",
+        "sentence_id": "362b62c990d419c80ee4e4dc9f90dce0",
+        "sentence_text": "Nuclear receptors regulate many biologically important processes in development and homeostasis by their bimodal function as repressors and activators of gene transcription.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          2999,
+          0,
+          1,
+          0
+        ],
+        "source_position": 69
+      },
+      {
+        "cross_encoder_score": -4.004596710205078,
+        "dataset": "SciFact",
+        "end_char": 413,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "9c5ba5c29bdd99c3a2b36d2682188e00",
+        "passage_rank": 8,
+        "query_id": "525",
+        "sentence_id": "c4f17b24499a13eb3f1d95cc2f85f298",
+        "sentence_text": "A finely tuned modulation of the transcriptional activities of nuclear receptors is crucial for determining highly specific and diversified programmes of gene expression.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          2999,
+          0,
+          2,
+          0
+        ],
+        "source_position": 243
+      },
+      {
+        "cross_encoder_score": -4.873063087463379,
+        "dataset": "SciFact",
+        "end_char": 831,
+        "pair_tokens_before_truncation": 99,
+        "pair_truncated": false,
+        "passage_id": "9c5ba5c29bdd99c3a2b36d2682188e00",
+        "passage_rank": 8,
+        "query_id": "525",
+        "sentence_id": "e0c95f8c862d453e60e1c4ffb3a13f36",
+        "sentence_text": "Recent studies have provided insights into the molecular mechanisms that are required to switch between repression and activation functions, the combinatorial roles of the multiple cofactor complexes that are required for mediating transcriptional regulation, and the central question of how several different signalling pathways can be integrated at the nuclear level to achieve specific profiles of gene expression.",
+        "sentence_token_cost": 66,
+        "source_order": [
+          2999,
+          0,
+          3,
+          0
+        ],
+        "source_position": 414
+      }
+    ],
+    "scoring_seconds": 0.49175864504650235,
+    "source_fingerprint": "966120ce12a3a5602de6d584ccc05b7b56a74f63b06a10867d3028d27be0f433"
+  }
+}

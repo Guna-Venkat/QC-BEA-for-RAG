@@ -1,0 +1,1951 @@
+{
+  "checksum": "35f9e7be06be12c68154436ba7d2fbc328a47285b1825431c73f027cc4636e70",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "5a8cc8f80509ea77d8213ed28c5ead501c68c725"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 96,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "88373708bcd57a622b73f8577d4c65e7e3a597697af3132523274e9ca60734bb",
+    "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+    "scores": [
+      {
+        "cross_encoder_score": -5.661909103393555,
+        "dataset": "QASPER",
+        "end_char": 200,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "2e83152c702818295ed1c8d3229864a0",
+        "passage_rank": 4,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "4a262781817b68e4dd2d783ac4548f6d",
+        "sentence_text": "Predicting the Type and Target of Offensive Posts in Social Media\tAs offensive content has become pervasive in social media, there has been much research in identifying potentially offensive messages.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.543137311935425,
+        "dataset": "QASPER",
+        "end_char": 406,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "2e83152c702818295ed1c8d3229864a0",
+        "passage_rank": 4,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "6eb65bbb3ea2f0c2ced223211bd16d19",
+        "sentence_text": "However, previous work on this topic did not consider the problem as a whole, but rather focused on detecting very specific types of offensive content, e.g., hate speech, cyberbulling, or cyber-aggression.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 201
+      },
+      {
+        "cross_encoder_score": -2.7585904598236084,
+        "dataset": "QASPER",
+        "end_char": 480,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "2e83152c702818295ed1c8d3229864a0",
+        "passage_rank": 4,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "e6c2fafa510a40fdbb7c9582a74cbb1c",
+        "sentence_text": "In contrast, here we target several different kinds of offensive content.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 407
+      },
+      {
+        "cross_encoder_score": -3.5825071334838867,
+        "dataset": "QASPER",
+        "end_char": 604,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "2e83152c702818295ed1c8d3229864a0",
+        "passage_rank": 4,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "4c61b4d2888e0c520632d7b5035f7a82",
+        "sentence_text": "In particular, we model the task hierarchically, identifying the type and the target of offensive messages in social media.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 481
+      },
+      {
+        "cross_encoder_score": 0.29696038365364075,
+        "dataset": "QASPER",
+        "end_char": 832,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "2e83152c702818295ed1c8d3229864a0",
+        "passage_rank": 4,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "fd8f74e779a92317532f6bd1563bff69",
+        "sentence_text": "For this purpose, we complied the Offensive Language Identification Dataset (OLID), a new dataset with tweets annotated for offensive content using a fine-grained three-layer annotation scheme, which we make publicly available.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 605
+      },
+      {
+        "cross_encoder_score": -9.485536575317383,
+        "dataset": "QASPER",
+        "end_char": 993,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "2e83152c702818295ed1c8d3229864a0",
+        "passage_rank": 4,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "a53b283f277306af0e3619655310913a",
+        "sentence_text": "We discuss the main similarities and differences between OLID and pre-existing datasets for hate speech identification, aggression detection, and similar tasks.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 833
+      },
+      {
+        "cross_encoder_score": -11.308175086975098,
+        "dataset": "QASPER",
+        "end_char": 1097,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "2e83152c702818295ed1c8d3229864a0",
+        "passage_rank": 4,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "fa945350b468d60eddf02d62a1ad0cb3",
+        "sentence_text": "We further experiment with and we compare the performance of different machine learning models on OLID.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 994
+      },
+      {
+        "cross_encoder_score": -2.8714287281036377,
+        "dataset": "QASPER",
+        "end_char": 1268,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "2e83152c702818295ed1c8d3229864a0",
+        "passage_rank": 4,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "87e96d1cf462fb1ee176ffb1f0ed91a7",
+        "sentence_text": "Introduction\tOffensive content has become pervasive in social media and a reason of concern for government organizations, online communities, and social media platforms.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1099
+      },
+      {
+        "cross_encoder_score": -6.149911880493164,
+        "dataset": "QASPER",
+        "end_char": 1435,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "2e83152c702818295ed1c8d3229864a0",
+        "passage_rank": 4,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "f9f950d8ac362e49bc1698376e905306",
+        "sentence_text": "One of the most common strategies to tackle the problem is to train systems capable of recognizing offensive content, which then can be deleted or set aside for human",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1269
+      },
+      {
+        "cross_encoder_score": -9.393339157104492,
+        "dataset": "QASPER",
+        "end_char": 1447,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "925c71b9a9158ae011594a40dc225369",
+        "passage_rank": 1,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "ec69243eef55948660ad1fa41e8f77a4",
+        "sentence_text": "moderation.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1436
+      },
+      {
+        "cross_encoder_score": -11.203017234802246,
+        "dataset": "QASPER",
+        "end_char": 1583,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "925c71b9a9158ae011594a40dc225369",
+        "passage_rank": 1,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "d1ec9f0d7aac0511a5bd1c3bceb9c92e",
+        "sentence_text": "In the last few years, there have been several studies published on the application of computational methods to deal with this problem.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1448
+      },
+      {
+        "cross_encoder_score": 4.397942543029785,
+        "dataset": "QASPER",
+        "end_char": 1812,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "925c71b9a9158ae011594a40dc225369",
+        "passage_rank": 1,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "2fa8080c9de60a27883801b56b16fb02",
+        "sentence_text": "Most prior work focuses on a different aspect of offensive language such as abusive language  ,  , (cyber-)aggression  , (cyber-)bullying  ,  , toxic comments INLINEFORM0 , hate speech  ,  ,  ,  ,  ,  , and offensive language  .",
+        "sentence_token_cost": 62,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1584
+      },
+      {
+        "cross_encoder_score": 1.763987421989441,
+        "dataset": "QASPER",
+        "end_char": 1939,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "925c71b9a9158ae011594a40dc225369",
+        "passage_rank": 1,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "8c40b932b933639e8f253a31db478b4d",
+        "sentence_text": "Prior work has focused on these aspects of offensive language in Twitter  ,  ,  ,  , Wikipedia comments, and Facebook posts  .",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1813
+      },
+      {
+        "cross_encoder_score": -9.631813049316406,
+        "dataset": "QASPER",
+        "end_char": 1960,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "925c71b9a9158ae011594a40dc225369",
+        "passage_rank": 1,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "b99261590a15f16c57f728f2ba6c19f8",
+        "sentence_text": "Recently, Waseem et.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 1940
+      },
+      {
+        "cross_encoder_score": -7.255703449249268,
+        "dataset": "QASPER",
+        "end_char": 1964,
+        "pair_tokens_before_truncation": 13,
+        "pair_truncated": false,
+        "passage_id": "925c71b9a9158ae011594a40dc225369",
+        "passage_rank": 1,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "fad73d690f795b682edc58abdf9b47f8",
+        "sentence_text": "al.",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 1961
+      },
+      {
+        "cross_encoder_score": -3.984476089477539,
+        "dataset": "QASPER",
+        "end_char": 2253,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "925c71b9a9158ae011594a40dc225369",
+        "passage_rank": 1,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "2367431fce6e8e47d62f7179b2985370",
+        "sentence_text": "(  ) acknowledged the similarities among prior work and discussed the need for a typology that differentiates between whether the (abusive) language is directed towards a specific individual or entity or towards a generalized group and whether the abusive content is explicit or implicit.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 1965
+      },
+      {
+        "cross_encoder_score": -10.891682624816895,
+        "dataset": "QASPER",
+        "end_char": 2319,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "925c71b9a9158ae011594a40dc225369",
+        "passage_rank": 1,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "633bd8d5b2bc5b8080dfe514f7958e93",
+        "sentence_text": "Wiegand et al. (  ) followed this trend as well on German tweets.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2254
+      },
+      {
+        "cross_encoder_score": -5.821695804595947,
+        "dataset": "QASPER",
+        "end_char": 2499,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "925c71b9a9158ae011594a40dc225369",
+        "passage_rank": 1,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "555e5a8aea0e393b6e7ef4c0a7b2af2c",
+        "sentence_text": "In their evaluation, they have a task to detect offensive vs not offensive tweets and a second task for distinguishing between the offensive tweets as profanity, insult, or abuse.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          1,
+          8,
+          0
+        ],
+        "source_position": 2320
+      },
+      {
+        "cross_encoder_score": 1.9478925466537476,
+        "dataset": "QASPER",
+        "end_char": 2636,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "925c71b9a9158ae011594a40dc225369",
+        "passage_rank": 1,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "8e011777ec66509ee09a1bb1c014c3a6",
+        "sentence_text": "However, no prior work has explored the target of the offensive language, which is important in many scenarios, e.g., when studying hate",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          1,
+          9,
+          0
+        ],
+        "source_position": 2500
+      },
+      {
+        "cross_encoder_score": -10.60391902923584,
+        "dataset": "QASPER",
+        "end_char": 4034,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "803eaf1c5739dcfc20d529fb7825717d",
+        "passage_rank": 6,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "ad5713eb0ad344de6d673e721538d129",
+        "sentence_text": "previous messages to improve bullying detection.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 3986
+      },
+      {
+        "cross_encoder_score": -6.924221992492676,
+        "dataset": "QASPER",
+        "end_char": 4134,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "803eaf1c5739dcfc20d529fb7825717d",
+        "passage_rank": 6,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "f75504268c6a4b7e073b2fbd5eda488e",
+        "sentence_text": "Hate speech identification: It is perhaps the most widespread abusive language detection sub-task.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 4036
+      },
+      {
+        "cross_encoder_score": -10.11349868774414,
+        "dataset": "QASPER",
+        "end_char": 4356,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "803eaf1c5739dcfc20d529fb7825717d",
+        "passage_rank": 6,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "93451337aef8dd18a54ec2e6ed2ff301",
+        "sentence_text": "There have been several studies published on this sub-task such as kwok2013locate and djuric2015hate who build a binary classifier to distinguish between `clean' comments and comments containing hate speech and profanity.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4135
+      },
+      {
+        "cross_encoder_score": -7.251371383666992,
+        "dataset": "QASPER",
+        "end_char": 4545,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "803eaf1c5739dcfc20d529fb7825717d",
+        "passage_rank": 6,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "736f527cf3e660afa1ff4cd779ce9e12",
+        "sentence_text": "More recently, Davidson et al. davidson2017automated presented the hate speech detection dataset containing over 24,000 English tweets labeled as non offensive, hate speech, and profanity.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4357
+      },
+      {
+        "cross_encoder_score": 5.634593963623047,
+        "dataset": "QASPER",
+        "end_char": 4655,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "803eaf1c5739dcfc20d529fb7825717d",
+        "passage_rank": 6,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "ef4dda141558ef0d4eec831e8379c91e",
+        "sentence_text": "Offensive language: The GermEval  shared task focused on Offensive language identification in German tweets.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 4547
+      },
+      {
+        "cross_encoder_score": -5.628430366516113,
+        "dataset": "QASPER",
+        "end_char": 4966,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "803eaf1c5739dcfc20d529fb7825717d",
+        "passage_rank": 6,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "3400208be94bb026ffa25e187cdc01ab",
+        "sentence_text": "A dataset of over 8,500 annotated tweets was provided for a course-grained binary classification task in which systems were trained to discriminate between offensive and non-offensive tweets and a second task where the organizers broke down the offensive class into three classes: profanity, insult, and abuse.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 4656
+      },
+      {
+        "cross_encoder_score": -10.504854202270508,
+        "dataset": "QASPER",
+        "end_char": 5202,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "803eaf1c5739dcfc20d529fb7825717d",
+        "passage_rank": 6,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "6533a7b4c6ec4da5981f4ad30cdd2332",
+        "sentence_text": "Toxic comments: The Toxic Comment Classification Challenge was an open competition at Kaggle which provided participants with comments from Wikipedia labeled in six classes: toxic, severe toxic, obscene, threat, insult, identity hate.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 4968
+      },
+      {
+        "cross_encoder_score": -9.843411445617676,
+        "dataset": "QASPER",
+        "end_char": 5279,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "803eaf1c5739dcfc20d529fb7825717d",
+        "passage_rank": 6,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "b458e2e3c7408fb3425e99e21b1ad2db",
+        "sentence_text": "While each of these sub-tasks tackle a particular type of abuse or offense,",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 5204
+      },
+      {
+        "cross_encoder_score": -10.982145309448242,
+        "dataset": "QASPER",
+        "end_char": 5392,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "a4dcc12e7990dbe3de2446b6067d22f8",
+        "passage_rank": 3,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "0cbdfe57d674f27e0f24f8a270f89572",
+        "sentence_text": "they share similar properties and the hierarchical annotation model proposed in this paper aims to capture this.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "source_position": 5280
+      },
+      {
+        "cross_encoder_score": 0.8253461718559265,
+        "dataset": "QASPER",
+        "end_char": 5690,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "a4dcc12e7990dbe3de2446b6067d22f8",
+        "passage_rank": 3,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "b6329985e1ecf0d96263f24f5cc747f3",
+        "sentence_text": "Considering that, for example, an insult targeted at an individual is commonly known as cyberbulling and that insults targeted at a group are known as hate speech, we pose that OLID's hierarchical annotation model makes it a useful resource for various offensive language identification sub-tasks.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "source_position": 5393
+      },
+      {
+        "cross_encoder_score": 0.9995826482772827,
+        "dataset": "QASPER",
+        "end_char": 5938,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "a4dcc12e7990dbe3de2446b6067d22f8",
+        "passage_rank": 3,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "77cbd431eba48de7c2a2760420f8be48",
+        "sentence_text": "Hierarchically Modelling Offensive Content\tIn the OLID dataset, we use a hierarchical annotation model split into three levels to distinguish between whether language is offensive or not (A), and type (B) and target (C) of the offensive language.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "source_position": 5692
+      },
+      {
+        "cross_encoder_score": -11.240668296813965,
+        "dataset": "QASPER",
+        "end_char": 6049,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "a4dcc12e7990dbe3de2446b6067d22f8",
+        "passage_rank": 3,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "c9d6313858a2c14713f9e75f9f7a0a93",
+        "sentence_text": "Each level is described in more detail in the following subsections and examples are shown in Table TABREF10 .",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "source_position": 5939
+      },
+      {
+        "cross_encoder_score": 0.8929266929626465,
+        "dataset": "QASPER",
+        "end_char": 6166,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "a4dcc12e7990dbe3de2446b6067d22f8",
+        "passage_rank": 3,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "5cf7fdeb5fb994eec88e57860f85fd64",
+        "sentence_text": "Level A: Offensive language Detection\tLevel A discriminates between offensive (OFF) and non-offensive (NOT) tweets.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "source_position": 6051
+      },
+      {
+        "cross_encoder_score": 1.9280447959899902,
+        "dataset": "QASPER",
+        "end_char": 6399,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "a4dcc12e7990dbe3de2446b6067d22f8",
+        "passage_rank": 3,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "4fb7d7f3169898e81aea9bd7b159c023",
+        "sentence_text": "Not Offensive (NOT): Posts that do not contain offense or profanity; Offensive (OFF): We label a post as offensive if it contains any form of non-acceptable language (profanity) or a targeted offense, which can be veiled or direct.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          4,
+          5,
+          0
+        ],
+        "source_position": 6168
+      },
+      {
+        "cross_encoder_score": -3.5964303016662598,
+        "dataset": "QASPER",
+        "end_char": 6494,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "a4dcc12e7990dbe3de2446b6067d22f8",
+        "passage_rank": 3,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "b2976d2fb8366b20aa1d394d59984f65",
+        "sentence_text": "This category includes insults, threats, and posts containing profane language or swear words.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          4,
+          6,
+          0
+        ],
+        "source_position": 6400
+      },
+      {
+        "cross_encoder_score": 0.5256360769271851,
+        "dataset": "QASPER",
+        "end_char": 6565,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "a4dcc12e7990dbe3de2446b6067d22f8",
+        "passage_rank": 3,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "0992202d372564ba875e3f96d1887a99",
+        "sentence_text": "Level B: Categorization of Offensive Language\tLevel B categorizes the",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          4,
+          7,
+          0
+        ],
+        "source_position": 6496
+      },
+      {
+        "cross_encoder_score": -7.256217002868652,
+        "dataset": "QASPER",
+        "end_char": 6663,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "28376a3666a222e4d738ba73803ee312",
+        "passage_rank": 2,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "05d4f36442559be72f03d4fe35a385cf",
+        "sentence_text": "type of offense and two labels are used: targeted (TIN) and untargeted (INT) insults and threats.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 6566
+      },
+      {
+        "cross_encoder_score": -5.056478500366211,
+        "dataset": "QASPER",
+        "end_char": 6848,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "28376a3666a222e4d738ba73803ee312",
+        "passage_rank": 2,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "07694994a72daf3a9b6844bc50475998",
+        "sentence_text": "Targeted Insult (TIN): Posts which contain an insult/threat to an individual, group, or others (see next layer); Untargeted (UNT): Posts containing non-targeted profanity and swearing.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 6664
+      },
+      {
+        "cross_encoder_score": -9.50107479095459,
+        "dataset": "QASPER",
+        "end_char": 6937,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "28376a3666a222e4d738ba73803ee312",
+        "passage_rank": 2,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "2acf00090a7a7b3115f2d757ba6e4b11",
+        "sentence_text": "Posts with general profanity are not targeted, but they contain non-acceptable language.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 6849
+      },
+      {
+        "cross_encoder_score": 1.3245230913162231,
+        "dataset": "QASPER",
+        "end_char": 7094,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "28376a3666a222e4d738ba73803ee312",
+        "passage_rank": 2,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "a2f41c9972acb00695d80d6a93aa6d24",
+        "sentence_text": "Level C: Offensive Language Target Identification\tLevel C categorizes the targets of insults and threats as individual (IND), group (GRP), and other (OTH).",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 6939
+      },
+      {
+        "cross_encoder_score": -7.6199140548706055,
+        "dataset": "QASPER",
+        "end_char": 7144,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "28376a3666a222e4d738ba73803ee312",
+        "passage_rank": 2,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "8db768c3299cec83f61b2e61730b2e35",
+        "sentence_text": "Individual (IND): Posts targeting an individual.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 7096
+      },
+      {
+        "cross_encoder_score": -8.410432815551758,
+        "dataset": "QASPER",
+        "end_char": 7239,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "28376a3666a222e4d738ba73803ee312",
+        "passage_rank": 2,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "4b41132f5496ca8141b8bd6af881a7df",
+        "sentence_text": "It can be a a famous person, a named individual or an unnamed participant in the conversation.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 7145
+      },
+      {
+        "cross_encoder_score": -8.116377830505371,
+        "dataset": "QASPER",
+        "end_char": 7318,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "28376a3666a222e4d738ba73803ee312",
+        "passage_rank": 2,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "2287ea4350a9ae0c6ac514d07741fd48",
+        "sentence_text": "Insults and threats targeted at individuals are often defined as cyberbulling.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 7240
+      },
+      {
+        "cross_encoder_score": -1.7010465860366821,
+        "dataset": "QASPER",
+        "end_char": 7540,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "28376a3666a222e4d738ba73803ee312",
+        "passage_rank": 2,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "98d07fc7a8c695940631f9161594f91d",
+        "sentence_text": "Group (GRP): The target of these offensive posts is a group of people considered as a unity due to the same ethnicity, gender or sexual orientation, political affiliation, religious belief, or other common characteristic.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 7319
+      },
+      {
+        "cross_encoder_score": -5.668002128601074,
+        "dataset": "QASPER",
+        "end_char": 7650,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "28376a3666a222e4d738ba73803ee312",
+        "passage_rank": 2,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "3d7618f9e852360a7e01bc700ae840e0",
+        "sentence_text": "Many of the insults and threats targeted at a group correspond to what is commonly understood as hate speech.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          5,
+          8,
+          0
+        ],
+        "source_position": 7541
+      },
+      {
+        "cross_encoder_score": -4.199721336364746,
+        "dataset": "QASPER",
+        "end_char": 7792,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "28376a3666a222e4d738ba73803ee312",
+        "passage_rank": 2,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "4440b5ef7317c4ddd2979a07a6ba87dd",
+        "sentence_text": "Other (OTH): The target of these offensive posts does not belong to any of the previous two categories (e.g. an organization, a situation, an",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          5,
+          9,
+          0
+        ],
+        "source_position": 7651
+      },
+      {
+        "cross_encoder_score": -8.54742431640625,
+        "dataset": "QASPER",
+        "end_char": 7813,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "7d8748525880f6c140276df3f65297d4",
+        "passage_rank": 10,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "e9736fc18d2e679cfc92435b477e6dd2",
+        "sentence_text": "event, or an issue).",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 7793
+      },
+      {
+        "cross_encoder_score": -11.293813705444336,
+        "dataset": "QASPER",
+        "end_char": 7889,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "7d8748525880f6c140276df3f65297d4",
+        "passage_rank": 10,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "0b41f8c7b0e90f2f5ce8a8e123712422",
+        "sentence_text": "Data Collection\tThe data included in OLID has been collected from Twitter.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 7815
+      },
+      {
+        "cross_encoder_score": -7.125897407531738,
+        "dataset": "QASPER",
+        "end_char": 8064,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "7d8748525880f6c140276df3f65297d4",
+        "passage_rank": 10,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "8808afe0d84bedb651eb8c1c86557bc9",
+        "sentence_text": "We retrieved the data using the Twitter API by searching for keywords and constructions that are often included in offensive messages, such as `she is' or `to:BreitBartNews'.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 7890
+      },
+      {
+        "cross_encoder_score": -11.221141815185547,
+        "dataset": "QASPER",
+        "end_char": 8148,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "7d8748525880f6c140276df3f65297d4",
+        "passage_rank": 10,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "b13a8706eba637555898864fb43419dc",
+        "sentence_text": "We carried out a first round of trial annotation of 300 instances with six experts.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 8065
+      },
+      {
+        "cross_encoder_score": -11.187058448791504,
+        "dataset": "QASPER",
+        "end_char": 8429,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "7d8748525880f6c140276df3f65297d4",
+        "passage_rank": 10,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "aafaf2b73049e54658d6e9d0bb450d43",
+        "sentence_text": "The goal of the trial annotation was to 1) evaluate the proposed tagset; 2) evaluate the data retrieval method; and 3) create a gold standard with instances that could be used as test questions in the training and test setting annotation which was carried out using crowdsourcing.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 8149
+      },
+      {
+        "cross_encoder_score": -7.716677665710449,
+        "dataset": "QASPER",
+        "end_char": 8544,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "7d8748525880f6c140276df3f65297d4",
+        "passage_rank": 10,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "a1cf60c8ca1618b182e4ceb91c77f4fc",
+        "sentence_text": "The breakdown of keywords and their offensive content in the trial data of 300 tweets is shown in Table TABREF14 .",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 8430
+      },
+      {
+        "cross_encoder_score": -11.121956825256348,
+        "dataset": "QASPER",
+        "end_char": 8682,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "7d8748525880f6c140276df3f65297d4",
+        "passage_rank": 10,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "0ca8258b48b396997d2fd538242a7d83",
+        "sentence_text": "We included a left (@NewYorker) and far-right (@BreitBartNews) news accounts because there tends to be political offense in the comments.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 8545
+      },
+      {
+        "cross_encoder_score": -4.804147243499756,
+        "dataset": "QASPER",
+        "end_char": 8825,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "7d8748525880f6c140276df3f65297d4",
+        "passage_rank": 10,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "d517b915f1913344c8143d2de301beb8",
+        "sentence_text": "One of the best offensive keywords was tweets that were flagged as not being safe by the Twitter `safe' filter (the `-' indicates `not safe').",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 8683
+      },
+      {
+        "cross_encoder_score": -6.446396350860596,
+        "dataset": "QASPER",
+        "end_char": 8996,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "7d8748525880f6c140276df3f65297d4",
+        "passage_rank": 10,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "40a5c6e4884107da8726ea1a5ec4386b",
+        "sentence_text": "The vast majority of content on Twitter is not offensive so we tried different strategies to keep a reasonable number of tweets in the offensive class amounting to around",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 8826
+      },
+      {
+        "cross_encoder_score": -6.167282581329346,
+        "dataset": "QASPER",
+        "end_char": 9128,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "63e372734fe3d4fe907705d8ff24ef12",
+        "passage_rank": 7,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "e2aeb9bdd6443fadc8638081249b4505",
+        "sentence_text": "30% of the dataset including excluding some keywords that were not high in offensive content such as `they are` and `to:NewYorker`.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 8997
+      },
+      {
+        "cross_encoder_score": -5.833212852478027,
+        "dataset": "QASPER",
+        "end_char": 9221,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "63e372734fe3d4fe907705d8ff24ef12",
+        "passage_rank": 7,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "1f79cf9b4eb3989235865092225ed938",
+        "sentence_text": "Although `he is' is lower in offensive content we kept it as a keyword to avoid gender bias.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 9129
+      },
+      {
+        "cross_encoder_score": -8.739182472229004,
+        "dataset": "QASPER",
+        "end_char": 9480,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "63e372734fe3d4fe907705d8ff24ef12",
+        "passage_rank": 7,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "a2bba1344c605723df8f439ab4023e35",
+        "sentence_text": "In addition to the keywords in the trial set, we searched for more political keywords which tend to be higher in offensive content, and sampled our dataset such that 50% of the the tweets come from political keywords and 50% come from non-political keywords.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 9222
+      },
+      {
+        "cross_encoder_score": -10.709259033203125,
+        "dataset": "QASPER",
+        "end_char": 9647,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "63e372734fe3d4fe907705d8ff24ef12",
+        "passage_rank": 7,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "5731feb9bd4137823a121420e9aa2097",
+        "sentence_text": "In addition to the keywords `gun control', and `to:BreitbartNews', political keywords used to collect these tweets are `MAGA', `antifa', `conservative' and `liberal'.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 9481
+      },
+      {
+        "cross_encoder_score": -11.380096435546875,
+        "dataset": "QASPER",
+        "end_char": 9741,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "63e372734fe3d4fe907705d8ff24ef12",
+        "passage_rank": 7,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "1358755ae6491cfae533992df58ae8ca",
+        "sentence_text": "We computed Fliess' INLINEFORM0 on the trial set for the five annotators on 21 of the tweets.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 9648
+      },
+      {
+        "cross_encoder_score": -11.086628913879395,
+        "dataset": "QASPER",
+        "end_char": 9812,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "63e372734fe3d4fe907705d8ff24ef12",
+        "passage_rank": 7,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "06e46ff7dc0f97705d0856afc3583a38",
+        "sentence_text": "INLINEFORM1 is .83 for Layer A (OFF vs NOT) indicating high agreement.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 9742
+      },
+      {
+        "cross_encoder_score": -11.29651927947998,
+        "dataset": "QASPER",
+        "end_char": 9970,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "63e372734fe3d4fe907705d8ff24ef12",
+        "passage_rank": 7,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "5c226189ec63d49e656496281ae90254",
+        "sentence_text": "As to normalization and anonymization, no user metadata or Twitter IDs have been stored, and URLs and Twitter mentions have been substituted to placeholders.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 9813
+      },
+      {
+        "cross_encoder_score": -11.282381057739258,
+        "dataset": "QASPER",
+        "end_char": 10090,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "63e372734fe3d4fe907705d8ff24ef12",
+        "passage_rank": 7,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "dcf56a9d5aad3c157196b853eca05c20",
+        "sentence_text": "We follow prior work in related areas (burnap2015cyber,davidson2017automated) and annotate our data using crowdsourcing",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "source_position": 9971
+      },
+      {
+        "cross_encoder_score": -10.991281509399414,
+        "dataset": "QASPER",
+        "end_char": 11471,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "bd1f45cda23446d2f080f1ac40f57eb9",
+        "passage_rank": 5,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "c5afad73d87b9350ed8a9671e98b70df",
+        "sentence_text": "an input embedding layer, (2) a bidirectional LSTM layer, (3) an average pooling layer of input features.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 11366
+      },
+      {
+        "cross_encoder_score": -11.167011260986328,
+        "dataset": "QASPER",
+        "end_char": 11611,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "bd1f45cda23446d2f080f1ac40f57eb9",
+        "passage_rank": 5,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "5efb2df0f54a4287a9a88797f3f2d35a",
+        "sentence_text": "The concatenation of the LSTM's and average pool layer is passed through a dense layer and the output is passed through a softmax function.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 11472
+      },
+      {
+        "cross_encoder_score": -11.257586479187012,
+        "dataset": "QASPER",
+        "end_char": 11774,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "bd1f45cda23446d2f080f1ac40f57eb9",
+        "passage_rank": 5,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "4bc4872cc911a12ee1fa4289332d3f63",
+        "sentence_text": "We set two input channels for the input embedding layers: pre-trained FastText embeddings  , as well as updatable embeddings learned by the model during training.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 11612
+      },
+      {
+        "cross_encoder_score": -11.259927749633789,
+        "dataset": "QASPER",
+        "end_char": 11929,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "bd1f45cda23446d2f080f1ac40f57eb9",
+        "passage_rank": 5,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "cb82b78101ce9876582c88629d78c3ab",
+        "sentence_text": "Finally, we also apply a Convolutional Neural Network (CNN) model based on the architecture of  , using the same multi-channel inputs as the above BiLSTM.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 11775
+      },
+      {
+        "cross_encoder_score": -11.263338088989258,
+        "dataset": "QASPER",
+        "end_char": 12040,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "bd1f45cda23446d2f080f1ac40f57eb9",
+        "passage_rank": 5,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "9c033ba017c0bdbae03700e87c44b5c4",
+        "sentence_text": "Our models are trained on the training data, and evaluated by predicting the labels for the held-out test set.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 11930
+      },
+      {
+        "cross_encoder_score": -10.909141540527344,
+        "dataset": "QASPER",
+        "end_char": 12090,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "bd1f45cda23446d2f080f1ac40f57eb9",
+        "passage_rank": 5,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "7dfedb7fd5dd7f5dcdaa910965272985",
+        "sentence_text": "The distribution is described in Table TABREF15 .",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 12041
+      },
+      {
+        "cross_encoder_score": -11.264459609985352,
+        "dataset": "QASPER",
+        "end_char": 12207,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "bd1f45cda23446d2f080f1ac40f57eb9",
+        "passage_rank": 5,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "cf8224967215c53053024800160caebe",
+        "sentence_text": "We evaluate and compare the models using the macro-averaged F1-score as the label distribution is highly imbalanced.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          9,
+          6,
+          0
+        ],
+        "source_position": 12091
+      },
+      {
+        "cross_encoder_score": -11.170165061950684,
+        "dataset": "QASPER",
+        "end_char": 12315,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "bd1f45cda23446d2f080f1ac40f57eb9",
+        "passage_rank": 5,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "8308be379c492907eae85c615e46c94c",
+        "sentence_text": "Per-class Precision (P), Recall (R), and F1-score (F1), also with other averaged metrics are also reported.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          9,
+          7,
+          0
+        ],
+        "source_position": 12208
+      },
+      {
+        "cross_encoder_score": -11.167060852050781,
+        "dataset": "QASPER",
+        "end_char": 12419,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "bd1f45cda23446d2f080f1ac40f57eb9",
+        "passage_rank": 5,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "65ac5a149df253873a437a854401506d",
+        "sentence_text": "The models are compared against baselines of predicting all labels as the majority or minority classes.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          9,
+          8,
+          0
+        ],
+        "source_position": 12316
+      },
+      {
+        "cross_encoder_score": 2.5621466636657715,
+        "dataset": "QASPER",
+        "end_char": 12569,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "bd1f45cda23446d2f080f1ac40f57eb9",
+        "passage_rank": 5,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "d60232dbbb4fece16ac34e00d78a5dff",
+        "sentence_text": "Offensive Language Detection\tThe performance on discriminating between offensive (OFF) and non-offensive (NOT) posts is reported in Table TABREF18 .",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          9,
+          9,
+          0
+        ],
+        "source_position": 12421
+      },
+      {
+        "cross_encoder_score": -8.612310409545898,
+        "dataset": "QASPER",
+        "end_char": 12589,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "bd1f45cda23446d2f080f1ac40f57eb9",
+        "passage_rank": 5,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "7a9a9d2c3a1fef57b6ebbbd55b957b26",
+        "sentence_text": "We can see that all",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          9,
+          10,
+          0
+        ],
+        "source_position": 12570
+      },
+      {
+        "cross_encoder_score": -11.233987808227539,
+        "dataset": "QASPER",
+        "end_char": 12703,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "e03a3310a6e7d7de98832894f234c336",
+        "passage_rank": 8,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "75beee21e9c4de6e4186842bd25d4f16",
+        "sentence_text": "systems perform significantly better than chance, with the neural models being substantially better than the SVM.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 12590
+      },
+      {
+        "cross_encoder_score": -11.257527351379395,
+        "dataset": "QASPER",
+        "end_char": 12774,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "e03a3310a6e7d7de98832894f234c336",
+        "passage_rank": 8,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "76ef3dd65eefd294916127178d1b2a39",
+        "sentence_text": "The CNN outperforms the RNN model, achieving a macro-F1 score of 0.80.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 12704
+      },
+      {
+        "cross_encoder_score": 4.306483745574951,
+        "dataset": "QASPER",
+        "end_char": 12978,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "e03a3310a6e7d7de98832894f234c336",
+        "passage_rank": 8,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "fae024530e8e80ff50fea4e60938d8a1",
+        "sentence_text": "Categorization of Offensive Language\tIn this experiment, the two systems were trained to discriminate between insults and threats (TIN) and untargeted (UNT) offenses, which generally refer to profanity.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 12776
+      },
+      {
+        "cross_encoder_score": -10.557151794433594,
+        "dataset": "QASPER",
+        "end_char": 13020,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "e03a3310a6e7d7de98832894f234c336",
+        "passage_rank": 8,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "0bfcc18b67b87e41a06ce84bfc205a3d",
+        "sentence_text": "The results are shown in Table TABREF19 .",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 12979
+      },
+      {
+        "cross_encoder_score": -11.299612045288086,
+        "dataset": "QASPER",
+        "end_char": 13137,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "e03a3310a6e7d7de98832894f234c336",
+        "passage_rank": 8,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "ab802a3e801a6d9cb8fa427ef4562ba8",
+        "sentence_text": "The CNN system achieved higher performance in this experiment compared to the BiLSTM, with a macro-F1 score of 0.69.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 13021
+      },
+      {
+        "cross_encoder_score": -9.673186302185059,
+        "dataset": "QASPER",
+        "end_char": 13238,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "e03a3310a6e7d7de98832894f234c336",
+        "passage_rank": 8,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "4d4c6bf2d49f2c79e178ae0d27e45e7c",
+        "sentence_text": "All systems performed better at identifying target and threats (TIN) than untargeted offenses (UNT).",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 13138
+      },
+      {
+        "cross_encoder_score": 0.2808302342891693,
+        "dataset": "QASPER",
+        "end_char": 13375,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "e03a3310a6e7d7de98832894f234c336",
+        "passage_rank": 8,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "fd43cae3ad2d0208153e38aaa255df34",
+        "sentence_text": "Offensive Language Target Identification\tThe results of the offensive target identification experiment are reported in Table TABREF20 .",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 13240
+      },
+      {
+        "cross_encoder_score": -10.5252046585083,
+        "dataset": "QASPER",
+        "end_char": 13496,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "e03a3310a6e7d7de98832894f234c336",
+        "passage_rank": 8,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "63396f9141ab481d19b854c556848d84",
+        "sentence_text": "Here the systems were trained to distinguish between three targets: a group (GRP), an individual (IND), or others (OTH).",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 13376
+      },
+      {
+        "cross_encoder_score": -11.245330810546875,
+        "dataset": "QASPER",
+        "end_char": 13629,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "e03a3310a6e7d7de98832894f234c336",
+        "passage_rank": 8,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "72ada81f5cf4d6c87880ccb479502681",
+        "sentence_text": "All three models achieved similar results far surpassing the random baselines, with a slight performance edge for the neural models.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          10,
+          8,
+          0
+        ],
+        "source_position": 13497
+      },
+      {
+        "cross_encoder_score": -11.26970386505127,
+        "dataset": "QASPER",
+        "end_char": 13684,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "e03a3310a6e7d7de98832894f234c336",
+        "passage_rank": 8,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "abe15b868b3d7cb52ffe82d3ed5b3d0b",
+        "sentence_text": "The performance of all systems for the OTH class is 0.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          10,
+          9,
+          0
+        ],
+        "source_position": 13630
+      },
+      {
+        "cross_encoder_score": -11.225730895996094,
+        "dataset": "QASPER",
+        "end_char": 13745,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "e03a3310a6e7d7de98832894f234c336",
+        "passage_rank": 8,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "9717d5198a34ad2f254e134db2f90409",
+        "sentence_text": "This poor performances can be explained by two main factors.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          10,
+          10,
+          0
+        ],
+        "source_position": 13685
+      },
+      {
+        "cross_encoder_score": -9.746138572692871,
+        "dataset": "QASPER",
+        "end_char": 13819,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "e03a3310a6e7d7de98832894f234c336",
+        "passage_rank": 8,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "7d8fe17ad5ba598a2e5799786e4f6b0b",
+        "sentence_text": "First, unlike the two other classes, OTH is a heterogeneous collection of",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          10,
+          11,
+          0
+        ],
+        "source_position": 13746
+      },
+      {
+        "cross_encoder_score": -9.733545303344727,
+        "dataset": "QASPER",
+        "end_char": 13828,
+        "pair_tokens_before_truncation": 13,
+        "pair_truncated": false,
+        "passage_id": "bef70f068db40e39666f377b80784671",
+        "passage_rank": 9,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "3fca1a88a57bde79b46c53f61be7351c",
+        "sentence_text": "targets.",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 13820
+      },
+      {
+        "cross_encoder_score": -4.4436936378479,
+        "dataset": "QASPER",
+        "end_char": 13998,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "bef70f068db40e39666f377b80784671",
+        "passage_rank": 9,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "a9ea9f3898e6d17abcfce4deb5323435",
+        "sentence_text": "It includes offensive tweets targeted at organizations, situations, events, etc. making it more challenging for systems to learn discriminative properties of this class.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 13829
+      },
+      {
+        "cross_encoder_score": -11.168060302734375,
+        "dataset": "QASPER",
+        "end_char": 14071,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "bef70f068db40e39666f377b80784671",
+        "passage_rank": 9,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "9bed2a02ff3684762689f5ed25c4d8d0",
+        "sentence_text": "Second, this class contains fewer training instances than the other two.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 13999
+      },
+      {
+        "cross_encoder_score": -11.150665283203125,
+        "dataset": "QASPER",
+        "end_char": 14144,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "bef70f068db40e39666f377b80784671",
+        "passage_rank": 9,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "5827be7746bd970efec6bbd9eb12e703",
+        "sentence_text": "There are only 395 instances in OTH, and 1,075 in GRP, and 2,407 in IND.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 14072
+      },
+      {
+        "cross_encoder_score": -0.17141012847423553,
+        "dataset": "QASPER",
+        "end_char": 14270,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "bef70f068db40e39666f377b80784671",
+        "passage_rank": 9,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "3b17f2bd375a0f512f8b2818d5308683",
+        "sentence_text": "Conclusion and Future Work\tThis paper presents OLID, a new dataset with annotation of type and target of offensive language.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 14146
+      },
+      {
+        "cross_encoder_score": -0.4488038718700409,
+        "dataset": "QASPER",
+        "end_char": 14419,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "bef70f068db40e39666f377b80784671",
+        "passage_rank": 9,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "eead9855bc937634afe67f17585790c8",
+        "sentence_text": "OLID is the official dataset of the shared task SemEval 2019 Task 6: Identifying and Categorizing Offensive Language in Social Media (OffensEval)  .",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 14271
+      },
+      {
+        "cross_encoder_score": -10.17819881439209,
+        "dataset": "QASPER",
+        "end_char": 14492,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "bef70f068db40e39666f377b80784671",
+        "passage_rank": 9,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "3295281cd32fd91dcb9a8eb9aaddc7cd",
+        "sentence_text": "In OffensEval, each annotation level in OLID is an independent sub-task.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 14420
+      },
+      {
+        "cross_encoder_score": -11.24133586883545,
+        "dataset": "QASPER",
+        "end_char": 14577,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "bef70f068db40e39666f377b80784671",
+        "passage_rank": 9,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "25ebe79c0df28dd24aacca91a612c3e1",
+        "sentence_text": "The dataset contains 14,100 tweets and is released freely to the research community.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 14493
+      },
+      {
+        "cross_encoder_score": -10.21917724609375,
+        "dataset": "QASPER",
+        "end_char": 14762,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "bef70f068db40e39666f377b80784671",
+        "passage_rank": 9,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "65c4be2413dd9f636cd973252e432849",
+        "sentence_text": "To the best of our knowledge, this is the first dataset to contain annotation of type and target of offenses in social media and it opens several new avenues for research in this area.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          11,
+          8,
+          0
+        ],
+        "source_position": 14578
+      },
+      {
+        "cross_encoder_score": -6.477838516235352,
+        "dataset": "QASPER",
+        "end_char": 14975,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "bef70f068db40e39666f377b80784671",
+        "passage_rank": 9,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "6d99fd0945ba46979b64a11a5b89bd84",
+        "sentence_text": "We present baseline experiments using SVMs and neural networks to identify the offensive tweets, discriminate between insults, threats, and profanity, and finally to identify the target of the offensive messages.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          11,
+          9,
+          0
+        ],
+        "source_position": 14763
+      },
+      {
+        "cross_encoder_score": -8.31472396850586,
+        "dataset": "QASPER",
+        "end_char": 15007,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "bef70f068db40e39666f377b80784671",
+        "passage_rank": 9,
+        "query_id": "5a8cc8f80509ea77d8213ed28c5ead501c68c725",
+        "sentence_id": "febccccbd1d43d0fc9ee3f2257cafa02",
+        "sentence_text": "The results show that this is a",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          11,
+          10,
+          0
+        ],
+        "source_position": 14976
+      }
+    ],
+    "scoring_seconds": 0.3081837589852512,
+    "source_fingerprint": "69d8d517977c4d650fe6ee4ff0101b728f7db5ed45988aae65113bcbeb816ea5"
+  }
+}

@@ -1,0 +1,2291 @@
+{
+  "checksum": "0b1744c0e6f7cbffad0b5729d435e6aae93d16a3d0958f3d8d87036d696a7ec8",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "612c3675b6c55b60ae6d24265ed8e20f62cb117e"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 113,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "0cf865f3d36256884dc9f743cba18abb3058611268ac9868729acae106fcb6c2",
+    "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+    "scores": [
+      {
+        "cross_encoder_score": -0.9458085298538208,
+        "dataset": "QASPER",
+        "end_char": 1511,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "5e2e8c6f2ff31ab1a6f3010f1db52bba",
+        "passage_rank": 4,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "426158a0b104539d37cc24377df5d79e",
+        "sentence_text": "detection methods perform in a cross-lingual setting, as the multilingual datasets available today are relatively small, and specific to a single target , .",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1355
+      },
+      {
+        "cross_encoder_score": -10.901219367980957,
+        "dataset": "QASPER",
+        "end_char": 1605,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "5e2e8c6f2ff31ab1a6f3010f1db52bba",
+        "passage_rank": 4,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "24ef480c660478feb98092e57f1db4e8",
+        "sentence_text": "Furthermore, specific models tend to be developed for each single target or pair of targets .",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1512
+      },
+      {
+        "cross_encoder_score": -8.23694133758545,
+        "dataset": "QASPER",
+        "end_char": 1725,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "5e2e8c6f2ff31ab1a6f3010f1db52bba",
+        "passage_rank": 4,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "d4e944736264e592e45bb0db0547f0e0",
+        "sentence_text": "Concerns have been raised that cross-target performance is often considerably lower than fully supervised performance .",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1606
+      },
+      {
+        "cross_encoder_score": -10.53831672668457,
+        "dataset": "QASPER",
+        "end_char": 1841,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "5e2e8c6f2ff31ab1a6f3010f1db52bba",
+        "passage_rank": 4,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "dfff81bd49fa8b831ae56c5a1c86d39b",
+        "sentence_text": "In this paper we propose a much larger dataset that combines multilinguality and a multitude of topics and targets.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1726
+      },
+      {
+        "cross_encoder_score": -11.455018043518066,
+        "dataset": "QASPER",
+        "end_char": 2020,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "5e2e8c6f2ff31ab1a6f3010f1db52bba",
+        "passage_rank": 4,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "6d18487af4035f4ea303748f5d465fcb",
+        "sentence_text": "x-stance comprises more than 150 questions concerning Swiss politics and more than 67k answers given in the last decade by candidates running for political office in Switzerland.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 1842
+      },
+      {
+        "cross_encoder_score": -10.166459083557129,
+        "dataset": "QASPER",
+        "end_char": 2116,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "5e2e8c6f2ff31ab1a6f3010f1db52bba",
+        "passage_rank": 4,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "c7407e806ccac96ceb313d71374e194e",
+        "sentence_text": "Questions are available in four languages: English, Swiss Standard German, French, and Italian.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 2021
+      },
+      {
+        "cross_encoder_score": -10.306921005249023,
+        "dataset": "QASPER",
+        "end_char": 2187,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "5e2e8c6f2ff31ab1a6f3010f1db52bba",
+        "passage_rank": 4,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "6c20e001b40c6c320c3662518d1125cd",
+        "sentence_text": "The language of a comment depends on the candidate's region of origin.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2117
+      },
+      {
+        "cross_encoder_score": -11.21951675415039,
+        "dataset": "QASPER",
+        "end_char": 2260,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "5e2e8c6f2ff31ab1a6f3010f1db52bba",
+        "passage_rank": 4,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "d7ab960a7d8685ab4bd331f100dda861",
+        "sentence_text": "We have extracted the data from the voting advice application Smartvote.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2188
+      },
+      {
+        "cross_encoder_score": -11.215715408325195,
+        "dataset": "QASPER",
+        "end_char": 2374,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "5e2e8c6f2ff31ab1a6f3010f1db52bba",
+        "passage_rank": 4,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "13e3368a68dcaa07842ad041fb7db2a5",
+        "sentence_text": "On that platform, candidates respond to questions mainly in categorical form (yes / rather yes / rather no / no).",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          1,
+          8,
+          0
+        ],
+        "source_position": 2261
+      },
+      {
+        "cross_encoder_score": -11.224726676940918,
+        "dataset": "QASPER",
+        "end_char": 2487,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "5e2e8c6f2ff31ab1a6f3010f1db52bba",
+        "passage_rank": 4,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "765fa12e798dd45b66e3ec6e9b9848dd",
+        "sentence_text": "They can also submit a free-text comment in order to justify, explain or differentiate their categorical answer.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          1,
+          9,
+          0
+        ],
+        "source_position": 2375
+      },
+      {
+        "cross_encoder_score": -10.430639266967773,
+        "dataset": "QASPER",
+        "end_char": 2526,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "5e2e8c6f2ff31ab1a6f3010f1db52bba",
+        "passage_rank": 4,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "d37f13c3a0588e24e11be9581b507d22",
+        "sentence_text": "An example is given in Figure FIGREF1.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          1,
+          10,
+          0
+        ],
+        "source_position": 2488
+      },
+      {
+        "cross_encoder_score": -11.202733039855957,
+        "dataset": "QASPER",
+        "end_char": 2711,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "5e2e8c6f2ff31ab1a6f3010f1db52bba",
+        "passage_rank": 4,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "a1193e57f6c86ce42854410d789b7226",
+        "sentence_text": "We transform the dataset into a stance detection task by interpreting the question as a natural-language representation of the target, and the commentary as the input to be classified.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          1,
+          11,
+          0
+        ],
+        "source_position": 2527
+      },
+      {
+        "cross_encoder_score": -10.025614738464355,
+        "dataset": "QASPER",
+        "end_char": 2723,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "5e2e8c6f2ff31ab1a6f3010f1db52bba",
+        "passage_rank": 4,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "f173eb79d4d7bc6b8b9fb111dbb67a06",
+        "sentence_text": "The dataset",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          1,
+          12,
+          0
+        ],
+        "source_position": 2712
+      },
+      {
+        "cross_encoder_score": -3.520648956298828,
+        "dataset": "QASPER",
+        "end_char": 2856,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "5b47e8d4fbd2eb3403d8a305b5836f03",
+        "passage_rank": 3,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "f41b865905b08228a154c1ec9ba80d89",
+        "sentence_text": "is split into a multilingual training set and into multiple test sets to evaluate zero-shot cross-lingual and cross-target transfer.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2724
+      },
+      {
+        "cross_encoder_score": -11.342814445495605,
+        "dataset": "QASPER",
+        "end_char": 2932,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "5b47e8d4fbd2eb3403d8a305b5836f03",
+        "passage_rank": 3,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "c37a5105da011591c935c727410d5a6e",
+        "sentence_text": "To provide a baseline, we fine-tune a multilingual Bert model  on x-stance.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2857
+      },
+      {
+        "cross_encoder_score": -11.288052558898926,
+        "dataset": "QASPER",
+        "end_char": 3063,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "5b47e8d4fbd2eb3403d8a305b5836f03",
+        "passage_rank": 3,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "d2caea3e2168dd9a02759d12799bed6c",
+        "sentence_text": "We show that the baseline accuracy is comparable to previous stance detection benchmarks while leaving ample room for improvement.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 2933
+      },
+      {
+        "cross_encoder_score": -4.4883809089660645,
+        "dataset": "QASPER",
+        "end_char": 3173,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "5b47e8d4fbd2eb3403d8a305b5836f03",
+        "passage_rank": 3,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "5c9a1998c48b06b0ca5eb82a9e26b81a",
+        "sentence_text": "In addition, multilingual Bert can generalize to a degree both cross-lingually and in a cross-target setting.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3064
+      },
+      {
+        "cross_encoder_score": -11.342023849487305,
+        "dataset": "QASPER",
+        "end_char": 3266,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "5b47e8d4fbd2eb3403d8a305b5836f03",
+        "passage_rank": 3,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "2d6759be8f049077db401fc732760231",
+        "sentence_text": "We have made the dataset and the code for reproducing the baseline model publicly available.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3174
+      },
+      {
+        "cross_encoder_score": -11.037500381469727,
+        "dataset": "QASPER",
+        "end_char": 3415,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "5b47e8d4fbd2eb3403d8a305b5836f03",
+        "passage_rank": 3,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "8e8319ee1fe16f7b7e442404ada547f2",
+        "sentence_text": "Related Work ::: Multilingual Stance Detection\tIn the context of the IberEval shared tasks, two related multilingual datasets have been created , .",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3268
+      },
+      {
+        "cross_encoder_score": -11.000411033630371,
+        "dataset": "QASPER",
+        "end_char": 3478,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "5b47e8d4fbd2eb3403d8a305b5836f03",
+        "passage_rank": 3,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "29423514f5c931c5b23cbc7a28dcd68a",
+        "sentence_text": "Both are a collection of annotated Spanish and Catalan tweets.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3416
+      },
+      {
+        "cross_encoder_score": -8.397676467895508,
+        "dataset": "QASPER",
+        "end_char": 3659,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "5b47e8d4fbd2eb3403d8a305b5836f03",
+        "passage_rank": 3,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "8874d227819ed10215db59ccc2de4527",
+        "sentence_text": "Crucially, the tweets in both languages focus on the same issue (Catalan independence); given this fact they are the first truly multilingual stance detection datasets known to us.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3479
+      },
+      {
+        "cross_encoder_score": -8.224244117736816,
+        "dataset": "QASPER",
+        "end_char": 3757,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "5b47e8d4fbd2eb3403d8a305b5836f03",
+        "passage_rank": 3,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "71d0f0c914435a7c23e1069fa79603cd",
+        "sentence_text": "With regard to the languages covered by x-stance, only monolingual datasets seem to be available.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 3660
+      },
+      {
+        "cross_encoder_score": -11.426820755004883,
+        "dataset": "QASPER",
+        "end_char": 3859,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "5b47e8d4fbd2eb3403d8a305b5836f03",
+        "passage_rank": 3,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "51143c95ceb020c176954442793a7025",
+        "sentence_text": "For French, a collection of tweets on French presidential candidates has been annotated with stance .",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          2,
+          9,
+          0
+        ],
+        "source_position": 3758
+      },
+      {
+        "cross_encoder_score": -11.433335304260254,
+        "dataset": "QASPER",
+        "end_char": 3977,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "5b47e8d4fbd2eb3403d8a305b5836f03",
+        "passage_rank": 3,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "069b99e20cca6af113554d7b9f36ce5a",
+        "sentence_text": "Similarly, two datasets of Italian tweets on the occasion of the 2016 constitutional referendum have been created , .",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          2,
+          10,
+          0
+        ],
+        "source_position": 3860
+      },
+      {
+        "cross_encoder_score": -11.160746574401855,
+        "dataset": "QASPER",
+        "end_char": 4037,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "5b47e8d4fbd2eb3403d8a305b5836f03",
+        "passage_rank": 3,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "6eb5ab0f57d7d82ae7382beb63ac4b47",
+        "sentence_text": "For German, there is no known stance detection dataset, but",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          2,
+          11,
+          0
+        ],
+        "source_position": 3978
+      },
+      {
+        "cross_encoder_score": -10.829590797424316,
+        "dataset": "QASPER",
+        "end_char": 7905,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "304c6eb678d097f9c5c90d411fd8c38b",
+        "passage_rank": 9,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "8fc5becb2eb9e6da59bf4b97b788b6f6",
+        "sentence_text": "not further preprocess the text of the comments.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 7857
+      },
+      {
+        "cross_encoder_score": -11.09233570098877,
+        "dataset": "QASPER",
+        "end_char": 8107,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "304c6eb678d097f9c5c90d411fd8c38b",
+        "passage_rank": 9,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "4134c0e3261ca265c83c241f0c87ae17",
+        "sentence_text": "The x-stance Dataset ::: Data Collection ::: Language Identification\tAs the API does not provide the language of comments, we employed a language identifier to automatically annotate this information.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 7907
+      },
+      {
+        "cross_encoder_score": -11.0282564163208,
+        "dataset": "QASPER",
+        "end_char": 8140,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "304c6eb678d097f9c5c90d411fd8c38b",
+        "passage_rank": 9,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "bd8a1880b0fc3adbcfe672623c008a19",
+        "sentence_text": "We used the langdetect library .",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 8108
+      },
+      {
+        "cross_encoder_score": -11.315552711486816,
+        "dataset": "QASPER",
+        "end_char": 8287,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "304c6eb678d097f9c5c90d411fd8c38b",
+        "passage_rank": 9,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "237c439fc3b414d8359ec30a2f69f1af",
+        "sentence_text": "For each responder we classified all the comments jointly, assuming that responders did not switch code during the answering of the questionnaire.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 8141
+      },
+      {
+        "cross_encoder_score": -10.930631637573242,
+        "dataset": "QASPER",
+        "end_char": 8337,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "304c6eb678d097f9c5c90d411fd8c38b",
+        "passage_rank": 9,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "0d42a93d1713743cbaa82557936dcbe7",
+        "sentence_text": "We applied the identifier in a two-step approach.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 8288
+      },
+      {
+        "cross_encoder_score": -10.75475788116455,
+        "dataset": "QASPER",
+        "end_char": 8499,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "304c6eb678d097f9c5c90d411fd8c38b",
+        "passage_rank": 9,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "480f4059877181227e8b234a77ed59b1",
+        "sentence_text": "In the first run we allowed the identifier to output all 55 languages that it supports out of the box, plus Romansh, the fourth official language in Switzerland.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 8338
+      },
+      {
+        "cross_encoder_score": -10.831696510314941,
+        "dataset": "QASPER",
+        "end_char": 8642,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "304c6eb678d097f9c5c90d411fd8c38b",
+        "passage_rank": 9,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "ecbf792b68852e4dc772d79dcbe6fc55",
+        "sentence_text": "We found that no Romansh comments were detected and that all unexpected outputs were misclassifications of German, French or Italian comments.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 8500
+      },
+      {
+        "cross_encoder_score": -10.92024040222168,
+        "dataset": "QASPER",
+        "end_char": 8834,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "304c6eb678d097f9c5c90d411fd8c38b",
+        "passage_rank": 9,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "6c6728ab51e82b6a1fd5f36ea42902e9",
+        "sentence_text": "We further concluded that little or no Swiss German comments are in the dataset: If they were, some of them would have manifested themselves in the form of misclassifications (e.g. as Dutch).",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 8643
+      },
+      {
+        "cross_encoder_score": -10.421142578125,
+        "dataset": "QASPER",
+        "end_char": 8963,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "304c6eb678d097f9c5c90d411fd8c38b",
+        "passage_rank": 9,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "3b7db5470fbd2a2972bdc1c3b393a157",
+        "sentence_text": "In the second run, drawing from these conclusions, we restricted the identifier's output to English, French, German and Italian.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 8835
+      },
+      {
+        "cross_encoder_score": -11.477664947509766,
+        "dataset": "QASPER",
+        "end_char": 9100,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "304c6eb678d097f9c5c90d411fd8c38b",
+        "passage_rank": 9,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "8dd8fec9e1b82fc00f2cb15cdcbd4c6d",
+        "sentence_text": "The x-stance Dataset ::: Data Collection ::: Filtering\tWe pre-filtered the questions and answers to improve the quality of the dataset.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          6,
+          9,
+          0
+        ],
+        "source_position": 8965
+      },
+      {
+        "cross_encoder_score": -11.194878578186035,
+        "dataset": "QASPER",
+        "end_char": 9187,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "304c6eb678d097f9c5c90d411fd8c38b",
+        "passage_rank": 9,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "e831595ebf7fadaac2db560a6767353e",
+        "sentence_text": "To keep the domain of the data surveyable, we set a focus on national-level questions.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          6,
+          10,
+          0
+        ],
+        "source_position": 9101
+      },
+      {
+        "cross_encoder_score": -10.93443775177002,
+        "dataset": "QASPER",
+        "end_char": 14478,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "5e09dd7ed1544ae5a38408917f07f97a",
+        "passage_rank": 6,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "8a449dad2e4811db729d1055a89da230",
+        "sentence_text": "class that is most frequent for a given target question.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 14422
+      },
+      {
+        "cross_encoder_score": -10.321501731872559,
+        "dataset": "QASPER",
+        "end_char": 14537,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "5e09dd7ed1544ae5a38408917f07f97a",
+        "passage_rank": 6,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "f37bb72f642cda9390b26f6f631c15ca",
+        "sentence_text": "The latter can only be applied to the supervised test set.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 14479
+      },
+      {
+        "cross_encoder_score": -10.025567054748535,
+        "dataset": "QASPER",
+        "end_char": 14788,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "5e09dd7ed1544ae5a38408917f07f97a",
+        "passage_rank": 6,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "1806e112a704e185742260c5ba566533",
+        "sentence_text": "Baseline Experiments ::: Multilingual BERT Baseline\tSecondly, we fine-tune multilingual Bert (M-Bert) on the task  which has been pretrained jointly in 104 languages and has established itself as a state of the art for various multilingual tasks , .",
+        "sentence_token_cost": 58,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 14539
+      },
+      {
+        "cross_encoder_score": -10.780776023864746,
+        "dataset": "QASPER",
+        "end_char": 14928,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "5e09dd7ed1544ae5a38408917f07f97a",
+        "passage_rank": 6,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "9093dae4f76b04d6557e798dc4c4217a",
+        "sentence_text": "Within the field of stance detection, Bert can outperform both feature-based and other neural approaches in a monolingual English setting .",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 14789
+      },
+      {
+        "cross_encoder_score": -10.490821838378906,
+        "dataset": "QASPER",
+        "end_char": 15131,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "5e09dd7ed1544ae5a38408917f07f97a",
+        "passage_rank": 6,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "dfa8944ec879d47c5120d068b47f4e02",
+        "sentence_text": "Baseline Experiments ::: Multilingual BERT Baseline ::: Architecture\tIn the context of Bert we interpret the x-stance task as sequence pair classification inspired by natural language inference tasks .",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 14930
+      },
+      {
+        "cross_encoder_score": -10.917351722717285,
+        "dataset": "QASPER",
+        "end_char": 15184,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "5e09dd7ed1544ae5a38408917f07f97a",
+        "passage_rank": 6,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "566e728fdcaba4c10b55740c4a086390",
+        "sentence_text": "We follow the procedure outlined by  for such tasks.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 15132
+      },
+      {
+        "cross_encoder_score": -11.450569152832031,
+        "dataset": "QASPER",
+        "end_char": 15372,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "5e09dd7ed1544ae5a38408917f07f97a",
+        "passage_rank": 6,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "84861d52485fb8b64f1c1b423b6ab4d1",
+        "sentence_text": "We designate the question as segment A and the comment as segment B. The two segments are separated with the special token [SEP], and the special token [CLS] is prepended to the sequence.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 15185
+      },
+      {
+        "cross_encoder_score": -11.308249473571777,
+        "dataset": "QASPER",
+        "end_char": 15456,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "5e09dd7ed1544ae5a38408917f07f97a",
+        "passage_rank": 6,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "5dae84209f101989edfdb1b22af81150",
+        "sentence_text": "The final hidden state corresponding to [CLS] is then classified by a linear layer.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 15373
+      },
+      {
+        "cross_encoder_score": -10.962800979614258,
+        "dataset": "QASPER",
+        "end_char": 15574,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "5e09dd7ed1544ae5a38408917f07f97a",
+        "passage_rank": 6,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "64c973cf20e186e42a92e4064d8649c7",
+        "sentence_text": "We fine-tune the full model with a cross-entropy loss, using the AllenNLP library  as a basis for our implementation.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          11,
+          8,
+          0
+        ],
+        "source_position": 15457
+      },
+      {
+        "cross_encoder_score": -11.009024620056152,
+        "dataset": "QASPER",
+        "end_char": 15657,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "5e09dd7ed1544ae5a38408917f07f97a",
+        "passage_rank": 6,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "ad7e636a8a47a939cb80bf4bebdc9813",
+        "sentence_text": "Baseline Experiments ::: Multilingual BERT Baseline ::: Training\tWe upsampled the",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          11,
+          9,
+          0
+        ],
+        "source_position": 15576
+      },
+      {
+        "cross_encoder_score": -11.367149353027344,
+        "dataset": "QASPER",
+        "end_char": 15752,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "ee616ee9873395e15410158635a0eea9",
+        "passage_rank": 1,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "a7823ccfef091d8543cbc93431521209",
+        "sentence_text": "`favor' class so that the two classes are balanced when summing over all questions and topics.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 15658
+      },
+      {
+        "cross_encoder_score": -11.385756492614746,
+        "dataset": "QASPER",
+        "end_char": 15851,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "ee616ee9873395e15410158635a0eea9",
+        "passage_rank": 1,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "0c438c65bc5b4a146f40ce7083a5858b",
+        "sentence_text": "A maximum sequence length of 512 subwords and a batch size of 16 was chosen for all training runs.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 15753
+      },
+      {
+        "cross_encoder_score": -11.41693115234375,
+        "dataset": "QASPER",
+        "end_char": 16095,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "ee616ee9873395e15410158635a0eea9",
+        "passage_rank": 1,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "93063752aaf24ef729d58bbf1c466517",
+        "sentence_text": "We then performed a grid search within the following range of hyperparameters based on the validation accuracy: Learning rate: 5e-5, 3e-5, 2e-5 Number of epochs: 3, 4 The grid search was repeated independently for every variant that we tested.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 15852
+      },
+      {
+        "cross_encoder_score": -11.415641784667969,
+        "dataset": "QASPER",
+        "end_char": 16347,
+        "pair_tokens_before_truncation": 95,
+        "pair_truncated": false,
+        "passage_id": "ee616ee9873395e15410158635a0eea9",
+        "passage_rank": 1,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "2f7091ae9e289c197533a7cfbdddc3df",
+        "sentence_text": "Furthermore, the standard recommendations for fine-tuning Bert were used: Adam with ${\\beta }_1=0.9$ and ${\\beta }_2=0.999$; an L2 weight decay of $0.01$; a learning rate warmup over the first 10% of the steps; and a linear decay of the learning rate.",
+        "sentence_token_cost": 79,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 16096
+      },
+      {
+        "cross_encoder_score": -11.146878242492676,
+        "dataset": "QASPER",
+        "end_char": 16399,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "ee616ee9873395e15410158635a0eea9",
+        "passage_rank": 1,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "7a96603a9911be9070b56cb663aae547",
+        "sentence_text": "A dropout probability of 0.1 was set on all layers.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 16348
+      },
+      {
+        "cross_encoder_score": -4.780267238616943,
+        "dataset": "QASPER",
+        "end_char": 16528,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "ee616ee9873395e15410158635a0eea9",
+        "passage_rank": 1,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "ac87cd31c5e659822d61ccbc37ba8fcd",
+        "sentence_text": "Baseline Experiments ::: Multilingual BERT Baseline ::: Results\tTable TABREF36 shows the results for the cross-lingual setting.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 16401
+      },
+      {
+        "cross_encoder_score": -11.14784049987793,
+        "dataset": "QASPER",
+        "end_char": 16599,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "ee616ee9873395e15410158635a0eea9",
+        "passage_rank": 1,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "d242f1fefe732b9ead77bd855a75ac21",
+        "sentence_text": "M-Bert performs consistently better than the majority class baselines.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 16529
+      },
+      {
+        "cross_encoder_score": -10.879029273986816,
+        "dataset": "QASPER",
+        "end_char": 16689,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "ee616ee9873395e15410158635a0eea9",
+        "passage_rank": 1,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "456bf72176859be79b59e477974d2730",
+        "sentence_text": "Even the zero-short performance in Italian, while significantly lower than the supervised",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          12,
+          7,
+          0
+        ],
+        "source_position": 16600
+      },
+      {
+        "cross_encoder_score": -11.002555847167969,
+        "dataset": "QASPER",
+        "end_char": 16758,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "23ba432b4087e931307bdd024982dbdd",
+        "passage_rank": 2,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "e38b1735c7aa53ec2d07706079bbd85a",
+        "sentence_text": "scores, is much better than the target-wise majority class baseline.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "source_position": 16690
+      },
+      {
+        "cross_encoder_score": -9.446871757507324,
+        "dataset": "QASPER",
+        "end_char": 16824,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "23ba432b4087e931307bdd024982dbdd",
+        "passage_rank": 2,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "cd53be05924b6b9b3190f1bca78e381a",
+        "sentence_text": "Results for the cross-target setting are given in Table TABREF37.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          13,
+          1,
+          0
+        ],
+        "source_position": 16759
+      },
+      {
+        "cross_encoder_score": -4.223970413208008,
+        "dataset": "QASPER",
+        "end_char": 16961,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "23ba432b4087e931307bdd024982dbdd",
+        "passage_rank": 2,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "4e136e98b7f5b73d99d94dd505b04248",
+        "sentence_text": "Similar to the cross-lingual setting, M-Bert performs worse in a cross-target setting but easily surpasses the majority class baselines.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          13,
+          2,
+          0
+        ],
+        "source_position": 16825
+      },
+      {
+        "cross_encoder_score": -8.162909507751465,
+        "dataset": "QASPER",
+        "end_char": 17055,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "23ba432b4087e931307bdd024982dbdd",
+        "passage_rank": 2,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "fb3cf1e6ccde3685ef4cf8c677b86fde",
+        "sentence_text": "Furthermore, the cross-question score of M-Bert is slightly lower than the cross-topic score.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          13,
+          3,
+          0
+        ],
+        "source_position": 16962
+      },
+      {
+        "cross_encoder_score": -9.387290954589844,
+        "dataset": "QASPER",
+        "end_char": 17119,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "23ba432b4087e931307bdd024982dbdd",
+        "passage_rank": 2,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "e45036d2d3fd79a8b16dce57cf966a27",
+        "sentence_text": "Baseline Experiments ::: How Important is Consistent Language?",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          13,
+          4,
+          0
+        ],
+        "source_position": 17057
+      },
+      {
+        "cross_encoder_score": -10.159991264343262,
+        "dataset": "QASPER",
+        "end_char": 17262,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "23ba432b4087e931307bdd024982dbdd",
+        "passage_rank": 2,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "5447e4e4cbcee70c2bdf589a1d17797b",
+        "sentence_text": "The default setup preserves horizontal language consistency in that the language of the questions always matches the language of the comments.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          13,
+          5,
+          0
+        ],
+        "source_position": 17120
+      },
+      {
+        "cross_encoder_score": -10.935543060302734,
+        "dataset": "QASPER",
+        "end_char": 17464,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "23ba432b4087e931307bdd024982dbdd",
+        "passage_rank": 2,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "6aff741d43fb6ef546a6dd95a55c7e68",
+        "sentence_text": "For example, the Italian test instances are combined with the Italian version of the questions, even though during training the model has only ever seen the German and French versions of the questions.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          13,
+          6,
+          0
+        ],
+        "source_position": 17263
+      },
+      {
+        "cross_encoder_score": -8.146005630493164,
+        "dataset": "QASPER",
+        "end_char": 17614,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "23ba432b4087e931307bdd024982dbdd",
+        "passage_rank": 2,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "b3d44ac6262322b537413c7515af1192",
+        "sentence_text": "An alternative concept is vertical language consistency, whereby the questions are consistently presented in one language, regardless of the comment.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          13,
+          7,
+          0
+        ],
+        "source_position": 17465
+      },
+      {
+        "cross_encoder_score": -10.735739707946777,
+        "dataset": "QASPER",
+        "end_char": 17782,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "23ba432b4087e931307bdd024982dbdd",
+        "passage_rank": 2,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "d9791323cb1f1d2b4abd77c3df9ceaea",
+        "sentence_text": "To test whether horizontal or vertical consistency is more helpful, we train and evaluate M-Bert on a dataset variant where all questions are in their English version.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          13,
+          8,
+          0
+        ],
+        "source_position": 17615
+      },
+      {
+        "cross_encoder_score": -9.644463539123535,
+        "dataset": "QASPER",
+        "end_char": 17893,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "23ba432b4087e931307bdd024982dbdd",
+        "passage_rank": 2,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "fa72353a6b00ea0b358118f7f1d2171b",
+        "sentence_text": "We chose English as a lingua franca because it had the largest share of data during the pretraining of M-Bert.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          13,
+          9,
+          0
+        ],
+        "source_position": 17783
+      },
+      {
+        "cross_encoder_score": -10.066095352172852,
+        "dataset": "QASPER",
+        "end_char": 17934,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "23ba432b4087e931307bdd024982dbdd",
+        "passage_rank": 2,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "8d5ca9841f4e6dc75e9d5c5d397509ee",
+        "sentence_text": "The results are shown in Table TABREF39.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          13,
+          10,
+          0
+        ],
+        "source_position": 17894
+      },
+      {
+        "cross_encoder_score": -2.534421920776367,
+        "dataset": "QASPER",
+        "end_char": 18054,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "23ba432b4087e931307bdd024982dbdd",
+        "passage_rank": 2,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "e8fd88dab9c22de08edc7dfa8f18f509",
+        "sentence_text": "While the effect is negligible in most settings, the cross-lingual performance clearly increases when all questions are",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          13,
+          11,
+          0
+        ],
+        "source_position": 17935
+      },
+      {
+        "cross_encoder_score": -9.763876914978027,
+        "dataset": "QASPER",
+        "end_char": 18072,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "9e63a16d16ac50f0321267b1ce2a02cb",
+        "passage_rank": 7,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "a3806c6e48702f82259f890ab57c5410",
+        "sentence_text": "given in English.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 18055
+      },
+      {
+        "cross_encoder_score": -11.229144096374512,
+        "dataset": "QASPER",
+        "end_char": 18130,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "9e63a16d16ac50f0321267b1ce2a02cb",
+        "passage_rank": 7,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "582a62700e7833b04cd5b7252b011435",
+        "sentence_text": "Baseline Experiments ::: How Important are the Segments?",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 18074
+      },
+      {
+        "cross_encoder_score": -11.241296768188477,
+        "dataset": "QASPER",
+        "end_char": 18405,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "9e63a16d16ac50f0321267b1ce2a02cb",
+        "passage_rank": 7,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "eb2084b1326b5e62afa987b436d7dbe9",
+        "sentence_text": "In order to rule out that only the questions or only the comments are necessary to optimally solve the task, we conduct some additional experiments: Only use a single segment containing the comment, removing the questions from the training and test data (missing questions).",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          14,
+          2,
+          0
+        ],
+        "source_position": 18131
+      },
+      {
+        "cross_encoder_score": -11.03000259399414,
+        "dataset": "QASPER",
+        "end_char": 18470,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "9e63a16d16ac50f0321267b1ce2a02cb",
+        "passage_rank": 7,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "e98a5053386f4fdfbe2c26d5ca9d5453",
+        "sentence_text": "Only use the question and remove the comment (missing comments).",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          14,
+          3,
+          0
+        ],
+        "source_position": 18406
+      },
+      {
+        "cross_encoder_score": -8.963021278381348,
+        "dataset": "QASPER",
+        "end_char": 18559,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "9e63a16d16ac50f0321267b1ce2a02cb",
+        "passage_rank": 7,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "95988016f013f41bccefe2d152c96274",
+        "sentence_text": "In both cases the performance decreases across all evaluation settings (Table TABREF39).",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          14,
+          4,
+          0
+        ],
+        "source_position": 18471
+      },
+      {
+        "cross_encoder_score": -11.410932540893555,
+        "dataset": "QASPER",
+        "end_char": 18707,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "9e63a16d16ac50f0321267b1ce2a02cb",
+        "passage_rank": 7,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "c185d2374dd8ed2c1d4834f52ac33163",
+        "sentence_text": "The loss in performance is much higher when comments are missing, indicating that the comments contain the most important information about stance.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          14,
+          5,
+          0
+        ],
+        "source_position": 18560
+      },
+      {
+        "cross_encoder_score": -11.1324462890625,
+        "dataset": "QASPER",
+        "end_char": 18836,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "9e63a16d16ac50f0321267b1ce2a02cb",
+        "passage_rank": 7,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "c7ab963f7df37369d252022170a6d593",
+        "sentence_text": "As can be expected, the score achieved without comments is only slightly different from the target-wise majority class baseline.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          14,
+          6,
+          0
+        ],
+        "source_position": 18708
+      },
+      {
+        "cross_encoder_score": -11.06588077545166,
+        "dataset": "QASPER",
+        "end_char": 18972,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "9e63a16d16ac50f0321267b1ce2a02cb",
+        "passage_rank": 7,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "78fb421536bac8e847f5c62c69a4f5f0",
+        "sentence_text": "But there is also a loss in performance when the questions are missing, which underlines the importance of pairing both pieces of text.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          14,
+          7,
+          0
+        ],
+        "source_position": 18837
+      },
+      {
+        "cross_encoder_score": -4.428080081939697,
+        "dataset": "QASPER",
+        "end_char": 19071,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "9e63a16d16ac50f0321267b1ce2a02cb",
+        "passage_rank": 7,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "2c354b0225c9432638849788957aa808",
+        "sentence_text": "The effect of missing questions is especially strong in the supervised and cross-lingual settings.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          14,
+          8,
+          0
+        ],
+        "source_position": 18973
+      },
+      {
+        "cross_encoder_score": -11.345085144042969,
+        "dataset": "QASPER",
+        "end_char": 19210,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "9e63a16d16ac50f0321267b1ce2a02cb",
+        "passage_rank": 7,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "7890bdad0a6434c914f95be324991f94",
+        "sentence_text": "To illustrate this, we provide in Table TABREF48 some examples of comments that occur with multiple different targets in the training set.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          14,
+          9,
+          0
+        ],
+        "source_position": 19072
+      },
+      {
+        "cross_encoder_score": -11.429659843444824,
+        "dataset": "QASPER",
+        "end_char": 19316,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "9e63a16d16ac50f0321267b1ce2a02cb",
+        "passage_rank": 7,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "1dade713c3018b7b9220200e8e039489",
+        "sentence_text": "Those examples can explain why the target can be essential for disambiguating a stance detection problem.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          14,
+          10,
+          0
+        ],
+        "source_position": 19211
+      },
+      {
+        "cross_encoder_score": -9.104711532592773,
+        "dataset": "QASPER",
+        "end_char": 19421,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "9e63a16d16ac50f0321267b1ce2a02cb",
+        "passage_rank": 7,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "fe939f9f38725ccf929c0f03c010bed7",
+        "sentence_text": "On the other hand, the effect of omitting the questions is less pronounced in the cross-target settings.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          14,
+          11,
+          0
+        ],
+        "source_position": 19317
+      },
+      {
+        "cross_encoder_score": -8.227380752563477,
+        "dataset": "QASPER",
+        "end_char": 19431,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "9e63a16d16ac50f0321267b1ce2a02cb",
+        "passage_rank": 7,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "92734557bee1890d59cabd2528203e8c",
+        "sentence_text": "The above",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          14,
+          12,
+          0
+        ],
+        "source_position": 19422
+      },
+      {
+        "cross_encoder_score": -8.57215404510498,
+        "dataset": "QASPER",
+        "end_char": 19534,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "bf2429124c43c46373ed1aff30f9f341",
+        "passage_rank": 5,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "05cc9ffa8001df419171076ca97add74",
+        "sentence_text": "single-segment experiments tell us that both the comment and the question provide crucial information.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          15,
+          0,
+          0
+        ],
+        "source_position": 19432
+      },
+      {
+        "cross_encoder_score": -10.532527923583984,
+        "dataset": "QASPER",
+        "end_char": 19661,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "bf2429124c43c46373ed1aff30f9f341",
+        "passage_rank": 5,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "297f19cd33537d881803982a07a713ba",
+        "sentence_text": "But it is possible that the M-Bert model, even though trained on both segments, mainly looks at a single segment at test time.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          15,
+          1,
+          0
+        ],
+        "source_position": 19535
+      },
+      {
+        "cross_encoder_score": -11.433600425720215,
+        "dataset": "QASPER",
+        "end_char": 19872,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "bf2429124c43c46373ed1aff30f9f341",
+        "passage_rank": 5,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "f3155b9d9d3c6b200bc8f8e70c2fbca5",
+        "sentence_text": "To rule this out, we probe the model with randomized data at test time: Test the model on versions of the test sets where the comments remain in place but the questions are shuffled randomly (random questions).",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          15,
+          2,
+          0
+        ],
+        "source_position": 19662
+      },
+      {
+        "cross_encoder_score": -8.928215026855469,
+        "dataset": "QASPER",
+        "end_char": 19979,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "bf2429124c43c46373ed1aff30f9f341",
+        "passage_rank": 5,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "2ed878d4462929cc68bce27d0d8af785",
+        "sentence_text": "We make sure that the random questions come from the same test set and language as the original questions.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          15,
+          3,
+          0
+        ],
+        "source_position": 19873
+      },
+      {
+        "cross_encoder_score": -11.12125301361084,
+        "dataset": "QASPER",
+        "end_char": 20053,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "bf2429124c43c46373ed1aff30f9f341",
+        "passage_rank": 5,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "a98745daa129a99374c6a74f00b142b1",
+        "sentence_text": "Keep the questions in place and randomize the comments (random comments).",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          15,
+          4,
+          0
+        ],
+        "source_position": 19980
+      },
+      {
+        "cross_encoder_score": -10.990478515625,
+        "dataset": "QASPER",
+        "end_char": 20116,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "bf2429124c43c46373ed1aff30f9f341",
+        "passage_rank": 5,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "2ee4b4889909db2a485eb8e0d066365f",
+        "sentence_text": "Again we shuffle the comments only within test set boundaries.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          15,
+          5,
+          0
+        ],
+        "source_position": 20054
+      },
+      {
+        "cross_encoder_score": -11.121260643005371,
+        "dataset": "QASPER",
+        "end_char": 20272,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "bf2429124c43c46373ed1aff30f9f341",
+        "passage_rank": 5,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "12e882f55f3a71456708ee8bde793131",
+        "sentence_text": "The results in Table TABREF39 show that the performance of the model decreases in both cases, confirming that it learns to take into account both segments.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          15,
+          6,
+          0
+        ],
+        "source_position": 20117
+      },
+      {
+        "cross_encoder_score": -11.400453567504883,
+        "dataset": "QASPER",
+        "end_char": 20337,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "bf2429124c43c46373ed1aff30f9f341",
+        "passage_rank": 5,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "9bb3955e22580084a104e57cc80e2934",
+        "sentence_text": "Baseline Experiments ::: How Important are Spelled-Out Targets?",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          15,
+          7,
+          0
+        ],
+        "source_position": 20274
+      },
+      {
+        "cross_encoder_score": -9.689014434814453,
+        "dataset": "QASPER",
+        "end_char": 20451,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "bf2429124c43c46373ed1aff30f9f341",
+        "passage_rank": 5,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "f471a3426fc473bd5960530efa2efccf",
+        "sentence_text": "Finally we test whether the target really needs to be represented by natural language (e.g. \u201cDo you support X?\u201d).",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          15,
+          8,
+          0
+        ],
+        "source_position": 20338
+      },
+      {
+        "cross_encoder_score": -11.277013778686523,
+        "dataset": "QASPER",
+        "end_char": 20551,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "bf2429124c43c46373ed1aff30f9f341",
+        "passage_rank": 5,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "61303182ae126af6b373f9182c243199",
+        "sentence_text": "Namely, an alternative is to represent the target with a trainable embedding instead of a question.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          15,
+          9,
+          0
+        ],
+        "source_position": 20452
+      },
+      {
+        "cross_encoder_score": -11.449889183044434,
+        "dataset": "QASPER",
+        "end_char": 20708,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "bf2429124c43c46373ed1aff30f9f341",
+        "passage_rank": 5,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "27851c893e16a22f50e4e13691bb2973",
+        "sentence_text": "In order to fit target embeddings smoothly into our architecture, we represent each target type with a different reserved symbol from the M-Bert vocabulary.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          15,
+          10,
+          0
+        ],
+        "source_position": 20552
+      },
+      {
+        "cross_encoder_score": -11.26677131652832,
+        "dataset": "QASPER",
+        "end_char": 20753,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "bf2429124c43c46373ed1aff30f9f341",
+        "passage_rank": 5,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "a7b72ef34fc36fb1a06ad5c4c8462133",
+        "sentence_text": "Segment A is then set to this symbol instead",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          15,
+          11,
+          0
+        ],
+        "source_position": 20709
+      },
+      {
+        "cross_encoder_score": -8.326495170593262,
+        "dataset": "QASPER",
+        "end_char": 20785,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "2c51f7da74ef49208ced10569f12ba1c",
+        "passage_rank": 8,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "09f6519f9ebd18d923fd27de31d391f3",
+        "sentence_text": "of a natural language question.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "source_position": 20754
+      },
+      {
+        "cross_encoder_score": -10.675230026245117,
+        "dataset": "QASPER",
+        "end_char": 20865,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "2c51f7da74ef49208ced10569f12ba1c",
+        "passage_rank": 8,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "36623721376bfb07945a3539ac452965",
+        "sentence_text": "The results for this experiment are listed in the bottom row of Table TABREF39.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          16,
+          1,
+          0
+        ],
+        "source_position": 20786
+      },
+      {
+        "cross_encoder_score": -6.175058364868164,
+        "dataset": "QASPER",
+        "end_char": 21011,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "2c51f7da74ef49208ced10569f12ba1c",
+        "passage_rank": 8,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "e89b9daf850be134eed72075b0af64ff",
+        "sentence_text": "An M-Bert model that learns target embeddings instead of encoding a question performs clearly worse in the supervised and cross-lingual settings.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          16,
+          2,
+          0
+        ],
+        "source_position": 20866
+      },
+      {
+        "cross_encoder_score": -9.79529094696045,
+        "dataset": "QASPER",
+        "end_char": 21148,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "2c51f7da74ef49208ced10569f12ba1c",
+        "passage_rank": 8,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "fe42d61f8b4be52be288279d63867d5f",
+        "sentence_text": "From this we conclude that spelled-out natural language questions provide important linguistic detail that can help in stance detection.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          16,
+          3,
+          0
+        ],
+        "source_position": 21012
+      },
+      {
+        "cross_encoder_score": -11.352993965148926,
+        "dataset": "QASPER",
+        "end_char": 21252,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "2c51f7da74ef49208ced10569f12ba1c",
+        "passage_rank": 8,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "7e278f84151982504e6d2b6f71310b80",
+        "sentence_text": "Discussion\tThe baseline experiments confirm that M-Bert can achieve a reasonable accuracy on x-stance.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          16,
+          4,
+          0
+        ],
+        "source_position": 21150
+      },
+      {
+        "cross_encoder_score": -11.429889678955078,
+        "dataset": "QASPER",
+        "end_char": 21398,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "2c51f7da74ef49208ced10569f12ba1c",
+        "passage_rank": 8,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "819a8953297163c5b0e6637f81e9f009",
+        "sentence_text": "To put the supervised score into context we list scores that variants of Bert have achieved on other stance detection datasets in Table TABREF46.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          16,
+          5,
+          0
+        ],
+        "source_position": 21253
+      },
+      {
+        "cross_encoder_score": -10.849510192871094,
+        "dataset": "QASPER",
+        "end_char": 21554,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "2c51f7da74ef49208ced10569f12ba1c",
+        "passage_rank": 8,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "d2b0b5d694b60cd4c37b05b364fc70d1",
+        "sentence_text": "It seems that the supervised part of x-stance has a similar difficulty as the SemEval-2016  or MPCHI  datasets on which Bert has previously been evaluated.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          16,
+          6,
+          0
+        ],
+        "source_position": 21399
+      },
+      {
+        "cross_encoder_score": -2.7235617637634277,
+        "dataset": "QASPER",
+        "end_char": 21779,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "2c51f7da74ef49208ced10569f12ba1c",
+        "passage_rank": 8,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "68067cc7246e5d83afff3ce9558f7e6a",
+        "sentence_text": "On the other hand, in the cross-lingual and cross-target settings, the mean score drops by 6\u20138 percentage points compared to the supervised setting; while zero-shot transfer is possible to a degree, it can still be improved.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          16,
+          7,
+          0
+        ],
+        "source_position": 21555
+      },
+      {
+        "cross_encoder_score": -11.288923263549805,
+        "dataset": "QASPER",
+        "end_char": 21934,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "2c51f7da74ef49208ced10569f12ba1c",
+        "passage_rank": 8,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "43d662dd10896f38ad51571c28fcab64",
+        "sentence_text": "The additional experiments (Table TABREF39) validate the results and show that the sequence-pair classification approach to stance detection is justified.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          16,
+          8,
+          0
+        ],
+        "source_position": 21780
+      },
+      {
+        "cross_encoder_score": -11.222996711730957,
+        "dataset": "QASPER",
+        "end_char": 21995,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "2c51f7da74ef49208ced10569f12ba1c",
+        "passage_rank": 8,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "a5e8cead6f6d8fb94c9d88601757be58",
+        "sentence_text": "It is interesting to see what errors the M-Bert model makes.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          16,
+          9,
+          0
+        ],
+        "source_position": 21935
+      },
+      {
+        "cross_encoder_score": -10.809155464172363,
+        "dataset": "QASPER",
+        "end_char": 22035,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "2c51f7da74ef49208ced10569f12ba1c",
+        "passage_rank": 8,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "ce0bd2f301102cad15760f012c1a8eec",
+        "sentence_text": "Table TABREF47 presents instances where",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          16,
+          10,
+          0
+        ],
+        "source_position": 21996
+      },
+      {
+        "cross_encoder_score": -10.41596794128418,
+        "dataset": "QASPER",
+        "end_char": 23553,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "8e6b4e739164d38db96734e8ebd1f7f4",
+        "passage_rank": 10,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "1154c2b09ddc0afcf78235823458d4d6",
+        "sentence_text": "unseen languages and to unseen targets (both within a topic and to unseen topics).",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          18,
+          0,
+          0
+        ],
+        "source_position": 23471
+      },
+      {
+        "cross_encoder_score": -10.91567325592041,
+        "dataset": "QASPER",
+        "end_char": 23627,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "8e6b4e739164d38db96734e8ebd1f7f4",
+        "passage_rank": 10,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "415504dc52ee6d95996130b093031472",
+        "sentence_text": "However, there is some gap in performance that future work could address.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          18,
+          1,
+          0
+        ],
+        "source_position": 23554
+      },
+      {
+        "cross_encoder_score": -11.442376136779785,
+        "dataset": "QASPER",
+        "end_char": 23781,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "8e6b4e739164d38db96734e8ebd1f7f4",
+        "passage_rank": 10,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "a5140ac02a2c1c12c281225ad0258b30",
+        "sentence_text": "We expect that the x-stance dataset could furthermore be a valuable resource for fields such as argument mining, argument search or topic classification.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          18,
+          2,
+          0
+        ],
+        "source_position": 23628
+      },
+      {
+        "cross_encoder_score": -11.076360702514648,
+        "dataset": "QASPER",
+        "end_char": 23891,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "8e6b4e739164d38db96734e8ebd1f7f4",
+        "passage_rank": 10,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "2d114c78f92aae1d5bde641f8d87693d",
+        "sentence_text": "Acknowledgments\tThis work was funded by the Swiss National Science Foundation (project MUTAMUR; no. 176727).",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          18,
+          3,
+          0
+        ],
+        "source_position": 23783
+      },
+      {
+        "cross_encoder_score": -11.017219543457031,
+        "dataset": "QASPER",
+        "end_char": 23956,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "8e6b4e739164d38db96734e8ebd1f7f4",
+        "passage_rank": 10,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "e9a5ee5cfdfe9d978611f60f9f4d6a0f",
+        "sentence_text": "We would like to thank Isabelle Augenstein for helpful feedback.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          18,
+          4,
+          0
+        ],
+        "source_position": 23892
+      },
+      {
+        "cross_encoder_score": -11.461721420288086,
+        "dataset": "QASPER",
+        "end_char": 24166,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "8e6b4e739164d38db96734e8ebd1f7f4",
+        "passage_rank": 10,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "1e209826abf453c9f7a7dbb018871963",
+        "sentence_text": "Data Statement ::: Curation rationale\tIn order to study the automatic detection of stances on political issues, questions and candidate responses on the voting advice application smartvote.ch were downloaded.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          18,
+          5,
+          0
+        ],
+        "source_position": 23958
+      },
+      {
+        "cross_encoder_score": -11.00915241241455,
+        "dataset": "QASPER",
+        "end_char": 24251,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "8e6b4e739164d38db96734e8ebd1f7f4",
+        "passage_rank": 10,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "a588ec0b9ad046044de1fd627a9ae402",
+        "sentence_text": "Mainly data pertaining to national-level issues were included to reduce variability.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          18,
+          6,
+          0
+        ],
+        "source_position": 24167
+      },
+      {
+        "cross_encoder_score": -10.381206512451172,
+        "dataset": "QASPER",
+        "end_char": 24409,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "8e6b4e739164d38db96734e8ebd1f7f4",
+        "passage_rank": 10,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "53506472a43b276efd353c8dc9e6335d",
+        "sentence_text": "Data Statement ::: Language variety\tThe training set consists of questions and answers in Swiss Standard German and Swiss French (74.1% de-CH; 25.9% fr-CH).",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          18,
+          7,
+          0
+        ],
+        "source_position": 24253
+      },
+      {
+        "cross_encoder_score": -11.181352615356445,
+        "dataset": "QASPER",
+        "end_char": 24515,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "8e6b4e739164d38db96734e8ebd1f7f4",
+        "passage_rank": 10,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "294aa2301660af13b2116564b88ba93f",
+        "sentence_text": "The test sets also contain questions and answers in Swiss Italian (67.1% de-CH; 24.7% fr-CH; 8.2% it-CH).",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          18,
+          8,
+          0
+        ],
+        "source_position": 24410
+      },
+      {
+        "cross_encoder_score": -10.306495666503906,
+        "dataset": "QASPER",
+        "end_char": 24569,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "8e6b4e739164d38db96734e8ebd1f7f4",
+        "passage_rank": 10,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "b2bf471aa925f95393ed13f7abe539b0",
+        "sentence_text": "The questions have also been translated into English.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          18,
+          9,
+          0
+        ],
+        "source_position": 24516
+      },
+      {
+        "cross_encoder_score": -11.393348693847656,
+        "dataset": "QASPER",
+        "end_char": 24678,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "8e6b4e739164d38db96734e8ebd1f7f4",
+        "passage_rank": 10,
+        "query_id": "612c3675b6c55b60ae6d24265ed8e20f62cb117e",
+        "sentence_id": "6697793e7fd9fd5ffde30d3788604335",
+        "sentence_text": "Data Statement ::: Speaker demographic (answers)\tCandidates for communal, cantonal or national elections in",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          18,
+          10,
+          0
+        ],
+        "source_position": 24571
+      }
+    ],
+    "scoring_seconds": 0.4205676530255005,
+    "source_fingerprint": "3366a47ab4b382812fdd9f38c1df503599341e18f5f3362fa12fd4fcce230af9"
+  }
+}

@@ -1,0 +1,2091 @@
+{
+  "checksum": "1817a7d21c753ac9574d967087cde12b29faee2cf3520dcd648f3484d02be256",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "975e60535724f4149c7488699a199ba2920a062c"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 103,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "b5bb0467b53eec078768b4e3f73135a1db6440eccc6546ef7104f806b9cba8df",
+    "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+    "scores": [
+      {
+        "cross_encoder_score": -11.154495239257812,
+        "dataset": "QASPER",
+        "end_char": 149,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "74e6928bf343a2e8f9e6b07e21623dda",
+        "passage_rank": 6,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "2869783cec4b7cb8bd414cb59bad9c94",
+        "sentence_text": "How we do things with words: Analyzing text as social and cultural data\tIn this article we describe our experiences with computational text analysis.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.006689071655273,
+        "dataset": "QASPER",
+        "end_char": 189,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "74e6928bf343a2e8f9e6b07e21623dda",
+        "passage_rank": 6,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "565740d09162a6f4ee374233f2bc1ed8",
+        "sentence_text": "We hope to achieve three primary goals.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 150
+      },
+      {
+        "cross_encoder_score": -10.93712043762207,
+        "dataset": "QASPER",
+        "end_char": 320,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "74e6928bf343a2e8f9e6b07e21623dda",
+        "passage_rank": 6,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "9b59951c446e65db7a2b01e3e4c28612",
+        "sentence_text": "First, we aim to shed light on thorny issues not always at the forefront of discussions about computational text analysis methods.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 190
+      },
+      {
+        "cross_encoder_score": -10.581713676452637,
+        "dataset": "QASPER",
+        "end_char": 424,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "74e6928bf343a2e8f9e6b07e21623dda",
+        "passage_rank": 6,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "e0f2fccbaad70157d691b0beeaf343df",
+        "sentence_text": "Second, we hope to provide a set of best practices for working with thick social and cultural concepts.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 321
+      },
+      {
+        "cross_encoder_score": -10.603535652160645,
+        "dataset": "QASPER",
+        "end_char": 508,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "74e6928bf343a2e8f9e6b07e21623dda",
+        "passage_rank": 6,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "e6af5254149c36758f28d4b6ea74247a",
+        "sentence_text": "Our guidance is based on our own experiences and is therefore inherently imperfect.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 425
+      },
+      {
+        "cross_encoder_score": -4.498437881469727,
+        "dataset": "QASPER",
+        "end_char": 679,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "74e6928bf343a2e8f9e6b07e21623dda",
+        "passage_rank": 6,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "48c19a55eb14295ec9d70a7c4d9bfd30",
+        "sentence_text": "Still, given our diversity of disciplinary backgrounds and research practices, we hope to capture a range of ideas and identify commonalities that will resonate for many.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 509
+      },
+      {
+        "cross_encoder_score": -10.852784156799316,
+        "dataset": "QASPER",
+        "end_char": 763,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "74e6928bf343a2e8f9e6b07e21623dda",
+        "passage_rank": 6,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "2669ebecdbcd63eb76dea2291d6cfd0e",
+        "sentence_text": "And this leads to our final goal: to help promote interdisciplinary collaborations.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 680
+      },
+      {
+        "cross_encoder_score": -9.82895278930664,
+        "dataset": "QASPER",
+        "end_char": 1030,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "74e6928bf343a2e8f9e6b07e21623dda",
+        "passage_rank": 6,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "df9ed5386d99dfa13c1ea59a37bdf174",
+        "sentence_text": "Interdisciplinary insights and partnerships are essential for realizing the full potential of any computational text analysis that involves social and cultural concepts, and the more we are able to bridge these divides, the more fruitful we believe our work will be.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 764
+      },
+      {
+        "cross_encoder_score": -11.24711799621582,
+        "dataset": "QASPER",
+        "end_char": 1169,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "74e6928bf343a2e8f9e6b07e21623dda",
+        "passage_rank": 6,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "8e16a5dad0f0aa53482828f468ab79fc",
+        "sentence_text": "Introduction\tIn June 2015, the operators of the online discussion site Reddit banned several communities under new anti-harassment rules.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1032
+      },
+      {
+        "cross_encoder_score": -11.155343055725098,
+        "dataset": "QASPER",
+        "end_char": 1359,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "74e6928bf343a2e8f9e6b07e21623dda",
+        "passage_rank": 6,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "75fd7a87bf4f891c0f87d294bcd6d687",
+        "sentence_text": "used this opportunity to combine rich online data with computational methods to study a current question: Does eliminating these \u201cecho chambers\u201d diminish the amount of hate speech overall?",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1171
+      },
+      {
+        "cross_encoder_score": -11.109678268432617,
+        "dataset": "QASPER",
+        "end_char": 1417,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "74e6928bf343a2e8f9e6b07e21623dda",
+        "passage_rank": 6,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "5ddec003f150896bd1d183fab85698f6",
+        "sentence_text": "Exciting opportunities like these, at the intersection of",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1360
+      },
+      {
+        "cross_encoder_score": -10.409810066223145,
+        "dataset": "QASPER",
+        "end_char": 7245,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "0e83d749c8b596921725b5132c8a3829",
+        "passage_rank": 1,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "e31b19137457e60c4a4790fe98acc94c",
+        "sentence_text": "it is critical to communicate high-level patterns in terms that are recognizable.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 7164
+      },
+      {
+        "cross_encoder_score": -10.572419166564941,
+        "dataset": "QASPER",
+        "end_char": 7390,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "0e83d749c8b596921725b5132c8a3829",
+        "passage_rank": 1,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "88864416f52aaac769f01c942711ac07",
+        "sentence_text": "This contrasts with much of the work in computational text analysis, which tends to focus on automating tasks that humans perform inefficiently.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 7246
+      },
+      {
+        "cross_encoder_score": -9.409280776977539,
+        "dataset": "QASPER",
+        "end_char": 7597,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "0e83d749c8b596921725b5132c8a3829",
+        "passage_rank": 1,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "5559115031f021b0829e059103f1a3d7",
+        "sentence_text": "These tasks range from core linguistically motivated tasks that constitute the backbone of natural language processing, such as part-of-speech tagging and parsing, to filtering spam and detecting sentiment.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 7391
+      },
+      {
+        "cross_encoder_score": -11.198246955871582,
+        "dataset": "QASPER",
+        "end_char": 7689,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "0e83d749c8b596921725b5132c8a3829",
+        "passage_rank": 1,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "e491df6ba65b9693c28a36a9da330b51",
+        "sentence_text": "Many tasks are motivated by applications, for example to automatically block online trolls.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 7598
+      },
+      {
+        "cross_encoder_score": -10.606035232543945,
+        "dataset": "QASPER",
+        "end_char": 7954,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "0e83d749c8b596921725b5132c8a3829",
+        "passage_rank": 1,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "c999d34c71aa1d0b11dcbb2ec64421a9",
+        "sentence_text": "Success, then, is often measured by performance, and communicating why a certain prediction was made\u2014for example, why a document was labeled as positive sentiment, or why a word was classified as a noun\u2014is less important than the accuracy of the prediction itself.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 7690
+      },
+      {
+        "cross_encoder_score": -11.028485298156738,
+        "dataset": "QASPER",
+        "end_char": 8049,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "0e83d749c8b596921725b5132c8a3829",
+        "passage_rank": 1,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "d8f5503c3f4b81f6a2249cfa5027366b",
+        "sentence_text": "The approaches we use and what we mean by `success' are thus guided by our research questions.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 7955
+      },
+      {
+        "cross_encoder_score": -10.436339378356934,
+        "dataset": "QASPER",
+        "end_char": 8162,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "0e83d749c8b596921725b5132c8a3829",
+        "passage_rank": 1,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "86e8ff831e6e67450e15918b21df3a9b",
+        "sentence_text": "Domain experts and fellow researchers can provide feedback on questions and help with dynamically revising them.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 8050
+      },
+      {
+        "cross_encoder_score": -9.248308181762695,
+        "dataset": "QASPER",
+        "end_char": 8471,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "0e83d749c8b596921725b5132c8a3829",
+        "passage_rank": 1,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "4a40c60e0506f0b95cd77124e9242314",
+        "sentence_text": "For example, they may say \u201cwe already think we know that\u201d, \u201cthat's too na\u00efve\u201d, \u201cthat doesn't reflect social reality\u201d (negative); \u201ctwo major camps in the field would give different answers to that question\u201d (neutral); \u201cwe tried to look at that back in the 1960s, but we didn't have the technology\u201d (positive);",
+        "sentence_token_cost": 78,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 8163
+      },
+      {
+        "cross_encoder_score": -10.382553100585938,
+        "dataset": "QASPER",
+        "end_char": 8606,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "58be8da6562a5dc9108095b4a5761404",
+        "passage_rank": 2,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "876767aa2c77ba560a7c3f42bd39bc41",
+        "sentence_text": "and \u201cthat sounds like something that people who made that archive would love\u201d, \u201cthat's a really fundamental question\u201d (very positive).",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 8472
+      },
+      {
+        "cross_encoder_score": -10.531393051147461,
+        "dataset": "QASPER",
+        "end_char": 8665,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "58be8da6562a5dc9108095b4a5761404",
+        "passage_rank": 2,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "dd1c246930b869ccbb26ac5eb5060da6",
+        "sentence_text": "Sometimes we also hope to connect to multiple disciplines.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 8607
+      },
+      {
+        "cross_encoder_score": -10.11013412475586,
+        "dataset": "QASPER",
+        "end_char": 8867,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "58be8da6562a5dc9108095b4a5761404",
+        "passage_rank": 2,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "7faf019bbacaea1baf1e2f79e09d69ee",
+        "sentence_text": "For example, while focusing on the humanistic concerns of an archive, we could also ask social questions such as \u201cis this archive more about collaborative processes, culture-building or norm creation?\u201d",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 8666
+      },
+      {
+        "cross_encoder_score": -10.766707420349121,
+        "dataset": "QASPER",
+        "end_char": 8944,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "58be8da6562a5dc9108095b4a5761404",
+        "passage_rank": 2,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "46189f13ea450223829dd76fbf52f1af",
+        "sentence_text": "or \u201chow well does this archive reflect the society in which it is embedded?\"",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 8868
+      },
+      {
+        "cross_encoder_score": -9.65654182434082,
+        "dataset": "QASPER",
+        "end_char": 9106,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "58be8da6562a5dc9108095b4a5761404",
+        "passage_rank": 2,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "2993e89d654d3b9195864b24e0bfece3",
+        "sentence_text": "used quantitative methods to tell a story about Darwin's intellectual development\u2014an essential biographical question for a key figure in the history of science.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 8946
+      },
+      {
+        "cross_encoder_score": -9.645711898803711,
+        "dataset": "QASPER",
+        "end_char": 9373,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "58be8da6562a5dc9108095b4a5761404",
+        "passage_rank": 2,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "c5e1ff174fe28a9e15cf74f82cd922bd",
+        "sentence_text": "At the same time, their methods connected Darwin's development to the changing landscape of Victorian scientific culture, allowing them to contrast Darwin's \u201cforaging\u201d in the scientific literature of his time to the ways in which that literature was itself produced.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 9107
+      },
+      {
+        "cross_encoder_score": -9.26159954071045,
+        "dataset": "QASPER",
+        "end_char": 9559,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "58be8da6562a5dc9108095b4a5761404",
+        "passage_rank": 2,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "0cd0754c3021547a11f58d48f447b263",
+        "sentence_text": "Finally, their methods provided a case study, and validation of technical approaches, for cognitive scientists who are interested in how people explore and exploit sources of knowledge.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 9374
+      },
+      {
+        "cross_encoder_score": -11.018545150756836,
+        "dataset": "QASPER",
+        "end_char": 9612,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "58be8da6562a5dc9108095b4a5761404",
+        "passage_rank": 2,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "0cbfa510571126be6dd409f592d5a2bc",
+        "sentence_text": "Questions about potential \u201cdual use\u201d may also arise.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 9560
+      },
+      {
+        "cross_encoder_score": -11.295910835266113,
+        "dataset": "QASPER",
+        "end_char": 9801,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "58be8da6562a5dc9108095b4a5761404",
+        "passage_rank": 2,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "48cfbdf40e546601aab6ed71cbe72ecf",
+        "sentence_text": "Returning to our introductory example,  started with a deceptively simple question: if an internet platform eliminates forums for hate speech, does this impact hate speech in other forums?",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 9613
+      },
+      {
+        "cross_encoder_score": -10.921610832214355,
+        "dataset": "QASPER",
+        "end_char": 9864,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "58be8da6562a5dc9108095b4a5761404",
+        "passage_rank": 2,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "d28085e52a0b7e94ee41c3b89acd1110",
+        "sentence_text": "The research was motivated by the belief that a rising tide of",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          6,
+          9,
+          0
+        ],
+        "source_position": 9802
+      },
+      {
+        "cross_encoder_score": -7.968480587005615,
+        "dataset": "QASPER",
+        "end_char": 11336,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "d5523c98e33b1648dc1742db81d94418",
+        "passage_rank": 10,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "629ba84122ab055cd8ca586bd8abd27c",
+        "sentence_text": "science, wrote and consumed literature, and worked out their philosophies.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 11262
+      },
+      {
+        "cross_encoder_score": -9.832148551940918,
+        "dataset": "QASPER",
+        "end_char": 11408,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "d5523c98e33b1648dc1742db81d94418",
+        "passage_rank": 10,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "ca35f1bde05836ea533c84d1f1cc9603",
+        "sentence_text": "A growing number of researchers work with born-digital sources or data.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 11337
+      },
+      {
+        "cross_encoder_score": -10.03368854522705,
+        "dataset": "QASPER",
+        "end_char": 11566,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "d5523c98e33b1648dc1742db81d94418",
+        "passage_rank": 10,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "7b65095ee7554d7b172f6e2c4be8c2b4",
+        "sentence_text": "Born-digital data, e.g., from social media, generally do not involve direct elicitation from participants and therefore enable unobtrusive measurements  ,  .",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 11409
+      },
+      {
+        "cross_encoder_score": -10.517107963562012,
+        "dataset": "QASPER",
+        "end_char": 11718,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "d5523c98e33b1648dc1742db81d94418",
+        "passage_rank": 10,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "b7f622cde966ed7ec1168accf79ca7ff",
+        "sentence_text": "In contrast, methods like surveys sometimes elicit altered responses from participants, who might adapt their responses to what they think is expected.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 11567
+      },
+      {
+        "cross_encoder_score": -9.822721481323242,
+        "dataset": "QASPER",
+        "end_char": 11851,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "d5523c98e33b1648dc1742db81d94418",
+        "passage_rank": 10,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "00506cdb6730b8eb13e03e22523702c0",
+        "sentence_text": "Moreover, born-digital data is often massive, enabling large-scale studies of language and behavior in a variety of social contexts.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 11719
+      },
+      {
+        "cross_encoder_score": -9.027606010437012,
+        "dataset": "QASPER",
+        "end_char": 11943,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "d5523c98e33b1648dc1742db81d94418",
+        "passage_rank": 10,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "795c6c0410a03839099491e009826a2e",
+        "sentence_text": "Still, many scholars in the social sciences and humanities work with multiple data sources.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 11852
+      },
+      {
+        "cross_encoder_score": -10.859506607055664,
+        "dataset": "QASPER",
+        "end_char": 12048,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "d5523c98e33b1648dc1742db81d94418",
+        "passage_rank": 10,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "1f343a475e2896c77de734f2373c4974",
+        "sentence_text": "The variety of sources typically used means that more than one data collection method is often required.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 11944
+      },
+      {
+        "cross_encoder_score": -9.76733112335205,
+        "dataset": "QASPER",
+        "end_char": 12341,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "d5523c98e33b1648dc1742db81d94418",
+        "passage_rank": 10,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "5a9e05c35eecc54f91f545b70134e9cd",
+        "sentence_text": "For example, a project examining coverage of a UK General Election, could draw data from traditional media, web archives, Twitter and Facebook, campaign manifestos, etc. and might combine textual analysis of these materials with surveys, laboratory experiments, or field observations offline.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 12049
+      },
+      {
+        "cross_encoder_score": -8.977476119995117,
+        "dataset": "QASPER",
+        "end_char": 12462,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "d5523c98e33b1648dc1742db81d94418",
+        "passage_rank": 10,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "45e0a21915710aef6da1505198d8b6eb",
+        "sentence_text": "In contrast, many computational studies based on born-digital data have focused on one specific source, such as Twitter.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "source_position": 12342
+      },
+      {
+        "cross_encoder_score": -10.74634838104248,
+        "dataset": "QASPER",
+        "end_char": 12516,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "d5523c98e33b1648dc1742db81d94418",
+        "passage_rank": 10,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "27efd8f24aad8d45ca461c153047e4e2",
+        "sentence_text": "The use of born-digital data raises ethical concerns.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          8,
+          9,
+          0
+        ],
+        "source_position": 12463
+      },
+      {
+        "cross_encoder_score": -10.468375205993652,
+        "dataset": "QASPER",
+        "end_char": 12623,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "d5523c98e33b1648dc1742db81d94418",
+        "passage_rank": 10,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "2cf664bd01ee380676ea96bf32d6e28e",
+        "sentence_text": "Although early studies often treated privacy as a binary construct, many now acknowledge its complexity  .",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          8,
+          10,
+          0
+        ],
+        "source_position": 12517
+      },
+      {
+        "cross_encoder_score": -10.633417129516602,
+        "dataset": "QASPER",
+        "end_char": 12660,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "d5523c98e33b1648dc1742db81d94418",
+        "passage_rank": 10,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "704f9a106fa7983c7d29d0396d629bcf",
+        "sentence_text": "Conversations on private matters can",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          8,
+          11,
+          0
+        ],
+        "source_position": 12624
+      },
+      {
+        "cross_encoder_score": -10.95820140838623,
+        "dataset": "QASPER",
+        "end_char": 12824,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "6158299e6b9d7a843147adeeb644de91",
+        "passage_rank": 5,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "26b424504311b4b375b5aa8d1e1f433b",
+        "sentence_text": "be posted online, visible for all, but social norms regarding what should be considered public information may differ from the data's explicit visibility settings.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 12661
+      },
+      {
+        "cross_encoder_score": -10.701191902160645,
+        "dataset": "QASPER",
+        "end_char": 12975,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "6158299e6b9d7a843147adeeb644de91",
+        "passage_rank": 5,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "91ad6eb46bf16a75af573e75b5abe2e0",
+        "sentence_text": "Often no informed consent has been obtained, raising concerns and challenges regarding publishing content and potentially harmful secondary uses  ,  .",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 12825
+      },
+      {
+        "cross_encoder_score": -10.306557655334473,
+        "dataset": "QASPER",
+        "end_char": 13133,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "6158299e6b9d7a843147adeeb644de91",
+        "passage_rank": 5,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "07aa9d89ff401190dd6cd04cc8b255e9",
+        "sentence_text": "Recently, concerns about potential harms stemming from secondary uses have led a number of digital service providers to restrict access to born-digital data.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 12976
+      },
+      {
+        "cross_encoder_score": -10.180379867553711,
+        "dataset": "QASPER",
+        "end_char": 13408,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "6158299e6b9d7a843147adeeb644de91",
+        "passage_rank": 5,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "910d245055b28deb59051261c642e5f3",
+        "sentence_text": "Facebook and Twitter, for example, have reduced or eliminated public access to their application programming interfaces (APIs) and expressed hesitation about allowing academic researchers to use data from their platforms to examine certain sensitive or controversial topics.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 13134
+      },
+      {
+        "cross_encoder_score": -10.973514556884766,
+        "dataset": "QASPER",
+        "end_char": 13515,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "6158299e6b9d7a843147adeeb644de91",
+        "passage_rank": 5,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "ec303c44e41f99035e61446bfef04eb4",
+        "sentence_text": "Despite the seeming abundance of born-digital data, we therefore cannot take its availability for granted.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 13409
+      },
+      {
+        "cross_encoder_score": -9.831503868103027,
+        "dataset": "QASPER",
+        "end_char": 13638,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "6158299e6b9d7a843147adeeb644de91",
+        "passage_rank": 5,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "7a815c8a413d8dad1fceed3ba334a744",
+        "sentence_text": "Working with data that someone else has acquired presents additional problems related to provenance and contextualisation.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 13516
+      },
+      {
+        "cross_encoder_score": -11.175023078918457,
+        "dataset": "QASPER",
+        "end_char": 13731,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "6158299e6b9d7a843147adeeb644de91",
+        "passage_rank": 5,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "1d9d40e269a4e7912a641bd539658a63",
+        "sentence_text": "It may not always be possible to determine the criteria applied during the creation process.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          9,
+          6,
+          0
+        ],
+        "source_position": 13639
+      },
+      {
+        "cross_encoder_score": -11.102174758911133,
+        "dataset": "QASPER",
+        "end_char": 13843,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "6158299e6b9d7a843147adeeb644de91",
+        "passage_rank": 5,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "b2941ee3e07040f0b9a76b4f7f0e7c4d",
+        "sentence_text": "For example, why were certain newspapers digitized but not others, and what does this say about the collection?",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          9,
+          7,
+          0
+        ],
+        "source_position": 13732
+      },
+      {
+        "cross_encoder_score": -11.088041305541992,
+        "dataset": "QASPER",
+        "end_char": 13902,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "6158299e6b9d7a843147adeeb644de91",
+        "passage_rank": 5,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "8e388096e798d66f507db8f481326f3e",
+        "sentence_text": "Similar questions arise with the use of born-digital data.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          9,
+          8,
+          0
+        ],
+        "source_position": 13844
+      },
+      {
+        "cross_encoder_score": -11.204408645629883,
+        "dataset": "QASPER",
+        "end_char": 14087,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "6158299e6b9d7a843147adeeb644de91",
+        "passage_rank": 5,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "c1443e8c9353c44bb26ee4c9f0ecf1b8",
+        "sentence_text": "For instance, when using the Internet Archive\u2019s Wayback Machine to gather data from archived web pages, we need to consider what pages were captured, which are likely missing, and why.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          9,
+          9,
+          0
+        ],
+        "source_position": 13903
+      },
+      {
+        "cross_encoder_score": -11.078011512756348,
+        "dataset": "QASPER",
+        "end_char": 14129,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "6158299e6b9d7a843147adeeb644de91",
+        "passage_rank": 5,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "ed54f87f05a556363ed40754b96fd3bc",
+        "sentence_text": "We must often repurpose born-digital data",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          9,
+          10,
+          0
+        ],
+        "source_position": 14088
+      },
+      {
+        "cross_encoder_score": -10.354165077209473,
+        "dataset": "QASPER",
+        "end_char": 14278,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "de60a18fa9f6e6b362fb3ead3a7994c1",
+        "passage_rank": 7,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "2fbe3beb45e99a50315af0767906ee6a",
+        "sentence_text": "(e.g., Twitter was not designed to measure public opinion), but data biases may lead to spurious results and limit justification for generalization.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 14130
+      },
+      {
+        "cross_encoder_score": -10.060487747192383,
+        "dataset": "QASPER",
+        "end_char": 14577,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "de60a18fa9f6e6b362fb3ead3a7994c1",
+        "passage_rank": 7,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "030adbcedc0c2ec4f6be9452f477af0c",
+        "sentence_text": "In particular, data collected via black box APIs designed for commercial, not research, purposes are likely to introduce biases into the inferences we draw, and the closed nature of these APIs means we rarely know what biases are introduced, let alone how severely they might impact our research  .",
+        "sentence_token_cost": 56,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 14279
+      },
+      {
+        "cross_encoder_score": -10.681587219238281,
+        "dataset": "QASPER",
+        "end_char": 14615,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "de60a18fa9f6e6b362fb3ead3a7994c1",
+        "passage_rank": 7,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "74df9c7bf82f882b25060859975c4ff3",
+        "sentence_text": "These, however, are not new problems.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 14578
+      },
+      {
+        "cross_encoder_score": -8.461400032043457,
+        "dataset": "QASPER",
+        "end_char": 14789,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "de60a18fa9f6e6b362fb3ead3a7994c1",
+        "passage_rank": 7,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "c3abe459fb86be792db6ee5a3463eb0a",
+        "sentence_text": "Historians, for example, have always understood that their sources were produced within particular contexts and for particular purposes, which are not always apparent to us.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 14616
+      },
+      {
+        "cross_encoder_score": -10.945058822631836,
+        "dataset": "QASPER",
+        "end_char": 14873,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "de60a18fa9f6e6b362fb3ead3a7994c1",
+        "passage_rank": 7,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "519ebf1fc3f0e0f2f794fa13902de641",
+        "sentence_text": "Non-representative data can still be useful for making comparisons within a sample.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 14790
+      },
+      {
+        "cross_encoder_score": -8.819825172424316,
+        "dataset": "QASPER",
+        "end_char": 15236,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "de60a18fa9f6e6b362fb3ead3a7994c1",
+        "passage_rank": 7,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "4637bda3b1eb4c5ce3b5635591146652",
+        "sentence_text": "In the introductory example on hate speech  , the Reddit forums do not present a comprehensive or balanced picture of hate speech: the writing is almost exclusively in English, the targets of hate speech are mainly restricted (e.g., to black people, or women), and the population of writers is shaped by Reddit's demographics, which skew towards young white men.",
+        "sentence_token_cost": 70,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 14874
+      },
+      {
+        "cross_encoder_score": -9.863541603088379,
+        "dataset": "QASPER",
+        "end_char": 15400,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "de60a18fa9f6e6b362fb3ead3a7994c1",
+        "passage_rank": 7,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "ea75d2b1f921f61f2d8c725cc1b7ea08",
+        "sentence_text": "These biases limit the generalizability of the findings, which cannot be extrapolated to other languages, other types of hate speech, and other demographic groups.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 15237
+      },
+      {
+        "cross_encoder_score": -10.854390144348145,
+        "dataset": "QASPER",
+        "end_char": 15488,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "de60a18fa9f6e6b362fb3ead3a7994c1",
+        "passage_rank": 7,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "95fb39442839f53f9833e911a360409a",
+        "sentence_text": "However, because the findings are based on measurements on the same sort of hate speech",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 15401
+      },
+      {
+        "cross_encoder_score": -9.664972305297852,
+        "dataset": "QASPER",
+        "end_char": 15694,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "83f5f4b2734a392426468e8e5c20eddc",
+        "passage_rank": 8,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "d30610aa8724634a755610a4eded2fb7",
+        "sentence_text": "and the same population of writers, as long as the collected data are representative of this specific population, these biases do not pose an intractable validity problem if claims are properly restricted.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 15489
+      },
+      {
+        "cross_encoder_score": -10.685013771057129,
+        "dataset": "QASPER",
+        "end_char": 15784,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "83f5f4b2734a392426468e8e5c20eddc",
+        "passage_rank": 8,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "e7826d3ba1b9cb8244c8993a708317ff",
+        "sentence_text": "The size of many newly available datasets is one of their most appealing characteristics.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 15695
+      },
+      {
+        "cross_encoder_score": -11.089713096618652,
+        "dataset": "QASPER",
+        "end_char": 15835,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "83f5f4b2734a392426468e8e5c20eddc",
+        "passage_rank": 8,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "5218838178d233df3c59054cf7934a69",
+        "sentence_text": "Bigger datasets often make statistics more robust.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 15785
+      },
+      {
+        "cross_encoder_score": -10.791125297546387,
+        "dataset": "QASPER",
+        "end_char": 15982,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "83f5f4b2734a392426468e8e5c20eddc",
+        "passage_rank": 8,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "16fac8416d288383fe6779d80eee8956",
+        "sentence_text": "The size needed for a computational text analysis depends on the research goal: When it involves studying rare events, bigger datasets are needed.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 15836
+      },
+      {
+        "cross_encoder_score": -10.933732032775879,
+        "dataset": "QASPER",
+        "end_char": 16020,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "83f5f4b2734a392426468e8e5c20eddc",
+        "passage_rank": 8,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "964cc92f9e29cf3548b530be97e2c482",
+        "sentence_text": "However, larger is not always better.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 15983
+      },
+      {
+        "cross_encoder_score": -9.889642715454102,
+        "dataset": "QASPER",
+        "end_char": 16156,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "83f5f4b2734a392426468e8e5c20eddc",
+        "passage_rank": 8,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "a2ca5371aa042037495d5a2912f7b95e",
+        "sentence_text": "Some very large archives are \u201csecretly\u201d collections of multiple and distinct processes that no in-field scholar would consider related.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 16021
+      },
+      {
+        "cross_encoder_score": -10.429689407348633,
+        "dataset": "QASPER",
+        "end_char": 16318,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "83f5f4b2734a392426468e8e5c20eddc",
+        "passage_rank": 8,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "edcd1d2a02c360ca9673f00035219d39",
+        "sentence_text": "For example, Google Books is frequently used to study cultural patterns, but the over-representation of scientific articles in Google books can be problematic  .",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 16157
+      },
+      {
+        "cross_encoder_score": -10.368298530578613,
+        "dataset": "QASPER",
+        "end_char": 16448,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "83f5f4b2734a392426468e8e5c20eddc",
+        "passage_rank": 8,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "01548f952f9f6ce7a962ae20529ff3df",
+        "sentence_text": "Even very large born-digital datasets usually cover limited timespans compared to, e.g., the Gutenberg archive of British novels.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 16319
+      },
+      {
+        "cross_encoder_score": -10.779682159423828,
+        "dataset": "QASPER",
+        "end_char": 16523,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "83f5f4b2734a392426468e8e5c20eddc",
+        "passage_rank": 8,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "a7583f8814a1ad21040d001b996da44a",
+        "sentence_text": "This stage of the research also raises important questions about fairness.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          11,
+          8,
+          0
+        ],
+        "source_position": 16449
+      },
+      {
+        "cross_encoder_score": -10.481182098388672,
+        "dataset": "QASPER",
+        "end_char": 16606,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "83f5f4b2734a392426468e8e5c20eddc",
+        "passage_rank": 8,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "745d050b838bd12bbb788e8c61c8b10b",
+        "sentence_text": "Are marginalized groups, for example, represented in the tweets we have collected?",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          11,
+          9,
+          0
+        ],
+        "source_position": 16524
+      },
+      {
+        "cross_encoder_score": -10.95766544342041,
+        "dataset": "QASPER",
+        "end_char": 16687,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "83f5f4b2734a392426468e8e5c20eddc",
+        "passage_rank": 8,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "0e6c1a06fa2a9fe2b3910ffb479ecbe4",
+        "sentence_text": "If not, what types of biases might result from analyses relying on those tweets?",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          11,
+          10,
+          0
+        ],
+        "source_position": 16607
+      },
+      {
+        "cross_encoder_score": -10.30645751953125,
+        "dataset": "QASPER",
+        "end_char": 16746,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "83f5f4b2734a392426468e8e5c20eddc",
+        "passage_rank": 8,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "f16b1fe035a906e20b6289406f458c5d",
+        "sentence_text": "Local experts and \u201cinformants\u201d can help navigate the data.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          11,
+          11,
+          0
+        ],
+        "source_position": 16688
+      },
+      {
+        "cross_encoder_score": -10.279224395751953,
+        "dataset": "QASPER",
+        "end_char": 16820,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "83f5f4b2734a392426468e8e5c20eddc",
+        "passage_rank": 8,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "c35238a3d7ad5a43b1a8b5cc871f066b",
+        "sentence_text": "They can help understand the role an archive plays in the time and place.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          11,
+          12,
+          0
+        ],
+        "source_position": 16747
+      },
+      {
+        "cross_encoder_score": -10.279719352722168,
+        "dataset": "QASPER",
+        "end_char": 16869,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "83f5f4b2734a392426468e8e5c20eddc",
+        "passage_rank": 8,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "a536710003f8540d9d7483ced6f92ec1",
+        "sentence_text": "They might tell us: Is this the central archive,",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          11,
+          13,
+          0
+        ],
+        "source_position": 16821
+      },
+      {
+        "cross_encoder_score": -11.196198463439941,
+        "dataset": "QASPER",
+        "end_char": 21029,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "4275b9e34f11ebf9af9754d5ac17605c",
+        "passage_rank": 4,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "76b8066763ed3a9e2844bcb1e0439b87",
+        "sentence_text": "down vote for a social media post could indicate that the content is offensive, or that the voter simply disagreed with the expressed view.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          15,
+          0,
+          0
+        ],
+        "source_position": 20890
+      },
+      {
+        "cross_encoder_score": -10.289576530456543,
+        "dataset": "QASPER",
+        "end_char": 21193,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "4275b9e34f11ebf9af9754d5ac17605c",
+        "passage_rank": 4,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "8d018205e09371aa1ec85f64ba829106",
+        "sentence_text": "Conceptualization\tA core step in many analyses is translating social and cultural concepts (such as hate speech, rumor, or conversion) into measurable quantities.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          15,
+          1,
+          0
+        ],
+        "source_position": 21031
+      },
+      {
+        "cross_encoder_score": -11.159954071044922,
+        "dataset": "QASPER",
+        "end_char": 21348,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "4275b9e34f11ebf9af9754d5ac17605c",
+        "passage_rank": 4,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "fcb9e2d801767d14af732ff27cdad7f8",
+        "sentence_text": "Before we can develop measurements for these concepts (the operationalization step, or the \u201cimplementation\u201d step as denoted by  ), we need to define them.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          15,
+          2,
+          0
+        ],
+        "source_position": 21194
+      },
+      {
+        "cross_encoder_score": -10.391688346862793,
+        "dataset": "QASPER",
+        "end_char": 21486,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "4275b9e34f11ebf9af9754d5ac17605c",
+        "passage_rank": 4,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "04e599f69f57c474921166d2a9aab169",
+        "sentence_text": "In the conceptualization phase we often start with questions such as: who are the domain experts, and how have they approached the topic?",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          15,
+          3,
+          0
+        ],
+        "source_position": 21349
+      },
+      {
+        "cross_encoder_score": -10.99315357208252,
+        "dataset": "QASPER",
+        "end_char": 21628,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "4275b9e34f11ebf9af9754d5ac17605c",
+        "passage_rank": 4,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "b685254fec00aad6ec6c5387a029a3ac",
+        "sentence_text": "We are looking for a definition of the concept that is flexible enough to apply on our dataset, yet formal enough for computational research.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          15,
+          4,
+          0
+        ],
+        "source_position": 21487
+      },
+      {
+        "cross_encoder_score": -10.546307563781738,
+        "dataset": "QASPER",
+        "end_char": 21766,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "4275b9e34f11ebf9af9754d5ac17605c",
+        "passage_rank": 4,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "fc8adf8fd25940b64f06b3023acda6f3",
+        "sentence_text": "For example, our introductory study on hate speech  used a statement on hate speech produced by the European Union Court of Human Rights.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          15,
+          5,
+          0
+        ],
+        "source_position": 21629
+      },
+      {
+        "cross_encoder_score": -11.192163467407227,
+        "dataset": "QASPER",
+        "end_char": 21899,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "4275b9e34f11ebf9af9754d5ac17605c",
+        "passage_rank": 4,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "003f04122d0cc370ffbc1008c6da0da9",
+        "sentence_text": "The goal was not to implement this definition directly in software but to use it as a reference point to anchor subsequent analyses.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          15,
+          6,
+          0
+        ],
+        "source_position": 21767
+      },
+      {
+        "cross_encoder_score": -4.193634986877441,
+        "dataset": "QASPER",
+        "end_char": 22105,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "4275b9e34f11ebf9af9754d5ac17605c",
+        "passage_rank": 4,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "7421fdb83c20024875398e8720c3e8ed",
+        "sentence_text": "If we want to move beyond the use of ad hoc definitions, it can be useful to distinguish between what political scientists Adcock and Collier call the \u201cbackground concept\u201d and the \u201csystematized concept\u201d  .",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          15,
+          7,
+          0
+        ],
+        "source_position": 21900
+      },
+      {
+        "cross_encoder_score": 0.8251153230667114,
+        "dataset": "QASPER",
+        "end_char": 22224,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "4275b9e34f11ebf9af9754d5ac17605c",
+        "passage_rank": 4,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "326b9f8699ff3b94f89fbe0cbc21f5e5",
+        "sentence_text": "The background concept comprises the full and diverse set of meanings that might be associated with a particular term.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          15,
+          8,
+          0
+        ],
+        "source_position": 22106
+      },
+      {
+        "cross_encoder_score": -9.480903625488281,
+        "dataset": "QASPER",
+        "end_char": 22229,
+        "pair_tokens_before_truncation": 10,
+        "pair_truncated": false,
+        "passage_id": "4275b9e34f11ebf9af9754d5ac17605c",
+        "passage_rank": 4,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "0c379758e286c7d6b9e8ffbe89bc5abd",
+        "sentence_text": "This",
+        "sentence_token_cost": 1,
+        "source_order": [
+          0,
+          15,
+          9,
+          0
+        ],
+        "source_position": 22225
+      },
+      {
+        "cross_encoder_score": -9.646071434020996,
+        "dataset": "QASPER",
+        "end_char": 22522,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "7cc373180aad3bc115c724e3a39b9590",
+        "passage_rank": 3,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "08b3cd73169bf8f22e088a11f4d1f59e",
+        "sentence_text": "involves delving into theoretical, conceptual, and empirical studies to assess how a concept has been defined by other scholars and, most importantly, to determine which definition is most appropriate for the particular research question and the theoretical framework in which it is situated.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "source_position": 22230
+      },
+      {
+        "cross_encoder_score": -11.022726058959961,
+        "dataset": "QASPER",
+        "end_char": 22632,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "7cc373180aad3bc115c724e3a39b9590",
+        "passage_rank": 3,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "860524ce4de6d16c3a93fa29b156ac47",
+        "sentence_text": "That definition, in turn, represents the systematized concept: the formulation that is adopted for the study.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          16,
+          1,
+          0
+        ],
+        "source_position": 22523
+      },
+      {
+        "cross_encoder_score": -9.991580963134766,
+        "dataset": "QASPER",
+        "end_char": 22733,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "7cc373180aad3bc115c724e3a39b9590",
+        "passage_rank": 3,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "aa2f8e5fed69bc2159ab1105087523e6",
+        "sentence_text": "It is important to consider that for social and cultural concepts there is no absolute ground truth.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          16,
+          2,
+          0
+        ],
+        "source_position": 22633
+      },
+      {
+        "cross_encoder_score": -3.8851006031036377,
+        "dataset": "QASPER",
+        "end_char": 22899,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "7cc373180aad3bc115c724e3a39b9590",
+        "passage_rank": 3,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "80fb0d6f322ff7293c40eefb2d2f3c56",
+        "sentence_text": "There are often multiple valid definitions for a concept (the \u201cbackground\u201d concept in the terms of Adcock and Collier), and definitions might be contested over time.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          16,
+          3,
+          0
+        ],
+        "source_position": 22734
+      },
+      {
+        "cross_encoder_score": -10.331324577331543,
+        "dataset": "QASPER",
+        "end_char": 23152,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "7cc373180aad3bc115c724e3a39b9590",
+        "passage_rank": 3,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "3435932390fbed3972883d9b067d1e81",
+        "sentence_text": "This may be uncomfortable for computer scientists, whose primary measure of success is often based on comparing a model's output against \u201cground truth\u201d or a \u201cgold standard\u201d, e.g., by comparing a sentiment classifier's output against manual annotations.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          16,
+          4,
+          0
+        ],
+        "source_position": 22900
+      },
+      {
+        "cross_encoder_score": -9.004648208618164,
+        "dataset": "QASPER",
+        "end_char": 23293,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "7cc373180aad3bc115c724e3a39b9590",
+        "passage_rank": 3,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "52008b939b938de9ac31f1268b983c33",
+        "sentence_text": "However, the notion of ground truth is uncommon in the humanities and the social sciences and it is often taken too far in machine learning.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          16,
+          5,
+          0
+        ],
+        "source_position": 23153
+      },
+      {
+        "cross_encoder_score": -9.824106216430664,
+        "dataset": "QASPER",
+        "end_char": 23476,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "7cc373180aad3bc115c724e3a39b9590",
+        "passage_rank": 3,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "f964d4fecaf206ee9d433e2c82829735",
+        "sentence_text": "notes that in literary criticism and the digital humanities more broadly \u201cinterpretation, ambiguity, and argumentation are prized far above ground truth and definitive conclusions\".",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          16,
+          6,
+          0
+        ],
+        "source_position": 23295
+      },
+      {
+        "cross_encoder_score": -10.23021125793457,
+        "dataset": "QASPER",
+        "end_char": 23635,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "7cc373180aad3bc115c724e3a39b9590",
+        "passage_rank": 3,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "4b0b439f8209e3e52b5c8b3ee44d6f4e",
+        "sentence_text": "draw attention to the different attitudes of literary scholars and computational linguists towards ambiguity, stating that \u201cIn Computational Linguistics [..]",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          16,
+          7,
+          0
+        ],
+        "source_position": 23478
+      },
+      {
+        "cross_encoder_score": -10.535745620727539,
+        "dataset": "QASPER",
+        "end_char": 41285,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "9ef6ba072c5580769dc53b0035e010ca",
+        "passage_rank": 9,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "3315ef6fee7833173b344d2200569168",
+        "sentence_text": "the control group (similar subreddits that were not closed).",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          30,
+          0,
+          0
+        ],
+        "source_position": 41225
+      },
+      {
+        "cross_encoder_score": -11.139949798583984,
+        "dataset": "QASPER",
+        "end_char": 41460,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "9ef6ba072c5580769dc53b0035e010ca",
+        "passage_rank": 9,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "95a8a091e458499d273c021be9d331fd",
+        "sentence_text": "The researchers then returned to the hate speech definition provided by the European Court of Human Rights, and manually filtered the top SAGE words based on this definition.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          30,
+          1,
+          0
+        ],
+        "source_position": 41286
+      },
+      {
+        "cross_encoder_score": -11.064996719360352,
+        "dataset": "QASPER",
+        "end_char": 41508,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "9ef6ba072c5580769dc53b0035e010ca",
+        "passage_rank": 9,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "0349d14e4a58c1ea73c8d7ea876390ee",
+        "sentence_text": "Not all identified words fitted the definition.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          30,
+          2,
+          0
+        ],
+        "source_position": 41461
+      },
+      {
+        "cross_encoder_score": -9.402316093444824,
+        "dataset": "QASPER",
+        "end_char": 41793,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "9ef6ba072c5580769dc53b0035e010ca",
+        "passage_rank": 9,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "a608f185aac6c39046df19acfafb16ac",
+        "sentence_text": "The others included: the names of the subreddits themselves, names of related subreddits, community-specific jargon that was not directly related to hate speech, and terms such as IQ and welfare, which were frequently used in discourses of hate speech, but had significant other uses.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          0,
+          30,
+          3,
+          0
+        ],
+        "source_position": 41509
+      },
+      {
+        "cross_encoder_score": -10.636064529418945,
+        "dataset": "QASPER",
+        "end_char": 41979,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "9ef6ba072c5580769dc53b0035e010ca",
+        "passage_rank": 9,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "2ce742a212a04fbd22a73b21bc8527e1",
+        "sentence_text": "The word lists provided the measurement instrument for their main result, which is that the use of hate speech throughout Reddit declined after the two treatment subreddits were closed.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          30,
+          4,
+          0
+        ],
+        "source_position": 41794
+      },
+      {
+        "cross_encoder_score": -10.584871292114258,
+        "dataset": "QASPER",
+        "end_char": 42059,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "9ef6ba072c5580769dc53b0035e010ca",
+        "passage_rank": 9,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "735da52dbea50ca4c934bd5b2c4f48fa",
+        "sentence_text": "Supervised models\tSupervised learning is frequently used to scale up analyses.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          30,
+          5,
+          0
+        ],
+        "source_position": 41981
+      },
+      {
+        "cross_encoder_score": -11.14083194732666,
+        "dataset": "QASPER",
+        "end_char": 42142,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "9ef6ba072c5580769dc53b0035e010ca",
+        "passage_rank": 9,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "8dee39e7549fec5f0dc69c3c947e06d6",
+        "sentence_text": "For example,  wanted to analyze the motivations of Movember campaign participants.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          30,
+          6,
+          0
+        ],
+        "source_position": 42060
+      },
+      {
+        "cross_encoder_score": -10.563308715820312,
+        "dataset": "QASPER",
+        "end_char": 42270,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "9ef6ba072c5580769dc53b0035e010ca",
+        "passage_rank": 9,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "79cff2f1ea3fcf406802455ff20eae99",
+        "sentence_text": "By developing a classifier based on a small set of annotations, they were able to expand the analysis to over 90k participants.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          30,
+          7,
+          0
+        ],
+        "source_position": 42143
+      },
+      {
+        "cross_encoder_score": -10.891425132751465,
+        "dataset": "QASPER",
+        "end_char": 42370,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "9ef6ba072c5580769dc53b0035e010ca",
+        "passage_rank": 9,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "f656701841624fb9217ce6fbb04135bd",
+        "sentence_text": "The choice of supervised learning model is often guided by the task definition and the label types.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          30,
+          8,
+          0
+        ],
+        "source_position": 42271
+      },
+      {
+        "cross_encoder_score": -10.889446258544922,
+        "dataset": "QASPER",
+        "end_char": 42529,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "9ef6ba072c5580769dc53b0035e010ca",
+        "passage_rank": 9,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "19af50003faf3cad33b04984c39803f8",
+        "sentence_text": "For example, to identify stance towards rumors based on sequential annotations, an algorithm for learning from sequential  or time series data  could be used.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          30,
+          9,
+          0
+        ],
+        "source_position": 42371
+      },
+      {
+        "cross_encoder_score": -10.814096450805664,
+        "dataset": "QASPER",
+        "end_char": 42585,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "9ef6ba072c5580769dc53b0035e010ca",
+        "passage_rank": 9,
+        "query_id": "975e60535724f4149c7488699a199ba2920a062c",
+        "sentence_id": "9108896ca2639ad80e59a567edd9d254",
+        "sentence_text": "The features (sometimes called variables or predictors)",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          30,
+          10,
+          0
+        ],
+        "source_position": 42530
+      }
+    ],
+    "scoring_seconds": 0.3244955929694697,
+    "source_fingerprint": "88278b73399ff4aeeb438bc01e0a01d36d4f1bf45054a7063c1d22154ed9e3bb"
+  }
+}

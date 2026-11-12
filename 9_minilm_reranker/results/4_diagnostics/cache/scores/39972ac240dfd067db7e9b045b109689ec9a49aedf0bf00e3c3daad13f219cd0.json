@@ -1,0 +1,1571 @@
+{
+  "checksum": "0f7684acf6e2380b9c3b3302bf583fed63be04ee77ec9a37605de4951e348b63",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "298"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 77,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "83e141fb25bd429d1db8276694e46c4270a28c290b8e552fd4676647bac9c6fd",
+    "query_id": "298",
+    "scores": [
+      {
+        "cross_encoder_score": -5.9310479164123535,
+        "dataset": "SciFact",
+        "end_char": 81,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "4bec86bd6196ff24737e2945aa0192ef",
+        "passage_rank": 10,
+        "query_id": "298",
+        "sentence_id": "85f2284b7f72ba22b27aa1766f81cf17",
+        "sentence_text": "Bax translocation and mitochondrial fragmentation induced by Helicobacter pylori.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          1538,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.639804363250732,
+        "dataset": "SciFact",
+        "end_char": 249,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "4bec86bd6196ff24737e2945aa0192ef",
+        "passage_rank": 10,
+        "query_id": "298",
+        "sentence_id": "84ad9d3d7d0b060f334207d1599c6613",
+        "sentence_text": "BACKGROUND AND AIMS Previous in vitro and in vivo studies have revealed an association between Helicobacter pylori infection and apoptosis in gastric epithelial cells.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1538,
+          0,
+          1,
+          0
+        ],
+        "source_position": 82
+      },
+      {
+        "cross_encoder_score": 1.4215829372406006,
+        "dataset": "SciFact",
+        "end_char": 496,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "4bec86bd6196ff24737e2945aa0192ef",
+        "passage_rank": 10,
+        "query_id": "298",
+        "sentence_id": "7aade3fac06254bf843188857d3938b6",
+        "sentence_text": "Although involvement of the Bcl-2 family of proteins as well as cytochrome c release has been demonstrated in H pylori induced cell death, the exact role of the mitochondria during this type of programmed cell death has not been fully elucidated.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          1538,
+          0,
+          2,
+          0
+        ],
+        "source_position": 250
+      },
+      {
+        "cross_encoder_score": -6.629164695739746,
+        "dataset": "SciFact",
+        "end_char": 683,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "4bec86bd6196ff24737e2945aa0192ef",
+        "passage_rank": 10,
+        "query_id": "298",
+        "sentence_id": "b4bbb1e45b05d020e1bc6cc91ce3f3c7",
+        "sentence_text": "Therefore, we sought to determine whether or not Bax translocation and mitochondrial fragmentation occur on exposure of gastric epithelial cells to H pylori, resulting in cell death.   \n",
+        "sentence_token_cost": 35,
+        "source_order": [
+          1538,
+          0,
+          3,
+          0
+        ],
+        "source_position": 497
+      },
+      {
+        "cross_encoder_score": -9.53511905670166,
+        "dataset": "SciFact",
+        "end_char": 970,
+        "pair_tokens_before_truncation": 117,
+        "pair_truncated": false,
+        "passage_id": "4bec86bd6196ff24737e2945aa0192ef",
+        "passage_rank": 10,
+        "query_id": "298",
+        "sentence_id": "854b56a08038f4149589f32a39a442e5",
+        "sentence_text": "METHODS Experiments were performed with human gastric adenocarcinoma (AGS) cells, AGS cells transfected with the HPV-E6 gene (which inactivates p53 function), AGS-neo cells (transfected with the backbone construct), mouse embryonic fibroblasts (MEFs), and p19(ARF) null (ARF(-/-)) MEFs.",
+        "sentence_token_cost": 85,
+        "source_order": [
+          1538,
+          0,
+          4,
+          0
+        ],
+        "source_position": 684
+      },
+      {
+        "cross_encoder_score": -6.676021575927734,
+        "dataset": "SciFact",
+        "end_char": 1164,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "4bec86bd6196ff24737e2945aa0192ef",
+        "passage_rank": 10,
+        "query_id": "298",
+        "sentence_id": "95ae81ef27fa26585492613b20ccc330",
+        "sentence_text": "Cells were incubated with a cag positive H pylori strain for up to 24 hours, lysed, and cytoplasmic and mitochondrial membrane fractions were analysed by western blot for Bax translocation.   \n",
+        "sentence_token_cost": 45,
+        "source_order": [
+          1538,
+          0,
+          5,
+          0
+        ],
+        "source_position": 971
+      },
+      {
+        "cross_encoder_score": -9.951623916625977,
+        "dataset": "SciFact",
+        "end_char": 1317,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "4bec86bd6196ff24737e2945aa0192ef",
+        "passage_rank": 10,
+        "query_id": "298",
+        "sentence_id": "c12a6c964eb4f3de9ce8237977b2f758",
+        "sentence_text": "RESULTS Bax translocation was detected in AGS, AGS-neo, and normal MEF cells after exposure to H pylori for three hours, but not in ARF(-/-) MEFs cells.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          1538,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1165
+      },
+      {
+        "cross_encoder_score": -8.968546867370605,
+        "dataset": "SciFact",
+        "end_char": 1464,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "4bec86bd6196ff24737e2945aa0192ef",
+        "passage_rank": 10,
+        "query_id": "298",
+        "sentence_id": "05ebf23308487672c8c7417c036fbe3b",
+        "sentence_text": "Translocation of Bax after H pylori incubation was also detected in AGS-E6 cells (inactive p53 gene) but to a lesser degree than in AGS-neo cells.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          1538,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1318
+      },
+      {
+        "cross_encoder_score": -7.549073696136475,
+        "dataset": "SciFact",
+        "end_char": 1590,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "4bec86bd6196ff24737e2945aa0192ef",
+        "passage_rank": 10,
+        "query_id": "298",
+        "sentence_id": "8ed94191d5bd0aceed5854a4da02b2c0",
+        "sentence_text": "In parallel studies, the mitochondrial morphology of living cells infected with H pylori was assessed by confocal microscopy.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1538,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1465
+      },
+      {
+        "cross_encoder_score": -6.859875202178955,
+        "dataset": "SciFact",
+        "end_char": 1724,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "4bec86bd6196ff24737e2945aa0192ef",
+        "passage_rank": 10,
+        "query_id": "298",
+        "sentence_id": "69ebb38002f861b6a59f2deb40b927a2",
+        "sentence_text": "Mitochondrial fragmentation was detectable after 10 hours of H pylori incubation with AGS cells and after seven hours with MEF cells.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1538,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1591
+      },
+      {
+        "cross_encoder_score": -8.263267517089844,
+        "dataset": "SciFact",
+        "end_char": 1861,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "4bec86bd6196ff24737e2945aa0192ef",
+        "passage_rank": 10,
+        "query_id": "298",
+        "sentence_id": "e39d4c90f09e353abf3f8a4634795fd0",
+        "sentence_text": "In wild-type MEFs, mitochondrial fragmentation was significantly increased in comparison with ARF null MEFs (43% v 10.4%, respectively).",
+        "sentence_token_cost": 34,
+        "source_order": [
+          1538,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1725
+      },
+      {
+        "cross_encoder_score": -6.274618625640869,
+        "dataset": "SciFact",
+        "end_char": 2060,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "4bec86bd6196ff24737e2945aa0192ef",
+        "passage_rank": 10,
+        "query_id": "298",
+        "sentence_id": "21aace293ecf3060c6c2b327af3fe518",
+        "sentence_text": "Furthermore, mitochondrial depolarisation and caspase-3 activity were initiated within four hours in cells incubated with H pylori, and these events were inhibited by forced expression of Bcl-2.   \n",
+        "sentence_token_cost": 42,
+        "source_order": [
+          1538,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1862
+      },
+      {
+        "cross_encoder_score": -2.8559529781341553,
+        "dataset": "SciFact",
+        "end_char": 2238,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "4bec86bd6196ff24737e2945aa0192ef",
+        "passage_rank": 10,
+        "query_id": "298",
+        "sentence_id": "1821d899638f598341c6b92777e91738",
+        "sentence_text": "CONCLUSIONS These data suggest that during H pylori induced apoptosis, Bax translocates to the mitochondria which subsequently undergo depolarisation and profound fragmentation.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          1538,
+          0,
+          12,
+          0
+        ],
+        "source_position": 2061
+      },
+      {
+        "cross_encoder_score": -7.172531604766846,
+        "dataset": "SciFact",
+        "end_char": 2345,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "4bec86bd6196ff24737e2945aa0192ef",
+        "passage_rank": 10,
+        "query_id": "298",
+        "sentence_id": "ee988d5c525518efea028a4d6b9e87d5",
+        "sentence_text": "Functional ARF and p53 proteins may play an important role in H pylori induced mitochondrial modification.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          1538,
+          0,
+          13,
+          0
+        ],
+        "source_position": 2239
+      },
+      {
+        "cross_encoder_score": -7.038494110107422,
+        "dataset": "SciFact",
+        "end_char": 122,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "abd0000f1b20c19e7216f08a18440c16",
+        "passage_rank": 6,
+        "query_id": "298",
+        "sentence_id": "fea0035b4851481e38b04ceb977ba917",
+        "sentence_text": "Modulation of mitochondrial function and morphology by interaction of Omi/HtrA2 with the mitochondrial fusion factor OPA1.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          1829,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.223456382751465,
+        "dataset": "SciFact",
+        "end_char": 272,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "abd0000f1b20c19e7216f08a18440c16",
+        "passage_rank": 6,
+        "query_id": "298",
+        "sentence_id": "d7a20f8c1648054b347953e54a35477c",
+        "sentence_text": "Loss of Omi/HtrA2 function leads to nerve cell loss in mouse models and has been linked to neurodegeneration in Parkinson's and Huntington's disease.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          1829,
+          0,
+          1,
+          0
+        ],
+        "source_position": 123
+      },
+      {
+        "cross_encoder_score": 2.615234375,
+        "dataset": "SciFact",
+        "end_char": 399,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "abd0000f1b20c19e7216f08a18440c16",
+        "passage_rank": 6,
+        "query_id": "298",
+        "sentence_id": "f1338ea098fe91bc9588601b26da680a",
+        "sentence_text": "Omi/HtrA2 is a serine protease released as a pro-apoptotic factor from the mitochondrial intermembrane space into the cytosol.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          1829,
+          0,
+          2,
+          0
+        ],
+        "source_position": 273
+      },
+      {
+        "cross_encoder_score": -8.153371810913086,
+        "dataset": "SciFact",
+        "end_char": 566,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "abd0000f1b20c19e7216f08a18440c16",
+        "passage_rank": 6,
+        "query_id": "298",
+        "sentence_id": "c67d1634f442c4eb77d7e72a214ce126",
+        "sentence_text": "Under physiological conditions, Omi/HtrA2 is thought to be involved in protection against cellular stress, but the cytological and molecular mechanisms are not clear.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          1829,
+          0,
+          3,
+          0
+        ],
+        "source_position": 400
+      },
+      {
+        "cross_encoder_score": -7.909847259521484,
+        "dataset": "SciFact",
+        "end_char": 683,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "abd0000f1b20c19e7216f08a18440c16",
+        "passage_rank": 6,
+        "query_id": "298",
+        "sentence_id": "33c47e0cef3fc9145b65b8500214863b",
+        "sentence_text": "Omi/HtrA2 deficiency caused an accumulation of reactive oxygen species and reduced mitochondrial membrane potential.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          1829,
+          0,
+          4,
+          0
+        ],
+        "source_position": 567
+      },
+      {
+        "cross_encoder_score": -10.180299758911133,
+        "dataset": "SciFact",
+        "end_char": 865,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "abd0000f1b20c19e7216f08a18440c16",
+        "passage_rank": 6,
+        "query_id": "298",
+        "sentence_id": "090c61e089f0a1880201af1edb896b0e",
+        "sentence_text": "In Omi/HtrA2 knockout mouse embryonic fibroblasts, as well as in Omi/HtrA2 silenced human HeLa cells and Drosophila S2R+ cells, we found elongated mitochondria by live cell imaging.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          1829,
+          0,
+          5,
+          0
+        ],
+        "source_position": 684
+      },
+      {
+        "cross_encoder_score": -7.453829288482666,
+        "dataset": "SciFact",
+        "end_char": 975,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "abd0000f1b20c19e7216f08a18440c16",
+        "passage_rank": 6,
+        "query_id": "298",
+        "sentence_id": "acb1833276aac132106807c989ea5618",
+        "sentence_text": "Electron microscopy confirmed the mitochondrial morphology alterations and showed abnormal cristae structure.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          1829,
+          0,
+          6,
+          0
+        ],
+        "source_position": 866
+      },
+      {
+        "cross_encoder_score": -6.659322261810303,
+        "dataset": "SciFact",
+        "end_char": 1107,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "abd0000f1b20c19e7216f08a18440c16",
+        "passage_rank": 6,
+        "query_id": "298",
+        "sentence_id": "dbd1ce22179aa8439d7a666b566c283f",
+        "sentence_text": "Examining the levels of proteins involved in mitochondrial fusion, we found a selective up-regulation of more soluble OPA1 protein.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          1829,
+          0,
+          7,
+          0
+        ],
+        "source_position": 976
+      },
+      {
+        "cross_encoder_score": -8.61653995513916,
+        "dataset": "SciFact",
+        "end_char": 1286,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "abd0000f1b20c19e7216f08a18440c16",
+        "passage_rank": 6,
+        "query_id": "298",
+        "sentence_id": "84eb26c41c8458df4850c37bb141b983",
+        "sentence_text": "Complementation of knockout cells with wild-type Omi/HtrA2 but not with the protease mutant [S306A]Omi/HtrA2 reversed the mitochondrial elongation phenotype and OPA1 alterations.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          1829,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1108
+      },
+      {
+        "cross_encoder_score": -8.870444297790527,
+        "dataset": "SciFact",
+        "end_char": 1379,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "abd0000f1b20c19e7216f08a18440c16",
+        "passage_rank": 6,
+        "query_id": "298",
+        "sentence_id": "d22734b67edc39db197fd52a2c14424d",
+        "sentence_text": "Finally, co-immunoprecipitation showed direct interaction of Omi/HtrA2 with endogenous OPA1.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          1829,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1287
+      },
+      {
+        "cross_encoder_score": -7.516692638397217,
+        "dataset": "SciFact",
+        "end_char": 1571,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "abd0000f1b20c19e7216f08a18440c16",
+        "passage_rank": 6,
+        "query_id": "298",
+        "sentence_id": "044198ba9688184ae696345f6b052f1f",
+        "sentence_text": "Thus, we show for the first time a direct effect of loss of Omi/HtrA2 on mitochondrial morphology and demonstrate a novel role of this mitochondrial serine protease in the modulation of OPA1.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          1829,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1380
+      },
+      {
+        "cross_encoder_score": -7.0814619064331055,
+        "dataset": "SciFact",
+        "end_char": 1677,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "abd0000f1b20c19e7216f08a18440c16",
+        "passage_rank": 6,
+        "query_id": "298",
+        "sentence_id": "5fb67a901e61a608ec57222f52c086d2",
+        "sentence_text": "Our results underscore a critical role of impaired mitochondrial dynamics in neurodegenerative disorders.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          1829,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1572
+      },
+      {
+        "cross_encoder_score": -6.957332611083984,
+        "dataset": "SciFact",
+        "end_char": 100,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "c65ac6eafdd027aaedf9d526ad55e33f",
+        "passage_rank": 9,
+        "query_id": "298",
+        "sentence_id": "66d56c44847fda5f84b3c6e1359f0e43",
+        "sentence_text": "The Apaf-1 apoptosome induces formation of caspase-9 homo- and heterodimers with distinct activities",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2214,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.077435493469238,
+        "dataset": "SciFact",
+        "end_char": 310,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "c65ac6eafdd027aaedf9d526ad55e33f",
+        "passage_rank": 9,
+        "query_id": "298",
+        "sentence_id": "3995faa8cb438e219ab308a821b0bff9",
+        "sentence_text": "According to dogma, initiator caspases are activated through proximity-induced homodimerization, but some studies infer that during apoptosis caspase-9 may instead form a holoenzyme with the Apaf-1 apoptosome.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          2214,
+          0,
+          1,
+          0
+        ],
+        "source_position": 101
+      },
+      {
+        "cross_encoder_score": -6.287518501281738,
+        "dataset": "SciFact",
+        "end_char": 603,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "c65ac6eafdd027aaedf9d526ad55e33f",
+        "passage_rank": 9,
+        "query_id": "298",
+        "sentence_id": "86a0122fcb3672f0998f2c479bf17f44",
+        "sentence_text": "Using several biochemical approaches, including a novel site-specific crosslinking technique, we provide the first direct evidence that procaspase-9 homodimerizes within the apoptosome, markedly increasing its avidity for the complex and inducing selective intramolecular cleavage at Asp-315.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          2214,
+          0,
+          2,
+          0
+        ],
+        "source_position": 311
+      },
+      {
+        "cross_encoder_score": -9.181999206542969,
+        "dataset": "SciFact",
+        "end_char": 794,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "c65ac6eafdd027aaedf9d526ad55e33f",
+        "passage_rank": 9,
+        "query_id": "298",
+        "sentence_id": "1fff8bd0e142c61a515297c1696d64eb",
+        "sentence_text": "Remarkably, however, procaspase-9 could also bind via its small subunit to the NOD domain in Apaf-1, resulting in the formation of a heterodimer that more efficiently activated procaspase-3.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          2214,
+          0,
+          3,
+          0
+        ],
+        "source_position": 604
+      },
+      {
+        "cross_encoder_score": -9.55034351348877,
+        "dataset": "SciFact",
+        "end_char": 1081,
+        "pair_tokens_before_truncation": 107,
+        "pair_truncated": false,
+        "passage_id": "c65ac6eafdd027aaedf9d526ad55e33f",
+        "passage_rank": 9,
+        "query_id": "298",
+        "sentence_id": "aa4d2fb530b39ffcbe6711ab79b05a9f",
+        "sentence_text": "Following cleavage, the intersubunit linker (and associated conformational changes) in caspase-9-p35/p12 inhibited its ability to form homo- and heterodimers, but feedback cleavage by caspase-3 at Asp-330 removed the linker entirely and partially restored activity to caspase-9-p35/p10.",
+        "sentence_token_cost": 79,
+        "source_order": [
+          2214,
+          0,
+          4,
+          0
+        ],
+        "source_position": 795
+      },
+      {
+        "cross_encoder_score": -6.950766086578369,
+        "dataset": "SciFact",
+        "end_char": 1241,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "c65ac6eafdd027aaedf9d526ad55e33f",
+        "passage_rank": 9,
+        "query_id": "298",
+        "sentence_id": "0b4428925e2fe63f8b3b9617ef544cd4",
+        "sentence_text": "Thus, the apoptosome mediates the formation of caspase-9 homo- and heterodimers, both of which are impacted by cleavage and contribute to its overall function.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          2214,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1082
+      },
+      {
+        "cross_encoder_score": -6.291889190673828,
+        "dataset": "SciFact",
+        "end_char": 116,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "7b6053d54043c529b19881fe764888d6",
+        "passage_rank": 7,
+        "query_id": "298",
+        "sentence_id": "01129e4ef22438d8622a951d7bf5c4c4",
+        "sentence_text": "The Opa1-Dependent Mitochondrial Cristae Remodeling Pathway Controls Atrophic, Apoptotic, and Ischemic Tissue Damage",
+        "sentence_token_cost": 32,
+        "source_order": [
+          2553,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.843693494796753,
+        "dataset": "SciFact",
+        "end_char": 290,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "7b6053d54043c529b19881fe764888d6",
+        "passage_rank": 7,
+        "query_id": "298",
+        "sentence_id": "d6bdc3f2a9365ef4c71ecc7fbaec18d5",
+        "sentence_text": "Mitochondrial morphological and ultrastructural changes occur during apoptosis and autophagy, but whether they are relevant in vivo for tissue response to damage is unclear.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          2553,
+          0,
+          1,
+          0
+        ],
+        "source_position": 117
+      },
+      {
+        "cross_encoder_score": -10.134706497192383,
+        "dataset": "SciFact",
+        "end_char": 512,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "7b6053d54043c529b19881fe764888d6",
+        "passage_rank": 7,
+        "query_id": "298",
+        "sentence_id": "a0c8cc9064700d943a9618f6cad5b11d",
+        "sentence_text": "Here we investigate the role of the optic atrophy 1 (OPA1)-dependent cristae remodeling pathway in vivo and provide evidence that it regulates the response of multiple tissues to apoptotic, necrotic, and atrophic stimuli.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          2553,
+          0,
+          2,
+          0
+        ],
+        "source_position": 291
+      },
+      {
+        "cross_encoder_score": -8.611638069152832,
+        "dataset": "SciFact",
+        "end_char": 733,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "7b6053d54043c529b19881fe764888d6",
+        "passage_rank": 7,
+        "query_id": "298",
+        "sentence_id": "a7b46efe51e931421d04eeef495382d2",
+        "sentence_text": "Genetic inhibition of the cristae remodeling pathway in vivo does not affect development, but protects mice from denervation-induced muscular atrophy, ischemic heart and brain damage, as well as hepatocellular apoptosis.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          2553,
+          0,
+          3,
+          0
+        ],
+        "source_position": 513
+      },
+      {
+        "cross_encoder_score": -0.7324977517127991,
+        "dataset": "SciFact",
+        "end_char": 948,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "7b6053d54043c529b19881fe764888d6",
+        "passage_rank": 7,
+        "query_id": "298",
+        "sentence_id": "302e2b70fa1ca7d6edaa6df201106fb7",
+        "sentence_text": "Mechanistically, OPA1-dependent mitochondrial cristae stabilization increases mitochondrial respiratory efficiency and blunts mitochondrial dysfunction, cytochrome c release, and reactive oxygen species production.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          2553,
+          0,
+          4,
+          0
+        ],
+        "source_position": 734
+      },
+      {
+        "cross_encoder_score": -10.372098922729492,
+        "dataset": "SciFact",
+        "end_char": 1087,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "7b6053d54043c529b19881fe764888d6",
+        "passage_rank": 7,
+        "query_id": "298",
+        "sentence_id": "ed3ec3ad824de627405f52ba43519e71",
+        "sentence_text": "Our results indicate that the OPA1-dependent cristae remodeling pathway is a fundamental, targetable determinant of tissue damage in vivo.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2553,
+          0,
+          5,
+          0
+        ],
+        "source_position": 949
+      },
+      {
+        "cross_encoder_score": -5.865094184875488,
+        "dataset": "SciFact",
+        "end_char": 58,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "74bafe1e464a59e132d3fa59357ca46b",
+        "passage_rank": 2,
+        "query_id": "298",
+        "sentence_id": "8da565c78de4e56455e8a3570c3bd931",
+        "sentence_text": "Bioenergetic aspects of apoptosis, necrosis and mitoptosis",
+        "sentence_token_cost": 13,
+        "source_order": [
+          3448,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.295640468597412,
+        "dataset": "SciFact",
+        "end_char": 248,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "74bafe1e464a59e132d3fa59357ca46b",
+        "passage_rank": 2,
+        "query_id": "298",
+        "sentence_id": "8e56e2c2e0bad431fbe17642ca72977a",
+        "sentence_text": "In this review I summarize interrelations between bioenergetic processes and such programmed death phenomena as cell suicide (apoptosis and necrosis) and mitochondrial suicide (mitoptosis).",
+        "sentence_token_cost": 36,
+        "source_order": [
+          3448,
+          0,
+          1,
+          0
+        ],
+        "source_position": 59
+      },
+      {
+        "cross_encoder_score": -7.2320990562438965,
+        "dataset": "SciFact",
+        "end_char": 284,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "74bafe1e464a59e132d3fa59357ca46b",
+        "passage_rank": 2,
+        "query_id": "298",
+        "sentence_id": "fabdc524210f73fa548f060d70d71bcc",
+        "sentence_text": "The following conclusions are made.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          3448,
+          0,
+          2,
+          0
+        ],
+        "source_position": 249
+      },
+      {
+        "cross_encoder_score": -3.9893903732299805,
+        "dataset": "SciFact",
+        "end_char": 444,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "74bafe1e464a59e132d3fa59357ca46b",
+        "passage_rank": 2,
+        "query_id": "298",
+        "sentence_id": "53715e5e2dcf4b3be2cfd537958d047b",
+        "sentence_text": "(I) ATP and rather often mitochondrial hyperpolarization (i.e. an increase in membrane potential, \u0394\u03a8) are required for certain steps of apoptosis and necrosis.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3448,
+          0,
+          3,
+          0
+        ],
+        "source_position": 285
+      },
+      {
+        "cross_encoder_score": -5.562787055969238,
+        "dataset": "SciFact",
+        "end_char": 583,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "74bafe1e464a59e132d3fa59357ca46b",
+        "passage_rank": 2,
+        "query_id": "298",
+        "sentence_id": "9ac78a1f33f3dfb70dd9c21db57bb402",
+        "sentence_text": "(II) Apoptosis, even if it is accompanied by \u0394\u03a8 and [ATP] increases at its early stage, finally results in a \u0394\u03a8 collapse and ATP decrease.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          3448,
+          0,
+          4,
+          0
+        ],
+        "source_position": 445
+      },
+      {
+        "cross_encoder_score": -6.780851364135742,
+        "dataset": "SciFact",
+        "end_char": 716,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "74bafe1e464a59e132d3fa59357ca46b",
+        "passage_rank": 2,
+        "query_id": "298",
+        "sentence_id": "8f215c89164acd6ae41c1d5abb1caf7b",
+        "sentence_text": "(III) Moderate (about three-fold) lowering of [ATP] for short and long periods of time induces apoptosis and necrosis, respectively.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          3448,
+          0,
+          5,
+          0
+        ],
+        "source_position": 584
+      },
+      {
+        "cross_encoder_score": -5.693562030792236,
+        "dataset": "SciFact",
+        "end_char": 912,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "74bafe1e464a59e132d3fa59357ca46b",
+        "passage_rank": 2,
+        "query_id": "298",
+        "sentence_id": "13487cebbe7940e292b068d67b7a48bd",
+        "sentence_text": "In some types of apoptosis and necrosis, the cell death is mediated by a \u0394\u03a8-dependent overproduction of ROS by the initial (Complex I) and the middle (Complex III) spans of the respiratory chain.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          3448,
+          0,
+          6,
+          0
+        ],
+        "source_position": 717
+      },
+      {
+        "cross_encoder_score": -6.375843524932861,
+        "dataset": "SciFact",
+        "end_char": 1047,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "74bafe1e464a59e132d3fa59357ca46b",
+        "passage_rank": 2,
+        "query_id": "298",
+        "sentence_id": "faa3d8641ddc6b7a420bfedbb3d70b2d",
+        "sentence_text": "ROS initiate mitoptosis which is postulated to rid the intracellular population of mitochondria from those that are ROS overproducing.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          3448,
+          0,
+          7,
+          0
+        ],
+        "source_position": 913
+      },
+      {
+        "cross_encoder_score": 4.086456775665283,
+        "dataset": "SciFact",
+        "end_char": 1202,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "74bafe1e464a59e132d3fa59357ca46b",
+        "passage_rank": 2,
+        "query_id": "298",
+        "sentence_id": "3f744dd4c52676ec88690d5ae6664f91",
+        "sentence_text": "Massive mitoptosis can result in cell death due to release to cytosol of the cell death proteins normally hidden in the mitochondrial intermembrane space.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          3448,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1048
+      },
+      {
+        "cross_encoder_score": -0.8939789533615112,
+        "dataset": "SciFact",
+        "end_char": 103,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "401cec0b16f1711d372cc5cc07af4ce4",
+        "passage_rank": 4,
+        "query_id": "298",
+        "sentence_id": "a1097a82e0f0a8e1099b6f9d18b0bb54",
+        "sentence_text": "Glucose Metabolism Inhibits Apoptosis in Neurons and Cancer Cells by Redox Inactivation of Cytochrome c",
+        "sentence_token_cost": 27,
+        "source_order": [
+          3512,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.818082809448242,
+        "dataset": "SciFact",
+        "end_char": 215,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "401cec0b16f1711d372cc5cc07af4ce4",
+        "passage_rank": 4,
+        "query_id": "298",
+        "sentence_id": "6764c8b6c380fa157c772bb3aca0a11f",
+        "sentence_text": "Neurons and cancer cells use glucose extensively, yet the precise advantage of this adaptation remains unclear.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3512,
+          0,
+          1,
+          0
+        ],
+        "source_position": 104
+      },
+      {
+        "cross_encoder_score": -8.123783111572266,
+        "dataset": "SciFact",
+        "end_char": 359,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "401cec0b16f1711d372cc5cc07af4ce4",
+        "passage_rank": 4,
+        "query_id": "298",
+        "sentence_id": "b1b004a5a71ce8bb90274f6ab872c90d",
+        "sentence_text": "These two seemingly disparate cell types also show an increased regulation of the apoptotic pathway, which allows for their long-term survival.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3512,
+          0,
+          2,
+          0
+        ],
+        "source_position": 216
+      },
+      {
+        "cross_encoder_score": -0.7945018410682678,
+        "dataset": "SciFact",
+        "end_char": 504,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "401cec0b16f1711d372cc5cc07af4ce4",
+        "passage_rank": 4,
+        "query_id": "298",
+        "sentence_id": "a1db6a3f22d54bfde09a837832ad5829",
+        "sentence_text": "Here we show that both neurons and cancer cells strictly inhibit cytochrome c-mediated apoptosis by a mechanism dependent on glucose metabolism.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3512,
+          0,
+          3,
+          0
+        ],
+        "source_position": 360
+      },
+      {
+        "cross_encoder_score": 0.2315291464328766,
+        "dataset": "SciFact",
+        "end_char": 933,
+        "pair_tokens_before_truncation": 124,
+        "pair_truncated": false,
+        "passage_id": "401cec0b16f1711d372cc5cc07af4ce4",
+        "passage_rank": 4,
+        "query_id": "298",
+        "sentence_id": "6c4db9036d7ed748cc217c535dd52d5f",
+        "sentence_text": "We report that the pro-apoptotic activity of cytochrome c is influenced by its redox state and that increases in reactive oxygen species (ROS) following an apoptotic insult lead to the oxidation and activation of cytochrome c. In healthy neurons and cancer cells, however, cytochrome c is reduced and held inactive by intracellular glutathione (GSH), generated as a result of glucose metabolism by the pentose phosphate pathway.",
+        "sentence_token_cost": 90,
+        "source_order": [
+          3512,
+          0,
+          4,
+          0
+        ],
+        "source_position": 505
+      },
+      {
+        "cross_encoder_score": -6.831860065460205,
+        "dataset": "SciFact",
+        "end_char": 1185,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "401cec0b16f1711d372cc5cc07af4ce4",
+        "passage_rank": 4,
+        "query_id": "298",
+        "sentence_id": "4b2195e12cafe148ba5ced631828c6bf",
+        "sentence_text": "These results uncover a striking similarity in apoptosis regulation between neurons and cancer cells and provide insight into an adaptive advantage offered by the Warburg effect for cancer cell evasion of apoptosis and for long-term neuronal survival.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          3512,
+          0,
+          5,
+          0
+        ],
+        "source_position": 934
+      },
+      {
+        "cross_encoder_score": -7.590071678161621,
+        "dataset": "SciFact",
+        "end_char": 82,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "5c64246e83d5fd8e566f9f2f60368a5c",
+        "passage_rank": 3,
+        "query_id": "298",
+        "sentence_id": "1f7b1bf68b910188db678a0101ec12ac",
+        "sentence_text": "BAX/BAK-independent mitoptosis during cell death induced by proteasome inhibition?",
+        "sentence_token_cost": 19,
+        "source_order": [
+          4045,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.742315292358398,
+        "dataset": "SciFact",
+        "end_char": 140,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "5c64246e83d5fd8e566f9f2f60368a5c",
+        "passage_rank": 3,
+        "query_id": "298",
+        "sentence_id": "988ce4800c6fbe07db24dbaa1bdc18a1",
+        "sentence_text": "Proteasome inhibitors induce rapid death of cancer cells.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          4045,
+          0,
+          1,
+          0
+        ],
+        "source_position": 83
+      },
+      {
+        "cross_encoder_score": -9.547839164733887,
+        "dataset": "SciFact",
+        "end_char": 341,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "5c64246e83d5fd8e566f9f2f60368a5c",
+        "passage_rank": 3,
+        "query_id": "298",
+        "sentence_id": "26ae33e5296718872d8e83d9e02c9d72",
+        "sentence_text": "We show that in epithelial cancer cells, such death is associated with dramatic and simultaneous up-regulation of several BH3-only proteins, including BIK, BIM, MCL-1S, NOXA, and PUMA, as well as p53.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          4045,
+          0,
+          2,
+          0
+        ],
+        "source_position": 141
+      },
+      {
+        "cross_encoder_score": -9.026203155517578,
+        "dataset": "SciFact",
+        "end_char": 504,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "5c64246e83d5fd8e566f9f2f60368a5c",
+        "passage_rank": 3,
+        "query_id": "298",
+        "sentence_id": "d12f2ef243ad9b4b4f79320c8db93691",
+        "sentence_text": "Elevated levels of these proteins seem to be the result of direct inhibition of their proteasomal degradation, induction of transcription, and active translation.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          4045,
+          0,
+          3,
+          0
+        ],
+        "source_position": 342
+      },
+      {
+        "cross_encoder_score": -3.050539016723633,
+        "dataset": "SciFact",
+        "end_char": 635,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "5c64246e83d5fd8e566f9f2f60368a5c",
+        "passage_rank": 3,
+        "query_id": "298",
+        "sentence_id": "fda14297e90502aa1f65b8b76f08d93c",
+        "sentence_text": "Subsequent cell death is independent of BAX, and probably BAK, and proceeds through the intrinsic mitochondrial apoptosis pathway.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          4045,
+          0,
+          4,
+          0
+        ],
+        "source_position": 505
+      },
+      {
+        "cross_encoder_score": -5.991640090942383,
+        "dataset": "SciFact",
+        "end_char": 1101,
+        "pair_tokens_before_truncation": 116,
+        "pair_truncated": false,
+        "passage_id": "5c64246e83d5fd8e566f9f2f60368a5c",
+        "passage_rank": 3,
+        "query_id": "298",
+        "sentence_id": "63df4e8b0f8bf100f79438968a9be56b",
+        "sentence_text": "We identify the cascade of molecular events responsible for cell death induced by a prototypical proteasome inhibitor, MG132, starting with rapid accumulation of BH3-only proteins in the mitochondria, proceeding through mitochondrial membrane permeabilization and subsequent loss of DeltaPsi(m), and leading to irreversible changes of mitochondrial ultrastructure, degradation of mitochondrial network, and detrimental impairment of crucial mitochondrial functions.",
+        "sentence_token_cost": 78,
+        "source_order": [
+          4045,
+          0,
+          5,
+          0
+        ],
+        "source_position": 636
+      },
+      {
+        "cross_encoder_score": -7.511175632476807,
+        "dataset": "SciFact",
+        "end_char": 1264,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "5c64246e83d5fd8e566f9f2f60368a5c",
+        "passage_rank": 3,
+        "query_id": "298",
+        "sentence_id": "2b4045c246a584b91913ac4c170e8a50",
+        "sentence_text": "Our results also establish a rationale for the broader use of proteasome inhibitors to kill apoptosis-resistant tumor cells that lack functional BAX/BAK proteins.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          4045,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1102
+      },
+      {
+        "cross_encoder_score": -5.152979850769043,
+        "dataset": "SciFact",
+        "end_char": 79,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "d972fb153f2c8cc97d68e4ef39336df2",
+        "passage_rank": 8,
+        "query_id": "298",
+        "sentence_id": "c151194e95a168490dfff811dfbf527b",
+        "sentence_text": "Role for c-myc in activation-induced apoptotic cell death in T cell hybridomas.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          4400,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.066742897033691,
+        "dataset": "SciFact",
+        "end_char": 303,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "d972fb153f2c8cc97d68e4ef39336df2",
+        "passage_rank": 8,
+        "query_id": "298",
+        "sentence_id": "7ebad169c91ba78a1816a7ffb73d6af0",
+        "sentence_text": "Immature T cells and some T cell hybridomas undergo apoptotic cell death when activated through the T cell receptor complex, a phenomenon that is probably related to antigen induced negative selection of developing T cells.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          4400,
+          0,
+          1,
+          0
+        ],
+        "source_position": 80
+      },
+      {
+        "cross_encoder_score": -5.445279598236084,
+        "dataset": "SciFact",
+        "end_char": 487,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "d972fb153f2c8cc97d68e4ef39336df2",
+        "passage_rank": 8,
+        "query_id": "298",
+        "sentence_id": "5804be8f34f8614f86ebf401f9857882",
+        "sentence_text": "This activation-induced apoptosis depends on active protein and RNA synthesis in the dying cells, although none of the genes required for this process have previously been identified.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          4400,
+          0,
+          2,
+          0
+        ],
+        "source_position": 304
+      },
+      {
+        "cross_encoder_score": -4.374339580535889,
+        "dataset": "SciFact",
+        "end_char": 728,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "d972fb153f2c8cc97d68e4ef39336df2",
+        "passage_rank": 8,
+        "query_id": "298",
+        "sentence_id": "2ed43e15182e9649057abbcf35d34562",
+        "sentence_text": "Antisense oligonucleotides corresponding to c-myc block the constitutive expression of c-Myc protein in T cell hybridomas and interfere with all aspects of activation-induced apoptosis without affecting lymphokine production in these cells.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          4400,
+          0,
+          3,
+          0
+        ],
+        "source_position": 488
+      },
+      {
+        "cross_encoder_score": -1.9225633144378662,
+        "dataset": "SciFact",
+        "end_char": 828,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "d972fb153f2c8cc97d68e4ef39336df2",
+        "passage_rank": 8,
+        "query_id": "298",
+        "sentence_id": "a2d37e703bd33e033ec8ca77fa7d8f0d",
+        "sentence_text": "These data indicate that c-myc expression is a necessary component of activation-induced apoptosis.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          4400,
+          0,
+          4,
+          0
+        ],
+        "source_position": 729
+      },
+      {
+        "cross_encoder_score": -8.367042541503906,
+        "dataset": "SciFact",
+        "end_char": 141,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "1d207c9c114425ba82492b2a7cc3fbe8",
+        "passage_rank": 5,
+        "query_id": "298",
+        "sentence_id": "fde1f55202756868709e77cc5278bd34",
+        "sentence_text": "tBid induces alterations of mitochondrial fatty acid oxidation flux by malonyl-CoA-independent inhibition of carnitine palmitoyltransferase-1",
+        "sentence_token_cost": 30,
+        "source_order": [
+          4474,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.631471157073975,
+        "dataset": "SciFact",
+        "end_char": 224,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "1d207c9c114425ba82492b2a7cc3fbe8",
+        "passage_rank": 5,
+        "query_id": "298",
+        "sentence_id": "d8e052b3fbf0d121e9b7923ee5b1b7da",
+        "sentence_text": "Recent studies suggest a close relationship between cell metabolism and apoptosis.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          4474,
+          0,
+          1,
+          0
+        ],
+        "source_position": 142
+      },
+      {
+        "cross_encoder_score": -5.250371932983398,
+        "dataset": "SciFact",
+        "end_char": 706,
+        "pair_tokens_before_truncation": 155,
+        "pair_truncated": false,
+        "passage_id": "1d207c9c114425ba82492b2a7cc3fbe8",
+        "passage_rank": 5,
+        "query_id": "298",
+        "sentence_id": "f9cb68a24a15aa361839f6b045786ba0",
+        "sentence_text": "We have evaluated changes in lipid metabolism on permeabilized hepatocytes treated with truncated Bid (tBid) in the presence of caspase inhibitors and exogenous cytochrome c. The measurement of \u03b2-oxidation flux by labeled palmitate demonstrates that tBid inhibits \u03b2-oxidation, thereby resulting in the accumulation of palmitoyl-coenzyme A (CoA) and depletion of acetyl-carnitine and acylcarnitines, which is pathognomonic for inhibition of carnitine palmitoyltransferase-1 (CPT-1).",
+        "sentence_token_cost": 121,
+        "source_order": [
+          4474,
+          0,
+          2,
+          0
+        ],
+        "source_position": 225
+      },
+      {
+        "cross_encoder_score": -10.667555809020996,
+        "dataset": "SciFact",
+        "end_char": 899,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "1d207c9c114425ba82492b2a7cc3fbe8",
+        "passage_rank": 5,
+        "query_id": "298",
+        "sentence_id": "b94632472dadddbc0ef5aeaee320c591",
+        "sentence_text": "We also show that tBid decreases CPT-1 activity by a mechanism independent of both malonyl-CoA, the key inhibitory molecule of CPT-1, and Bak and/or Bax, but dependent on cardiolipin decrease.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          4474,
+          0,
+          3,
+          0
+        ],
+        "source_position": 707
+      },
+      {
+        "cross_encoder_score": -9.465267181396484,
+        "dataset": "SciFact",
+        "end_char": 1018,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "1d207c9c114425ba82492b2a7cc3fbe8",
+        "passage_rank": 5,
+        "query_id": "298",
+        "sentence_id": "04cb111af72b1624278a286893849e5e",
+        "sentence_text": "Overexpression of Bcl-2, which is able to interact with CPT-1, counteracts the effects exerted by tBid on \u03b2-oxidation.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          4474,
+          0,
+          4,
+          0
+        ],
+        "source_position": 900
+      },
+      {
+        "cross_encoder_score": -8.661685943603516,
+        "dataset": "SciFact",
+        "end_char": 1276,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "1d207c9c114425ba82492b2a7cc3fbe8",
+        "passage_rank": 5,
+        "query_id": "298",
+        "sentence_id": "8ccf1002da69b92a381b5aa9a88119c6",
+        "sentence_text": "The unexpected role of tBid in the regulation of lipid \u03b2-oxidation suggests a model in which tBid-induced metabolic decline leads to the accumulation of toxic lipid metabolites such as palmitoyl-CoA, which might become participants in the apoptotic pathway.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          4474,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1019
+      },
+      {
+        "cross_encoder_score": -7.929902076721191,
+        "dataset": "SciFact",
+        "end_char": 22,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "bd74691d671a1927e3cf9cdfc54eda68",
+        "passage_rank": 1,
+        "query_id": "298",
+        "sentence_id": "18db0deae131f5f766f226b5d4f5fc70",
+        "sentence_text": "At the gates of death.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          4671,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 7.605355262756348,
+        "dataset": "SciFact",
+        "end_char": 244,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "bd74691d671a1927e3cf9cdfc54eda68",
+        "passage_rank": 1,
+        "query_id": "298",
+        "sentence_id": "f328d8acd5f0e6d262e2f593392565fc",
+        "sentence_text": "Apoptosis that proceeds via the mitochondrial pathway involves mitochondrial outer membrane permeabilization (MOMP), responsible for the release of cytochrome c and other proteins of the mitochondrial intermembrane space.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          4671,
+          0,
+          1,
+          0
+        ],
+        "source_position": 23
+      },
+      {
+        "cross_encoder_score": -8.587457656860352,
+        "dataset": "SciFact",
+        "end_char": 324,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "bd74691d671a1927e3cf9cdfc54eda68",
+        "passage_rank": 1,
+        "query_id": "298",
+        "sentence_id": "5d68aff7b3b1d11aeaa059b3d4b94161",
+        "sentence_text": "This essential step is controlled and mediated by proteins of the Bcl-2 family.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          4671,
+          0,
+          2,
+          0
+        ],
+        "source_position": 245
+      },
+      {
+        "cross_encoder_score": -9.849772453308105,
+        "dataset": "SciFact",
+        "end_char": 483,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "bd74691d671a1927e3cf9cdfc54eda68",
+        "passage_rank": 1,
+        "query_id": "298",
+        "sentence_id": "a8c29395dff5623b13ac8f4ace61abf7",
+        "sentence_text": "The proapoptotic proteins Bax and Bak are required for MOMP, while the antiapoptotic Bcl-2 proteins, including Bcl-2, Bcl-xL, Mcl-1, and others, prevent MOMP.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          4671,
+          0,
+          3,
+          0
+        ],
+        "source_position": 325
+      },
+      {
+        "cross_encoder_score": -9.427116394042969,
+        "dataset": "SciFact",
+        "end_char": 623,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "bd74691d671a1927e3cf9cdfc54eda68",
+        "passage_rank": 1,
+        "query_id": "298",
+        "sentence_id": "f19a81ef80be78effd626f78de69fcd5",
+        "sentence_text": "Different proapoptotic BH3-only proteins act to interfere with the function of the antiapoptotic Bcl-2 members and/or activate Bax and Bak.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          4671,
+          0,
+          4,
+          0
+        ],
+        "source_position": 484
+      },
+      {
+        "cross_encoder_score": -6.518470764160156,
+        "dataset": "SciFact",
+        "end_char": 769,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "bd74691d671a1927e3cf9cdfc54eda68",
+        "passage_rank": 1,
+        "query_id": "298",
+        "sentence_id": "041a316f8fdbd0a2b6f455bc59ee491b",
+        "sentence_text": "Here, we discuss an emerging view, proposed by Certo et al. in this issue of Cancer Cell, on how these interactions result in MOMP and apoptosis.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          4671,
+          0,
+          5,
+          0
+        ],
+        "source_position": 624
+      }
+    ],
+    "scoring_seconds": 0.642775323940441,
+    "source_fingerprint": "bcab76873318be756baecb939c91aab84845e2666cb4e50d569fe66158975d98"
+  }
+}

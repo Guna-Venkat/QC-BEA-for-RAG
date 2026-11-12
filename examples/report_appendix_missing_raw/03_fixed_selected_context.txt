@@ -1,0 +1,45 @@
+Deep Learning the EEG Manifold for Phonological Categorization from Active Thoughts	Speech-related Brain Computer Interfaces (BCI) aim primarily at finding an alternative vocal communication pathway for people with speaking disabilities.
+
+As a step towards full decoding of imagined speech from active thoughts, we present a BCI system for subject-independent classification of phonological categories exploiting a novel deep learning based hierarchical feature extraction scheme.
+
+Our best models achieve an average accuracy of 77.9% across five different binary classification tasks, providing a significant 22.5% improvement over previous methods.
+
+Introduction	Decoding
+
+This includes categorization of imagined EEG signal into binary vowel categories like /a/, /u/ and rest  ,  ,  ; binary syllable classes like /ba/ and /ku/  ,  ,  ,  ; a handful of control words like &#x27;up&#x27;, &#x27;down&#x27;, &#x27;left&#x27;, &#x27;right&#x27; and &#x27;select&#x27;  or others like &#x27;water&#x27;, &#x27;help&#x27;, &#x27;thanks&#x27;, &#x27;food&#x27;, &#x27;stop&#x27;  , Chinese characters  , etc. Such works mostly involve traditional signal processing or manual feature handcrafting along with linear classifiers (e.g., SVMs).
+
+In  , Zhao et al. used manually handcrafted features from EEG data, combined with speech audio and facial features to achieve classification of the phonological categories varying based on the articulatory steps.
+
+To this end, we develop our mixed neural network architecture composed of three supervised and a single unsupervised learning step, discussed in the next subsections and shown in Fig. FIGREF1 .
+
+In fact, our investigation based on a development set (as we explain later) showed that well-known deep neural networks (e.g., fully connected networks such as convolutional neural networks, recurrent neural networks and autoencoders) fail to individually learn such complex feature representations from single-trial EEG data.
+
+encodings and cancel background noise effects  , we train an unsupervised deep autoenoder (DAE) on the fused heterogeneous features produced by the combined CNN and LSTM information.
+
+Classification with Extreme Gradient Boost	At the third level of hierarchy, the discrete latent vector representation of the deep autoencoder is fed into an Extreme Gradient Boost based classification layer  ,  motivated by  .
+
+The classifier receives its input from the latent vectors of the deep autoencoder and is trained in a supervised manner to output the final predicted classes corresponding to the speech imagery.
+
+In order to explore the problem space, we thus specifically target five binary classification problems addressed in  ,  , i.e presence/absence of consonants, phonemic nasal, bilabial, high-front vowels and high-back vowels.
+
+For PHASE-ONE, we randomly shuffled and divided the data (1913 signals from 14 individuals) into train (80%), development (10%) and test sets (10%).
+
+For the gradient boosting classification, we fixed the maximum depth at 10, number of estimators at 5000, learning rate at 0.1, regularization coefficient at 0.3, subsample ratio at 0.8, and column-sample/iteration at 0.4.
+
+Performance analysis and discussion	To demonstrate the significance of the hierarchical CNN-LSTM-DAE method, we conducted separate experiments with the individual networks in PHASE-ONE of experiments and summarized the results in Table TABREF12 From the average accuracy scores, we observe that the mixed network performs much better than individual blocks which is in agreement with the findings in  .
+
+CNN, on the other hand, is heavily biased towards the class label which sees more training data corresponding to it.
+
+It also proves that the combined supervised and unsupervised neural networks, trained hierarchically, can learn the discriminative manifold better than the individual networks and it is crucial for improving the classification accuracy.
+
+To further investigate the feature representation achieved by our model, we plot T-distributed Stochastic Neighbor Embedding (tSNE) corresponding to INLINEFORM0 and V/C classification tasks in Fig. FIGREF8 .
+
+Next, we provide performance comparison of the proposed approach with the baseline methods for PHASE-TWO of our study (cross-validation experiment) in Table TABREF15 .
+
+Besides, our best model shows more reliability compared to previous works: The standard deviation of our model&#x27;s classification accuracy across all the tasks is reduced from
+
+Conclusion and future direction	In an attempt to move a step towards understanding the speech information encoded in brain signals, we developed a novel mixed deep neural network scheme for a number of binary classification tasks from speech imagery EEG data.
+
+Unlike previous approaches which mostly deal with subject-dependent classification of EEG into discrete vowel or word labels, this work investigates a subject-invariant mapping of EEG data with different phonological categories, varying widely in terms of underlying articulator motions (eg: involvement or non-involvement of lips and velum, variation of tongue movements etc).
+
+Our proposed method highly outperforms the existing methods across all the five binary classification tasks by a large average margin of 22.51%.

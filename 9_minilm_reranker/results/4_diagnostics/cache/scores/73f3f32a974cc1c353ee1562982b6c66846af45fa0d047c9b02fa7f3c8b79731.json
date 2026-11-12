@@ -1,0 +1,1271 @@
+{
+  "checksum": "9bca1cc0b27bd2629e059a57c0b4bc6b04aa40eed7435693db607fd019558c73",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "975"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 62,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "fe32945169d660f98aff10843c5bb21c056633ef78ed35c84616a38fdcf585b4",
+    "query_id": "975",
+    "scores": [
+      {
+        "cross_encoder_score": -1.4416470527648926,
+        "dataset": "SciFact",
+        "end_char": 73,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "c1d44080538d4132faf1b0bdf23a8490",
+        "passage_rank": 1,
+        "query_id": "975",
+        "sentence_id": "43399bd1913bb7d62797a30ba148bf52",
+        "sentence_text": "Proinflammatory cytokines underlying the inflammation of Crohn's disease.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          525,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.4168825149536133,
+        "dataset": "SciFact",
+        "end_char": 348,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "c1d44080538d4132faf1b0bdf23a8490",
+        "passage_rank": 1,
+        "query_id": "975",
+        "sentence_id": "ae137dfa567f390c9b332bed2de34e3f",
+        "sentence_text": "PURPOSE OF REVIEW To encapsulate our current understanding of the proinflammatory cytokines responsible for the inflammation underlying Crohn's disease and the prospect of using this information to devise therapy for this condition based on inhibition of these cytokines.   ",
+        "sentence_token_cost": 48,
+        "source_order": [
+          525,
+          0,
+          1,
+          0
+        ],
+        "source_position": 74
+      },
+      {
+        "cross_encoder_score": -9.98961067199707,
+        "dataset": "SciFact",
+        "end_char": 502,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "c1d44080538d4132faf1b0bdf23a8490",
+        "passage_rank": 1,
+        "query_id": "975",
+        "sentence_id": "804e31c8b6f3feb583b9a1d3b228fd38",
+        "sentence_text": "RECENT FINDINGS Current research is shedding new light on the role of both T helper cell (Th)1 and Th17 responses in the pathogenesis of Crohn's disease.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          525,
+          0,
+          2,
+          0
+        ],
+        "source_position": 349
+      },
+      {
+        "cross_encoder_score": -1.9021644592285156,
+        "dataset": "SciFact",
+        "end_char": 755,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "c1d44080538d4132faf1b0bdf23a8490",
+        "passage_rank": 1,
+        "query_id": "975",
+        "sentence_id": "599bcc6b8e2463a849d4c296e1b1d52d",
+        "sentence_text": "Initial studies conducted a decade ago highlighted the view that Crohn's disease inflammation is caused by an interleukin-12-driven Th1 response, which resulted in the generation of interferon-gamma, which then served as the main inflammatory mediator.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          525,
+          0,
+          3,
+          0
+        ],
+        "source_position": 503
+      },
+      {
+        "cross_encoder_score": -9.463300704956055,
+        "dataset": "SciFact",
+        "end_char": 985,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "c1d44080538d4132faf1b0bdf23a8490",
+        "passage_rank": 1,
+        "query_id": "975",
+        "sentence_id": "7eaf4e572086a8a0bc3164c1187c271a",
+        "sentence_text": "In recent years, however, this view has been largely eclipsed by studies, conducted mainly in murine models, showing that a Th17 response is the main cause of Crohn's disease inflammation through the production of interleukin-17.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          525,
+          0,
+          4,
+          0
+        ],
+        "source_position": 756
+      },
+      {
+        "cross_encoder_score": -0.5200842022895813,
+        "dataset": "SciFact",
+        "end_char": 1249,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "c1d44080538d4132faf1b0bdf23a8490",
+        "passage_rank": 1,
+        "query_id": "975",
+        "sentence_id": "5d244faf4d352c1c78afdcd01f22f049",
+        "sentence_text": "Now, a somewhat more balanced view is emerging, which holds that interferon-gamma is still a major proinflammatory cytokine in Crohn's disease, although it may arise from both the Th1 and Th17-mediated responses at different phases of the inflammatory process.   ",
+        "sentence_token_cost": 56,
+        "source_order": [
+          525,
+          0,
+          5,
+          0
+        ],
+        "source_position": 986
+      },
+      {
+        "cross_encoder_score": -8.037642478942871,
+        "dataset": "SciFact",
+        "end_char": 1470,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "c1d44080538d4132faf1b0bdf23a8490",
+        "passage_rank": 1,
+        "query_id": "975",
+        "sentence_id": "0d766d09268570dc4fd3103b75aff673",
+        "sentence_text": "SUMMARY The new findings continue to support the idea that anti-interleukin-12p40, an antibody that inhibits both the Th1 and Th17 response, is logically the most potent anticytokine for the treatment of Crohn's disease.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          525,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1250
+      },
+      {
+        "cross_encoder_score": -2.3594202995300293,
+        "dataset": "SciFact",
+        "end_char": 135,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "5af46dd476f53ccd1b11c223a1ece7b4",
+        "passage_rank": 4,
+        "query_id": "975",
+        "sentence_id": "3987ac0c0498d02528a3a9ec85d7840a",
+        "sentence_text": "Interleukin-2 and inflammation induce distinct transcriptional programs that promote the differentiation of effector cytolytic T cells.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          1772,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.531834602355957,
+        "dataset": "SciFact",
+        "end_char": 257,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "5af46dd476f53ccd1b11c223a1ece7b4",
+        "passage_rank": 4,
+        "query_id": "975",
+        "sentence_id": "51edc66ddad6ef732c927c613946d456",
+        "sentence_text": "Interleukin(IL)-2 and inflammation regulate effector and memory cytolytic T-lymphocyte (CTL) generation during infection.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          1772,
+          0,
+          1,
+          0
+        ],
+        "source_position": 136
+      },
+      {
+        "cross_encoder_score": -6.987074375152588,
+        "dataset": "SciFact",
+        "end_char": 358,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "5af46dd476f53ccd1b11c223a1ece7b4",
+        "passage_rank": 4,
+        "query_id": "975",
+        "sentence_id": "a835ee8a7c26733cb351d48586409879",
+        "sentence_text": "We demonstrate a complex interplay between IL-2 and inflammatory signals during CTL differentiation.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          1772,
+          0,
+          2,
+          0
+        ],
+        "source_position": 258
+      },
+      {
+        "cross_encoder_score": -9.371345520019531,
+        "dataset": "SciFact",
+        "end_char": 544,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "5af46dd476f53ccd1b11c223a1ece7b4",
+        "passage_rank": 4,
+        "query_id": "975",
+        "sentence_id": "bc58f77d1a270950f257d637bb6acdb0",
+        "sentence_text": "IL-2 stimulation induced the transcription factor eomesodermin (Eomes), upregulated perforin (Prf1) transcription, and repressed re-expression of memory CTL markers Bcl6 and IL-7Ralpha.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          1772,
+          0,
+          3,
+          0
+        ],
+        "source_position": 359
+      },
+      {
+        "cross_encoder_score": -10.33510684967041,
+        "dataset": "SciFact",
+        "end_char": 712,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "5af46dd476f53ccd1b11c223a1ece7b4",
+        "passage_rank": 4,
+        "query_id": "975",
+        "sentence_id": "b49a309181b4506229e5d2a13e046a51",
+        "sentence_text": "Binding of Eomes and STAT5 to Prf1 cis-regulatory regions correlated with transcriptional initiation (increased recruitment of RNA polymerase II to the Prf1 promoter).",
+        "sentence_token_cost": 36,
+        "source_order": [
+          1772,
+          0,
+          4,
+          0
+        ],
+        "source_position": 545
+      },
+      {
+        "cross_encoder_score": -6.3356122970581055,
+        "dataset": "SciFact",
+        "end_char": 904,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "5af46dd476f53ccd1b11c223a1ece7b4",
+        "passage_rank": 4,
+        "query_id": "975",
+        "sentence_id": "0c97915ce7e2b860b9441a685b88a911",
+        "sentence_text": "Inflammation (CpG, IL-12) enhanced expression of IL-2Ralpha and the transcription factor T-bet, but countered late Eomes and perforin induction while preventing IL-7Ralpha repression by IL-2.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          1772,
+          0,
+          5,
+          0
+        ],
+        "source_position": 713
+      },
+      {
+        "cross_encoder_score": -10.88188362121582,
+        "dataset": "SciFact",
+        "end_char": 1136,
+        "pair_tokens_before_truncation": 94,
+        "pair_truncated": false,
+        "passage_id": "5af46dd476f53ccd1b11c223a1ece7b4",
+        "passage_rank": 4,
+        "query_id": "975",
+        "sentence_id": "31e6a551e329075b18b5ed807750718a",
+        "sentence_text": "After infection of mice with lymphocytic choriomeningitis virus, IL-2Ralpha-deficient effector CD8(+) T cells expressed more Bcl6 but less perforin and granzyme B, formed fewer KLRG-1(+) and T-bet-expressing CTL, and killed poorly.",
+        "sentence_token_cost": 67,
+        "source_order": [
+          1772,
+          0,
+          6,
+          0
+        ],
+        "source_position": 905
+      },
+      {
+        "cross_encoder_score": -8.091813087463379,
+        "dataset": "SciFact",
+        "end_char": 1308,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "5af46dd476f53ccd1b11c223a1ece7b4",
+        "passage_rank": 4,
+        "query_id": "975",
+        "sentence_id": "d75b89ef0ff6c5a9fdb913f289b0c961",
+        "sentence_text": "Thus, inflammation influences both effector and memory CTL differentiation, whereas persistent IL-2 stimulation promotes effector at the expense of memory CTL development.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          1772,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1137
+      },
+      {
+        "cross_encoder_score": -3.729233503341675,
+        "dataset": "SciFact",
+        "end_char": 97,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "7e3d4957ef328798b8986cbdd9d7c45a",
+        "passage_rank": 8,
+        "query_id": "975",
+        "sentence_id": "94bf78f6e48d613dd2d7d655c5faeb73",
+        "sentence_text": "Pivotal Roles of T-Helper 17-Related Cytokines, IL-17, IL-22, and IL-23, in Inflammatory Diseases",
+        "sentence_token_cost": 38,
+        "source_order": [
+          1885,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.251835823059082,
+        "dataset": "SciFact",
+        "end_char": 280,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "7e3d4957ef328798b8986cbdd9d7c45a",
+        "passage_rank": 8,
+        "query_id": "975",
+        "sentence_id": "635a6b46e8dddfdf6ba190d95b03b7f7",
+        "sentence_text": "T-helper 17 (Th17) cells are characterized by producing interleukin-17 (IL-17, also called IL-17A), IL-17F, IL-21, and IL-22 and potentially TNF- \u03b1 and IL-6 upon certain stimulation.",
+        "sentence_token_cost": 65,
+        "source_order": [
+          1885,
+          0,
+          1,
+          0
+        ],
+        "source_position": 98
+      },
+      {
+        "cross_encoder_score": -5.930068492889404,
+        "dataset": "SciFact",
+        "end_char": 555,
+        "pair_tokens_before_truncation": 91,
+        "pair_truncated": false,
+        "passage_id": "7e3d4957ef328798b8986cbdd9d7c45a",
+        "passage_rank": 8,
+        "query_id": "975",
+        "sentence_id": "3461120dbaac37b99b3c917274b7a1b5",
+        "sentence_text": "IL-23, which promotes Th17 cell development, as well as IL-17 and IL-22 produced by the Th17 cells plays essential roles in various inflammatory diseases, such as experimental autoimmune encephalomyelitis, rheumatoid arthritis, colitis, and Concanavalin A-induced hepatitis.",
+        "sentence_token_cost": 68,
+        "source_order": [
+          1885,
+          0,
+          2,
+          0
+        ],
+        "source_position": 281
+      },
+      {
+        "cross_encoder_score": -5.339200019836426,
+        "dataset": "SciFact",
+        "end_char": 781,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "7e3d4957ef328798b8986cbdd9d7c45a",
+        "passage_rank": 8,
+        "query_id": "975",
+        "sentence_id": "8a0382bfbc0d0247dd7bf90851f975ec",
+        "sentence_text": "In this review, we summarize the characteristics of the functional role of Th17 cells, with particular focus on the Th17 cell-related cytokines such as IL-17, IL-22, and IL-23, in mouse models and human inflammatory diseases.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          1885,
+          0,
+          3,
+          0
+        ],
+        "source_position": 556
+      },
+      {
+        "cross_encoder_score": -5.339684009552002,
+        "dataset": "SciFact",
+        "end_char": 76,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d5a988ca1ae4962f3ecfe292b19c1873",
+        "passage_rank": 5,
+        "query_id": "975",
+        "sentence_id": "8eea16982c909da81f1a033bf557389f",
+        "sentence_text": "Cytokines and anti-cytokine biologicals in autoimmunity: present and future.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2085,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.628474473953247,
+        "dataset": "SciFact",
+        "end_char": 387,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "d5a988ca1ae4962f3ecfe292b19c1873",
+        "passage_rank": 5,
+        "query_id": "975",
+        "sentence_id": "5fcfb75b9ed336366128aa6e986e0719",
+        "sentence_text": "The increasing understanding of the role of cytokines in autoimmunity, and the observation that tumour necrosis factor alpha (TNFalpha) is central to the inflammatory and destructive process common to several human autoimmune diseases, has led to a new generation of therapeutics, the TNFalpha blocking agents.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          2085,
+          0,
+          1,
+          0
+        ],
+        "source_position": 77
+      },
+      {
+        "cross_encoder_score": -6.935083389282227,
+        "dataset": "SciFact",
+        "end_char": 541,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "d5a988ca1ae4962f3ecfe292b19c1873",
+        "passage_rank": 5,
+        "query_id": "975",
+        "sentence_id": "fc290f345b293be9dc7bcd95241e8260",
+        "sentence_text": "In this article, we review the current knowledge of the role of cytokines in autoimmunity as unravelled by studies both in the laboratory and the clinic.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          2085,
+          0,
+          2,
+          0
+        ],
+        "source_position": 388
+      },
+      {
+        "cross_encoder_score": -7.9195356369018555,
+        "dataset": "SciFact",
+        "end_char": 815,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "d5a988ca1ae4962f3ecfe292b19c1873",
+        "passage_rank": 5,
+        "query_id": "975",
+        "sentence_id": "818c1bbc02e6846525d5fd362c830803",
+        "sentence_text": "In addition, we discuss future prospects of the anti-TNFalpha therapy that may involve combination therapy with other anti-cytokine or anti-T cell biologicals, or the use of small chemicals targeting molecules involved in TNFalpha production such as NF-kappaB and p38 MAPK.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          2085,
+          0,
+          3,
+          0
+        ],
+        "source_position": 542
+      },
+      {
+        "cross_encoder_score": -6.012304782867432,
+        "dataset": "SciFact",
+        "end_char": 914,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "d5a988ca1ae4962f3ecfe292b19c1873",
+        "passage_rank": 5,
+        "query_id": "975",
+        "sentence_id": "9f00e308a7c72c193c008b24b807860a",
+        "sentence_text": "The future developments of anti-TNFalpha and anti-cytokine therapy in general will be interesting.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2085,
+          0,
+          4,
+          0
+        ],
+        "source_position": 816
+      },
+      {
+        "cross_encoder_score": -6.799115180969238,
+        "dataset": "SciFact",
+        "end_char": 144,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "324496eebb4ab7d79ba4d0cca7ecacf4",
+        "passage_rank": 9,
+        "query_id": "975",
+        "sentence_id": "ffefc74d09c555615882044bd58c68a1",
+        "sentence_text": "Inflammasome-induced IL-1\u03b2 secretion in microglia is characterized by delayed kinetics and is only partially dependent on inflammatory caspases.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          2674,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.772037506103516,
+        "dataset": "SciFact",
+        "end_char": 310,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "324496eebb4ab7d79ba4d0cca7ecacf4",
+        "passage_rank": 9,
+        "query_id": "975",
+        "sentence_id": "8c03d119812cb531f6efad5fdddd8b8a",
+        "sentence_text": "Inflammasomes are multiprotein complexes that link pathogen recognition and cellular stress to the processing of the proinflammatory cytokine interleukin-1\u03b2 (IL-1\u03b2).",
+        "sentence_token_cost": 39,
+        "source_order": [
+          2674,
+          0,
+          1,
+          0
+        ],
+        "source_position": 145
+      },
+      {
+        "cross_encoder_score": -9.131516456604004,
+        "dataset": "SciFact",
+        "end_char": 540,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "324496eebb4ab7d79ba4d0cca7ecacf4",
+        "passage_rank": 9,
+        "query_id": "975",
+        "sentence_id": "0b870757607fd6aa8b032e7721182449",
+        "sentence_text": "Whereas inflammasome-mediated activation is heavily studied in hematopoietic macrophages and dendritic cells, much less is known about microglia, resident tissue macrophages of the brain that originate from a distinct progenitor.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          2674,
+          0,
+          2,
+          0
+        ],
+        "source_position": 311
+      },
+      {
+        "cross_encoder_score": -9.017297744750977,
+        "dataset": "SciFact",
+        "end_char": 725,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "324496eebb4ab7d79ba4d0cca7ecacf4",
+        "passage_rank": 9,
+        "query_id": "975",
+        "sentence_id": "7c34d1f23f4ed30a7cd013f6b601bfe8",
+        "sentence_text": "To directly compare inflammasome-mediated activation in different types of macrophages, we isolated primary microglia and hematopoietic macrophages from adult, healthy rhesus macaques.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          2674,
+          0,
+          3,
+          0
+        ],
+        "source_position": 541
+      },
+      {
+        "cross_encoder_score": -10.790606498718262,
+        "dataset": "SciFact",
+        "end_char": 926,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "324496eebb4ab7d79ba4d0cca7ecacf4",
+        "passage_rank": 9,
+        "query_id": "975",
+        "sentence_id": "faac5ba95475b8b089a7058aa71d2792",
+        "sentence_text": "We analyzed the expression profile of NOD (nucleotide-binding oligomerization domain)-like receptors, adaptor proteins, and caspases and characterized inflammasome activation and regulation in detail.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          2674,
+          0,
+          4,
+          0
+        ],
+        "source_position": 726
+      },
+      {
+        "cross_encoder_score": -8.641535758972168,
+        "dataset": "SciFact",
+        "end_char": 1038,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "324496eebb4ab7d79ba4d0cca7ecacf4",
+        "passage_rank": 9,
+        "query_id": "975",
+        "sentence_id": "d222155b5f5d8d6fec2967d8a03aed6d",
+        "sentence_text": "We here demonstrate that primary microglia can respond to the same innate stimuli as hematopoietic macrophages.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2674,
+          0,
+          5,
+          0
+        ],
+        "source_position": 927
+      },
+      {
+        "cross_encoder_score": -7.246769905090332,
+        "dataset": "SciFact",
+        "end_char": 1148,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "324496eebb4ab7d79ba4d0cca7ecacf4",
+        "passage_rank": 9,
+        "query_id": "975",
+        "sentence_id": "6369eef308ebb6bfd2c69e688f021b56",
+        "sentence_text": "However, microglial responses are more persistent due to lack of negative regulation on pro-IL-1\u03b2 expression.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2674,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1039
+      },
+      {
+        "cross_encoder_score": -5.449224948883057,
+        "dataset": "SciFact",
+        "end_char": 1383,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "324496eebb4ab7d79ba4d0cca7ecacf4",
+        "passage_rank": 9,
+        "query_id": "975",
+        "sentence_id": "f8fdf1a99039deb90536ec815f1b5828",
+        "sentence_text": "In addition, we show that while caspase 1, 4, and 5 activation is pivotal for inflammasome-induced IL-1\u03b2 secretion by hematopoietic macrophages, microglial secretion of IL-1\u03b2 is only partially dependent on these inflammatory caspases.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          2674,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1149
+      },
+      {
+        "cross_encoder_score": -10.360236167907715,
+        "dataset": "SciFact",
+        "end_char": 1534,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "324496eebb4ab7d79ba4d0cca7ecacf4",
+        "passage_rank": 9,
+        "query_id": "975",
+        "sentence_id": "c4fa6d4a94445632fa7e950249e79113",
+        "sentence_text": "These results identify key cell type-specific differences that may aid the development of strategies to modulate innate immune responses in the brain.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          2674,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1384
+      },
+      {
+        "cross_encoder_score": -8.107559204101562,
+        "dataset": "SciFact",
+        "end_char": 69,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "b7269d70af7419bd2916daa87fd5da2e",
+        "passage_rank": 2,
+        "query_id": "975",
+        "sentence_id": "ec48553e6f6cadf679dce444c7554239",
+        "sentence_text": "Memory CD4+ T cells induce innate responses independently of pathogen",
+        "sentence_token_cost": 13,
+        "source_order": [
+          2898,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.048345565795898,
+        "dataset": "SciFact",
+        "end_char": 195,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "b7269d70af7419bd2916daa87fd5da2e",
+        "passage_rank": 2,
+        "query_id": "975",
+        "sentence_id": "f8caf0abcf29e09b49bc2733b5925471",
+        "sentence_text": "Inflammation induced by recognition of pathogen-associated molecular patterns markedly affects subsequent adaptive responses.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          2898,
+          0,
+          1,
+          0
+        ],
+        "source_position": 70
+      },
+      {
+        "cross_encoder_score": -9.384261131286621,
+        "dataset": "SciFact",
+        "end_char": 317,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "b7269d70af7419bd2916daa87fd5da2e",
+        "passage_rank": 2,
+        "query_id": "975",
+        "sentence_id": "aac49c8d2fa05e821bfc43ea704a76f2",
+        "sentence_text": "We asked whether the adaptive immune system can also affect the character and magnitude of innate inflammatory responses.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2898,
+          0,
+          2,
+          0
+        ],
+        "source_position": 196
+      },
+      {
+        "cross_encoder_score": -5.092632293701172,
+        "dataset": "SciFact",
+        "end_char": 555,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "b7269d70af7419bd2916daa87fd5da2e",
+        "passage_rank": 2,
+        "query_id": "975",
+        "sentence_id": "b28cf574cf6a397dc5ed7d2356a7fea4",
+        "sentence_text": "We found that the response of memory, but not naive, CD4+ T cells enhances production of multiple innate inflammatory cytokines and chemokines (IICs) in the lung and that, during influenza infection, this leads to early control of virus.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          2898,
+          0,
+          3,
+          0
+        ],
+        "source_position": 318
+      },
+      {
+        "cross_encoder_score": -9.785820007324219,
+        "dataset": "SciFact",
+        "end_char": 891,
+        "pair_tokens_before_truncation": 102,
+        "pair_truncated": false,
+        "passage_id": "b7269d70af7419bd2916daa87fd5da2e",
+        "passage_rank": 2,
+        "query_id": "975",
+        "sentence_id": "69f41ddce7f49763aad5ced83bac9060",
+        "sentence_text": "Memory CD4+ T cell\u2013induced IICs and viral control require cognate antigen recognition and are optimal when memory cells are either T helper type 1 (TH1) or TH17 polarized but are independent of interferon-\u03b3 (IFN-\u03b3) and tumor necrosis factor-\u03b1 (TNF-\u03b1) production and do not require activation of conserved pathogen recognition pathways.",
+        "sentence_token_cost": 84,
+        "source_order": [
+          2898,
+          0,
+          4,
+          0
+        ],
+        "source_position": 556
+      },
+      {
+        "cross_encoder_score": -8.453420639038086,
+        "dataset": "SciFact",
+        "end_char": 1054,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "b7269d70af7419bd2916daa87fd5da2e",
+        "passage_rank": 2,
+        "query_id": "975",
+        "sentence_id": "fbd21dde70ecf37f5588a006f9b41dea",
+        "sentence_text": "This represents a previously undescribed mechanism by which memory CD4+ T cells induce an early innate response that enhances immune protection against pathogens.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          2898,
+          0,
+          5,
+          0
+        ],
+        "source_position": 892
+      },
+      {
+        "cross_encoder_score": -6.692951679229736,
+        "dataset": "SciFact",
+        "end_char": 49,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "a1f1b2b664db6e4bd26c24df736c2a7f",
+        "passage_rank": 6,
+        "query_id": "975",
+        "sentence_id": "becfc31db30439b61e54d78978042965",
+        "sentence_text": "IL-6 as a keystone cytokine in health and disease",
+        "sentence_token_cost": 13,
+        "source_order": [
+          3091,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.47582721710205,
+        "dataset": "SciFact",
+        "end_char": 237,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "a1f1b2b664db6e4bd26c24df736c2a7f",
+        "passage_rank": 6,
+        "query_id": "975",
+        "sentence_id": "5fda26af1c8dcb6920b466c19d03a890",
+        "sentence_text": "Interleukin 6 (IL-6) has a broad effect on cells of the immune system and those not of the immune system and often displays hormone-like characteristics that affect homeostatic processes.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          3091,
+          0,
+          1,
+          0
+        ],
+        "source_position": 50
+      },
+      {
+        "cross_encoder_score": -1.8611931800842285,
+        "dataset": "SciFact",
+        "end_char": 371,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "a1f1b2b664db6e4bd26c24df736c2a7f",
+        "passage_rank": 6,
+        "query_id": "975",
+        "sentence_id": "cff7c2a58f8bd453c6e42caacd6fe39e",
+        "sentence_text": "IL-6 has context-dependent pro- and anti-inflammatory properties and is now regarded as a prominent target for clinical intervention.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3091,
+          0,
+          2,
+          0
+        ],
+        "source_position": 238
+      },
+      {
+        "cross_encoder_score": -9.608073234558105,
+        "dataset": "SciFact",
+        "end_char": 517,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "a1f1b2b664db6e4bd26c24df736c2a7f",
+        "passage_rank": 6,
+        "query_id": "975",
+        "sentence_id": "1539ba57c9b214fa3e669d162b20dcb9",
+        "sentence_text": "However, the signaling cassette that controls the activity of IL-6 is complicated, and distinct intervention strategies can inhibit this pathway.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3091,
+          0,
+          3,
+          0
+        ],
+        "source_position": 372
+      },
+      {
+        "cross_encoder_score": -6.817216873168945,
+        "dataset": "SciFact",
+        "end_char": 679,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "a1f1b2b664db6e4bd26c24df736c2a7f",
+        "passage_rank": 6,
+        "query_id": "975",
+        "sentence_id": "82883de610e5df7700556c6449f134e2",
+        "sentence_text": "Clinical experience with antagonists of IL-6 has raised new questions about how and when to block this cytokine to improve disease outcome and patient wellbeing.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          3091,
+          0,
+          4,
+          0
+        ],
+        "source_position": 518
+      },
+      {
+        "cross_encoder_score": -9.812040328979492,
+        "dataset": "SciFact",
+        "end_char": 879,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "a1f1b2b664db6e4bd26c24df736c2a7f",
+        "passage_rank": 6,
+        "query_id": "975",
+        "sentence_id": "c0b988a1f3dc689bc80cc216631ed664",
+        "sentence_text": "Here we discuss the effect of IL-6 on innate and adaptive immunity and the possible advantages of various antagonists of IL-6 and consider how the immunobiology of IL-6 may inform clinical decisions.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          3091,
+          0,
+          5,
+          0
+        ],
+        "source_position": 680
+      },
+      {
+        "cross_encoder_score": -5.66663122177124,
+        "dataset": "SciFact",
+        "end_char": 55,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "9beec644dcd0ca7bdddd6aadac4e48f3",
+        "passage_rank": 3,
+        "query_id": "975",
+        "sentence_id": "7eacdf58b2f4b0915429e948c83dc6c6",
+        "sentence_text": "Type 2 cytokines: mechanisms and therapeutic strategies",
+        "sentence_token_cost": 10,
+        "source_order": [
+          3367,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.488540172576904,
+        "dataset": "SciFact",
+        "end_char": 217,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "9beec644dcd0ca7bdddd6aadac4e48f3",
+        "passage_rank": 3,
+        "query_id": "975",
+        "sentence_id": "7fffc92d81d8ebec466b6e30ed5507a1",
+        "sentence_text": "Type 2 immune responses are defined by the cytokines interleukin-4 (IL-4), IL-5, IL-9 and IL-13, which can either be host protective or have pathogenic activity.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          3367,
+          0,
+          1,
+          0
+        ],
+        "source_position": 56
+      },
+      {
+        "cross_encoder_score": -10.153085708618164,
+        "dataset": "SciFact",
+        "end_char": 454,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "9beec644dcd0ca7bdddd6aadac4e48f3",
+        "passage_rank": 3,
+        "query_id": "975",
+        "sentence_id": "11d19683164359c5c26b1c9d59454adc",
+        "sentence_text": "Type 2 immunity promotes antihelminth immunity, suppresses type 1-driven autoimmune disease, neutralizes toxins, maintains metabolic homeostasis, and regulates wound repair and tissue regeneration pathways following infection or injury.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          3367,
+          0,
+          2,
+          0
+        ],
+        "source_position": 218
+      },
+      {
+        "cross_encoder_score": -10.29603099822998,
+        "dataset": "SciFact",
+        "end_char": 554,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "9beec644dcd0ca7bdddd6aadac4e48f3",
+        "passage_rank": 3,
+        "query_id": "975",
+        "sentence_id": "f6b021d1c422e8d632dace82875475a5",
+        "sentence_text": "Nevertheless, when type 2 responses are dysregulated, they can become important drivers of disease.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3367,
+          0,
+          3,
+          0
+        ],
+        "source_position": 455
+      },
+      {
+        "cross_encoder_score": -4.46414852142334,
+        "dataset": "SciFact",
+        "end_char": 842,
+        "pair_tokens_before_truncation": 97,
+        "pair_truncated": false,
+        "passage_id": "9beec644dcd0ca7bdddd6aadac4e48f3",
+        "passage_rank": 3,
+        "query_id": "975",
+        "sentence_id": "dc495b43b9baec487f27e4e5ce647071",
+        "sentence_text": "Type 2 immunity induces a complex inflammatory response characterized by eosinophils, mast cells, basophils, type 2 innate lymphoid cells, IL-4-and/or IL-13-conditioned macrophages and T helper 2 (TH2) cells, which are crucial to the pathogenesis of many allergic and fibrotic disorders.",
+        "sentence_token_cost": 72,
+        "source_order": [
+          3367,
+          0,
+          4,
+          0
+        ],
+        "source_position": 555
+      },
+      {
+        "cross_encoder_score": -9.568700790405273,
+        "dataset": "SciFact",
+        "end_char": 995,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "9beec644dcd0ca7bdddd6aadac4e48f3",
+        "passage_rank": 3,
+        "query_id": "975",
+        "sentence_id": "9be203f81334ed0b5b0bfdf80ef503ec",
+        "sentence_text": "As chronic type 2 immune responses promote disease, the mechanisms that regulate their maintenance are thought to function as crucial disease modifiers.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3367,
+          0,
+          5,
+          0
+        ],
+        "source_position": 843
+      },
+      {
+        "cross_encoder_score": -10.650821685791016,
+        "dataset": "SciFact",
+        "end_char": 1218,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "9beec644dcd0ca7bdddd6aadac4e48f3",
+        "passage_rank": 3,
+        "query_id": "975",
+        "sentence_id": "ca552366fa6f25237a81521b3f6be89c",
+        "sentence_text": "This Review discusses the many endogenous negative regulatory mechanisms that antagonize type 2 immunity and highlights how therapies that target some of these pathways are being developed to treat type 2-mediated disease.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          3367,
+          0,
+          6,
+          0
+        ],
+        "source_position": 996
+      },
+      {
+        "cross_encoder_score": -10.797669410705566,
+        "dataset": "SciFact",
+        "end_char": 74,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "d4e9b1dccd792c92f329954f36c66b74",
+        "passage_rank": 7,
+        "query_id": "975",
+        "sentence_id": "27425ca1fae5d19d54b2da80f931d4ab",
+        "sentence_text": "Interferon gamma in autoimmunity: A complicated player on a complex stage.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          4398,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.548962593078613,
+        "dataset": "SciFact",
+        "end_char": 159,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d4e9b1dccd792c92f329954f36c66b74",
+        "passage_rank": 7,
+        "query_id": "975",
+        "sentence_id": "559ac08179a4cfd119ea0f3525734e42",
+        "sentence_text": "Early views of autoimmune disease cast IFN\u03b3 as a prototypic pro-inflammatory factor.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          4398,
+          0,
+          1,
+          0
+        ],
+        "source_position": 75
+      },
+      {
+        "cross_encoder_score": -2.18643856048584,
+        "dataset": "SciFact",
+        "end_char": 336,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "d4e9b1dccd792c92f329954f36c66b74",
+        "passage_rank": 7,
+        "query_id": "975",
+        "sentence_id": "37ac8bb82fdbb794d73764d205692c74",
+        "sentence_text": "It is now clear that IFN\u03b3 is capable of both pro- and anti-inflammatory activities with the functional outcome dependent on the physiological and pathological setting examined.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          4398,
+          0,
+          2,
+          0
+        ],
+        "source_position": 160
+      },
+      {
+        "cross_encoder_score": -9.561152458190918,
+        "dataset": "SciFact",
+        "end_char": 539,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "d4e9b1dccd792c92f329954f36c66b74",
+        "passage_rank": 7,
+        "query_id": "975",
+        "sentence_id": "39080eedb3e393e7ca7dbf6b13190ae0",
+        "sentence_text": "Here, the major immune modulatory activities of IFN\u03b3 are reviewed and current evidence for the impact of IFN\u03b3 on pathology and regulation of several autoimmune diseases and disease models is summarized.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          4398,
+          0,
+          3,
+          0
+        ],
+        "source_position": 337
+      },
+      {
+        "cross_encoder_score": -9.775020599365234,
+        "dataset": "SciFact",
+        "end_char": 121,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "52d23bad1a32c28f2cb5088cc77007ea",
+        "passage_rank": 10,
+        "query_id": "975",
+        "sentence_id": "4198cd6888bfc922308367fccaa5d3c9",
+        "sentence_text": "Invariant NKT cells modulate the suppressive activity of IL-10-secreting neutrophils differentiated with serum amyloid A.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          5177,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.3464510440826416,
+        "dataset": "SciFact",
+        "end_char": 283,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "52d23bad1a32c28f2cb5088cc77007ea",
+        "passage_rank": 10,
+        "query_id": "975",
+        "sentence_id": "27e8b0f583eaa83771ea7a66ed513868",
+        "sentence_text": "Neutrophils are the main effector cells during inflammation, but they can also control excessive inflammatory responses by secreting anti-inflammatory cytokines.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          5177,
+          0,
+          1,
+          0
+        ],
+        "source_position": 122
+      },
+      {
+        "cross_encoder_score": -10.170207977294922,
+        "dataset": "SciFact",
+        "end_char": 354,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "52d23bad1a32c28f2cb5088cc77007ea",
+        "passage_rank": 10,
+        "query_id": "975",
+        "sentence_id": "71628ea0ff759dfe83c5e1fcb79a7ab0",
+        "sentence_text": "However, the mechanisms that modulate their plasticity remain unclear.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          5177,
+          0,
+          2,
+          0
+        ],
+        "source_position": 284
+      },
+      {
+        "cross_encoder_score": -10.835693359375,
+        "dataset": "SciFact",
+        "end_char": 461,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "52d23bad1a32c28f2cb5088cc77007ea",
+        "passage_rank": 10,
+        "query_id": "975",
+        "sentence_id": "646c62ff65310aa0b45e46b21fb86abd",
+        "sentence_text": "We now show that systemic serum amyloid A 1 (SAA-1) controls the plasticity of neutrophil differentiation.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          5177,
+          0,
+          3,
+          0
+        ],
+        "source_position": 355
+      },
+      {
+        "cross_encoder_score": -4.8920793533325195,
+        "dataset": "SciFact",
+        "end_char": 782,
+        "pair_tokens_before_truncation": 100,
+        "pair_truncated": false,
+        "passage_id": "52d23bad1a32c28f2cb5088cc77007ea",
+        "passage_rank": 10,
+        "query_id": "975",
+        "sentence_id": "105b718c8bc44291f5ba8950cd1e25b8",
+        "sentence_text": "SAA-1 not only induced anti-inflammatory interleukin 10 (IL-10)-secreting neutrophils but also promoted the interaction of invariant natural killer T cells (iNKT cells) with those neutrophils, a process that limited their suppressive activity by diminishing the production of IL-10 and enhancing the production of IL-12.",
+        "sentence_token_cost": 77,
+        "source_order": [
+          5177,
+          0,
+          4,
+          0
+        ],
+        "source_position": 462
+      },
+      {
+        "cross_encoder_score": -10.452432632446289,
+        "dataset": "SciFact",
+        "end_char": 1035,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "52d23bad1a32c28f2cb5088cc77007ea",
+        "passage_rank": 10,
+        "query_id": "975",
+        "sentence_id": "af31af362cd91789ac5e619365950513",
+        "sentence_text": "Because SAA-1-producing melanomas promoted differentiation of IL-10-secreting neutrophils, harnessing iNKT cells could be useful therapeutically by decreasing the frequency of immunosuppressive neutrophils and restoring tumor-specific immune responses.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          5177,
+          0,
+          5,
+          0
+        ],
+        "source_position": 783
+      }
+    ],
+    "scoring_seconds": 0.3486607839586213,
+    "source_fingerprint": "4d8160ab07aa3890940450be2398bcc56f124cd66eec8f845b658df6c0c68ad8"
+  }
+}

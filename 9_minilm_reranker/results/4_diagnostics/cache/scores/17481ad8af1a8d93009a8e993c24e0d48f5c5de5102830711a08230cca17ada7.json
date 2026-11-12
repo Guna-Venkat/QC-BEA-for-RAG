@@ -1,0 +1,1551 @@
+{
+  "checksum": "dc43282415b983b41fecfd331c4e97e536db9286a7008a97b246334f79c17056",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "deb89bca0925657e0f91ab5daca78b9e548de2bd"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 76,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "13a3a59b9bf02896d8a716db8f99a4b4226bb46eaf26b53a05f500a7a28a006e",
+    "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+    "scores": [
+      {
+        "cross_encoder_score": -11.172978401184082,
+        "dataset": "QASPER",
+        "end_char": 237,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "931fdd1335a2fff620465dfa8af93937",
+        "passage_rank": 7,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "ef9761e9703df9fab67810d2d56c708b",
+        "sentence_text": "Deep Learning the EEG Manifold for Phonological Categorization from Active Thoughts\tSpeech-related Brain Computer Interfaces (BCI) aim primarily at finding an alternative vocal communication pathway for people with speaking disabilities.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.450689315795898,
+        "dataset": "QASPER",
+        "end_char": 479,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "931fdd1335a2fff620465dfa8af93937",
+        "passage_rank": 7,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "e490ca15b39fba394d713c4c3e0f2208",
+        "sentence_text": "As a step towards full decoding of imagined speech from active thoughts, we present a BCI system for subject-independent classification of phonological categories exploiting a novel deep learning based hierarchical feature extraction scheme.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 238
+      },
+      {
+        "cross_encoder_score": -11.183558464050293,
+        "dataset": "QASPER",
+        "end_char": 670,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "931fdd1335a2fff620465dfa8af93937",
+        "passage_rank": 7,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "33c08591c67b59a2ddbc16c4ba7ebdc3",
+        "sentence_text": "To better capture the complex representation of high-dimensional electroencephalography (EEG) data, we compute the joint variability of EEG electrodes into a channel cross-covariance matrix.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 480
+      },
+      {
+        "cross_encoder_score": -11.111720085144043,
+        "dataset": "QASPER",
+        "end_char": 788,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "931fdd1335a2fff620465dfa8af93937",
+        "passage_rank": 7,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "d4a108af401b99bb7efab7e1983bc817",
+        "sentence_text": "We then extract the spatio-temporal information encoded within the matrix using a mixed deep neural network strategy.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 671
+      },
+      {
+        "cross_encoder_score": -10.882000923156738,
+        "dataset": "QASPER",
+        "end_char": 919,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "931fdd1335a2fff620465dfa8af93937",
+        "passage_rank": 7,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "cd5da73ab303db92c1247c69acb4a2b9",
+        "sentence_text": "Our model framework is composed of a convolutional neural network (CNN), a long-short term network (LSTM), and a deep autoencoder.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 789
+      },
+      {
+        "cross_encoder_score": -7.520010948181152,
+        "dataset": "QASPER",
+        "end_char": 1049,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "931fdd1335a2fff620465dfa8af93937",
+        "passage_rank": 7,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "3c1a90eca8816380fc21bb3bad696f2f",
+        "sentence_text": "We train the individual networks hierarchically, feeding their combined outputs in a final gradient boosting classification step.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 920
+      },
+      {
+        "cross_encoder_score": 6.694836616516113,
+        "dataset": "QASPER",
+        "end_char": 1218,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "931fdd1335a2fff620465dfa8af93937",
+        "passage_rank": 7,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "4babf3524e99624c3b361703917e986c",
+        "sentence_text": "Our best models achieve an average accuracy of 77.9% across five different binary classification tasks, providing a significant 22.5% improvement over previous methods.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1050
+      },
+      {
+        "cross_encoder_score": -11.248306274414062,
+        "dataset": "QASPER",
+        "end_char": 1427,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "931fdd1335a2fff620465dfa8af93937",
+        "passage_rank": 7,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "4aa757d461792977ee5df791d1dc1609",
+        "sentence_text": "As we also show visually, our work demonstrates that the speech imagery EEG possesses significant discriminative information about the intended articulatory movements responsible for natural speech synthesis.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1219
+      },
+      {
+        "cross_encoder_score": -10.522111892700195,
+        "dataset": "QASPER",
+        "end_char": 1450,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "931fdd1335a2fff620465dfa8af93937",
+        "passage_rank": 7,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "61bd9bcc458b53dc85ac544ce409275a",
+        "sentence_text": "Introduction\tDecoding",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1429
+      },
+      {
+        "cross_encoder_score": -11.133099555969238,
+        "dataset": "QASPER",
+        "end_char": 2947,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "651ceda52a02eaa90a35bfcb119bf3f2",
+        "passage_rank": 8,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "e8ffffd8385fd167cee2a22cfdf38b3e",
+        "sentence_text": "challenging: these data are high dimensional, have poor SNR, and suffer from low spatial resolution and a multitude of artifacts.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2818
+      },
+      {
+        "cross_encoder_score": -11.28054428100586,
+        "dataset": "QASPER",
+        "end_char": 3057,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "651ceda52a02eaa90a35bfcb119bf3f2",
+        "passage_rank": 8,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "4eede7b7257ae23f0df266856deecf61",
+        "sentence_text": "For these reasons, it is not particularly obvious how to decode the desired information from raw EEG signals.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2948
+      },
+      {
+        "cross_encoder_score": -10.128833770751953,
+        "dataset": "QASPER",
+        "end_char": 3351,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "651ceda52a02eaa90a35bfcb119bf3f2",
+        "passage_rank": 8,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "4403077617bb10a968cd92b88f170014",
+        "sentence_text": "Although the area of BCI based speech intent recognition has received increasing attention among the research community in the past few years, most research has focused on classification of individual speech categories in terms of discrete vowels, phonemes and words  ,  ,  ,  ,  ,  ,  ,  ,  .",
+        "sentence_token_cost": 62,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 3058
+      },
+      {
+        "cross_encoder_score": -5.435368537902832,
+        "dataset": "QASPER",
+        "end_char": 3813,
+        "pair_tokens_before_truncation": 135,
+        "pair_truncated": false,
+        "passage_id": "651ceda52a02eaa90a35bfcb119bf3f2",
+        "passage_rank": 8,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "4a25550fa1a85d132c251c69e46b4f43",
+        "sentence_text": "This includes categorization of imagined EEG signal into binary vowel categories like /a/, /u/ and rest  ,  ,  ; binary syllable classes like /ba/ and /ku/  ,  ,  ,  ; a handful of control words like 'up', 'down', 'left', 'right' and 'select'  or others like 'water', 'help', 'thanks', 'food', 'stop'  , Chinese characters  , etc. Such works mostly involve traditional signal processing or manual feature handcrafting along with linear classifiers (e.g., SVMs).",
+        "sentence_token_cost": 120,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3352
+      },
+      {
+        "cross_encoder_score": -10.744900703430176,
+        "dataset": "QASPER",
+        "end_char": 3942,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "651ceda52a02eaa90a35bfcb119bf3f2",
+        "passage_rank": 8,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "681e94559fae9159ab6075019d623400",
+        "sentence_text": "In our recent work  , we introduced deep learning models for classification of vowels and words that achieved 23.45% improvement",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3814
+      },
+      {
+        "cross_encoder_score": -11.165876388549805,
+        "dataset": "QASPER",
+        "end_char": 3973,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "35f82bdfb3449d9fe69567632bfe1c4b",
+        "passage_rank": 9,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "5fc3a835c3a2783ffc17de064fbb4c7f",
+        "sentence_text": "of accuracy over the baseline.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 3943
+      },
+      {
+        "cross_encoder_score": -11.124129295349121,
+        "dataset": "QASPER",
+        "end_char": 4164,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "35f82bdfb3449d9fe69567632bfe1c4b",
+        "passage_rank": 9,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "a1bb95b793cce5eff9a04b4eccfa4eae",
+        "sentence_text": "Production of articulatory speech is an extremely complicated process, thereby rendering understanding of the discriminative EEG manifold corresponding to imagined speech highly challenging.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 3974
+      },
+      {
+        "cross_encoder_score": -11.232949256896973,
+        "dataset": "QASPER",
+        "end_char": 4309,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "35f82bdfb3449d9fe69567632bfe1c4b",
+        "passage_rank": 9,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "89fb1d94fe1757bde6211bca7f131711",
+        "sentence_text": "As a result, most of the existing approaches failed to achieve satisfactory accuracy on decoding speech tokens from the speech imagery EEG data.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4165
+      },
+      {
+        "cross_encoder_score": -11.21886157989502,
+        "dataset": "QASPER",
+        "end_char": 4433,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "35f82bdfb3449d9fe69567632bfe1c4b",
+        "passage_rank": 9,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "f5021f7c8b00836f8dcf297e3194f594",
+        "sentence_text": "Perhaps, for these reasons, very little work has been devoted to relating the brain signals to the underlying articulation.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4310
+      },
+      {
+        "cross_encoder_score": -10.384014129638672,
+        "dataset": "QASPER",
+        "end_char": 4466,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "35f82bdfb3449d9fe69567632bfe1c4b",
+        "passage_rank": 9,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "1679ae74c3036a79f509d16fd1ec5bcd",
+        "sentence_text": "The few exceptions include  ,  .",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 4434
+      },
+      {
+        "cross_encoder_score": -10.08754825592041,
+        "dataset": "QASPER",
+        "end_char": 4679,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "35f82bdfb3449d9fe69567632bfe1c4b",
+        "passage_rank": 9,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "fb27ac467d35a35e94a847b35d2f1881",
+        "sentence_text": "In  , Zhao et al. used manually handcrafted features from EEG data, combined with speech audio and facial features to achieve classification of the phonological categories varying based on the articulatory steps.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 4467
+      },
+      {
+        "cross_encoder_score": -10.779871940612793,
+        "dataset": "QASPER",
+        "end_char": 4837,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "35f82bdfb3449d9fe69567632bfe1c4b",
+        "passage_rank": 9,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "b63438b4d73cf10cccc76a3a040e2014",
+        "sentence_text": "However, the imagined speech classification accuracy based on EEG data alone, as reported in  ,  , are not satisfactory in terms of accuracy and reliability.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 4680
+      },
+      {
+        "cross_encoder_score": -10.770028114318848,
+        "dataset": "QASPER",
+        "end_char": 4884,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "35f82bdfb3449d9fe69567632bfe1c4b",
+        "passage_rank": 9,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "bbd839ee5e5e4e1d9789f6ba41614bce",
+        "sentence_text": "We now turn to describing our proposed models.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 4838
+      },
+      {
+        "cross_encoder_score": -11.121224403381348,
+        "dataset": "QASPER",
+        "end_char": 5159,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "35f82bdfb3449d9fe69567632bfe1c4b",
+        "passage_rank": 9,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "8d01a6722b4492f2c65f2bdaf6e257ea",
+        "sentence_text": "Proposed Framework\tCognitive learning process underlying articulatory speech production involves incorporation of intermediate feedback loops and utilization of past information stored in the form of memory as well as hierarchical combination of several feature extractors.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          3,
+          8,
+          0
+        ],
+        "source_position": 4886
+      },
+      {
+        "cross_encoder_score": -11.022974014282227,
+        "dataset": "QASPER",
+        "end_char": 5353,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "35f82bdfb3449d9fe69567632bfe1c4b",
+        "passage_rank": 9,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "dbd7a7c8de85f5b9268a9bd36c81589d",
+        "sentence_text": "To this end, we develop our mixed neural network architecture composed of three supervised and a single unsupervised learning step, discussed in the next subsections and shown in Fig. FIGREF1 .",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          3,
+          9,
+          0
+        ],
+        "source_position": 5160
+      },
+      {
+        "cross_encoder_score": -11.176215171813965,
+        "dataset": "QASPER",
+        "end_char": 5409,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "35f82bdfb3449d9fe69567632bfe1c4b",
+        "passage_rank": 9,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "bb9a421111edf410f076099334703ea1",
+        "sentence_text": "We formulate the problem of categorizing EEG data based",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          3,
+          10,
+          0
+        ],
+        "source_position": 5354
+      },
+      {
+        "cross_encoder_score": -11.128252983093262,
+        "dataset": "QASPER",
+        "end_char": 5668,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "09d1024c4fcf7be485a0172bb610af23",
+        "passage_rank": 10,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "6479686e5598c045445f073aaaf70eff",
+        "sentence_text": "on speech imagery as a non-linear mapping INLINEFORM0 of a multivariate time-series input sequence INLINEFORM1 to fixed output INLINEFORM2 , i.e, mathematically INLINEFORM3 : INLINEFORM4 , where c and t denote the EEG channels and time instants respectively.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "source_position": 5410
+      },
+      {
+        "cross_encoder_score": -11.157418251037598,
+        "dataset": "QASPER",
+        "end_char": 6043,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "09d1024c4fcf7be485a0172bb610af23",
+        "passage_rank": 10,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "2f76e90fbf5e64a044ef4ee677f48e03",
+        "sentence_text": "Preprocessing step\tWe follow similar pre-processing steps on raw EEG data as reported in  (ocular artifact removal using blind source separation, bandpass filtering and subtracting mean value from each channel) except that we do not perform Laplacian filtering step since such high-pass filtering may decrease information content from the signals in the selected bandwidth.",
+        "sentence_token_cost": 67,
+        "source_order": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "source_position": 5670
+      },
+      {
+        "cross_encoder_score": -11.265748977661133,
+        "dataset": "QASPER",
+        "end_char": 6206,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "09d1024c4fcf7be485a0172bb610af23",
+        "passage_rank": 10,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "2ff38be843554daaf5322c601f5245cc",
+        "sentence_text": "Joint variability of electrodes\tMultichannel EEG data is high dimensional multivariate time series data whose dimensionality depends on the number of electrodes.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "source_position": 6045
+      },
+      {
+        "cross_encoder_score": -11.171746253967285,
+        "dataset": "QASPER",
+        "end_char": 6309,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "09d1024c4fcf7be485a0172bb610af23",
+        "passage_rank": 10,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "62f0f349501164c4bcb01748f79ffba3",
+        "sentence_text": "It is a major hurdle to optimally encode information from these EEG data into lower dimensional space.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "source_position": 6207
+      },
+      {
+        "cross_encoder_score": -10.932610511779785,
+        "dataset": "QASPER",
+        "end_char": 6636,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "09d1024c4fcf7be485a0172bb610af23",
+        "passage_rank": 10,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "6c89e5ff6c4ec452d089e5b8e602f878",
+        "sentence_text": "In fact, our investigation based on a development set (as we explain later) showed that well-known deep neural networks (e.g., fully connected networks such as convolutional neural networks, recurrent neural networks and autoencoders) fail to individually learn such complex feature representations from single-trial EEG data.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "source_position": 6310
+      },
+      {
+        "cross_encoder_score": -11.290181159973145,
+        "dataset": "QASPER",
+        "end_char": 6783,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "09d1024c4fcf7be485a0172bb610af23",
+        "passage_rank": 10,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "87ffc915ad0a2475fa3fa1bd044ecbf3",
+        "sentence_text": "Besides, we found that instead of using the raw multi-channel high-dimensional EEG requiring large training times and resource requirements, it is",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          4,
+          5,
+          0
+        ],
+        "source_position": 6637
+      },
+      {
+        "cross_encoder_score": -11.232829093933105,
+        "dataset": "QASPER",
+        "end_char": 9604,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "8573e921c8d083b9e72cddde1c0c089c",
+        "passage_rank": 5,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "14e5c6d0baee25ecd2b498ebbd2aa7f7",
+        "sentence_text": "encodings and cancel background noise effects  , we train an unsupervised deep autoenoder (DAE) on the fused heterogeneous features produced by the combined CNN and LSTM information.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 9422
+      },
+      {
+        "cross_encoder_score": -9.390458106994629,
+        "dataset": "QASPER",
+        "end_char": 9739,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "8573e921c8d083b9e72cddde1c0c089c",
+        "passage_rank": 5,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "500a445453bef4984ef66d3f56dbb6b6",
+        "sentence_text": "The DAE forms our second level of hierarchy, with 3 encoding and 3 decoding layers, and mean squared error (MSE) as the cost function.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 9605
+      },
+      {
+        "cross_encoder_score": -8.720122337341309,
+        "dataset": "QASPER",
+        "end_char": 9967,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "8573e921c8d083b9e72cddde1c0c089c",
+        "passage_rank": 5,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "a47cd0cfcde7c8d53bdf8b9392151579",
+        "sentence_text": "Classification with Extreme Gradient Boost\tAt the third level of hierarchy, the discrete latent vector representation of the deep autoencoder is fed into an Extreme Gradient Boost based classification layer  ,  motivated by  .",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 9741
+      },
+      {
+        "cross_encoder_score": -11.067641258239746,
+        "dataset": "QASPER",
+        "end_char": 10061,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "8573e921c8d083b9e72cddde1c0c089c",
+        "passage_rank": 5,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "16b2222aef43e58fe0f16c782e3bc2bd",
+        "sentence_text": "It is a regularized gradient boosted decision tree that performs well on structured problems.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 9968
+      },
+      {
+        "cross_encoder_score": -8.520307540893555,
+        "dataset": "QASPER",
+        "end_char": 10229,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "8573e921c8d083b9e72cddde1c0c089c",
+        "passage_rank": 5,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "d0d04744376263598342477d5ef09a2a",
+        "sentence_text": "Since our EEG-phonological pairwise classification has an internal structure involving individual phonemes and words, it seems to be a reasonable choice of classifier.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 10062
+      },
+      {
+        "cross_encoder_score": -9.30513858795166,
+        "dataset": "QASPER",
+        "end_char": 10424,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "8573e921c8d083b9e72cddde1c0c089c",
+        "passage_rank": 5,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "83e3785c08478f6d5474d41ca34b9767",
+        "sentence_text": "The classifier receives its input from the latent vectors of the deep autoencoder and is trained in a supervised manner to output the final predicted classes corresponding to the speech imagery.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 10230
+      },
+      {
+        "cross_encoder_score": -11.227609634399414,
+        "dataset": "QASPER",
+        "end_char": 10677,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "8573e921c8d083b9e72cddde1c0c089c",
+        "passage_rank": 5,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "85eb1c1afb0eec6c18ffe63fc132a890",
+        "sentence_text": "Dataset\tWe evaluate our model on a publicly available dataset, KARA ONE  , composed of multimodal data for stimulus-based, imagined and articulated speech state corresponding to 7 phonemic/syllabic ( /iy/, /piy/, /tiy/, /diy/, /uw/, /m/, /n/ ) as well",
+        "sentence_token_cost": 68,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 10426
+      },
+      {
+        "cross_encoder_score": -10.619119644165039,
+        "dataset": "QASPER",
+        "end_char": 10714,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "b736fdb8ed6f45bf7f8ccd13ce4ec636",
+        "passage_rank": 1,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "b29031a5592beb98b9a79c9c39e23dc6",
+        "sentence_text": "as 4 words(pat, pot, knew and gnaw).",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 10678
+      },
+      {
+        "cross_encoder_score": -10.70884895324707,
+        "dataset": "QASPER",
+        "end_char": 10811,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "b736fdb8ed6f45bf7f8ccd13ce4ec636",
+        "passage_rank": 1,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "2395ec4aa31b72d5302ca81116df7c6a",
+        "sentence_text": "The dataset consists of 14 participants, with each prompt presented 11 times to each individual.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 10715
+      },
+      {
+        "cross_encoder_score": -10.684503555297852,
+        "dataset": "QASPER",
+        "end_char": 11004,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "b736fdb8ed6f45bf7f8ccd13ce4ec636",
+        "passage_rank": 1,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "aa7c11b8c56423b51c079abb629e7af2",
+        "sentence_text": "Since our intention is to classify the phonological categories from human thoughts, we discard the facial and audio information and only consider the EEG data corresponding to imagined speech.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 10812
+      },
+      {
+        "cross_encoder_score": -11.238587379455566,
+        "dataset": "QASPER",
+        "end_char": 11138,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "b736fdb8ed6f45bf7f8ccd13ce4ec636",
+        "passage_rank": 1,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "efa30b4ffd4902959e97f45f98b0866e",
+        "sentence_text": "It is noteworthy that given the mixed nature of EEG signals, it is reportedly challenging to attain a pairwise EEG-phoneme mapping  .",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 11005
+      },
+      {
+        "cross_encoder_score": 5.654263019561768,
+        "dataset": "QASPER",
+        "end_char": 11362,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "b736fdb8ed6f45bf7f8ccd13ce4ec636",
+        "passage_rank": 1,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "89dec5c880a37c7f44833d3ef0d0cfa0",
+        "sentence_text": "In order to explore the problem space, we thus specifically target five binary classification problems addressed in  ,  , i.e presence/absence of consonants, phonemic nasal, bilabial, high-front vowels and high-back vowels.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 11139
+      },
+      {
+        "cross_encoder_score": -11.177046775817871,
+        "dataset": "QASPER",
+        "end_char": 11470,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "b736fdb8ed6f45bf7f8ccd13ce4ec636",
+        "passage_rank": 1,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "8a30397f9bb6d4cb6929aa037347f986",
+        "sentence_text": "Training and hyperparameter selection\tWe performed two sets of experiments with the single-trial EEG data.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 11364
+      },
+      {
+        "cross_encoder_score": -10.970102310180664,
+        "dataset": "QASPER",
+        "end_char": 11604,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "b736fdb8ed6f45bf7f8ccd13ce4ec636",
+        "passage_rank": 1,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "261f55f00f3510f0286a7910fdec6b10",
+        "sentence_text": "In PHASE-ONE, our goals was to identify the best architectures and hyperparameters for our networks with a reasonable number of runs.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 11471
+      },
+      {
+        "cross_encoder_score": -10.733508110046387,
+        "dataset": "QASPER",
+        "end_char": 11753,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "b736fdb8ed6f45bf7f8ccd13ce4ec636",
+        "passage_rank": 1,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "56c4d323532e489fda8a5f93f07367d2",
+        "sentence_text": "For PHASE-ONE, we randomly shuffled and divided the data (1913 signals from 14 individuals) into train (80%), development (10%) and test sets (10%).",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 11605
+      },
+      {
+        "cross_encoder_score": -10.747736930847168,
+        "dataset": "QASPER",
+        "end_char": 11872,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "b736fdb8ed6f45bf7f8ccd13ce4ec636",
+        "passage_rank": 1,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "1c2dcf3d283d883fef6d50c6a7605607",
+        "sentence_text": "In PHASE-TWO, in order to perform a fair comparison with the previous methods reported on the same dataset, we perform",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "source_position": 11754
+      },
+      {
+        "cross_encoder_score": -11.272858619689941,
+        "dataset": "QASPER",
+        "end_char": 11973,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "9e88003d1c67f6b7366159a104932f25",
+        "passage_rank": 4,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "bd5c42fc68ba4622b054d8178fabfcc6",
+        "sentence_text": "a leave-one-subject out cross-validation experiment using the best settings we learn from PHASE-ONE.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 11873
+      },
+      {
+        "cross_encoder_score": -10.981963157653809,
+        "dataset": "QASPER",
+        "end_char": 12136,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "9e88003d1c67f6b7366159a104932f25",
+        "passage_rank": 4,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "41b2f2f64d0c6ea6937db549e0cfa40a",
+        "sentence_text": "The architectural parameters and hyperparameters listed in Table TABREF6 were selected through an exhaustive grid-search based on the validation set of PHASE-ONE.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 11974
+      },
+      {
+        "cross_encoder_score": -11.087305068969727,
+        "dataset": "QASPER",
+        "end_char": 12417,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "9e88003d1c67f6b7366159a104932f25",
+        "passage_rank": 4,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "c537f5f78e608bd2d223890cc606f8b5",
+        "sentence_text": "We conducted a series of empirical studies starting from single hidden-layered networks for each of the blocks and, based on the validation accuracy, we increased the depth of each given network and selected the optimal parametric set from all possible combinations of parameters.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 12137
+      },
+      {
+        "cross_encoder_score": -9.393399238586426,
+        "dataset": "QASPER",
+        "end_char": 12640,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "9e88003d1c67f6b7366159a104932f25",
+        "passage_rank": 4,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "39d73f0f1aba7051844785d57471a27a",
+        "sentence_text": "For the gradient boosting classification, we fixed the maximum depth at 10, number of estimators at 5000, learning rate at 0.1, regularization coefficient at 0.3, subsample ratio at 0.8, and column-sample/iteration at 0.4.",
+        "sentence_token_cost": 63,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 12418
+      },
+      {
+        "cross_encoder_score": -11.215106010437012,
+        "dataset": "QASPER",
+        "end_char": 12765,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "9e88003d1c67f6b7366159a104932f25",
+        "passage_rank": 4,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "e57c1ce63161ee269eb08b1c5547cee5",
+        "sentence_text": "We did not find any notable change of accuracy while varying other hyperparameters while training gradient boost classifier.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 12641
+      },
+      {
+        "cross_encoder_score": -11.194162368774414,
+        "dataset": "QASPER",
+        "end_char": 13169,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "9e88003d1c67f6b7366159a104932f25",
+        "passage_rank": 4,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "c1465fd4beb2938182114c10bebd87c4",
+        "sentence_text": "Performance analysis and discussion\tTo demonstrate the significance of the hierarchical CNN-LSTM-DAE method, we conducted separate experiments with the individual networks in PHASE-ONE of experiments and summarized the results in Table TABREF12 From the average accuracy scores, we observe that the mixed network performs much better than individual blocks which is in agreement with the findings in  .",
+        "sentence_token_cost": 73,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 12767
+      },
+      {
+        "cross_encoder_score": -11.225476264953613,
+        "dataset": "QASPER",
+        "end_char": 13295,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "2fefe5a05c80135a90534482603aea18",
+        "passage_rank": 6,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "4dd47a67cdf90115c39afba02c5add2f",
+        "sentence_text": "A detailed analysis on repeated runs further shows that in most of the cases, LSTM alone does not perform better than chance.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 13170
+      },
+      {
+        "cross_encoder_score": -11.217758178710938,
+        "dataset": "QASPER",
+        "end_char": 13412,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "2fefe5a05c80135a90534482603aea18",
+        "passage_rank": 6,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "088192030837fadc935563c45f80a7fe",
+        "sentence_text": "CNN, on the other hand, is heavily biased towards the class label which sees more training data corresponding to it.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 13296
+      },
+      {
+        "cross_encoder_score": -11.131499290466309,
+        "dataset": "QASPER",
+        "end_char": 13645,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "2fefe5a05c80135a90534482603aea18",
+        "passage_rank": 6,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "904543c9a7a191f31c4c9aecc559ed3b",
+        "sentence_text": "Though the situation improves with combined CNN-LSTM, our analysis clearly shows the necessity of a better encoding scheme to utilize the combined features rather than mere concatenation of the penultimate features of both networks.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 13413
+      },
+      {
+        "cross_encoder_score": -9.493227005004883,
+        "dataset": "QASPER",
+        "end_char": 13925,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "2fefe5a05c80135a90534482603aea18",
+        "passage_rank": 6,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "0c722a744192e718e5869b5c2506e7cf",
+        "sentence_text": "The very fact that our combined network improves the classification accuracy by a mean margin of 14.45% than the CNN-LSTM network indeed reveals that the autoencoder contributes towards filtering out the unrelated and noisy features from the concatenated penultimate feature set.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 13646
+      },
+      {
+        "cross_encoder_score": -8.69263744354248,
+        "dataset": "QASPER",
+        "end_char": 14162,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "2fefe5a05c80135a90534482603aea18",
+        "passage_rank": 6,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "3cf7f19535a11ef9d17b553e9538e5b8",
+        "sentence_text": "It also proves that the combined supervised and unsupervised neural networks, trained hierarchically, can learn the discriminative manifold better than the individual networks and it is crucial for improving the classification accuracy.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 13926
+      },
+      {
+        "cross_encoder_score": -10.797370910644531,
+        "dataset": "QASPER",
+        "end_char": 14260,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "2fefe5a05c80135a90534482603aea18",
+        "passage_rank": 6,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "58af3f9ee034dc88a636c29c628d36cc",
+        "sentence_text": "In addition to accuracy, we also provide the kappa coefficients  of our method in Fig. FIGREF14 .",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 14163
+      },
+      {
+        "cross_encoder_score": -9.982903480529785,
+        "dataset": "QASPER",
+        "end_char": 14434,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "2fefe5a05c80135a90534482603aea18",
+        "passage_rank": 6,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "2deb5df116b45acf024af71aa879ddd7",
+        "sentence_text": "Here, a higher mean kappa value corresponding to a task implies that the network is able to find better discriminative information from the EEG data beyond random decisions.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 14261
+      },
+      {
+        "cross_encoder_score": -11.225847244262695,
+        "dataset": "QASPER",
+        "end_char": 14523,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "2fefe5a05c80135a90534482603aea18",
+        "passage_rank": 6,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "ffe3e02235e5274e808daacd32ea042a",
+        "sentence_text": "The maximum above-chance accuracy (75.92%) is recorded for presence/absence of the vowel",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 14435
+      },
+      {
+        "cross_encoder_score": -6.702054500579834,
+        "dataset": "QASPER",
+        "end_char": 14587,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "8f9789a76d7318ea31b41155fa62d246",
+        "passage_rank": 3,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "d9ba40cb23dfe2dd73a2850332192eff",
+        "sentence_text": "task and the minimum (49.14%) is recorded for the INLINEFORM0 .",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 14524
+      },
+      {
+        "cross_encoder_score": -2.9076147079467773,
+        "dataset": "QASPER",
+        "end_char": 14795,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "8f9789a76d7318ea31b41155fa62d246",
+        "passage_rank": 3,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "0454970f969d3badeea83dc361777504",
+        "sentence_text": "To further investigate the feature representation achieved by our model, we plot T-distributed Stochastic Neighbor Embedding (tSNE) corresponding to INLINEFORM0 and V/C classification tasks in Fig. FIGREF8 .",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 14588
+      },
+      {
+        "cross_encoder_score": -7.311638355255127,
+        "dataset": "QASPER",
+        "end_char": 14916,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "8f9789a76d7318ea31b41155fa62d246",
+        "passage_rank": 3,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "ea345f3b377e3320bc17e923b4462172",
+        "sentence_text": "We particularly select these two tasks as our model exhibits respectively minimum and maximum performance for these two.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 14796
+      },
+      {
+        "cross_encoder_score": -11.160483360290527,
+        "dataset": "QASPER",
+        "end_char": 15073,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "8f9789a76d7318ea31b41155fa62d246",
+        "passage_rank": 3,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "cd1a638048deb69da08f2b1630da0d69",
+        "sentence_text": "The tSNE visualization reveals that the second set of features are more easily separable than the first one, thereby giving a rationale for our performance.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 14917
+      },
+      {
+        "cross_encoder_score": -11.287869453430176,
+        "dataset": "QASPER",
+        "end_char": 15241,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "8f9789a76d7318ea31b41155fa62d246",
+        "passage_rank": 3,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "57ab0afa2b13dfada1782380c463b0e0",
+        "sentence_text": "Next, we provide performance comparison of the proposed approach with the baseline methods for PHASE-TWO of our study (cross-validation experiment) in Table TABREF15 .",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 15074
+      },
+      {
+        "cross_encoder_score": -11.27262020111084,
+        "dataset": "QASPER",
+        "end_char": 15418,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "8f9789a76d7318ea31b41155fa62d246",
+        "passage_rank": 3,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "ea3a7e4e0da85167787f3d49fc8d8197",
+        "sentence_text": "Since the model encounters the unseen data of a new subject for testing, and given the high inter-subject variability of the EEG data, a reduction in the accuracy was expected.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 15242
+      },
+      {
+        "cross_encoder_score": -11.25499439239502,
+        "dataset": "QASPER",
+        "end_char": 15527,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "8f9789a76d7318ea31b41155fa62d246",
+        "passage_rank": 3,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "72de6ab38db184fcaf925172980429f2",
+        "sentence_text": "However, our network still managed to achieve an improvement of 18.91, 9.95, 67.15, 2.83 and 13.70 % over  .",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 15419
+      },
+      {
+        "cross_encoder_score": -7.532718181610107,
+        "dataset": "QASPER",
+        "end_char": 15701,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "8f9789a76d7318ea31b41155fa62d246",
+        "passage_rank": 3,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "c7349d951035c80716fb380af31646ea",
+        "sentence_text": "Besides, our best model shows more reliability compared to previous works: The standard deviation of our model's classification accuracy across all the tasks is reduced from",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 15528
+      },
+      {
+        "cross_encoder_score": -10.986632347106934,
+        "dataset": "QASPER",
+        "end_char": 15738,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "ff7b903669b2158076fffc609421540e",
+        "passage_rank": 2,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "e94c2421b959a45f3957e6bce439cd3c",
+        "sentence_text": "22.59%  and 17.52%  to a mere 5.41%.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 15702
+      },
+      {
+        "cross_encoder_score": 0.8397322297096252,
+        "dataset": "QASPER",
+        "end_char": 15999,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "ff7b903669b2158076fffc609421540e",
+        "passage_rank": 2,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "bc450068bb39f3b011e7d94a9c95bc33",
+        "sentence_text": "Conclusion and future direction\tIn an attempt to move a step towards understanding the speech information encoded in brain signals, we developed a novel mixed deep neural network scheme for a number of binary classification tasks from speech imagery EEG data.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 15740
+      },
+      {
+        "cross_encoder_score": -9.141071319580078,
+        "dataset": "QASPER",
+        "end_char": 16377,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "ff7b903669b2158076fffc609421540e",
+        "passage_rank": 2,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "a6e1d1f949e523c7a6572b15111e5808",
+        "sentence_text": "Unlike previous approaches which mostly deal with subject-dependent classification of EEG into discrete vowel or word labels, this work investigates a subject-invariant mapping of EEG data with different phonological categories, varying widely in terms of underlying articulator motions (eg: involvement or non-involvement of lips and velum, variation of tongue movements etc).",
+        "sentence_token_cost": 66,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 16000
+      },
+      {
+        "cross_encoder_score": -11.272626876831055,
+        "dataset": "QASPER",
+        "end_char": 16511,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "ff7b903669b2158076fffc609421540e",
+        "passage_rank": 2,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "b9b2d08268607ddb727c5e8fc351c52c",
+        "sentence_text": "Our model takes an advantage of feature extraction capability of CNN, LSTM as well as the deep learning benefit of deep autoencoders.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 16378
+      },
+      {
+        "cross_encoder_score": -11.26358413696289,
+        "dataset": "QASPER",
+        "end_char": 16618,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "ff7b903669b2158076fffc609421540e",
+        "passage_rank": 2,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "deca7dc7dfeb6908e75c82884ec3eb25",
+        "sentence_text": "We took  ,  as the baseline works investigating the same problem and compared our performance with theirs.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 16512
+      },
+      {
+        "cross_encoder_score": 5.709690570831299,
+        "dataset": "QASPER",
+        "end_char": 16763,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "ff7b903669b2158076fffc609421540e",
+        "passage_rank": 2,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "15de94cd706915c4698486bb63789f90",
+        "sentence_text": "Our proposed method highly outperforms the existing methods across all the five binary classification tasks by a large average margin of 22.51%.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 16619
+      },
+      {
+        "cross_encoder_score": -11.201035499572754,
+        "dataset": "QASPER",
+        "end_char": 16928,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "ff7b903669b2158076fffc609421540e",
+        "passage_rank": 2,
+        "query_id": "deb89bca0925657e0f91ab5daca78b9e548de2bd",
+        "sentence_id": "e6cfb28880c20e746ecb4777e9dc31f1",
+        "sentence_text": "Acknowledgments\tThis work was funded by the Natural Sciences and Engineering Research Council (NSERC) of Canada and Canadian Institutes for Health Research (CIHR).",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 16765
+      }
+    ],
+    "scoring_seconds": 0.43238553195260465,
+    "source_fingerprint": "8d9ad90026ff1899941bd4f5c27782b441b621d1530a219bf6143f687d8c8436"
+  }
+}

@@ -1,0 +1,1631 @@
+{
+  "checksum": "d58be9b982af7046f352d58b178efde50c2ad76e73a4d49afc014de50920b05e",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "847"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 80,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "c3f62f496b73ccb26bb1cb4f4db1f94a6c103dd4aa34edb92de879c3608c23d9",
+    "query_id": "847",
+    "scores": [
+      {
+        "cross_encoder_score": -7.181392669677734,
+        "dataset": "SciFact",
+        "end_char": 78,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 6,
+        "query_id": "847",
+        "sentence_id": "4219d0d3cb102c853230ebc0c5b1d849",
+        "sentence_text": "Inflammatory signaling in human Tuberculosis granulomas is spatially organized",
+        "sentence_token_cost": 14,
+        "source_order": [
+          617,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.915126323699951,
+        "dataset": "SciFact",
+        "end_char": 141,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 6,
+        "query_id": "847",
+        "sentence_id": "196b262cd476c657fa3e347ea958acfe",
+        "sentence_text": "Granulomas are the pathological hallmark of tuberculosis (TB).",
+        "sentence_token_cost": 12,
+        "source_order": [
+          617,
+          0,
+          1,
+          0
+        ],
+        "source_position": 79
+      },
+      {
+        "cross_encoder_score": -10.226338386535645,
+        "dataset": "SciFact",
+        "end_char": 219,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 6,
+        "query_id": "847",
+        "sentence_id": "a7acaebecef219075d19124baf930a9a",
+        "sentence_text": "However, their function and mechanisms of formation remain poorly understood.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          617,
+          0,
+          2,
+          0
+        ],
+        "source_position": 142
+      },
+      {
+        "cross_encoder_score": -7.40932559967041,
+        "dataset": "SciFact",
+        "end_char": 358,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 6,
+        "query_id": "847",
+        "sentence_id": "dd44f87c68ae7b00275379e0cecf9972",
+        "sentence_text": "To understand the role of granulomas in TB, we analyzed the proteomes of granulomas from subjects with tuberculosis in an unbiased manner.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          617,
+          0,
+          3,
+          0
+        ],
+        "source_position": 220
+      },
+      {
+        "cross_encoder_score": -10.884610176086426,
+        "dataset": "SciFact",
+        "end_char": 496,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 6,
+        "query_id": "847",
+        "sentence_id": "b21c8407d670286922d41264427d0741",
+        "sentence_text": "Using laser-capture microdissection, mass spectrometry and confocal microscopy, we generated detailed molecular maps of human granulomas.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          617,
+          0,
+          4,
+          0
+        ],
+        "source_position": 359
+      },
+      {
+        "cross_encoder_score": -10.386826515197754,
+        "dataset": "SciFact",
+        "end_char": 695,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 6,
+        "query_id": "847",
+        "sentence_id": "683c17a3e6566a8d9c7bfaaa537e2fb2",
+        "sentence_text": "We found that the centers of granulomas have a pro-inflammatory environment that is characterized by the presence of antimicrobial peptides, reactive oxygen species and pro-inflammatory eicosanoids.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          617,
+          0,
+          5,
+          0
+        ],
+        "source_position": 497
+      },
+      {
+        "cross_encoder_score": -10.290950775146484,
+        "dataset": "SciFact",
+        "end_char": 790,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 6,
+        "query_id": "847",
+        "sentence_id": "09a57767f5d39a9c18bdb3b88e917c35",
+        "sentence_text": "Conversely, the tissue surrounding the caseum has a comparatively anti-inflammatory signature.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          617,
+          0,
+          6,
+          0
+        ],
+        "source_position": 696
+      },
+      {
+        "cross_encoder_score": -10.845654487609863,
+        "dataset": "SciFact",
+        "end_char": 871,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 6,
+        "query_id": "847",
+        "sentence_id": "d9f6bb3c542ca0735ab87fe2b9d92da7",
+        "sentence_text": "These findings are consistent across a set of six human subjects and in rabbits.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          617,
+          0,
+          7,
+          0
+        ],
+        "source_position": 791
+      },
+      {
+        "cross_encoder_score": -8.260719299316406,
+        "dataset": "SciFact",
+        "end_char": 1059,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 6,
+        "query_id": "847",
+        "sentence_id": "59746254eac24596ad1bcec39fc6c1c5",
+        "sentence_text": "Although the balance between systemic pro- and anti-inflammatory signals is crucial to TB disease outcome, here we find that these signals are physically segregated within each granuloma.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          617,
+          0,
+          8,
+          0
+        ],
+        "source_position": 872
+      },
+      {
+        "cross_encoder_score": -8.666305541992188,
+        "dataset": "SciFact",
+        "end_char": 1310,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "f699c382d41b110e1a29d23361feee8c",
+        "passage_rank": 6,
+        "query_id": "847",
+        "sentence_id": "495d4e3bb682e87025dc233541bf741a",
+        "sentence_text": "From the protein and lipid snapshots of human and rabbit lesions analyzed here, we hypothesize that the pathologic response to TB is shaped by the precise anatomical localization of these inflammatory pathways during the development of the granuloma.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          617,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1060
+      },
+      {
+        "cross_encoder_score": -1.129189372062683,
+        "dataset": "SciFact",
+        "end_char": 52,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "c150a70364eddc216aa0593cdf873d27",
+        "passage_rank": 2,
+        "query_id": "847",
+        "sentence_id": "f86da39228ba20555cb8bba82575dc27",
+        "sentence_text": "The challenge of new drug discovery for tuberculosis",
+        "sentence_token_cost": 8,
+        "source_order": [
+          838,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.769944190979004,
+        "dataset": "SciFact",
+        "end_char": 148,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "c150a70364eddc216aa0593cdf873d27",
+        "passage_rank": 2,
+        "query_id": "847",
+        "sentence_id": "bd74d7a859b701b47a74b793e7e3b42a",
+        "sentence_text": "Tuberculosis (TB) is more prevalent in the world today than at any other time in human history.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          838,
+          0,
+          1,
+          0
+        ],
+        "source_position": 53
+      },
+      {
+        "cross_encoder_score": -5.170224189758301,
+        "dataset": "SciFact",
+        "end_char": 307,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "c150a70364eddc216aa0593cdf873d27",
+        "passage_rank": 2,
+        "query_id": "847",
+        "sentence_id": "80429a3fd3ec04fe63255b49edb504d5",
+        "sentence_text": "Mycobacterium tuberculosis, the pathogen responsible for TB, uses diverse strategies to survive in a variety of host lesions and to evade immune surveillance.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          838,
+          0,
+          2,
+          0
+        ],
+        "source_position": 149
+      },
+      {
+        "cross_encoder_score": -4.871639728546143,
+        "dataset": "SciFact",
+        "end_char": 486,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "c150a70364eddc216aa0593cdf873d27",
+        "passage_rank": 2,
+        "query_id": "847",
+        "sentence_id": "4195db39f6af5491483829fabf99226b",
+        "sentence_text": "A key question is how robust are our approaches to discovering new TB drugs, and what measures could be taken to reduce the long and protracted clinical development of new drugs.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          838,
+          0,
+          3,
+          0
+        ],
+        "source_position": 308
+      },
+      {
+        "cross_encoder_score": -2.1698122024536133,
+        "dataset": "SciFact",
+        "end_char": 747,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "c150a70364eddc216aa0593cdf873d27",
+        "passage_rank": 2,
+        "query_id": "847",
+        "sentence_id": "3b0f9605a49d875aa139861a0da20322",
+        "sentence_text": "The emergence of multi-drug-resistant strains of M. tuberculosis makes the discovery of new molecular scaffolds a priority, and the current situation even necessitates the re-engineering and repositioning of some old drug families to achieve effective control.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          838,
+          0,
+          4,
+          0
+        ],
+        "source_position": 487
+      },
+      {
+        "cross_encoder_score": -10.525273323059082,
+        "dataset": "SciFact",
+        "end_char": 900,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "c150a70364eddc216aa0593cdf873d27",
+        "passage_rank": 2,
+        "query_id": "847",
+        "sentence_id": "c48caaad09b6cacbbfd6c2ae4aca4573",
+        "sentence_text": "Whatever the strategy used, success will depend largely on our proper understanding of the complex interactions between the pathogen and its human host.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          838,
+          0,
+          5,
+          0
+        ],
+        "source_position": 748
+      },
+      {
+        "cross_encoder_score": -5.176652908325195,
+        "dataset": "SciFact",
+        "end_char": 1032,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "c150a70364eddc216aa0593cdf873d27",
+        "passage_rank": 2,
+        "query_id": "847",
+        "sentence_id": "89976c283d943d6431602fac4141af08",
+        "sentence_text": "In this review, we discuss innovations in TB drug discovery and evolving strategies to bring newer agents more quickly to patients.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          838,
+          0,
+          6,
+          0
+        ],
+        "source_position": 901
+      },
+      {
+        "cross_encoder_score": -3.6749792098999023,
+        "dataset": "SciFact",
+        "end_char": 138,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "5ddb2d0fda60bbfefdc2870c054279b7",
+        "passage_rank": 7,
+        "query_id": "847",
+        "sentence_id": "a4ab5ec25bdc98a960e839a7d2543264",
+        "sentence_text": "Human Macrophages Infected with a High Burden of ESAT-6-Expressing M. tuberculosis Undergo Caspase-1- and Cathepsin B-Independent Necrosis",
+        "sentence_token_cost": 40,
+        "source_order": [
+          1965,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.15733528137207,
+        "dataset": "SciFact",
+        "end_char": 363,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "5ddb2d0fda60bbfefdc2870c054279b7",
+        "passage_rank": 7,
+        "query_id": "847",
+        "sentence_id": "2a5a17a6c5be26225f23fc72afb7db35",
+        "sentence_text": "Mycobacterium tuberculosis (Mtb) infects lung macrophages, which instead of killing the pathogen can be manipulated by the bacilli, creating an environment suitable for intracellular replication and spread to adjacent cells.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          1965,
+          0,
+          1,
+          0
+        ],
+        "source_position": 139
+      },
+      {
+        "cross_encoder_score": -9.643404006958008,
+        "dataset": "SciFact",
+        "end_char": 650,
+        "pair_tokens_before_truncation": 93,
+        "pair_truncated": false,
+        "passage_id": "5ddb2d0fda60bbfefdc2870c054279b7",
+        "passage_rank": 7,
+        "query_id": "847",
+        "sentence_id": "961562bf35bb91a6e7f65a4a0946cf71",
+        "sentence_text": "The role of host cell death during Mtb infection is debated because the bacilli have been shown to be both anti-apoptotic, keeping the host cell alive to avoid the antimicrobial effects of apoptosis, and pro-necrotic, killing the host macrophage to allow infection of neighboring cells.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          1965,
+          0,
+          2,
+          0
+        ],
+        "source_position": 364
+      },
+      {
+        "cross_encoder_score": -10.977985382080078,
+        "dataset": "SciFact",
+        "end_char": 854,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "5ddb2d0fda60bbfefdc2870c054279b7",
+        "passage_rank": 7,
+        "query_id": "847",
+        "sentence_id": "318c8e8da71e05eb0c98e0d4ef132dbb",
+        "sentence_text": "Since mycobacteria activate the NLRP3 inflammasome in macrophages, we investigated whether Mtb could induce one of the recently described inflammasome-linked cell death modes pyroptosis and pyronecrosis.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          1965,
+          0,
+          3,
+          0
+        ],
+        "source_position": 651
+      },
+      {
+        "cross_encoder_score": -9.240521430969238,
+        "dataset": "SciFact",
+        "end_char": 922,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "5ddb2d0fda60bbfefdc2870c054279b7",
+        "passage_rank": 7,
+        "query_id": "847",
+        "sentence_id": "adf28e09e81361e0eb5b013919c5c07f",
+        "sentence_text": "These are mediated through caspase-1 and cathepsin-B, respectively.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          1965,
+          0,
+          4,
+          0
+        ],
+        "source_position": 855
+      },
+      {
+        "cross_encoder_score": -10.448627471923828,
+        "dataset": "SciFact",
+        "end_char": 1046,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "5ddb2d0fda60bbfefdc2870c054279b7",
+        "passage_rank": 7,
+        "query_id": "847",
+        "sentence_id": "d9b7d71340bbc96f292d90dd379d50f7",
+        "sentence_text": "Human monocyte-derived macrophages were infected with virulent (H37Rv) Mtb at a multiplicity of infection (MOI) of 1 or 10.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          1965,
+          0,
+          5,
+          0
+        ],
+        "source_position": 923
+      },
+      {
+        "cross_encoder_score": -10.01992416381836,
+        "dataset": "SciFact",
+        "end_char": 1149,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "5ddb2d0fda60bbfefdc2870c054279b7",
+        "passage_rank": 7,
+        "query_id": "847",
+        "sentence_id": "8c5a9f02312e177b9d0b9e9386a56864",
+        "sentence_text": "The higher MOI resulted in strongly enhanced release of IL-1\u03b2, while a low MOI gave no IL-1\u03b2 response.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          1965,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1047
+      },
+      {
+        "cross_encoder_score": -11.07052230834961,
+        "dataset": "SciFact",
+        "end_char": 1295,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "5ddb2d0fda60bbfefdc2870c054279b7",
+        "passage_rank": 7,
+        "query_id": "847",
+        "sentence_id": "c502e57b1acbec4763c7289fedf63590",
+        "sentence_text": "The infected macrophages were collected and cell viability in terms of the integrity of DNA, mitochondria and the plasma membrane was determined.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          1965,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1150
+      },
+      {
+        "cross_encoder_score": -10.802176475524902,
+        "dataset": "SciFact",
+        "end_char": 1502,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "5ddb2d0fda60bbfefdc2870c054279b7",
+        "passage_rank": 7,
+        "query_id": "847",
+        "sentence_id": "6c2c0a1ce6394a8c67d9b0a4e55b4891",
+        "sentence_text": "We found that infection with H37Rv at MOI 10, but not MOI 1, over two days led to extensive DNA fragmentation, loss of mitochondrial membrane potential, loss of plasma membrane integrity, and HMGB1 release.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          1965,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1296
+      },
+      {
+        "cross_encoder_score": -10.483879089355469,
+        "dataset": "SciFact",
+        "end_char": 1738,
+        "pair_tokens_before_truncation": 86,
+        "pair_truncated": false,
+        "passage_id": "5ddb2d0fda60bbfefdc2870c054279b7",
+        "passage_rank": 7,
+        "query_id": "847",
+        "sentence_id": "abe1b37f99e0f9e6ef44ee029abd268a",
+        "sentence_text": "Although we observed plasma membrane permeabilization and IL-1\u03b2 release from infected cells, the cell death induced by Mtb was not dependent on caspase-1 or cathepsin B. It was, however, dependent on mycobacterial expression of ESAT-6.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          1965,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1503
+      },
+      {
+        "cross_encoder_score": -9.118194580078125,
+        "dataset": "SciFact",
+        "end_char": 1909,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "5ddb2d0fda60bbfefdc2870c054279b7",
+        "passage_rank": 7,
+        "query_id": "847",
+        "sentence_id": "0dcd3717dee2bb59e48fd5efe68a31ae",
+        "sentence_text": "We conclude that as virulent Mtb reaches a threshold number of bacilli inside the human macrophage, ESAT-6-dependent necrosis occurs, activating caspase-1 in the process.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          1965,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1739
+      },
+      {
+        "cross_encoder_score": -9.4259614944458,
+        "dataset": "SciFact",
+        "end_char": 120,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "8020f49fa4ea0244fb5759e5bc33d33c",
+        "passage_rank": 4,
+        "query_id": "847",
+        "sentence_id": "08e5ea6fb43860bb7865220eaf8fc036",
+        "sentence_text": "Tumor necrosis factor signaling mediates resistance to mycobacteria by inhibiting bacterial growth and macrophage death.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2586,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.772618770599365,
+        "dataset": "SciFact",
+        "end_char": 322,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "8020f49fa4ea0244fb5759e5bc33d33c",
+        "passage_rank": 4,
+        "query_id": "847",
+        "sentence_id": "37c970e717a31dc741842de867b52862",
+        "sentence_text": "Tumor necrosis factor (TNF), a key effector in controlling tuberculosis, is thought to exert protection by directing formation of granulomas, organized aggregates of macrophages and other immune cells.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          2586,
+          0,
+          1,
+          0
+        ],
+        "source_position": 121
+      },
+      {
+        "cross_encoder_score": -4.224430084228516,
+        "dataset": "SciFact",
+        "end_char": 601,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "8020f49fa4ea0244fb5759e5bc33d33c",
+        "passage_rank": 4,
+        "query_id": "847",
+        "sentence_id": "648b446269d7588e8797dcd25271664a",
+        "sentence_text": "Loss of TNF signaling causes progression of tuberculosis in humans, and the increased mortality of Mycobacterium tuberculosis-infected mice is associated with disorganized necrotic granulomas, although the precise roles of TNF signaling preceding this endpoint remain undefined.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          2586,
+          0,
+          2,
+          0
+        ],
+        "source_position": 323
+      },
+      {
+        "cross_encoder_score": -11.208168983459473,
+        "dataset": "SciFact",
+        "end_char": 766,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "8020f49fa4ea0244fb5759e5bc33d33c",
+        "passage_rank": 4,
+        "query_id": "847",
+        "sentence_id": "29558cf612f5cfc46f93a9a92d89e14b",
+        "sentence_text": "We monitored transparent Mycobacterium marinum-infected zebrafish live to conduct a stepwise dissection of how TNF signaling operates in mycobacterial pathogenesis.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          2586,
+          0,
+          3,
+          0
+        ],
+        "source_position": 602
+      },
+      {
+        "cross_encoder_score": -10.651904106140137,
+        "dataset": "SciFact",
+        "end_char": 873,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "8020f49fa4ea0244fb5759e5bc33d33c",
+        "passage_rank": 4,
+        "query_id": "847",
+        "sentence_id": "fbbad2121d996755a51aa62309c629ec",
+        "sentence_text": "We found that loss of TNF signaling caused increased mortality even when only innate immunity was operant.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          2586,
+          0,
+          4,
+          0
+        ],
+        "source_position": 767
+      },
+      {
+        "cross_encoder_score": -7.146392822265625,
+        "dataset": "SciFact",
+        "end_char": 1053,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "8020f49fa4ea0244fb5759e5bc33d33c",
+        "passage_rank": 4,
+        "query_id": "847",
+        "sentence_id": "173d6b5aa353eaf3dd67d3b38169ef07",
+        "sentence_text": "In the absence of TNF, intracellular bacterial growth and granuloma formation were accelerated and was followed by necrotic death of overladen macrophages and granuloma breakdown.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          2586,
+          0,
+          5,
+          0
+        ],
+        "source_position": 874
+      },
+      {
+        "cross_encoder_score": -9.893453598022461,
+        "dataset": "SciFact",
+        "end_char": 1247,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "8020f49fa4ea0244fb5759e5bc33d33c",
+        "passage_rank": 4,
+        "query_id": "847",
+        "sentence_id": "8a0a03e4093431478f33693bcc5bc38a",
+        "sentence_text": "Thus, TNF is not required for tuberculous granuloma formation, but maintains granuloma integrity indirectly by restricting mycobacterial growth within macrophages and preventing their necrosis.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          2586,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1054
+      },
+      {
+        "cross_encoder_score": -3.0324535369873047,
+        "dataset": "SciFact",
+        "end_char": 92,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "60f6d9855bbae4778b12887abf6b8018",
+        "passage_rank": 1,
+        "query_id": "847",
+        "sentence_id": "494d527b2353a1db727dc04c85b22a6b",
+        "sentence_text": "The association between sterilizing activity and drug distribution into tuberculosis lesions",
+        "sentence_token_cost": 12,
+        "source_order": [
+          2666,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.388749361038208,
+        "dataset": "SciFact",
+        "end_char": 272,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "60f6d9855bbae4778b12887abf6b8018",
+        "passage_rank": 1,
+        "query_id": "847",
+        "sentence_id": "8e5f6a1bbac2c2530fc84c4b9bcf0740",
+        "sentence_text": "Finding new treatment-shortening antibiotics to improve cure rates and curb the alarming emergence of drug resistance is the major objective of tuberculosis (TB) drug development.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          2666,
+          0,
+          1,
+          0
+        ],
+        "source_position": 93
+      },
+      {
+        "cross_encoder_score": 1.405340552330017,
+        "dataset": "SciFact",
+        "end_char": 533,
+        "pair_tokens_before_truncation": 88,
+        "pair_truncated": false,
+        "passage_id": "60f6d9855bbae4778b12887abf6b8018",
+        "passage_rank": 1,
+        "query_id": "847",
+        "sentence_id": "4ea6a65c9158745ae8c6dfde15cd9e95",
+        "sentence_text": "Using a matrix-assisted laser desorption/ionization (MALDI) mass spectrometry imaging suite in a biosafety containment facility, we show that the key sterilizing drugs rifampicin and pyrazinamide efficiently penetrate the sites of TB infection in lung lesions.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          2666,
+          0,
+          2,
+          0
+        ],
+        "source_position": 273
+      },
+      {
+        "cross_encoder_score": -5.308422565460205,
+        "dataset": "SciFact",
+        "end_char": 646,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "60f6d9855bbae4778b12887abf6b8018",
+        "passage_rank": 1,
+        "query_id": "847",
+        "sentence_id": "577f87f1bfa6e6919874c6007da304fb",
+        "sentence_text": "Rifampicin even accumulates in necrotic caseum, a critical lesion site where persisting tubercle bacilli reside.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          2666,
+          0,
+          3,
+          0
+        ],
+        "source_position": 534
+      },
+      {
+        "cross_encoder_score": -2.2125751972198486,
+        "dataset": "SciFact",
+        "end_char": 959,
+        "pair_tokens_before_truncation": 93,
+        "pair_truncated": false,
+        "passage_id": "60f6d9855bbae4778b12887abf6b8018",
+        "passage_rank": 1,
+        "query_id": "847",
+        "sentence_id": "71d8be392a703a4cbb20bea150bf37b8",
+        "sentence_text": "In contrast, moxifloxacin, which is active in vitro against a subpopulation of Mycobacterium tuberculosis that persists in specific niches under drug pressure and has achieved treatment shortening in mice, does not diffuse well in caseum, concordant with its failure to shorten therapy in recent clinical trials.",
+        "sentence_token_cost": 64,
+        "source_order": [
+          2666,
+          0,
+          4,
+          0
+        ],
+        "source_position": 647
+      },
+      {
+        "cross_encoder_score": -8.540820121765137,
+        "dataset": "SciFact",
+        "end_char": 1189,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "60f6d9855bbae4778b12887abf6b8018",
+        "passage_rank": 1,
+        "query_id": "847",
+        "sentence_id": "32b848578d0b18c4278c71a05bb73ba0",
+        "sentence_text": "We suggest that such differential spatial distribution and kinetics of accumulation in lesions may create temporal and spatial windows of monotherapy in specific niches, allowing the gradual development of multidrug-resistant TB.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          2666,
+          0,
+          5,
+          0
+        ],
+        "source_position": 960
+      },
+      {
+        "cross_encoder_score": -1.6860997676849365,
+        "dataset": "SciFact",
+        "end_char": 1374,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "60f6d9855bbae4778b12887abf6b8018",
+        "passage_rank": 1,
+        "query_id": "847",
+        "sentence_id": "f9d02b2b3b0bdfce432ca732cf1124cb",
+        "sentence_text": "We propose an alternative working model to prioritize new antibiotic regimens based on quantitative and spatial distribution of TB drugs in the major lesion types found in human lungs.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          2666,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1190
+      },
+      {
+        "cross_encoder_score": -4.073211669921875,
+        "dataset": "SciFact",
+        "end_char": 1476,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "60f6d9855bbae4778b12887abf6b8018",
+        "passage_rank": 1,
+        "query_id": "847",
+        "sentence_id": "6313a9b4cc90dd34f0a541b9e10582b3",
+        "sentence_text": "The finding that lesion penetration may contribute to treatment outcome has wide implications for TB.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          2666,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1375
+      },
+      {
+        "cross_encoder_score": -10.4251708984375,
+        "dataset": "SciFact",
+        "end_char": 76,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "adf80c8ea7afb336338a8352a7005c61",
+        "passage_rank": 9,
+        "query_id": "847",
+        "sentence_id": "f047464f3e1fc60cba349b8b56e3223f",
+        "sentence_text": "Genes required for mycobacterial growth defined by high density mutagenesis.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          3181,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.417575836181641,
+        "dataset": "SciFact",
+        "end_char": 180,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "adf80c8ea7afb336338a8352a7005c61",
+        "passage_rank": 9,
+        "query_id": "847",
+        "sentence_id": "ecbdaecc5445bf9b16087eebe8530e0f",
+        "sentence_text": "Despite over a century of research, tuberculosis remains a leading cause of infectious death worldwide.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          3181,
+          0,
+          1,
+          0
+        ],
+        "source_position": 77
+      },
+      {
+        "cross_encoder_score": -8.912631034851074,
+        "dataset": "SciFact",
+        "end_char": 377,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "adf80c8ea7afb336338a8352a7005c61",
+        "passage_rank": 9,
+        "query_id": "847",
+        "sentence_id": "bfd8a03a9640c090b0b3d34c3a24e4b3",
+        "sentence_text": "Faced with increasing rates of drug resistance, the identification of genes that are required for the growth of this organism should provide new targets for the design of antimycobacterial agents.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          3181,
+          0,
+          2,
+          0
+        ],
+        "source_position": 181
+      },
+      {
+        "cross_encoder_score": -7.919551849365234,
+        "dataset": "SciFact",
+        "end_char": 563,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "adf80c8ea7afb336338a8352a7005c61",
+        "passage_rank": 9,
+        "query_id": "847",
+        "sentence_id": "77c6ee460861ef27acc56a193191a3e2",
+        "sentence_text": "Here, we describe the use of transposon site hybridization (TraSH) to comprehensively identify the genes required by the causative agent, Mycobacterium tuberculosis, for optimal growth.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          3181,
+          0,
+          3,
+          0
+        ],
+        "source_position": 378
+      },
+      {
+        "cross_encoder_score": -11.133971214294434,
+        "dataset": "SciFact",
+        "end_char": 669,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "adf80c8ea7afb336338a8352a7005c61",
+        "passage_rank": 9,
+        "query_id": "847",
+        "sentence_id": "a4d33055fb7df955e7c290939cebf614",
+        "sentence_text": "These genes include those that can be assigned to essential pathways as well as many of unknown function.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3181,
+          0,
+          4,
+          0
+        ],
+        "source_position": 564
+      },
+      {
+        "cross_encoder_score": -8.115387916564941,
+        "dataset": "SciFact",
+        "end_char": 939,
+        "pair_tokens_before_truncation": 86,
+        "pair_truncated": false,
+        "passage_id": "adf80c8ea7afb336338a8352a7005c61",
+        "passage_rank": 9,
+        "query_id": "847",
+        "sentence_id": "b5e79917f9f16886f70ecd61707fd132",
+        "sentence_text": "The genes important for the growth of M. tuberculosis are largely conserved in the degenerate genome of the leprosy bacillus, Mycobacterium leprae, indicating that non-essential functions have been selectively lost since this bacterium diverged from other mycobacteria.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          3181,
+          0,
+          5,
+          0
+        ],
+        "source_position": 670
+      },
+      {
+        "cross_encoder_score": -11.18457317352295,
+        "dataset": "SciFact",
+        "end_char": 1178,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "adf80c8ea7afb336338a8352a7005c61",
+        "passage_rank": 9,
+        "query_id": "847",
+        "sentence_id": "163ffc4402d9a55143397b5085d6a51b",
+        "sentence_text": "In contrast, a surprisingly high proportion of these genes lack identifiable orthologues in other bacteria, suggesting that the minimal gene set required for survival varies greatly between organisms with different evolutionary histories.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          3181,
+          0,
+          6,
+          0
+        ],
+        "source_position": 940
+      },
+      {
+        "cross_encoder_score": -7.154665470123291,
+        "dataset": "SciFact",
+        "end_char": 134,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "d663938c5966917c7eaecfe8956cc9d1",
+        "passage_rank": 3,
+        "query_id": "847",
+        "sentence_id": "bb71dd412e996684c10b685eb64901a8",
+        "sentence_text": "Stress and host immunity amplify Mycobacterium tuberculosis phenotypic heterogeneity and induce nongrowing metabolically active forms.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          3376,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.9658203125,
+        "dataset": "SciFact",
+        "end_char": 286,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "d663938c5966917c7eaecfe8956cc9d1",
+        "passage_rank": 3,
+        "query_id": "847",
+        "sentence_id": "0343893a2f7fee8b1d59bc41ea4eb31a",
+        "sentence_text": "Nonreplicating and metabolically quiescent bacteria are implicated in latent tuberculosis infections and relapses following \"sterilizing\" chemotherapy.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          3376,
+          0,
+          1,
+          0
+        ],
+        "source_position": 135
+      },
+      {
+        "cross_encoder_score": -10.166587829589844,
+        "dataset": "SciFact",
+        "end_char": 380,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d663938c5966917c7eaecfe8956cc9d1",
+        "passage_rank": 3,
+        "query_id": "847",
+        "sentence_id": "b8acc5d40d476ee4b7aa5f038d4a3bdc",
+        "sentence_text": "However, evidence linking bacterial dormancy and persistence in vivo is largely inconclusive.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          3376,
+          0,
+          2,
+          0
+        ],
+        "source_position": 287
+      },
+      {
+        "cross_encoder_score": -8.891021728515625,
+        "dataset": "SciFact",
+        "end_char": 576,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "d663938c5966917c7eaecfe8956cc9d1",
+        "passage_rank": 3,
+        "query_id": "847",
+        "sentence_id": "730a907cbde5801151f8122a5d5c7ea6",
+        "sentence_text": "Here we measure the single-cell dynamics of Mycobacterium tuberculosis replication and ribosomal activity using quantitative time-lapse microscopy and a reporter of ribosomal RNA gene expression.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          3376,
+          0,
+          3,
+          0
+        ],
+        "source_position": 381
+      },
+      {
+        "cross_encoder_score": -11.198741912841797,
+        "dataset": "SciFact",
+        "end_char": 797,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "d663938c5966917c7eaecfe8956cc9d1",
+        "passage_rank": 3,
+        "query_id": "847",
+        "sentence_id": "994d079c9786b89817ca089aadb75c3e",
+        "sentence_text": "Single-cell dynamics exhibit heterogeneity under standard growth conditions, which is amplified by stressful conditions such as nutrient limitation, stationary phase, intracellular replication, and growth in mouse lungs.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3376,
+          0,
+          4,
+          0
+        ],
+        "source_position": 577
+      },
+      {
+        "cross_encoder_score": -10.92225456237793,
+        "dataset": "SciFact",
+        "end_char": 1021,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "d663938c5966917c7eaecfe8956cc9d1",
+        "passage_rank": 3,
+        "query_id": "847",
+        "sentence_id": "1d8946b41c9d53f57b9ecb25576cf26a",
+        "sentence_text": "Additionally, the lungs of chronically infected mice harbor a subpopulation of nongrowing but metabolically active bacteria, which are absent in mice lacking interferon-\u03b3, a cytokine essential for antituberculosis immunity.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          3376,
+          0,
+          5,
+          0
+        ],
+        "source_position": 798
+      },
+      {
+        "cross_encoder_score": -8.319961547851562,
+        "dataset": "SciFact",
+        "end_char": 1175,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "d663938c5966917c7eaecfe8956cc9d1",
+        "passage_rank": 3,
+        "query_id": "847",
+        "sentence_id": "5b48420061bc6954d2696655c6fc7780",
+        "sentence_text": "These cryptic bacterial forms are prominent in mice treated with the antituberculosis drug isoniazid, suggesting a role in postchemotherapeutic relapses.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          3376,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1022
+      },
+      {
+        "cross_encoder_score": -4.806304931640625,
+        "dataset": "SciFact",
+        "end_char": 1324,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "d663938c5966917c7eaecfe8956cc9d1",
+        "passage_rank": 3,
+        "query_id": "847",
+        "sentence_id": "0e9b5cd07b455762ec93dcc0c009d72a",
+        "sentence_text": "Thus, amplification of bacterial phenotypic heterogeneity in response to host immunity and drug pressure may contribute to tuberculosis persistence.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3376,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1176
+      },
+      {
+        "cross_encoder_score": -4.680078029632568,
+        "dataset": "SciFact",
+        "end_char": 134,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "4c97d1b1ef8e0f3566e5c3e9ce0278ae",
+        "passage_rank": 10,
+        "query_id": "847",
+        "sentence_id": "87c816c25a0df7cd578e6366ffab906c",
+        "sentence_text": "Advances in techniques of testing mycobacterial drug sensitivity, and the use of sensitivity tests in tuberculosis control programmes.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          4258,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 0.6558135747909546,
+        "dataset": "SciFact",
+        "end_char": 556,
+        "pair_tokens_before_truncation": 117,
+        "pair_truncated": false,
+        "passage_id": "4c97d1b1ef8e0f3566e5c3e9ce0278ae",
+        "passage_rank": 10,
+        "query_id": "847",
+        "sentence_id": "e309718ecf71b696c8d2778c580569f3",
+        "sentence_text": "In a paper arising out of an informal international consultation of specialists in the bacteriology of tuberculosis held in 1961, an attempt was made to formulate criteria, and specify technical procedures, for reliable tests of sensitivity (the absolute-concentration method, the resistance-ratio method and the proportion method) to the 3 main antituberculosis drugs (isoniazid, streptomycin and p-aminosalicylic acid).",
+        "sentence_token_cost": 88,
+        "source_order": [
+          4258,
+          0,
+          1,
+          0
+        ],
+        "source_position": 135
+      },
+      {
+        "cross_encoder_score": -7.191595554351807,
+        "dataset": "SciFact",
+        "end_char": 757,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "4c97d1b1ef8e0f3566e5c3e9ce0278ae",
+        "passage_rank": 10,
+        "query_id": "847",
+        "sentence_id": "2ee75ce7a80647d816f50b36cc112d4e",
+        "sentence_text": "Seven years later, a further consultation was held to review the latest developments in the field and to suggest how sensitivity tests might be put to practical use in tuberculosis control programmes.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          4258,
+          0,
+          2,
+          0
+        ],
+        "source_position": 557
+      },
+      {
+        "cross_encoder_score": -11.056713104248047,
+        "dataset": "SciFact",
+        "end_char": 946,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "4c97d1b1ef8e0f3566e5c3e9ce0278ae",
+        "passage_rank": 10,
+        "query_id": "847",
+        "sentence_id": "2672d127e2d995666db1183f39790893",
+        "sentence_text": "The participants reached agreement on how to define drug sensitivity and resistance, and stressed the importance of using a discrimination approach to the calibration of sensitivity tests.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          4258,
+          0,
+          3,
+          0
+        ],
+        "source_position": 758
+      },
+      {
+        "cross_encoder_score": -10.063674926757812,
+        "dataset": "SciFact",
+        "end_char": 1341,
+        "pair_tokens_before_truncation": 98,
+        "pair_truncated": false,
+        "passage_id": "4c97d1b1ef8e0f3566e5c3e9ce0278ae",
+        "passage_rank": 10,
+        "query_id": "847",
+        "sentence_id": "0e5b554c8787c9724572060f4f3dab10",
+        "sentence_text": "Their views are contained in the present paper, which also includes descriptions of the sensitivity tests used by the Medical Research Council of Great Britain for first- and second-line drugs (minimal inhibitory concentration and resistance-ratio methods), the two main variants of the proportion method developed by the Institut Pasteur, Paris, and a method for calibrating sensitivity tests.",
+        "sentence_token_cost": 71,
+        "source_order": [
+          4258,
+          0,
+          4,
+          0
+        ],
+        "source_position": 947
+      },
+      {
+        "cross_encoder_score": -7.8223981857299805,
+        "dataset": "SciFact",
+        "end_char": 93,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "8f2564a9b925d050a99ef2684537dc82",
+        "passage_rank": 5,
+        "query_id": "847",
+        "sentence_id": "e5d4b3f57a62988d20fe2e8b28363a4b",
+        "sentence_text": "Pathology of postprimary tuberculosis in humans and mice: contradiction of long-held beliefs.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          4355,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.35723352432251,
+        "dataset": "SciFact",
+        "end_char": 169,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "8f2564a9b925d050a99ef2684537dc82",
+        "passage_rank": 5,
+        "query_id": "847",
+        "sentence_id": "245ea878dd417ed0575ebe33866c5c0b",
+        "sentence_text": "Tuberculosis remains one of the world's leading infectious causes of death.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          4355,
+          0,
+          1,
+          0
+        ],
+        "source_position": 94
+      },
+      {
+        "cross_encoder_score": -6.566208839416504,
+        "dataset": "SciFact",
+        "end_char": 262,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "8f2564a9b925d050a99ef2684537dc82",
+        "passage_rank": 5,
+        "query_id": "847",
+        "sentence_id": "552162865c7a1c920e9ee18824b9a8aa",
+        "sentence_text": "Approximately 80% of all disease is due to postprimary (secondary) tuberculosis in the lung.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          4355,
+          0,
+          2,
+          0
+        ],
+        "source_position": 170
+      },
+      {
+        "cross_encoder_score": -4.987480640411377,
+        "dataset": "SciFact",
+        "end_char": 392,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "8f2564a9b925d050a99ef2684537dc82",
+        "passage_rank": 5,
+        "query_id": "847",
+        "sentence_id": "8ae053d5ea3e168f5a23d7578bff4af0",
+        "sentence_text": "Unfortunately, tissues of developing lesions are seldom available and there are no recognized models of postprimary tuberculosis.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          4355,
+          0,
+          3,
+          0
+        ],
+        "source_position": 263
+      },
+      {
+        "cross_encoder_score": -7.338516712188721,
+        "dataset": "SciFact",
+        "end_char": 606,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "8f2564a9b925d050a99ef2684537dc82",
+        "passage_rank": 5,
+        "query_id": "847",
+        "sentence_id": "b0409d4c722802ec4941d67a59ff595b",
+        "sentence_text": "In the preantibiotic era when tissues were more abundant, several investigators described early postprimary tuberculosis as a lipid pneumonia quite different from the caseating granulomas commonly described today.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          4355,
+          0,
+          4,
+          0
+        ],
+        "source_position": 393
+      },
+      {
+        "cross_encoder_score": -6.155420780181885,
+        "dataset": "SciFact",
+        "end_char": 840,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "8f2564a9b925d050a99ef2684537dc82",
+        "passage_rank": 5,
+        "query_id": "847",
+        "sentence_id": "7f767e8c36cdd3d53881e0c51c31cd74",
+        "sentence_text": "We used histopathologic, immunohistochemical and acid fast stains to examine tissues from several people with untreated primary and postprimary tuberculosis and compared the findings with those of mice with reactivation tuberculosis.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          4355,
+          0,
+          5,
+          0
+        ],
+        "source_position": 607
+      },
+      {
+        "cross_encoder_score": -7.093207836151123,
+        "dataset": "SciFact",
+        "end_char": 1032,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "8f2564a9b925d050a99ef2684537dc82",
+        "passage_rank": 5,
+        "query_id": "847",
+        "sentence_id": "7ff00ee70b2f67f343e6d7735a4479db",
+        "sentence_text": "The results confirmed that developing postprimary tuberculosis begins as a lipid pneumonia accompanied by bronchial obstruction in which infection is restricted to foamy alveolar macrophages.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          4355,
+          0,
+          6,
+          0
+        ],
+        "source_position": 841
+      },
+      {
+        "cross_encoder_score": -10.318178176879883,
+        "dataset": "SciFact",
+        "end_char": 1188,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "8f2564a9b925d050a99ef2684537dc82",
+        "passage_rank": 5,
+        "query_id": "847",
+        "sentence_id": "eb241fc54abee1103f88e94c7f7e3f16",
+        "sentence_text": "Cavities result from a combination of caseation of tuberculous pneumonia and microvascular occlusion characteristic of delayed type hypersensitivity (DTH).",
+        "sentence_token_cost": 30,
+        "source_order": [
+          4355,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1033
+      },
+      {
+        "cross_encoder_score": -6.9916605949401855,
+        "dataset": "SciFact",
+        "end_char": 1341,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "8f2564a9b925d050a99ef2684537dc82",
+        "passage_rank": 5,
+        "query_id": "847",
+        "sentence_id": "059a92534330ac60337d64df3ddc41cf",
+        "sentence_text": "Reactivation tuberculosis in the mouse begins as a similar tuberculous lipid pneumonia with bronchial obstruction and evidence for participation of DTH.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          4355,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1189
+      },
+      {
+        "cross_encoder_score": -9.874951362609863,
+        "dataset": "SciFact",
+        "end_char": 1445,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "8f2564a9b925d050a99ef2684537dc82",
+        "passage_rank": 5,
+        "query_id": "847",
+        "sentence_id": "a6da0cabada3573d28fa69abf4127b92",
+        "sentence_text": "Developing necrosis in both species is associated with localization of organisms within lipid droplets.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          4355,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1342
+      },
+      {
+        "cross_encoder_score": -7.2352752685546875,
+        "dataset": "SciFact",
+        "end_char": 1572,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "8f2564a9b925d050a99ef2684537dc82",
+        "passage_rank": 5,
+        "query_id": "847",
+        "sentence_id": "0eaac38856197febcedba2b6e21fbc52",
+        "sentence_text": "These results suggest that reactivation tuberculosis in mice is a valuable model of developing human postprimary tuberculosis.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          4355,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1446
+      },
+      {
+        "cross_encoder_score": -7.161353588104248,
+        "dataset": "SciFact",
+        "end_char": 115,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "e2ab4728673a9d0fccb28a03ca73c69f",
+        "passage_rank": 8,
+        "query_id": "847",
+        "sentence_id": "39c764acd218daf7bcefe6b5a0559582",
+        "sentence_text": "Mycobacterium tuberculosis phagosome maturation arrest: selective targeting of PI3P-dependent membrane trafficking.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          4432,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.881721496582031,
+        "dataset": "SciFact",
+        "end_char": 364,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "e2ab4728673a9d0fccb28a03ca73c69f",
+        "passage_rank": 8,
+        "query_id": "847",
+        "sentence_id": "821164b2e028f870b951031c1430bf50",
+        "sentence_text": "The ability of Mycobacterium tuberculosis to enter host macrophages, and reside in a phagosome, which does not mature into a phagolysosome, is central to the spread of tuberculosis and the associated pandemic involving billions of people worldwide.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          4432,
+          0,
+          1,
+          0
+        ],
+        "source_position": 116
+      },
+      {
+        "cross_encoder_score": -6.6206512451171875,
+        "dataset": "SciFact",
+        "end_char": 486,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "e2ab4728673a9d0fccb28a03ca73c69f",
+        "passage_rank": 8,
+        "query_id": "847",
+        "sentence_id": "dccc69f162ab9f05fd2982f31afecce4",
+        "sentence_text": "Tuberculosis can be viewed as a disease with a significant intracellular trafficking and organellar biogenesis component.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          4432,
+          0,
+          2,
+          0
+        ],
+        "source_position": 365
+      },
+      {
+        "cross_encoder_score": -8.191404342651367,
+        "dataset": "SciFact",
+        "end_char": 630,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "e2ab4728673a9d0fccb28a03ca73c69f",
+        "passage_rank": 8,
+        "query_id": "847",
+        "sentence_id": "26d852a2b7401357ba768a6ada9e3c0c",
+        "sentence_text": "Current understanding of the block in M. tuberculosis phagosome maturation also sheds light on fundamental aspects of phagolysosome biogenesis.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          4432,
+          0,
+          3,
+          0
+        ],
+        "source_position": 487
+      },
+      {
+        "cross_encoder_score": -10.762539863586426,
+        "dataset": "SciFact",
+        "end_char": 868,
+        "pair_tokens_before_truncation": 91,
+        "pair_truncated": false,
+        "passage_id": "e2ab4728673a9d0fccb28a03ca73c69f",
+        "passage_rank": 8,
+        "query_id": "847",
+        "sentence_id": "6746b6157c06b7acf39466226827d236",
+        "sentence_text": "The maturation block involves interference with the recruitment and function of rabs, rab effectors (phosphatidylinositol 3-kinases and tethering molecules such as EEA1), SNAREs (Syntaxin 6 and cellubrevin) and Ca2+/calmodulin signaling.",
+        "sentence_token_cost": 64,
+        "source_order": [
+          4432,
+          0,
+          4,
+          0
+        ],
+        "source_position": 631
+      },
+      {
+        "cross_encoder_score": -5.921881198883057,
+        "dataset": "SciFact",
+        "end_char": 982,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "e2ab4728673a9d0fccb28a03ca73c69f",
+        "passage_rank": 8,
+        "query_id": "847",
+        "sentence_id": "2b930226788197fadd68f6300c3fda50",
+        "sentence_text": "M. tuberculosis analogs of mammalian phosphatidylinositols interfere with these systems and associated processes.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          4432,
+          0,
+          5,
+          0
+        ],
+        "source_position": 869
+      }
+    ],
+    "scoring_seconds": 0.45934964600019157,
+    "source_fingerprint": "d33082f5470935941fcc3eb9a343b177ae6409a0efd15853b301d2c57de1e299"
+  }
+}

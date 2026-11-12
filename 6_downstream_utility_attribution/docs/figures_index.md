@@ -1,0 +1,25 @@
+# Figures index
+
+Exact stored artifacts; no new results were generated.
+
+- [hotpotqa_comprehensiveness.png](../figures/figures/hotpotqa_comprehensiveness.png)
+- [hotpotqa_gold_utilization.png](../figures/figures/hotpotqa_gold_utilization.png)
+- [hotpotqa_importance_distribution.png](../figures/figures/hotpotqa_importance_distribution.png)
+- [hotpotqa_relevance_utility.png](../figures/figures/hotpotqa_relevance_utility.png)
+- [hotpotqa_sufficiency.png](../figures/figures/hotpotqa_sufficiency.png)
+- [hotpotqa_unit_categories.png](../figures/figures/hotpotqa_unit_categories.png)
+- [hotpotqa_win_loss_profile.png](../figures/figures/hotpotqa_win_loss_profile.png)
+- [qasper_comprehensiveness.png](../figures/figures/qasper_comprehensiveness.png)
+- [qasper_gold_utilization.png](../figures/figures/qasper_gold_utilization.png)
+- [qasper_importance_distribution.png](../figures/figures/qasper_importance_distribution.png)
+- [qasper_relevance_utility.png](../figures/figures/qasper_relevance_utility.png)
+- [qasper_sufficiency.png](../figures/figures/qasper_sufficiency.png)
+- [qasper_unit_categories.png](../figures/figures/qasper_unit_categories.png)
+- [qasper_win_loss_profile.png](../figures/figures/qasper_win_loss_profile.png)
+- [scifact_comprehensiveness.png](../figures/figures/scifact_comprehensiveness.png)
+- [scifact_gold_utilization.png](../figures/figures/scifact_gold_utilization.png)
+- [scifact_importance_distribution.png](../figures/figures/scifact_importance_distribution.png)
+- [scifact_relevance_utility.png](../figures/figures/scifact_relevance_utility.png)
+- [scifact_sufficiency.png](../figures/figures/scifact_sufficiency.png)
+- [scifact_unit_categories.png](../figures/figures/scifact_unit_categories.png)
+- [scifact_win_loss_profile.png](../figures/figures/scifact_win_loss_profile.png)

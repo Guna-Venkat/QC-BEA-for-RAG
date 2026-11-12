@@ -1,0 +1,1951 @@
+{
+  "checksum": "b756ae9febfe28a6ae15f4a406919b2eb65cded519739c8cf8253212e3cbea95",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "ddb23a71113cbc092cbc158066d891cae261e2c6"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 96,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "5977c108f481187962494900cabcbd223f711142fb591275b0955ddcc2575273",
+    "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+    "scores": [
+      {
+        "cross_encoder_score": -6.730630397796631,
+        "dataset": "QASPER",
+        "end_char": 283,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "d271abe367c743e191d4489cb955a198",
+        "passage_rank": 6,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "8030dfd12157dc77ae536970da9c76bd",
+        "sentence_text": "Shallow reading with Deep Learning: Predicting popularity of online content using only its title\tWith the ever decreasing attention span of contemporary Internet users, the title of online content (such as a news article or video) can be a major factor in determining its popularity.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.227344512939453,
+        "dataset": "QASPER",
+        "end_char": 490,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "d271abe367c743e191d4489cb955a198",
+        "passage_rank": 6,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "f854e29d8b093e0a3fd258fea467ee84",
+        "sentence_text": "To take advantage of this phenomenon, we propose a new method based on a bidirectional Long Short-Term Memory (LSTM) neural network designed to predict the popularity of online content using only its title.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 284
+      },
+      {
+        "cross_encoder_score": -2.3236048221588135,
+        "dataset": "QASPER",
+        "end_char": 657,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "d271abe367c743e191d4489cb955a198",
+        "passage_rank": 6,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "b8d15de22ea6f3908bffbc9176440f8d",
+        "sentence_text": "We evaluate the proposed architecture on two distinct datasets of news articles and news videos distributed in social media that contain over 40,000 samples in total.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 491
+      },
+      {
+        "cross_encoder_score": -11.351222038269043,
+        "dataset": "QASPER",
+        "end_char": 770,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "d271abe367c743e191d4489cb955a198",
+        "passage_rank": 6,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "b55c5d543d28e04b29ed631d295b930e",
+        "sentence_text": "On those datasets, our approach improves the performance over traditional shallow approaches by a margin of 15%.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 658
+      },
+      {
+        "cross_encoder_score": -11.315462112426758,
+        "dataset": "QASPER",
+        "end_char": 931,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "d271abe367c743e191d4489cb955a198",
+        "passage_rank": 6,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "12b5c8eeb9a7b8ee3769596d6e229431",
+        "sentence_text": "Additionally, we show that using pre-trained word vectors in the embedding layer improves the results of LSTM models, especially when the training set is small.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 771
+      },
+      {
+        "cross_encoder_score": -11.260641098022461,
+        "dataset": "QASPER",
+        "end_char": 1056,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "d271abe367c743e191d4489cb955a198",
+        "passage_rank": 6,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "6990784d43025000623cff0050f96ca7",
+        "sentence_text": "To our knowledge, this is the first attempt of applying popularity prediction using only textual information from the title.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 932
+      },
+      {
+        "cross_encoder_score": -10.934257507324219,
+        "dataset": "QASPER",
+        "end_char": 1191,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "d271abe367c743e191d4489cb955a198",
+        "passage_rank": 6,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "ac43e3b0406b1e81de7f7fe102a0bbd4",
+        "sentence_text": "Introduction\tThe distribution of textual content is typically very fast and catches user attention for only a short period of time  .",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1058
+      },
+      {
+        "cross_encoder_score": -9.45915699005127,
+        "dataset": "QASPER",
+        "end_char": 1325,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "d271abe367c743e191d4489cb955a198",
+        "passage_rank": 6,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "0120b01fa70b144da93301b84035cd57",
+        "sentence_text": "For this reason, proper wording of the article title may play a significant role in determining the future popularity of the article.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1192
+      },
+      {
+        "cross_encoder_score": -10.938411712646484,
+        "dataset": "QASPER",
+        "end_char": 1383,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "d271abe367c743e191d4489cb955a198",
+        "passage_rank": 6,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "fb1e6ebc18cce6c30f8be810696663ca",
+        "sentence_text": "The reflection of this phenomenon is the proliferation of",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1326
+      },
+      {
+        "cross_encoder_score": -11.315399169921875,
+        "dataset": "QASPER",
+        "end_char": 1509,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "c8f06a14aa0d3b8893cac14656c3dece",
+        "passage_rank": 7,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "b20e52df7891ae97d558aab8412507fd",
+        "sentence_text": "click-baits - short snippets of text whose main purpose is to encourage viewers to click on the link embedded in the snippet.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1384
+      },
+      {
+        "cross_encoder_score": -11.117925643920898,
+        "dataset": "QASPER",
+        "end_char": 1693,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "c8f06a14aa0d3b8893cac14656c3dece",
+        "passage_rank": 7,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "e65d2fafcb308f3bf067c65646727a79",
+        "sentence_text": "Although detection of click-baits is a separate research topic  , in this paper we address a more general problem of predicting popularity of online content based solely on its title.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1510
+      },
+      {
+        "cross_encoder_score": -10.623581886291504,
+        "dataset": "QASPER",
+        "end_char": 2045,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "c8f06a14aa0d3b8893cac14656c3dece",
+        "passage_rank": 7,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "e95ae63954df89d0d33031f8140e7a0c",
+        "sentence_text": "Predicting popularity in the Internet is a challenging and non-trivial task due to a multitude of factors impacting the distribution of the information: external context, social network of the publishing party, relevance of the video to the final user, etc. This topic has therefore attracted a lot of attention from the research community  ,  ,  ,  .",
+        "sentence_token_cost": 69,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1694
+      },
+      {
+        "cross_encoder_score": -11.264972686767578,
+        "dataset": "QASPER",
+        "end_char": 2185,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "c8f06a14aa0d3b8893cac14656c3dece",
+        "passage_rank": 7,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "d44ba187a2ff32a41fbef52c8eee8b89",
+        "sentence_text": "In this paper we propose a method for online content popularity prediction based on a bidirectional recurrent neural network called BiLSTM.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 2046
+      },
+      {
+        "cross_encoder_score": -11.345088005065918,
+        "dataset": "QASPER",
+        "end_char": 2316,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "c8f06a14aa0d3b8893cac14656c3dece",
+        "passage_rank": 7,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "3b8719ab033fa67ab4448bed46b10f46",
+        "sentence_text": "This work is inspired by recent successful applications of deep neural networks in many natural language processing problems  ,  .",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 2186
+      },
+      {
+        "cross_encoder_score": -10.114226341247559,
+        "dataset": "QASPER",
+        "end_char": 2538,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "c8f06a14aa0d3b8893cac14656c3dece",
+        "passage_rank": 7,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "f2843b11e9f9169720687b80d20434f3",
+        "sentence_text": "Our method attempts to model complex relationships between the title of an article and its popularity using novel deep network architecture that, in contrast to the previous approaches, gives highly interpretable results.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 2317
+      },
+      {
+        "cross_encoder_score": -11.301944732666016,
+        "dataset": "QASPER",
+        "end_char": 2778,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "c8f06a14aa0d3b8893cac14656c3dece",
+        "passage_rank": 7,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "57dc602d2842aaed286f9d2d169f2d45",
+        "sentence_text": "Last but not least, the proposed BiLSTM method provides a significant performance boost in terms of prediction accuracy over the standard shallow approach, while outperforming the current state-of-the-art on two distinct datasets with over",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2539
+      },
+      {
+        "cross_encoder_score": -11.193349838256836,
+        "dataset": "QASPER",
+        "end_char": 2794,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "4fb96da5a120514b89a9befe856063db",
+        "passage_rank": 3,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "88e0314a1832d5b7b6de31c7e091e0af",
+        "sentence_text": "40,000 samples.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2779
+      },
+      {
+        "cross_encoder_score": -11.252439498901367,
+        "dataset": "QASPER",
+        "end_char": 3019,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "4fb96da5a120514b89a9befe856063db",
+        "passage_rank": 3,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "d7c925cc634ddf47f630bdbfa54f7916",
+        "sentence_text": "To summarize, the contributions presented in this paper are the following: The remainder of this paper is organized in the following manner: first, we review the relevant literature and compare our approach to existing work.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2795
+      },
+      {
+        "cross_encoder_score": -11.415870666503906,
+        "dataset": "QASPER",
+        "end_char": 3154,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "4fb96da5a120514b89a9befe856063db",
+        "passage_rank": 3,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "8bf91e22e7c8a439d843035c5696776b",
+        "sentence_text": "Next, we formulate the problem of popularity prediction and propose a model that takes advantage of BiLSTM architecture to address it.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 3020
+      },
+      {
+        "cross_encoder_score": -11.456629753112793,
+        "dataset": "QASPER",
+        "end_char": 3276,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "4fb96da5a120514b89a9befe856063db",
+        "passage_rank": 3,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "1f98d159b21130929f885df2e63f3294",
+        "sentence_text": "Then, we evaluate our model on two datasets using several pre-trained word embeddings and compare it to benchmark models.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3155
+      },
+      {
+        "cross_encoder_score": -11.336963653564453,
+        "dataset": "QASPER",
+        "end_char": 3340,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "4fb96da5a120514b89a9befe856063db",
+        "passage_rank": 3,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "2389a3670c19917c3cfb7de58a67b833",
+        "sentence_text": "We conclude this work with discussion on future research paths.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3277
+      },
+      {
+        "cross_encoder_score": -11.31843090057373,
+        "dataset": "QASPER",
+        "end_char": 3530,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "4fb96da5a120514b89a9befe856063db",
+        "passage_rank": 3,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "18ee3716283e14cc4cc7a18c8ed6f80c",
+        "sentence_text": "Related Work\tThe ever increasing popularity of the Internet as a virtual space to share content inspired research community to analyze different aspects of online information distribution.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3342
+      },
+      {
+        "cross_encoder_score": -9.957265853881836,
+        "dataset": "QASPER",
+        "end_char": 3667,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "4fb96da5a120514b89a9befe856063db",
+        "passage_rank": 3,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "75a57f67a483b494dd6f4c9c38b3ca38",
+        "sentence_text": "Various types of content were analyzed, ranging from textual data, such as Twitter posts  or Digg stories  to images  to videos  ,  ,  .",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3531
+      },
+      {
+        "cross_encoder_score": -2.3755764961242676,
+        "dataset": "QASPER",
+        "end_char": 3929,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "4fb96da5a120514b89a9befe856063db",
+        "passage_rank": 3,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "81e509042c6a52d405514192e8f065e9",
+        "sentence_text": "Although several similarities were observed across content domains, e.g. log-normal distribution of data popularity  , in this work we focus only on textual content and, more precisely, on the popularity of news articles and its relation to the article's title.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3668
+      },
+      {
+        "cross_encoder_score": -0.8305208086967468,
+        "dataset": "QASPER",
+        "end_char": 4102,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "4fb96da5a120514b89a9befe856063db",
+        "passage_rank": 3,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "f2b719d4deb326b0fe43f6933709b7b2",
+        "sentence_text": "Forecasting popularity of news articles was especially well studied in the context of Twitter - a social media platform designed specifically for sharing textual data  ,  .",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 3930
+      },
+      {
+        "cross_encoder_score": -11.249470710754395,
+        "dataset": "QASPER",
+        "end_char": 4158,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "4fb96da5a120514b89a9befe856063db",
+        "passage_rank": 3,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "6efde1e77d320982405cb5b424f0ba8f",
+        "sentence_text": "Not only did the previous works focus on the prediction",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          2,
+          9,
+          0
+        ],
+        "source_position": 4103
+      },
+      {
+        "cross_encoder_score": -11.356099128723145,
+        "dataset": "QASPER",
+        "end_char": 4227,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "d1051be8af30fddf41c608c0b9164ec2",
+        "passage_rank": 1,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "daa79d093495810938ad1c41b254eda0",
+        "sentence_text": "part, but also on modeling message propagation within the network  .",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 4159
+      },
+      {
+        "cross_encoder_score": -11.338125228881836,
+        "dataset": "QASPER",
+        "end_char": 4432,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "d1051be8af30fddf41c608c0b9164ec2",
+        "passage_rank": 1,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "9401a567e1ebac2b76ee5eb2a88eca14",
+        "sentence_text": "However, most of the works were focused on analyzing the social interactions between the users and the characteristics of so-called social graph of users' connections, rather than on the textual features.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 4228
+      },
+      {
+        "cross_encoder_score": -9.798686981201172,
+        "dataset": "QASPER",
+        "end_char": 4550,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "d1051be8af30fddf41c608c0b9164ec2",
+        "passage_rank": 1,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "d422d81f36ba90d49a620cbea214be66",
+        "sentence_text": "Contrary to those approaches, in this paper we base our predictions using only textual features of the article title.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4433
+      },
+      {
+        "cross_encoder_score": -5.89065408706665,
+        "dataset": "QASPER",
+        "end_char": 4724,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "d1051be8af30fddf41c608c0b9164ec2",
+        "passage_rank": 1,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "3e575eb38162725750ac199539a3e5d9",
+        "sentence_text": "We also validate our proposed method on one dataset collected using a different social media platform, namely Facebook, and another one created from various news articles  .",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4551
+      },
+      {
+        "cross_encoder_score": -3.886845350265503,
+        "dataset": "QASPER",
+        "end_char": 4851,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "d1051be8af30fddf41c608c0b9164ec2",
+        "passage_rank": 1,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "5a59190a63bd60ea3178e3be127830cb",
+        "sentence_text": "Recently, several works have touched on the topic of popularity prediction of news article from a multimodal perspective  ,  .",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 4725
+      },
+      {
+        "cross_encoder_score": -4.238693714141846,
+        "dataset": "QASPER",
+        "end_char": 5000,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "d1051be8af30fddf41c608c0b9164ec2",
+        "passage_rank": 1,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "6e1abc85c6627c3088155fe9fca250c7",
+        "sentence_text": "Although in  the authors analyze news articles on a per-modality basis, they do not approach the problem of popularity prediction in a holistic way.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 4852
+      },
+      {
+        "cross_encoder_score": -11.397836685180664,
+        "dataset": "QASPER",
+        "end_char": 5211,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "d1051be8af30fddf41c608c0b9164ec2",
+        "passage_rank": 1,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "33633778f933da03b5a99ad7824d31d4",
+        "sentence_text": "To address this shortcoming,  have proposed a multimodal approach to predicting popularity of short videos shares in social media platform Vine using a model that fuses features related to different modalities.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 5001
+      },
+      {
+        "cross_encoder_score": -8.29859733581543,
+        "dataset": "QASPER",
+        "end_char": 5453,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "d1051be8af30fddf41c608c0b9164ec2",
+        "passage_rank": 1,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "6d84111f549d30ecce0cc0ba2ba591ed",
+        "sentence_text": "In our work, we focus only on textual features of the article title for the purpose of popularity prediction, as our goal is to empower the journalists to quantitatively assess the quality of the headlines they create before the publication.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 5212
+      },
+      {
+        "cross_encoder_score": -11.368512153625488,
+        "dataset": "QASPER",
+        "end_char": 5570,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "d1051be8af30fddf41c608c0b9164ec2",
+        "passage_rank": 1,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "9fc56eaaac37662331233e3ecf2d3ef4",
+        "sentence_text": "Nevertheless, we believe that in future research we will extend our method towards multimodal popularity prediction.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          3,
+          8,
+          0
+        ],
+        "source_position": 5454
+      },
+      {
+        "cross_encoder_score": -11.41208553314209,
+        "dataset": "QASPER",
+        "end_char": 7066,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "8e7d2d1139bcd426ab20557ddf79e6f9",
+        "passage_rank": 8,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "bc75feeedf270977cc13d9046d16354e",
+        "sentence_text": "embeddings that were successfully applied in other domains.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 7007
+      },
+      {
+        "cross_encoder_score": -11.355667114257812,
+        "dataset": "QASPER",
+        "end_char": 7182,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "8e7d2d1139bcd426ab20557ddf79e6f9",
+        "passage_rank": 8,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "479a7e301ee6448c97a89a3929d85ede",
+        "sentence_text": "We follow  and use pre-trained GloVe word vectors  to initialize the embedding layer (also known as look-up table).",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 7067
+      },
+      {
+        "cross_encoder_score": -11.397543907165527,
+        "dataset": "QASPER",
+        "end_char": 7246,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "8e7d2d1139bcd426ab20557ddf79e6f9",
+        "passage_rank": 8,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "00e228763374e5cbd69db7317949ab0c",
+        "sentence_text": "Section SECREF18 discusses the embedding layer in more details.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 7183
+      },
+      {
+        "cross_encoder_score": -10.830605506896973,
+        "dataset": "QASPER",
+        "end_char": 7401,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "8e7d2d1139bcd426ab20557ddf79e6f9",
+        "passage_rank": 8,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "d12d64ca5e1923e3f3b2ee7a8ec19938",
+        "sentence_text": "Bidirectional Long Short-Term Memory Network\tOur method for popularity prediction using article's title is inspired by a bidirectional LSTM architecture.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 7248
+      },
+      {
+        "cross_encoder_score": -11.339340209960938,
+        "dataset": "QASPER",
+        "end_char": 7457,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "8e7d2d1139bcd426ab20557ddf79e6f9",
+        "passage_rank": 8,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "a2262c61793d8a76baa9da75b8974081",
+        "sentence_text": "The overview of the model can be seen in Fig. FIGREF8 .",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 7402
+      },
+      {
+        "cross_encoder_score": -11.310080528259277,
+        "dataset": "QASPER",
+        "end_char": 7641,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "8e7d2d1139bcd426ab20557ddf79e6f9",
+        "passage_rank": 8,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "93d8481e1f4d98ff229c03dd86d26f14",
+        "sentence_text": "Let INLINEFORM0 be INLINEFORM1 -dimensional word vector corresponding to the INLINEFORM2 -the word in the headline, then a variable length sequence: INLINEFORM3 represents a headline.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 7458
+      },
+      {
+        "cross_encoder_score": -11.280309677124023,
+        "dataset": "QASPER",
+        "end_char": 7884,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "8e7d2d1139bcd426ab20557ddf79e6f9",
+        "passage_rank": 8,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "758d43a919f8bbed0502738c7736a6aa",
+        "sentence_text": "A recurrent neural network (RNN) processes this sequence by recursively applying a transformation function to the current element of sequence INLINEFORM4 and its previous hidden internal state INLINEFORM5 (optionally outputting INLINEFORM6 ).",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 7642
+      },
+      {
+        "cross_encoder_score": -11.361289024353027,
+        "dataset": "QASPER",
+        "end_char": 8017,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "8e7d2d1139bcd426ab20557ddf79e6f9",
+        "passage_rank": 8,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "e6cecaeba3c2f1c18dd2a560104069e8",
+        "sentence_text": "At each time step INLINEFORM7 , the hidden state is updated by: DISPLAYFORM0  where INLINEFORM0 is a non-linear activation function.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 7885
+      },
+      {
+        "cross_encoder_score": -11.382673263549805,
+        "dataset": "QASPER",
+        "end_char": 8275,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "8e7d2d1139bcd426ab20557ddf79e6f9",
+        "passage_rank": 8,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "869473f8d09720602c4f9e59ab352465",
+        "sentence_text": "LSTM network  updates its internal state differently, at each step INLINEFORM1 it calculates: DISPLAYFORM0   where INLINEFORM0 is the sigmoid activation function, tanh is the hyperbolic tangent function and INLINEFORM1 denotes component-wise multiplication.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          5,
+          8,
+          0
+        ],
+        "source_position": 8018
+      },
+      {
+        "cross_encoder_score": -10.941473960876465,
+        "dataset": "QASPER",
+        "end_char": 8294,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "8e7d2d1139bcd426ab20557ddf79e6f9",
+        "passage_rank": 8,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "15af1472575736298b1361df79e99cca",
+        "sentence_text": "In our experiments",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          5,
+          9,
+          0
+        ],
+        "source_position": 8276
+      },
+      {
+        "cross_encoder_score": -11.424155235290527,
+        "dataset": "QASPER",
+        "end_char": 9684,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "93a8d70057e901809e65ef10de481e7e",
+        "passage_rank": 10,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "c7d9d5ea97aa5027f7fdce9e06d24369",
+        "sentence_text": "therefore map the neural network outputs from a set of hidden states INLINEFORM0 to classification labels.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 9578
+      },
+      {
+        "cross_encoder_score": -11.346872329711914,
+        "dataset": "QASPER",
+        "end_char": 9762,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "93a8d70057e901809e65ef10de481e7e",
+        "passage_rank": 10,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "cafc05b76abf700136b115134b38baa6",
+        "sentence_text": "We evaluated several approaches to this problem, such as max or mean pooling.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 9685
+      },
+      {
+        "cross_encoder_score": -11.311344146728516,
+        "dataset": "QASPER",
+        "end_char": 9944,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "93a8d70057e901809e65ef10de481e7e",
+        "passage_rank": 10,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "130415d99c054b892feff60ace8816b8",
+        "sentence_text": "The initial experiments showed that the highest performance was achieved using late fusion approach, that is by concatenating the last hidden state in forward and backward sequence.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 9763
+      },
+      {
+        "cross_encoder_score": -11.001118659973145,
+        "dataset": "QASPER",
+        "end_char": 10194,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "93a8d70057e901809e65ef10de481e7e",
+        "passage_rank": 10,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "3d82cc64782b7ba94f1be27a61c25a01",
+        "sentence_text": "The intuition behind this design choice is that the importance of the first few words of the headline is relatively high, as the information contained in INLINEFORM1 , i.e. the last item in the backward sequence, is mostly taken from the first word.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 9945
+      },
+      {
+        "cross_encoder_score": -11.354839324951172,
+        "dataset": "QASPER",
+        "end_char": 10437,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "93a8d70057e901809e65ef10de481e7e",
+        "passage_rank": 10,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "10a8baf2340036fb6bc516f8bb99200d",
+        "sentence_text": "Hidden State Interpretation\tOne interesting property of bidirectional RNNs is the fact, that the concatenation of hidden states INLINEFORM0 and INLINEFORM1 can be interpreted as a context-dependent vector representation of word INLINEFORM2 .",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 10196
+      },
+      {
+        "cross_encoder_score": -11.412729263305664,
+        "dataset": "QASPER",
+        "end_char": 10555,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "93a8d70057e901809e65ef10de481e7e",
+        "passage_rank": 10,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "0bac67a1ad03011d6a938482fa560e2f",
+        "sentence_text": "This allows us to introspect a given title and approximate the contribution of each word to the estimated popularity.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 10438
+      },
+      {
+        "cross_encoder_score": -11.407109260559082,
+        "dataset": "QASPER",
+        "end_char": 10769,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "93a8d70057e901809e65ef10de481e7e",
+        "passage_rank": 10,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "4c43161894721da09c965007337f15e8",
+        "sentence_text": "To that end one can process the headline representation INLINEFORM3 through the bidirectional recurrent network and then retrieve pairs of forward and backwards hidden state INLINEFORM4 for each word INLINEFORM5 .",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 10556
+      },
+      {
+        "cross_encoder_score": -11.4033203125,
+        "dataset": "QASPER",
+        "end_char": 10908,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "93a8d70057e901809e65ef10de481e7e",
+        "passage_rank": 10,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "a92b4d99e050044427f1994ec16abe8a",
+        "sentence_text": "Then, the output of the last fully-connected layer INLINEFORM6 could be interpreted as context-depended popularity of a word INLINEFORM7 .",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "source_position": 10770
+      },
+      {
+        "cross_encoder_score": -11.357819557189941,
+        "dataset": "QASPER",
+        "end_char": 10949,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "93a8d70057e901809e65ef10de481e7e",
+        "passage_rank": 10,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "522c44947a5ad05a5fda81f3ac3cf94f",
+        "sentence_text": "Training\tIn our experiments we minimize",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          7,
+          8,
+          0
+        ],
+        "source_position": 10910
+      },
+      {
+        "cross_encoder_score": -11.384553909301758,
+        "dataset": "QASPER",
+        "end_char": 11087,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "cd1bcd6b440ab36b3ddcc15857cf7d00",
+        "passage_rank": 4,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "edb44bc8a8be6b7a461ca65fb966c28b",
+        "sentence_text": "the binary cross-entropy loss using Stochastic Gradient Descent on randomly shuffled mini-batches with the Adam optimization algorithm  .",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 10950
+      },
+      {
+        "cross_encoder_score": -11.35778522491455,
+        "dataset": "QASPER",
+        "end_char": 11158,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "cd1bcd6b440ab36b3ddcc15857cf7d00",
+        "passage_rank": 4,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "a103ca7ade3b650524b16b6932fc0ce1",
+        "sentence_text": "We reduce the learning rate by a factor of 0.2 once learning plateaus.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 11088
+      },
+      {
+        "cross_encoder_score": -11.333895683288574,
+        "dataset": "QASPER",
+        "end_char": 11314,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "cd1bcd6b440ab36b3ddcc15857cf7d00",
+        "passage_rank": 4,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "0f7c67f61f6f6853b6f89d3b51622a43",
+        "sentence_text": "We also employ early stopping strategy, i.e. stopping the training algorithm before convergence based on the values of loss function on the validation set.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 11159
+      },
+      {
+        "cross_encoder_score": -11.423384666442871,
+        "dataset": "QASPER",
+        "end_char": 11430,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "cd1bcd6b440ab36b3ddcc15857cf7d00",
+        "passage_rank": 4,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "b9107747652eea4c951f822e40ad7698",
+        "sentence_text": "Evaluation\tIn this section, we evaluate our method and compare its performance against the competitive approaches.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 11316
+      },
+      {
+        "cross_encoder_score": -11.370126724243164,
+        "dataset": "QASPER",
+        "end_char": 11519,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "cd1bcd6b440ab36b3ddcc15857cf7d00",
+        "passage_rank": 4,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "7d9dc8938f51bf7657793ea99d4868d9",
+        "sentence_text": "We use INLINEFORM0 -fold evaluation protocol with INLINEFORM1 with random dataset split.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 11431
+      },
+      {
+        "cross_encoder_score": -11.368760108947754,
+        "dataset": "QASPER",
+        "end_char": 11686,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "cd1bcd6b440ab36b3ddcc15857cf7d00",
+        "passage_rank": 4,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "bc20ca0ec1255d2f26e48da0a0123c72",
+        "sentence_text": "We measure the performance using standard accuracy metric which we define as a ratio between correctly classified data samples from test dataset and all test samples.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 11520
+      },
+      {
+        "cross_encoder_score": -4.340284824371338,
+        "dataset": "QASPER",
+        "end_char": 11904,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "cd1bcd6b440ab36b3ddcc15857cf7d00",
+        "passage_rank": 4,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "ff58036526331a537acd918bd020287e",
+        "sentence_text": "Datasets\tIn this section we present two datasets used in our experiments: The NowThisNews dataset, collected for the purpose of this paper, and The BreakingNews dataset  , publicly available dataset of news articles.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 11688
+      },
+      {
+        "cross_encoder_score": -11.18404769897461,
+        "dataset": "QASPER",
+        "end_char": 12017,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "cd1bcd6b440ab36b3ddcc15857cf7d00",
+        "passage_rank": 4,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "660d8ff78e33a442833995e59ec89660",
+        "sentence_text": "contains 4090 posts with associated videos from NowThisNews Facebook page collected between 07/2015 and 07/2016.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 11905
+      },
+      {
+        "cross_encoder_score": -11.449155807495117,
+        "dataset": "QASPER",
+        "end_char": 12147,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "cd1bcd6b440ab36b3ddcc15857cf7d00",
+        "passage_rank": 4,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "c4513e2b45e5553d0f9c9560258bece3",
+        "sentence_text": "For each post we collected its title and the number of views of the corresponding video, which we consider our popularity metric.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "source_position": 12018
+      },
+      {
+        "cross_encoder_score": -11.416784286499023,
+        "dataset": "QASPER",
+        "end_char": 12263,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "cd1bcd6b440ab36b3ddcc15857cf7d00",
+        "passage_rank": 4,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "bf47f2e837647abf5de587b6dca18034",
+        "sentence_text": "Due to a fairly lengthy data collection process, we decided to normalize our data by first grouping posts according",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          8,
+          9,
+          0
+        ],
+        "source_position": 12148
+      },
+      {
+        "cross_encoder_score": -11.361428260803223,
+        "dataset": "QASPER",
+        "end_char": 12428,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "40f571601c2812562122cb4356dc83bc",
+        "passage_rank": 2,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "06172a07cac84c370a2d6e7040ba57f4",
+        "sentence_text": "to their publication month and then labeling the posts for which the popularity metric exceeds the median monthly value as popular, the remaining part as unpopular.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 12264
+      },
+      {
+        "cross_encoder_score": -0.74455726146698,
+        "dataset": "QASPER",
+        "end_char": 12596,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "40f571601c2812562122cb4356dc83bc",
+        "passage_rank": 2,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "96b9befc5124ddac803ba6b1943db143",
+        "sentence_text": "contains a variety of news-related information such as images, captions, geo-location information and comments which could be used as a proxy for article popularity.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 12431
+      },
+      {
+        "cross_encoder_score": -7.2367167472839355,
+        "dataset": "QASPER",
+        "end_char": 12675,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "40f571601c2812562122cb4356dc83bc",
+        "passage_rank": 2,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "3e1d700748a614b8bc823df438847283",
+        "sentence_text": "The articles in this dataset were collected between January and December 2014.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 12597
+      },
+      {
+        "cross_encoder_score": -9.797451972961426,
+        "dataset": "QASPER",
+        "end_char": 12819,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "40f571601c2812562122cb4356dc83bc",
+        "passage_rank": 2,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "49c096c764fe90eb15ac491e58d6b0f7",
+        "sentence_text": "Although we tried to retrieve the entire dataset, we were able to download only 38,182 articles due to the dead links published in the dataset.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 12676
+      },
+      {
+        "cross_encoder_score": 2.4230611324310303,
+        "dataset": "QASPER",
+        "end_char": 12937,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "40f571601c2812562122cb4356dc83bc",
+        "passage_rank": 2,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "327389eadf4ba77038a9b46b161a697c",
+        "sentence_text": "The retrieved articles were published in main news channels, such as Yahoo News, The Guardian or The Washington Post.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 12820
+      },
+      {
+        "cross_encoder_score": -10.411931991577148,
+        "dataset": "QASPER",
+        "end_char": 13140,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "40f571601c2812562122cb4356dc83bc",
+        "passage_rank": 2,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "5c5d41310e390f2ae1cb8ef6eeb64b8a",
+        "sentence_text": "Similarly, to The NowThisNews dataset we normalize the data by grouping articles per publisher, and classifying them as popular, when the number of comments exceeds the median value for given publisher.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 12938
+      },
+      {
+        "cross_encoder_score": -11.334465980529785,
+        "dataset": "QASPER",
+        "end_char": 13362,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "40f571601c2812562122cb4356dc83bc",
+        "passage_rank": 2,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "a3ab32f90e26259efe4dcd58120536cc",
+        "sentence_text": "Baselines\tAs a first baseline we use Bag-of-Words, a well-known and robust text representations used in various domains  , combined with a standard shallow classifier, namely, a Support Vector Machine with linear kernel.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          9,
+          6,
+          0
+        ],
+        "source_position": 13142
+      },
+      {
+        "cross_encoder_score": -11.430323600769043,
+        "dataset": "QASPER",
+        "end_char": 13400,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "40f571601c2812562122cb4356dc83bc",
+        "passage_rank": 2,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "1dd996496a961e2a75f2ed65bf9bc8d8",
+        "sentence_text": "We used LIBSVM implementation of SVM.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          9,
+          7,
+          0
+        ],
+        "source_position": 13363
+      },
+      {
+        "cross_encoder_score": -11.353586196899414,
+        "dataset": "QASPER",
+        "end_char": 13486,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "40f571601c2812562122cb4356dc83bc",
+        "passage_rank": 2,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "b2fe4f99ed2a1e769338f85119f290f2",
+        "sentence_text": "Our second baseline is a deep Convectional Neural Network applied on word embeddings.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          9,
+          8,
+          0
+        ],
+        "source_position": 13401
+      },
+      {
+        "cross_encoder_score": -11.355216979980469,
+        "dataset": "QASPER",
+        "end_char": 13601,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "40f571601c2812562122cb4356dc83bc",
+        "passage_rank": 2,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "f83678b9fd39b4020f382a84c380fad7",
+        "sentence_text": "This baseline represents state-of-the-art method presented in  with minor adjustments to the binary classification",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          9,
+          9,
+          0
+        ],
+        "source_position": 13487
+      },
+      {
+        "cross_encoder_score": -10.529715538024902,
+        "dataset": "QASPER",
+        "end_char": 13607,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "9c1313f83d69ad25a2c143a2c21c3913",
+        "passage_rank": 9,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "e897e5419f7496a1597e19e2ebe7a03b",
+        "sentence_text": "task.",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 13602
+      },
+      {
+        "cross_encoder_score": -11.258068084716797,
+        "dataset": "QASPER",
+        "end_char": 13992,
+        "pair_tokens_before_truncation": 92,
+        "pair_truncated": false,
+        "passage_id": "9c1313f83d69ad25a2c143a2c21c3913",
+        "passage_rank": 9,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "86cabb81004c0b1c9fb3d5923199fa16",
+        "sentence_text": "The architecture of the CNN benchmark we use is the following: the embedding layer transforms one-hot encoded words to their dense vector representations, followed by the convolution layer of 256 filters with width equal to 5 followed by max pooling layer (repeated three times), fully-connected layer with dropout and INLINEFORM0 regularization and finally, sigmoid activation layer.",
+        "sentence_token_cost": 71,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 13608
+      },
+      {
+        "cross_encoder_score": -11.415833473205566,
+        "dataset": "QASPER",
+        "end_char": 14090,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "9c1313f83d69ad25a2c143a2c21c3913",
+        "passage_rank": 9,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "502790479fac7b6895cbd72334cc7529",
+        "sentence_text": "For fair comparison, both baselines were trained using the same training procedure as our method.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 13993
+      },
+      {
+        "cross_encoder_score": -11.395257949829102,
+        "dataset": "QASPER",
+        "end_char": 14277,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "9c1313f83d69ad25a2c143a2c21c3913",
+        "passage_rank": 9,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "920cee3ad967f43af537163c23e6971a",
+        "sentence_text": "Embeddings\tAs a text embedding in our experiments, we use publicly available GloVe word vectors  pre-trained on two datasets: Wikipedia 2014 with Gigaword5 (W+G5) and Common Crawl (CC).",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 14092
+      },
+      {
+        "cross_encoder_score": -11.40793514251709,
+        "dataset": "QASPER",
+        "end_char": 14382,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "9c1313f83d69ad25a2c143a2c21c3913",
+        "passage_rank": 9,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "360fd1862bb9371b6f1a8dba52c7ae5c",
+        "sentence_text": "Since their output dimensionality can be modified, we show the results for varying dimensionality sizes.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 14278
+      },
+      {
+        "cross_encoder_score": -11.360816955566406,
+        "dataset": "QASPER",
+        "end_char": 14505,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "9c1313f83d69ad25a2c143a2c21c3913",
+        "passage_rank": 9,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "4b56b7d17cbb135df8b04ad37afd967f",
+        "sentence_text": "On top of that, we evaluate two training approaches: using static word vectors and fine-tuning them during training phase.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 14383
+      },
+      {
+        "cross_encoder_score": -11.417329788208008,
+        "dataset": "QASPER",
+        "end_char": 14565,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "9c1313f83d69ad25a2c143a2c21c3913",
+        "passage_rank": 9,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "7c35edd82cd94cbb0cbd3f0a3b8ae8d5",
+        "sentence_text": "Results\tThe results of our experiments can be seen in Tab.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 14507
+      },
+      {
+        "cross_encoder_score": -11.161051750183105,
+        "dataset": "QASPER",
+        "end_char": 14589,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "9c1313f83d69ad25a2c143a2c21c3913",
+        "passage_rank": 9,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "3a181779efb39cab91d73c5786b9bb1e",
+        "sentence_text": "TABREF21 and TABREF22 .",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 14566
+      },
+      {
+        "cross_encoder_score": -11.396309852600098,
+        "dataset": "QASPER",
+        "end_char": 14687,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "9c1313f83d69ad25a2c143a2c21c3913",
+        "passage_rank": 9,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "415944d7f759b7c8229a8bf5f7d8b05d",
+        "sentence_text": "Our proposed BiLSTM approach outperforms the competing methods consistently across both datasets.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          10,
+          8,
+          0
+        ],
+        "source_position": 14590
+      },
+      {
+        "cross_encoder_score": -11.323001861572266,
+        "dataset": "QASPER",
+        "end_char": 14852,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "9c1313f83d69ad25a2c143a2c21c3913",
+        "passage_rank": 9,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "eb1865a5898f925b4d2e565366c82da9",
+        "sentence_text": "The performance improvement is especially visible for The NowThisNews dataset and reaches over 15% with respect to the shallow architecture in terms of of accuracy.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          10,
+          9,
+          0
+        ],
+        "source_position": 14688
+      },
+      {
+        "cross_encoder_score": -9.500170707702637,
+        "dataset": "QASPER",
+        "end_char": 14865,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "9c1313f83d69ad25a2c143a2c21c3913",
+        "passage_rank": 9,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "7641e3918e6b63247e6e8a2c9999c047",
+        "sentence_text": "Although the",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          10,
+          10,
+          0
+        ],
+        "source_position": 14853
+      },
+      {
+        "cross_encoder_score": -11.301799774169922,
+        "dataset": "QASPER",
+        "end_char": 15132,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "422d0ea75e6d773155ebb5e326c18f2a",
+        "passage_rank": 5,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "5e790004fd5275743228302e433c746a",
+        "sentence_text": "improvement with respect to the other methods based on deep neural network is less evident, the recurrent nature of our method provides much more intuitive interpretation of the results and allow for parsing the contribution of each single word to the overall score.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 14866
+      },
+      {
+        "cross_encoder_score": -11.450864791870117,
+        "dataset": "QASPER",
+        "end_char": 15192,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "422d0ea75e6d773155ebb5e326c18f2a",
+        "passage_rank": 5,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "a31a29bf07f90ea9fa36c7e0598b1cae",
+        "sentence_text": "To present how our model works in practice, we show in Tab.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 15133
+      },
+      {
+        "cross_encoder_score": -10.978827476501465,
+        "dataset": "QASPER",
+        "end_char": 15372,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "422d0ea75e6d773155ebb5e326c18f2a",
+        "passage_rank": 5,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "bd5d7911d3342e14cc6c346d657451a5",
+        "sentence_text": "TABREF23 a list of 3 headlines from NowThisNews dataset that are scored with the highest probability of belonging to a popular class, as well as 3 headlines with the lowest score.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 15193
+      },
+      {
+        "cross_encoder_score": -11.420634269714355,
+        "dataset": "QASPER",
+        "end_char": 15511,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "422d0ea75e6d773155ebb5e326c18f2a",
+        "passage_rank": 5,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "72448835e6af454befad8c372f06a6ac",
+        "sentence_text": "As can be seen, our model correctly detected videos that become viral at the same time assigning low score to content that underperformed.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 15373
+      },
+      {
+        "cross_encoder_score": -11.405320167541504,
+        "dataset": "QASPER",
+        "end_char": 15588,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "422d0ea75e6d773155ebb5e326c18f2a",
+        "passage_rank": 5,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "5134ed2c8c1338251871908171b87a35",
+        "sentence_text": "We believe that BiLSTM could be successfully applied in real-life scenarios.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 15512
+      },
+      {
+        "cross_encoder_score": -10.305274963378906,
+        "dataset": "QASPER",
+        "end_char": 15699,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "422d0ea75e6d773155ebb5e326c18f2a",
+        "passage_rank": 5,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "5330d6d502b5b464f32f19e191d8f57e",
+        "sentence_text": "Conclusions\tIn this paper we present a novel approach to the problem of online article popularity prediction.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 15590
+      },
+      {
+        "cross_encoder_score": -10.43038272857666,
+        "dataset": "QASPER",
+        "end_char": 15847,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "422d0ea75e6d773155ebb5e326c18f2a",
+        "passage_rank": 5,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "bec04896e8756278aff7e109c528f6d6",
+        "sentence_text": "To our knowledge, this is the first attempt of predicting the performance of content on social media using only textual information from its title.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 15700
+      },
+      {
+        "cross_encoder_score": -11.417828559875488,
+        "dataset": "QASPER",
+        "end_char": 15914,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "422d0ea75e6d773155ebb5e326c18f2a",
+        "passage_rank": 5,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "f22dbe9ccc1611b830cd86a648486703",
+        "sentence_text": "We show that our method consistently outperforms benchmark models.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 15848
+      },
+      {
+        "cross_encoder_score": -11.314520835876465,
+        "dataset": "QASPER",
+        "end_char": 16106,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "422d0ea75e6d773155ebb5e326c18f2a",
+        "passage_rank": 5,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "52c7c20decc2cc412804941e6376c04d",
+        "sentence_text": "Additionally, the proposed method could not only be used to compare competing titles with regard to their estimated probability, but also to gain insights about what constitutes a good title.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          11,
+          8,
+          0
+        ],
+        "source_position": 15915
+      },
+      {
+        "cross_encoder_score": -11.334765434265137,
+        "dataset": "QASPER",
+        "end_char": 16223,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "422d0ea75e6d773155ebb5e326c18f2a",
+        "passage_rank": 5,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "0fd50782583d132d3890eb0ad0163f1f",
+        "sentence_text": "Future work includes modeling popularity prediction problem with multiple data modalities, such as images or videos.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          11,
+          9,
+          0
+        ],
+        "source_position": 16107
+      },
+      {
+        "cross_encoder_score": -9.462641716003418,
+        "dataset": "QASPER",
+        "end_char": 16243,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "422d0ea75e6d773155ebb5e326c18f2a",
+        "passage_rank": 5,
+        "query_id": "ddb23a71113cbc092cbc158066d891cae261e2c6",
+        "sentence_id": "c87a36cb6aecda719299e95e8a0f9343",
+        "sentence_text": "Furthermore, all of",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          11,
+          10,
+          0
+        ],
+        "source_position": 16224
+      }
+    ],
+    "scoring_seconds": 0.32992400298826396,
+    "source_fingerprint": "bef34c054500e5883bd271c96b4046bc7df84ae743486074161d707f1dd478bf"
+  }
+}

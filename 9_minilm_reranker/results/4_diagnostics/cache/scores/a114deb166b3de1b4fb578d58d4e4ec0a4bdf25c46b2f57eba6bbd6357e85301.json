@@ -1,0 +1,2031 @@
+{
+  "checksum": "0211563813a4aca4a768d6eadb38367b9bc8eb51744602c9c6d9e288e799b77f",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "b3d01ac226ee979e188a4141877a6d2a5482de98"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 100,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "d2ef5aee3fa687058563c8a1f0974e41bd03218aa2850687d99e765425379365",
+    "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+    "scores": [
+      {
+        "cross_encoder_score": -7.064937114715576,
+        "dataset": "QASPER",
+        "end_char": 200,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "a226d1e620924972d2eb27d9faa61991",
+        "passage_rank": 5,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "dddb14aa40a51e7d21f9c498b0b37980",
+        "sentence_text": "Adversarial NLI: A New Benchmark for Natural Language Understanding\tWe introduce a new large-scale NLI benchmark dataset, collected via an iterative, adversarial human-and-model-in-the-loop procedure.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.291370391845703,
+        "dataset": "QASPER",
+        "end_char": 390,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "a226d1e620924972d2eb27d9faa61991",
+        "passage_rank": 5,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "ec1204ba418ef7b39091f03af9a83c17",
+        "sentence_text": "We show that training models on this new dataset leads to state-of-the-art performance on a variety of popular NLI benchmarks, while posing a more difficult challenge with its new test set.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 201
+      },
+      {
+        "cross_encoder_score": 6.562154769897461,
+        "dataset": "QASPER",
+        "end_char": 552,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "a226d1e620924972d2eb27d9faa61991",
+        "passage_rank": 5,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "5121b645e487fa0259cace5039ea2921",
+        "sentence_text": "Our analysis sheds light on the shortcomings of current state-of-the-art models, and shows that non-expert annotators are successful at finding their weaknesses.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 391
+      },
+      {
+        "cross_encoder_score": -10.818187713623047,
+        "dataset": "QASPER",
+        "end_char": 724,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "a226d1e620924972d2eb27d9faa61991",
+        "passage_rank": 5,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "2ff5b717ecb9bd4d096c786cbafc6fda",
+        "sentence_text": "The data collection method can be applied in a never-ending learning scenario, becoming a moving target for NLU, rather than a static benchmark that will quickly saturate.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 553
+      },
+      {
+        "cross_encoder_score": -9.92232894897461,
+        "dataset": "QASPER",
+        "end_char": 950,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "a226d1e620924972d2eb27d9faa61991",
+        "passage_rank": 5,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "b6a8f04261737a920b75a107949705be",
+        "sentence_text": "Introduction\tProgress in AI has been driven by, among other things, the development of challenging large-scale benchmarks like ImageNet  in computer vision, and SNLI , SQuAD , and others in natural language processing (NLP).",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 726
+      },
+      {
+        "cross_encoder_score": -9.734114646911621,
+        "dataset": "QASPER",
+        "end_char": 1180,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "a226d1e620924972d2eb27d9faa61991",
+        "passage_rank": 5,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "ee46e6ef3227b349818c338566c65484",
+        "sentence_text": "Recently, for natural language understanding (NLU) in particular, the focus has shifted to combined benchmarks like SentEval  and GLUE , which track model performance on multiple tasks and provide a unified platform for analysis.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 951
+      },
+      {
+        "cross_encoder_score": -8.974863052368164,
+        "dataset": "QASPER",
+        "end_char": 1290,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "a226d1e620924972d2eb27d9faa61991",
+        "passage_rank": 5,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "198b103010bfc654ded7b7cfaea98020",
+        "sentence_text": "With the rapid pace of advancement in AI, however, NLU benchmarks struggle to keep up with model improvement.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1181
+      },
+      {
+        "cross_encoder_score": -11.043102264404297,
+        "dataset": "QASPER",
+        "end_char": 1313,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "a226d1e620924972d2eb27d9faa61991",
+        "passage_rank": 5,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "f679ac2b898c3bc70825d0251820ac21",
+        "sentence_text": "Whereas it took around",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1291
+      },
+      {
+        "cross_encoder_score": -9.5654878616333,
+        "dataset": "QASPER",
+        "end_char": 2643,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "832513fda37e5681013bbf432e84c4ee",
+        "passage_rank": 2,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "724060352215df7b55b30653ad967c8d",
+        "sentence_text": "stronger model.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2628
+      },
+      {
+        "cross_encoder_score": -7.861595153808594,
+        "dataset": "QASPER",
+        "end_char": 2753,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "832513fda37e5681013bbf432e84c4ee",
+        "passage_rank": 2,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "99f2872561f25df8982edd584543def5",
+        "sentence_text": "We then subject the strengthened model to human interference and collect more weaknesses over several rounds.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2644
+      },
+      {
+        "cross_encoder_score": -11.169904708862305,
+        "dataset": "QASPER",
+        "end_char": 2828,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "832513fda37e5681013bbf432e84c4ee",
+        "passage_rank": 2,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "c902d3d72ae07b6d21a73ae12b7cc5d9",
+        "sentence_text": "After each round, we both train a new model, and set aside a new test set.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 2754
+      },
+      {
+        "cross_encoder_score": -9.593072891235352,
+        "dataset": "QASPER",
+        "end_char": 3117,
+        "pair_tokens_before_truncation": 88,
+        "pair_truncated": false,
+        "passage_id": "832513fda37e5681013bbf432e84c4ee",
+        "passage_rank": 2,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "7ef549d6a2183a0b69e76c2c19124c9b",
+        "sentence_text": "The process can be iteratively repeated in a never-ending learning  setting, with the model getting stronger and the test set getting harder in each new round.This process yields a \u201cmoving post\u201d dynamic target for NLU systems, rather than a static benchmark that will eventually saturate.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 2829
+      },
+      {
+        "cross_encoder_score": -11.284222602844238,
+        "dataset": "QASPER",
+        "end_char": 3315,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "832513fda37e5681013bbf432e84c4ee",
+        "passage_rank": 2,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "08344196f1fb145108b2918e4a4a8f9a",
+        "sentence_text": "Our approach draws inspiration from recent efforts that gamify collaborative training of machine learning agents over multiple rounds  and pit \u201cbuilders\u201d against \u201cbreakers\u201d to learn better models .",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3118
+      },
+      {
+        "cross_encoder_score": -11.229333877563477,
+        "dataset": "QASPER",
+        "end_char": 3432,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "832513fda37e5681013bbf432e84c4ee",
+        "passage_rank": 2,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "f93d760ce61ed5a3388b25ac92cc1b3b",
+        "sentence_text": "Recently, Dinan2019build showed that a similar approach can be used to make dialogue safety classifiers more robust.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3316
+      },
+      {
+        "cross_encoder_score": -8.143603324890137,
+        "dataset": "QASPER",
+        "end_char": 3525,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "832513fda37e5681013bbf432e84c4ee",
+        "passage_rank": 2,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "1e30e8bbe54c21e88a9ca21522f4a5d2",
+        "sentence_text": "Here, we focus on natural language inference (NLI), arguably the most canonical task in NLU.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3433
+      },
+      {
+        "cross_encoder_score": -9.301260948181152,
+        "dataset": "QASPER",
+        "end_char": 3609,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "832513fda37e5681013bbf432e84c4ee",
+        "passage_rank": 2,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "3c77e673e46fc540287f789106577b55",
+        "sentence_text": "We collected three rounds of data, and call our new dataset Adversarial NLI (ANLI).",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3526
+      },
+      {
+        "cross_encoder_score": -8.235538482666016,
+        "dataset": "QASPER",
+        "end_char": 3846,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "832513fda37e5681013bbf432e84c4ee",
+        "passage_rank": 2,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "e23386e11170d5138ff21d5693daaab0",
+        "sentence_text": "Our contributions are as follows: 1) We introduce a novel human-and-model-in-the-loop dataset, currently consisting of three rounds that progressively increase in difficulty and complexity, that includes annotator-provided explanations.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 3610
+      },
+      {
+        "cross_encoder_score": -10.94409465789795,
+        "dataset": "QASPER",
+        "end_char": 3907,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "832513fda37e5681013bbf432e84c4ee",
+        "passage_rank": 2,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "4b824b1da3c5044e4752ca4e2383ab4d",
+        "sentence_text": "2) We show that training models on this new dataset leads to",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          2,
+          9,
+          0
+        ],
+        "source_position": 3847
+      },
+      {
+        "cross_encoder_score": -4.583198070526123,
+        "dataset": "QASPER",
+        "end_char": 3976,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "90cbe647cb142052b5f961463d974ffc",
+        "passage_rank": 3,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "9e22c57e88a443a43cb1363775d7c09b",
+        "sentence_text": "state-of-the-art performance on a variety of popular NLI benchmarks.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 3908
+      },
+      {
+        "cross_encoder_score": -1.6000914573669434,
+        "dataset": "QASPER",
+        "end_char": 4205,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "90cbe647cb142052b5f961463d974ffc",
+        "passage_rank": 3,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "abf09f20e50925edeeab358b1b62ea82",
+        "sentence_text": "3) We provide a detailed analysis of the collected data that sheds light on the shortcomings of current models, categorizes the data by inference type to examine weaknesses, and demonstrates good performance on NLI stress tests.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 3977
+      },
+      {
+        "cross_encoder_score": -11.414223670959473,
+        "dataset": "QASPER",
+        "end_char": 4273,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "90cbe647cb142052b5f961463d974ffc",
+        "passage_rank": 3,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "7e8981c0f903d25655d73997bf18551d",
+        "sentence_text": "The ANLI dataset is available at github.com/facebookresearch/anli/.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4206
+      },
+      {
+        "cross_encoder_score": -10.041627883911133,
+        "dataset": "QASPER",
+        "end_char": 4345,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "90cbe647cb142052b5f961463d974ffc",
+        "passage_rank": 3,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "b0e0288dc457f8dcaff2e2e2c6c984de",
+        "sentence_text": "A demo of the annotation procedure can be viewed at adversarialnli.com.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4274
+      },
+      {
+        "cross_encoder_score": -0.2798258364200592,
+        "dataset": "QASPER",
+        "end_char": 4486,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "90cbe647cb142052b5f961463d974ffc",
+        "passage_rank": 3,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "2d90b1aff8bbe1ce4d8103ac3b8ae56a",
+        "sentence_text": "Dataset collection\tThe primary aim of this work is to create a new large-scale NLI benchmark on which current state-of-the-art models fail.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 4347
+      },
+      {
+        "cross_encoder_score": -10.500761985778809,
+        "dataset": "QASPER",
+        "end_char": 4601,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "90cbe647cb142052b5f961463d974ffc",
+        "passage_rank": 3,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "1ff9d7886ac0d70477f0b573b9106e21",
+        "sentence_text": "This constitutes a new target for the field to work towards, and can elucidate model capabilities and limitations.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 4487
+      },
+      {
+        "cross_encoder_score": -11.343700408935547,
+        "dataset": "QASPER",
+        "end_char": 4672,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "90cbe647cb142052b5f961463d974ffc",
+        "passage_rank": 3,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "88d5ed4e52d3b3d6337c100ff0d5432e",
+        "sentence_text": "As noted, however, static benchmarks do not last very long these days.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 4602
+      },
+      {
+        "cross_encoder_score": -11.3837251663208,
+        "dataset": "QASPER",
+        "end_char": 4814,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "90cbe647cb142052b5f961463d974ffc",
+        "passage_rank": 3,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "ae6a5a7009a94ba5e967b14d9a7db800",
+        "sentence_text": "If continuously deployed, the data collection procedure we introduce here can pose a dynamic challenge that allows for never-ending learning.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 4673
+      },
+      {
+        "cross_encoder_score": -10.838332176208496,
+        "dataset": "QASPER",
+        "end_char": 4927,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "90cbe647cb142052b5f961463d974ffc",
+        "passage_rank": 3,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "5dbc320162c48c749558aa0eec18eb47",
+        "sentence_text": "Dataset collection ::: HAMLET\tTo paraphrase the great bard , there is something rotten in the state of the art.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          3,
+          8,
+          0
+        ],
+        "source_position": 4816
+      },
+      {
+        "cross_encoder_score": -10.634052276611328,
+        "dataset": "QASPER",
+        "end_char": 5117,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "90cbe647cb142052b5f961463d974ffc",
+        "passage_rank": 3,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "5e6b5b7f1c2406e1202a9e4288546b9b",
+        "sentence_text": "We propose Human-And-Model-in-the-Loop Entailment Training (HAMLET), a training procedure to automatically mitigate problems with current dataset collection procedures (see Figure FIGREF1).",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          3,
+          9,
+          0
+        ],
+        "source_position": 4928
+      },
+      {
+        "cross_encoder_score": -8.128280639648438,
+        "dataset": "QASPER",
+        "end_char": 5188,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "90cbe647cb142052b5f961463d974ffc",
+        "passage_rank": 3,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "3bec7177f353757bddd7c7b5870cf88e",
+        "sentence_text": "In our setup, our starting point is a base model, trained on NLI data.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          3,
+          10,
+          0
+        ],
+        "source_position": 5118
+      },
+      {
+        "cross_encoder_score": -10.332690238952637,
+        "dataset": "QASPER",
+        "end_char": 5195,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "90cbe647cb142052b5f961463d974ffc",
+        "passage_rank": 3,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "a982e0093dd2b95b0456e3ab563dce3e",
+        "sentence_text": "Rather",
+        "sentence_token_cost": 1,
+        "source_order": [
+          0,
+          3,
+          11,
+          0
+        ],
+        "source_position": 5189
+      },
+      {
+        "cross_encoder_score": -10.809308052062988,
+        "dataset": "QASPER",
+        "end_char": 15314,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "440b59ab18f1ee1a06aae37468be4247",
+        "passage_rank": 8,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "6d32216dc2d819a500675e7ed71bc2f9",
+        "sentence_text": "design.",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 15307
+      },
+      {
+        "cross_encoder_score": -11.205533027648926,
+        "dataset": "QASPER",
+        "end_char": 15395,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "440b59ab18f1ee1a06aae37468be4247",
+        "passage_rank": 8,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "5888b17da34dfc71d1c0da7a842e29ee",
+        "sentence_text": "For rounds 2 and 3, we used an ensemble, so performance is not necessarily zero.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 15315
+      },
+      {
+        "cross_encoder_score": -9.324444770812988,
+        "dataset": "QASPER",
+        "end_char": 15597,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "440b59ab18f1ee1a06aae37468be4247",
+        "passage_rank": 8,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "21fab156b247a6d591772ebc90194b4b",
+        "sentence_text": "However, as it turns out, performance still falls well below chance, indicating that workers did not find vulnerabilities specific to a single model, but generally applicable ones for that model class.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 15396
+      },
+      {
+        "cross_encoder_score": -11.045165061950684,
+        "dataset": "QASPER",
+        "end_char": 15653,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "440b59ab18f1ee1a06aae37468be4247",
+        "passage_rank": 8,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "094007525d6bf87138ed29bf76e58b88",
+        "sentence_text": "Results ::: Rounds become increasingly more difficult.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 15599
+      },
+      {
+        "cross_encoder_score": -11.15829086303711,
+        "dataset": "QASPER",
+        "end_char": 15815,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "440b59ab18f1ee1a06aae37468be4247",
+        "passage_rank": 8,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "387cc37914ff4a1ac3c3a4e63a13a7cd",
+        "sentence_text": "As already foreshadowed by the dataset statistics, round 3 is more difficult (yields lower performance) than round 2, and round 2 is more difficult than round 1.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 15654
+      },
+      {
+        "cross_encoder_score": -10.43009090423584,
+        "dataset": "QASPER",
+        "end_char": 15857,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "440b59ab18f1ee1a06aae37468be4247",
+        "passage_rank": 8,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "cccb4ffa29cabc80532e5ae61517e8aa",
+        "sentence_text": "This is true for all model architectures.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 15816
+      },
+      {
+        "cross_encoder_score": -11.27929401397705,
+        "dataset": "QASPER",
+        "end_char": 15915,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "440b59ab18f1ee1a06aae37468be4247",
+        "passage_rank": 8,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "76c10591e22981fd4d3c1c2de3f82932",
+        "sentence_text": "Results ::: Training on more rounds improves robustness.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 15859
+      },
+      {
+        "cross_encoder_score": -10.913436889648438,
+        "dataset": "QASPER",
+        "end_char": 16004,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "440b59ab18f1ee1a06aae37468be4247",
+        "passage_rank": 8,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "9117154a82e7320b6c06b2e716b16bcc",
+        "sentence_text": "Generally, our results indicate that training on more rounds improves model performance.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          12,
+          7,
+          0
+        ],
+        "source_position": 15916
+      },
+      {
+        "cross_encoder_score": -10.43009090423584,
+        "dataset": "QASPER",
+        "end_char": 16046,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "440b59ab18f1ee1a06aae37468be4247",
+        "passage_rank": 8,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "c27dd6c01008723e33eec756f45f4233",
+        "sentence_text": "This is true for all model architectures.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          12,
+          8,
+          0
+        ],
+        "source_position": 16005
+      },
+      {
+        "cross_encoder_score": -6.693731307983398,
+        "dataset": "QASPER",
+        "end_char": 16189,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "440b59ab18f1ee1a06aae37468be4247",
+        "passage_rank": 8,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "a59fabb413d7009e33af8e4570e816f3",
+        "sentence_text": "Simply training on more \u201cnormal NLI\u201d data would not help a model be robust to adversarial attacks, but our data actively helps mitigate these.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          12,
+          9,
+          0
+        ],
+        "source_position": 16047
+      },
+      {
+        "cross_encoder_score": -8.427607536315918,
+        "dataset": "QASPER",
+        "end_char": 16251,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "440b59ab18f1ee1a06aae37468be4247",
+        "passage_rank": 8,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "da9baa8a4bfa55ea530e6cbafc2674f0",
+        "sentence_text": "Results ::: RoBERTa achieves state-of-the-art performance...",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          12,
+          10,
+          0
+        ],
+        "source_position": 16191
+      },
+      {
+        "cross_encoder_score": -9.589652061462402,
+        "dataset": "QASPER",
+        "end_char": 16472,
+        "pair_tokens_before_truncation": 87,
+        "pair_truncated": false,
+        "passage_id": "440b59ab18f1ee1a06aae37468be4247",
+        "passage_rank": 8,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "c0727441ab9ff819bbd25e2eb60fc200",
+        "sentence_text": "We obtain state of the art performance on both SNLI and MNLI with the RoBERTa model finetuned on our new data The RoBERTa paper  reports a score of $90.2$ for both MNLI-matched and -mismatched dev, while we obtain $91.0$",
+        "sentence_token_cost": 65,
+        "source_order": [
+          0,
+          12,
+          11,
+          0
+        ],
+        "source_position": 16252
+      },
+      {
+        "cross_encoder_score": -11.01095199584961,
+        "dataset": "QASPER",
+        "end_char": 17626,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "42450af1029dfdbefe7b0fbb856d1f8c",
+        "passage_rank": 9,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "902363c9ca00749913132bd41e16af08",
+        "sentence_text": "and MNLI, but not vice versa.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 17597
+      },
+      {
+        "cross_encoder_score": -11.253128051757812,
+        "dataset": "QASPER",
+        "end_char": 17717,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "42450af1029dfdbefe7b0fbb856d1f8c",
+        "passage_rank": 9,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "153e539e9dc8f7a0eb9e9b137f37b92d",
+        "sentence_text": "This suggests that methods could successfully be applied for many more consecutive rounds.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 17627
+      },
+      {
+        "cross_encoder_score": -11.2056303024292,
+        "dataset": "QASPER",
+        "end_char": 17773,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "42450af1029dfdbefe7b0fbb856d1f8c",
+        "passage_rank": 9,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "d24a34bd18bab78b5ea18d1b67416215",
+        "sentence_text": "Results ::: Exclusive test subset difference is small.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          14,
+          2,
+          0
+        ],
+        "source_position": 17719
+      },
+      {
+        "cross_encoder_score": -5.734030723571777,
+        "dataset": "QASPER",
+        "end_char": 18011,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "42450af1029dfdbefe7b0fbb856d1f8c",
+        "passage_rank": 9,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "14014f4a7060dc717f7a6ca91724bf34",
+        "sentence_text": "In order to avoid the possibility that models might pick up on annotator-specific artifacts, a concern raised by Geva2019taskorannotator, we included an exclusive test subset with examples from annotators never seen in the training data.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          14,
+          3,
+          0
+        ],
+        "source_position": 17774
+      },
+      {
+        "cross_encoder_score": -7.1963582038879395,
+        "dataset": "QASPER",
+        "end_char": 18184,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "42450af1029dfdbefe7b0fbb856d1f8c",
+        "passage_rank": 9,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "be9bb3e5c9181e6545f820572de31463",
+        "sentence_text": "We find that the differences between this exclusive subset and the test set are small, indicating that our models do not over-rely on individual annotator's writing styles.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          14,
+          4,
+          0
+        ],
+        "source_position": 18012
+      },
+      {
+        "cross_encoder_score": -10.331876754760742,
+        "dataset": "QASPER",
+        "end_char": 18374,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "42450af1029dfdbefe7b0fbb856d1f8c",
+        "passage_rank": 9,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "42d186edd0789d2487a52be272e1d852",
+        "sentence_text": "Results ::: Hypothesis-only results\tFor SNLI and MNLI, concerns have been raised about the propensity of models to pick up on spurious artifacts that are present just in the hypotheses , .",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          14,
+          5,
+          0
+        ],
+        "source_position": 18186
+      },
+      {
+        "cross_encoder_score": -11.225543975830078,
+        "dataset": "QASPER",
+        "end_char": 18551,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "42450af1029dfdbefe7b0fbb856d1f8c",
+        "passage_rank": 9,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "f37cf66b1a98f138139a01ccf011e0ec",
+        "sentence_text": "To study this in the context of our results and task difficulty, we compare models trained on (context, hypothesis) pairs to models trained only on the hypothesis (marked $H$).",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          14,
+          6,
+          0
+        ],
+        "source_position": 18375
+      },
+      {
+        "cross_encoder_score": -11.327070236206055,
+        "dataset": "QASPER",
+        "end_char": 18637,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "42450af1029dfdbefe7b0fbb856d1f8c",
+        "passage_rank": 9,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "bf8d72ef42f8cd6b18d0c0dfb9f8e5ad",
+        "sentence_text": "Table TABREF21 reports results on the three rounds of ANLI, as well as SNLI and MNLI.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          14,
+          7,
+          0
+        ],
+        "source_position": 18552
+      },
+      {
+        "cross_encoder_score": -11.134208679199219,
+        "dataset": "QASPER",
+        "end_char": 18682,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "42450af1029dfdbefe7b0fbb856d1f8c",
+        "passage_rank": 9,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "4aadf41adb99976c3b56b77435ed12b8",
+        "sentence_text": "The table shows some interesting take-aways:",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          14,
+          8,
+          0
+        ],
+        "source_position": 18638
+      },
+      {
+        "cross_encoder_score": -10.674471855163574,
+        "dataset": "QASPER",
+        "end_char": 18770,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "42450af1029dfdbefe7b0fbb856d1f8c",
+        "passage_rank": 9,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "934e7c2eb43656063c8d65ab0174e062",
+        "sentence_text": "Results ::: Hypothesis-only results ::: Hypothesis-only models perform poorly on ANLI.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          14,
+          9,
+          0
+        ],
+        "source_position": 18684
+      },
+      {
+        "cross_encoder_score": -10.369400978088379,
+        "dataset": "QASPER",
+        "end_char": 18840,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "42450af1029dfdbefe7b0fbb856d1f8c",
+        "passage_rank": 9,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "4a7d8b447c19521b66dc14d7f0907614",
+        "sentence_text": "We corroborate that hypothesis-only models obtain good performance on",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          14,
+          10,
+          0
+        ],
+        "source_position": 18771
+      },
+      {
+        "cross_encoder_score": -10.716444969177246,
+        "dataset": "QASPER",
+        "end_char": 18855,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "6f9f6443027be3b2afd00d097acc2402",
+        "passage_rank": 4,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "231b2d248bbcd9634348e3ad222db60c",
+        "sentence_text": "SNLI and MNLI.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          15,
+          0,
+          0
+        ],
+        "source_position": 18841
+      },
+      {
+        "cross_encoder_score": -10.378192901611328,
+        "dataset": "QASPER",
+        "end_char": 18946,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "6f9f6443027be3b2afd00d097acc2402",
+        "passage_rank": 4,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "b16ae644afc3214b6f4c4f4820e36f78",
+        "sentence_text": "Performance of such models on ANLI is substantially lower, and decreases with more rounds.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          15,
+          1,
+          0
+        ],
+        "source_position": 18856
+      },
+      {
+        "cross_encoder_score": -11.374138832092285,
+        "dataset": "QASPER",
+        "end_char": 19050,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "6f9f6443027be3b2afd00d097acc2402",
+        "passage_rank": 4,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "6622d9790f1ebc779a9844a8b3efeb4a",
+        "sentence_text": "Results ::: Hypothesis-only results ::: RoBERTa does not outperform hypothesis-only on rounds 2 and 3.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          15,
+          2,
+          0
+        ],
+        "source_position": 18948
+      },
+      {
+        "cross_encoder_score": -10.823626518249512,
+        "dataset": "QASPER",
+        "end_char": 19177,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "6f9f6443027be3b2afd00d097acc2402",
+        "passage_rank": 4,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "53da53e5b2813b41af2d1604f5a371ec",
+        "sentence_text": "On the two rounds where RoBERTa was used as the base model, its performance is not much better than the hypothesis-only model.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          15,
+          3,
+          0
+        ],
+        "source_position": 19051
+      },
+      {
+        "cross_encoder_score": -11.201422691345215,
+        "dataset": "QASPER",
+        "end_char": 19279,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "6f9f6443027be3b2afd00d097acc2402",
+        "passage_rank": 4,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "47c23903aadd3b082d5f0682c57c6290",
+        "sentence_text": "This could mean two things: either the test data is very difficult, or the training data is not good.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          15,
+          4,
+          0
+        ],
+        "source_position": 19178
+      },
+      {
+        "cross_encoder_score": -11.456002235412598,
+        "dataset": "QASPER",
+        "end_char": 19580,
+        "pair_tokens_before_truncation": 106,
+        "pair_truncated": false,
+        "passage_id": "6f9f6443027be3b2afd00d097acc2402",
+        "passage_rank": 4,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "5fb4bb03a85b935effd614edee1e6386",
+        "sentence_text": "To rule out the latter, we trained only on ANLI ($\\sim $163k training examples): doing so with RoBERTa matches the performance of BERT on MNLI when it is trained on the much larger, fully in-domain SNLI+MNLI combined dataset (943k training examples), with both getting $\\sim $86, which is impressive.",
+        "sentence_token_cost": 78,
+        "source_order": [
+          0,
+          15,
+          5,
+          0
+        ],
+        "source_position": 19280
+      },
+      {
+        "cross_encoder_score": -0.9949235320091248,
+        "dataset": "QASPER",
+        "end_char": 19735,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "6f9f6443027be3b2afd00d097acc2402",
+        "passage_rank": 4,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "ac9d112c5906badbad6978e453d429c1",
+        "sentence_text": "Hence, this shows that our new challenge test sets are so difficult that the current state-of-the-art model cannot do better than a hypothesis-only prior.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          15,
+          6,
+          0
+        ],
+        "source_position": 19581
+      },
+      {
+        "cross_encoder_score": -10.801775932312012,
+        "dataset": "QASPER",
+        "end_char": 19791,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "6f9f6443027be3b2afd00d097acc2402",
+        "passage_rank": 4,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "c46299733227531fcaf819984c6e3a8e",
+        "sentence_text": "Analysis\tWe perform two types of model error analysis.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          15,
+          7,
+          0
+        ],
+        "source_position": 19737
+      },
+      {
+        "cross_encoder_score": -7.815805435180664,
+        "dataset": "QASPER",
+        "end_char": 20014,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "6f9f6443027be3b2afd00d097acc2402",
+        "passage_rank": 4,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "7f044b333a43fb009e7548c030048cc9",
+        "sentence_text": "First we evaluate two popular existing test sets that were created to expose model weaknesses, and show that our dataset discourages models from learning spurious statistical facts, relative to other large popular datasets",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          15,
+          8,
+          0
+        ],
+        "source_position": 19792
+      },
+      {
+        "cross_encoder_score": -10.467280387878418,
+        "dataset": "QASPER",
+        "end_char": 20037,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "1fc925e0d8a16228326def44d30d9a34",
+        "passage_rank": 7,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "1ed21147c08e097d408815e4a0be7fd0",
+        "sentence_text": "(e.g., SNLI and MNLI).",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "source_position": 20015
+      },
+      {
+        "cross_encoder_score": -10.026491165161133,
+        "dataset": "QASPER",
+        "end_char": 20225,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "1fc925e0d8a16228326def44d30d9a34",
+        "passage_rank": 7,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "e03fcfdbf684df11abeff766e093095e",
+        "sentence_text": "Secondly, we explore, by round, the types of inferences our writers successfully employed to stump models, by performing hand-annotation on 500 examples from each round's development set.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          16,
+          1,
+          0
+        ],
+        "source_position": 20038
+      },
+      {
+        "cross_encoder_score": -5.724452495574951,
+        "dataset": "QASPER",
+        "end_char": 20410,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "1fc925e0d8a16228326def44d30d9a34",
+        "passage_rank": 7,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "0339f3a0a38736a5f73f9846da2e906e",
+        "sentence_text": "Analysis ::: Performance on challenge datasets\tRecently, several hard test sets have been made available for revealing the biases NLI models learn from their training datasets , , , .",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          16,
+          2,
+          0
+        ],
+        "source_position": 20227
+      },
+      {
+        "cross_encoder_score": -5.6613969802856445,
+        "dataset": "QASPER",
+        "end_char": 20696,
+        "pair_tokens_before_truncation": 93,
+        "pair_truncated": false,
+        "passage_id": "1fc925e0d8a16228326def44d30d9a34",
+        "passage_rank": 7,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "9c45605b64691f652e4902835060d342",
+        "sentence_text": "We examined model performance on two of these: the SNLI-Hard  test set, which consists of examples that hypothesis-only models label incorrectly, and the NLI stress tests , in which sentences containing antonyms pairs, negations, high word overlap, i.a., are heuristically constructed.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          0,
+          16,
+          3,
+          0
+        ],
+        "source_position": 20411
+      },
+      {
+        "cross_encoder_score": -10.878496170043945,
+        "dataset": "QASPER",
+        "end_char": 20837,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "1fc925e0d8a16228326def44d30d9a34",
+        "passage_rank": 7,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "b66546c88208ec577d539a69099a5791",
+        "sentence_text": "We test our models on these stress tests, after tuning on each test's respective development set to account for potential domain mismatches.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          16,
+          4,
+          0
+        ],
+        "source_position": 20697
+      },
+      {
+        "cross_encoder_score": -8.308255195617676,
+        "dataset": "QASPER",
+        "end_char": 21155,
+        "pair_tokens_before_truncation": 96,
+        "pair_truncated": false,
+        "passage_id": "1fc925e0d8a16228326def44d30d9a34",
+        "passage_rank": 7,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "5881876f8e6fca1cd64b9ac79826601a",
+        "sentence_text": "For comparison, we also report accuracies from the original papers: for SNLI-Hard we present the results from 's implementation of the hierarchical tensor-based Densely Interactive Inference Network  on MNLI, and for the NLI stress tests, we present the performance of 's implementation of InferSent  trained on SNLI.",
+        "sentence_token_cost": 67,
+        "source_order": [
+          0,
+          16,
+          5,
+          0
+        ],
+        "source_position": 20838
+      },
+      {
+        "cross_encoder_score": -11.068487167358398,
+        "dataset": "QASPER",
+        "end_char": 21190,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "1fc925e0d8a16228326def44d30d9a34",
+        "passage_rank": 7,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "c7481dfac65e6a6612fbf1bb94d8a0f0",
+        "sentence_text": "Our results are in Table TABREF23.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          16,
+          6,
+          0
+        ],
+        "source_position": 21156
+      },
+      {
+        "cross_encoder_score": -10.621198654174805,
+        "dataset": "QASPER",
+        "end_char": 21250,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "1fc925e0d8a16228326def44d30d9a34",
+        "passage_rank": 7,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "3e3f05053bb68567261cb8523cfe11ad",
+        "sentence_text": "We observe that all of our models far outperform the models",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          16,
+          7,
+          0
+        ],
+        "source_position": 21191
+      },
+      {
+        "cross_encoder_score": -10.753324508666992,
+        "dataset": "QASPER",
+        "end_char": 21355,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "e5aca0696f4872f28ac3a3d1e65187d2",
+        "passage_rank": 6,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "f2a786e3ca7c21d6de31ebb18e551dc9",
+        "sentence_text": "presented in original papers for these common stress tests, with our two RoBERTa models performing best.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          17,
+          0,
+          0
+        ],
+        "source_position": 21251
+      },
+      {
+        "cross_encoder_score": -11.320926666259766,
+        "dataset": "QASPER",
+        "end_char": 21609,
+        "pair_tokens_before_truncation": 107,
+        "pair_truncated": false,
+        "passage_id": "e5aca0696f4872f28ac3a3d1e65187d2",
+        "passage_rank": 6,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "0a07ab07d9e43df85e03bb9ed7278dcb",
+        "sentence_text": "Both perform well on SNLI-Hard and achieve accuracy levels in the high 80s on the `antonym' (AT), `numerical reasoning' (NR), `length' (LN), `spelling error'(SE) sub-datasets, and show marked improvement on both `negation' (NG), and `word overlap' (WO).",
+        "sentence_token_cost": 74,
+        "source_order": [
+          0,
+          17,
+          1,
+          0
+        ],
+        "source_position": 21356
+      },
+      {
+        "cross_encoder_score": -8.686779022216797,
+        "dataset": "QASPER",
+        "end_char": 21725,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "e5aca0696f4872f28ac3a3d1e65187d2",
+        "passage_rank": 6,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "a42175211101d275c096bf4a8ac1fab8",
+        "sentence_text": "Training a RoBERTa model also on ANLI appears to be particularly useful for the NR, WO, NG and AT NLI stress tests.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          17,
+          2,
+          0
+        ],
+        "source_position": 21610
+      },
+      {
+        "cross_encoder_score": -11.261103630065918,
+        "dataset": "QASPER",
+        "end_char": 21865,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "e5aca0696f4872f28ac3a3d1e65187d2",
+        "passage_rank": 6,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "d633a90660f34104cad970ddfad2411a",
+        "sentence_text": "Analysis ::: Reasoning types\tA dynamically evolving dataset offers the unique opportunity to track how model error rates change over time.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          17,
+          3,
+          0
+        ],
+        "source_position": 21727
+      },
+      {
+        "cross_encoder_score": -11.217145919799805,
+        "dataset": "QASPER",
+        "end_char": 22120,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "e5aca0696f4872f28ac3a3d1e65187d2",
+        "passage_rank": 6,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "d163236c6b0489e64effdf57dd4eef20",
+        "sentence_text": "Since each round's development set contains only verified examples, we can investigate two interesting questions: which types of inference do writers employ to fool the models, and are base models differentially sensitive to different types of reasoning?",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          17,
+          4,
+          0
+        ],
+        "source_position": 21866
+      },
+      {
+        "cross_encoder_score": -11.06982135772705,
+        "dataset": "QASPER",
+        "end_char": 22166,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "e5aca0696f4872f28ac3a3d1e65187d2",
+        "passage_rank": 6,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "071a628963ede43204c31b59ac90dcec",
+        "sentence_text": "The results are summarized in Table TABREF27.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          17,
+          5,
+          0
+        ],
+        "source_position": 22121
+      },
+      {
+        "cross_encoder_score": -4.792105197906494,
+        "dataset": "QASPER",
+        "end_char": 22279,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "e5aca0696f4872f28ac3a3d1e65187d2",
+        "passage_rank": 6,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "6f183648787111f07e6cfb337e6b9db0",
+        "sentence_text": "We employed an expert linguist annotator to devise an ontology of inference types that would be specific to NLI.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          17,
+          6,
+          0
+        ],
+        "source_position": 22167
+      },
+      {
+        "cross_encoder_score": -11.342230796813965,
+        "dataset": "QASPER",
+        "end_char": 22469,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "e5aca0696f4872f28ac3a3d1e65187d2",
+        "passage_rank": 6,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "ce0c4bb1593a20e0c869009ccf13927e",
+        "sentence_text": "While designing an appropriate ontology of types of inference is far from straightforward, we found that a unified ontology could be utilized to characterize examples from all three rounds,",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          17,
+          7,
+          0
+        ],
+        "source_position": 22280
+      },
+      {
+        "cross_encoder_score": -11.294206619262695,
+        "dataset": "QASPER",
+        "end_char": 28777,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "92db3a802a64887246cc3eaa3091aa05",
+        "passage_rank": 10,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "05a7cce2e324e93d6cb655525b4e58f7",
+        "sentence_text": "used to improve image captioning systems .",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          23,
+          0,
+          0
+        ],
+        "source_position": 28735
+      },
+      {
+        "cross_encoder_score": -10.90773868560791,
+        "dataset": "QASPER",
+        "end_char": 28954,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "92db3a802a64887246cc3eaa3091aa05",
+        "passage_rank": 10,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "73e6c070d3de16d11bc22420d2a708d6",
+        "sentence_text": "wallace2018trick leverage trivia experts to create a model-driven adversarial question writing procedure and generate a small set of challenge questions that QA-models fail on.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          23,
+          1,
+          0
+        ],
+        "source_position": 28778
+      },
+      {
+        "cross_encoder_score": -11.15068244934082,
+        "dataset": "QASPER",
+        "end_char": 29121,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "92db3a802a64887246cc3eaa3091aa05",
+        "passage_rank": 10,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "c36df65b585ba3fd4aeb716b8e4f4ff8",
+        "sentence_text": "There has been a flurry of work in constructing datasets with an adversarial component, such as Swag  and HellaSwag , CODAH , Adversarial SQuAD , Lambada  and others.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          23,
+          2,
+          0
+        ],
+        "source_position": 28955
+      },
+      {
+        "cross_encoder_score": -8.394030570983887,
+        "dataset": "QASPER",
+        "end_char": 29217,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "92db3a802a64887246cc3eaa3091aa05",
+        "passage_rank": 10,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "791555f1898f34d87e081ad0cc51ff67",
+        "sentence_text": "Our dataset is not to be confused with abductive NLI , which calls itself $\\alpha $NLI, or ART.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          23,
+          3,
+          0
+        ],
+        "source_position": 29122
+      },
+      {
+        "cross_encoder_score": -11.187252044677734,
+        "dataset": "QASPER",
+        "end_char": 29384,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "92db3a802a64887246cc3eaa3091aa05",
+        "passage_rank": 10,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "4ecf58a245010d5e7d3ec251f539c559",
+        "sentence_text": "Discussion & Conclusion\tIn this work, we used a human-and-model-in-the-loop entailment training method to collect a new benchmark for natural language understanding.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          23,
+          4,
+          0
+        ],
+        "source_position": 29219
+      },
+      {
+        "cross_encoder_score": -4.908129692077637,
+        "dataset": "QASPER",
+        "end_char": 29464,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "92db3a802a64887246cc3eaa3091aa05",
+        "passage_rank": 10,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "beb8bff906cd970b302d47b688c2fc25",
+        "sentence_text": "The benchmark is designed to be challenging to current state of the art models.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          23,
+          5,
+          0
+        ],
+        "source_position": 29385
+      },
+      {
+        "cross_encoder_score": -5.4714484214782715,
+        "dataset": "QASPER",
+        "end_char": 29654,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "92db3a802a64887246cc3eaa3091aa05",
+        "passage_rank": 10,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "893d82b2cc0a296155e45e6a6b112e52",
+        "sentence_text": "Annotators were employed to act as adversaries, and encouraged to find vulnerabilities that fool the model into predicting the wrong label, but that another person would correctly classify.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          23,
+          6,
+          0
+        ],
+        "source_position": 29465
+      },
+      {
+        "cross_encoder_score": 4.100398540496826,
+        "dataset": "QASPER",
+        "end_char": 29839,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "92db3a802a64887246cc3eaa3091aa05",
+        "passage_rank": 10,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "5a65d0caba4ae2451929a3bf01b3ff3d",
+        "sentence_text": "We found that non-expert annotators, in this gamified setting and with appropriate incentives to fool the model, are remarkably creative at finding and exploiting weaknesses in models.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          23,
+          7,
+          0
+        ],
+        "source_position": 29655
+      },
+      {
+        "cross_encoder_score": -10.731703758239746,
+        "dataset": "QASPER",
+        "end_char": 29982,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "92db3a802a64887246cc3eaa3091aa05",
+        "passage_rank": 10,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "26bebb4cdab7d0179974606d1c1a6052",
+        "sentence_text": "We collected three rounds, and as the rounds progressed, the models became more robust and the test sets for each round became more difficult.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          23,
+          8,
+          0
+        ],
+        "source_position": 29840
+      },
+      {
+        "cross_encoder_score": -11.082462310791016,
+        "dataset": "QASPER",
+        "end_char": 30008,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "92db3a802a64887246cc3eaa3091aa05",
+        "passage_rank": 10,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "ba966bafd8165124a9ccace95c3ef1bf",
+        "sentence_text": "Training on this new data",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          23,
+          9,
+          0
+        ],
+        "source_position": 29983
+      },
+      {
+        "cross_encoder_score": -4.500904083251953,
+        "dataset": "QASPER",
+        "end_char": 30065,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "7a5d7d194de38b122e10dfd567b31bf1",
+        "passage_rank": 1,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "7aa8fa8823197f33231c296822f8801f",
+        "sentence_text": "yielded the state of the art on existing NLI benchmarks.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          24,
+          0,
+          0
+        ],
+        "source_position": 30009
+      },
+      {
+        "cross_encoder_score": -11.395193099975586,
+        "dataset": "QASPER",
+        "end_char": 30127,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "7a5d7d194de38b122e10dfd567b31bf1",
+        "passage_rank": 1,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "356ed735ea3e0423034686966e8cde89",
+        "sentence_text": "The ANLI benchmark presents a new challenge to the community.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          24,
+          1,
+          0
+        ],
+        "source_position": 30066
+      },
+      {
+        "cross_encoder_score": -10.97242546081543,
+        "dataset": "QASPER",
+        "end_char": 30406,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "7a5d7d194de38b122e10dfd567b31bf1",
+        "passage_rank": 1,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "10a537a4e83dcbf512f3932cb7dae7d2",
+        "sentence_text": "It was carefully constructed to mitigate issues with previous datasets, and was designed from first principles to last longer\u2014if the test set saturates, the field can simply train up a new model, collect more data and find itself confronted yet again with a difficult challenge.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          24,
+          2,
+          0
+        ],
+        "source_position": 30128
+      },
+      {
+        "cross_encoder_score": -11.178165435791016,
+        "dataset": "QASPER",
+        "end_char": 30470,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "7a5d7d194de38b122e10dfd567b31bf1",
+        "passage_rank": 1,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "eb4c3f74fcd6926a0d9b5dfdd1384212",
+        "sentence_text": "The dataset also presents many opportunities for further study.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          24,
+          3,
+          0
+        ],
+        "source_position": 30407
+      },
+      {
+        "cross_encoder_score": -8.916838645935059,
+        "dataset": "QASPER",
+        "end_char": 30572,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "7a5d7d194de38b122e10dfd567b31bf1",
+        "passage_rank": 1,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "9a3b5cce28592b3fe5144e6cf940395a",
+        "sentence_text": "For instance, we collected annotator-provided explanations for each example that the model got wrong.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          24,
+          4,
+          0
+        ],
+        "source_position": 30471
+      },
+      {
+        "cross_encoder_score": -7.124136924743652,
+        "dataset": "QASPER",
+        "end_char": 30719,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "7a5d7d194de38b122e10dfd567b31bf1",
+        "passage_rank": 1,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "ab4261a8feb0c2c021c085dca620b955",
+        "sentence_text": "We provided inference labels for the development set, opening up possibilities for interesting more fine-grained studies of NLI model performance.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          24,
+          5,
+          0
+        ],
+        "source_position": 30573
+      },
+      {
+        "cross_encoder_score": -11.225025177001953,
+        "dataset": "QASPER",
+        "end_char": 30895,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "7a5d7d194de38b122e10dfd567b31bf1",
+        "passage_rank": 1,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "ff3d08585f8502f3e073142305193cc3",
+        "sentence_text": "While we verified the development and test examples, we did not verify the correctness of each training example, which means there is probably some room for improvement there.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          24,
+          6,
+          0
+        ],
+        "source_position": 30720
+      },
+      {
+        "cross_encoder_score": -9.853087425231934,
+        "dataset": "QASPER",
+        "end_char": 31019,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "7a5d7d194de38b122e10dfd567b31bf1",
+        "passage_rank": 1,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "f9d5d35c0962228bbfd90c0fce188775",
+        "sentence_text": "The benchmark is meant to be a challenge for measuring NLU progress, even for as yet undiscovered models and architectures.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          24,
+          7,
+          0
+        ],
+        "source_position": 30896
+      },
+      {
+        "cross_encoder_score": -10.987346649169922,
+        "dataset": "QASPER",
+        "end_char": 31126,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "7a5d7d194de38b122e10dfd567b31bf1",
+        "passage_rank": 1,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "853660c10d13bc4e10425b5d05629277",
+        "sentence_text": "We plan for the benchmark itself to adapt to these new models by continuing to build new challenge rounds.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          24,
+          8,
+          0
+        ],
+        "source_position": 31020
+      },
+      {
+        "cross_encoder_score": -7.195196628570557,
+        "dataset": "QASPER",
+        "end_char": 31266,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "7a5d7d194de38b122e10dfd567b31bf1",
+        "passage_rank": 1,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "7b06f368e2a69e5b42c4731f0f7e40f5",
+        "sentence_text": "As a first next step, it would be interesting to examine results when annotators are confronted with a wide variety of model architectures.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          24,
+          9,
+          0
+        ],
+        "source_position": 31127
+      },
+      {
+        "cross_encoder_score": -11.284915924072266,
+        "dataset": "QASPER",
+        "end_char": 31356,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "7a5d7d194de38b122e10dfd567b31bf1",
+        "passage_rank": 1,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "32646ada079c2b359a42cdabb1817f8a",
+        "sentence_text": "We hope that the dataset will prove to be an interesting new challenge for the community.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          24,
+          10,
+          0
+        ],
+        "source_position": 31267
+      },
+      {
+        "cross_encoder_score": -10.929025650024414,
+        "dataset": "QASPER",
+        "end_char": 31388,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "7a5d7d194de38b122e10dfd567b31bf1",
+        "passage_rank": 1,
+        "query_id": "b3d01ac226ee979e188a4141877a6d2a5482de98",
+        "sentence_id": "3f55c39d6eea45b5040b53b6cb980cb5",
+        "sentence_text": "Luckily, if it does turn out to",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          24,
+          11,
+          0
+        ],
+        "source_position": 31357
+      }
+    ],
+    "scoring_seconds": 0.46339467598591,
+    "source_fingerprint": "04df0a342b678f79db1ccad2d7719fce6a0ef3b9f2df9b4ad02fbe745c15cbd5"
+  }
+}

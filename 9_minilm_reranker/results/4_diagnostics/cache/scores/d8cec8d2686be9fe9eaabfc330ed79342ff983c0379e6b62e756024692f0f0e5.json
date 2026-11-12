@@ -1,0 +1,2251 @@
+{
+  "checksum": "0e7c3e5bf385ff3b699da95e19a0ae81700956ceaa39c93f9866921b451b294c",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "343"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 111,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "50344c5eb21f38091ce4e3b9bfbfdbe11358b177b5d1db3585a691be5e341ffb",
+    "query_id": "343",
+    "scores": [
+      {
+        "cross_encoder_score": -1.4305223226547241,
+        "dataset": "SciFact",
+        "end_char": 202,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "65a8a9665c541327fdde160932bd7d18",
+        "passage_rank": 3,
+        "query_id": "343",
+        "sentence_id": "e6716c67a125d74061b74f14cbe5abe0",
+        "sentence_text": "Impact of diabetes on long-term prognosis in patients with unstable angina and non-Q-wave myocardial infarction: results of the OASIS (Organization to Assess Strategies for Ischemic Syndromes) Registry.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          1090,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.6709303855896,
+        "dataset": "SciFact",
+        "end_char": 388,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "65a8a9665c541327fdde160932bd7d18",
+        "passage_rank": 3,
+        "query_id": "343",
+        "sentence_id": "635d573b7923efde0832070307519813",
+        "sentence_text": "BACKGROUND Although unstable coronary artery disease is the most common reason for admission to a coronary care unit, the long-term prognosis of patients with this diagnosis is unknown.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1090,
+          0,
+          1,
+          0
+        ],
+        "source_position": 203
+      },
+      {
+        "cross_encoder_score": 0.21740803122520447,
+        "dataset": "SciFact",
+        "end_char": 546,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "65a8a9665c541327fdde160932bd7d18",
+        "passage_rank": 3,
+        "query_id": "343",
+        "sentence_id": "7d0f52a27e3095df35939a83bbd474aa",
+        "sentence_text": "This is particularly true for patients with diabetes mellitus, who are known to have a high morbidity and mortality after an acute myocardial infarction.   \n",
+        "sentence_token_cost": 32,
+        "source_order": [
+          1090,
+          0,
+          2,
+          0
+        ],
+        "source_position": 389
+      },
+      {
+        "cross_encoder_score": -3.708061695098877,
+        "dataset": "SciFact",
+        "end_char": 868,
+        "pair_tokens_before_truncation": 94,
+        "pair_truncated": false,
+        "passage_id": "65a8a9665c541327fdde160932bd7d18",
+        "passage_rank": 3,
+        "query_id": "343",
+        "sentence_id": "9ef3fd82d7a70a6bee74a1102c38e0ee",
+        "sentence_text": "METHODS AND RESULTS Prospectively collected data from 6 different countries in the Organization to Assess Strategies for Ischemic Syndromes (OASIS) registry were analyzed to determine the 2-year prognosis of diabetic and nondiabetic patients who were hospitalized with unstable angina or non-Q-wave myocardial infarction.",
+        "sentence_token_cost": 65,
+        "source_order": [
+          1090,
+          0,
+          3,
+          0
+        ],
+        "source_position": 547
+      },
+      {
+        "cross_encoder_score": -5.294845104217529,
+        "dataset": "SciFact",
+        "end_char": 928,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "65a8a9665c541327fdde160932bd7d18",
+        "passage_rank": 3,
+        "query_id": "343",
+        "sentence_id": "f5766a9841c36be2483189321b2e8ee6",
+        "sentence_text": "Overall, 1718 of 8013 registry patients (21%) had diabetes.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1090,
+          0,
+          4,
+          0
+        ],
+        "source_position": 869
+      },
+      {
+        "cross_encoder_score": -2.1401407718658447,
+        "dataset": "SciFact",
+        "end_char": 1102,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "65a8a9665c541327fdde160932bd7d18",
+        "passage_rank": 3,
+        "query_id": "343",
+        "sentence_id": "1f096339d6509d34da828d1fdcbd9bd7",
+        "sentence_text": "Diabetic patients had a higher rate of coronary bypass surgery than nondiabetic patients (23% versus 20%, P:<0.001) but had similar rates of catheterization and angioplasty.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          1090,
+          0,
+          5,
+          0
+        ],
+        "source_position": 929
+      },
+      {
+        "cross_encoder_score": -3.502558946609497,
+        "dataset": "SciFact",
+        "end_char": 1307,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "65a8a9665c541327fdde160932bd7d18",
+        "passage_rank": 3,
+        "query_id": "343",
+        "sentence_id": "ab95643f8b62e55838762d5dd836e9b5",
+        "sentence_text": "Diabetes independently predicted mortality (relative risk [RR], 1.57; 95% CI, 1.38 to 1.81; P:<0.001), as well as cardiovascular death, new myocardial infarction, stroke, and new congestive heart failure.",
+        "sentence_token_cost": 65,
+        "source_order": [
+          1090,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1103
+      },
+      {
+        "cross_encoder_score": -4.371292591094971,
+        "dataset": "SciFact",
+        "end_char": 1494,
+        "pair_tokens_before_truncation": 86,
+        "pair_truncated": false,
+        "passage_id": "65a8a9665c541327fdde160932bd7d18",
+        "passage_rank": 3,
+        "query_id": "343",
+        "sentence_id": "3204a18f51b4f3c8b2623a4c339cd33a",
+        "sentence_text": "Moreover, compared with their nondiabetic counterparts, women had a significantly higher risk than men (RR, 1.98; 95% CI, 1.60 to 2.44; and RR, 1.28; 95% CI, 1.06 to 1.56, respectively).",
+        "sentence_token_cost": 74,
+        "source_order": [
+          1090,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1308
+      },
+      {
+        "cross_encoder_score": -0.326297789812088,
+        "dataset": "SciFact",
+        "end_char": 1666,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "65a8a9665c541327fdde160932bd7d18",
+        "passage_rank": 3,
+        "query_id": "343",
+        "sentence_id": "ef817676f276cf511fd6ea9eec0d97ab",
+        "sentence_text": "Interestingly, diabetic patients without prior cardiovascular disease had the same event rates for all outcomes as nondiabetic patients with previous vascular disease.   \n",
+        "sentence_token_cost": 27,
+        "source_order": [
+          1090,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1495
+      },
+      {
+        "cross_encoder_score": -3.228961944580078,
+        "dataset": "SciFact",
+        "end_char": 1853,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "65a8a9665c541327fdde160932bd7d18",
+        "passage_rank": 3,
+        "query_id": "343",
+        "sentence_id": "1f22951e5ca78f9092096e816b494b5a",
+        "sentence_text": "CONCLUSIONS Hospitalization for unstable angina or non-Q-wave myocardial infarction predicts a high 2-year morbidity and mortality; this is especially evident for patients with diabetes.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          1090,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1667
+      },
+      {
+        "cross_encoder_score": 0.2268751859664917,
+        "dataset": "SciFact",
+        "end_char": 2083,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "65a8a9665c541327fdde160932bd7d18",
+        "passage_rank": 3,
+        "query_id": "343",
+        "sentence_id": "31ae0426b4d8197f43b0164784068125",
+        "sentence_text": "Diabetic patients with no previous cardiovascular disease have the same long-term morbidity and mortality as nondiabetic patients with established cardiovascular disease after hospitalization for unstable coronary artery disease.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          1090,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1854
+      },
+      {
+        "cross_encoder_score": -7.330373287200928,
+        "dataset": "SciFact",
+        "end_char": 268,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "6fd0b710562d9faad38913ca770ad926",
+        "passage_rank": 4,
+        "query_id": "343",
+        "sentence_id": "b8e8727287e1dc6a3671d2a53fac3548",
+        "sentence_text": "Greater clinical benefit of more intensive oral antiplatelet therapy with prasugrel in patients with diabetes mellitus in the trial to assess improvement in therapeutic outcomes by optimizing platelet inhibition with prasugrel-Thrombolysis in Myocardial Infarction 38.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          1138,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 6.109981536865234,
+        "dataset": "SciFact",
+        "end_char": 451,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "6fd0b710562d9faad38913ca770ad926",
+        "passage_rank": 4,
+        "query_id": "343",
+        "sentence_id": "f12f27f100e35b7c6a8cf2367654d2fe",
+        "sentence_text": "BACKGROUND Patients with diabetes mellitus (DM) are at high risk for recurrent cardiovascular events after acute coronary syndromes, in part because of increased platelet reactivity.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          1138,
+          0,
+          1,
+          0
+        ],
+        "source_position": 269
+      },
+      {
+        "cross_encoder_score": -6.5939130783081055,
+        "dataset": "SciFact",
+        "end_char": 763,
+        "pair_tokens_before_truncation": 100,
+        "pair_truncated": false,
+        "passage_id": "6fd0b710562d9faad38913ca770ad926",
+        "passage_rank": 4,
+        "query_id": "343",
+        "sentence_id": "520165eccaf01b8cee717e713761a937",
+        "sentence_text": "The Trial to Assess Improvement in Therapeutic Outcomes by Optimizing Platelet Inhibition With Prasugrel-Thrombolysis in Myocardial Infarction 38 (TRITON-TIMI 38) showed an overall reduction in ischemic events with more intensive antiplatelet therapy with prasugrel than with clopidogrel but with more bleeding.",
+        "sentence_token_cost": 78,
+        "source_order": [
+          1138,
+          0,
+          2,
+          0
+        ],
+        "source_position": 452
+      },
+      {
+        "cross_encoder_score": -8.869803428649902,
+        "dataset": "SciFact",
+        "end_char": 848,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "6fd0b710562d9faad38913ca770ad926",
+        "passage_rank": 4,
+        "query_id": "343",
+        "sentence_id": "f3e00ced5f80595d277157c494e13709",
+        "sentence_text": "We compared prasugrel with clopidogrel among subjects with DM in TRITON-TIMI 38.   \n",
+        "sentence_token_cost": 27,
+        "source_order": [
+          1138,
+          0,
+          3,
+          0
+        ],
+        "source_position": 764
+      },
+      {
+        "cross_encoder_score": -6.8363800048828125,
+        "dataset": "SciFact",
+        "end_char": 978,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "6fd0b710562d9faad38913ca770ad926",
+        "passage_rank": 4,
+        "query_id": "343",
+        "sentence_id": "83f56e13fc3acf11919808e043995ae8",
+        "sentence_text": "METHODS AND RESULTS We classified 13 608 subjects on the basis of preexisting history of DM and further according to insulin use.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1138,
+          0,
+          4,
+          0
+        ],
+        "source_position": 849
+      },
+      {
+        "cross_encoder_score": -6.270403861999512,
+        "dataset": "SciFact",
+        "end_char": 1285,
+        "pair_tokens_before_truncation": 102,
+        "pair_truncated": false,
+        "passage_id": "6fd0b710562d9faad38913ca770ad926",
+        "passage_rank": 4,
+        "query_id": "343",
+        "sentence_id": "6ae0bc80f33acfa99a9cb979dc1c9148",
+        "sentence_text": "Prespecified analyses of the primary (cardiovascular death, nonfatal myocardial infarction, or nonfatal stroke) and key secondary end points, including net clinical benefit (death, nonfatal myocardial infarction, nonfatal stroke, and nonfatal TIMI major bleeding) were compared by use of the log-rank test.",
+        "sentence_token_cost": 69,
+        "source_order": [
+          1138,
+          0,
+          5,
+          0
+        ],
+        "source_position": 979
+      },
+      {
+        "cross_encoder_score": -6.821483612060547,
+        "dataset": "SciFact",
+        "end_char": 1379,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "6fd0b710562d9faad38913ca770ad926",
+        "passage_rank": 4,
+        "query_id": "343",
+        "sentence_id": "9cbaa6d85782680a1a762b5b54834beb",
+        "sentence_text": "We found that 3146 subjects had a preexisting history of DM, including 776 receiving insulin.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          1138,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1286
+      },
+      {
+        "cross_encoder_score": -8.379586219787598,
+        "dataset": "SciFact",
+        "end_char": 1595,
+        "pair_tokens_before_truncation": 107,
+        "pair_truncated": false,
+        "passage_id": "6fd0b710562d9faad38913ca770ad926",
+        "passage_rank": 4,
+        "query_id": "343",
+        "sentence_id": "3ea90a53ef1c8b0f33f811ceffe32f1a",
+        "sentence_text": "The primary end point was reduced significantly with prasugrel among subjects without DM (9.2% versus 10.6%; hazard ratio [HR], 0.86; P=0.02) and with DM (12.2% versus 17.0%; HR, 0.70; P<0.001, P(interaction)=0.09).",
+        "sentence_token_cost": 87,
+        "source_order": [
+          1138,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1380
+      },
+      {
+        "cross_encoder_score": -8.294715881347656,
+        "dataset": "SciFact",
+        "end_char": 1767,
+        "pair_tokens_before_truncation": 95,
+        "pair_truncated": false,
+        "passage_id": "6fd0b710562d9faad38913ca770ad926",
+        "passage_rank": 4,
+        "query_id": "343",
+        "sentence_id": "c2e67c5756bd9d9d6495b8a6758a9c9e",
+        "sentence_text": "A benefit for prasugrel was observed among DM subjects on insulin (14.3% versus 22.2%; HR, 0.63; P=0.009) and those not on insulin (11.5% versus 15.3%; HR, 0.74; P=0.009).",
+        "sentence_token_cost": 77,
+        "source_order": [
+          1138,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1596
+      },
+      {
+        "cross_encoder_score": -7.591058254241943,
+        "dataset": "SciFact",
+        "end_char": 1982,
+        "pair_tokens_before_truncation": 113,
+        "pair_truncated": false,
+        "passage_id": "6fd0b710562d9faad38913ca770ad926",
+        "passage_rank": 4,
+        "query_id": "343",
+        "sentence_id": "4564abee51ca6184ed1c578e61907a8e",
+        "sentence_text": "Myocardial infarction was reduced with prasugrel by 18% among subjects without DM (7.2% versus 8.7%; HR, 0.82; P=0.006) and by 40% among subjects with DM (8.2% versus 13.2%; HR, 0.60; P<0.001, P(interaction)=0.02).",
+        "sentence_token_cost": 96,
+        "source_order": [
+          1138,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1768
+      },
+      {
+        "cross_encoder_score": -5.8162407875061035,
+        "dataset": "SciFact",
+        "end_char": 2239,
+        "pair_tokens_before_truncation": 123,
+        "pair_truncated": false,
+        "passage_id": "6fd0b710562d9faad38913ca770ad926",
+        "passage_rank": 4,
+        "query_id": "343",
+        "sentence_id": "f096218b80c3bedbba06db143411072b",
+        "sentence_text": "Although TIMI major hemorrhage was increased among subjects without DM on prasugrel (1.6% versus 2.4%; HR, 1.43; P=0.02), the rates were similar among subjects with DM for clopidogrel and prasugrel (2.6% versus 2.5%; HR, 1.06; P=0.81, P(interaction)=0.29).",
+        "sentence_token_cost": 96,
+        "source_order": [
+          1138,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1983
+      },
+      {
+        "cross_encoder_score": -9.055529594421387,
+        "dataset": "SciFact",
+        "end_char": 2442,
+        "pair_tokens_before_truncation": 103,
+        "pair_truncated": false,
+        "passage_id": "6fd0b710562d9faad38913ca770ad926",
+        "passage_rank": 4,
+        "query_id": "343",
+        "sentence_id": "336737658c62761060f78ad14a296078",
+        "sentence_text": "Net clinical benefit with prasugrel was greater for subjects with DM (14.6% versus 19.2%; HR, 0.74; P=0.001) than for subjects without DM (11.5% versus 12.3%; HR, 0.92; P=0.16, P(interaction)=0.05).   \n",
+        "sentence_token_cost": 86,
+        "source_order": [
+          1138,
+          0,
+          11,
+          0
+        ],
+        "source_position": 2240
+      },
+      {
+        "cross_encoder_score": -2.521292209625244,
+        "dataset": "SciFact",
+        "end_char": 2665,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "6fd0b710562d9faad38913ca770ad926",
+        "passage_rank": 4,
+        "query_id": "343",
+        "sentence_id": "6f29a91a7b2bea90a34139c0e3ee187f",
+        "sentence_text": "CONCLUSIONS Subjects with DM tended to have a greater reduction in ischemic events without an observed increase in TIMI major bleeding and therefore a greater net treatment benefit with prasugrel compared with clopidogrel.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          1138,
+          0,
+          12,
+          0
+        ],
+        "source_position": 2443
+      },
+      {
+        "cross_encoder_score": -8.158834457397461,
+        "dataset": "SciFact",
+        "end_char": 2808,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "6fd0b710562d9faad38913ca770ad926",
+        "passage_rank": 4,
+        "query_id": "343",
+        "sentence_id": "04f445047549e460ad1b8c45e96ddd54",
+        "sentence_text": "These data demonstrate that the more intensive oral antiplatelet therapy provided with prasugrel is of particular benefit to patients with DM.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          1138,
+          0,
+          13,
+          0
+        ],
+        "source_position": 2666
+      },
+      {
+        "cross_encoder_score": 0.5375379323959351,
+        "dataset": "SciFact",
+        "end_char": 135,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "e9e3dbd1bb688420906ff398e1e2a675",
+        "passage_rank": 1,
+        "query_id": "343",
+        "sentence_id": "d90a73149456c0feb5ea3c0dc81b9d07",
+        "sentence_text": "Platelet glycoprotein IIb/IIIa inhibitors reduce mortality in diabetic patients with non-ST-segment-elevation acute coronary syndromes.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          1420,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 3.1389644145965576,
+        "dataset": "SciFact",
+        "end_char": 246,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "e9e3dbd1bb688420906ff398e1e2a675",
+        "passage_rank": 1,
+        "query_id": "343",
+        "sentence_id": "53cb9e3602fecf6e65070ba8e81b00a7",
+        "sentence_text": "BACKGROUND Diabetes mellitus is a major risk factor for adverse outcomes after acute coronary syndromes (ACS).",
+        "sentence_token_cost": 21,
+        "source_order": [
+          1420,
+          0,
+          1,
+          0
+        ],
+        "source_position": 136
+      },
+      {
+        "cross_encoder_score": -3.54123854637146,
+        "dataset": "SciFact",
+        "end_char": 465,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "e9e3dbd1bb688420906ff398e1e2a675",
+        "passage_rank": 1,
+        "query_id": "343",
+        "sentence_id": "4074995272a575a0e24ff01a684d14f4",
+        "sentence_text": "Because this disease may be associated with increased platelet aggregation, we investigated whether diabetic patients with ACS derive particular benefit from platelet glycoprotein (GP) IIb/IIIa receptor inhibition.   \n",
+        "sentence_token_cost": 40,
+        "source_order": [
+          1420,
+          0,
+          2,
+          0
+        ],
+        "source_position": 247
+      },
+      {
+        "cross_encoder_score": -8.211376190185547,
+        "dataset": "SciFact",
+        "end_char": 679,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "e9e3dbd1bb688420906ff398e1e2a675",
+        "passage_rank": 1,
+        "query_id": "343",
+        "sentence_id": "d81ab08009f88f7ac855606c7bad4269",
+        "sentence_text": "METHODS AND RESULTS We performed a meta-analysis of the diabetic populations enrolled in the 6 large-scale platelet GP IIb/IIIa inhibitor ACS trials: PRISM, PRISM-PLUS, PARAGON A, PARAGON B, PURSUIT, and GUSTO IV.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          1420,
+          0,
+          3,
+          0
+        ],
+        "source_position": 466
+      },
+      {
+        "cross_encoder_score": -4.708991050720215,
+        "dataset": "SciFact",
+        "end_char": 866,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "e9e3dbd1bb688420906ff398e1e2a675",
+        "passage_rank": 1,
+        "query_id": "343",
+        "sentence_id": "34fb03dc4e5ce404539128bf8a07db45",
+        "sentence_text": "Among 6458 diabetic patients, platelet GP IIb/IIIa inhibition was associated with a significant mortality reduction at 30 days, from 6.2% to 4.6% (OR 0.74; 95% CI 0.59 to 0.92; P=0.007).",
+        "sentence_token_cost": 76,
+        "source_order": [
+          1420,
+          0,
+          4,
+          0
+        ],
+        "source_position": 680
+      },
+      {
+        "cross_encoder_score": -5.001959323883057,
+        "dataset": "SciFact",
+        "end_char": 950,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "e9e3dbd1bb688420906ff398e1e2a675",
+        "passage_rank": 1,
+        "query_id": "343",
+        "sentence_id": "0fa411aa9c80db392f9eb679cc6f52bb",
+        "sentence_text": "Conversely, 23 072 nondiabetic patients had no survival benefit (3.0% versus 3.0%).",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1420,
+          0,
+          5,
+          0
+        ],
+        "source_position": 867
+      },
+      {
+        "cross_encoder_score": -7.156128406524658,
+        "dataset": "SciFact",
+        "end_char": 1067,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "e9e3dbd1bb688420906ff398e1e2a675",
+        "passage_rank": 1,
+        "query_id": "343",
+        "sentence_id": "6b29aa69cf3d521a5f6eba93157b7586",
+        "sentence_text": "The interaction between platelet GP IIb/IIIa inhibition and diabetic status was statistically significant (P=0.036).",
+        "sentence_token_cost": 27,
+        "source_order": [
+          1420,
+          0,
+          6,
+          0
+        ],
+        "source_position": 951
+      },
+      {
+        "cross_encoder_score": -1.7266566753387451,
+        "dataset": "SciFact",
+        "end_char": 1318,
+        "pair_tokens_before_truncation": 98,
+        "pair_truncated": false,
+        "passage_id": "e9e3dbd1bb688420906ff398e1e2a675",
+        "passage_rank": 1,
+        "query_id": "343",
+        "sentence_id": "3442dabf29092bc13d5140084cfa8411",
+        "sentence_text": "Among 1279 diabetic patients undergoing percutaneous coronary intervention (PCI) during index hospitalization, the use of these agents was associated with a mortality reduction at 30 days from 4.0% to 1.2% (OR 0.30; 95% CI 0.14 to 0.69; P=0.002).   \n",
+        "sentence_token_cost": 84,
+        "source_order": [
+          1420,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1068
+      },
+      {
+        "cross_encoder_score": -4.691715240478516,
+        "dataset": "SciFact",
+        "end_char": 1599,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "e9e3dbd1bb688420906ff398e1e2a675",
+        "passage_rank": 1,
+        "query_id": "343",
+        "sentence_id": "84857b454501ceca7c0ca36d5e300feb",
+        "sentence_text": "CONCLUSIONS This meta-analysis, including the entire large-scale trial experience of intravenous platelet GP IIb/IIIa inhibitors for the medical management of non-ST-segment-elevation ACS, shows that these agents may significantly reduce mortality at 30 days in diabetic patients.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          1420,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1319
+      },
+      {
+        "cross_encoder_score": -7.422704696655273,
+        "dataset": "SciFact",
+        "end_char": 1730,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "e9e3dbd1bb688420906ff398e1e2a675",
+        "passage_rank": 1,
+        "query_id": "343",
+        "sentence_id": "0cd25705f5d1d5f668d5388ca6ad377f",
+        "sentence_text": "Although not based on a randomized assessment, the survival benefit appears to be of greater magnitude in patients undergoing PCI.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1420,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1600
+      },
+      {
+        "cross_encoder_score": -5.782331943511963,
+        "dataset": "SciFact",
+        "end_char": 1845,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "e9e3dbd1bb688420906ff398e1e2a675",
+        "passage_rank": 1,
+        "query_id": "343",
+        "sentence_id": "3e21ae3ffbd1c25e8a98e9724593e24d",
+        "sentence_text": "Therefore, the use of platelet GP IIb/IIIa inhibitors should be strongly considered in diabetic patients with ACS.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          1420,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1731
+      },
+      {
+        "cross_encoder_score": -5.241387367248535,
+        "dataset": "SciFact",
+        "end_char": 68,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 6,
+        "query_id": "343",
+        "sentence_id": "a8fc1cfb59a819f5ac409aa89b3cf95d",
+        "sentence_text": "A new look at the heart in diabetes mellitus: from ailing to failing",
+        "sentence_token_cost": 16,
+        "source_order": [
+          2192,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.7165002822875977,
+        "dataset": "SciFact",
+        "end_char": 205,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 6,
+        "query_id": "343",
+        "sentence_id": "950abacde05d4031492d6bdfbe26ddb7",
+        "sentence_text": "This review discusses some of the mechanisms inherent in diabetes that predispose patients to increased cardiac morbidity and mortality.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          2192,
+          0,
+          1,
+          0
+        ],
+        "source_position": 69
+      },
+      {
+        "cross_encoder_score": -6.716089725494385,
+        "dataset": "SciFact",
+        "end_char": 537,
+        "pair_tokens_before_truncation": 91,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 6,
+        "query_id": "343",
+        "sentence_id": "07bd55f05469a854f2d1b148bc04cceb",
+        "sentence_text": "Single photon emission computerized tomography or photon emission tomography with radioactive labeled analogues of norepinephrine have shown that cardiac sympathetic dysfunction and incompetence are early and also late abnormalities in patients with Type I (insulin-dependent) and Type II (non-insulin-dependent) diabetes mellitus.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          2192,
+          0,
+          2,
+          0
+        ],
+        "source_position": 206
+      },
+      {
+        "cross_encoder_score": -6.992025375366211,
+        "dataset": "SciFact",
+        "end_char": 786,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 6,
+        "query_id": "343",
+        "sentence_id": "dd39cecd6791064c5d580fc24c6310f4",
+        "sentence_text": "Furthermore, myocardial blood flow assessment with photon emission tomography has shown that in patients without myocardial perfusion deficits, endothelial-dependent vasodilatation is severely reduced in relation to cardiac sympathetic dysfunction.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          2192,
+          0,
+          3,
+          0
+        ],
+        "source_position": 538
+      },
+      {
+        "cross_encoder_score": -5.221347808837891,
+        "dataset": "SciFact",
+        "end_char": 962,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 6,
+        "query_id": "343",
+        "sentence_id": "3ad025ac1d602aad5637f4a83731b005",
+        "sentence_text": "In addition, signs of endothelial activation have also been found early in patients with Type I and Type II diabetes in whom vascular disease has not been clinically detected.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          2192,
+          0,
+          4,
+          0
+        ],
+        "source_position": 787
+      },
+      {
+        "cross_encoder_score": -8.41904354095459,
+        "dataset": "SciFact",
+        "end_char": 1069,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 6,
+        "query_id": "343",
+        "sentence_id": "674614c83a55610c10f3ee165a879369",
+        "sentence_text": "This activation in conjunction with glycaemic control is important in determining macrovascular mortality.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          2192,
+          0,
+          5,
+          0
+        ],
+        "source_position": 963
+      },
+      {
+        "cross_encoder_score": -6.6789774894714355,
+        "dataset": "SciFact",
+        "end_char": 1171,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 6,
+        "query_id": "343",
+        "sentence_id": "52d489e77692ea93c1c586ae27056849",
+        "sentence_text": "Cardiac sympathetic dysfunction is partially restored to normal with near normalisation of glycaemia.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          2192,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1070
+      },
+      {
+        "cross_encoder_score": -6.3549675941467285,
+        "dataset": "SciFact",
+        "end_char": 1188,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 6,
+        "query_id": "343",
+        "sentence_id": "1038e58a685b3dd6b9edc21c6c0bb8d8",
+        "sentence_text": "Interpretations.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          2192,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1172
+      },
+      {
+        "cross_encoder_score": -8.433921813964844,
+        "dataset": "SciFact",
+        "end_char": 1354,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 6,
+        "query_id": "343",
+        "sentence_id": "d5f93c3683df5762876d8362ee6deb4c",
+        "sentence_text": "Recently unrecognized \u201csubtle\u201d changes predispose the heart to failure, after ischaemia-induced remodelling, and arteriosclerotic plaques to instability and rupture.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          2192,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1189
+      },
+      {
+        "cross_encoder_score": -7.102373123168945,
+        "dataset": "SciFact",
+        "end_char": 1550,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 6,
+        "query_id": "343",
+        "sentence_id": "b5f6afdb0773d21ef1be7f06b8a66ed5",
+        "sentence_text": "These changes act in conjunction with effects, driven by hyperglycaemia and diabetes, on the endothelium of large blood vessels, e. g. on nitric oxide release or on protein kinase-C \u03b2 activation.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          2192,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1355
+      },
+      {
+        "cross_encoder_score": 0.8066326379776001,
+        "dataset": "SciFact",
+        "end_char": 1797,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 6,
+        "query_id": "343",
+        "sentence_id": "54ee796eafa4a5989c6b3970a9d27d8d",
+        "sentence_text": "Meticulous glucose control early on and rapid recompensation of hyperglycaemia in patients with acute coronary syndrome are part of a successful intensive multifactorial approach to prevent the heart in diabetes converting from ailing to failing.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          2192,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1551
+      },
+      {
+        "cross_encoder_score": -3.737443208694458,
+        "dataset": "SciFact",
+        "end_char": 1833,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 6,
+        "query_id": "343",
+        "sentence_id": "4f79ec6c623f83bd6167752c1fcf335c",
+        "sentence_text": "[Diabetologia (2000) 43: 1455\u20131469]",
+        "sentence_token_cost": 25,
+        "source_order": [
+          2192,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1798
+      },
+      {
+        "cross_encoder_score": -4.420379161834717,
+        "dataset": "SciFact",
+        "end_char": 120,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "9f8ff71b7712ef8be8bfb2bdc84c2933",
+        "passage_rank": 5,
+        "query_id": "343",
+        "sentence_id": "6d598ed1653054d511566457b39c9a73",
+        "sentence_text": "Comparative determinants of 4-year cardiovascular event rates in stable outpatients at risk of or with atherothrombosis.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          2665,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.5949759483337402,
+        "dataset": "SciFact",
+        "end_char": 245,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "9f8ff71b7712ef8be8bfb2bdc84c2933",
+        "passage_rank": 5,
+        "query_id": "343",
+        "sentence_id": "27cb789fd0a903696ef7526d879a8f03",
+        "sentence_text": "CONTEXT Clinicians and trialists have difficulty with identifying which patients are highest risk for cardiovascular events.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2665,
+          0,
+          1,
+          0
+        ],
+        "source_position": 121
+      },
+      {
+        "cross_encoder_score": -3.5003268718719482,
+        "dataset": "SciFact",
+        "end_char": 442,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "9f8ff71b7712ef8be8bfb2bdc84c2933",
+        "passage_rank": 5,
+        "query_id": "343",
+        "sentence_id": "027b7ca0ab43b48b5aff64f32b3e4938",
+        "sentence_text": "Prior ischemic events, polyvascular disease, and diabetes mellitus have all been identified as predictors of ischemic events, but their comparative contributions to future risk remain unclear.   \n",
+        "sentence_token_cost": 35,
+        "source_order": [
+          2665,
+          0,
+          2,
+          0
+        ],
+        "source_position": 246
+      },
+      {
+        "cross_encoder_score": -2.960655689239502,
+        "dataset": "SciFact",
+        "end_char": 617,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "9f8ff71b7712ef8be8bfb2bdc84c2933",
+        "passage_rank": 5,
+        "query_id": "343",
+        "sentence_id": "4eef72da75cc7d641258871a1ff246bb",
+        "sentence_text": "OBJECTIVE To categorize the risk of cardiovascular events in stable outpatients with various initial manifestations of atherothrombosis using simple clinical descriptors.   \n",
+        "sentence_token_cost": 31,
+        "source_order": [
+          2665,
+          0,
+          3,
+          0
+        ],
+        "source_position": 443
+      },
+      {
+        "cross_encoder_score": -5.513110637664795,
+        "dataset": "SciFact",
+        "end_char": 937,
+        "pair_tokens_before_truncation": 95,
+        "pair_truncated": false,
+        "passage_id": "9f8ff71b7712ef8be8bfb2bdc84c2933",
+        "passage_rank": 5,
+        "query_id": "343",
+        "sentence_id": "f78dcfbc4862ed9eb878e18543187fbd",
+        "sentence_text": "DESIGN, SETTING, AND PATIENTS Outpatients with coronary artery disease, cerebrovascular disease, or peripheral arterial disease or with multiple risk factors for atherothrombosis were enrolled in the global Reduction of Atherothrombosis for Continued Health (REACH) Registry and were followed up for as long as 4 years.",
+        "sentence_token_cost": 71,
+        "source_order": [
+          2665,
+          0,
+          4,
+          0
+        ],
+        "source_position": 618
+      },
+      {
+        "cross_encoder_score": -7.589371681213379,
+        "dataset": "SciFact",
+        "end_char": 1044,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "9f8ff71b7712ef8be8bfb2bdc84c2933",
+        "passage_rank": 5,
+        "query_id": "343",
+        "sentence_id": "6560d15f1d624e2b8de582ca6243383e",
+        "sentence_text": "Patients from 3647 centers in 29 countries were enrolled between 2003 and 2004 and followed up until 2008.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          2665,
+          0,
+          5,
+          0
+        ],
+        "source_position": 938
+      },
+      {
+        "cross_encoder_score": -7.465201377868652,
+        "dataset": "SciFact",
+        "end_char": 1087,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "9f8ff71b7712ef8be8bfb2bdc84c2933",
+        "passage_rank": 5,
+        "query_id": "343",
+        "sentence_id": "d74b1c13e7199ed6a63ded4ba19dee89",
+        "sentence_text": "Final database lock was in April 2009.   \n",
+        "sentence_token_cost": 13,
+        "source_order": [
+          2665,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1045
+      },
+      {
+        "cross_encoder_score": -7.036272048950195,
+        "dataset": "SciFact",
+        "end_char": 1179,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "9f8ff71b7712ef8be8bfb2bdc84c2933",
+        "passage_rank": 5,
+        "query_id": "343",
+        "sentence_id": "aeaef9c0dbf99219fda26db35b309072",
+        "sentence_text": "MAIN OUTCOME MEASURES Rates of cardiovascular death, myocardial infarction, and stroke.   \n",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2665,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1088
+      },
+      {
+        "cross_encoder_score": -6.8061203956604,
+        "dataset": "SciFact",
+        "end_char": 1272,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "9f8ff71b7712ef8be8bfb2bdc84c2933",
+        "passage_rank": 5,
+        "query_id": "343",
+        "sentence_id": "67eead46420807eb0bca5e580a8c57e2",
+        "sentence_text": "RESULTS A total of 45,227 patients with baseline data were included in this 4-year analysis.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2665,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1180
+      },
+      {
+        "cross_encoder_score": -4.525010585784912,
+        "dataset": "SciFact",
+        "end_char": 1518,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "9f8ff71b7712ef8be8bfb2bdc84c2933",
+        "passage_rank": 5,
+        "query_id": "343",
+        "sentence_id": "90c9c56a1793c8ddeef5295500f62541",
+        "sentence_text": "During the follow-up period, a total of 5481 patients experienced at least 1 event, including 2315 with cardiovascular death, 1228 with myocardial infarction, 1898 with stroke, and 40 with both a myocardial infarction and stroke on the same day.",
+        "sentence_token_cost": 71,
+        "source_order": [
+          2665,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1273
+      },
+      {
+        "cross_encoder_score": -1.699905514717102,
+        "dataset": "SciFact",
+        "end_char": 2033,
+        "pair_tokens_before_truncation": 195,
+        "pair_truncated": false,
+        "passage_id": "9f8ff71b7712ef8be8bfb2bdc84c2933",
+        "passage_rank": 5,
+        "query_id": "343",
+        "sentence_id": "4eab9974f30b7fe64b614abbbebaf786",
+        "sentence_text": "Among patients with atherothrombosis, those with a prior history of ischemic events at baseline (n = 21,890) had the highest rate of subsequent ischemic events (18.3%; 95% confidence interval [CI], 17.4%-19.1%); patients with stable coronary, cerebrovascular, or peripheral artery disease (n = 15,264) had a lower risk (12.2%; 95% CI, 11.4%-12.9%); and patients without established atherothrombosis but with risk factors only (n = 8073) had the lowest risk (9.1%; 95% CI, 8.3%-9.9%) (P < .001 for all comparisons).",
+        "sentence_token_cost": 179,
+        "source_order": [
+          2665,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1519
+      },
+      {
+        "cross_encoder_score": -4.54110050201416,
+        "dataset": "SciFact",
+        "end_char": 2383,
+        "pair_tokens_before_truncation": 145,
+        "pair_truncated": false,
+        "passage_id": "9f8ff71b7712ef8be8bfb2bdc84c2933",
+        "passage_rank": 5,
+        "query_id": "343",
+        "sentence_id": "14b8d9c6d21d47b467bf9f9a1aa4ffa9",
+        "sentence_text": "In addition, in multivariable modeling, the presence of diabetes (hazard ratio [HR], 1.44; 95% CI, 1.36-1.53; P < .001), an ischemic event in the previous year (HR, 1.71; 95% CI, 1.57-1.85; P < .001), and polyvascular disease (HR, 1.99; 95% CI, 1.78-2.24; P < .001) each were associated with a significantly higher risk of the primary end point.   \n",
+        "sentence_token_cost": 143,
+        "source_order": [
+          2665,
+          0,
+          11,
+          0
+        ],
+        "source_position": 2034
+      },
+      {
+        "cross_encoder_score": -6.448856353759766,
+        "dataset": "SciFact",
+        "end_char": 2541,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "9f8ff71b7712ef8be8bfb2bdc84c2933",
+        "passage_rank": 5,
+        "query_id": "343",
+        "sentence_id": "8501666acee7479047a787967537df99",
+        "sentence_text": "CONCLUSION Clinical descriptors can assist clinicians in identifying high-risk patients within the broad range of risk for outpatients with atherothrombosis.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          2665,
+          0,
+          12,
+          0
+        ],
+        "source_position": 2384
+      },
+      {
+        "cross_encoder_score": -2.163323163986206,
+        "dataset": "SciFact",
+        "end_char": 157,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "68f2c32307b18db7d50052b9cb110c82",
+        "passage_rank": 2,
+        "query_id": "343",
+        "sentence_id": "74c4751b0a8184c0ba0bf776958c7c70",
+        "sentence_text": "Ticagrelor vs. clopidogrel in patients with acute coronary syndromes and diabetes: a substudy from the PLATelet inhibition and patient Outcomes (PLATO) trial",
+        "sentence_token_cost": 41,
+        "source_order": [
+          3497,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 6.716369152069092,
+        "dataset": "SciFact",
+        "end_char": 325,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "68f2c32307b18db7d50052b9cb110c82",
+        "passage_rank": 2,
+        "query_id": "343",
+        "sentence_id": "75d64b9c3614c0b8cce8471b3f72b41c",
+        "sentence_text": "AIMS patients with diabetes mellitus (DM) have high platelet reactivity and are at increased risk of ischaemic events and bleeding post-acute coronary syndromes (ACS).",
+        "sentence_token_cost": 38,
+        "source_order": [
+          3497,
+          0,
+          1,
+          0
+        ],
+        "source_position": 158
+      },
+      {
+        "cross_encoder_score": -5.902979850769043,
+        "dataset": "SciFact",
+        "end_char": 565,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "68f2c32307b18db7d50052b9cb110c82",
+        "passage_rank": 2,
+        "query_id": "343",
+        "sentence_id": "bdf8cdae74e9c4d1bd90d2b9c9dfec50",
+        "sentence_text": "In the PLATelet inhibition and patient Outcomes (PLATO) trial, ticagrelor reduced the primary composite endpoint of cardiovascular death, myocardial infarction, or stroke, but with similar rates of major bleeding compared with clopidogrel.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          3497,
+          0,
+          2,
+          0
+        ],
+        "source_position": 326
+      },
+      {
+        "cross_encoder_score": -8.122145652770996,
+        "dataset": "SciFact",
+        "end_char": 684,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "68f2c32307b18db7d50052b9cb110c82",
+        "passage_rank": 2,
+        "query_id": "343",
+        "sentence_id": "8da87d46a2ffd63071e9d17016845cbf",
+        "sentence_text": "We aimed to investigate the outcome with ticagrelor vs. clopidogrel in patients with DM or poor glycaemic control.   \n",
+        "sentence_token_cost": 29,
+        "source_order": [
+          3497,
+          0,
+          3,
+          0
+        ],
+        "source_position": 566
+      },
+      {
+        "cross_encoder_score": -7.491766452789307,
+        "dataset": "SciFact",
+        "end_char": 905,
+        "pair_tokens_before_truncation": 94,
+        "pair_truncated": false,
+        "passage_id": "68f2c32307b18db7d50052b9cb110c82",
+        "passage_rank": 2,
+        "query_id": "343",
+        "sentence_id": "e9f63b22c2b4f13c4354440ded557721",
+        "sentence_text": "METHODS AND RESULTS we analysed patients with pre-existing DM (n = 4662), including 1036 patients on insulin, those without DM (n = 13 951), and subgroups based on admission levels of haemoglobin A1c (HbA1c; n = 15 150).",
+        "sentence_token_cost": 75,
+        "source_order": [
+          3497,
+          0,
+          4,
+          0
+        ],
+        "source_position": 685
+      },
+      {
+        "cross_encoder_score": -0.931625485420227,
+        "dataset": "SciFact",
+        "end_char": 1294,
+        "pair_tokens_before_truncation": 158,
+        "pair_truncated": false,
+        "passage_id": "68f2c32307b18db7d50052b9cb110c82",
+        "passage_rank": 2,
+        "query_id": "343",
+        "sentence_id": "7989fc559a8ca9b171ca674d801966a4",
+        "sentence_text": "In patients with DM, the reduction in the primary composite endpoint (HR: 0.88, 95% CI: 0.76-1.03), all-cause mortality (HR: 0.82, 95% CI: 0.66-1.01), and stent thrombosis (HR: 0.65, 95% CI: 0.36-1.17) with no increase in major bleeding (HR: 0.95, 95% CI: 0.81-1.12) with ticagrelor was consistent with the overall cohort and without significant diabetes status-by-treatment interactions.",
+        "sentence_token_cost": 153,
+        "source_order": [
+          3497,
+          0,
+          5,
+          0
+        ],
+        "source_position": 906
+      },
+      {
+        "cross_encoder_score": -6.446290969848633,
+        "dataset": "SciFact",
+        "end_char": 1381,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "68f2c32307b18db7d50052b9cb110c82",
+        "passage_rank": 2,
+        "query_id": "343",
+        "sentence_id": "db71b492b755e024d697fe17680784d6",
+        "sentence_text": "There was no heterogeneity between patients with or without ongoing insulin treatment.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          3497,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1295
+      },
+      {
+        "cross_encoder_score": -5.361024379730225,
+        "dataset": "SciFact",
+        "end_char": 1673,
+        "pair_tokens_before_truncation": 140,
+        "pair_truncated": false,
+        "passage_id": "68f2c32307b18db7d50052b9cb110c82",
+        "passage_rank": 2,
+        "query_id": "343",
+        "sentence_id": "b110bfef75e17056b59b710d075ecb22",
+        "sentence_text": "ticagrelor reduced the primary endpoint, all-cause mortality, and stent thrombosis in patients with HbA1c above the median (HR: 0.80, 95% CI: 0.70-0.91; HR: 0.78, 95% CI: 0.65-0.93; and HR: 0.62, 95% CI: 0.39-1.00, respectively) with similar bleeding rates (HR: 0.98, 95% CI: 0.86-1.12).   \n",
+        "sentence_token_cost": 141,
+        "source_order": [
+          3497,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1382
+      },
+      {
+        "cross_encoder_score": 0.033234886825084686,
+        "dataset": "SciFact",
+        "end_char": 1870,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "68f2c32307b18db7d50052b9cb110c82",
+        "passage_rank": 2,
+        "query_id": "343",
+        "sentence_id": "da55653f58e68ef1db1d793299b5a40d",
+        "sentence_text": "CONCLUSION ticagrelor, when compared with clopidogrel, reduced ischaemic events in ACS patients irrespective of diabetic status and glycaemic control, without an increase in major bleeding events.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          3497,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1674
+      },
+      {
+        "cross_encoder_score": -7.332350730895996,
+        "dataset": "SciFact",
+        "end_char": 172,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "b7e6bf6521dfff6403d18917083a5a7e",
+        "passage_rank": 8,
+        "query_id": "343",
+        "sentence_id": "01b1271cbab34803d5f0db82f469045e",
+        "sentence_text": "Peroxisome proliferator-activated receptor gamma agonists for the Prevention of Adverse events following percutaneous coronary Revascularization--results of the PPAR study.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3548,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -0.10698279738426208,
+        "dataset": "SciFact",
+        "end_char": 272,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "b7e6bf6521dfff6403d18917083a5a7e",
+        "passage_rank": 8,
+        "query_id": "343",
+        "sentence_id": "5d54542a5c92d964762c0c3a18bb80d8",
+        "sentence_text": "BACKGROUND Patients with metabolic syndrome are at increased risk for cardiovascular complications.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          3548,
+          0,
+          1,
+          0
+        ],
+        "source_position": 173
+      },
+      {
+        "cross_encoder_score": -5.860250473022461,
+        "dataset": "SciFact",
+        "end_char": 480,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "b7e6bf6521dfff6403d18917083a5a7e",
+        "passage_rank": 8,
+        "query_id": "343",
+        "sentence_id": "97ed3a9de83f86726e27a0f7b9951ab1",
+        "sentence_text": "We sought to determine whether peroxisome proliferator-activated receptor gamma agonists had any beneficial effect on patients with metabolic syndrome undergoing percutaneous coronary intervention (PCI).   \n",
+        "sentence_token_cost": 36,
+        "source_order": [
+          3548,
+          0,
+          2,
+          0
+        ],
+        "source_position": 273
+      },
+      {
+        "cross_encoder_score": -7.13019323348999,
+        "dataset": "SciFact",
+        "end_char": 620,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "b7e6bf6521dfff6403d18917083a5a7e",
+        "passage_rank": 8,
+        "query_id": "343",
+        "sentence_id": "1787a93703fd24377b5cf23b670856a5",
+        "sentence_text": "METHODS A total of 200 patients with metabolic syndrome undergoing PCI were randomized to rosiglitazone or placebo and followed for 1 year.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          3548,
+          0,
+          3,
+          0
+        ],
+        "source_position": 481
+      },
+      {
+        "cross_encoder_score": -7.995357036590576,
+        "dataset": "SciFact",
+        "end_char": 799,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "b7e6bf6521dfff6403d18917083a5a7e",
+        "passage_rank": 8,
+        "query_id": "343",
+        "sentence_id": "da2804ae481ca1298116a0dea64e36f5",
+        "sentence_text": "Carotid intima-medial thickness (CIMT), inflammatory markers, lipid levels, brain natriuretic peptide, and clinical events were measured at baseline, 6 months, and 12 months.   \n",
+        "sentence_token_cost": 45,
+        "source_order": [
+          3548,
+          0,
+          4,
+          0
+        ],
+        "source_position": 621
+      },
+      {
+        "cross_encoder_score": -7.909424781799316,
+        "dataset": "SciFact",
+        "end_char": 873,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "b7e6bf6521dfff6403d18917083a5a7e",
+        "passage_rank": 8,
+        "query_id": "343",
+        "sentence_id": "b0af90a70c465a506b05e7f010fb1a5c",
+        "sentence_text": "RESULTS There was no significant difference in CIMT between the 2 groups.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          3548,
+          0,
+          5,
+          0
+        ],
+        "source_position": 800
+      },
+      {
+        "cross_encoder_score": -8.479528427124023,
+        "dataset": "SciFact",
+        "end_char": 1032,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "b7e6bf6521dfff6403d18917083a5a7e",
+        "passage_rank": 8,
+        "query_id": "343",
+        "sentence_id": "ed888c3660ab22a0a40d41f477c56885",
+        "sentence_text": "There was no difference in the 12-month composite end point of death, myocardial infarction (MI), stroke, or any recurrent ischemia (31.4% vs 30.2%, P = .99).",
+        "sentence_token_cost": 50,
+        "source_order": [
+          3548,
+          0,
+          6,
+          0
+        ],
+        "source_position": 874
+      },
+      {
+        "cross_encoder_score": -9.398282051086426,
+        "dataset": "SciFact",
+        "end_char": 1153,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "b7e6bf6521dfff6403d18917083a5a7e",
+        "passage_rank": 8,
+        "query_id": "343",
+        "sentence_id": "c8ff417426efc292b5e9a9a39b878870",
+        "sentence_text": "The rate of death, MI, or stroke at 12 months was numerically lower in the rosiglitazone group (11.9% vs 6.4%, P = .19).",
+        "sentence_token_cost": 44,
+        "source_order": [
+          3548,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1033
+      },
+      {
+        "cross_encoder_score": -10.383737564086914,
+        "dataset": "SciFact",
+        "end_char": 1573,
+        "pair_tokens_before_truncation": 170,
+        "pair_truncated": false,
+        "passage_id": "b7e6bf6521dfff6403d18917083a5a7e",
+        "passage_rank": 8,
+        "query_id": "343",
+        "sentence_id": "d2492f5ce57c5a63b62d37ca98073ff7",
+        "sentence_text": "There was a trend toward a greater decrease over time in high-sensitivity C-reactive protein values compared with baseline in the group randomized to rosiglitazone versus placebo both at 6 months (-35.4% vs -15.8%, P = .059) and 12 months (-40.0% vs -20.9%, P = .089) and higher change in high-density lipoprotein (+15.5% vs +4.1%, P = .05) and lower triglycerides (-13.9% vs +14.9%, P = .004) in the rosiglitazone arm.",
+        "sentence_token_cost": 145,
+        "source_order": [
+          3548,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1154
+      },
+      {
+        "cross_encoder_score": -6.076092720031738,
+        "dataset": "SciFact",
+        "end_char": 1717,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "b7e6bf6521dfff6403d18917083a5a7e",
+        "passage_rank": 8,
+        "query_id": "343",
+        "sentence_id": "9faf8d14ba3e7d6b9b8b897c1e9ece9f",
+        "sentence_text": "There was a trend toward less new onset diabetes in the rosiglitazone group (0% vs 3.3%, P = .081) and no episodes of symptomatic hypoglycemia.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          3548,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1574
+      },
+      {
+        "cross_encoder_score": -8.784672737121582,
+        "dataset": "SciFact",
+        "end_char": 1880,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "b7e6bf6521dfff6403d18917083a5a7e",
+        "passage_rank": 8,
+        "query_id": "343",
+        "sentence_id": "b71b43f2d2e629661bb76033e2c37a20",
+        "sentence_text": "There was no excess of new onset of clinical heart failure in the rosiglitazone group, nor was there a significant change in brain natriuretic peptide levels.   \n",
+        "sentence_token_cost": 36,
+        "source_order": [
+          3548,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1718
+      },
+      {
+        "cross_encoder_score": 1.818327784538269,
+        "dataset": "SciFact",
+        "end_char": 2004,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "b7e6bf6521dfff6403d18917083a5a7e",
+        "passage_rank": 8,
+        "query_id": "343",
+        "sentence_id": "c60040c32f9edc292ade58c30a35c0fa",
+        "sentence_text": "CONCLUSIONS Patients with metabolic syndrome presenting for PCI are at increased risk for subsequent cardiovascular events.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3548,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1881
+      },
+      {
+        "cross_encoder_score": -9.72177505493164,
+        "dataset": "SciFact",
+        "end_char": 2207,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "b7e6bf6521dfff6403d18917083a5a7e",
+        "passage_rank": 8,
+        "query_id": "343",
+        "sentence_id": "2943dbcb4da2678c1c17d08c42ba16e7",
+        "sentence_text": "Rosiglitazone for 12 months did not appear to affect CIMT in this population, although it did have beneficial effects on high-sensitivity C-reactive protein, high-density lipoprotein, and triglycerides.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          3548,
+          0,
+          12,
+          0
+        ],
+        "source_position": 2005
+      },
+      {
+        "cross_encoder_score": -7.58216667175293,
+        "dataset": "SciFact",
+        "end_char": 2344,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "b7e6bf6521dfff6403d18917083a5a7e",
+        "passage_rank": 8,
+        "query_id": "343",
+        "sentence_id": "440fe25263f71234f1adc63142d7b764",
+        "sentence_text": "Further study of peroxisome proliferator-activated receptor agonism in patients with metabolic syndrome undergoing PCI may be warranted.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3548,
+          0,
+          13,
+          0
+        ],
+        "source_position": 2208
+      },
+      {
+        "cross_encoder_score": -2.4549858570098877,
+        "dataset": "SciFact",
+        "end_char": 49,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 10,
+        "query_id": "343",
+        "sentence_id": "72225f47a13b9058094cf0af0996de8c",
+        "sentence_text": "Metabolic syndrome as a risk factor for diabetes.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          3987,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.22625207901001,
+        "dataset": "SciFact",
+        "end_char": 345,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 10,
+        "query_id": "343",
+        "sentence_id": "b9719eb12bfb0ffb2c74d181492b446b",
+        "sentence_text": "The metabolic syndrome was initially described as an insulin-resistance syndrome characterized by the clustering of metabolic traits such as high triglycerides, low high-density lipoprotein cholesterol, high blood pressure, abdominal obesity and different degrees of impaired glucose regulation.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          3987,
+          0,
+          1,
+          0
+        ],
+        "source_position": 50
+      },
+      {
+        "cross_encoder_score": -3.0996947288513184,
+        "dataset": "SciFact",
+        "end_char": 731,
+        "pair_tokens_before_truncation": 96,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 10,
+        "query_id": "343",
+        "sentence_id": "23a969714bf7f8a20ed008c86ef72867",
+        "sentence_text": "Although different definitions have been developed by various consensus groups, epidemiological studies demonstrate that they all associate the metabolic syndrome with a similar cardiometabolic risk, which is high for diabetes (ranging between three- and 20-fold), depending on the number of components and the inclusion of impaired fasting glucose, impaired glucose tolerance or both.",
+        "sentence_token_cost": 67,
+        "source_order": [
+          3987,
+          0,
+          2,
+          0
+        ],
+        "source_position": 346
+      },
+      {
+        "cross_encoder_score": -7.557365417480469,
+        "dataset": "SciFact",
+        "end_char": 882,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 10,
+        "query_id": "343",
+        "sentence_id": "c961c3c00b96f720fa7257ca0d118a8e",
+        "sentence_text": "The latter appear to indicate the failure of the beta cell to produce enough insulin to compensate for the increased demand due to insulin resistance.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          3987,
+          0,
+          3,
+          0
+        ],
+        "source_position": 732
+      },
+      {
+        "cross_encoder_score": -7.878134727478027,
+        "dataset": "SciFact",
+        "end_char": 1019,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 10,
+        "query_id": "343",
+        "sentence_id": "d3c0648e4bd06b6e94c49c1465136c9f",
+        "sentence_text": "There is a hyperbolic relationship between insulin production and insulin sensitivity, which can be calculated by the disposition index.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3987,
+          0,
+          4,
+          0
+        ],
+        "source_position": 883
+      },
+      {
+        "cross_encoder_score": -3.879059076309204,
+        "dataset": "SciFact",
+        "end_char": 1094,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 10,
+        "query_id": "343",
+        "sentence_id": "926c4401fd51ec2b7b101fd79b6c8587",
+        "sentence_text": "When this is altered there is a higher risk of developing Type 2 diabetes.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          3987,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1020
+      },
+      {
+        "cross_encoder_score": -6.280880928039551,
+        "dataset": "SciFact",
+        "end_char": 1429,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 10,
+        "query_id": "343",
+        "sentence_id": "cee76799ed91b895bae4c33fa7950587",
+        "sentence_text": "There have been no clinical trials in subjects selected by the diagnosis of metabolic syndrome, but structured lifestyle changes have been tested in people with impaired fasting glucose/impaired glucose tolerance and have been able to reduce incident Type 2 diabetes by almost 50%, as long as a weight loss of at least 5% is achieved.",
+        "sentence_token_cost": 65,
+        "source_order": [
+          3987,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1095
+      },
+      {
+        "cross_encoder_score": -7.479984760284424,
+        "dataset": "SciFact",
+        "end_char": 1516,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 10,
+        "query_id": "343",
+        "sentence_id": "b78b3adff64836573e3bb625656ffbe7",
+        "sentence_text": "Oral antidiabetic and anti-obesity drugs have also been successful to a lesser degree.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3987,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1430
+      },
+      {
+        "cross_encoder_score": -5.320648670196533,
+        "dataset": "SciFact",
+        "end_char": 1573,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 10,
+        "query_id": "343",
+        "sentence_id": "ed05b209f75454233a5f32f58a49df51",
+        "sentence_text": "Some fibrates have reduced or delayed incident diabetes.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          3987,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1517
+      },
+      {
+        "cross_encoder_score": -9.83232593536377,
+        "dataset": "SciFact",
+        "end_char": 1649,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 10,
+        "query_id": "343",
+        "sentence_id": "2dd1cc34defae3c7affbce0bcc99870f",
+        "sentence_text": "Extended-release niacin has a neutral effect and statins are controversial.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          3987,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1574
+      },
+      {
+        "cross_encoder_score": -6.516070365905762,
+        "dataset": "SciFact",
+        "end_char": 1746,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "4c4df0972f6b6379bd6741dbe898f84b",
+        "passage_rank": 10,
+        "query_id": "343",
+        "sentence_id": "10af6acf3889d0503e3ee3d0aec0a14b",
+        "sentence_text": "ACE inhibitors and ARBs are the antihypertensive agents least associated with incident diabetes.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3987,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1650
+      },
+      {
+        "cross_encoder_score": -4.3974432945251465,
+        "dataset": "SciFact",
+        "end_char": 100,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "d72454186239b8ef18001550f4fcd7a2",
+        "passage_rank": 9,
+        "query_id": "343",
+        "sentence_id": "20d7955569e189f8d409d5154edf298c",
+        "sentence_text": "Comparative risk of new-onset diabetes mellitus for antihypertensive drugs: A network meta-analysis.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          4889,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.12398624420166,
+        "dataset": "SciFact",
+        "end_char": 257,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "d72454186239b8ef18001550f4fcd7a2",
+        "passage_rank": 9,
+        "query_id": "343",
+        "sentence_id": "9b76e1687d17a733894ba894ddc86e0a",
+        "sentence_text": "New-onset diabetes mellitus (NOD) refers to forms of diabetes mellitus that develop during the therapeutic processes of other diseases such as hypertension.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          4889,
+          0,
+          1,
+          0
+        ],
+        "source_position": 101
+      },
+      {
+        "cross_encoder_score": -10.041994094848633,
+        "dataset": "SciFact",
+        "end_char": 454,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "d72454186239b8ef18001550f4fcd7a2",
+        "passage_rank": 9,
+        "query_id": "343",
+        "sentence_id": "0ed1b034d025125091242a58dd800ff3",
+        "sentence_text": "This study has been conducted in a network meta-analysis to compare antihypertensive drugs by identifying both the advantages and disadvantages on NOD by focusing on their respective effect rates.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          4889,
+          0,
+          2,
+          0
+        ],
+        "source_position": 258
+      },
+      {
+        "cross_encoder_score": -9.427633285522461,
+        "dataset": "SciFact",
+        "end_char": 589,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "d72454186239b8ef18001550f4fcd7a2",
+        "passage_rank": 9,
+        "query_id": "343",
+        "sentence_id": "04fa35851cc5c83d2ddb87cf7c996c87",
+        "sentence_text": "Odd ratios and corresponding 95% confidence intervals or credible intervals were calculated within pairwise and network meta-analysis.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          4889,
+          0,
+          3,
+          0
+        ],
+        "source_position": 455
+      },
+      {
+        "cross_encoder_score": -8.64095401763916,
+        "dataset": "SciFact",
+        "end_char": 712,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "d72454186239b8ef18001550f4fcd7a2",
+        "passage_rank": 9,
+        "query_id": "343",
+        "sentence_id": "e9608c0f8b4d1757df3ef81b047415c3",
+        "sentence_text": "A total of 38 articles with 224 140 patients were included to evaluate the preventive effect of hypertension drugs on NOD.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          4889,
+          0,
+          4,
+          0
+        ],
+        "source_position": 590
+      },
+      {
+        "cross_encoder_score": -8.967988967895508,
+        "dataset": "SciFact",
+        "end_char": 1251,
+        "pair_tokens_before_truncation": 160,
+        "pair_truncated": false,
+        "passage_id": "d72454186239b8ef18001550f4fcd7a2",
+        "passage_rank": 9,
+        "query_id": "343",
+        "sentence_id": "f122230df7a2ef8b10991f27bc129456",
+        "sentence_text": "From the network meta-analysis it was evident that both angiotensin-converting enzyme inhibitor as well as angiotensin receptor blocker treatments are associated with a lower risk of developing NOD compared with placebo, with ranking probabilities of 79.81% and 72.77%, respectively, while \u03b2-blockers and calcium channel blockers may significantly increase the probability of developing NOD (\u03b2-blockers: odds ratio, 2.18 [95% credible intervals: 1.36-3.50]; calcium channel blockers: odds ratio, 1.16 [95% credible intervals, 1.05-1.29]).",
+        "sentence_token_cost": 141,
+        "source_order": [
+          4889,
+          0,
+          5,
+          0
+        ],
+        "source_position": 713
+      },
+      {
+        "cross_encoder_score": -9.35462474822998,
+        "dataset": "SciFact",
+        "end_char": 1359,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "d72454186239b8ef18001550f4fcd7a2",
+        "passage_rank": 9,
+        "query_id": "343",
+        "sentence_id": "d77cd01094b16dd29d6bb20184e44c32",
+        "sentence_text": "In conclusion, angiotensin receptor blockers have an advantage over the other treatments regarding the NOD.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          4889,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1252
+      },
+      {
+        "cross_encoder_score": -6.015854358673096,
+        "dataset": "SciFact",
+        "end_char": 48,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "d62f8ca677c3b2b44e2cb3bd1136f986",
+        "passage_rank": 7,
+        "query_id": "343",
+        "sentence_id": "9786e6d6b0ebecf4f4fbf3db72425930",
+        "sentence_text": "Platelet activation in type 2 diabetes mellitus.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          4916,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.523510456085205,
+        "dataset": "SciFact",
+        "end_char": 265,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "d62f8ca677c3b2b44e2cb3bd1136f986",
+        "passage_rank": 7,
+        "query_id": "343",
+        "sentence_id": "7ab36820db7631d817c42035b7b97bdc",
+        "sentence_text": "The abnormal metabolic state that accompanies diabetes renders arteries susceptible to atherosclerosis, being capable of altering the functional properties of multiple cell types, including endothelium and platelets.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          4916,
+          0,
+          1,
+          0
+        ],
+        "source_position": 49
+      },
+      {
+        "cross_encoder_score": -5.158454418182373,
+        "dataset": "SciFact",
+        "end_char": 441,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "d62f8ca677c3b2b44e2cb3bd1136f986",
+        "passage_rank": 7,
+        "query_id": "343",
+        "sentence_id": "08a8876d5c276bdcba8e04b245245a8c",
+        "sentence_text": "In particular, an altered platelet metabolism and changes in intraplatelet signaling pathways may contribute to the pathogenesis of atherothrombotic complications of diabetes.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          4916,
+          0,
+          2,
+          0
+        ],
+        "source_position": 266
+      },
+      {
+        "cross_encoder_score": -8.810713768005371,
+        "dataset": "SciFact",
+        "end_char": 519,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "d62f8ca677c3b2b44e2cb3bd1136f986",
+        "passage_rank": 7,
+        "query_id": "343",
+        "sentence_id": "ef273d4001d513159c689148ed85557c",
+        "sentence_text": "A variety of mechanisms may be responsible for enhanced platelet aggregation.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          4916,
+          0,
+          3,
+          0
+        ],
+        "source_position": 442
+      },
+      {
+        "cross_encoder_score": -10.002263069152832,
+        "dataset": "SciFact",
+        "end_char": 789,
+        "pair_tokens_before_truncation": 86,
+        "pair_truncated": false,
+        "passage_id": "d62f8ca677c3b2b44e2cb3bd1136f986",
+        "passage_rank": 7,
+        "query_id": "343",
+        "sentence_id": "a365d2a5591daac28ed261d6cff5eb4c",
+        "sentence_text": "Among them, hyperglycemia may represent a causal factor for in vivo platelet activation, and may be responsible for nonenzymatic glycation of platelet glycoproteins, causing changes in their structure and conformation, as well as alterations of membrane lipid dynamics.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          4916,
+          0,
+          4,
+          0
+        ],
+        "source_position": 520
+      },
+      {
+        "cross_encoder_score": -9.49226188659668,
+        "dataset": "SciFact",
+        "end_char": 1061,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "d62f8ca677c3b2b44e2cb3bd1136f986",
+        "passage_rank": 7,
+        "query_id": "343",
+        "sentence_id": "1a0d3321134e86a9fb6e4a0d219a3fce",
+        "sentence_text": "Furthermore, hyperglycemia-induced oxidative stress is responsible for enhanced peroxidation of arachidonic acid to form biologically active isoprostanes, which represents an important biochemical link between impaired glycemic control and persistent platelet activation.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          4916,
+          0,
+          5,
+          0
+        ],
+        "source_position": 790
+      },
+      {
+        "cross_encoder_score": -9.438374519348145,
+        "dataset": "SciFact",
+        "end_char": 1367,
+        "pair_tokens_before_truncation": 87,
+        "pair_truncated": false,
+        "passage_id": "d62f8ca677c3b2b44e2cb3bd1136f986",
+        "passage_rank": 7,
+        "query_id": "343",
+        "sentence_id": "7bdcbb68b5e110f0e424fbbd43f9c7df",
+        "sentence_text": "Finally, increased oxidative stress is responsible for activation of transcription factors and expression of redox-sensitive genes leading to a phenotypic switch of endothelium toward an adhesive, pro-thrombotic condition, initial platelet activation, adhesion and subsequent platelet aggregate formation.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          4916,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1062
+      },
+      {
+        "cross_encoder_score": -6.430870056152344,
+        "dataset": "SciFact",
+        "end_char": 1636,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "d62f8ca677c3b2b44e2cb3bd1136f986",
+        "passage_rank": 7,
+        "query_id": "343",
+        "sentence_id": "7377a31b2aa840f3dca75d09647a30c0",
+        "sentence_text": "All this evidence is strengthened by the results of clinical trials documenting the beneficial effects of metabolic control on platelet function, and by the finding that aspirin treatment may even be more beneficial in diabetic than in high-risk non-diabetic patients.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          4916,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1368
+      },
+      {
+        "cross_encoder_score": -0.7930119037628174,
+        "dataset": "SciFact",
+        "end_char": 1775,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "d62f8ca677c3b2b44e2cb3bd1136f986",
+        "passage_rank": 7,
+        "query_id": "343",
+        "sentence_id": "760ecd455cb9fa0b80e936315dc1d101",
+        "sentence_text": "Attention to appropriate medical management of diabetic patients will have great impact on long-term outcome in this high-risk population.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          4916,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1637
+      }
+    ],
+    "scoring_seconds": 1.1102406810969114,
+    "source_fingerprint": "715799378357ce08bfcf3c506b8ba738953871bf5cdce3cc169999693bfa2c10"
+  }
+}

@@ -1,0 +1,1651 @@
+{
+  "checksum": "0106e7c64c791d6afa54ccd3fd1ad1b324fd749f9b4ae0efef9cbf21125f0d5b",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "5cb610d3d5d7d447b4cd5736d6a7d8262140af58"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 81,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "48726150cbb1b1e1bce3ed978e93c71a6d19bb2818c6ae48c823b6bbf7d0ec97",
+    "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+    "scores": [
+      {
+        "cross_encoder_score": -1.220819354057312,
+        "dataset": "QASPER",
+        "end_char": 2659,
+        "pair_tokens_before_truncation": 107,
+        "pair_truncated": false,
+        "passage_id": "5bf73a68edbc4b8b30255a9056b43cad",
+        "passage_rank": 9,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "26f64929715d53c9bcfb8154d43fd782",
+        "sentence_text": "We use this baseline implementation as a starting point and achieve the best overall accuracy of 49.87 on Task 2 by introducing three augmentations to the provided baseline system: (1) We use an LSTM to encode the entire available context; (2) We employ a multi-task learning approach with the auxiliary objective of MSD prediction; and (3) We train the auxiliary component in a multilingual fashion, over sets of two to three languages.",
+        "sentence_token_cost": 92,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2222
+      },
+      {
+        "cross_encoder_score": -11.18818473815918,
+        "dataset": "QASPER",
+        "end_char": 2891,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "5bf73a68edbc4b8b30255a9056b43cad",
+        "passage_rank": 9,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "a883a0956074547e72e56cfccf5f9b4c",
+        "sentence_text": "In analysing the performance of our system, we found that encoding the full context improves performance considerably for all languages: 11.15 percentage points on average, although it also highly increases the variance in results.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2660
+      },
+      {
+        "cross_encoder_score": 1.0568267107009888,
+        "dataset": "QASPER",
+        "end_char": 3081,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "5bf73a68edbc4b8b30255a9056b43cad",
+        "passage_rank": 9,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "ffcaf5ac980fbd4ea33e27184d7159ee",
+        "sentence_text": "Multi-task learning, paired with multilingual training and subsequent monolingual finetuning, scored highest for five out of seven languages, improving accuracy by another 9.86% on average.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 2892
+      },
+      {
+        "cross_encoder_score": -11.329349517822266,
+        "dataset": "QASPER",
+        "end_char": 3333,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "5bf73a68edbc4b8b30255a9056b43cad",
+        "passage_rank": 9,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "67d986716add27210442fb775e655789",
+        "sentence_text": "System Description\tOur system is a modification of the provided CoNLL\u2013SIGMORPHON 2018 baseline system, so we begin this section with a reiteration of the baseline system architecture, followed by a description of the three augmentations we introduce.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3083
+      },
+      {
+        "cross_encoder_score": -11.354727745056152,
+        "dataset": "QASPER",
+        "end_char": 3416,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "5bf73a68edbc4b8b30255a9056b43cad",
+        "passage_rank": 9,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "fe9a0ee480625c95bfeb86979713b404",
+        "sentence_text": "Baseline\tThe CoNLL\u2013SIGMORPHON 2018 baseline is described as follows:   The system",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3335
+      },
+      {
+        "cross_encoder_score": -8.991209030151367,
+        "dataset": "QASPER",
+        "end_char": 4793,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "76f3335186f822fc41f15bb8284edd07",
+        "passage_rank": 10,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "ea43bca024f4a15ad1fe9726b10de408",
+        "sentence_text": "with a default learning rate of 0.001; and trained models are evaluated on the development data (the data for the shared task comes already split in train and dev sets).",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "source_position": 4624
+      },
+      {
+        "cross_encoder_score": -11.3344087600708,
+        "dataset": "QASPER",
+        "end_char": 4869,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "76f3335186f822fc41f15bb8284edd07",
+        "passage_rank": 10,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "02f3572c5534c175c4b4a7b33caba722",
+        "sentence_text": "Our system\tHere we compare and contrast our system to the baseline system.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "source_position": 4795
+      },
+      {
+        "cross_encoder_score": -11.23388671875,
+        "dataset": "QASPER",
+        "end_char": 4922,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "76f3335186f822fc41f15bb8284edd07",
+        "passage_rank": 10,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "3beadd2067f779707a394fcd1178543f",
+        "sentence_text": "A diagram of our system is shown in Figure FIGREF4 .",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "source_position": 4870
+      },
+      {
+        "cross_encoder_score": -11.304631233215332,
+        "dataset": "QASPER",
+        "end_char": 5048,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "76f3335186f822fc41f15bb8284edd07",
+        "passage_rank": 10,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "5770aff1130eeba960bab964d2d73c14",
+        "sentence_text": "The idea behind this modification is to provide the encoder with access to all morpho-syntactic cues present in the sentence.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "source_position": 4923
+      },
+      {
+        "cross_encoder_score": -11.29594898223877,
+        "dataset": "QASPER",
+        "end_char": 5177,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "76f3335186f822fc41f15bb8284edd07",
+        "passage_rank": 10,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "457653c5ce2d8d3dff8ad694974a8dbc",
+        "sentence_text": "In contrast to the baseline, which only encodes the immediately adjacent context of a target word, we encode the entire context.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "source_position": 5049
+      },
+      {
+        "cross_encoder_score": -11.331459045410156,
+        "dataset": "QASPER",
+        "end_char": 5342,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "76f3335186f822fc41f15bb8284edd07",
+        "passage_rank": 10,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "297e6a633ddcf2bb8498bbcf1d5a2839",
+        "sentence_text": "All context word forms, lemmas, and MSD tags (in Track 1) are embedded in their respective high-dimensional spaces as before, and their embeddings are concatenated.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          4,
+          5,
+          0
+        ],
+        "source_position": 5178
+      },
+      {
+        "cross_encoder_score": -11.201557159423828,
+        "dataset": "QASPER",
+        "end_char": 5532,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "76f3335186f822fc41f15bb8284edd07",
+        "passage_rank": 10,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "8b72fa56a0ca04e4d07b06384620daa2",
+        "sentence_text": "However, we now reduce the entire past context to a fixed-size vector by encoding it with a forward LSTM, and we similarly represent the future context by encoding it with a backwards LSTM.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          4,
+          6,
+          0
+        ],
+        "source_position": 5343
+      },
+      {
+        "cross_encoder_score": -10.979852676391602,
+        "dataset": "QASPER",
+        "end_char": 5734,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "76f3335186f822fc41f15bb8284edd07",
+        "passage_rank": 10,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "29b7c6e87bce5191c89e19e4ae5f0983",
+        "sentence_text": "We introduce an auxiliary objective that is meant to increase the morpho-syntactic awareness of the encoder and to regularise the learning process\u2014the task is to predict the MSD tag of the target form.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          4,
+          7,
+          0
+        ],
+        "source_position": 5533
+      },
+      {
+        "cross_encoder_score": -11.347838401794434,
+        "dataset": "QASPER",
+        "end_char": 5819,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "76f3335186f822fc41f15bb8284edd07",
+        "passage_rank": 10,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "ccf6230cbad7272b99a998d3d292e22b",
+        "sentence_text": "MSD tag predictions are conditioned on the context encoding, as described in UID15 .",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          4,
+          8,
+          0
+        ],
+        "source_position": 5735
+      },
+      {
+        "cross_encoder_score": -11.379015922546387,
+        "dataset": "QASPER",
+        "end_char": 5870,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "76f3335186f822fc41f15bb8284edd07",
+        "passage_rank": 10,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "09f16b513437a23ab156f3843781ebb2",
+        "sentence_text": "Tags are generated with an LSTM one component at a",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          4,
+          9,
+          0
+        ],
+        "source_position": 5820
+      },
+      {
+        "cross_encoder_score": -11.312033653259277,
+        "dataset": "QASPER",
+        "end_char": 5991,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "c84508285d5222d8f02fc5b109216b4d",
+        "passage_rank": 2,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "aaea7fe39ee39ac41f72bab61d4b6163",
+        "sentence_text": "time, e.g. the tag PRO;NOM;SG;1 is predicted as a sequence of four components, INLINEFORM0 PRO, NOM, SG, 1 INLINEFORM1 .",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 5871
+      },
+      {
+        "cross_encoder_score": -10.299779891967773,
+        "dataset": "QASPER",
+        "end_char": 6108,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "c84508285d5222d8f02fc5b109216b4d",
+        "passage_rank": 2,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "c54b45665cdfcc0187a2e2864b9a26c4",
+        "sentence_text": "For every training instance, we backpropagate the sum of the main loss and the auxiliary loss without any weighting.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 5992
+      },
+      {
+        "cross_encoder_score": -11.367066383361816,
+        "dataset": "QASPER",
+        "end_char": 6197,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "c84508285d5222d8f02fc5b109216b4d",
+        "passage_rank": 2,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "a0acd451843095efbdd6a6dfa4a15e9f",
+        "sentence_text": "As MSD tags are only available in Track 1, this augmentation only applies to this track.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 6109
+      },
+      {
+        "cross_encoder_score": -11.33493709564209,
+        "dataset": "QASPER",
+        "end_char": 6284,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "c84508285d5222d8f02fc5b109216b4d",
+        "passage_rank": 2,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "4072f644e099a414f86dc3e7485c7e81",
+        "sentence_text": "The parameters of the entire MSD (auxiliary-task) decoder are shared across languages.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 6198
+      },
+      {
+        "cross_encoder_score": -11.254220008850098,
+        "dataset": "QASPER",
+        "end_char": 6528,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "c84508285d5222d8f02fc5b109216b4d",
+        "passage_rank": 2,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "1fd44e09e84b74673ace127f6c3584bb",
+        "sentence_text": "Since a grouping of the languages based on language family would have left several languages in single-member groups (e.g. Russian is the sole representative of the Slavic family), we experiment with random groupings of two to three languages.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 6285
+      },
+      {
+        "cross_encoder_score": 8.287898063659668,
+        "dataset": "QASPER",
+        "end_char": 6630,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "c84508285d5222d8f02fc5b109216b4d",
+        "passage_rank": 2,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "5281fb2d93d517b2c379f26835248a9b",
+        "sentence_text": "Multilingual training is performed by randomly alternating between languages for every new minibatch.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 6529
+      },
+      {
+        "cross_encoder_score": -11.305312156677246,
+        "dataset": "QASPER",
+        "end_char": 6820,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "c84508285d5222d8f02fc5b109216b4d",
+        "passage_rank": 2,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "d8a49b027d66c3906b67ca9b76b01fa9",
+        "sentence_text": "We do not pass any information to the auxiliary decoder as to the source language of the signal it is receiving, as we assume abstract morpho-syntactic features are shared across languages.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 6631
+      },
+      {
+        "cross_encoder_score": 5.639471530914307,
+        "dataset": "QASPER",
+        "end_char": 6927,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "c84508285d5222d8f02fc5b109216b4d",
+        "passage_rank": 2,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "7f56939a9ed8fb94939c1046b1083518",
+        "sentence_text": "After 20 epochs of multilingual training, we perform 5 epochs of monolingual finetuning for each language.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 6821
+      },
+      {
+        "cross_encoder_score": -11.00592041015625,
+        "dataset": "QASPER",
+        "end_char": 7041,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "c84508285d5222d8f02fc5b109216b4d",
+        "passage_rank": 2,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "cc2fc308908af2ffea673481e16162aa",
+        "sentence_text": "For this phase, we reduce the learning rate to a tenth of the original learning rate, i.e. 0.0001, to ensure that",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          5,
+          8,
+          0
+        ],
+        "source_position": 6928
+      },
+      {
+        "cross_encoder_score": -10.9701509475708,
+        "dataset": "QASPER",
+        "end_char": 7102,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "32a3450f5d51127615c57bc0efb69022",
+        "passage_rank": 4,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "96648ce8fbdf7483c286a65132979d6d",
+        "sentence_text": "the models are indeed being finetuned rather than retrained.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 7042
+      },
+      {
+        "cross_encoder_score": -11.316815376281738,
+        "dataset": "QASPER",
+        "end_char": 7159,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "32a3450f5d51127615c57bc0efb69022",
+        "passage_rank": 4,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "5082f3ad00641a383e8bdad0bdacb6f1",
+        "sentence_text": "We keep all hyperparameters the same as in the baseline.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 7103
+      },
+      {
+        "cross_encoder_score": -10.304272651672363,
+        "dataset": "QASPER",
+        "end_char": 7217,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "32a3450f5d51127615c57bc0efb69022",
+        "passage_rank": 4,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "0f7799d86bda2672009cb0b600dcfcc3",
+        "sentence_text": "Training data is split 90:10 for training and validation.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 7160
+      },
+      {
+        "cross_encoder_score": -10.307572364807129,
+        "dataset": "QASPER",
+        "end_char": 7348,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "32a3450f5d51127615c57bc0efb69022",
+        "passage_rank": 4,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "c5cfdedd5dca142990066819e004bde9",
+        "sentence_text": "We train our models for 50 epochs, adding early stopping with a tolerance of five epochs of no improvement in the validation loss.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 7218
+      },
+      {
+        "cross_encoder_score": -10.171744346618652,
+        "dataset": "QASPER",
+        "end_char": 7392,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "32a3450f5d51127615c57bc0efb69022",
+        "passage_rank": 4,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "8518a192d4fff267d5f3e4b7dd572f3b",
+        "sentence_text": "We do not subsample from the training data.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 7349
+      },
+      {
+        "cross_encoder_score": -5.215860843658447,
+        "dataset": "QASPER",
+        "end_char": 7539,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "32a3450f5d51127615c57bc0efb69022",
+        "passage_rank": 4,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "78efc4dfe553396067ed195385fd7e64",
+        "sentence_text": "We train models for 50 different random combinations of two to three languages in Track 1, and 50 monolingual models for each language in Track 2.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 7393
+      },
+      {
+        "cross_encoder_score": -11.059688568115234,
+        "dataset": "QASPER",
+        "end_char": 7830,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "32a3450f5d51127615c57bc0efb69022",
+        "passage_rank": 4,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "afc9fefdf4259ea029c33607bc882747",
+        "sentence_text": "Instead of picking the single model that performs best on the development set and thus risking to select a model that highly overfits that data, we use an ensemble of the five best models, and make the final prediction for a given target form with a majority vote over the five predictions.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 7540
+      },
+      {
+        "cross_encoder_score": -11.34544563293457,
+        "dataset": "QASPER",
+        "end_char": 7898,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "32a3450f5d51127615c57bc0efb69022",
+        "passage_rank": 4,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "90cc8f09f709adbcc6edb50c97830850",
+        "sentence_text": "Results and Discussion\tTest results are listed in Table TABREF17 .",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 7832
+      },
+      {
+        "cross_encoder_score": -11.291804313659668,
+        "dataset": "QASPER",
+        "end_char": 8097,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "32a3450f5d51127615c57bc0efb69022",
+        "passage_rank": 4,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "80619d78dca422e2e51c5b3588e077d4",
+        "sentence_text": "Our system outperforms the baseline for all settings and languages in Track 1 and for almost all in Track 2\u2014only in the high resource setting is our system not definitively superior to the baseline.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 7899
+      },
+      {
+        "cross_encoder_score": -11.23031997680664,
+        "dataset": "QASPER",
+        "end_char": 8258,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "32a3450f5d51127615c57bc0efb69022",
+        "passage_rank": 4,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "c82b8a975ce01805d79f43b7a28f15c2",
+        "sentence_text": "Interestingly, our results in the low resource setting are often higher for Track 2 than for Track 1, even though contextual information is less explicit in the",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          6,
+          9,
+          0
+        ],
+        "source_position": 8098
+      },
+      {
+        "cross_encoder_score": -1.4177799224853516,
+        "dataset": "QASPER",
+        "end_char": 8345,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "71fb973d30b5fc7ca79bbc24a6634593",
+        "passage_rank": 7,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "a89a60ec3e4f002e2e775c4a13ea6f6d",
+        "sentence_text": "Track 2 data and the multilingual multi-tasking approach does not apply to this track.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 8259
+      },
+      {
+        "cross_encoder_score": -10.38840103149414,
+        "dataset": "QASPER",
+        "end_char": 8482,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "71fb973d30b5fc7ca79bbc24a6634593",
+        "passage_rank": 7,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "19e61c3930ae289d487171c08ca4288a",
+        "sentence_text": "We interpret this finding as an indicator that a simpler model with fewer parameters works better in a setting of limited training data.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 8346
+      },
+      {
+        "cross_encoder_score": -11.311701774597168,
+        "dataset": "QASPER",
+        "end_char": 8580,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "71fb973d30b5fc7ca79bbc24a6634593",
+        "passage_rank": 7,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "c6e576c5d69e86abf667ea59367a3280",
+        "sentence_text": "Nevertheless, we focus on the low resource setting in the analysis below due to time limitations.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 8483
+      },
+      {
+        "cross_encoder_score": -11.30659294128418,
+        "dataset": "QASPER",
+        "end_char": 8709,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "71fb973d30b5fc7ca79bbc24a6634593",
+        "passage_rank": 7,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "285dff7e01ab7e3934a046a94493e799",
+        "sentence_text": "As our Track 1 results are still substantially higher than the baseline results, we consider this analysis valid and insightful.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 8581
+      },
+      {
+        "cross_encoder_score": -11.30544376373291,
+        "dataset": "QASPER",
+        "end_char": 8876,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "71fb973d30b5fc7ca79bbc24a6634593",
+        "passage_rank": 7,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "1a897509f21f2be2e3a342504ee96a97",
+        "sentence_text": "Ablation Study\tWe analyse the incremental effect of the different features in our system, focusing on the low-resource setting in Track 1 and using development data.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 8711
+      },
+      {
+        "cross_encoder_score": -11.285975456237793,
+        "dataset": "QASPER",
+        "end_char": 8972,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "71fb973d30b5fc7ca79bbc24a6634593",
+        "passage_rank": 7,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "b5c89d9f130795b63af54ebed99d7f6e",
+        "sentence_text": "Encoding the entire context with an LSTM highly increases the variance of the observed results.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 8877
+      },
+      {
+        "cross_encoder_score": -8.885322570800781,
+        "dataset": "QASPER",
+        "end_char": 9040,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "71fb973d30b5fc7ca79bbc24a6634593",
+        "passage_rank": 7,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "716ec2ed02c19318bc703e36ad65ab02",
+        "sentence_text": "So we trained fifty models for each language and each architecture.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 8973
+      },
+      {
+        "cross_encoder_score": -10.912686347961426,
+        "dataset": "QASPER",
+        "end_char": 9126,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "71fb973d30b5fc7ca79bbc24a6634593",
+        "passage_rank": 7,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "fae8be857c3c39e55bf7c039bfffa493",
+        "sentence_text": "Figure FIGREF23 visualises the means and standard deviations over the trained models.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "source_position": 9041
+      },
+      {
+        "cross_encoder_score": -11.306132316589355,
+        "dataset": "QASPER",
+        "end_char": 9299,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "71fb973d30b5fc7ca79bbc24a6634593",
+        "passage_rank": 7,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "e870ac97017778ad8aaa289e8a7dd5bd",
+        "sentence_text": "In addition, we visualise the average accuracy for the five best models for each language and architecture, as these are the models we use in the final ensemble prediction.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          7,
+          8,
+          0
+        ],
+        "source_position": 9127
+      },
+      {
+        "cross_encoder_score": -10.93992805480957,
+        "dataset": "QASPER",
+        "end_char": 9337,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "71fb973d30b5fc7ca79bbc24a6634593",
+        "passage_rank": 7,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "b1b294e3caf15841455b91d15890941c",
+        "sentence_text": "Below we refer to these numbers only.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          7,
+          9,
+          0
+        ],
+        "source_position": 9300
+      },
+      {
+        "cross_encoder_score": -11.202486991882324,
+        "dataset": "QASPER",
+        "end_char": 9470,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "71fb973d30b5fc7ca79bbc24a6634593",
+        "passage_rank": 7,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "733fa2e4be6eb75189399c5a290f952b",
+        "sentence_text": "The results indicate that encoding the full context with an LSTM highly enhances the performance of the model, by 11.15% on average.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          7,
+          10,
+          0
+        ],
+        "source_position": 9338
+      },
+      {
+        "cross_encoder_score": -11.27835464477539,
+        "dataset": "QASPER",
+        "end_char": 9541,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "71fb973d30b5fc7ca79bbc24a6634593",
+        "passage_rank": 7,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "f936ac9d095a02c8d260ba4cd8e11d95",
+        "sentence_text": "This observation explains the high results we obtain also for Track 2.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          7,
+          11,
+          0
+        ],
+        "source_position": 9471
+      },
+      {
+        "cross_encoder_score": -11.346073150634766,
+        "dataset": "QASPER",
+        "end_char": 9596,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "71fb973d30b5fc7ca79bbc24a6634593",
+        "passage_rank": 7,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "a06d0297fffe1735f5331a013cbb828e",
+        "sentence_text": "Adding the auxiliary objective of MSD prediction has a",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          7,
+          12,
+          0
+        ],
+        "source_position": 9542
+      },
+      {
+        "cross_encoder_score": -11.270837783813477,
+        "dataset": "QASPER",
+        "end_char": 9712,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "3663c9cada95e71c436fdf26b0dda736",
+        "passage_rank": 1,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "b39cddc49cfcc28ef8c518976cd81b94",
+        "sentence_text": "variable effect: for four languages (de, en, es, and sv) the effect is positive, while for the rest it is negative.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 9597
+      },
+      {
+        "cross_encoder_score": -10.996357917785645,
+        "dataset": "QASPER",
+        "end_char": 9858,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "3663c9cada95e71c436fdf26b0dda736",
+        "passage_rank": 1,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "cffee37f18c58bd12975147d515f19c0",
+        "sentence_text": "We consider this to be an issue of insufficient data for the training of the auxiliary component in the low resource setting we are working with.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 9713
+      },
+      {
+        "cross_encoder_score": 1.5606340169906616,
+        "dataset": "QASPER",
+        "end_char": 10029,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "3663c9cada95e71c436fdf26b0dda736",
+        "passage_rank": 1,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "99d302a7fab460f00e5b2bd087548fab",
+        "sentence_text": "We indeed see results improving drastically with the introduction of multilingual training, with multilingual results being 7.96% higher than monolingual ones on average.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 9859
+      },
+      {
+        "cross_encoder_score": -0.37459948658943176,
+        "dataset": "QASPER",
+        "end_char": 10191,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "3663c9cada95e71c436fdf26b0dda736",
+        "passage_rank": 1,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "2e9ad9b8e30c249108f35ad1c69db884",
+        "sentence_text": "We studied the five best models for each language as emerging from the multilingual training (listed in Table TABREF27 ) and found no strong linguistic patterns.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 10030
+      },
+      {
+        "cross_encoder_score": -11.291901588439941,
+        "dataset": "QASPER",
+        "end_char": 10347,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "3663c9cada95e71c436fdf26b0dda736",
+        "passage_rank": 1,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "3143fc28a7ae5eab581240ea9f7d92f1",
+        "sentence_text": "The en\u2013sv pairing seems to yield good models for these languages, which could be explained in terms of their common language family and similar morphology.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 10192
+      },
+      {
+        "cross_encoder_score": -11.310050010681152,
+        "dataset": "QASPER",
+        "end_char": 10474,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "3663c9cada95e71c436fdf26b0dda736",
+        "passage_rank": 1,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "15fb70518ff04f6f0a0be770d15ae3cc",
+        "sentence_text": "The other natural pairings, however, fr\u2013es, and de\u2013sv, are not so frequent among the best models for these pairs of languages.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 10348
+      },
+      {
+        "cross_encoder_score": -8.274991035461426,
+        "dataset": "QASPER",
+        "end_char": 10584,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "3663c9cada95e71c436fdf26b0dda736",
+        "passage_rank": 1,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "5b82eaf97655b4382cef01007896de8e",
+        "sentence_text": "Finally, monolingual finetuning improves accuracy across the board, as one would expect, by 2.72% on average.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 10475
+      },
+      {
+        "cross_encoder_score": 1.3559812307357788,
+        "dataset": "QASPER",
+        "end_char": 10828,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "3663c9cada95e71c436fdf26b0dda736",
+        "passage_rank": 1,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "35f84cb8d9648f6342bf2ffb9d7e6969",
+        "sentence_text": "The final observation to be made based on this breakdown of results is that the multi-tasking approach paired with multilingual training and subsequent monolingual finetuning outperforms the other architectures for five out of seven languages:",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 10585
+      },
+      {
+        "cross_encoder_score": -10.985095024108887,
+        "dataset": "QASPER",
+        "end_char": 10851,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "5c52d212c3082d096fd63a8a44e45a02",
+        "passage_rank": 5,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "f25f396d99ad1521017ddd1e2a85ca86",
+        "sentence_text": "de, en, fr, ru and sv.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 10829
+      },
+      {
+        "cross_encoder_score": -11.28896427154541,
+        "dataset": "QASPER",
+        "end_char": 11007,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "5c52d212c3082d096fd63a8a44e45a02",
+        "passage_rank": 5,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "90d25c5dcdb2fbda806a3a43917136d9",
+        "sentence_text": "For the other two languages in the dataset, es and fi, the difference between this approach and the approach that emerged as best for them is less than 1%.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 10852
+      },
+      {
+        "cross_encoder_score": -1.01180899143219,
+        "dataset": "QASPER",
+        "end_char": 11103,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "5c52d212c3082d096fd63a8a44e45a02",
+        "passage_rank": 5,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "7c2dfa921a62767e298e70dc6e802e63",
+        "sentence_text": "The overall improvement of the multilingual multi-tasking approach over the baseline is 18.30%.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 11008
+      },
+      {
+        "cross_encoder_score": -11.355860710144043,
+        "dataset": "QASPER",
+        "end_char": 11256,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "5c52d212c3082d096fd63a8a44e45a02",
+        "passage_rank": 5,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "6bdb1c43783b5f5eb0495a91df00c770",
+        "sentence_text": "Error analysis\tHere we study the errors produced by our system on the English test set to better understand the remaining shortcomings of the approach.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 11105
+      },
+      {
+        "cross_encoder_score": -11.31999397277832,
+        "dataset": "QASPER",
+        "end_char": 11489,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "5c52d212c3082d096fd63a8a44e45a02",
+        "passage_rank": 5,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "53130f1668032a3192ec3dbb5643e7bc",
+        "sentence_text": "A small portion of the wrong predictions point to an incorrect interpretation of the morpho-syntactic conditioning of the context, e.g. the system predicted plan instead of plans in the context Our _ include raising private capital.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 11257
+      },
+      {
+        "cross_encoder_score": -11.347484588623047,
+        "dataset": "QASPER",
+        "end_char": 11616,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "5c52d212c3082d096fd63a8a44e45a02",
+        "passage_rank": 5,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "c84b493e190013fa83ec17f720291c11",
+        "sentence_text": "The majority of wrong predictions, however, are nonsensical, like bomb for job, fify for fixing, and gnderrate for understand.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 11490
+      },
+      {
+        "cross_encoder_score": -11.254654884338379,
+        "dataset": "QASPER",
+        "end_char": 11791,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "5c52d212c3082d096fd63a8a44e45a02",
+        "passage_rank": 5,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "989f22c73e338f164f595c610a5c3512",
+        "sentence_text": "This observation suggests that generally the system did not learn to copy the characters of lemma into inflected form, which is all it needs to do in a large number of cases.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          9,
+          6,
+          0
+        ],
+        "source_position": 11617
+      },
+      {
+        "cross_encoder_score": -11.246376991271973,
+        "dataset": "QASPER",
+        "end_char": 11894,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "5c52d212c3082d096fd63a8a44e45a02",
+        "passage_rank": 5,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "60401d2d5f1b639ff4956d84178e3c24",
+        "sentence_text": "This issue could be alleviated with simple data augmentation techniques that encourage autoencoding  .",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          9,
+          7,
+          0
+        ],
+        "source_position": 11792
+      },
+      {
+        "cross_encoder_score": -10.946359634399414,
+        "dataset": "QASPER",
+        "end_char": 12024,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "5c52d212c3082d096fd63a8a44e45a02",
+        "passage_rank": 5,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "19c423d67586bafbe0c1ce71a91db4b6",
+        "sentence_text": "MSD prediction\tFigure FIGREF32 summarises the average MSD-prediction accuracy for the multi-tasking experiments discussed above.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          9,
+          8,
+          0
+        ],
+        "source_position": 11896
+      },
+      {
+        "cross_encoder_score": -11.28821086883545,
+        "dataset": "QASPER",
+        "end_char": 12075,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "5c52d212c3082d096fd63a8a44e45a02",
+        "passage_rank": 5,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "1cf531912f6c932162441e47b1531a42",
+        "sentence_text": "Accuracy here is generally higher than on the main",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          9,
+          9,
+          0
+        ],
+        "source_position": 12025
+      },
+      {
+        "cross_encoder_score": -2.6378655433654785,
+        "dataset": "QASPER",
+        "end_char": 12215,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "c85dcdaa40bae80ac28ac60c8d639462",
+        "passage_rank": 3,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "0f89c8b7c9ea23f0eb9cfd6165dd6cf3",
+        "sentence_text": "task, with the multilingual finetuned setup for Spanish and the monolingual setup for French scoring best: 66.59% and 65.35%, respectively.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 12076
+      },
+      {
+        "cross_encoder_score": -11.281853675842285,
+        "dataset": "QASPER",
+        "end_char": 12377,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "c85dcdaa40bae80ac28ac60c8d639462",
+        "passage_rank": 3,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "725f8ef600dbab5723681705f37acc2a",
+        "sentence_text": "This observation illustrates the added difficulty of generating the correct surface form even when the morphosyntactic description has been identified correctly.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 12216
+      },
+      {
+        "cross_encoder_score": -11.298527717590332,
+        "dataset": "QASPER",
+        "end_char": 12597,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "c85dcdaa40bae80ac28ac60c8d639462",
+        "passage_rank": 3,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "0b6948cc99f5eb517df50dbd69099acb",
+        "sentence_text": "We observe some correlation between these numbers and accuracy on the main task: for de, en, ru and sv, the brown, pink and blue bars here pattern in the same way as the corresponding INLINEFORM0 's in Figure FIGREF23 .",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 12378
+      },
+      {
+        "cross_encoder_score": -0.6012783050537109,
+        "dataset": "QASPER",
+        "end_char": 12736,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "c85dcdaa40bae80ac28ac60c8d639462",
+        "passage_rank": 3,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "73d0843c6f07a0e3071e7ca53dd8a1de",
+        "sentence_text": "One notable exception to this pattern is fr where inflection gains a lot from multilingual training, while MSD prediction suffers greatly.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 12598
+      },
+      {
+        "cross_encoder_score": -1.895896315574646,
+        "dataset": "QASPER",
+        "end_char": 13045,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "c85dcdaa40bae80ac28ac60c8d639462",
+        "passage_rank": 3,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "47f7b909181a6fd8975a24974ceb84c4",
+        "sentence_text": "Notice that the magnitude of change is not always the same, however, even when the general direction matches: for ru, for example, multilingual training benefits inflection much more than in benefits MSD prediction, even though the MSD decoder is the only component that is actually shared between languages.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 12737
+      },
+      {
+        "cross_encoder_score": 2.15852952003479,
+        "dataset": "QASPER",
+        "end_char": 13283,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "c85dcdaa40bae80ac28ac60c8d639462",
+        "passage_rank": 3,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "95fdfbe61e471511ba56356e0043a067",
+        "sentence_text": "This observation illustrates the two-fold effect of multi-task training: an auxiliary task can either inform the main task through the parameters the two tasks share, or it can help the main task learning through its regularising effect.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 13046
+      },
+      {
+        "cross_encoder_score": -6.20580530166626,
+        "dataset": "QASPER",
+        "end_char": 13360,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "c85dcdaa40bae80ac28ac60c8d639462",
+        "passage_rank": 3,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "0437c3732ef4495c8cb8439594d21b80",
+        "sentence_text": "Related Work\tOur system is inspired by previous work on multi-task learning",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 13285
+      },
+      {
+        "cross_encoder_score": -2.3473989963531494,
+        "dataset": "QASPER",
+        "end_char": 13600,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "049eb9c19ce1cf07661b6b130d9d8a9c",
+        "passage_rank": 6,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "f36019c9b5d310a2c7009c2741c07ed9",
+        "sentence_text": "and multi-lingual learning, mainly building on two intuitions: (1) jointly learning related tasks tends to be beneficial  ,  ,  ,  ,  ; and (2) jointly learning related languages in an MTL-inspired framework tends to be beneficial  ,  ,  .",
+        "sentence_token_cost": 60,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 13361
+      },
+      {
+        "cross_encoder_score": -3.1217010021209717,
+        "dataset": "QASPER",
+        "end_char": 13762,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "049eb9c19ce1cf07661b6b130d9d8a9c",
+        "passage_rank": 6,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "457108433115a269b5fc3909d19e9088",
+        "sentence_text": "In the context of computational morphology, multi-lingual approaches have previously been employed for morphological reinflection  and for paradigm completion  .",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 13601
+      },
+      {
+        "cross_encoder_score": -11.261346817016602,
+        "dataset": "QASPER",
+        "end_char": 13992,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "049eb9c19ce1cf07661b6b130d9d8a9c",
+        "passage_rank": 6,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "7202108cde1766061df7437d96c7a9d4",
+        "sentence_text": "In both of these cases, however, the available datasets covered more languages, 40 and 21, respectively, which allowed for linguistically-motivated language groupings and for parameter sharing directly on the level of characters.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 13763
+      },
+      {
+        "cross_encoder_score": -11.333549499511719,
+        "dataset": "QASPER",
+        "end_char": 14152,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "049eb9c19ce1cf07661b6b130d9d8a9c",
+        "passage_rank": 6,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "1c5ea15b501db3235720cf94eac15f90",
+        "sentence_text": "explore parameter sharing between related languages for dependency parsing, and find that sharing is more beneficial in the case of closely related languages.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 13994
+      },
+      {
+        "cross_encoder_score": -11.301017761230469,
+        "dataset": "QASPER",
+        "end_char": 14390,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "049eb9c19ce1cf07661b6b130d9d8a9c",
+        "passage_rank": 6,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "58d8dfc6e8bbfce8ba00d5c44bf528a3",
+        "sentence_text": "Conclusions\tIn this paper we described our system for the CoNLL\u2013SIGMORPHON 2018 shared task on Universal Morphological Reinflection, Task 2, which achieved the best performance out of all systems submitted, an overall accuracy of 49.87.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 14154
+      },
+      {
+        "cross_encoder_score": -11.3134765625,
+        "dataset": "QASPER",
+        "end_char": 14538,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "049eb9c19ce1cf07661b6b130d9d8a9c",
+        "passage_rank": 6,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "2d5a090efe0c20d915e7295a6bd40a11",
+        "sentence_text": "We showed in an ablation study that this is due to three core innovations, which extend a character-based encoder-decoder model: (1) a wide context",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 14391
+      },
+      {
+        "cross_encoder_score": -3.4621424674987793,
+        "dataset": "QASPER",
+        "end_char": 14751,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "dca9a0ae052ab4fd6bb74812bfa902e6",
+        "passage_rank": 8,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "99aa38fac7e8b32823c4a6777482b47c",
+        "sentence_text": "window, encoding the entire available context; (2) multi-task learning with the auxiliary task of MSD prediction, which acts as a regulariser; (3) a multilingual approach, exploiting information across languages.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 14539
+      },
+      {
+        "cross_encoder_score": -5.534511089324951,
+        "dataset": "QASPER",
+        "end_char": 14972,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "dca9a0ae052ab4fd6bb74812bfa902e6",
+        "passage_rank": 8,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "681e6eb9ebfb84516933fda1f6bd5ca0",
+        "sentence_text": "In future work we aim to gain better understanding of the increase in variance of the results introduced by each of our modifications and the reasons for the varying effect of multi-task learning for different languages.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 14752
+      },
+      {
+        "cross_encoder_score": -11.337745666503906,
+        "dataset": "QASPER",
+        "end_char": 15116,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "dca9a0ae052ab4fd6bb74812bfa902e6",
+        "passage_rank": 8,
+        "query_id": "5cb610d3d5d7d447b4cd5736d6a7d8262140af58",
+        "sentence_id": "7c86db5585ecac951ef7a63e49f65961",
+        "sentence_text": "Acknowledgements\tWe gratefully acknowledge the support of the NVIDIA Corporation with the donation of the Titan Xp GPU used for this research.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 14974
+      }
+    ],
+    "scoring_seconds": 0.37035559106152505,
+    "source_fingerprint": "284d6919576e6d876a155fb565ce60beb44a45fa6a3b52fc61db8bf8d42e2b07"
+  }
+}

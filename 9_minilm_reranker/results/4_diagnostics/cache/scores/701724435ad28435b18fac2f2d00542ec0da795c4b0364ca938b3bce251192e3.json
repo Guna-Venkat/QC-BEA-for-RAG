@@ -1,0 +1,2071 @@
+{
+  "checksum": "f52ff3288e69bf32bc62d73b5bb51a8fdf7e2ebe43bef96238f45a82f546778b",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 102,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "a4b3467081f794ff716ce685be174124359f0f7cdf3121425ed86bb9e591cad7",
+    "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+    "scores": [
+      {
+        "cross_encoder_score": -11.320483207702637,
+        "dataset": "QASPER",
+        "end_char": 171,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "aece6aa9203713820e3b81b31174e244",
+        "passage_rank": 10,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "289812eff2b57cd356b47e2bb2018396",
+        "sentence_text": "Massively Multilingual Neural Grapheme-to-Phoneme Conversion\tGrapheme-to-phoneme conversion (g2p) is necessary for text-to-speech and automatic speech recognition systems.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.36170768737793,
+        "dataset": "QASPER",
+        "end_char": 267,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "aece6aa9203713820e3b81b31174e244",
+        "passage_rank": 10,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "79b7de0d822260a609e67d7ce5d53439",
+        "sentence_text": "Most g2p systems are monolingual: they require language-specific data or handcrafting of rules.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 172
+      },
+      {
+        "cross_encoder_score": -11.40768814086914,
+        "dataset": "QASPER",
+        "end_char": 387,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "aece6aa9203713820e3b81b31174e244",
+        "passage_rank": 10,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "d7c19567d4185ee5e2c08560e62078c3",
+        "sentence_text": "Such systems are difficult to extend to low resource languages, for which data and handcrafted rules are not available.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 268
+      },
+      {
+        "cross_encoder_score": -11.418931007385254,
+        "dataset": "QASPER",
+        "end_char": 539,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "aece6aa9203713820e3b81b31174e244",
+        "passage_rank": 10,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "2b2660718e9f8811537f0d2fbc17139b",
+        "sentence_text": "As an alternative, we present a neural sequence-to-sequence approach to g2p which is trained on spelling--pronunciation pairs in hundreds of languages.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 388
+      },
+      {
+        "cross_encoder_score": -11.340107917785645,
+        "dataset": "QASPER",
+        "end_char": 693,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "aece6aa9203713820e3b81b31174e244",
+        "passage_rank": 10,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "7c97d8f495275ea19c70979caec006a9",
+        "sentence_text": "The system shares a single encoder and decoder across all languages, allowing it to utilize the intrinsic similarities between different writing systems.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 540
+      },
+      {
+        "cross_encoder_score": -11.035640716552734,
+        "dataset": "QASPER",
+        "end_char": 841,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "aece6aa9203713820e3b81b31174e244",
+        "passage_rank": 10,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "c1220af9248c8cf2964b1a42b4d16075",
+        "sentence_text": "We show an 11% improvement in phoneme error rate over an approach based on adapting high-resource monolingual g2p models to low-resource languages.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 694
+      },
+      {
+        "cross_encoder_score": 0.13419753313064575,
+        "dataset": "QASPER",
+        "end_char": 910,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "aece6aa9203713820e3b81b31174e244",
+        "passage_rank": 10,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "50e6fa97a3bc895e80647a4ece716dd2",
+        "sentence_text": "Our model is also much more compact relative to previous approaches.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 842
+      },
+      {
+        "cross_encoder_score": -11.382624626159668,
+        "dataset": "QASPER",
+        "end_char": 1096,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "aece6aa9203713820e3b81b31174e244",
+        "passage_rank": 10,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "6a4a368def368d80d9697ef0784d535f",
+        "sentence_text": "Introduction\tAccurate grapheme-to-phoneme conversion (g2p) is important for any application that depends on the sometimes inconsistent relationship between spoken and written language.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 912
+      },
+      {
+        "cross_encoder_score": -11.344128608703613,
+        "dataset": "QASPER",
+        "end_char": 1177,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "aece6aa9203713820e3b81b31174e244",
+        "passage_rank": 10,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "8edf0644bfe0dab8b524fe8834d52d7c",
+        "sentence_text": "Most prominently, this includes text-to-speech and automatic speech recognition.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1097
+      },
+      {
+        "cross_encoder_score": -11.43844223022461,
+        "dataset": "QASPER",
+        "end_char": 1286,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "aece6aa9203713820e3b81b31174e244",
+        "passage_rank": 10,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "dcf8af047cefec3507980583bce2e1a7",
+        "sentence_text": "Most work on g2p has focused on a few languages for which extensive pronunciation data is available  ,  ,  ,",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1178
+      },
+      {
+        "cross_encoder_score": -11.233777046203613,
+        "dataset": "QASPER",
+        "end_char": 2664,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "dc9809f4d0d6ad82b5fa242d22075a58",
+        "passage_rank": 7,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "616e22dd8186bad8baf6c3796deb1c03",
+        "sentence_text": "from Phoible  and URIEL  .",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2638
+      },
+      {
+        "cross_encoder_score": -10.790224075317383,
+        "dataset": "QASPER",
+        "end_char": 2746,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "dc9809f4d0d6ad82b5fa242d22075a58",
+        "passage_rank": 7,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "7d19f5a858d86b5eb13793a402ffcb4e",
+        "sentence_text": "Other low resource g2p systems have used a strategy of combining multiple models.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2665
+      },
+      {
+        "cross_encoder_score": -11.304120063781738,
+        "dataset": "QASPER",
+        "end_char": 2913,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "dc9809f4d0d6ad82b5fa242d22075a58",
+        "passage_rank": 7,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "4e615263d26bbe2c65e19cdc7f401a27",
+        "sentence_text": "schlippe2014combining trained several data-driven g2p systems on varying quantities of monolingual data and combined their outputs with a phoneme-level voting scheme.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 2747
+      },
+      {
+        "cross_encoder_score": -11.253137588500977,
+        "dataset": "QASPER",
+        "end_char": 3025,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "dc9809f4d0d6ad82b5fa242d22075a58",
+        "passage_rank": 7,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "c1a44bf98d916889c46889536dc50cf3",
+        "sentence_text": "This led to improvements over the best-performing single system for small quantities of data in some languages.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 2914
+      },
+      {
+        "cross_encoder_score": -11.400589942932129,
+        "dataset": "QASPER",
+        "end_char": 3263,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "dc9809f4d0d6ad82b5fa242d22075a58",
+        "passage_rank": 7,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "15c18583552cd5075bc785a92fa762dd",
+        "sentence_text": "jyothilow trained recurrent neural networks for small data sets and found that a version of their system that combined the neural network output with the output of the wFST-based Phonetisaurus system  did better than either system alone.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3026
+      },
+      {
+        "cross_encoder_score": -11.154498100280762,
+        "dataset": "QASPER",
+        "end_char": 3461,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "dc9809f4d0d6ad82b5fa242d22075a58",
+        "passage_rank": 7,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "648027b7588ea3f8e569aed129565890",
+        "sentence_text": "A different approach came from kim2012universal, who used supervised learning with an undirected graphical model to induce the grapheme\u2013phoneme mappings for languages written in the Latin alphabet.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3264
+      },
+      {
+        "cross_encoder_score": -8.745044708251953,
+        "dataset": "QASPER",
+        "end_char": 3549,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "dc9809f4d0d6ad82b5fa242d22075a58",
+        "passage_rank": 7,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "54f57dd06e31aceeaba51aaae024ee86",
+        "sentence_text": "Given a short text in a language, the model predicts the language's orthographic rules.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3462
+      },
+      {
+        "cross_encoder_score": -10.646968841552734,
+        "dataset": "QASPER",
+        "end_char": 3800,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "dc9809f4d0d6ad82b5fa242d22075a58",
+        "passage_rank": 7,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "ec9b29813436e8e547fd83abdafb2541",
+        "sentence_text": "To create phonemic context features from the short text, the model na\u00efvely maps graphemes to IPA symbols written with the same character, and uses the features of these symbols to learn an approximation of the phonotactic constraints of the language.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3550
+      },
+      {
+        "cross_encoder_score": -11.33846664428711,
+        "dataset": "QASPER",
+        "end_char": 3915,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "dc9809f4d0d6ad82b5fa242d22075a58",
+        "passage_rank": 7,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "979ae08aa7cf239f305494fd2401d770",
+        "sentence_text": "In their experiments, these phonotactic features proved to be more valuable than geographical and genetic features",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 3801
+      },
+      {
+        "cross_encoder_score": -11.434707641601562,
+        "dataset": "QASPER",
+        "end_char": 8026,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "c128d67aa36a27c6d0c3e82006bd4b66",
+        "passage_rank": 8,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "61d40149ff191de20bfa64d8efa8e871",
+        "sentence_text": "which the various languages have similar but different and possibly contradictory spelling rules, can be seen as an extreme case of that.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 7889
+      },
+      {
+        "cross_encoder_score": -10.074907302856445,
+        "dataset": "QASPER",
+        "end_char": 8099,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "c128d67aa36a27c6d0c3e82006bd4b66",
+        "passage_rank": 8,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "9979096bbada0eab56b3d37b1bbcb7e9",
+        "sentence_text": "Therefore, a data-driven sequence-to-sequence model is a natural choice.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 8027
+      },
+      {
+        "cross_encoder_score": -11.016264915466309,
+        "dataset": "QASPER",
+        "end_char": 8223,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "c128d67aa36a27c6d0c3e82006bd4b66",
+        "passage_rank": 8,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "4ed00bd6ad79c09da23157bc6b50b22e",
+        "sentence_text": "Encoder\u2013Decoder Models\tIn order to find the best phoneme sequence, we use a neural encoder\u2013decoder model with attention  .",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 8101
+      },
+      {
+        "cross_encoder_score": -8.503777503967285,
+        "dataset": "QASPER",
+        "end_char": 8354,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "c128d67aa36a27c6d0c3e82006bd4b66",
+        "passage_rank": 8,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "af64945473450225eacc64708994a149",
+        "sentence_text": "The model consists of two main parts: the encoder compresses each source grapheme sequence INLINEFORM0 into a fixed-length vector.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 8224
+      },
+      {
+        "cross_encoder_score": -11.27116870880127,
+        "dataset": "QASPER",
+        "end_char": 8460,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "c128d67aa36a27c6d0c3e82006bd4b66",
+        "passage_rank": 8,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "563993dc9108b5f20a17d3c8c6cbc23d",
+        "sentence_text": "The decoder, conditioned on this fixed-length vector, generates the output phoneme sequence INLINEFORM1 .",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 8355
+      },
+      {
+        "cross_encoder_score": -11.360678672790527,
+        "dataset": "QASPER",
+        "end_char": 8651,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "c128d67aa36a27c6d0c3e82006bd4b66",
+        "passage_rank": 8,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "853b236d3854bce14b015a40ba043e9e",
+        "sentence_text": "The encoder and decoder are both implemented as recurrent neural networks, which have the advantage of being able to process sequences of arbitrary length and use long histories efficiently.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 8461
+      },
+      {
+        "cross_encoder_score": -11.203944206237793,
+        "dataset": "QASPER",
+        "end_char": 8724,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "c128d67aa36a27c6d0c3e82006bd4b66",
+        "passage_rank": 8,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "e2f0efd701cf9149782a8cce8f10c026",
+        "sentence_text": "They are trained jointly to minimize cross-entropy on the training data.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 8652
+      },
+      {
+        "cross_encoder_score": -11.358139038085938,
+        "dataset": "QASPER",
+        "end_char": 8883,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "c128d67aa36a27c6d0c3e82006bd4b66",
+        "passage_rank": 8,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "e286a10f6f37530f1d46d5a12a7a5d7a",
+        "sentence_text": "We had our best results when using a bidirectional encoder, which consists of two separate encoders which process the input in forward and reverse directions.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 8725
+      },
+      {
+        "cross_encoder_score": -11.418769836425781,
+        "dataset": "QASPER",
+        "end_char": 8955,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "c128d67aa36a27c6d0c3e82006bd4b66",
+        "passage_rank": 8,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "b1331ef0e9c358866f021fccfc551067",
+        "sentence_text": "We used long short-term memory units  for both the encoder and decoder.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 8884
+      },
+      {
+        "cross_encoder_score": -11.301225662231445,
+        "dataset": "QASPER",
+        "end_char": 9067,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "c128d67aa36a27c6d0c3e82006bd4b66",
+        "passage_rank": 8,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "42d51f71a5f18fcbc8cf22519782227f",
+        "sentence_text": "For the attention mechanism, we used the general global attention architecture described by luong2015effective.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          6,
+          9,
+          0
+        ],
+        "source_position": 8956
+      },
+      {
+        "cross_encoder_score": -10.356371879577637,
+        "dataset": "QASPER",
+        "end_char": 9109,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "c128d67aa36a27c6d0c3e82006bd4b66",
+        "passage_rank": 8,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "566c86e61e1e7af1af218f02ff70ef64",
+        "sentence_text": "We implemented all models with OpenNMT  .",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          6,
+          10,
+          0
+        ],
+        "source_position": 9068
+      },
+      {
+        "cross_encoder_score": -10.895094871520996,
+        "dataset": "QASPER",
+        "end_char": 9200,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "c128d67aa36a27c6d0c3e82006bd4b66",
+        "passage_rank": 8,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "fab0bd14a7044ea4aded2a1a650b3e84",
+        "sentence_text": "Our hyperparameters, which we determined by experimentation, are listed in Table TABREF8 .",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          6,
+          11,
+          0
+        ],
+        "source_position": 9110
+      },
+      {
+        "cross_encoder_score": -10.279199600219727,
+        "dataset": "QASPER",
+        "end_char": 9230,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "c128d67aa36a27c6d0c3e82006bd4b66",
+        "passage_rank": 8,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "1a5831dcb38237150e873f9b9d6075bd",
+        "sentence_text": "Training Multilingual Models",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          6,
+          12,
+          0
+        ],
+        "source_position": 9202
+      },
+      {
+        "cross_encoder_score": -11.185834884643555,
+        "dataset": "QASPER",
+        "end_char": 11790,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "fb59889ad2b5c9869ebc38bd2b690f6e",
+        "passage_rank": 3,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "8326628d9e4a7d06053e7444cf1b1e94",
+        "sentence_text": "also have negative effects on the data quality.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 11743
+      },
+      {
+        "cross_encoder_score": -11.4035005569458,
+        "dataset": "QASPER",
+        "end_char": 11930,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "fb59889ad2b5c9869ebc38bd2b690f6e",
+        "passage_rank": 3,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "ece756384a78d70852b444e70a723bee",
+        "sentence_text": "For example, the phoneme is not present in the Phoible inventory for German, but it is used in several German transcriptions in the corpus.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 11791
+      },
+      {
+        "cross_encoder_score": -11.359636306762695,
+        "dataset": "QASPER",
+        "end_char": 12037,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "fb59889ad2b5c9869ebc38bd2b690f6e",
+        "passage_rank": 3,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "71bd781585edb48f6653702441e36a90",
+        "sentence_text": "The cleaning algorithm converts to in all German transcriptions, whereas would be a more reasonable guess.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 11931
+      },
+      {
+        "cross_encoder_score": -11.377715110778809,
+        "dataset": "QASPER",
+        "end_char": 12168,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "fb59889ad2b5c9869ebc38bd2b690f6e",
+        "passage_rank": 3,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "55854a55592c51c513abaaf146ef433a",
+        "sentence_text": "The cleaning algorithm also removes most suprasegmentals, even though these are often an important part of a language's phonology.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 12038
+      },
+      {
+        "cross_encoder_score": -11.406959533691406,
+        "dataset": "QASPER",
+        "end_char": 12393,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "fb59889ad2b5c9869ebc38bd2b690f6e",
+        "passage_rank": 3,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "8b4b849b4ef151579fe86eacd1979e5d",
+        "sentence_text": "Developing a more sophisticated procedure for cleaning pronunciation data is a direction for future work, but in this paper we use the corpus's provided cleaned transcriptions in order to ease comparison to previous results.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 12169
+      },
+      {
+        "cross_encoder_score": -10.706361770629883,
+        "dataset": "QASPER",
+        "end_char": 12482,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "fb59889ad2b5c9869ebc38bd2b690f6e",
+        "passage_rank": 3,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "a7e15f3498e995edd532ad5c8325613f",
+        "sentence_text": "Experiments\tWe present experiments with two versions of our sequence-to-sequence model.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 12395
+      },
+      {
+        "cross_encoder_score": -11.371234893798828,
+        "dataset": "QASPER",
+        "end_char": 12606,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "fb59889ad2b5c9869ebc38bd2b690f6e",
+        "passage_rank": 3,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "87863dc7630b535b8246af4246a2f7e1",
+        "sentence_text": "LangID prepends each training, validation, and test sample with an artificial token identifying the language of the sample.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          9,
+          6,
+          0
+        ],
+        "source_position": 12483
+      },
+      {
+        "cross_encoder_score": -11.319687843322754,
+        "dataset": "QASPER",
+        "end_char": 12633,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "fb59889ad2b5c9869ebc38bd2b690f6e",
+        "passage_rank": 3,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "c3c188d7f766a519198ccc67caf58bd7",
+        "sentence_text": "NoLangID omits this token.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          9,
+          7,
+          0
+        ],
+        "source_position": 12607
+      },
+      {
+        "cross_encoder_score": -11.31252384185791,
+        "dataset": "QASPER",
+        "end_char": 12689,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "fb59889ad2b5c9869ebc38bd2b690f6e",
+        "passage_rank": 3,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "101cc5ea93d5350b12aeb1b6b5f9afdd",
+        "sentence_text": "LangID and NoLangID have identical structure otherwise.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          9,
+          8,
+          0
+        ],
+        "source_position": 12634
+      },
+      {
+        "cross_encoder_score": -11.21213436126709,
+        "dataset": "QASPER",
+        "end_char": 12748,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "fb59889ad2b5c9869ebc38bd2b690f6e",
+        "passage_rank": 3,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "a7282e68bb22df35b739496498d3cce6",
+        "sentence_text": "To translate the test corpus, we used a beam width of 100.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          9,
+          9,
+          0
+        ],
+        "source_position": 12690
+      },
+      {
+        "cross_encoder_score": -11.021440505981445,
+        "dataset": "QASPER",
+        "end_char": 12875,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "fb59889ad2b5c9869ebc38bd2b690f6e",
+        "passage_rank": 3,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "8f77981e83c249baf0d16c98ea252249",
+        "sentence_text": "Although this is an unusually wide beam and had negligible performance effects, it was necessary to compute our error metrics.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          9,
+          10,
+          0
+        ],
+        "source_position": 12749
+      },
+      {
+        "cross_encoder_score": -11.246729850769043,
+        "dataset": "QASPER",
+        "end_char": 13049,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "fb59889ad2b5c9869ebc38bd2b690f6e",
+        "passage_rank": 3,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "00a74cb1fceebb0865473dea60a00c5e",
+        "sentence_text": "Evaluation\tWe use the following three evaluation metrics: Phoneme Error Rate (PER) is the Levenshtein distance between the predicted phoneme sequences and the gold standard",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          9,
+          11,
+          0
+        ],
+        "source_position": 12877
+      },
+      {
+        "cross_encoder_score": -11.177767753601074,
+        "dataset": "QASPER",
+        "end_char": 13130,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "6373b4510e1557afc36598f8adae4f57",
+        "passage_rank": 5,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "308bf9617e104146472780a7ee55c7a6",
+        "sentence_text": "phoneme sequences, divided by the length of the gold standard phoneme sequences.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 13050
+      },
+      {
+        "cross_encoder_score": -11.258672714233398,
+        "dataset": "QASPER",
+        "end_char": 13278,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "6373b4510e1557afc36598f8adae4f57",
+        "passage_rank": 5,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "139243ea42a1710956476bf342d01ae4",
+        "sentence_text": "Word Error Rate (WER) is the percentage of words in which the predicted phoneme sequence does not exactly match the gold standard phoneme sequence.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 13131
+      },
+      {
+        "cross_encoder_score": -11.279001235961914,
+        "dataset": "QASPER",
+        "end_char": 13426,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "6373b4510e1557afc36598f8adae4f57",
+        "passage_rank": 5,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "37f08a50788a66e18b30e53eb0b53112",
+        "sentence_text": "Word Error Rate 100 (WER 100) is the percentage of words in the test set for which the correct guess is not in the first 100 guesses of the system.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 13279
+      },
+      {
+        "cross_encoder_score": -11.286236763000488,
+        "dataset": "QASPER",
+        "end_char": 13561,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "6373b4510e1557afc36598f8adae4f57",
+        "passage_rank": 5,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "9f171ce286979276adc331db0da56998",
+        "sentence_text": "In system evaluations, WER, WER 100, and PER numbers presented for multiple languages are averaged, weighting each language equally  .",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 13427
+      },
+      {
+        "cross_encoder_score": -11.162458419799805,
+        "dataset": "QASPER",
+        "end_char": 13692,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "6373b4510e1557afc36598f8adae4f57",
+        "passage_rank": 5,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "b30d27f62885bb5ecf606cdcf2273b74",
+        "sentence_text": "It would be interesting to compute error metrics that incorporate phoneme similarity, such as those proposed by hixon2011phonemic.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 13562
+      },
+      {
+        "cross_encoder_score": -11.392966270446777,
+        "dataset": "QASPER",
+        "end_char": 13846,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "6373b4510e1557afc36598f8adae4f57",
+        "passage_rank": 5,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "fd4250aedabe2ebe5de195b6bb527654",
+        "sentence_text": "PER weights all phoneme errors the same, even though some errors are more harmful than others: and are usually contrastive, whereas and almost never are.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 13693
+      },
+      {
+        "cross_encoder_score": -11.30175495147705,
+        "dataset": "QASPER",
+        "end_char": 14048,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "6373b4510e1557afc36598f8adae4f57",
+        "passage_rank": 5,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "a86969b9552c8a79c02682466f809d2d",
+        "sentence_text": "Such statistics would be especially interesting for evaluating a multilingual system, because different languages often map the same grapheme to phonemes that are only subtly different from each other.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 13847
+      },
+      {
+        "cross_encoder_score": -11.168864250183105,
+        "dataset": "QASPER",
+        "end_char": 14149,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "6373b4510e1557afc36598f8adae4f57",
+        "passage_rank": 5,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "9c196648c7956600a2302bc05758eeaf",
+        "sentence_text": "However, these statistics have not been widely reported for other g2p systems, so we omit them here.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 14049
+      },
+      {
+        "cross_encoder_score": -11.213340759277344,
+        "dataset": "QASPER",
+        "end_char": 14230,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "6373b4510e1557afc36598f8adae4f57",
+        "passage_rank": 5,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "1edbca9f89ee5d45252902308fc16fc7",
+        "sentence_text": "Baseline\tResults on LangID and NoLangID are compared to the system presented by",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          10,
+          8,
+          0
+        ],
+        "source_position": 14151
+      },
+      {
+        "cross_encoder_score": -10.970632553100586,
+        "dataset": "QASPER",
+        "end_char": 14292,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "1e38525550f924eeaa89df37f1367143",
+        "passage_rank": 4,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "4e2c04b5535fcc1c2791b45038cec806",
+        "sentence_text": "deri2016grapheme, which is identified in our results as wFST.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 14231
+      },
+      {
+        "cross_encoder_score": -11.313638687133789,
+        "dataset": "QASPER",
+        "end_char": 14493,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "1e38525550f924eeaa89df37f1367143",
+        "passage_rank": 4,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "888d60d1fadc41e6bd3302ee0446baa2",
+        "sentence_text": "Their results can be divided into two parts: High resource results, computed with wFSTs trained on a combination of Wiktionary pronunciation data and g2p rules extracted from Wikipedia IPA Help pages.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 14293
+      },
+      {
+        "cross_encoder_score": -11.307779312133789,
+        "dataset": "QASPER",
+        "end_char": 14545,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "1e38525550f924eeaa89df37f1367143",
+        "passage_rank": 4,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "618f340edf48a0b40c9ad47ad57e4d08",
+        "sentence_text": "They report high resource results for 85 languages.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 14494
+      },
+      {
+        "cross_encoder_score": -10.969063758850098,
+        "dataset": "QASPER",
+        "end_char": 14665,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "1e38525550f924eeaa89df37f1367143",
+        "passage_rank": 4,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "42dcdf0509c62b79611cabcf475b35c3",
+        "sentence_text": "Adapted results, where they apply various mapping strategies in order to adapt high resource models to other languages.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 14546
+      },
+      {
+        "cross_encoder_score": -11.394922256469727,
+        "dataset": "QASPER",
+        "end_char": 14863,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "1e38525550f924eeaa89df37f1367143",
+        "passage_rank": 4,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "76059107834d731da1b6966c621a1333",
+        "sentence_text": "The final adapted results they reported include most of the 85 languages with high resource results, as well as the various languages they were able to adapt them for, for a total of 229 languages.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 14666
+      },
+      {
+        "cross_encoder_score": -11.319060325622559,
+        "dataset": "QASPER",
+        "end_char": 15014,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "1e38525550f924eeaa89df37f1367143",
+        "passage_rank": 4,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "7edddece3b717c787c551a76ae6cc71c",
+        "sentence_text": "This test set omits 23 of the high resource languages that are written in unique scripts or for which language distance metrics could not be computed.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 14864
+      },
+      {
+        "cross_encoder_score": -11.023938179016113,
+        "dataset": "QASPER",
+        "end_char": 15235,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "1e38525550f924eeaa89df37f1367143",
+        "passage_rank": 4,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "9a40087ee38eccd739187279a1e23ad3",
+        "sentence_text": "Training\tWe train the LangID and NoLangID versions of our model each on three subsets of the Wiktionary data: LangID-High and NoLangID-High: Trained on data from the 85 languages for which  used non-adapted wFST models.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 15016
+      },
+      {
+        "cross_encoder_score": -11.386357307434082,
+        "dataset": "QASPER",
+        "end_char": 15328,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "1e38525550f924eeaa89df37f1367143",
+        "passage_rank": 4,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "9291cf6c37839dcbed1d11c13c8fc54a",
+        "sentence_text": "LangID-Adapted and NoLangID-Adapted: Trained on data from any of the 229 languages for which",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 15236
+      },
+      {
+        "cross_encoder_score": -9.775565147399902,
+        "dataset": "QASPER",
+        "end_char": 15355,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "213a83f7e3446c693eede26c7d630982",
+        "passage_rank": 6,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "ef0bdfe7c5a17284ee6c3e2ea70b6188",
+        "sentence_text": "they built adapted models.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 15329
+      },
+      {
+        "cross_encoder_score": -9.779544830322266,
+        "dataset": "QASPER",
+        "end_char": 15477,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "213a83f7e3446c693eede26c7d630982",
+        "passage_rank": 6,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "7c47c90da4365106c306fa66a987a8d0",
+        "sentence_text": "Because many of these languages had no training data at all, the model is actually only trained on data in 157 languages.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 15356
+      },
+      {
+        "cross_encoder_score": -11.391528129577637,
+        "dataset": "QASPER",
+        "end_char": 15563,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "213a83f7e3446c693eede26c7d630982",
+        "passage_rank": 6,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "a7690deccdd9458cb642d3404adb914d",
+        "sentence_text": "As is noted above, the Adapted set omits 23 languages which are in the High test set.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 15478
+      },
+      {
+        "cross_encoder_score": -11.405413627624512,
+        "dataset": "QASPER",
+        "end_char": 15664,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "213a83f7e3446c693eede26c7d630982",
+        "passage_rank": 6,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "44739916175f9e505c8be3113d3d14a5",
+        "sentence_text": "LangID-All and NoLangID-All: Trained on data in all 311 languages in the Wiktionary training corpus.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 15564
+      },
+      {
+        "cross_encoder_score": -11.36068344116211,
+        "dataset": "QASPER",
+        "end_char": 15793,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "213a83f7e3446c693eede26c7d630982",
+        "passage_rank": 6,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "6a000e6cd63d4d996324b95cfeedb28e",
+        "sentence_text": "In order to ease comparison to Deri and Knight's system, we limited our use of the training corpus to 10,000 words per language.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 15665
+      },
+      {
+        "cross_encoder_score": -11.31938362121582,
+        "dataset": "QASPER",
+        "end_char": 15944,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "213a83f7e3446c693eede26c7d630982",
+        "passage_rank": 6,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "51739e165cfb1c9d1a56bbbca9149ec1",
+        "sentence_text": "We set aside 10 percent of the data in each language for validation, so the maximum number of training words for any language is 9000 for our systems.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 15794
+      },
+      {
+        "cross_encoder_score": -11.322012901306152,
+        "dataset": "QASPER",
+        "end_char": 16116,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "213a83f7e3446c693eede26c7d630982",
+        "passage_rank": 6,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "796589bec8915cd069911f209828798f",
+        "sentence_text": "Adapted Results\tOn the 229 languages for which deri2016grapheme presented their final results, the LangID version of our system outperforms the baseline by a wide margin.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 15946
+      },
+      {
+        "cross_encoder_score": -10.169983863830566,
+        "dataset": "QASPER",
+        "end_char": 16266,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "213a83f7e3446c693eede26c7d630982",
+        "passage_rank": 6,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "b0ee2861e8782c98d63b3314872494e4",
+        "sentence_text": "The best performance came with the version of our model that was trained on data in all available languages, not just the languages it was tested on.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          12,
+          7,
+          0
+        ],
+        "source_position": 16117
+      },
+      {
+        "cross_encoder_score": -11.366802215576172,
+        "dataset": "QASPER",
+        "end_char": 16380,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "213a83f7e3446c693eede26c7d630982",
+        "passage_rank": 6,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "114a7747d9da64ee7769ac281efdbf4b",
+        "sentence_text": "Using a language ID token improves results considerably, but even NoLangID beats the baseline in WER and WER 100.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          12,
+          8,
+          0
+        ],
+        "source_position": 16267
+      },
+      {
+        "cross_encoder_score": -10.238040924072266,
+        "dataset": "QASPER",
+        "end_char": 16393,
+        "pair_tokens_before_truncation": 12,
+        "pair_truncated": false,
+        "passage_id": "213a83f7e3446c693eede26c7d630982",
+        "passage_rank": 6,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "657b709f96cbddbf752004358dd10162",
+        "sentence_text": "Full results",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          12,
+          9,
+          0
+        ],
+        "source_position": 16381
+      },
+      {
+        "cross_encoder_score": -11.138368606567383,
+        "dataset": "QASPER",
+        "end_char": 16427,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "058bad979b10624c736200ef78c4540c",
+        "passage_rank": 2,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "4f775a90ced20a17e116394cd1fb56b2",
+        "sentence_text": "are presented in Table TABREF24 .",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "source_position": 16394
+      },
+      {
+        "cross_encoder_score": -10.021108627319336,
+        "dataset": "QASPER",
+        "end_char": 16611,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "058bad979b10624c736200ef78c4540c",
+        "passage_rank": 2,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "10397a935176f9eda9c8a01a84dd2347",
+        "sentence_text": "High Resource Results\tHaving shown that our model exceeds the performance of the wFST-adaptation approach, we next compare it to the baseline models for just high resource languages.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          13,
+          1,
+          0
+        ],
+        "source_position": 16429
+      },
+      {
+        "cross_encoder_score": -10.578946113586426,
+        "dataset": "QASPER",
+        "end_char": 16749,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "058bad979b10624c736200ef78c4540c",
+        "passage_rank": 2,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "65a17f2df9664cac44590e11aad90131",
+        "sentence_text": "The wFST models here are purely monolingual \u2013 they do not use data adaptation because there is sufficient training data for each of them.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          13,
+          2,
+          0
+        ],
+        "source_position": 16612
+      },
+      {
+        "cross_encoder_score": -10.78502082824707,
+        "dataset": "QASPER",
+        "end_char": 16796,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "058bad979b10624c736200ef78c4540c",
+        "passage_rank": 2,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "b5e531c94f61d28a9fd9adad66e91eaf",
+        "sentence_text": "Full results are presented in Table TABREF26 .",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          13,
+          3,
+          0
+        ],
+        "source_position": 16750
+      },
+      {
+        "cross_encoder_score": -11.198153495788574,
+        "dataset": "QASPER",
+        "end_char": 17006,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "058bad979b10624c736200ef78c4540c",
+        "passage_rank": 2,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "1c3a98e57a1d827dcd386ca2caa08946",
+        "sentence_text": "We omit models trained on the Adapted languages because they were not trained on high resource languages with unique writing systems, such as Georgian and Greek, and consequently performed very poorly on them.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          13,
+          4,
+          0
+        ],
+        "source_position": 16797
+      },
+      {
+        "cross_encoder_score": -9.882576942443848,
+        "dataset": "QASPER",
+        "end_char": 17226,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "058bad979b10624c736200ef78c4540c",
+        "passage_rank": 2,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "2885380a4eb2ffa50d91ef2ae784497f",
+        "sentence_text": "In contrast to the larger-scale Adapted results, in the High Resource experiments none of the sequence-to-sequence approaches equal the performance of the wFST model in WER and PER, although LangID-High does come close.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          13,
+          5,
+          0
+        ],
+        "source_position": 17007
+      },
+      {
+        "cross_encoder_score": -10.539819717407227,
+        "dataset": "QASPER",
+        "end_char": 17269,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "058bad979b10624c736200ef78c4540c",
+        "passage_rank": 2,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "e11578b84cbd0f4098da3eddc17928f6",
+        "sentence_text": "The LangID models do beat wFST in WER 100.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          13,
+          6,
+          0
+        ],
+        "source_position": 17227
+      },
+      {
+        "cross_encoder_score": -10.744216918945312,
+        "dataset": "QASPER",
+        "end_char": 17401,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "058bad979b10624c736200ef78c4540c",
+        "passage_rank": 2,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "9aaf7aa763ee62913a0f1e05965be98f",
+        "sentence_text": "A possible explanation is that a monolingual wFST model will never generate phonemes that are not part of the language's inventory.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          13,
+          7,
+          0
+        ],
+        "source_position": 17270
+      },
+      {
+        "cross_encoder_score": -10.15949535369873,
+        "dataset": "QASPER",
+        "end_char": 17539,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "058bad979b10624c736200ef78c4540c",
+        "passage_rank": 2,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "10c6dd9ccbf8c9137399bf972e756465",
+        "sentence_text": "A multilingual model, on the other hand, could potentially generate phonemes from the inventories of any language it has been trained on.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          13,
+          8,
+          0
+        ],
+        "source_position": 17402
+      },
+      {
+        "cross_encoder_score": -11.261431694030762,
+        "dataset": "QASPER",
+        "end_char": 17600,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "058bad979b10624c736200ef78c4540c",
+        "passage_rank": 2,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "2192f745ee6eb50acbf5a693af8c2134",
+        "sentence_text": "Even if LangID-High does not present a more accurate result,",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          13,
+          9,
+          0
+        ],
+        "source_position": 17540
+      },
+      {
+        "cross_encoder_score": -4.683906078338623,
+        "dataset": "QASPER",
+        "end_char": 17719,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "bc89eec62efb067e44be39bf229f9634",
+        "passage_rank": 1,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "b337c36f0c86bd76518e1186eeb4cb1a",
+        "sentence_text": "it does present a more compact one: LangID-High is 15.4 MB, while the combined wFST high resource models are 197.5 MB.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 17601
+      },
+      {
+        "cross_encoder_score": -11.224557876586914,
+        "dataset": "QASPER",
+        "end_char": 17827,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "bc89eec62efb067e44be39bf229f9634",
+        "passage_rank": 1,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "d05da4d7abb0f058162bfddcb8f40b79",
+        "sentence_text": "Results on Unseen Languages\tFinally, we report our models' results on unseen languages in Table TABREF28 .",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 17721
+      },
+      {
+        "cross_encoder_score": -11.416979789733887,
+        "dataset": "QASPER",
+        "end_char": 17927,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "bc89eec62efb067e44be39bf229f9634",
+        "passage_rank": 1,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "ec801b879c39ddc168391b8627926980",
+        "sentence_text": "The unseen languages are any that are present in the test corpus but absent from the training data.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          14,
+          2,
+          0
+        ],
+        "source_position": 17828
+      },
+      {
+        "cross_encoder_score": -11.358420372009277,
+        "dataset": "QASPER",
+        "end_char": 17999,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "bc89eec62efb067e44be39bf229f9634",
+        "passage_rank": 1,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "61c2faabd22793b223a86da9c9842084",
+        "sentence_text": "Deri and Knight did not report results specifically on these languages.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          14,
+          3,
+          0
+        ],
+        "source_position": 17928
+      },
+      {
+        "cross_encoder_score": -10.657615661621094,
+        "dataset": "QASPER",
+        "end_char": 18128,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "bc89eec62efb067e44be39bf229f9634",
+        "passage_rank": 1,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "53d7de73c3fb9ef13d52b8f8c5c61cae",
+        "sentence_text": "Although the NoLangID models sometimes do better on WER 100, even here the LangID models have a slight advantage in WER and PER.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          14,
+          4,
+          0
+        ],
+        "source_position": 18000
+      },
+      {
+        "cross_encoder_score": -11.01936149597168,
+        "dataset": "QASPER",
+        "end_char": 18258,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "bc89eec62efb067e44be39bf229f9634",
+        "passage_rank": 1,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "3b08aa5b0a6480e06e73360eb0b137b7",
+        "sentence_text": "This is somewhat surprising because the LangID models have not learned embeddings for the language ID tokens of unseen languages.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          14,
+          5,
+          0
+        ],
+        "source_position": 18129
+      },
+      {
+        "cross_encoder_score": -10.984923362731934,
+        "dataset": "QASPER",
+        "end_char": 18398,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "bc89eec62efb067e44be39bf229f9634",
+        "passage_rank": 1,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "c030449cf94fce4034718fe9e48b0e98",
+        "sentence_text": "Perhaps negative associations are also being learned, driving the model towards predicting more common pronunciations for unseen languages.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          14,
+          6,
+          0
+        ],
+        "source_position": 18259
+      },
+      {
+        "cross_encoder_score": -11.407177925109863,
+        "dataset": "QASPER",
+        "end_char": 18530,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "bc89eec62efb067e44be39bf229f9634",
+        "passage_rank": 1,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "2ab1ec2041e3e713b7f76fafec1c931a",
+        "sentence_text": "Language ID Tokens\tAdding a language ID token always improves results in cases where an embedding has been learned for that token.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          14,
+          7,
+          0
+        ],
+        "source_position": 18400
+      },
+      {
+        "cross_encoder_score": -10.340303421020508,
+        "dataset": "QASPER",
+        "end_char": 18703,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "bc89eec62efb067e44be39bf229f9634",
+        "passage_rank": 1,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "9d71c3a927a0e79621cc59ef9ab8f17b",
+        "sentence_text": "The power of these embeddings is demonstrated by what happens when one feeds the same input word to the model with different language tokens, as is seen in Table TABREF30 .",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          14,
+          8,
+          0
+        ],
+        "source_position": 18531
+      },
+      {
+        "cross_encoder_score": -11.415602684020996,
+        "dataset": "QASPER",
+        "end_char": 18827,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "bc89eec62efb067e44be39bf229f9634",
+        "passage_rank": 1,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "0178e3918edeb7fc110e3f4cb1dbc5ec",
+        "sentence_text": "Impressively, this even works when the source sequence is in the wrong script for the language, as is seen in the entry for",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          14,
+          9,
+          0
+        ],
+        "source_position": 18704
+      },
+      {
+        "cross_encoder_score": -11.088874816894531,
+        "dataset": "QASPER",
+        "end_char": 18835,
+        "pair_tokens_before_truncation": 12,
+        "pair_truncated": false,
+        "passage_id": "4a5d983812eb5eae5eaa46bc11a723de",
+        "passage_rank": 9,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "febe9ef08598f0da904ed6a3866c6319",
+        "sentence_text": "Arabic.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          15,
+          0,
+          0
+        ],
+        "source_position": 18828
+      },
+      {
+        "cross_encoder_score": -11.395491600036621,
+        "dataset": "QASPER",
+        "end_char": 18982,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "4a5d983812eb5eae5eaa46bc11a723de",
+        "passage_rank": 9,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "43fbd23e9f752bf1c27b319e67fabe59",
+        "sentence_text": "Language Embeddings\tBecause these language ID tokens are so useful, it would be good if they could be effectively estimated for unseen languages.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          15,
+          1,
+          0
+        ],
+        "source_position": 18837
+      },
+      {
+        "cross_encoder_score": -10.991520881652832,
+        "dataset": "QASPER",
+        "end_char": 19230,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "4a5d983812eb5eae5eaa46bc11a723de",
+        "passage_rank": 9,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "38f05715f5cdbe1688aa137c95afee44",
+        "sentence_text": "ostling2017continuous found that the language vectors their models learned correlated well to genetic relationships, so it would be interesting to see if the embeddings our source encoder learned for the language ID tokens showed anything similar.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          15,
+          2,
+          0
+        ],
+        "source_position": 18983
+      },
+      {
+        "cross_encoder_score": -11.372483253479004,
+        "dataset": "QASPER",
+        "end_char": 19370,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "4a5d983812eb5eae5eaa46bc11a723de",
+        "passage_rank": 9,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "d55c913c3e6e537ceee5293236446f02",
+        "sentence_text": "In a few cases they do (the languages closest to German in the vector space are Luxembourgish, Bavarian, and Yiddish, all close relatives).",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          15,
+          3,
+          0
+        ],
+        "source_position": 19231
+      },
+      {
+        "cross_encoder_score": -11.13328742980957,
+        "dataset": "QASPER",
+        "end_char": 19450,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "4a5d983812eb5eae5eaa46bc11a723de",
+        "passage_rank": 9,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "4ceedf3544f4cb3053b9baf09d92febb",
+        "sentence_text": "However, for the most part the structure of these vectors is not interpretable.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          15,
+          4,
+          0
+        ],
+        "source_position": 19371
+      },
+      {
+        "cross_encoder_score": -11.365059852600098,
+        "dataset": "QASPER",
+        "end_char": 19593,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "4a5d983812eb5eae5eaa46bc11a723de",
+        "passage_rank": 9,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "da769d74178010439f56867388f222a3",
+        "sentence_text": "Therefore, it would be difficult to estimate the embedding for an unseen language, or to \u201cborrow\u201d the language ID token of a similar language.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          15,
+          5,
+          0
+        ],
+        "source_position": 19451
+      },
+      {
+        "cross_encoder_score": -10.019387245178223,
+        "dataset": "QASPER",
+        "end_char": 19721,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "4a5d983812eb5eae5eaa46bc11a723de",
+        "passage_rank": 9,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "86a811ca6973e8818aae3f8e007112e5",
+        "sentence_text": "A more promising way forward is to find a model that uses an externally constructed typological representation of the language.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          15,
+          6,
+          0
+        ],
+        "source_position": 19594
+      },
+      {
+        "cross_encoder_score": -11.386590957641602,
+        "dataset": "QASPER",
+        "end_char": 19860,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "4a5d983812eb5eae5eaa46bc11a723de",
+        "passage_rank": 9,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "83a2f9137d8575256e40fb444b363542",
+        "sentence_text": "Phoneme Embeddings\tIn contrast to the language embeddings, the phoneme embeddings appear to show many regularities (see Table TABREF33 ).",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          15,
+          7,
+          0
+        ],
+        "source_position": 19723
+      },
+      {
+        "cross_encoder_score": -10.527738571166992,
+        "dataset": "QASPER",
+        "end_char": 20006,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "4a5d983812eb5eae5eaa46bc11a723de",
+        "passage_rank": 9,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "3360a089e59688e5f34af12fc622c624",
+        "sentence_text": "This is a sign that our multilingual model learns similar embeddings for phonemes that are written with the same grapheme in different languages.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          15,
+          8,
+          0
+        ],
+        "source_position": 19861
+      },
+      {
+        "cross_encoder_score": -11.406986236572266,
+        "dataset": "QASPER",
+        "end_char": 20068,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "4a5d983812eb5eae5eaa46bc11a723de",
+        "passage_rank": 9,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "f3bff25af752fc4cf6f402d878608bd5",
+        "sentence_text": "These phonemes tend to be phonetically similar to each other.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          15,
+          9,
+          0
+        ],
+        "source_position": 20007
+      },
+      {
+        "cross_encoder_score": -11.398504257202148,
+        "dataset": "QASPER",
+        "end_char": 20138,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "4a5d983812eb5eae5eaa46bc11a723de",
+        "passage_rank": 9,
+        "query_id": "113d791df6fcfc9cecfb7b1bebaf32cc2e4402ab",
+        "sentence_id": "b8c1a2c883b4c19373eb5deffef0f1fb",
+        "sentence_text": "Perhaps the structure of the phoneme embedding space is what leads to",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          15,
+          10,
+          0
+        ],
+        "source_position": 20069
+      }
+    ],
+    "scoring_seconds": 0.2931506979512051,
+    "source_fingerprint": "418107a4af51668087d2d4b793e1be55de0bca173033709a168e23d39a23b91b"
+  }
+}

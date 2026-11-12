@@ -1,0 +1,1731 @@
+{
+  "checksum": "749fb8c54ef76e9c6c9b6abbd480b790ad108ac731c8efe16d9eb627dddbb616",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "1216"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 85,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "11111d9b401a87e133782576c99119af132c9bf7923c320ae70e62ab41e65075",
+    "query_id": "1216",
+    "scores": [
+      {
+        "cross_encoder_score": -10.69870662689209,
+        "dataset": "SciFact",
+        "end_char": 119,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "9b0b1cc514ae99a29ac44916474ac46d",
+        "passage_rank": 7,
+        "query_id": "1216",
+        "sentence_id": "7b548a87c8dadb50031fdfc91dc16fdd",
+        "sentence_text": "Genetic and epigenetic mutations affect the DNA binding capability of human ZFP57 in transient neonatal diabetes type 1",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2193,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.339395523071289,
+        "dataset": "SciFact",
+        "end_char": 292,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "9b0b1cc514ae99a29ac44916474ac46d",
+        "passage_rank": 7,
+        "query_id": "1216",
+        "sentence_id": "eaed617f9dc30e470bf3359581df189b",
+        "sentence_text": "In the mouse, ZFP57 contains three classical Cys2His2 zinc finger domains (ZF) and recognizes the methylated TGC(met)CGC target sequence using the first and the second ZFs.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          2193,
+          0,
+          1,
+          0
+        ],
+        "source_position": 120
+      },
+      {
+        "cross_encoder_score": -10.278983116149902,
+        "dataset": "SciFact",
+        "end_char": 512,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "9b0b1cc514ae99a29ac44916474ac46d",
+        "passage_rank": 7,
+        "query_id": "1216",
+        "sentence_id": "33b140b4e01dbc7d0419691aabf8c026",
+        "sentence_text": "In this study, we demonstrate that the human ZFP57 (hZFP57) containing six Cys2His2 ZFs, binds the same methylated sequence through the third and the fourth ZFs, and identify the aminoacids critical for DNA interaction.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          2193,
+          0,
+          2,
+          0
+        ],
+        "source_position": 293
+      },
+      {
+        "cross_encoder_score": -10.952588081359863,
+        "dataset": "SciFact",
+        "end_char": 768,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "9b0b1cc514ae99a29ac44916474ac46d",
+        "passage_rank": 7,
+        "query_id": "1216",
+        "sentence_id": "7b4677db53be39fc0edfb172096d3aff",
+        "sentence_text": "In addition, we present evidences indicating that hZFP57 mutations and hypomethylation of the TNDM1 ICR both associated with Transient Neonatal Diabetes Mellitus type 1 result in loss of hZFP57 binding to the TNDM1 locus, likely causing PLAGL1 activation.",
+        "sentence_token_cost": 67,
+        "source_order": [
+          2193,
+          0,
+          3,
+          0
+        ],
+        "source_position": 513
+      },
+      {
+        "cross_encoder_score": -9.98987865447998,
+        "dataset": "SciFact",
+        "end_char": 141,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "6a503581ad5842641058c9c3372199fb",
+        "passage_rank": 3,
+        "query_id": "1216",
+        "sentence_id": "1d83d0849e90eb39b6f5d36cbb057b44",
+        "sentence_text": "Tissue-Specific Knockout of the Insulin Receptor in Pancreatic \u03b2 Cells Creates an Insulin Secretory Defect Similar to that in Type 2 Diabetes",
+        "sentence_token_cost": 34,
+        "source_order": [
+          2619,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.0115385055542,
+        "dataset": "SciFact",
+        "end_char": 314,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "6a503581ad5842641058c9c3372199fb",
+        "passage_rank": 3,
+        "query_id": "1216",
+        "sentence_id": "60edd139ea274da8dedded9f0efcefaa",
+        "sentence_text": "Dysfunction of the pancreatic beta cell is an important defect in the pathogenesis of type 2 diabetes, although its exact relationship to the insulin resistance is unclear.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          2619,
+          0,
+          1,
+          0
+        ],
+        "source_position": 142
+      },
+      {
+        "cross_encoder_score": -8.112275123596191,
+        "dataset": "SciFact",
+        "end_char": 497,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "6a503581ad5842641058c9c3372199fb",
+        "passage_rank": 3,
+        "query_id": "1216",
+        "sentence_id": "750e97bc5a0c8877698be466c6abffbe",
+        "sentence_text": "To determine whether insulin signaling has a functional role in the beta cell we have used the Cre-loxP system to specifically inactivate the insulin receptor gene in the beta cells.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          2619,
+          0,
+          2,
+          0
+        ],
+        "source_position": 315
+      },
+      {
+        "cross_encoder_score": -11.11971378326416,
+        "dataset": "SciFact",
+        "end_char": 636,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "6a503581ad5842641058c9c3372199fb",
+        "passage_rank": 3,
+        "query_id": "1216",
+        "sentence_id": "56effb60bc2ee581c35e89f3dc1517ea",
+        "sentence_text": "The resultant mice exhibit a selective loss of insulin secretion in response to glucose and a progressive impairment of glucose tolerance.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          2619,
+          0,
+          3,
+          0
+        ],
+        "source_position": 498
+      },
+      {
+        "cross_encoder_score": -8.893790245056152,
+        "dataset": "SciFact",
+        "end_char": 917,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "6a503581ad5842641058c9c3372199fb",
+        "passage_rank": 3,
+        "query_id": "1216",
+        "sentence_id": "392d74b0acdc28895da30ec6ec66fe1c",
+        "sentence_text": "These data indicate an important functional role for the insulin receptor in glucose sensing by the pancreatic beta cell and suggest that defects in insulin signaling at the level of the beta cell may contribute to the observed alterations in insulin secretion in type 2 diabetes.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          2619,
+          0,
+          4,
+          0
+        ],
+        "source_position": 637
+      },
+      {
+        "cross_encoder_score": -10.587484359741211,
+        "dataset": "SciFact",
+        "end_char": 79,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 8,
+        "query_id": "1216",
+        "sentence_id": "a468a29f40feb7f1c8f02d678f34018d",
+        "sentence_text": "Functional and molecular defects of pancreatic islets in human type 2 diabetes.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          2633,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.238423347473145,
+        "dataset": "SciFact",
+        "end_char": 372,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 8,
+        "query_id": "1216",
+        "sentence_id": "5ad2dda26ba267ea6ee9b52f65b64a97",
+        "sentence_text": "To shed further light on the primary alterations of insulin secretion in type 2 diabetes and the possible mechanisms involved, we studied several functional and molecular properties of islets isolated from the pancreata of 13 type 2 diabetic and 13 matched nondiabetic cadaveric organ donors.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          2633,
+          0,
+          1,
+          0
+        ],
+        "source_position": 80
+      },
+      {
+        "cross_encoder_score": -11.320198059082031,
+        "dataset": "SciFact",
+        "end_char": 578,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 8,
+        "query_id": "1216",
+        "sentence_id": "b566d426e58f3b5f60b87f9e53a9e325",
+        "sentence_text": "Glucose-stimulated insulin secretion from type 2 diabetic islets was significantly lower than from control islets, whereas arginine- and glibenclamide-stimulated insulin release was less markedly affected.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          2633,
+          0,
+          2,
+          0
+        ],
+        "source_position": 373
+      },
+      {
+        "cross_encoder_score": -10.716814041137695,
+        "dataset": "SciFact",
+        "end_char": 703,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 8,
+        "query_id": "1216",
+        "sentence_id": "da9f92e1a7733d40b90d2217e8d90f77",
+        "sentence_text": "The defects were accompanied by reduced mRNA expression of GLUT1 and -2 and glucokinase and by diminished glucose oxidation.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2633,
+          0,
+          3,
+          0
+        ],
+        "source_position": 579
+      },
+      {
+        "cross_encoder_score": -10.549437522888184,
+        "dataset": "SciFact",
+        "end_char": 769,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 8,
+        "query_id": "1216",
+        "sentence_id": "b769d04b7313b1b5e993dc31190e23b6",
+        "sentence_text": "In addition, AMP-activated protein kinase activation was reduced.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          2633,
+          0,
+          4,
+          0
+        ],
+        "source_position": 704
+      },
+      {
+        "cross_encoder_score": -11.246988296508789,
+        "dataset": "SciFact",
+        "end_char": 918,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 8,
+        "query_id": "1216",
+        "sentence_id": "3bafba2d94e923bd29a3d05ffd58f840",
+        "sentence_text": "Furthermore, the expression of insulin was decreased, and that of pancreatic duodenal homeobox-1 (PDX-1) and forkhead box O1 (Foxo-1) was increased.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          2633,
+          0,
+          5,
+          0
+        ],
+        "source_position": 770
+      },
+      {
+        "cross_encoder_score": -11.279047966003418,
+        "dataset": "SciFact",
+        "end_char": 1166,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 8,
+        "query_id": "1216",
+        "sentence_id": "d336214f1d04e46ea950717c6d4e453b",
+        "sentence_text": "Nitrotyrosine and 8-hydroxy-2'-deoxyguanosine concentrations, markers of oxidative stress, were significantly higher in type 2 diabetic than control islets, and they were correlated with the degree of glucose-stimulated insulin release impairment.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          2633,
+          0,
+          6,
+          0
+        ],
+        "source_position": 919
+      },
+      {
+        "cross_encoder_score": -11.200112342834473,
+        "dataset": "SciFact",
+        "end_char": 1359,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 8,
+        "query_id": "1216",
+        "sentence_id": "1a4af99ca707da6c093ab7a28cef16a6",
+        "sentence_text": "Accordingly, 24-h exposure to glutathione significantly improved glucose-stimulated insulin release and decreased nitrotyrosine concentration, with partial recovery of insulin mRNA expression.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          2633,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1167
+      },
+      {
+        "cross_encoder_score": -11.068562507629395,
+        "dataset": "SciFact",
+        "end_char": 1514,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 8,
+        "query_id": "1216",
+        "sentence_id": "a2fd32d57ccc153c0832af6724b25b63",
+        "sentence_text": "These results provide direct evidence that the defects of insulin secretion in type 2 diabetic islets are associated with multiple islet cell alterations.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          2633,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1360
+      },
+      {
+        "cross_encoder_score": -11.247782707214355,
+        "dataset": "SciFact",
+        "end_char": 1651,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 8,
+        "query_id": "1216",
+        "sentence_id": "a35e7cb13d09ac942a84de0422b7c5c8",
+        "sentence_text": "Most importantly, the current study shows that the functional impairment of type 2 diabetic islets can be, at least in part, reversible.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          2633,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1515
+      },
+      {
+        "cross_encoder_score": -10.712553977966309,
+        "dataset": "SciFact",
+        "end_char": 1781,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "9ad26ea5a79cbad0d2ac15f112ef2d10",
+        "passage_rank": 8,
+        "query_id": "1216",
+        "sentence_id": "ffb5627e5be933501555f3c4583a76b1",
+        "sentence_text": "In this regard, it is suggested that reducing islet cell oxidative stress is a potential target of human type 2 diabetes therapy.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2633,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1652
+      },
+      {
+        "cross_encoder_score": -8.862004280090332,
+        "dataset": "SciFact",
+        "end_char": 2,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "a908732dd4563101869f4219c84e1667",
+        "passage_rank": 2,
+        "query_id": "1216",
+        "sentence_id": "6ccf533b03f30ac3f748ce9c96d3e07f",
+        "sentence_text": "in",
+        "sentence_token_cost": 1,
+        "source_order": [
+          2761,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.239888191223145,
+        "dataset": "SciFact",
+        "end_char": 184,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "a908732dd4563101869f4219c84e1667",
+        "passage_rank": 2,
+        "query_id": "1216",
+        "sentence_id": "a126a4917af068d0b449591474780f03",
+        "sentence_text": "Transglutaminase 2 (TGase 2) is a Ca+2-dependent enzyme that catalyzes both intracellular and extracellular cross-linking reactions by transamidation of specific glutamine residues.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          2761,
+          0,
+          1,
+          0
+        ],
+        "source_position": 3
+      },
+      {
+        "cross_encoder_score": -6.759920597076416,
+        "dataset": "SciFact",
+        "end_char": 328,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "a908732dd4563101869f4219c84e1667",
+        "passage_rank": 2,
+        "query_id": "1216",
+        "sentence_id": "dfe27e204cfd47aadd3ad4dc94e26fd0",
+        "sentence_text": "TGase 2 is known to be involved in the membrane-mediated events required for glucose-stimulated insulin release from the pancreatic beta cells.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          2761,
+          0,
+          2,
+          0
+        ],
+        "source_position": 185
+      },
+      {
+        "cross_encoder_score": -10.804414749145508,
+        "dataset": "SciFact",
+        "end_char": 423,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "a908732dd4563101869f4219c84e1667",
+        "passage_rank": 2,
+        "query_id": "1216",
+        "sentence_id": "6ba9402d285cd2643bec25076beaba9a",
+        "sentence_text": "Here we show that targeted disruption of TGase 2 impairs glucose-stimulated insulin secretion.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          2761,
+          0,
+          3,
+          0
+        ],
+        "source_position": 329
+      },
+      {
+        "cross_encoder_score": -11.015665054321289,
+        "dataset": "SciFact",
+        "end_char": 503,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "a908732dd4563101869f4219c84e1667",
+        "passage_rank": 2,
+        "query_id": "1216",
+        "sentence_id": "d48a2ce2389076c048160dff83004bb7",
+        "sentence_text": "TGase 2-/- mice show glucose intolerance after intraperitoneal glucose loading.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          2761,
+          0,
+          4,
+          0
+        ],
+        "source_position": 424
+      },
+      {
+        "cross_encoder_score": -11.019633293151855,
+        "dataset": "SciFact",
+        "end_char": 688,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "a908732dd4563101869f4219c84e1667",
+        "passage_rank": 2,
+        "query_id": "1216",
+        "sentence_id": "185ebe7de5dfae497dfebad11da2450f",
+        "sentence_text": "TGase 2-/- mice manifest a tendency to develop hypoglycemia after administration of exogenous insulin as a consequence of enhanced insulin receptor substrate 2 (IRS-2) phosphorylation.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          2761,
+          0,
+          5,
+          0
+        ],
+        "source_position": 504
+      },
+      {
+        "cross_encoder_score": -11.034229278564453,
+        "dataset": "SciFact",
+        "end_char": 824,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "a908732dd4563101869f4219c84e1667",
+        "passage_rank": 2,
+        "query_id": "1216",
+        "sentence_id": "08b5ee5b603ea602bcc2f1d2d6287416",
+        "sentence_text": "We suggest that the increased peripheral sensitivity to insulin partially compensates for the defective secretion in this animal model.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2761,
+          0,
+          6,
+          0
+        ],
+        "source_position": 689
+      },
+      {
+        "cross_encoder_score": -11.139466285705566,
+        "dataset": "SciFact",
+        "end_char": 923,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "a908732dd4563101869f4219c84e1667",
+        "passage_rank": 2,
+        "query_id": "1216",
+        "sentence_id": "06084c25d044455afbc8399f18ac5eef",
+        "sentence_text": "TGase 2-/- mouse phenotype resembles that of the maturity-onset diabetes of young (MODY) patients.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2761,
+          0,
+          7,
+          0
+        ],
+        "source_position": 825
+      },
+      {
+        "cross_encoder_score": -8.691624641418457,
+        "dataset": "SciFact",
+        "end_char": 1103,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "a908732dd4563101869f4219c84e1667",
+        "passage_rank": 2,
+        "query_id": "1216",
+        "sentence_id": "3957f6103c86e63c4b5ba1e1853c5a04",
+        "sentence_text": "In the course of screening for human TGase 2 gene in Italian subjects with the clinical features of MODY, we detected a missense mutation (N333S) in the active site of the enzyme.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          2761,
+          0,
+          8,
+          0
+        ],
+        "source_position": 924
+      },
+      {
+        "cross_encoder_score": -10.834683418273926,
+        "dataset": "SciFact",
+        "end_char": 1198,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "a908732dd4563101869f4219c84e1667",
+        "passage_rank": 2,
+        "query_id": "1216",
+        "sentence_id": "e2e8aa03370e032350317113127b3f5f",
+        "sentence_text": "Collectively, these results identify TGase 2 as a potential candidate gene in type 2 diabetes.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2761,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1104
+      },
+      {
+        "cross_encoder_score": -5.91103458404541,
+        "dataset": "SciFact",
+        "end_char": 78,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "a3814e0847d5a5a17d6df992858db47b",
+        "passage_rank": 4,
+        "query_id": "1216",
+        "sentence_id": "8acd21187ef6a853540411fbc063d1b9",
+        "sentence_text": "A simple two-step protocol for the purification of human pancreatic beta cells",
+        "sentence_token_cost": 13,
+        "source_order": [
+          2969,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.149844169616699,
+        "dataset": "SciFact",
+        "end_char": 161,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "a3814e0847d5a5a17d6df992858db47b",
+        "passage_rank": 4,
+        "query_id": "1216",
+        "sentence_id": "31bc695098d28d93516d560eca67efe4",
+        "sentence_text": "Isolated pure human beta cells would be helpful for a number of research purposes.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          2969,
+          0,
+          1,
+          0
+        ],
+        "source_position": 79
+      },
+      {
+        "cross_encoder_score": -7.377396583557129,
+        "dataset": "SciFact",
+        "end_char": 240,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "a3814e0847d5a5a17d6df992858db47b",
+        "passage_rank": 4,
+        "query_id": "1216",
+        "sentence_id": "e69e1ef1d3a9da8249a1d6386add3e83",
+        "sentence_text": "However, lack of beta cell-specific surface antigens has been a major problem.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          2969,
+          0,
+          2,
+          0
+        ],
+        "source_position": 162
+      },
+      {
+        "cross_encoder_score": -3.9422719478607178,
+        "dataset": "SciFact",
+        "end_char": 540,
+        "pair_tokens_before_truncation": 91,
+        "pair_truncated": false,
+        "passage_id": "a3814e0847d5a5a17d6df992858db47b",
+        "passage_rank": 4,
+        "query_id": "1216",
+        "sentence_id": "2207351a35a03b6c942193e85a43e25b",
+        "sentence_text": "We aimed to develop a simple method for human beta cell isolation based on the initial elimination of ductal cells by their expression of carbohydrate antigen 19-9 (CA19-9), followed by positive selection of beta cells by their expression of polysialic acid\u2013neural cell adhesion molecule (PSA-NCAM).",
+        "sentence_token_cost": 68,
+        "source_order": [
+          2969,
+          0,
+          3,
+          0
+        ],
+        "source_position": 241
+      },
+      {
+        "cross_encoder_score": -9.498287200927734,
+        "dataset": "SciFact",
+        "end_char": 701,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "a3814e0847d5a5a17d6df992858db47b",
+        "passage_rank": 4,
+        "query_id": "1216",
+        "sentence_id": "878398677d5908dbe93d4a3ff60017d8",
+        "sentence_text": "Cell type-specific expression of CA19-9, NCAM and PSA-NCAM was studied in sections of adult human pancreas and in cultured primary endocrine and exocrine cells.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          2969,
+          0,
+          4,
+          0
+        ],
+        "source_position": 541
+      },
+      {
+        "cross_encoder_score": -9.030706405639648,
+        "dataset": "SciFact",
+        "end_char": 878,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "a3814e0847d5a5a17d6df992858db47b",
+        "passage_rank": 4,
+        "query_id": "1216",
+        "sentence_id": "2c1680bf4c0db6cdaab158ee7a17237c",
+        "sentence_text": "Dispersed human islet cells were purified in two steps, after 4 days of suspension culture, by binding to magnetic microbeads coupled to antibodies against CA19-9 and PSA-NCAM.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          2969,
+          0,
+          5,
+          0
+        ],
+        "source_position": 702
+      },
+      {
+        "cross_encoder_score": -10.356844902038574,
+        "dataset": "SciFact",
+        "end_char": 950,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "a3814e0847d5a5a17d6df992858db47b",
+        "passage_rank": 4,
+        "query_id": "1216",
+        "sentence_id": "650890244e70dcb1744e321e7a670b83",
+        "sentence_text": "NCAM expression was detected in ducts and islets in the human pancreas.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          2969,
+          0,
+          6,
+          0
+        ],
+        "source_position": 879
+      },
+      {
+        "cross_encoder_score": -10.929818153381348,
+        "dataset": "SciFact",
+        "end_char": 1018,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "a3814e0847d5a5a17d6df992858db47b",
+        "passage_rank": 4,
+        "query_id": "1216",
+        "sentence_id": "4ca114a00dc40df9a3e4a764e715be0c",
+        "sentence_text": "In contrast, PSA-NCAM immunoreactivity was detected only in islets.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          2969,
+          0,
+          7,
+          0
+        ],
+        "source_position": 951
+      },
+      {
+        "cross_encoder_score": -10.590693473815918,
+        "dataset": "SciFact",
+        "end_char": 1145,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "a3814e0847d5a5a17d6df992858db47b",
+        "passage_rank": 4,
+        "query_id": "1216",
+        "sentence_id": "35b44c4d1ef24c5e60f3da1ce7f72ad0",
+        "sentence_text": "PSA-NCAM staining in dispersed cells revealed that the marker is expressed in all endocrine cell types, but not in duct cells.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          2969,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1019
+      },
+      {
+        "cross_encoder_score": -11.041389465332031,
+        "dataset": "SciFact",
+        "end_char": 1270,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "a3814e0847d5a5a17d6df992858db47b",
+        "passage_rank": 4,
+        "query_id": "1216",
+        "sentence_id": "c31bfd0855079e932cd579b92a103a2b",
+        "sentence_text": "Purification of dispersed islet cells using PSA-NCAM microbeads alone did not completely eliminate contaminating duct cells.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2969,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1146
+      },
+      {
+        "cross_encoder_score": -8.023115158081055,
+        "dataset": "SciFact",
+        "end_char": 1509,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "a3814e0847d5a5a17d6df992858db47b",
+        "passage_rank": 4,
+        "query_id": "1216",
+        "sentence_id": "aafb22d3bb6a01bd73f9ed32df166b77",
+        "sentence_text": "However, elimination of the duct cells by CA19-9 microbeads followed by positive sorting of the PSA-NCAM-positive cells in five consecutive islet preparations resulted in 90 to 98% pure endocrine cells, of which 89 to 97% were beta cells.",
+        "sentence_token_cost": 63,
+        "source_order": [
+          2969,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1271
+      },
+      {
+        "cross_encoder_score": -5.6215057373046875,
+        "dataset": "SciFact",
+        "end_char": 1645,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "a3814e0847d5a5a17d6df992858db47b",
+        "passage_rank": 4,
+        "query_id": "1216",
+        "sentence_id": "f12a01f363b5b7f1aa9fba55a631cff9",
+        "sentence_text": "We describe a simple and reproducible method for purification of viable human pancreatic beta cells devoid of exocrine acini and ducts.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2969,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1510
+      },
+      {
+        "cross_encoder_score": 4.450657844543457,
+        "dataset": "SciFact",
+        "end_char": 102,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "3fd075f68fd3f6e49fd655b31fe859a5",
+        "passage_rank": 1,
+        "query_id": "1216",
+        "sentence_id": "291b32d0dfb4a8af23e3803beac19e08",
+        "sentence_text": "Tmem27: a cleaved and shed plasma membrane protein that stimulates pancreatic beta cell proliferation.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          3545,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.642226696014404,
+        "dataset": "SciFact",
+        "end_char": 222,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "3fd075f68fd3f6e49fd655b31fe859a5",
+        "passage_rank": 1,
+        "query_id": "1216",
+        "sentence_id": "c9c33017b2215094ab288a597485c180",
+        "sentence_text": "The signals and molecular mechanisms that regulate the replication of terminally differentiated beta cells are unknown.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3545,
+          0,
+          1,
+          0
+        ],
+        "source_position": 103
+      },
+      {
+        "cross_encoder_score": 1.3373709917068481,
+        "dataset": "SciFact",
+        "end_char": 353,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "3fd075f68fd3f6e49fd655b31fe859a5",
+        "passage_rank": 1,
+        "query_id": "1216",
+        "sentence_id": "8e252f67b8226a70b95c68426fb0937b",
+        "sentence_text": "Here, we report the identification and characterization of transmembrane protein 27 (Tmem27, collectrin) in pancreatic beta cells.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          3545,
+          0,
+          2,
+          0
+        ],
+        "source_position": 223
+      },
+      {
+        "cross_encoder_score": -2.892493963241577,
+        "dataset": "SciFact",
+        "end_char": 490,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "3fd075f68fd3f6e49fd655b31fe859a5",
+        "passage_rank": 1,
+        "query_id": "1216",
+        "sentence_id": "23352bd2d725d6d4a6b132cf8976cdf2",
+        "sentence_text": "Expression of Tmem27 is reduced in Tcf1(-/-) mice and is increased in islets of mouse models with hypertrophy of the endocrine pancreas.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3545,
+          0,
+          3,
+          0
+        ],
+        "source_position": 354
+      },
+      {
+        "cross_encoder_score": 8.58658218383789,
+        "dataset": "SciFact",
+        "end_char": 613,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "3fd075f68fd3f6e49fd655b31fe859a5",
+        "passage_rank": 1,
+        "query_id": "1216",
+        "sentence_id": "58c940ed4055938989e53bc9e4701485",
+        "sentence_text": "Tmem27 forms dimers and its extracellular domain is glycosylated, cleaved and shed from the plasma membrane of beta cells.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          3545,
+          0,
+          4,
+          0
+        ],
+        "source_position": 491
+      },
+      {
+        "cross_encoder_score": -7.899650573730469,
+        "dataset": "SciFact",
+        "end_char": 697,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "3fd075f68fd3f6e49fd655b31fe859a5",
+        "passage_rank": 1,
+        "query_id": "1216",
+        "sentence_id": "bc2c6a0e6ade06e73acaf98dbfb20fa9",
+        "sentence_text": "This cleavage process is beta cell specific and does not occur in other cell types.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          3545,
+          0,
+          5,
+          0
+        ],
+        "source_position": 614
+      },
+      {
+        "cross_encoder_score": -2.7718992233276367,
+        "dataset": "SciFact",
+        "end_char": 904,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "3fd075f68fd3f6e49fd655b31fe859a5",
+        "passage_rank": 1,
+        "query_id": "1216",
+        "sentence_id": "6c72f76a65e9fe29855e384cc71db357",
+        "sentence_text": "Overexpression of full-length Tmem27, but not the truncated or soluble protein, leads to increased thymidine incorporation, whereas silencing of Tmem27 using RNAi results in a reduction of cell replication.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          3545,
+          0,
+          6,
+          0
+        ],
+        "source_position": 698
+      },
+      {
+        "cross_encoder_score": 0.21457165479660034,
+        "dataset": "SciFact",
+        "end_char": 1028,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "3fd075f68fd3f6e49fd655b31fe859a5",
+        "passage_rank": 1,
+        "query_id": "1216",
+        "sentence_id": "4f404a8e9bf3ec265d5c6b0b20d1906f",
+        "sentence_text": "Furthermore, transgenic mice with increased expression of Tmem27 in pancreatic beta cells exhibit increased beta cell mass.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3545,
+          0,
+          7,
+          0
+        ],
+        "source_position": 905
+      },
+      {
+        "cross_encoder_score": -8.089573860168457,
+        "dataset": "SciFact",
+        "end_char": 1143,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "3fd075f68fd3f6e49fd655b31fe859a5",
+        "passage_rank": 1,
+        "query_id": "1216",
+        "sentence_id": "86da5d8e8fa9bf659172e520dcf3c6eb",
+        "sentence_text": "Our results identify a pancreatic beta cell transmembrane protein that regulates cell growth of pancreatic islets.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          3545,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1029
+      },
+      {
+        "cross_encoder_score": -7.343072414398193,
+        "dataset": "SciFact",
+        "end_char": 82,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "1f3e4e0034191c52564ec121cc8b12b6",
+        "passage_rank": 6,
+        "query_id": "1216",
+        "sentence_id": "7dc0c550818948cbb203f128427cc605",
+        "sentence_text": "Endoplasmic reticulum stress contributes to beta cell apoptosis in type 2 diabetes",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3761,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.075494766235352,
+        "dataset": "SciFact",
+        "end_char": 196,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "1f3e4e0034191c52564ec121cc8b12b6",
+        "passage_rank": 6,
+        "query_id": "1216",
+        "sentence_id": "514a8d0cea306cf87afb28fe688de9bc",
+        "sentence_text": "Increased lipid supply causes beta cell death, which may contribute to reduced beta cell mass in type 2 diabetes.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3761,
+          0,
+          1,
+          0
+        ],
+        "source_position": 83
+      },
+      {
+        "cross_encoder_score": -6.063685417175293,
+        "dataset": "SciFact",
+        "end_char": 424,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "1f3e4e0034191c52564ec121cc8b12b6",
+        "passage_rank": 6,
+        "query_id": "1216",
+        "sentence_id": "1b13f34ff5ef6d67c2299eb9400f1730",
+        "sentence_text": "We investigated whether endoplasmic reticulum (ER) stress is necessary for lipid-induced apoptosis in beta cells and also whether ER stress is present in islets of an animal model of diabetes and of humans with type 2 diabetes.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          3761,
+          0,
+          2,
+          0
+        ],
+        "source_position": 197
+      },
+      {
+        "cross_encoder_score": -10.475537300109863,
+        "dataset": "SciFact",
+        "end_char": 632,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "1f3e4e0034191c52564ec121cc8b12b6",
+        "passage_rank": 6,
+        "query_id": "1216",
+        "sentence_id": "7112956ebeb5faa36e2274097e2e8ffb",
+        "sentence_text": "Expression of genes involved in ER stress was evaluated in insulin-secreting MIN6 cells exposed to elevated lipids, in islets isolated from db/db mice and in pancreas sections of humans with type 2 diabetes.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          3761,
+          0,
+          3,
+          0
+        ],
+        "source_position": 425
+      },
+      {
+        "cross_encoder_score": -11.201295852661133,
+        "dataset": "SciFact",
+        "end_char": 864,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "1f3e4e0034191c52564ec121cc8b12b6",
+        "passage_rank": 6,
+        "query_id": "1216",
+        "sentence_id": "0b6b67fda90d5a7af22f9d2d640f52a6",
+        "sentence_text": "Overproduction of the ER chaperone heat shock 70 kDa protein 5 (HSPA5, previously known as immunoglobulin heavy chain binding protein [BIP]) was performed to assess whether attenuation of ER stress affected lipid-induced apoptosis.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          3761,
+          0,
+          4,
+          0
+        ],
+        "source_position": 633
+      },
+      {
+        "cross_encoder_score": -10.736160278320312,
+        "dataset": "SciFact",
+        "end_char": 1049,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "1f3e4e0034191c52564ec121cc8b12b6",
+        "passage_rank": 6,
+        "query_id": "1216",
+        "sentence_id": "ef24fd81a583ec272621b8e5889d9575",
+        "sentence_text": "We demonstrated that the pro-apoptotic fatty acid palmitate triggers a comprehensive ER stress response in MIN6 cells, which was virtually absent using non-apoptotic fatty acid oleate.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          3761,
+          0,
+          5,
+          0
+        ],
+        "source_position": 865
+      },
+      {
+        "cross_encoder_score": -10.522295951843262,
+        "dataset": "SciFact",
+        "end_char": 1382,
+        "pair_tokens_before_truncation": 113,
+        "pair_truncated": false,
+        "passage_id": "1f3e4e0034191c52564ec121cc8b12b6",
+        "passage_rank": 6,
+        "query_id": "1216",
+        "sentence_id": "4e465cc707f63eda4320d2f16c6e86db",
+        "sentence_text": "Time-dependent increases in mRNA levels for activating transcription factor 4 (Atf4), DNA-damage inducible transcript 3 (Ddit3, previously known as C/EBP homologous protein [Chop]) and DnaJ homologue (HSP40) C3 (Dnajc3, previously known as p58) correlated with increased apoptosis in palmitate- but not in oleate-treated MIN6 cells.",
+        "sentence_token_cost": 93,
+        "source_order": [
+          3761,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1050
+      },
+      {
+        "cross_encoder_score": -10.666873931884766,
+        "dataset": "SciFact",
+        "end_char": 1505,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "1f3e4e0034191c52564ec121cc8b12b6",
+        "passage_rank": 6,
+        "query_id": "1216",
+        "sentence_id": "23628ae8ec755f992f7b65ab6c06b972",
+        "sentence_text": "Attenuation of ER stress by overproduction of HSPA5 in MIN6 cells significantly protected against lipid-induced apoptosis.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3761,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1383
+      },
+      {
+        "cross_encoder_score": -11.236241340637207,
+        "dataset": "SciFact",
+        "end_char": 1592,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "1f3e4e0034191c52564ec121cc8b12b6",
+        "passage_rank": 6,
+        "query_id": "1216",
+        "sentence_id": "5dd4eef5b6f0825f5cea414b784e06be",
+        "sentence_text": "In islets of db/db mice, a variety of marker genes of ER stress were also upregulated.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          3761,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1506
+      },
+      {
+        "cross_encoder_score": -10.703293800354004,
+        "dataset": "SciFact",
+        "end_char": 1723,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "1f3e4e0034191c52564ec121cc8b12b6",
+        "passage_rank": 6,
+        "query_id": "1216",
+        "sentence_id": "0aea06a3c00387149603f7f3f788d964",
+        "sentence_text": "Increased processing (activation) of X-box binding protein 1 (Xbp1) mRNA was also observed, confirming the existence of ER stress.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          3761,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1593
+      },
+      {
+        "cross_encoder_score": -10.448236465454102,
+        "dataset": "SciFact",
+        "end_char": 1889,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "1f3e4e0034191c52564ec121cc8b12b6",
+        "passage_rank": 6,
+        "query_id": "1216",
+        "sentence_id": "d524ba01f4d18ab2471d82a01ffa6bdc",
+        "sentence_text": "Finally, we observed increased islet protein production of HSPA5, DDIT3, DNAJC3 and BCL2-associated X protein in human pancreas sections of type 2 diabetes subjects.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          3761,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1724
+      },
+      {
+        "cross_encoder_score": -9.484048843383789,
+        "dataset": "SciFact",
+        "end_char": 2024,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "1f3e4e0034191c52564ec121cc8b12b6",
+        "passage_rank": 6,
+        "query_id": "1216",
+        "sentence_id": "f5b6297032061b6b7966c5d4b607d777",
+        "sentence_text": "Our results provide evidence that ER stress occurs in type 2 diabetes and is required for aspects of the underlying beta cell failure.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3761,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1890
+      },
+      {
+        "cross_encoder_score": -5.766119480133057,
+        "dataset": "SciFact",
+        "end_char": 106,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "ff7f22a6bcc53e74e769fba7fdbff8e5",
+        "passage_rank": 5,
+        "query_id": "1216",
+        "sentence_id": "b4f5a132a0936989fd6e2ccfb61ee56e",
+        "sentence_text": "Differential Requirement of the Extracellular Domain in Activation of Class B G Protein-coupled Receptors.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          4208,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.077836036682129,
+        "dataset": "SciFact",
+        "end_char": 317,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "ff7f22a6bcc53e74e769fba7fdbff8e5",
+        "passage_rank": 5,
+        "query_id": "1216",
+        "sentence_id": "82a1d2c6fdfd3468fae851a80e9a75ea",
+        "sentence_text": "G protein-coupled receptors (GPCRs) from the secretin-like (class B) family are key players in hormonal homeostasis and are important drug targets for the treatment of metabolic disorders and neuronal diseases.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          4208,
+          0,
+          1,
+          0
+        ],
+        "source_position": 107
+      },
+      {
+        "cross_encoder_score": -1.9766737222671509,
+        "dataset": "SciFact",
+        "end_char": 468,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "ff7f22a6bcc53e74e769fba7fdbff8e5",
+        "passage_rank": 5,
+        "query_id": "1216",
+        "sentence_id": "ef1152b87878a93fa44196855073c7e2",
+        "sentence_text": "They consist of a large N-terminal extracellular domain (ECD) and a transmembrane domain (TMD) with the GPCR signature of seven transmembrane helices.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          4208,
+          0,
+          2,
+          0
+        ],
+        "source_position": 318
+      },
+      {
+        "cross_encoder_score": -10.41476058959961,
+        "dataset": "SciFact",
+        "end_char": 601,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "ff7f22a6bcc53e74e769fba7fdbff8e5",
+        "passage_rank": 5,
+        "query_id": "1216",
+        "sentence_id": "0dfc452ce1d4d7031907ec1709cc375b",
+        "sentence_text": "Class B GPCRs are activated by peptide hormones with their C termini bound to the receptor ECD and their N termini bound to the TMD.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          4208,
+          0,
+          3,
+          0
+        ],
+        "source_position": 469
+      },
+      {
+        "cross_encoder_score": -11.128256797790527,
+        "dataset": "SciFact",
+        "end_char": 708,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "ff7f22a6bcc53e74e769fba7fdbff8e5",
+        "passage_rank": 5,
+        "query_id": "1216",
+        "sentence_id": "43bf61dcf31265777c92045708342c31",
+        "sentence_text": "It is thought that the ECD functions as an affinity trap to bind and localize the hormone to the receptor.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          4208,
+          0,
+          4,
+          0
+        ],
+        "source_position": 602
+      },
+      {
+        "cross_encoder_score": -10.649717330932617,
+        "dataset": "SciFact",
+        "end_char": 858,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "ff7f22a6bcc53e74e769fba7fdbff8e5",
+        "passage_rank": 5,
+        "query_id": "1216",
+        "sentence_id": "deee9fdbe27f958d8f7d1ef93bd38f21",
+        "sentence_text": "This in turn would allow the hormone N terminus to insert into the TMD and induce conformational changes of the TMD to activate downstream signaling.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          4208,
+          0,
+          5,
+          0
+        ],
+        "source_position": 709
+      },
+      {
+        "cross_encoder_score": -10.862642288208008,
+        "dataset": "SciFact",
+        "end_char": 996,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "ff7f22a6bcc53e74e769fba7fdbff8e5",
+        "passage_rank": 5,
+        "query_id": "1216",
+        "sentence_id": "19e62d5fb2f6f7cb20539da624eed7cd",
+        "sentence_text": "In contrast to this prevailing model, we demonstrate that human class B GPCRs vary widely in their requirement of the ECD for activation.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          4208,
+          0,
+          6,
+          0
+        ],
+        "source_position": 859
+      },
+      {
+        "cross_encoder_score": -10.592056274414062,
+        "dataset": "SciFact",
+        "end_char": 1515,
+        "pair_tokens_before_truncation": 159,
+        "pair_truncated": false,
+        "passage_id": "ff7f22a6bcc53e74e769fba7fdbff8e5",
+        "passage_rank": 5,
+        "query_id": "1216",
+        "sentence_id": "d605881e3636e8bbfc2d87720d3e06b3",
+        "sentence_text": "In one group, represented by corticotrophin-releasing factor receptor 1 (CRF1R), parathyroid hormone receptor (PTH1R), and pituitary adenylate cyclase activating polypeptide type 1 receptor (PAC1R), the ECD requirement for high affinity hormone binding can be bypassed by induced proximity and mass action effects, whereas in the other group, represented by glucagon receptor (GCGR) and glucagon-like peptide-1 receptor (GLP-1R), the ECD is required for signaling even when the hormone is covalently linked to the TMD.",
+        "sentence_token_cost": 127,
+        "source_order": [
+          4208,
+          0,
+          7,
+          0
+        ],
+        "source_position": 997
+      },
+      {
+        "cross_encoder_score": -11.036680221557617,
+        "dataset": "SciFact",
+        "end_char": 1729,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "ff7f22a6bcc53e74e769fba7fdbff8e5",
+        "passage_rank": 5,
+        "query_id": "1216",
+        "sentence_id": "ff0f4a883de580bae5e7d0a0fc87a7c7",
+        "sentence_text": "Furthermore, the activation of GLP-1R by small molecules that interact with the intracellular side of the receptor is dependent on the presence of its ECD, suggesting a direct role of the ECD in GLP-1R activation.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          4208,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1516
+      },
+      {
+        "cross_encoder_score": -9.71979808807373,
+        "dataset": "SciFact",
+        "end_char": 114,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "4ebd796a9f2f53232bafb2260f763cfd",
+        "passage_rank": 9,
+        "query_id": "1216",
+        "sentence_id": "99ca31474e41652f0abf3889ea5b5bfb",
+        "sentence_text": "Isolation of major pancreatic cell types and long-term culture-initiating cells using novel human surface markers.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          4331,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.33702564239502,
+        "dataset": "SciFact",
+        "end_char": 245,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "4ebd796a9f2f53232bafb2260f763cfd",
+        "passage_rank": 9,
+        "query_id": "1216",
+        "sentence_id": "4bc52736098006245284226237bdabc3",
+        "sentence_text": "We have developed a novel panel of cell-surface markers for the isolation and study of all major cell types of the human pancreas.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          4331,
+          0,
+          1,
+          0
+        ],
+        "source_position": 115
+      },
+      {
+        "cross_encoder_score": -10.284966468811035,
+        "dataset": "SciFact",
+        "end_char": 467,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "4ebd796a9f2f53232bafb2260f763cfd",
+        "passage_rank": 9,
+        "query_id": "1216",
+        "sentence_id": "6a7844cf0f1501c0b97017ba2f1a8512",
+        "sentence_text": "Hybridomas were selected after subtractive immunization of Balb/C mice with intact or dissociated human islets and assessed for cell-type specificity and cell-surface reactivity by immunohistochemistry and flow cytometry.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          4331,
+          0,
+          2,
+          0
+        ],
+        "source_position": 246
+      },
+      {
+        "cross_encoder_score": -9.967402458190918,
+        "dataset": "SciFact",
+        "end_char": 634,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "4ebd796a9f2f53232bafb2260f763cfd",
+        "passage_rank": 9,
+        "query_id": "1216",
+        "sentence_id": "9d49010af1967a3b358e101914eed721",
+        "sentence_text": "Antibodies were identified by specific binding of surface antigens on islet (panendocrine or alpha-specific) and nonislet pancreatic cell subsets (exocrine and duct).",
+        "sentence_token_cost": 36,
+        "source_order": [
+          4331,
+          0,
+          3,
+          0
+        ],
+        "source_position": 468
+      },
+      {
+        "cross_encoder_score": -7.328469276428223,
+        "dataset": "SciFact",
+        "end_char": 870,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "4ebd796a9f2f53232bafb2260f763cfd",
+        "passage_rank": 9,
+        "query_id": "1216",
+        "sentence_id": "b632b858643d91b699e527a50b931f7c",
+        "sentence_text": "These antibodies were used individually or in combination to isolate populations of alpha, beta, exocrine, or duct cells from primary human pancreas by FACS and to characterize the detailed cell composition of human islet preparations.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          4331,
+          0,
+          4,
+          0
+        ],
+        "source_position": 635
+      },
+      {
+        "cross_encoder_score": -9.674067497253418,
+        "dataset": "SciFact",
+        "end_char": 1213,
+        "pair_tokens_before_truncation": 91,
+        "pair_truncated": false,
+        "passage_id": "4ebd796a9f2f53232bafb2260f763cfd",
+        "passage_rank": 9,
+        "query_id": "1216",
+        "sentence_id": "0a44d232118e92f11de247445be24cde",
+        "sentence_text": "They were also employed to show that human islet expansion cultures originated from nonendocrine cells and that insulin expression levels could be increased to up to 1% of normal islet cells by subpopulation sorting and overexpression of the transcription factors Pdx-1 and ngn3, an improvement over previous results with this culture system.",
+        "sentence_token_cost": 67,
+        "source_order": [
+          4331,
+          0,
+          5,
+          0
+        ],
+        "source_position": 871
+      },
+      {
+        "cross_encoder_score": -11.10220718383789,
+        "dataset": "SciFact",
+        "end_char": 1347,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "4ebd796a9f2f53232bafb2260f763cfd",
+        "passage_rank": 9,
+        "query_id": "1216",
+        "sentence_id": "b66257b33b47df4e02b27c9f4ee6c0c1",
+        "sentence_text": "These methods permit the analysis and isolation of functionally distinct pancreatic cell populations with potential for cell therapy.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          4331,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1214
+      },
+      {
+        "cross_encoder_score": -5.636913299560547,
+        "dataset": "SciFact",
+        "end_char": 106,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "9a353765d38efdb6cdd68facec924a11",
+        "passage_rank": 10,
+        "query_id": "1216",
+        "sentence_id": "8ffdb6fd6a7dcde566bb835a38079e20",
+        "sentence_text": "Membrane association of the CD3\u03b5 signaling domain is required for optimal T cell development and function.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          4425,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.448738098144531,
+        "dataset": "SciFact",
+        "end_char": 217,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "9a353765d38efdb6cdd68facec924a11",
+        "passage_rank": 10,
+        "query_id": "1216",
+        "sentence_id": "815144e657c62db2c1a103405081dab1",
+        "sentence_text": "The TCR:CD3 complex transduces signals that are critical for optimal T cell development and adaptive immunity.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          4425,
+          0,
+          1,
+          0
+        ],
+        "source_position": 107
+      },
+      {
+        "cross_encoder_score": -7.58585786819458,
+        "dataset": "SciFact",
+        "end_char": 340,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "9a353765d38efdb6cdd68facec924a11",
+        "passage_rank": 10,
+        "query_id": "1216",
+        "sentence_id": "4f440086de61e7ab41da9851f5d22ce4",
+        "sentence_text": "In resting T cells, the CD3\u03b5 cytoplasmic tail associates with the plasma membrane via a proximal basic-rich stretch (BRS).",
+        "sentence_token_cost": 30,
+        "source_order": [
+          4425,
+          0,
+          2,
+          0
+        ],
+        "source_position": 218
+      },
+      {
+        "cross_encoder_score": -10.81466293334961,
+        "dataset": "SciFact",
+        "end_char": 658,
+        "pair_tokens_before_truncation": 98,
+        "pair_truncated": false,
+        "passage_id": "9a353765d38efdb6cdd68facec924a11",
+        "passage_rank": 10,
+        "query_id": "1216",
+        "sentence_id": "25b9efda38bdcb158f942760089ec659",
+        "sentence_text": "In this study, we show that mice lacking a functional CD3\u03b5-BRS exhibited substantial reductions in thymic cellularity and limited CD4- CD8- double-negative (DN) 3 to DN4 thymocyte transition, because of enhanced DN4 TCR signaling resulting in increased cell death and TCR downregulation in all subsequent populations.",
+        "sentence_token_cost": 72,
+        "source_order": [
+          4425,
+          0,
+          3,
+          0
+        ],
+        "source_position": 341
+      },
+      {
+        "cross_encoder_score": -9.993670463562012,
+        "dataset": "SciFact",
+        "end_char": 881,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "9a353765d38efdb6cdd68facec924a11",
+        "passage_rank": 10,
+        "query_id": "1216",
+        "sentence_id": "ae0917a4f54c694b4de466658834f4f9",
+        "sentence_text": "Furthermore, positive, but not negative, T cell selection was affected in mice lacking a functional CD3\u03b5-BRS, which led to limited peripheral T cell function and substantially reduced responsiveness to influenza infection.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          4425,
+          0,
+          4,
+          0
+        ],
+        "source_position": 659
+      },
+      {
+        "cross_encoder_score": -6.885913848876953,
+        "dataset": "SciFact",
+        "end_char": 1051,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "9a353765d38efdb6cdd68facec924a11",
+        "passage_rank": 10,
+        "query_id": "1216",
+        "sentence_id": "d620112c4abd168dea85c0acd730dfb1",
+        "sentence_text": "Collectively, these results indicate that membrane association of the CD3\u03b5 signaling domain is required for optimal thymocyte development and peripheral T cell function.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          4425,
+          0,
+          5,
+          0
+        ],
+        "source_position": 882
+      }
+    ],
+    "scoring_seconds": 0.6464295829646289,
+    "source_fingerprint": "1ecee8649bd446a22927a00260b31e0066f14b771c20ddbf7245315c2cb42d20"
+  }
+}

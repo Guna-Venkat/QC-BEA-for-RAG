@@ -1,0 +1,1771 @@
+{
+  "checksum": "556271e110ec5e23661ee7c9701fe458f96a8338e3a01bb20f93faddf77371c2",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "3de0487276bb5961586acc6e9f82934ef8cb668c"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 87,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "331a5a08b6cf6b0e543b0373c8c49a3b9c00b883fec3fae80d6845c54e0740f1",
+    "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+    "scores": [
+      {
+        "cross_encoder_score": -11.18708610534668,
+        "dataset": "QASPER",
+        "end_char": 4394,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "5b3fcc91c779b79f55d464d9b70701bb",
+        "passage_rank": 8,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "1edda65d3ae5ecb6d7fd2251cafa4dd8",
+        "sentence_text": "using BERT (from `Bidirectional Encoder Representations from Transformers')  as the base for a sequence labelling approach.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 4271
+      },
+      {
+        "cross_encoder_score": 2.3283910751342773,
+        "dataset": "QASPER",
+        "end_char": 4567,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "5b3fcc91c779b79f55d464d9b70701bb",
+        "passage_rank": 8,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "0a436680cea57e5ac77e561136d2ba1b",
+        "sentence_text": "The experiments are carried out on two datasets: the MEDDOCAN: Medical Document Anonymization shared task dataset , and NUBes , a corpus of real medical reports in Spanish.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 4395
+      },
+      {
+        "cross_encoder_score": -11.022285461425781,
+        "dataset": "QASPER",
+        "end_char": 4713,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "5b3fcc91c779b79f55d464d9b70701bb",
+        "passage_rank": 8,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "09207d64c2e75fe3e2b41430485eb173",
+        "sentence_text": "In these experiments, we compare the performance of BERT with other machine-learning-based systems, some of which use language-specific features.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4568
+      },
+      {
+        "cross_encoder_score": -10.776244163513184,
+        "dataset": "QASPER",
+        "end_char": 4876,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "5b3fcc91c779b79f55d464d9b70701bb",
+        "passage_rank": 8,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "9aa4be2bf2bc73751e263639014d3f24",
+        "sentence_text": "Our aim is to evaluate how good a BERT-based model performs without language nor domain specialisation apart from the training data labelled for the task at hand.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4714
+      },
+      {
+        "cross_encoder_score": 0.8020414710044861,
+        "dataset": "QASPER",
+        "end_char": 5153,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "5b3fcc91c779b79f55d464d9b70701bb",
+        "passage_rank": 8,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "914f83f14b578972c0f26e83a5815ca1",
+        "sentence_text": "The rest of the paper is structured as follows: the next section describes related work about data anonymisation in general and clinical data anonymisation in particular; it also provides a more detailed explanation and background about the Transformers architecture and BERT.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 4877
+      },
+      {
+        "cross_encoder_score": -3.8586032390594482,
+        "dataset": "QASPER",
+        "end_char": 5335,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "5b3fcc91c779b79f55d464d9b70701bb",
+        "passage_rank": 8,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "338c2439c142f2979c7aa57d3a434ae7",
+        "sentence_text": "Section SECREF3 describes the data involved in the experiments and the systems evaluated in this paper, including the BERT-based system; finally, it details the experimental design.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 5154
+      },
+      {
+        "cross_encoder_score": -10.078877449035645,
+        "dataset": "QASPER",
+        "end_char": 5403,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "5b3fcc91c779b79f55d464d9b70701bb",
+        "passage_rank": 8,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "ec0b7b95b15d1f5b1467ccda80bf699c",
+        "sentence_text": "Section SECREF4 introduces the results for each set of experiments.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 5336
+      },
+      {
+        "cross_encoder_score": -10.266897201538086,
+        "dataset": "QASPER",
+        "end_char": 5479,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "5b3fcc91c779b79f55d464d9b70701bb",
+        "passage_rank": 8,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "8b6c613bb70794624bb255fd6f147dbc",
+        "sentence_text": "Finally, Section SECREF5 contains the conclusions and future lines of work.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 5404
+      },
+      {
+        "cross_encoder_score": -11.111865997314453,
+        "dataset": "QASPER",
+        "end_char": 5621,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "5b3fcc91c779b79f55d464d9b70701bb",
+        "passage_rank": 8,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "0ab04e0003969a665ddcb80ce057a4a4",
+        "sentence_text": "Related Work\tThe state of the art in the field of Natural Language Processing (NLP) has reached an important milestone in the last couple of",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          3,
+          8,
+          0
+        ],
+        "source_position": 5481
+      },
+      {
+        "cross_encoder_score": -10.373003959655762,
+        "dataset": "QASPER",
+        "end_char": 8206,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "c1f899dbfde0e4cf793c4f6cbd1fd6e5",
+        "passage_rank": 3,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "5d850b4ac0d4812b8cf723d5f84c19bf",
+        "sentence_text": "Most notably, in 2019 the first community challenge about anonymisation of medical documents in Spanish, MEDDOCAN , was held as part of the IberLEF initiative.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 8047
+      },
+      {
+        "cross_encoder_score": -10.345012664794922,
+        "dataset": "QASPER",
+        "end_char": 8474,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "c1f899dbfde0e4cf793c4f6cbd1fd6e5",
+        "passage_rank": 3,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "5169c03e5efa67aec950a9c381e571a9",
+        "sentence_text": "The winners of the challenge \u2013the Neither-Language-nor-Domain-Experts (NLNDE) \u2013 achieved F1-scores as high as 0.975 in the task of sensitive information detection and categorisation by using recurrent neural networks with Conditional Random Field (CRF) output layers.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 8207
+      },
+      {
+        "cross_encoder_score": -11.375199317932129,
+        "dataset": "QASPER",
+        "end_char": 8572,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "c1f899dbfde0e4cf793c4f6cbd1fd6e5",
+        "passage_rank": 3,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "4f345f817f4d64dc0f26adbd132e24da",
+        "sentence_text": "At the same challenge, mao2019hadoken occupied the 8th position among 18 participants using BERT.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 8475
+      },
+      {
+        "cross_encoder_score": -9.206403732299805,
+        "dataset": "QASPER",
+        "end_char": 8687,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "c1f899dbfde0e4cf793c4f6cbd1fd6e5",
+        "passage_rank": 3,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "a5c37e603c2cf0109dd463ae36e2059a",
+        "sentence_text": "According to the description of the system, the authors used BERT-Base Multilingual Cased and an output CRF layer.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 8573
+      },
+      {
+        "cross_encoder_score": -11.417993545532227,
+        "dataset": "QASPER",
+        "end_char": 8785,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "c1f899dbfde0e4cf793c4f6cbd1fd6e5",
+        "passage_rank": 3,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "e525bfc7485b214e080891bd3494daa1",
+        "sentence_text": "However, their system is $\\sim $3 F1-score points below our implementation without the CRF layer.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 8688
+      },
+      {
+        "cross_encoder_score": -1.0258132219314575,
+        "dataset": "QASPER",
+        "end_char": 9030,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "c1f899dbfde0e4cf793c4f6cbd1fd6e5",
+        "passage_rank": 3,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "e30c150493c35b6ae9f9b2a135ecdf61",
+        "sentence_text": "Materials and Methods\tThe aim of this paper is to evaluate BERT's multilingual model and compare it to other established machine-learning algorithms in a specific task: sensitive data detection and classification in Spanish clinical free text.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 8787
+      },
+      {
+        "cross_encoder_score": -7.827239990234375,
+        "dataset": "QASPER",
+        "end_char": 9117,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "c1f899dbfde0e4cf793c4f6cbd1fd6e5",
+        "passage_rank": 3,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "9882bf85430419d6b2f48157919f7acf",
+        "sentence_text": "This section describes the data involved in the experiments and the systems evaluated.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 9031
+      },
+      {
+        "cross_encoder_score": -10.405699729919434,
+        "dataset": "QASPER",
+        "end_char": 9163,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "c1f899dbfde0e4cf793c4f6cbd1fd6e5",
+        "passage_rank": 3,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "74a9d3151c0a9c54a3e94e877fecdae1",
+        "sentence_text": "Finally, we introduce the experimental setup.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 9118
+      },
+      {
+        "cross_encoder_score": -4.985291957855225,
+        "dataset": "QASPER",
+        "end_char": 9239,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "c1f899dbfde0e4cf793c4f6cbd1fd6e5",
+        "passage_rank": 3,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "e46f7ff9e94257e5c141111e8f893275",
+        "sentence_text": "Materials and Methods ::: Data\tTwo datasets are exploited in this article.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 9165
+      },
+      {
+        "cross_encoder_score": -3.336862087249756,
+        "dataset": "QASPER",
+        "end_char": 9261,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "c1f899dbfde0e4cf793c4f6cbd1fd6e5",
+        "passage_rank": 3,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "f823ec74a0f2325d0e063a4dec443cdf",
+        "sentence_text": "Both datasets consist",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          6,
+          9,
+          0
+        ],
+        "source_position": 9240
+      },
+      {
+        "cross_encoder_score": -8.512858390808105,
+        "dataset": "QASPER",
+        "end_char": 9416,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "b3dd5ec75aad73b8320ccc50216baab9",
+        "passage_rank": 5,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "785557094d43abd6c37fcf5cd246b4dd",
+        "sentence_text": "of plain text containing clinical narrative written in Spanish, and their respective manual annotations of sensitive information in BRAT  standoff format.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 9262
+      },
+      {
+        "cross_encoder_score": -4.241244316101074,
+        "dataset": "QASPER",
+        "end_char": 9602,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "b3dd5ec75aad73b8320ccc50216baab9",
+        "passage_rank": 5,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "0d9104a77c18d7e0784ae34ce8289a2b",
+        "sentence_text": "In order to feed the data to the different algorithms presented in Section SECREF7, these datasets were transformed to comply with the commonly used BIO sequence representation scheme .",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 9417
+      },
+      {
+        "cross_encoder_score": -7.50339937210083,
+        "dataset": "QASPER",
+        "end_char": 9780,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "b3dd5ec75aad73b8320ccc50216baab9",
+        "passage_rank": 5,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "6e6a2d2cec9c4241770ca404ca895616",
+        "sentence_text": "Materials and Methods ::: Data ::: NUBes-PHI\tNUBes  is a corpus of around 7,000 real medical reports written in Spanish and annotated with negation and uncertainty information.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 9604
+      },
+      {
+        "cross_encoder_score": -10.290583610534668,
+        "dataset": "QASPER",
+        "end_char": 9904,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "b3dd5ec75aad73b8320ccc50216baab9",
+        "passage_rank": 5,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "be1a814db7f4980ef1668de90c6d10d6",
+        "sentence_text": "Before being published, sensitive information had to be manually annotated and replaced for the corpus to be safely shared.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 9781
+      },
+      {
+        "cross_encoder_score": -10.952044486999512,
+        "dataset": "QASPER",
+        "end_char": 10043,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "b3dd5ec75aad73b8320ccc50216baab9",
+        "passage_rank": 5,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "dcbc3187d7350d5d0dfb115d65236a06",
+        "sentence_text": "In this article, we work with the NUBes version prior to its anonymisation, that is, with the manual annotations of sensitive information.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 9905
+      },
+      {
+        "cross_encoder_score": -10.293160438537598,
+        "dataset": "QASPER",
+        "end_char": 10193,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "b3dd5ec75aad73b8320ccc50216baab9",
+        "passage_rank": 5,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "d2ce4e7190770556ad5601f05b36c7b1",
+        "sentence_text": "It follows that the version we work with is not publicly available and, due to contractual restrictions, we cannot reveal the provenance of the data.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 10044
+      },
+      {
+        "cross_encoder_score": -8.21445369720459,
+        "dataset": "QASPER",
+        "end_char": 10374,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "b3dd5ec75aad73b8320ccc50216baab9",
+        "passage_rank": 5,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "f9b8c56d64cdf7dd01d9e195ea9abb2d",
+        "sentence_text": "In order to avoid confusion between the two corpus versions, we henceforth refer to the version relevant in this paper as NUBes-PHI (from `NUBes with Personal Health Information').",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 10194
+      },
+      {
+        "cross_encoder_score": -10.76498031616211,
+        "dataset": "QASPER",
+        "end_char": 10474,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "b3dd5ec75aad73b8320ccc50216baab9",
+        "passage_rank": 5,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "4f6ea73f0979d79fe4fa56fdfed2f8de",
+        "sentence_text": "NUBes-PHI consists of 32,055 sentences annotated for 11 different sensitive information categories.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "source_position": 10375
+      },
+      {
+        "cross_encoder_score": -10.001171112060547,
+        "dataset": "QASPER",
+        "end_char": 10514,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "b3dd5ec75aad73b8320ccc50216baab9",
+        "passage_rank": 5,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "1f2421a073862f71bb3f9332bf1b4317",
+        "sentence_text": "Overall, it contains 7,818 annotations.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          7,
+          8,
+          0
+        ],
+        "source_position": 10475
+      },
+      {
+        "cross_encoder_score": -10.429551124572754,
+        "dataset": "QASPER",
+        "end_char": 10534,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "b3dd5ec75aad73b8320ccc50216baab9",
+        "passage_rank": 5,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "2c866b518d9c3ed76a9c6ee278c6ec13",
+        "sentence_text": "The corpus has been",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          7,
+          9,
+          0
+        ],
+        "source_position": 10515
+      },
+      {
+        "cross_encoder_score": -6.844709873199463,
+        "dataset": "QASPER",
+        "end_char": 10656,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "6de8f477cbf2dd6e46c38b14bc74ca8c",
+        "passage_rank": 4,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "2ff12a4a2f2daff4efcbbf657db12311",
+        "sentence_text": "randomly split into train (72%), development (8%) and test (20%) sets to conduct the experiments described in this paper.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 10535
+      },
+      {
+        "cross_encoder_score": -10.755691528320312,
+        "dataset": "QASPER",
+        "end_char": 10766,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "6de8f477cbf2dd6e46c38b14bc74ca8c",
+        "passage_rank": 4,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "0b7b44d8a55275bf5c26d2fd8c17aac8",
+        "sentence_text": "The size of each split and the distribution of the annotations can be consulted in Tables and , respectively.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 10657
+      },
+      {
+        "cross_encoder_score": -10.164225578308105,
+        "dataset": "QASPER",
+        "end_char": 10946,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "6de8f477cbf2dd6e46c38b14bc74ca8c",
+        "passage_rank": 4,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "de117511f135bb486ce1efb72f2d9073",
+        "sentence_text": "The majority of sensitive information in NUBes-PHI are temporal expressions (`Date' and `Time'), followed by healthcare facility mentions (`Hospital'), and the age of the patient.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 10767
+      },
+      {
+        "cross_encoder_score": -11.285780906677246,
+        "dataset": "QASPER",
+        "end_char": 11078,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "6de8f477cbf2dd6e46c38b14bc74ca8c",
+        "passage_rank": 4,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "5b385620a148ba9d0b3c3b2451b9d59e",
+        "sentence_text": "Mentions of people are not that frequent, with physician names (`Doctor') occurring much more often than patient names (`Patient').",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 10947
+      },
+      {
+        "cross_encoder_score": -10.188441276550293,
+        "dataset": "QASPER",
+        "end_char": 11294,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "6de8f477cbf2dd6e46c38b14bc74ca8c",
+        "passage_rank": 4,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "0deee8012c4173851f12ed5cec9bd99f",
+        "sentence_text": "The least frequent sensitive information types, which account for $\\sim $10% of the remaining annotations, consist of the patient's sex, job, and kinship, and locations other than healthcare facilities (`Location').",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 11079
+      },
+      {
+        "cross_encoder_score": -10.876354217529297,
+        "dataset": "QASPER",
+        "end_char": 11442,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "6de8f477cbf2dd6e46c38b14bc74ca8c",
+        "passage_rank": 4,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "818b33de7001c387bab7a03b99d5720e",
+        "sentence_text": "Finally, the tag `Other' includes, for instance, mentions to institutions unrelated to healthcare and whether the patient is right- or left-handed.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 11295
+      },
+      {
+        "cross_encoder_score": -11.04554271697998,
+        "dataset": "QASPER",
+        "end_char": 11467,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "6de8f477cbf2dd6e46c38b14bc74ca8c",
+        "passage_rank": 4,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "d1f2c84b8006dbfe05f0cd705e450fa1",
+        "sentence_text": "It occurs just 36 times.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 11443
+      },
+      {
+        "cross_encoder_score": -5.083087921142578,
+        "dataset": "QASPER",
+        "end_char": 11674,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "6de8f477cbf2dd6e46c38b14bc74ca8c",
+        "passage_rank": 4,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "c785936427e4e1fb1e70f4d3cd5df3a5",
+        "sentence_text": "Materials and Methods ::: Data ::: The MEDDOCAN corpus\tThe organisers of the MEDDOCAN shared task  curated a synthetic corpus of clinical cases enriched with sensitive information by health documentalists.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 11469
+      },
+      {
+        "cross_encoder_score": -10.555803298950195,
+        "dataset": "QASPER",
+        "end_char": 11819,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "6de8f477cbf2dd6e46c38b14bc74ca8c",
+        "passage_rank": 4,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "b94b0ba5782fc71dfd4c92b873edfbcd",
+        "sentence_text": "In this regard, the MEDDOCAN evaluation scenario could be said to be somewhat far from the real use case the technology developed for the shared",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "source_position": 11675
+      },
+      {
+        "cross_encoder_score": -10.142675399780273,
+        "dataset": "QASPER",
+        "end_char": 11854,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "1328259a139bcb655188a5041196e4e1",
+        "passage_rank": 9,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "b6b0326733f3b4db2a60b892120693e5",
+        "sentence_text": "task is supposed to be applied in.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 11820
+      },
+      {
+        "cross_encoder_score": -9.553643226623535,
+        "dataset": "QASPER",
+        "end_char": 12019,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "1328259a139bcb655188a5041196e4e1",
+        "passage_rank": 9,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "2cb31bdd9b263d4a537f373519cd7217",
+        "sentence_text": "However, at the moment it also provides the only public means for a rigorous comparison between systems for sensitive health information detection in Spanish texts.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 11855
+      },
+      {
+        "cross_encoder_score": -10.907601356506348,
+        "dataset": "QASPER",
+        "end_char": 12071,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "1328259a139bcb655188a5041196e4e1",
+        "passage_rank": 9,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "13512e1245cb8ecb687039f24447286b",
+        "sentence_text": "The size of the MEDDOCAN corpus is shown in Table .",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 12020
+      },
+      {
+        "cross_encoder_score": -10.955327033996582,
+        "dataset": "QASPER",
+        "end_char": 12201,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "1328259a139bcb655188a5041196e4e1",
+        "passage_rank": 9,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "6a29a8b14683408f4d14de5d5b89a915",
+        "sentence_text": "Compared to NUBes-PHI (Table ), this corpus contains more sensitive information annotations, both in absolute and relative terms.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 12072
+      },
+      {
+        "cross_encoder_score": -10.751199722290039,
+        "dataset": "QASPER",
+        "end_char": 12300,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "1328259a139bcb655188a5041196e4e1",
+        "passage_rank": 9,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "c12f818794d4235a00036181fa93e874",
+        "sentence_text": "The sensitive annotation categories considered in MEDDOCAN differ in part from those in NUBes-PHI.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 12202
+      },
+      {
+        "cross_encoder_score": -11.239598274230957,
+        "dataset": "QASPER",
+        "end_char": 12568,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "1328259a139bcb655188a5041196e4e1",
+        "passage_rank": 9,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "632a70275485ac0d9125e4b8c4dc0d3f",
+        "sentence_text": "Most notably, it contains finer-grained labels for location-related mentions \u2013namely, `Address', `Territory', and `Country'\u2013, and other sensitive information categories that we did not encounter in NUBes-PHI (e.g., identifiers, phone numbers, e-mail addresses, etc.).",
+        "sentence_token_cost": 61,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 12301
+      },
+      {
+        "cross_encoder_score": -10.448822975158691,
+        "dataset": "QASPER",
+        "end_char": 12639,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "1328259a139bcb655188a5041196e4e1",
+        "passage_rank": 9,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "d16279221280c49f11d27af2fa2bebab",
+        "sentence_text": "In total, the MEDDOCAN corpus has 21 sensitive information categories.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          9,
+          6,
+          0
+        ],
+        "source_position": 12569
+      },
+      {
+        "cross_encoder_score": -11.007861137390137,
+        "dataset": "QASPER",
+        "end_char": 12736,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "1328259a139bcb655188a5041196e4e1",
+        "passage_rank": 9,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "e845a9357a86cbd4323cb0f33c0c3a93",
+        "sentence_text": "We refer the reader to the organisers' article  for more detailed information about this corpus.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          9,
+          7,
+          0
+        ],
+        "source_position": 12640
+      },
+      {
+        "cross_encoder_score": -7.091864109039307,
+        "dataset": "QASPER",
+        "end_char": 12977,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "1328259a139bcb655188a5041196e4e1",
+        "passage_rank": 9,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "4dc9f727fcd6fdcd0ac8b19f44fe260b",
+        "sentence_text": "Materials and Methods ::: Systems\tApart from experimenting with a pre-trained BERT model, we have run experiments with other systems and baselines, to compare them and obtain a better perspective about BERT's performance in these datasets.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          9,
+          8,
+          0
+        ],
+        "source_position": 12738
+      },
+      {
+        "cross_encoder_score": -10.107439041137695,
+        "dataset": "QASPER",
+        "end_char": 13098,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "1328259a139bcb655188a5041196e4e1",
+        "passage_rank": 9,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "3daebbafb2978a5c12b771c6a30aba68",
+        "sentence_text": "Materials and Methods ::: Systems ::: Baseline\tAs the simplest baseline, a sensitive data recogniser and classifier has",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          9,
+          9,
+          0
+        ],
+        "source_position": 12979
+      },
+      {
+        "cross_encoder_score": -10.636281967163086,
+        "dataset": "QASPER",
+        "end_char": 13175,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "400f571b4a179d49066dbe254056e823",
+        "passage_rank": 1,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "c886ed833aa8e2c46f5da74853fd77a9",
+        "sentence_text": "been developed that consists of regular-expressions and dictionary look-ups.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 13099
+      },
+      {
+        "cross_encoder_score": -9.918384552001953,
+        "dataset": "QASPER",
+        "end_char": 13243,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "400f571b4a179d49066dbe254056e823",
+        "passage_rank": 1,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "6dc312a77e8e8a0108e3035e16e88690",
+        "sentence_text": "For each category to detect a specific method has been implemented.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 13176
+      },
+      {
+        "cross_encoder_score": -8.292760848999023,
+        "dataset": "QASPER",
+        "end_char": 13413,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "400f571b4a179d49066dbe254056e823",
+        "passage_rank": 1,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "10538bcc709bdc90d40f43b2e042d675",
+        "sentence_text": "For instance, the Date, Age, Time and Doctor detectors are based on regular-expressions; Hospital, Sex, Kinship, Location, Patient and Job are looked up in dictionaries.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 13244
+      },
+      {
+        "cross_encoder_score": -9.170576095581055,
+        "dataset": "QASPER",
+        "end_char": 13698,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "400f571b4a179d49066dbe254056e823",
+        "passage_rank": 1,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "a8683aa814d0994996bef246883d7a17",
+        "sentence_text": "The dictionaries are hand-crafted from the training data available, except for the Patient's case, for which the possible candidates considered are the 100 most common female and male names in Spain according to the Instituto Nacional de Estad\u00edstica (INE; Spanish Statistical Office).",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 13414
+      },
+      {
+        "cross_encoder_score": -10.199684143066406,
+        "dataset": "QASPER",
+        "end_char": 13833,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "400f571b4a179d49066dbe254056e823",
+        "passage_rank": 1,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "92b9e2abee225472f7eb37011b8955e1",
+        "sentence_text": "Materials and Methods ::: Systems ::: CRF\tConditional Random Fields (CRF)  have been extensively used for tasks of sequential nature.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 13700
+      },
+      {
+        "cross_encoder_score": -9.862401008605957,
+        "dataset": "QASPER",
+        "end_char": 14092,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "400f571b4a179d49066dbe254056e823",
+        "passage_rank": 1,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "5c9bc6691aeddcdb1feb956682757863",
+        "sentence_text": "In this paper, we propose as one of the competitive baselines a CRF classifier trained with sklearn-crfsuite for Python 3.5 and the following configuration: algorithm = lbfgs; maximum iterations = 100; c1 = c2 = 0.1; all transitions = true; optimise = false.",
+        "sentence_token_cost": 69,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 13834
+      },
+      {
+        "cross_encoder_score": -11.402183532714844,
+        "dataset": "QASPER",
+        "end_char": 14284,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "400f571b4a179d49066dbe254056e823",
+        "passage_rank": 1,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "8fe7e613c0bcec485f58956dd743fe73",
+        "sentence_text": "The features extracted from each token are as follows: [noitemsep] prefixes and suffixes of 2 and 3 characters; the length of the token in characters and the length of the sentence in tokens;",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 14093
+      },
+      {
+        "cross_encoder_score": -10.973182678222656,
+        "dataset": "QASPER",
+        "end_char": 17863,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "1268444a183ce5924ae8eff251e94fcd",
+        "passage_rank": 6,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "e8ad43f240bfb6349aae77ce85570596",
+        "sentence_text": "10 minutes to complete.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 17840
+      },
+      {
+        "cross_encoder_score": 0.1628618985414505,
+        "dataset": "QASPER",
+        "end_char": 18150,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "1268444a183ce5924ae8eff251e94fcd",
+        "passage_rank": 6,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "54457b2a3cd7d09b1bbf8c541215bb3c",
+        "sentence_text": "Materials and Methods ::: Experimental design\tWe have conducted experiments with BERT in the two datasets of Spanish clinical narrative presented in Section SECREF3 The first experiment set uses NUBes-PHI, a corpus of real medical reports manually annotated with sensitive information.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 17865
+      },
+      {
+        "cross_encoder_score": -4.251570224761963,
+        "dataset": "QASPER",
+        "end_char": 18364,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "1268444a183ce5924ae8eff251e94fcd",
+        "passage_rank": 6,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "c78f60cb22e5ba3d717e61a497239694",
+        "sentence_text": "Because this corpus is not publicly available, and in order to compare the BERT-based model to other related published systems, the second set of experiments uses the MEDDOCAN 2019 shared task competition dataset.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          14,
+          2,
+          0
+        ],
+        "source_position": 18151
+      },
+      {
+        "cross_encoder_score": -10.361357688903809,
+        "dataset": "QASPER",
+        "end_char": 18445,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "1268444a183ce5924ae8eff251e94fcd",
+        "passage_rank": 6,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "187d018c76cc13382029f2193a87a5bc",
+        "sentence_text": "The following sections provide greater detail about the two experimental setups.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          14,
+          3,
+          0
+        ],
+        "source_position": 18365
+      },
+      {
+        "cross_encoder_score": -10.437257766723633,
+        "dataset": "QASPER",
+        "end_char": 18690,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "1268444a183ce5924ae8eff251e94fcd",
+        "passage_rank": 6,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "aa0359565c549117bbfb3c910406bdf1",
+        "sentence_text": "Materials and Methods ::: Experimental design ::: Experiment A: NUBes-PHI\tIn this experiment set, we evaluate all the systems presented in Section SECREF7, namely, the rule-based baseline, the CRF classifier, the spaCy entity tagger, and BERT.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          14,
+          4,
+          0
+        ],
+        "source_position": 18447
+      },
+      {
+        "cross_encoder_score": -10.499927520751953,
+        "dataset": "QASPER",
+        "end_char": 19034,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "1268444a183ce5924ae8eff251e94fcd",
+        "passage_rank": 6,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "ff0fe117fc747e2063512182452960f2",
+        "sentence_text": "The evaluation comprises three scenarios of increasing difficulty: [noitemsep] - Evaluates the performance of the systems at predicting whether each token is sensitive or non-sensitive; that is, the measurements only take into account whether a sensitive token has been recognised or not, regardless of the BIO label and the category assigned.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          0,
+          14,
+          5,
+          0
+        ],
+        "source_position": 18691
+      },
+      {
+        "cross_encoder_score": -11.105570793151855,
+        "dataset": "QASPER",
+        "end_char": 19153,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "1268444a183ce5924ae8eff251e94fcd",
+        "passage_rank": 6,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "c52f86effd340436434ed8f9cf37a727",
+        "sentence_text": "This scenario shows how good a system would be at obfuscating sensitive data (e.g., by replacing sensitive tokens with",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          14,
+          6,
+          0
+        ],
+        "source_position": 19035
+      },
+      {
+        "cross_encoder_score": -9.830010414123535,
+        "dataset": "QASPER",
+        "end_char": 20485,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "c768bb2a17a4be4ad0435a310cdd4049",
+        "passage_rank": 10,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "a12349be34b1d3bf9e041ef502f60f60",
+        "sentence_text": "1%.",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "source_position": 20482
+      },
+      {
+        "cross_encoder_score": -5.202502250671387,
+        "dataset": "QASPER",
+        "end_char": 20548,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "c768bb2a17a4be4ad0435a310cdd4049",
+        "passage_rank": 10,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "1183ef3479b46a7424a8fe4c6aa57331",
+        "sentence_text": "The same data subsets have been used to train all the systems.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          16,
+          1,
+          0
+        ],
+        "source_position": 20486
+      },
+      {
+        "cross_encoder_score": -10.55539608001709,
+        "dataset": "QASPER",
+        "end_char": 20733,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "c768bb2a17a4be4ad0435a310cdd4049",
+        "passage_rank": 10,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "9f76665df54e6b7d26afa4940333bc38",
+        "sentence_text": "Due to the knowledge transferred from the pre-trained BERT model, the BERT-based model is expected to be more robust to data scarcity than those that start their training from scratch.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          16,
+          2,
+          0
+        ],
+        "source_position": 20549
+      },
+      {
+        "cross_encoder_score": -8.40188217163086,
+        "dataset": "QASPER",
+        "end_char": 21130,
+        "pair_tokens_before_truncation": 94,
+        "pair_truncated": false,
+        "passage_id": "c768bb2a17a4be4ad0435a310cdd4049",
+        "passage_rank": 10,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "a603a59922a1b4b7c1e1c47bbbfac659",
+        "sentence_text": "Materials and Methods ::: Experimental design ::: Experiment B: MEDDOCAN\tIn this experiment set, our BERT implementation is compared to several systems that participated in the MEDDOCAN challenge: a CRF classifier , a spaCy entity recogniser , and NLNDE , the winner of the shared task and current state of the art for sensitive information detection and classification in Spanish clinical text.",
+        "sentence_token_cost": 76,
+        "source_order": [
+          0,
+          16,
+          3,
+          0
+        ],
+        "source_position": 20735
+      },
+      {
+        "cross_encoder_score": -10.463249206542969,
+        "dataset": "QASPER",
+        "end_char": 21283,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "c768bb2a17a4be4ad0435a310cdd4049",
+        "passage_rank": 10,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "5a2c7b3d3e84a9e7d0df7d05ca6aed15",
+        "sentence_text": "Specifically, we include the results of a domain-independent NLNDE model (S2), and the results of a model enriched with domain-specific embeddings (S3).",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          16,
+          4,
+          0
+        ],
+        "source_position": 21131
+      },
+      {
+        "cross_encoder_score": -11.169294357299805,
+        "dataset": "QASPER",
+        "end_char": 21393,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "c768bb2a17a4be4ad0435a310cdd4049",
+        "passage_rank": 10,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "1f43774c7744a71be22e012bef0233a3",
+        "sentence_text": "Finally, we include the results obtained by mao2019hadoken with a CRF output layer on top of BERT embeddings.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          16,
+          5,
+          0
+        ],
+        "source_position": 21284
+      },
+      {
+        "cross_encoder_score": -10.307540893554688,
+        "dataset": "QASPER",
+        "end_char": 21569,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "c768bb2a17a4be4ad0435a310cdd4049",
+        "passage_rank": 10,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "952a514bbec1adb4d0e65cad68589b86",
+        "sentence_text": "MEDDOCAN consists of two scenarios: [noitemsep] - This evaluation measures how good a system is at detecting sensitive text spans, regardless of the category assigned to them.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          16,
+          6,
+          0
+        ],
+        "source_position": 21394
+      },
+      {
+        "cross_encoder_score": -11.12675952911377,
+        "dataset": "QASPER",
+        "end_char": 21707,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "c768bb2a17a4be4ad0435a310cdd4049",
+        "passage_rank": 10,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "99fd82059a16e11de1274389b8a231dc",
+        "sentence_text": "- In this scenario, systems are required to match exactly not only the boundaries of each sensitive span, but also the category assigned.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          16,
+          7,
+          0
+        ],
+        "source_position": 21570
+      },
+      {
+        "cross_encoder_score": -9.325010299682617,
+        "dataset": "QASPER",
+        "end_char": 21736,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "c768bb2a17a4be4ad0435a310cdd4049",
+        "passage_rank": 10,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "7d49dc0c3b6f9742aa79c4f3435cc0dc",
+        "sentence_text": "The systems are evaluated in",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          16,
+          8,
+          0
+        ],
+        "source_position": 21708
+      },
+      {
+        "cross_encoder_score": -11.235734939575195,
+        "dataset": "QASPER",
+        "end_char": 26669,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "5b3dd5cb6e77b0e08a501ea98e5ec9e1",
+        "passage_rank": 7,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "f56b563e04d9dd7058af29202b64174f",
+        "sentence_text": "system, achieve lower scores than our models.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          21,
+          0,
+          0
+        ],
+        "source_position": 26624
+      },
+      {
+        "cross_encoder_score": -10.714254379272461,
+        "dataset": "QASPER",
+        "end_char": 26716,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "5b3dd5cb6e77b0e08a501ea98e5ec9e1",
+        "passage_rank": 7,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "010abab7f52e86a512fcd637b02a28f2",
+        "sentence_text": "The reason why it should be so remain unclear.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          21,
+          1,
+          0
+        ],
+        "source_position": 26670
+      },
+      {
+        "cross_encoder_score": -10.89463996887207,
+        "dataset": "QASPER",
+        "end_char": 26911,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "5b3dd5cb6e77b0e08a501ea98e5ec9e1",
+        "passage_rank": 7,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "280f41b9db94ce4fe26546a4064af3fc",
+        "sentence_text": "With regard to the winner of the MEDDOCAN shared task, the BERT-based model has not improved the scores obtained by neither the domain-dependent (S3) nor the domain-independent (S2) NLNDE model.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          21,
+          2,
+          0
+        ],
+        "source_position": 26717
+      },
+      {
+        "cross_encoder_score": -11.236379623413086,
+        "dataset": "QASPER",
+        "end_char": 27093,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "5b3dd5cb6e77b0e08a501ea98e5ec9e1",
+        "passage_rank": 7,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "f96376aac3a8cf180a7f8f848fe6f817",
+        "sentence_text": "However, attending to the obtained results, BERT remains only 0.3 F1-score points behind, and would have achieved the second position among all the MEDDOCAN shared task competitors.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          21,
+          3,
+          0
+        ],
+        "source_position": 26912
+      },
+      {
+        "cross_encoder_score": -11.2839994430542,
+        "dataset": "QASPER",
+        "end_char": 27412,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "5b3dd5cb6e77b0e08a501ea98e5ec9e1",
+        "passage_rank": 7,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "c759cddf750c501e403f2d1eef1250d2",
+        "sentence_text": "Taking into account that only 3% of the gold labels remain incorrectly annotated, the task can be considered almost solved, and it is not clear if the differences among the systems are actually significant, or whether they stem from minor variations in initialisation or a long-tail of minor labelling inconsistencies.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          0,
+          21,
+          4,
+          0
+        ],
+        "source_position": 27094
+      },
+      {
+        "cross_encoder_score": -6.183894157409668,
+        "dataset": "QASPER",
+        "end_char": 27549,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "5b3dd5cb6e77b0e08a501ea98e5ec9e1",
+        "passage_rank": 7,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "1fd42795f5ed5bb16086c12feb904bef",
+        "sentence_text": "Conclusions and Future Work\tIn this work we have briefly introduced the problems related to data privacy protection in clinical domain.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          21,
+          5,
+          0
+        ],
+        "source_position": 27414
+      },
+      {
+        "cross_encoder_score": -11.287546157836914,
+        "dataset": "QASPER",
+        "end_char": 27884,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "5b3dd5cb6e77b0e08a501ea98e5ec9e1",
+        "passage_rank": 7,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "7685be16add584f70b10bacaf4bc9874",
+        "sentence_text": "We have also described some of the groundbreaking advances on the Natural Language Processing field due to the appearance of Transformers-based deep-learning architectures and transfer learning from very large general-domain multilingual corpora, focusing our attention in one of its most representative examples, Google's BERT model.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          21,
+          6,
+          0
+        ],
+        "source_position": 27550
+      },
+      {
+        "cross_encoder_score": -6.417291641235352,
+        "dataset": "QASPER",
+        "end_char": 27953,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "5b3dd5cb6e77b0e08a501ea98e5ec9e1",
+        "passage_rank": 7,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "8a4a66432a17b105f6cc4134fcab7463",
+        "sentence_text": "In order to assess the performance of BERT for Spanish clinical data",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          21,
+          7,
+          0
+        ],
+        "source_position": 27885
+      },
+      {
+        "cross_encoder_score": -11.120153427124023,
+        "dataset": "QASPER",
+        "end_char": 28161,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "e9dddf7fb929188d467ebf43e26efcc7",
+        "passage_rank": 2,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "b6997a171831d8839f3733d196c01843",
+        "sentence_text": "anonymisation, we have conducted several experiments with a BERT-based sequence labelling approach using the pre-trained multilingual BERT model shared by Google as the starting point for the model training.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          22,
+          0,
+          0
+        ],
+        "source_position": 27954
+      },
+      {
+        "cross_encoder_score": -11.089369773864746,
+        "dataset": "QASPER",
+        "end_char": 28248,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "e9dddf7fb929188d467ebf43e26efcc7",
+        "passage_rank": 2,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "d05d2db04e803f60e9206f360aa758b3",
+        "sentence_text": "We have compared this BERT-based sequence labelling against other methods and systems.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          22,
+          1,
+          0
+        ],
+        "source_position": 28162
+      },
+      {
+        "cross_encoder_score": 2.167236566543579,
+        "dataset": "QASPER",
+        "end_char": 28395,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "e9dddf7fb929188d467ebf43e26efcc7",
+        "passage_rank": 2,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "a0c90f74358204394cbf9d16302fc3d1",
+        "sentence_text": "One of the experiments uses the MEDDOCAN 2019 shared task dataset, while the other uses a novel Spanish clinical reports dataset called NUBes-PHI.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          22,
+          2,
+          0
+        ],
+        "source_position": 28249
+      },
+      {
+        "cross_encoder_score": -10.359766006469727,
+        "dataset": "QASPER",
+        "end_char": 28628,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "e9dddf7fb929188d467ebf43e26efcc7",
+        "passage_rank": 2,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "173b0bc2262954314edfcc614585f438",
+        "sentence_text": "The results of the experiments show that, in NUBes-PHI, the BERT-based model outperforms the other systems without requiring any adaptation or domain-specific feature engineering, just by being trained on the provided labelled data.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          0,
+          22,
+          3,
+          0
+        ],
+        "source_position": 28396
+      },
+      {
+        "cross_encoder_score": -11.199943542480469,
+        "dataset": "QASPER",
+        "end_char": 28723,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "e9dddf7fb929188d467ebf43e26efcc7",
+        "passage_rank": 2,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "03bb209e84d0b0b590c6f0b0fb481bac",
+        "sentence_text": "Interestingly, the BERT-based model obtains a remarkably higher recall than the other systems.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          22,
+          4,
+          0
+        ],
+        "source_position": 28629
+      },
+      {
+        "cross_encoder_score": -10.942197799682617,
+        "dataset": "QASPER",
+        "end_char": 28932,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "e9dddf7fb929188d467ebf43e26efcc7",
+        "passage_rank": 2,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "6a4da041857e2c98437d1a229194ce33",
+        "sentence_text": "High recall is a desirable outcome because, when anonymising sensible documents, the accidental leak of sensible data is likely to be more dangerous than the unintended over-obfuscation of non-sensitive text.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          22,
+          5,
+          0
+        ],
+        "source_position": 28724
+      },
+      {
+        "cross_encoder_score": -6.010625839233398,
+        "dataset": "QASPER",
+        "end_char": 29074,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "e9dddf7fb929188d467ebf43e26efcc7",
+        "passage_rank": 2,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "bd21a0b745a6faac883b599ff8d002d4",
+        "sentence_text": "Further, we have conducted an additional experiment on this dataset by progressively reducing the training data for all the compared systems.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          22,
+          6,
+          0
+        ],
+        "source_position": 28933
+      },
+      {
+        "cross_encoder_score": -10.436481475830078,
+        "dataset": "QASPER",
+        "end_char": 29226,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "e9dddf7fb929188d467ebf43e26efcc7",
+        "passage_rank": 2,
+        "query_id": "3de0487276bb5961586acc6e9f82934ef8cb668c",
+        "sentence_id": "69a6a2bdc40f9e8774dfb52b73d627af",
+        "sentence_text": "The BERT-based model shows the highest robustness to training-data scarcity, loosing only 7 points of F1-score when trained on 230 instances instead of",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          22,
+          7,
+          0
+        ],
+        "source_position": 29075
+      }
+    ],
+    "scoring_seconds": 0.35750238597393036,
+    "source_fingerprint": "f11209db929273e7897d8f05903613dc86a36f54b77d418ef5fe4d559dbcd6f7"
+  }
+}

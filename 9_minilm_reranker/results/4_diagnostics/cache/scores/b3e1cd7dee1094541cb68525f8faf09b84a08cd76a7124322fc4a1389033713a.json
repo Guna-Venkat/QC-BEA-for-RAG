@@ -1,0 +1,2451 @@
+{
+  "checksum": "170c7dcce30afc121b6d8f94150b8ab6427f0bbc25c0c5df5b068d908a1a0af8",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "644"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 121,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "872f005d61f4870f4ac32d9083a7160b198f54ade09841d85d1069a31f32b0bd",
+    "query_id": "644",
+    "scores": [
+      {
+        "cross_encoder_score": -7.59906005859375,
+        "dataset": "SciFact",
+        "end_char": 68,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "9546cd0ec665dfa6c9fb1b78db6f6ce7",
+        "passage_rank": 3,
+        "query_id": "644",
+        "sentence_id": "75c3c104e82b3f75aebf501434d5d08b",
+        "sentence_text": "Mechanisms linking obesity to insulin resistance and type 2 diabetes",
+        "sentence_token_cost": 13,
+        "source_order": [
+          22,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.9541372060775757,
+        "dataset": "SciFact",
+        "end_char": 167,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "9546cd0ec665dfa6c9fb1b78db6f6ce7",
+        "passage_rank": 3,
+        "query_id": "644",
+        "sentence_id": "39fa92d7a72183c40e7eeb4b4af25702",
+        "sentence_text": "Obesity is associated with an increased risk of developing insulin resistance and type 2 diabetes.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          22,
+          0,
+          1,
+          0
+        ],
+        "source_position": 69
+      },
+      {
+        "cross_encoder_score": -7.716485500335693,
+        "dataset": "SciFact",
+        "end_char": 387,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "9546cd0ec665dfa6c9fb1b78db6f6ce7",
+        "passage_rank": 3,
+        "query_id": "644",
+        "sentence_id": "2062d6750bb1fbb3700281f07a910635",
+        "sentence_text": "In obese individuals, adipose tissue releases increased amounts of non-esterified fatty acids, glycerol, hormones, pro-inflammatory cytokines and other factors that are involved in the development of insulin resistance.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          22,
+          0,
+          2,
+          0
+        ],
+        "source_position": 168
+      },
+      {
+        "cross_encoder_score": -5.414085865020752,
+        "dataset": "SciFact",
+        "end_char": 553,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "9546cd0ec665dfa6c9fb1b78db6f6ce7",
+        "passage_rank": 3,
+        "query_id": "644",
+        "sentence_id": "4eddbc739f77cb1ca55e1e23f0648f19",
+        "sentence_text": "When insulin resistance is accompanied by dysfunction of pancreatic islet \u03b2-cells \u2014 the cells that release insulin \u2014 failure to control blood glucose levels results.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          22,
+          0,
+          3,
+          0
+        ],
+        "source_position": 388
+      },
+      {
+        "cross_encoder_score": -8.418124198913574,
+        "dataset": "SciFact",
+        "end_char": 666,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "9546cd0ec665dfa6c9fb1b78db6f6ce7",
+        "passage_rank": 3,
+        "query_id": "644",
+        "sentence_id": "592e9d47dd98a29acf6e2fa3b645c5f1",
+        "sentence_text": "Abnormalities in \u03b2-cell function are therefore critical in defining the risk and development of type 2 diabetes.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          22,
+          0,
+          4,
+          0
+        ],
+        "source_position": 554
+      },
+      {
+        "cross_encoder_score": -10.986505508422852,
+        "dataset": "SciFact",
+        "end_char": 808,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "9546cd0ec665dfa6c9fb1b78db6f6ce7",
+        "passage_rank": 3,
+        "query_id": "644",
+        "sentence_id": "2697e7509004324be7712bea085833b1",
+        "sentence_text": "This knowledge is fostering exploration of the molecular and genetic basis of the disease and new approaches to its treatment and prevention.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          22,
+          0,
+          5,
+          0
+        ],
+        "source_position": 667
+      },
+      {
+        "cross_encoder_score": -6.5481438636779785,
+        "dataset": "SciFact",
+        "end_char": 74,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "ccea20d56355529974ed640f1cfc88ce",
+        "passage_rank": 4,
+        "query_id": "644",
+        "sentence_id": "7a7dd517e36d9db3a87fb5b4400589ca",
+        "sentence_text": "Outcome of pregnancy in women with moderate or severe renal insufficiency.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          66,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.439658164978027,
+        "dataset": "SciFact",
+        "end_char": 315,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "ccea20d56355529974ed640f1cfc88ce",
+        "passage_rank": 4,
+        "query_id": "644",
+        "sentence_id": "d8d0acc18b5518e315a196ff4fac7479",
+        "sentence_text": "BACKGROUND Pregnant women with mild preexisting renal disease have relatively few complications of pregnancy, but the risks of maternal and obstetrical complications in women with moderate or severe renal insufficiency remain uncertain.   \n",
+        "sentence_token_cost": 41,
+        "source_order": [
+          66,
+          0,
+          1,
+          0
+        ],
+        "source_position": 75
+      },
+      {
+        "cross_encoder_score": -9.749347686767578,
+        "dataset": "SciFact",
+        "end_char": 490,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "ccea20d56355529974ed640f1cfc88ce",
+        "passage_rank": 4,
+        "query_id": "644",
+        "sentence_id": "118895371b27b2f11bf4ae07778cdd63",
+        "sentence_text": "METHODS We determined the frequency and types of maternal and obstetrical complications and the outcomes of pregnancy in 67 women with primary renal disease (82 pregnancies).",
+        "sentence_token_cost": 34,
+        "source_order": [
+          66,
+          0,
+          2,
+          0
+        ],
+        "source_position": 316
+      },
+      {
+        "cross_encoder_score": -11.090686798095703,
+        "dataset": "SciFact",
+        "end_char": 665,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "ccea20d56355529974ed640f1cfc88ce",
+        "passage_rank": 4,
+        "query_id": "644",
+        "sentence_id": "93828321d95a94133bbb0732b4ff75a7",
+        "sentence_text": "All the women had initial serum creatinine concentrations of at least 1.4 mg per deciliter (124 mumol per liter) and gestations that continued beyond the first trimester.   \n",
+        "sentence_token_cost": 42,
+        "source_order": [
+          66,
+          0,
+          3,
+          0
+        ],
+        "source_position": 491
+      },
+      {
+        "cross_encoder_score": -10.227696418762207,
+        "dataset": "SciFact",
+        "end_char": 687,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "ccea20d56355529974ed640f1cfc88ce",
+        "passage_rank": 4,
+        "query_id": "644",
+        "sentence_id": "fbb2cac649a0d79090d5102521769922",
+        "sentence_text": "RESULTS The mean (+/-",
+        "sentence_token_cost": 5,
+        "source_order": [
+          66,
+          0,
+          4,
+          0
+        ],
+        "source_position": 666
+      },
+      {
+        "cross_encoder_score": -9.45749282836914,
+        "dataset": "SciFact",
+        "end_char": 745,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "ccea20d56355529974ed640f1cfc88ce",
+        "passage_rank": 4,
+        "query_id": "644",
+        "sentence_id": "b6e36b922eb4c7f54cd9c908a1672286",
+        "sentence_text": "SD) serum creatinine concentration increased from 1.9 +/-",
+        "sentence_token_cost": 13,
+        "source_order": [
+          66,
+          0,
+          5,
+          0
+        ],
+        "source_position": 688
+      },
+      {
+        "cross_encoder_score": -10.145584106445312,
+        "dataset": "SciFact",
+        "end_char": 775,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "ccea20d56355529974ed640f1cfc88ce",
+        "passage_rank": 4,
+        "query_id": "644",
+        "sentence_id": "39f9e339331614496abcfecd7d4d6869",
+        "sentence_text": "0.8 mg per deciliter (168 +/-",
+        "sentence_token_cost": 13,
+        "source_order": [
+          66,
+          0,
+          6,
+          0
+        ],
+        "source_position": 746
+      },
+      {
+        "cross_encoder_score": -11.182072639465332,
+        "dataset": "SciFact",
+        "end_char": 825,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "ccea20d56355529974ed640f1cfc88ce",
+        "passage_rank": 4,
+        "query_id": "644",
+        "sentence_id": "b84e2aab2d6dcf0988b9c11b5b483469",
+        "sentence_text": "71 mumol per liter) in early pregnancy to 2.5 +/-",
+        "sentence_token_cost": 16,
+        "source_order": [
+          66,
+          0,
+          7,
+          0
+        ],
+        "source_position": 776
+      },
+      {
+        "cross_encoder_score": -10.10001277923584,
+        "dataset": "SciFact",
+        "end_char": 855,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "ccea20d56355529974ed640f1cfc88ce",
+        "passage_rank": 4,
+        "query_id": "644",
+        "sentence_id": "b7295b55756041626df1802b623f7b10",
+        "sentence_text": "1.3 mg per deciliter (221 +/-",
+        "sentence_token_cost": 13,
+        "source_order": [
+          66,
+          0,
+          8,
+          0
+        ],
+        "source_position": 826
+      },
+      {
+        "cross_encoder_score": -11.10460090637207,
+        "dataset": "SciFact",
+        "end_char": 900,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "ccea20d56355529974ed640f1cfc88ce",
+        "passage_rank": 4,
+        "query_id": "644",
+        "sentence_id": "f7e3386768da1f3a3575bd0e2f60d1a2",
+        "sentence_text": "115 mumol per liter) in the third trimester.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          66,
+          0,
+          9,
+          0
+        ],
+        "source_position": 856
+      },
+      {
+        "cross_encoder_score": -9.823593139648438,
+        "dataset": "SciFact",
+        "end_char": 1117,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "ccea20d56355529974ed640f1cfc88ce",
+        "passage_rank": 4,
+        "query_id": "644",
+        "sentence_id": "a32a9886e5eb5d0aa6786c5d3262c591",
+        "sentence_text": "The frequency of hypertension rose from 28 percent at base line to 48 percent in the third trimester, and that of high-grade proteinuria (urinary protein excretion, > 3000 mg per liter) from 23 percent to 41 percent.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          66,
+          0,
+          10,
+          0
+        ],
+        "source_position": 901
+      },
+      {
+        "cross_encoder_score": -9.003878593444824,
+        "dataset": "SciFact",
+        "end_char": 1301,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "ccea20d56355529974ed640f1cfc88ce",
+        "passage_rank": 4,
+        "query_id": "644",
+        "sentence_id": "04f04f373a805d1849ed99f4fa4fc232",
+        "sentence_text": "For the 70 pregnancies (57 women) for which data were available during pregnancy and immediately post partum, pregnancy-related loss of maternal renal function occurred in 43 percent.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          66,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1118
+      },
+      {
+        "cross_encoder_score": -8.792339324951172,
+        "dataset": "SciFact",
+        "end_char": 1427,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "ccea20d56355529974ed640f1cfc88ce",
+        "passage_rank": 4,
+        "query_id": "644",
+        "sentence_id": "842445fdf6806493eafce1a07075e703",
+        "sentence_text": "Eight of these pregnancies (10 percent of the total) were associated with rapid acceleration of maternal renal insufficiency.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          66,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1302
+      },
+      {
+        "cross_encoder_score": -10.143173217773438,
+        "dataset": "SciFact",
+        "end_char": 1544,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "ccea20d56355529974ed640f1cfc88ce",
+        "passage_rank": 4,
+        "query_id": "644",
+        "sentence_id": "ea3f171bb83c92217d6350ff38e76de4",
+        "sentence_text": "Obstetrical complications included a high rate of preterm delivery (59 percent) and growth retardation (37 percent).",
+        "sentence_token_cost": 27,
+        "source_order": [
+          66,
+          0,
+          13,
+          0
+        ],
+        "source_position": 1428
+      },
+      {
+        "cross_encoder_score": -10.815746307373047,
+        "dataset": "SciFact",
+        "end_char": 1589,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "ccea20d56355529974ed640f1cfc88ce",
+        "passage_rank": 4,
+        "query_id": "644",
+        "sentence_id": "4d90814d01f04f557e3f0a72ff269b76",
+        "sentence_text": "The infant survival rate was 93 percent.   \n",
+        "sentence_token_cost": 11,
+        "source_order": [
+          66,
+          0,
+          14,
+          0
+        ],
+        "source_position": 1545
+      },
+      {
+        "cross_encoder_score": -3.007309913635254,
+        "dataset": "SciFact",
+        "end_char": 1814,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "ccea20d56355529974ed640f1cfc88ce",
+        "passage_rank": 4,
+        "query_id": "644",
+        "sentence_id": "e5694d92899d900b0e58c259553d6be5",
+        "sentence_text": "CONCLUSIONS Among pregnant women with moderate or severe renal insufficiency, the rates of complications due to worsening renal function, hypertension, and obstetrical complications are increased, but fetal survival is high.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          66,
+          0,
+          15,
+          0
+        ],
+        "source_position": 1590
+      },
+      {
+        "cross_encoder_score": -8.9214448928833,
+        "dataset": "SciFact",
+        "end_char": 83,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "853f22d781fa48b6274cc1009461aa18",
+        "passage_rank": 2,
+        "query_id": "644",
+        "sentence_id": "0a28acf1b2fda99f39192fb7f27c0c9c",
+        "sentence_text": "Vascular responsiveness in isolated perfused kidneys of diabetic hypertensive rats.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          1626,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.678317070007324,
+        "dataset": "SciFact",
+        "end_char": 417,
+        "pair_tokens_before_truncation": 94,
+        "pair_truncated": false,
+        "passage_id": "853f22d781fa48b6274cc1009461aa18",
+        "passage_rank": 2,
+        "query_id": "644",
+        "sentence_id": "8b9e2f327ad9b41976f46187b65100fc",
+        "sentence_text": "OBJECTIVE The aim of this study was to investigate whether diabetes and hypertension cause additive effects in the responses to various vasoconstrictor and vasodilator agents, in isolated perfused kidneys obtained from streptozotocin (STZ)-diabetic Wistar-Kyoto (WKY) rats and from diabetic spontaneously hypertensive rats (SHR).   \n",
+        "sentence_token_cost": 75,
+        "source_order": [
+          1626,
+          0,
+          1,
+          0
+        ],
+        "source_position": 84
+      },
+      {
+        "cross_encoder_score": -11.166741371154785,
+        "dataset": "SciFact",
+        "end_char": 540,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "853f22d781fa48b6274cc1009461aa18",
+        "passage_rank": 2,
+        "query_id": "644",
+        "sentence_id": "9cdd3bc45ab33814875cfcd4520fd128",
+        "sentence_text": "METHODS SHR and WKY rats were administered STZ 55 mg/kg by intravenous injection into a lateral tail vein at age 12 weeks.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          1626,
+          0,
+          2,
+          0
+        ],
+        "source_position": 418
+      },
+      {
+        "cross_encoder_score": -10.050154685974121,
+        "dataset": "SciFact",
+        "end_char": 659,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "853f22d781fa48b6274cc1009461aa18",
+        "passage_rank": 2,
+        "query_id": "644",
+        "sentence_id": "bdf47b8159fc283aa45d8766a1d5c9eb",
+        "sentence_text": "Eight weeks later the kidneys were isolated and perfused via the left renal artery with a physiological salt solution.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          1626,
+          0,
+          3,
+          0
+        ],
+        "source_position": 541
+      },
+      {
+        "cross_encoder_score": -9.317785263061523,
+        "dataset": "SciFact",
+        "end_char": 711,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "853f22d781fa48b6274cc1009461aa18",
+        "passage_rank": 2,
+        "query_id": "644",
+        "sentence_id": "2de81a1b6de45a1e8ba6b8819219abbc",
+        "sentence_text": "Renal perfusion pressure was measured continuously.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          1626,
+          0,
+          4,
+          0
+        ],
+        "source_position": 660
+      },
+      {
+        "cross_encoder_score": -11.261882781982422,
+        "dataset": "SciFact",
+        "end_char": 810,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "853f22d781fa48b6274cc1009461aa18",
+        "passage_rank": 2,
+        "query_id": "644",
+        "sentence_id": "670cddb34f014d2129d5ffa7d1aa7c29",
+        "sentence_text": "Concentration response curves were plotted for various vasoconstrictor and vasodilator agents.   \n",
+        "sentence_token_cost": 21,
+        "source_order": [
+          1626,
+          0,
+          5,
+          0
+        ],
+        "source_position": 712
+      },
+      {
+        "cross_encoder_score": -6.190547466278076,
+        "dataset": "SciFact",
+        "end_char": 916,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "853f22d781fa48b6274cc1009461aa18",
+        "passage_rank": 2,
+        "query_id": "644",
+        "sentence_id": "02b578d785e359790113652c4e28f818",
+        "sentence_text": "RESULTS Both the diabetic and the hypertensive state were associated with an increased wet kidney weight.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          1626,
+          0,
+          6,
+          0
+        ],
+        "source_position": 811
+      },
+      {
+        "cross_encoder_score": -8.533557891845703,
+        "dataset": "SciFact",
+        "end_char": 1233,
+        "pair_tokens_before_truncation": 100,
+        "pair_truncated": false,
+        "passage_id": "853f22d781fa48b6274cc1009461aa18",
+        "passage_rank": 2,
+        "query_id": "644",
+        "sentence_id": "aa087f7e03bd5a56293d416c67fc7d62",
+        "sentence_text": "The contractile responses of the renal arterial system to phenylephrine (PhE), serotonin (5-HT) and angiotensin II (Ang II) in terms both of the maximal rise in perfusion pressure (mmHg) and of the sensitivity (log EC50) were the same in preparations from diabetic WKY rats and in those from normoglycaemic WKY rats.",
+        "sentence_token_cost": 82,
+        "source_order": [
+          1626,
+          0,
+          7,
+          0
+        ],
+        "source_position": 917
+      },
+      {
+        "cross_encoder_score": -6.78322172164917,
+        "dataset": "SciFact",
+        "end_char": 1463,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "853f22d781fa48b6274cc1009461aa18",
+        "passage_rank": 2,
+        "query_id": "644",
+        "sentence_id": "146ccfc25cdc3a68d3b006e97887968a",
+        "sentence_text": "The maximal contractile responses both to PhE and to Ang II were enhanced in kidneys from SHR compared with those in kidneys from their normotensive controls, whereas simultaneously occurring diabetes impaired this sensitization.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          1626,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1234
+      },
+      {
+        "cross_encoder_score": -10.91604995727539,
+        "dataset": "SciFact",
+        "end_char": 1721,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "853f22d781fa48b6274cc1009461aa18",
+        "passage_rank": 2,
+        "query_id": "644",
+        "sentence_id": "df751c5d590acd388831c986578f71e1",
+        "sentence_text": "After precontraction with 3 x 10(-6) mol/l PhE both endothelium-dependent (methacholine) and endothelium-independent (sodium nitroprusside) vasodilator drugs caused the same vasodilator response in the preparations taken from the four groups of animals.   \n",
+        "sentence_token_cost": 67,
+        "source_order": [
+          1626,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1464
+      },
+      {
+        "cross_encoder_score": -8.309432983398438,
+        "dataset": "SciFact",
+        "end_char": 1901,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "853f22d781fa48b6274cc1009461aa18",
+        "passage_rank": 2,
+        "query_id": "644",
+        "sentence_id": "e3989ea0ddd5b2e8697783018355485a",
+        "sentence_text": "CONCLUSION In isolated perfused kidneys obtained from STZ-diabetic WKY rats and SHR, the isolated diabetic state did not influence the vasoconstriction caused by various agonists.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          1626,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1722
+      },
+      {
+        "cross_encoder_score": -10.161880493164062,
+        "dataset": "SciFact",
+        "end_char": 2028,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "853f22d781fa48b6274cc1009461aa18",
+        "passage_rank": 2,
+        "query_id": "644",
+        "sentence_id": "ce83052b182c74c1760590c03e1a2703",
+        "sentence_text": "However, the enhanced vascular reactivity in the hypertensive state was blunted by simultaneously occurring diabetes mellitus.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1626,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1902
+      },
+      {
+        "cross_encoder_score": -10.668920516967773,
+        "dataset": "SciFact",
+        "end_char": 2168,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "853f22d781fa48b6274cc1009461aa18",
+        "passage_rank": 2,
+        "query_id": "644",
+        "sentence_id": "1abfb6c14ff023ca6bbf65826223bdc0",
+        "sentence_text": "Endothelium-dependent and -independent vasorelaxation in this model was not affected neither by the hypertensive nor by the diabetic state.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1626,
+          0,
+          12,
+          0
+        ],
+        "source_position": 2029
+      },
+      {
+        "cross_encoder_score": -7.7121806144714355,
+        "dataset": "SciFact",
+        "end_char": 69,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "8bfc37b30434b0598cb831823d0312ec",
+        "passage_rank": 7,
+        "query_id": "644",
+        "sentence_id": "abd876b9f4c08e0ab84ed7ebba54df6b",
+        "sentence_text": "Obesity, type 2 diabetes, and cancer: the insulin and IGF connection.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          1924,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.136651992797852,
+        "dataset": "SciFact",
+        "end_char": 229,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "8bfc37b30434b0598cb831823d0312ec",
+        "passage_rank": 7,
+        "query_id": "644",
+        "sentence_id": "b080791ed5be512de9c7e60beb57ce88",
+        "sentence_text": "Epidemiological studies suggest a positive association between obesity and type 2 diabetes mellitus (T2D) with the risk of cancer and cancer-related mortality.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          1924,
+          0,
+          1,
+          0
+        ],
+        "source_position": 70
+      },
+      {
+        "cross_encoder_score": -5.771439075469971,
+        "dataset": "SciFact",
+        "end_char": 440,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "8bfc37b30434b0598cb831823d0312ec",
+        "passage_rank": 7,
+        "query_id": "644",
+        "sentence_id": "69ad7b2d7b293d6b0f20004712693e1b",
+        "sentence_text": "Insulin resistance, hyperinsulinemia, increased levels of IGF, elevated levels of steroid and peptide hormones, and inflammatory markers appear to play a role in the connection between these different diseases.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          1924,
+          0,
+          2,
+          0
+        ],
+        "source_position": 230
+      },
+      {
+        "cross_encoder_score": -5.241208076477051,
+        "dataset": "SciFact",
+        "end_char": 572,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "8bfc37b30434b0598cb831823d0312ec",
+        "passage_rank": 7,
+        "query_id": "644",
+        "sentence_id": "797411c542a53c5d27d5d49816ce4120",
+        "sentence_text": "Medications, such as metformin and exogenous insulin, used to treat T2D may affect the risk of cancer and cancer-related mortality.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1924,
+          0,
+          3,
+          0
+        ],
+        "source_position": 441
+      },
+      {
+        "cross_encoder_score": -8.69614315032959,
+        "dataset": "SciFact",
+        "end_char": 674,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "8bfc37b30434b0598cb831823d0312ec",
+        "passage_rank": 7,
+        "query_id": "644",
+        "sentence_id": "03470c0d9895f6fa58269b7063709546",
+        "sentence_text": "Newer therapies targeting the insulin and IGF1 systems are being developed for use in cancer therapy.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          1924,
+          0,
+          4,
+          0
+        ],
+        "source_position": 573
+      },
+      {
+        "cross_encoder_score": -9.10250186920166,
+        "dataset": "SciFact",
+        "end_char": 91,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 9,
+        "query_id": "644",
+        "sentence_id": "eab377e897d42f8c32ef8e4857f0b62e",
+        "sentence_text": "Hypoglycemic episodes and risk of dementia in older patients with type 2 diabetes mellitus.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          2170,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.508708000183105,
+        "dataset": "SciFact",
+        "end_char": 334,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 9,
+        "query_id": "644",
+        "sentence_id": "ad28bfe2ab99ab4176d5f679341c278a",
+        "sentence_text": "CONTEXT Although acute hypoglycemia may be associated with cognitive impairment in children with type 1 diabetes, no studies to date have evaluated whether hypoglycemia is a risk factor for dementia in older patients with type 2 diabetes.   \n",
+        "sentence_token_cost": 50,
+        "source_order": [
+          2170,
+          0,
+          1,
+          0
+        ],
+        "source_position": 92
+      },
+      {
+        "cross_encoder_score": -6.252996921539307,
+        "dataset": "SciFact",
+        "end_char": 558,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 9,
+        "query_id": "644",
+        "sentence_id": "2fc8e0cc64306916706d75a58cb61f1d",
+        "sentence_text": "OBJECTIVE To determine if hypoglycemic episodes severe enough to require hospitalization are associated with an increased risk of dementia in a population of older patients with type 2 diabetes followed up for 27 years.   \n",
+        "sentence_token_cost": 45,
+        "source_order": [
+          2170,
+          0,
+          2,
+          0
+        ],
+        "source_position": 335
+      },
+      {
+        "cross_encoder_score": -10.886008262634277,
+        "dataset": "SciFact",
+        "end_char": 787,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 9,
+        "query_id": "644",
+        "sentence_id": "566ddea8935d978abd2084074eb26254",
+        "sentence_text": "DESIGN, SETTING, AND PATIENTS A longitudinal cohort study from 1980-2007 of 16,667 patients with a mean age of 65 years and type 2 diabetes who are members of an integrated health care delivery system in northern California.   \n",
+        "sentence_token_cost": 63,
+        "source_order": [
+          2170,
+          0,
+          3,
+          0
+        ],
+        "source_position": 559
+      },
+      {
+        "cross_encoder_score": -11.117318153381348,
+        "dataset": "SciFact",
+        "end_char": 932,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 9,
+        "query_id": "644",
+        "sentence_id": "96623bdb16eefc778fe3906b7c2bed8a",
+        "sentence_text": "MAIN OUTCOME MEASURE Hypoglycemic events from 1980-2002 were collected and reviewed using hospital discharge and emergency department diagnoses.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          2170,
+          0,
+          4,
+          0
+        ],
+        "source_position": 788
+      },
+      {
+        "cross_encoder_score": -11.182476997375488,
+        "dataset": "SciFact",
+        "end_char": 1131,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 9,
+        "query_id": "644",
+        "sentence_id": "b019b932fa70cb3b4fa81731d191d7b0",
+        "sentence_text": "Cohort members with no prior diagnoses of dementia, mild cognitive impairment, or general memory complaints as of January 1, 2003, were followed up for a dementia diagnosis through January 15, 2007.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          2170,
+          0,
+          5,
+          0
+        ],
+        "source_position": 933
+      },
+      {
+        "cross_encoder_score": -5.723531723022461,
+        "dataset": "SciFact",
+        "end_char": 1498,
+        "pair_tokens_before_truncation": 88,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 9,
+        "query_id": "644",
+        "sentence_id": "f3faf1fd29ef9d767570029c5597f5a6",
+        "sentence_text": "Dementia risk was examined using Cox proportional hazard regression models, adjusted for age, sex, race/ethnicity, education, body mass index, duration of diabetes, 7-year mean glycated hemoglobin, diabetes treatment, duration of insulin use, hyperlipidemia, hypertension, cardiovascular disease, stroke, transient cerebral ischemia, and end-stage renal disease.   \n",
+        "sentence_token_cost": 74,
+        "source_order": [
+          2170,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1132
+      },
+      {
+        "cross_encoder_score": -11.08215618133545,
+        "dataset": "SciFact",
+        "end_char": 1727,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 9,
+        "query_id": "644",
+        "sentence_id": "09e8508c08b11974b1b988998f2f2ee8",
+        "sentence_text": "RESULTS At least 1 episode of hypoglycemia was diagnosed in 1465 patients (8.8%) and dementia was diagnosed in 1822 patients (11%) during follow-up; 250 patients had both dementia and at least 1 episode of hypoglycemia (16.95%).",
+        "sentence_token_cost": 72,
+        "source_order": [
+          2170,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1499
+      },
+      {
+        "cross_encoder_score": -8.318334579467773,
+        "dataset": "SciFact",
+        "end_char": 2048,
+        "pair_tokens_before_truncation": 119,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 9,
+        "query_id": "644",
+        "sentence_id": "ec5861e5c1ecffe44bd7d1299c8df75b",
+        "sentence_text": "Compared with patients with no hypoglycemia, patients with single or multiple episodes had a graded increase in risk with fully adjusted hazard ratios (HRs): for 1 episode (HR, 1.26; 95% confidence interval [CI], 1.10-1.49); 2 episodes (HR, 1.80; 95% CI, 1.37-2.36); and 3 or more episodes (HR, 1.94; 95% CI, 1.42-2.64).",
+        "sentence_token_cost": 127,
+        "source_order": [
+          2170,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1728
+      },
+      {
+        "cross_encoder_score": -9.832765579223633,
+        "dataset": "SciFact",
+        "end_char": 2187,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 9,
+        "query_id": "644",
+        "sentence_id": "bcb723cb2da7e58b0ea19eb8d1b6ff5e",
+        "sentence_text": "The attributable risk of dementia between individuals with and without a history of hypoglycemia was 2.39% per year (95% CI, 1.72%-3.01%).",
+        "sentence_token_cost": 44,
+        "source_order": [
+          2170,
+          0,
+          9,
+          0
+        ],
+        "source_position": 2049
+      },
+      {
+        "cross_encoder_score": -10.983780860900879,
+        "dataset": "SciFact",
+        "end_char": 2347,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 9,
+        "query_id": "644",
+        "sentence_id": "1a4c368670ffeb2b48c3845f109b5b44",
+        "sentence_text": "Results were not attenuated when medical utilization rates, length of health plan membership, or time since initial diabetes diagnosis were added to the model.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          2170,
+          0,
+          10,
+          0
+        ],
+        "source_position": 2188
+      },
+      {
+        "cross_encoder_score": -10.703155517578125,
+        "dataset": "SciFact",
+        "end_char": 2658,
+        "pair_tokens_before_truncation": 100,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 9,
+        "query_id": "644",
+        "sentence_id": "0dce04457de3c38df31309a80c57f1bf",
+        "sentence_text": "When examining emergency department admissions for hypoglycemia for association with risk of dementia (535 episodes), results were similar (compared with patients with 0 episodes) with fully adjusted HRs: for 1 episode (HR, 1.42; 95% CI, 1.12-1.78) and for 2 or more episodes (HR, 2.36; 95% CI, 1.57-3.55).   \n",
+        "sentence_token_cost": 106,
+        "source_order": [
+          2170,
+          0,
+          11,
+          0
+        ],
+        "source_position": 2348
+      },
+      {
+        "cross_encoder_score": -7.014242649078369,
+        "dataset": "SciFact",
+        "end_char": 2803,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 9,
+        "query_id": "644",
+        "sentence_id": "01a113018ef75ac331bfbf27420b0aeb",
+        "sentence_text": "CONCLUSIONS Among older patients with type 2 diabetes, a history of severe hypoglycemic episodes was associated with a greater risk of dementia.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          2170,
+          0,
+          12,
+          0
+        ],
+        "source_position": 2659
+      },
+      {
+        "cross_encoder_score": -8.280336380004883,
+        "dataset": "SciFact",
+        "end_char": 2877,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 9,
+        "query_id": "644",
+        "sentence_id": "1dc06079115cd6c635c84f863127d251",
+        "sentence_text": "Whether minor hypoglycemic episodes increase risk of dementia is unknown.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          2170,
+          0,
+          13,
+          0
+        ],
+        "source_position": 2804
+      },
+      {
+        "cross_encoder_score": -9.31025218963623,
+        "dataset": "SciFact",
+        "end_char": 68,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 5,
+        "query_id": "644",
+        "sentence_id": "a8fc1cfb59a819f5ac409aa89b3cf95d",
+        "sentence_text": "A new look at the heart in diabetes mellitus: from ailing to failing",
+        "sentence_token_cost": 16,
+        "source_order": [
+          2192,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.372004985809326,
+        "dataset": "SciFact",
+        "end_char": 205,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 5,
+        "query_id": "644",
+        "sentence_id": "950abacde05d4031492d6bdfbe26ddb7",
+        "sentence_text": "This review discusses some of the mechanisms inherent in diabetes that predispose patients to increased cardiac morbidity and mortality.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          2192,
+          0,
+          1,
+          0
+        ],
+        "source_position": 69
+      },
+      {
+        "cross_encoder_score": -9.259092330932617,
+        "dataset": "SciFact",
+        "end_char": 537,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 5,
+        "query_id": "644",
+        "sentence_id": "07bd55f05469a854f2d1b148bc04cceb",
+        "sentence_text": "Single photon emission computerized tomography or photon emission tomography with radioactive labeled analogues of norepinephrine have shown that cardiac sympathetic dysfunction and incompetence are early and also late abnormalities in patients with Type I (insulin-dependent) and Type II (non-insulin-dependent) diabetes mellitus.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          2192,
+          0,
+          2,
+          0
+        ],
+        "source_position": 206
+      },
+      {
+        "cross_encoder_score": -11.013839721679688,
+        "dataset": "SciFact",
+        "end_char": 786,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 5,
+        "query_id": "644",
+        "sentence_id": "dd39cecd6791064c5d580fc24c6310f4",
+        "sentence_text": "Furthermore, myocardial blood flow assessment with photon emission tomography has shown that in patients without myocardial perfusion deficits, endothelial-dependent vasodilatation is severely reduced in relation to cardiac sympathetic dysfunction.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          2192,
+          0,
+          3,
+          0
+        ],
+        "source_position": 538
+      },
+      {
+        "cross_encoder_score": -10.659810066223145,
+        "dataset": "SciFact",
+        "end_char": 962,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 5,
+        "query_id": "644",
+        "sentence_id": "3ad025ac1d602aad5637f4a83731b005",
+        "sentence_text": "In addition, signs of endothelial activation have also been found early in patients with Type I and Type II diabetes in whom vascular disease has not been clinically detected.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          2192,
+          0,
+          4,
+          0
+        ],
+        "source_position": 787
+      },
+      {
+        "cross_encoder_score": -10.75702953338623,
+        "dataset": "SciFact",
+        "end_char": 1069,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 5,
+        "query_id": "644",
+        "sentence_id": "674614c83a55610c10f3ee165a879369",
+        "sentence_text": "This activation in conjunction with glycaemic control is important in determining macrovascular mortality.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          2192,
+          0,
+          5,
+          0
+        ],
+        "source_position": 963
+      },
+      {
+        "cross_encoder_score": -10.73468017578125,
+        "dataset": "SciFact",
+        "end_char": 1171,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 5,
+        "query_id": "644",
+        "sentence_id": "52d489e77692ea93c1c586ae27056849",
+        "sentence_text": "Cardiac sympathetic dysfunction is partially restored to normal with near normalisation of glycaemia.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          2192,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1070
+      },
+      {
+        "cross_encoder_score": -10.125843048095703,
+        "dataset": "SciFact",
+        "end_char": 1188,
+        "pair_tokens_before_truncation": 13,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 5,
+        "query_id": "644",
+        "sentence_id": "1038e58a685b3dd6b9edc21c6c0bb8d8",
+        "sentence_text": "Interpretations.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          2192,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1172
+      },
+      {
+        "cross_encoder_score": -10.740015983581543,
+        "dataset": "SciFact",
+        "end_char": 1354,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 5,
+        "query_id": "644",
+        "sentence_id": "d5f93c3683df5762876d8362ee6deb4c",
+        "sentence_text": "Recently unrecognized \u201csubtle\u201d changes predispose the heart to failure, after ischaemia-induced remodelling, and arteriosclerotic plaques to instability and rupture.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          2192,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1189
+      },
+      {
+        "cross_encoder_score": -10.213047981262207,
+        "dataset": "SciFact",
+        "end_char": 1550,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 5,
+        "query_id": "644",
+        "sentence_id": "b5f6afdb0773d21ef1be7f06b8a66ed5",
+        "sentence_text": "These changes act in conjunction with effects, driven by hyperglycaemia and diabetes, on the endothelium of large blood vessels, e. g. on nitric oxide release or on protein kinase-C \u03b2 activation.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          2192,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1355
+      },
+      {
+        "cross_encoder_score": -9.594133377075195,
+        "dataset": "SciFact",
+        "end_char": 1797,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 5,
+        "query_id": "644",
+        "sentence_id": "54ee796eafa4a5989c6b3970a9d27d8d",
+        "sentence_text": "Meticulous glucose control early on and rapid recompensation of hyperglycaemia in patients with acute coronary syndrome are part of a successful intensive multifactorial approach to prevent the heart in diabetes converting from ailing to failing.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          2192,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1551
+      },
+      {
+        "cross_encoder_score": -9.746990203857422,
+        "dataset": "SciFact",
+        "end_char": 1833,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "0a572e23f376b65c312f7f7804ead8c2",
+        "passage_rank": 5,
+        "query_id": "644",
+        "sentence_id": "4f79ec6c623f83bd6167752c1fcf335c",
+        "sentence_text": "[Diabetologia (2000) 43: 1455\u20131469]",
+        "sentence_token_cost": 25,
+        "source_order": [
+          2192,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1798
+      },
+      {
+        "cross_encoder_score": 1.0720463991165161,
+        "dataset": "SciFact",
+        "end_char": 146,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "73f9227f1b8d760144115ce78d603c1b",
+        "sentence_text": "Diabetes treatments and risk of amputation, blindness, severe kidney failure, hyperglycaemia, and hypoglycaemia: open cohort study in primary care",
+        "sentence_token_cost": 33,
+        "source_order": [
+          2220,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.9792574644088745,
+        "dataset": "SciFact",
+        "end_char": 420,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "c958b0b16d009a40d3b030791cc08cdd",
+        "sentence_text": "OBJECTIVE To assess the risks of amputation, blindness, severe kidney failure, hyperglycaemia, and hypoglycaemia in patients with type 2 diabetes associated with prescribed diabetes drugs, particularly newer agents including gliptins or glitazones (thiazolidinediones).   \n",
+        "sentence_token_cost": 60,
+        "source_order": [
+          2220,
+          0,
+          1,
+          0
+        ],
+        "source_position": 147
+      },
+      {
+        "cross_encoder_score": -11.011125564575195,
+        "dataset": "SciFact",
+        "end_char": 466,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "1ac22b17714d1ebe7da2416cdb168b69",
+        "sentence_text": "DESIGN Open cohort study in primary care.   \n",
+        "sentence_token_cost": 10,
+        "source_order": [
+          2220,
+          0,
+          2,
+          0
+        ],
+        "source_position": 421
+      },
+      {
+        "cross_encoder_score": -11.186854362487793,
+        "dataset": "SciFact",
+        "end_char": 549,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "dc1ac4aa2ea625bf8fea5296fd8a2eee",
+        "sentence_text": "SETTING 1243 practices contributing data to the QResearch database in England.   \n",
+        "sentence_token_cost": 18,
+        "source_order": [
+          2220,
+          0,
+          3,
+          0
+        ],
+        "source_position": 467
+      },
+      {
+        "cross_encoder_score": -9.612689971923828,
+        "dataset": "SciFact",
+        "end_char": 662,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "fbbd715a4f8b9dc9f0d2e81736520b67",
+        "sentence_text": "PARTICIPANTS 469,688 patients with type 2 diabetes aged 25-84 years between 1 April 2007 and 31 January 2015.   ",
+        "sentence_token_cost": 47,
+        "source_order": [
+          2220,
+          0,
+          4,
+          0
+        ],
+        "source_position": 550
+      },
+      {
+        "cross_encoder_score": -8.222412109375,
+        "dataset": "SciFact",
+        "end_char": 793,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "2af5c0affb8724a0551616796b15da0f",
+        "sentence_text": "EXPOSURES Hypoglycaemic agents (glitazones, gliptins, metformin, sulphonylureas, insulin, and other) alone and in combination.   \n",
+        "sentence_token_cost": 40,
+        "source_order": [
+          2220,
+          0,
+          5,
+          0
+        ],
+        "source_position": 663
+      },
+      {
+        "cross_encoder_score": -5.164651870727539,
+        "dataset": "SciFact",
+        "end_char": 991,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "f17559677461d3005aaa7174d227aa03",
+        "sentence_text": "MAIN OUTCOME MEASURES First recorded diagnoses of amputation, blindness, severe kidney failure, hyperglycaemia, and hypoglycaemia recorded on patients' primary care, mortality, or hospital records.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          2220,
+          0,
+          6,
+          0
+        ],
+        "source_position": 794
+      },
+      {
+        "cross_encoder_score": -10.053829193115234,
+        "dataset": "SciFact",
+        "end_char": 1091,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "cbdd90f83e95efb986073c5f17be905b",
+        "sentence_text": "Cox models estimated hazard ratios for diabetes treatments adjusting for potential confounders.   \n",
+        "sentence_token_cost": 17,
+        "source_order": [
+          2220,
+          0,
+          7,
+          0
+        ],
+        "source_position": 992
+      },
+      {
+        "cross_encoder_score": -10.360067367553711,
+        "dataset": "SciFact",
+        "end_char": 1223,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "40d2c3d0be51be52e4c3cd25a9fe9f28",
+        "sentence_text": "RESULTS 21,308 (4.5%) and 32,533 (6.9%) patients received prescriptions for glitazones and gliptins during follow-up, respectively.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          2220,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1092
+      },
+      {
+        "cross_encoder_score": -6.1257781982421875,
+        "dataset": "SciFact",
+        "end_char": 1581,
+        "pair_tokens_before_truncation": 126,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "afebd5a395c15fba2c04b1718ca70769",
+        "sentence_text": "Compared with non-use, glitazones were associated with a decreased risk of blindness (adjusted hazard ratio 0.71, 95% confidence interval 0.57 to 0.89; rate 14.4 per 10,000 person years of exposure) and an increased risk of hypoglycaemia (1.22, 1.10 to 1.37; 65.1); gliptins were associated with a decreased risk of hypoglycaemia (0.86, 0.77 to 0.96; 45.8).",
+        "sentence_token_cost": 138,
+        "source_order": [
+          2220,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1224
+      },
+      {
+        "cross_encoder_score": 1.8613767623901367,
+        "dataset": "SciFact",
+        "end_char": 1862,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "933708063de96cef70b64fad2440b9f7",
+        "sentence_text": "Although the numbers of patients prescribed gliptin monotherapy or glitazones monotherapy were relatively low, there were significantly increased risks of severe kidney failure compared with metformin monotherapy (adjusted hazard ratio 2.55, 95% confidence interval 1.13 to 5.74).",
+        "sentence_token_cost": 66,
+        "source_order": [
+          2220,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1582
+      },
+      {
+        "cross_encoder_score": -8.681693077087402,
+        "dataset": "SciFact",
+        "end_char": 2088,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "1d62bc007cf82e190e625bb3d6afac62",
+        "sentence_text": "We found significantly lower risks of hyperglycaemia among patients prescribed dual therapy involving metformin with either gliptins (0.78, 0.62 to 0.97) or glitazones (0.60, 0.45 to 0.80) compared with metformin monotherapy.",
+        "sentence_token_cost": 73,
+        "source_order": [
+          2220,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1863
+      },
+      {
+        "cross_encoder_score": -9.029566764831543,
+        "dataset": "SciFact",
+        "end_char": 2487,
+        "pair_tokens_before_truncation": 124,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "70de31cb4fc68d6d92c73abed1dc73df",
+        "sentence_text": "Patients prescribed triple therapy with metformin, sulphonylureas, and either gliptins (adjusted hazard ratio 5.07, 95% confidence interval 4.28 to 6.00) or glitazones (6.32, 5.35 to 7.45) had significantly higher risks of hypoglycaemia than those prescribed metformin monotherapy, but these risks were similar to those involving dual therapy with metformin and sulphonylureas (6.03, 5.47 to 6.63).",
+        "sentence_token_cost": 128,
+        "source_order": [
+          2220,
+          0,
+          12,
+          0
+        ],
+        "source_position": 2089
+      },
+      {
+        "cross_encoder_score": -9.375958442687988,
+        "dataset": "SciFact",
+        "end_char": 2677,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "137c44a4430a5e7094be75430a5a030d",
+        "sentence_text": "Patients prescribed triple therapy with metformin, sulphonylureas, and glitazones had a significantly reduced risk of blindness compared with metformin monotherapy (0.67, 0.48 to 0.94).   \n",
+        "sentence_token_cost": 53,
+        "source_order": [
+          2220,
+          0,
+          13,
+          0
+        ],
+        "source_position": 2488
+      },
+      {
+        "cross_encoder_score": -9.446053504943848,
+        "dataset": "SciFact",
+        "end_char": 2858,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "6b93569df8afb851b151ff047702392e",
+        "sentence_text": "CONCLUSIONS We have found lower risks of hyperglycaemia among patients prescribed dual therapy involving metformin with either gliptins or glitazones compared with metformin alone.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          2220,
+          0,
+          14,
+          0
+        ],
+        "source_position": 2678
+      },
+      {
+        "cross_encoder_score": -7.852844715118408,
+        "dataset": "SciFact",
+        "end_char": 3114,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "e4d64afbe58a4c24d2d02c945f04bb05",
+        "sentence_text": "Compared with metformin monotherapy, triple therapy with metformin, sulphonylureas, and either gliptins or glitazones was associated with an increased risk of hypoglycaemia, which was similar to the risk for dual therapy with metformin and sulphonylureas.",
+        "sentence_token_cost": 65,
+        "source_order": [
+          2220,
+          0,
+          15,
+          0
+        ],
+        "source_position": 2859
+      },
+      {
+        "cross_encoder_score": -9.96165657043457,
+        "dataset": "SciFact",
+        "end_char": 3262,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "27c25edf07406fd3c3958d035df33965",
+        "sentence_text": "Compared with metformin monotherapy, triple therapy with metformin, sulphonylureas, and glitazones was associated with a reduced risk of blindness.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          2220,
+          0,
+          16,
+          0
+        ],
+        "source_position": 3115
+      },
+      {
+        "cross_encoder_score": -10.985089302062988,
+        "dataset": "SciFact",
+        "end_char": 3384,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "ec71e7541efeef720599429e5d39eb5b",
+        "passage_rank": 1,
+        "query_id": "644",
+        "sentence_id": "0dca1d40a9787347f1a01f3b4a4cb74b",
+        "sentence_text": "These results, while subject to residual confounding, could have implications for the prescribing of hypoglycaemic drugs.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2220,
+          0,
+          17,
+          0
+        ],
+        "source_position": 3263
+      },
+      {
+        "cross_encoder_score": -11.005578994750977,
+        "dataset": "SciFact",
+        "end_char": 121,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "0e151b4f4aaad22d006084ad03ace6b5",
+        "sentence_text": "Hypoglycemia: incidence and clinical predictors in a large population-based sample of children and adolescents with IDDM.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3193,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.580353736877441,
+        "dataset": "SciFact",
+        "end_char": 338,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "61894fe9ef519d8403e3481935d5330d",
+        "sentence_text": "OBJECTIVE To determine the frequency of moderate and severe hypoglycemia and to identify clinical predictors associated with its occurrence in a large population-based sample of children and adolescents with IDDM.   ",
+        "sentence_token_cost": 39,
+        "source_order": [
+          3193,
+          0,
+          1,
+          0
+        ],
+        "source_position": 122
+      },
+      {
+        "cross_encoder_score": -10.870244979858398,
+        "dataset": "SciFact",
+        "end_char": 405,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "5cfd0330c258992e3d449ce229da3d82",
+        "sentence_text": "RESEARCH DESIGN AND METHODS A total of 657 patients (age: 12.1 +/-",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3193,
+          0,
+          2,
+          0
+        ],
+        "source_position": 339
+      },
+      {
+        "cross_encoder_score": -10.775094985961914,
+        "dataset": "SciFact",
+        "end_char": 425,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "95aa2505d6a7e5c24f7a2cd722cebebd",
+        "sentence_text": "4.4 years, mean +/-",
+        "sentence_token_cost": 7,
+        "source_order": [
+          3193,
+          0,
+          3,
+          0
+        ],
+        "source_position": 406
+      },
+      {
+        "cross_encoder_score": -10.7953519821167,
+        "dataset": "SciFact",
+        "end_char": 495,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "eff490d9a214e70676aa63a911e89faf",
+        "sentence_text": "SD) were included in the study, yielding 1,449 patient-years of data.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          3193,
+          0,
+          4,
+          0
+        ],
+        "source_position": 426
+      },
+      {
+        "cross_encoder_score": -10.86026668548584,
+        "dataset": "SciFact",
+        "end_char": 712,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "d111d96a1450450c1bcbc89f9f83cf9b",
+        "sentence_text": "A prospective assessment of severe hypoglycemia (an event resulting in a seizure or coma) and moderate hypoglycemia (an event requiring assistance of another, excluding severe episodes) was made over a 3-year period.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          3193,
+          0,
+          5,
+          0
+        ],
+        "source_position": 496
+      },
+      {
+        "cross_encoder_score": -10.275874137878418,
+        "dataset": "SciFact",
+        "end_char": 882,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "c75a38417aaf905379734db1a5a3b0a0",
+        "sentence_text": "Patients and caregivers detailed episodes of significant hypoglycemia (moderate and severe events) and these were recorded at each 3-month clinic visit along with HbA1c.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          3193,
+          0,
+          6,
+          0
+        ],
+        "source_position": 713
+      },
+      {
+        "cross_encoder_score": -11.136879920959473,
+        "dataset": "SciFact",
+        "end_char": 998,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "8add71808b735d414dca6a63b80402cc",
+        "sentence_text": "Data were analyzed using generalized estimating equation models fitted with the exchange correlation structure.   \n",
+        "sentence_token_cost": 16,
+        "source_order": [
+          3193,
+          0,
+          7,
+          0
+        ],
+        "source_position": 883
+      },
+      {
+        "cross_encoder_score": -9.79376220703125,
+        "dataset": "SciFact",
+        "end_char": 1122,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "16f59a03c29b833d9a8d36127ebed21b",
+        "sentence_text": "RESULTS The overall incidence of severe events was 4.8/100 patient-years and of moderate events was 13.1/100 patient-years.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3193,
+          0,
+          8,
+          0
+        ],
+        "source_position": 999
+      },
+      {
+        "cross_encoder_score": -10.400196075439453,
+        "dataset": "SciFact",
+        "end_char": 1218,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "83a247ebe5423eaf237219ef8db0eb53",
+        "sentence_text": "Over 3 years, severe events occurred in 8.5% of children and moderate events occurred in 26.9%.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          3193,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1123
+      },
+      {
+        "cross_encoder_score": -10.807226181030273,
+        "dataset": "SciFact",
+        "end_char": 1292,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "57a513edaeaeefca3111797bfa7148c1",
+        "sentence_text": "Significant hypoglycemia was rare in the first 12 months after diagnosis.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3193,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1219
+      },
+      {
+        "cross_encoder_score": -10.71144962310791,
+        "dataset": "SciFact",
+        "end_char": 1466,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "48ce436ba5d27142607b322a7aa3a560",
+        "sentence_text": "Rates of hypoglycemia were increased in children < 6 years of age versus > 6 years of age (40.9 vs. 16.6/100 patient-years, age < or = 6 years vs. age > 6 years, P < 0.001).",
+        "sentence_token_cost": 67,
+        "source_order": [
+          3193,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1293
+      },
+      {
+        "cross_encoder_score": -8.438645362854004,
+        "dataset": "SciFact",
+        "end_char": 1716,
+        "pair_tokens_before_truncation": 104,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "5ddb70e610cb3f20571312f81c7477a0",
+        "sentence_text": "Rates of hypoglycemia doubled when HbA1c fell below 8%, and children with HbA1c < 7% had a threefold increase in both moderate and severe hypoglycemia (e.g., severe episodes 14.9 vs. 4.1/100 patient-years, HbA1c < or = 7% vs. HbA1c > 7%, P < 0.001).",
+        "sentence_token_cost": 101,
+        "source_order": [
+          3193,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1467
+      },
+      {
+        "cross_encoder_score": -10.887787818908691,
+        "dataset": "SciFact",
+        "end_char": 1785,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "7769039cd99554fe7acce9f36de299d1",
+        "sentence_text": "Most severe events were seizures, and 75% of them occurred at night.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          3193,
+          0,
+          13,
+          0
+        ],
+        "source_position": 1717
+      },
+      {
+        "cross_encoder_score": -10.720833778381348,
+        "dataset": "SciFact",
+        "end_char": 1860,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "033442a065e9f340a56a4752edf017d9",
+        "sentence_text": "The majority of events were related to missed meals or increased activity.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          3193,
+          0,
+          14,
+          0
+        ],
+        "source_position": 1786
+      },
+      {
+        "cross_encoder_score": -10.51637077331543,
+        "dataset": "SciFact",
+        "end_char": 1916,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "63c9ad8c5a541be73b56c4d36cef0fea",
+        "sentence_text": "However, in 38% no predisposing factor was evident.   \n",
+        "sentence_token_cost": 15,
+        "source_order": [
+          3193,
+          0,
+          15,
+          0
+        ],
+        "source_position": 1861
+      },
+      {
+        "cross_encoder_score": -9.855607032775879,
+        "dataset": "SciFact",
+        "end_char": 2002,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "b2030654b3ab440413b64597d59f0110",
+        "sentence_text": "CONCLUSIONS Newly diagnosed children appear to be protected from severe hypoglycemia.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3193,
+          0,
+          16,
+          0
+        ],
+        "source_position": 1917
+      },
+      {
+        "cross_encoder_score": -10.22101879119873,
+        "dataset": "SciFact",
+        "end_char": 2087,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "4111b625ae0c2d1c4bb9935736ead413",
+        "sentence_text": "Rates increase with lower glycated hemoglobin, especially when mean HbA1c is < 8.0%.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3193,
+          0,
+          17,
+          0
+        ],
+        "source_position": 2003
+      },
+      {
+        "cross_encoder_score": -8.730395317077637,
+        "dataset": "SciFact",
+        "end_char": 2230,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 6,
+        "query_id": "644",
+        "sentence_id": "77ff7c8234c968e960b66357c25d0ade",
+        "sentence_text": "Younger children, who may be more susceptible to the adverse effects of neuroglycopenia, are at a particular risk of significant hypoglycemia.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          3193,
+          0,
+          18,
+          0
+        ],
+        "source_position": 2088
+      },
+      {
+        "cross_encoder_score": -7.737462520599365,
+        "dataset": "SciFact",
+        "end_char": 80,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "4790a727e65365bb42496d483c234952",
+        "passage_rank": 8,
+        "query_id": "644",
+        "sentence_id": "1b9c93b87ea72f1586eea5ab139cbbe9",
+        "sentence_text": "Acute kidney injury and chronic kidney disease: an integrated clinical syndrome.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          3442,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.641525268554688,
+        "dataset": "SciFact",
+        "end_char": 228,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "4790a727e65365bb42496d483c234952",
+        "passage_rank": 8,
+        "query_id": "644",
+        "sentence_id": "ca7e3dce27a6cdbb4440004d18426319",
+        "sentence_text": "The previous conventional wisdom that survivors of acute kidney injury (AKI) tend to do well and fully recover renal function appears to be flawed.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          3442,
+          0,
+          1,
+          0
+        ],
+        "source_position": 81
+      },
+      {
+        "cross_encoder_score": -1.5315512418746948,
+        "dataset": "SciFact",
+        "end_char": 390,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "4790a727e65365bb42496d483c234952",
+        "passage_rank": 8,
+        "query_id": "644",
+        "sentence_id": "1e5305ec9def96ea55e9b862201fe6f9",
+        "sentence_text": "AKI can cause end-stage renal disease (ESRD) directly, and increase the risk of developing incident chronic kidney disease (CKD) and worsening of underlying CKD.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3442,
+          0,
+          2,
+          0
+        ],
+        "source_position": 229
+      },
+      {
+        "cross_encoder_score": -10.377914428710938,
+        "dataset": "SciFact",
+        "end_char": 504,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "4790a727e65365bb42496d483c234952",
+        "passage_rank": 8,
+        "query_id": "644",
+        "sentence_id": "4d027d6fd04fc12b637531136f3161c4",
+        "sentence_text": "In addition, severity, duration, and frequency of AKI appear to be important predictors of poor patient outcomes.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3442,
+          0,
+          3,
+          0
+        ],
+        "source_position": 391
+      },
+      {
+        "cross_encoder_score": -9.306700706481934,
+        "dataset": "SciFact",
+        "end_char": 582,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "4790a727e65365bb42496d483c234952",
+        "passage_rank": 8,
+        "query_id": "644",
+        "sentence_id": "a794f73a185e53d214b0617ade68947b",
+        "sentence_text": "CKD is an important risk factor for the development and ascertainment of AKI.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          3442,
+          0,
+          4,
+          0
+        ],
+        "source_position": 505
+      },
+      {
+        "cross_encoder_score": -11.152120590209961,
+        "dataset": "SciFact",
+        "end_char": 705,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "4790a727e65365bb42496d483c234952",
+        "passage_rank": 8,
+        "query_id": "644",
+        "sentence_id": "c69096a833569a1c7ace91abe4116413",
+        "sentence_text": "Experimental data support the clinical observations and the bidirectional nature of the relationships between AKI and CKD.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          3442,
+          0,
+          5,
+          0
+        ],
+        "source_position": 583
+      },
+      {
+        "cross_encoder_score": -8.206560134887695,
+        "dataset": "SciFact",
+        "end_char": 925,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "4790a727e65365bb42496d483c234952",
+        "passage_rank": 8,
+        "query_id": "644",
+        "sentence_id": "cd8c38f709bbb7a80f393725760a3bc7",
+        "sentence_text": "Reductions in renal mass and nephron number, vascular insufficiency, cell cycle disruption, and maladaptive repair mechanisms appear to be important modulators of progression in patients with and without coexistent CKD.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          3442,
+          0,
+          6,
+          0
+        ],
+        "source_position": 706
+      },
+      {
+        "cross_encoder_score": -11.092461585998535,
+        "dataset": "SciFact",
+        "end_char": 976,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "4790a727e65365bb42496d483c234952",
+        "passage_rank": 8,
+        "query_id": "644",
+        "sentence_id": "0b1b29882c6cc15aba85e2f1a4eb157c",
+        "sentence_text": "Distinction between AKI and CKD may be artificial.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          3442,
+          0,
+          7,
+          0
+        ],
+        "source_position": 926
+      },
+      {
+        "cross_encoder_score": -11.064470291137695,
+        "dataset": "SciFact",
+        "end_char": 1246,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "4790a727e65365bb42496d483c234952",
+        "passage_rank": 8,
+        "query_id": "644",
+        "sentence_id": "6f6a93ac7c1647cc062d19b8eb1c8809",
+        "sentence_text": "Consideration should be given to the integrated clinical syndrome of diminished GFR, with acute and chronic stages, where spectrum of disease state and outcome is determined by host factors, including the balance of adaptive and maladaptive repair mechanisms over time.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          3442,
+          0,
+          8,
+          0
+        ],
+        "source_position": 977
+      },
+      {
+        "cross_encoder_score": -10.036038398742676,
+        "dataset": "SciFact",
+        "end_char": 1381,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "4790a727e65365bb42496d483c234952",
+        "passage_rank": 8,
+        "query_id": "644",
+        "sentence_id": "356395fd29a16a279d0f15a933aaa2ec",
+        "sentence_text": "Physicians must provide long-term follow-up to patients with first episodes of AKI, even if they presented with normal renal function.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          3442,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1247
+      },
+      {
+        "cross_encoder_score": -10.847269058227539,
+        "dataset": "SciFact",
+        "end_char": 102,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "1b2de04535c636f779f6653dd4c4747c",
+        "passage_rank": 10,
+        "query_id": "644",
+        "sentence_id": "a9e8c69b5e4ff2382b3a3029ff79dc3d",
+        "sentence_text": "Association of plasma resistin with glomerular filtration rate and albuminuria in hypertensive adults.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          4250,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.2686069011688232,
+        "dataset": "SciFact",
+        "end_char": 251,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "1b2de04535c636f779f6653dd4c4747c",
+        "passage_rank": 10,
+        "query_id": "644",
+        "sentence_id": "54c605d77f577bdff0c368df5c54a650",
+        "sentence_text": "Resistin, a recently discovered proinflammatory cytokine, has been variably associated with insulin resistance, inflammation, and renal dysfunction.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          4250,
+          0,
+          1,
+          0
+        ],
+        "source_position": 103
+      },
+      {
+        "cross_encoder_score": -11.001326560974121,
+        "dataset": "SciFact",
+        "end_char": 477,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "1b2de04535c636f779f6653dd4c4747c",
+        "passage_rank": 10,
+        "query_id": "644",
+        "sentence_id": "3a81e26bc63daa76bba29c9b5c38f920",
+        "sentence_text": "We investigated the association of plasma resistin with estimated glomerular filtration rate and albuminuria in 1575 hypertensive adults without known coronary heart disease or stroke (857 blacks and 718 non-Hispanic whites).",
+        "sentence_token_cost": 51,
+        "source_order": [
+          4250,
+          0,
+          2,
+          0
+        ],
+        "source_position": 252
+      },
+      {
+        "cross_encoder_score": -11.156015396118164,
+        "dataset": "SciFact",
+        "end_char": 677,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "1b2de04535c636f779f6653dd4c4747c",
+        "passage_rank": 10,
+        "query_id": "644",
+        "sentence_id": "8d717907868c6939ed3550d15449d9f0",
+        "sentence_text": "Resistin was measured by a solid phase sandwich immunoassay, estimated glomerular filtration rate was estimated from serum creatinine, and albuminuria was expressed as urine albumin:creatinine ratio.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          4250,
+          0,
+          3,
+          0
+        ],
+        "source_position": 478
+      },
+      {
+        "cross_encoder_score": -7.171914100646973,
+        "dataset": "SciFact",
+        "end_char": 1348,
+        "pair_tokens_before_truncation": 160,
+        "pair_truncated": false,
+        "passage_id": "1b2de04535c636f779f6653dd4c4747c",
+        "passage_rank": 10,
+        "query_id": "644",
+        "sentence_id": "fc71c634672f9e53723b998fb962e962",
+        "sentence_text": "After adjustment for coronary heart disease risk factors (age, sex, body mass index, smoking history, systolic blood pressure, diabetes, and total and high-density lipoprotein cholesterol) and use of renin-angiotensin blockers and statins, higher plasma resistin levels were associated with lower estimated glomerular filtration rate in both ethnic groups (each P<0.0001); the association remained significant after further adjustment for a marker of insulin resistance (homeostasis model assessment for insulin resistance) and a marker of inflammation (plasma C-reactive protein) and was seen in subjects with and without diabetes (each P<0.0001) in both ethnic groups.",
+        "sentence_token_cost": 143,
+        "source_order": [
+          4250,
+          0,
+          4,
+          0
+        ],
+        "source_position": 678
+      },
+      {
+        "cross_encoder_score": -7.742687225341797,
+        "dataset": "SciFact",
+        "end_char": 1781,
+        "pair_tokens_before_truncation": 101,
+        "pair_truncated": false,
+        "passage_id": "1b2de04535c636f779f6653dd4c4747c",
+        "passage_rank": 10,
+        "query_id": "644",
+        "sentence_id": "94abdeb1dcbe84ab26378b860b5dfc9e",
+        "sentence_text": "Higher plasma resistin levels were associated with a higher urine albumin:creatinine ratio in black subjects with diabetes (P<0.0001) and non-Hispanic white subjects with diabetes (P=0.032), independent of coronary heart disease risk factors, hypertension medication use, and statin use; the association remained significant after additional adjustment for homeostasis model assessment for insulin resistance and C-reactive protein.",
+        "sentence_token_cost": 90,
+        "source_order": [
+          4250,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1349
+      },
+      {
+        "cross_encoder_score": -8.887679100036621,
+        "dataset": "SciFact",
+        "end_char": 2002,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "1b2de04535c636f779f6653dd4c4747c",
+        "passage_rank": 10,
+        "query_id": "644",
+        "sentence_id": "486d3d5090c80f4824d4eba866f774ad",
+        "sentence_text": "In adults with hypertension, higher circulating resistin levels were associated with a lower estimated glomerular filtration rate and with increased urine albumin:creatinine ratio in the presence of concomitant diabetes.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          4250,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1782
+      },
+      {
+        "cross_encoder_score": -4.735349178314209,
+        "dataset": "SciFact",
+        "end_char": 2126,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "1b2de04535c636f779f6653dd4c4747c",
+        "passage_rank": 10,
+        "query_id": "644",
+        "sentence_id": "9608fdbc2c16479a82d1f2db6c09e9b6",
+        "sentence_text": "This association was independent of coronary heart disease risk factors and markers of insulin resistance and inflammation.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          4250,
+          0,
+          7,
+          0
+        ],
+        "source_position": 2003
+      }
+    ],
+    "scoring_seconds": 0.7408747440204024,
+    "source_fingerprint": "4093be3de8a7018e0b83e460407dfd15e670f45213ef1acac9e140c5b12c993e"
+  }
+}

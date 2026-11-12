@@ -1,0 +1,167 @@
+{
+  "question_id": "1001",
+  "paper_id": "293",
+  "question": "Which psycholinguistic and basic linguistic features are used?",
+  "gold_answers": [
+    "Emotion Sensor Feature, Part of Speech, Punctuation, Sentiment Analysis, Empath, TF-IDF Emoticon features"
+  ],
+  "question_type": "free_form",
+  "generations_across_k": {
+    "k_0": {
+      "k": 0,
+      "prediction": "No linguistic features are used.",
+      "token_f1": 0.1333,
+      "exact_match": 0.0,
+      "rouge_l": 0.1111,
+      "input_tokens": 141,
+      "context_tokens": 133,
+      "generated_tokens": 8,
+      "generation_latency": 0.6927,
+      "peak_vram": 13.62
+    },
+    "k_2": {
+      "k": 2,
+      "prediction": "NLP Features",
+      "token_f1": 0.1429,
+      "exact_match": 0.0,
+      "rouge_l": 0.0,
+      "input_tokens": 506,
+      "context_tokens": 498,
+      "generated_tokens": 4,
+      "generation_latency": 1.2447,
+      "peak_vram": 13.77
+    },
+    "k_4": {
+      "k": 4,
+      "prediction": "NLP Features",
+      "token_f1": 0.1429,
+      "exact_match": 0.0,
+      "rouge_l": 0.0,
+      "input_tokens": 1048,
+      "context_tokens": 1040,
+      "generated_tokens": 4,
+      "generation_latency": 2.5108,
+      "peak_vram": 14.12
+    },
+    "k_5": {
+      "k": 5,
+      "prediction": "NLP Features",
+      "token_f1": 0.1429,
+      "exact_match": 0.0,
+      "rouge_l": 0.0,
+      "input_tokens": 1217,
+      "context_tokens": 1209,
+      "generated_tokens": 4,
+      "generation_latency": 2.905,
+      "peak_vram": 14.26
+    },
+    "k_6": {
+      "k": 6,
+      "prediction": "Emotion Sensor Feature, Empath, Parts-of-speech tags, Punctuation features",
+      "token_f1": 0.6,
+      "exact_match": 0.0,
+      "rouge_l": 0.4762,
+      "input_tokens": 1447,
+      "context_tokens": 1439,
+      "generated_tokens": 23,
+      "generation_latency": 4.258,
+      "peak_vram": 14.48
+    },
+    "k_8": {
+      "k": 8,
+      "prediction": "Emotion Sensor Dataset, Controlled Topical Signals from Empath, Emoticons, punctuation features, parts-of-speech tags",
+      "token_f1": 0.4167,
+      "exact_match": 0.0,
+      "rouge_l": 0.2308,
+      "input_tokens": 1700,
+      "context_tokens": 1692,
+      "generated_tokens": 33,
+      "generation_latency": 5.3487,
+      "peak_vram": 14.75
+    },
+    "k_10": {
+      "k": 10,
+      "prediction": "Emotion Sensor Feature, Controlled Topical Signals from Empath, Normalized frequency of POS tags",
+      "token_f1": 0.3478,
+      "exact_match": 0.0,
+      "rouge_l": 0.3077,
+      "input_tokens": 2013,
+      "context_tokens": 2005,
+      "generated_tokens": 24,
+      "generation_latency": 5.7753,
+      "peak_vram": 15.07
+    }
+  },
+  "candidate_passages": [
+    {
+      "rank": 1,
+      "chunk_id": "293_chunk_c447ec3e-cdf7-4cb0-9131-2f242ec381fd",
+      "bm25_score": 3.1185574531555176,
+      "is_decisive_rank_6": false,
+      "text": "Some approaches like: has used emotions frequency as one of the features, while some others use sentiment emotion as feature. Also,,  have converted emoticons to their description.  have used TF-IDF of emoticons per-class as one of the features. Compared to all these approaches, we have concentrated to capture multiple linguistic/pattern based relations, key-terms and key-patters (with their association in text) through a combination of deep learning architectures with model averaging. We have also used NLP features as additional features with our deep learning architecture, obtained from psycho-linguistic and basic linguistic features."
+    },
+    {
+      "rank": 2,
+      "chunk_id": "293_chunk_6097e73f-f027-4ea0-8e93-8f1691ced556",
+      "bm25_score": 2.677598476409912,
+      "is_decisive_rank_6": false,
+      "text": "This may be due to the text style or level of complexities of both datasets. So, we concentrated to develop a robust system for English code-mixed texts, and uni-lingual texts, which can also handle different writing styles. Our approach is based on three main ideas: Deep-Text Learning. The goal is to learn long range associations, dependencies between regions of text, N-grams, key-patterns, topical information, and sequential dependencies. Exploiting psycho-linguistic features with basic linguistic features as meta-data. The main aim is to minimize the direct dependencies on in-depth grammatical structure of the language (i.e., to support code-mixed data). We have also included emoticons, and punctuation features with it. We use the term \"NLP Features\" to represent it in the entire paper. Dual embedding based on FastText and Glove. This dual embedding helps in high vocabulary coverage and to capture the rare and partially incorrect words in the text (specially by FastText ). Our \"Deep-text architecture\" uses model averaging strategy with three different deep learning architectures."
+    },
+    {
+      "rank": 3,
+      "chunk_id": "293_chunk_754090fb-31ff-4385-9948-c68c14a23a06",
+      "bm25_score": 1.846497893333435,
+      "is_decisive_rank_6": false,
+      "text": "For example, \"Dear India, stop playing with the emotions of your people for votes.\" Non-Aggressive(NAG) - Generally these type of text lack any kind of aggression it is basically used to state facts, wishing on occasions and polite and supportive. The additional discussion on aggressiveness task can be found in Kaggle task , which just divided the task into two classes - i.e., presence or absence of aggression in tweets. The informal setting/environment of social media often encourage multilingual speakers to switch back and forth between languages when speaking or writing. These all resulted in code-mixing and code-switching. Code-mixing refers to the use of linguistic units from different languages in a single utterance or sentence, whereas code-switching refers to the co-occurrence of speech extracts belonging to two different grammatical systems. This language interchange makes the grammar more complex and thus it becomes tough to handle it by traditional algorithms. Thus the presence of high percentage of code-mixed content in social media text has increased the complexity of the aggression detection task. For example, the dataset provided by the organizers of TRAC-2018 ,  is actually a code-mixed dataset."
+    },
+    {
+      "rank": 4,
+      "chunk_id": "293_chunk_92b075a7-4be7-46b4-a3c4-56893abfb7e2",
+      "bm25_score": 1.7771010398864746,
+      "is_decisive_rank_6": false,
+      "text": "A Unified System for Aggression Identification in English Code-Mixed and Uni-Lingual Texts\tWide usage of social media platforms has increased the risk of aggression, which results in mental stress and affects the lives of people negatively like psychological agony, fighting behavior, and disrespect to others. Majority of such conversations contains code-mixed languages[28]. Additionally, the way used to express thought or communication style also changes from one social media plat-form to another platform (e.g., communication styles are different in twitter and Facebook). These all have increased the complexity of the problem. To solve these problems, we have introduced a unified and robust multi-modal deep learning architecture which works for English code-mixed dataset and uni-lingual English dataset both.The devised system, uses psycho-linguistic features and very ba-sic linguistic features. Our multi-modal deep learning architecture contains, Deep Pyramid CNN, Pooled BiLSTM, and Disconnected RNN(with Glove and FastText embedding, both). Finally, the system takes the decision based on model averaging. We evaluated our system on English Code-Mixed TRAC 2018 dataset and uni-lingual English dataset obtained from Kaggle."
+    },
+    {
+      "rank": 5,
+      "chunk_id": "293_chunk_7192a83a-a6f6-4173-a99d-34c339d2b887",
+      "bm25_score": 1.5856854915618896,
+      "is_decisive_rank_6": false,
+      "text": "Methodology ::: Data Preprocessing\tWe consider the text to be well formatted before applying the text to the embedding layer. First, we detect non-English text(which are few) and translate all of them to English using Google Translate. Still, there is some code mixed words like \"mc\", \"bc\" and other English abbreviations and spelling errors like \"nd\" in place of \"and\", \"u\" in place of \"you\" causes deep learning model to confuse with sentences of the same meaning. We follow the strategy of preprocessor as in to normalize the abbreviations and remove spelling errors, URLs and punctuation marks, converting emojis to their description. https://spacy.io/usage/linguistic-features#pos-tagging"
+    },
+    {
+      "rank": 6,
+      "chunk_id": "293_chunk_11813f79-19af-44f4-9d2f-3ae82f54ba73",
+      "bm25_score": 1.3376675844192505,
+      "is_decisive_rank_6": true,
+      "text": "Methodology ::: NLP Features\tWe have identified a novel combination of features which are highly effective in aggression classification when applied in addition to the features obtained from the deep learning classifier at the classification layer. We have introduced two new features in addition to the previously available features. The first one is the Emotion Sensor Feature which use a statistical model to classify the words into 7 different classes based on the sentences obtained from twitter and blogs which contain total 1,185,540 words. The second one is the collection of selected topical signal from text collected using Empath (see Table 1.). Different from previous approaches,  where  have used Emotion features in the form of frequency while  have used emotion feature vector obtained from LIWC 2007. Unlike we have used only 6 topical signals from Emapth. We have borrowed the idea of using other features like punctuation features and parts-of-speech tags from . The Table 1. lists and describes features, tools used to obtain them and the number of features resulted from each type."
+    },
+    {
+      "rank": 7,
+      "chunk_id": "293_chunk_16888280-6d35-4370-8cec-4921dab36d38",
+      "bm25_score": 0.9546637535095215,
+      "is_decisive_rank_6": false,
+      "text": "Finally, Our Proposed Method, which represents the model averaging of three models with NLP features."
+    },
+    {
+      "rank": 8,
+      "chunk_id": "293_chunk_33e28109-92fe-4d0f-a2f5-91a4cd799f34",
+      "bm25_score": 0.9091792106628418,
+      "is_decisive_rank_6": false,
+      "text": "The intuition behind the NLP features are the following: Emotion Sensor Dataset We have introduced to use of emotion sensor features, as a meta-data information. We have obtained the word sensor dataset from Kaggle. In this dataset each word is statistically classified into 7 distinct classes (Disgust, Surprise, Neutral, Anger, Sad, Happy and Fear) using Naive Bayes, based on sentences collected from twitter and blogs. Controlled Topical Signals from Empath. Empath can analyse the text across 200 gold standard topics and emotions. Additionally, it uses neural embedding to draw connotation among words across more than 1.8 billion words. We have used only selected categories like violence, hate, anger, aggression, social media and dispute from 200 Empath categories useful for us unlike which takes 194 categories. Emoticons frequently used on social media indicates the sense of sentence, , . Normalized frequency of POS tags According to , , ,  POS Tags provide the degree of target aggressiveness."
+    },
+    {
+      "rank": 9,
+      "chunk_id": "293_chunk_7785834a-114c-4570-a2c2-5761cb12e393",
+      "bm25_score": 0.7731428742408752,
+      "is_decisive_rank_6": false,
+      "text": "We have used only 20 NLP features (except TF-IDF Emoticon feature and Punctuation feature as given in Table TABREF25) for Kaggle dataset (as these are not present in the Kaggle dataset)."
+    },
+    {
+      "rank": 10,
+      "chunk_id": "293_chunk_a09d114c-3126-438a-abc7-01af371bb87d",
+      "bm25_score": 0.7725300788879395,
+      "is_decisive_rank_6": false,
+      "text": "Experiment and Evaluation ::: Evaluation Strategy\tTo compare our experimental results we have used top-5 systems from the published results of TRAC-2018. To compare our results on Kaggle dataset, we have used the last & the best published result on Kaggle website as a baseline. We have conducted the separate experiments, to properly investigate the performance of (a) each of the classifiers (used in our model averaging based system), (b) impact of the NLP features on each of these classifiers and finally, (c) the performance of our proposed system. In Table TABREF57, TABREF57 and TABREF57, models, named as DPCNN(ref SECREF30), DRNN (ref SECREF34) and Pooled BiLSTM(ref SECREF45) are corresponding models without NLP features. Similarly, DPCNN+NLP Features, DRNN + NLP Features and Pooled BiLSTM + NLP Features are corresponding models with NLP features. The Model Averaging (A+B+C) is the ensemble of three models (i.e., model averaging of DPCNN, DRNN and Pooled BiLSTM) without NLP features."
+    }
+  ]
+}

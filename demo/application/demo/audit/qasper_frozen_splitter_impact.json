@@ -1,0 +1,706 @@
+{
+  "W11_pilot": {
+    "counts": {
+      "papers": 40,
+      "passages": 784,
+      "frozen_units": 7066,
+      "counterfactual_segments": 7067,
+      "affected_units": 0,
+      "passages_with_terminal_citation_pattern": 0,
+      "affected_percent": 0.0,
+      "terminal_citation_merge_units": 0,
+      "terminal_citation_merge_percent": 0.0
+    },
+    "affected": [],
+    "terminal_citation_merge_cases": []
+  },
+  "W12_VAL": {
+    "counts": {
+      "papers": 281,
+      "passages": 5522,
+      "frozen_units": 50274,
+      "counterfactual_segments": 50298,
+      "affected_units": 52,
+      "passages_with_terminal_citation_pattern": 3,
+      "affected_percent": 0.10343318613995306,
+      "terminal_citation_merge_units": 3,
+      "terminal_citation_merge_percent": 0.005967299200381907
+    },
+    "affected": [
+      {
+        "document_id": "1704.06194",
+        "unit_id": "27adeeab6a35c9fe4c8c23fd66e11056",
+        "start_char": 17721,
+        "end_char": 18176,
+        "text": "and the score of the most confident relation $r\\in R_q^{l} \\cap R_e$ , we sum these two scores to re-rank the entities:  $$s_{\\mathrm {rerank}}(e;q) =& \\alpha \\cdot s_{\\mathrm {linker}}(e;q) \\nonumber \\\\\n+ & (1-\\alpha ) \\cdot \\max _{r \\in R_q^{l} \\cap R_e} s_{\\mathrm {rel}}(r;q).\\nonumber $$   (Eq. 15)   Finally, we select top $K^{\\prime }$ $<$ $K$ entities according to score $s_{rerank}$ to form the re-ranked list $EL_{K^{\\prime }}^{^{\\prime }}(q)$ .",
+        "counterfactual_parts": [
+          "and the score of the most confident relation $r\\in R_q^{l} \\cap R_e$ , we sum these two scores to re-rank the entities:  $$s_{\\mathrm {rerank}}(e;q) =& \\alpha \\cdot s_{\\mathrm {linker}}(e;q) \\nonumber \\\\",
+          "+ & (1-\\alpha ) \\cdot \\max _{r \\in R_q^{l} \\cap R_e} s_{\\mathrm {rel}}(r;q).\\nonumber $$   (Eq. 15)   Finally, we select top $K^{\\prime }$ $<$ $K$ entities according to score $s_{rerank}$ to form the re-ranked list $EL_{K^{\\prime }}^{^{\\prime }}(q)$ ."
+        ]
+      },
+      {
+        "document_id": "2002.01664",
+        "unit_id": "4fceb78bc8d5549e7218fdd25a6c9307",
+        "start_char": 2639,
+        "end_char": 2761,
+        "text": "[4] by Google developed an LSTM based language identification model which improves the accuracy over the DNN based models.",
+        "counterfactual_parts": [
+          "[4]",
+          "by Google developed an LSTM based language identification model which improves the accuracy over the DNN based models."
+        ]
+      },
+      {
+        "document_id": "2002.01664",
+        "unit_id": "27dbfa5b4802200f3e3d90dab5425c3d",
+        "start_char": 3882,
+        "end_char": 3977,
+        "text": "[7]) and show that Ghost-VLAD pooling is the best pooling strategy for language identification.",
+        "counterfactual_parts": [
+          "[7]",
+          ") and show that Ghost-VLAD pooling is the best pooling strategy for language identification."
+        ]
+      },
+      {
+        "document_id": "1809.00530",
+        "unit_id": "1a27643da57a3c6f1d61e1db57fad789",
+        "start_char": 13326,
+        "end_char": 13722,
+        "text": "[t] Pseudocode for training DAS INLINEFORM0 , INLINEFORM1 , INLINEFORM2 , INLINEFORM3 INLINEFORM4 = ensembling momentum, INLINEFORM5 INLINEFORM6 = weight ramp-up function INLINEFORM7 INLINEFORM8 INLINEFORM9 each minibatch INLINEFORM10 , INLINEFORM11 , INLINEFORM12 in  INLINEFORM0 , INLINEFORM1 , INLINEFORM2 compute loss INLINEFORM3 on INLINEFORM4 compute loss INLINEFORM5 on INLINEFORM6 compute",
+        "counterfactual_parts": [
+          "[t]",
+          "Pseudocode for training DAS INLINEFORM0 , INLINEFORM1 , INLINEFORM2 , INLINEFORM3 INLINEFORM4 = ensembling momentum, INLINEFORM5 INLINEFORM6 = weight ramp-up function INLINEFORM7 INLINEFORM8 INLINEFORM9 each minibatch INLINEFORM10 , INLINEFORM11 , INLINEFORM12 in  INLINEFORM0 , INLINEFORM1 , INLINEFORM2 compute loss INLINEFORM3 on INLINEFORM4 compute loss INLINEFORM5 on INLINEFORM6 compute"
+        ]
+      },
+      {
+        "document_id": "1809.02286",
+        "unit_id": "f960d7c2a76474ab71e6ec0360ce583e",
+        "start_char": 9235,
+        "end_char": 9693,
+        "text": "\\mathbf {h}_r \\\\\n\\end{bmatrix}\n+ \\mathbf {b} \\Bigg )$$   (Eq. 8)  $$ \n\\mathbf {c} = \\mathbf {f}_l \\odot \\mathbf {c}_l + \\mathbf {f}_r \\odot \\mathbf {c}_r + \\mathbf {i} \\odot \\mathbf {g}\\\\$$   (Eq. 9)  where $\\mathbf {h}, \\mathbf {c} \\in \\mathbb {R}^{d}$ indicate the hidden state and cell state of the LSTM cell, and $\\mathbf {h}_l, \\mathbf {h}_r, \\mathbf {c}_l, \\mathbf {c}_r \\in \\mathbb {R}^{d}$ the hidden states and cell states of a left and right child.",
+        "counterfactual_parts": [
+          "\\mathbf {h}_r \\\\\n\\end{bmatrix}",
+          "+ \\mathbf {b} \\Bigg )$$   (Eq. 8)  $$",
+          "\\mathbf {c} = \\mathbf {f}_l \\odot \\mathbf {c}_l + \\mathbf {f}_r \\odot \\mathbf {c}_r + \\mathbf {i} \\odot \\mathbf {g}\\\\$$   (Eq. 9)  where $\\mathbf {h}, \\mathbf {c} \\in \\mathbb {R}^{d}$ indicate the hidden state and cell state of the LSTM cell, and $\\mathbf {h}_l, \\mathbf {h}_r, \\mathbf {c}_l, \\mathbf {c}_r \\in \\mathbb {R}^{d}$ the hidden states and cell states of a left and right child."
+        ]
+      },
+      {
+        "document_id": "1809.02286",
+        "unit_id": "8227dbbede6c992fa920204c509faaff",
+        "start_char": 13022,
+        "end_char": 13535,
+        "text": "\\tanh \\end{bmatrix}\n\\Bigg ( \\mathbf {W_\\text{T}}\n\\begin{bmatrix}\n\\hat{\\mathbf {h}}_l \\\\\n\\hat{\\mathbf {h}}_r \\\\\n\\mathbf {e} \\\\\n\\end{bmatrix}\n+ \\mathbf {b}_\\text{T} \\Bigg )$$   (Eq. 14)  $$ \n\\hat{\\mathbf {c}} = \\hat{\\mathbf {f}}_l \\odot \\hat{\\mathbf {c}}_l + \\hat{\\mathbf {f}}_r \\odot \\hat{\\mathbf {c}}_r + \\hat{\\mathbf {i}} \\odot \\hat{\\mathbf {g}}\\\\$$   (Eq. 15)  where $\\hat{\\mathbf {h}}, \\hat{\\mathbf {c}} \\in \\mathbb {R}^{d_\\text{T}}$ represent the hidden state and cell state of each node in the tag tree-LSTM.",
+        "counterfactual_parts": [
+          "\\tanh \\end{bmatrix}\n\\Bigg ( \\mathbf {W_\\text{T}}\n\\begin{bmatrix}\n\\hat{\\mathbf {h}}_l \\\\\n\\hat{\\mathbf {h}}_r \\\\\n\\mathbf {e} \\\\\n\\end{bmatrix}",
+          "+ \\mathbf {b}_\\text{T} \\Bigg )$$   (Eq. 14)  $$",
+          "\\hat{\\mathbf {c}} = \\hat{\\mathbf {f}}_l \\odot \\hat{\\mathbf {c}}_l + \\hat{\\mathbf {f}}_r \\odot \\hat{\\mathbf {c}}_r + \\hat{\\mathbf {i}} \\odot \\hat{\\mathbf {g}}\\\\$$   (Eq. 15)  where $\\hat{\\mathbf {h}}, \\hat{\\mathbf {c}} \\in \\mathbb {R}^{d_\\text{T}}$ represent the hidden state and cell state of each node in the tag tree-LSTM."
+        ]
+      },
+      {
+        "document_id": "1809.02286",
+        "unit_id": "2616ae12a1086e259fafe7d8f1504ba1",
+        "start_char": 16008,
+        "end_char": 16489,
+        "text": "Then, the operation of the leaf-LSTM at time $t$ can be formulated as,  $$ \n\\begin{bmatrix}\n\\tilde{\\mathbf {i}} \\\\\n\\tilde{\\mathbf {f}} \\\\\n\\tilde{\\mathbf {o}} \\\\\n\\tilde{\\mathbf {g}}\n\\end{bmatrix}\n=\n\\begin{bmatrix}\n\\sigma \\\\\n\\sigma \\\\\n\\sigma \\\\\n\\tanh \\end{bmatrix}\n\\Bigg ( \\mathbf {W}_\\text{L}\n\\begin{bmatrix}\n\\tilde{\\mathbf {h}}_{t-1} \\\\\n\\mathbf {x}_t \\\\\n\\end{bmatrix}\n+ \\mathbf {b}_\\text{L} \\Bigg )$$   (Eq. 18)  $$ \n\\tilde{\\mathbf {c}}_t = \\tilde{\\mathbf {f}} \\odot \\tilde{\\mathbf",
+        "counterfactual_parts": [
+          "Then, the operation of the leaf-LSTM at time $t$ can be formulated as,  $$ \n\\begin{bmatrix}\n\\tilde{\\mathbf {i}} \\\\\n\\tilde{\\mathbf {f}} \\\\\n\\tilde{\\mathbf {o}} \\\\\n\\tilde{\\mathbf {g}}\n\\end{bmatrix}\n=\n\\begin{bmatrix}\n\\sigma \\\\\n\\sigma \\\\\n\\sigma \\\\\n\\tanh \\end{bmatrix}\n\\Bigg ( \\mathbf {W}_\\text{L}\n\\begin{bmatrix}\n\\tilde{\\mathbf {h}}_{t-1} \\\\\n\\mathbf {x}_t \\\\\n\\end{bmatrix}",
+          "+ \\mathbf {b}_\\text{L} \\Bigg )$$   (Eq. 18)  $$",
+          "\\tilde{\\mathbf {c}}_t = \\tilde{\\mathbf {f}} \\odot \\tilde{\\mathbf"
+        ]
+      },
+      {
+        "document_id": "1809.02286",
+        "unit_id": "7217527203cba13ce430f36cb5a02557",
+        "start_char": 19597,
+        "end_char": 20173,
+        "text": "\\end{bmatrix}\n+ \\mathbf {a}_\\text{w} \\right)}$$   (Eq. 26)  $$ \n\\begin{bmatrix}\n\\check{\\mathbf {i}} \\\\\n\\check{\\mathbf {f}}_l \\\\\n\\check{\\mathbf {f}}_r \\\\\n\\check{\\mathbf {o}}\n\\end{bmatrix}\n=\n\\begin{bmatrix}\n\\sigma \\\\\n\\sigma \\\\\n\\sigma \\\\\n\\sigma \\end{bmatrix}\n\\Bigg ( \\mathbf {W_\\text{w}}\n\\begin{bmatrix}\n\\check{\\mathbf {h}}_l \\\\\n\\check{\\mathbf {h}}_r \\\\\n\\hat{\\mathbf {h}} \\\\\n\\end{bmatrix}\n+ \\mathbf {b}_\\text{w} \\Bigg )$$   (Eq. 27)  where $\\check{\\mathbf {h}}$ , $\\check{\\mathbf {c}} \\in \\mathbb {R}^{d_h}$ represent the hidden and cell state of each node in the word tree-LSTM.",
+        "counterfactual_parts": [
+          "\\end{bmatrix}",
+          "+ \\mathbf {a}_\\text{w} \\right)}$$   (Eq. 26)  $$",
+          "\\begin{bmatrix}\n\\check{\\mathbf {i}} \\\\\n\\check{\\mathbf {f}}_l \\\\\n\\check{\\mathbf {f}}_r \\\\\n\\check{\\mathbf {o}}\n\\end{bmatrix}\n=\n\\begin{bmatrix}\n\\sigma \\\\\n\\sigma \\\\\n\\sigma \\\\\n\\sigma \\end{bmatrix}\n\\Bigg ( \\mathbf {W_\\text{w}}\n\\begin{bmatrix}\n\\check{\\mathbf {h}}_l \\\\\n\\check{\\mathbf {h}}_r \\\\\n\\hat{\\mathbf {h}} \\\\\n\\end{bmatrix}",
+          "+ \\mathbf {b}_\\text{w} \\Bigg )$$   (Eq. 27)  where $\\check{\\mathbf {h}}$ , $\\check{\\mathbf {c}} \\in \\mathbb {R}^{d_h}$ represent the hidden and cell state of each node in the word tree-LSTM."
+        ]
+      },
+      {
+        "document_id": "1909.08089",
+        "unit_id": "ed71d1827a4c2595844fc1729b2ea144",
+        "start_char": 4810,
+        "end_char": 5223,
+        "text": "purpleFurthermore, in an ablation study to assess the relative contributions of the global and the local model we found that, rather surprisingly, the benefits of our model seem to come exclusively from modeling the local context, even for the longest documents.[6] (iii) In order to evaluate our approach, we have created oracle labels for both Pubmed and arXiv  , by applying a greedy oracle labeling algorithm.",
+        "counterfactual_parts": [
+          "purpleFurthermore, in an ablation study to assess the relative contributions of the global and the local model we found that, rather surprisingly, the benefits of our model seem to come exclusively from modeling the local context, even for the longest documents.[6]",
+          "(iii) In order to evaluate our approach, we have created oracle labels for both Pubmed and arXiv  , by applying a greedy oracle labeling algorithm."
+        ]
+      },
+      {
+        "document_id": "1909.08089",
+        "unit_id": "a16eebf56f722db9ee11072edb03fb44",
+        "start_char": 26272,
+        "end_char": 27219,
+        "text": "Conclusions and Future Work\tpurpleIn this paper, we propose a novel extractive summarization model especially designed for long documents, by incorporating the local context within each topic, along with the global context of the whole document.[2] purpleOur approach integrates recent findings on neural extractive summarization in a parameter lean and modular architecture.[3] purpleWe evaluate our model and compare with previous works in both extractive and abstractive summarization on two large scientific paper datasets, which contain documents that are much longer than in previously used corpora.[4] purpleOur model not only achieves state-of-the-art on these two datasets, but in an additional experiment, in which we consider documents with increasing length, it becomes more competitive for longer documents.[5] purpleWe also ran an ablation study to assess the relative contribution of the global and local components of our approach.",
+        "counterfactual_parts": [
+          "Conclusions and Future Work\tpurpleIn this paper, we propose a novel extractive summarization model especially designed for long documents, by incorporating the local context within each topic, along with the global context of the whole document.[2]",
+          "purpleOur approach integrates recent findings on neural extractive summarization in a parameter lean and modular architecture.[3]",
+          "purpleWe evaluate our model and compare with previous works in both extractive and abstractive summarization on two large scientific paper datasets, which contain documents that are much longer than in previously used corpora.[4]",
+          "purpleOur model not only achieves state-of-the-art on these two datasets, but in an additional experiment, in which we consider documents with increasing length, it becomes more competitive for longer documents.[5]",
+          "purpleWe also ran an ablation study to assess the relative contribution of the global and local components of our approach."
+        ]
+      },
+      {
+        "document_id": "1909.08089",
+        "unit_id": "599b503f15da260a9f996e4cfae6ff61",
+        "start_char": 27220,
+        "end_char": 27329,
+        "text": "[1] Rather surprisingly, it appears that the benefits of our model come only from modeling the local context.",
+        "counterfactual_parts": [
+          "[1]",
+          "Rather surprisingly, it appears that the benefits of our model come only from modeling the local context."
+        ]
+      },
+      {
+        "document_id": "1805.08241",
+        "unit_id": "16e5e36b9bee428951cbbdfd612a1321",
+        "start_char": 8957,
+        "end_char": 9162,
+        "text": "[t] Pardalos and Kovoor's Algorithm [1] input: INLINEFORM0 Initialize working set INLINEFORM1 Initialize set of split points: INLINEFORM2  Initialize INLINEFORM0 , INLINEFORM1 , INLINEFORM2 , INLINEFORM3 .",
+        "counterfactual_parts": [
+          "[t]",
+          "Pardalos and Kovoor's Algorithm [1] input: INLINEFORM0 Initialize working set INLINEFORM1 Initialize set of split points: INLINEFORM2  Initialize INLINEFORM0 , INLINEFORM1 , INLINEFORM2 , INLINEFORM3 ."
+        ]
+      },
+      {
+        "document_id": "1806.04330",
+        "unit_id": "569ccc8235d971a47881bb83ab2dea6d",
+        "start_char": 19072,
+        "end_char": 19130,
+        "text": "[3]This number was reported in  by co-authors of DecAtt  .",
+        "counterfactual_parts": [
+          "[3]",
+          "This number was reported in  by co-authors of DecAtt  ."
+        ]
+      },
+      {
+        "document_id": "1806.04330",
+        "unit_id": "25b810f4e30ba83fe9c270334154ea41",
+        "start_char": 19131,
+        "end_char": 19198,
+        "text": "[4]This number was reproduced by Williams et al. williams2017broad.",
+        "counterfactual_parts": [
+          "[4]",
+          "This number was reproduced by Williams et al. williams2017broad."
+        ]
+      },
+      {
+        "document_id": "1806.04330",
+        "unit_id": "89bd5256d931b17f3568ff8673b2b175",
+        "start_char": 19199,
+        "end_char": 19279,
+        "text": "[5]This number was generated by InferSent traind on SNLI and Multi-NLI datasets.",
+        "counterfactual_parts": [
+          "[5]",
+          "This number was generated by InferSent traind on SNLI and Multi-NLI datasets."
+        ]
+      },
+      {
+        "document_id": "1604.00400",
+        "unit_id": "d2345e47b39c6f8ea8939736bc44a6e0",
+        "start_char": 2449,
+        "end_char": 2733,
+        "text": "[1]Text Analysis Conference (TAC) is a series of workshops for evaluating research in Natural Language Processing Since the establishment of Rouge, almost all research in text summarization have used this metric as the main means for evaluating the quality of the proposed approaches.",
+        "counterfactual_parts": [
+          "[1]",
+          "Text Analysis Conference (TAC) is a series of workshops for evaluating research in Natural Language Processing Since the establishment of Rouge, almost all research in text summarization have used this metric as the main means for evaluating the quality of the proposed approaches."
+        ]
+      },
+      {
+        "document_id": "1604.00400",
+        "unit_id": "2a960419ecee9962cd6664120c15597a",
+        "start_char": 3498,
+        "end_char": 3670,
+        "text": "[2]Document Understanding Conference (DUC) was one of NIST workshops that provided infrastructure for evaluation of text summarization methodologies (http://duc.nist.gov/).",
+        "counterfactual_parts": [
+          "[2]",
+          "Document Understanding Conference (DUC) was one of NIST workshops that provided infrastructure for evaluation of text summarization methodologies (http://duc.nist.gov/)."
+        ]
+      },
+      {
+        "document_id": "1604.00400",
+        "unit_id": "4121c5434db8be56b5e59f2f84260d3f",
+        "start_char": 5822,
+        "end_char": 6015,
+        "text": "[1]http://www.nist.gov/tac/2014/BiomedSumm/ Our contributions are as follows: [2]The annotations can be accessed via the following repository: https://github.com/acohan/TAC-pyramid-Annotations/",
+        "counterfactual_parts": [
+          "[1]",
+          "http://www.nist.gov/tac/2014/BiomedSumm/ Our contributions are as follows: [2]The annotations can be accessed via the following repository: https://github.com/acohan/TAC-pyramid-Annotations/"
+        ]
+      },
+      {
+        "document_id": "1604.00400",
+        "unit_id": "36e29e4aed560d0a83282fa446b8740a",
+        "start_char": 13234,
+        "end_char": 13446,
+        "text": "[1]https://github.com/elastic/elasticsearch [2]PubMed is a comprehensive resource of articles and abstracts published in life sciences and biomedical literature http://www.ncbi.nlm.nih.gov/pmc/ We also experiment",
+        "counterfactual_parts": [
+          "[1]",
+          "https://github.com/elastic/elasticsearch [2]PubMed is a comprehensive resource of articles and abstracts published in life sciences and biomedical literature http://www.ncbi.nlm.nih.gov/pmc/ We also experiment"
+        ]
+      },
+      {
+        "document_id": "1604.00400",
+        "unit_id": "7ee939076b324bbff1739780977fc553",
+        "start_char": 14673,
+        "end_char": 14718,
+        "text": "[1]Inverted Document Frequency We hypothesize",
+        "counterfactual_parts": [
+          "[1]",
+          "Inverted Document Frequency We hypothesize"
+        ]
+      },
+      {
+        "document_id": "1604.00400",
+        "unit_id": "c62ac04ae88e3fed475d1fa108175035",
+        "start_char": 17809,
+        "end_char": 17867,
+        "text": "[2]https://github.com/acohan/TAC-pyramid-Annotations 3.1pt",
+        "counterfactual_parts": [
+          "[2]",
+          "https://github.com/acohan/TAC-pyramid-Annotations 3.1pt"
+        ]
+      },
+      {
+        "document_id": "1909.06200",
+        "unit_id": "5b72e2c8b7634f5cb94ec74dbdc30284",
+        "start_char": 11260,
+        "end_char": 11582,
+        "text": "[t] Irony Generation Algorithm   INLINEFORM0 pre-train with auto-encoder Pre-train INLINEFORM1 , INLINEFORM2 with INLINEFORM3 using MLE based on Eq. EQREF16 Pre-train INLINEFORM4 , INLINEFORM5 with INLINEFORM6 using MLE based on Eq. EQREF17 INLINEFORM7 pre-train with back-translation Pre-train INLINEFORM8 , INLINEFORM9 ,",
+        "counterfactual_parts": [
+          "[t]",
+          "Irony Generation Algorithm   INLINEFORM0 pre-train with auto-encoder Pre-train INLINEFORM1 , INLINEFORM2 with INLINEFORM3 using MLE based on Eq. EQREF16 Pre-train INLINEFORM4 , INLINEFORM5 with INLINEFORM6 using MLE based on Eq. EQREF17 INLINEFORM7 pre-train with back-translation Pre-train INLINEFORM8 , INLINEFORM9 ,"
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "178f74f2a71e2ab7770e923202d1b5ed",
+        "start_char": 13323,
+        "end_char": 13425,
+        "text": "[2] Vinyals, O., Ravuri, S. V. & Povey, D. (2012) Revisiting recurrent neural networks for robust ASR.",
+        "counterfactual_parts": [
+          "[2]",
+          "Vinyals, O., Ravuri, S. V. & Povey, D. (2012) Revisiting recurrent neural networks for robust ASR."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "efbee18801b2a96f4112672b2c4f937e",
+        "start_char": 13533,
+        "end_char": 13679,
+        "text": "[3] Lu, L., Zhang, X., Cho K. & Renals, S. (2015) A study of the recurrent neural network encoder-decoder for large vocabulary speech recognition.",
+        "counterfactual_parts": [
+          "[3]",
+          "Lu, L., Zhang, X., Cho K. & Renals, S. (2015) A study of the recurrent neural network encoder-decoder for large vocabulary speech recognition."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "db942c79e01dafc6077dde702adce49c",
+        "start_char": 13717,
+        "end_char": 13885,
+        "text": "[4] Zhang, Y., Pezeshki, M., Brakel, P., Zhang, S., Bengio, C.L.Y. & Courville, A. (2017) Towards end-to-end speech recognition with deep convolutional neural networks.",
+        "counterfactual_parts": [
+          "[4]",
+          "Zhang, Y., Pezeshki, M., Brakel, P., Zhang, S., Bengio, C.L.Y. & Courville, A. (2017) Towards end-to-end speech recognition with deep convolutional neural networks."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "8e3c3747398a362309eba881ce556ba1",
+        "start_char": 13920,
+        "end_char": 13952,
+        "text": "[5] Han, K., Yu, D. & Tashev, I.",
+        "counterfactual_parts": [
+          "[5]",
+          "Han, K., Yu, D. & Tashev, I."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "474dc220539ea517c90d8e74976a6133",
+        "start_char": 14078,
+        "end_char": 14208,
+        "text": "[6] Trigeorgis, G., Ringeval, F., Brueckner, R., Marchi, E., Nicolaou, M. A., Schuller, B., & Zafeiriou, S. (2016) Adieu features?",
+        "counterfactual_parts": [
+          "[6]",
+          "Trigeorgis, G., Ringeval, F., Brueckner, R., Marchi, E., Nicolaou, M. A., Schuller, B., & Zafeiriou, S. (2016) Adieu features?"
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "f072dc4c53ee5ecb3f275a2ca2d9f4ff",
+        "start_char": 14326,
+        "end_char": 14371,
+        "text": "[7] Huang, Che-Wei, & Shrikanth S. Narayanan.",
+        "counterfactual_parts": [
+          "[7]",
+          "Huang, Che-Wei, & Shrikanth S. Narayanan."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "f9c836c59e1a936fc10bb0e9c2fbf6b4",
+        "start_char": 14503,
+        "end_char": 14708,
+        "text": "[8] Zhang, Z., Ringeval, F., Han, J., Deng, J., Marchi, E. & Schuller, B. (2016) Facing realism in spontaneous emotion recognition from speech: Feature enhancement by autoencoder with LSTM neural networks.",
+        "counterfactual_parts": [
+          "[8]",
+          "Zhang, Z., Ringeval, F., Han, J., Deng, J., Marchi, E. & Schuller, B. (2016) Facing realism in spontaneous emotion recognition from speech: Feature enhancement by autoencoder with LSTM neural networks."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "4afe56f1b98a955994c6816137476d91",
+        "start_char": 14746,
+        "end_char": 14835,
+        "text": "[9] Scheirer, E. D. & Slaney, M. (2003) Multi-feature speech/music discrimination system.",
+        "counterfactual_parts": [
+          "[9]",
+          "Scheirer, E. D. & Slaney, M. (2003) Multi-feature speech/music discrimination system."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "376d069295ac93212d80f8fa8ee7b10f",
+        "start_char": 14859,
+        "end_char": 14958,
+        "text": "[10] Pikrakis, A. & Theodoridis S. (2014) Speech-music discrimination: A deep learning perspective.",
+        "counterfactual_parts": [
+          "[10]",
+          "Pikrakis, A. & Theodoridis S. (2014) Speech-music discrimination: A deep learning perspective."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "b1232bb72e3b393d443b67a3db4f785e",
+        "start_char": 15030,
+        "end_char": 15137,
+        "text": "[11] Choi, K., Fazekas, G. & Sandler, M. (2016) Automatic tagging using deep convolutional neural networks.",
+        "counterfactual_parts": [
+          "[11]",
+          "Choi, K., Fazekas, G. & Sandler, M. (2016) Automatic tagging using deep convolutional neural networks."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "ca47abb473b6a4b959309f28a97a0aea",
+        "start_char": 15172,
+        "end_char": 15310,
+        "text": "[12] Zazo Candil, R., Sainath, T.N., Simko, G. & Parada, C. (2016) Feature learning with raw-waveform CLDNNs for Voice Activity Detection.",
+        "counterfactual_parts": [
+          "[12]",
+          "Zazo Candil, R., Sainath, T.N., Simko, G. & Parada, C. (2016) Feature learning with raw-waveform CLDNNs for Voice Activity Detection."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "4dfaa0fd2e07a93eac671e84caed6d33",
+        "start_char": 15348,
+        "end_char": 15369,
+        "text": "[13] Tian, L., Moore,",
+        "counterfactual_parts": [
+          "[13]",
+          "Tian, L., Moore,"
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "f44d676ac152b8097045650a2a1d458e",
+        "start_char": 15553,
+        "end_char": 15678,
+        "text": "[14] Dumpala, S.H., Chakraborty, R. & Kopparapu, S.K. (2017) k-FFNN: A priori knowledge infused feed-forward neural networks.",
+        "counterfactual_parts": [
+          "[14]",
+          "Dumpala, S.H., Chakraborty, R. & Kopparapu, S.K. (2017) k-FFNN: A priori knowledge infused feed-forward neural networks."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "122c8dadc15dea857537a42641f3e75a",
+        "start_char": 15713,
+        "end_char": 15856,
+        "text": "[15] Dumpala, S.H., Chakraborty, R. & Kopparapu, S.K. (2018) Knowledge-driven feed-forward neural network for audio affective content analysis.",
+        "counterfactual_parts": [
+          "[15]",
+          "Dumpala, S.H., Chakraborty, R. & Kopparapu, S.K. (2018) Knowledge-driven feed-forward neural network for audio affective content analysis."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "ae2ae88fe4f59c1274e0ccb5f4817fdf",
+        "start_char": 15920,
+        "end_char": 16061,
+        "text": "[16] Deng, J., Zhang, Z., Marchi, E. & Schuller, B. (2013) Sparse autoencoder-based feature transfer learning for speech emotion recognition.",
+        "counterfactual_parts": [
+          "[16]",
+          "Deng, J., Zhang, Z., Marchi, E. & Schuller, B. (2013) Sparse autoencoder-based feature transfer learning for speech emotion recognition."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "9307911fbc5c219b48b8af4ee59a27a9",
+        "start_char": 16174,
+        "end_char": 16216,
+        "text": "[17] George Tzanetakis, Gtzan musicspeech.",
+        "counterfactual_parts": [
+          "[17]",
+          "George Tzanetakis, Gtzan musicspeech."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "d9a4a187201d02cb6778869a15a13eaf",
+        "start_char": 16276,
+        "end_char": 16396,
+        "text": "[18] Burkhardt, F., Paeschke, A., Rolfes, M., Sendlmeier, W.F. & Weiss, B. (2005) A database of german emotional speech.",
+        "counterfactual_parts": [
+          "[18]",
+          "Burkhardt, F., Paeschke, A., Rolfes, M., Sendlmeier, W.F. & Weiss, B. (2005) A database of german emotional speech."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "d1a6ccccb5f44e88376f40bafc41fda4",
+        "start_char": 16434,
+        "end_char": 16565,
+        "text": "[19] Hall, M., Frank, E., Holmes, G., Pfahringer, B., Reutemann, P. & Witten, I.H. (2009) The WEKA data mining software: an update.",
+        "counterfactual_parts": [
+          "[19]",
+          "Hall, M., Frank, E., Holmes, G., Pfahringer, B., Reutemann, P. & Witten, I.H. (2009) The WEKA data mining software: an update."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "9590da24f3e718a6cd47458f34f6b33d",
+        "start_char": 16620,
+        "end_char": 16768,
+        "text": "[20] Eyben, F., Weninger, F., Gross, F. & Schuller, B. (2013) Recent developments in opensmile, the munich open-source multimedia feature extractor.",
+        "counterfactual_parts": [
+          "[20]",
+          "Eyben, F., Weninger, F., Gross, F. & Schuller, B. (2013) Recent developments in opensmile, the munich open-source multimedia feature extractor."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "82145f474b46984cc2c168d58724a116",
+        "start_char": 16835,
+        "end_char": 16868,
+        "text": "[21] Maratea, A., Petrosino, A. &",
+        "counterfactual_parts": [
+          "[21]",
+          "Maratea, A., Petrosino, A. &"
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "d7106db09c99a17d956c9d8532c75364",
+        "start_char": 16988,
+        "end_char": 17148,
+        "text": "[22] Galar, M., Fernandez, A., Barrenechea, E. & Herrera, F. (2013) Eusboost: Enhancing ensembles for highly imbalanced data-sets by evolutionary undersampling.",
+        "counterfactual_parts": [
+          "[22]",
+          "Galar, M., Fernandez, A., Barrenechea, E. & Herrera, F. (2013) Eusboost: Enhancing ensembles for highly imbalanced data-sets by evolutionary undersampling."
+        ]
+      },
+      {
+        "document_id": "1712.05608",
+        "unit_id": "06bf5253254caddc99166c39e574093f",
+        "start_char": 17187,
+        "end_char": 17335,
+        "text": "[23] Barua, S., Islam, M. M., Yao, X. & Murase, K. (2014) Mwmote–majority weighted minority oversampling technique for imbalanced data set learning.",
+        "counterfactual_parts": [
+          "[23]",
+          "Barua, S., Islam, M. M., Yao, X. & Murase, K. (2014) Mwmote–majority weighted minority oversampling technique for imbalanced data set learning."
+        ]
+      },
+      {
+        "document_id": "1705.01214",
+        "unit_id": "0a270484a3f7da5320e941fa3692adc3",
+        "start_char": 47468,
+        "end_char": 47888,
+        "text": "[s]\"\"blue[l]:black  \"tree\": {  \"want VERB ROOT\": {  \"I PRON nsubj\": {},  \"to ADP mark\": {},  \"invest VERB nmod\": {  \"thousands NOUN nmod\": {  \"10 NUM nummod\": {}  }  }  }   The coarse-grained part-of-speech tags, or morphological dependencies (VERB, PRON, ADP, NOUN and NUM) encode basic grammatical categories and the grammatical relationships (nsubjs, nmod, nummod) are defined in the Universal Dependencies project  .",
+        "counterfactual_parts": [
+          "[s]",
+          "\"\"blue[l]:black  \"tree\": {  \"want VERB ROOT\": {  \"I PRON nsubj\": {},  \"to ADP mark\": {},  \"invest VERB nmod\": {  \"thousands NOUN nmod\": {  \"10 NUM nummod\": {}  }  }  }   The coarse-grained part-of-speech tags, or morphological dependencies (VERB, PRON, ADP, NOUN and NUM) encode basic grammatical categories and the grammatical relationships (nsubjs, nmod, nummod) are defined in the Universal Dependencies project  ."
+        ]
+      },
+      {
+        "document_id": "1911.00841",
+        "unit_id": "7767eabf02711a97f97fca83fd6a23b5",
+        "start_char": 2735,
+        "end_char": 2806,
+        "text": "[1]https://play.google.com/store/apps/details?id=com.gotokeep.keep.intl",
+        "counterfactual_parts": [
+          "[1]",
+          "https://play.google.com/store/apps/details?id=com.gotokeep.keep.intl"
+        ]
+      },
+      {
+        "document_id": "1911.00841",
+        "unit_id": "bafda264c1308fd9d4be2938c5222736",
+        "start_char": 2807,
+        "end_char": 2964,
+        "text": "[2]https://play.google.com/store/apps/details?id=com.viber.voip [3]A question might not have any supporting evidence for an answer within the privacy policy.",
+        "counterfactual_parts": [
+          "[2]",
+          "https://play.google.com/store/apps/details?id=com.viber.voip [3]A question might not have any supporting evidence for an answer within the privacy policy."
+        ]
+      },
+      {
+        "document_id": "1907.03187",
+        "unit_id": "457083bc7d27e5ef162302db4e5f8c6c",
+        "start_char": 749,
+        "end_char": 818,
+        "text": "- No, gratis.[5] Google Translation: - Help, I was bitten by a snake!",
+        "counterfactual_parts": [
+          "- No, gratis.[5]",
+          "Google Translation: - Help, I was bitten by a snake!"
+        ]
+      },
+      {
+        "document_id": "1907.03187",
+        "unit_id": "d3773b96192b85dbcb8d0bcce75412da",
+        "start_char": 849,
+        "end_char": 1037,
+        "text": "[4]https://github.com/bfarzin/haha_2019_final, Accessed on 19 June 2019 [5]https://www.fluentin3months.com/spanish-jokes/, Accessed on 19 June 2019 Humor does not translate well because it",
+        "counterfactual_parts": [
+          "[4]",
+          "https://github.com/bfarzin/haha_2019_final, Accessed on 19 June 2019 [5]https://www.fluentin3months.com/spanish-jokes/, Accessed on 19 June 2019 Humor does not translate well because it"
+        ]
+      },
+      {
+        "document_id": "1909.08970",
+        "unit_id": "66b89f0b39817c57df4db343012cf5fa",
+        "start_char": 3494,
+        "end_char": 3553,
+        "text": "[1]The task defined by  is of moving between entities only.",
+        "counterfactual_parts": [
+          "[1]",
+          "The task defined by  is of moving between entities only."
+        ]
+      },
+      {
+        "document_id": "1705.04153",
+        "unit_id": "83fb54098042352a4dd44559359dd71e",
+        "start_char": 7185,
+        "end_char": 7559,
+        "text": "\\mathbf {c}_{j} &=\n\\mathbf {\\tilde{c}}_{j} \\odot \\mathbf {i}_{j}\n+ \\mathbf {c}_{j}^{l} \\odot \\mathbf {f}_{j}^{l}+ \\mathbf {c}_{j}^{r} \\odot \\mathbf {f}_{j}^{r} , \\\\\n\\mathbf {h}_{j} &= \\mathbf {o}_{j} \\odot \\tanh \\left( \\mathbf {c}_{j} \\right),$$   (Eq. 8)   where $\\mathbf {x}_j \\in \\mathbb {R}^{d}$ denotes the input vector and is non-zero if and only if it is a leaf node.",
+        "counterfactual_parts": [
+          "\\mathbf {c}_{j} &=\n\\mathbf {\\tilde{c}}_{j} \\odot \\mathbf {i}_{j}",
+          "+ \\mathbf {c}_{j}^{l} \\odot \\mathbf {f}_{j}^{l}+ \\mathbf {c}_{j}^{r} \\odot \\mathbf {f}_{j}^{r} , \\\\",
+          "\\mathbf {h}_{j} &= \\mathbf {o}_{j} \\odot \\tanh \\left( \\mathbf {c}_{j} \\right),$$   (Eq. 8)   where $\\mathbf {x}_j \\in \\mathbb {R}^{d}$ denotes the input vector and is non-zero if and only if it is a leaf node."
+        ]
+      },
+      {
+        "document_id": "1705.04153",
+        "unit_id": "5404e354fef21ffc756ec42cbe372bd6",
+        "start_char": 10977,
+        "end_char": 11520,
+        "text": "\\mathbf {\\hat{g}}_{j} \\\\\n\\mathbf {\\hat{o}}_{j} \\\\\n\\mathbf {\\hat{i}}_{j} \\\\\n\\mathbf {\\hat{f}}_{j}^{l} \\\\\n\\mathbf {\\hat{f}}_{j}^{r}\n\\end{bmatrix}\n&=\n\\begin{bmatrix}\n\\tanh \\\\\n\\sigma \\\\\n\\sigma \\\\\n\\sigma \\\\\n\\sigma \\end{bmatrix}\n\\left(\n\\mathbf {W}_{m}\n\\begin{bmatrix}\n\\mathbf {x}_{j} \\\\\n\\mathcal {H}_{j} \\\\\n\\end{bmatrix} + \\mathbf {b}_{m} \\right)\n,\\\\\n\\mathbf {\\hat{c}}_{j} &=\n\\mathbf {\\hat{g}}_{j} \\odot \\mathbf {\\hat{i}}_{j}\n+ \\mathbf {\\hat{g}}_{j}^{l} \\odot \\mathbf {\\hat{f}}_{j}^{l}+ \\mathbf {\\hat{g}}_{j}^{r} \\odot \\mathbf {\\hat{f}}_{j}^{r} , \\\\",
+        "counterfactual_parts": [
+          "\\mathbf {\\hat{g}}_{j} \\\\\n\\mathbf {\\hat{o}}_{j} \\\\\n\\mathbf {\\hat{i}}_{j} \\\\\n\\mathbf {\\hat{f}}_{j}^{l} \\\\\n\\mathbf {\\hat{f}}_{j}^{r}\n\\end{bmatrix}\n&=\n\\begin{bmatrix}\n\\tanh \\\\\n\\sigma \\\\\n\\sigma \\\\\n\\sigma \\\\\n\\sigma \\end{bmatrix}\n\\left(\n\\mathbf {W}_{m}\n\\begin{bmatrix}\n\\mathbf {x}_{j} \\\\\n\\mathcal {H}_{j} \\\\\n\\end{bmatrix} + \\mathbf {b}_{m} \\right)\n,\\\\\n\\mathbf {\\hat{c}}_{j} &=\n\\mathbf {\\hat{g}}_{j} \\odot \\mathbf {\\hat{i}}_{j}",
+          "+ \\mathbf {\\hat{g}}_{j}^{l} \\odot \\mathbf {\\hat{f}}_{j}^{l}+ \\mathbf {\\hat{g}}_{j}^{r} \\odot \\mathbf {\\hat{f}}_{j}^{r} , \\\\"
+        ]
+      }
+    ],
+    "terminal_citation_merge_cases": [
+      {
+        "document_id": "1909.08089",
+        "unit_id": "ed71d1827a4c2595844fc1729b2ea144",
+        "start_char": 4810,
+        "end_char": 5223,
+        "text": "purpleFurthermore, in an ablation study to assess the relative contributions of the global and the local model we found that, rather surprisingly, the benefits of our model seem to come exclusively from modeling the local context, even for the longest documents.[6] (iii) In order to evaluate our approach, we have created oracle labels for both Pubmed and arXiv  , by applying a greedy oracle labeling algorithm.",
+        "counterfactual_parts": [
+          "purpleFurthermore, in an ablation study to assess the relative contributions of the global and the local model we found that, rather surprisingly, the benefits of our model seem to come exclusively from modeling the local context, even for the longest documents.[6]",
+          "(iii) In order to evaluate our approach, we have created oracle labels for both Pubmed and arXiv  , by applying a greedy oracle labeling algorithm."
+        ]
+      },
+      {
+        "document_id": "1909.08089",
+        "unit_id": "a16eebf56f722db9ee11072edb03fb44",
+        "start_char": 26272,
+        "end_char": 27219,
+        "text": "Conclusions and Future Work\tpurpleIn this paper, we propose a novel extractive summarization model especially designed for long documents, by incorporating the local context within each topic, along with the global context of the whole document.[2] purpleOur approach integrates recent findings on neural extractive summarization in a parameter lean and modular architecture.[3] purpleWe evaluate our model and compare with previous works in both extractive and abstractive summarization on two large scientific paper datasets, which contain documents that are much longer than in previously used corpora.[4] purpleOur model not only achieves state-of-the-art on these two datasets, but in an additional experiment, in which we consider documents with increasing length, it becomes more competitive for longer documents.[5] purpleWe also ran an ablation study to assess the relative contribution of the global and local components of our approach.",
+        "counterfactual_parts": [
+          "Conclusions and Future Work\tpurpleIn this paper, we propose a novel extractive summarization model especially designed for long documents, by incorporating the local context within each topic, along with the global context of the whole document.[2]",
+          "purpleOur approach integrates recent findings on neural extractive summarization in a parameter lean and modular architecture.[3]",
+          "purpleWe evaluate our model and compare with previous works in both extractive and abstractive summarization on two large scientific paper datasets, which contain documents that are much longer than in previously used corpora.[4]",
+          "purpleOur model not only achieves state-of-the-art on these two datasets, but in an additional experiment, in which we consider documents with increasing length, it becomes more competitive for longer documents.[5]",
+          "purpleWe also ran an ablation study to assess the relative contribution of the global and local components of our approach."
+        ]
+      },
+      {
+        "document_id": "1907.03187",
+        "unit_id": "457083bc7d27e5ef162302db4e5f8c6c",
+        "start_char": 749,
+        "end_char": 818,
+        "text": "- No, gratis.[5] Google Translation: - Help, I was bitten by a snake!",
+        "counterfactual_parts": [
+          "- No, gratis.[5]",
+          "Google Translation: - Help, I was bitten by a snake!"
+        ]
+      }
+    ]
+  },
+  "selected_export_coverage": [
+    {
+      "method": "FIXED_SENTENCE",
+      "budget": 256,
+      "available_queries": 50,
+      "selected_unit_occurrences": 467,
+      "sentence_unit_occurrences": 467,
+      "resolved_sentence_occurrences": 467,
+      "affected_sentence_occurrences": 1,
+      "unresolved_sentence_occurrences": 0,
+      "whole_passage_occurrences": 0,
+      "terminal_citation_merge_selected_occurrences": 0
+    },
+    {
+      "method": "FIXED_SENTENCE",
+      "budget": 1024,
+      "available_queries": 0,
+      "selected_unit_occurrences": 0,
+      "sentence_unit_occurrences": 0,
+      "resolved_sentence_occurrences": 0,
+      "affected_sentence_occurrences": 0,
+      "unresolved_sentence_occurrences": 0,
+      "whole_passage_occurrences": 0,
+      "terminal_citation_merge_selected_occurrences": 0
+    },
+    {
+      "method": "QBGF_FULL",
+      "budget": 256,
+      "available_queries": 50,
+      "selected_unit_occurrences": 511,
+      "sentence_unit_occurrences": 511,
+      "resolved_sentence_occurrences": 511,
+      "affected_sentence_occurrences": 1,
+      "unresolved_sentence_occurrences": 0,
+      "whole_passage_occurrences": 0,
+      "terminal_citation_merge_selected_occurrences": 0
+    },
+    {
+      "method": "QBGF_FULL",
+      "budget": 1024,
+      "available_queries": 50,
+      "selected_unit_occurrences": 1225,
+      "sentence_unit_occurrences": 1155,
+      "resolved_sentence_occurrences": 1155,
+      "affected_sentence_occurrences": 1,
+      "unresolved_sentence_occurrences": 0,
+      "whole_passage_occurrences": 70,
+      "terminal_citation_merge_selected_occurrences": 0
+    }
+  ],
+  "limitations": "Detailed full C/D prepared selections were removed before this audit. Selected-unit results cover only retained frozen attribution exports, not all 1005 VAL queries. Whole passages are not invalid sentence units.",
+  "QASPER_native_sentences": false,
+  "HotpotQA_native_sentences": true,
+  "SciFact_native_sentences": true,
+  "counterfactual_caution": "The 52 broad adapter subdivisions are not 52 grammatical errors. Most are equation/list boundaries or citation fragments introduced by the live-only adapter itself. Three exact terminal-citation merge cases occur in 50,274 W12 fallback units; none occurs in the retained selected-context subset. This is not a whole-population answer-sensitivity result."
+}

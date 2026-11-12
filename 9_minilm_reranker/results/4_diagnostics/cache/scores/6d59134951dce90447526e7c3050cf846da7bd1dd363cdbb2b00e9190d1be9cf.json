@@ -1,0 +1,2371 @@
+{
+  "checksum": "4e7341be65b003a3c6f813955715d513cb65196187214318c9e50e0e17fd1c1b",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "a15bc19674d48cd9919ad1cf152bf49c88f4417d"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 117,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "96261046039e5d11447b92e2fba7b6381df20d0fe2034debfac6a9e62810fc2d",
+    "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+    "scores": [
+      {
+        "cross_encoder_score": -5.625736713409424,
+        "dataset": "QASPER",
+        "end_char": 194,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "92e78fa89cff151ffac5c549ad01990e",
+        "passage_rank": 1,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "999c27c1936f83e10caab15494cc16bf",
+        "sentence_text": "Neural User Simulation for Corpus-based Policy Optimisation for Spoken Dialogue Systems\tUser Simulators are one of the major tools that enable offline training of task-oriented dialogue systems.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.208297729492188,
+        "dataset": "QASPER",
+        "end_char": 262,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "92e78fa89cff151ffac5c549ad01990e",
+        "passage_rank": 1,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "db11da932603db1943d23aea97fc09bb",
+        "sentence_text": "For this task the Agenda-Based User Simulator (ABUS) is often used.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 195
+      },
+      {
+        "cross_encoder_score": -10.491257667541504,
+        "dataset": "QASPER",
+        "end_char": 338,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "92e78fa89cff151ffac5c549ad01990e",
+        "passage_rank": 1,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "eca11f1e84e8fb97b3d69491981c079a",
+        "sentence_text": "The ABUS is based on hand-crafted rules and its output is in semantic form.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 263
+      },
+      {
+        "cross_encoder_score": -11.199789047241211,
+        "dataset": "QASPER",
+        "end_char": 458,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "92e78fa89cff151ffac5c549ad01990e",
+        "passage_rank": 1,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "64a0363054163170e998574cc54a3a73",
+        "sentence_text": "Issues arise from both properties such as limited diversity and the inability to interface a text-level belief tracker.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 339
+      },
+      {
+        "cross_encoder_score": 3.8068573474884033,
+        "dataset": "QASPER",
+        "end_char": 675,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "92e78fa89cff151ffac5c549ad01990e",
+        "passage_rank": 1,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "57b7c26a5f52d46ee41cfec7314bc7d7",
+        "sentence_text": "This paper introduces the Neural User Simulator (NUS) whose behaviour is learned from a corpus and which generates natural language, hence needing a less labelled dataset than simulators generating a semantic output.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 459
+      },
+      {
+        "cross_encoder_score": 0.02345999702811241,
+        "dataset": "QASPER",
+        "end_char": 879,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "92e78fa89cff151ffac5c549ad01990e",
+        "passage_rank": 1,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "b9d148a4e7c09711b50cfe36b4f72093",
+        "sentence_text": "In comparison to much of the past work on this topic, which evaluates user simulators on corpus-based metrics, we use the NUS to train the policy of a reinforcement learning based Spoken Dialogue System.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 676
+      },
+      {
+        "cross_encoder_score": -10.412371635437012,
+        "dataset": "QASPER",
+        "end_char": 978,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "92e78fa89cff151ffac5c549ad01990e",
+        "passage_rank": 1,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "13528d6e9e7e613ac6ba874ee106a003",
+        "sentence_text": "The NUS is compared to the ABUS by evaluating the policies that were trained using the simulators.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 880
+      },
+      {
+        "cross_encoder_score": -11.1500883102417,
+        "dataset": "QASPER",
+        "end_char": 1071,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "92e78fa89cff151ffac5c549ad01990e",
+        "passage_rank": 1,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "d32ea508be9dc2b18208f8b30c4df638",
+        "sentence_text": "Cross-model evaluation is performed i.e. training on one simulator and testing on the other.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 979
+      },
+      {
+        "cross_encoder_score": -10.84273624420166,
+        "dataset": "QASPER",
+        "end_char": 1131,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "92e78fa89cff151ffac5c549ad01990e",
+        "passage_rank": 1,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "2ac0ce4011112ebc4e5e168664471cfe",
+        "sentence_text": "Furthermore, the trained policies are tested on real users.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1072
+      },
+      {
+        "cross_encoder_score": -10.572526931762695,
+        "dataset": "QASPER",
+        "end_char": 1187,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "92e78fa89cff151ffac5c549ad01990e",
+        "passage_rank": 1,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "10bacf9a1f7cd55d75526c799b9bf3d9",
+        "sentence_text": "In both evaluation tasks the NUS outperformed the ABUS.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1132
+      },
+      {
+        "cross_encoder_score": -10.888215065002441,
+        "dataset": "QASPER",
+        "end_char": 1286,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "92e78fa89cff151ffac5c549ad01990e",
+        "passage_rank": 1,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "11596e81456387c26f179f40d10022e1",
+        "sentence_text": "Introduction\tSpoken Dialogue Systems (SDS) allow human-computer interaction using natural speech.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1189
+      },
+      {
+        "cross_encoder_score": -10.678067207336426,
+        "dataset": "QASPER",
+        "end_char": 1322,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "92e78fa89cff151ffac5c549ad01990e",
+        "passage_rank": 1,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "0a28c1aa13f0d34c7ba31b09265a193e",
+        "sentence_text": "Task-oriented dialogue systems, the",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1287
+      },
+      {
+        "cross_encoder_score": -11.157111167907715,
+        "dataset": "QASPER",
+        "end_char": 1417,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "6ef7bd7859593afabd440fab1944eb2c",
+        "passage_rank": 6,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "ed173e1b91d007fc1516af0ea7467176",
+        "sentence_text": "focus of this work, help users achieve goals such as finding restaurants or booking flights  .",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1323
+      },
+      {
+        "cross_encoder_score": -10.255690574645996,
+        "dataset": "QASPER",
+        "end_char": 1507,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "6ef7bd7859593afabd440fab1944eb2c",
+        "passage_rank": 6,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "1d8d35e60d68bc086f8e94fe0397ec99",
+        "sentence_text": "Teaching a system how to respond appropriately in a task-oriented setting is non-trivial.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1418
+      },
+      {
+        "cross_encoder_score": -9.387514114379883,
+        "dataset": "QASPER",
+        "end_char": 1638,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "6ef7bd7859593afabd440fab1944eb2c",
+        "passage_rank": 6,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "ceb26579825e05f2a6a44eb7edc7257b",
+        "sentence_text": "In state-of-the-art systems this dialogue management task is often formulated as a reinforcement learning (RL) problem  ,  ,  ,  .",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1508
+      },
+      {
+        "cross_encoder_score": -9.2185697555542,
+        "dataset": "QASPER",
+        "end_char": 1735,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "6ef7bd7859593afabd440fab1944eb2c",
+        "passage_rank": 6,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "8ec4043b8cd37dbfdf3b5242bef3eb6f",
+        "sentence_text": "In this framework, the system learns by a trial and error process governed by a reward function.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1639
+      },
+      {
+        "cross_encoder_score": -10.349431037902832,
+        "dataset": "QASPER",
+        "end_char": 1842,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "6ef7bd7859593afabd440fab1944eb2c",
+        "passage_rank": 6,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "44e6dcf11554a244b044504a23ddcad2",
+        "sentence_text": "User Simulators can be used to train the policy of a dialogue manager (DM) without real user interactions.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 1736
+      },
+      {
+        "cross_encoder_score": -11.084936141967773,
+        "dataset": "QASPER",
+        "end_char": 1975,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "6ef7bd7859593afabd440fab1944eb2c",
+        "passage_rank": 6,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "b7469697f5ab35758e2027b3d151a49c",
+        "sentence_text": "Furthermore, they allow an unlimited number of dialogues to be created with each dialogue being faster than a dialogue with a human.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 1843
+      },
+      {
+        "cross_encoder_score": 3.8048481941223145,
+        "dataset": "QASPER",
+        "end_char": 2112,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "6ef7bd7859593afabd440fab1944eb2c",
+        "passage_rank": 6,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "aa94db9c3615f26816de0c9cb7df2d1e",
+        "sentence_text": "In this paper the Neural User Simulator (NUS) is introduced which outputs natural language and whose behaviour is learned from a corpus.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 1976
+      },
+      {
+        "cross_encoder_score": -11.01399040222168,
+        "dataset": "QASPER",
+        "end_char": 2236,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "6ef7bd7859593afabd440fab1944eb2c",
+        "passage_rank": 6,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "5ed8d2f9c61d7b37c8366fb819127289",
+        "sentence_text": "The main component, inspired by  , consists of a feature extractor and a neural network based sequence-to-sequence model  .",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2113
+      },
+      {
+        "cross_encoder_score": -10.996625900268555,
+        "dataset": "QASPER",
+        "end_char": 2404,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "6ef7bd7859593afabd440fab1944eb2c",
+        "passage_rank": 6,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "24014a9a30066f1a9164f79d42eae860",
+        "sentence_text": "The sequence-to-sequence model consists of a recurrent neural network (RNN) encoder that encodes the dialogue history and a decoder RNN which outputs natural language.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          1,
+          8,
+          0
+        ],
+        "source_position": 2237
+      },
+      {
+        "cross_encoder_score": -10.519227027893066,
+        "dataset": "QASPER",
+        "end_char": 2491,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "6ef7bd7859593afabd440fab1944eb2c",
+        "passage_rank": 6,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "80ab0f0dab3eec4d1cbe88d02b64bed1",
+        "sentence_text": "Furthermore, the NUS generates its own goal and possibly changes it during a dialogue.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          1,
+          9,
+          0
+        ],
+        "source_position": 2405
+      },
+      {
+        "cross_encoder_score": -10.886038780212402,
+        "dataset": "QASPER",
+        "end_char": 2573,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "6ef7bd7859593afabd440fab1944eb2c",
+        "passage_rank": 6,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "7aeae7090d7ffcb0202e0689ab11a27d",
+        "sentence_text": "This allows the model to be deployed for training more sophisticated DM policies.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          1,
+          10,
+          0
+        ],
+        "source_position": 2492
+      },
+      {
+        "cross_encoder_score": -10.777941703796387,
+        "dataset": "QASPER",
+        "end_char": 2631,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "6ef7bd7859593afabd440fab1944eb2c",
+        "passage_rank": 6,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "e6d4e3314c29fc9c1a78c4db6639e270",
+        "sentence_text": "To achieve this, a method is proposed that transforms the",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          1,
+          11,
+          0
+        ],
+        "source_position": 2574
+      },
+      {
+        "cross_encoder_score": -10.180464744567871,
+        "dataset": "QASPER",
+        "end_char": 2736,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "e7f8558ffbd8ada4b7aea4307f1716d0",
+        "passage_rank": 8,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "b922ab9ecd58d0887d30fed61f2bb14f",
+        "sentence_text": "goal-labels of the used dataset (DSTC2) into labels whose behaviour can be replicated during deployment.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2632
+      },
+      {
+        "cross_encoder_score": -10.036419868469238,
+        "dataset": "QASPER",
+        "end_char": 2837,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "e7f8558ffbd8ada4b7aea4307f1716d0",
+        "passage_rank": 8,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "64b748e09629329e636831470020f184",
+        "sentence_text": "The NUS is trained on dialogues between real users and an SDS in a restaurant recommendation domain.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2737
+      },
+      {
+        "cross_encoder_score": -8.15187931060791,
+        "dataset": "QASPER",
+        "end_char": 2976,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "e7f8558ffbd8ada4b7aea4307f1716d0",
+        "passage_rank": 8,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "8025d240988839eaf8ec471c0855212d",
+        "sentence_text": "Compared to much of the related work on user simulation, we use the trained NUS to train the policy of a reinforcement learning based SDS.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 2838
+      },
+      {
+        "cross_encoder_score": -9.411359786987305,
+        "dataset": "QASPER",
+        "end_char": 3078,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "e7f8558ffbd8ada4b7aea4307f1716d0",
+        "passage_rank": 8,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "c85e5b4a8f34f51e7552d7800e1426d6",
+        "sentence_text": "In order to evaluate the NUS, an Agenda-Based User-Simulator (ABUS)  is used to train another policy.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 2977
+      },
+      {
+        "cross_encoder_score": -11.186979293823242,
+        "dataset": "QASPER",
+        "end_char": 3162,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "e7f8558ffbd8ada4b7aea4307f1716d0",
+        "passage_rank": 8,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "491cef43f5caa71b1785812fe631972c",
+        "sentence_text": "The two policies are compared against each other by using cross-model evaluation  .",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3079
+      },
+      {
+        "cross_encoder_score": -10.897377014160156,
+        "dataset": "QASPER",
+        "end_char": 3221,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "e7f8558ffbd8ada4b7aea4307f1716d0",
+        "passage_rank": 8,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "b4d7113a1fa0e880cd19a52b4543fea9",
+        "sentence_text": "This means to train on one model and to test on the other.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3163
+      },
+      {
+        "cross_encoder_score": -10.895895957946777,
+        "dataset": "QASPER",
+        "end_char": 3282,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "e7f8558ffbd8ada4b7aea4307f1716d0",
+        "passage_rank": 8,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "f09b7472279a428b8401ce9b1bf35fea",
+        "sentence_text": "Furthermore, both trained policies are tested on real users.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3222
+      },
+      {
+        "cross_encoder_score": -7.810884475708008,
+        "dataset": "QASPER",
+        "end_char": 3482,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "e7f8558ffbd8ada4b7aea4307f1716d0",
+        "passage_rank": 8,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "14a9f259caecae0a215ac3b421c1357c",
+        "sentence_text": "On both evaluation tasks the NUS outperforms the ABUS, which is currently one of the most popular off-line training tools for reinforcement learning based Spoken Dialogue Systems  ,  ,  ,  ,  ,  ,  .",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3283
+      },
+      {
+        "cross_encoder_score": -10.777698516845703,
+        "dataset": "QASPER",
+        "end_char": 3535,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "e7f8558ffbd8ada4b7aea4307f1716d0",
+        "passage_rank": 8,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "c5b65ba5bff90649cefea4613b1b9a0e",
+        "sentence_text": "The remainder of this paper is organised as follows.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 3483
+      },
+      {
+        "cross_encoder_score": -10.998495101928711,
+        "dataset": "QASPER",
+        "end_char": 3587,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "e7f8558ffbd8ada4b7aea4307f1716d0",
+        "passage_rank": 8,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "b03b061dbb81630758936567a5054bc1",
+        "sentence_text": "Section 2 briefly describes task-oriented dialogue.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          2,
+          9,
+          0
+        ],
+        "source_position": 3536
+      },
+      {
+        "cross_encoder_score": -10.837813377380371,
+        "dataset": "QASPER",
+        "end_char": 3662,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "e7f8558ffbd8ada4b7aea4307f1716d0",
+        "passage_rank": 8,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "3b3e6671a61d2b804338942e1a1fc542",
+        "sentence_text": "Section 3 describes the motivation for the NUS and discusses related work.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          2,
+          10,
+          0
+        ],
+        "source_position": 3588
+      },
+      {
+        "cross_encoder_score": -10.797651290893555,
+        "dataset": "QASPER",
+        "end_char": 3776,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "e7f8558ffbd8ada4b7aea4307f1716d0",
+        "passage_rank": 8,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "c6d7d7b55dbb7b25f9de22a5db5e00a2",
+        "sentence_text": "Section 4 explains the structure of the NUS, how it is trained and how it is deployed for training a DM's policy.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          2,
+          11,
+          0
+        ],
+        "source_position": 3663
+      },
+      {
+        "cross_encoder_score": -11.032325744628906,
+        "dataset": "QASPER",
+        "end_char": 3824,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "e7f8558ffbd8ada4b7aea4307f1716d0",
+        "passage_rank": 8,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "f36ae72f4ee4158e05a5f864cf1157bf",
+        "sentence_text": "Sections 5 and 6 present the experimental setup",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          2,
+          12,
+          0
+        ],
+        "source_position": 3777
+      },
+      {
+        "cross_encoder_score": -10.642440795898438,
+        "dataset": "QASPER",
+        "end_char": 5134,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "ea4737783ebac9feb8658a2c1b4b2424",
+        "passage_rank": 2,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "159a96eff8826fbc01418954c1e87eec",
+        "sentence_text": "interactions, this is impractical.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "source_position": 5100
+      },
+      {
+        "cross_encoder_score": -11.20871639251709,
+        "dataset": "QASPER",
+        "end_char": 5216,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "ea4737783ebac9feb8658a2c1b4b2424",
+        "passage_rank": 2,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "afea7502206cc28f50376ccc49f840cb",
+        "sentence_text": "Furthermore, a set of users needs to be recruited every time a policy is trained.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "source_position": 5135
+      },
+      {
+        "cross_encoder_score": -11.228734970092773,
+        "dataset": "QASPER",
+        "end_char": 5306,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "ea4737783ebac9feb8658a2c1b4b2424",
+        "passage_rank": 2,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "867c14918a2ae1f16388910b43d1c31a",
+        "sentence_text": "This makes common practices such as hyper-parameter optimization prohibitively expensive.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "source_position": 5217
+      },
+      {
+        "cross_encoder_score": -8.293465614318848,
+        "dataset": "QASPER",
+        "end_char": 5432,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "ea4737783ebac9feb8658a2c1b4b2424",
+        "passage_rank": 2,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "20542496bab259877db28e75df1a3167",
+        "sentence_text": "Thus, it is natural to try to learn from a dataset which needs to be recorded only once, but can be used over and over again.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "source_position": 5307
+      },
+      {
+        "cross_encoder_score": -3.44791841506958,
+        "dataset": "QASPER",
+        "end_char": 5686,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "ea4737783ebac9feb8658a2c1b4b2424",
+        "passage_rank": 2,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "72a071f4216e6c9e8f7eb3cbbf56faf6",
+        "sentence_text": "A problem with learning directly from recorded dialogue corpora is that the state space that was visited during the collection of the data is limited; the size of the recorded corpus usually falls short of the requirements for training a statistical DM.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "source_position": 5433
+      },
+      {
+        "cross_encoder_score": -6.155884742736816,
+        "dataset": "QASPER",
+        "end_char": 5813,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "ea4737783ebac9feb8658a2c1b4b2424",
+        "passage_rank": 2,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "73fa5ce36803738b4ee0b14770365c55",
+        "sentence_text": "However, even if the size of the corpus is large enough the optimal dialogue strategy is likely not to be contained within it.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          4,
+          5,
+          0
+        ],
+        "source_position": 5687
+      },
+      {
+        "cross_encoder_score": -4.6627068519592285,
+        "dataset": "QASPER",
+        "end_char": 5897,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "ea4737783ebac9feb8658a2c1b4b2424",
+        "passage_rank": 2,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "71f5787412700c169d60774da4dfdccb",
+        "sentence_text": "A solution is to transform the static corpus into a dynamic tool: a user simulator.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          4,
+          6,
+          0
+        ],
+        "source_position": 5814
+      },
+      {
+        "cross_encoder_score": 1.9999134540557861,
+        "dataset": "QASPER",
+        "end_char": 6032,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "ea4737783ebac9feb8658a2c1b4b2424",
+        "passage_rank": 2,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "167443b27e5306eb87adca943e2c3400",
+        "sentence_text": "The user simulator (US) is trained on a dialogue corpus to learn what responses a real user would provide in a given dialogue context.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          4,
+          7,
+          0
+        ],
+        "source_position": 5898
+      },
+      {
+        "cross_encoder_score": -3.448356866836548,
+        "dataset": "QASPER",
+        "end_char": 6133,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "ea4737783ebac9feb8658a2c1b4b2424",
+        "passage_rank": 2,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "e2525e23ba35e376fced542d390b91f8",
+        "sentence_text": "The US is trained using supervised learning since the aim is for it to learn typical user behaviour.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          4,
+          8,
+          0
+        ],
+        "source_position": 6033
+      },
+      {
+        "cross_encoder_score": -3.338806629180908,
+        "dataset": "QASPER",
+        "end_char": 6229,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "ea4737783ebac9feb8658a2c1b4b2424",
+        "passage_rank": 2,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "c1187ece0717d0e1f6af9907857ec735",
+        "sentence_text": "For the DM, however, we want optimal behaviour which is why supervised learning cannot be used.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          4,
+          9,
+          0
+        ],
+        "source_position": 6134
+      },
+      {
+        "cross_encoder_score": -9.8401517868042,
+        "dataset": "QASPER",
+        "end_char": 6311,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "ea4737783ebac9feb8658a2c1b4b2424",
+        "passage_rank": 2,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "674683380f6dde7a25f2f5f6260f75bb",
+        "sentence_text": "By interacting with the SDS, the trained US can be used to train the DM's policy.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          4,
+          10,
+          0
+        ],
+        "source_position": 6230
+      },
+      {
+        "cross_encoder_score": -11.150582313537598,
+        "dataset": "QASPER",
+        "end_char": 6399,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "ea4737783ebac9feb8658a2c1b4b2424",
+        "passage_rank": 2,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "8ba73dac8c44ccc55bca286e56cd8160",
+        "sentence_text": "The DM's policy is optimised using the feedback given by either the user simulator or a",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          4,
+          11,
+          0
+        ],
+        "source_position": 6312
+      },
+      {
+        "cross_encoder_score": -10.396368980407715,
+        "dataset": "QASPER",
+        "end_char": 6419,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "0d5f89259d487b1b888b343924a8db6d",
+        "passage_rank": 3,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "01f75db1dac3ad4d013f5da782c9a426",
+        "sentence_text": "separate evaluator.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 6400
+      },
+      {
+        "cross_encoder_score": -5.824448108673096,
+        "dataset": "QASPER",
+        "end_char": 6550,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "0d5f89259d487b1b888b343924a8db6d",
+        "passage_rank": 3,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "eca25610520b92cd230b3464735c3b1e",
+        "sentence_text": "Any number of dialogues can be generated using the US and dialogue strategies that are not in the recorded corpus can be explored.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 6420
+      },
+      {
+        "cross_encoder_score": -10.55313777923584,
+        "dataset": "QASPER",
+        "end_char": 6608,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "0d5f89259d487b1b888b343924a8db6d",
+        "passage_rank": 3,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "102a20979d86d16b80c9f532eca72981",
+        "sentence_text": "Most user-simulators work on the level of user semantics.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 6551
+      },
+      {
+        "cross_encoder_score": -11.065805435180664,
+        "dataset": "QASPER",
+        "end_char": 6716,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "0d5f89259d487b1b888b343924a8db6d",
+        "passage_rank": 3,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "bafeb7bc5a10e0fb45d48712f43e27b0",
+        "sentence_text": "These usually consist of a user dialogue act (e.g. inform, or request) and a corresponding slot-value pair.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 6609
+      },
+      {
+        "cross_encoder_score": -10.931163787841797,
+        "dataset": "QASPER",
+        "end_char": 6875,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "0d5f89259d487b1b888b343924a8db6d",
+        "passage_rank": 3,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "571ff718a481228fee746c163f11a0b3",
+        "sentence_text": "The first statistical user simulator  used a simple bi-gram model INLINEFORM0 to predict the next user act INLINEFORM1 given the last system act INLINEFORM2 .",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 6717
+      },
+      {
+        "cross_encoder_score": -10.490991592407227,
+        "dataset": "QASPER",
+        "end_char": 6950,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "0d5f89259d487b1b888b343924a8db6d",
+        "passage_rank": 3,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "9e56bd506871f9b3dd364c7ec329d19a",
+        "sentence_text": "It has the advantage of being purely probabilistic and domain-independent.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 6876
+      },
+      {
+        "cross_encoder_score": -10.46771240234375,
+        "dataset": "QASPER",
+        "end_char": 7109,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "0d5f89259d487b1b888b343924a8db6d",
+        "passage_rank": 3,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "94282fd7c58fc718f42de4a422da88c2",
+        "sentence_text": "However, it does not take the full dialogue history into account and is not conditioned on a goal, leading to incoherent user behaviour throughout a dialogue.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 6951
+      },
+      {
+        "cross_encoder_score": -11.251967430114746,
+        "dataset": "QASPER",
+        "end_char": 7188,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "0d5f89259d487b1b888b343924a8db6d",
+        "passage_rank": 3,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "d4dfca88d40a4af52f3e58f6228bb24e",
+        "sentence_text": ",  attempted to overcome goal inconsistency by proposing a graph-based model.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 7111
+      },
+      {
+        "cross_encoder_score": -10.931262969970703,
+        "dataset": "QASPER",
+        "end_char": 7274,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "0d5f89259d487b1b888b343924a8db6d",
+        "passage_rank": 3,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "f3804e8fdf9a75e1876479522337369e",
+        "sentence_text": "However, developing the graph structure requires extensive domain-specific knowledge.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          5,
+          8,
+          0
+        ],
+        "source_position": 7189
+      },
+      {
+        "cross_encoder_score": -11.187548637390137,
+        "dataset": "QASPER",
+        "end_char": 7443,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "0d5f89259d487b1b888b343924a8db6d",
+        "passage_rank": 3,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "370d63d10e006ad506b37107bd74d704",
+        "sentence_text": "combined features from Sheffler and Young's work with Eckert's Model, by conditioning a set of probabilities on an explicit representation of the user goal and memory.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          5,
+          9,
+          0
+        ],
+        "source_position": 7276
+      },
+      {
+        "cross_encoder_score": -8.74793815612793,
+        "dataset": "QASPER",
+        "end_char": 7477,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "0d5f89259d487b1b888b343924a8db6d",
+        "passage_rank": 3,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "f71ee37c58d1e788f203b21764aaf9ec",
+        "sentence_text": "A Markov Model is also used by  .",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          5,
+          10,
+          0
+        ],
+        "source_position": 7444
+      },
+      {
+        "cross_encoder_score": -10.757564544677734,
+        "dataset": "QASPER",
+        "end_char": 7599,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "0d5f89259d487b1b888b343924a8db6d",
+        "passage_rank": 3,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "d06ebd30750714d85f5fb598881ac440",
+        "sentence_text": "It uses a large feature vector to describe the user's current state, which helps to compensate for the Markov assumption.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          5,
+          11,
+          0
+        ],
+        "source_position": 7478
+      },
+      {
+        "cross_encoder_score": -10.849252700805664,
+        "dataset": "QASPER",
+        "end_char": 7650,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "0d5f89259d487b1b888b343924a8db6d",
+        "passage_rank": 3,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "b7673bba019c2f3473a16b4f60acd1f3",
+        "sentence_text": "However, the model is not conditioned on any goal.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          5,
+          12,
+          0
+        ],
+        "source_position": 7600
+      },
+      {
+        "cross_encoder_score": -7.522984981536865,
+        "dataset": "QASPER",
+        "end_char": 7676,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "0d5f89259d487b1b888b343924a8db6d",
+        "passage_rank": 3,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "33356a3ea9b5fcd667737b8b1b058b38",
+        "sentence_text": "Therefore, it is not used",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          5,
+          13,
+          0
+        ],
+        "source_position": 7651
+      },
+      {
+        "cross_encoder_score": -11.260396003723145,
+        "dataset": "QASPER",
+        "end_char": 7776,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "b58e03aa3e9b60b20ff6ca62d9f07e10",
+        "passage_rank": 10,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "95e86f9f5b96c2c8beb6ae9ce0783fac",
+        "sentence_text": "to train a dialogue policy since it is impossible to determine whether the user goal was fulfilled.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 7677
+      },
+      {
+        "cross_encoder_score": -10.450883865356445,
+        "dataset": "QASPER",
+        "end_char": 7860,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "b58e03aa3e9b60b20ff6ca62d9f07e10",
+        "passage_rank": 10,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "18b398c51e04f8b9f7555ad62e7b1a15",
+        "sentence_text": "A hidden Markov model was proposed by  , which was also not used to train a policy.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 7777
+      },
+      {
+        "cross_encoder_score": -10.195477485656738,
+        "dataset": "QASPER",
+        "end_char": 7982,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "b58e03aa3e9b60b20ff6ca62d9f07e10",
+        "passage_rank": 10,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "9d04b220d667174baf958368a2db57fe",
+        "sentence_text": "cast user simulation as an inverse reinforcement learning problem where the user is modelled as a decision-making agent.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 7862
+      },
+      {
+        "cross_encoder_score": -10.95355224609375,
+        "dataset": "QASPER",
+        "end_char": 8066,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "b58e03aa3e9b60b20ff6ca62d9f07e10",
+        "passage_rank": 10,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "bfcbf827b35e61faeb6113b0980de3dc",
+        "sentence_text": "The model did not incorporate a user goal and was hence not used to train a policy.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 7983
+      },
+      {
+        "cross_encoder_score": -11.012645721435547,
+        "dataset": "QASPER",
+        "end_char": 8257,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "b58e03aa3e9b60b20ff6ca62d9f07e10",
+        "passage_rank": 10,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "5153cfe8d89b9e8c354cddf54545c95f",
+        "sentence_text": "The most prominent user model for policy optimisation is the Agenda-Based User Simulator  , which represents the user state elegantly as a stack of necessary user actions, called the agenda.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 8067
+      },
+      {
+        "cross_encoder_score": -11.20017147064209,
+        "dataset": "QASPER",
+        "end_char": 8392,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "b58e03aa3e9b60b20ff6ca62d9f07e10",
+        "passage_rank": 10,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "7e7dc40ed665fbe1860fc3232942a78d",
+        "sentence_text": "The mechanism that generates the user response and updates the agenda does not require any data, though it can be improved using data.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 8258
+      },
+      {
+        "cross_encoder_score": -11.191606521606445,
+        "dataset": "QASPER",
+        "end_char": 8527,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "b58e03aa3e9b60b20ff6ca62d9f07e10",
+        "passage_rank": 10,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "9b0225b27bbcf09b21d0d6704c0b5a0f",
+        "sentence_text": "The model is conditioned on a goal for which it has update rules in case the dialogue system expresses that it cannot fulfil the goal.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 8393
+      },
+      {
+        "cross_encoder_score": -11.162148475646973,
+        "dataset": "QASPER",
+        "end_char": 8585,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "b58e03aa3e9b60b20ff6ca62d9f07e10",
+        "passage_rank": 10,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "880ada2b0795840a6515c21b048b7807",
+        "sentence_text": "modelled user simulation as a sequence-to-sequence task.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 8529
+      },
+      {
+        "cross_encoder_score": -7.000804424285889,
+        "dataset": "QASPER",
+        "end_char": 8684,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "b58e03aa3e9b60b20ff6ca62d9f07e10",
+        "passage_rank": 10,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "4dc42da65f2fb10689cf20189f21635b",
+        "sentence_text": "The model can keep track of the dialogue history and user behaviour is learned entirely from data.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 8586
+      },
+      {
+        "cross_encoder_score": -11.281814575195312,
+        "dataset": "QASPER",
+        "end_char": 8821,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "b58e03aa3e9b60b20ff6ca62d9f07e10",
+        "passage_rank": 10,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "63c7e666f72d7b1204ddf9c3881a8b12",
+        "sentence_text": "However, goal changes were not modelled, even though a large proportion of dialogues within their dataset (DSTC2) contains goal changes.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          6,
+          9,
+          0
+        ],
+        "source_position": 8685
+      },
+      {
+        "cross_encoder_score": -11.15054702758789,
+        "dataset": "QASPER",
+        "end_char": 8972,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "b58e03aa3e9b60b20ff6ca62d9f07e10",
+        "passage_rank": 10,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "39f6a5247770ba3c8a5e38d5bd4d7688",
+        "sentence_text": "Their model outperformed the ABUS on statistical metrics, which is not surprising given that it was trained by optimising a statistical metric and the",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          6,
+          10,
+          0
+        ],
+        "source_position": 8822
+      },
+      {
+        "cross_encoder_score": -10.669262886047363,
+        "dataset": "QASPER",
+        "end_char": 8986,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "48c1db16544e06fee4a91c2c14e7e3a6",
+        "passage_rank": 9,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "1ee8e3ab48423b9d29f121d1fb7e328d",
+        "sentence_text": "ABUS was not.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 8973
+      },
+      {
+        "cross_encoder_score": -10.51467514038086,
+        "dataset": "QASPER",
+        "end_char": 9060,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "48c1db16544e06fee4a91c2c14e7e3a6",
+        "passage_rank": 9,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "4c1838f8dab376aedca37090d8e09e51",
+        "sentence_text": "The aforementioned work focuses on user simulation at the semantic level.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 8987
+      },
+      {
+        "cross_encoder_score": -10.47337818145752,
+        "dataset": "QASPER",
+        "end_char": 9102,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "48c1db16544e06fee4a91c2c14e7e3a6",
+        "passage_rank": 9,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "7050bdb6a3aaa519fb8e62f8eb064bc2",
+        "sentence_text": "Multiple issues arise from this approach.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 9061
+      },
+      {
+        "cross_encoder_score": -11.095561027526855,
+        "dataset": "QASPER",
+        "end_char": 9178,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "48c1db16544e06fee4a91c2c14e7e3a6",
+        "passage_rank": 9,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "98f96ca5d314153a314b0f57ad4b1225",
+        "sentence_text": "Firstly, annotating the user-response with the correct semantics is costly.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 9103
+      },
+      {
+        "cross_encoder_score": -11.087292671203613,
+        "dataset": "QASPER",
+        "end_char": 9251,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "48c1db16544e06fee4a91c2c14e7e3a6",
+        "passage_rank": 9,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "e8b49bd7abdbba02290b2e753a420bb2",
+        "sentence_text": "More data could be collected, if the US were to output natural language.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 9179
+      },
+      {
+        "cross_encoder_score": -10.005125045776367,
+        "dataset": "QASPER",
+        "end_char": 9437,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "48c1db16544e06fee4a91c2c14e7e3a6",
+        "passage_rank": 9,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "4bc5bc11decb16e7fb6520b6ceb5b2b2",
+        "sentence_text": "Secondly, research suggests that the two modules of an SDS performing Spoken Language Understanding (SLU) and belief tracking should be jointly trained as a single entity  ,  ,  ,  ,  .",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 9252
+      },
+      {
+        "cross_encoder_score": -11.197504043579102,
+        "dataset": "QASPER",
+        "end_char": 9644,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "48c1db16544e06fee4a91c2c14e7e3a6",
+        "passage_rank": 9,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "60ca2a30eaf986ba522e33106c4a6cb5",
+        "sentence_text": "In fact in the second Dialogue State Tracking Challenge (DSTC2)  , the data of which this work uses, systems which used no external SLU module outperformed all systems that only used an external SLU Module.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 9438
+      },
+      {
+        "cross_encoder_score": -10.287199020385742,
+        "dataset": "QASPER",
+        "end_char": 9820,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "48c1db16544e06fee4a91c2c14e7e3a6",
+        "passage_rank": 9,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "f524ce4f4377dce0f4d0a963d48cc094",
+        "sentence_text": "Training the policy of a DM in a simulated environment, when also using a joint system for SLU and belief tracking is not possible without a US that produces natural language.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "source_position": 9645
+      },
+      {
+        "cross_encoder_score": -11.092503547668457,
+        "dataset": "QASPER",
+        "end_char": 10014,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "48c1db16544e06fee4a91c2c14e7e3a6",
+        "passage_rank": 9,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "6e7fb55a8e2053f9f46cf5df280c4a4c",
+        "sentence_text": "Thirdly, a US is sometimes augmented with an error model which generates a set of competing hypotheses with associated confidence scores trying to replicate the errors of the speech recogniser.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          7,
+          8,
+          0
+        ],
+        "source_position": 9821
+      },
+      {
+        "cross_encoder_score": -11.163213729858398,
+        "dataset": "QASPER",
+        "end_char": 10132,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "48c1db16544e06fee4a91c2c14e7e3a6",
+        "passage_rank": 9,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "87262d3d0a0af09b091187bf146a7439",
+        "sentence_text": "When the error model matches the characteristics of the speech recogniser more accurately, the SDS performs better  .",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          7,
+          9,
+          0
+        ],
+        "source_position": 10015
+      },
+      {
+        "cross_encoder_score": -11.155227661132812,
+        "dataset": "QASPER",
+        "end_char": 10264,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "48c1db16544e06fee4a91c2c14e7e3a6",
+        "passage_rank": 9,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "1cc6c51e7c013d3d261cc129ac0f10e8",
+        "sentence_text": "However, speech recognition errors are badly modelled based on user semantics since they arise (mostly) due to the phonetics of the",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          7,
+          10,
+          0
+        ],
+        "source_position": 10133
+      },
+      {
+        "cross_encoder_score": -10.966170310974121,
+        "dataset": "QASPER",
+        "end_char": 10304,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "61b2ee2d322d840ae2428c66c5edf09e",
+        "passage_rank": 5,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "7a7ef5494f215e67a4e4b3fee78d9d21",
+        "sentence_text": "spoken words and not their semantics  .",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 10265
+      },
+      {
+        "cross_encoder_score": -10.98202133178711,
+        "dataset": "QASPER",
+        "end_char": 10466,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "61b2ee2d322d840ae2428c66c5edf09e",
+        "passage_rank": 5,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "416f4962317fe8f02acf91feae0c65b3",
+        "sentence_text": "Thus, an SDS that is trained with a natural language based error model is likely to outperform one trained with a semantic error model when tested on real users.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 10305
+      },
+      {
+        "cross_encoder_score": -8.35004711151123,
+        "dataset": "QASPER",
+        "end_char": 10638,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "61b2ee2d322d840ae2428c66c5edf09e",
+        "passage_rank": 5,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "553c98d03203151b5ea2691f2c3ca077",
+        "sentence_text": "Sequence-to-sequence learning for word-level user simulation is performed in  , though the model is not conditioned on any goal and hence not used for policy optimisation.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 10467
+      },
+      {
+        "cross_encoder_score": -10.511007308959961,
+        "dataset": "QASPER",
+        "end_char": 10761,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "61b2ee2d322d840ae2428c66c5edf09e",
+        "passage_rank": 5,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "b5934664b237530b5d68525b5946d462",
+        "sentence_text": "A word-level user simulator was also used in  where it was built by augmenting the ABUS with a natural language generator.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 10639
+      },
+      {
+        "cross_encoder_score": -10.849960327148438,
+        "dataset": "QASPER",
+        "end_char": 10836,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "61b2ee2d322d840ae2428c66c5edf09e",
+        "passage_rank": 5,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "9d2ba6a71305f376b8d3e6880ef1ecca",
+        "sentence_text": "Neural User Simulator\tAn overview of the NUS is given in Figure FIGREF2 .",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 10763
+      },
+      {
+        "cross_encoder_score": -11.291129112243652,
+        "dataset": "QASPER",
+        "end_char": 10925,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "61b2ee2d322d840ae2428c66c5edf09e",
+        "passage_rank": 5,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "ffa45519a0336fb9eaa29c26d256f0cf",
+        "sentence_text": "At the start of a dialogue a random goal INLINEFORM0 is generated by the Goal Generator.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 10837
+      },
+      {
+        "cross_encoder_score": -10.94140911102295,
+        "dataset": "QASPER",
+        "end_char": 10988,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "61b2ee2d322d840ae2428c66c5edf09e",
+        "passage_rank": 5,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "6c951a9933fb4fbc1444a99919b6e0e6",
+        "sentence_text": "The possibilities for INLINEFORM1 are defined by the ontology.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 10926
+      },
+      {
+        "cross_encoder_score": -11.286121368408203,
+        "dataset": "QASPER",
+        "end_char": 11239,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "61b2ee2d322d840ae2428c66c5edf09e",
+        "passage_rank": 5,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "64a011b640c98a4f3a64c15c8438531d",
+        "sentence_text": "In dialogue turn INLINEFORM2 , the output of the SDS ( INLINEFORM3 ) is passed to the NUS's Feature Extractor, which generates a feature vector INLINEFORM4 based on INLINEFORM5 , the current user goal, INLINEFORM6 , and parts of the dialogue history.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 10989
+      },
+      {
+        "cross_encoder_score": -11.20522689819336,
+        "dataset": "QASPER",
+        "end_char": 11300,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "61b2ee2d322d840ae2428c66c5edf09e",
+        "passage_rank": 5,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "ecf9af6c960594ea41df397379ec01b5",
+        "sentence_text": "This vector is appended to the Feature History INLINEFORM7 .",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "source_position": 11240
+      },
+      {
+        "cross_encoder_score": -11.26728343963623,
+        "dataset": "QASPER",
+        "end_char": 11449,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "61b2ee2d322d840ae2428c66c5edf09e",
+        "passage_rank": 5,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "2b1eec4a8b6a0ee493e4f83dcea34af0",
+        "sentence_text": "This sequence is passed to the sequence-to-sequence model (Fig. FIGREF7 ), which will generate the user's length INLINEFORM8 utterance INLINEFORM9 .",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          8,
+          9,
+          0
+        ],
+        "source_position": 11301
+      },
+      {
+        "cross_encoder_score": -9.234124183654785,
+        "dataset": "QASPER",
+        "end_char": 11462,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "61b2ee2d322d840ae2428c66c5edf09e",
+        "passage_rank": 5,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "239cc15bdf0c208dc9c603304dfa2ed0",
+        "sentence_text": "As in Figure",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          8,
+          10,
+          0
+        ],
+        "source_position": 11450
+      },
+      {
+        "cross_encoder_score": -10.827735900878906,
+        "dataset": "QASPER",
+        "end_char": 24837,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "838f2e22f1a7ed527d720b9e09724562",
+        "passage_rank": 7,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "2828618423171e10e5d6440afbf3058d",
+        "sentence_text": "strategy learned with a good user model still performs well when tested on poor user models.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          20,
+          0,
+          0
+        ],
+        "source_position": 24745
+      },
+      {
+        "cross_encoder_score": -11.270395278930664,
+        "dataset": "QASPER",
+        "end_char": 25074,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "838f2e22f1a7ed527d720b9e09724562",
+        "passage_rank": 7,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "522f3e90b18c82e71fdf195fd65dfde9",
+        "sentence_text": "If a policy performs well on all user simulators and not just on the one that it was trained on, it indicates that the US with which it was trained is diverse and realistic, and thus the policy is likely to perform better on real users.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          20,
+          1,
+          0
+        ],
+        "source_position": 24838
+      },
+      {
+        "cross_encoder_score": -10.889269828796387,
+        "dataset": "QASPER",
+        "end_char": 25185,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "838f2e22f1a7ed527d720b9e09724562",
+        "passage_rank": 7,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "b74c30419af02108e075bcc69f147f8c",
+        "sentence_text": "For each US five policies ( INLINEFORM1 ), each using a different random seed for initialisation, are trained.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          20,
+          2,
+          0
+        ],
+        "source_position": 25075
+      },
+      {
+        "cross_encoder_score": -11.249557495117188,
+        "dataset": "QASPER",
+        "end_char": 25276,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "838f2e22f1a7ed527d720b9e09724562",
+        "passage_rank": 7,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "a1b278c568b4b421ab109fa4cf6a15e9",
+        "sentence_text": "Results are reported for both the best and the average performance on 1000 test dialogues.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          20,
+          3,
+          0
+        ],
+        "source_position": 25186
+      },
+      {
+        "cross_encoder_score": -11.12746810913086,
+        "dataset": "QASPER",
+        "end_char": 25351,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "838f2e22f1a7ed527d720b9e09724562",
+        "passage_rank": 7,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "0b01fce33b5de297b5b68bda2d00cd1c",
+        "sentence_text": "The ABUS is programmed to always mention the new goal after a goal change.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          20,
+          4,
+          0
+        ],
+        "source_position": 25277
+      },
+      {
+        "cross_encoder_score": -11.261579513549805,
+        "dataset": "QASPER",
+        "end_char": 25489,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "838f2e22f1a7ed527d720b9e09724562",
+        "passage_rank": 7,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "fbdfaed2ca9ebb044f9c985bc2a50e2c",
+        "sentence_text": "In order to not let this affect our results we implement the same for the NUS by re-sampling a sentence if the new goal is not mentioned.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          20,
+          5,
+          0
+        ],
+        "source_position": 25352
+      },
+      {
+        "cross_encoder_score": -10.887669563293457,
+        "dataset": "QASPER",
+        "end_char": 25696,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "838f2e22f1a7ed527d720b9e09724562",
+        "passage_rank": 7,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "8b427745baa1cf8369e0c1c9f755529e",
+        "sentence_text": "Testing with real users\tThough the above test is already more indicative of policy performance on real users than measuring statistical metrics of user behaviour, a better test is to test with human users.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          20,
+          6,
+          0
+        ],
+        "source_position": 25491
+      },
+      {
+        "cross_encoder_score": -9.893183708190918,
+        "dataset": "QASPER",
+        "end_char": 25812,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "838f2e22f1a7ed527d720b9e09724562",
+        "passage_rank": 7,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "0398b3acd15d09016b0e1a1f1f64674c",
+        "sentence_text": "For the test on human users, two policies for each US that was used for training are chosen from the five policies.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          20,
+          7,
+          0
+        ],
+        "source_position": 25697
+      },
+      {
+        "cross_encoder_score": -11.04696273803711,
+        "dataset": "QASPER",
+        "end_char": 25884,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "838f2e22f1a7ed527d720b9e09724562",
+        "passage_rank": 7,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "f4a865affea26e697f69d900877f9586",
+        "sentence_text": "The first policy is the one that performed best when tested on the NUS.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          20,
+          8,
+          0
+        ],
+        "source_position": 25813
+      },
+      {
+        "cross_encoder_score": -10.490971565246582,
+        "dataset": "QASPER",
+        "end_char": 25951,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "838f2e22f1a7ed527d720b9e09724562",
+        "passage_rank": 7,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "09d0703e9cbe742da969719c219498e9",
+        "sentence_text": "The second is the one that performed best when tested on the ABUS.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          20,
+          9,
+          0
+        ],
+        "source_position": 25885
+      },
+      {
+        "cross_encoder_score": -11.093914031982422,
+        "dataset": "QASPER",
+        "end_char": 25988,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "838f2e22f1a7ed527d720b9e09724562",
+        "passage_rank": 7,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "5afd39a3a70463a0a9e9857e7708950f",
+        "sentence_text": "This choice of policies is motivated",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          20,
+          10,
+          0
+        ],
+        "source_position": 25952
+      },
+      {
+        "cross_encoder_score": -11.199806213378906,
+        "dataset": "QASPER",
+        "end_char": 29310,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "dfdbefcefa8d7de49023e87bd885f4be",
+        "passage_rank": 4,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "4e9c1becb2862ffee0990e133034dd3e",
+        "sentence_text": "trained on the ABUS, the best performing policy was the policy that performed best on the other US.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          24,
+          0,
+          0
+        ],
+        "source_position": 29211
+      },
+      {
+        "cross_encoder_score": -9.609550476074219,
+        "dataset": "QASPER",
+        "end_char": 29471,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "dfdbefcefa8d7de49023e87bd885f4be",
+        "passage_rank": 4,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "33f99f8d9481840645394ba8441bfad0",
+        "sentence_text": "Conclusion\tWe introduced the Neural User Simulator (NUS), which uses the system's response in its semantic form as input and gives a natural language response.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          24,
+          1,
+          0
+        ],
+        "source_position": 29312
+      },
+      {
+        "cross_encoder_score": -10.25692367553711,
+        "dataset": "QASPER",
+        "end_char": 29585,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "dfdbefcefa8d7de49023e87bd885f4be",
+        "passage_rank": 4,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "8f29f4ee3bcf1875baccc0055ab21741",
+        "sentence_text": "It thus needs less labelling of the training data than User Simulators that generate a response in semantic form.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          24,
+          2,
+          0
+        ],
+        "source_position": 29472
+      },
+      {
+        "cross_encoder_score": 4.38424825668335,
+        "dataset": "QASPER",
+        "end_char": 29780,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "dfdbefcefa8d7de49023e87bd885f4be",
+        "passage_rank": 4,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "3e517abda070e54b8d3a84d8e78e1707",
+        "sentence_text": "It was shown that the NUS learns realistic user behaviour from a corpus of recorded dialogues such that it can be used to optimise the policy of the dialogue manager of a spoken dialogue system.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          24,
+          3,
+          0
+        ],
+        "source_position": 29586
+      },
+      {
+        "cross_encoder_score": -11.04560661315918,
+        "dataset": "QASPER",
+        "end_char": 29895,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "dfdbefcefa8d7de49023e87bd885f4be",
+        "passage_rank": 4,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "f39dfa158d7aa796f0baae150c172ae3",
+        "sentence_text": "The NUS was compared to the Agenda-Based User Simulator by evaluating policies trained with these user simulators.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          24,
+          4,
+          0
+        ],
+        "source_position": 29781
+      },
+      {
+        "cross_encoder_score": -11.116092681884766,
+        "dataset": "QASPER",
+        "end_char": 29998,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "dfdbefcefa8d7de49023e87bd885f4be",
+        "passage_rank": 4,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "303f27054df213264b20662a52d33b3d",
+        "sentence_text": "The trained policies were compared both by testing them with simulated users and also with real users.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          24,
+          5,
+          0
+        ],
+        "source_position": 29896
+      },
+      {
+        "cross_encoder_score": -9.909250259399414,
+        "dataset": "QASPER",
+        "end_char": 30041,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "dfdbefcefa8d7de49023e87bd885f4be",
+        "passage_rank": 4,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "e0ffda84240aa6b62ff0948db62f488d",
+        "sentence_text": "The NUS excelled on both evaluation tasks.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          24,
+          6,
+          0
+        ],
+        "source_position": 29999
+      },
+      {
+        "cross_encoder_score": -11.139297485351562,
+        "dataset": "QASPER",
+        "end_char": 30172,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "dfdbefcefa8d7de49023e87bd885f4be",
+        "passage_rank": 4,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "46c12cc889956a1be8b559e5c3347034",
+        "sentence_text": "Acknowledgements\tThis research was partly funded by the EPSRC grant EP/M018946/1 Open Domain Statistical Spoken Dialogue Systems.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          24,
+          7,
+          0
+        ],
+        "source_position": 30043
+      },
+      {
+        "cross_encoder_score": -11.119036674499512,
+        "dataset": "QASPER",
+        "end_char": 30247,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "dfdbefcefa8d7de49023e87bd885f4be",
+        "passage_rank": 4,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "90ad56714f62af62015b36147563c92d",
+        "sentence_text": "Florian Kreyssig is supported by the Studienstiftung des Deutschen Volkes.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          24,
+          8,
+          0
+        ],
+        "source_position": 30173
+      },
+      {
+        "cross_encoder_score": -11.042399406433105,
+        "dataset": "QASPER",
+        "end_char": 30325,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "dfdbefcefa8d7de49023e87bd885f4be",
+        "passage_rank": 4,
+        "query_id": "a15bc19674d48cd9919ad1cf152bf49c88f4417d",
+        "sentence_id": "e2c8bfcfbdbfb69f79d6f74ba76d1340",
+        "sentence_text": "Pawe\u0142 Budzianowski is supported by the EPSRC and Toshiba Research Europe Ltd.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          24,
+          9,
+          0
+        ],
+        "source_position": 30248
+      }
+    ],
+    "scoring_seconds": 0.31393578101415187,
+    "source_fingerprint": "26eb939edf71ddbb028835004cf0b478ba76cad7a9cac5b068c895b3bad3d52b"
+  }
+}

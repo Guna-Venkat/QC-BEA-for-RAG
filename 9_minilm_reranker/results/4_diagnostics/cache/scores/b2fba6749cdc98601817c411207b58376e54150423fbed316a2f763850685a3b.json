@@ -1,0 +1,1771 @@
+{
+  "checksum": "e600a6c77b67c6eafcc02074cb9bcbd962b9d0cf3d8c413d7b371ecdf25dbbac",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "324"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 87,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "72ce2d6a325b8e7c480d4b2db92edc4dc039a4b5a99d2edb007c5ca9421c4322",
+    "query_id": "324",
+    "scores": [
+      {
+        "cross_encoder_score": -11.215052604675293,
+        "dataset": "SciFact",
+        "end_char": 94,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "acac7cb50f3293d319901ba5ee50a62b",
+        "passage_rank": 9,
+        "query_id": "324",
+        "sentence_id": "2b84cd6e94d4508869580c7b71f4038e",
+        "sentence_text": "Oncogenic mTOR signaling recruits myeloid-derived suppressor cells to promote tumor initiation",
+        "sentence_token_cost": 18,
+        "source_order": [
+          370,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.271843910217285,
+        "dataset": "SciFact",
+        "end_char": 201,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "acac7cb50f3293d319901ba5ee50a62b",
+        "passage_rank": 9,
+        "query_id": "324",
+        "sentence_id": "709357da1993b6e970bb67eed669613a",
+        "sentence_text": "Myeloid-derived suppressor cells (MDSCs) play critical roles in primary and metastatic cancer progression.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          370,
+          0,
+          1,
+          0
+        ],
+        "source_position": 95
+      },
+      {
+        "cross_encoder_score": -11.375167846679688,
+        "dataset": "SciFact",
+        "end_char": 365,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "acac7cb50f3293d319901ba5ee50a62b",
+        "passage_rank": 9,
+        "query_id": "324",
+        "sentence_id": "4390f2060d0365d4af9e659814a4c146",
+        "sentence_text": "MDSC regulation is widely variable even among patients harbouring the same type of malignancy, and the mechanisms governing such heterogeneity are largely unknown.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          370,
+          0,
+          2,
+          0
+        ],
+        "source_position": 202
+      },
+      {
+        "cross_encoder_score": -7.355709552764893,
+        "dataset": "SciFact",
+        "end_char": 587,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "acac7cb50f3293d319901ba5ee50a62b",
+        "passage_rank": 9,
+        "query_id": "324",
+        "sentence_id": "9bd4906029c9222f3b494d08a6a6b5e6",
+        "sentence_text": "Here, integrating human tumour genomics and syngeneic mammary tumour models, we demonstrate that mTOR signalling in cancer cells dictates a mammary tumour's ability to stimulate MDSC accumulation through regulating G-CSF.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          370,
+          0,
+          3,
+          0
+        ],
+        "source_position": 366
+      },
+      {
+        "cross_encoder_score": -3.4553043842315674,
+        "dataset": "SciFact",
+        "end_char": 733,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "acac7cb50f3293d319901ba5ee50a62b",
+        "passage_rank": 9,
+        "query_id": "324",
+        "sentence_id": "3d3fcec4dea5485b662d30c58b4bb1ed",
+        "sentence_text": "Inhibiting this pathway or its activators (for example, FGFR) impairs tumour progression, which is partially rescued by restoring MDSCs or G-CSF.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          370,
+          0,
+          4,
+          0
+        ],
+        "source_position": 588
+      },
+      {
+        "cross_encoder_score": -5.634995937347412,
+        "dataset": "SciFact",
+        "end_char": 788,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "acac7cb50f3293d319901ba5ee50a62b",
+        "passage_rank": 9,
+        "query_id": "324",
+        "sentence_id": "d62382290ccb6befd535ca8f66df978b",
+        "sentence_text": "Tumour-initiating cells (TICs) exhibit elevated G-CSF.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          370,
+          0,
+          5,
+          0
+        ],
+        "source_position": 734
+      },
+      {
+        "cross_encoder_score": -11.05323600769043,
+        "dataset": "SciFact",
+        "end_char": 900,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "acac7cb50f3293d319901ba5ee50a62b",
+        "passage_rank": 9,
+        "query_id": "324",
+        "sentence_id": "2d58a478b8a7606791714ec77eb9b56c",
+        "sentence_text": "MDSCs reciprocally increase TIC frequency through activating Notch in tumour cells, forming a feedforward loop.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          370,
+          0,
+          6,
+          0
+        ],
+        "source_position": 789
+      },
+      {
+        "cross_encoder_score": -11.21642780303955,
+        "dataset": "SciFact",
+        "end_char": 1008,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "acac7cb50f3293d319901ba5ee50a62b",
+        "passage_rank": 9,
+        "query_id": "324",
+        "sentence_id": "74f84e6537dbe534b441f347eb17900c",
+        "sentence_text": "Analyses of primary breast cancers and patient-derived xenografts corroborate these mechanisms in patients.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          370,
+          0,
+          7,
+          0
+        ],
+        "source_position": 901
+      },
+      {
+        "cross_encoder_score": -11.35676383972168,
+        "dataset": "SciFact",
+        "end_char": 1227,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "acac7cb50f3293d319901ba5ee50a62b",
+        "passage_rank": 9,
+        "query_id": "324",
+        "sentence_id": "152418519c464f3adba46186f1fa7b8e",
+        "sentence_text": "These findings establish a non-canonical oncogenic role of mTOR signalling in recruiting pro-tumorigenic MDSCs and show how defined cancer subsets may evolve to promote and depend on a distinct immune microenvironment.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          370,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1009
+      },
+      {
+        "cross_encoder_score": -7.625050067901611,
+        "dataset": "SciFact",
+        "end_char": 133,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "5b42225192ceb4278f794039db45d7c0",
+        "passage_rank": 5,
+        "query_id": "324",
+        "sentence_id": "8ef1a1ca286902c5dab4a2276cffc841",
+        "sentence_text": "Cancer-Associated Fibroblasts Neutralize the Anti-tumor Effect of CSF1 Receptor Blockade by Inducing PMN-MDSC Infiltration of Tumors.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          630,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.35635757446289,
+        "dataset": "SciFact",
+        "end_char": 216,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "5b42225192ceb4278f794039db45d7c0",
+        "passage_rank": 5,
+        "query_id": "324",
+        "sentence_id": "61c6b4b9c168e2814d10d474f7113c1e",
+        "sentence_text": "Tumor-associated macrophages (TAM) contribute to all aspects of tumor progression.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          630,
+          0,
+          1,
+          0
+        ],
+        "source_position": 134
+      },
+      {
+        "cross_encoder_score": -7.005282402038574,
+        "dataset": "SciFact",
+        "end_char": 329,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "5b42225192ceb4278f794039db45d7c0",
+        "passage_rank": 5,
+        "query_id": "324",
+        "sentence_id": "04dd32605ff75d40ccef062996083949",
+        "sentence_text": "Use of CSF1R inhibitors to target TAM is therapeutically appealing, but has had very limited anti-tumor effects.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          630,
+          0,
+          2,
+          0
+        ],
+        "source_position": 217
+      },
+      {
+        "cross_encoder_score": -7.277583599090576,
+        "dataset": "SciFact",
+        "end_char": 419,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "5b42225192ceb4278f794039db45d7c0",
+        "passage_rank": 5,
+        "query_id": "324",
+        "sentence_id": "79d85dacf3824b71d4d3e9e1781f334d",
+        "sentence_text": "Here, we have identified the mechanism that limited the effect of CSF1R targeted therapy.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          630,
+          0,
+          3,
+          0
+        ],
+        "source_position": 330
+      },
+      {
+        "cross_encoder_score": -11.114377975463867,
+        "dataset": "SciFact",
+        "end_char": 548,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "5b42225192ceb4278f794039db45d7c0",
+        "passage_rank": 5,
+        "query_id": "324",
+        "sentence_id": "1dcc8d7afa6e1ab0ee2d7be95569ec80",
+        "sentence_text": "We demonstrated that carcinoma-associated fibroblasts (CAF) are major sources of chemokines that recruit granulocytes to tumors.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          630,
+          0,
+          4,
+          0
+        ],
+        "source_position": 420
+      },
+      {
+        "cross_encoder_score": -8.11302375793457,
+        "dataset": "SciFact",
+        "end_char": 717,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "5b42225192ceb4278f794039db45d7c0",
+        "passage_rank": 5,
+        "query_id": "324",
+        "sentence_id": "4b04bd0cdff8237b5d19da9deb04402e",
+        "sentence_text": "CSF1 produced by tumor cells caused HDAC2-mediated downregulation of granulocyte-specific chemokine expression in CAF, which limited migration of these cells to tumors.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          630,
+          0,
+          5,
+          0
+        ],
+        "source_position": 549
+      },
+      {
+        "cross_encoder_score": -6.37153434753418,
+        "dataset": "SciFact",
+        "end_char": 846,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "5b42225192ceb4278f794039db45d7c0",
+        "passage_rank": 5,
+        "query_id": "324",
+        "sentence_id": "fd49604648ced39c28f5b1f55fa4be95",
+        "sentence_text": "Treatment with CSF1R inhibitors disrupted this crosstalk and triggered a profound increase in granulocyte recruitment to tumors.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          630,
+          0,
+          6,
+          0
+        ],
+        "source_position": 718
+      },
+      {
+        "cross_encoder_score": -6.4650444984436035,
+        "dataset": "SciFact",
+        "end_char": 977,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "5b42225192ceb4278f794039db45d7c0",
+        "passage_rank": 5,
+        "query_id": "324",
+        "sentence_id": "50646b6f89551296f3c1e477d37b2b6c",
+        "sentence_text": "Combining CSF1R inhibitor with a CXCR2 antagonist blocked granulocyte infiltration of tumors and showed strong anti-tumor effects.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          630,
+          0,
+          7,
+          0
+        ],
+        "source_position": 847
+      },
+      {
+        "cross_encoder_score": -11.15511703491211,
+        "dataset": "SciFact",
+        "end_char": 98,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "0a671e680cbcff620c2338138a2ae158",
+        "passage_rank": 1,
+        "query_id": "324",
+        "sentence_id": "6c0795b7c6620c159b27866f389e6dbb",
+        "sentence_text": "Rps14 haploinsufficiency causes a block in erythroid differentiation mediated by S100A8 and S100A9",
+        "sentence_token_cost": 32,
+        "source_order": [
+          1448,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.576751708984375,
+        "dataset": "SciFact",
+        "end_char": 298,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "0a671e680cbcff620c2338138a2ae158",
+        "passage_rank": 1,
+        "query_id": "324",
+        "sentence_id": "1b01bfcb61f48f9ea4d6342563e7015e",
+        "sentence_text": "Impaired erythropoiesis in the deletion 5q (del(5q)) subtype of myelodysplastic syndrome (MDS) has been linked to heterozygous deletion of RPS14, which encodes the ribosomal protein small subunit 14.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          1448,
+          0,
+          1,
+          0
+        ],
+        "source_position": 99
+      },
+      {
+        "cross_encoder_score": -11.312450408935547,
+        "dataset": "SciFact",
+        "end_char": 593,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "0a671e680cbcff620c2338138a2ae158",
+        "passage_rank": 1,
+        "query_id": "324",
+        "sentence_id": "8deba8cddf49e6493212acb546debdfe",
+        "sentence_text": "We generated mice with conditional inactivation of Rps14 and demonstrated an erythroid differentiation defect that is dependent on the tumor suppressor protein p53 (encoded by Trp53 in mice) and is characterized by apoptosis at the transition from polychromatic to orthochromatic erythroblasts.",
+        "sentence_token_cost": 63,
+        "source_order": [
+          1448,
+          0,
+          2,
+          0
+        ],
+        "source_position": 299
+      },
+      {
+        "cross_encoder_score": -11.165903091430664,
+        "dataset": "SciFact",
+        "end_char": 729,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "0a671e680cbcff620c2338138a2ae158",
+        "passage_rank": 1,
+        "query_id": "324",
+        "sentence_id": "a65684ef9d12986d2c47e7f6dba87a8d",
+        "sentence_text": "This defect resulted in age-dependent progressive anemia, megakaryocyte dysplasia and loss of hematopoietic stem cell (HSC) quiescence.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          1448,
+          0,
+          3,
+          0
+        ],
+        "source_position": 594
+      },
+      {
+        "cross_encoder_score": -11.145084381103516,
+        "dataset": "SciFact",
+        "end_char": 938,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "0a671e680cbcff620c2338138a2ae158",
+        "passage_rank": 1,
+        "query_id": "324",
+        "sentence_id": "3f4485691ac91ba9e85c396b202e2377",
+        "sentence_text": "As assessed by quantitative proteomics, mutant erythroblasts expressed higher levels of proteins involved in innate immune signaling, notably the heterodimeric S100 calcium-binding proteins S100a8 and S100a9.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          1448,
+          0,
+          4,
+          0
+        ],
+        "source_position": 730
+      },
+      {
+        "cross_encoder_score": -9.619253158569336,
+        "dataset": "SciFact",
+        "end_char": 1344,
+        "pair_tokens_before_truncation": 123,
+        "pair_truncated": false,
+        "passage_id": "0a671e680cbcff620c2338138a2ae158",
+        "passage_rank": 1,
+        "query_id": "324",
+        "sentence_id": "dae0c9a1bda0a7f3671d3931f71a3d95",
+        "sentence_text": "S100a8\u2014whose expression was increased in mutant erythroblasts, monocytes and macrophages\u2014is functionally involved in the erythroid defect caused by the Rps14 deletion, as addition of recombinant S100a8 was sufficient to induce a differentiation defect in wild-type erythroid cells, and genetic inactivation of S100a8 expression rescued the erythroid differentiation defect of Rps14-haploinsufficient HSCs.",
+        "sentence_token_cost": 103,
+        "source_order": [
+          1448,
+          0,
+          5,
+          0
+        ],
+        "source_position": 939
+      },
+      {
+        "cross_encoder_score": -10.72024154663086,
+        "dataset": "SciFact",
+        "end_char": 1544,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "0a671e680cbcff620c2338138a2ae158",
+        "passage_rank": 1,
+        "query_id": "324",
+        "sentence_id": "113cfbd3d7cc4f5823c0ba1b0afc9a88",
+        "sentence_text": "Our data link Rps14 haploinsufficiency in del(5q) MDS to activation of the innate immune system and induction of S100A8-S100A9 expression, leading to a p53-dependent erythroid differentiation defect.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          1448,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1345
+      },
+      {
+        "cross_encoder_score": -8.483348846435547,
+        "dataset": "SciFact",
+        "end_char": 99,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "ec9628a74969667e0990e0e51a869b32",
+        "passage_rank": 6,
+        "query_id": "324",
+        "sentence_id": "200fb511f8c7ca61586b696df345c8d0",
+        "sentence_text": "PU.1-mediated upregulation of CSF1R is crucial for leukemia stem cell potential induced by MOZ-TIF2",
+        "sentence_token_cost": 25,
+        "source_order": [
+          1559,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.309595108032227,
+        "dataset": "SciFact",
+        "end_char": 194,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "ec9628a74969667e0990e0e51a869b32",
+        "passage_rank": 6,
+        "query_id": "324",
+        "sentence_id": "af7e1664608675d62aad7e8c76ffbafe",
+        "sentence_text": "Leukemias and other cancers possess self-renewing stem cells that help to maintain the cancer.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          1559,
+          0,
+          1,
+          0
+        ],
+        "source_position": 100
+      },
+      {
+        "cross_encoder_score": -11.139327049255371,
+        "dataset": "SciFact",
+        "end_char": 283,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "ec9628a74969667e0990e0e51a869b32",
+        "passage_rank": 6,
+        "query_id": "324",
+        "sentence_id": "4c2a65afc91a57947f8f3cb29b2f8148",
+        "sentence_text": "Cancer stem cell eradication is thought to be crucial for successful anticancer therapy.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          1559,
+          0,
+          2,
+          0
+        ],
+        "source_position": 195
+      },
+      {
+        "cross_encoder_score": -11.15773868560791,
+        "dataset": "SciFact",
+        "end_char": 495,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "ec9628a74969667e0990e0e51a869b32",
+        "passage_rank": 6,
+        "query_id": "324",
+        "sentence_id": "0494d0d7061de24c89f22aa7a139690a",
+        "sentence_text": "Using an acute myeloid leukemia (AML) model induced by the leukemia-associated monocytic leukemia zinc finger (MOZ)-TIF2 fusion protein, we show here that AML can be cured by the ablation of leukemia stem cells.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          1559,
+          0,
+          3,
+          0
+        ],
+        "source_position": 284
+      },
+      {
+        "cross_encoder_score": -9.38458251953125,
+        "dataset": "SciFact",
+        "end_char": 710,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "ec9628a74969667e0990e0e51a869b32",
+        "passage_rank": 6,
+        "query_id": "324",
+        "sentence_id": "de61de07044ca066920430869c64053c",
+        "sentence_text": "The MOZ fusion proteins MOZ-TIF2 and MOZ-CBP interacted with the transcription factor PU.1 to stimulate the expression of macrophage colony\u2013stimulating factor receptor (CSF1R, also known as M-CSFR, c-FMS or CD115).",
+        "sentence_token_cost": 57,
+        "source_order": [
+          1559,
+          0,
+          4,
+          0
+        ],
+        "source_position": 496
+      },
+      {
+        "cross_encoder_score": -10.980630874633789,
+        "dataset": "SciFact",
+        "end_char": 844,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "ec9628a74969667e0990e0e51a869b32",
+        "passage_rank": 6,
+        "query_id": "324",
+        "sentence_id": "bb51a5781a585616025777cf9f2f4ccb",
+        "sentence_text": "Studies using PU.1-deficient mice showed that PU.1 is essential for the ability of MOZ-TIF2 to establish and maintain AML stem cells.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          1559,
+          0,
+          5,
+          0
+        ],
+        "source_position": 711
+      },
+      {
+        "cross_encoder_score": -8.702951431274414,
+        "dataset": "SciFact",
+        "end_char": 1010,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "ec9628a74969667e0990e0e51a869b32",
+        "passage_rank": 6,
+        "query_id": "324",
+        "sentence_id": "cf030ec4123bb3d8a4712ce24246489b",
+        "sentence_text": "Cells expressing high amounts of CSF1R (CSF1Rhigh cells), but not those expressing low amounts of CSF1R (CSF1Rlow cells), showed potent leukemia-initiating activity.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          1559,
+          0,
+          6,
+          0
+        ],
+        "source_position": 845
+      },
+      {
+        "cross_encoder_score": -7.5329976081848145,
+        "dataset": "SciFact",
+        "end_char": 1152,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "ec9628a74969667e0990e0e51a869b32",
+        "passage_rank": 6,
+        "query_id": "324",
+        "sentence_id": "13af0d9e0d5b699b9ae8a35dea4bacc1",
+        "sentence_text": "Using transgenic mice expressing a drug-inducible suicide gene controlled by the CSF1R promoter, we cured AML by ablation of CSF1Rhigh cells.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          1559,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1011
+      },
+      {
+        "cross_encoder_score": -7.584142684936523,
+        "dataset": "SciFact",
+        "end_char": 1292,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "ec9628a74969667e0990e0e51a869b32",
+        "passage_rank": 6,
+        "query_id": "324",
+        "sentence_id": "0d73e8a5d1ec9cdf61699df86d9f11b1",
+        "sentence_text": "Moreover, induction of AML was suppressed in CSF1R-deficient mice and CSF1R inhibitors slowed the progression of MOZ-TIF2\u2013induced leukemia.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          1559,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1153
+      },
+      {
+        "cross_encoder_score": -9.536036491394043,
+        "dataset": "SciFact",
+        "end_char": 1514,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "ec9628a74969667e0990e0e51a869b32",
+        "passage_rank": 6,
+        "query_id": "324",
+        "sentence_id": "998b90cc8852eb9b14af433e2baad53d",
+        "sentence_text": "Thus, in this subtype of AML, leukemia stem cells are contained within the CSF1Rhigh cell population, and we suggest that targeting of PU.1-mediated upregulation of CSF1R expression might be a useful therapeutic approach.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          1559,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1293
+      },
+      {
+        "cross_encoder_score": -10.687973022460938,
+        "dataset": "SciFact",
+        "end_char": 103,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "3a640b801f811f740ac510a5caf7eb49",
+        "passage_rank": 8,
+        "query_id": "324",
+        "sentence_id": "07113d452955895603a75149f2f3bb9e",
+        "sentence_text": "Proliferating cell nuclear antigen acts as a cytoplasmic platform controlling human neutrophil survival",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2479,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.150352478027344,
+        "dataset": "SciFact",
+        "end_char": 258,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "3a640b801f811f740ac510a5caf7eb49",
+        "passage_rank": 8,
+        "query_id": "324",
+        "sentence_id": "8f08125e516da820f3a7e05235f12b76",
+        "sentence_text": "Neutrophil apoptosis is a highly regulated process essential for inflammation resolution, the molecular mechanisms of which are only partially elucidated.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2479,
+          0,
+          1,
+          0
+        ],
+        "source_position": 104
+      },
+      {
+        "cross_encoder_score": -11.30118465423584,
+        "dataset": "SciFact",
+        "end_char": 444,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "3a640b801f811f740ac510a5caf7eb49",
+        "passage_rank": 8,
+        "query_id": "324",
+        "sentence_id": "cc82d40a19df32d765c47d85c55b5424",
+        "sentence_text": "In this study, we describe a survival pathway controlled by proliferating cell nuclear antigen (PCNA), a nuclear factor involved in DNA replication and repairing of proliferating cells.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          2479,
+          0,
+          2,
+          0
+        ],
+        "source_position": 259
+      },
+      {
+        "cross_encoder_score": -10.944509506225586,
+        "dataset": "SciFact",
+        "end_char": 662,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "3a640b801f811f740ac510a5caf7eb49",
+        "passage_rank": 8,
+        "query_id": "324",
+        "sentence_id": "e8c21ced82951cd740efef51f2ce4547",
+        "sentence_text": "We show that mature neutrophils, despite their inability to proliferate, express high levels of PCNA exclusively in their cytosol and constitutively associated with procaspases, presumably to prevent their activation.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          2479,
+          0,
+          3,
+          0
+        ],
+        "source_position": 445
+      },
+      {
+        "cross_encoder_score": -4.412529945373535,
+        "dataset": "SciFact",
+        "end_char": 845,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "3a640b801f811f740ac510a5caf7eb49",
+        "passage_rank": 8,
+        "query_id": "324",
+        "sentence_id": "2f3448036173442f47a29f3a88cea6fc",
+        "sentence_text": "Notably, cytosolic PCNA abundance decreased during apoptosis, and increased during in vitro and in vivo exposure to the survival factor granulocyte colony-stimulating factor (G-CSF).",
+        "sentence_token_cost": 39,
+        "source_order": [
+          2479,
+          0,
+          4,
+          0
+        ],
+        "source_position": 663
+      },
+      {
+        "cross_encoder_score": -11.137957572937012,
+        "dataset": "SciFact",
+        "end_char": 1090,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "3a640b801f811f740ac510a5caf7eb49",
+        "passage_rank": 8,
+        "query_id": "324",
+        "sentence_id": "c0043bceaea35080839044a12d847811",
+        "sentence_text": "Peptides derived from the cyclin-dependent kinase inhibitor p21, which compete with procaspases to bind PCNA, triggered neutrophil apoptosis thus demonstrating that specific modification of PCNA protein interactions affects neutrophil survival.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          2479,
+          0,
+          5,
+          0
+        ],
+        "source_position": 846
+      },
+      {
+        "cross_encoder_score": -9.58012866973877,
+        "dataset": "SciFact",
+        "end_char": 1282,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "3a640b801f811f740ac510a5caf7eb49",
+        "passage_rank": 8,
+        "query_id": "324",
+        "sentence_id": "9163185da6bf27b8485399cc7650ab89",
+        "sentence_text": "Furthermore, PCNA overexpression rendered neutrophil-differentiated PLB985 myeloid cells significantly more resistant to TNF-related apoptosis-inducing ligand- or gliotoxin-induced apoptosis.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          2479,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1091
+      },
+      {
+        "cross_encoder_score": -10.96070384979248,
+        "dataset": "SciFact",
+        "end_char": 1407,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "3a640b801f811f740ac510a5caf7eb49",
+        "passage_rank": 8,
+        "query_id": "324",
+        "sentence_id": "1e5a81f997061362b0814f276aad2bf9",
+        "sentence_text": "Conversely, a decrease in PCNA expression after PCNA small interfering RNA transfection sensitized these cells to apoptosis.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          2479,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1283
+      },
+      {
+        "cross_encoder_score": -10.854541778564453,
+        "dataset": "SciFact",
+        "end_char": 1568,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "3a640b801f811f740ac510a5caf7eb49",
+        "passage_rank": 8,
+        "query_id": "324",
+        "sentence_id": "e40a76bc247f31827d95d51e08f767a3",
+        "sentence_text": "Finally, a mutation in the PCNA interdomain-connecting loop, the binding site for many partners, significantly decreased the PCNA-mediated antiapoptotic effect.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          2479,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1408
+      },
+      {
+        "cross_encoder_score": -11.166537284851074,
+        "dataset": "SciFact",
+        "end_char": 1722,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "3a640b801f811f740ac510a5caf7eb49",
+        "passage_rank": 8,
+        "query_id": "324",
+        "sentence_id": "d1dee5d3aa57110aec1fe7839cd8a0bf",
+        "sentence_text": "These results identify PCNA as a regulator of neutrophil lifespan, thereby highlighting a novel target to potentially modulate pathological inflammation.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2479,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1569
+      },
+      {
+        "cross_encoder_score": -11.084986686706543,
+        "dataset": "SciFact",
+        "end_char": 90,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "250b187a73853c5e8c939344d8fa967f",
+        "passage_rank": 3,
+        "query_id": "324",
+        "sentence_id": "35ba79635f7fd72ed4634a9d78f2224a",
+        "sentence_text": "Induction of cell cycle entry eliminates human leukemia stem cells in a mouse model of AML",
+        "sentence_token_cost": 18,
+        "source_order": [
+          2942,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.335864067077637,
+        "dataset": "SciFact",
+        "end_char": 251,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "250b187a73853c5e8c939344d8fa967f",
+        "passage_rank": 3,
+        "query_id": "324",
+        "sentence_id": "ed803dacba00b95b444c9c22351e5aa5",
+        "sentence_text": "Cancer stem cells have been proposed to be important for initiation, maintenance and recurrence of various malignancies, including acute myeloid leukemia (AML).",
+        "sentence_token_cost": 30,
+        "source_order": [
+          2942,
+          0,
+          1,
+          0
+        ],
+        "source_position": 91
+      },
+      {
+        "cross_encoder_score": -11.253655433654785,
+        "dataset": "SciFact",
+        "end_char": 415,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "250b187a73853c5e8c939344d8fa967f",
+        "passage_rank": 3,
+        "query_id": "324",
+        "sentence_id": "166b3de0336c1b51c532cebeeba353b3",
+        "sentence_text": "We have previously reported that CD34+CD38\u2212 human primary AML stem cells residing in the endosteal region of the bone marrow are relatively chemotherapy resistant.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          2942,
+          0,
+          2,
+          0
+        ],
+        "source_position": 252
+      },
+      {
+        "cross_encoder_score": -7.413821697235107,
+        "dataset": "SciFact",
+        "end_char": 683,
+        "pair_tokens_before_truncation": 87,
+        "pair_truncated": false,
+        "passage_id": "250b187a73853c5e8c939344d8fa967f",
+        "passage_rank": 3,
+        "query_id": "324",
+        "sentence_id": "ed2aff74db6407bf9075980f95f0c4c4",
+        "sentence_text": "Using a NOD/SCID/IL2r\u03b3null mouse model of human AML, we now show that the AML stem cells in the endosteal region are cell cycle quiescent and that these stem cells can be induced to enter the cell cycle by treatment with granulocyte colony-stimulating factor (G-CSF).",
+        "sentence_token_cost": 70,
+        "source_order": [
+          2942,
+          0,
+          3,
+          0
+        ],
+        "source_position": 416
+      },
+      {
+        "cross_encoder_score": -3.6988372802734375,
+        "dataset": "SciFact",
+        "end_char": 857,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "250b187a73853c5e8c939344d8fa967f",
+        "passage_rank": 3,
+        "query_id": "324",
+        "sentence_id": "6941302c0d3f776e0cc67ac0a05db188",
+        "sentence_text": "In combination with cell cycle-dependent chemotherapy, G-CSF treatment significantly enhances induction of apoptosis and elimination of human primary AML stem cells in vivo.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          2942,
+          0,
+          4,
+          0
+        ],
+        "source_position": 684
+      },
+      {
+        "cross_encoder_score": -11.236400604248047,
+        "dataset": "SciFact",
+        "end_char": 1021,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "250b187a73853c5e8c939344d8fa967f",
+        "passage_rank": 3,
+        "query_id": "324",
+        "sentence_id": "35309dbb6d0ac236b40ebdbaa6ae1ed9",
+        "sentence_text": "The combination therapy leads to significantly increased survival of secondary recipients after transplantation of leukemia cells compared with chemotherapy alone.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2942,
+          0,
+          5,
+          0
+        ],
+        "source_position": 858
+      },
+      {
+        "cross_encoder_score": -11.094558715820312,
+        "dataset": "SciFact",
+        "end_char": 119,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "2d073b68714e205ac8d255c2df90c66c",
+        "passage_rank": 2,
+        "query_id": "324",
+        "sentence_id": "d0002b4cb7917edc7406931255b8cc3e",
+        "sentence_text": "Requirement of endogenous stem cell factor and granulocyte-colony-stimulating factor for IL-17-mediated granulopoiesis.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          3621,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.174880981445312,
+        "dataset": "SciFact",
+        "end_char": 170,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "2d073b68714e205ac8d255c2df90c66c",
+        "passage_rank": 2,
+        "query_id": "324",
+        "sentence_id": "0c6d3b7cc6743f184a1ec78e049c5754",
+        "sentence_text": "IL-17 is a novel, CD4+ T cell-restricted cytokine.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3621,
+          0,
+          1,
+          0
+        ],
+        "source_position": 120
+      },
+      {
+        "cross_encoder_score": -11.120870590209961,
+        "dataset": "SciFact",
+        "end_char": 266,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "2d073b68714e205ac8d255c2df90c66c",
+        "passage_rank": 2,
+        "query_id": "324",
+        "sentence_id": "5aa8fa51856513ebb7bd174e818c2936",
+        "sentence_text": "In vivo, it stimulates hematopoiesis and causes neutrophilia consisting of mature granulocytes.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          3621,
+          0,
+          2,
+          0
+        ],
+        "source_position": 171
+      },
+      {
+        "cross_encoder_score": -6.083140850067139,
+        "dataset": "SciFact",
+        "end_char": 457,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "2d073b68714e205ac8d255c2df90c66c",
+        "passage_rank": 2,
+        "query_id": "324",
+        "sentence_id": "9735ddb3ac300d2f178b1e71d9f8e2c4",
+        "sentence_text": "In this study, we show that IL-17-mediated granulopoiesis requires G-CSF release and the presence or induction of the transmembrane form of stem cell factor (SCF) for optimal granulopoiesis.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          3621,
+          0,
+          3,
+          0
+        ],
+        "source_position": 267
+      },
+      {
+        "cross_encoder_score": -4.1864776611328125,
+        "dataset": "SciFact",
+        "end_char": 538,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "2d073b68714e205ac8d255c2df90c66c",
+        "passage_rank": 2,
+        "query_id": "324",
+        "sentence_id": "4f100f998405b81bf8dde494549d12c8",
+        "sentence_text": "However, IL-17 also protects mice from G-CSF neutralization-induced neutropenia.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          3621,
+          0,
+          4,
+          0
+        ],
+        "source_position": 458
+      },
+      {
+        "cross_encoder_score": -2.360678195953369,
+        "dataset": "SciFact",
+        "end_char": 760,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "2d073b68714e205ac8d255c2df90c66c",
+        "passage_rank": 2,
+        "query_id": "324",
+        "sentence_id": "be53c344683801f33051e3dacb799537",
+        "sentence_text": "G-CSF neutralization completely reversed IL-17-induced BM progenitor expansion, whereas splenic CFU-GM/CFU-granulocyte-erythrocyte-megakaryocyte-monocyte was only reduced by 50% in both Sl/Sld and littermate control mice.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          3621,
+          0,
+          5,
+          0
+        ],
+        "source_position": 539
+      },
+      {
+        "cross_encoder_score": -5.102466583251953,
+        "dataset": "SciFact",
+        "end_char": 924,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "2d073b68714e205ac8d255c2df90c66c",
+        "passage_rank": 2,
+        "query_id": "324",
+        "sentence_id": "b29cad4ad17af1ec6845991fec75a656",
+        "sentence_text": "Thus, there remained a significant SCF/G-CSF-independent effect of IL-17 on splenic granulopoiesis, resulting in a preservation of mature circulating granulocytes.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          3621,
+          0,
+          6,
+          0
+        ],
+        "source_position": 761
+      },
+      {
+        "cross_encoder_score": -11.272734642028809,
+        "dataset": "SciFact",
+        "end_char": 1064,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "2d073b68714e205ac8d255c2df90c66c",
+        "passage_rank": 2,
+        "query_id": "324",
+        "sentence_id": "03d61eb4a98fbd3fc5f77c57be9f1c64",
+        "sentence_text": "IL-17 is a cytokine that potentially interconnects lymphocytic and myeloid host defense and may have potential for therapeutic development.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          3621,
+          0,
+          7,
+          0
+        ],
+        "source_position": 925
+      },
+      {
+        "cross_encoder_score": -10.777210235595703,
+        "dataset": "SciFact",
+        "end_char": 44,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "bf567d75ab2f1d04043ef1665655efda",
+        "passage_rank": 4,
+        "query_id": "324",
+        "sentence_id": "55f0c5ebdc8b58968393739c6f485584",
+        "sentence_text": "Redox-dependent downregulation of Rho by Rac",
+        "sentence_token_cost": 11,
+        "source_order": [
+          4091,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.025457382202148,
+        "dataset": "SciFact",
+        "end_char": 167,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "bf567d75ab2f1d04043ef1665655efda",
+        "passage_rank": 4,
+        "query_id": "324",
+        "sentence_id": "e777c8e0ebf4b78e21138b4629987306",
+        "sentence_text": "Rac and Rho GTPases function as critical regulators of actin cytoskeleton remodelling during cell spreading and migration.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          4091,
+          0,
+          1,
+          0
+        ],
+        "source_position": 45
+      },
+      {
+        "cross_encoder_score": -11.104931831359863,
+        "dataset": "SciFact",
+        "end_char": 293,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "bf567d75ab2f1d04043ef1665655efda",
+        "passage_rank": 4,
+        "query_id": "324",
+        "sentence_id": "089ff4daaedbcb3aba304a0d8f362a41",
+        "sentence_text": "Here we demonstrate that Rac-mediated reactive oxygen species (ROS) production results in the downregulation of Rho activity.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          4091,
+          0,
+          2,
+          0
+        ],
+        "source_position": 168
+      },
+      {
+        "cross_encoder_score": -10.855881690979004,
+        "dataset": "SciFact",
+        "end_char": 434,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "bf567d75ab2f1d04043ef1665655efda",
+        "passage_rank": 4,
+        "query_id": "324",
+        "sentence_id": "a089304433e7f512549dd14fc872fedf",
+        "sentence_text": "The redox-dependent decrease in Rho activity is required for Rac-induced formation of membrane ruffles and integrin-mediated cell spreading.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          4091,
+          0,
+          3,
+          0
+        ],
+        "source_position": 294
+      },
+      {
+        "cross_encoder_score": -11.058409690856934,
+        "dataset": "SciFact",
+        "end_char": 680,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "bf567d75ab2f1d04043ef1665655efda",
+        "passage_rank": 4,
+        "query_id": "324",
+        "sentence_id": "701cb58a535ca5f2516725bd2fee94ec",
+        "sentence_text": "The pathway linking generation of ROS to downregulation of Rho involves inhibition of the low-molecular-weight protein tyrosine phosphatase (LMW-PTP) and then an increase in the tyrosine phosphorylation and activation of its target, p190Rho-GAP.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          4091,
+          0,
+          4,
+          0
+        ],
+        "source_position": 435
+      },
+      {
+        "cross_encoder_score": -11.226972579956055,
+        "dataset": "SciFact",
+        "end_char": 838,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "bf567d75ab2f1d04043ef1665655efda",
+        "passage_rank": 4,
+        "query_id": "324",
+        "sentence_id": "e74ad9a9a488b664ae4c9d741b7791b0",
+        "sentence_text": "Our findings define a novel mechanism for the coupling of changes in cellular redox state to the control of actin cytoskeleton rearrangements by Rho GTPases.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          4091,
+          0,
+          5,
+          0
+        ],
+        "source_position": 681
+      },
+      {
+        "cross_encoder_score": -11.226645469665527,
+        "dataset": "SciFact",
+        "end_char": 80,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "1d4d9d0439acbe76091201c9f00fb43e",
+        "passage_rank": 7,
+        "query_id": "324",
+        "sentence_id": "da77158a34742ddc693ac496d9ac1db6",
+        "sentence_text": "Rho, Rac and Cdc42 regulate actin organization and cell adhesion in macrophages.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          4496,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.343671798706055,
+        "dataset": "SciFact",
+        "end_char": 244,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "1d4d9d0439acbe76091201c9f00fb43e",
+        "passage_rank": 7,
+        "query_id": "324",
+        "sentence_id": "74d06dd0d9490704e9e0265ae4bd9eae",
+        "sentence_text": "Rho family proteins are known to regulate actin organization in fibroblasts, but their functions in cells of haematopoietic origin have not been studied in detail.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          4496,
+          0,
+          1,
+          0
+        ],
+        "source_position": 81
+      },
+      {
+        "cross_encoder_score": -9.225720405578613,
+        "dataset": "SciFact",
+        "end_char": 422,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "1d4d9d0439acbe76091201c9f00fb43e",
+        "passage_rank": 7,
+        "query_id": "324",
+        "sentence_id": "9c2064dd31b7cc747e24232c4b0ff66e",
+        "sentence_text": "Bac1.2F5 cells are a colony-stimulating factor-1 (CSF-1)-dependent murine macrophage cell line; CSF-1 stimulates their proliferation and motility, and acts as a chemoattractant.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          4496,
+          0,
+          2,
+          0
+        ],
+        "source_position": 245
+      },
+      {
+        "cross_encoder_score": -8.679604530334473,
+        "dataset": "SciFact",
+        "end_char": 653,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "1d4d9d0439acbe76091201c9f00fb43e",
+        "passage_rank": 7,
+        "query_id": "324",
+        "sentence_id": "e9ed1311fed2ac5c419b010f1e6b8ed8",
+        "sentence_text": "CSF-1 rapidly induced actin reorganization in Bac1 cells: it stimulated the formation of filopodia, lamellipodia and membrane ruffles at the plasma membrane, as well as the appearance of fine actin cables within the cell interior.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          4496,
+          0,
+          3,
+          0
+        ],
+        "source_position": 423
+      },
+      {
+        "cross_encoder_score": -11.042132377624512,
+        "dataset": "SciFact",
+        "end_char": 764,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "1d4d9d0439acbe76091201c9f00fb43e",
+        "passage_rank": 7,
+        "query_id": "324",
+        "sentence_id": "bb016fe4969ca7b17c4a98134463238f",
+        "sentence_text": "Microinjection of constitutively activated (V12)Rac1 stimulated lamellipodium formation and membrane ruffling.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          4496,
+          0,
+          4,
+          0
+        ],
+        "source_position": 654
+      },
+      {
+        "cross_encoder_score": -7.454591751098633,
+        "dataset": "SciFact",
+        "end_char": 890,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "1d4d9d0439acbe76091201c9f00fb43e",
+        "passage_rank": 7,
+        "query_id": "324",
+        "sentence_id": "0079855d0b010cdec4c52a5322925cbc",
+        "sentence_text": "The dominant inhibitory Rac mutant, N17Rac1, inhibited CSF-1-induced lamellipodium formation, and also induced cell rounding.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          4496,
+          0,
+          5,
+          0
+        ],
+        "source_position": 765
+      },
+      {
+        "cross_encoder_score": -7.591903209686279,
+        "dataset": "SciFact",
+        "end_char": 1055,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "1d4d9d0439acbe76091201c9f00fb43e",
+        "passage_rank": 7,
+        "query_id": "324",
+        "sentence_id": "388152ab09640bf64d99bc436825df0a",
+        "sentence_text": "V12Cdc42 induced the formation of long filopodia, while the dominant inhibitory mutant N17Cdc42 prevented CSF-1-induced formation of filopodia but not lamellipodia.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          4496,
+          0,
+          6,
+          0
+        ],
+        "source_position": 891
+      },
+      {
+        "cross_encoder_score": -10.857741355895996,
+        "dataset": "SciFact",
+        "end_char": 1192,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "1d4d9d0439acbe76091201c9f00fb43e",
+        "passage_rank": 7,
+        "query_id": "324",
+        "sentence_id": "6b1372f110185a8ab720a472148b5a77",
+        "sentence_text": "V14RhoA stimulated actin cable assembly and cell contraction, while the Rho inhibitor, C3 transferase, induced the loss of actin cables.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          4496,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1056
+      },
+      {
+        "cross_encoder_score": -11.254788398742676,
+        "dataset": "SciFact",
+        "end_char": 1336,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "1d4d9d0439acbe76091201c9f00fb43e",
+        "passage_rank": 7,
+        "query_id": "324",
+        "sentence_id": "abde84e57f5aa813c51c191c54248503",
+        "sentence_text": "Bac1 cells had cell-to-substratum adhesion sites containing beta1 integrin, pp125FAK, paxillin, vinculin, and tyrosine phosphorylated proteins.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          4496,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1193
+      },
+      {
+        "cross_encoder_score": -8.280950546264648,
+        "dataset": "SciFact",
+        "end_char": 1475,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "1d4d9d0439acbe76091201c9f00fb43e",
+        "passage_rank": 7,
+        "query_id": "324",
+        "sentence_id": "e123ccaf4887f0ebda42b8492f8fd551",
+        "sentence_text": "These 'focal complexes' were present in growing and CSF-1-starved cells, but were disassembled in cells injected with N17Cdc42 or N17Rac1.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          4496,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1337
+      },
+      {
+        "cross_encoder_score": -11.109511375427246,
+        "dataset": "SciFact",
+        "end_char": 1600,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "1d4d9d0439acbe76091201c9f00fb43e",
+        "passage_rank": 7,
+        "query_id": "324",
+        "sentence_id": "a5e69d65380b0d3a4969abb0d351f736",
+        "sentence_text": "Interestingly, beta1 integrin did not disperse until long after focal phosphotyrosine and vinculin staining had disappeared.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          4496,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1476
+      },
+      {
+        "cross_encoder_score": -11.31087589263916,
+        "dataset": "SciFact",
+        "end_char": 1829,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "1d4d9d0439acbe76091201c9f00fb43e",
+        "passage_rank": 7,
+        "query_id": "324",
+        "sentence_id": "b2dde989a27b93408dc41dc298f7ab00",
+        "sentence_text": "We conclude that in Bac1 macrophages Cdc42, Rac and Rho regulate the formation of distinct actin filament-based structures, and that Cdc42 and Rac are also required for the assembly of adhesion sites to the extracellular matrix.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          4496,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1601
+      },
+      {
+        "cross_encoder_score": -10.685670852661133,
+        "dataset": "SciFact",
+        "end_char": 128,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "f55d745ce1c7d83b01c734e9f0a775e4",
+        "passage_rank": 10,
+        "query_id": "324",
+        "sentence_id": "7b293776791ac537c23dcfaa54324bfe",
+        "sentence_text": "Human bone marrow adipocytes block granulopoiesis through neuropilin-1-induced granulocyte colony-stimulating factor inhibition.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          4851,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.353787422180176,
+        "dataset": "SciFact",
+        "end_char": 265,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "f55d745ce1c7d83b01c734e9f0a775e4",
+        "passage_rank": 10,
+        "query_id": "324",
+        "sentence_id": "9e193dc473435323a325cd187d36f8c1",
+        "sentence_text": "Adipocytes are part of hematopoietic microenvironment, even though up to now in humans, their role in hematopoiesis is still questioned.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          4851,
+          0,
+          1,
+          0
+        ],
+        "source_position": 129
+      },
+      {
+        "cross_encoder_score": -11.197478294372559,
+        "dataset": "SciFact",
+        "end_char": 471,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "f55d745ce1c7d83b01c734e9f0a775e4",
+        "passage_rank": 10,
+        "query_id": "324",
+        "sentence_id": "9a2ceec29a105b324cb040957b658c5a",
+        "sentence_text": "We have previously shown that accumulation of fat cells in femoral bone marrow (BM) coincides with increased expression of neuropilin-1 (NP-1), while it is weakly expressed in hematopoietic iliac crest BM.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          4851,
+          0,
+          2,
+          0
+        ],
+        "source_position": 266
+      },
+      {
+        "cross_encoder_score": -11.270818710327148,
+        "dataset": "SciFact",
+        "end_char": 603,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "f55d745ce1c7d83b01c734e9f0a775e4",
+        "passage_rank": 10,
+        "query_id": "324",
+        "sentence_id": "7d3830240ba90f8f6b90ddf39abf1cc2",
+        "sentence_text": "Starting from this observation, we postulated that adipocytes might exert a negative effect on hematopoiesis mediated through NP-1.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          4851,
+          0,
+          3,
+          0
+        ],
+        "source_position": 472
+      },
+      {
+        "cross_encoder_score": -11.315951347351074,
+        "dataset": "SciFact",
+        "end_char": 805,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "f55d745ce1c7d83b01c734e9f0a775e4",
+        "passage_rank": 10,
+        "query_id": "324",
+        "sentence_id": "f9459e784b937a269a91c8b71151c05c",
+        "sentence_text": "To test this hypothesis, we set up BM adipocytes differentiated into fibroblast-like fat cells (FLFC), which share the major characteristics of primitive unilocular fat cells, as an experimental model.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          4851,
+          0,
+          4,
+          0
+        ],
+        "source_position": 604
+      },
+      {
+        "cross_encoder_score": -11.186657905578613,
+        "dataset": "SciFact",
+        "end_char": 977,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "f55d745ce1c7d83b01c734e9f0a775e4",
+        "passage_rank": 10,
+        "query_id": "324",
+        "sentence_id": "8ffff365d3e8b1cefeb42e2af6217f21",
+        "sentence_text": "As expected, FLFCs constitutively produced macrophage colony stimulating factor and induced CD34(+) differentiation into macrophages independently of cell-to-cell contact.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          4851,
+          0,
+          5,
+          0
+        ],
+        "source_position": 806
+      },
+      {
+        "cross_encoder_score": -11.12998104095459,
+        "dataset": "SciFact",
+        "end_char": 1161,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "f55d745ce1c7d83b01c734e9f0a775e4",
+        "passage_rank": 10,
+        "query_id": "324",
+        "sentence_id": "8e3734cd0c415a3d224d69e7300ced4c",
+        "sentence_text": "By contrast, granulopoiesis was hampered by cell-to-cell contact but could be restored in transwell culture conditions, together with granulocyte colony stimulating factor production.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          4851,
+          0,
+          6,
+          0
+        ],
+        "source_position": 978
+      },
+      {
+        "cross_encoder_score": -11.0545072555542,
+        "dataset": "SciFact",
+        "end_char": 1356,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "f55d745ce1c7d83b01c734e9f0a775e4",
+        "passage_rank": 10,
+        "query_id": "324",
+        "sentence_id": "b708c0be7bb4726c6c12ea4deaca231b",
+        "sentence_text": "Both functions were also recovered when FLFCs cultured in contact with CD34(+) cells were treated with an antibody neutralizing NP-1, which proved its critical implication in contact inhibition.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          4851,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1162
+      },
+      {
+        "cross_encoder_score": -10.47555160522461,
+        "dataset": "SciFact",
+        "end_char": 1478,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "f55d745ce1c7d83b01c734e9f0a775e4",
+        "passage_rank": 10,
+        "query_id": "324",
+        "sentence_id": "b939c9e690706f0386e5d4a4c16618f7",
+        "sentence_text": "An inflammatory cytokine such as interleukin-1 beta or dexamethasone modulates FLFC properties to restore granulopoiesis.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          4851,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1357
+      },
+      {
+        "cross_encoder_score": -11.390116691589355,
+        "dataset": "SciFact",
+        "end_char": 1643,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "f55d745ce1c7d83b01c734e9f0a775e4",
+        "passage_rank": 10,
+        "query_id": "324",
+        "sentence_id": "def06a8f16547e3f6b9e711652aea138",
+        "sentence_text": "Our data provide the first evidence that primary adipocytes exert regulatory functions during hematopoiesis that might be implicated in some pathological processes.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          4851,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1479
+      },
+      {
+        "cross_encoder_score": -11.272892951965332,
+        "dataset": "SciFact",
+        "end_char": 1726,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "f55d745ce1c7d83b01c734e9f0a775e4",
+        "passage_rank": 10,
+        "query_id": "324",
+        "sentence_id": "70f30fffa2e628e3747e2504fa8fd1b2",
+        "sentence_text": "Disclosure of potential conflicts of interest is found at the end of this article.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          4851,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1644
+      }
+    ],
+    "scoring_seconds": 0.4600169979967177,
+    "source_fingerprint": "2119b34e1828ffa49af9afe0530f05ccce8b07307df58c76135eefa0f44585f2"
+  }
+}

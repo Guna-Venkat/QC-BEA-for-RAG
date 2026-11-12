@@ -1,0 +1,1711 @@
+{
+  "checksum": "4554a2134bcddccd80f2b65dbb5040f55ba93d272d84f9a56e64c744c528e34d",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "21548433abd21346659505296fb0576e78287a74"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 84,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "4ef24a5b4b557130d7b6a8fb5f1ab77fdf24280df5f33f510360d6890ab4fe0b",
+    "query_id": "21548433abd21346659505296fb0576e78287a74",
+    "scores": [
+      {
+        "cross_encoder_score": -10.879132270812988,
+        "dataset": "QASPER",
+        "end_char": 3081,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "1f3dbc92b93d1b545d9d6f2c6eef804b",
+        "passage_rank": 5,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "b9290cb3b8d53869d55213410d14983d",
+        "sentence_text": "topic of the competition is the classification of different types of harassment and it is divided in two tasks.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2970
+      },
+      {
+        "cross_encoder_score": -10.862765312194824,
+        "dataset": "QASPER",
+        "end_char": 3319,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "1f3dbc92b93d1b545d9d6f2c6eef804b",
+        "passage_rank": 5,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "a4b62effe7472d0469a1f2133bc1ec35",
+        "sentence_text": "The first one is the classification of the tweets in harassment and non-harassment categories, while the second one is the classification in specific harassment categories like indirect harassment, physical and sexual harassment as well.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 3082
+      },
+      {
+        "cross_encoder_score": -0.23725026845932007,
+        "dataset": "QASPER",
+        "end_char": 3434,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "1f3dbc92b93d1b545d9d6f2c6eef804b",
+        "passage_rank": 5,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "c30b5709e527ae5a5ba9c6d006572eb6",
+        "sentence_text": "We are using the dataset of the competition, which includes text from tweets having the aforementioned categories.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 3320
+      },
+      {
+        "cross_encoder_score": -9.95296573638916,
+        "dataset": "QASPER",
+        "end_char": 3571,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "1f3dbc92b93d1b545d9d6f2c6eef804b",
+        "passage_rank": 5,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "23f13ff430efb9823d75bf8c7d61b7ea",
+        "sentence_text": "Our approach is based on the Recurrent Neural Networks and particularly we are using a deep, classi\ufb01cation specific attention mechanism.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3435
+      },
+      {
+        "cross_encoder_score": -10.473968505859375,
+        "dataset": "QASPER",
+        "end_char": 3717,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "1f3dbc92b93d1b545d9d6f2c6eef804b",
+        "passage_rank": 5,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "4969e74aa1b593c0cb32291d1d1e9106",
+        "sentence_text": "Moreover, we present a comparison between different variations of this attention-based approach like multi-attention and single attention models.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3572
+      },
+      {
+        "cross_encoder_score": 0.8535078763961792,
+        "dataset": "QASPER",
+        "end_char": 3847,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "1f3dbc92b93d1b545d9d6f2c6eef804b",
+        "passage_rank": 5,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "23b51e6997fda91955967adaeb82bf5f",
+        "sentence_text": "The next Section includes a short description of the related work, while the third Section includes a description of the dataset.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3718
+      },
+      {
+        "cross_encoder_score": -9.65035629272461,
+        "dataset": "QASPER",
+        "end_char": 3888,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "1f3dbc92b93d1b545d9d6f2c6eef804b",
+        "passage_rank": 5,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "c27d581c4d1d64266285182e20ac4687",
+        "sentence_text": "After that, we describe our methodology.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3848
+      },
+      {
+        "cross_encoder_score": -10.449736595153809,
+        "dataset": "QASPER",
+        "end_char": 3972,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "1f3dbc92b93d1b545d9d6f2c6eef804b",
+        "passage_rank": 5,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "ed3aed450ec369b54312dc1b84dcc22b",
+        "sentence_text": "Finally, we describe the experiments and we present the results and our conclusion.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3889
+      },
+      {
+        "cross_encoder_score": -10.904257774353027,
+        "dataset": "QASPER",
+        "end_char": 4104,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "1f3dbc92b93d1b545d9d6f2c6eef804b",
+        "passage_rank": 5,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "353b53fa361e922f89cf543e6478570a",
+        "sentence_text": "Related Work\tWaseem et al.  were the first who collected hateful tweets and categorized them into being sexist, racist or neither.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 3974
+      },
+      {
+        "cross_encoder_score": -10.83862018585205,
+        "dataset": "QASPER",
+        "end_char": 4174,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "1f3dbc92b93d1b545d9d6f2c6eef804b",
+        "passage_rank": 5,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "848d82722183670ba941b2b43d72ec46",
+        "sentence_text": "However, they did not provide specific definitions for each category.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          2,
+          9,
+          0
+        ],
+        "source_position": 4105
+      },
+      {
+        "cross_encoder_score": -11.318812370300293,
+        "dataset": "QASPER",
+        "end_char": 4282,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "1f3dbc92b93d1b545d9d6f2c6eef804b",
+        "passage_rank": 5,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "35f2c0ec317268cd9459cc7ea80fbec9",
+        "sentence_text": "Jha and Mamidi  focused on just sexist tweets and proposed two categories of hostile and benevolent sexism.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          2,
+          10,
+          0
+        ],
+        "source_position": 4175
+      },
+      {
+        "cross_encoder_score": -11.267325401306152,
+        "dataset": "QASPER",
+        "end_char": 4386,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "1f3dbc92b93d1b545d9d6f2c6eef804b",
+        "passage_rank": 5,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "3b2d14c9eeff9c470982e843b58ae1a3",
+        "sentence_text": "However, these categories were general as they ignored other types of sexism happening in social media.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          2,
+          11,
+          0
+        ],
+        "source_position": 4283
+      },
+      {
+        "cross_encoder_score": -11.03453540802002,
+        "dataset": "QASPER",
+        "end_char": 4503,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "496a3dda24070238c0ebd973d4c30a32",
+        "passage_rank": 10,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "21b12ae8698f9e75674404a065af1d93",
+        "sentence_text": "Sharifirad S. and Matwin S.  proposed complimentary categories of sexist language inspired from social science work.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 4387
+      },
+      {
+        "cross_encoder_score": -11.087665557861328,
+        "dataset": "QASPER",
+        "end_char": 4645,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "496a3dda24070238c0ebd973d4c30a32",
+        "passage_rank": 10,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "33e17fac8bffe90e74ce76bdcbd774d3",
+        "sentence_text": "They categorized the sexist tweets into the categories of indirect harassment, information threat, sexual harassment and physical harassment.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 4504
+      },
+      {
+        "cross_encoder_score": -10.708888053894043,
+        "dataset": "QASPER",
+        "end_char": 4902,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "496a3dda24070238c0ebd973d4c30a32",
+        "passage_rank": 10,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "24fd1232b07dc923ed50b7b41a96abb4",
+        "sentence_text": "In the next year the same authors proposed  a more comprehensive categorization of online harassment in social media e.g. twitter into the following categories, indirect harassment, information threat, sexual harassment, physical harassment and not sexist.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 4646
+      },
+      {
+        "cross_encoder_score": -10.513997077941895,
+        "dataset": "QASPER",
+        "end_char": 5001,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "496a3dda24070238c0ebd973d4c30a32",
+        "passage_rank": 10,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "c7d0eaeba9330171ceebdc7556b3556d",
+        "sentence_text": "For the detection of hate speech in social media like twitter, many approaches have been proposed.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4903
+      },
+      {
+        "cross_encoder_score": -10.136719703674316,
+        "dataset": "QASPER",
+        "end_char": 5137,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "496a3dda24070238c0ebd973d4c30a32",
+        "passage_rank": 10,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "f2dc6a683472cc99fdfd6bbdd41da56b",
+        "sentence_text": "Jha and Mamidi  tested support vector machine, bi-directional RNN encoder-decoder and FastText on hostile and benevolent sexist tweets.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 5002
+      },
+      {
+        "cross_encoder_score": -9.17879867553711,
+        "dataset": "QASPER",
+        "end_char": 5251,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "496a3dda24070238c0ebd973d4c30a32",
+        "passage_rank": 10,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "89f01e0193c3cbe7f8001ec5cecb2648",
+        "sentence_text": "They also used SentiWordNet and subjectivity lexicon on the extracted phrases to show the polarity of the tweets.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 5138
+      },
+      {
+        "cross_encoder_score": -2.7843613624572754,
+        "dataset": "QASPER",
+        "end_char": 5547,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "496a3dda24070238c0ebd973d4c30a32",
+        "passage_rank": 10,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "c80b07a7c5732fc3ecb54ef1f6e6511a",
+        "sentence_text": "Sharifirad et al.  trained, tested and evaluated different classification methods on the SemEval2018 dataset and chose the classifier with the highest accuracy for testing on each category of sexist tweets to know the mental state and the affectual state of the user who tweets in each category.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 5252
+      },
+      {
+        "cross_encoder_score": -7.446910381317139,
+        "dataset": "QASPER",
+        "end_char": 5717,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "496a3dda24070238c0ebd973d4c30a32",
+        "passage_rank": 10,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "0f843a65acbf85f43e63c533625860b9",
+        "sentence_text": "To overcome the limitations of small data sets on sexist speech detection, Sharifirad S. et al.  have applied text augmentation and text generation with certain success.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 5548
+      },
+      {
+        "cross_encoder_score": -8.076733589172363,
+        "dataset": "QASPER",
+        "end_char": 5722,
+        "pair_tokens_before_truncation": 13,
+        "pair_truncated": false,
+        "passage_id": "496a3dda24070238c0ebd973d4c30a32",
+        "passage_rank": 10,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "4b19590d5d0575abdf48885b6190d8a8",
+        "sentence_text": "They",
+        "sentence_token_cost": 1,
+        "source_order": [
+          0,
+          3,
+          8,
+          0
+        ],
+        "source_position": 5718
+      },
+      {
+        "cross_encoder_score": -10.990466117858887,
+        "dataset": "QASPER",
+        "end_char": 7147,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "e15461390d0af21b61a49c989a439201",
+        "passage_rank": 1,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "47e4d0687f278af6935f736b1c3bae0f",
+        "sentence_text": "non-abusive, and then the class of abuse (Sexism or Racism) is determined.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 7073
+      },
+      {
+        "cross_encoder_score": -10.312028884887695,
+        "dataset": "QASPER",
+        "end_char": 7306,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "e15461390d0af21b61a49c989a439201",
+        "passage_rank": 1,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "e2e873642dfb18111e10c087764cb31c",
+        "sentence_text": "However, while the first part of the two step classi\ufb01cation performs quite well, it falls short in detecting the particular class the abusive text belongs to.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 7148
+      },
+      {
+        "cross_encoder_score": -9.491897583007812,
+        "dataset": "QASPER",
+        "end_char": 7526,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "e15461390d0af21b61a49c989a439201",
+        "passage_rank": 1,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "b31d9bbd1405ad2b0a794c070921ce07",
+        "sentence_text": "Pitsilis et al.  have proposed a detection scheme that is an ensemble of RNN classi\ufb01ers, which incorporates various features associated with user related information, such as the users\u2019 tendency towards racism or sexism",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 7307
+      },
+      {
+        "cross_encoder_score": 5.337708473205566,
+        "dataset": "QASPER",
+        "end_char": 7661,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "e15461390d0af21b61a49c989a439201",
+        "passage_rank": 1,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "5557e9a45cff1a81b9d420d3c197ff94",
+        "sentence_text": "Dataset description\tThe dataset from Twitter that we are using in our work, consists of a train set, a validation set and a test set.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 7528
+      },
+      {
+        "cross_encoder_score": -10.449165344238281,
+        "dataset": "QASPER",
+        "end_char": 7783,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "e15461390d0af21b61a49c989a439201",
+        "passage_rank": 1,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "ded8f49035602ef39b0577304196c64b",
+        "sentence_text": "It was published for the \"First workshop on categorizing different types of online harassment languages in social media\".",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 7662
+      },
+      {
+        "cross_encoder_score": -1.4704194068908691,
+        "dataset": "QASPER",
+        "end_char": 7881,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "e15461390d0af21b61a49c989a439201",
+        "passage_rank": 1,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "04fd46aba31a6f68350c693aee82c2ad",
+        "sentence_text": "The whole dataset is divided into two categories, which are harassment and non-harassment tweets.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 7784
+      },
+      {
+        "cross_encoder_score": -11.107078552246094,
+        "dataset": "QASPER",
+        "end_char": 8043,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "e15461390d0af21b61a49c989a439201",
+        "passage_rank": 1,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "97c0da2cb670e0b23fd7dc8e387413aa",
+        "sentence_text": "Moreover, considering the type of the harassment, the tweets are divided into three sub-categories which are indirect harassment, sexual and physical harassment.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 7882
+      },
+      {
+        "cross_encoder_score": -4.452929496765137,
+        "dataset": "QASPER",
+        "end_char": 8110,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "e15461390d0af21b61a49c989a439201",
+        "passage_rank": 1,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "98e9466e0556f4ee3872e24da6ce7d94",
+        "sentence_text": "We can see in Table TABREF1 the class distribution of our dataset.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 8044
+      },
+      {
+        "cross_encoder_score": -10.626901626586914,
+        "dataset": "QASPER",
+        "end_char": 8270,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "e15461390d0af21b61a49c989a439201",
+        "passage_rank": 1,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "79186893301d96c645d141613f76495e",
+        "sentence_text": "One important issue here is that the categories of indirect and physical harassment seem to be more rare in the train set than in the validation and test sets.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          5,
+          8,
+          0
+        ],
+        "source_position": 8111
+      },
+      {
+        "cross_encoder_score": -6.998188018798828,
+        "dataset": "QASPER",
+        "end_char": 8351,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "e15461390d0af21b61a49c989a439201",
+        "passage_rank": 1,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "c4e55a168bee263abb34045c1b4a5f28",
+        "sentence_text": "To tackle this issue, as we describe in the next section, we are performing data",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          5,
+          9,
+          0
+        ],
+        "source_position": 8271
+      },
+      {
+        "cross_encoder_score": -9.703326225280762,
+        "dataset": "QASPER",
+        "end_char": 8376,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "f86705e978c9b67cdfe9e5ea871f00bd",
+        "passage_rank": 2,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "fd3937a6b32d7b98a1c408506251bd3f",
+        "sentence_text": "augmentation techniques.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 8352
+      },
+      {
+        "cross_encoder_score": -1.8868051767349243,
+        "dataset": "QASPER",
+        "end_char": 8461,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "f86705e978c9b67cdfe9e5ea871f00bd",
+        "passage_rank": 2,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "dddc52153ae5823ae254ff23609b0a3a",
+        "sentence_text": "However, the dataset is imbalanced and this has a significant impact in our results.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 8377
+      },
+      {
+        "cross_encoder_score": 0.8866704106330872,
+        "dataset": "QASPER",
+        "end_char": 8626,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "f86705e978c9b67cdfe9e5ea871f00bd",
+        "passage_rank": 2,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "65cf15646a009792c2b59f5f9cda8183",
+        "sentence_text": "Proposed methodology ::: Data augmentation\tAs described before one crucial issue that we are trying to tackle in this work is that the given dataset is imbalanced.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 8463
+      },
+      {
+        "cross_encoder_score": -10.270332336425781,
+        "dataset": "QASPER",
+        "end_char": 8831,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "f86705e978c9b67cdfe9e5ea871f00bd",
+        "passage_rank": 2,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "b1a21540498895233bbc64c5ac34cca6",
+        "sentence_text": "Particularly, there are only a few instances from indirect and physical harassment categories respectively in the train set, while there are much more in the validation and test sets for these categories.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 8627
+      },
+      {
+        "cross_encoder_score": -10.869173049926758,
+        "dataset": "QASPER",
+        "end_char": 9010,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "f86705e978c9b67cdfe9e5ea871f00bd",
+        "passage_rank": 2,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "7f50ba338a7441e74cc2387a3e35783c",
+        "sentence_text": "To tackle this issue we applying a back-translation method , where we translate indirect and physical harassment tweets of the train set from english to german, french and greek.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 8832
+      },
+      {
+        "cross_encoder_score": -8.503084182739258,
+        "dataset": "QASPER",
+        "end_char": 9095,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "f86705e978c9b67cdfe9e5ea871f00bd",
+        "passage_rank": 2,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "1ae4376111895808648cae1e3c43e3ac",
+        "sentence_text": "After that, we translate them back to english in order to achieve data augmentation.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 9011
+      },
+      {
+        "cross_encoder_score": -8.04049015045166,
+        "dataset": "QASPER",
+        "end_char": 9264,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "f86705e978c9b67cdfe9e5ea871f00bd",
+        "passage_rank": 2,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "45e705e2b0a8e6be4a03bb7c025a6aa0",
+        "sentence_text": "These \"noisy\" data that have been translated back, increase the number of indirect and physical harassment tweets and boost significantly the performance of our models.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 9096
+      },
+      {
+        "cross_encoder_score": -6.735484600067139,
+        "dataset": "QASPER",
+        "end_char": 9427,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "f86705e978c9b67cdfe9e5ea871f00bd",
+        "passage_rank": 2,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "ccf96072edcafed0ad590f1441f3b498",
+        "sentence_text": "Another way to enrich our models is the use of pre-trained word embeddings from 2B Twitter data  having 27B tokens, for the initialization of the embedding layer.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 9265
+      },
+      {
+        "cross_encoder_score": -10.481529235839844,
+        "dataset": "QASPER",
+        "end_char": 9560,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "f86705e978c9b67cdfe9e5ea871f00bd",
+        "passage_rank": 2,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "1905d051369f374bb350ae585422f4ec",
+        "sentence_text": "Proposed methodology ::: Text processing\tBefore training our models we are processing the given tweets using a tweet pre-processor.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 9429
+      },
+      {
+        "cross_encoder_score": -0.9728609323501587,
+        "dataset": "QASPER",
+        "end_char": 9624,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "f86705e978c9b67cdfe9e5ea871f00bd",
+        "passage_rank": 2,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "03f3233c9b1b23bd01d12a2d0ea3c2f3",
+        "sentence_text": "The scope here is the cleaning and tokenization of the dataset.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          6,
+          9,
+          0
+        ],
+        "source_position": 9561
+      },
+      {
+        "cross_encoder_score": -10.525919914245605,
+        "dataset": "QASPER",
+        "end_char": 9705,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "f86705e978c9b67cdfe9e5ea871f00bd",
+        "passage_rank": 2,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "2a156aff37ec3acb67fffbdf10d85f28",
+        "sentence_text": "Proposed methodology ::: RNN Model and Attention Mechanism\tWe are presenting an",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          6,
+          10,
+          0
+        ],
+        "source_position": 9626
+      },
+      {
+        "cross_encoder_score": -9.958131790161133,
+        "dataset": "QASPER",
+        "end_char": 10815,
+        "pair_tokens_before_truncation": 95,
+        "pair_truncated": false,
+        "passage_id": "9d47504f3498afbb67871368b2e464ae",
+        "passage_rank": 9,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "10fe40fe0bf54db465d042a06c78d5f3",
+        "sentence_text": "$w_{t}$ and the previous hidden state $h_{t-1}$, $\\odot $ represents the element-wise multiplication, $r_{t} \\in R^{m}$ is the reset gate, $z_{t} \\in R^{m}$ is the update gate, $\\sigma $ is the sigmoid function.",
+        "sentence_token_cost": 68,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 10604
+      },
+      {
+        "cross_encoder_score": -10.14431381225586,
+        "dataset": "QASPER",
+        "end_char": 10940,
+        "pair_tokens_before_truncation": 100,
+        "pair_truncated": false,
+        "passage_id": "9d47504f3498afbb67871368b2e464ae",
+        "passage_rank": 9,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "ba15c43e2e723c8ff36d90b409e4f7be",
+        "sentence_text": "Also $W_{h}, W_{z}, W_{r} \\in R^{m \\times d}$ and $U_{h}, U_{z}, U_{r} \\in R^{m \\times m}$, $b_{h}, b_{z}, b_{r} \\in R^{m}$.",
+        "sentence_token_cost": 67,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 10816
+      },
+      {
+        "cross_encoder_score": -10.09350299835205,
+        "dataset": "QASPER",
+        "end_char": 11343,
+        "pair_tokens_before_truncation": 149,
+        "pair_truncated": false,
+        "passage_id": "9d47504f3498afbb67871368b2e464ae",
+        "passage_rank": 9,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "b23da010fcf1cd27a63c26cf74a587d4",
+        "sentence_text": "After the computation of state $h_{k}$ the LR Layer estimates the probability that tweet w should be considered as harassment, with $W_{p} \\in R^{1 \\times m}, b_{p} \\in R$: We would like to add an attention mechanism similar to the one presented in , so that the LR Layer will consider the weighted sum $h_{sum}$ of all the hidden states instead of $h_{k}$: $h_{sum} = \\sum _{t=1}^{k} \\alpha _{t}h_{t}$",
+        "sentence_token_cost": 118,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 10941
+      },
+      {
+        "cross_encoder_score": -10.76602554321289,
+        "dataset": "QASPER",
+        "end_char": 12492,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "11e807eb74c1703e2775cfe1d217565e",
+        "passage_rank": 7,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "64e4f70a188b9d749b240129b06247f6",
+        "sentence_text": "a projection layer for the word embeddings (see Fig. FIGREF2).",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 12430
+      },
+      {
+        "cross_encoder_score": -10.58169174194336,
+        "dataset": "QASPER",
+        "end_char": 12567,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "11e807eb74c1703e2775cfe1d217565e",
+        "passage_rank": 7,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "ad47bbfaf07a088e3fbabbacb809f5a7",
+        "sentence_text": "In the next subsection we describe the Model Architecture of our approach.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 12493
+      },
+      {
+        "cross_encoder_score": -8.559331893920898,
+        "dataset": "QASPER",
+        "end_char": 12768,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "11e807eb74c1703e2775cfe1d217565e",
+        "passage_rank": 7,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "d5598e4591f2d866518c8a77045bbb3b",
+        "sentence_text": "Proposed methodology ::: Model Architecture\tThe Embedding Layer is initialized using pre-trained word embeddings of dimension 200 from Twitter data that have been described in a previous sub-section.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 12569
+      },
+      {
+        "cross_encoder_score": -9.178156852722168,
+        "dataset": "QASPER",
+        "end_char": 12929,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "11e807eb74c1703e2775cfe1d217565e",
+        "passage_rank": 7,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "1ff7e6dfa4b126077a7455c4d1a1e8da",
+        "sentence_text": "After the Embedding Layer, we are applying a Spatial Dropout Layer, which drops a certain percentage of dimensions from each word vector in the training sample.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 12769
+      },
+      {
+        "cross_encoder_score": -10.530625343322754,
+        "dataset": "QASPER",
+        "end_char": 13052,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "11e807eb74c1703e2775cfe1d217565e",
+        "passage_rank": 7,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "b398004c3958e7759771561e0e685d27",
+        "sentence_text": "The role of Dropout is to improve generalization performance by preventing activations from becoming strongly correlated .",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 12930
+      },
+      {
+        "cross_encoder_score": -7.448489189147949,
+        "dataset": "QASPER",
+        "end_char": 13284,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "11e807eb74c1703e2775cfe1d217565e",
+        "passage_rank": 7,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "09fb29caa7b00bab300746bc188b193b",
+        "sentence_text": "Spatial Dropout, which has been proposed in , is an alternative way to use dropout with convolutional neural networks as it is able to dropout entire feature maps from the convolutional layer which are then not used during pooling.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 13053
+      },
+      {
+        "cross_encoder_score": -8.322342872619629,
+        "dataset": "QASPER",
+        "end_char": 13558,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "11e807eb74c1703e2775cfe1d217565e",
+        "passage_rank": 7,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "a2582ec1ba38c11e0b21a30d7bf15fdc",
+        "sentence_text": "After that, the word embeddings are passing through a one-layer MLP, which has tanh as activation function and 128 hidden units, in order to project them in the vector space of our problem considering that they have been pre-trained using text that has a different subject.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 13285
+      },
+      {
+        "cross_encoder_score": -10.810789108276367,
+        "dataset": "QASPER",
+        "end_char": 13659,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "11e807eb74c1703e2775cfe1d217565e",
+        "passage_rank": 7,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "e0f225df525d083043423536f09b5a79",
+        "sentence_text": "In the next step the embeddings are fed in a unidirectional GRU having 1 Stacked Layer and size 128.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 13559
+      },
+      {
+        "cross_encoder_score": -9.901251792907715,
+        "dataset": "QASPER",
+        "end_char": 13730,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "11e807eb74c1703e2775cfe1d217565e",
+        "passage_rank": 7,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "b6cbf416af5b152b112e77a14af58bbc",
+        "sentence_text": "We prefer GRU than LSTM, because it is more efficient computationally.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          10,
+          8,
+          0
+        ],
+        "source_position": 13660
+      },
+      {
+        "cross_encoder_score": -7.858875274658203,
+        "dataset": "QASPER",
+        "end_char": 13739,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "11e807eb74c1703e2775cfe1d217565e",
+        "passage_rank": 7,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "2f7b2fc5453179002b11eed6b7647660",
+        "sentence_text": "Also the",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          10,
+          9,
+          0
+        ],
+        "source_position": 13731
+      },
+      {
+        "cross_encoder_score": -10.42747974395752,
+        "dataset": "QASPER",
+        "end_char": 13904,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "795b37f3f2afd34b758ee514a1944e48",
+        "passage_rank": 8,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "d95850a4c7be1a838ae23a5a739cfdf5",
+        "sentence_text": "basic advantage of LSTM which is the ability to keep in memory large text documents, does not hold here, because tweets supposed to be not too large text documents.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 13740
+      },
+      {
+        "cross_encoder_score": -9.86597728729248,
+        "dataset": "QASPER",
+        "end_char": 14073,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "795b37f3f2afd34b758ee514a1944e48",
+        "passage_rank": 8,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "00c88db4ce1bb6189deefe186e69830f",
+        "sentence_text": "The output states of the GRU are passing through four self-attentions like the one described above , because we are using one attention per category (see Fig. FIGREF7).",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 13905
+      },
+      {
+        "cross_encoder_score": -8.322742462158203,
+        "dataset": "QASPER",
+        "end_char": 14191,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "795b37f3f2afd34b758ee514a1944e48",
+        "passage_rank": 8,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "a2ee7284e6ccee15693a7382172e3ebf",
+        "sentence_text": "Finally, a one-layer MLP having 128 nodes and ReLU as activation function computes the final score for each category.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 14074
+      },
+      {
+        "cross_encoder_score": -3.5757129192352295,
+        "dataset": "QASPER",
+        "end_char": 14481,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "795b37f3f2afd34b758ee514a1944e48",
+        "passage_rank": 8,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "648cd9d68272e784c4774fb54d075422",
+        "sentence_text": "At this final stage we have avoided using a softmax function to decide the harassment type considering that the tweet is a harassment, otherwise we had to train our models taking into account only the harassment tweets and this might have been a problem as the dataset is not large enough.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 14192
+      },
+      {
+        "cross_encoder_score": -10.622217178344727,
+        "dataset": "QASPER",
+        "end_char": 14598,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "795b37f3f2afd34b758ee514a1944e48",
+        "passage_rank": 8,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "524f6b7e47c19767cb38a262dcfdd92f",
+        "sentence_text": "Experiments ::: Training Models\tIn this subsection we are giving the details of the training process of our models.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 14483
+      },
+      {
+        "cross_encoder_score": -10.598711967468262,
+        "dataset": "QASPER",
+        "end_char": 14683,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "795b37f3f2afd34b758ee514a1944e48",
+        "passage_rank": 8,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "8858afbeeb490b3ac440041191094252",
+        "sentence_text": "Moreover, we are describing the different models that we compare in our experiments.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 14599
+      },
+      {
+        "cross_encoder_score": -3.734374523162842,
+        "dataset": "QASPER",
+        "end_char": 14897,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "795b37f3f2afd34b758ee514a1944e48",
+        "passage_rank": 8,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "49847cf904fc5868eee32f71534944e3",
+        "sentence_text": "Batch size which pertains to the amount of training samples to consider at a time for updating our network weights, is set to 32, because our dataset is not large and small batches might help to generalize better.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 14684
+      },
+      {
+        "cross_encoder_score": -10.251519203186035,
+        "dataset": "QASPER",
+        "end_char": 14964,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "795b37f3f2afd34b758ee514a1944e48",
+        "passage_rank": 8,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "cd8168678ce6a25ab3c6d14ea8835f33",
+        "sentence_text": "Also, we set other hyperparameters as: epochs = 20, patience = 10.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 14898
+      },
+      {
+        "cross_encoder_score": -10.534058570861816,
+        "dataset": "QASPER",
+        "end_char": 15006,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "795b37f3f2afd34b758ee514a1944e48",
+        "passage_rank": 8,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "3f5a7e2377117eac2acd0f3bc4192ae8",
+        "sentence_text": "As early stopping criterion we choose the",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          11,
+          8,
+          0
+        ],
+        "source_position": 14965
+      },
+      {
+        "cross_encoder_score": -5.416578769683838,
+        "dataset": "QASPER",
+        "end_char": 15054,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "73ba51fc2bebd97a2980de2d835832e8",
+        "passage_rank": 3,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "f41b6f7be144562f7e60c43274c70112",
+        "sentence_text": "average AUC, because our dataset is imbalanced.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 15007
+      },
+      {
+        "cross_encoder_score": -9.26671028137207,
+        "dataset": "QASPER",
+        "end_char": 15238,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "73ba51fc2bebd97a2980de2d835832e8",
+        "passage_rank": 3,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "2324d7f548ace9342784df1e44384f97",
+        "sentence_text": "The training process is based on the optimization of the loss function mentioned below and it is carried out with the Adam optimizer , which is known for yielding quicker convergence.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 15055
+      },
+      {
+        "cross_encoder_score": -10.376821517944336,
+        "dataset": "QASPER",
+        "end_char": 15715,
+        "pair_tokens_before_truncation": 226,
+        "pair_truncated": false,
+        "passage_id": "73ba51fc2bebd97a2980de2d835832e8",
+        "passage_rank": 3,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "c09e93607d9bfa667676439a0cc965f8",
+        "sentence_text": "We set the learning rate equal to 0.001: $L = \\frac{1}{2}BCE(harassment) + \\frac{1}{2}(\\frac{1}{5}BCE(sexualH) + \\frac{2}{5}BCE(indirectH)+\\frac{2}{5}BCE(physicalH))$ where BCE is the binary cross-entropy loss function, $BCE = -\\frac{1}{n}\\sum _{i=1}^{n}[y_{i}log(y^{^{\\prime }}_{i}) + (1 - y_{i})log(1 - y^{^{\\prime }}_{i}))]$ $i$ denotes the $i$th training sample, $y$ is the binary representation of true harassment label, and $y^{^{\\prime }}$ is the predicted probability.",
+        "sentence_token_cost": 188,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 15239
+      },
+      {
+        "cross_encoder_score": -9.914539337158203,
+        "dataset": "QASPER",
+        "end_char": 15780,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "73ba51fc2bebd97a2980de2d835832e8",
+        "passage_rank": 3,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "07f59d16b749104783175ba15fee953c",
+        "sentence_text": "In the loss function we have applied equal weight to both tasks.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 15716
+      },
+      {
+        "cross_encoder_score": -9.986176490783691,
+        "dataset": "QASPER",
+        "end_char": 15844,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "73ba51fc2bebd97a2980de2d835832e8",
+        "passage_rank": 3,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "793b94952132c60151df5116dbeb4465",
+        "sentence_text": "However, in the second task (type of harassment classification)",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 15781
+      },
+      {
+        "cross_encoder_score": -10.97094440460205,
+        "dataset": "QASPER",
+        "end_char": 16024,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "0999d6c5d7c8c8371723135014d8178b",
+        "passage_rank": 6,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "5659a6d34e2776822466554848b1b94d",
+        "sentence_text": "we have applied higher weight in the categories that it is harder to predict due to the problem of the class imbalance between the training, validation and test sets respectively.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "source_position": 15845
+      },
+      {
+        "cross_encoder_score": -10.201326370239258,
+        "dataset": "QASPER",
+        "end_char": 16237,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "0999d6c5d7c8c8371723135014d8178b",
+        "passage_rank": 6,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "371930eac98df8045c1b146aa824cb50",
+        "sentence_text": "Experiments ::: Evaluation and Results\tEach model produces four scores and each score is the probability that a tweet includes harassment language, indirect, physical and sexual harassment language respectively.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          13,
+          1,
+          0
+        ],
+        "source_position": 16026
+      },
+      {
+        "cross_encoder_score": -10.914143562316895,
+        "dataset": "QASPER",
+        "end_char": 16429,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "0999d6c5d7c8c8371723135014d8178b",
+        "passage_rank": 6,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "fc5972551c93434f7c5bd8e4e273ffbe",
+        "sentence_text": "For any tweet, we first check the score of the harassment language and if it is less than a specified threshold, then the harassment label is zero, so the other three labels are zero as well.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          13,
+          2,
+          0
+        ],
+        "source_position": 16238
+      },
+      {
+        "cross_encoder_score": -10.936837196350098,
+        "dataset": "QASPER",
+        "end_char": 16626,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "0999d6c5d7c8c8371723135014d8178b",
+        "passage_rank": 6,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "13337a8d973e0435967dd82d36ea684a",
+        "sentence_text": "If it is greater than or equal to that threshold, then the harassment label is one and the type of harassment is the one among these three having that has the greatest score (highest probability).",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          13,
+          3,
+          0
+        ],
+        "source_position": 16430
+      },
+      {
+        "cross_encoder_score": -10.544095993041992,
+        "dataset": "QASPER",
+        "end_char": 16663,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "0999d6c5d7c8c8371723135014d8178b",
+        "passage_rank": 6,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "760c7a630169daee28464bc1b4d9ebb8",
+        "sentence_text": "We set this threshold equal to 0.33.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          13,
+          4,
+          0
+        ],
+        "source_position": 16627
+      },
+      {
+        "cross_encoder_score": -10.364678382873535,
+        "dataset": "QASPER",
+        "end_char": 16717,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "0999d6c5d7c8c8371723135014d8178b",
+        "passage_rank": 6,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "bc3774aff8d3d32d73a0206fb6a8ca63",
+        "sentence_text": "We compare eight different models in our experiments.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          13,
+          5,
+          0
+        ],
+        "source_position": 16664
+      },
+      {
+        "cross_encoder_score": -10.97664737701416,
+        "dataset": "QASPER",
+        "end_char": 16875,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "0999d6c5d7c8c8371723135014d8178b",
+        "passage_rank": 6,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "ad52b2169e9bd745488818de089dcf0c",
+        "sentence_text": "Four of them have a Projected Layer (see Fig. FIGREF2), while the others do not have, and this is the only difference between these two groups of our models.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          13,
+          6,
+          0
+        ],
+        "source_position": 16718
+      },
+      {
+        "cross_encoder_score": -9.74669361114502,
+        "dataset": "QASPER",
+        "end_char": 16965,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "0999d6c5d7c8c8371723135014d8178b",
+        "passage_rank": 6,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "675d807dbe22e3f5566904c79a9bfacc",
+        "sentence_text": "So, we actually include four models in our experiments (having a projected layer or not).",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          13,
+          7,
+          0
+        ],
+        "source_position": 16876
+      },
+      {
+        "cross_encoder_score": -9.176109313964844,
+        "dataset": "QASPER",
+        "end_char": 17119,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "0999d6c5d7c8c8371723135014d8178b",
+        "passage_rank": 6,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "5dd840ba0dbe7432b800a1cfd1d495cb",
+        "sentence_text": "Firstly, LastStateRNN is the classic RNN model, where the last state passes through an MLP and then the LR Layer estimates the corresponding probability.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          13,
+          8,
+          0
+        ],
+        "source_position": 16966
+      },
+      {
+        "cross_encoder_score": -9.451321601867676,
+        "dataset": "QASPER",
+        "end_char": 17139,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "0999d6c5d7c8c8371723135014d8178b",
+        "passage_rank": 6,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "87f77c180ec12d061cea23a9bd99f97f",
+        "sentence_text": "In contrast, in the",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          13,
+          9,
+          0
+        ],
+        "source_position": 17120
+      },
+      {
+        "cross_encoder_score": -9.523017883300781,
+        "dataset": "QASPER",
+        "end_char": 18504,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "771abcf0b6e7953b730c6c1baed673dd",
+        "passage_rank": 4,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "61042046321e6976dcf6e4bbf870c764",
+        "sentence_text": "few baseline methods.",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          15,
+          0,
+          0
+        ],
+        "source_position": 18483
+      },
+      {
+        "cross_encoder_score": -10.134230613708496,
+        "dataset": "QASPER",
+        "end_char": 18665,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "771abcf0b6e7953b730c6c1baed673dd",
+        "passage_rank": 4,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "32e711acf50dca2cd627f6cce217126a",
+        "sentence_text": "According to the results of our experiments and considering the F1 Score, the multi-attention method having a projected layer, achieved the highest performance.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          15,
+          1,
+          0
+        ],
+        "source_position": 18505
+      },
+      {
+        "cross_encoder_score": -10.671255111694336,
+        "dataset": "QASPER",
+        "end_char": 18804,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "771abcf0b6e7953b730c6c1baed673dd",
+        "passage_rank": 4,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "f674437945aa2a498b1405a1ec48dc52",
+        "sentence_text": "Also, we tackled the problem of the imbalance between the training, validation and test sets performing the technique of back-translation.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          15,
+          2,
+          0
+        ],
+        "source_position": 18666
+      },
+      {
+        "cross_encoder_score": 1.3664737939834595,
+        "dataset": "QASPER",
+        "end_char": 18918,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "771abcf0b6e7953b730c6c1baed673dd",
+        "passage_rank": 4,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "209a0f83c094c30541920e9d95da7f02",
+        "sentence_text": "In the future, we would like to perform more experiments with this dataset applying different models using BERT .",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          15,
+          3,
+          0
+        ],
+        "source_position": 18805
+      },
+      {
+        "cross_encoder_score": 1.613887906074524,
+        "dataset": "QASPER",
+        "end_char": 19035,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "771abcf0b6e7953b730c6c1baed673dd",
+        "passage_rank": 4,
+        "query_id": "21548433abd21346659505296fb0576e78287a74",
+        "sentence_id": "1e4bfee4b16781823c41bbc0da25da33",
+        "sentence_text": "Also, we would like to apply the models presented in this work, in other datasets about hate speech in social media.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          15,
+          4,
+          0
+        ],
+        "source_position": 18919
+      }
+    ],
+    "scoring_seconds": 1.04984249395784,
+    "source_fingerprint": "6538f99dd504d63139d5723e2b1acc1be33fb4089af384553e50d394068ad64c"
+  }
+}

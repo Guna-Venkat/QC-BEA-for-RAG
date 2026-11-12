@@ -1,0 +1,851 @@
+{
+  "checksum": "d1dbae8d71174fca48aeeeb778c64197f191b6cbbbff931181d130fa96710010",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5abb7ff15542996cc5e4a015"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 41,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "1e7efa7e737345acee56856da467c4a09848d8aec3d446099ce5dc95f5b9ee66",
+    "query_id": "5abb7ff15542996cc5e4a015",
+    "scores": [
+      {
+        "cross_encoder_score": -9.097002029418945,
+        "dataset": "HotpotQA",
+        "end_char": 15,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "ba39048559970333724857eb8bf38c79",
+        "passage_rank": 9,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "6a6633d5cf3ac31bd8cb686904b522a2",
+        "sentence_text": "Daniel Falconer",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.247065544128418,
+        "dataset": "HotpotQA",
+        "end_char": 156,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "ba39048559970333724857eb8bf38c79",
+        "passage_rank": 9,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "af8aa24885b154c6a6f4fd0fc129cb99",
+        "sentence_text": "Daniel Falconer is a weapon and armor designer for films and known best for his work with Weta on \"The Lord of the Rings\" film trilogy and .",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 16
+      },
+      {
+        "cross_encoder_score": -2.6659867763519287,
+        "dataset": "HotpotQA",
+        "end_char": 336,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "ba39048559970333724857eb8bf38c79",
+        "passage_rank": 9,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "f539931c92b752de80aad334b13b856b",
+        "sentence_text": " He also wrote copy for Weta's first book \"The World of Kong: A Natural History of Skull Island\" showcasing the illustrative work of the entire design department at Weta Workshop.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 157
+      },
+      {
+        "cross_encoder_score": -9.388184547424316,
+        "dataset": "HotpotQA",
+        "end_char": 17,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "ec50e62a2c1f07fa7fdcd8c17994b329",
+        "passage_rank": 8,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "64c43c0fcebbaf1451548a6aae94e89b",
+        "sentence_text": "Kenneth Kit Lamug",
+        "sentence_token_cost": 5,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.559514999389648,
+        "dataset": "HotpotQA",
+        "end_char": 134,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "ec50e62a2c1f07fa7fdcd8c17994b329",
+        "passage_rank": 8,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "07c3136333181ed1a10f02956b8166b6",
+        "sentence_text": "Kenneth Kit Lamug (born 1978 in Manila, Philippines) is an American filmmaker, photographer, author and illustrator.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 18
+      },
+      {
+        "cross_encoder_score": -7.295365810394287,
+        "dataset": "HotpotQA",
+        "end_char": 284,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "ec50e62a2c1f07fa7fdcd8c17994b329",
+        "passage_rank": 8,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "693d5c65d44ed2d8140e1ffb62e0bf71",
+        "sentence_text": " He is best known for his children\u2019s picture book \"A Box Story\", co-creator of the independent film \"Vegasland\", and his work on street photography .",
+        "sentence_token_cost": 34,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 135
+      },
+      {
+        "cross_encoder_score": 0.5163214206695557,
+        "dataset": "HotpotQA",
+        "end_char": 358,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "ec50e62a2c1f07fa7fdcd8c17994b329",
+        "passage_rank": 8,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "e9676699942bc12ab6a7955085d0fd98",
+        "sentence_text": " For his illustrative work, he is also known under the moniker Rabbleboy.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "source_position": 285
+      },
+      {
+        "cross_encoder_score": -8.841418266296387,
+        "dataset": "HotpotQA",
+        "end_char": 18,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "21b20d8b3089649c8a829f6bec334f20",
+        "passage_rank": 4,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "12500b694087b64d642c10d4ccd1735d",
+        "sentence_text": "Firestorm (comics)",
+        "sentence_token_cost": 6,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.161520957946777,
+        "dataset": "HotpotQA",
+        "end_char": 131,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "21b20d8b3089649c8a829f6bec334f20",
+        "passage_rank": 4,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "be16315842466e0740b60447ab9a17f9",
+        "sentence_text": "Firestorm is the name of several fictional superheroes appearing in American comic books published by DC Comics.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 19
+      },
+      {
+        "cross_encoder_score": -11.086054801940918,
+        "dataset": "HotpotQA",
+        "end_char": 296,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "21b20d8b3089649c8a829f6bec334f20",
+        "passage_rank": 4,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "aa00c3d76e074d98c8cd48f5ecc9839e",
+        "sentence_text": " Ronnie Raymond and Martin Stein debuted as the first incarnation in \"Firestorm, the Nuclear Man\" No. 1 (March 1978) and was created by Gerry Conway and Al Milgrom.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 132
+      },
+      {
+        "cross_encoder_score": -11.103582382202148,
+        "dataset": "HotpotQA",
+        "end_char": 373,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "21b20d8b3089649c8a829f6bec334f20",
+        "passage_rank": 4,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "9cc7f8f66800f66274e0d98ca9dcecbb",
+        "sentence_text": " Jason Rusch debuted as a modern update of the character in \"Firestorm\" vol.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "source_position": 297
+      },
+      {
+        "cross_encoder_score": -10.612489700317383,
+        "dataset": "HotpotQA",
+        "end_char": 443,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "21b20d8b3089649c8a829f6bec334f20",
+        "passage_rank": 4,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "d71f6b9a6f4742281bc5e16e37da7fd5",
+        "sentence_text": " 3 No. 1, (July 2004), and was created by Dan Jolley and Chris Cross.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2,
+          0,
+          4,
+          0
+        ],
+        "source_position": 374
+      },
+      {
+        "cross_encoder_score": 0.5285724401473999,
+        "dataset": "HotpotQA",
+        "end_char": 10,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "03a6b040d11bef2a54d6b7961b7ecfec",
+        "passage_rank": 1,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "1e28f0bb4f0560bd0a66a48cabe54dd5",
+        "sentence_text": "Jamal Igle",
+        "sentence_token_cost": 4,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 3.330315589904785,
+        "dataset": "HotpotQA",
+        "end_char": 137,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "03a6b040d11bef2a54d6b7961b7ecfec",
+        "passage_rank": 1,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "a958c6085e883d476479f2fcdb5193f0",
+        "sentence_text": "Jamal Yaseem Igle is an American comic book artist, editor, art director, marketing executive and animation storyboard artist.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 11
+      },
+      {
+        "cross_encoder_score": -4.959595680236816,
+        "dataset": "HotpotQA",
+        "end_char": 296,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "03a6b040d11bef2a54d6b7961b7ecfec",
+        "passage_rank": 1,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "a80c12c0ad850c0410ab9c4e993c0a68",
+        "sentence_text": " The creator of the comic book series Molly Danger he is also known for his pencilling, inking and coloring work on books such as \"Supergirl\" and \"Firestorm\".",
+        "sentence_token_cost": 37,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 138
+      },
+      {
+        "cross_encoder_score": -10.142077445983887,
+        "dataset": "HotpotQA",
+        "end_char": 14,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "ff90cbbb0478d13199828b36798b6c0b",
+        "passage_rank": 2,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "e666b5f7133d21cade17afc35ae6ce3d",
+        "sentence_text": "Lady Blackhawk",
+        "sentence_token_cost": 3,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.261390686035156,
+        "dataset": "HotpotQA",
+        "end_char": 122,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "ff90cbbb0478d13199828b36798b6c0b",
+        "passage_rank": 2,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "f5a6169738e5dbd594e1f853aa82e750",
+        "sentence_text": "Lady Blackhawk is an alias used by three fictional comic book characters appearing in American comic books.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 15
+      },
+      {
+        "cross_encoder_score": -5.18887186050415,
+        "dataset": "HotpotQA",
+        "end_char": 280,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "ff90cbbb0478d13199828b36798b6c0b",
+        "passage_rank": 2,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "82f1f174d95e892596adf632a49d8f01",
+        "sentence_text": " The first, Zinda Blake, was introduced in a DC Comics publication in 1959 (Blackhawk #133); the second, Natalie Reed, appeared in a DC Comics title in 1988.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 123
+      },
+      {
+        "cross_encoder_score": -7.927839279174805,
+        "dataset": "HotpotQA",
+        "end_char": 361,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "ff90cbbb0478d13199828b36798b6c0b",
+        "passage_rank": 2,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "ab5aa4642efb82a50212beb966ca0692",
+        "sentence_text": " The third, as-yet-unnamed, Lady Blackhawk debuted in a DC Comics title in 2011.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          4,
+          0,
+          3,
+          0
+        ],
+        "source_position": 281
+      },
+      {
+        "cross_encoder_score": -10.936734199523926,
+        "dataset": "HotpotQA",
+        "end_char": 413,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "ff90cbbb0478d13199828b36798b6c0b",
+        "passage_rank": 2,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "48045cab09378953142ef9d7e9ee900e",
+        "sentence_text": " All three characters were aviatrices and soldiers.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "source_position": 362
+      },
+      {
+        "cross_encoder_score": -10.90221118927002,
+        "dataset": "HotpotQA",
+        "end_char": 588,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "ff90cbbb0478d13199828b36798b6c0b",
+        "passage_rank": 2,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "149cfd82b6c9b5358eb42386e6c8b59f",
+        "sentence_text": " Lady Blackhawk was ranked 48th in \"Comics Buyer's Guide's\" \"100 Sexiest Women in Comics\" list, although this list does not specify which version of the character was chosen.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          4,
+          0,
+          5,
+          0
+        ],
+        "source_position": 414
+      },
+      {
+        "cross_encoder_score": -9.695014953613281,
+        "dataset": "HotpotQA",
+        "end_char": 8,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "560431449fe910f08451c26f1f22baee",
+        "passage_rank": 7,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "26ca57e889ef2c17c2aa4595b5ac6189",
+        "sentence_text": "Jeff Dee",
+        "sentence_token_cost": 2,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.96724796295166,
+        "dataset": "HotpotQA",
+        "end_char": 78,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "560431449fe910f08451c26f1f22baee",
+        "passage_rank": 7,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "ca1bc931012242d801dc9f29080d861c",
+        "sentence_text": "Jeff Dee (born May 15, 1961) is an American artist and game designer.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 9
+      },
+      {
+        "cross_encoder_score": -10.771125793457031,
+        "dataset": "HotpotQA",
+        "end_char": 183,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "560431449fe910f08451c26f1f22baee",
+        "passage_rank": 7,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "786d5a5489c1265f9dc9074b8340a533",
+        "sentence_text": " Based in Austin, Texas, he is a recognized figure in the role-playing game community and game industry.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 79
+      },
+      {
+        "cross_encoder_score": 1.7388980388641357,
+        "dataset": "HotpotQA",
+        "end_char": 247,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "560431449fe910f08451c26f1f22baee",
+        "passage_rank": 7,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "728cebd6776de28fd69ffa9658e019c8",
+        "sentence_text": " His illustrative work shows comic book art form and influence.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "source_position": 184
+      },
+      {
+        "cross_encoder_score": -9.837237358093262,
+        "dataset": "HotpotQA",
+        "end_char": 21,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "44f1a7b555c154e04371fc6a28230d30",
+        "passage_rank": 3,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "5fb63d3deeb3c200aa9fd5d3b401d498",
+        "sentence_text": "Superman: New Krypton",
+        "sentence_token_cost": 6,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.2266560792922974,
+        "dataset": "HotpotQA",
+        "end_char": 232,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "44f1a7b555c154e04371fc6a28230d30",
+        "passage_rank": 3,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "505ce352cf2b67541e1de47ab9eebbc6",
+        "sentence_text": "\"New Krypton\" is a 2008-2009 Superman story arc written by Geoff Johns, James Robinson, and Sterling Gates with art by Gary Frank, Alex Ross, Renato Guedes, Jamal Igle and Pete Woods and published by DC Comics.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 22
+      },
+      {
+        "cross_encoder_score": -9.144427299499512,
+        "dataset": "HotpotQA",
+        "end_char": 328,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "44f1a7b555c154e04371fc6a28230d30",
+        "passage_rank": 3,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "82d9b6feca80015a296c915f90b66a1b",
+        "sentence_text": " The arc is an inter-title crossover, published in \"Action Comics\", \"Superman\" and \"Supergirl\".",
+        "sentence_token_cost": 24,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 233
+      },
+      {
+        "cross_encoder_score": -10.730622291564941,
+        "dataset": "HotpotQA",
+        "end_char": 38,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "2e59ba2ad4045f3d59739840fcbc34eb",
+        "passage_rank": 6,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "a0f2b4fce597396a0616a820ef29a305",
+        "sentence_text": "Lex Luthor: The Unauthorized Biography",
+        "sentence_token_cost": 7,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.983982086181641,
+        "dataset": "HotpotQA",
+        "end_char": 120,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "2e59ba2ad4045f3d59739840fcbc34eb",
+        "passage_rank": 6,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "d2b9e4211f5f3742ae73efe426d112c6",
+        "sentence_text": "Lex Luthor: The Unauthorized Biography is a one-issue 1989 DC Comics publication.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 39
+      },
+      {
+        "cross_encoder_score": -11.193077087402344,
+        "dataset": "HotpotQA",
+        "end_char": 43,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "c82654ecdff95f2e37dc354c3cea12a4",
+        "passage_rank": 10,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "f84889deffae0331a19d44a6702d0898",
+        "sentence_text": "Handbook of the Birds of India and Pakistan",
+        "sentence_token_cost": 9,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.185049057006836,
+        "dataset": "HotpotQA",
+        "end_char": 184,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "c82654ecdff95f2e37dc354c3cea12a4",
+        "passage_rank": 10,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "077c06b83ace8b5eba8024d969fea1c1",
+        "sentence_text": "The Handbook of the Birds of India and Pakistan is the \"magnum opus\" of Indian ornithologist Salim Ali, written along with S. Dillon Ripley.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 44
+      },
+      {
+        "cross_encoder_score": -11.358777046203613,
+        "dataset": "HotpotQA",
+        "end_char": 297,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "c82654ecdff95f2e37dc354c3cea12a4",
+        "passage_rank": 10,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "48f76d2170e3dc4c03556e4f179a1db0",
+        "sentence_text": " Appended to the title is the phrase \"\"together with those of Bangladesh, Nepal, Sikkim, Bhutan and Sri Lanka\"\".",
+        "sentence_token_cost": 28,
+        "source_order": [
+          8,
+          0,
+          2,
+          0
+        ],
+        "source_position": 185
+      },
+      {
+        "cross_encoder_score": -10.732473373413086,
+        "dataset": "HotpotQA",
+        "end_char": 394,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "c82654ecdff95f2e37dc354c3cea12a4",
+        "passage_rank": 10,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "7afac850d8a79d004c0db64938fe3627",
+        "sentence_text": " The 10 volume work, often referred to as \"the handbook\", was started in 1964 and ended in 1974.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          8,
+          0,
+          3,
+          0
+        ],
+        "source_position": 298
+      },
+      {
+        "cross_encoder_score": -4.406947135925293,
+        "dataset": "HotpotQA",
+        "end_char": 656,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "c82654ecdff95f2e37dc354c3cea12a4",
+        "passage_rank": 10,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "46db20db0a2a00146424a5cb04aeddff",
+        "sentence_text": " A single volume \"compact edition\" of the \"Handbook\" was also produced and a supplementary illustrative work \"A Pictorial Guide to the Birds of the Indian Subcontinent\" with illustrations by John Henry Dick, coauthored with Dillon Ripley, was published in 1983.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          8,
+          0,
+          4,
+          0
+        ],
+        "source_position": 395
+      },
+      {
+        "cross_encoder_score": -11.261402130126953,
+        "dataset": "HotpotQA",
+        "end_char": 748,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "c82654ecdff95f2e37dc354c3cea12a4",
+        "passage_rank": 10,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "1949930498738c6abff20ff9c7522660",
+        "sentence_text": " The plates from this supplement were incorporated in the second edition of the \"Handbook\".",
+        "sentence_token_cost": 17,
+        "source_order": [
+          8,
+          0,
+          5,
+          0
+        ],
+        "source_position": 657
+      },
+      {
+        "cross_encoder_score": -10.766868591308594,
+        "dataset": "HotpotQA",
+        "end_char": 932,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "c82654ecdff95f2e37dc354c3cea12a4",
+        "passage_rank": 10,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "01411bd799c16d640b0de20a708c5195",
+        "sentence_text": " The second edition was completed by others, notably J. S. Serrao of the BNHS, Bruce Beehler, Michel Desfayes and Pamela Rasmussen, after the deaths of Ali in 1987 and Ripley in 2001.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          8,
+          0,
+          6,
+          0
+        ],
+        "source_position": 749
+      },
+      {
+        "cross_encoder_score": -10.08535099029541,
+        "dataset": "HotpotQA",
+        "end_char": 12,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "9f573362164cf9a4540771f8a09aa849",
+        "passage_rank": 5,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "84fe71f188af3350f6e75c80163b4bfc",
+        "sentence_text": "Patty Spivot",
+        "sentence_token_cost": 4,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.718169689178467,
+        "dataset": "HotpotQA",
+        "end_char": 166,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "9f573362164cf9a4540771f8a09aa849",
+        "passage_rank": 5,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "68cf2e47a8afd0b23ebbdecd20d0c214",
+        "sentence_text": "Patricia \"Patty\" Spivot is a fictional character who appears in various DC Comics publication and was created by writer Cary Bates and artist Irv Novick.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 13
+      },
+      {
+        "cross_encoder_score": -11.12188720703125,
+        "dataset": "HotpotQA",
+        "end_char": 228,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "9f573362164cf9a4540771f8a09aa849",
+        "passage_rank": 5,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "50a75aaad3360a54e5c1000c37188870",
+        "sentence_text": " She is a friend and partner of the second Flash Barry Allen.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 167
+      },
+      {
+        "cross_encoder_score": -8.644523620605469,
+        "dataset": "HotpotQA",
+        "end_char": 329,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "9f573362164cf9a4540771f8a09aa849",
+        "passage_rank": 5,
+        "query_id": "5abb7ff15542996cc5e4a015",
+        "sentence_id": "52350ebdfb6bd20437988145101f6338",
+        "sentence_text": " She first appeared in \"Five-Star Super-Hero Spectacular\" (\"DC Special Series\" #1, September, 1977).",
+        "sentence_token_cost": 29,
+        "source_order": [
+          9,
+          0,
+          3,
+          0
+        ],
+        "source_position": 229
+      }
+    ],
+    "scoring_seconds": 0.15649051894433796,
+    "source_fingerprint": "6e0eb883928c18080fd73449c41f9c8836ad98c2f290774be8a66e27df0e501b"
+  }
+}

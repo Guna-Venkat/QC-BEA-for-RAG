@@ -1,0 +1,161 @@
+[
+  {
+    "name": "FIXED_SENTENCE",
+    "g": "5_qbgf",
+    "source": "src/week12/algorithm.py",
+    "entry": "scripts/week12/run.py",
+    "config": "configs/week12/protocol.yaml",
+    "nb": "notebooks/week12/week12_C_validation_surface.ipynb",
+    "result": "results/week12/qbgf/v3/analysis/summary.csv",
+    "stats": "results/week12/qbgf/v3/analysis/primary_comparisons.csv",
+    "status": "W12 validation; frozen final policy; reserved confirmation separately reported",
+    "symbols": [
+      "choose",
+      "serialize",
+      "order"
+    ],
+    "equation": "Sort exact source sentences by descending query cosine; tentatively add each sentence if serialized evidence tokens remain \u2264B. There is no fixed top-k restriction (C2 is the separate top-eight control).",
+    "purpose": "Strong simple policy that distributes a limited budget across query-relevant sentences.",
+    "steps": [
+      "Use the frozen SFR candidate pool and its exact sentences.",
+      "Rank by descending query-sentence similarity; ties use document order, start offset and stable ID.",
+      "Trial-serialize every candidate; skip non-fitting sentences and continue.",
+      "Serialize selected units into source-ordered per-passage blocks, then supply their exact token IDs to Qwen."
+    ],
+    "complexity": "Cosine scoring O(Nd), sorting O(N log N), plus repeated tokenizer/serialization costs; not a knapsack solver.",
+    "strength": "Simple, exact source text, budget-safe and chosen by the validation-time freeze.",
+    "limit": "Semantic similarity need not identify downstream usefulness; irrelevant/redundant evidence can remain.",
+    "hyper": "Configured candidate width10; evidence budgets256/1024; same frozen reader/decoder. No learned allocation threshold.",
+    "claim": "Do not claim sentence evidence always beats passage evidence, or that the frozen choice is universally optimal."
+  },
+  {
+    "name": "QBGF_FULL / QBGF_NO_QUERY",
+    "g": "5_qbgf",
+    "source": "src/week12/algorithm.py",
+    "entry": "scripts/week12/run.py",
+    "config": "configs/week12/protocol.yaml",
+    "nb": "notebooks/week12/week12_D_qbgf_ablations.ipynb",
+    "result": "results/week12/qbgf/v3/analysis/summary.csv",
+    "stats": "results/week12/qbgf/v3/analysis/primary_comparisons.csv",
+    "status": "W12 validation and ablation; not the universally frozen final policy",
+    "symbols": [
+      "softmax",
+      "options",
+      "block",
+      "serialize",
+      "solve",
+      "choose"
+    ],
+    "equation": "R_i=exp(5p_i)/\u03a3_l exp(5p_l); w_ij=exp(5s_ij)/\u03a3_t exp(5s_it); m_i(a)=\u03a3_selected w_ij; U_i(a)=R_i m_i(a). DROP has utility0; FULL has mass1. Maximize \u03a3_i U_i(a_i), one action per passage, subject to \u03a3_i c_i(a_i)\u2264B.",
+    "purpose": "Choose how faithfully to expose each retrieved source jointly under a shared token budget.",
+    "steps": [
+      "Lab.prepare constructs the SFR-ranked pool, passage scores and sentence scores.",
+      "options creates DROP, SENT_1/2/4/8 and FULL, deduplicating identical short-source sentence states.",
+      "block computes exact token-ID costs including the trailing double newline.",
+      "solve runs multiple-choice dynamic programming over attainable integer costs.",
+      "choose serializes selected source representations and asserts additive cost consistency.",
+      "Reader.generate injects those evidence IDs into the frozen Qwen prompt."
+    ],
+    "complexity": "DP transition count is bounded by O(P\u00d7B\u00d7A), with sparse attainable-cost states; Python tuple-path copying adds overhead. Exact only for this static surrogate and serializer.",
+    "strength": "Explicit global budget optimization and interpretable per-source fidelity choices.",
+    "limit": "The optimized relevance-mass surrogate is not answer utility; fusion did not establish robust universal superiority.",
+    "hyper": "SENT counts1,2,4,8; softmax multiplication factors5/5; budgets256/1024; exact tie tolerances/order remain in solve.",
+    "claim": "Do not say QBGF was the frozen final method, or that NO_QUERY removes query information from SFR retrieval."
+  },
+  {
+    "name": "BEA_QBGF_V1",
+    "g": "7_bea_v1",
+    "source": "src/post_w12/bea_qbgf/allocator.py",
+    "entry": "W12-POST/run.py",
+    "config": "W12-POST/config.json",
+    "nb": "W12-POST/BEA_QBGF.ipynb",
+    "result": "results/post_w12/bea_qbgf/v3/pilot/summary.csv",
+    "stats": "results/post_w12/bea_qbgf/v3/pilot/paired_comparisons.csv",
+    "status": "POST-W12 exploratory; pilot50/dataset and expansion150/dataset are distinct",
+    "symbols": [
+      "aspects",
+      "signals",
+      "marginal",
+      "sequential_full",
+      "allocate",
+      "behavior"
+    ],
+    "equation": "IG(s|E)=Rel(s,q)+0.5\u03a3_a max(0,cos(a,s)\u2212coverage_a(E))\u22120.5 max_{e\u2208E}cos(s,e); coverage_a(E)=max(0,max_{e\u2208E}cos(a,e)). M=IG/\u0394serialized_tokens for positive cost.",
+    "purpose": "Reduce redundant exposure and add query-aspect coverage using recomputed context-dependent gains.",
+    "steps": [
+      "Derive up to six query-only rule-based aspects and normalized query/sentence/aspect similarities.",
+      "Recompute every unselected sentence\u2019s relevance, positive coverage gain and maximum redundancy against current E.",
+      "Trial-serialize candidate additions to get exact incremental token cost.",
+      "Only after at least two positive source-sentence selections can FULL compete; evaluate its missing sentences sequentially in source order.",
+      "Choose the globally best admissible marginal gain/cost with the actual deterministic tie order.",
+      "Stop when no admissible action remains; record LOW_MARGINAL_VALUE, budget and other reasons."
+    ],
+    "complexity": "Dense pairwise cosine signals require O(N\u00b2) memory; each iteration rescans candidates and repeatedly serializes contexts. No exact global-optimum claim.",
+    "strength": "Context-dependent redundancy/coverage and auditable stop/upgrade traces.",
+    "limit": "Aspects can collapse to one; premature stopping, fragmentation and source escalation are task-dependent failure risks.",
+    "hyper": "Effective frozen eta=.5, lambda=.5, tau_stop=.01, tau_expand=.01, tau_context=.05, min_parent_sentences2. The config file\u2019s initial defaults are not the effective freeze.",
+    "claim": "Do not call V1 a successful universal final system, or describe it as V2\u2019s fixed1\u21922\u21924\u21928 state algorithm."
+  },
+  {
+    "name": "BEA_V2",
+    "g": "8_bea_v2",
+    "source": "src/post_w12/bea_v2/allocator.py",
+    "entry": "W12-POST/run_bea_v2.py",
+    "config": "W12-POST/bea_v2_config.json",
+    "nb": "W12-POST/BEA_QBGF_V2.ipynb",
+    "result": "results/post_w12/bea_v2/posthoc_tau8e5/POSTHOC_SUMMARY.csv",
+    "stats": "results/post_w12/bea_v2/posthoc_tau8e5/POSTHOC_PAIRED_COMPARISONS.csv",
+    "status": "Official calibration failed; tau8e-5 reader study is a separate post-hoc exploratory branch",
+    "symbols": [
+      "utility",
+      "sequence",
+      "allocate"
+    ],
+    "equation": "P_help=\u03c3(\u03b2\u1d40 StandardScaler(x)+b); U(s|E)=P_help(s)\u00d7max(0,IG(s|E)); transition value=\u03a3_hypothetical additions U; M=transition value/\u0394serialized_tokens.",
+    "purpose": "Weight semantic information gain by group-held-out predictions of historical LOO helpfulness.",
+    "steps": [
+      "data.audit/feature_rows map historical exact-sentence deletion labels to inference-time source/query features.",
+      "models.train uses deterministic five-fold GroupKFold, scaler fit only in training folds, separate logistic help/harm models.",
+      "models.predict routes each known query/group to its held-out model and verifies training exclusion.",
+      "sequence re-ranks after every hypothetical addition; allocate considers next cumulative1/2/4/8 states and eligible FULL transitions.",
+      "P_harm is persisted diagnostically but is not subtracted from P_help.",
+      "The original nine-query mechanical calibration and single resolution sweep failed unchanged eligibility; the reader branch at8e-5 is explicitly post-hoc."
+    ],
+    "complexity": "Training consists of fixed logistic fits over grouped historical unit rows. Allocation retains O(N\u00b2) pairwise signals plus repeated hypothetical re-ranking and serialization; not exact static MCKP.",
+    "strength": "Separates predictive usefulness from semantic relevance with group isolation and inspectable transition values.",
+    "limit": "Predictors are imbalanced historical context-specific surrogates; calibration failed. predict rejects unseen queries without a separately frozen all-development model.",
+    "hyper": "5folds; C1, L2, lbfgs, max_iter1000, no class weighting; eta=lambda=.5; states1,2,4,8; min parent2. No officially qualified tau. Post-hoc tau=.00008 only.",
+    "claim": "Do not call V2 calibrated, freshly confirmed, causal-help probability, universally superior or deployable on arbitrary unseen queries."
+  },
+  {
+    "name": "MINILM_CE_SENTENCE",
+    "g": "9_minilm_reranker",
+    "source": "W12-POST/reranker_baseline/minilm_reranker.py",
+    "entry": "W12-POST/run_minilm_reranker.py",
+    "config": "W12-POST/reranker_baseline/protocol.py",
+    "nb": "W12-POST/BaselineComparison_MiniLM.ipynb",
+    "result": "W12-POST/results/minilm_reranker/analysis/SUMMARY.csv",
+    "stats": "W12-POST/results/minilm_reranker/analysis/PAIRED_COMPARISONS.csv",
+    "status": "POST_W12_RERANKER_BASELINE_EXPLORATORY; shared50queries/dataset",
+    "symbols": [
+      "Scorer",
+      "Scorer.score",
+      "rank_scores",
+      "pack"
+    ],
+    "equation": "r_j=CrossEncoder(q,s_j) raw logit; static descending ranking followed by exact serialize-and-skip packing under B. No softmax, P_help, aspect gain or gold-dependent selection.",
+    "purpose": "Test a stronger query\u2013sentence relevance scorer against embedding/cosine selection on the same source cohort.",
+    "steps": [
+      "Load the original frozen pool/sentences, without rerunning or changing upstream selection.",
+      "Score each query/sentence pair using the pinned MiniLM cross-encoder on FP32 CPU.",
+      "Sort by raw score, passage retrieval rank, source position and stable ID.",
+      "Trial-serialize sentences using the same Qwen token-ID block serializer; skip non-fitting candidates.",
+      "Restore source presentation order and use the unchanged Qwen answer reader."
+    ],
+    "complexity": "One transformer pair per sentence, length capped512; sorting O(N log N); repeated exact packing costs remain. No serving-throughput claim.",
+    "strength": "Simple strong relevance control; no trained utility/aspect/stopping machinery.",
+    "limit": "Static relevance still is not context-specific utility. It wins SciFact matched point estimates, but no comparison survives its recorded24-family Holm correction.",
+    "hyper": "ms-marco-MiniLM-L6-v2 pinned revision; FP32 CPU; pair max512; raw identity logits; configured batch_size in protocol; evidence256/1024.",
+    "claim": "Do not call MiniLM a universally better allocator or fresh confirmation. Its tie rule differs from FIXED_SENTENCE even though the serializer/fit-skip packing are shared."
+  }
+]

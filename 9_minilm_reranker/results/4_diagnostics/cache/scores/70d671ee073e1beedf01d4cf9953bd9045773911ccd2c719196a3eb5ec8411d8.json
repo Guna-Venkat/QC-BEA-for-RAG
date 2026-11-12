@@ -1,0 +1,1591 @@
+{
+  "checksum": "c84bc3eebedb15d1f804da5b9bcf5260ab7160f38d5ba99fa72734fb7ce9c77e",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "c81f215d457bdb913a5bade2b4283f19c4ee826c"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 78,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "03f080810169f62d41c6622553d9906c96cd2a4d5e2f65b34a99d3a5c3db0b3c",
+    "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+    "scores": [
+      {
+        "cross_encoder_score": -6.041434288024902,
+        "dataset": "QASPER",
+        "end_char": 9860,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "996bdf59568096558d72b3c649b588fa",
+        "passage_rank": 8,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "14473ecead7ae5b7039fbafca7c5c5c8",
+        "sentence_text": "classifiers trained on datasets containing more implicit abuse (tweets with some abusive words) are more affected by biases rather than once trained on datasets with a high proportion of explicit abuse samples (tweets containing sarcasm, jokes, etc.).",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 9609
+      },
+      {
+        "cross_encoder_score": -10.629722595214844,
+        "dataset": "QASPER",
+        "end_char": 10060,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "996bdf59568096558d72b3c649b588fa",
+        "passage_rank": 8,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "881fb6ad8eee7815c5b3f13964e4d354",
+        "sentence_text": "Transfer Learning: Pre-trained vector representations of words, embeddings, extracted from vast amounts of text data have been encountered in almost every language-based tasks with promising results.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 9861
+      },
+      {
+        "cross_encoder_score": -10.155256271362305,
+        "dataset": "QASPER",
+        "end_char": 10193,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "996bdf59568096558d72b3c649b588fa",
+        "passage_rank": 8,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "69967170f05608fb43f0f2c5e32ca055",
+        "sentence_text": "Two of the most frequently used context-independent neural embeddings are word2vec and Glove extracted from shallow neural networks.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 10061
+      },
+      {
+        "cross_encoder_score": -10.362573623657227,
+        "dataset": "QASPER",
+        "end_char": 10463,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "996bdf59568096558d72b3c649b588fa",
+        "passage_rank": 8,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "6a0a4240d42a6652188eba8be40ddbe7",
+        "sentence_text": "The year 2018 has been an inflection point for different NLP tasks thanks to remarkable breakthroughs: Universal Language Model Fine-Tuning (ULMFiT) , Embedding from Language Models (ELMO) , OpenAI\u2019 s Generative Pre-trained Transformer (GPT) , and Google\u2019s BERT model .",
+        "sentence_token_cost": 68,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 10194
+      },
+      {
+        "cross_encoder_score": -10.993282318115234,
+        "dataset": "QASPER",
+        "end_char": 10686,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "996bdf59568096558d72b3c649b588fa",
+        "passage_rank": 8,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "3187ac8440c4e99221395b211c310556",
+        "sentence_text": "Howard et al.  proposed ULMFiT which can be applied to any NLP task by pre-training a universal language model on a general-domain corpus and then fine-tuning the model on target task data using discriminative fine-tuning.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 10464
+      },
+      {
+        "cross_encoder_score": -10.998758316040039,
+        "dataset": "QASPER",
+        "end_char": 10863,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "996bdf59568096558d72b3c649b588fa",
+        "passage_rank": 8,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "ff25d10dd8b6eaccb0fbd3f4ac42c375",
+        "sentence_text": "Peters et al.  used a bi-directional LSTM trained on a specific task to present context-sensitive representations of words in word embeddings by looking at the entire sentence.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 10687
+      },
+      {
+        "cross_encoder_score": -10.33117961883545,
+        "dataset": "QASPER",
+        "end_char": 10878,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "996bdf59568096558d72b3c649b588fa",
+        "passage_rank": 8,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "9199547559720cb4c1f3031b9385e393",
+        "sentence_text": "Radford et al.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 10864
+      },
+      {
+        "cross_encoder_score": -11.216707229614258,
+        "dataset": "QASPER",
+        "end_char": 15841,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "55b5496ee1930a9d7a72ecb7bd6cc5a5",
+        "passage_rank": 9,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "682b3d416054bd587a763f2f16f4bb38",
+        "sentence_text": "such a way that they are given as inputs to a bidirectional recurrent neural network (Bi-LSTM) as shown in Figure FIGREF8.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 15719
+      },
+      {
+        "cross_encoder_score": -11.319013595581055,
+        "dataset": "QASPER",
+        "end_char": 16007,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "55b5496ee1930a9d7a72ecb7bd6cc5a5",
+        "passage_rank": 9,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "a4cd9b6e6c98ba4cd0545ccaed65480a",
+        "sentence_text": "After processing the input, the network sends the final hidden state to a fully connected network that performs classification using the softmax activation function.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 15842
+      },
+      {
+        "cross_encoder_score": -9.246344566345215,
+        "dataset": "QASPER",
+        "end_char": 16010,
+        "pair_tokens_before_truncation": 14,
+        "pair_truncated": false,
+        "passage_id": "55b5496ee1930a9d7a72ecb7bd6cc5a5",
+        "passage_rank": 9,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "88e6eb4cb47e4881582e341217b41809",
+        "sentence_text": "4.",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 16008
+      },
+      {
+        "cross_encoder_score": -10.788817405700684,
+        "dataset": "QASPER",
+        "end_char": 16186,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "55b5496ee1930a9d7a72ecb7bd6cc5a5",
+        "passage_rank": 9,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "684e3149d0e5c3e16f831e12bec96eb6",
+        "sentence_text": "Insert CNN layer: In this architecture shown in Figure FIGREF8, the outputs of all transformer encoders are used instead of using the output of the latest transformer encoder.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 16011
+      },
+      {
+        "cross_encoder_score": -11.352760314941406,
+        "dataset": "QASPER",
+        "end_char": 16285,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "55b5496ee1930a9d7a72ecb7bd6cc5a5",
+        "passage_rank": 9,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "0a0a55fd5b14ba8dad0866906dddcb5f",
+        "sentence_text": "So that the output vectors of each transformer encoder are concatenated, and a matrix is produced.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 16187
+      },
+      {
+        "cross_encoder_score": -11.23713493347168,
+        "dataset": "QASPER",
+        "end_char": 16519,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "55b5496ee1930a9d7a72ecb7bd6cc5a5",
+        "passage_rank": 9,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "7c14410a8dfd896df0b71e436f8a65c6",
+        "sentence_text": "The convolutional operation is performed with a window of size (3, hidden size of BERT which is 768 in BERTbase model) and the maximum value is generated for each transformer encoder by applying max pooling on the convolution output.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 16286
+      },
+      {
+        "cross_encoder_score": -11.306299209594727,
+        "dataset": "QASPER",
+        "end_char": 16626,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "55b5496ee1930a9d7a72ecb7bd6cc5a5",
+        "passage_rank": 9,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "d9e9a67064b3d1c584615580a3d6ce9c",
+        "sentence_text": "By concatenating these values, a vector is generated which is given as input to a fully connected network.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 16520
+      },
+      {
+        "cross_encoder_score": -11.265548706054688,
+        "dataset": "QASPER",
+        "end_char": 16703,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "55b5496ee1930a9d7a72ecb7bd6cc5a5",
+        "passage_rank": 9,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "065cee86770824f4d4a7ef2212708768",
+        "sentence_text": "By applying softmax on the input, the classification operation is performed.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          12,
+          7,
+          0
+        ],
+        "source_position": 16627
+      },
+      {
+        "cross_encoder_score": -5.002918243408203,
+        "dataset": "QASPER",
+        "end_char": 16864,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "55b5496ee1930a9d7a72ecb7bd6cc5a5",
+        "passage_rank": 9,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "1bf027303edbb47bd8b3ec5ac4221cc7",
+        "sentence_text": "Experiments and Results\tWe first introduce datasets used in our study and then investigate the different fine-tuning strategies for hate speech detection task.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          12,
+          8,
+          0
+        ],
+        "source_position": 16705
+      },
+      {
+        "cross_encoder_score": -11.105490684509277,
+        "dataset": "QASPER",
+        "end_char": 16964,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "55b5496ee1930a9d7a72ecb7bd6cc5a5",
+        "passage_rank": 9,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "e581f884e354ea51c2159fd30b8fd3a0",
+        "sentence_text": "We also include the details of our implementation and error analysis in the respective subsections.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          12,
+          9,
+          0
+        ],
+        "source_position": 16865
+      },
+      {
+        "cross_encoder_score": -7.201257705688477,
+        "dataset": "QASPER",
+        "end_char": 17043,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "55b5496ee1930a9d7a72ecb7bd6cc5a5",
+        "passage_rank": 9,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "875fa8d812d1ff95e4ff88100b991caf",
+        "sentence_text": "Experiments and Results ::: Dataset Description\tWe evaluate our method on two",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          12,
+          10,
+          0
+        ],
+        "source_position": 16966
+      },
+      {
+        "cross_encoder_score": 0.02229098603129387,
+        "dataset": "QASPER",
+        "end_char": 17119,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "5e6211bd5861a3d7a14c013e35cdbe8f",
+        "passage_rank": 1,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "e284b75fd75ccc542fefb2fdafd803f3",
+        "sentence_text": "widely-studied datasets provided by Waseem and Hovey  and Davidson et al. .",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "source_position": 17044
+      },
+      {
+        "cross_encoder_score": -11.316293716430664,
+        "dataset": "QASPER",
+        "end_char": 17296,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "5e6211bd5861a3d7a14c013e35cdbe8f",
+        "passage_rank": 1,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "12d10418c8ec84bedc8bb02a03ca789c",
+        "sentence_text": "Waseem and Hovy  collected $16k$ of tweets based on an initial ad-hoc approach that searched common slurs and terms related to religious, sexual, gender, and ethnic minorities.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          13,
+          1,
+          0
+        ],
+        "source_position": 17120
+      },
+      {
+        "cross_encoder_score": -5.3538737297058105,
+        "dataset": "QASPER",
+        "end_char": 17365,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "5e6211bd5861a3d7a14c013e35cdbe8f",
+        "passage_rank": 1,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "1b478c8d4b281785d818a7066d5255fa",
+        "sentence_text": "They annotated their dataset manually as racism, sexism, or neither.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          13,
+          2,
+          0
+        ],
+        "source_position": 17297
+      },
+      {
+        "cross_encoder_score": -4.108827590942383,
+        "dataset": "QASPER",
+        "end_char": 17543,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "5e6211bd5861a3d7a14c013e35cdbe8f",
+        "passage_rank": 1,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "21563b103f224f70adb9761b61bfbe32",
+        "sentence_text": "To extend this dataset, Waseem  also provided another dataset containing $6.9k$ of tweets annotated with both expert and crowdsourcing users as racism, sexism, neither, or both.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          13,
+          3,
+          0
+        ],
+        "source_position": 17366
+      },
+      {
+        "cross_encoder_score": -3.227688789367676,
+        "dataset": "QASPER",
+        "end_char": 17749,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "5e6211bd5861a3d7a14c013e35cdbe8f",
+        "passage_rank": 1,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "909bace23409361abbdb3e732c2320b2",
+        "sentence_text": "Since both datasets are overlapped partially and they used the same strategy in definition of hateful content, we merged these two datasets following Waseem et al.  to make our imbalance data a bit larger.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          13,
+          4,
+          0
+        ],
+        "source_position": 17544
+      },
+      {
+        "cross_encoder_score": -10.70172119140625,
+        "dataset": "QASPER",
+        "end_char": 17958,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "5e6211bd5861a3d7a14c013e35cdbe8f",
+        "passage_rank": 1,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "18eeca36612e91fa0aef67919f854cbe",
+        "sentence_text": "Davidson et al.  used the Twitter API to accumulate 84.4 million tweets from 33,458 twitter users containing particular terms from a pre-defined lexicon of hate speech words and phrases, called Hatebased.org.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          13,
+          5,
+          0
+        ],
+        "source_position": 17750
+      },
+      {
+        "cross_encoder_score": -11.351640701293945,
+        "dataset": "QASPER",
+        "end_char": 18123,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "5e6211bd5861a3d7a14c013e35cdbe8f",
+        "passage_rank": 1,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "f9e5182b408acad7e91362124da53a1e",
+        "sentence_text": "To annotate collected tweets as Hate, Offensive, or Neither, they randomly sampled $25k$ tweets and asked users of CrowdFlower crowdsourcing platform to label them.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          13,
+          6,
+          0
+        ],
+        "source_position": 17959
+      },
+      {
+        "cross_encoder_score": -4.610939025878906,
+        "dataset": "QASPER",
+        "end_char": 18206,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "5e6211bd5861a3d7a14c013e35cdbe8f",
+        "passage_rank": 1,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "15f94b41dba4ba9c34e890a46a3d1faa",
+        "sentence_text": "In detail, the distribution of different classes in both datasets will be provided",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          13,
+          7,
+          0
+        ],
+        "source_position": 18124
+      },
+      {
+        "cross_encoder_score": -10.38302230834961,
+        "dataset": "QASPER",
+        "end_char": 18230,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "44d25073f18a993402d63955d8b0ea92",
+        "passage_rank": 6,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "10742a3468c7d491c24dc919ee578c94",
+        "sentence_text": "in Subsection SECREF15.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 18207
+      },
+      {
+        "cross_encoder_score": -10.712554931640625,
+        "dataset": "QASPER",
+        "end_char": 18423,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "44d25073f18a993402d63955d8b0ea92",
+        "passage_rank": 6,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "29e7a83883dbef77031d56aad4485dd9",
+        "sentence_text": "Experiments and Results ::: Pre-Processing\tWe find mentions of users, numbers, hashtags, URLs and common emoticons and replace them with the tokens <user>,<number>,<hashtag>,<url>,<emoticon>.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 18232
+      },
+      {
+        "cross_encoder_score": -11.36882495880127,
+        "dataset": "QASPER",
+        "end_char": 18543,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "44d25073f18a993402d63955d8b0ea92",
+        "passage_rank": 6,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "7044887c5808a463925e3b2d85d61db7",
+        "sentence_text": "We also find elongated words and convert them into short and standard format; for example, converting yeeeessss to yes.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          14,
+          2,
+          0
+        ],
+        "source_position": 18424
+      },
+      {
+        "cross_encoder_score": -11.283626556396484,
+        "dataset": "QASPER",
+        "end_char": 18728,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "44d25073f18a993402d63955d8b0ea92",
+        "passage_rank": 6,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "a3188890c9999e2170900cb4d96837aa",
+        "sentence_text": "With hashtags that include some tokens without any with space between them, we replace them by their textual counterparts; for example, we convert hashtag \u201c#notsexist\" to \u201cnot sexist\".",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          14,
+          3,
+          0
+        ],
+        "source_position": 18544
+      },
+      {
+        "cross_encoder_score": -11.325477600097656,
+        "dataset": "QASPER",
+        "end_char": 18908,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "44d25073f18a993402d63955d8b0ea92",
+        "passage_rank": 6,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "3a8fbfce3e0ce3dc4e3343a17b8f7602",
+        "sentence_text": "All punctuation marks, unknown uni-codes and extra delimiting characters are removed, but we keep all stop words because our model trains the sequence of words in a text directly.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          14,
+          4,
+          0
+        ],
+        "source_position": 18729
+      },
+      {
+        "cross_encoder_score": -11.406639099121094,
+        "dataset": "QASPER",
+        "end_char": 18950,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "44d25073f18a993402d63955d8b0ea92",
+        "passage_rank": 6,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "63c7e3f7b85398d814abd6cab269eaf8",
+        "sentence_text": "We also convert all tweets to lower case.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          14,
+          5,
+          0
+        ],
+        "source_position": 18909
+      },
+      {
+        "cross_encoder_score": -10.705796241760254,
+        "dataset": "QASPER",
+        "end_char": 19183,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "44d25073f18a993402d63955d8b0ea92",
+        "passage_rank": 6,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "12d2e8c072d658c63c336d94c24b117c",
+        "sentence_text": "Experiments and Results ::: Implementation and Results Analysis\tFor the implementation of our neural network, we used pytorch-pretrained-bert library containing the pre-trained BERT model, text tokenizer, and pre-trained WordPiece.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          14,
+          6,
+          0
+        ],
+        "source_position": 18952
+      },
+      {
+        "cross_encoder_score": -10.330214500427246,
+        "dataset": "QASPER",
+        "end_char": 19314,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "44d25073f18a993402d63955d8b0ea92",
+        "passage_rank": 6,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "297a11d6b3ecba50605f0bd4183dc846",
+        "sentence_text": "As the implementation environment, we use Google Colaboratory tool which is a free research tool with a Tesla K80 GPU and 12G RAM.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          14,
+          7,
+          0
+        ],
+        "source_position": 19184
+      },
+      {
+        "cross_encoder_score": -11.284982681274414,
+        "dataset": "QASPER",
+        "end_char": 19387,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "44d25073f18a993402d63955d8b0ea92",
+        "passage_rank": 6,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "562d21022c11d04dddfa15d5fc7e69f6",
+        "sentence_text": "Based on our experiments, we trained our classifier with a batch size of",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          14,
+          8,
+          0
+        ],
+        "source_position": 19315
+      },
+      {
+        "cross_encoder_score": -9.67424488067627,
+        "dataset": "QASPER",
+        "end_char": 19404,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "81631426cb5c6a74021aa8070d0d78f0",
+        "passage_rank": 3,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "d14d5b1c4473f61e999d98b52d71e82b",
+        "sentence_text": "32 for 3 epochs.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          15,
+          0,
+          0
+        ],
+        "source_position": 19388
+      },
+      {
+        "cross_encoder_score": -11.296442031860352,
+        "dataset": "QASPER",
+        "end_char": 19458,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "81631426cb5c6a74021aa8070d0d78f0",
+        "passage_rank": 3,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "d8733107e4df325f06fc4903198ffb94",
+        "sentence_text": "The dropout probability is set to 0.1 for all layers.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          15,
+          1,
+          0
+        ],
+        "source_position": 19405
+      },
+      {
+        "cross_encoder_score": -10.770545959472656,
+        "dataset": "QASPER",
+        "end_char": 19511,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "81631426cb5c6a74021aa8070d0d78f0",
+        "passage_rank": 3,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "22f941bf8212bf2176d7f1861a904554",
+        "sentence_text": "Adam optimizer is used with a learning rate of 2e-5.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          15,
+          2,
+          0
+        ],
+        "source_position": 19459
+      },
+      {
+        "cross_encoder_score": -11.432372093200684,
+        "dataset": "QASPER",
+        "end_char": 19573,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "81631426cb5c6a74021aa8070d0d78f0",
+        "passage_rank": 3,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "90b70ae4ee63bc39d41491f8099029d5",
+        "sentence_text": "As an input, we tokenized each tweet with the BERT tokenizer.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          15,
+          3,
+          0
+        ],
+        "source_position": 19512
+      },
+      {
+        "cross_encoder_score": -11.327669143676758,
+        "dataset": "QASPER",
+        "end_char": 19663,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "81631426cb5c6a74021aa8070d0d78f0",
+        "passage_rank": 3,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "9d14e2aa223e2cf647d1d4873bba939b",
+        "sentence_text": "It contains invalid characters removal, punctuation splitting, and lowercasing the words.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          15,
+          4,
+          0
+        ],
+        "source_position": 19574
+      },
+      {
+        "cross_encoder_score": -11.352448463439941,
+        "dataset": "QASPER",
+        "end_char": 19754,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "81631426cb5c6a74021aa8070d0d78f0",
+        "passage_rank": 3,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "800906a30f1781019b5ffa9f008e1c12",
+        "sentence_text": "Based on the original BERT , we split words to subword units using WordPiece tokenization.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          15,
+          5,
+          0
+        ],
+        "source_position": 19664
+      },
+      {
+        "cross_encoder_score": -11.34683895111084,
+        "dataset": "QASPER",
+        "end_char": 19934,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "81631426cb5c6a74021aa8070d0d78f0",
+        "passage_rank": 3,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "6aedf599236bba0b6d51b3fd19107659",
+        "sentence_text": "As tweets are short texts, we set the maximum sequence length to 64 and in any shorter or longer length case it will be padded with zero values or truncated to the maximum length.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          15,
+          6,
+          0
+        ],
+        "source_position": 19755
+      },
+      {
+        "cross_encoder_score": -7.719448089599609,
+        "dataset": "QASPER",
+        "end_char": 20203,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "81631426cb5c6a74021aa8070d0d78f0",
+        "passage_rank": 3,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "796b81decfd87bce8ee7cf46e96bab58",
+        "sentence_text": "We consider 80% of each dataset as training data to update the weights in the fine-tuning phase, 10% as validation data to measure the out-of-sample performance of the model during training, and 10% as test data to measure the out-of-sample performance after training.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          0,
+          15,
+          7,
+          0
+        ],
+        "source_position": 19935
+      },
+      {
+        "cross_encoder_score": -10.838346481323242,
+        "dataset": "QASPER",
+        "end_char": 20400,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "81631426cb5c6a74021aa8070d0d78f0",
+        "passage_rank": 3,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "7362a7d521649f5070d1bfc0a928123e",
+        "sentence_text": "To prevent overfitting, we use stratified sampling to select 0.8, 0.1, and 0.1 portions of tweets from each class (racism/sexism/neither or hate/offensive/neither) for train, validation, and test.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          0,
+          15,
+          8,
+          0
+        ],
+        "source_position": 20204
+      },
+      {
+        "cross_encoder_score": -6.406573295593262,
+        "dataset": "QASPER",
+        "end_char": 20472,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "81631426cb5c6a74021aa8070d0d78f0",
+        "passage_rank": 3,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "2aaceed1c3bffc67b3131f6de5a53b70",
+        "sentence_text": "Classes' distribution of train, validation, and test datasets are shown",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          15,
+          9,
+          0
+        ],
+        "source_position": 20401
+      },
+      {
+        "cross_encoder_score": -10.322805404663086,
+        "dataset": "QASPER",
+        "end_char": 20491,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "2bda4718c14fff07b9d5e329a56693e1",
+        "passage_rank": 7,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "1480e2d9ff75301e25ea015bd90ab3cc",
+        "sentence_text": "in Table TABREF16.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          16,
+          0,
+          0
+        ],
+        "source_position": 20473
+      },
+      {
+        "cross_encoder_score": -4.563913345336914,
+        "dataset": "QASPER",
+        "end_char": 20677,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "2bda4718c14fff07b9d5e329a56693e1",
+        "passage_rank": 7,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "78efdb9e6c5360a04d8b8b90126960ad",
+        "sentence_text": "As it is understandable from Tables TABREF16(classdistributionwaseem) and TABREF16(classdistributiondavidson), we are dealing with imbalance datasets with various classes\u2019 distribution.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          16,
+          1,
+          0
+        ],
+        "source_position": 20492
+      },
+      {
+        "cross_encoder_score": -8.482953071594238,
+        "dataset": "QASPER",
+        "end_char": 20894,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "2bda4718c14fff07b9d5e329a56693e1",
+        "passage_rank": 7,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "94605d61f87a012abbb8c95abf5a10dc",
+        "sentence_text": "Since hate speech and offensive languages are real phenomena, we did not perform oversampling or undersampling techniques to adjust the classes\u2019 distribution and tried to supply the datasets as realistic as possible.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          16,
+          2,
+          0
+        ],
+        "source_position": 20678
+      },
+      {
+        "cross_encoder_score": -11.378706932067871,
+        "dataset": "QASPER",
+        "end_char": 20986,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "2bda4718c14fff07b9d5e329a56693e1",
+        "passage_rank": 7,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "fd0e4942f3277c1d98812186613078af",
+        "sentence_text": "We evaluate the effect of different fine-tuning strategies on the performance of our model.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          16,
+          3,
+          0
+        ],
+        "source_position": 20895
+      },
+      {
+        "cross_encoder_score": -11.09319019317627,
+        "dataset": "QASPER",
+        "end_char": 21095,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "2bda4718c14fff07b9d5e329a56693e1",
+        "passage_rank": 7,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "66fa435db61b0894b2f9aba71fdbc7af",
+        "sentence_text": "Table TABREF17 summarized the obtained results for fine-tuning strategies along with the official baselines.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          16,
+          4,
+          0
+        ],
+        "source_position": 20987
+      },
+      {
+        "cross_encoder_score": -11.051648139953613,
+        "dataset": "QASPER",
+        "end_char": 21270,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "2bda4718c14fff07b9d5e329a56693e1",
+        "passage_rank": 7,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "02308b5aa05d98def17535e7d799da56",
+        "sentence_text": "We use Waseem and Hovy , Davidson et al. , and Waseem et al.  as baselines and compare the results with our different fine-tuning strategies using pre-trained BERTbase model.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          16,
+          5,
+          0
+        ],
+        "source_position": 21096
+      },
+      {
+        "cross_encoder_score": -7.710605144500732,
+        "dataset": "QASPER",
+        "end_char": 21408,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "2bda4718c14fff07b9d5e329a56693e1",
+        "passage_rank": 7,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "bc0c838efcb1ae8ecfc5861eeeb2c366",
+        "sentence_text": "The evaluation results are reported on the test dataset and on three different metrics: precision, recall, and weighted-average F1-score.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          16,
+          6,
+          0
+        ],
+        "source_position": 21271
+      },
+      {
+        "cross_encoder_score": -11.241910934448242,
+        "dataset": "QASPER",
+        "end_char": 21561,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "2bda4718c14fff07b9d5e329a56693e1",
+        "passage_rank": 7,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "ac08a7c84e1d5dd8ba86966b7fca980d",
+        "sentence_text": "We consider weighted-average F1-score as the most robust metric versus class imbalance, which gives insight into the performance of our proposed models.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          16,
+          7,
+          0
+        ],
+        "source_position": 21409
+      },
+      {
+        "cross_encoder_score": -11.302576065063477,
+        "dataset": "QASPER",
+        "end_char": 21711,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "2bda4718c14fff07b9d5e329a56693e1",
+        "passage_rank": 7,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "f77963ef18a76807a66e1d7e4cffdc25",
+        "sentence_text": "According to Table TABREF17, F1-scores of all BERT based fine-tuning strategies except BERT + nonlinear classifier on top of BERT are higher than the",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          16,
+          8,
+          0
+        ],
+        "source_position": 21562
+      },
+      {
+        "cross_encoder_score": -9.819793701171875,
+        "dataset": "QASPER",
+        "end_char": 21722,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "bf18889e9741fda4ae53bc2bb8203f3c",
+        "passage_rank": 4,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "dc34abe7ac3dc19d8032df492b373bf5",
+        "sentence_text": "baselines.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          17,
+          0,
+          0
+        ],
+        "source_position": 21712
+      },
+      {
+        "cross_encoder_score": -9.056780815124512,
+        "dataset": "QASPER",
+        "end_char": 21969,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "bf18889e9741fda4ae53bc2bb8203f3c",
+        "passage_rank": 4,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "e79ed48071072bc4663cc5a60916a545",
+        "sentence_text": "Using the pre-trained BERT model as initial embeddings and fine-tuning the model with a fully connected linear classifier (BERTbase) outperforms previous baselines yielding F1-score of 81% and 91% for datasets of Waseem and Davidson respectively.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          0,
+          17,
+          1,
+          0
+        ],
+        "source_position": 21723
+      },
+      {
+        "cross_encoder_score": -9.00447940826416,
+        "dataset": "QASPER",
+        "end_char": 22174,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "bf18889e9741fda4ae53bc2bb8203f3c",
+        "passage_rank": 4,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "453471aa21221f171189be12dc670e99",
+        "sentence_text": "Inserting a CNN to pre-trained BERT model for fine-tuning on downstream task provides the best results as F1- score of 88% and 92% for datasets of Waseem and Davidson and it clearly exceeds the baselines.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          17,
+          2,
+          0
+        ],
+        "source_position": 21970
+      },
+      {
+        "cross_encoder_score": -11.224363327026367,
+        "dataset": "QASPER",
+        "end_char": 22403,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "bf18889e9741fda4ae53bc2bb8203f3c",
+        "passage_rank": 4,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "45fc33e6cf50a9678ee8326c35747ffa",
+        "sentence_text": "Intuitively, this makes sense that combining all pre-trained BERT layers with a CNN yields better results in which our model uses all the information included in different layers of pre-trained BERT during the fine-tuning phase.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          17,
+          3,
+          0
+        ],
+        "source_position": 22175
+      },
+      {
+        "cross_encoder_score": -11.340394973754883,
+        "dataset": "QASPER",
+        "end_char": 22521,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "bf18889e9741fda4ae53bc2bb8203f3c",
+        "passage_rank": 4,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "6713c3c48ef50980cddd50aff6ebda1b",
+        "sentence_text": "This information contains both syntactical and contextual features coming from lower layers to higher layers of BERT.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          17,
+          4,
+          0
+        ],
+        "source_position": 22404
+      },
+      {
+        "cross_encoder_score": -11.310662269592285,
+        "dataset": "QASPER",
+        "end_char": 22699,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "bf18889e9741fda4ae53bc2bb8203f3c",
+        "passage_rank": 4,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "13b00401693c4d052a85f59ef966fe8f",
+        "sentence_text": "Experiments and Results ::: Error Analysis\tAlthough we have very interesting results in term of recall, the precision of the model shows the portion of false detection we have.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          17,
+          5,
+          0
+        ],
+        "source_position": 22523
+      },
+      {
+        "cross_encoder_score": -11.379143714904785,
+        "dataset": "QASPER",
+        "end_char": 22807,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "bf18889e9741fda4ae53bc2bb8203f3c",
+        "passage_rank": 4,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "4db6b3a82c7a5069c19a218371f87e08",
+        "sentence_text": "To understand better this phenomenon, in this section we perform a deep analysis on the error of the model.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          17,
+          6,
+          0
+        ],
+        "source_position": 22700
+      },
+      {
+        "cross_encoder_score": -7.4155497550964355,
+        "dataset": "QASPER",
+        "end_char": 22942,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "bf18889e9741fda4ae53bc2bb8203f3c",
+        "passage_rank": 4,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "88f732c400291d1b825a92b08bcb4375",
+        "sentence_text": "We investigate the test datasets and their confusion matrices resulted from the BERTbase + CNN model as the best fine-tuning approach;",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          17,
+          7,
+          0
+        ],
+        "source_position": 22808
+      },
+      {
+        "cross_encoder_score": -11.164253234863281,
+        "dataset": "QASPER",
+        "end_char": 22985,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "59e412de484d341b40a989f46ac78baf",
+        "passage_rank": 2,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "189786188882b05a141d79bc32e18b78",
+        "sentence_text": "depicted in Figures FIGREF19 and FIGREF19.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          18,
+          0,
+          0
+        ],
+        "source_position": 22943
+      },
+      {
+        "cross_encoder_score": -7.809628963470459,
+        "dataset": "QASPER",
+        "end_char": 23113,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "59e412de484d341b40a989f46ac78baf",
+        "passage_rank": 2,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "07671839531c9726cfae3e44a2b54533",
+        "sentence_text": "According to Figure FIGREF19 for Waseem-dataset, it is obvious that the model can separate sexism from racism content properly.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          18,
+          1,
+          0
+        ],
+        "source_position": 22986
+      },
+      {
+        "cross_encoder_score": -11.295171737670898,
+        "dataset": "QASPER",
+        "end_char": 23244,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "59e412de484d341b40a989f46ac78baf",
+        "passage_rank": 2,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "edbbf0fd295f992d656adbecdab72f52",
+        "sentence_text": "Only two samples belonging to racism class are misclassified as sexism and none of the sexism samples are misclassified as racism.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          18,
+          2,
+          0
+        ],
+        "source_position": 23114
+      },
+      {
+        "cross_encoder_score": -11.330936431884766,
+        "dataset": "QASPER",
+        "end_char": 23376,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "59e412de484d341b40a989f46ac78baf",
+        "passage_rank": 2,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "e49fb0fd92ab2f241dcb8bd305445593",
+        "sentence_text": "A large majority of the errors come from misclassifying hateful categories (racism and sexism) as hatless (neither) and vice versa.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          18,
+          3,
+          0
+        ],
+        "source_position": 23245
+      },
+      {
+        "cross_encoder_score": -11.14670181274414,
+        "dataset": "QASPER",
+        "end_char": 23513,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "59e412de484d341b40a989f46ac78baf",
+        "passage_rank": 2,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "1ba0c2d8b83fd3d64770d01a9a3e4127",
+        "sentence_text": "0.9% and 18.5% of all racism samples are misclassified as sexism and neither respectively whereas it is 0% and 12.7% for sexism samples.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          18,
+          4,
+          0
+        ],
+        "source_position": 23377
+      },
+      {
+        "cross_encoder_score": -11.198271751403809,
+        "dataset": "QASPER",
+        "end_char": 23582,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "59e412de484d341b40a989f46ac78baf",
+        "passage_rank": 2,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "bc7787a41620f6fd2cbb40de8b1a4fd5",
+        "sentence_text": "Almost 12% of neither samples are misclassified as racism or sexism.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          18,
+          5,
+          0
+        ],
+        "source_position": 23514
+      },
+      {
+        "cross_encoder_score": -6.714219570159912,
+        "dataset": "QASPER",
+        "end_char": 23761,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "59e412de484d341b40a989f46ac78baf",
+        "passage_rank": 2,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "e7c469bdd33d10b147cbc0dd60b83660",
+        "sentence_text": "As Figure FIGREF19 makes clear for Davidson-dataset, the majority of errors are related to hate class where the model misclassified hate content as offensive in 63% of the cases.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          18,
+          6,
+          0
+        ],
+        "source_position": 23583
+      },
+      {
+        "cross_encoder_score": -10.992780685424805,
+        "dataset": "QASPER",
+        "end_char": 23849,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "59e412de484d341b40a989f46ac78baf",
+        "passage_rank": 2,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "c4db14920c58eb3ec722b95b260d3d9e",
+        "sentence_text": "However, 2.6% and 7.9% of offensive and neither samples are misclassified respectively.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          18,
+          7,
+          0
+        ],
+        "source_position": 23762
+      },
+      {
+        "cross_encoder_score": -10.790013313293457,
+        "dataset": "QASPER",
+        "end_char": 24013,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "59e412de484d341b40a989f46ac78baf",
+        "passage_rank": 2,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "e180c433a014d012cd336e9276f6592d",
+        "sentence_text": "To understand better the mislabeled items by our model, we did a manual inspection on a subset of the data and record some of them in Tables TABREF20 and TABREF21.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          18,
+          8,
+          0
+        ],
+        "source_position": 23850
+      },
+      {
+        "cross_encoder_score": -11.351079940795898,
+        "dataset": "QASPER",
+        "end_char": 24334,
+        "pair_tokens_before_truncation": 88,
+        "pair_truncated": false,
+        "passage_id": "633e8e3d71c30e203d437a8c6c30fd4e",
+        "passage_rank": 5,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "00710f1bdc59ed2b72e0f0a064c6b47f",
+        "sentence_text": "Considering the words such as \u201cdaughters\", \u201cwomen\", and \u201cburka\" in tweets with IDs 1 and 2 in Table TABREF20, it can be understood that our BERT based classifier is confused with the contextual semantic between these words in the samples and misclassified them as sexism because they are mainly associated to femininity.",
+        "sentence_token_cost": 70,
+        "source_order": [
+          0,
+          19,
+          0,
+          0
+        ],
+        "source_position": 24014
+      },
+      {
+        "cross_encoder_score": -11.24275016784668,
+        "dataset": "QASPER",
+        "end_char": 24513,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "633e8e3d71c30e203d437a8c6c30fd4e",
+        "passage_rank": 5,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "33695f36536395b2f0d1eb4120e2d00b",
+        "sentence_text": "In some cases containing implicit abuse (like subtle insults) such as tweets with IDs 5 and 7, our model cannot capture the hateful/offensive content and therefore misclassifies.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          19,
+          1,
+          0
+        ],
+        "source_position": 24335
+      },
+      {
+        "cross_encoder_score": -11.353854179382324,
+        "dataset": "QASPER",
+        "end_char": 24626,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "633e8e3d71c30e203d437a8c6c30fd4e",
+        "passage_rank": 5,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "a39956ee2d0384e6b19201edf7b36dfd",
+        "sentence_text": "It should be noticed that even for a human it is difficult to discriminate against this kind of implicit abuses.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          19,
+          2,
+          0
+        ],
+        "source_position": 24514
+      },
+      {
+        "cross_encoder_score": -10.949370384216309,
+        "dataset": "QASPER",
+        "end_char": 24820,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "633e8e3d71c30e203d437a8c6c30fd4e",
+        "passage_rank": 5,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "6188ab9d2f7b50da99fc505523687cb2",
+        "sentence_text": "By examining more samples and with respect to recently studies , , , it is clear that many errors are due to biases from data collection  and rules of annotation  and not the classifier itself.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          19,
+          3,
+          0
+        ],
+        "source_position": 24627
+      },
+      {
+        "cross_encoder_score": -9.87618350982666,
+        "dataset": "QASPER",
+        "end_char": 25047,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "633e8e3d71c30e203d437a8c6c30fd4e",
+        "passage_rank": 5,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "e6bea637579f8e745f0feca13f832b9e",
+        "sentence_text": "Since Waseem et al. created a small ad-hoc set of keywords and Davidson et al. used a large crowdsourced dictionary of keywords (Hatebase lexicon) to sample tweets for training, they included some biases in the collected data.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          19,
+          4,
+          0
+        ],
+        "source_position": 24821
+      },
+      {
+        "cross_encoder_score": -5.371147155761719,
+        "dataset": "QASPER",
+        "end_char": 25278,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "633e8e3d71c30e203d437a8c6c30fd4e",
+        "passage_rank": 5,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "aee84b512e826f3440d2216cf5630b0d",
+        "sentence_text": "Especially for Davidson-dataset, some tweets with specific language (written within the African American Vernacular English) and geographic restriction (United States of America) are oversampled such as tweets containing disparage",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          19,
+          5,
+          0
+        ],
+        "source_position": 25048
+      },
+      {
+        "cross_encoder_score": -10.703960418701172,
+        "dataset": "QASPER",
+        "end_char": 28127,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "098d55684c5695b68eab0670c9e01f34",
+        "passage_rank": 10,
+        "query_id": "c81f215d457bdb913a5bade2b4283f19c4ee826c",
+        "sentence_id": "bc24379dbe15d27c5fc6d229424aa9e8",
+        "sentence_text": "BERT\u2019s layers and a set of features associated to the different type of biases in data.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          22,
+          0,
+          0
+        ],
+        "source_position": 28040
+      }
+    ],
+    "scoring_seconds": 0.3048622190253809,
+    "source_fingerprint": "24e329687d54704f3e2388fc29e9db403d3dfcdaa7d7a3bb22b7dee248f20ded"
+  }
+}

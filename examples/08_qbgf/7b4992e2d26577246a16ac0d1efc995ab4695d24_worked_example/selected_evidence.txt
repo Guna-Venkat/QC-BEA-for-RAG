@@ -1,0 +1,15 @@
+We only use patterns with frequency INLINEFORM0 , which yields a total of
+
+We use AdaDelta  for calculating an adaptive learning rate during training, which accounts for a higher baseline performance compared to previous results.
+
+artificial error generation system was used to generate 3 different versions of the artificial data, which were then combined with the original annotated dataset and used for training an error detection system.
+
+We use INLINEFORM0 as the main evaluation measure, which was established as the preferred measure for error correction and detection by the CoNLL-14 shared task  .
+
+INLINEFORM1 calculates a weighted harmonic mean of precision and recall, which assigns twice as much importance to precision – this is motivated by practical applications, where accurate predictions from an error detection system are more important compared to coverage.
+
+For comparison, we also report the performance of the error detection system by Rei2016, trained using the same FCE dataset.
+
+We used the Approximate Randomisation Test  ,  to calculate statistical significance and found that the improvement for each of the systems using artificial data was significant over using only manual annotation.
+
+In this paper we compare error detection frameworks trained on the same publicly available FCE dataset, thereby removing the confounding factor of dataset size and only focusing on the model architectures.

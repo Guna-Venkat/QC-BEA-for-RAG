@@ -1,0 +1,711 @@
+{
+  "checksum": "109a92c72bcbd84229dcae382a3ab4fdaf545699a0f545dcad5e7d5ad56f56b7",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5a7df25a5542990b8f503b02"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 34,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "3f1133eb6bcfbe8c6b702918913e57b14274813848b1762ab9c14702d307e55f",
+    "query_id": "5a7df25a5542990b8f503b02",
+    "scores": [
+      {
+        "cross_encoder_score": -6.508739948272705,
+        "dataset": "HotpotQA",
+        "end_char": 13,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "d0a60ebc98f4fa1e54feb0818062a2f2",
+        "passage_rank": 2,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "bad949e74c4e2f8aa93c29663977e9ce",
+        "sentence_text": "Javier Gull\u00f3n",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.0288543701171875,
+        "dataset": "HotpotQA",
+        "end_char": 54,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "d0a60ebc98f4fa1e54feb0818062a2f2",
+        "passage_rank": 2,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "86e77a3e0bb65845f20fabf7e14b9413",
+        "sentence_text": "Javier Gull\u00f3n is a Spanish screenwriter.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 14
+      },
+      {
+        "cross_encoder_score": 3.2951955795288086,
+        "dataset": "HotpotQA",
+        "end_char": 282,
+        "pair_tokens_before_truncation": 87,
+        "pair_truncated": false,
+        "passage_id": "d0a60ebc98f4fa1e54feb0818062a2f2",
+        "passage_rank": 2,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "3cce4986f2a64a7b5645e808649eea5b",
+        "sentence_text": " He garnered a Canadian Screen Award nomination for Best Adapted Screenplay at the 2nd Canadian Screen Awards for \"Enemy\", and a Goya Award nomination for Best Adapted Screenplay at the 27th Goya Awards for \"Invader (Invasor)\".",
+        "sentence_token_cost": 55,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 55
+      },
+      {
+        "cross_encoder_score": -7.639101982116699,
+        "dataset": "HotpotQA",
+        "end_char": 22,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "4b6689ba472df27f34b99940872b18ee",
+        "passage_rank": 7,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "afe55a03412f143f47c08188d23ff9d7",
+        "sentence_text": "Javier Pereira (actor)",
+        "sentence_token_cost": 7,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.145034790039062,
+        "dataset": "HotpotQA",
+        "end_char": 88,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "4b6689ba472df27f34b99940872b18ee",
+        "passage_rank": 7,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "b72d004bf869b59b4d57433af5577167",
+        "sentence_text": "Javier Pereira Collado (born 5 November 1981) is a Spanish actor.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 23
+      },
+      {
+        "cross_encoder_score": -1.4194015264511108,
+        "dataset": "HotpotQA",
+        "end_char": 193,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "4b6689ba472df27f34b99940872b18ee",
+        "passage_rank": 7,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "8e39338196d85b0214197d922b30c1a1",
+        "sentence_text": " He won Goya Award for Best New Actor for his performance in \"Stockholm\" (2013) at the 28th Goya Awards.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 89
+      },
+      {
+        "cross_encoder_score": -1.8302892446517944,
+        "dataset": "HotpotQA",
+        "end_char": 40,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "3691fa8415733e6c374de176ac7a8316",
+        "passage_rank": 6,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "6a09c6b6b3a4962e79d79aa62b39c1a5",
+        "sentence_text": "Goya Award for Best Fictional Short Film",
+        "sentence_token_cost": 9,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.9508328437805176,
+        "dataset": "HotpotQA",
+        "end_char": 213,
+        "pair_tokens_before_truncation": 86,
+        "pair_truncated": false,
+        "passage_id": "3691fa8415733e6c374de176ac7a8316",
+        "passage_rank": 6,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "f2d86d63b701bfa65ec12ca1b0359aa8",
+        "sentence_text": "The Goya Award for Best Fictional Short Film (Spanish: \"Premio Goya a la mejor cortometraje de ficci\u00f3n\" ) is one of the Goya Awards, Spain's principal national film awards.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 41
+      },
+      {
+        "cross_encoder_score": 0.5421028733253479,
+        "dataset": "HotpotQA",
+        "end_char": 39,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "c81beaf787fb54432caab33633897009",
+        "passage_rank": 4,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "a539073c48f3e2ba9f2f890d2ca601c9",
+        "sentence_text": "Goya Award for Best Original Screenplay",
+        "sentence_token_cost": 8,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 0.6927259564399719,
+        "dataset": "HotpotQA",
+        "end_char": 197,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "c81beaf787fb54432caab33633897009",
+        "passage_rank": 4,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "34443903375c9002e260388d43e96a93",
+        "sentence_text": "The Goya Award for Best Original Screenplay (Spanish \"Premio Goya al mejor gui\u00f3n original\") is one of the Goya Awards, Spain's principal national film awards",
+        "sentence_token_cost": 36,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 40
+      },
+      {
+        "cross_encoder_score": 1.3535850048065186,
+        "dataset": "HotpotQA",
+        "end_char": 38,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "99e807982deaa24e74e2cfa56cb66d51",
+        "passage_rank": 1,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "730b59fe2258b9a64c3d0f069221aeb8",
+        "sentence_text": "Goya Award for Best Adapted Screenplay",
+        "sentence_token_cost": 9,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.9060025215148926,
+        "dataset": "HotpotQA",
+        "end_char": 196,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "99e807982deaa24e74e2cfa56cb66d51",
+        "passage_rank": 1,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "57dd796d58a07000442ffef1da6f2820",
+        "sentence_text": "The Goya Award for Best Adapted Screenplay (Spanish \"Premio Goya al mejor gui\u00f3n adaptado\") is one of the Goya Awards, Spain's principal national film awards.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 39
+      },
+      {
+        "cross_encoder_score": -6.546821594238281,
+        "dataset": "HotpotQA",
+        "end_char": 7,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "2a5837ea4b9e94d63a2c8714b6b04c91",
+        "passage_rank": 9,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "8d6e9032c40be627eb2e31c916a3b3a0",
+        "sentence_text": "El Bola",
+        "sentence_token_cost": 3,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.141581535339355,
+        "dataset": "HotpotQA",
+        "end_char": 91,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "2a5837ea4b9e94d63a2c8714b6b04c91",
+        "passage_rank": 9,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "cc43f929521cbf78199f86d5845954bb",
+        "sentence_text": "El Bola (English: \"Pellet\") is a 2000 Spanish drama film, directed by Achero Ma\u00f1as.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 8
+      },
+      {
+        "cross_encoder_score": -1.0739068984985352,
+        "dataset": "HotpotQA",
+        "end_char": 153,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "2a5837ea4b9e94d63a2c8714b6b04c91",
+        "passage_rank": 9,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "030c64cfed94d6843436baa942be1147",
+        "sentence_text": " It won the Goya Award for Best Film at the 15th Goya Awards.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 92
+      },
+      {
+        "cross_encoder_score": -7.361973762512207,
+        "dataset": "HotpotQA",
+        "end_char": 210,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "2a5837ea4b9e94d63a2c8714b6b04c91",
+        "passage_rank": 9,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "28e6db1eee32e926114375f1cf77dcf9",
+        "sentence_text": " It is available in the United States from Filmmovement.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "source_position": 154
+      },
+      {
+        "cross_encoder_score": -7.335263252258301,
+        "dataset": "HotpotQA",
+        "end_char": 42,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "fa6bf90effe736c2c7b01e866306f501",
+        "passage_rank": 8,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "dfc07ad26a4bc37e90678ea0406cd4c8",
+        "sentence_text": "Mortadelo and Filemon: Mission Implausible",
+        "sentence_token_cost": 11,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.69493579864502,
+        "dataset": "HotpotQA",
+        "end_char": 297,
+        "pair_tokens_before_truncation": 102,
+        "pair_truncated": false,
+        "passage_id": "fa6bf90effe736c2c7b01e866306f501",
+        "passage_rank": 8,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "bd4e17cfa5f64cf6e30e4dd4d8e11940",
+        "sentence_text": "Mortadelo and Filemon: Mission Implausible (Spanish: \"Mortadelo y Filem\u00f3n contra Jimmy el Cachondo\" , \"Mortadelo and Filemon versus Jimmy the Joker\") is a 2014 Spanish animated comedy film based on the characters from the \"Mort & Phil\" comic book series.",
+        "sentence_token_cost": 71,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 43
+      },
+      {
+        "cross_encoder_score": 1.2434178590774536,
+        "dataset": "HotpotQA",
+        "end_char": 475,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "fa6bf90effe736c2c7b01e866306f501",
+        "passage_rank": 8,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "44fea7a62b2a663220e7e353949e4148",
+        "sentence_text": " It achieved six nominations for the 29th Goya Awards, winning in the Best Adapted Screenplay and Best Animated Film categories, and two for the second edition of Premios Feroz.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 298
+      },
+      {
+        "cross_encoder_score": -5.032358169555664,
+        "dataset": "HotpotQA",
+        "end_char": 17,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "013f958123245294fcc7cd5dda5e2614",
+        "passage_rank": 3,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "015f8f52eca5848065e03865959ec3a8",
+        "sentence_text": "Enemy (2013 film)",
+        "sentence_token_cost": 8,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 2.9644765853881836,
+        "dataset": "HotpotQA",
+        "end_char": 222,
+        "pair_tokens_before_truncation": 87,
+        "pair_truncated": false,
+        "passage_id": "013f958123245294fcc7cd5dda5e2614",
+        "passage_rank": 3,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "1cfe1b016bd2ab38348240b906b38375",
+        "sentence_text": "Enemy is a 2013 psychological thriller film directed by Denis Villeneuve, produced by M.S. Faura and Niv Fichman and written by Javier Gull\u00f3n, loosely adapted from Jos\u00e9 Saramago's 2002 novel \"The Double\".",
+        "sentence_token_cost": 57,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 18
+      },
+      {
+        "cross_encoder_score": -8.076813697814941,
+        "dataset": "HotpotQA",
+        "end_char": 345,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "013f958123245294fcc7cd5dda5e2614",
+        "passage_rank": 3,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "19ac38c09f5679108024f789eec933c8",
+        "sentence_text": " The film stars Jake Gyllenhaal, M\u00e9lanie Laurent and Sarah Gadon and revolves around two men who are physically identical.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 223
+      },
+      {
+        "cross_encoder_score": -8.06364631652832,
+        "dataset": "HotpotQA",
+        "end_char": 432,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "013f958123245294fcc7cd5dda5e2614",
+        "passage_rank": 3,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "f65a5ccecdf1957df89a40b99a37ea7c",
+        "sentence_text": " It is also internationally co-produced by production companies from Spain and Canada.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 346
+      },
+      {
+        "cross_encoder_score": -7.587586402893066,
+        "dataset": "HotpotQA",
+        "end_char": 14,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "7467329562535d970414c0a334e789d9",
+        "passage_rank": 10,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "74265e04ebc1120d0dd17f156fe752ce",
+        "sentence_text": "Chico and Rita",
+        "sentence_token_cost": 4,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.596868515014648,
+        "dataset": "HotpotQA",
+        "end_char": 189,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "7467329562535d970414c0a334e789d9",
+        "passage_rank": 10,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "e40a401827d402ccdb772b9463b4de53",
+        "sentence_text": "Chico and Rita is a 2010 American-Spanish adult animated music romantic film with Spanish and English languages directed by Tono Errando, Fernando Trueba and Javier Mariscal.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 15
+      },
+      {
+        "cross_encoder_score": -9.412302017211914,
+        "dataset": "HotpotQA",
+        "end_char": 337,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "7467329562535d970414c0a334e789d9",
+        "passage_rank": 10,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "3fc6e512c9219f7b97ee9361f35e5fbf",
+        "sentence_text": " The story of Chico and Rita is set against backdrops of Havana, New York City, Las Vegas, Los Angeles and Paris in the late 1940s and early 1950s.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          8,
+          0,
+          2,
+          0
+        ],
+        "source_position": 190
+      },
+      {
+        "cross_encoder_score": -8.423672676086426,
+        "dataset": "HotpotQA",
+        "end_char": 385,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "7467329562535d970414c0a334e789d9",
+        "passage_rank": 10,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "7dd7f931e8bc8042b64dc04d6f7aed49",
+        "sentence_text": " Chico is a young piano player with big dreams.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          8,
+          0,
+          3,
+          0
+        ],
+        "source_position": 338
+      },
+      {
+        "cross_encoder_score": -8.897583961486816,
+        "dataset": "HotpotQA",
+        "end_char": 442,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "7467329562535d970414c0a334e789d9",
+        "passage_rank": 10,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "6bf46dbbae11dc39af588b1f7b4efa1c",
+        "sentence_text": " Rita is a beautiful singer with an extraordinary voice.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          8,
+          0,
+          4,
+          0
+        ],
+        "source_position": 386
+      },
+      {
+        "cross_encoder_score": -9.138825416564941,
+        "dataset": "HotpotQA",
+        "end_char": 578,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "7467329562535d970414c0a334e789d9",
+        "passage_rank": 10,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "4109a4a796074fe851f72a18e778a3e3",
+        "sentence_text": " Music and romantic desire unite them, but their journey\u2014in the tradition of the Latin ballad, the bolero\u2014brings heartache and torment.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          8,
+          0,
+          5,
+          0
+        ],
+        "source_position": 443
+      },
+      {
+        "cross_encoder_score": -7.000517845153809,
+        "dataset": "HotpotQA",
+        "end_char": 678,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "7467329562535d970414c0a334e789d9",
+        "passage_rank": 10,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "d139e0806ad91e9f2274efff9dc948f2",
+        "sentence_text": " The film was produced by Fernando Trueba Producciones, Estudio Mariscal, and Magic Light Pictures.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          8,
+          0,
+          6,
+          0
+        ],
+        "source_position": 579
+      },
+      {
+        "cross_encoder_score": -7.549133777618408,
+        "dataset": "HotpotQA",
+        "end_char": 737,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "7467329562535d970414c0a334e789d9",
+        "passage_rank": 10,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "c0004f08830bde4386c71e6c55216ca7",
+        "sentence_text": " It received financing from CinemaNX and Isle of Man Film.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          8,
+          0,
+          7,
+          0
+        ],
+        "source_position": 679
+      },
+      {
+        "cross_encoder_score": -1.9517260789871216,
+        "dataset": "HotpotQA",
+        "end_char": 956,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "7467329562535d970414c0a334e789d9",
+        "passage_rank": 10,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "f18ca25ccf0de347cd9dea419bfe0c80",
+        "sentence_text": " It won the Goya Award for Best Animated Film at the 25th Goya Awards and was nominated for the Oscar for Best Animated Feature at the 84th Academy Awards (the first nomination for a Spanish full-length animated film).",
+        "sentence_token_cost": 49,
+        "source_order": [
+          8,
+          0,
+          8,
+          0
+        ],
+        "source_position": 738
+      },
+      {
+        "cross_encoder_score": -2.1999988555908203,
+        "dataset": "HotpotQA",
+        "end_char": 33,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "7fb72789ce6ee5975c9cc8006ba11077",
+        "passage_rank": 5,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "1402004c48ba60e978c3bb8f2cec8785",
+        "sentence_text": "Goya Award for Best European Film",
+        "sentence_token_cost": 7,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.026176929473877,
+        "dataset": "HotpotQA",
+        "end_char": 191,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "7fb72789ce6ee5975c9cc8006ba11077",
+        "passage_rank": 5,
+        "query_id": "5a7df25a5542990b8f503b02",
+        "sentence_id": "de0355b7394e23d4747473eaa95219fa",
+        "sentence_text": "The Goya Award for Best European Film (Spanish: \"Premio Goya a la mejor pel\u00edcula europea\") is one of the Goya Awards, Spain's principal national film awards.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 34
+      }
+    ],
+    "scoring_seconds": 0.2410579640418291,
+    "source_fingerprint": "77ded5fa3301ae645fa831871ecc048b5262faf20890eda525d6c22cb901026e"
+  }
+}

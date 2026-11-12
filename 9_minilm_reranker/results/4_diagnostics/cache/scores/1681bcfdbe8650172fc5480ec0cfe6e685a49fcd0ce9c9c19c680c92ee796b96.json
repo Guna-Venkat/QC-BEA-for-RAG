@@ -1,0 +1,1331 @@
+{
+  "checksum": "93d428fd7468700e909e9ef551638ad40ab88ea23614f7921afdc60cd1f90a86",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5ae7936d5542997ec27276a7"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 65,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "b402e880bd0a19cd2e84128be5de98594fa9455006fb8a027e78a15ed414f1ae",
+    "query_id": "5ae7936d5542997ec27276a7",
+    "scores": [
+      {
+        "cross_encoder_score": -7.562407493591309,
+        "dataset": "HotpotQA",
+        "end_char": 30,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "780ba25cc8a7560076a71129d8ca8bd4",
+        "passage_rank": 6,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "d407b8107f276505c511f6b0e9a261fe",
+        "sentence_text": "List of Danish Nobel laureates",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.527076721191406,
+        "dataset": "HotpotQA",
+        "end_char": 72,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "780ba25cc8a7560076a71129d8ca8bd4",
+        "passage_rank": 6,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "49648cb5528717d34e351e780cd6c09e",
+        "sentence_text": "This is a list of Danish Nobel laureates.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 31
+      },
+      {
+        "cross_encoder_score": -5.950212478637695,
+        "dataset": "HotpotQA",
+        "end_char": 214,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "780ba25cc8a7560076a71129d8ca8bd4",
+        "passage_rank": 6,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "bfa07b931e8eb5493c224b3569c61cbf",
+        "sentence_text": " Since the Nobel Prize was established per the will of Swedish inventor Alfred Nobel in 1895, 12 of the prize winners have been from Denmark.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 73
+      },
+      {
+        "cross_encoder_score": -6.835094928741455,
+        "dataset": "HotpotQA",
+        "end_char": 370,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "780ba25cc8a7560076a71129d8ca8bd4",
+        "passage_rank": 6,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "44ebf17f481347d8db190ddd233222d6",
+        "sentence_text": " The first Danish Nobel laureate was Niels Ryberg Finsen, who won a Nobel Prize for medicine in 1903 for his work in using light therapy to treat diseases.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 215
+      },
+      {
+        "cross_encoder_score": -7.026269912719727,
+        "dataset": "HotpotQA",
+        "end_char": 516,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "780ba25cc8a7560076a71129d8ca8bd4",
+        "passage_rank": 6,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "ed7f2e61751566c7367d302a7e42df00",
+        "sentence_text": " The most recent Danish Nobel Prize winner was Jens Skou who won the prize in chemistry for his discovery over the enzyme, Na+/K+-ATPase in 1997.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 371
+      },
+      {
+        "cross_encoder_score": -5.811793327331543,
+        "dataset": "HotpotQA",
+        "end_char": 703,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "780ba25cc8a7560076a71129d8ca8bd4",
+        "passage_rank": 6,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "e360a766b237a74eb0f93068efff5a30",
+        "sentence_text": " To date, of the 13 Nobel Prizes won by Danish people, 5 have been for medicine, 3 have been for physics, 3 have been for literature, 1 has been for chemistry and one has been for peace.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 517
+      },
+      {
+        "cross_encoder_score": -5.983482837677002,
+        "dataset": "HotpotQA",
+        "end_char": 22,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "9f6c97efc8bc534302423adb082d0956",
+        "passage_rank": 10,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "7f4313d6afca7c7ef4e66b49f2a7aad8",
+        "sentence_text": "Nobel Prize in Physics",
+        "sentence_token_cost": 5,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.319899559020996,
+        "dataset": "HotpotQA",
+        "end_char": 244,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "9f6c97efc8bc534302423adb082d0956",
+        "passage_rank": 10,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "d2775a3e1cbcaacf43247e0457e6ad92",
+        "sentence_text": "The Nobel Prize in Physics (Swedish: \"Nobelpriset i fysik\" ) is a yearly award given by the Royal Swedish Academy of Sciences for those who conferred the most outstanding contributions for mankind in the field of physics.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 23
+      },
+      {
+        "cross_encoder_score": -5.78397274017334,
+        "dataset": "HotpotQA",
+        "end_char": 488,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "9f6c97efc8bc534302423adb082d0956",
+        "passage_rank": 10,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "c61272c2df1400c3223493dde84cfe36",
+        "sentence_text": " It is one of the five Nobel Prizes established by the will of Alfred Nobel in 1895 and awarded since 1901; the others being the Nobel Prize in Chemistry, Nobel Prize in Literature, Nobel Peace Prize, and Nobel Prize in Physiology or Medicine.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 245
+      },
+      {
+        "cross_encoder_score": -7.3081793785095215,
+        "dataset": "HotpotQA",
+        "end_char": 49,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "00c29b155de7c2a63e87783618729250",
+        "passage_rank": 9,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "b81cd8ad2cb202fcaae3bf0195ea2a2c",
+        "sentence_text": "List of Nobel laureates in Physiology or Medicine",
+        "sentence_token_cost": 9,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.834240436553955,
+        "dataset": "HotpotQA",
+        "end_char": 274,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "00c29b155de7c2a63e87783618729250",
+        "passage_rank": 9,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "c8f6d70668f0916335f2746ae7de57fa",
+        "sentence_text": "The Nobel Prize in Physiology or Medicine (Swedish: \"Nobelpriset i fysiologi eller medicin\" ) is awarded annually by the Swedish Karolinska Institute to scientists and doctors in the various fields of physiology or medicine.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 50
+      },
+      {
+        "cross_encoder_score": -5.866179466247559,
+        "dataset": "HotpotQA",
+        "end_char": 483,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "00c29b155de7c2a63e87783618729250",
+        "passage_rank": 9,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "6c8fe1db7f87084363a3c7653fc7c9dd",
+        "sentence_text": " It is one of the five Nobel Prizes established by the 1895 will of Alfred Nobel (who died in 1896), awarded for outstanding contributions in chemistry, physics, literature, peace, and physiology or medicine.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 275
+      },
+      {
+        "cross_encoder_score": -7.378405570983887,
+        "dataset": "HotpotQA",
+        "end_char": 684,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "00c29b155de7c2a63e87783618729250",
+        "passage_rank": 9,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "1de37faf20d94bfbc97087bfb026607e",
+        "sentence_text": " As dictated by Nobel's will, the award is administered by the Nobel Foundation and awarded by a committee that consists of five members and an executive secretary elected by the Karolinska Institute.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "source_position": 484
+      },
+      {
+        "cross_encoder_score": -7.788055419921875,
+        "dataset": "HotpotQA",
+        "end_char": 838,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "00c29b155de7c2a63e87783618729250",
+        "passage_rank": 9,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "afbdc0260a2be3d34ba936808d9dc269",
+        "sentence_text": " While commonly referred to as the Nobel Prize in Medicine, Nobel specifically stated that the prize be awarded for \"physiology or medicine\" in his will.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          2,
+          0,
+          4,
+          0
+        ],
+        "source_position": 685
+      },
+      {
+        "cross_encoder_score": -8.186239242553711,
+        "dataset": "HotpotQA",
+        "end_char": 911,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "00c29b155de7c2a63e87783618729250",
+        "passage_rank": 9,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "c5fe5d8e87af50eeed1c70975df26ad3",
+        "sentence_text": " Because of this, the prize can be awarded in a broader range of fields.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          2,
+          0,
+          5,
+          0
+        ],
+        "source_position": 839
+      },
+      {
+        "cross_encoder_score": -6.7627458572387695,
+        "dataset": "HotpotQA",
+        "end_char": 1019,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "00c29b155de7c2a63e87783618729250",
+        "passage_rank": 9,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "cf8c7f2d7e9a29bd47dc84ab078ba9db",
+        "sentence_text": " The first Nobel Prize in Physiology or Medicine was awarded in 1901 to Emil Adolf von Behring, of Germany.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2,
+          0,
+          6,
+          0
+        ],
+        "source_position": 912
+      },
+      {
+        "cross_encoder_score": -9.420574188232422,
+        "dataset": "HotpotQA",
+        "end_char": 1122,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "00c29b155de7c2a63e87783618729250",
+        "passage_rank": 9,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "4023668b8f23b2de68784e01de487eee",
+        "sentence_text": " Each recipient receives a medal, a diploma and a monetary award that has varied throughout the years.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1020
+      },
+      {
+        "cross_encoder_score": -8.439701080322266,
+        "dataset": "HotpotQA",
+        "end_char": 1216,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "00c29b155de7c2a63e87783618729250",
+        "passage_rank": 9,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "1437eb51853616ddee85397a14f2c16a",
+        "sentence_text": " In 1901, von Behring received 150,782 SEK, which is equal to 7,731,004 SEK in December 2008.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          2,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1123
+      },
+      {
+        "cross_encoder_score": -7.734410285949707,
+        "dataset": "HotpotQA",
+        "end_char": 1390,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "00c29b155de7c2a63e87783618729250",
+        "passage_rank": 9,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "d1bc2ba16dcfc1dea57da24358995272",
+        "sentence_text": " In 2013, the prize was awarded to James E. Rothman, Randy W. Schekman and Thomas C. S\u00fcdhof; they were recognised \"after discovering how cells precisely transport material\".",
+        "sentence_token_cost": 44,
+        "source_order": [
+          2,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1217
+      },
+      {
+        "cross_encoder_score": -7.189017295837402,
+        "dataset": "HotpotQA",
+        "end_char": 1499,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "00c29b155de7c2a63e87783618729250",
+        "passage_rank": 9,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "147c3f753958901b835519972a958792",
+        "sentence_text": " The award is presented in Stockholm at an annual ceremony on December 10, the anniversary of Nobel's death.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          2,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1391
+      },
+      {
+        "cross_encoder_score": -5.231893539428711,
+        "dataset": "HotpotQA",
+        "end_char": 7,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "84d4244a4677830eeb5f3406df89dd1a",
+        "passage_rank": 2,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "6c7e2ff199c898e96d8e74aac6a9aee9",
+        "sentence_text": "Hu Shih",
+        "sentence_token_cost": 3,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.942436218261719,
+        "dataset": "HotpotQA",
+        "end_char": 197,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "84d4244a4677830eeb5f3406df89dd1a",
+        "passage_rank": 2,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "b25aacc58c21498366fde418b5fbbbec",
+        "sentence_text": "Hu Shih (, 17 December 1891 \u2013 24 February 1962; born , his original pen name was and his original courtesy name was , which he changed to ) was a Chinese philosopher, essayist and diplomat.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 8
+      },
+      {
+        "cross_encoder_score": -6.133261203765869,
+        "dataset": "HotpotQA",
+        "end_char": 350,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "84d4244a4677830eeb5f3406df89dd1a",
+        "passage_rank": 2,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "4031767d8d33f828a8c72e3940e84e03",
+        "sentence_text": " Hu is widely recognized today as a key contributor to Chinese liberalism and language reform in his advocacy for the use of written vernacular Chinese.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 198
+      },
+      {
+        "cross_encoder_score": -2.3957231044769287,
+        "dataset": "HotpotQA",
+        "end_char": 547,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "84d4244a4677830eeb5f3406df89dd1a",
+        "passage_rank": 2,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "6355b7bcb9dda53b402b5c00bae12169",
+        "sentence_text": " He was influential in the May Fourth Movement, one of the leaders of China's New Culture Movement, was a president of Peking University, and in 1939 was nominated for a Nobel Prize in literature.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "source_position": 351
+      },
+      {
+        "cross_encoder_score": -7.599097728729248,
+        "dataset": "HotpotQA",
+        "end_char": 643,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "84d4244a4677830eeb5f3406df89dd1a",
+        "passage_rank": 2,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "fd475f3b3760d39e3579c9b824a12a3e",
+        "sentence_text": " He had a wide range of interests such as literature, history, textual criticism, and pedagogy.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          3,
+          0,
+          4,
+          0
+        ],
+        "source_position": 548
+      },
+      {
+        "cross_encoder_score": -8.646535873413086,
+        "dataset": "HotpotQA",
+        "end_char": 760,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "84d4244a4677830eeb5f3406df89dd1a",
+        "passage_rank": 2,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "58a9d44c5fbe888dbbc13961c806cfd5",
+        "sentence_text": " He was also an influential redology scholar and held the famous Jiaxu manuscript () for many years until his death.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3,
+          0,
+          5,
+          0
+        ],
+        "source_position": 644
+      },
+      {
+        "cross_encoder_score": -2.9750850200653076,
+        "dataset": "HotpotQA",
+        "end_char": 25,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "e7a9f5d661fa7836ea2ecf9fcef8f802",
+        "passage_rank": 4,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "874e0a4ec13dfa96ad79da90e9a1008b",
+        "sentence_text": "Nobel Prize in Literature",
+        "sentence_token_cost": 5,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.6318395137786865,
+        "dataset": "HotpotQA",
+        "end_char": 414,
+        "pair_tokens_before_truncation": 130,
+        "pair_truncated": false,
+        "passage_id": "e7a9f5d661fa7836ea2ecf9fcef8f802",
+        "passage_rank": 4,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "39add614bc1d162dee6ed4ca23a19703",
+        "sentence_text": "Since 1901, the Nobel Prize in Literature (Swedish: \"Nobelpriset i litteratur\" ) has been awarded annually to an author from any country who has, in the words of the will of Alfred Nobel, produced \"in the field of literature the most outstanding work in an ideal direction\" (original Swedish: \"den som inom litteraturen har producerat det mest framst\u00e5ende verket i en idealisk riktning\").",
+        "sentence_token_cost": 95,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 26
+      },
+      {
+        "cross_encoder_score": -9.836503982543945,
+        "dataset": "HotpotQA",
+        "end_char": 544,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "e7a9f5d661fa7836ea2ecf9fcef8f802",
+        "passage_rank": 4,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "384e2547df5e5b99393e680026034d15",
+        "sentence_text": " Though individual works are sometimes cited as being particularly noteworthy, here \"work\" refers to an author's work as a whole.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 415
+      },
+      {
+        "cross_encoder_score": -9.416266441345215,
+        "dataset": "HotpotQA",
+        "end_char": 631,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "e7a9f5d661fa7836ea2ecf9fcef8f802",
+        "passage_rank": 4,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "ab8a47ee6369f0876525f572855abf0b",
+        "sentence_text": " The Swedish Academy decides who, if anyone, will receive the prize in any given year.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          4,
+          0,
+          3,
+          0
+        ],
+        "source_position": 545
+      },
+      {
+        "cross_encoder_score": -8.530269622802734,
+        "dataset": "HotpotQA",
+        "end_char": 704,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "e7a9f5d661fa7836ea2ecf9fcef8f802",
+        "passage_rank": 4,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "daabf83b689fdcc6cbf506119d8030d0",
+        "sentence_text": " The academy announces the name of the chosen laureate in early October.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "source_position": 632
+      },
+      {
+        "cross_encoder_score": -7.18433141708374,
+        "dataset": "HotpotQA",
+        "end_char": 920,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "e7a9f5d661fa7836ea2ecf9fcef8f802",
+        "passage_rank": 4,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "8a5872fcece9b615f6c3d534f28455b7",
+        "sentence_text": " It is one of the five Nobel Prizes established by the will of Alfred Nobel in 1895; the others are the Nobel Prize in Chemistry, Nobel Prize in Physics, Nobel Peace Prize, and Nobel Prize in Physiology or Medicine.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          4,
+          0,
+          5,
+          0
+        ],
+        "source_position": 705
+      },
+      {
+        "cross_encoder_score": -7.5464324951171875,
+        "dataset": "HotpotQA",
+        "end_char": 13,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "794c147e641dcc4c17ecb27bb3f3485a",
+        "passage_rank": 7,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "f52161b6ab21e3ad9baa636e87ecc206",
+        "sentence_text": "Derek Walcott",
+        "sentence_token_cost": 4,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.089487075805664,
+        "dataset": "HotpotQA",
+        "end_char": 127,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "794c147e641dcc4c17ecb27bb3f3485a",
+        "passage_rank": 7,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "91778c5d955bf4d5ce330c395785f79f",
+        "sentence_text": "Sir Derek Alton Walcott, KCSL, OBE, OCC (23 January 1930 \u2013 17 March 2017) was a Saint Lucian poet and playwright.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 14
+      },
+      {
+        "cross_encoder_score": -0.8625523447990417,
+        "dataset": "HotpotQA",
+        "end_char": 176,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "794c147e641dcc4c17ecb27bb3f3485a",
+        "passage_rank": 7,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "a18759b85bd054f6e521e2797a832b1b",
+        "sentence_text": " He received the 1992 Nobel Prize in Literature.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 128
+      },
+      {
+        "cross_encoder_score": -8.618459701538086,
+        "dataset": "HotpotQA",
+        "end_char": 250,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "794c147e641dcc4c17ecb27bb3f3485a",
+        "passage_rank": 7,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "8bb3feaebb3dac1f805705491a1ed8ff",
+        "sentence_text": " He was Professor of Poetry at the University of Essex from 2010 to 2013.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "source_position": 177
+      },
+      {
+        "cross_encoder_score": -9.479636192321777,
+        "dataset": "HotpotQA",
+        "end_char": 366,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "794c147e641dcc4c17ecb27bb3f3485a",
+        "passage_rank": 7,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "5a139baeeb25154e656efeb9b9d356ab",
+        "sentence_text": " His works include the Homeric epic poem \"Omeros\" (1990), which many critics view \"as Walcott's major achievement.\"",
+        "sentence_token_cost": 31,
+        "source_order": [
+          5,
+          0,
+          4,
+          0
+        ],
+        "source_position": 251
+      },
+      {
+        "cross_encoder_score": -5.116734027862549,
+        "dataset": "HotpotQA",
+        "end_char": 859,
+        "pair_tokens_before_truncation": 135,
+        "pair_truncated": false,
+        "passage_id": "794c147e641dcc4c17ecb27bb3f3485a",
+        "passage_rank": 7,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "935303ec5afeeb78629b85133290e217",
+        "sentence_text": " In addition to winning the Nobel Prize, Walcott received many literary awards over the course of his career, including an Obie Award in 1971 for his play \"Dream on Monkey Mountain\", a MacArthur Foundation \"genius\" award, a Royal Society of Literature Award, the Queen's Medal for Poetry, the inaugural OCM Bocas Prize for Caribbean Literature, the 2011 T. S. Eliot Prize for his book of poetry \"White Egrets\" and the Griffin Trust For Excellence In Poetry Lifetime Recognition Award in 2015.",
+        "sentence_token_cost": 118,
+        "source_order": [
+          5,
+          0,
+          5,
+          0
+        ],
+        "source_position": 367
+      },
+      {
+        "cross_encoder_score": -7.732446193695068,
+        "dataset": "HotpotQA",
+        "end_char": 11,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "94e27cb86a636dacc150ee0036008278",
+        "passage_rank": 3,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "98988023c45aec9ca8caa8550b19528a",
+        "sentence_text": "Maxim Gorky",
+        "sentence_token_cost": 5,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.6085124015808105,
+        "dataset": "HotpotQA",
+        "end_char": 319,
+        "pair_tokens_before_truncation": 131,
+        "pair_truncated": false,
+        "passage_id": "94e27cb86a636dacc150ee0036008278",
+        "passage_rank": 3,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "5afec9b86d5e2a13f9818bc68a49dac8",
+        "sentence_text": "Alexei Maximovich Peshkov (Russian: \u0410\u043b\u0435\u043a\u0441\u0435\u0301\u0439 \u041c\u0430\u043a\u0441\u0438\u0301\u043c\u043e\u0432\u0438\u0447 \u041f\u0435\u0448\u043a\u043e\u0301\u0432 or \u041f\u0435\u0301\u0448\u043a\u043e\u0432; 28 March [O.S. 16 March] 1868  \u2013 18 June 1936), primarily known as Maxim (Maksim) Gorky ( ; Russian: \u041c\u0430\u043a\u0441\u0438\u0301\u043c \u0413\u043e\u0301\u0440\u044c\u043a\u0438\u0439 ), was a Russian and Soviet writer, a founder of the socialist realism literary method and a political activist.",
+        "sentence_token_cost": 110,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 12
+      },
+      {
+        "cross_encoder_score": 2.0050532817840576,
+        "dataset": "HotpotQA",
+        "end_char": 387,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "94e27cb86a636dacc150ee0036008278",
+        "passage_rank": 3,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "bc8af926fde8801ae01026416693268b",
+        "sentence_text": " He was also a five-time nominee for the Nobel Prize in Literature.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 320
+      },
+      {
+        "cross_encoder_score": -5.593014240264893,
+        "dataset": "HotpotQA",
+        "end_char": 555,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "94e27cb86a636dacc150ee0036008278",
+        "passage_rank": 3,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "e6190f345d6885ca4c3e160ed1435f76",
+        "sentence_text": " Around fifteen years before success as a writer, he frequently changed jobs and roamed across the Russian Empire; these experiences would later influence his writing.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          6,
+          0,
+          3,
+          0
+        ],
+        "source_position": 388
+      },
+      {
+        "cross_encoder_score": -9.429048538208008,
+        "dataset": "HotpotQA",
+        "end_char": 746,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "94e27cb86a636dacc150ee0036008278",
+        "passage_rank": 3,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "f410e74baa503b1d3a6b765025671b3f",
+        "sentence_text": " Gorky's most famous works were \"The Lower Depths\" (1902), \"Twenty-six Men and a Girl\", \"The Song of the Stormy Petrel\", \"My Childhood\",\" The Mother\", \"Summerfolk\" and \"Children of the Sun\".",
+        "sentence_token_cost": 55,
+        "source_order": [
+          6,
+          0,
+          4,
+          0
+        ],
+        "source_position": 556
+      },
+      {
+        "cross_encoder_score": -7.242616176605225,
+        "dataset": "HotpotQA",
+        "end_char": 875,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "94e27cb86a636dacc150ee0036008278",
+        "passage_rank": 3,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "136e985d0067773bbda4dd40d6ed8ca7",
+        "sentence_text": " He had an association with fellow Russian writers Leo Tolstoy and Anton Chekhov; Gorky would later mention them in his memoirs.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          6,
+          0,
+          5,
+          0
+        ],
+        "source_position": 747
+      },
+      {
+        "cross_encoder_score": -1.0368537902832031,
+        "dataset": "HotpotQA",
+        "end_char": 8,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "01c32ebde2ff4499c587c549cbaa261e",
+        "passage_rank": 1,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "c3579bba895a141a76c0bd01ab4aff68",
+        "sentence_text": "Hu Lanqi",
+        "sentence_token_cost": 3,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.4995285272598267,
+        "dataset": "HotpotQA",
+        "end_char": 87,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "01c32ebde2ff4499c587c549cbaa261e",
+        "passage_rank": 1,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "edbad29c80f34249a1c0fbe221275d06",
+        "sentence_text": "Hu Lanqi (; 1901 \u2013 13 December 1994) was a Chinese writer and military leader.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 9
+      },
+      {
+        "cross_encoder_score": -9.544517517089844,
+        "dataset": "HotpotQA",
+        "end_char": 205,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "01c32ebde2ff4499c587c549cbaa261e",
+        "passage_rank": 1,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "812e1a4a2f1903b450962ccd9b6d9e75",
+        "sentence_text": " She joined the National Revolutionary Army in 1927 and the Chinese branch of the Communist Party of Germany in 1930.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 88
+      },
+      {
+        "cross_encoder_score": 0.04554208368062973,
+        "dataset": "HotpotQA",
+        "end_char": 364,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "01c32ebde2ff4499c587c549cbaa261e",
+        "passage_rank": 1,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "d8b50ad17fcdd0c248c995d0d5c682f2",
+        "sentence_text": " She was imprisoned by Nazi Germany in 1933 and wrote an influential memoir of her experience, for which she was invited by Maxim Gorky to meet him in Moscow.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 206
+      },
+      {
+        "cross_encoder_score": -10.822867393493652,
+        "dataset": "HotpotQA",
+        "end_char": 590,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "01c32ebde2ff4499c587c549cbaa261e",
+        "passage_rank": 1,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "6bbb587d0a45d3ae2d97863949291173",
+        "sentence_text": " After the outbreak of the Second Sino-Japanese War in 1937, she organized a team of women soldiers to resist the Japanese invasion, and became the first woman to be awarded the rank of Major General by the Republic of China.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          7,
+          0,
+          4,
+          0
+        ],
+        "source_position": 365
+      },
+      {
+        "cross_encoder_score": -10.496604919433594,
+        "dataset": "HotpotQA",
+        "end_char": 751,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "01c32ebde2ff4499c587c549cbaa261e",
+        "passage_rank": 1,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "af4f7aed1119ec20fe0d5f88ac7b9c68",
+        "sentence_text": " She supported the Communists during the Chinese Civil War, but was persecuted during Mao Zedong's political campaigns following the Communist victory in China.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          7,
+          0,
+          5,
+          0
+        ],
+        "source_position": 591
+      },
+      {
+        "cross_encoder_score": -10.459854125976562,
+        "dataset": "HotpotQA",
+        "end_char": 884,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "01c32ebde2ff4499c587c549cbaa261e",
+        "passage_rank": 1,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "2d0c550c77d4d64dfa82811f746c6e22",
+        "sentence_text": " She survived the Cultural Revolution to see her political rehabilitation, and published a detailed memoir of her life in the 1980s.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          7,
+          0,
+          6,
+          0
+        ],
+        "source_position": 752
+      },
+      {
+        "cross_encoder_score": -4.053251266479492,
+        "dataset": "HotpotQA",
+        "end_char": 37,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "dee1c0b898c5c5a48f77fd9cd33357b8",
+        "passage_rank": 5,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "8925ccb27813e8b589574f1f802dae7b",
+        "sentence_text": "List of Nobel laureates in Literature",
+        "sentence_token_cost": 7,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.9972808361053467,
+        "dataset": "HotpotQA",
+        "end_char": 217,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "dee1c0b898c5c5a48f77fd9cd33357b8",
+        "passage_rank": 5,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "8a3708e5ad00b6bb7788f27e2a170d0c",
+        "sentence_text": "The Nobel Prize in Literature (Swedish: \"Nobelpriset i litteratur\") is awarded annually by the Swedish Academy to authors for outstanding contributions in the field of literature.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 38
+      },
+      {
+        "cross_encoder_score": -6.154062271118164,
+        "dataset": "HotpotQA",
+        "end_char": 417,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "dee1c0b898c5c5a48f77fd9cd33357b8",
+        "passage_rank": 5,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "fc9f506a47909c71e8d597da456c878e",
+        "sentence_text": " It is one of the five Nobel Prizes established by the 1895 will of Alfred Nobel, which are awarded for outstanding contributions in chemistry, physics, literature, peace, and physiology or medicine.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          8,
+          0,
+          2,
+          0
+        ],
+        "source_position": 218
+      },
+      {
+        "cross_encoder_score": -7.4771575927734375,
+        "dataset": "HotpotQA",
+        "end_char": 586,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "dee1c0b898c5c5a48f77fd9cd33357b8",
+        "passage_rank": 5,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "e3639d4714d251e6c1c89c5bcc48b9f8",
+        "sentence_text": " As dictated by Nobel's will, the award is administered by the Nobel Foundation and awarded by a committee that consists of five members elected by the Swedish Academy.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          8,
+          0,
+          3,
+          0
+        ],
+        "source_position": 418
+      },
+      {
+        "cross_encoder_score": -3.707728624343872,
+        "dataset": "HotpotQA",
+        "end_char": 673,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "dee1c0b898c5c5a48f77fd9cd33357b8",
+        "passage_rank": 5,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "5ef75b67071a0d8a9d270b745939eebf",
+        "sentence_text": " The first Nobel Prize in Literature was awarded in 1901 to Sully Prudhomme of France.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          8,
+          0,
+          4,
+          0
+        ],
+        "source_position": 587
+      },
+      {
+        "cross_encoder_score": -9.1369047164917,
+        "dataset": "HotpotQA",
+        "end_char": 782,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "dee1c0b898c5c5a48f77fd9cd33357b8",
+        "passage_rank": 5,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "f0e2bd7e239dee031a8a8b85e5b2823f",
+        "sentence_text": " Each recipient receives a medal, a diploma and a monetary award prize that has varied throughout the years.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          8,
+          0,
+          5,
+          0
+        ],
+        "source_position": 674
+      },
+      {
+        "cross_encoder_score": -8.82533073425293,
+        "dataset": "HotpotQA",
+        "end_char": 879,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "dee1c0b898c5c5a48f77fd9cd33357b8",
+        "passage_rank": 5,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "fa77f08a73202a463d108e448b647814",
+        "sentence_text": " In 1901, Prudhomme received 150,782 SEK, which is equivalent to 7,731,004 SEK in December 2007.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          8,
+          0,
+          6,
+          0
+        ],
+        "source_position": 783
+      },
+      {
+        "cross_encoder_score": -7.189017295837402,
+        "dataset": "HotpotQA",
+        "end_char": 988,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "dee1c0b898c5c5a48f77fd9cd33357b8",
+        "passage_rank": 5,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "ee94cab47c8961b41f4f83cabf623636",
+        "sentence_text": " The award is presented in Stockholm at an annual ceremony on December 10, the anniversary of Nobel's death.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          8,
+          0,
+          7,
+          0
+        ],
+        "source_position": 880
+      },
+      {
+        "cross_encoder_score": -7.016016483306885,
+        "dataset": "HotpotQA",
+        "end_char": 30,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "5857db365af0ca4cbe25718c625cfc0d",
+        "passage_rank": 8,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "30852c453ac58f75e9e07575f05d7283",
+        "sentence_text": "List of female Nobel laureates",
+        "sentence_token_cost": 6,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.936959266662598,
+        "dataset": "HotpotQA",
+        "end_char": 335,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "5857db365af0ca4cbe25718c625cfc0d",
+        "passage_rank": 8,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "8856f5f9afefda557464e54ff17c3bf4",
+        "sentence_text": "The Nobel Prizes are awarded annually by the Royal Swedish Academy of Sciences, the Swedish Academy, the Karolinska Institute, and the Norwegian Nobel Committee to individuals who make outstanding contributions in the fields of Chemistry, Physics, Literature, Peace, Physiology or Medicine and Economics.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 31
+      },
+      {
+        "cross_encoder_score": -7.564478397369385,
+        "dataset": "HotpotQA",
+        "end_char": 494,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "5857db365af0ca4cbe25718c625cfc0d",
+        "passage_rank": 8,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "d2c791a5ada5d6c6f4cc3637d7e5c9b4",
+        "sentence_text": " All but the economics prize were established by the 1895 will of Alfred Nobel, which dictates that the awards should be administered by the Nobel Foundation.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 336
+      },
+      {
+        "cross_encoder_score": -7.415691375732422,
+        "dataset": "HotpotQA",
+        "end_char": 739,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "5857db365af0ca4cbe25718c625cfc0d",
+        "passage_rank": 8,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "913803b4c2374f8ca2457fc358822951",
+        "sentence_text": " The Nobel prize in Economics, or The Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, was established in 1968 by the Sveriges Riksbank, the central bank of Sweden, for outstanding contributions in the field of Economics.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          9,
+          0,
+          3,
+          0
+        ],
+        "source_position": 495
+      },
+      {
+        "cross_encoder_score": -7.512120246887207,
+        "dataset": "HotpotQA",
+        "end_char": 1063,
+        "pair_tokens_before_truncation": 90,
+        "pair_truncated": false,
+        "passage_id": "5857db365af0ca4cbe25718c625cfc0d",
+        "passage_rank": 8,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "84446fbb74177305879259fc6be2e216",
+        "sentence_text": " Each prize is awarded by a separate committee; the Royal Swedish Academy of Sciences awards the Prizes in Physics, Chemistry, and Economics, the Swedish Academy awards the Prize in Literature, the Karolinska Institute awards the Prize in Physiology or Medicine, and the Norwegian Nobel Committee awards the Prize in Peace.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          9,
+          0,
+          4,
+          0
+        ],
+        "source_position": 740
+      },
+      {
+        "cross_encoder_score": -9.074992179870605,
+        "dataset": "HotpotQA",
+        "end_char": 1162,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "5857db365af0ca4cbe25718c625cfc0d",
+        "passage_rank": 8,
+        "query_id": "5ae7936d5542997ec27276a7",
+        "sentence_id": "cf24a231136284c27bed08caf3aa23c7",
+        "sentence_text": " Each recipient receives a medal, a diploma and a cash prize that has varied throughout the years.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          9,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1064
+      }
+    ],
+    "scoring_seconds": 0.4302624720148742,
+    "source_fingerprint": "451e92b514e6160fd89bb6a44d3b7b7db31d61579ffde730e4662fa4be36602b"
+  }
+}

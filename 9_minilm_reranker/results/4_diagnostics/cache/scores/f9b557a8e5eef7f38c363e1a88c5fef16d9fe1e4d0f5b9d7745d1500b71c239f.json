@@ -1,0 +1,971 @@
+{
+  "checksum": "86151d9f41363bb45f4a18588702dd97db80a2f777ef86ec80cca532442299be",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5a84b7db5542991dd0999db0"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 47,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "8785b0fe445ab07b200ccee4c4d6bc3ff3c04a4e6b6768bf19f82c9c5a8e6ade",
+    "query_id": "5a84b7db5542991dd0999db0",
+    "scores": [
+      {
+        "cross_encoder_score": -1.0242804288864136,
+        "dataset": "HotpotQA",
+        "end_char": 15,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "d7485e2612fb4cf4ba615c51324a9e99",
+        "passage_rank": 3,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "4ed12e96e8a8206caae96e7ea5036f13",
+        "sentence_text": "G\u00f6tterd\u00e4mmerung",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.4348841905593872,
+        "dataset": "HotpotQA",
+        "end_char": 215,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "d7485e2612fb4cf4ba615c51324a9e99",
+        "passage_rank": 3,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "5281e1fb08203ceada289cd393cf929f",
+        "sentence_text": "G\u00f6tterd\u00e4mmerung ( ; Twilight of the Gods), WWV 86D, is the last in Richard Wagner's cycle of four music dramas titled \"Der Ring des Nibelungen \" (\"The Ring of the Nibelung\", or \"The Ring\" for short).",
+        "sentence_token_cost": 59,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 16
+      },
+      {
+        "cross_encoder_score": -11.112780570983887,
+        "dataset": "HotpotQA",
+        "end_char": 347,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "d7485e2612fb4cf4ba615c51324a9e99",
+        "passage_rank": 3,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "634f2e020271e237c4dec46eab228e1a",
+        "sentence_text": " It received its premiere at the Bayreuth Festspielhaus on 17 August 1876, as part of the first complete performance of the \"Ring\".",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 216
+      },
+      {
+        "cross_encoder_score": -11.005852699279785,
+        "dataset": "HotpotQA",
+        "end_char": 17,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "cd1fb857e642e272409e8c501419f838",
+        "passage_rank": 10,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "e94563731e9441855b154629fd7fa414",
+        "sentence_text": "Marjorie Lawrence",
+        "sentence_token_cost": 4,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.358429908752441,
+        "dataset": "HotpotQA",
+        "end_char": 174,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "cd1fb857e642e272409e8c501419f838",
+        "passage_rank": 10,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "2cd991b5cf935d8da347fbbc0f724a20",
+        "sentence_text": "Marjorie Florence Lawrence CBE (17 February 190713 January 1979) was an Australian soprano, particularly noted as an interpreter of Richard Wagner's operas.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 18
+      },
+      {
+        "cross_encoder_score": -2.8089070320129395,
+        "dataset": "HotpotQA",
+        "end_char": 333,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "cd1fb857e642e272409e8c501419f838",
+        "passage_rank": 10,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "cc27e6a12ad1709330b0b517d41a133e",
+        "sentence_text": " She was the first Metropolitan Opera soprano to perform the immolation scene in \"G\u00f6tterd\u00e4mmerung\" by riding her horse into the flames as Wagner had intended.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 175
+      },
+      {
+        "cross_encoder_score": -11.256671905517578,
+        "dataset": "HotpotQA",
+        "end_char": 372,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "cd1fb857e642e272409e8c501419f838",
+        "passage_rank": 10,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "d91000de625031cd0bcd819e6e9abdbe",
+        "sentence_text": " She was afflicted by polio from 1941.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "source_position": 334
+      },
+      {
+        "cross_encoder_score": -11.395615577697754,
+        "dataset": "HotpotQA",
+        "end_char": 477,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "cd1fb857e642e272409e8c501419f838",
+        "passage_rank": 10,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "c092ef8d74109db6c4242830b973393f",
+        "sentence_text": " Lawrence later served on the faculty of the School of Music at Southern Illinois University Carbondale.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          1,
+          0,
+          4,
+          0
+        ],
+        "source_position": 373
+      },
+      {
+        "cross_encoder_score": -10.963361740112305,
+        "dataset": "HotpotQA",
+        "end_char": 24,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "8e69928215dfc1d22891506a39b5f921",
+        "passage_rank": 8,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "ede0b073a59d7996f4c007b39e5000c3",
+        "sentence_text": "Giovanni Andrea Bontempi",
+        "sentence_token_cost": 8,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.016228675842285,
+        "dataset": "HotpotQA",
+        "end_char": 220,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "8e69928215dfc1d22891506a39b5f921",
+        "passage_rank": 8,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "1dd90342f4cb403be7e708b19cc8495b",
+        "sentence_text": "Giovanni Andrea Bontempi (ca. 1624 \u2013 1 July 1705) was an Italian castrato singer, later composer, historian, music theorist, and assistant \"kapellmeister\" to Heinrich Sch\u00fctz at Dresden from 1657.",
+        "sentence_token_cost": 66,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 25
+      },
+      {
+        "cross_encoder_score": -11.349190711975098,
+        "dataset": "HotpotQA",
+        "end_char": 328,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "8e69928215dfc1d22891506a39b5f921",
+        "passage_rank": 8,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "425ec86e8f0b86b817f1f8302159c3c5",
+        "sentence_text": " He was born Giovanni Andrea Angelini, in Perugia but later took the surname of his patron Cesare Bontempi.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 221
+      },
+      {
+        "cross_encoder_score": -10.6913480758667,
+        "dataset": "HotpotQA",
+        "end_char": 406,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "8e69928215dfc1d22891506a39b5f921",
+        "passage_rank": 8,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "41920957bcd918961a950637dbb8cb21",
+        "sentence_text": " His \"Il Paride\" was the first Italian-language opera to be given in Dresden.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "source_position": 329
+      },
+      {
+        "cross_encoder_score": -11.186283111572266,
+        "dataset": "HotpotQA",
+        "end_char": 596,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "8e69928215dfc1d22891506a39b5f921",
+        "passage_rank": 8,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "79d7b00146e34094716dac4f648f20b9",
+        "sentence_text": " It was first performed in November 1662 at the Dresden Castle to celebrate the marriage of Erdmude Sophia, the daughter of the Elector of Saxony, and Christian Ernst, Count of Brandenburg.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          2,
+          0,
+          4,
+          0
+        ],
+        "source_position": 407
+      },
+      {
+        "cross_encoder_score": 0.3799121081829071,
+        "dataset": "HotpotQA",
+        "end_char": 778,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "8e69928215dfc1d22891506a39b5f921",
+        "passage_rank": 8,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "aa9373fdfa0dfc808c41c2999185841c",
+        "sentence_text": " He composed two other operas, both of which also premiered in Dresden: \"Dafne\" performed in 1671 to open the Opernhaus am Taschenberg, and \"Jupiter und Jo\" first performed in 1673.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          2,
+          0,
+          5,
+          0
+        ],
+        "source_position": 597
+      },
+      {
+        "cross_encoder_score": -8.132586479187012,
+        "dataset": "HotpotQA",
+        "end_char": 24,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "cfa85014d73fcceb183710e759a67955",
+        "passage_rank": 9,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "66bca6b3f8783ac83bf9f574ee205cf0",
+        "sentence_text": "List of Argentine operas",
+        "sentence_token_cost": 5,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.743710517883301,
+        "dataset": "HotpotQA",
+        "end_char": 73,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "cfa85014d73fcceb183710e759a67955",
+        "passage_rank": 9,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "9301be40b3fdc6d337b2577f715cb71b",
+        "sentence_text": "This is a list of operas by Argentine composers.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 25
+      },
+      {
+        "cross_encoder_score": -10.140619277954102,
+        "dataset": "HotpotQA",
+        "end_char": 335,
+        "pair_tokens_before_truncation": 88,
+        "pair_truncated": false,
+        "passage_id": "cfa85014d73fcceb183710e759a67955",
+        "passage_rank": 9,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "05d4db5461434d211bc694f66a0feddf",
+        "sentence_text": " Argentina's first native born opera composer was Francisco Hargreaves (1849-1900) who composed \"La gatta bianca\" (1875) and \"Los estudiantes de Bologna\" (1897), followed by Zen\u00f3n Rol\u00f3n (1856-1902) who composed several operas as well as operettas and zarzuelas.",
+        "sentence_token_cost": 87,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 74
+      },
+      {
+        "cross_encoder_score": -10.899272918701172,
+        "dataset": "HotpotQA",
+        "end_char": 432,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "cfa85014d73fcceb183710e759a67955",
+        "passage_rank": 9,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "98a010fb6f9f4241aca4264def26d544",
+        "sentence_text": " The works of many of the composers from this generation were first performed outside Argentina.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "source_position": 336
+      },
+      {
+        "cross_encoder_score": -9.122557640075684,
+        "dataset": "HotpotQA",
+        "end_char": 697,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "cfa85014d73fcceb183710e759a67955",
+        "passage_rank": 9,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "845d03c5b4a7440387d6014a4da6ac78",
+        "sentence_text": " Native Argentine opera was to develop much more with the massive European (mainly Italian) immigration in the late 19th century and even more with the opening of the Teatro Col\u00f3n in 1908 where most of the 20th century operas listed here had their world premieres.",
+        "sentence_token_cost": 63,
+        "source_order": [
+          3,
+          0,
+          4,
+          0
+        ],
+        "source_position": 433
+      },
+      {
+        "cross_encoder_score": -9.39868450164795,
+        "dataset": "HotpotQA",
+        "end_char": 916,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "cfa85014d73fcceb183710e759a67955",
+        "passage_rank": 9,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "70537896c47494a33a8168954f8c3810",
+        "sentence_text": " Some of the first operas to treat Argentine subjects or national themes were Arturo Berutti's \"Pampa\" (1897) based on the life of Juan Moreira and \"Yupanki\" (1899) based on the life of Inca warrior Manqu Inka Yupanki.",
+        "sentence_token_cost": 67,
+        "source_order": [
+          3,
+          0,
+          5,
+          0
+        ],
+        "source_position": 698
+      },
+      {
+        "cross_encoder_score": -10.847221374511719,
+        "dataset": "HotpotQA",
+        "end_char": 1039,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "cfa85014d73fcceb183710e759a67955",
+        "passage_rank": 9,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "21727c48c7b39265e79c144844b4187a",
+        "sentence_text": " Also notable in this genre were Felipe Boero's \"Tucum\u00e1n\" (1918) set during the Battle of Tucum\u00e1n and \"El matrero\" (1929).",
+        "sentence_token_cost": 44,
+        "source_order": [
+          3,
+          0,
+          6,
+          0
+        ],
+        "source_position": 917
+      },
+      {
+        "cross_encoder_score": -6.991899490356445,
+        "dataset": "HotpotQA",
+        "end_char": 1233,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "cfa85014d73fcceb183710e759a67955",
+        "passage_rank": 9,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "711dde1d11321e6b842643a67810a087",
+        "sentence_text": " Considered by many to be the quintessential Argentine opera, \"El matrero\" had a libretto based on gaucho folk tradition and incorporated Argentine folk melodies and a traditional gaucho dance.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          3,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1040
+      },
+      {
+        "cross_encoder_score": -9.386642456054688,
+        "dataset": "HotpotQA",
+        "end_char": 1334,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "cfa85014d73fcceb183710e759a67955",
+        "passage_rank": 9,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "b15627069b26a1ee79edae97f91ae427",
+        "sentence_text": " The Spanish playwright Federico Garc\u00eda Lorca was also the inspiration for several Argentine operas.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1234
+      },
+      {
+        "cross_encoder_score": -9.543755531311035,
+        "dataset": "HotpotQA",
+        "end_char": 1532,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "cfa85014d73fcceb183710e759a67955",
+        "passage_rank": 9,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "b67912190b1d1408412c1cd5de7ba3d0",
+        "sentence_text": " His plays, \"La zapatera prodigiosa\" and \"Bodas de sangre\", were the basis of operas by Juan Jos\u00e9 Castro, while Osvaldo Golijov's 2003 opera \"Ainadamar\" is based on events in the playwright's life.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          3,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1335
+      },
+      {
+        "cross_encoder_score": -10.781732559204102,
+        "dataset": "HotpotQA",
+        "end_char": 15,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "afa22cbc9a180abc4e4c151b10d0ae02",
+        "passage_rank": 5,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "17c29e001691297af2f393e915df4cc5",
+        "sentence_text": "Gerd Grochowski",
+        "sentence_token_cost": 5,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.866835594177246,
+        "dataset": "HotpotQA",
+        "end_char": 198,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "afa22cbc9a180abc4e4c151b10d0ae02",
+        "passage_rank": 5,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "2feaa538537dc27faeba925b7864e634",
+        "sentence_text": "Gerd Grochowski (28 February 28, 1956, Krefeld \u2013 16 January 2017, Mainz) was a German operatic bass-baritone who had an active international career from 1986 until his death in 2017.",
+        "sentence_token_cost": 66,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 16
+      },
+      {
+        "cross_encoder_score": -2.162410020828247,
+        "dataset": "HotpotQA",
+        "end_char": 463,
+        "pair_tokens_before_truncation": 95,
+        "pair_truncated": false,
+        "passage_id": "afa22cbc9a180abc4e4c151b10d0ae02",
+        "passage_rank": 5,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "3623bf262a5ab3805ac058a570c9e49d",
+        "sentence_text": " Particularly known for his performances in the operas of Richard Wagner, his roles included Donner in \"Das Rheingold\", Gunther in \"G\u00f6tterd\u00e4mmerung\", Klingsor in \"Parsifal\", Kurwenal in \"Tristan und Isolde\", Telramund in \"Lohengrin\", and Wotan in \"The Ring Cycle\".",
+        "sentence_token_cost": 79,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 199
+      },
+      {
+        "cross_encoder_score": -10.915240287780762,
+        "dataset": "HotpotQA",
+        "end_char": 574,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "afa22cbc9a180abc4e4c151b10d0ae02",
+        "passage_rank": 5,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "9426d7a9e86d2da6ba866b1dd2121b48",
+        "sentence_text": " A graduate of the Hochschule f\u00fcr Musik und Tanz K\u00f6ln, he was a longtime resident artist at the Cologne Opera.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          4,
+          0,
+          3,
+          0
+        ],
+        "source_position": 464
+      },
+      {
+        "cross_encoder_score": -10.83114242553711,
+        "dataset": "HotpotQA",
+        "end_char": 879,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "afa22cbc9a180abc4e4c151b10d0ae02",
+        "passage_rank": 5,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "976d079403aa89e5e2742be5d7f7ac8c",
+        "sentence_text": " He appeared in leading roles as a guest artist at the Bayreuth Festival, the Berlin State Opera, the Bavarian State Opera, the Frankfurt Opera, the Hamburg State Opera, La Scala, the Liceu, the Linz State Theatre, the Stuttgart Opera, the Teatro Real, the Theater an der Wien, and the Salzburg Festival.",
+        "sentence_token_cost": 71,
+        "source_order": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "source_position": 575
+      },
+      {
+        "cross_encoder_score": -3.7293951511383057,
+        "dataset": "HotpotQA",
+        "end_char": 8,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "e21a9c917bbda64ad5de4a4823672d8a",
+        "passage_rank": 1,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "3822a58271d16f9d906043bb05aecf8c",
+        "sentence_text": "La Dafne",
+        "sentence_token_cost": 4,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -0.30808550119400024,
+        "dataset": "HotpotQA",
+        "end_char": 151,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "e21a9c917bbda64ad5de4a4823672d8a",
+        "passage_rank": 1,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "bfedb1019a381e8a4a8469aab1bb88c3",
+        "sentence_text": "La Dafne (\"Daphne\") is an early Italian opera, written in 1608 by the Italian composer Marco da Gagliano from a libretto by Ottavio Rinuccini.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 9
+      },
+      {
+        "cross_encoder_score": -11.131505012512207,
+        "dataset": "HotpotQA",
+        "end_char": 249,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "e21a9c917bbda64ad5de4a4823672d8a",
+        "passage_rank": 1,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "537f0dbb601bbe852e81ef79eafb8182",
+        "sentence_text": " It is described as a \"favola in musica\" (fable set to music) composed in one act and a prologue.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 152
+      },
+      {
+        "cross_encoder_score": -10.159881591796875,
+        "dataset": "HotpotQA",
+        "end_char": 363,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "e21a9c917bbda64ad5de4a4823672d8a",
+        "passage_rank": 1,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "508489f9af0e9f4fd3435d68d9b4883c",
+        "sentence_text": " The opera is based on the myth of Daphne and Apollo as related by Ovid in the first book of the \"Metamorphoses\".",
+        "sentence_token_cost": 30,
+        "source_order": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "source_position": 250
+      },
+      {
+        "cross_encoder_score": 2.6397945880889893,
+        "dataset": "HotpotQA",
+        "end_char": 509,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "e21a9c917bbda64ad5de4a4823672d8a",
+        "passage_rank": 1,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "61949220c3892bc840f4adaae6fcdf9e",
+        "sentence_text": " An earlier version of the libretto had been set to music in 1597\u201398 by Jacopo Peri, whose \"Dafne\" is generally considered to be the first opera.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          5,
+          0,
+          4,
+          0
+        ],
+        "source_position": 364
+      },
+      {
+        "cross_encoder_score": -1.9927624464035034,
+        "dataset": "HotpotQA",
+        "end_char": 5,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "985a9ff1b86d88d994c7227e9b1ebd6a",
+        "passage_rank": 2,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "fe2c2bbd147e89870fdf6bb50dc4ad54",
+        "sentence_text": "Dafne",
+        "sentence_token_cost": 3,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 4.499712944030762,
+        "dataset": "HotpotQA",
+        "end_char": 95,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "985a9ff1b86d88d994c7227e9b1ebd6a",
+        "passage_rank": 2,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "e2e8d541f040e3b843a03f969ebda013",
+        "sentence_text": "Dafne is the earliest known work that, by modern standards, could be considered an opera.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 6
+      },
+      {
+        "cross_encoder_score": -10.92154598236084,
+        "dataset": "HotpotQA",
+        "end_char": 270,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "985a9ff1b86d88d994c7227e9b1ebd6a",
+        "passage_rank": 2,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "43dd7b5ea30e189be293e34d8974b39a",
+        "sentence_text": " The libretto by Ottavio Rinuccini survives complete; the mostly-lost music was completed by Jacopo Peri, but at least two of the six surviving fragments are by Jacopo Corsi.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 96
+      },
+      {
+        "cross_encoder_score": -2.3265228271484375,
+        "dataset": "HotpotQA",
+        "end_char": 362,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "985a9ff1b86d88d994c7227e9b1ebd6a",
+        "passage_rank": 2,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "4dd1839b5deb06bcc68ead8546ae28cc",
+        "sentence_text": " \"Dafne\" was first performed during Carnival of 1598 (1597 old style) at the Palazzo Corsi.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          6,
+          0,
+          3,
+          0
+        ],
+        "source_position": 271
+      },
+      {
+        "cross_encoder_score": -11.305779457092285,
+        "dataset": "HotpotQA",
+        "end_char": 48,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "736b7db99ef67e72ddc12437cfd01260",
+        "passage_rank": 7,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "b7599d9de45869988587bb975a880c8e",
+        "sentence_text": "Der Ring des Nibelungen: Composition of the poem",
+        "sentence_token_cost": 11,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.55662727355957,
+        "dataset": "HotpotQA",
+        "end_char": 304,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "736b7db99ef67e72ddc12437cfd01260",
+        "passage_rank": 7,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "b5df6ae32776d8bf58c2899b6c84e2b3",
+        "sentence_text": "The evolution of Richard Wagner's operatic tetralogy \"Der Ring des Nibelungen\" (\"The Ring of the Nibelung\") was a long and tortuous process, and the precise sequence of events which led the composer to embark upon such a vast undertaking is still unclear.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 49
+      },
+      {
+        "cross_encoder_score": -0.11949274688959122,
+        "dataset": "HotpotQA",
+        "end_char": 528,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "736b7db99ef67e72ddc12437cfd01260",
+        "passage_rank": 7,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "17d4394e3c15b9e02021ee105cd59b79",
+        "sentence_text": " The composition of the text took place between 1848 and 1853, when all four libretti were privately printed; but the closing scene of the final opera, \"G\u00f6tterd\u00e4mmerung\", was revised a number of times between 1856 and 1872.",
+        "sentence_token_cost": 67,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 305
+      },
+      {
+        "cross_encoder_score": 2.7852604389190674,
+        "dataset": "HotpotQA",
+        "end_char": 654,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "736b7db99ef67e72ddc12437cfd01260",
+        "passage_rank": 7,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "c1833f22ca7d7995608a9baf06c2382a",
+        "sentence_text": " The names of the last two Ring operas, \"Siegfried\" and \"G\u00f6tterd\u00e4mmerung\", were probably not definitively settled until 1856.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 529
+      },
+      {
+        "cross_encoder_score": -10.667838096618652,
+        "dataset": "HotpotQA",
+        "end_char": 15,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "606b8b976ab65d3765da486148415a0f",
+        "passage_rank": 6,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "5a6dcf0a706e98f0c562e228f036201c",
+        "sentence_text": "Heinrich Sch\u00fctz",
+        "sentence_token_cost": 6,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.227178573608398,
+        "dataset": "HotpotQA",
+        "end_char": 294,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "606b8b976ab65d3765da486148415a0f",
+        "passage_rank": 6,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "5398d27722ea5f1ff8a825a724d0260c",
+        "sentence_text": "Heinrich Sch\u00fctz (] ; 18 October\u00a0[O.S. 8 October]\u00a01585 \u2013 6 November 1672) was a German composer and organist, generally regarded as the most important German composer before Johann Sebastian Bach and often considered to be one of the most important composers of the 17th century.",
+        "sentence_token_cost": 76,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 16
+      },
+      {
+        "cross_encoder_score": 1.4566627740859985,
+        "dataset": "HotpotQA",
+        "end_char": 445,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "606b8b976ab65d3765da486148415a0f",
+        "passage_rank": 6,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "602b85b22f7b8701dd46c97a9fa436a8",
+        "sentence_text": " He wrote what is traditionally considered to be the first German opera, \"Dafne\", performed at Torgau in 1627, the music of which has since been lost.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          8,
+          0,
+          2,
+          0
+        ],
+        "source_position": 295
+      },
+      {
+        "cross_encoder_score": -2.9998221397399902,
+        "dataset": "HotpotQA",
+        "end_char": 27,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "8aaa496e8dd304b34ca2f4edcf686b58",
+        "passage_rank": 4,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "4a761b1361e802b599f641dc02bd6652",
+        "sentence_text": "G\u00f6tterd\u00e4mmerung discography",
+        "sentence_token_cost": 9,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 2.4139044284820557,
+        "dataset": "HotpotQA",
+        "end_char": 266,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "8aaa496e8dd304b34ca2f4edcf686b58",
+        "passage_rank": 4,
+        "query_id": "5a84b7db5542991dd0999db0",
+        "sentence_id": "1dfb15387da054c3b75ffa58e813c223",
+        "sentence_text": "This is a discography of \"G\u00f6tterd\u00e4mmerung\", the fourth of the four operas that make up \"Der Ring des Nibelungen\" (\"The Ring of the Nibelung\"), by Richard Wagner, which received its premiere at the Bayreuth Festspielhaus on 17 August 1876.",
+        "sentence_token_cost": 69,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 28
+      }
+    ],
+    "scoring_seconds": 0.22869107499718666,
+    "source_fingerprint": "5b1926dd20fa1d4936220f48d1761947d648d77993edbca79530f23c61f2e41d"
+  }
+}

@@ -1,0 +1,1991 @@
+{
+  "checksum": "fb9b97cf6a296a7401d992adeb323f6f3ab2994a4753c762e12237693d2759e8",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 98,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "3eb8e54d792fbf624d24a54712a59ff55e8b32c712e86c5a763e5fe6e4f6c834",
+    "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+    "scores": [
+      {
+        "cross_encoder_score": -11.231796264648438,
+        "dataset": "QASPER",
+        "end_char": 1283,
+        "pair_tokens_before_truncation": 13,
+        "pair_truncated": false,
+        "passage_id": "9f38f241e79ae3a7308a578c4214b1e6",
+        "passage_rank": 2,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "78b5e4761b5351f3fe51069fee79c521",
+        "sentence_text": "for Nepali language.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1263
+      },
+      {
+        "cross_encoder_score": -9.695606231689453,
+        "dataset": "QASPER",
+        "end_char": 1478,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "9f38f241e79ae3a7308a578c4214b1e6",
+        "passage_rank": 2,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "84cf0b1a6264d56c72c5a3e85044a279",
+        "sentence_text": "In this paper, we propose a neural based Nepali NER using latest state-of-the-art architecture based on grapheme-level which doesn't require any hand-crafted features and no data pre-processing.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1284
+      },
+      {
+        "cross_encoder_score": -10.53292179107666,
+        "dataset": "QASPER",
+        "end_char": 1640,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "9f38f241e79ae3a7308a578c4214b1e6",
+        "passage_rank": 2,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "ecd8c90698451f55c680d745fa939efa",
+        "sentence_text": "Recent neural architecture like  is used to relax the need to hand-craft the features and need to use part-of-speech tag to determine the category of the entity.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1479
+      },
+      {
+        "cross_encoder_score": -6.856778144836426,
+        "dataset": "QASPER",
+        "end_char": 1844,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "9f38f241e79ae3a7308a578c4214b1e6",
+        "passage_rank": 2,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "8c79000a8c5179c4953f2119484e85b1",
+        "sentence_text": "However, this architecture have been studied for languages like English, and German and not been applied to languages like Nepali which is a low resource language i.e limited data set to train the model.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1641
+      },
+      {
+        "cross_encoder_score": -3.725754976272583,
+        "dataset": "QASPER",
+        "end_char": 2049,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "9f38f241e79ae3a7308a578c4214b1e6",
+        "passage_rank": 2,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "e3c494ab84073a91ec13f703ec88de6a",
+        "sentence_text": "Traditional methods like Hidden Markov Model (HMM) with rule based approaches,, and Support Vector Machine (SVM) with manual feature-engineering have been applied but they perform poor compared to neural.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 1845
+      },
+      {
+        "cross_encoder_score": -11.155323028564453,
+        "dataset": "QASPER",
+        "end_char": 2121,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "9f38f241e79ae3a7308a578c4214b1e6",
+        "passage_rank": 2,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "b426adc4b3c0e183eb463d3fae1ecb38",
+        "sentence_text": "However, there has been no research in Nepali NER using neural network.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 2050
+      },
+      {
+        "cross_encoder_score": -9.93332290649414,
+        "dataset": "QASPER",
+        "end_char": 2236,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "9f38f241e79ae3a7308a578c4214b1e6",
+        "passage_rank": 2,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "eb749ff12535c2ad10ae20dc5f3ac00a",
+        "sentence_text": "Therefore, we created the named entity annotated dataset partly with the help of Dataturk to train a neural model.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2122
+      },
+      {
+        "cross_encoder_score": -11.44727897644043,
+        "dataset": "QASPER",
+        "end_char": 2352,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "9f38f241e79ae3a7308a578c4214b1e6",
+        "passage_rank": 2,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "fe94d6bb48d99f25f1af15d1a8817df9",
+        "sentence_text": "The texts used for this dataset are collected from various daily news sources from Nepal around the year 2015-2016.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2237
+      },
+      {
+        "cross_encoder_score": -11.362159729003906,
+        "dataset": "QASPER",
+        "end_char": 2455,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "9f38f241e79ae3a7308a578c4214b1e6",
+        "passage_rank": 2,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "85a50165b8f23fbe4ea8ea57b1afcdb8",
+        "sentence_text": "Following are our contributions: We present a novel Named Entity Recognizer (NER) for Nepali language.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          1,
+          8,
+          0
+        ],
+        "source_position": 2353
+      },
+      {
+        "cross_encoder_score": -9.44870662689209,
+        "dataset": "QASPER",
+        "end_char": 2497,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "9f38f241e79ae3a7308a578c4214b1e6",
+        "passage_rank": 2,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "1385f78985c8c71e984f19f8239798d2",
+        "sentence_text": "To best of our knowledge we are the first",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          1,
+          9,
+          0
+        ],
+        "source_position": 2456
+      },
+      {
+        "cross_encoder_score": -11.413809776306152,
+        "dataset": "QASPER",
+        "end_char": 3768,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "730f18e2112d7c03777802b2409ee45e",
+        "passage_rank": 6,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "205bed6b3feb7abbe8635c7ee763e8b0",
+        "sentence_text": "with n-gram technique for extracting POS-tags.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "source_position": 3722
+      },
+      {
+        "cross_encoder_score": -11.466266632080078,
+        "dataset": "QASPER",
+        "end_char": 3927,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "730f18e2112d7c03777802b2409ee45e",
+        "passage_rank": 6,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "fea1400b440534e883649e785d2ad122",
+        "sentence_text": "POS-tags with common noun, proper noun or combination of both are combined together, then uses gazetteer list as look-up table to identify the named entities.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "source_position": 3769
+      },
+      {
+        "cross_encoder_score": -9.537290573120117,
+        "dataset": "QASPER",
+        "end_char": 4129,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "730f18e2112d7c03777802b2409ee45e",
+        "passage_rank": 6,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "b2676d5dd94fae20aa42d45c83efcea7",
+        "sentence_text": "Researchers have shown that the neural networks like CNN, RNN, LSTM, GRU can capture the semantic knowledge of language better with the help of pre-trained embbeddings like word2vec, glove or fasttext.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          3,
+          2,
+          0
+        ],
+        "source_position": 3928
+      },
+      {
+        "cross_encoder_score": -10.896668434143066,
+        "dataset": "QASPER",
+        "end_char": 4420,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "730f18e2112d7c03777802b2409ee45e",
+        "passage_rank": 6,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "9b04987b12c10d09cfb5ee5b006042d4",
+        "sentence_text": "Similar approaches has been applied to many South Asian languages like Hindi, Indonesian, Bengali and In this paper, we present the neural network architecture for NER task in Nepali language, which doesn't require any manual feature engineering nor any data pre-processing during training.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          0,
+          3,
+          3,
+          0
+        ],
+        "source_position": 4130
+      },
+      {
+        "cross_encoder_score": -4.834864616394043,
+        "dataset": "QASPER",
+        "end_char": 4536,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "730f18e2112d7c03777802b2409ee45e",
+        "passage_rank": 6,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "abefa1bfe904e6289e98ae9a7a8c41fa",
+        "sentence_text": "First we are comparing BiLSTM, BiLSTM+CNN, BiLSTM+CRF, BiLSTM+CNN+CRF models with CNN model and Stanford CRF model.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          3,
+          4,
+          0
+        ],
+        "source_position": 4421
+      },
+      {
+        "cross_encoder_score": -5.779122829437256,
+        "dataset": "QASPER",
+        "end_char": 4781,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "730f18e2112d7c03777802b2409ee45e",
+        "passage_rank": 6,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "1842fa2c143115779598c8c87932480b",
+        "sentence_text": "Secondly, we show the comparison between models trained on general word embeddings, word embedding + character-level embedding, word embedding + part-of-speech(POS) one-hot encoding and word embedding + grapheme clustered or sub-word embedding.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          3,
+          5,
+          0
+        ],
+        "source_position": 4537
+      },
+      {
+        "cross_encoder_score": -11.320690155029297,
+        "dataset": "QASPER",
+        "end_char": 4887,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "730f18e2112d7c03777802b2409ee45e",
+        "passage_rank": 6,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "76a73a744e4a0aed3c97aec9b8a09c40",
+        "sentence_text": "The experiments were performed on the dataset that we created and on the dataset received from ILPRL lab.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          3,
+          6,
+          0
+        ],
+        "source_position": 4782
+      },
+      {
+        "cross_encoder_score": -11.373697280883789,
+        "dataset": "QASPER",
+        "end_char": 4959,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "730f18e2112d7c03777802b2409ee45e",
+        "passage_rank": 6,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "e853fb996d10359223b6fcafcf045ad7",
+        "sentence_text": "Our extensive study shows that augmenting word embedding with character",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          3,
+          7,
+          0
+        ],
+        "source_position": 4888
+      },
+      {
+        "cross_encoder_score": -11.264982223510742,
+        "dataset": "QASPER",
+        "end_char": 6156,
+        "pair_tokens_before_truncation": 12,
+        "pair_truncated": false,
+        "passage_id": "9a2ee7aa4fe5aa1a7c3d4c67efbb3b4e",
+        "passage_rank": 10,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "5458a6a62ffe76806822d74d27d7aa7a",
+        "sentence_text": "news papers.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 6144
+      },
+      {
+        "cross_encoder_score": -11.42025089263916,
+        "dataset": "QASPER",
+        "end_char": 6287,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "9a2ee7aa4fe5aa1a7c3d4c67efbb3b4e",
+        "passage_rank": 10,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "b6995daff3827e2371d916f50bebfca8",
+        "sentence_text": "This corpus was mixed with the texts from the dataset before training CBOW and skip-gram version of word2vec using gensim library.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 6157
+      },
+      {
+        "cross_encoder_score": -4.581392288208008,
+        "dataset": "QASPER",
+        "end_char": 6350,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "9a2ee7aa4fe5aa1a7c3d4c67efbb3b4e",
+        "passage_rank": 10,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "f238b183464a26d0f704023270de2bc9",
+        "sentence_text": "This trained model consists of vectors for 72782 unique words.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 6288
+      },
+      {
+        "cross_encoder_score": -11.284622192382812,
+        "dataset": "QASPER",
+        "end_char": 6419,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "9a2ee7aa4fe5aa1a7c3d4c67efbb3b4e",
+        "passage_rank": 10,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "8ab48bfe646362ccde1c3a86b5e6aeae",
+        "sentence_text": "Light pre-processing was performed on the corpus before training it.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 6351
+      },
+      {
+        "cross_encoder_score": -11.412606239318848,
+        "dataset": "QASPER",
+        "end_char": 6546,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "9a2ee7aa4fe5aa1a7c3d4c67efbb3b4e",
+        "passage_rank": 10,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "0ed173a270dc57b10d041dce1b6ad36a",
+        "sentence_text": "For example, invalid characters or characters other than Devanagari were removed but punctuation and numbers were not removed.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 6420
+      },
+      {
+        "cross_encoder_score": -11.428189277648926,
+        "dataset": "QASPER",
+        "end_char": 6633,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "9a2ee7aa4fe5aa1a7c3d4c67efbb3b4e",
+        "passage_rank": 10,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "88ef71ee6598070da356708e74a5ede6",
+        "sentence_text": "We set the window context at 10 and the rare words whose count is below 5 are dropped.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 6547
+      },
+      {
+        "cross_encoder_score": -11.281424522399902,
+        "dataset": "QASPER",
+        "end_char": 6790,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "9a2ee7aa4fe5aa1a7c3d4c67efbb3b4e",
+        "passage_rank": 10,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "237d4439c7d82aa9ffc72737f6a2b5a2",
+        "sentence_text": "These word embeddings were not frozen during the training session because fine-tuning word embedding help achieve better performance compared to frozen one.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 6634
+      },
+      {
+        "cross_encoder_score": -11.2510986328125,
+        "dataset": "QASPER",
+        "end_char": 6966,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "9a2ee7aa4fe5aa1a7c3d4c67efbb3b4e",
+        "passage_rank": 10,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "37e81772638eaad0d125c2d812b069b5",
+        "sentence_text": "We have used fasttext embeddings in particular because of its sub-word representation ability, which is very useful in highly inflectional language as shown in Table TABREF25.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 6791
+      },
+      {
+        "cross_encoder_score": -11.364290237426758,
+        "dataset": "QASPER",
+        "end_char": 7063,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "9a2ee7aa4fe5aa1a7c3d4c67efbb3b4e",
+        "passage_rank": 10,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "8302974b449e76f6ec591b0fd360e9b2",
+        "sentence_text": "We have trained the word embedding in such a way that the sub-word size remains between 1 and 4.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          5,
+          8,
+          0
+        ],
+        "source_position": 6967
+      },
+      {
+        "cross_encoder_score": -11.207601547241211,
+        "dataset": "QASPER",
+        "end_char": 7344,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "9a2ee7aa4fe5aa1a7c3d4c67efbb3b4e",
+        "passage_rank": 10,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "a6cfef01778f327d9ad16f49b9b45f24",
+        "sentence_text": "We particularly chose this size because in Nepali language a single letter can also be a word, for example e, t, C, r, l, n, u and a single character (grapheme) or sub-word can be formed after mixture of dependent vowel signs with consonant letters for example, C + O + = CO, here",
+        "sentence_token_cost": 69,
+        "source_order": [
+          0,
+          5,
+          9,
+          0
+        ],
+        "source_position": 7064
+      },
+      {
+        "cross_encoder_score": -11.38125991821289,
+        "dataset": "QASPER",
+        "end_char": 7402,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "f05dcf2e4393a28a94679e39831262ef",
+        "passage_rank": 8,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "69977f1463dcdfba711da689788c7f48",
+        "sentence_text": "three different consonant letters form a single sub-word.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 7345
+      },
+      {
+        "cross_encoder_score": -11.268016815185547,
+        "dataset": "QASPER",
+        "end_char": 7482,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "f05dcf2e4393a28a94679e39831262ef",
+        "passage_rank": 8,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "84d55bb4a3de3f59794a8d26e0ba94ec",
+        "sentence_text": "The two-dimensional visualization of an example word npAl is shown in FIGREF14.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 7403
+      },
+      {
+        "cross_encoder_score": -10.833202362060547,
+        "dataset": "QASPER",
+        "end_char": 7645,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "f05dcf2e4393a28a94679e39831262ef",
+        "passage_rank": 8,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "330ebc219020f302d12d84731bb8a48c",
+        "sentence_text": "Principal Component Analysis (PCA) technique was used to generate this visualization which helps use to analyze the nearest neighbor words of a given sample word.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 7483
+      },
+      {
+        "cross_encoder_score": -11.428323745727539,
+        "dataset": "QASPER",
+        "end_char": 7759,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "f05dcf2e4393a28a94679e39831262ef",
+        "passage_rank": 8,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "476f0460a101886c74b55477803327ad",
+        "sentence_text": "84 and 104 nearest neighbors were observed using word2vec and fasttext embedding respectively on the same corpus.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 7646
+      },
+      {
+        "cross_encoder_score": -9.116704940795898,
+        "dataset": "QASPER",
+        "end_char": 8044,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "f05dcf2e4393a28a94679e39831262ef",
+        "passage_rank": 8,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "b33494bd908759fb054cc80db73c5a5b",
+        "sentence_text": "Approach ::: Features ::: Character-level embeddings\t and  successfully presented that the character-level embeddings, extracted using CNN, when combined with word embeddings enhances the NER model performance significantly, as it is able to capture morphological features of a word.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 7761
+      },
+      {
+        "cross_encoder_score": -8.946417808532715,
+        "dataset": "QASPER",
+        "end_char": 8142,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "f05dcf2e4393a28a94679e39831262ef",
+        "passage_rank": 8,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "7313b5f01621a64c704c177f45ea7a51",
+        "sentence_text": "Figure FIGREF7 shows the grapheme-level CNN used in our model, where inputs to CNN are graphemes.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 8045
+      },
+      {
+        "cross_encoder_score": -11.076170921325684,
+        "dataset": "QASPER",
+        "end_char": 8230,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "f05dcf2e4393a28a94679e39831262ef",
+        "passage_rank": 8,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "3fdf2fb387feb6e0a93d2cb766472f23",
+        "sentence_text": "Character-level CNN is also built in similar fashion, except the inputs are characters.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 8143
+      },
+      {
+        "cross_encoder_score": -10.966509819030762,
+        "dataset": "QASPER",
+        "end_char": 8366,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "f05dcf2e4393a28a94679e39831262ef",
+        "passage_rank": 8,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "0b0d940cdf28d6b60ae59f5eb4cfab81",
+        "sentence_text": "Grapheme or Character -level embeddings are randomly initialized from [0,1] with real values with uniform distribution of dimension 30.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 8231
+      },
+      {
+        "cross_encoder_score": -11.049968719482422,
+        "dataset": "QASPER",
+        "end_char": 8490,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "f05dcf2e4393a28a94679e39831262ef",
+        "passage_rank": 8,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "d794887566b45ccc18583987768846af",
+        "sentence_text": "Approach ::: Features ::: Grapheme-level embeddings\tGrapheme is atomic meaningful unit in writing system of any languages.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 8368
+      },
+      {
+        "cross_encoder_score": -10.72368335723877,
+        "dataset": "QASPER",
+        "end_char": 8655,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "f05dcf2e4393a28a94679e39831262ef",
+        "passage_rank": 8,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "d996e5b2b554b12def55a707dfb9e340",
+        "sentence_text": "Since, Nepali language is highly morphologically inflectional, we compared grapheme-level representation with character-level representation to evaluate its effect.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          6,
+          9,
+          0
+        ],
+        "source_position": 8491
+      },
+      {
+        "cross_encoder_score": -11.183921813964844,
+        "dataset": "QASPER",
+        "end_char": 8687,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "f05dcf2e4393a28a94679e39831262ef",
+        "passage_rank": 8,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "ddffdf958275729d01faf18348d53214",
+        "sentence_text": "For example, in character-level",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          6,
+          10,
+          0
+        ],
+        "source_position": 8656
+      },
+      {
+        "cross_encoder_score": -11.446429252624512,
+        "dataset": "QASPER",
+        "end_char": 10009,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "6ad2319785b4ef81a2d64ccfebd1a5dd",
+        "passage_rank": 7,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "3baf8e63839dfe1fce69891811503b63",
+        "sentence_text": "was performed on the text before creation of the dataset, for example all punctuations and numbers besides ',', '-', '|' and '.'",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 9881
+      },
+      {
+        "cross_encoder_score": -11.195469856262207,
+        "dataset": "QASPER",
+        "end_char": 10023,
+        "pair_tokens_before_truncation": 12,
+        "pair_truncated": false,
+        "passage_id": "6ad2319785b4ef81a2d64ccfebd1a5dd",
+        "passage_rank": 7,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "eaec13e84e66b4ab72b0cd45c01d5c74",
+        "sentence_text": "were removed.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 10010
+      },
+      {
+        "cross_encoder_score": -11.166206359863281,
+        "dataset": "QASPER",
+        "end_char": 10083,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "6ad2319785b4ef81a2d64ccfebd1a5dd",
+        "passage_rank": 7,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "11d68550e3f61de7cdc5a7bc59946f50",
+        "sentence_text": "Currently, the dataset is in standard CoNLL-2003 IO format.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 10024
+      },
+      {
+        "cross_encoder_score": -11.317702293395996,
+        "dataset": "QASPER",
+        "end_char": 10287,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "6ad2319785b4ef81a2d64ccfebd1a5dd",
+        "passage_rank": 7,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "e09db4a37fac69929dcd270d4f24b33e",
+        "sentence_text": "Since, this dataset is not lemmatized originally, we lemmatized only the post-positions like Ek, kO, l, mA, m, my, jF, sg, aEG which are just the few examples among 299 post positions in Nepali language.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 10084
+      },
+      {
+        "cross_encoder_score": -11.426048278808594,
+        "dataset": "QASPER",
+        "end_char": 10379,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "6ad2319785b4ef81a2d64ccfebd1a5dd",
+        "passage_rank": 7,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "c6741355268eb4c1eef0f3fdaec62b1a",
+        "sentence_text": "We obtained these post-positions from sanjaalcorps and added few more to match our dataset.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 10288
+      },
+      {
+        "cross_encoder_score": -11.256463050842285,
+        "dataset": "QASPER",
+        "end_char": 10436,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "6ad2319785b4ef81a2d64ccfebd1a5dd",
+        "passage_rank": 7,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "c380568ce0df1a20fd51dc4c93ddc426",
+        "sentence_text": "We will be releasing this list in our github repository.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 10380
+      },
+      {
+        "cross_encoder_score": -11.262954711914062,
+        "dataset": "QASPER",
+        "end_char": 10521,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "6ad2319785b4ef81a2d64ccfebd1a5dd",
+        "passage_rank": 7,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "5c90081c04f696c75df00e3c8c3b64ad",
+        "sentence_text": "We found out that lemmatizing the post-positions boosted the F1 score by almost 10%.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 10437
+      },
+      {
+        "cross_encoder_score": -9.961114883422852,
+        "dataset": "QASPER",
+        "end_char": 10794,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "6ad2319785b4ef81a2d64ccfebd1a5dd",
+        "passage_rank": 7,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "bea44c9163f28c47b3cda64f69f2e5a4",
+        "sentence_text": "In order to label our dataset with POS-tags, we first created POS annotated dataset of 6946 sentences and 16225 unique words extracted from POS-tagged Nepali National Corpus and trained a BiLSTM model with 95.14% accuracy which was used to create POS-tags for our dataset.",
+        "sentence_token_cost": 68,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 10522
+      },
+      {
+        "cross_encoder_score": -11.4534912109375,
+        "dataset": "QASPER",
+        "end_char": 10917,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "6ad2319785b4ef81a2d64ccfebd1a5dd",
+        "passage_rank": 7,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "0522e78ee4fc3e5d2bccaefe24a9b081",
+        "sentence_text": "The dataset released in our github repository contains each word in newline with space separated POS-tags and Entity-tags.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "source_position": 10795
+      },
+      {
+        "cross_encoder_score": -11.378137588500977,
+        "dataset": "QASPER",
+        "end_char": 10954,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "6ad2319785b4ef81a2d64ccfebd1a5dd",
+        "passage_rank": 7,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "9163214d99b0698ffcea4ade6e9b639d",
+        "sentence_text": "The sentences are separated by empty",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          8,
+          9,
+          0
+        ],
+        "source_position": 10918
+      },
+      {
+        "cross_encoder_score": -10.896099090576172,
+        "dataset": "QASPER",
+        "end_char": 12037,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "456368f26f2ea464c0a1ebbe83063087",
+        "passage_rank": 3,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "c768a5f53e46621a96e151256743a70e",
+        "sentence_text": "mentioned in Table TABREF30.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 12009
+      },
+      {
+        "cross_encoder_score": -11.374295234680176,
+        "dataset": "QASPER",
+        "end_char": 12093,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "456368f26f2ea464c0a1ebbe83063087",
+        "passage_rank": 3,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "42b6077816d0045a439b89b30465459a",
+        "sentence_text": "The training and evaluation was done on sentence-level.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 12038
+      },
+      {
+        "cross_encoder_score": -11.22788143157959,
+        "dataset": "QASPER",
+        "end_char": 12197,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "456368f26f2ea464c0a1ebbe83063087",
+        "passage_rank": 3,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "6bfe9e70c4a4d5caf53da8d05c11d148",
+        "sentence_text": "The RNN variants are initialized randomly from $(-\\sqrt{k},\\sqrt{k})$ where $k=\\frac{1}{hidden\\_size}$.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 12094
+      },
+      {
+        "cross_encoder_score": -11.444517135620117,
+        "dataset": "QASPER",
+        "end_char": 12271,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "456368f26f2ea464c0a1ebbe83063087",
+        "passage_rank": 3,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "e0151975c69a3ddaa28910b394478271",
+        "sentence_text": "First we loaded our dataset and built vocabulary using torchtext library.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 12198
+      },
+      {
+        "cross_encoder_score": -11.328531265258789,
+        "dataset": "QASPER",
+        "end_char": 12350,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "456368f26f2ea464c0a1ebbe83063087",
+        "passage_rank": 3,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "01b95033fa2bc7405803629d789225e0",
+        "sentence_text": "This eased our process of data loading using its SequenceTaggingDataset class.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 12272
+      },
+      {
+        "cross_encoder_score": -8.87195110321045,
+        "dataset": "QASPER",
+        "end_char": 12470,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "456368f26f2ea464c0a1ebbe83063087",
+        "passage_rank": 3,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "56617e25f463b1a9eb54e6be1f63ee4a",
+        "sentence_text": "We trained our model with shuffled training set using Adam optimizer with hyper-parameters mentioned in table TABREF30.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 12351
+      },
+      {
+        "cross_encoder_score": -8.697669982910156,
+        "dataset": "QASPER",
+        "end_char": 12531,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "456368f26f2ea464c0a1ebbe83063087",
+        "passage_rank": 3,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "e1e9208bcc2af574061989ebaaa7eb08",
+        "sentence_text": "All our models were trained on single layer of LSTM network.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 12471
+      },
+      {
+        "cross_encoder_score": -9.17833423614502,
+        "dataset": "QASPER",
+        "end_char": 12649,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "456368f26f2ea464c0a1ebbe83063087",
+        "passage_rank": 3,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "54e388b6436c3a42fe91e8339593154f",
+        "sentence_text": "We found out Adam was giving better performance and faster convergence compared to Stochastic Gradient Descent (SGD).",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 12532
+      },
+      {
+        "cross_encoder_score": -11.226799964904785,
+        "dataset": "QASPER",
+        "end_char": 12710,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "456368f26f2ea464c0a1ebbe83063087",
+        "passage_rank": 3,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "c4021ef78d3f1933824f50bbab00dad0",
+        "sentence_text": "We chose those hyper-parameters after many ablation studies.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          10,
+          8,
+          0
+        ],
+        "source_position": 12650
+      },
+      {
+        "cross_encoder_score": -11.275735855102539,
+        "dataset": "QASPER",
+        "end_char": 12758,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "456368f26f2ea464c0a1ebbe83063087",
+        "passage_rank": 3,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "3a8f566098f27b3c0494719b4a3dfd58",
+        "sentence_text": "The dropout of 0.5 is applied after LSTM layer.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          10,
+          9,
+          0
+        ],
+        "source_position": 12711
+      },
+      {
+        "cross_encoder_score": -11.124382972717285,
+        "dataset": "QASPER",
+        "end_char": 12817,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "456368f26f2ea464c0a1ebbe83063087",
+        "passage_rank": 3,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "0090f43544eaddd730e900b5286b1643",
+        "sentence_text": "For CNN, we used 30 different filters of sizes 3, 4 and 5.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          10,
+          10,
+          0
+        ],
+        "source_position": 12759
+      },
+      {
+        "cross_encoder_score": -10.982914924621582,
+        "dataset": "QASPER",
+        "end_char": 12976,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "456368f26f2ea464c0a1ebbe83063087",
+        "passage_rank": 3,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "be7d3f2414f38bd9efedc356362b3fec",
+        "sentence_text": "The embeddings of each character or grapheme involved in a given word, were passed through the pipeline of Convolution, Rectified Linear Unit and Max-Pooling.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          10,
+          11,
+          0
+        ],
+        "source_position": 12818
+      },
+      {
+        "cross_encoder_score": -11.2138032913208,
+        "dataset": "QASPER",
+        "end_char": 13131,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "456368f26f2ea464c0a1ebbe83063087",
+        "passage_rank": 3,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "1e6ad3978d075041e87817f62db586e7",
+        "sentence_text": "The resulting vectors were concatenated and applied dropout of 0.5 before passing into linear layer to obtain the embedding size of 30 for the given word.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          10,
+          12,
+          0
+        ],
+        "source_position": 12977
+      },
+      {
+        "cross_encoder_score": -11.363029479980469,
+        "dataset": "QASPER",
+        "end_char": 13200,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "456368f26f2ea464c0a1ebbe83063087",
+        "passage_rank": 3,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "e43642686cc27bd1c2067991e2396e53",
+        "sentence_text": "This resulting embedding is concatenated with word embeddings, which",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          10,
+          13,
+          0
+        ],
+        "source_position": 13132
+      },
+      {
+        "cross_encoder_score": -11.22547721862793,
+        "dataset": "QASPER",
+        "end_char": 13247,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "acf3493564b1da8d2f97e5b4d2988e34",
+        "passage_rank": 1,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "fc2227d61d5f9091792726f98cd8a19b",
+        "sentence_text": "is again concatenated with one-hot POS vector.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 13201
+      },
+      {
+        "cross_encoder_score": -9.727665901184082,
+        "dataset": "QASPER",
+        "end_char": 13492,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "acf3493564b1da8d2f97e5b4d2988e34",
+        "passage_rank": 1,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "214d7005c8414ac963f8326655b89f14",
+        "sentence_text": "Experiments ::: Tagging Scheme\tCurrently, for our experiments we trained our model on IO (Inside, Outside) format for both the dataset, hence the dataset does not contain any B-type annotation unlike in BIO (Beginning, Inside, Outside) scheme.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 13249
+      },
+      {
+        "cross_encoder_score": -11.22557544708252,
+        "dataset": "QASPER",
+        "end_char": 13698,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "acf3493564b1da8d2f97e5b4d2988e34",
+        "passage_rank": 1,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "ffc15d19a2b738a3bc8f9631877fe68e",
+        "sentence_text": "Experiments ::: Early Stopping\tWe used simple early stopping technique where if the validation loss does not decrease after 10 epochs, the training was stopped, else the training will run upto 100 epochs.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 13494
+      },
+      {
+        "cross_encoder_score": -11.266241073608398,
+        "dataset": "QASPER",
+        "end_char": 13761,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "acf3493564b1da8d2f97e5b4d2988e34",
+        "passage_rank": 1,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "dcbe8a42186c01599169d8ed3a6f06b2",
+        "sentence_text": "In our experience, training usually stops around 30-50 epochs.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 13699
+      },
+      {
+        "cross_encoder_score": -7.697936534881592,
+        "dataset": "QASPER",
+        "end_char": 14072,
+        "pair_tokens_before_truncation": 142,
+        "pair_truncated": false,
+        "passage_id": "acf3493564b1da8d2f97e5b4d2988e34",
+        "passage_rank": 1,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "eceb2d28489da32a420d4adb07368af4",
+        "sentence_text": "Experiments ::: Hyper-parameters Tuning\tWe ran our experiment looking for the best hyper-parameters by changing learning rate from (0,1, 0.01, 0.001, 0.0001), weight decay from [$10^{-1}$, $10^{-2}$, $10^{-3}$, $10^{-4}$, $10^{-5}$, $10^{-6}$, $10^{-7}$], batch size from [1, 2, 4, 8, 16, 32, 64, 128], hidden",
+        "sentence_token_cost": 136,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 13763
+      },
+      {
+        "cross_encoder_score": -10.400150299072266,
+        "dataset": "QASPER",
+        "end_char": 14119,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "370288e0781f3d6bd300e557906ace2d",
+        "passage_rank": 5,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "f1ad2d117310fd885d4bc1898b9e6e5a",
+        "sentence_text": "size from [8, 16, 32, 64, 128, 256, 512 1024].",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 14073
+      },
+      {
+        "cross_encoder_score": -11.232458114624023,
+        "dataset": "QASPER",
+        "end_char": 14214,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "370288e0781f3d6bd300e557906ace2d",
+        "passage_rank": 5,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "0466ed34b7ed1d50060d75a10f6a83aa",
+        "sentence_text": "Table TABREF30 shows all other hyper-parameter used in our experiment for both of the dataset.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 14120
+      },
+      {
+        "cross_encoder_score": -11.342655181884766,
+        "dataset": "QASPER",
+        "end_char": 14315,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "370288e0781f3d6bd300e557906ace2d",
+        "passage_rank": 5,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "7bd7e6f18b1b6c00a4fa6dda7acd3007",
+        "sentence_text": "Experiments ::: Effect of Dropout\tFigure FIGREF31 shows how we end up choosing 0.5 as dropout rate.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 14216
+      },
+      {
+        "cross_encoder_score": -11.234084129333496,
+        "dataset": "QASPER",
+        "end_char": 14384,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "370288e0781f3d6bd300e557906ace2d",
+        "passage_rank": 5,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "c26eac0129c552dc5c9286891dee474b",
+        "sentence_text": "When the dropout layer was not used, the F1 score are at the lowest.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 14316
+      },
+      {
+        "cross_encoder_score": -11.271395683288574,
+        "dataset": "QASPER",
+        "end_char": 14532,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "370288e0781f3d6bd300e557906ace2d",
+        "passage_rank": 5,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "2660291320bbaa7da6fd380978558039",
+        "sentence_text": "As, we slowly increase the dropout rate, the F1 score also gradually increases, however after dropout rate = 0.5, the F1 score starts falling down.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 14385
+      },
+      {
+        "cross_encoder_score": -11.251441955566406,
+        "dataset": "QASPER",
+        "end_char": 14615,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "370288e0781f3d6bd300e557906ace2d",
+        "passage_rank": 5,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "395729d454c63c0046e16ea75ceb3f96",
+        "sentence_text": "Therefore, we have chosen 0.5 as dropout rate for all other experiments performed.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 14533
+      },
+      {
+        "cross_encoder_score": -8.43591594696045,
+        "dataset": "QASPER",
+        "end_char": 14739,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "370288e0781f3d6bd300e557906ace2d",
+        "passage_rank": 5,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "75edcde8b5a4f48a82110371dd19b126",
+        "sentence_text": "Evaluation\tIn this section, we present the details regarding evaluation and comparison of our models with other baselines.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 14617
+      },
+      {
+        "cross_encoder_score": -11.165051460266113,
+        "dataset": "QASPER",
+        "end_char": 14846,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "370288e0781f3d6bd300e557906ace2d",
+        "passage_rank": 5,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "68563fb6360bb457e94ab1409b07daf0",
+        "sentence_text": "Table TABREF25 shows the study of various embeddings and comparison among each other in OurNepali dataset.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          12,
+          7,
+          0
+        ],
+        "source_position": 14740
+      },
+      {
+        "cross_encoder_score": -11.39093017578125,
+        "dataset": "QASPER",
+        "end_char": 14929,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "370288e0781f3d6bd300e557906ace2d",
+        "passage_rank": 5,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "99e17f42a9bd92712e3614142410a82b",
+        "sentence_text": "Here, raw dataset represents such dataset where post-positions are not lemmatized.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          12,
+          8,
+          0
+        ],
+        "source_position": 14847
+      },
+      {
+        "cross_encoder_score": -11.156814575195312,
+        "dataset": "QASPER",
+        "end_char": 15049,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "370288e0781f3d6bd300e557906ace2d",
+        "passage_rank": 5,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "810935a377bd9d57a828eb8320770bdb",
+        "sentence_text": "We can observe that pre-trained embeddings significantly improves the score compared to randomly initialized embedding.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          12,
+          9,
+          0
+        ],
+        "source_position": 14930
+      },
+      {
+        "cross_encoder_score": -2.327038288116455,
+        "dataset": "QASPER",
+        "end_char": 15148,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "370288e0781f3d6bd300e557906ace2d",
+        "passage_rank": 5,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "eed5c394bf55ce73674282bf15d0198b",
+        "sentence_text": "We can deduce that Skip Gram models perform better compared CBOW models for word2vec and fasttext.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          12,
+          10,
+          0
+        ],
+        "source_position": 15050
+      },
+      {
+        "cross_encoder_score": -9.943479537963867,
+        "dataset": "QASPER",
+        "end_char": 15154,
+        "pair_tokens_before_truncation": 11,
+        "pair_truncated": false,
+        "passage_id": "370288e0781f3d6bd300e557906ace2d",
+        "passage_rank": 5,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "f98bf6e9036f1a9f663964e3c5c45a1d",
+        "sentence_text": "Here,",
+        "sentence_token_cost": 2,
+        "source_order": [
+          0,
+          12,
+          11,
+          0
+        ],
+        "source_position": 15149
+      },
+      {
+        "cross_encoder_score": -11.28992748260498,
+        "dataset": "QASPER",
+        "end_char": 15341,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "27182412e9bd59f74899c358fff9d935",
+        "passage_rank": 9,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "c91f22a3158c6c1d3cae2de08691fdb8",
+        "sentence_text": "fastText_Pretrained represents the embedding readily available in fastText website, while other embeddings are trained on the Nepali National Corpus as mentioned in sub-section SECREF11.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "source_position": 15155
+      },
+      {
+        "cross_encoder_score": -7.596210956573486,
+        "dataset": "QASPER",
+        "end_char": 15467,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "27182412e9bd59f74899c358fff9d935",
+        "passage_rank": 9,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "8c077cbeb6860f86fc34b5de937130d1",
+        "sentence_text": "From this table TABREF25, we can clearly observe that model using fastText_Skip Gram embeddings outperforms all other models.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          13,
+          1,
+          0
+        ],
+        "source_position": 15342
+      },
+      {
+        "cross_encoder_score": -4.877452850341797,
+        "dataset": "QASPER",
+        "end_char": 15559,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "27182412e9bd59f74899c358fff9d935",
+        "passage_rank": 9,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "ce5a1bb57d97cd7d601b9d970d293b80",
+        "sentence_text": "Table TABREF35 shows the model architecture comparison between all the models experimented.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          13,
+          2,
+          0
+        ],
+        "source_position": 15468
+      },
+      {
+        "cross_encoder_score": -11.378024101257324,
+        "dataset": "QASPER",
+        "end_char": 15678,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "27182412e9bd59f74899c358fff9d935",
+        "passage_rank": 9,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "cf900a2b48332067a89a0242e77fba91",
+        "sentence_text": "The features used for Stanford CRF classifier are words, letter n-grams of upto length 6, previous word and next word.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          13,
+          3,
+          0
+        ],
+        "source_position": 15560
+      },
+      {
+        "cross_encoder_score": -6.3044281005859375,
+        "dataset": "QASPER",
+        "end_char": 15765,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "27182412e9bd59f74899c358fff9d935",
+        "passage_rank": 9,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "3ff8001ecad8dd5b0a56dbc723e2cc61",
+        "sentence_text": "This model is trained till the current function value is less than $1\\mathrm {e}{-2}$.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          13,
+          4,
+          0
+        ],
+        "source_position": 15679
+      },
+      {
+        "cross_encoder_score": -11.131987571716309,
+        "dataset": "QASPER",
+        "end_char": 15852,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "27182412e9bd59f74899c358fff9d935",
+        "passage_rank": 9,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "0a6c96a6587b61b730a473cbdf53448b",
+        "sentence_text": "The hyper-parameters of neural network experiments are set as shown in table TABREF30.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          13,
+          5,
+          0
+        ],
+        "source_position": 15766
+      },
+      {
+        "cross_encoder_score": -11.339374542236328,
+        "dataset": "QASPER",
+        "end_char": 15946,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "27182412e9bd59f74899c358fff9d935",
+        "passage_rank": 9,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "4cfb8578f89938aac2defb6812c0db01",
+        "sentence_text": "Since, word embedding of character-level and grapheme-level is random, their scores are near.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          13,
+          6,
+          0
+        ],
+        "source_position": 15853
+      },
+      {
+        "cross_encoder_score": -7.669211387634277,
+        "dataset": "QASPER",
+        "end_char": 16063,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "27182412e9bd59f74899c358fff9d935",
+        "passage_rank": 9,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "f0ba70f0120f60d25805769c0607f808",
+        "sentence_text": "All models are evaluated using CoNLL-2003 evaluation script to calculate entity-wise precision, recall and f1 score.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          13,
+          7,
+          0
+        ],
+        "source_position": 15947
+      },
+      {
+        "cross_encoder_score": -9.221475601196289,
+        "dataset": "QASPER",
+        "end_char": 16254,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "27182412e9bd59f74899c358fff9d935",
+        "passage_rank": 9,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "ee5205910aec00ec3b0a87f9fe9adbd5",
+        "sentence_text": "Discussion\tIn this paper we present that we can exploit the power of neural network to train the model to perform downstream NLP tasks like Named Entity Recognition even in Nepali language.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          13,
+          8,
+          0
+        ],
+        "source_position": 16065
+      },
+      {
+        "cross_encoder_score": -3.208660840988159,
+        "dataset": "QASPER",
+        "end_char": 16417,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "27182412e9bd59f74899c358fff9d935",
+        "passage_rank": 9,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "b06e262d3530e6c18f4e3422f0113976",
+        "sentence_text": "We showed that the word vectors learned through fasttext skip gram model performs better than other word embedding because of its capability to represent sub-word",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          13,
+          9,
+          0
+        ],
+        "source_position": 16255
+      },
+      {
+        "cross_encoder_score": -11.029669761657715,
+        "dataset": "QASPER",
+        "end_char": 16546,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "20580fb05a53d3b9829baeb86fd22533",
+        "passage_rank": 4,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "606d5f1b8b2d94a76789d48c865c0633",
+        "sentence_text": "and this is particularly important to capture morphological structure of words and sentences in highly inflectional like Nepali.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 16418
+      },
+      {
+        "cross_encoder_score": -11.284103393554688,
+        "dataset": "QASPER",
+        "end_char": 16676,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "20580fb05a53d3b9829baeb86fd22533",
+        "passage_rank": 4,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "1d7578432a2d91e2df66a5a2ed9e88c6",
+        "sentence_text": "This concept can come handy in other Devanagari languages as well because the written scripts have similar syntactical structure.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 16547
+      },
+      {
+        "cross_encoder_score": -8.962297439575195,
+        "dataset": "QASPER",
+        "end_char": 16829,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "20580fb05a53d3b9829baeb86fd22533",
+        "passage_rank": 4,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "4320a76bf526aa631ea269d18240a51d",
+        "sentence_text": "We also found out that stemming post-positions can help a lot in improving model performance because of inflectional characteristics of Nepali language.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          14,
+          2,
+          0
+        ],
+        "source_position": 16677
+      },
+      {
+        "cross_encoder_score": -11.2345609664917,
+        "dataset": "QASPER",
+        "end_char": 17028,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "20580fb05a53d3b9829baeb86fd22533",
+        "passage_rank": 4,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "6719a4a8c08786568a06317e505517dd",
+        "sentence_text": "So when we separate out its inflections or morphemes, we can minimize the variations of same word which gives its root word a stronger word vector representations compared to its inflected versions.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          14,
+          3,
+          0
+        ],
+        "source_position": 16830
+      },
+      {
+        "cross_encoder_score": -10.717172622680664,
+        "dataset": "QASPER",
+        "end_char": 17247,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "20580fb05a53d3b9829baeb86fd22533",
+        "passage_rank": 4,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "c46d030619eb1cac6777c92f06c4ba9b",
+        "sentence_text": "We can clearly imply from tables TABREF23, TABREF24, and TABREF35 that we need more data to get better results because OurNepali dataset volume is almost ten times bigger compared to ILPRL dataset in terms of entities.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          0,
+          14,
+          4,
+          0
+        ],
+        "source_position": 17029
+      },
+      {
+        "cross_encoder_score": -10.982466697692871,
+        "dataset": "QASPER",
+        "end_char": 17468,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "20580fb05a53d3b9829baeb86fd22533",
+        "passage_rank": 4,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "06ffb66dc79b355ae537b800ed0363e6",
+        "sentence_text": "Conclusion and Future work\tIn this paper, we proposed a novel NER for Nepali language and achieved relative improvement of upto 10% and studies different factors effecting the performance of the NER for Nepali language.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          14,
+          5,
+          0
+        ],
+        "source_position": 17249
+      },
+      {
+        "cross_encoder_score": -10.490094184875488,
+        "dataset": "QASPER",
+        "end_char": 17636,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "20580fb05a53d3b9829baeb86fd22533",
+        "passage_rank": 4,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "baecedd6ba2b142c8913aa56fa43f80b",
+        "sentence_text": "We also present a neural architecture BiLSTM+CNN(grapheme-level) which turns out to be performing on par with BiLSTM+CNN(character-level) under the same configuration.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          14,
+          6,
+          0
+        ],
+        "source_position": 17469
+      },
+      {
+        "cross_encoder_score": -11.216261863708496,
+        "dataset": "QASPER",
+        "end_char": 17678,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "20580fb05a53d3b9829baeb86fd22533",
+        "passage_rank": 4,
+        "query_id": "567dc9bad8428ea9a2658c88203a0ed0f8da0dc3",
+        "sentence_id": "65abb3f1837054c94e0460987739461c",
+        "sentence_text": "We believe this will not only help Nepali",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          14,
+          7,
+          0
+        ],
+        "source_position": 17637
+      }
+    ],
+    "scoring_seconds": 0.49400460708420724,
+    "source_fingerprint": "3ce054ef955b5476c2f751150c3730a2d1d9911ba5293d3bc01d933c1cde681f"
+  }
+}

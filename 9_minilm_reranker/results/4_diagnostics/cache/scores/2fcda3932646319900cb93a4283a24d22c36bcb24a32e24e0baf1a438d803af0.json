@@ -1,0 +1,1031 @@
+{
+  "checksum": "51aaa34df646cf752ef54ad2c0866bf9b4b6c976f92fad4623213bcd16aea90c",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5a862f985542991e771815af"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 50,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "7a09ad341fabfb45bc49f236e26263ae6d893cbea46de509a2fbb675e697794c",
+    "query_id": "5a862f985542991e771815af",
+    "scores": [
+      {
+        "cross_encoder_score": -5.147412300109863,
+        "dataset": "HotpotQA",
+        "end_char": 18,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "fff78d6355ac3a1692de0de44fffaa98",
+        "passage_rank": 3,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "bb500a4b15994487ad8545f36a1f80de",
+        "sentence_text": "One Lucky Elephant",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 6.7146806716918945,
+        "dataset": "HotpotQA",
+        "end_char": 192,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "fff78d6355ac3a1692de0de44fffaa98",
+        "passage_rank": 3,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "695d7212fac8f9a927ccccf0d045cfee",
+        "sentence_text": "One Lucky Elephant is an American documentary film directed by Lisa Leeman that premiered December 1, 2011 on OWN: Oprah Winfrey Network as part of the OWN Documentary Club.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 19
+      },
+      {
+        "cross_encoder_score": -0.5712698101997375,
+        "dataset": "HotpotQA",
+        "end_char": 443,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "fff78d6355ac3a1692de0de44fffaa98",
+        "passage_rank": 3,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "a9fc574087a9be2c7d07593b89b0c65e",
+        "sentence_text": " The film focuses on the extraordinary human-animal bond between Circus Flora founder, Ivor David Balding, and Flora an endangered African elephant, and their journey to find her a permanent home that leads them to The Elephant Sanctuary (Hohenwald).",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 193
+      },
+      {
+        "cross_encoder_score": -10.21334171295166,
+        "dataset": "HotpotQA",
+        "end_char": 676,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "fff78d6355ac3a1692de0de44fffaa98",
+        "passage_rank": 3,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "45a73614a4bdcd8b32a9dde6c62f3333",
+        "sentence_text": " The film provides insightful research footage to further discussion of the human-animal bond as part of anthrozoology (human\u2013animal studies), a new academic field that examines the relationships between non-human and human animals.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 444
+      },
+      {
+        "cross_encoder_score": -10.18609619140625,
+        "dataset": "HotpotQA",
+        "end_char": 18,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "4eefcae8a49c193409209bf53211dcf3",
+        "passage_rank": 6,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "5bd47f28e864bd55f65efafe43a7a479",
+        "sentence_text": "Pardon Mon Affaire",
+        "sentence_token_cost": 5,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 6.140666484832764,
+        "dataset": "HotpotQA",
+        "end_char": 202,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "4eefcae8a49c193409209bf53211dcf3",
+        "passage_rank": 6,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "37f257dffccbccce8685aa8faaf484a5",
+        "sentence_text": "Pardon Mon Affaire (French: Un \u00e9l\u00e9phant \u00e7a trompe \u00e9norm\u00e9ment , English: \"An Elephant Can Be Extremely Deceptive\" ) is a 1976 French comedy film co-written and directed by Yves Robert.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 19
+      },
+      {
+        "cross_encoder_score": -7.04585599899292,
+        "dataset": "HotpotQA",
+        "end_char": 263,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "4eefcae8a49c193409209bf53211dcf3",
+        "passage_rank": 6,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "d5fd1a9463a8b4c48b7d16c46310d5ea",
+        "sentence_text": " It was remade as the 1984 American film \"The Woman in Red\".",
+        "sentence_token_cost": 19,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 203
+      },
+      {
+        "cross_encoder_score": -7.9653143882751465,
+        "dataset": "HotpotQA",
+        "end_char": 10,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "a73287b09cab33ae2383290527bded69",
+        "passage_rank": 10,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "799702da5a85aa2b7d79506ad22e6d6d",
+        "sentence_text": "Tori Kelly",
+        "sentence_token_cost": 3,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.990096092224121,
+        "dataset": "HotpotQA",
+        "end_char": 221,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "a73287b09cab33ae2383290527bded69",
+        "passage_rank": 10,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "3ba31308c00a2a9d889d76d8a532be57",
+        "sentence_text": "Victoria Loren \"Tori\" Kelly (born December 14, 1992) is an American singer, songwriter, record producer and voice actress who slowly gained recognition after starting to post videos on YouTube at the age of 14.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 11
+      },
+      {
+        "cross_encoder_score": -11.075222969055176,
+        "dataset": "HotpotQA",
+        "end_char": 319,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "a73287b09cab33ae2383290527bded69",
+        "passage_rank": 10,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "5c4c1c9ec5bdcc61dac9e53317c0e746",
+        "sentence_text": " When she was 16, Kelly auditioned for the singing competition television series \"American Idol\".",
+        "sentence_token_cost": 20,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 222
+      },
+      {
+        "cross_encoder_score": -11.142642974853516,
+        "dataset": "HotpotQA",
+        "end_char": 396,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "a73287b09cab33ae2383290527bded69",
+        "passage_rank": 10,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "b8facf6a6f64f61e34f9a5b1698dcab9",
+        "sentence_text": " After being eliminated from the show, Kelly began to work on her own music.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "source_position": 320
+      },
+      {
+        "cross_encoder_score": -10.386387825012207,
+        "dataset": "HotpotQA",
+        "end_char": 530,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "a73287b09cab33ae2383290527bded69",
+        "passage_rank": 10,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "56bc7f4e78fbf56278095c37b782cfc7",
+        "sentence_text": " In 2012, she independently released her first EP that she produced, wrote, and mixed herself, titled \"Handmade Songs By Tori Kelly\".",
+        "sentence_token_cost": 33,
+        "source_order": [
+          2,
+          0,
+          4,
+          0
+        ],
+        "source_position": 397
+      },
+      {
+        "cross_encoder_score": -11.218729972839355,
+        "dataset": "HotpotQA",
+        "end_char": 693,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "a73287b09cab33ae2383290527bded69",
+        "passage_rank": 10,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "369ce9880cdc5581cc095ede9d679473",
+        "sentence_text": " The following year, Scooter Braun became her manager after seeing her videos on YouTube and introduced her to Capitol Records, with whom she signed in September.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          2,
+          0,
+          5,
+          0
+        ],
+        "source_position": 531
+      },
+      {
+        "cross_encoder_score": -11.111588478088379,
+        "dataset": "HotpotQA",
+        "end_char": 782,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "a73287b09cab33ae2383290527bded69",
+        "passage_rank": 10,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "faf8996d5d0759cb93626f9152613cf3",
+        "sentence_text": " Kelly's second EP \"Foreword\" came out in October 2013 as her first major label release.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2,
+          0,
+          6,
+          0
+        ],
+        "source_position": 694
+      },
+      {
+        "cross_encoder_score": -11.098332405090332,
+        "dataset": "HotpotQA",
+        "end_char": 857,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "a73287b09cab33ae2383290527bded69",
+        "passage_rank": 10,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "59eab6c83240b54f6819647b55de9bd6",
+        "sentence_text": " On June 23, 2015, Kelly's debut album, \"Unbreakable Smile\", was released.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2,
+          0,
+          7,
+          0
+        ],
+        "source_position": 783
+      },
+      {
+        "cross_encoder_score": -11.088017463684082,
+        "dataset": "HotpotQA",
+        "end_char": 976,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "a73287b09cab33ae2383290527bded69",
+        "passage_rank": 10,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "fb723098edd9b9278da1e6b380c66f1c",
+        "sentence_text": " The lead single, \"Nobody Love\", was released in February 2015 and became her first US \"Billboard\" Hot 100 appearance.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          2,
+          0,
+          8,
+          0
+        ],
+        "source_position": 858
+      },
+      {
+        "cross_encoder_score": -10.97088623046875,
+        "dataset": "HotpotQA",
+        "end_char": 1044,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "a73287b09cab33ae2383290527bded69",
+        "passage_rank": 10,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "527f8ba7b469eae5282ad1ec44bdc906",
+        "sentence_text": " Kelly was nominated for Best New Artist at the 58th Grammy Awards.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          2,
+          0,
+          9,
+          0
+        ],
+        "source_position": 977
+      },
+      {
+        "cross_encoder_score": -7.084712028503418,
+        "dataset": "HotpotQA",
+        "end_char": 1125,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "a73287b09cab33ae2383290527bded69",
+        "passage_rank": 10,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "23e318ef1508f5a50406c33d733e30c3",
+        "sentence_text": " She voiced a shy teenage elephant named Meena in the 2016 animated film \"Sing\".",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1045
+      },
+      {
+        "cross_encoder_score": 0.9954407215118408,
+        "dataset": "HotpotQA",
+        "end_char": 20,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "0f273650d6fdca6e39842c71d9d02a9c",
+        "passage_rank": 1,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "f619c05e92c86c036192dd19539b608b",
+        "sentence_text": "Elephant (2003 film)",
+        "sentence_token_cost": 9,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 8.48141860961914,
+        "dataset": "HotpotQA",
+        "end_char": 96,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "0f273650d6fdca6e39842c71d9d02a9c",
+        "passage_rank": 1,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "468e611a67028e6ffe531954656f50db",
+        "sentence_text": "Elephant is a 2003 drama film edited, written and directed by Gus Van Sant.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 21
+      },
+      {
+        "cross_encoder_score": -11.204496383666992,
+        "dataset": "HotpotQA",
+        "end_char": 298,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "0f273650d6fdca6e39842c71d9d02a9c",
+        "passage_rank": 1,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "912d57b8d84f4e03f57d45f70e850168",
+        "sentence_text": " It takes place in the fictional Watt High School, in the suburbs of Portland, Oregon, and chronicles the events surrounding a school shooting, based in part on the 1999 Columbine High School massacre.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 97
+      },
+      {
+        "cross_encoder_score": -10.641093254089355,
+        "dataset": "HotpotQA",
+        "end_char": 469,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "0f273650d6fdca6e39842c71d9d02a9c",
+        "passage_rank": 1,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "296f508704383eaf0d53a23eff02d13b",
+        "sentence_text": " The film begins a short time before the shooting occurs, following the lives of several characters both in and out of school, who are unaware of what is about to unfold.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "source_position": 299
+      },
+      {
+        "cross_encoder_score": -6.823310375213623,
+        "dataset": "HotpotQA",
+        "end_char": 578,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "0f273650d6fdca6e39842c71d9d02a9c",
+        "passage_rank": 1,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "901c049e62eca4122208ac25d8a859e4",
+        "sentence_text": " The film stars mostly new or non-professional actors, including John Robinson, Alex Frost, and Eric Deulen.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3,
+          0,
+          4,
+          0
+        ],
+        "source_position": 470
+      },
+      {
+        "cross_encoder_score": -4.9883713722229,
+        "dataset": "HotpotQA",
+        "end_char": 10,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "367b6eed1c05e8a36f795d88d7a27ade",
+        "passage_rank": 7,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "180ab5e73d33f4e705f9ab307523f3d9",
+        "sentence_text": "Jim Fields",
+        "sentence_token_cost": 2,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 0.09051071852445602,
+        "dataset": "HotpotQA",
+        "end_char": 115,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "367b6eed1c05e8a36f795d88d7a27ade",
+        "passage_rank": 7,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "70c05cfd652a57129c57315390657127",
+        "sentence_text": "James Wallace Fields (born September 1958) is an American film director, producer, playwright and actor.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 11
+      },
+      {
+        "cross_encoder_score": -0.6964027881622314,
+        "dataset": "HotpotQA",
+        "end_char": 291,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "367b6eed1c05e8a36f795d88d7a27ade",
+        "passage_rank": 7,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "8c7eebf0bdddf4b19d9cdd035b2436a5",
+        "sentence_text": " Fields wrote, produced and directed the movies \"416\", \"Saving The Indian Hills\", \"Preserve Me A Seat\", \"Plain Living\" and, most recently \"Bugeaters\", currently in production.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 116
+      },
+      {
+        "cross_encoder_score": -3.315585136413574,
+        "dataset": "HotpotQA",
+        "end_char": 405,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "367b6eed1c05e8a36f795d88d7a27ade",
+        "passage_rank": 7,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "dd5e3ace2878b96cf71299b33a5376c9",
+        "sentence_text": " Prior to his film work, Fields wrote and directed the musical comedy \"Little Red\" and the play \"Scarlett Fever\".",
+        "sentence_token_cost": 25,
+        "source_order": [
+          4,
+          0,
+          3,
+          0
+        ],
+        "source_position": 292
+      },
+      {
+        "cross_encoder_score": -10.330253601074219,
+        "dataset": "HotpotQA",
+        "end_char": 25,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "62ebee2f817d504903474649045b6597",
+        "passage_rank": 2,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "851bc732c3b3471d622e277e2da937c5",
+        "sentence_text": "2003 Cannes Film Festival",
+        "sentence_token_cost": 7,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.139945983886719,
+        "dataset": "HotpotQA",
+        "end_char": 100,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "62ebee2f817d504903474649045b6597",
+        "passage_rank": 2,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "0f6062f6164577eb04b6f8e0079caa77",
+        "sentence_text": "The 56th Cannes Film Festival started on 14 May and ran until 25 May 2003.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 26
+      },
+      {
+        "cross_encoder_score": -7.920839309692383,
+        "dataset": "HotpotQA",
+        "end_char": 213,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "62ebee2f817d504903474649045b6597",
+        "passage_rank": 2,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "e93be1538e9eb643d1a7c4d149040c1b",
+        "sentence_text": " French opera and theatre director, filmmaker, actor and producer Patrice Ch\u00e9reau was the President of the Jury.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 101
+      },
+      {
+        "cross_encoder_score": 6.73020601272583,
+        "dataset": "HotpotQA",
+        "end_char": 327,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "62ebee2f817d504903474649045b6597",
+        "passage_rank": 2,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "05e7a1f0ea2822eadb6402235dd8049c",
+        "sentence_text": " The Palme d'Or went to the American film \"Elephant\" by Gus Van Sant based on the Columbine High School massacre.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "source_position": 214
+      },
+      {
+        "cross_encoder_score": -6.124952793121338,
+        "dataset": "HotpotQA",
+        "end_char": 13,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "7783f5c14b0bd4fd9a870cabf2820670",
+        "passage_rank": 8,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "36e5e2ca1c5c7b04ce312d3431767b04",
+        "sentence_text": "Christine Yoo",
+        "sentence_token_cost": 4,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.4300241470336914,
+        "dataset": "HotpotQA",
+        "end_char": 90,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "7783f5c14b0bd4fd9a870cabf2820670",
+        "passage_rank": 8,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "5779165644d409ad127dc47d475a4a0a",
+        "sentence_text": "Christine Yoo is a Korean-American writer, director, producer and filmmaker.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 14
+      },
+      {
+        "cross_encoder_score": -3.349318265914917,
+        "dataset": "HotpotQA",
+        "end_char": 352,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "7783f5c14b0bd4fd9a870cabf2820670",
+        "passage_rank": 8,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "11bb677d8c91b8643ad5f946e0dc7765",
+        "sentence_text": " She has written and directed a romantic-comedy feature film entitled \"Wedding Palace,\" starring Brian Tee, Kang Hye-jung, Bobby Lee, Margaret Cho, Joy Osmanski, Steve Park, Kelvin Han Yee, Elaine Kao, Charles Kim, Jean Yoon, Nancy J. Lee, Simon Rhee, and more.",
+        "sentence_token_cost": 70,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 91
+      },
+      {
+        "cross_encoder_score": -5.774013519287109,
+        "dataset": "HotpotQA",
+        "end_char": 799,
+        "pair_tokens_before_truncation": 94,
+        "pair_truncated": false,
+        "passage_id": "7783f5c14b0bd4fd9a870cabf2820670",
+        "passage_rank": 8,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "fc5c264c0afb69e55bc30e145549d3f3",
+        "sentence_text": " The film is a U.S.-Korea joint production that won Best Feature Film and Best Cinematography at the Cine Gear Expo Film Series Competition and a Golden Angel Award for Best Asian American Film at the Chinese American Film Festival and was also an official selection of the Los Angeles Asian Pacific Film Festival, the Asian American International Film Festival, the Philadelphia Asian American Film Festival and a number of other film festivals.",
+        "sentence_token_cost": 82,
+        "source_order": [
+          6,
+          0,
+          3,
+          0
+        ],
+        "source_position": 353
+      },
+      {
+        "cross_encoder_score": -5.1441874504089355,
+        "dataset": "HotpotQA",
+        "end_char": 899,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "7783f5c14b0bd4fd9a870cabf2820670",
+        "passage_rank": 8,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "286fdb33f8856ffce6e819e490dfe22e",
+        "sentence_text": " For the film, Yoo also received a Best Director award at the Atlanta Korean Film Festival as well.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          6,
+          0,
+          4,
+          0
+        ],
+        "source_position": 800
+      },
+      {
+        "cross_encoder_score": -1.552810549736023,
+        "dataset": "HotpotQA",
+        "end_char": 11,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "8256a95b5c3d25c02be60a65a4755c5b",
+        "passage_rank": 4,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "265d3a661a6f5a3c8161a6cd2739ccf4",
+        "sentence_text": "Neil LaBute",
+        "sentence_token_cost": 4,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.2762421369552612,
+        "dataset": "HotpotQA",
+        "end_char": 114,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "8256a95b5c3d25c02be60a65a4755c5b",
+        "passage_rank": 4,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "84b4df4b3b2839ffa8b2f4f4dcf54f4f",
+        "sentence_text": "Neil N. LaBute (born March 19, 1963) is an American film director, screenwriter, playwright and actor.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 12
+      },
+      {
+        "cross_encoder_score": -5.0540690422058105,
+        "dataset": "HotpotQA",
+        "end_char": 338,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "8256a95b5c3d25c02be60a65a4755c5b",
+        "passage_rank": 4,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "f7b20d7f29202755a4b7f7f1163b98c8",
+        "sentence_text": " He is best-known for a play that he wrote and later turned into a film, \"In the Company of Men\" (1997), which won awards from the Sundance Film Festival, the Independent Spirit Awards, and the New York Film Critics Circle.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 115
+      },
+      {
+        "cross_encoder_score": -1.6415742635726929,
+        "dataset": "HotpotQA",
+        "end_char": 574,
+        "pair_tokens_before_truncation": 86,
+        "pair_truncated": false,
+        "passage_id": "8256a95b5c3d25c02be60a65a4755c5b",
+        "passage_rank": 4,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "8d6ff5abcecf40549894a851a6a2f4a0",
+        "sentence_text": " He wrote and directed the films \"Possession\" (2002) (based on the A.S. Byatt novel), \"The Shape of Things\" (2003) (based on his play of the same name), \"The Wicker Man\" (2006), \"Some Velvet Morning\" (2013), and \"Dirty Weekend\" (2015).",
+        "sentence_token_cost": 83,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 339
+      },
+      {
+        "cross_encoder_score": -5.898465633392334,
+        "dataset": "HotpotQA",
+        "end_char": 679,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "8256a95b5c3d25c02be60a65a4755c5b",
+        "passage_rank": 4,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "a934ee8bafce6e344c3a669c43a8a822",
+        "sentence_text": " He directed the films \"Nurse Betty\" (2000), \"Lakeview Terrace\" (2008), and \"Death at a Funeral\" (2010).",
+        "sentence_token_cost": 39,
+        "source_order": [
+          7,
+          0,
+          4,
+          0
+        ],
+        "source_position": 575
+      },
+      {
+        "cross_encoder_score": -6.780925273895264,
+        "dataset": "HotpotQA",
+        "end_char": 807,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "8256a95b5c3d25c02be60a65a4755c5b",
+        "passage_rank": 4,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "4c1f97fdaaa87f3ae8ce881996f4c458",
+        "sentence_text": " LaBute created the TV series \"Billy & Billie\", writing and directing all of the episodes and is also creator of \"Van Helsing\".",
+        "sentence_token_cost": 30,
+        "source_order": [
+          7,
+          0,
+          5,
+          0
+        ],
+        "source_position": 680
+      },
+      {
+        "cross_encoder_score": -7.36884880065918,
+        "dataset": "HotpotQA",
+        "end_char": 893,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "8256a95b5c3d25c02be60a65a4755c5b",
+        "passage_rank": 4,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "bfad4c17bd9266c24494745e9d5c703f",
+        "sentence_text": " He also directed several episodes for shows such as \"Hell on Wheels\" and \"Billions\".",
+        "sentence_token_cost": 19,
+        "source_order": [
+          7,
+          0,
+          6,
+          0
+        ],
+        "source_position": 808
+      },
+      {
+        "cross_encoder_score": -3.1894052028656006,
+        "dataset": "HotpotQA",
+        "end_char": 21,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "5589da8098759ac8a94b518897153be3",
+        "passage_rank": 9,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "4679043ad2f6bd608ac343887f571dc5",
+        "sentence_text": "Christopher B. Landon",
+        "sentence_token_cost": 5,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 0.22106653451919556,
+        "dataset": "HotpotQA",
+        "end_char": 266,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "5589da8098759ac8a94b518897153be3",
+        "passage_rank": 9,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "e6472db933af6bababadb10053dd5ee3",
+        "sentence_text": "Christopher Beau Landon (born February 27, 1975) is an American film director, producer, and screenwriter best known as the writer of 2007 film \"Disturbia\", the last three \"Paranormal Activity\" films and as the son of late actor Michael Landon.",
+        "sentence_token_cost": 66,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 22
+      },
+      {
+        "cross_encoder_score": -4.233229160308838,
+        "dataset": "HotpotQA",
+        "end_char": 388,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "5589da8098759ac8a94b518897153be3",
+        "passage_rank": 9,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "4a0962cd9e65e35da681d3752e5132ab",
+        "sentence_text": " Landon wrote and made his first directorial debut on the satirical thriller \"Burning Palms\", which was released in 2010.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          8,
+          0,
+          2,
+          0
+        ],
+        "source_position": 267
+      },
+      {
+        "cross_encoder_score": -2.991659641265869,
+        "dataset": "HotpotQA",
+        "end_char": 535,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "5589da8098759ac8a94b518897153be3",
+        "passage_rank": 9,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "e3b10a6a221264510ff79d75e6214a63",
+        "sentence_text": " He wrote and directed the found footage horror film \"\", and directed and co-wrote the horror comedy film \"Scouts Guide to the Zombie Apocalypse\".",
+        "sentence_token_cost": 29,
+        "source_order": [
+          8,
+          0,
+          3,
+          0
+        ],
+        "source_position": 389
+      },
+      {
+        "cross_encoder_score": -3.432311534881592,
+        "dataset": "HotpotQA",
+        "end_char": 28,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "9f690a461d81019117fa62e939f710f3",
+        "passage_rank": 5,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "bbd64b7b8478e0d0d277070aa6beab25",
+        "sentence_text": "Whispers: An Elephant's Tale",
+        "sentence_token_cost": 7,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 4.978907108306885,
+        "dataset": "HotpotQA",
+        "end_char": 181,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "9f690a461d81019117fa62e939f710f3",
+        "passage_rank": 5,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "2b57756b8d138fb7b38d652391c8c63f",
+        "sentence_text": "Whispers: An Elephant's Tale is a 2000 American film, starring Angela Bassett, Joanna Lumley, Anne Archer, Debi Derryberry and Kevin Michael Richardson.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 29
+      },
+      {
+        "cross_encoder_score": 1.8532476425170898,
+        "dataset": "HotpotQA",
+        "end_char": 245,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "9f690a461d81019117fa62e939f710f3",
+        "passage_rank": 5,
+        "query_id": "5a862f985542991e771815af",
+        "sentence_id": "a46e74de3cce46e05651904730cba5d6",
+        "sentence_text": " It was co-written, co-produced and directed by Dereck Joubert.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 182
+      }
+    ],
+    "scoring_seconds": 0.2285668950062245,
+    "source_fingerprint": "5439d8e785e00d49719641808dceff7bf1f4efbdc1d590195ebaccbc30b45a88"
+  }
+}

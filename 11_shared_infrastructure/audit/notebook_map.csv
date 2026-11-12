@@ -1,0 +1,381 @@
+path,original,purpose,methods,datasets,budgets,inputs,outputs,execution,flags,scientific_status,sha256
+1_problem_and_baselines/notebooks/9_analysis.ipynb,notebooks/week0/week0_analysis.ipynb," Week 0: Dataset & RAG Evidence Understanding Study
+
+ Adaptive Retrieval & Context Compression for Retrieval-Augmented Generation (SARA / QCCA)
+Framework: SARA (ACL 2026) | Base Model: Mistral-7B-Instruct-v0.2 | Benchmark: QASPER
+
+---
+
+ Core Research Questions
+1. Evidence Structure: How are evidence requirements distributed across scientific QA queries in QASPER?
+2. Representation Evolution: How does Mistral contextualize the query against retrieved passages across transformer layers? Does it geometrically isolate true evidence from distractors",problem_and_baselines,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,1_problem_and_baselines/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,8f343ec51c26b4ac9242cc7fb95cca31b87072ec7ccaf33626beac2ee7379850
+2_adaptive_evidence_quantity/notebooks/9_dev_fixed_k_sweep.ipynb,notebooks/week2/week2_dev_fixed_k_sweep.ipynb," Week 2: Fixed-$k$ Development Baseline Response Surface & Oracle Analysis
+Project: Query-Conditioned Evidence Allocation (QCCA)  
+Parent Framework: SARA — Selective and Adaptive Retrieval-augmented Generation with Context Compression  
+Benchmark: QASPER Development Set (231 questions across 86 papers)  
+Hardware: NVIDIA TITAN RTX 24 GB  
+
+---
+
+ Scientific Objective
+Week 2 establishes the empirical baseline quality/efficiency curve for static evidence allocation across:
+$$k \in \{0, 2, 4, 5, 6, 8, 10\}$$
+for all 231 development questions ($231 ",adaptive_evidence_quantity,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,2_adaptive_evidence_quantity/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE_TEST=False; RUN_STAGE_1=False; RUN_STAGE_2=False; RUN_STAGE_3=True,DEVELOPMENT_OR_MOTIVATION,c276c6a91ab46abe0442712294465f1c0dade009a2a2a9d32f1d9719b579a716
+2_adaptive_evidence_quantity/notebooks/9_oracle_target_analysis.ipynb,notebooks/week3/week3_oracle_target_analysis.ipynb," CS787 Generative AI Research Project — Week 3
+ Oracle, Epsilon Target, Heterogeneity & Human Validation
+Project: Query-Conditioned Context Allocator (QCCA) / SARA Framework  
+Benchmark: QASPER Development Split (Paper-disjoint)  
+Scientific Objective: Determine whether empirical query-level evidence requirements vary sufficiently across questions to justify learning a query-conditioned context allocator (QCCA).  
+Guardrail: No QCCA training, no test set access, no expensive re-generation (100% frozen Week-2 data consumption).
+  1. Environment ",adaptive_evidence_quantity,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,2_adaptive_evidence_quantity/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,RETROSPECTIVE_ORACLE,2c557d8bd99721ee2d3120a2cd02cccdee98efff79d1414c0abd88a3589353c8
+2_adaptive_evidence_quantity/notebooks/9_oracle_epsilon_human_audit.ipynb,notebooks/week3/week3_oracle_epsilon_human_audit.ipynb," CS787 Generative AI Research Project — Week 3
+ Oracle, Epsilon Target, Heterogeneity & Human Validation
+Project: Query-Conditioned Context Allocator (QCCA) / SARA Framework  
+Benchmark: QASPER Development Split (Paper-disjoint)  
+Scientific Objective: Determine whether empirical query-level evidence requirements vary sufficiently across questions to justify learning a query-conditioned context allocator (QCCA).  
+Guardrail: No QCCA training, no test set access, no expensive re-generation (100% frozen Week-2 data consumption).
+  1. Environment ",adaptive_evidence_quantity,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,2_adaptive_evidence_quantity/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,RETROSPECTIVE_ORACLE,efa12ba70ae44a64e30741bda97a8671a1d26d2f234f7e36f085a138162bccee
+2_adaptive_evidence_quantity/notebooks/9_qcca_v2_final_validation.ipynb,notebooks/week4/week4_qcca_v2_final_validation.ipynb," Week 4: Final Rigorous Validation of Stage-2 Selective Evidence Allocation (Policy C1)
+
+Project: Query-Conditioned Context Allocator (QCCA) for Efficient Retrieval-Augmented Generation  
+Parent Architecture: SARA — Selective and Adaptive Retrieval-augmented Generation with Context Compression  
+Objective: Rigorous final empirical validation of Policy C1:
+> ""Can pre-generation retrieval/semantic/coverage features reliably identify when expanding evidence from $k=4$ to $k=6$ is useful, enabling near-static-$k=6/k=8$ answer quality at lower conte",adaptive_evidence_quantity,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,2_adaptive_evidence_quantity/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,720ab32238eb45172f8cc94999ad8d508d5c431f663a959a905cc648e207aeb0
+2_adaptive_evidence_quantity/notebooks/9_model_benchmark.ipynb,notebooks/week4/week4_model_benchmark.ipynb," Week 5: Nonlinear Stage-2 ML Modeling Benchmark
+
+Project: Query-Conditioned Context Allocator (QCCA) for Efficient Retrieval-Augmented Generation  
+Parent Architecture: SARA — Selective and Adaptive Retrieval-augmented Generation with Context Compression  
+Experiment: Week 5 Confirmatory Benchmark of Nonlinear Stage-2 Classifiers  
+Evaluation Population: QASPER Development Split (86 papers, 231 questions)  
+Governance: Strict Paper-Disjoint GroupKFold. Held-out test set remains 100% frozen & untouched.  
+
+---
+
+ Research Question:
+> ""Can a smal",adaptive_evidence_quantity,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,2_adaptive_evidence_quantity/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,70f58e42fd198c3290d25b04f163400d01531e5923fc47e46b1c70d5618a61e6
+2_adaptive_evidence_quantity/notebooks/9_feature_discovery.ipynb,notebooks/week4/week4_feature_discovery.ipynb," Week 4: Feature Discovery for Query-Conditioned Evidence Allocation (QCCA)
+Project: CS787 Generative AI — Query-Conditioned Context Allocator  
+Parent Framework: SARA — Selective and Adaptive Retrieval-augmented Generation with Context Compression  
+Benchmark: QASPER Development Split (86 papers, 231 queries)  
+Objective: Answer the fundamental scientific question:  
+> What information available before generation correlates with how much textual evidence a query benefits from?
+
+---
+ Investigation Framing
+The initial Week 4 experiment tested si",adaptive_evidence_quantity,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,2_adaptive_evidence_quantity/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,1b59aa21af5935622cae2b4b6c651bad58a3f6a4feff49e7aa88106dc9be5056
+2_adaptive_evidence_quantity/notebooks/9_qcca_v2_modeling.ipynb,notebooks/week4/week4_qcca_v2_modeling.ipynb," Week 4: QCCA-V2 — Sequential Transition-Aware Evidence Allocation
+Project: CS787 Generative AI — Query-Conditioned Context Allocator (QCCA)  
+Parent Framework: SARA — Selective and Adaptive Retrieval-augmented Generation with Context Compression  
+Benchmark: QASPER Development Split (86 papers, 231 queries)  
+Core Hypothesis:  
+> Can a lightweight sequential policy use pre-generation query/retrieval features to decide whether additional textual evidence is worth allocating at each stage, producing a better answer-quality/context-cost tradeoff ",adaptive_evidence_quantity,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,2_adaptive_evidence_quantity/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,da88713c1ac8a65757c09ac2399f56d817bb703abe508ad6accfe20bbad74f46
+2_adaptive_evidence_quantity/notebooks/9_qcca_v2_diagnostic.ipynb,notebooks/week4/week4_qcca_v2_diagnostic.ipynb," Week 4: QCCA-V2 Diagnostic and Policy-Refinement Study
+
+Project: Query-Conditioned Context Allocator (QCCA) for Efficient Retrieval-Augmented Generation  
+Parent Architecture: SARA — Selective and Adaptive Retrieval-augmented Generation with Context Compression  
+Objective: Diagnose why the current learned sequential policy fails to convert discovered feature signal into a policy that clearly improves over static-k baselines, and determine what sequential policy structure is actually justified by the data.
+
+ Strict Governance Controls:
+1. Zero",adaptive_evidence_quantity,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,2_adaptive_evidence_quantity/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,67da0a9ecd5f46a8d0133f01d4952a9c351dd5ba6c3258f3b0935042e228f75a
+2_adaptive_evidence_quantity/notebooks/9_qcca_development.ipynb,notebooks/week4/week4_qcca_development.ipynb," Week 4: Learning Query-Conditioned Evidence Allocation (QCCA)
+Project: CS787 Generative AI — Query-Conditioned Context Allocator  
+Parent Framework: SARA — Selective and Adaptive Retrieval-augmented Generation with Context Compression  
+Benchmark: QASPER Development Split (Paper-disjoint from training)  
+Evaluation Protocol: 5-Fold GroupKFold Cross-Validation by Paper ID (paper_id)  
+Frozen Contract: Action space $\mathcal{K}_{\text{alloc}} = \{2, 4, 5, 6, 8\}$, Target tolerance $\epsilon^ = 0.01$
+
+---
+ Mode Configuration (Smoke Test vs Full C",adaptive_evidence_quantity,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,2_adaptive_evidence_quantity/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE_TEST=False,DEVELOPMENT_OR_MOTIVATION,a19b4cf267bfa189a529da86ce10a25763cedf696186ebb62873434d8bd97412
+2_adaptive_evidence_quantity/notebooks/9_feature_validation.ipynb,notebooks/week4/week4_feature_validation.ipynb," Week 4-B: Feature Validation, Redundancy Analysis & Transition Modeling
+Project: CS787 Generative AI — Query-Conditioned Context Allocator (QCCA)  
+Parent Framework: SARA — Selective and Adaptive Retrieval-augmented Generation with Context Compression  
+Benchmark: QASPER Development Split (86 papers, 231 queries)  
+Objective: Statistically validate, reduce redundancy, and model transition-specific evidence requirements across the 64 pre-generation features discovered in Week 4-A.  
+
+---
+ CRITICAL EXPERIMENTAL GUARDRAILS & GOVERNANCE
+- DO NOT B",adaptive_evidence_quantity,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,2_adaptive_evidence_quantity/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,bb6955ed9f9b0ae8e42d7b44944cf14c2a602262fb1c367630f0eff8b9c96708
+2_adaptive_evidence_quantity/notebooks/9_encoder_adaptation.ipynb,notebooks/week5/week5c_encoder_adaptation.ipynb," Week 5-C: Semantic Encoder Adaptation and Capacity Study
+
+Project: Query-Conditioned Context Allocator (QCCA) for Efficient Retrieval-Augmented Generation  
+Parent Architecture: SARA — Selective and Adaptive Retrieval-augmented Generation with Context Compression  
+Experiment: Week 5-C Semantic Capacity and Encoder Adaptation Ladder (C0 Frozen, C1 Last-1 Layer, C2 Last-2 Layers)  
+Population: QASPER TRAIN (2,088 queries) & DEV (231 queries)  
+Governance: Strict Split Isolation. Held-out TEST set (1,309 queries) remains 100% frozen & untouched.",adaptive_evidence_quantity,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,2_adaptive_evidence_quantity/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,c4a7feb6778378b5e5c593520adeb3ae3f855c0abab138da5ccdef062d41442b
+2_adaptive_evidence_quantity/notebooks/9_content_aware_allocator.ipynb,notebooks/week5/week5_content_aware_allocator.ipynb," Week 5: Content-Aware Adaptive Representation Allocation
+
+Project: Query-Conditioned Context Allocator (QCCA) for Efficient Retrieval-Augmented Generation  
+Parent Architecture: SARA — Selective and Adaptive Retrieval-augmented Generation with Context Compression  
+Experiment: Week 5 Information Study & Formulation Comparison  
+Population: QASPER TRAIN (2,088 queries) & DEV (231 queries)  
+Governance: Strict Split Isolation. Held-out TEST set (1,309 queries) remains 100% frozen & untouched.  
+
+---
+
+ Core Research Question:
+> ""Does direct seman",adaptive_evidence_quantity,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,2_adaptive_evidence_quantity/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,fe8fa592f16185828d3e1404f80fe2cfd5564e4ee14f4beb25053af659b45c48
+3_evidence_identity_and_routing/notebooks/9_hybrid_routing.ipynb,notebooks/week6/week6b_hybrid_routing.ipynb," Week 6-B: Hybrid Lexical-Semantic Passage Fidelity Routing
+
+ Primary Research Question:
+> Do lexical BM25 relevance and pretrained semantic relevance contain complementary routing information, such that combining them improves passage-fidelity routing beyond either signal alone?
+
+In Week 6-A, we investigated passage fidelity routing and established that:
+- $R_1$ (Pretrained Semantic Top-$k$ via zero-shot bi-encoder) significantly outperforms the standard $R_0$ BM25 prefix baseline at $k=4$ ($F_1 = 0.3913$ vs $0.3596$, $+3.17$ points) while sav",evidence_identity_and_routing,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,3_evidence_identity_and_routing/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,4a91eb1bb8f5c032597c557c08173dd61ffb72236a8d4f8b346295d27e9b2dcd
+3_evidence_identity_and_routing/notebooks/9_passage_fidelity_routing.ipynb,notebooks/week6/week6_passage_fidelity_routing.ipynb," Week 6 — Query-Conditioned Passage Fidelity Routing
+
+ Scientific Research Question
+> At a fixed high-fidelity representation budget $k$, can we improve SARA by choosing WHICH retrieved passages remain in full text instead of automatically keeping the first $k$ BM25-ranked passages?
+
+---
+
+ Context & Transition from Weeks 3–5
+- Weeks 3–5 asked: HOW MANY passages should remain in high fidelity? (Adaptive budget $k \in \{2, 4, 5, 6, 8\}$).
+- Week 6 asks: WHICH passages deserve high fidelity at a fixed budget?
+$$\boxed{\text{Hold } k \text{ fixed a",evidence_identity_and_routing,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,3_evidence_identity_and_routing/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SUBSET_ORACLE=False; RUN_SUBSET_ORACLE=True,DEVELOPMENT_OR_MOTIVATION,f40cddafcbe47b18d2a6db83068dfdf5e7d516fe3811f0b741da7f457b55e012
+3_evidence_identity_and_routing/notebooks/9_budget_semantic_composition.ipynb,notebooks/week7/week7a_budget_semantic_composition.ipynb," Week 7-A: Modular Composition of Adaptive Budget Allocation and Semantic Passage Routing
+
+ Primary Research Question:
+> Can the existing adaptive budget allocator be directly combined with semantic passage routing, without retraining the allocator, to improve the quality–context frontier?
+
+ The Critical Experimental Comparison:
+$$\boxed{\hat{k}_{\text{W4}} + \text{BM25-prefix routing } (R_0) \quad\text{vs}\quad \hat{k}_{\text{W4}} + \text{semantic top-}\hat{k}\text{ routing } (R_1)}$$
+
+ Experimental Framework & Boundaries:
+1. Modular Compositi",evidence_identity_and_routing,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,3_evidence_identity_and_routing/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,c7314579324f892a39eea999962402870895d55e2ef33816b4c700c010de316f
+3_evidence_identity_and_routing/notebooks/9_week7c3_anchor_and_deviate_policy.ipynb,notebooks/week7/week7c3_anchor_and_deviate_policy.ipynb," Week 7-C3: Anchor-and-Deviate Semantic Budget Policy
+
+ Section 0 — Research Question & Motivation
+In Week 7-C1, the sufficiency-classification policy failed due to catastrophic large-$k$ fallback behavior ($F_1 = 0.3783$, context $\approx 1503.8$).
+In Week 7-C2, direct response-surface regression and ranking recovered quality ($F_1 = 0.3922$) but massively over-allocated ($k=7.39$, tokens $\approx 1622.1$, dominated by static $k=6$ and $k=8$).
+
+Error taxonomy analysis revealed that $63.6\%$ of queries were epsilon-admissible but over-budget, a",evidence_identity_and_routing,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,3_evidence_identity_and_routing/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,ff4eca58b600e57b06257afbb8ca929af2d2649f2b63826f42ae354241f83345
+3_evidence_identity_and_routing/notebooks/9_retrieval_aware_semantic_allocator.ipynb,notebooks/week7/week7c_retrieval_aware_semantic_allocator.ipynb," Week 7-C: Retrieval-Aware Semantic Sufficiency Allocation
+
+ 1. Scientific Motivation & The W7-B Failure Diagnosis
+
+In Week 7-B, we established two critical findings:
+1. Under semantic passage routing, the per-query quality-vs-budget response surface changes dramatically compared to lexical BM25 prefix routing:
+   - For 49.8% of DEV queries, the $\epsilon$-optimal representation budget shifts.
+   - The semantic $\epsilon$-oracle achieves $F_1 = 0.4869$ at mean $k = 3.30$ and context = 775.2 tokens (55.38% context reduction vs static $k=8$).
+2. ",evidence_identity_and_routing,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,3_evidence_identity_and_routing/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,91d1b676756d1fdbb37cd28b995b66637e77c8121b5e6599cdffc265d62fc080
+3_evidence_identity_and_routing/notebooks/9_multifidelity_representation.ipynb,notebooks/week7/week7e_multifidelity_representation.ipynb," Week 7-E: Multi-Fidelity Evidence Representation — FULL / MEDIUM / HEAVY
+Query-Conditioned Extractive Textual Compression for Marginal Passages in SARA
+
+---
+
+ Executive Scientific Overview
+In Weeks 7-A through 7-D, we explored learned discrete adaptive allocation:
+$$\text{Query } q, \text{Passages } \{D_i\} \longrightarrow k^ \in \{2, 4, 5, 6, 8\}$$
+Across all architectures—modular composition (W7-A), semantic budget relearning (W7-B), rich-feature sufficiency classification (W7-C1), direct response surface regression (W7-C2), anchor-and-devia",evidence_identity_and_routing,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,3_evidence_identity_and_routing/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,0e6b5b39848963a60dd8085aeba6bf5b575db89dbb6e15b74e3961b292eb87fa
+3_evidence_identity_and_routing/notebooks/9_semantic_budget_relearning.ipynb,notebooks/week7/week7b_semantic_budget_relearning.ipynb," Week 7-B: Semantic-Routing-Aware Budget Response Surface and Adaptive Allocation
+
+ Primary Research Question
+> How does semantic passage routing change the per-query quality-vs-budget response surface, and can a budget allocator learn this new regime?
+
+ Scientific Context & Motivation from Week 7-A
+In Week 7-A, we composed the frozen Week 4 adaptive budget allocator with Week 6 R1 semantic passage routing:
+ W4 Adaptive + BM25 Prefix: $F_1 = 0.3842$, $1114.2$ tokens (mean $k = 4.82$)
+ W4 Adaptive + Semantic Top-$k$: $F_1 = 0.3782$, $1095.0$ tok",evidence_identity_and_routing,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,3_evidence_identity_and_routing/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,b9b96cdf229a9bff3b9418b7570bab832e0d140dca2d3ace7f580dded15a6b5b
+3_evidence_identity_and_routing/notebooks/9_cross_encoder_fidelity_router.ipynb,notebooks/week7/week7d_cross_encoder_fidelity_router.ipynb," Week 7-D: Generator-Aligned Cross-Encoder Fidelity Router
+Joint Query-Document Representation Learning for Downstream SARA Utility Allocation
+
+---
+
+ Scientific Motivation & Historical Progression
+All previous adaptive-budget models suffered from representation bottlenecks:
+ W7-A: Frozen W4 allocator + semantic routing composition $\to$ modular composition failed.
+ W7-B: Semantic-routing response surface + old W4 features $\to$ feature mismatch.
+ W7-C1: Rich retrieval sufficiency classifier $\to$ over-allocation from large-$k$ fallback.
+ W7-C2:",evidence_identity_and_routing,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,3_evidence_identity_and_routing/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,5d5262aa1c275eca5058ffce035d6f504c074be76e2b61bb93ffa023c3975d18
+3_evidence_identity_and_routing/notebooks/9_week7c2_utility_aware_budget_ranking.ipynb,notebooks/week7/week7c2_utility_aware_budget_ranking.ipynb," Week 7-C2: Utility-Aware Budget Ranking and Continuation Policy
+
+ 1. Why W7-C1 Failed: The Non-Monotonicity and Fallback Trap
+
+In Week 7-C1, we attempted to formulate representation budget selection as candidate-level binary sufficiency classification:
+$$P(z(q,k)=1) \ge 	au, \quad 	ext{fallback: } k=8$$
+
+This produced a disappointing DEV result:
+- $F_1 = 0.3783$ at mean $k = 6.85$ and context $\approx 1503.8$ tokens.
+- Heavily dominated by static semantic $k=4$ ($F_1 = 0.3909$, tokens $\approx 921.1$).
+
+ The Two Root Causes of W7-C1's Failure:",evidence_identity_and_routing,QASPER historical surface,Historical k/action surface; not automatically256/1024,Method-local configs and original source/cached response surface referenced in cells,3_evidence_identity_and_routing/results/,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,,DEVELOPMENT_OR_MOTIVATION,5c87c74410d99401f6235ff6daf485e92d0d7b484e4d41a2f6b5cef6a5ad41bf
+4_multigranular_evidence_study/notebooks/9_granularity_budget.ipynb,notebooks/week11/week11_C_granularity_budget.ipynb," Week 11 — C: granularity budget
+
+SAFE BY DEFAULT. Run All loads saved real results if present; otherwise it uses fabricated smoke fixtures (H/I read saved results only). No datasets/models are downloaded automatically. QASPER TEST is blocked.
+
+For a user full run: set RUN_FULL=True and RUN_SMOKE=False in the next cell. Every later setup is derived automatically. Existing validated rows are reused. OVERWRITE=True is deliberately unsupported.
+
+  Execute or resume
+
+Synthetic output is stored only under smoke/. Pending token-compressor conditions ",multigranular_evidence_study,QASPER / HotpotQA / SciFact,Registered W11 action grid (see configs),4_multigranular_evidence_study/configs/1_base.yaml; 4_multigranular_evidence_study/configs/1_runs.yaml,4_multigranular_evidence_study/results/1_primary/1_multigranular_budget_results.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=False; RUN_FULL=True,VALIDATION_OR_PROTOCOL,2423af590665ae307d30f93d1cc6d980bb0203ec31f1f293afdbb7b13650f6e8
+4_multigranular_evidence_study/notebooks/9_compressor_reader.ipynb,notebooks/week11/week11_E_compressor_reader.ipynb," Week 11 — E: compressor reader
+
+SAFE BY DEFAULT. Run All loads saved real results if present; otherwise it uses fabricated smoke fixtures (H/I read saved results only). No datasets/models are downloaded automatically. QASPER TEST is blocked.
+
+For a user full run: set RUN_FULL=True and RUN_SMOKE=False in the next cell. Every later setup is derived automatically. Existing validated rows are reused. OVERWRITE=True is deliberately unsupported.
+
+  Execute or resume
+
+Synthetic output is stored only under smoke/. Pending token-compressor conditions a",multigranular_evidence_study,QASPER / HotpotQA / SciFact,Registered W11 action grid (see configs),4_multigranular_evidence_study/configs/1_base.yaml; 4_multigranular_evidence_study/configs/1_runs.yaml,4_multigranular_evidence_study/results/1_primary/1_multigranular_budget_results.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=False; RUN_FULL=True,VALIDATION_OR_PROTOCOL,bdd6f514ec08999d9dbca6df1099845cdd4925c10fea6bbbebdc229839f0a072
+4_multigranular_evidence_study/notebooks/9_setup_and_data.ipynb,notebooks/week11/week11_0_setup_and_data.ipynb," Week 11 — 0: setup
+
+SAFE BY DEFAULT. Run All loads saved real results if present; otherwise it uses fabricated smoke fixtures (H/I read saved results only). No datasets/models are downloaded automatically. QASPER TEST is blocked.
+
+For a user full run: set RUN_FULL=True and RUN_SMOKE=False in the next cell. Every later setup is derived automatically. Existing validated rows are reused. OVERWRITE=True is deliberately unsupported.
+
+Before full setup, prepare HotpotQA/SciFact once with sara_env/bin/python scripts/week11/prepare_datasets.py --downl",multigranular_evidence_study,QASPER / HotpotQA / SciFact,Registered W11 action grid (see configs),4_multigranular_evidence_study/configs/1_base.yaml; 4_multigranular_evidence_study/configs/1_runs.yaml,4_multigranular_evidence_study/results/1_primary/1_multigranular_budget_results.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=False; RUN_FULL=True,VALIDATION_OR_PROTOCOL,63ab32e4486f9513b3177b24e0b3cf84a35cba6a59b4f40173ae29b20f76f1a2
+4_multigranular_evidence_study/notebooks/9_retriever_robustness.ipynb,notebooks/week11/week11_F_retriever_robustness.ipynb," Week 11 — F: retriever robustness
+
+SAFE BY DEFAULT. Run All loads saved real results if present; otherwise it uses fabricated smoke fixtures (H/I read saved results only). No datasets/models are downloaded automatically. QASPER TEST is blocked.
+
+For a user full run: set RUN_FULL=True and RUN_SMOKE=False in the next cell. Every later setup is derived automatically. Existing validated rows are reused. OVERWRITE=True is deliberately unsupported.
+
+Full F refuses to execute until finalist_run_ids and their manually reviewed configurations are suppl",multigranular_evidence_study,QASPER / HotpotQA / SciFact,Registered W11 action grid (see configs),4_multigranular_evidence_study/configs/1_base.yaml; 4_multigranular_evidence_study/configs/1_runs.yaml,4_multigranular_evidence_study/results/1_primary/1_multigranular_budget_results.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=False; RUN_FULL=True,VALIDATION_OR_PROTOCOL,d56d425beffb128315816dee6650fe2ce92e3251c1de4903df1676e00fdc8f4c
+4_multigranular_evidence_study/notebooks/9_oracle_and_interactions.ipynb,notebooks/week11/week11_H_oracle_and_interactions.ipynb," Week 11 — H: oracle
+
+SAFE BY DEFAULT. Run All loads saved real results if present; otherwise it uses fabricated smoke fixtures (H/I read saved results only). No datasets/models are downloaded automatically. QASPER TEST is blocked.
+
+For a user full run: set RUN_FULL=True and RUN_SMOKE=False in the next cell. Every later setup is derived automatically. Existing validated rows are reused. OVERWRITE=True is deliberately unsupported.
+
+  Execute or resume
+
+Synthetic output is stored only under smoke/. Pending token-compressor conditions are reported",multigranular_evidence_study,QASPER / HotpotQA / SciFact,Registered W11 action grid (see configs),4_multigranular_evidence_study/configs/1_base.yaml; 4_multigranular_evidence_study/configs/1_runs.yaml,4_multigranular_evidence_study/results/1_primary/1_multigranular_budget_results.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=False; RUN_FULL=False,VALIDATION_OR_PROTOCOL,e3339a2d4117f2ed9a5b0441581f0bc2e6b067756c8067f63896f65a60306ef7
+4_multigranular_evidence_study/notebooks/9_master.ipynb,notebooks/week11/week11_MASTER.ipynb," Week 11 MASTER — read-only dashboard
+
+This notebook never starts generation or dataset/model downloads.  Exact manual execution order  Dataset, cache and result availability",multigranular_evidence_study,QASPER / HotpotQA / SciFact,Registered W11 action grid (see configs),4_multigranular_evidence_study/configs/1_base.yaml; 4_multigranular_evidence_study/configs/1_runs.yaml,4_multigranular_evidence_study/results/1_primary/1_multigranular_budget_results.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=False; RUN_FULL=False,VALIDATION_OR_PROTOCOL,c224749aab41c23b94012691c5832c9077b4baa36b30e8a7f72da729eecc54fc
+4_multigranular_evidence_study/notebooks/9_hierarchical_fidelity.ipynb,notebooks/week11/week11_G_hierarchical_fidelity.ipynb," Week 11 — G: hierarchical
+
+SAFE BY DEFAULT. Run All loads saved real results if present; otherwise it uses fabricated smoke fixtures (H/I read saved results only). No datasets/models are downloaded automatically. QASPER TEST is blocked.
+
+For a user full run: set RUN_FULL=True and RUN_SMOKE=False in the next cell. Every later setup is derived automatically. Existing validated rows are reused. OVERWRITE=True is deliberately unsupported.
+
+  Execute or resume
+
+Synthetic output is stored only under smoke/. Pending token-compressor conditions are re",multigranular_evidence_study,QASPER / HotpotQA / SciFact,Registered W11 action grid (see configs),4_multigranular_evidence_study/configs/1_base.yaml; 4_multigranular_evidence_study/configs/1_runs.yaml,4_multigranular_evidence_study/results/1_primary/1_multigranular_budget_results.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=True; RUN_FULL=False,VALIDATION_OR_PROTOCOL,4b206f207d95b65948513a42c6075e99766ea814a399be55c8bc154bd430009b
+4_multigranular_evidence_study/notebooks/9_retrieval_granularity.ipynb,notebooks/week11/week11_A_retrieval_granularity.ipynb," Week 11 — A: retrieval
+
+SAFE BY DEFAULT. Run All loads saved real results if present; otherwise it uses fabricated smoke fixtures (H/I read saved results only). No datasets/models are downloaded automatically. QASPER TEST is blocked.
+
+For a user full run: set RUN_FULL=True and RUN_SMOKE=False in the next cell. Every later setup is derived automatically. Existing validated rows are reused. OVERWRITE=True is deliberately unsupported.
+
+  Execute or resume
+
+Synthetic output is stored only under smoke/. Pending token-compressor conditions are repor",multigranular_evidence_study,QASPER / HotpotQA / SciFact,Registered W11 action grid (see configs),4_multigranular_evidence_study/configs/1_base.yaml; 4_multigranular_evidence_study/configs/1_runs.yaml,4_multigranular_evidence_study/results/1_primary/1_multigranular_budget_results.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=False; RUN_FULL=True,VALIDATION_OR_PROTOCOL,6151dd91d6d3c03759043398f5bcc7bc0a0ff77a0571196e17ef280b47a4c501
+4_multigranular_evidence_study/notebooks/9_passage_representation.ipynb,notebooks/week11/week11_B_passage_representation.ipynb," Week 11 — B: passage representation
+
+SAFE BY DEFAULT. Run All loads saved real results if present; otherwise it uses fabricated smoke fixtures (H/I read saved results only). No datasets/models are downloaded automatically. QASPER TEST is blocked.
+
+For a user full run: set RUN_FULL=True and RUN_SMOKE=False in the next cell. Every later setup is derived automatically. Existing validated rows are reused. OVERWRITE=True is deliberately unsupported.
+
+  Execute or resume
+
+Synthetic output is stored only under smoke/. Pending token-compressor conditi",multigranular_evidence_study,QASPER / HotpotQA / SciFact,Registered W11 action grid (see configs),4_multigranular_evidence_study/configs/1_base.yaml; 4_multigranular_evidence_study/configs/1_runs.yaml,4_multigranular_evidence_study/results/1_primary/1_multigranular_budget_results.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=False; RUN_FULL=True,VALIDATION_OR_PROTOCOL,99635970bc0e5d2489b571e36be09277c396775d4b8c3d06450ee9ef530a027d
+4_multigranular_evidence_study/notebooks/9_reader_granularity.ipynb,notebooks/week11/week11_D_reader_granularity.ipynb," Week 11 — D: reader granularity
+
+SAFE BY DEFAULT. Run All loads saved real results if present; otherwise it uses fabricated smoke fixtures (H/I read saved results only). No datasets/models are downloaded automatically. QASPER TEST is blocked.
+
+For a user full run: set RUN_FULL=True and RUN_SMOKE=False in the next cell. Every later setup is derived automatically. Existing validated rows are reused. OVERWRITE=True is deliberately unsupported.
+
+  Execute or resume
+
+Synthetic output is stored only under smoke/. Pending token-compressor conditions ",multigranular_evidence_study,QASPER / HotpotQA / SciFact,Registered W11 action grid (see configs),4_multigranular_evidence_study/configs/1_base.yaml; 4_multigranular_evidence_study/configs/1_runs.yaml,4_multigranular_evidence_study/results/1_primary/1_multigranular_budget_results.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=False; RUN_FULL=True,VALIDATION_OR_PROTOCOL,cc7674a1c76b8b8bc1c7a5b2f3e18f807d45901243ff79af2eeeb804cefa41f4
+4_multigranular_evidence_study/notebooks/9_final_report.ipynb,notebooks/week11/week11_I_final_report.ipynb," Week 11 — I: final report
+
+SAFE BY DEFAULT. Run All loads saved real results if present; otherwise it uses fabricated smoke fixtures (H/I read saved results only). No datasets/models are downloaded automatically. QASPER TEST is blocked.
+
+For a user full run: set RUN_FULL=True and RUN_SMOKE=False in the next cell. Every later setup is derived automatically. Existing validated rows are reused. OVERWRITE=True is deliberately unsupported.
+
+  Execute or resume
+
+Synthetic output is stored only under smoke/. Pending token-compressor conditions are re",multigranular_evidence_study,QASPER / HotpotQA / SciFact,Registered W11 action grid (see configs),4_multigranular_evidence_study/configs/1_base.yaml; 4_multigranular_evidence_study/configs/1_runs.yaml,4_multigranular_evidence_study/results/1_primary/1_multigranular_budget_results.csv,Primarily saved-result analysis; may write plots/reports,RUN_SMOKE=False; RUN_FULL=False,VALIDATION_OR_PROTOCOL,759e4883f885f2be02500e78cb3697554e54115980d90de6629625bc86a32267
+5_qbgf/notebooks/9_protocol_and_split_audit.ipynb,notebooks/week12/week12_0_protocol_and_split_audit.ipynb," Week12 0 — protocol and split audit
+
+Run All is safe by default: synthetic smoke or read-only metadata. Full work requires changing the FLAGS cell yourself. The agent has not enabled full runs. Completed checksummed rows resume automatically; a changed scientific identity fails instead of overwriting. QASPER TEST and all Week13 confirmation outcomes are blocked.
+
+W12-C uses the full frozen VALIDATION split. The historical W11 pilot is hypothesis generation only. W12-I freezes the reviewed method; Week13 is the future locked evaluation. No outc",qbgf,QASPER / HotpotQA / SciFact,256/1024,5_qbgf/configs/1_protocol.yaml; 5_qbgf/results/4_frozen_decision/split_protocol/w12_split_freeze.json,5_qbgf/results/1_primary/1_qbgf_validation_and_ablation_summary.csv; 5_qbgf/results/3_statistics/1_validation_and_query_conditioning_paired_tests.csv; 5_qbgf/results/2_ablations/2_sentence_and_passage_fusion_paired_tests.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=True; RUN_FULL=False; RUN_REAL_MODEL_SMOKE=False; RUN_CANONICAL_SMOKE=False; ALLOW_LLMLINGUA_DOWNLOAD=False; RUN_LLMLINGUA_SMOKE=True; RUN_LLMLINGUA_FULL=False; RUN_TINY_LORA_SMOKE=True; RUN_FULL_LORA_TRAIN=False,VALIDATION_OR_PROTOCOL,01951ebe4f1edb7f5ef8c32443a74006402d5f41faf9feadf05923e0a70d7c88
+5_qbgf/notebooks/1_qbgf_algorithm.ipynb,notebooks/week12/week12_A_qbgf_algorithm.ipynb," Week12 A — qbgf algorithm
+
+Run All is safe by default: synthetic smoke or read-only metadata. Full work requires changing the FLAGS cell yourself. The agent has not enabled full runs. Completed checksummed rows resume automatically; a changed scientific identity fails instead of overwriting. QASPER TEST and all Week13 confirmation outcomes are blocked.
+
+W12-C uses the full frozen VALIDATION split. The historical W11 pilot is hypothesis generation only. W12-I freezes the reviewed method; Week13 is the future locked evaluation. No outcome from r",qbgf,QASPER / HotpotQA / SciFact,256/1024,5_qbgf/configs/1_protocol.yaml; 5_qbgf/results/4_frozen_decision/split_protocol/w12_split_freeze.json,5_qbgf/results/1_primary/1_qbgf_validation_and_ablation_summary.csv; 5_qbgf/results/3_statistics/1_validation_and_query_conditioning_paired_tests.csv; 5_qbgf/results/2_ablations/2_sentence_and_passage_fusion_paired_tests.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=True; RUN_FULL=False; RUN_REAL_MODEL_SMOKE=True; RUN_CANONICAL_SMOKE=False; ALLOW_LLMLINGUA_DOWNLOAD=False; RUN_LLMLINGUA_SMOKE=True; RUN_LLMLINGUA_FULL=False; RUN_TINY_LORA_SMOKE=True; RUN_FULL_LORA_TRAIN=False,VALIDATION_OR_PROTOCOL,099617eaf33297084c0e961a154e06a54660a8105491c18007c8929960e64930
+5_qbgf/notebooks/2_baseline_qualification.ipynb,notebooks/week12/week12_B_baseline_qualification.ipynb," Week12 B — baseline qualification
+
+Run All is safe by default: synthetic smoke or read-only metadata. Full work requires changing the FLAGS cell yourself. The agent has not enabled full runs. Completed checksummed rows resume automatically; a changed scientific identity fails instead of overwriting. QASPER TEST and all Week13 confirmation outcomes are blocked.
+
+W12-C uses the full frozen VALIDATION split. The historical W11 pilot is hypothesis generation only. W12-I freezes the reviewed method; Week13 is the future locked evaluation. No outcom",qbgf,QASPER / HotpotQA / SciFact,256/1024,5_qbgf/configs/1_protocol.yaml; 5_qbgf/results/4_frozen_decision/split_protocol/w12_split_freeze.json,5_qbgf/results/1_primary/1_qbgf_validation_and_ablation_summary.csv; 5_qbgf/results/3_statistics/1_validation_and_query_conditioning_paired_tests.csv; 5_qbgf/results/2_ablations/2_sentence_and_passage_fusion_paired_tests.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=True; RUN_FULL=False; RUN_REAL_MODEL_SMOKE=False; RUN_CANONICAL_SMOKE=True; ALLOW_LLMLINGUA_DOWNLOAD=False; RUN_LLMLINGUA_SMOKE=True; RUN_LLMLINGUA_FULL=False; RUN_TINY_LORA_SMOKE=True; RUN_FULL_LORA_TRAIN=False,VALIDATION_OR_PROTOCOL,cf3f84ae217844a79af997359931c1d1748aa97dd1acf04da978818ee7b9a558
+5_qbgf/notebooks/4_budget_matched_baseline_extension.ipynb,notebooks/week12/week12_C_EXT_baseline_extension.ipynb," W12 C-EXT — missing passage RAG and SARA references
+
+Run after frozen C finishes. No change to C, splits, retrieval pins, QBGF or confirmation IDs. Budget-matched BM25/SFR RAW_SKIP passage RAG (BM25_RAG_RAW_SKIP_256/1024, SFR_RAG_RAW_SKIP_256/1024) uses the C RAW_SKIP allocator, BASE_FP16 Qwen prompt/parser/decoding and 256/1024 evidence-token budgets. SARA references use canonical adapted Mistral k5/n10 and are not budget- or reader-matched; they appear separately. Historical SFR-SARA k6 is reference-only. SFR-SARA k5 is optional until a real",qbgf,QASPER / HotpotQA / SciFact,256/1024,5_qbgf/configs/1_protocol.yaml; 5_qbgf/results/4_frozen_decision/split_protocol/w12_split_freeze.json,5_qbgf/results/1_primary/1_qbgf_validation_and_ablation_summary.csv; 5_qbgf/results/3_statistics/1_validation_and_query_conditioning_paired_tests.csv; 5_qbgf/results/2_ablations/2_sentence_and_passage_fusion_paired_tests.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_C_EXT_FULL=True; RUN_SYNTHETIC_SMOKE=True; RUN_SPECIALIST_QUALIFICATION=False; RUN_CANONICAL_BM25_SARA=True; RUN_SFR_SARA=True,VALIDATION_OR_PROTOCOL,58a6680dd93649eab379e84dfa0cf5ac06fe941abcde85283f3e671e71cc7d20
+5_qbgf/notebooks/3_qbgf_validation_surface.ipynb,notebooks/week12/week12_C_validation_surface.ipynb," Week12 C — validation surface
+
+Run All is safe by default: synthetic smoke or read-only metadata. Full work requires changing the FLAGS cell yourself. The agent has not enabled full runs. Completed checksummed rows resume automatically; a changed scientific identity fails instead of overwriting. QASPER TEST and all Week13 confirmation outcomes are blocked.
+
+W12-C uses the full frozen VALIDATION split. The historical W11 pilot is hypothesis generation only. W12-I freezes the reviewed method; Week13 is the future locked evaluation. No outcome fr",qbgf,QASPER / HotpotQA / SciFact,256/1024,5_qbgf/configs/1_protocol.yaml; 5_qbgf/results/4_frozen_decision/split_protocol/w12_split_freeze.json,5_qbgf/results/1_primary/1_qbgf_validation_and_ablation_summary.csv; 5_qbgf/results/3_statistics/1_validation_and_query_conditioning_paired_tests.csv; 5_qbgf/results/2_ablations/2_sentence_and_passage_fusion_paired_tests.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=False; RUN_FULL=True; RUN_REAL_MODEL_SMOKE=False; RUN_CANONICAL_SMOKE=False; ALLOW_LLMLINGUA_DOWNLOAD=False; RUN_LLMLINGUA_SMOKE=True; RUN_LLMLINGUA_FULL=False; RUN_TINY_LORA_SMOKE=True; RUN_FULL_LORA_TRAIN=False,VALIDATION_OR_PROTOCOL,1d113458e3c539055920c44baa7f7a4657a5a8263e75fafb06370fcf8bd7660e
+5_qbgf/notebooks/5_qbgf_query_and_fusion_ablations.ipynb,notebooks/week12/week12_D_qbgf_ablations.ipynb," Week12 D — qbgf ablations
+
+Run All is safe by default: synthetic smoke or read-only metadata. Full work requires changing the FLAGS cell yourself. The agent has not enabled full runs. Completed checksummed rows resume automatically; a changed scientific identity fails instead of overwriting. QASPER TEST and all Week13 confirmation outcomes are blocked.
+
+W12-C uses the full frozen VALIDATION split. The historical W11 pilot is hypothesis generation only. W12-I freezes the reviewed method; Week13 is the future locked evaluation. No outcome from r",qbgf,QASPER / HotpotQA / SciFact,256/1024,5_qbgf/configs/1_protocol.yaml; 5_qbgf/results/4_frozen_decision/split_protocol/w12_split_freeze.json,5_qbgf/results/1_primary/1_qbgf_validation_and_ablation_summary.csv; 5_qbgf/results/3_statistics/1_validation_and_query_conditioning_paired_tests.csv; 5_qbgf/results/2_ablations/2_sentence_and_passage_fusion_paired_tests.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=False; RUN_FULL=True; RUN_REAL_MODEL_SMOKE=False; RUN_CANONICAL_SMOKE=False; ALLOW_LLMLINGUA_DOWNLOAD=False; RUN_LLMLINGUA_SMOKE=False; RUN_LLMLINGUA_FULL=False; RUN_TINY_LORA_SMOKE=False; RUN_FULL_LORA_TRAIN=False,VALIDATION_OR_PROTOCOL,5fcef3e8b74f49d7ef1f74615dd2e95986d37d595a83a00c9a13a7c3bb32a60b
+5_qbgf/notebooks/6_qbgf_validation_analysis.ipynb,notebooks/week12/week12_H_validation_analysis.ipynb," Week12 H — validation analysis
+
+Run All is safe by default: synthetic smoke or read-only metadata. Full work requires changing the FLAGS cell yourself. The agent has not enabled full runs. Completed checksummed rows resume automatically; a changed scientific identity fails instead of overwriting. QASPER TEST and all Week13 confirmation outcomes are blocked.
+
+W12-C uses the full frozen VALIDATION split. The historical W11 pilot is hypothesis generation only. W12-I freezes the reviewed method; Week13 is the future locked evaluation. No outcome f",qbgf,QASPER / HotpotQA / SciFact,256/1024,5_qbgf/configs/1_protocol.yaml; 5_qbgf/results/4_frozen_decision/split_protocol/w12_split_freeze.json,5_qbgf/results/1_primary/1_qbgf_validation_and_ablation_summary.csv; 5_qbgf/results/3_statistics/1_validation_and_query_conditioning_paired_tests.csv; 5_qbgf/results/2_ablations/2_sentence_and_passage_fusion_paired_tests.csv,Saved-table analysis; may write analysis outputs; not read-only,RUN_SMOKE=False; RUN_FULL=True; RUN_REAL_MODEL_SMOKE=False; RUN_CANONICAL_SMOKE=False; ALLOW_LLMLINGUA_DOWNLOAD=False; RUN_LLMLINGUA_SMOKE=True; RUN_LLMLINGUA_FULL=False; RUN_TINY_LORA_SMOKE=True; RUN_FULL_LORA_TRAIN=False,VALIDATION_OR_PROTOCOL,8d674def34a9eb13eef2a0345005964c628e77f5488a8d09db3744e8946f0504
+5_qbgf/notebooks/7_final_policy_freeze.ipynb,notebooks/week12/week12_I_week13_freeze.ipynb," Week12 I — week13 freeze
+
+Run All is safe by default: synthetic smoke or read-only metadata. Full work requires changing the FLAGS cell yourself. The agent has not enabled full runs. Completed checksummed rows resume automatically; a changed scientific identity fails instead of overwriting. QASPER TEST and all Week13 confirmation outcomes are blocked.
+
+W12-C uses the full frozen VALIDATION split. The historical W11 pilot is hypothesis generation only. W12-I freezes the reviewed method; Week13 is the future locked evaluation. No outcome from re",qbgf,QASPER / HotpotQA / SciFact,256/1024,5_qbgf/configs/1_protocol.yaml; 5_qbgf/results/4_frozen_decision/split_protocol/w12_split_freeze.json,5_qbgf/results/4_frozen_decision/1_fixed_sentence_final_policy_freeze.json,Saved decision/freeze writer; not model generation,RUN_SMOKE=False; RUN_FULL=False,VALIDATION_OR_PROTOCOL,c7d64cb9bc48d9dc88fbafbaded9677feb73bd43c11bdab6cff4abfc2e7b4dad
+6_downstream_utility_attribution/notebooks/9_attribution_setup.ipynb,notebooks/week12/week12_J_attribution_setup.ipynb," Week12 Attribution setup — frozen 150-query diagnostic
+
+VALIDATION ONLY. No confirmation/TEST access. Default Run All uses clearly labelled synthetic fixtures. Real cached setup is allowed in J; real perturbations require explicit RUN_FULL in K. L reads saved results. Evidence attribution means context-dependent input ablation, not internal-model explanation. Optional attention/replacement/third-system studies remain disabled.
+
+Order: H saved analysis → J (RUN_SMOKE=False, cached preparation) → K (RUN_FULL=True, real perturbations) → L (RUN_SM",downstream_utility_attribution,QASPER / HotpotQA / SciFact,256/1024,5_qbgf/configs/1_protocol.yaml; Frozen VAL selected source units/perturbation identities,6_downstream_utility_attribution/results/1_primary/2_helpful_neutral_harmful_summary.csv; 6_downstream_utility_attribution/results/3_statistics/1_relevance_downstream_utility_correlations.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=True; RUN_FULL=True,POST_FREEZE_DIAGNOSTIC,822dcc9bda4b4b2433c91170794f720f471670f17f8aa75e99dadce9d9d07b24
+6_downstream_utility_attribution/notebooks/9_causal_evidence_ablation.ipynb,notebooks/week12/week12_K_causal_evidence_ablation.ipynb," Week12 Causal evidence ablation — manually enabled generation
+
+VALIDATION ONLY. No confirmation/TEST access. Default Run All uses clearly labelled synthetic fixtures. Real cached setup is allowed in J; real perturbations require explicit RUN_FULL in K. L reads saved results. Evidence attribution means context-dependent input ablation, not internal-model explanation. Optional attention/replacement/third-system studies remain disabled.
+
+Order: H saved analysis → J (RUN_SMOKE=False, cached preparation) → K (RUN_FULL=True, real perturbations) → L ",downstream_utility_attribution,QASPER / HotpotQA / SciFact,256/1024,5_qbgf/configs/1_protocol.yaml; Frozen VAL selected source units/perturbation identities,6_downstream_utility_attribution/results/1_primary/2_helpful_neutral_harmful_summary.csv; 6_downstream_utility_attribution/results/3_statistics/1_relevance_downstream_utility_correlations.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_SMOKE=False; RUN_FULL=True,VALIDATION_OR_PROTOCOL,846c66988a3229ed96d4ed04516cfe78dc9ae6f64c0b5e908ed8d4eb42ff8dae
+6_downstream_utility_attribution/notebooks/9_attribution_analysis.ipynb,notebooks/week12/week12_L_attribution_analysis.ipynb," Week12 Attribution analysis — retrospective sensitivity, not internal reasoning
+
+VALIDATION ONLY. No confirmation/TEST access. Default Run All uses clearly labelled synthetic fixtures. Real cached setup is allowed in J; real perturbations require explicit RUN_FULL in K. L reads saved results. Evidence attribution means context-dependent input ablation, not internal-model explanation. Optional attention/replacement/third-system studies remain disabled.
+
+Order: H saved analysis → J (RUN_SMOKE=False, cached preparation) → K (RUN_FULL=True, real p",downstream_utility_attribution,QASPER / HotpotQA / SciFact,256/1024,5_qbgf/configs/1_protocol.yaml; Frozen VAL selected source units/perturbation identities,6_downstream_utility_attribution/results/1_primary/2_helpful_neutral_harmful_summary.csv; 6_downstream_utility_attribution/results/3_statistics/1_relevance_downstream_utility_correlations.csv,Primarily saved-result analysis; may write plots/reports,RUN_SMOKE=True; RUN_FULL=False,POST_FREEZE_DIAGNOSTIC,6d3414b6fd0f566dc1bcf3868b0473cf2da468090c509e537f69409af4d049a4
+5_qbgf/notebooks/8_reserved_confirmation.ipynb,notebooks/week12/week12_M_final_confirmation.ipynb," Week12 M — final untouched confirmation
+
+Metadata-only by default. J/K/L attribution cannot change this frozen experiment. No real confirmation smoke is permitted. Run All safely performs readiness checks only until you explicitly unlock the full run.
+
+Frozen: SFR top-10 → five BASE_FP16 Qwen systems; budgets 256/1024. Final method remains FIXED_SENTENCE. QASPER confirmation is empty; historical TEST stays closed.  Readiness — metadata only
+
+Verifies both byte-identical Part I freezes, split and source identities, exact membership/counts, regi",qbgf,HotpotQA200; SciFact50; QASPER0,256/1024,5_qbgf/configs/1_protocol.yaml; 5_qbgf/results/4_frozen_decision/split_protocol/w12_split_freeze.json; 5_qbgf/results/4_frozen_decision/1_fixed_sentence_final_policy_freeze.json,5_qbgf/results/5_reserved_confirmation/1_frozen_system_confirmation_results.csv; 5_qbgf/results/5_reserved_confirmation/2_confirmation_paired_tests.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_PREFLIGHT=True; RUN_SMOKE=False; RUN_FULL=True; ALLOW_CONFIRMATION_LABEL_ACCESS=True; RUN_CONFIRMATION_ANALYSIS=True,VALIDATION_OR_PROTOCOL,64f55eb8a17bf6139fa8536aafdb7aa485fb9c61941b69004dcb5cc085ea8755
+9_minilm_reranker/notebooks/1_minilm_baseline_comparison.ipynb,W12-POST/BaselineComparison_MiniLM.ipynb," MiniLM Cross-Encoder Sentence Reranker — final POST-W12 baseline
+
+POST_W12_RERANKER_BASELINE_EXPLORATORY
+
+This is a POST-W12 exploratory matched-cohort comparison, not part of frozen Week-12 method selection or confirmation. It uses the same previously analyzed 50-query-per-dataset cohort as post-hoc BEA_V2. Existing historical answers, splits and the official FIXED_SENTENCE final policy remain unchanged. BEA_V2's preregistered calibration remains CALIBRATION_FAILED_TERMINATED.
+
+To run: set only RUN_FULL=True, then Run All. All 150 MiniLM scor",minilm_reranker,QASPER / HotpotQA / SciFact,256/1024,11_shared_infrastructure/runtime/W12-POST/reranker_baseline/protocol.py; 8_bea_v2/results/3_posthoc_reader_run/1_bea_v2_posthoc_quality_results.csv,10_final_method_comparison/results/1_quality_comparison.csv; 10_final_method_comparison/results/3_paired_statistical_comparisons.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_PREFLIGHT=True; RUN_SMOKE=False; RUN_READER_SMOKE=False; RUN_FULL=True; ALLOW_MODEL_DOWNLOAD=True; RUN_INSTALL_DEPENDENCIES=True; RUN_ANALYSIS=True,POST_W12_RERANKER_BASELINE_EXPLORATORY,ece4a7bb2501068de121298e593daf858fc999a03c373147d9ffb53c450947ae
+7_bea_v1/notebooks/1_bea_v1_exploratory_pipeline.ipynb,W12-POST/BEA_QBGF.ipynb," W12-POST — BEA-QBGF exploratory VAL pilot
+Run All: tests → nine-query allocation-only calibration → final freeze → missing pilot rows. Calibration failure blocks generation.
+
+Frozen Week12 remains SFR top10 → FIXED_SENTENCE → Qwen3-8B BASE_FP16. This is a separate exploratory mechanism, not confirmation or a replacement final method.
+
+Use the sara_env kernel. Wait until POST-W9/other GPU work finishes. The original 150 K/L VAL examples × 2 budgets × 3 methods yield 900 logical rows; absent caches can require up to 900 answer generations plus S",bea_v1,QASPER / HotpotQA / SciFact,256/1024,7_bea_v1/configs/1_config.json; 7_bea_v1/results/4_diagnostics/pilot_cohort.json,7_bea_v1/results/1_primary/1_bea_v1_pilot_quality_results.csv; 7_bea_v1/results/2_expanded/1_bea_v1_expanded_quality_results.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_PILOT=True; AUTO_RUN_MISSING=True; RUN_EXPANDED=False; RUN_ATTRIBUTION=False; RUN_TESTS=True; RUN_EXPANDED=True; RUN_ATTRIBUTION=True,POST_W12_EXPLORATORY,e5c8b29ea49fbe135fc63932d6d6c32c744210657c1aa65e0405102cae64c8e3
+8_bea_v2/notebooks/1_bea_v2_phelp_and_calibration.ipynb,W12-POST/BEA_QBGF_V2.ipynb,"BEA_V2 calibration terminated. The single final resolution sweep at 6e-5, 7e-5, 8e-5, 9e-5 found no globally qualifying threshold. The notebook stops before attribution audit, training, calibration or reader execution. See bea_v2_resolution_report.md. No pilot should be run.
+  BEA_V2 — cross-fitted downstream-utility-aware allocation
+
+POST_W12_EXPLORATORY_BEA_V2. This reused development cohort is NOT fresh validation. Run All audits exact historical labels, runs CPU tests, trains CPU cross-fit models, reports held-out diagnostics, calibrates on",bea_v2,QASPER / HotpotQA / SciFact,256/1024,8_bea_v2/configs/1_bea_v2_config.json; 8_bea_v2/results/1_phelp_model/protocol/training_sources.json; 8_bea_v2/results/1_phelp_model/protocol/crossfit_folds.json,8_bea_v2/results/1_phelp_model/1_group_crossfit_predictor_metrics.csv; 8_bea_v2/results/2_calibration_failed/3_calibration_failed_terminated.json,Training/calibration/reader capable in source; terminal failure guard stops original study,RUN_PILOT=True; RUN_UNSEEN_EXPANSION=True; RUN_NEW_ATTRIBUTION=False; AUTO_RUN_MISSING=True; RUN_MISSING=True,POST_W12_EXPLORATORY,a002ff60c5b412a02592835799ba7ee19c3d73f7a3afce6137895355f97f664b
+8_bea_v2/notebooks/2_bea_v2_posthoc_tau8e5.ipynb,W12-POST/BEA_QBGF_V2_POSTHOC_TAU8E5.ipynb," BEA_V2 — post-hoc exploratory engineering evaluation
+
+POST_W12_BEA_V2_POSTHOC_EXPLORATORY
+
+This is a post-hoc exploratory evaluation at a manually selected engineering operating point (tau_stop=8e-5) after the preregistered BEA_V2 calibration failed. It cannot be interpreted as confirmation or as evidence that the original calibration protocol succeeded.
+
+The original terminated notebook and records stay unchanged. This is a separate notebook and output namespace. No search, refitting or expansion. Same 50 development queries per dataset, four",bea_v2,QASPER / HotpotQA / SciFact,256/1024,8_bea_v2/configs/1_bea_v2_config.json; 8_bea_v2/results/1_phelp_model/protocol/training_sources.json; 8_bea_v2/results/1_phelp_model/protocol/crossfit_folds.json; 8_bea_v2/configs/1_bea_v2_posthoc_config.json,8_bea_v2/results/3_posthoc_reader_run/1_bea_v2_posthoc_quality_results.csv,Experiment/model-capable or operational notebook; inspect unchanged cells/flags before any execution,RUN_PREFLIGHT=True; RUN_FULL=True; AUTO_RUN_MISSING=True; ALLOW_MISSING_CONTROL_RESTORE=False,POST_HOC_EXPLORATORY,be895643cf62f2a928224eab7422ec2d09b7cacf913769f84ad1b3763be2b9df
+10_final_method_comparison/notebooks/2_qualitative_case_analysis.ipynb,W12-POST/FINAL_QUERY_LEVEL_CASE_STUDY.ipynb," Final query-level qualitative failure-mode analysis
+
+Saved-result analysis only — no allocation, training, model generation or tuning.
+
+Compare FIXED_SENTENCE, QBGF_FULL, BEA_QBGF_V1 and the separately labelled post-hoc BEA_V2 at 256/1024. The original BEA_V2 calibration remains CALIBRATION_FAILED_TERMINATED.
+
+Use the sara_env kernel and Run All. The existing post-hoc study must already have all 1,200 saved rows. Missing results stop this notebook; they are never regenerated. This notebook runs on CPU and uses only a local tokenizer, cached so",final_method_comparison,QASPER / HotpotQA / SciFact,256/1024,8_bea_v2/results/3_posthoc_reader_run/1_bea_v2_posthoc_quality_results.csv; 11_shared_infrastructure/data/matched_source_pools/,10_final_method_comparison/docs/qualitative_cases/final_qualitative_case_study_report.md,Primarily saved-result analysis; may write plots/reports,RUN_ANALYSIS=True; ALLOW_GENERATION=False; ALLOW_ALLOCATION=False; ALLOW_TRAINING=False,POST_W12_EXPLORATORY,7b03fb413d830058aa85048cfae993cccb7a3d3f728f7ade44eda8ec34ee7118

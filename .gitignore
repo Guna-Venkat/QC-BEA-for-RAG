@@ -1,0 +1,51 @@
+# Local policy for FINAL_PROJECT_MAIN. The outer repository currently ignores
+# this entire folder; this file takes effect when that outer exclusion is lifted.
+# Keep scientific result tables, query rows, source pools, folds, *.joblib,
+# notebooks, figures, freeze/protocol files and provenance manifests visible.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+sara_env/
+node_modules/
+.cache/
+model_cache/
+models_cache/
+checkpoints/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.onnx
+*.sqlite
+*.sqlite3
+*.db
+*.partial
+*.tmp
+.DS_Store
+/11_shared_infrastructure/audit/cleanup_review/
+/11_shared_infrastructure/audit/file_integrity.csv
+
+# Publication/local execution exclusions. Required replay_index and saved bundle stay visible.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+/private/
+/publication/local_checks/
+/demo/COPY_PREVIEW_SERVER.log
+/demo/COPY_TEST_RESULTS.log
+/demo/verification/*.log
+/demo/application/demo/runtime/
+/demo/application/demo/artifacts/
+/demo/application/demo/replay_data/v1/cache/
+/demo/application/demo/replay_data/v1/generation_cache/

@@ -1,0 +1,1551 @@
+{
+  "checksum": "a272fcaf997e5be8fb4c4fa0ec452b53b8feee826955c6980e491552bd4a830c",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "314"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 76,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "6697fa90797dbd2e28c98cef94fc320eb2b480ccd5e53d90b18d2c1415816ceb",
+    "query_id": "314",
+    "scores": [
+      {
+        "cross_encoder_score": -4.209113597869873,
+        "dataset": "SciFact",
+        "end_char": 64,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "7924d7e557b1bce8a2b7ae768c5ac6e3",
+        "passage_rank": 1,
+        "query_id": "314",
+        "sentence_id": "20fbb696dd5815b9f92f0837ec926664",
+        "sentence_text": "DNA Deamination Mediates Innate Immunity to Retroviral Infection",
+        "sentence_token_cost": 15,
+        "source_order": [
+          106,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.058430671691895,
+        "dataset": "SciFact",
+        "end_char": 219,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "7924d7e557b1bce8a2b7ae768c5ac6e3",
+        "passage_rank": 1,
+        "query_id": "314",
+        "sentence_id": "7afe3bc0f5d8e21255eae2396fd367fb",
+        "sentence_text": "CEM15/APOBEC3G is a cellular protein required for resistance to infection by virion infectivity factor (Vif)-deficient human immunodeficiency virus (HIV).",
+        "sentence_token_cost": 40,
+        "source_order": [
+          106,
+          0,
+          1,
+          0
+        ],
+        "source_position": 65
+      },
+      {
+        "cross_encoder_score": 2.1033976078033447,
+        "dataset": "SciFact",
+        "end_char": 577,
+        "pair_tokens_before_truncation": 123,
+        "pair_truncated": false,
+        "passage_id": "7924d7e557b1bce8a2b7ae768c5ac6e3",
+        "passage_rank": 1,
+        "query_id": "314",
+        "sentence_id": "973f28d3f815f8954587baecfb8096d3",
+        "sentence_text": "Here, using a murine leukemia virus (MLV)-based system, we provide evidence that CEM15/APOBEC3G is a DNA deaminase that is incorporated into virions during viral production and subsequently triggers massive deamination of deoxycytidine to deoxyuridine within the retroviral minus (first)-strand cDNA, thus providing a probable trigger for viral destruction.",
+        "sentence_token_cost": 83,
+        "source_order": [
+          106,
+          0,
+          2,
+          0
+        ],
+        "source_position": 220
+      },
+      {
+        "cross_encoder_score": -9.22194766998291,
+        "dataset": "SciFact",
+        "end_char": 662,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "7924d7e557b1bce8a2b7ae768c5ac6e3",
+        "passage_rank": 1,
+        "query_id": "314",
+        "sentence_id": "c9c24d6b1aa20084d3d33befe506ea9e",
+        "sentence_text": "Furthermore, HIV Vif can protect MLV from this CEM15/APOBEC3G-dependent restriction.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          106,
+          0,
+          3,
+          0
+        ],
+        "source_position": 578
+      },
+      {
+        "cross_encoder_score": -4.2272629737854,
+        "dataset": "SciFact",
+        "end_char": 864,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "7924d7e557b1bce8a2b7ae768c5ac6e3",
+        "passage_rank": 1,
+        "query_id": "314",
+        "sentence_id": "9bae72e21e26e269ce0164a9fd9c5c7e",
+        "sentence_text": "These findings imply that targeted DNA deamination is a major strategy of innate immunity to retroviruses and likely also contributes to the sequence variation observed in many viruses (including HIV).",
+        "sentence_token_cost": 35,
+        "source_order": [
+          106,
+          0,
+          4,
+          0
+        ],
+        "source_position": 663
+      },
+      {
+        "cross_encoder_score": -8.029107093811035,
+        "dataset": "SciFact",
+        "end_char": 89,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "0ef3b81678d17ebf6798372124f2760a",
+        "passage_rank": 7,
+        "query_id": "314",
+        "sentence_id": "0c02b954c32e596852be3f53e27f63d2",
+        "sentence_text": "RNase H and Postreplication Repair Protect Cells from Ribonucleotides Incorporated in DNA",
+        "sentence_token_cost": 19,
+        "source_order": [
+          282,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.696240425109863,
+        "dataset": "SciFact",
+        "end_char": 288,
+        "pair_tokens_before_truncation": 88,
+        "pair_truncated": false,
+        "passage_id": "0ef3b81678d17ebf6798372124f2760a",
+        "passage_rank": 7,
+        "query_id": "314",
+        "sentence_id": "3e5ecf5d48a5778bd435e4cd3993682c",
+        "sentence_text": "The chemical identity and integrity of the genome is challenged by the incorporation of ribonucleoside triphosphates (rNTPs) in place of deoxyribonucleoside triphosphates (dNTPs) during replication.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          282,
+          0,
+          1,
+          0
+        ],
+        "source_position": 90
+      },
+      {
+        "cross_encoder_score": -7.85692024230957,
+        "dataset": "SciFact",
+        "end_char": 354,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "0ef3b81678d17ebf6798372124f2760a",
+        "passage_rank": 7,
+        "query_id": "314",
+        "sentence_id": "080083e9f8e5a57eb57b4bb35e3cca2c",
+        "sentence_text": "Misincorporation is limited by the selectivity of DNA replicases.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          282,
+          0,
+          2,
+          0
+        ],
+        "source_position": 289
+      },
+      {
+        "cross_encoder_score": -7.875041961669922,
+        "dataset": "SciFact",
+        "end_char": 563,
+        "pair_tokens_before_truncation": 86,
+        "pair_truncated": false,
+        "passage_id": "0ef3b81678d17ebf6798372124f2760a",
+        "passage_rank": 7,
+        "query_id": "314",
+        "sentence_id": "60de78348468d4e098c1bb92e09bbe46",
+        "sentence_text": "We show that accumulation of ribonucleoside monophosphates (rNMPs) in the genome causes replication stress and has toxic consequences, particularly in the absence of RNase H1 and RNase H2, which remove rNMPs.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          282,
+          0,
+          3,
+          0
+        ],
+        "source_position": 355
+      },
+      {
+        "cross_encoder_score": -9.982595443725586,
+        "dataset": "SciFact",
+        "end_char": 814,
+        "pair_tokens_before_truncation": 94,
+        "pair_truncated": false,
+        "passage_id": "0ef3b81678d17ebf6798372124f2760a",
+        "passage_rank": 7,
+        "query_id": "314",
+        "sentence_id": "085a780b8a20c904cc1d0ec6be5d88d4",
+        "sentence_text": "We demonstrate that postreplication repair (PRR) pathways-MMS2-dependent template switch and Pol \u03b6-dependent bypass-are crucial for tolerating the presence of rNMPs in the chromosomes; indeed, we show that Pol \u03b6 efficiently replicates over 1-4 rNMPs.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          282,
+          0,
+          4,
+          0
+        ],
+        "source_position": 564
+      },
+      {
+        "cross_encoder_score": -8.310612678527832,
+        "dataset": "SciFact",
+        "end_char": 931,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "0ef3b81678d17ebf6798372124f2760a",
+        "passage_rank": 7,
+        "query_id": "314",
+        "sentence_id": "9e1bdf1aee14d828daa5f0f580fe8dc2",
+        "sentence_text": "Moreover, cells lacking RNase H accumulate mono- and polyubiquitylated PCNA and have a constitutively activated PRR.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          282,
+          0,
+          5,
+          0
+        ],
+        "source_position": 815
+      },
+      {
+        "cross_encoder_score": -8.927786827087402,
+        "dataset": "SciFact",
+        "end_char": 1175,
+        "pair_tokens_before_truncation": 93,
+        "pair_truncated": false,
+        "passage_id": "0ef3b81678d17ebf6798372124f2760a",
+        "passage_rank": 7,
+        "query_id": "314",
+        "sentence_id": "9c39e796f5f13fe773c73b16a4c32110",
+        "sentence_text": "Our findings describe a crucial function for RNase H1, RNase H2, template switch, and translesion DNA synthesis in overcoming rNTPs misincorporated during DNA replication, and may be relevant for the pathogenesis of Aicardi-Gouti\u00e8res syndrome.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          282,
+          0,
+          6,
+          0
+        ],
+        "source_position": 932
+      },
+      {
+        "cross_encoder_score": 0.7616041302680969,
+        "dataset": "SciFact",
+        "end_char": 81,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "4f8866f77f2ce5fa4f64b9bc35ec4f17",
+        "passage_rank": 2,
+        "query_id": "314",
+        "sentence_id": "c4baf146bda388593c9e6df918ce6d00",
+        "sentence_text": "The cytidine deaminase CEM15 induces hypermutation in newly synthesized HIV-1 DNA",
+        "sentence_token_cost": 21,
+        "source_order": [
+          490,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.722806930541992,
+        "dataset": "SciFact",
+        "end_char": 215,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "4f8866f77f2ce5fa4f64b9bc35ec4f17",
+        "passage_rank": 2,
+        "query_id": "314",
+        "sentence_id": "d754a93584023c8320aa0c5c4e567a2e",
+        "sentence_text": "High mutation frequency during reverse transcription has a principal role in the genetic variation of primate lentiviral populations.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          490,
+          0,
+          1,
+          0
+        ],
+        "source_position": 82
+      },
+      {
+        "cross_encoder_score": -8.762224197387695,
+        "dataset": "SciFact",
+        "end_char": 323,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "4f8866f77f2ce5fa4f64b9bc35ec4f17",
+        "passage_rank": 2,
+        "query_id": "314",
+        "sentence_id": "98772dd6e056500f7a7bfd4da5061d4e",
+        "sentence_text": "It is the main driving force for the generation of drug resistance and the escape from immune surveillance.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          490,
+          0,
+          2,
+          0
+        ],
+        "source_position": 216
+      },
+      {
+        "cross_encoder_score": -7.22118616104126,
+        "dataset": "SciFact",
+        "end_char": 478,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "4f8866f77f2ce5fa4f64b9bc35ec4f17",
+        "passage_rank": 2,
+        "query_id": "314",
+        "sentence_id": "e5e29bc21c65a26daeae1d8f24704017",
+        "sentence_text": "G to A hypermutation is one of the characteristics of primate lentiviruses, as well as other retroviruses, during replication in vivo and in cell culture.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          490,
+          0,
+          3,
+          0
+        ],
+        "source_position": 324
+      },
+      {
+        "cross_encoder_score": -6.70277738571167,
+        "dataset": "SciFact",
+        "end_char": 553,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "4f8866f77f2ce5fa4f64b9bc35ec4f17",
+        "passage_rank": 2,
+        "query_id": "314",
+        "sentence_id": "2b7baecc2125341828d7a67960fcafc4",
+        "sentence_text": "The molecular mechanisms of this process, however, remain to be clarified.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          490,
+          0,
+          4,
+          0
+        ],
+        "source_position": 479
+      },
+      {
+        "cross_encoder_score": -1.4332308769226074,
+        "dataset": "SciFact",
+        "end_char": 863,
+        "pair_tokens_before_truncation": 121,
+        "pair_truncated": false,
+        "passage_id": "4f8866f77f2ce5fa4f64b9bc35ec4f17",
+        "passage_rank": 2,
+        "query_id": "314",
+        "sentence_id": "271916ea06a86a70a1d44b5ae916613a",
+        "sentence_text": "Here, we demonstrate that CEM15 (also known as apolipoprotein B mRNA editing enzyme, catalytic polypeptide-like 3G; APOBEC3G), an endogenous inhibitor of human immunodeficiency virus type 1 (HIV-1) replication, is a cytidine deaminase and is able to induce G to A hypermutation in newly synthesized viral DNA.",
+        "sentence_token_cost": 84,
+        "source_order": [
+          490,
+          0,
+          5,
+          0
+        ],
+        "source_position": 554
+      },
+      {
+        "cross_encoder_score": -8.060758590698242,
+        "dataset": "SciFact",
+        "end_char": 941,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "4f8866f77f2ce5fa4f64b9bc35ec4f17",
+        "passage_rank": 2,
+        "query_id": "314",
+        "sentence_id": "70e8c2e19f879c378b2b9a8e70fc7338",
+        "sentence_text": "This effect can be counteracted by the HIV-1 virion infectivity factor (Vif).",
+        "sentence_token_cost": 20,
+        "source_order": [
+          490,
+          0,
+          6,
+          0
+        ],
+        "source_position": 864
+      },
+      {
+        "cross_encoder_score": -6.958595275878906,
+        "dataset": "SciFact",
+        "end_char": 1184,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "4f8866f77f2ce5fa4f64b9bc35ec4f17",
+        "passage_rank": 2,
+        "query_id": "314",
+        "sentence_id": "6cf226d68d2594d281b8c3303e2b3cec",
+        "sentence_text": "It seems that this viral DNA mutator is a viral defence mechanism in host cells that may induce either lethal hypermutation or instability of the incoming nascent viral reverse transcripts, which could account for the Vif-defective phenotype.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          490,
+          0,
+          7,
+          0
+        ],
+        "source_position": 942
+      },
+      {
+        "cross_encoder_score": -7.719918727874756,
+        "dataset": "SciFact",
+        "end_char": 1375,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "4f8866f77f2ce5fa4f64b9bc35ec4f17",
+        "passage_rank": 2,
+        "query_id": "314",
+        "sentence_id": "d45c9a29401c829ca3a298431598aece",
+        "sentence_text": "Importantly, the accumulation of CEM15-mediated non-lethal hypermutation in the replicating viral genome could potently contribute to the genetic variation of primate lentiviral populations.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          490,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1185
+      },
+      {
+        "cross_encoder_score": -8.761308670043945,
+        "dataset": "SciFact",
+        "end_char": 100,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "13b3c656f6b3a4cc17211a1f326805ce",
+        "passage_rank": 3,
+        "query_id": "314",
+        "sentence_id": "edd1559d1f632210c0794447c1e7b48c",
+        "sentence_text": "Broad antiretroviral defence by human APOBEC3G through lethal editing of nascent reverse transcripts",
+        "sentence_token_cost": 23,
+        "source_order": [
+          768,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.964179515838623,
+        "dataset": "SciFact",
+        "end_char": 255,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "13b3c656f6b3a4cc17211a1f326805ce",
+        "passage_rank": 3,
+        "query_id": "314",
+        "sentence_id": "35a9adc694d15b46bfef7843db42d1ee",
+        "sentence_text": "Viral replication usually requires that innate intracellular lines of defence be overcome, a task usually accomplished by specialized viral gene products.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          768,
+          0,
+          1,
+          0
+        ],
+        "source_position": 101
+      },
+      {
+        "cross_encoder_score": -8.950448036193848,
+        "dataset": "SciFact",
+        "end_char": 582,
+        "pair_tokens_before_truncation": 122,
+        "pair_truncated": false,
+        "passage_id": "13b3c656f6b3a4cc17211a1f326805ce",
+        "passage_rank": 3,
+        "query_id": "314",
+        "sentence_id": "13922c2947ca334825ecef99a859d382",
+        "sentence_text": "The virion infectivity factor (Vif) protein of human immunodeficiency virus (HIV) is required during the late stages of viral production to counter the antiviral activity of APOBEC3G (apolipoprotein B mRNA-editing enzyme, catalytic polypeptide-like 3G; also known as CEM15), a protein expressed notably in human T lymphocytes.",
+        "sentence_token_cost": 82,
+        "source_order": [
+          768,
+          0,
+          2,
+          0
+        ],
+        "source_position": 256
+      },
+      {
+        "cross_encoder_score": -8.571842193603516,
+        "dataset": "SciFact",
+        "end_char": 664,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "13b3c656f6b3a4cc17211a1f326805ce",
+        "passage_rank": 3,
+        "query_id": "314",
+        "sentence_id": "c5ea2fbb334717f10bf2f5caddc04c78",
+        "sentence_text": "When produced in the presence of APOBEC3G, vif-defective virus is non-infectious.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          768,
+          0,
+          3,
+          0
+        ],
+        "source_position": 583
+      },
+      {
+        "cross_encoder_score": -6.971284866333008,
+        "dataset": "SciFact",
+        "end_char": 810,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "13b3c656f6b3a4cc17211a1f326805ce",
+        "passage_rank": 3,
+        "query_id": "314",
+        "sentence_id": "560d62dedafc35675aff77eb51e47ad1",
+        "sentence_text": "APOBEC3G is closely related to APOBEC1, the central component of an RNA-editing complex that deaminates a cytosine residue in apoB messenger RNA.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          768,
+          0,
+          4,
+          0
+        ],
+        "source_position": 665
+      },
+      {
+        "cross_encoder_score": -6.189222812652588,
+        "dataset": "SciFact",
+        "end_char": 993,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "13b3c656f6b3a4cc17211a1f326805ce",
+        "passage_rank": 3,
+        "query_id": "314",
+        "sentence_id": "d2a2b42f20e278c3df32a54d3892c0b2",
+        "sentence_text": "APOBEC family members also have potent DNA mutator activity through dC deamination; however, whether the editing potential of APOBEC3G has any relevance to HIV inhibition is unknown.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          768,
+          0,
+          5,
+          0
+        ],
+        "source_position": 811
+      },
+      {
+        "cross_encoder_score": -4.593127250671387,
+        "dataset": "SciFact",
+        "end_char": 1160,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "13b3c656f6b3a4cc17211a1f326805ce",
+        "passage_rank": 3,
+        "query_id": "314",
+        "sentence_id": "99d319a2931efeeb92483ba1089996f5",
+        "sentence_text": "Here, we demonstrate that it does, as APOBEC3G exerts its antiviral effect during reverse transcription to trigger G-to-A hypermutation in the nascent retroviral DNA.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          768,
+          0,
+          6,
+          0
+        ],
+        "source_position": 994
+      },
+      {
+        "cross_encoder_score": -8.76490306854248,
+        "dataset": "SciFact",
+        "end_char": 1370,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "13b3c656f6b3a4cc17211a1f326805ce",
+        "passage_rank": 3,
+        "query_id": "314",
+        "sentence_id": "1dd2da54ac4ae340f2ba8a39606c7d75",
+        "sentence_text": "We also find that APOBEC3G can act on a broad range of retroviruses in addition to HIV, suggesting that hypermutation by editing is a general innate defence mechanism against this important group of pathogens.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          768,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1161
+      },
+      {
+        "cross_encoder_score": -7.111792087554932,
+        "dataset": "SciFact",
+        "end_char": 128,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "eba2aca493badcd22c9f9a03af029af1",
+        "passage_rank": 8,
+        "query_id": "314",
+        "sentence_id": "8c23a8e7cf5376713ecfe6e175a566ca",
+        "sentence_text": "Degradation of Cellular miR-27 by a Novel, Highly Abundant Viral Transcript Is Important for Efficient Virus Replication In Vivo",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1053,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.110320091247559,
+        "dataset": "SciFact",
+        "end_char": 266,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "eba2aca493badcd22c9f9a03af029af1",
+        "passage_rank": 8,
+        "query_id": "314",
+        "sentence_id": "4b3b4d6f01c62393b391c27f73b23ae2",
+        "sentence_text": "Cytomegaloviruses express large amounts of viral miRNAs during lytic infection, yet, they only modestly alter the cellular miRNA profile.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          1053,
+          0,
+          1,
+          0
+        ],
+        "source_position": 129
+      },
+      {
+        "cross_encoder_score": -7.353660583496094,
+        "dataset": "SciFact",
+        "end_char": 409,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "eba2aca493badcd22c9f9a03af029af1",
+        "passage_rank": 8,
+        "query_id": "314",
+        "sentence_id": "e27abaee1c9c67d8fffbf8f1b1f4c592",
+        "sentence_text": "The most prominent alteration upon lytic murine cytomegalovirus (MCMV) infection is the rapid degradation of the cellular miR-27a and miR-27b.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          1053,
+          0,
+          2,
+          0
+        ],
+        "source_position": 267
+      },
+      {
+        "cross_encoder_score": -7.794517517089844,
+        "dataset": "SciFact",
+        "end_char": 523,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "eba2aca493badcd22c9f9a03af029af1",
+        "passage_rank": 8,
+        "query_id": "314",
+        "sentence_id": "609c46b988968f13378d3fb5583a32ea",
+        "sentence_text": "Here, we report that this regulation is mediated by the \u223c1.7 kb spliced and highly abundant MCMV m169 transcript.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1053,
+          0,
+          3,
+          0
+        ],
+        "source_position": 410
+      },
+      {
+        "cross_encoder_score": -8.350773811340332,
+        "dataset": "SciFact",
+        "end_char": 637,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "eba2aca493badcd22c9f9a03af029af1",
+        "passage_rank": 8,
+        "query_id": "314",
+        "sentence_id": "e29a576381444a0baf2f0de638e0f3ef",
+        "sentence_text": "Specificity to miR-27a/b is mediated by a single, apparently optimized, miRNA binding site located in its 3'-UTR.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          1053,
+          0,
+          4,
+          0
+        ],
+        "source_position": 524
+      },
+      {
+        "cross_encoder_score": -8.607870101928711,
+        "dataset": "SciFact",
+        "end_char": 747,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "eba2aca493badcd22c9f9a03af029af1",
+        "passage_rank": 8,
+        "query_id": "314",
+        "sentence_id": "f00840cf9cf4eb9bf0b57cab2ec3501f",
+        "sentence_text": "This site is easily and efficiently retargeted to other cellular and viral miRNAs by target site replacement.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1053,
+          0,
+          5,
+          0
+        ],
+        "source_position": 638
+      },
+      {
+        "cross_encoder_score": -7.394094944000244,
+        "dataset": "SciFact",
+        "end_char": 914,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "eba2aca493badcd22c9f9a03af029af1",
+        "passage_rank": 8,
+        "query_id": "314",
+        "sentence_id": "ca3ef2da043962aca24e240867bbc0d1",
+        "sentence_text": "Expression of the 3'-UTR of m169 by an adenoviral vector was sufficient to mediate its function, indicating that no other viral factors are essential in this process.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          1053,
+          0,
+          6,
+          0
+        ],
+        "source_position": 748
+      },
+      {
+        "cross_encoder_score": -6.5021843910217285,
+        "dataset": "SciFact",
+        "end_char": 996,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "eba2aca493badcd22c9f9a03af029af1",
+        "passage_rank": 8,
+        "query_id": "314",
+        "sentence_id": "769e2828aa6ae28cc4ec78144ba72535",
+        "sentence_text": "Degradation of miR-27a/b was found to be accompanied by 3'-tailing and -trimming.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          1053,
+          0,
+          7,
+          0
+        ],
+        "source_position": 915
+      },
+      {
+        "cross_encoder_score": -8.689741134643555,
+        "dataset": "SciFact",
+        "end_char": 1138,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "eba2aca493badcd22c9f9a03af029af1",
+        "passage_rank": 8,
+        "query_id": "314",
+        "sentence_id": "c2f5057bd5137c8e9ef6d4d2cb510431",
+        "sentence_text": "Despite its dramatic effect on miRNA stability, we found this interaction to be mutual, indicating potential regulation of m169 by miR-27a/b.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          1053,
+          0,
+          8,
+          0
+        ],
+        "source_position": 997
+      },
+      {
+        "cross_encoder_score": -8.452290534973145,
+        "dataset": "SciFact",
+        "end_char": 1465,
+        "pair_tokens_before_truncation": 104,
+        "pair_truncated": false,
+        "passage_id": "eba2aca493badcd22c9f9a03af029af1",
+        "passage_rank": 8,
+        "query_id": "314",
+        "sentence_id": "6b9851742b5bea3c79019c23cbaae5f1",
+        "sentence_text": "Most interestingly, three mutant viruses no longer able to target miR-27a/b, either due to miRNA target site disruption or target site replacement, showed significant attenuation in multiple organs as early as 4 days post infection, indicating that degradation of miR-27a/b is important for efficient MCMV replication in vivo.",
+        "sentence_token_cost": 70,
+        "source_order": [
+          1053,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1139
+      },
+      {
+        "cross_encoder_score": -8.225722312927246,
+        "dataset": "SciFact",
+        "end_char": 77,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "aa3bd22cae9c607c8fb32ef34434a2d5",
+        "passage_rank": 10,
+        "query_id": "314",
+        "sentence_id": "c4241ff4adc616f2d075f4541d59fa0e",
+        "sentence_text": "Analysis of human cytomegalovirus-encoded microRNA activity during infection.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          1082,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.401954650878906,
+        "dataset": "SciFact",
+        "end_char": 237,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "aa3bd22cae9c607c8fb32ef34434a2d5",
+        "passage_rank": 10,
+        "query_id": "314",
+        "sentence_id": "c764a8ee3f290c2d166f3fde85d93919",
+        "sentence_text": "MicroRNAs (miRNAs) are expressed in a wide variety of organisms, ranging from plants to animals, and are key posttranscriptional regulators of gene expression.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          1082,
+          0,
+          1,
+          0
+        ],
+        "source_position": 78
+      },
+      {
+        "cross_encoder_score": -8.501751899719238,
+        "dataset": "SciFact",
+        "end_char": 336,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "aa3bd22cae9c607c8fb32ef34434a2d5",
+        "passage_rank": 10,
+        "query_id": "314",
+        "sentence_id": "943149b133727107d24057aff67850c2",
+        "sentence_text": "Virally encoded miRNAs are unique in that they could potentially target both viral and host genes.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          1082,
+          0,
+          2,
+          0
+        ],
+        "source_position": 238
+      },
+      {
+        "cross_encoder_score": -8.883477210998535,
+        "dataset": "SciFact",
+        "end_char": 496,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "aa3bd22cae9c607c8fb32ef34434a2d5",
+        "passage_rank": 10,
+        "query_id": "314",
+        "sentence_id": "fb3f2bb7bad60860ef81837a9fd76f13",
+        "sentence_text": "Indeed, we have previously demonstrated that a human cytomegalovirus (HCMV)-encoded miRNA, miR-UL112, downregulates the expression of a host immune gene, MICB.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          1082,
+          0,
+          3,
+          0
+        ],
+        "source_position": 337
+      },
+      {
+        "cross_encoder_score": -6.330966472625732,
+        "dataset": "SciFact",
+        "end_char": 676,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "aa3bd22cae9c607c8fb32ef34434a2d5",
+        "passage_rank": 10,
+        "query_id": "314",
+        "sentence_id": "1ced1fea445567a7a4af6cc14d906c80",
+        "sentence_text": "Remarkably, it was shown that the same miRNA also downregulates immediate-early viral genes and that its ectopic expression resulted in reduced viral replication and viral titers.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          1082,
+          0,
+          4,
+          0
+        ],
+        "source_position": 497
+      },
+      {
+        "cross_encoder_score": -7.977998733520508,
+        "dataset": "SciFact",
+        "end_char": 764,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "aa3bd22cae9c607c8fb32ef34434a2d5",
+        "passage_rank": 10,
+        "query_id": "314",
+        "sentence_id": "70ff31c6e054d29b4586c4c0d5a04bf1",
+        "sentence_text": "The targets for most of the viral miRNAs, and hence their functions, are still unknown.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          1082,
+          0,
+          5,
+          0
+        ],
+        "source_position": 677
+      },
+      {
+        "cross_encoder_score": -6.529719352722168,
+        "dataset": "SciFact",
+        "end_char": 981,
+        "pair_tokens_before_truncation": 90,
+        "pair_truncated": false,
+        "passage_id": "aa3bd22cae9c607c8fb32ef34434a2d5",
+        "passage_rank": 10,
+        "query_id": "314",
+        "sentence_id": "292792599eade5d610e215cbeb3f6d00",
+        "sentence_text": "Here we demonstrate that miR-UL112 also targets the UL114 gene, and we present evidence that the reduction of UL114 by miR-UL112 reduces its activity as uracil DNA glycosylase but only minimally affects virus growth.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          1082,
+          0,
+          6,
+          0
+        ],
+        "source_position": 765
+      },
+      {
+        "cross_encoder_score": -8.497842788696289,
+        "dataset": "SciFact",
+        "end_char": 1253,
+        "pair_tokens_before_truncation": 100,
+        "pair_truncated": false,
+        "passage_id": "aa3bd22cae9c607c8fb32ef34434a2d5",
+        "passage_rank": 10,
+        "query_id": "314",
+        "sentence_id": "7a3d1abdb9b792ec4cab79e86be86350",
+        "sentence_text": "In addition, we show that two additional HCMV-encoded miRNAs, miR-US25-1 and miR-US25-2, reduce the viral replication and DNA synthesis not only of HCMV but also of other viruses, suggesting that these two miRNAs target cellular genes that are essential for virus growth.",
+        "sentence_token_cost": 68,
+        "source_order": [
+          1082,
+          0,
+          7,
+          0
+        ],
+        "source_position": 982
+      },
+      {
+        "cross_encoder_score": -8.733901023864746,
+        "dataset": "SciFact",
+        "end_char": 1365,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "aa3bd22cae9c607c8fb32ef34434a2d5",
+        "passage_rank": 10,
+        "query_id": "314",
+        "sentence_id": "11bfad69f8a0fc1c8e66bdf284ff0098",
+        "sentence_text": "Thus, we suggest that in addition to miR-UL112, two additional HCMV miRNAs control the life cycle of the virus.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          1082,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1254
+      },
+      {
+        "cross_encoder_score": -4.847055912017822,
+        "dataset": "SciFact",
+        "end_char": 91,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "9873f81660fe595d8bc483f20a35c28e",
+        "passage_rank": 6,
+        "query_id": "314",
+        "sentence_id": "4776eaa423a5bcc671a34d4432a953dc",
+        "sentence_text": "Stress-induced apoptosis associated with null mutation of ADAR1 RNA editing deaminase gene.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          1287,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.207927703857422,
+        "dataset": "SciFact",
+        "end_char": 262,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "9873f81660fe595d8bc483f20a35c28e",
+        "passage_rank": 6,
+        "query_id": "314",
+        "sentence_id": "63cc04dff445986bbc397cff75389a2b",
+        "sentence_text": "One type of RNA editing involves the conversion of adenosine residues into inosine in double-stranded RNA through the action of adenosine deaminases acting on RNA (ADAR).",
+        "sentence_token_cost": 39,
+        "source_order": [
+          1287,
+          0,
+          1,
+          0
+        ],
+        "source_position": 92
+      },
+      {
+        "cross_encoder_score": -8.165315628051758,
+        "dataset": "SciFact",
+        "end_char": 378,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "9873f81660fe595d8bc483f20a35c28e",
+        "passage_rank": 6,
+        "query_id": "314",
+        "sentence_id": "eca7488530b9c3eed1e6f44f45f39d6c",
+        "sentence_text": "A-to-I RNA editing of the coding sequence could result in synthesis of proteins not directly encoded in the genome.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1287,
+          0,
+          2,
+          0
+        ],
+        "source_position": 263
+      },
+      {
+        "cross_encoder_score": -9.559410095214844,
+        "dataset": "SciFact",
+        "end_char": 536,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "9873f81660fe595d8bc483f20a35c28e",
+        "passage_rank": 6,
+        "query_id": "314",
+        "sentence_id": "b6de5c4cc46f18d6e24d74cb7c613443",
+        "sentence_text": "ADAR edits also non-coding sequences of target RNAs, such as introns and 3'-untranslated regions, which may affect splicing, translation, and mRNA stability.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          1287,
+          0,
+          3,
+          0
+        ],
+        "source_position": 379
+      },
+      {
+        "cross_encoder_score": -8.358321189880371,
+        "dataset": "SciFact",
+        "end_char": 609,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "9873f81660fe595d8bc483f20a35c28e",
+        "passage_rank": 6,
+        "query_id": "314",
+        "sentence_id": "efea61dc289dd5b2d0a0f523e017a0d6",
+        "sentence_text": "Three mammalian ADAR gene family members (ADAR1-3) have been identified.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          1287,
+          0,
+          4,
+          0
+        ],
+        "source_position": 537
+      },
+      {
+        "cross_encoder_score": -8.41079044342041,
+        "dataset": "SciFact",
+        "end_char": 685,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "9873f81660fe595d8bc483f20a35c28e",
+        "passage_rank": 6,
+        "query_id": "314",
+        "sentence_id": "cb9f73d726bab6ea043005b5afa9f546",
+        "sentence_text": "Here we investigated phenotypes of mice homozygous for ADAR1 null mutation.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          1287,
+          0,
+          5,
+          0
+        ],
+        "source_position": 610
+      },
+      {
+        "cross_encoder_score": -9.312273025512695,
+        "dataset": "SciFact",
+        "end_char": 828,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "9873f81660fe595d8bc483f20a35c28e",
+        "passage_rank": 6,
+        "query_id": "314",
+        "sentence_id": "a413f19bb46155285435c3ddf41114de",
+        "sentence_text": "Although live ADAR1-/- embryos with normal gross appearance could be recovered up to E11.5, widespread apoptosis was detected in many tissues.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1287,
+          0,
+          6,
+          0
+        ],
+        "source_position": 686
+      },
+      {
+        "cross_encoder_score": -9.145873069763184,
+        "dataset": "SciFact",
+        "end_char": 929,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "9873f81660fe595d8bc483f20a35c28e",
+        "passage_rank": 6,
+        "query_id": "314",
+        "sentence_id": "c2d4436945d46d1c54585693d30d8d22",
+        "sentence_text": "Fibroblasts derived from ADAR1-/- embryos were also prone to apoptosis induced by serum deprivation.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          1287,
+          0,
+          7,
+          0
+        ],
+        "source_position": 829
+      },
+      {
+        "cross_encoder_score": -10.044614791870117,
+        "dataset": "SciFact",
+        "end_char": 1177,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "9873f81660fe595d8bc483f20a35c28e",
+        "passage_rank": 6,
+        "query_id": "314",
+        "sentence_id": "ff73024749e28dffc8b7f39138e099c8",
+        "sentence_text": "Our results demonstrate an essential requirement for ADAR1 in embryogenesis and suggest that it functions to promote survival of numerous tissues by editing one or more double-stranded RNAs required for protection against stress-induced apoptosis.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          1287,
+          0,
+          8,
+          0
+        ],
+        "source_position": 930
+      },
+      {
+        "cross_encoder_score": -7.0558695793151855,
+        "dataset": "SciFact",
+        "end_char": 78,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "035e9a9d982eea1627319f924048f16a",
+        "passage_rank": 5,
+        "query_id": "314",
+        "sentence_id": "d184c5632c005ec1b8f54320bfcc5186",
+        "sentence_text": "CDE-1 Affects Chromosome Segregation through Uridylation of CSR-1-Bound siRNAs",
+        "sentence_token_cost": 23,
+        "source_order": [
+          2107,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.567676544189453,
+        "dataset": "SciFact",
+        "end_char": 229,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "035e9a9d982eea1627319f924048f16a",
+        "passage_rank": 5,
+        "query_id": "314",
+        "sentence_id": "d601c881a71de8ae287ee562766ac5f0",
+        "sentence_text": "We have studied the function of a conserved germline-specific nucleotidyltransferase protein, CDE-1, in RNAi and chromosome segregation in C. elegans.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          2107,
+          0,
+          1,
+          0
+        ],
+        "source_position": 79
+      },
+      {
+        "cross_encoder_score": -8.182424545288086,
+        "dataset": "SciFact",
+        "end_char": 293,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "035e9a9d982eea1627319f924048f16a",
+        "passage_rank": 5,
+        "query_id": "314",
+        "sentence_id": "6a0c183f7be3932b8c9727a355ea2234",
+        "sentence_text": "CDE-1 localizes specifically to mitotic chromosomes in embryos.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          2107,
+          0,
+          2,
+          0
+        ],
+        "source_position": 230
+      },
+      {
+        "cross_encoder_score": -9.038861274719238,
+        "dataset": "SciFact",
+        "end_char": 408,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "035e9a9d982eea1627319f924048f16a",
+        "passage_rank": 5,
+        "query_id": "314",
+        "sentence_id": "7e5c78e2feb0fb75936f57bbb449bb48",
+        "sentence_text": "This localization requires the RdRP EGO-1, which physically interacts with CDE-1, and the Argonaute protein CSR-1.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          2107,
+          0,
+          3,
+          0
+        ],
+        "source_position": 294
+      },
+      {
+        "cross_encoder_score": -7.494082927703857,
+        "dataset": "SciFact",
+        "end_char": 640,
+        "pair_tokens_before_truncation": 90,
+        "pair_truncated": false,
+        "passage_id": "035e9a9d982eea1627319f924048f16a",
+        "passage_rank": 5,
+        "query_id": "314",
+        "sentence_id": "35d7ffd5ae4530408524ef52ea4479ee",
+        "sentence_text": "We found that CDE-1 is required for the uridylation of CSR-1 bound siRNAs, and that in the absence of CDE-1 these siRNAs accumulate to inappropriate levels, accompanied by defects in both meiotic and mitotic chromosome segregation.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          2107,
+          0,
+          4,
+          0
+        ],
+        "source_position": 409
+      },
+      {
+        "cross_encoder_score": -8.656534194946289,
+        "dataset": "SciFact",
+        "end_char": 801,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "035e9a9d982eea1627319f924048f16a",
+        "passage_rank": 5,
+        "query_id": "314",
+        "sentence_id": "f743cbf860028ec5de26183487147a4b",
+        "sentence_text": "Elevated siRNA levels are associated with erroneous gene silencing, most likely through the inappropriate loading of CSR-1 siRNAs into other Argonaute proteins.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          2107,
+          0,
+          5,
+          0
+        ],
+        "source_position": 641
+      },
+      {
+        "cross_encoder_score": -9.671960830688477,
+        "dataset": "SciFact",
+        "end_char": 992,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "035e9a9d982eea1627319f924048f16a",
+        "passage_rank": 5,
+        "query_id": "314",
+        "sentence_id": "2d566d00cdf470c2f828b08c7dfa3414",
+        "sentence_text": "We propose a model in which CDE-1 restricts specific EGO-1-generated siRNAs to the CSR-1 mediated, chromosome associated RNAi pathway, thus separating it from other endogenous RNAi pathways.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          2107,
+          0,
+          6,
+          0
+        ],
+        "source_position": 802
+      },
+      {
+        "cross_encoder_score": -9.558164596557617,
+        "dataset": "SciFact",
+        "end_char": 1112,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "035e9a9d982eea1627319f924048f16a",
+        "passage_rank": 5,
+        "query_id": "314",
+        "sentence_id": "f86c4dd76984d7e607fb35863d3b1566",
+        "sentence_text": "The conserved nature of CDE-1 suggests that similar sorting mechanisms may operate in other animals, including mammals.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          2107,
+          0,
+          7,
+          0
+        ],
+        "source_position": 993
+      },
+      {
+        "cross_encoder_score": -1.434138536453247,
+        "dataset": "SciFact",
+        "end_char": 121,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "d12e34f6ba96632f40ce380cf510784c",
+        "passage_rank": 4,
+        "query_id": "314",
+        "sentence_id": "9db199578ba8b9d72fa91be505aecb05",
+        "sentence_text": "Helicobacter pylori infection triggers aberrant expression of activation-induced cytidine deaminase in gastric epithelium",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3354,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.92923355102539,
+        "dataset": "SciFact",
+        "end_char": 224,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "d12e34f6ba96632f40ce380cf510784c",
+        "passage_rank": 4,
+        "query_id": "314",
+        "sentence_id": "ba299af3ebf922742864f0d999d1f789",
+        "sentence_text": "Infection with Helicobacter pylori (H. pylori) is a risk factor for the development of gastric cancer.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          3354,
+          0,
+          1,
+          0
+        ],
+        "source_position": 122
+      },
+      {
+        "cross_encoder_score": -2.838810682296753,
+        "dataset": "SciFact",
+        "end_char": 569,
+        "pair_tokens_before_truncation": 127,
+        "pair_truncated": false,
+        "passage_id": "d12e34f6ba96632f40ce380cf510784c",
+        "passage_rank": 4,
+        "query_id": "314",
+        "sentence_id": "c5361bbd366fb590f5b7800e8ec64e4b",
+        "sentence_text": "Here we show that infection of gastric epithelial cells with 'cag' pathogenicity island (cagPAI)-positive H. pylori induced aberrant expression of activation-induced cytidine deaminase (AID), a member of the cytidine-deaminase family that acts as a DNA- and RNA-editing enzyme, via the I\u03baB kinase\u2013dependent nuclear factor-\u03baB activation pathway.",
+        "sentence_token_cost": 86,
+        "source_order": [
+          3354,
+          0,
+          2,
+          0
+        ],
+        "source_position": 225
+      },
+      {
+        "cross_encoder_score": -8.41706657409668,
+        "dataset": "SciFact",
+        "end_char": 724,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "d12e34f6ba96632f40ce380cf510784c",
+        "passage_rank": 4,
+        "query_id": "314",
+        "sentence_id": "73f5e610bb0bef67c870f91e578cb073",
+        "sentence_text": "H. pylori\u2013mediated upregulation of AID resulted in the accumulation of nucleotide alterations in the TP53 tumor suppressor gene in gastric cells in vitro.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          3354,
+          0,
+          3,
+          0
+        ],
+        "source_position": 570
+      },
+      {
+        "cross_encoder_score": -7.485828876495361,
+        "dataset": "SciFact",
+        "end_char": 933,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "d12e34f6ba96632f40ce380cf510784c",
+        "passage_rank": 4,
+        "query_id": "314",
+        "sentence_id": "fe0bcf8fd0f7ae2a6c78512a0dd27c44",
+        "sentence_text": "Our findings provide evidence that aberrant AID expression caused by H. pylori infection might be a mechanism of mutation accumulation in the gastric mucosa during H. pylori\u2013associated gastric carcinogenesis.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          3354,
+          0,
+          4,
+          0
+        ],
+        "source_position": 725
+      },
+      {
+        "cross_encoder_score": -4.750842094421387,
+        "dataset": "SciFact",
+        "end_char": 103,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "95f0c8aa96ad38bacb26e6503b6fa799",
+        "passage_rank": 9,
+        "query_id": "314",
+        "sentence_id": "0c720bbcf806a5157c22ba9a5366cf62",
+        "sentence_text": "Deficiency in l-serine deaminase results in abnormal growth and cell division of Escherichia coli K-12.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          4225,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.489658832550049,
+        "dataset": "SciFact",
+        "end_char": 217,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "95f0c8aa96ad38bacb26e6503b6fa799",
+        "passage_rank": 9,
+        "query_id": "314",
+        "sentence_id": "6156aa9010efba132eb4231f0dfc0b66",
+        "sentence_text": "The loss of the ability to deaminate l-serine severely impairs growth and cell division in Escherichia coli K-12.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          4225,
+          0,
+          1,
+          0
+        ],
+        "source_position": 104
+      },
+      {
+        "cross_encoder_score": -6.732166290283203,
+        "dataset": "SciFact",
+        "end_char": 517,
+        "pair_tokens_before_truncation": 108,
+        "pair_truncated": false,
+        "passage_id": "95f0c8aa96ad38bacb26e6503b6fa799",
+        "passage_rank": 9,
+        "query_id": "314",
+        "sentence_id": "18248a8d0773d38af8c7812fd0ec0bd4",
+        "sentence_text": "A strain from which the three genes (sdaA, sdaB, tdcG) coding for this organism's three l-serine deaminases had been deleted grows well in glucose minimal medium but, on subculture into minimal medium with glucose and casamino acids, it makes very large, abnormally shaped cells, many of which lyse.",
+        "sentence_token_cost": 73,
+        "source_order": [
+          4225,
+          0,
+          2,
+          0
+        ],
+        "source_position": 218
+      },
+      {
+        "cross_encoder_score": -8.441254615783691,
+        "dataset": "SciFact",
+        "end_char": 618,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "95f0c8aa96ad38bacb26e6503b6fa799",
+        "passage_rank": 9,
+        "query_id": "314",
+        "sentence_id": "b3b372b780d0abdc497fa2c0cc9ad63a",
+        "sentence_text": "When inoculated into Luria-Bertani (LB) broth with or without glucose, it makes very long filaments.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          4225,
+          0,
+          3,
+          0
+        ],
+        "source_position": 518
+      },
+      {
+        "cross_encoder_score": -8.510334968566895,
+        "dataset": "SciFact",
+        "end_char": 777,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "95f0c8aa96ad38bacb26e6503b6fa799",
+        "passage_rank": 9,
+        "query_id": "314",
+        "sentence_id": "16ca49015f55be7d4e34f050a8ac301e",
+        "sentence_text": "Provision of S-adenosylmethionine restores cell division in LB broth with glucose, and repairs much of the difficulty in growth in medium with casamino acids.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          4225,
+          0,
+          4,
+          0
+        ],
+        "source_position": 619
+      },
+      {
+        "cross_encoder_score": -8.694849967956543,
+        "dataset": "SciFact",
+        "end_char": 1115,
+        "pair_tokens_before_truncation": 118,
+        "pair_truncated": false,
+        "passage_id": "95f0c8aa96ad38bacb26e6503b6fa799",
+        "passage_rank": 9,
+        "query_id": "314",
+        "sentence_id": "21b0065a0d24d2b1038cbda92e642470",
+        "sentence_text": "We suggest that replication of E. coli is regulated by methylation, that an unusually high intracellular l-serine concentration, in the presence of other amino acids, starves the cell for S-adenosylmethionine and that it is the absence of S-adenosylmethionine and/or of C1-tetrahydrofolate derivatives that prevents normal cell division.",
+        "sentence_token_cost": 79,
+        "source_order": [
+          4225,
+          0,
+          5,
+          0
+        ],
+        "source_position": 778
+      }
+    ],
+    "scoring_seconds": 0.48103836306836456,
+    "source_fingerprint": "24314102bac6b7caac798b38b9b37da964cd71ed16141ec2b6f0ea8be4884716"
+  }
+}

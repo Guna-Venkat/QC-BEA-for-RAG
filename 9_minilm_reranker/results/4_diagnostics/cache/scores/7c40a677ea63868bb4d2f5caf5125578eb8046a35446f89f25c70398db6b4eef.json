@@ -1,0 +1,791 @@
+{
+  "checksum": "3b095ef0d4ada6f7c521096b093774720f35ee2f238dc14618cc8d5fdc53894e",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5a8dbc8b554299441c6ba077"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 38,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "4584ceaa1f538834eba5726cca6c68ad23fc6951e42f2da12f10cd91810d5e79",
+    "query_id": "5a8dbc8b554299441c6ba077",
+    "scores": [
+      {
+        "cross_encoder_score": -8.830240249633789,
+        "dataset": "HotpotQA",
+        "end_char": 12,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "9b84c83c68e83080e9ccfebd0f838fc8",
+        "passage_rank": 8,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "0a865a6e4bbfa77491b31af6b28e3d02",
+        "sentence_text": "Haruma Miura",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.40211009979248,
+        "dataset": "HotpotQA",
+        "end_char": 102,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "9b84c83c68e83080e9ccfebd0f838fc8",
+        "passage_rank": 8,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "d5ce0d2f2dc8e65360e8d23facda5550",
+        "sentence_text": "Haruma Miura (\u4e09\u6d66 \u6625\u99ac , Miura Haruma ) (born April 5, 1990) is a Japanese actor and singer.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 13
+      },
+      {
+        "cross_encoder_score": -10.483406066894531,
+        "dataset": "HotpotQA",
+        "end_char": 199,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "9b84c83c68e83080e9ccfebd0f838fc8",
+        "passage_rank": 8,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "ce5decf8b5f58bf6caa21d0d92a1d1c6",
+        "sentence_text": " He is part of the Amuse, Inc., and debuted as one of the members of Brash Brats, a J-pop group.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 103
+      },
+      {
+        "cross_encoder_score": -10.266440391540527,
+        "dataset": "HotpotQA",
+        "end_char": 281,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "9b84c83c68e83080e9ccfebd0f838fc8",
+        "passage_rank": 8,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "022194b7650a2f9c7bfe1311230c3949",
+        "sentence_text": " However, they are currently on hiatus, while Haruma is still active as an actor.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 200
+      },
+      {
+        "cross_encoder_score": -2.83612322807312,
+        "dataset": "HotpotQA",
+        "end_char": 347,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "9b84c83c68e83080e9ccfebd0f838fc8",
+        "passage_rank": 8,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "1f9257216bcd19bbf0f7bc9a63e04fce",
+        "sentence_text": " He gained popularity in \"Gokusen 3\" and the 2007 film \"Koizora\".",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 282
+      },
+      {
+        "cross_encoder_score": -6.106919765472412,
+        "dataset": "HotpotQA",
+        "end_char": 445,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "9b84c83c68e83080e9ccfebd0f838fc8",
+        "passage_rank": 8,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "54ca4d0227d489b7a7312ac61d3ac8e5",
+        "sentence_text": " He starred for the first time with a leading role in a drama based on the manga, \"Bloody Monday.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 348
+      },
+      {
+        "cross_encoder_score": -6.713877201080322,
+        "dataset": "HotpotQA",
+        "end_char": 20,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "541a97770b3495393c6804c76d40f68f",
+        "passage_rank": 5,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "718d3d440c953f19a36b816fbd88fa09",
+        "sentence_text": "David Castro (actor)",
+        "sentence_token_cost": 5,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.666049480438232,
+        "dataset": "HotpotQA",
+        "end_char": 79,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "541a97770b3495393c6804c76d40f68f",
+        "passage_rank": 5,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "403a11b0d41aa8b55f413a9b05937b9e",
+        "sentence_text": "David Castro (born February 7, 1996) is an American actor.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 21
+      },
+      {
+        "cross_encoder_score": 1.070984959602356,
+        "dataset": "HotpotQA",
+        "end_char": 294,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "541a97770b3495393c6804c76d40f68f",
+        "passage_rank": 5,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "19fe04e2f240a6587f196fc67569ec52",
+        "sentence_text": " He is best known for his role in the 2007 film \"Where God Left His Shoes\" as Justin Diaz, the son of Frank Diaz (John Leguizamo) and Angela Diaz (Leonor Varela), and Raphael Santiago in the series \"Shadowhunters\".",
+        "sentence_token_cost": 59,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 80
+      },
+      {
+        "cross_encoder_score": -8.94459342956543,
+        "dataset": "HotpotQA",
+        "end_char": 9,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "bd3c48753cbd8d5eb50fe02c3bb206b0",
+        "passage_rank": 7,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "107a4f35a5f4b82b0977483fa13c7805",
+        "sentence_text": "Todd Lowe",
+        "sentence_token_cost": 2,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.2395524978637695,
+        "dataset": "HotpotQA",
+        "end_char": 61,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "bd3c48753cbd8d5eb50fe02c3bb206b0",
+        "passage_rank": 7,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "0c6d7ecc910144c4aefe9842f8f8c03d",
+        "sentence_text": "Todd Lowe (born May 10, 1977) is an American actor.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 10
+      },
+      {
+        "cross_encoder_score": -6.302135467529297,
+        "dataset": "HotpotQA",
+        "end_char": 272,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "bd3c48753cbd8d5eb50fe02c3bb206b0",
+        "passage_rank": 7,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "5a129ada66c50b53c1676bfada16d58b",
+        "sentence_text": " He is best known for his role as Terry Bellefleur, a PTSD-suffering Iraq War veteran who works as a short order cook at Merlotte's Bar & Grill., on HBO's \"True Blood\" and as Zach Van Gerbig on \"Gilmore Girls\".",
+        "sentence_token_cost": 55,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 62
+      },
+      {
+        "cross_encoder_score": -3.9959604740142822,
+        "dataset": "HotpotQA",
+        "end_char": 495,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "bd3c48753cbd8d5eb50fe02c3bb206b0",
+        "passage_rank": 7,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "be22db079b89e9c1ba82995d9ca21b76",
+        "sentence_text": " In 2017 he played the role of Colin Dobbs, another war veteran, in five episodes of the \"USA Network\" series \"Shooter (TV series)\", based on the 2007 film of the same name and the novel \"Point of Impact\" by Stephen Hunter",
+        "sentence_token_cost": 60,
+        "source_order": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "source_position": 273
+      },
+      {
+        "cross_encoder_score": -8.472188949584961,
+        "dataset": "HotpotQA",
+        "end_char": 11,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "6baa97797b4a8477cdd1d26281ca520d",
+        "passage_rank": 6,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "f4369561c82b4463b06513e7370ae00f",
+        "sentence_text": "Cayden Boyd",
+        "sentence_token_cost": 4,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.844308376312256,
+        "dataset": "HotpotQA",
+        "end_char": 65,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "6baa97797b4a8477cdd1d26281ca520d",
+        "passage_rank": 6,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "541f854355840df3bc1b4bad4b2e724c",
+        "sentence_text": "Cayden Boyd (born May 24, 1994) is an American actor.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 12
+      },
+      {
+        "cross_encoder_score": 0.08575935661792755,
+        "dataset": "HotpotQA",
+        "end_char": 246,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "6baa97797b4a8477cdd1d26281ca520d",
+        "passage_rank": 6,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "3ce07ad43376f582fbead68d6c778a24",
+        "sentence_text": " He is best known for his child roles as Max in Robert Rodriguez's 2005 film \"The Adventures of Sharkboy and Lavagirl\" and Ben Reynolds in the 2007 film \"Have Dreams, Will Travel\".",
+        "sentence_token_cost": 49,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 66
+      },
+      {
+        "cross_encoder_score": -7.631441116333008,
+        "dataset": "HotpotQA",
+        "end_char": 15,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "46f21b2c48f71a6cdba407718fae19f7",
+        "passage_rank": 4,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "b70a46d2ce0aece20211ee70bd54c4ef",
+        "sentence_text": "Austin Williams",
+        "sentence_token_cost": 2,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.606476783752441,
+        "dataset": "HotpotQA",
+        "end_char": 89,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "46f21b2c48f71a6cdba407718fae19f7",
+        "passage_rank": 4,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "62ab32c98af7225ada379e3b153e1c15",
+        "sentence_text": "Austin Williams (born November 13, 1996) is an American soap opera actor.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 16
+      },
+      {
+        "cross_encoder_score": -7.603336811065674,
+        "dataset": "HotpotQA",
+        "end_char": 231,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "46f21b2c48f71a6cdba407718fae19f7",
+        "passage_rank": 4,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "21e66d39c1294b4ded732fc2a04b80ab",
+        "sentence_text": " In 2005, Austin was cast in the film \"The Good Shepherd\", which starred Matt Damon, as the young version of Damon's character Edward Wilson.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 90
+      },
+      {
+        "cross_encoder_score": -10.683835983276367,
+        "dataset": "HotpotQA",
+        "end_char": 338,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "46f21b2c48f71a6cdba407718fae19f7",
+        "passage_rank": 4,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "1c47dfc45d463626e85c0e0889f1a372",
+        "sentence_text": " Here he also displayed his vast musical talents, including metal guitar and classical piano compositions.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          4,
+          0,
+          3,
+          0
+        ],
+        "source_position": 232
+      },
+      {
+        "cross_encoder_score": -3.7730259895324707,
+        "dataset": "HotpotQA",
+        "end_char": 462,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "46f21b2c48f71a6cdba407718fae19f7",
+        "passage_rank": 4,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "e4f6c849c7a263886f417a461a51f877",
+        "sentence_text": " In October 2007, he was cast in the role of Shane Morasco on \"One Life to Live\", a role that continued until January 2012.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          4,
+          0,
+          4,
+          0
+        ],
+        "source_position": 339
+      },
+      {
+        "cross_encoder_score": -2.0203359127044678,
+        "dataset": "HotpotQA",
+        "end_char": 654,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "46f21b2c48f71a6cdba407718fae19f7",
+        "passage_rank": 4,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "bc846d73b4a379e61de6772bce0e8ab4",
+        "sentence_text": " In 2008, he was nominated for a Young Artist Award for \"Best Performance in a Feature Film - Young Actor Age Ten or Younger\" for his role as Henry Clayton in the 2007 film \"Michael Clayton\".",
+        "sentence_token_cost": 50,
+        "source_order": [
+          4,
+          0,
+          5,
+          0
+        ],
+        "source_position": 463
+      },
+      {
+        "cross_encoder_score": -8.43014144897461,
+        "dataset": "HotpotQA",
+        "end_char": 13,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "63cd37d3127bc704fe227ea03498feae",
+        "passage_rank": 9,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "0cdabe8c2d0092dea21de9aa48d35c68",
+        "sentence_text": "Hale Appleman",
+        "sentence_token_cost": 4,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.806232929229736,
+        "dataset": "HotpotQA",
+        "end_char": 79,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "63cd37d3127bc704fe227ea03498feae",
+        "passage_rank": 9,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "de19071dacc2d11cdbc4f98aee4f17e3",
+        "sentence_text": "Hale Isaac Appleman (born January 17, 1986) is an American actor.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 14
+      },
+      {
+        "cross_encoder_score": -1.2399914264678955,
+        "dataset": "HotpotQA",
+        "end_char": 193,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "63cd37d3127bc704fe227ea03498feae",
+        "passage_rank": 9,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "8385a8286ecf70105ca5d9b460a39395",
+        "sentence_text": " He is best known for playing Tobey Cobb in the 2007 film \"Teeth\" and Eliot in TV fantasy series \"The Magicians\".",
+        "sentence_token_cost": 33,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 80
+      },
+      {
+        "cross_encoder_score": -2.6633360385894775,
+        "dataset": "HotpotQA",
+        "end_char": 15,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "6240462a839d190bb3f3fd1a9e908626",
+        "passage_rank": 2,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "a40ae2b9316993db47550c5c352f5c3f",
+        "sentence_text": "Christoph Waltz",
+        "sentence_token_cost": 4,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.251163125038147,
+        "dataset": "HotpotQA",
+        "end_char": 96,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "6240462a839d190bb3f3fd1a9e908626",
+        "passage_rank": 2,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "24901cdf83955d5f44f35ce5768217fc",
+        "sentence_text": "Christoph Waltz (] ; born 4 October 1956 in Vienna) is an Austrian-German actor.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 16
+      },
+      {
+        "cross_encoder_score": 4.758373737335205,
+        "dataset": "HotpotQA",
+        "end_char": 340,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "6240462a839d190bb3f3fd1a9e908626",
+        "passage_rank": 2,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "789b0b292dde6f8fb8e73e2a881a9782",
+        "sentence_text": " Waltz is widely known for his works with American filmmaker Quentin Tarantino, he received acclaim for portraying SS-Standartenf\u00fchrer Hans Landa in \"Inglourious Basterds\" (2009) and bounty hunter Dr. King Schultz in \"Django Unchained\" (2012).",
+        "sentence_token_cost": 65,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 97
+      },
+      {
+        "cross_encoder_score": -8.25282096862793,
+        "dataset": "HotpotQA",
+        "end_char": 454,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "6240462a839d190bb3f3fd1a9e908626",
+        "passage_rank": 2,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "560cdb9b44e675153d47e957dd22ece7",
+        "sentence_text": " For both performances, he earned an Academy Award, BAFTA Award and Golden Globe Award for Best Supporting Actor.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          6,
+          0,
+          3,
+          0
+        ],
+        "source_position": 341
+      },
+      {
+        "cross_encoder_score": 1.4201507568359375,
+        "dataset": "HotpotQA",
+        "end_char": 584,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "6240462a839d190bb3f3fd1a9e908626",
+        "passage_rank": 2,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "18d479b1660e2afa9ecb69947dad4f43",
+        "sentence_text": " Waltz also received the Best Actor Award at the Cannes Film Festival and a Screen Actors Guild Award for his portrayal of Landa.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          6,
+          0,
+          4,
+          0
+        ],
+        "source_position": 455
+      },
+      {
+        "cross_encoder_score": -8.562887191772461,
+        "dataset": "HotpotQA",
+        "end_char": 17,
+        "pair_tokens_before_truncation": 21,
+        "pair_truncated": false,
+        "passage_id": "99108b505be454162d94f2bb9037634f",
+        "passage_rank": 10,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "68e67e673d0a56ba1f4b661bf5a4a465",
+        "sentence_text": "Danielle Chuchran",
+        "sentence_token_cost": 5,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.803596019744873,
+        "dataset": "HotpotQA",
+        "end_char": 121,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "99108b505be454162d94f2bb9037634f",
+        "passage_rank": 10,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "081c69b5a95d6f5c53bb0ab00fac38d4",
+        "sentence_text": "Danielle Ryan Chuchran (born June 9, 1993) is an American actress, having appeared in films since 2001.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 18
+      },
+      {
+        "cross_encoder_score": -1.5505309104919434,
+        "dataset": "HotpotQA",
+        "end_char": 275,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "99108b505be454162d94f2bb9037634f",
+        "passage_rank": 10,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "56e6a2bc624887accfb6d662d0e30f85",
+        "sentence_text": " She starred in the Christmas film, \"Christmas for a dollar\" as Verma and starred in the 2007 film \"The Wild Stallion\" (formerly \"Last of the Mustangs\").",
+        "sentence_token_cost": 41,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 122
+      },
+      {
+        "cross_encoder_score": -7.54976224899292,
+        "dataset": "HotpotQA",
+        "end_char": 13,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "8b4ce39caffaf58d1028a130a475658b",
+        "passage_rank": 3,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "c4c67fe89a1002adf79b2931fd0adc84",
+        "sentence_text": "Daniel Henney",
+        "sentence_token_cost": 3,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.571792483329773,
+        "dataset": "HotpotQA",
+        "end_char": 283,
+        "pair_tokens_before_truncation": 102,
+        "pair_truncated": false,
+        "passage_id": "8b4ce39caffaf58d1028a130a475658b",
+        "passage_rank": 3,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "850314772d9371bdc29450428f82727e",
+        "sentence_text": "Daniel Phillip Henney or Jeom Deok-su (born November 28, 1979) is an American actor and model, known for starring in films such as \"Seducing Mr. Perfect\" (2006), \"My Father\" (2007), \"\" (2009), \"Shanghai Calling\" (2012), \"The Last Stand\" (2013), and \"Big Hero 6\" (2014).",
+        "sentence_token_cost": 103,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 14
+      },
+      {
+        "cross_encoder_score": 0.92459636926651,
+        "dataset": "HotpotQA",
+        "end_char": 12,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "89eadbbe24134b4b10e4959a1ff99476",
+        "passage_rank": 1,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "04632f69be21eb72f6c89c563112adac",
+        "sentence_text": "Spring Waltz",
+        "sentence_token_cost": 3,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 4.565188407897949,
+        "dataset": "HotpotQA",
+        "end_char": 137,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "89eadbbe24134b4b10e4959a1ff99476",
+        "passage_rank": 1,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "5dda464267795153fb40a1843059c375",
+        "sentence_text": "Spring Waltz () is a 2006 South Korean television series starring Seo Do-young, Han Hyo-joo, Daniel Henney, and Lee So-yeon.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 13
+      },
+      {
+        "cross_encoder_score": -10.863229751586914,
+        "dataset": "HotpotQA",
+        "end_char": 234,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "89eadbbe24134b4b10e4959a1ff99476",
+        "passage_rank": 1,
+        "query_id": "5a8dbc8b554299441c6ba077",
+        "sentence_id": "8dc511a1885f828ae8f9b5d5dc7b5d55",
+        "sentence_text": " It aired on KBS2 from March 6 to May 16, 2006 on Mondays and Tuesdays at 21:55 for 20 episodes.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 138
+      }
+    ],
+    "scoring_seconds": 0.2452756139682606,
+    "source_fingerprint": "78802dc218e49905471f59320a4d0acfb0998da7fe5744437d4914dc582372ac"
+  }
+}

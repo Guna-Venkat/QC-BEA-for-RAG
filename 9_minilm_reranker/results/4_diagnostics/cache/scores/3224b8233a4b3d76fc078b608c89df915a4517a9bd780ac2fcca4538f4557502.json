@@ -1,0 +1,851 @@
+{
+  "checksum": "708080715c2ad62a71034e3b4624d68f5b6f8ffeee6145188d1cdf2b71214fc7",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5ab1e36d554299449642c7f9"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 41,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "bf61941fc63d4d11d509d8de93d29a5acdc40f7749efb4d7db8403e78cd1ee5f",
+    "query_id": "5ab1e36d554299449642c7f9",
+    "scores": [
+      {
+        "cross_encoder_score": -3.8902008533477783,
+        "dataset": "HotpotQA",
+        "end_char": 29,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "a37ba15bb81d759d4f2b7021252b919b",
+        "passage_rank": 3,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "66d3cbe11664209d5d949f4cab141bfc",
+        "sentence_text": "Middlebury College Rugby Club",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.072150945663452,
+        "dataset": "HotpotQA",
+        "end_char": 152,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "a37ba15bb81d759d4f2b7021252b919b",
+        "passage_rank": 3,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "cdaa4d93b5a3e961a86bfa1e32592db4",
+        "sentence_text": "Middlebury College Rugby Club is the Division I-AA rugby union team of Middlebury College, located in Middlebury, Vermont.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 30
+      },
+      {
+        "cross_encoder_score": -11.280317306518555,
+        "dataset": "HotpotQA",
+        "end_char": 236,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "a37ba15bb81d759d4f2b7021252b919b",
+        "passage_rank": 3,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "8b5bb2d95c6764c96d6f8efffb6fd980",
+        "sentence_text": " Also known as The MCRC, the club competes in the New England Rugby Football Union.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 153
+      },
+      {
+        "cross_encoder_score": -11.19550609588623,
+        "dataset": "HotpotQA",
+        "end_char": 30,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "7afafea1e353148c204891af9dbd5af5",
+        "passage_rank": 8,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "15415ce163e34689137b6bffa850ac9d",
+        "sentence_text": "2013 NCAA Skiing Championships",
+        "sentence_token_cost": 8,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.415964126586914,
+        "dataset": "HotpotQA",
+        "end_char": 128,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "7afafea1e353148c204891af9dbd5af5",
+        "passage_rank": 8,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "4de33d99116774e413f6b6fceb1547d3",
+        "sentence_text": "The 2013 NCAA Skiing Championships were held in Middlebury, VT and Ripton, VT on March 6\u20139, 2013.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 31
+      },
+      {
+        "cross_encoder_score": -3.4511871337890625,
+        "dataset": "HotpotQA",
+        "end_char": 280,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "7afafea1e353148c204891af9dbd5af5",
+        "passage_rank": 8,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "baa3c9e7f61555f72f50a6e561f8cdb6",
+        "sentence_text": " Middlebury College hosted the event with alpine events at the Middlebury College Snow Bowl and Nordic events taking place at the Rikert Nordic Center.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 129
+      },
+      {
+        "cross_encoder_score": -11.27373218536377,
+        "dataset": "HotpotQA",
+        "end_char": 416,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "7afafea1e353148c204891af9dbd5af5",
+        "passage_rank": 8,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "59f9ec377b6c7dfba197dbf5f4578206",
+        "sentence_text": " The competition was won by the Colorado Buffaloes after compiling the largest final-day comeback in NCAA Skiing Championships history.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "source_position": 281
+      },
+      {
+        "cross_encoder_score": -11.19644832611084,
+        "dataset": "HotpotQA",
+        "end_char": 541,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "7afafea1e353148c204891af9dbd5af5",
+        "passage_rank": 8,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "516c37ad991ec06a7ddb8b1e091ba9f7",
+        "sentence_text": " Twenty-one teams from three regions sent skiers to compete for the NCAA collegiate team championship and individual titles.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          1,
+          0,
+          4,
+          0
+        ],
+        "source_position": 417
+      },
+      {
+        "cross_encoder_score": -0.047963403165340424,
+        "dataset": "HotpotQA",
+        "end_char": 18,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "8cc7309769c1b594d8f9ecebaf2f773c",
+        "passage_rank": 1,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "016093c0d106bff1c0961ce09ebef83e",
+        "sentence_text": "Middlebury College",
+        "sentence_token_cost": 3,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 5.062376976013184,
+        "dataset": "HotpotQA",
+        "end_char": 118,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "8cc7309769c1b594d8f9ecebaf2f773c",
+        "passage_rank": 1,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "482dfe948cb4bf192a8ded2c68037cf4",
+        "sentence_text": "Middlebury College is a private liberal arts college located in Middlebury, Vermont, United States.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 19
+      },
+      {
+        "cross_encoder_score": -9.351428985595703,
+        "dataset": "HotpotQA",
+        "end_char": 237,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "8cc7309769c1b594d8f9ecebaf2f773c",
+        "passage_rank": 1,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "7bdc923516ccd5b1542034c1114e4ae8",
+        "sentence_text": " The college was founded in 1800 by Congregationalists making it the first operating college or university in Vermont.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 119
+      },
+      {
+        "cross_encoder_score": -8.467068672180176,
+        "dataset": "HotpotQA",
+        "end_char": 326,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "8cc7309769c1b594d8f9ecebaf2f773c",
+        "passage_rank": 1,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "ac891ad245e9bebf6c451c5663d9f618",
+        "sentence_text": " The college currently enrolls 2,526 undergraduates from all 50 states and 74 countries.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "source_position": 238
+      },
+      {
+        "cross_encoder_score": -1.1857720613479614,
+        "dataset": "HotpotQA",
+        "end_char": 450,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "8cc7309769c1b594d8f9ecebaf2f773c",
+        "passage_rank": 1,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "e8a22fb589690fbbd9bf0aadd4322bf0",
+        "sentence_text": " Middlebury offers 44 majors in the arts, humanities, literature, foreign languages, social sciences, and natural sciences.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          2,
+          0,
+          4,
+          0
+        ],
+        "source_position": 327
+      },
+      {
+        "cross_encoder_score": -3.6018869876861572,
+        "dataset": "HotpotQA",
+        "end_char": 28,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "22da8e7afdbdccc2720a150e576766e8",
+        "passage_rank": 6,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "dd3999f9d0b0b9f3bf34bb4d739b221e",
+        "sentence_text": "Middlebury College Snow Bowl",
+        "sentence_token_cost": 5,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.695580959320068,
+        "dataset": "HotpotQA",
+        "end_char": 145,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "22da8e7afdbdccc2720a150e576766e8",
+        "passage_rank": 6,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "f19871ac83536c037f79ae90bbbd937a",
+        "sentence_text": "The Middlebury College Snow Bowl is a ski area in Hancock, Vermont, 13 mi east of Middlebury in the Green Mountains.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 29
+      },
+      {
+        "cross_encoder_score": -3.066624641418457,
+        "dataset": "HotpotQA",
+        "end_char": 246,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "22da8e7afdbdccc2720a150e576766e8",
+        "passage_rank": 6,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "6609695cfe6db4c3d166d0ffa8712ea3",
+        "sentence_text": " The site has been owned and operated by Middlebury College since its first trails were cut in 1934.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 146
+      },
+      {
+        "cross_encoder_score": -11.335503578186035,
+        "dataset": "HotpotQA",
+        "end_char": 338,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "22da8e7afdbdccc2720a150e576766e8",
+        "passage_rank": 6,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "ddafb3cbcf9ad33a50f6c7a0588fb259",
+        "sentence_text": " The Snow Bowl has 17 trails and 3 lifts, offering access to more than 110 acre of terrain.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "source_position": 247
+      },
+      {
+        "cross_encoder_score": -11.293977737426758,
+        "dataset": "HotpotQA",
+        "end_char": 414,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "22da8e7afdbdccc2720a150e576766e8",
+        "passage_rank": 6,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "40b1060d945621ff0859fc562248b66d",
+        "sentence_text": " In 2006, it became the first carbon-neutral ski area in the United States.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          3,
+          0,
+          4,
+          0
+        ],
+        "source_position": 339
+      },
+      {
+        "cross_encoder_score": -0.46028369665145874,
+        "dataset": "HotpotQA",
+        "end_char": 23,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "2829ce9587513e51d740eed8643254ac",
+        "passage_rank": 2,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "11dd499cfdb4f68830a1d2cbb61ff451",
+        "sentence_text": "Northwestern University",
+        "sentence_token_cost": 3,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 5.178080081939697,
+        "dataset": "HotpotQA",
+        "end_char": 259,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "2829ce9587513e51d740eed8643254ac",
+        "passage_rank": 2,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "97f42ccceed7c8a0a3e9bb0c57554660",
+        "sentence_text": "Northwestern University (NU) is a private research university based in Evanston, Illinois, with other campuses located in Chicago and Doha, Qatar, and academic programs and facilities in Washington, D.C., and San Francisco, California.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 24
+      },
+      {
+        "cross_encoder_score": -1.0464555025100708,
+        "dataset": "HotpotQA",
+        "end_char": 36,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "2fc25f95c000376ac8a6730f1194796e",
+        "passage_rank": 7,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "b0675bdbb9db336bbad9b9be467b6e6b",
+        "sentence_text": "C.V. Starr-Middlebury Schools Abroad",
+        "sentence_token_cost": 10,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.9460604190826416,
+        "dataset": "HotpotQA",
+        "end_char": 382,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "2fc25f95c000376ac8a6730f1194796e",
+        "passage_rank": 7,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "2de1e5426a637788f1694f5665b6528d",
+        "sentence_text": "The Middlebury C.V. Starr Schools Abroad, operated by Middlebury College in 17 countries across 5 continents, offer overseas academic programs for undergraduates from various U.S. institutions, as well as graduate-level programs for students from the Middlebury Language Schools and the Middlebury Institute of International Studies at Monterey.",
+        "sentence_token_cost": 65,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 37
+      },
+      {
+        "cross_encoder_score": -11.064291000366211,
+        "dataset": "HotpotQA",
+        "end_char": 441,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "2fc25f95c000376ac8a6730f1194796e",
+        "passage_rank": 7,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "825adb1e16c3bc0952bf8e6fcd35e1a7",
+        "sentence_text": " The first School was the School in Paris, opened in 1949.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 383
+      },
+      {
+        "cross_encoder_score": -2.2975857257843018,
+        "dataset": "HotpotQA",
+        "end_char": 524,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "2fc25f95c000376ac8a6730f1194796e",
+        "passage_rank": 7,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "1a3df0f5f53cbf63fb10e5cf5d83f71a",
+        "sentence_text": " The Middlebury C.V. Starr Schools have been endowed by the C.V. Starr Foundation.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "source_position": 442
+      },
+      {
+        "cross_encoder_score": -3.739595890045166,
+        "dataset": "HotpotQA",
+        "end_char": 33,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "2c0f72322b78878f27492d54abe177bf",
+        "passage_rank": 4,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "607f3341d686d29fb3539000e1f0a8d9",
+        "sentence_text": "List of Middlebury College alumni",
+        "sentence_token_cost": 6,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.662743330001831,
+        "dataset": "HotpotQA",
+        "end_char": 135,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "2c0f72322b78878f27492d54abe177bf",
+        "passage_rank": 4,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "fa3960440b5e8934f78a162734661f35",
+        "sentence_text": "The following is a list of notable Middlebury College alumni, including both graduates and attendees.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 34
+      },
+      {
+        "cross_encoder_score": -3.404954433441162,
+        "dataset": "HotpotQA",
+        "end_char": 219,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "2c0f72322b78878f27492d54abe177bf",
+        "passage_rank": 4,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "5a6ad19112f094374a826263cad202a0",
+        "sentence_text": " For a list of Middlebury faculty, refer to the list of Middlebury College faculty.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 136
+      },
+      {
+        "cross_encoder_score": -10.97481632232666,
+        "dataset": "HotpotQA",
+        "end_char": 43,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "30116d3f6325267b73ac0fef58bd7059",
+        "passage_rank": 10,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "e6f67050c7f0d74595a499898c934293",
+        "sentence_text": "Centre for Medieval and Renaissance Studies",
+        "sentence_token_cost": 6,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.145490646362305,
+        "dataset": "HotpotQA",
+        "end_char": 293,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "30116d3f6325267b73ac0fef58bd7059",
+        "passage_rank": 10,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "8ba6eb702b651c693f826f6e1f58e00c",
+        "sentence_text": "The Centre for Medieval and Renaissance Studies (CMRS) in Oxford, England, is a programme for international students (mainly American) to study in Oxford, and also encourages research in the humanities and fields of medieval and renaissance studies.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 44
+      },
+      {
+        "cross_encoder_score": -10.987215042114258,
+        "dataset": "HotpotQA",
+        "end_char": 359,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "30116d3f6325267b73ac0fef58bd7059",
+        "passage_rank": 10,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "729385cb5b461a2136063f9700d77fb6",
+        "sentence_text": " It was founded by Dr. John and Dr. Sandra J.K.M Feneley in 1975.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 294
+      },
+      {
+        "cross_encoder_score": -1.135258674621582,
+        "dataset": "HotpotQA",
+        "end_char": 540,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "30116d3f6325267b73ac0fef58bd7059",
+        "passage_rank": 10,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "66e483abea18a7c088b2fb27401f70db",
+        "sentence_text": " In 2014, CMRS became part of the global network of Middlebury College C.V. Starr Schools Abroad and is now known as the Middlebury College-CMRS Oxford Humanities Program (M-CMRS).",
+        "sentence_token_cost": 47,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 360
+      },
+      {
+        "cross_encoder_score": -9.86708927154541,
+        "dataset": "HotpotQA",
+        "end_char": 692,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "30116d3f6325267b73ac0fef58bd7059",
+        "passage_rank": 10,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "a6fa96291f363a4f6929be8708a1b922",
+        "sentence_text": " The CMRS has long been affiliated with Keble College, Oxford, and participants are associate members of the College with access to all its facilities.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          7,
+          0,
+          4,
+          0
+        ],
+        "source_position": 541
+      },
+      {
+        "cross_encoder_score": -1.7161461114883423,
+        "dataset": "HotpotQA",
+        "end_char": 947,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "30116d3f6325267b73ac0fef58bd7059",
+        "passage_rank": 10,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "591866056d83627f09eb27272b0f6208",
+        "sentence_text": " Among the American colleges and universities that have sent students to CMRS are The University of Georgia, Elmhurst College, St. Mary's College of California, St. Mary's College of Maryland, St. Olaf College, William Jewell College, Middlebury College.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          7,
+          0,
+          5,
+          0
+        ],
+        "source_position": 693
+      },
+      {
+        "cross_encoder_score": -3.3799614906311035,
+        "dataset": "HotpotQA",
+        "end_char": 34,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "ee1979fb07623f1ceef5220fd721ccfb",
+        "passage_rank": 5,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "eee3bbd95e83e16c4c5851fee526c0f1",
+        "sentence_text": "List of Middlebury College faculty",
+        "sentence_token_cost": 6,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.1125214099884033,
+        "dataset": "HotpotQA",
+        "end_char": 135,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "ee1979fb07623f1ceef5220fd721ccfb",
+        "passage_rank": 5,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "7aa69473400dfce31c05ce7c7477f464",
+        "sentence_text": "The following is a list of notable Middlebury College faculty, including current and former faculty.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 35
+      },
+      {
+        "cross_encoder_score": -4.032639026641846,
+        "dataset": "HotpotQA",
+        "end_char": 217,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "ee1979fb07623f1ceef5220fd721ccfb",
+        "passage_rank": 5,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "eea060132b8e3a87b5e72ad5ebef5868",
+        "sentence_text": " For a list of Middlebury alumni, refer to the list of Middlebury College alumni.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          8,
+          0,
+          2,
+          0
+        ],
+        "source_position": 136
+      },
+      {
+        "cross_encoder_score": -10.746676445007324,
+        "dataset": "HotpotQA",
+        "end_char": 17,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "5346e665819d77ec3c696b4306bd0a80",
+        "passage_rank": 9,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "378b72c5e3ace92facb2ef307487611a",
+        "sentence_text": "Paul Dwight Moody",
+        "sentence_token_cost": 3,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.827874660491943,
+        "dataset": "HotpotQA",
+        "end_char": 279,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "5346e665819d77ec3c696b4306bd0a80",
+        "passage_rank": 9,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "ffca0ae78dc83ef86303a55535b86ca0",
+        "sentence_text": "Paul Dwight Moody (April 11, 1879 \u2013 August 18, 1947), son of famed evangelical minister Dwight L. Moody, served as pastor at South Congregational Church in St. Johnsbury, VT from 1912 to 1917 and as the 10th president of Middlebury College from 1921 until 1943.",
+        "sentence_token_cost": 90,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 18
+      },
+      {
+        "cross_encoder_score": -0.0316745825111866,
+        "dataset": "HotpotQA",
+        "end_char": 468,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "5346e665819d77ec3c696b4306bd0a80",
+        "passage_rank": 9,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "8d1589867fbb0c0a1c6dfd4f94af25b0",
+        "sentence_text": " During his tenure, two of Middlebury's most important institutions, the Bread Loaf School of English and the Middlebury College Language Schools saw growth in both quality and reputation.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 280
+      },
+      {
+        "cross_encoder_score": -2.874567747116089,
+        "dataset": "HotpotQA",
+        "end_char": 666,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "5346e665819d77ec3c696b4306bd0a80",
+        "passage_rank": 9,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "fa752f563b3ab51008240c75faaebdaf",
+        "sentence_text": " One of Moody's chief goals was the creation of a wholly separate women's college at Middlebury, as opposed to the semi-integrated system that had prevailed since women were first accepted in 1883.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          9,
+          0,
+          3,
+          0
+        ],
+        "source_position": 469
+      },
+      {
+        "cross_encoder_score": -11.289542198181152,
+        "dataset": "HotpotQA",
+        "end_char": 771,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "5346e665819d77ec3c696b4306bd0a80",
+        "passage_rank": 9,
+        "query_id": "5ab1e36d554299449642c7f9",
+        "sentence_id": "6acef0f8c1644ca6c296282162e97d41",
+        "sentence_text": " However, the Great Depression and World War II ultimately stymied his efforts at segregation by gender.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          9,
+          0,
+          4,
+          0
+        ],
+        "source_position": 667
+      }
+    ],
+    "scoring_seconds": 0.17965581605676562,
+    "source_fingerprint": "80d3be2e6d9480f8cec2d83fe727533d5bcfec5336d0aec340644b73249ea603"
+  }
+}

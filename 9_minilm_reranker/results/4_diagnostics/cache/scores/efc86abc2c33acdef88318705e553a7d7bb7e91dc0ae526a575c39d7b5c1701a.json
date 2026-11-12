@@ -1,0 +1,1151 @@
+{
+  "checksum": "5057c51e0df0df1310eb03a5f6080cf162f42c950a19351fb481b1e7c806ec6a",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5ae2eb7f55429928c423955b"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 56,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "ac254f2a8d8a40475480898790624738150c970d79a9d723f001c6970a83bd3c",
+    "query_id": "5ae2eb7f55429928c423955b",
+    "scores": [
+      {
+        "cross_encoder_score": -10.004842758178711,
+        "dataset": "HotpotQA",
+        "end_char": 28,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "bb88eff3fa191154e86858901a503bc6",
+        "sentence_text": "The Passions (American band)",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.024083137512207,
+        "dataset": "HotpotQA",
+        "end_char": 99,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "b9dc760440f512c70661f92d1ea773cf",
+        "sentence_text": "The Passions are an American doo-wop group from Bensonhurst, Brooklyn.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 29
+      },
+      {
+        "cross_encoder_score": -2.4352200031280518,
+        "dataset": "HotpotQA",
+        "end_char": 238,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "c955ba3eda7f163ccaba4d185b528218",
+        "sentence_text": " The quintet recorded a few demos in 1958, at which time Tony, Albee and Vinny began looking for replacements who were more career-minded.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 100
+      },
+      {
+        "cross_encoder_score": -9.478158950805664,
+        "dataset": "HotpotQA",
+        "end_char": 497,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "f1f89a6240f60129ab270a810fbb092c",
+        "sentence_text": " Another group in Bensonhurst had what they needed; when the three Sinceres heard Runarounds lead singer Jimmy Gallagher, they knew he was the one for them (Jimmy\u2019s previous group, the Palladiyms, included Joe DiBenedetto, who later formed \"The Four-evers\".)",
+        "sentence_token_cost": 61,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 239
+      },
+      {
+        "cross_encoder_score": -11.214144706726074,
+        "dataset": "HotpotQA",
+        "end_char": 607,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "0806a0c7e16cf69ae7ae378d530554bb",
+        "sentence_text": "The Sinceres weren\u2019t sure how to approach Jimmy, so they followed him home one night and knocked on his door.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 498
+      },
+      {
+        "cross_encoder_score": -11.15079116821289,
+        "dataset": "HotpotQA",
+        "end_char": 764,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "79f22d8608d050415ad4c9396f721f63",
+        "sentence_text": " After convincing his mother that they only wanted to sing with her son, not mug him, the foursome went to a nearby park and ended up harmonizing for hours.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 608
+      },
+      {
+        "cross_encoder_score": -2.8329238891601562,
+        "dataset": "HotpotQA",
+        "end_char": 1060,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "1ec8c198c995a7b3b664f17797f0e57c",
+        "sentence_text": " They were now a quartet, with Jimmy on lead, Tony on first tenor, Albee on second tenor, and Vinnie on baritone.n 1959, while the Mystics were recording \"Hushabye\" at their first session, their friend Tony Armato was there cheering them on promoting his own group to their manager, Jim Gribble.",
+        "sentence_token_cost": 78,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 765
+      },
+      {
+        "cross_encoder_score": -10.855430603027344,
+        "dataset": "HotpotQA",
+        "end_char": 1125,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "f38dadc333f79544e5af06a9ac9472fc",
+        "sentence_text": " Gribble soon signed the Sinceres and renamed them the Passions.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1061
+      },
+      {
+        "cross_encoder_score": -10.631953239440918,
+        "dataset": "HotpotQA",
+        "end_char": 1208,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "6177c285aaa6db24ec10a159a83c235d",
+        "sentence_text": " He gave them a demo by a duo of studio singers who called themselves the Cousins.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1126
+      },
+      {
+        "cross_encoder_score": -10.51725959777832,
+        "dataset": "HotpotQA",
+        "end_char": 1268,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "8e3fcbed9c3191a30a152e1b03b4706e",
+        "sentence_text": " The song was \"Just to Be with You\" written by Mary Kalfin.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1209
+      },
+      {
+        "cross_encoder_score": -10.680022239685059,
+        "dataset": "HotpotQA",
+        "end_char": 1314,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "f6125307aa8c05f51e70d901f6e31fa9",
+        "sentence_text": " The Cousins were Paul Simon and Carole King.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1269
+      },
+      {
+        "cross_encoder_score": -9.444023132324219,
+        "dataset": "HotpotQA",
+        "end_char": 1423,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "231ae3922d9caf07844f2e26d932a8d6",
+        "sentence_text": " By the time the group recorded \"Gloria\" Vinny had left and been replaced by Gallagher\u2019s friend Lou Rotondo.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1315
+      },
+      {
+        "cross_encoder_score": -9.654101371765137,
+        "dataset": "HotpotQA",
+        "end_char": 1622,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "d63586a0522dd3b66e0b90c11112849c",
+        "sentence_text": " Also in 1960 Lou Rotondo and Albie Galione, along with Albie Contrera of the Mystics, sang behind Clay Cole on \"Here, There, Everywhere\" (Roulette), single that became popular in the New York area.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          0,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1424
+      },
+      {
+        "cross_encoder_score": -10.809829711914062,
+        "dataset": "HotpotQA",
+        "end_char": 1708,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "1b6566bf279e67480922d008a330928a",
+        "sentence_text": " Audicon Records lost the group\u2019s next release, the harmony rocker \"Made for Lovers.\"",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          0,
+          13,
+          0
+        ],
+        "source_position": 1623
+      },
+      {
+        "cross_encoder_score": -11.202460289001465,
+        "dataset": "HotpotQA",
+        "end_char": 1799,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "9ce7f83630b6f83630fdee9b9931bf8d",
+        "sentence_text": " The group recorded a few more sides for Audicon which were leased to Jubilee and Octavia.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          0,
+          14,
+          0
+        ],
+        "source_position": 1709
+      },
+      {
+        "cross_encoder_score": -8.72012996673584,
+        "dataset": "HotpotQA",
+        "end_char": 1976,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "c8409009d40b371ec564c79f9021355a",
+        "sentence_text": " Released in August 1959 on Sol Winkler\u2019s Audicon label, the Passions\u2019 impeccable harmonies and Gallagher\u2019s impassioned lead put \"Just to Be with You\" on radios across America.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          0,
+          15,
+          0
+        ],
+        "source_position": 1800
+      },
+      {
+        "cross_encoder_score": -10.780754089355469,
+        "dataset": "HotpotQA",
+        "end_char": 2068,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "d97c77a23161814de23654960b4286fb",
+        "sentence_text": " It was a top 20 hit in many eastern cities and it charted nationally, rising to number 69.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          0,
+          16,
+          0
+        ],
+        "source_position": 1977
+      },
+      {
+        "cross_encoder_score": -10.995587348937988,
+        "dataset": "HotpotQA",
+        "end_char": 2138,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "b31fc3773025bbac577b619d8f635b9d",
+        "sentence_text": " The follow-up out of Audicon\u2019s 1674 Broadway digs was twice as good.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          0,
+          17,
+          0
+        ],
+        "source_position": 2069
+      },
+      {
+        "cross_encoder_score": -11.104656219482422,
+        "dataset": "HotpotQA",
+        "end_char": 2301,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "19b9dc0a802a3a9e28e2549a22b2b8eb",
+        "sentence_text": " Both sides\u2014the harmony filled \"I Only Want You\" and the beautiful Billy Dawn Smith ballad \"This Is My Love\" \u2013vied for radio play and sales throughout the states.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          0,
+          18,
+          0
+        ],
+        "source_position": 2139
+      },
+      {
+        "cross_encoder_score": -11.024788856506348,
+        "dataset": "HotpotQA",
+        "end_char": 2459,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "38d714b89a0a309f6d8049850dfb0aaa",
+        "sentence_text": " They were managed by Jim Gribble who managed several doo-wop groups including the Mystics and The Jarmels, and worked with producer songwriter Stan Vincent.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          0,
+          19,
+          0
+        ],
+        "source_position": 2302
+      },
+      {
+        "cross_encoder_score": -10.189635276794434,
+        "dataset": "HotpotQA",
+        "end_char": 2558,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "e38e34e016dfea08ff3da6edbe25118e",
+        "sentence_text": " In the late 1990s, they reunited with the Mystics and the Classics for the Brooklyn Reunion Show.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          0,
+          20,
+          0
+        ],
+        "source_position": 2460
+      },
+      {
+        "cross_encoder_score": -10.909165382385254,
+        "dataset": "HotpotQA",
+        "end_char": 2683,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "f37e8c3d35ac09366ee4babdf4a84144",
+        "passage_rank": 4,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "fc47f8895006f2d03e6b66663f0d404b",
+        "sentence_text": " Lead singer Jimmy Gallagher left the Passions in 1960 to join the Navy, but later sang with The Legends of Doo Wop in 1998.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          0,
+          21,
+          0
+        ],
+        "source_position": 2559
+      },
+      {
+        "cross_encoder_score": -9.593417167663574,
+        "dataset": "HotpotQA",
+        "end_char": 17,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "8f441e761535786fd5ff6fcf51465e37",
+        "passage_rank": 6,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "41ba35c2a668a177fddd227723e3ba41",
+        "sentence_text": "Im Themightyquinn",
+        "sentence_token_cost": 6,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.950807571411133,
+        "dataset": "HotpotQA",
+        "end_char": 212,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "8f441e761535786fd5ff6fcf51465e37",
+        "passage_rank": 6,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "44bde1ce1ba551625d5b5529b006b7a4",
+        "sentence_text": "Im Themightyquinn (foaled 2004) is an Australian champion Standardbred race horse notable for being a three time Australian Harness Horse of the Year and three time winner of the Inter Dominion.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 18
+      },
+      {
+        "cross_encoder_score": -8.980467796325684,
+        "dataset": "HotpotQA",
+        "end_char": 13,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "8534b880ee5683f69263b54543c2a7f6",
+        "passage_rank": 10,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "4402154955465b4101e4a8aacc8be06e",
+        "sentence_text": "Kenneth Salen",
+        "sentence_token_cost": 4,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.653979301452637,
+        "dataset": "HotpotQA",
+        "end_char": 219,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "8534b880ee5683f69263b54543c2a7f6",
+        "passage_rank": 10,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "e3661bea28e146928b0094f7b5ea5412",
+        "sentence_text": "Kenneth Salen is a Norwegian sport shooter who is three time IPSC Norwegian Rifle Championship Champion (2014, 2015, 2016) and three time IPSC Norwegian Tournament Championship Champion (2014, 2015, 2016).",
+        "sentence_token_cost": 64,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 14
+      },
+      {
+        "cross_encoder_score": -5.874840259552002,
+        "dataset": "HotpotQA",
+        "end_char": 12,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "229f4228b7018f06a7c4c92b21f2ea9b",
+        "passage_rank": 7,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "95013664e1785f613595242ffcab149f",
+        "sentence_text": "Gr\u00e9gory Tony",
+        "sentence_token_cost": 4,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.065932273864746,
+        "dataset": "HotpotQA",
+        "end_char": 130,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "229f4228b7018f06a7c4c92b21f2ea9b",
+        "passage_rank": 7,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "0ee19bcff37736297c579cdf131f0e0a",
+        "sentence_text": "Gr\u00e9gory Tony (born 27 May 1978) is a French super heavyweight kickboxer and professional boxer fighting out of Paris.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 13
+      },
+      {
+        "cross_encoder_score": -9.66246509552002,
+        "dataset": "HotpotQA",
+        "end_char": 367,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "229f4228b7018f06a7c4c92b21f2ea9b",
+        "passage_rank": 7,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "2d2b91a1ce606dd3b86b8293354ae10c",
+        "sentence_text": " He is three time French kickboxing champion, three time French muaythai champion, one time French boxing champion, two time European kickboxing champion, one time Intercontinental muaythai champion and two time muaythai world champion.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 131
+      },
+      {
+        "cross_encoder_score": -1.638187289237976,
+        "dataset": "HotpotQA",
+        "end_char": 13,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "bf3af94acb68ffee56fc42260c48858d",
+        "passage_rank": 1,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "df76a5a14f11e53ccd9e9d59a06b585e",
+        "sentence_text": "Ghost Quartet",
+        "sentence_token_cost": 3,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.0350407361984253,
+        "dataset": "HotpotQA",
+        "end_char": 159,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "bf3af94acb68ffee56fc42260c48858d",
+        "passage_rank": 1,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "0cbdd0eb00a4d4da39be4ee1d4697abb",
+        "sentence_text": "Ghost Quartet is a musical adaptation of a songcycle, \"Ghost Quartet,\" by a band, also called Ghost Quartet, written and composed by Dave Malloy.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 14
+      },
+      {
+        "cross_encoder_score": -10.956056594848633,
+        "dataset": "HotpotQA",
+        "end_char": 231,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "bf3af94acb68ffee56fc42260c48858d",
+        "passage_rank": 1,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "b06feb602571ed75fd8f05ffbb94b8c7",
+        "sentence_text": " The show is described as \"a song cycle about love, death, and whiskey.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          4,
+          0,
+          2,
+          0
+        ],
+        "source_position": 160
+      },
+      {
+        "cross_encoder_score": -10.844016075134277,
+        "dataset": "HotpotQA",
+        "end_char": 327,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "bf3af94acb68ffee56fc42260c48858d",
+        "passage_rank": 1,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "84e525ccfd6ea2ae12f750bb85710d79",
+        "sentence_text": " A camera breaks and four friends drink in four interwoven narratives spanning seven centuries\"",
+        "sentence_token_cost": 17,
+        "source_order": [
+          4,
+          0,
+          3,
+          0
+        ],
+        "source_position": 232
+      },
+      {
+        "cross_encoder_score": -10.402576446533203,
+        "dataset": "HotpotQA",
+        "end_char": 22,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "0397c0c84f002dbe87d5c9bbcbc7b5eb",
+        "passage_rank": 5,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "67beb0cb2790a0aebd7aeeec29d606fe",
+        "sentence_text": "Julie Harris (actress)",
+        "sentence_token_cost": 7,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.833337783813477,
+        "dataset": "HotpotQA",
+        "end_char": 139,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "0397c0c84f002dbe87d5c9bbcbc7b5eb",
+        "passage_rank": 5,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "fd9543795f9a455b3ba5a38cdc6fd847",
+        "sentence_text": "Julia Ann \"Julie\" Harris (December 2, 1925 \u2013 August 24, 2013) was an American stage, screen, and television actress.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 23
+      },
+      {
+        "cross_encoder_score": -0.7727576494216919,
+        "dataset": "HotpotQA",
+        "end_char": 339,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "0397c0c84f002dbe87d5c9bbcbc7b5eb",
+        "passage_rank": 5,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "03a59608aa04391d3dbd3a48ca4af21f",
+        "sentence_text": " A 10-time Tony Award nominee and five-time winner, she won for \"I Am a Camera\" (1952), \"The Lark\" (1956), \"Forty Carats\" (1969), \"The Last of Mrs. Lincoln\" (1973), and \"The Belle of Amherst\" (1977).",
+        "sentence_token_cost": 80,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 140
+      },
+      {
+        "cross_encoder_score": -9.347764015197754,
+        "dataset": "HotpotQA",
+        "end_char": 492,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "0397c0c84f002dbe87d5c9bbcbc7b5eb",
+        "passage_rank": 5,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "04489a5647d8ea83f4ffd9b8ed23e57a",
+        "sentence_text": " She also won three Emmy Awards, a Grammy Award, and was nominated for the Academy Award for Best Actress for the 1952 film \"The Member of the Wedding\".",
+        "sentence_token_cost": 36,
+        "source_order": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "source_position": 340
+      },
+      {
+        "cross_encoder_score": -7.649973392486572,
+        "dataset": "HotpotQA",
+        "end_char": 657,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "0397c0c84f002dbe87d5c9bbcbc7b5eb",
+        "passage_rank": 5,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "ce78c8e4eb42a2672b68ad183bfa3d6d",
+        "sentence_text": " She was inducted into the American Theatre Hall of Fame in 1979, received the National Medal of Arts in 1994, and the 2002 Special Lifetime Achievement Tony Award.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          5,
+          0,
+          4,
+          0
+        ],
+        "source_position": 493
+      },
+      {
+        "cross_encoder_score": -10.078984260559082,
+        "dataset": "HotpotQA",
+        "end_char": 12,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "df6334e4dd3e6563035978b776346a6c",
+        "passage_rank": 9,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "19b6eb2b1c4e3863ab211d2936225791",
+        "sentence_text": "Serene Koong",
+        "sentence_token_cost": 4,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.148463249206543,
+        "dataset": "HotpotQA",
+        "end_char": 75,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "df6334e4dd3e6563035978b776346a6c",
+        "passage_rank": 9,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "92adbfed4bad2e6265c6ad7dc3b1498a",
+        "sentence_text": "Serene Koong is a Singaporean singer, songwriter and producer.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 13
+      },
+      {
+        "cross_encoder_score": -8.900496482849121,
+        "dataset": "HotpotQA",
+        "end_char": 199,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "df6334e4dd3e6563035978b776346a6c",
+        "passage_rank": 9,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "bf5709e441161fa18b99beec275ba5fb",
+        "sentence_text": " She is a three time Global Chinese Golden Chart Award, three time Singapore Hit Awards and a Singapore Star Awards winner.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 76
+      },
+      {
+        "cross_encoder_score": -9.123449325561523,
+        "dataset": "HotpotQA",
+        "end_char": 13,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "b5edc1a8fae20e2c91a9f2e1a48a62c8",
+        "passage_rank": 8,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "d4c90dfc99145c0d297ad48a566d1f3c",
+        "sentence_text": "Gary Elkerton",
+        "sentence_token_cost": 3,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.473270416259766,
+        "dataset": "HotpotQA",
+        "end_char": 290,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "b5edc1a8fae20e2c91a9f2e1a48a62c8",
+        "passage_rank": 8,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "4a2e9e711f9cd896d5629e0bb7051da5",
+        "sentence_text": "Gary Elkerton (born 21 August 1964), known as Kong is an Australian surfer, three time world masters champion (2000\u201301, 2003), three time world professional runner-up (1987, 1990, 1993), twice Hawaiian Triple Crown champion (1987, 1989) and Australian amateur champion (1984).",
+        "sentence_token_cost": 95,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 14
+      },
+      {
+        "cross_encoder_score": -11.291060447692871,
+        "dataset": "HotpotQA",
+        "end_char": 411,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "b5edc1a8fae20e2c91a9f2e1a48a62c8",
+        "passage_rank": 8,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "ad6720e66754399943818ad1584d83f6",
+        "sentence_text": " He is regarded as an iconic big-wave rider and is highly respected by his peers for his unique, powerful surfing style.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 291
+      },
+      {
+        "cross_encoder_score": -11.120257377624512,
+        "dataset": "HotpotQA",
+        "end_char": 481,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "b5edc1a8fae20e2c91a9f2e1a48a62c8",
+        "passage_rank": 8,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "4e79fb4bf061689d15ef48e1cc3361c1",
+        "sentence_text": " In 2009, Gary was inducted into the Australian Surfing Hall of Fame.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 412
+      },
+      {
+        "cross_encoder_score": -9.161883354187012,
+        "dataset": "HotpotQA",
+        "end_char": 14,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "0df56f08254d8171eda2772aa6d9dee8",
+        "passage_rank": 3,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "a06fa3f8302960f2b335a7c8efb22558",
+        "sentence_text": "Martin Sherman",
+        "sentence_token_cost": 2,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.751893043518066,
+        "dataset": "HotpotQA",
+        "end_char": 184,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "0df56f08254d8171eda2772aa6d9dee8",
+        "passage_rank": 3,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "365aecb43d87a5619caa6fc1b23fee05",
+        "sentence_text": "Martin Gerald Sherman (born December 22, 1938) is an American dramatist and screenwriter best known for his 20 stage plays which have been produced in over 55 countries.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 15
+      },
+      {
+        "cross_encoder_score": -9.338411331176758,
+        "dataset": "HotpotQA",
+        "end_char": 342,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "0df56f08254d8171eda2772aa6d9dee8",
+        "passage_rank": 3,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "eca760dc3b35e366fe126833f3599dc9",
+        "sentence_text": " He rose to fame in 1979 with the production of his Pulitzer Prize-nominated play \"Bent\", which explores the persecution of homosexuals during the Holocaust.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          8,
+          0,
+          2,
+          0
+        ],
+        "source_position": 185
+      },
+      {
+        "cross_encoder_score": -3.2684738636016846,
+        "dataset": "HotpotQA",
+        "end_char": 443,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "0df56f08254d8171eda2772aa6d9dee8",
+        "passage_rank": 3,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "4ec50ef46445917935c3875cc296f99e",
+        "sentence_text": " \"Bent\" was a Tony nominee for Best Play in 1980 and won the Dramatists Guild's Hull-Warriner Award.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          8,
+          0,
+          3,
+          0
+        ],
+        "source_position": 343
+      },
+      {
+        "cross_encoder_score": -11.078495025634766,
+        "dataset": "HotpotQA",
+        "end_char": 605,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "0df56f08254d8171eda2772aa6d9dee8",
+        "passage_rank": 3,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "f452a13290174bc9e227c56afaca1e81",
+        "sentence_text": " It has been produced in 35 countries and was adapted first by Sherman for a major motion picture in 1997 and later by independent sources as a ballet in Brazil.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          8,
+          0,
+          4,
+          0
+        ],
+        "source_position": 444
+      },
+      {
+        "cross_encoder_score": -11.237972259521484,
+        "dataset": "HotpotQA",
+        "end_char": 828,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "0df56f08254d8171eda2772aa6d9dee8",
+        "passage_rank": 3,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "5f8df70ef9bed871a0a4afe1009a08d4",
+        "sentence_text": " Sherman is an openly gay Jew, and many of his works dramatize \"outsiders,\" dealing with the discrimination and marginalization of minorities whether \"gay, female, foreign, disabled, different in religion, class or color.\"",
+        "sentence_token_cost": 46,
+        "source_order": [
+          8,
+          0,
+          5,
+          0
+        ],
+        "source_position": 606
+      },
+      {
+        "cross_encoder_score": -9.70957088470459,
+        "dataset": "HotpotQA",
+        "end_char": 875,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "0df56f08254d8171eda2772aa6d9dee8",
+        "passage_rank": 3,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "a91b34e9bd7f2e225bace4bae1d01eeb",
+        "sentence_text": " He has lived and worked in London since 1980.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          8,
+          0,
+          6,
+          0
+        ],
+        "source_position": 829
+      },
+      {
+        "cross_encoder_score": -9.223788261413574,
+        "dataset": "HotpotQA",
+        "end_char": 11,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "7081ef41f88714667e6c7dd6d5fa616b",
+        "passage_rank": 2,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "3edc7f15b91bf301675e3bd60f50f188",
+        "sentence_text": "Dave Malloy",
+        "sentence_token_cost": 3,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.609652519226074,
+        "dataset": "HotpotQA",
+        "end_char": 154,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "7081ef41f88714667e6c7dd6d5fa616b",
+        "passage_rank": 2,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "a70b9d6050cb1f741e8afd58e1b7c975",
+        "sentence_text": "Dave Malloy (born January 4, 1976) is an American composer, who has created several theatre works, often based on classic works of literature.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 12
+      },
+      {
+        "cross_encoder_score": -0.8914480209350586,
+        "dataset": "HotpotQA",
+        "end_char": 288,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "7081ef41f88714667e6c7dd6d5fa616b",
+        "passage_rank": 2,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "588628ef4c091d8c139fbf354bee53bd",
+        "sentence_text": " They include his award winning electropop opera \"Natasha, Pierre & The Great Comet of 1812\" and his chamber musical \"Ghost Quartet\".",
+        "sentence_token_cost": 34,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 155
+      },
+      {
+        "cross_encoder_score": -0.14211468398571014,
+        "dataset": "HotpotQA",
+        "end_char": 332,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "7081ef41f88714667e6c7dd6d5fa616b",
+        "passage_rank": 2,
+        "query_id": "5ae2eb7f55429928c423955b",
+        "sentence_id": "995276ae7e41f51709dec3c5dc9fe397",
+        "sentence_text": " Malloy is a three-time Tony Award nominee.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          9,
+          0,
+          3,
+          0
+        ],
+        "source_position": 289
+      }
+    ],
+    "scoring_seconds": 0.2137474330374971,
+    "source_fingerprint": "7c35cfce5897f9cce5ed95026db5585de0cc635caf6a941a572c3d60be912732"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "question_id": "917",
+  "paper_id": "266",
+  "question": "What languages are seen in the news and TED datasets?",
+  "gold_answers": [
+    "English, German"
+  ],
+  "question_type": "extractive",
+  "routes_at_k4": {
+    "R0_bm25_prefix": {
+      "selected_ranks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prediction": "English",
+      "token_f1": 0.6667
+    },
+    "R1_semantic_topk": {
+      "selected_ranks": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "prediction": "English, Spanish",
+      "token_f1": 0.5
+    },
+    "R2_learned_router": {
+      "selected_ranks": [
+        1,
+        2,
+        6,
+        8
+      ],
+      "prediction": "English, German",
+      "token_f1": 1.0
+    }
+  },
+  "generations": {
+    "R0_bm25_prefix_k4": {
+      "router": "R0_bm25_prefix",
+      "k": 4,
+      "prediction": "English",
+      "token_f1": 0.6667,
+      "exact_match": 0.0,
+      "context_tokens": 826,
+      "selected_ranks": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "R1_semantic_topk_k4": {
+      "router": "R1_semantic_topk",
+      "k": 4,
+      "prediction": "English, Spanish",
+      "token_f1": 0.5,
+      "context_tokens": 991,
+      "latency": 2.337531089782715,
+      "selected_ranks": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "R2_learned_router_k4": {
+      "router": "R2_learned_router",
+      "k": 4,
+      "prediction": "English, German",
+      "token_f1": 1.0,
+      "context_tokens": 945,
+      "latency": 2.1848080158233643,
+      "selected_ranks": [
+        1,
+        2,
+        6,
+        8
+      ]
+    }
+  },
+  "candidate_passages": [
+    {
+      "rank": 1,
+      "chunk_id": "266_chunk_2226fcac-fda6-4577-bf16-2c3e2aabcba6",
+      "bm25_score": 2.4550516605377197,
+      "selected_by_R0_bm25_prefix_k4": true,
+      "selected_by_R1_semantic_topk_k4": false,
+      "selected_by_R2_learned_router_k4": true,
+      "is_decisive": false,
+      "text": "There is also a variation in terms of chain number between translations of TED talks and news. While automatic translations of news texts contain more chains than the corresponding human annotated sources and references, machine-translated TED talks contain less chains than the sources and human translations. However, there is not much variation between the chain features of the three MT outputs. The chains are also longer in machine-translated output than in reference translations as can be seen by the number of mentions per chain and the length of the longest chain."
+    },
+    {
+      "rank": 2,
+      "chunk_id": "266_chunk_256a5dde-179e-4b64-a3ba-a857902cd389",
+      "bm25_score": 2.3505289554595947,
+      "selected_by_R0_bm25_prefix_k4": true,
+      "selected_by_R1_semantic_topk_k4": true,
+      "selected_by_R2_learned_router_k4": true,
+      "is_decisive": false,
+      "text": "Results and Analyses ::: MT quality at system level\tWe evaluate the quality of the three transformer engines with two automatic metrics, BLEU  and METEOR . Table TABREF25 shows the scores in two cases: all, when the complete texts are evaluated and coref, when only the subset of sentences that have been augmented in S3 are considered \u2013 265 out of 494 for news and 239 out of 518 for TED. For news, the best system is that trained on more data, S2; but for TED talks S3 with less data has the best performance. The difference between the behaviour of the systems can be related to the different genres. We have seen that news are dominated by nominal mentions while TED is dominated by pronominal ones. Pronouns mostly need coreference information to be properly translated, while noun phrases can be improved simply because more instances of the nouns appear in the training data. With this, S3 improves the baseline S1 in +1.1 BLEU points for TED$_{coref}$ but -0.2 BLEU points for news$_{coref}$."
+    },
+    {
+      "rank": 3,
+      "chunk_id": "266_chunk_5066b412-c14d-4b8a-9234-32782ce96199",
+      "bm25_score": 2.329554796218872,
+      "selected_by_R0_bm25_prefix_k4": true,
+      "selected_by_R1_semantic_topk_k4": true,
+      "selected_by_R2_learned_router_k4": false,
+      "is_decisive": false,
+      "text": "Results and Analyses ::: Error analysis\tThe total distribution for the 10 categories of errors defined in Section SECREF23 can be seen in Figure FIGREF29. Globally, the proportion of errors due to our closed categories (gender, number, case and ambiguous) is larger for TED talks than for news (see analysis in Section SECREF28). Gender is an issue with all systems and genres which does not get solved by the addition of more data. Additionally, news struggle with wrong words and named entities; for this genre the additional error types (see analysis in Section SECREF30) represent around 60% of the errors of S1/S3 to be compared to the 40% of TED talks."
+    },
+    {
+      "rank": 4,
+      "chunk_id": "266_chunk_82bed694-d901-4c2c-80c4-eaf707f9392b",
+      "bm25_score": 1.8241159915924072,
+      "selected_by_R0_bm25_prefix_k4": true,
+      "selected_by_R1_semantic_topk_k4": true,
+      "selected_by_R2_learned_router_k4": false,
+      "is_decisive": false,
+      "text": "Results and Analyses ::: Error analysis ::: Types of erroneous mentions\tFinally, we also analyse the types of the mentions marked as errors. They include either nominal phrases or pronouns. Table TABREF32 shows that there is a variation between the news texts and TED talks in terms of these features. News contain more erroneous nominal phrases, whereas TED talks contain more pronoun-related errors. Whereas both the news and the TED talks have more errors in translating anaphors, there is a higher proportion of erroneous antecedents in the news than in the TED talks. It is also interesting to see that S3 reduces the percentage of errors in anaphors for TED, but has a similar performance to S2 on news."
+    },
+    {
+      "rank": 5,
+      "chunk_id": "266_chunk_05e76fe2-f372-4850-ac63-f727c75f2256",
+      "bm25_score": 1.4025208950042725,
+      "selected_by_R0_bm25_prefix_k4": false,
+      "selected_by_R1_semantic_topk_k4": true,
+      "selected_by_R2_learned_router_k4": false,
+      "is_decisive": false,
+      "text": "Results and Analyses ::: Chain features\tFirst, we compare the distribution of several chain features in the three MT outputs, their source texts and the corresponding human translations. Table TABREF20 shows that, overall, all machine translations contain a greater number of annotated mentions in both news texts and TED talks than in the annotated source (src and src$_{\\rm CoreNLP}$) and reference (ref) texts. Notice that src$_{\\rm CoreNLP}$ \u2014where coreferences are not manually but automatically annotated with CoreNLP\u2014 counts also the tokens that the mentions add to the sentences, but not the tags. The larger number of mentions may indicate a strong explicitation effect observed in machine-translated texts. Interestingly, CoreNLP detects a similar number of mentions in both genres, while human annotators clearly marked more chains for TED than for news. Both genres are in fact quite different in nature; whereas only $37\\%$ of the mentions are pronominal in news texts (343 out of 915), the number grows to $58\\%$ for TED (577 out of 989), and this could be an indicator of the difficulty of the genres for NMT systems."
+    },
+    {
+      "rank": 6,
+      "chunk_id": "266_chunk_5651734c-24ee-4373-8869-af17f3e4733b",
+      "bm25_score": 1.3513209819793701,
+      "selected_by_R0_bm25_prefix_k4": false,
+      "selected_by_R1_semantic_topk_k4": false,
+      "selected_by_R2_learned_router_k4": true,
+      "is_decisive": false,
+      "text": "Systems, Methods and Resources ::: State-of-the-art NMT\tOur NMT systems are based on a transformer architecture  as implemented in the Marian toolkit  using the transformer big configuration. We train three systems (S1, S2 and S3) with the corpora summarised in Table TABREF5. The first two systems are transformer models trained on different amounts of data (6M vs. 18M parallel sentences as seen in the Table). The third system includes a modification to consider the information of full coreference chains throughout a document augmenting the sentence to be translated with this information and it is trained with the same amount of sentence pairs as S1. A variant of the S3 system participated in the news machine translation of the shared task held at WMT 2019 ."
+    },
+    {
+      "rank": 7,
+      "chunk_id": "266_chunk_1caf17c1-8f8b-4497-a883-c095c7fd7ac9",
+      "bm25_score": 1.2782039642333984,
+      "selected_by_R0_bm25_prefix_k4": false,
+      "selected_by_R1_semantic_topk_k4": false,
+      "selected_by_R2_learned_router_k4": false,
+      "is_decisive": false,
+      "text": "However, even if the systems differ in the overall performance, the change is not related to the number of errors in coreference chains. Table TABREF25 also reports the number of mistakes in the translation of coreferent mentions. Whereas the number of errors correlates with translation quality (as measured by BLEU) for news$_{coref}$ this is not the case of TED$_{coref}$."
+    },
+    {
+      "rank": 8,
+      "chunk_id": "266_chunk_f28e546d-3f89-4dfc-b0f7-83ddc4553ee1",
+      "bm25_score": 1.2291245460510254,
+      "selected_by_R0_bm25_prefix_k4": false,
+      "selected_by_R1_semantic_topk_k4": false,
+      "selected_by_R2_learned_router_k4": true,
+      "is_decisive": true,
+      "text": "Systems, Methods and Resources ::: Test data under analysis\tAs one of our aims is to compare coreference chain properties in automatic translation with those of the source texts and human reference, we derive data from ParCorFull, an English-German corpus annotated with full coreference chains . The corpus contains ca. 160.7 thousand tokens manually annotated with about 14.9 thousand mentions and 4.7 thousand coreference chains. For our analysis, we select a portion of English news texts and TED talks from ParCorFull and translate them with the three NMT systems described in SECREF4 above. As texts considerably differ in their length, we select 17 news texts (494 sentences) and four TED talks (518 sentences). The size (in tokens) of the total data set under analysis \u2013 source (src) and human translations (ref) from ParCorFull and the automatic translations produced within this study (S1, S2 and S3) are presented in Table TABREF20. Notably, automatic translations of TED talks contain more words than the corresponding reference translation, which means that machine-translated texts of this type have also more potential tokens to enter in a coreference relation, and potentially indicating a shining through effect."
+    },
+    {
+      "rank": 9,
+      "chunk_id": "266_chunk_ee20e5ec-d8d8-4529-94e8-4039ce751445",
+      "bm25_score": 1.197170615196228,
+      "selected_by_R0_bm25_prefix_k4": false,
+      "selected_by_R1_semantic_topk_k4": false,
+      "selected_by_R2_learned_router_k4": false,
+      "is_decisive": false,
+      "text": "S2: Lassen sie uns... einen kurzen Blick auf die Geschichte [des Stasi] werfen denn es wirklich wichtig, [seine] Selbstauffassung zu verstehen. The gender-related errors are common to all the automatic translations. Interestingly, systems S1 and S3 have more problems with gender in translations of TED talks, whereas they do better in translating news, which leads us to assume that this is a data-dependent issue: while the antecedent for news is in the same sentence it is not for TED talks. A closer look at the texts with a high number of gender problems confirms this assumption \u2014they contain references to females who were translated with male forms of nouns and pronouns (e.g. Mannschaftskapit\u00e4n instead of Mannschaftskapit\u00e4nin). We also observe errors related to gender for the cases of explicitation in translation. Some impersonal English constructions not having direct equivalents in German are translated with personal constructions, which requires an addition of a pronoun. Such cases of explicitation were automatically detected in parallel data in , . They belong to the category of obligatory explicitation, i.e."
+    },
+    {
+      "rank": 10,
+      "chunk_id": "266_chunk_cd890417-c352-488c-9060-712c89b6ef00",
+      "bm25_score": 1.0746543407440186,
+      "selected_by_R0_bm25_prefix_k4": false,
+      "selected_by_R1_semantic_topk_k4": false,
+      "selected_by_R2_learned_router_k4": false,
+      "is_decisive": false,
+      "text": "Summary and Conclusions\tWe analysed coreferences in the translation outputs of three transformer systems that differ in the training data and in whether they have access to explicit intra- and cross-sentential anaphoric information (S3) or not (S1, S2). We see that the translation errors are more dependent on the genre than on the nature of the specific NMT system: whereas news (with mainly NP mentions) contain a majority of errors related to wrong word selection, TED talks (with mainly pronominal mentions) are prone to accumulate errors on gender and number. System S3 was specifically designed to solve this issue, but we cannot trace the improvement from S1 to S3 by just counting the errors and error types, as some errors disappear and others emerge: coreference quality and automatic translation quality do not correlate in our analysis on TED talks. As a further improvement to address the issue, we could add more parallel data to our training corpus with a higher density of coreference chains such as movie subtitles or parallel TED talks. We also characterised the originals and translations according to coreference features such as total number of chains and mentions, average chain length and size of the longest chain."
+    }
+  ]
+}

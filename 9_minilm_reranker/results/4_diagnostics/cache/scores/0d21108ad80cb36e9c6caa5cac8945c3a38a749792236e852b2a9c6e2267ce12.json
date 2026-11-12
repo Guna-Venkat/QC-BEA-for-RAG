@@ -1,0 +1,1771 @@
+{
+  "checksum": "da07fd945c87bdbb7d112c49018592514b3842f1017ecc5a04be2a8f7a04f342",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "8b9c12df9f89040f1485b3847a29f11b5c9262e0"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 87,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "a4401449ef7b9a529c3be64287b24847e5603967b29061211620ee1723d17e57",
+    "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+    "scores": [
+      {
+        "cross_encoder_score": 3.260807991027832,
+        "dataset": "QASPER",
+        "end_char": 207,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "efef65fbf51f04df380cf7c11423c5b7",
+        "passage_rank": 3,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "18895411494c14483124e1d41c611883",
+        "sentence_text": "jiant: A Software Toolkit for Research on General-Purpose Text Understanding Models\tWe introduce jiant, an open source toolkit for conducting multitask and transfer learning experiments on English NLU tasks.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 3.503082036972046,
+        "dataset": "QASPER",
+        "end_char": 403,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "efef65fbf51f04df380cf7c11423c5b7",
+        "passage_rank": 3,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "a437ddd3f272fd48efd4789714223e4c",
+        "sentence_text": "jiant enables modular and configuration-driven experimentation with state-of-the-art models and implements a broad set of tasks for probing, transfer learning, and multitask training experiments.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 208
+      },
+      {
+        "cross_encoder_score": -1.9219770431518555,
+        "dataset": "QASPER",
+        "end_char": 489,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "efef65fbf51f04df380cf7c11423c5b7",
+        "passage_rank": 3,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "0cfb563f254dd241fa5acf67a3fce2b6",
+        "sentence_text": "jiant implements over 50 NLU tasks, including all GLUE and SuperGLUE benchmark tasks.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 404
+      },
+      {
+        "cross_encoder_score": 1.5909690856933594,
+        "dataset": "QASPER",
+        "end_char": 610,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "efef65fbf51f04df380cf7c11423c5b7",
+        "passage_rank": 3,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "97a0e7ace2b95b5f69d3fbfe6fc2d73c",
+        "sentence_text": "We demonstrate that jiant reproduces published performance on a variety of tasks and models, including BERT and RoBERTa.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 490
+      },
+      {
+        "cross_encoder_score": -0.32400447130203247,
+        "dataset": "QASPER",
+        "end_char": 652,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "efef65fbf51f04df380cf7c11423c5b7",
+        "passage_rank": 3,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "421cd1ddb579c7be9581de39d910fcd9",
+        "sentence_text": "jiant is available at https://jiant.info.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 611
+      },
+      {
+        "cross_encoder_score": 2.303903579711914,
+        "dataset": "QASPER",
+        "end_char": 908,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "efef65fbf51f04df380cf7c11423c5b7",
+        "passage_rank": 3,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "06c1fa595f0fe5d46ba36c2d061993a7",
+        "sentence_text": "Introduction\tThis paper introduces jiant, an open source toolkit that allows researchers to quickly experiment on a wide array of NLU tasks, using state-of-the-art NLP models, and conduct experiments on probing, transfer learning, and multitask training.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 654
+      },
+      {
+        "cross_encoder_score": 3.695286989212036,
+        "dataset": "QASPER",
+        "end_char": 1072,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "efef65fbf51f04df380cf7c11423c5b7",
+        "passage_rank": 3,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "6c5d28dd5965a402182156181f006ce4",
+        "sentence_text": "jiant supports many state-of-the-art Transformer-based models implemented by Huggingface's Transformers package, as well as non-Transformer models such as BiLSTMs.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 909
+      },
+      {
+        "cross_encoder_score": -8.604772567749023,
+        "dataset": "QASPER",
+        "end_char": 1309,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "efef65fbf51f04df380cf7c11423c5b7",
+        "passage_rank": 3,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "85ed907a5d5880f803d31af2b0f8ccb0",
+        "sentence_text": "Packages and libraries like HuggingFace's Transformers  and AllenNLP  have accelerated the process of experimenting and iterating on NLP models by both abstracting out implementation details, and simplifying the model training pipeline.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1073
+      },
+      {
+        "cross_encoder_score": 0.9658371806144714,
+        "dataset": "QASPER",
+        "end_char": 1488,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "cd70b1ec75db9d19f8dd7a77210560fb",
+        "passage_rank": 4,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "ea29140441fb538d0914c7c9eb055431",
+        "sentence_text": "jiant extends the capabilities of both toolkits by presenting a wrapper that implements a variety of complex experimental pipelines in a scalable and easily controllable setting.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "source_position": 1310
+      },
+      {
+        "cross_encoder_score": -1.8411145210266113,
+        "dataset": "QASPER",
+        "end_char": 1742,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "cd70b1ec75db9d19f8dd7a77210560fb",
+        "passage_rank": 4,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "9fb544acce66cd5e5d6f308e7201dbdf",
+        "sentence_text": "jiant contains a task bank of over 50 tasks, including all the tasks presented in GLUE , SuperGLUE , the edge-probing suite , and the SentEval probing suite , as well as other individual tasks including CCG supertagging , SocialIQA , and CommonsenseQA .",
+        "sentence_token_cost": 62,
+        "source_order": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "source_position": 1489
+      },
+      {
+        "cross_encoder_score": -2.587317943572998,
+        "dataset": "QASPER",
+        "end_char": 1816,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "cd70b1ec75db9d19f8dd7a77210560fb",
+        "passage_rank": 4,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "2e1666de05f1f3b05e06e024f6355daa",
+        "sentence_text": "jiant is also the official baseline codebase for the SuperGLUE benchmark.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "source_position": 1743
+      },
+      {
+        "cross_encoder_score": 2.5178046226501465,
+        "dataset": "QASPER",
+        "end_char": 2003,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "cd70b1ec75db9d19f8dd7a77210560fb",
+        "passage_rank": 4,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "48f359b48321e3f784fe6d0c97dababa",
+        "sentence_text": "jiant's core design principles are: Ease of use: jiant should allow users to run a variety of experiments using state-of-the-art models via an easy to use configuration-driven interface.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "source_position": 1817
+      },
+      {
+        "cross_encoder_score": 2.536836624145508,
+        "dataset": "QASPER",
+        "end_char": 2145,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "cd70b1ec75db9d19f8dd7a77210560fb",
+        "passage_rank": 4,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "cdc3bb854ef9971598dad2208a4d03e2",
+        "sentence_text": "jiant should also provide features that support correct and reproducible experiments, including logging and saving and restoring model state.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          1,
+          4,
+          0
+        ],
+        "source_position": 2004
+      },
+      {
+        "cross_encoder_score": -3.2863097190856934,
+        "dataset": "QASPER",
+        "end_char": 2360,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "cd70b1ec75db9d19f8dd7a77210560fb",
+        "passage_rank": 4,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "0bb82a478e664c99930037cc2b199670",
+        "sentence_text": "Availability of NLU tasks: jiant should maintain and continue to grow a collection of tasks useful for NLU research, especially popular evaluation tasks and tasks commonly used in pretraining and transfer learning.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          1,
+          5,
+          0
+        ],
+        "source_position": 2146
+      },
+      {
+        "cross_encoder_score": 3.7634048461914062,
+        "dataset": "QASPER",
+        "end_char": 2489,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "cd70b1ec75db9d19f8dd7a77210560fb",
+        "passage_rank": 4,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "bf21ca5830a0cc36288d7fd63e8ef6db",
+        "sentence_text": "Availability of cutting-edge models: jiant should make implementations of state-of-the-art models available for experimentation.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          1,
+          6,
+          0
+        ],
+        "source_position": 2361
+      },
+      {
+        "cross_encoder_score": -1.2017316818237305,
+        "dataset": "QASPER",
+        "end_char": 2558,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "cd70b1ec75db9d19f8dd7a77210560fb",
+        "passage_rank": 4,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "6ae4bf5c14e7e90cedb6efdb5cac4542",
+        "sentence_text": "Open source: jiant should be free to use, and easy to contribute to.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          1,
+          7,
+          0
+        ],
+        "source_position": 2490
+      },
+      {
+        "cross_encoder_score": 0.37904760241508484,
+        "dataset": "QASPER",
+        "end_char": 2608,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "cd70b1ec75db9d19f8dd7a77210560fb",
+        "passage_rank": 4,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "6db4297b4cedeab60448d21b59da2f26",
+        "sentence_text": "Early versions of jiant have already been used in",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          1,
+          8,
+          0
+        ],
+        "source_position": 2559
+      },
+      {
+        "cross_encoder_score": -11.383973121643066,
+        "dataset": "QASPER",
+        "end_char": 2742,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "25b6d170312ec9fa60cc8184134b67b8",
+        "passage_rank": 8,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "0b8a52ca328225ce6bf3ffb4ca93181a",
+        "sentence_text": "multiple works, including probing analyses , , , , , , transfer learning experiments , , and dataset and benchmark construction , , .",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2609
+      },
+      {
+        "cross_encoder_score": -10.997631072998047,
+        "dataset": "QASPER",
+        "end_char": 2864,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "25b6d170312ec9fa60cc8184134b67b8",
+        "passage_rank": 8,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "cbaafa42ca54a1b9c38c93acb03bec14",
+        "sentence_text": "Background\tTransfer learning is an area of research that uses knowledge from pretrained models to transfer to new tasks.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2744
+      },
+      {
+        "cross_encoder_score": -7.207764148712158,
+        "dataset": "QASPER",
+        "end_char": 3114,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "25b6d170312ec9fa60cc8184134b67b8",
+        "passage_rank": 8,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "22911eccf1d4d759c84c00515b9b99ba",
+        "sentence_text": "In recent years, Transformer-based models like BERT  and T5  have yielded state-of-the-art results on the lion's share of benchmark tasks for language understanding through pretraining and transfer, often paired with some form of multitask learning.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 2865
+      },
+      {
+        "cross_encoder_score": -0.7267619967460632,
+        "dataset": "QASPER",
+        "end_char": 3317,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "25b6d170312ec9fa60cc8184134b67b8",
+        "passage_rank": 8,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "5e74abd6b8e065bf65715716d3831347",
+        "sentence_text": "jiant enables a variety of complex training pipelines through simple configuration changes, including multi-task training ,  and pretraining, as well as the sequential fine-tuning approach from STILTs .",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3115
+      },
+      {
+        "cross_encoder_score": -10.792534828186035,
+        "dataset": "QASPER",
+        "end_char": 3545,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "25b6d170312ec9fa60cc8184134b67b8",
+        "passage_rank": 8,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "d5f05a1895ef51355931ee03fddb667f",
+        "sentence_text": "In STILTs, intermediate task training takes a pretrained model like ELMo or BERT, and applies supplementary training on a set of intermediate tasks, before finally performing single-task training on additional downstream tasks.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3318
+      },
+      {
+        "cross_encoder_score": 1.1348726749420166,
+        "dataset": "QASPER",
+        "end_char": 3628,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "25b6d170312ec9fa60cc8184134b67b8",
+        "passage_rank": 8,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "fc63547cafa16aa5123ffaf4d2af50ab",
+        "sentence_text": "jiant System Overview ::: Requirements\tjiant v1.3.0 requires Python 3.5 or later.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3547
+      },
+      {
+        "cross_encoder_score": 1.0104243755340576,
+        "dataset": "QASPER",
+        "end_char": 3697,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "25b6d170312ec9fa60cc8184134b67b8",
+        "passage_rank": 8,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "083c3e173cd60da5c38c433fa201df7d",
+        "sentence_text": "jiant can be installed via pip, or cloned and installed from GitHub.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3629
+      },
+      {
+        "cross_encoder_score": 0.10210569202899933,
+        "dataset": "QASPER",
+        "end_char": 3781,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "25b6d170312ec9fa60cc8184134b67b8",
+        "passage_rank": 8,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "6927cdc35deb25a9af10576b132318b7",
+        "sentence_text": "jiant's core dependencies are PyTorch , AllenNLP , and HuggingFace's Transformers .",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3698
+      },
+      {
+        "cross_encoder_score": 0.03416738659143448,
+        "dataset": "QASPER",
+        "end_char": 3823,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "25b6d170312ec9fa60cc8184134b67b8",
+        "passage_rank": 8,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "e6d3315f7bb300939ecad416b99cdb4f",
+        "sentence_text": "jiant is released under the MIT License .",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 3782
+      },
+      {
+        "cross_encoder_score": -2.0849084854125977,
+        "dataset": "QASPER",
+        "end_char": 3885,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "25b6d170312ec9fa60cc8184134b67b8",
+        "passage_rank": 8,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "099bce802694658e4f55c077b3e6c7e6",
+        "sentence_text": "jiant System Overview ::: jiant Components\tTasks: Tasks have",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          2,
+          9,
+          0
+        ],
+        "source_position": 3825
+      },
+      {
+        "cross_encoder_score": -8.658797264099121,
+        "dataset": "QASPER",
+        "end_char": 6538,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "6889d3decb493b2613ae9e54493def14",
+        "passage_rank": 2,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "b401e94514c22b41af066a67339d249e",
+        "sentence_text": "and trains the shared model.",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 6510
+      },
+      {
+        "cross_encoder_score": -9.6984281539917,
+        "dataset": "QASPER",
+        "end_char": 6673,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "6889d3decb493b2613ae9e54493def14",
+        "passage_rank": 2,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "ce82141b4f5a2c4d59c43a18947db847",
+        "sentence_text": "Optionally, in the target training phase, a copy of the model is configured and trained or fine-tuned for each target task separately.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 6539
+      },
+      {
+        "cross_encoder_score": -8.981189727783203,
+        "dataset": "QASPER",
+        "end_char": 6764,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "6889d3decb493b2613ae9e54493def14",
+        "passage_rank": 2,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "f3a424e9526205651ed8a9ecbbec25c7",
+        "sentence_text": "Optionally, the model is evaluated on the validation and/or test sets of the target tasks.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 6674
+      },
+      {
+        "cross_encoder_score": 2.151022434234619,
+        "dataset": "QASPER",
+        "end_char": 6855,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "6889d3decb493b2613ae9e54493def14",
+        "passage_rank": 2,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "fe201d4f88b5af79a83a52a28ac712a2",
+        "sentence_text": "jiant System Overview ::: Task and Model resources in jiant\tjiant supports over 50 tasks.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 6766
+      },
+      {
+        "cross_encoder_score": -11.27879524230957,
+        "dataset": "QASPER",
+        "end_char": 6953,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "6889d3decb493b2613ae9e54493def14",
+        "passage_rank": 2,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "134c167ce9e25688ce4398688912453d",
+        "sentence_text": "Task types include classification, regression, sequence generation, tagging, and span prediction.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 6856
+      },
+      {
+        "cross_encoder_score": -1.7834599018096924,
+        "dataset": "QASPER",
+        "end_char": 7052,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "6889d3decb493b2613ae9e54493def14",
+        "passage_rank": 2,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "a7ddc548c9b69819d530f61d7eb02828",
+        "sentence_text": "jiant focuses on NLU tasks like MNLI , CommonsenseQA , the Winograd Schema Challenge , and SQuAD .",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 6954
+      },
+      {
+        "cross_encoder_score": -0.24492013454437256,
+        "dataset": "QASPER",
+        "end_char": 7136,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "6889d3decb493b2613ae9e54493def14",
+        "passage_rank": 2,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "64fc794c89407457d6f7f1ff582c139e",
+        "sentence_text": "A full inventory of tasks and task variants is available in the jiant/tasks module.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 7053
+      },
+      {
+        "cross_encoder_score": 4.327821731567383,
+        "dataset": "QASPER",
+        "end_char": 7251,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "6889d3decb493b2613ae9e54493def14",
+        "passage_rank": 2,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "eebcc40045582987ccd9f20f1f7bf2e8",
+        "sentence_text": "jiant provides support for cutting-edge sentence encoder models, including support for Huggingface's Transformers.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 7137
+      },
+      {
+        "cross_encoder_score": -7.030531883239746,
+        "dataset": "QASPER",
+        "end_char": 7341,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "6889d3decb493b2613ae9e54493def14",
+        "passage_rank": 2,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "702e9bd7e160db29f66b10176a569991",
+        "sentence_text": "Supported models include: BERT , RoBERTa , XLNet , XLM , GPT , GPT-2 , ALBERT  and ELMo .",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          5,
+          8,
+          0
+        ],
+        "source_position": 7252
+      },
+      {
+        "cross_encoder_score": 5.43923807144165,
+        "dataset": "QASPER",
+        "end_char": 7503,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "6889d3decb493b2613ae9e54493def14",
+        "passage_rank": 2,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "0fe4b859093083063f39c942ef689ffb",
+        "sentence_text": "jiant also supports the from-scratch training of (bidirectional) LSTMs  and deep bag of words models , as well as syntax-aware models such as PRPN  and ON-LSTM .",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          5,
+          9,
+          0
+        ],
+        "source_position": 7342
+      },
+      {
+        "cross_encoder_score": 1.3466049432754517,
+        "dataset": "QASPER",
+        "end_char": 7555,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "6889d3decb493b2613ae9e54493def14",
+        "passage_rank": 2,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "aa06b6223ee045b1e27d10a8bf0cc598",
+        "sentence_text": "jiant also supports word embeddings such as GloVe .",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          5,
+          10,
+          0
+        ],
+        "source_position": 7504
+      },
+      {
+        "cross_encoder_score": -0.8743386268615723,
+        "dataset": "QASPER",
+        "end_char": 7651,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "6889d3decb493b2613ae9e54493def14",
+        "passage_rank": 2,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "61582ab9c6a19e8c8da8bd8d971e4e00",
+        "sentence_text": "jiant System Overview ::: User Interface\tjiant experiments can be run with a simple CLI: jiant",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          5,
+          11,
+          0
+        ],
+        "source_position": 7557
+      },
+      {
+        "cross_encoder_score": -11.218870162963867,
+        "dataset": "QASPER",
+        "end_char": 7748,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "20bc5e7dbedc2cf217a3c604eba5a8c4",
+        "passage_rank": 9,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "f51d9d09d4767155e306d172d9be50a9",
+        "sentence_text": "provides default config files that allow running many experiments without modifying source code.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 7652
+      },
+      {
+        "cross_encoder_score": 3.2125244140625,
+        "dataset": "QASPER",
+        "end_char": 7903,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "20bc5e7dbedc2cf217a3c604eba5a8c4",
+        "passage_rank": 9,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "783f1e97b10225efa73fc4b1b120d7bd",
+        "sentence_text": "jiant also provides baseline config files that can serve as a starting point for model development and evaluation against GLUE  and SuperGLUE  benchmarks.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 7749
+      },
+      {
+        "cross_encoder_score": -11.021202087402344,
+        "dataset": "QASPER",
+        "end_char": 8007,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "20bc5e7dbedc2cf217a3c604eba5a8c4",
+        "passage_rank": 9,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "7ed6d9bdfd2011be772412fec32c5109",
+        "sentence_text": "More advanced configurations can be developed by composing multiple configurations files and overrides.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 7904
+      },
+      {
+        "cross_encoder_score": -11.353233337402344,
+        "dataset": "QASPER",
+        "end_char": 8139,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "20bc5e7dbedc2cf217a3c604eba5a8c4",
+        "passage_rank": 9,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "e0f3504274940c65e6f24f3c03be1712",
+        "sentence_text": "Figure FIGREF29 shows a config file that overrides a default config, defining an experiment that uses BERT as the sentence encoder.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 8008
+      },
+      {
+        "cross_encoder_score": -11.356833457946777,
+        "dataset": "QASPER",
+        "end_char": 8284,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "20bc5e7dbedc2cf217a3c604eba5a8c4",
+        "passage_rank": 9,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "0205d10eebd91db9e18fdf47d919a408",
+        "sentence_text": "This config includes an example of a task-specific configuration, which can be overridden in another config file or via a command line override.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 8140
+      },
+      {
+        "cross_encoder_score": -0.07877117395401001,
+        "dataset": "QASPER",
+        "end_char": 8364,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "20bc5e7dbedc2cf217a3c604eba5a8c4",
+        "passage_rank": 9,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "c4c88abad26b2099b940244cabc80d07",
+        "sentence_text": "jiant also implements the option to provide command line overrides with a flag.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 8285
+      },
+      {
+        "cross_encoder_score": -2.156960964202881,
+        "dataset": "QASPER",
+        "end_char": 8530,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "20bc5e7dbedc2cf217a3c604eba5a8c4",
+        "passage_rank": 9,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "be92b69c2503c2f3a864354a596fcb08",
+        "sentence_text": "This option makes it easy to write scripts that launch jiant experiments over a range of parameters, for example while performing grid search across hyperparameters.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 8365
+      },
+      {
+        "cross_encoder_score": -2.4019482135772705,
+        "dataset": "QASPER",
+        "end_char": 8645,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "20bc5e7dbedc2cf217a3c604eba5a8c4",
+        "passage_rank": 9,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "cfb3662874b0c45995dfb7c1a218a164",
+        "sentence_text": "jiant users have successfully run large-scale experiments launching hundreds of runs on both Kubernetes and Slurm.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 8531
+      },
+      {
+        "cross_encoder_score": 0.5427020192146301,
+        "dataset": "QASPER",
+        "end_char": 8999,
+        "pair_tokens_before_truncation": 93,
+        "pair_truncated": false,
+        "passage_id": "20bc5e7dbedc2cf217a3c604eba5a8c4",
+        "passage_rank": 9,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "cd4c9d19679eab14c9b8b3884e901bba",
+        "sentence_text": "jiant System Overview ::: Example jiant Use Cases and Options\tHere we highlight some example use cases and key corresponding jiant config options required in these experiments: Fine-tune BERT on SWAG  and SQUAD , then fine-tune on HellaSwag : Train a probing classifier over a frozen BERT model, as in : Compare performance of GloVe  embeddings using a",
+        "sentence_token_cost": 79,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 8647
+      },
+      {
+        "cross_encoder_score": -2.2968242168426514,
+        "dataset": "QASPER",
+        "end_char": 10599,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "a419eb5047ae351c19831e28e20bfe32",
+        "passage_rank": 1,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "153f4c65110f23f572b503605e1f9bee",
+        "sentence_text": "the need to modify code when making changes: jiant's task registry makes it easy to define a new version of an existing task using different data.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 10453
+      },
+      {
+        "cross_encoder_score": -2.7077229022979736,
+        "dataset": "QASPER",
+        "end_char": 10704,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "a419eb5047ae351c19831e28e20bfe32",
+        "passage_rank": 1,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "5308117e3acb42e4aec6285c622ee0c7",
+        "sentence_text": "Once the new task is defined in the task registry, the task is available as an option in jiant's config.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 10600
+      },
+      {
+        "cross_encoder_score": -0.3928700387477875,
+        "dataset": "QASPER",
+        "end_char": 10812,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "a419eb5047ae351c19831e28e20bfe32",
+        "passage_rank": 1,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "16488e4b9072a029a5d8c32985f3fc53",
+        "sentence_text": "jiant's sentence encoder and task output head abstractions allow for easy support of new sentence encoders.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 10705
+      },
+      {
+        "cross_encoder_score": -11.251893043518066,
+        "dataset": "QASPER",
+        "end_char": 11100,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "a419eb5047ae351c19831e28e20bfe32",
+        "passage_rank": 1,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "3ae84a9457911e76999e9ba4bf899e7c",
+        "sentence_text": "In use cases requiring the introduction of a new task, users can use class inheritance to build on a number of available parent task types including classification, tagging, span prediction, span classification, sequence generation, regression, ranking, and multiple choice task classes.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 10813
+      },
+      {
+        "cross_encoder_score": -11.245430946350098,
+        "dataset": "QASPER",
+        "end_char": 11188,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "a419eb5047ae351c19831e28e20bfe32",
+        "passage_rank": 1,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "08c5a12b1ed1af9b954db3b4c3eec7c3",
+        "sentence_text": "For these task types, corresponding task-specific output heads are already implemented.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 11101
+      },
+      {
+        "cross_encoder_score": -2.0117321014404297,
+        "dataset": "QASPER",
+        "end_char": 11302,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "a419eb5047ae351c19831e28e20bfe32",
+        "passage_rank": 1,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "f4f2f783d3a7f6184b9cce879f95d45a",
+        "sentence_text": "More than 30 researchers and developers from more than 5 institutions have contributed code to the jiant project.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 11189
+      },
+      {
+        "cross_encoder_score": -2.0098118782043457,
+        "dataset": "QASPER",
+        "end_char": 11441,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "a419eb5047ae351c19831e28e20bfe32",
+        "passage_rank": 1,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "4e2b3feb33466ca4fb118bacf351d50b",
+        "sentence_text": "jiant's maintainers welcome pull requests that introduce new tasks or sentence encoder components, and pull request are actively reviewed.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 11303
+      },
+      {
+        "cross_encoder_score": -1.2310062646865845,
+        "dataset": "QASPER",
+        "end_char": 11603,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "a419eb5047ae351c19831e28e20bfe32",
+        "passage_rank": 1,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "e9c95f6b89517a3ca3cc5b9d6a6ce81d",
+        "sentence_text": "The jiant repository's continuous integration system requires that all pull requests pass unit and integration tests and meet Black code formatting requirements.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 11442
+      },
+      {
+        "cross_encoder_score": 0.4497636556625366,
+        "dataset": "QASPER",
+        "end_char": 11832,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "a419eb5047ae351c19831e28e20bfe32",
+        "passage_rank": 1,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "c18eb84a0418c75d1fbbac40332689b4",
+        "sentence_text": "jiant System Overview ::: Limitations\tWhile jiant is quite flexible in the pipelines that can be specified through configs, and some components are highly modular (e.g., tasks, sentence encoders, and output heads), modification",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "source_position": 11605
+      },
+      {
+        "cross_encoder_score": -11.144274711608887,
+        "dataset": "QASPER",
+        "end_char": 11871,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "f08c9a0ec0599f25dfa0139b21a0accf",
+        "passage_rank": 7,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "2f4211314f443ceaeb5e82bda754d776",
+        "sentence_text": "of the pipeline code can be difficult.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 11833
+      },
+      {
+        "cross_encoder_score": -11.349644660949707,
+        "dataset": "QASPER",
+        "end_char": 11959,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "f08c9a0ec0599f25dfa0139b21a0accf",
+        "passage_rank": 7,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "1c0089443aecb986f1aebba2ab8f3daa",
+        "sentence_text": "For example, training in more than two phases would require modifying the trainer code.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 11872
+      },
+      {
+        "cross_encoder_score": -2.607103109359741,
+        "dataset": "QASPER",
+        "end_char": 12051,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "f08c9a0ec0599f25dfa0139b21a0accf",
+        "passage_rank": 7,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "e456b3d81c4312e8ea54e918cfa38faa",
+        "sentence_text": "Making multi-stage training configurations more flexible is on jiant's development roadmap.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 11960
+      },
+      {
+        "cross_encoder_score": -2.3031435012817383,
+        "dataset": "QASPER",
+        "end_char": 12139,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "f08c9a0ec0599f25dfa0139b21a0accf",
+        "passage_rank": 7,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "8d9ea72a84f394815d04af79a6438fc9",
+        "sentence_text": "jiant System Overview ::: jiant Development Roadmap\tjiant is actively being developed.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 12053
+      },
+      {
+        "cross_encoder_score": 2.4643194675445557,
+        "dataset": "QASPER",
+        "end_char": 12343,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "f08c9a0ec0599f25dfa0139b21a0accf",
+        "passage_rank": 7,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "a3c6c626d816a3a3e0381f47e8ddd5f2",
+        "sentence_text": "The jiant project has prioritized continuing to add support for new Transformer models and adding tasks that are commonly used for pretraining and evaluation in NLU, including sequence-to-sequence tasks.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 12140
+      },
+      {
+        "cross_encoder_score": -2.6017374992370605,
+        "dataset": "QASPER",
+        "end_char": 12586,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "f08c9a0ec0599f25dfa0139b21a0accf",
+        "passage_rank": 7,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "605d11e6087a3f0580978b0c93c82cb3",
+        "sentence_text": "Additionally, there are plans to make jiant's training phase configuration options more flexible to allow training in more than two phases, and to continue to refactor jiant's code to keep jiant flexible to track developments in NLU research.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 12344
+      },
+      {
+        "cross_encoder_score": -4.671725749969482,
+        "dataset": "QASPER",
+        "end_char": 12751,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "f08c9a0ec0599f25dfa0139b21a0accf",
+        "passage_rank": 7,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "7e609cdce6935f787a786de2c991fb89",
+        "sentence_text": "Benchmark Experiments\tTo benchmark jiant, we perform a set of experiments that reproduce external results for single fine-tuning and transfer learning experiments.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          9,
+          6,
+          0
+        ],
+        "source_position": 12588
+      },
+      {
+        "cross_encoder_score": -2.4455978870391846,
+        "dataset": "QASPER",
+        "end_char": 12865,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "f08c9a0ec0599f25dfa0139b21a0accf",
+        "passage_rank": 7,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "dfd1a631b3344c130280c05c9740c958",
+        "sentence_text": "jiant has been benchmarked extensively in both published and ongoing work on a majority of the implemented tasks.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          9,
+          7,
+          0
+        ],
+        "source_position": 12752
+      },
+      {
+        "cross_encoder_score": -11.212733268737793,
+        "dataset": "QASPER",
+        "end_char": 12954,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "f08c9a0ec0599f25dfa0139b21a0accf",
+        "passage_rank": 7,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "86eda18aee1abf0b489c50814a06eb6a",
+        "sentence_text": "We benchmark single-task fine-tuning configurations using CommonsenseQA  and SocialIQA .",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          9,
+          8,
+          0
+        ],
+        "source_position": 12866
+      },
+      {
+        "cross_encoder_score": -1.8155096769332886,
+        "dataset": "QASPER",
+        "end_char": 13084,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "f08c9a0ec0599f25dfa0139b21a0accf",
+        "passage_rank": 7,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "5ca32bb84e1cbe9ce3406fdf2cf985ca",
+        "sentence_text": "On CommonsenseQA with $\\mathrm {RoBERTa}_\\mathrm {LARGE}$, jiant achieves an accuracy of 0.722, comparable to 0.721 reported by .",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          9,
+          9,
+          0
+        ],
+        "source_position": 12955
+      },
+      {
+        "cross_encoder_score": -10.963311195373535,
+        "dataset": "QASPER",
+        "end_char": 13097,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "f08c9a0ec0599f25dfa0139b21a0accf",
+        "passage_rank": 7,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "bcc0f25df6c964106251be7d267b65f4",
+        "sentence_text": "On SocialIQA",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          9,
+          10,
+          0
+        ],
+        "source_position": 13085
+      },
+      {
+        "cross_encoder_score": -1.8741981983184814,
+        "dataset": "QASPER",
+        "end_char": 13191,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "5f10df2da580e766a5c74887bcffddc7",
+        "passage_rank": 5,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "18e46ca10255fe8c04bded274c747146",
+        "sentence_text": "with BERT-large, jiant achieves a dev set accuracy of 0.658, comparable to 0.66 reported in .",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 13098
+      },
+      {
+        "cross_encoder_score": -4.7437744140625,
+        "dataset": "QASPER",
+        "end_char": 13244,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "5f10df2da580e766a5c74887bcffddc7",
+        "passage_rank": 5,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "b89f2c67222b6dd6a9e42386254b5854",
+        "sentence_text": "Next, we benchmark jiant's transfer learning regime.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 13192
+      },
+      {
+        "cross_encoder_score": -11.336307525634766,
+        "dataset": "QASPER",
+        "end_char": 13312,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "5f10df2da580e766a5c74887bcffddc7",
+        "passage_rank": 5,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "d6dfcf02858e944e5ef17257bca87f5b",
+        "sentence_text": "We perform transfer experiments from MNLI to BoolQ with BERT-large.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 13245
+      },
+      {
+        "cross_encoder_score": -1.1875404119491577,
+        "dataset": "QASPER",
+        "end_char": 13455,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "5f10df2da580e766a5c74887bcffddc7",
+        "passage_rank": 5,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "e18a8bc43bcb9aaf5c181ee38265d1fd",
+        "sentence_text": "In this configuration  demonstrated an accuracy improvement of 0.78 to 0.82 on the dev set, and jiant achieves an improvement of 0.78 to 0.80.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 13313
+      },
+      {
+        "cross_encoder_score": 2.8173105716705322,
+        "dataset": "QASPER",
+        "end_char": 13711,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "5f10df2da580e766a5c74887bcffddc7",
+        "passage_rank": 5,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "fab48e7cda6fef4735c57c7e1e0a1336",
+        "sentence_text": "Conclusion\tjiant provides a configuration-driven interface for defining transfer learning and representation learning experiments using a bank of over 50 NLU tasks, cutting-edge sentence encoder models, and multi-task and multi-stage training procedures.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 13457
+      },
+      {
+        "cross_encoder_score": -0.16455233097076416,
+        "dataset": "QASPER",
+        "end_char": 13803,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "5f10df2da580e766a5c74887bcffddc7",
+        "passage_rank": 5,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "0af35c5f888d4f234165222aab137dba",
+        "sentence_text": "Further, jiant is shown to be able to replicate published performance on various NLU tasks.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 13712
+      },
+      {
+        "cross_encoder_score": 4.30706262588501,
+        "dataset": "QASPER",
+        "end_char": 14023,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "5f10df2da580e766a5c74887bcffddc7",
+        "passage_rank": 5,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "b86046c14231bab448653099ffcccb0a",
+        "sentence_text": "jiant's modular design of task and sentence encoder components make it possible for users to quickly and easily experiment with a large number of tasks, models, and parameter configurations, without editing source code.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 13804
+      },
+      {
+        "cross_encoder_score": 0.7466802597045898,
+        "dataset": "QASPER",
+        "end_char": 14170,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "5f10df2da580e766a5c74887bcffddc7",
+        "passage_rank": 5,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "91ba36c48a818c059db229407d2652ac",
+        "sentence_text": "jiant's design also makes it easy to add new tasks, and jiant's architecture makes it convenient to extend jiant to support new sentence encoders.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 14024
+      },
+      {
+        "cross_encoder_score": -1.0772902965545654,
+        "dataset": "QASPER",
+        "end_char": 14279,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "5f10df2da580e766a5c74887bcffddc7",
+        "passage_rank": 5,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "415158daebc9f91da108eccafb27ee73",
+        "sentence_text": "jiant code is open source, and jiant invites contributors to open issues or submit pull request to the jiant",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          10,
+          8,
+          0
+        ],
+        "source_position": 14171
+      },
+      {
+        "cross_encoder_score": -3.965449810028076,
+        "dataset": "QASPER",
+        "end_char": 14333,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "7246f1af20c35c3445a90449b08a04dd",
+        "passage_rank": 6,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "93ca4f86da6e07932b85f170df22f95f",
+        "sentence_text": "project repository: https://github.com/nyu-mll/jiant.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 14280
+      },
+      {
+        "cross_encoder_score": -11.248822212219238,
+        "dataset": "QASPER",
+        "end_char": 14695,
+        "pair_tokens_before_truncation": 117,
+        "pair_truncated": false,
+        "passage_id": "7246f1af20c35c3445a90449b08a04dd",
+        "passage_rank": 6,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "a0fcf1945439388d5be3fe60c7117f18",
+        "sentence_text": "Acknowledgments\tKatherin Yu, Jan Hula, Patrick Xia, Raghu Pappagari, Shuning Jin, R. Thomas McCoy, Roma Patel, Yinghui Huang, Edouard Grave, Najoung Kim, Thibault F\u00e9vry, Berlin Chen, Nikita Nangia, Anhad Mohananey, Katharina Kann, Shikha Bordia, Nicolas Patry, David Benton, and Ellie Pavlick have contributed substantial engineering assistance to the project.",
+        "sentence_token_cost": 101,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 14335
+      },
+      {
+        "cross_encoder_score": 0.42373672127723694,
+        "dataset": "QASPER",
+        "end_char": 14981,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "7246f1af20c35c3445a90449b08a04dd",
+        "passage_rank": 6,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "f991fafc2425396857ad05849a066af5",
+        "sentence_text": "The early development of jiant took at the 2018 Frederick Jelinek Memorial Summer Workshop on Speech and Language Technologies, and was supported by Johns Hopkins University with unrestricted gifts from Amazon, Facebook, Google, Microsoft and Mitsubishi Electric Research Laboratories.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 14696
+      },
+      {
+        "cross_encoder_score": -11.263008117675781,
+        "dataset": "QASPER",
+        "end_char": 15261,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "7246f1af20c35c3445a90449b08a04dd",
+        "passage_rank": 6,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "815946bb4e64d20df9512fcb48053da6",
+        "sentence_text": "Subsequent development was possible in part by a donation to NYU from Eric and Wendy Schmidt made by recommendation of the Schmidt Futures program, by support from Intuit Inc., and by support from Samsung Research under the project Improving Deep Learning using Latent Structure.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 14982
+      },
+      {
+        "cross_encoder_score": -11.39451789855957,
+        "dataset": "QASPER",
+        "end_char": 15382,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "7246f1af20c35c3445a90449b08a04dd",
+        "passage_rank": 6,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "695da714a67a1e68e8c6049589216b9b",
+        "sentence_text": "We gratefully acknowledge the support of NVIDIA Corporation with the donation of a Titan V GPU used at NYU in this work.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 15262
+      },
+      {
+        "cross_encoder_score": -11.222051620483398,
+        "dataset": "QASPER",
+        "end_char": 15443,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "7246f1af20c35c3445a90449b08a04dd",
+        "passage_rank": 6,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "a445f0bc03552d6910d29f512f50dd7d",
+        "sentence_text": "Alex Wang's work on the project is supported by the National",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 15383
+      },
+      {
+        "cross_encoder_score": -11.382819175720215,
+        "dataset": "QASPER",
+        "end_char": 15528,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "9811524f7ed126199ce75705e8c3fda4",
+        "passage_rank": 10,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "a013b513994d3d725bafd133c8c50158",
+        "sentence_text": "Science Foundation Graduate Research Fellowship Program under Grant No. DGE 1342536.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 15444
+      },
+      {
+        "cross_encoder_score": -11.379790306091309,
+        "dataset": "QASPER",
+        "end_char": 15718,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "9811524f7ed126199ce75705e8c3fda4",
+        "passage_rank": 10,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "e5e0d6c69c481cda7f933c5eb4a805af",
+        "sentence_text": "Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 15529
+      },
+      {
+        "cross_encoder_score": -11.356855392456055,
+        "dataset": "QASPER",
+        "end_char": 15877,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "9811524f7ed126199ce75705e8c3fda4",
+        "passage_rank": 10,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "565fa30d70dcff9dfd81c99b502c8325",
+        "sentence_text": "Yada Pruksachatkun's work on the project is supported in part by the Moore-Sloan Data Science Environment as part of the NYU Data Science Services initiative.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 15719
+      },
+      {
+        "cross_encoder_score": -5.8416876792907715,
+        "dataset": "QASPER",
+        "end_char": 15986,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "9811524f7ed126199ce75705e8c3fda4",
+        "passage_rank": 10,
+        "query_id": "8b9c12df9f89040f1485b3847a29f11b5c9262e0",
+        "sentence_id": "838a22d1030f113fd1ed12cf5b249912",
+        "sentence_text": "Sam Bowman's work on jiant during Summer 2019 took place in his capacity as a visiting researcher at Google.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 15878
+      }
+    ],
+    "scoring_seconds": 0.4143354590050876,
+    "source_fingerprint": "653032563541da04a27c58e9c25c878abcb88724070f4078d7e48e3986ed3a55"
+  }
+}

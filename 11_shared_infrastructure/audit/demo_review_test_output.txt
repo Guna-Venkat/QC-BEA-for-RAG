@@ -1,0 +1,146 @@
+.................................................F...................... [ 42%]
+.FFFFF.........F.............F.......................................... [ 85%]
+........................                                                 [100%]
+=================================== FAILURES ===================================
+_________________________ test_only_selective_ignores __________________________
+demo/tests/test_final_freeze.py:82: in test_only_selective_ignores
+    assert not ignored('demo/app.py')
+E   AssertionError: assert not True
+E    +  where True = <function test_only_selective_ignores.<locals>.ignored at 0x7f698f28bf60>('demo/app.py')
+_________________________ test_live_ui_cases[NONE-256] _________________________
+demo/tests/test_live.py:127: in test_live_ui_cases
+    assert any('Reader generation unavailable' in i.value for i in app.info)
+E   assert False
+E    +  where False = any(<generator object test_live_ui_cases.<locals>.<genexpr> at 0x7f698f32f780>)
+----------------------------- Captured stderr call -----------------------------
+2026-11-11 16:56:40.736 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2026-11-11 16:56:40.996 The widget with key "live_models_enabled" was created with a default value but also had its value set via the Session State API.
+Stack (most recent call last):
+  File "/home/gunavenkat/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/threading.py", line 1002, in _bootstrap
+    self._bootstrap_inner()
+  File "/home/gunavenkat/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/gunavenkat/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/testing/v1/local_script_runner.py", line 144, in _run_script_thread
+    super()._run_script_thread()
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 436, in _run_script_thread
+    self._run_script(request.rerun_data)
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 949, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 924, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+  File "/tmp/pytest-of-gunavenkat/pytest-109/test_live_ui_cases_NONE_256_0/live_host.py", line 16, in <module>
+    ui.render()
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/live/ui.py", line 351, in render
+    enable_models = st.toggle(
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/runtime/metrics_util.py", line 725, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/elements/widgets/checkbox.py", line 482, in toggle
+    return self._checkbox(
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/elements/widgets/checkbox.py", line 525, in _checkbox
+    check_widget_policies(
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/elements/lib/policies.py", line 146, in check_widget_policies
+    check_session_state_rules(
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/elements/lib/policies.py", line 90, in check_session_state_rules
+    _LOGGER.warning(
+------------------------------ Captured log call -------------------------------
+WARNING  streamlit.runtime.scriptrunner_utils.script_run_context:script_run_context.py:508 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+WARNING  streamlit.elements.lib.policies:policies.py:90 The widget with key "live_models_enabled" was created with a default value but also had its value set via the Session State API.
+Stack (most recent call last):
+  File "/home/gunavenkat/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/threading.py", line 1002, in _bootstrap
+    self._bootstrap_inner()
+  File "/home/gunavenkat/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/threading.py", line 1045, in _bootstrap_inner
+    self.run()
+  File "/home/gunavenkat/.local/share/uv/python/cpython-3.11.16-linux-x86_64-gnu/lib/python3.11/threading.py", line 982, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/testing/v1/local_script_runner.py", line 144, in _run_script_thread
+    super()._run_script_thread()
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 436, in _run_script_thread
+    self._run_script(request.rerun_data)
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 949, in _run_script
+    ) = exec_func_with_error_handling(code_to_exec, ctx)
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 136, in exec_func_with_error_handling
+    result = func()
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 924, in code_to_exec
+    exec(code, module.__dict__)  # noqa: S102
+  File "/tmp/pytest-of-gunavenkat/pytest-109/test_live_ui_cases_NONE_256_0/live_host.py", line 16, in <module>
+    ui.render()
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/live/ui.py", line 351, in render
+    enable_models = st.toggle(
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/runtime/metrics_util.py", line 725, in wrapped_func
+    result = non_optional_func(*args, **kwargs)
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/elements/widgets/checkbox.py", line 482, in toggle
+    return self._checkbox(
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/elements/widgets/checkbox.py", line 525, in _checkbox
+    check_widget_policies(
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/elements/lib/policies.py", line 146, in check_widget_policies
+    check_session_state_rules(
+  File "/home/gunavenkat/Downloads/CS787-RAG-Project/demo/.venv/lib/python3.11/site-packages/streamlit/elements/lib/policies.py", line 90, in check_session_state_rules
+    _LOGGER.warning(
+_______________________ test_live_ui_cases[RAW_SKIP-256] _______________________
+demo/tests/test_live.py:127: in test_live_ui_cases
+    assert any('Reader generation unavailable' in i.value for i in app.info)
+E   assert False
+E    +  where False = any(<generator object test_live_ui_cases.<locals>.<genexpr> at 0x7f698f2b0040>)
+----------------------------- Captured stderr call -----------------------------
+2026-11-11 16:56:41.152 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+------------------------------ Captured log call -------------------------------
+WARNING  streamlit.runtime.scriptrunner_utils.script_run_context:script_run_context.py:508 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+____________________ test_live_ui_cases[FIXED_SENTENCE-256] ____________________
+demo/tests/test_live.py:127: in test_live_ui_cases
+    assert any('Reader generation unavailable' in i.value for i in app.info)
+E   assert False
+E    +  where False = any(<generator object test_live_ui_cases.<locals>.<genexpr> at 0x7f698f32f850>)
+----------------------------- Captured stderr call -----------------------------
+2026-11-11 16:56:41.574 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+------------------------------ Captured log call -------------------------------
+WARNING  streamlit.runtime.scriptrunner_utils.script_run_context:script_run_context.py:508 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+___________________ test_live_ui_cases[FIXED_SENTENCE-1024] ____________________
+demo/tests/test_live.py:127: in test_live_ui_cases
+    assert any('Reader generation unavailable' in i.value for i in app.info)
+E   assert False
+E    +  where False = any(<generator object test_live_ui_cases.<locals>.<genexpr> at 0x7f698f32f780>)
+----------------------------- Captured stderr call -----------------------------
+2026-11-11 16:56:42.003 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+------------------------------ Captured log call -------------------------------
+WARNING  streamlit.runtime.scriptrunner_utils.script_run_context:script_run_context.py:508 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+______________________ test_live_ui_cases[QBGF_FULL-256] _______________________
+demo/tests/test_live.py:127: in test_live_ui_cases
+    assert any('Reader generation unavailable' in i.value for i in app.info)
+E   assert False
+E    +  where False = any(<generator object test_live_ui_cases.<locals>.<genexpr> at 0x7f698f32f780>)
+----------------------------- Captured stderr call -----------------------------
+2026-11-11 16:56:42.458 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+------------------------------ Captured log call -------------------------------
+WARNING  streamlit.runtime.scriptrunner_utils.script_run_context:script_run_context.py:508 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+______________________ test_cpu_ui_offers_sfr_without_gpu ______________________
+demo/tests/test_live.py:263: in test_cpu_ui_offers_sfr_without_gpu
+    assert 'SFR' in retriever.options
+E   AssertionError: assert 'SFR' in ['BM25']
+E    +  where ['BM25'] = Selectbox(key='live_retriever', _value=InitialValue(), label='Retriever', options=['BM25']).options
+----------------------------- Captured stderr call -----------------------------
+2026-11-11 16:56:44.547 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+------------------------------ Captured log call -------------------------------
+WARNING  streamlit.runtime.scriptrunner_utils.script_run_context:script_run_context.py:508 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+___________ test_controlled_ui_end_to_end_and_frozen_mode_visibility ___________
+demo/tests/test_live_correctness.py:114: in test_controlled_ui_end_to_end_and_frozen_mode_visibility
+    next(b for b in app.button if b.label=='Compare Retrievers End-to-End').click().run(timeout=20)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   StopIteration
+----------------------------- Captured stderr call -----------------------------
+2026-11-11 16:56:45.558 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+------------------------------ Captured log call -------------------------------
+WARNING  streamlit.runtime.scriptrunner_utils.script_run_context:script_run_context.py:508 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+=========================== short test summary info ============================
+FAILED demo/tests/test_final_freeze.py::test_only_selective_ignores - Asserti...
+FAILED demo/tests/test_live.py::test_live_ui_cases[NONE-256] - assert False
+FAILED demo/tests/test_live.py::test_live_ui_cases[RAW_SKIP-256] - assert False
+FAILED demo/tests/test_live.py::test_live_ui_cases[FIXED_SENTENCE-256] - asse...
+FAILED demo/tests/test_live.py::test_live_ui_cases[FIXED_SENTENCE-1024] - ass...
+FAILED demo/tests/test_live.py::test_live_ui_cases[QBGF_FULL-256] - assert False
+FAILED demo/tests/test_live.py::test_cpu_ui_offers_sfr_without_gpu - Assertio...
+FAILED demo/tests/test_live_correctness.py::test_controlled_ui_end_to_end_and_frozen_mode_visibility
+8 failed, 160 passed in 28.16s

@@ -1,0 +1,2411 @@
+{
+  "checksum": "d713b86b80611039cf3cae3be5a74b87f4febb7a97ad13e90f2a8554700beeff",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "539"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 119,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "e236f8c77763a5ae3074c64cb4dfa79e997f3bc70acdebdb02c8da410cc26b63",
+    "query_id": "539",
+    "scores": [
+      {
+        "cross_encoder_score": -3.699306011199951,
+        "dataset": "SciFact",
+        "end_char": 182,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "42a86556eec3f9c3d1f89a630dfb2af0",
+        "passage_rank": 10,
+        "query_id": "539",
+        "sentence_id": "83b4c6ef974054c46d740e2ac4d2f76e",
+        "sentence_text": "Hyperglycemia is associated with increased bone mineral density and decreased trabecular bone score in elderly Japanese men: The Fujiwara-kyo osteoporosis risk in men (FORMEN) study.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          311,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.62199878692627,
+        "dataset": "SciFact",
+        "end_char": 325,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "42a86556eec3f9c3d1f89a630dfb2af0",
+        "passage_rank": 10,
+        "query_id": "539",
+        "sentence_id": "72e0fcabdbe486ad0414c81452b30d9f",
+        "sentence_text": "PURPOSE Patients with type 2 diabetes mellitus (T2DM) have an increased fracture risk despite having higher areal bone mineral density (aBMD).",
+        "sentence_token_cost": 33,
+        "source_order": [
+          311,
+          0,
+          1,
+          0
+        ],
+        "source_position": 183
+      },
+      {
+        "cross_encoder_score": -10.871624946594238,
+        "dataset": "SciFact",
+        "end_char": 533,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "42a86556eec3f9c3d1f89a630dfb2af0",
+        "passage_rank": 10,
+        "query_id": "539",
+        "sentence_id": "39d1a3847b00d244a706f91640eecd0f",
+        "sentence_text": "This study aimed to clarify the association between glycemic and insulin resistance status and bone microarchitecture, and whether pentosidine and bone turnover markers play any roles in the association.   \n",
+        "sentence_token_cost": 36,
+        "source_order": [
+          311,
+          0,
+          2,
+          0
+        ],
+        "source_position": 326
+      },
+      {
+        "cross_encoder_score": -10.508132934570312,
+        "dataset": "SciFact",
+        "end_char": 951,
+        "pair_tokens_before_truncation": 130,
+        "pair_truncated": false,
+        "passage_id": "42a86556eec3f9c3d1f89a630dfb2af0",
+        "passage_rank": 10,
+        "query_id": "539",
+        "sentence_id": "9892b3fca602a3961fb8f126f90d1de1",
+        "sentence_text": "METHODS A total of 2012 community-dwelling men aged \u226565years completed baseline measurements of spine aBMD, fasting plasma glucose (FPG) and serum insulin, hemoglobin A1c (HbA1c), osteocalcin, type I procollagen N-terminal propeptide, type I collagen C-terminal crosslinking telopeptide, tartrate-resistant acid phosphatase isoenzyme 5b, pentosidine, height and weight and an interview regarding past disease history.",
+        "sentence_token_cost": 110,
+        "source_order": [
+          311,
+          0,
+          3,
+          0
+        ],
+        "source_position": 534
+      },
+      {
+        "cross_encoder_score": -10.981221199035645,
+        "dataset": "SciFact",
+        "end_char": 1030,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "42a86556eec3f9c3d1f89a630dfb2af0",
+        "passage_rank": 10,
+        "query_id": "539",
+        "sentence_id": "56f390300e6b54b08e70810397b0148b",
+        "sentence_text": "Homeostasis model assessment-insulin resistance (HOMA-IR) was also calculated.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          311,
+          0,
+          4,
+          0
+        ],
+        "source_position": 952
+      },
+      {
+        "cross_encoder_score": -10.640647888183594,
+        "dataset": "SciFact",
+        "end_char": 1159,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "42a86556eec3f9c3d1f89a630dfb2af0",
+        "passage_rank": 10,
+        "query_id": "539",
+        "sentence_id": "deef0e68fdbf90fed1a8d9760ab64669",
+        "sentence_text": "T2DM was defined as physician-diagnosed middle age or elderly-onset diabetes mellitus, or according to biochemical test results.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          311,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1031
+      },
+      {
+        "cross_encoder_score": -11.188716888427734,
+        "dataset": "SciFact",
+        "end_char": 1300,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "42a86556eec3f9c3d1f89a630dfb2af0",
+        "passage_rank": 10,
+        "query_id": "539",
+        "sentence_id": "a992eab9216f278d91388b59517b554a",
+        "sentence_text": "To evaluate bone microarchitecture, trabecular bone score (TBS) was calculated at the same vertebrae as those used for aBMD measurement.   \n",
+        "sentence_token_cost": 33,
+        "source_order": [
+          311,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1160
+      },
+      {
+        "cross_encoder_score": -10.89658260345459,
+        "dataset": "SciFact",
+        "end_char": 1466,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "42a86556eec3f9c3d1f89a630dfb2af0",
+        "passage_rank": 10,
+        "query_id": "539",
+        "sentence_id": "55b0ec8c948779476be9efd1dddf0213",
+        "sentence_text": "RESULTS After excluding participants who had a disease history and/or were taking medications affecting bone metabolism, 1683 men (age, 72.9\u00b15.2years) were analyzed.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          311,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1301
+      },
+      {
+        "cross_encoder_score": -10.582514762878418,
+        "dataset": "SciFact",
+        "end_char": 1542,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "42a86556eec3f9c3d1f89a630dfb2af0",
+        "passage_rank": 10,
+        "query_id": "539",
+        "sentence_id": "57102b0c56fff535c5cc0b6d2fa931a3",
+        "sentence_text": "Men with T2DM had significantly higher aBMD compared to those without T2DM.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          311,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1467
+      },
+      {
+        "cross_encoder_score": -10.046966552734375,
+        "dataset": "SciFact",
+        "end_char": 1586,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "42a86556eec3f9c3d1f89a630dfb2af0",
+        "passage_rank": 10,
+        "query_id": "539",
+        "sentence_id": "f2155aafacd6c25dc44b320c641ac59c",
+        "sentence_text": "There was no significant difference in TBS.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          311,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1543
+      },
+      {
+        "cross_encoder_score": -10.428272247314453,
+        "dataset": "SciFact",
+        "end_char": 1713,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "42a86556eec3f9c3d1f89a630dfb2af0",
+        "passage_rank": 10,
+        "query_id": "539",
+        "sentence_id": "39cc4733ad37397bd37528c09a26e040",
+        "sentence_text": "However, FPG, HbA1c and HOMA-IR levels were significantly inversely correlated with TBS after adjusting for age, BMI and aBMD.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          311,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1587
+      },
+      {
+        "cross_encoder_score": -8.371864318847656,
+        "dataset": "SciFact",
+        "end_char": 1916,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "42a86556eec3f9c3d1f89a630dfb2af0",
+        "passage_rank": 10,
+        "query_id": "539",
+        "sentence_id": "f9fe6dc9898a0c60436a3b1a0bc337c7",
+        "sentence_text": "Multivariate linear regression analyses revealed that glycemic indices (FPG and HbA1c) were significantly associated with increased aBMD and decreased TBS, and that HOMA-IR was associated only with TBS.",
+        "sentence_token_cost": 47,
+        "source_order": [
+          311,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1714
+      },
+      {
+        "cross_encoder_score": -11.123089790344238,
+        "dataset": "SciFact",
+        "end_char": 2027,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "42a86556eec3f9c3d1f89a630dfb2af0",
+        "passage_rank": 10,
+        "query_id": "539",
+        "sentence_id": "1f06990bfc9f2c246e8f4b9f6cd7b260",
+        "sentence_text": "These associations did not change after further adjusting for bone turnover makers and pentosidine levels.   \n",
+        "sentence_token_cost": 19,
+        "source_order": [
+          311,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1917
+      },
+      {
+        "cross_encoder_score": -8.497580528259277,
+        "dataset": "SciFact",
+        "end_char": 2169,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "42a86556eec3f9c3d1f89a630dfb2af0",
+        "passage_rank": 10,
+        "query_id": "539",
+        "sentence_id": "2ddf91543d4f78b21679957c104b6873",
+        "sentence_text": "CONCLUSIONS Hyperglycemia and elevated insulin-resistance were associated with low TBS independently of bone turnover and pentosidine levels.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          311,
+          0,
+          13,
+          0
+        ],
+        "source_position": 2028
+      },
+      {
+        "cross_encoder_score": -6.482395172119141,
+        "dataset": "SciFact",
+        "end_char": 90,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "dd5b7436921b2eb009e6077c72732540",
+        "passage_rank": 7,
+        "query_id": "539",
+        "sentence_id": "ebe81eaaedcf1339c974425b8755c45d",
+        "sentence_text": "Partitioning the symptoms of hypoglycaemia using multi-sample confirmatory factor analysis",
+        "sentence_token_cost": 17,
+        "source_order": [
+          346,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.221158504486084,
+        "dataset": "SciFact",
+        "end_char": 207,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "dd5b7436921b2eb009e6077c72732540",
+        "passage_rank": 7,
+        "query_id": "539",
+        "sentence_id": "5c24dba62d9f6178d858016830d4aa65",
+        "sentence_text": "The allocation of hypoglycaemic symptoms to autonomie or neuroglycopenic groups tends to occur on an a priori basis.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          346,
+          0,
+          1,
+          0
+        ],
+        "source_position": 91
+      },
+      {
+        "cross_encoder_score": -6.244458198547363,
+        "dataset": "SciFact",
+        "end_char": 324,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "dd5b7436921b2eb009e6077c72732540",
+        "passage_rank": 7,
+        "query_id": "539",
+        "sentence_id": "5b7a0a4b7d4a2e740c1aa0f7db905664",
+        "sentence_text": "In view of the practical need for clear symptom markers of hypoglycaemia more scientific approaches must be pursued.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          346,
+          0,
+          2,
+          0
+        ],
+        "source_position": 208
+      },
+      {
+        "cross_encoder_score": -8.008352279663086,
+        "dataset": "SciFact",
+        "end_char": 563,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "dd5b7436921b2eb009e6077c72732540",
+        "passage_rank": 7,
+        "query_id": "539",
+        "sentence_id": "8b880d58a7e3b63adef6e6b489d129e7",
+        "sentence_text": "Substantial evidence is presented from two large scale studies we performed which support a three factor model of hypoglycaemic symptomatology, based on the statistical associations discovered among symptoms reported by diabetic patients.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          346,
+          0,
+          3,
+          0
+        ],
+        "source_position": 325
+      },
+      {
+        "cross_encoder_score": -7.048564434051514,
+        "dataset": "SciFact",
+        "end_char": 877,
+        "pair_tokens_before_truncation": 91,
+        "pair_truncated": false,
+        "passage_id": "dd5b7436921b2eb009e6077c72732540",
+        "passage_rank": 7,
+        "query_id": "539",
+        "sentence_id": "35f636aaa37157fd0d9cefb593bae5e0",
+        "sentence_text": "Study 1 involved 295 insulin-treated outpatients and found that 11 key hypoglycaemic symptoms segregated into three clear factors: autonomie (sweating, palpitation, shaking and hunger) neuroglycopenic (confusion, drowsiness, odd behaviour, speech difficulty and incoordination), and malaise (nausea and headache).",
+        "sentence_token_cost": 78,
+        "source_order": [
+          346,
+          0,
+          4,
+          0
+        ],
+        "source_position": 564
+      },
+      {
+        "cross_encoder_score": -10.961395263671875,
+        "dataset": "SciFact",
+        "end_char": 976,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "dd5b7436921b2eb009e6077c72732540",
+        "passage_rank": 7,
+        "query_id": "539",
+        "sentence_id": "59bf8c77a052f0ae003e07064314a083",
+        "sentence_text": "The three factors were validated on a separate group of 303 insulin-treated diabetic out-patients.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          346,
+          0,
+          5,
+          0
+        ],
+        "source_position": 878
+      },
+      {
+        "cross_encoder_score": -11.142559051513672,
+        "dataset": "SciFact",
+        "end_char": 1111,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "dd5b7436921b2eb009e6077c72732540",
+        "passage_rank": 7,
+        "query_id": "539",
+        "sentence_id": "493d411dc1e4e07134553e8f5e5b83ba",
+        "sentence_text": "Confirmatory factor analyses showed that the three factor model was the optimal model for explaining symptom covariance in each group.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          346,
+          0,
+          6,
+          0
+        ],
+        "source_position": 977
+      },
+      {
+        "cross_encoder_score": -11.151846885681152,
+        "dataset": "SciFact",
+        "end_char": 1340,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "dd5b7436921b2eb009e6077c72732540",
+        "passage_rank": 7,
+        "query_id": "539",
+        "sentence_id": "77721b49d2cb3e28032a0ccfa2172750",
+        "sentence_text": "A multi-sample confirmatory factor analysis tested the rigorous assumptions that the relative loadings of symptoms on factors across groups were equal, and that the residual variance for each symptom was identical across groups.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          346,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1112
+      },
+      {
+        "cross_encoder_score": -11.163381576538086,
+        "dataset": "SciFact",
+        "end_char": 1471,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "dd5b7436921b2eb009e6077c72732540",
+        "passage_rank": 7,
+        "query_id": "539",
+        "sentence_id": "8af48e194a7c260abdda64ba1a7673be",
+        "sentence_text": "These assumptions were successful, indicating that the three factor model was replicated in detail across these two large samples.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          346,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1341
+      },
+      {
+        "cross_encoder_score": -10.879935264587402,
+        "dataset": "SciFact",
+        "end_char": 1603,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "dd5b7436921b2eb009e6077c72732540",
+        "passage_rank": 7,
+        "query_id": "539",
+        "sentence_id": "d7b852e6de8b97ff8167628a0c5a574f",
+        "sentence_text": "It is suggested that the results indicate valid groupings of symptoms that may be used in future research and in clinical practice.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          346,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1472
+      },
+      {
+        "cross_encoder_score": -6.054764747619629,
+        "dataset": "SciFact",
+        "end_char": 131,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "50ef61664be2c0d1cd8b7642659f3aba",
+        "passage_rank": 6,
+        "query_id": "539",
+        "sentence_id": "1d89a5218166ed7e02318c3f4a1b5807",
+        "sentence_text": "Unawareness of hypoglycaemia and inadequate hypoglycaemic counterregulation: no causal relation with diabetic autonomic neuropathy.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1284,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.2919921875,
+        "dataset": "SciFact",
+        "end_char": 341,
+        "pair_tokens_before_truncation": 62,
+        "pair_truncated": false,
+        "passage_id": "50ef61664be2c0d1cd8b7642659f3aba",
+        "passage_rank": 6,
+        "query_id": "539",
+        "sentence_id": "5be0f4151e7a99c8517c79ebb0a6741e",
+        "sentence_text": "OBJECTIVE To examine the traditional view that unawareness of hypoglycaemia and inadequate hypoglycaemic counterregulation in insulin dependent diabetes mellitus are manifestations of autonomic neuropathy.   \n",
+        "sentence_token_cost": 41,
+        "source_order": [
+          1284,
+          0,
+          1,
+          0
+        ],
+        "source_position": 132
+      },
+      {
+        "cross_encoder_score": -7.324925899505615,
+        "dataset": "SciFact",
+        "end_char": 567,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "50ef61664be2c0d1cd8b7642659f3aba",
+        "passage_rank": 6,
+        "query_id": "539",
+        "sentence_id": "9b8447e9866ef3f50374cd540f72f6ee",
+        "sentence_text": "DESIGN Perspective assessment of unawareness of hypoglycaemia and detailed assessment of autonomic neuropathy in patients with insulin dependent diabetes according to the adequacy of their hypoglycaemic counterregulation.   \n",
+        "sentence_token_cost": 44,
+        "source_order": [
+          1284,
+          0,
+          2,
+          0
+        ],
+        "source_position": 342
+      },
+      {
+        "cross_encoder_score": -11.060855865478516,
+        "dataset": "SciFact",
+        "end_char": 640,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "50ef61664be2c0d1cd8b7642659f3aba",
+        "passage_rank": 6,
+        "query_id": "539",
+        "sentence_id": "717fa941ec20e0567f380565fda28f1a",
+        "sentence_text": "SETTING One routine diabetic unit in a university teaching hospital.   \n",
+        "sentence_token_cost": 12,
+        "source_order": [
+          1284,
+          0,
+          3,
+          0
+        ],
+        "source_position": 568
+      },
+      {
+        "cross_encoder_score": -6.191183567047119,
+        "dataset": "SciFact",
+        "end_char": 1019,
+        "pair_tokens_before_truncation": 95,
+        "pair_truncated": false,
+        "passage_id": "50ef61664be2c0d1cd8b7642659f3aba",
+        "passage_rank": 6,
+        "query_id": "539",
+        "sentence_id": "d5fad01ec56941d4df018005ba6a942e",
+        "sentence_text": "PATIENTS 23 Patients aged 21-52 with insulin dependent diabetes mellitus (seven with symptoms suggesting autonomic neuropathy, nine with a serious clinical problem with hypoglycaemia, and seven without symptoms of autonomic neuropathy and without problems with hypoglycaemia) and 10 controls with a similar age distribution, without a personal or family history of diabetes.   \n",
+        "sentence_token_cost": 83,
+        "source_order": [
+          1284,
+          0,
+          4,
+          0
+        ],
+        "source_position": 641
+      },
+      {
+        "cross_encoder_score": -8.056349754333496,
+        "dataset": "SciFact",
+        "end_char": 1531,
+        "pair_tokens_before_truncation": 144,
+        "pair_truncated": false,
+        "passage_id": "50ef61664be2c0d1cd8b7642659f3aba",
+        "passage_rank": 6,
+        "query_id": "539",
+        "sentence_id": "f31a266db1dfc407ff2bcb0af9a842c0",
+        "sentence_text": "MAIN OUTCOME MEASURES Presence of autonomic neuropathy as assessed with a test of the longest sympathetic fibres (acetylcholine sweatspot test), a pupil test, and a battery of seven cardiovascular autonomic function tests; adequacy of hypoglycaemic glucose counterregulation during a 40 mU/kg/h insulin infusion test; history of unawareness of hypoglycaemia; and response of plasma pancreatic polypeptide during hypoglycaemia, which depends on an intact and responding autonomic innervation of the pancreas.   \n",
+        "sentence_token_cost": 116,
+        "source_order": [
+          1284,
+          0,
+          5,
+          0
+        ],
+        "source_position": 1020
+      },
+      {
+        "cross_encoder_score": -7.334076404571533,
+        "dataset": "SciFact",
+        "end_char": 1742,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "50ef61664be2c0d1cd8b7642659f3aba",
+        "passage_rank": 6,
+        "query_id": "539",
+        "sentence_id": "e4dcd78dd941ba780cbb3b13ce49380c",
+        "sentence_text": "RESULTS There was little evidence of autonomic neuropathy in either the 12 diabetic patients with a history of unawareness of hypoglycaemia or the seven patients with inadequate hypoglycaemic counterregulation.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          1284,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1532
+      },
+      {
+        "cross_encoder_score": -5.490600109100342,
+        "dataset": "SciFact",
+        "end_char": 1950,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "50ef61664be2c0d1cd8b7642659f3aba",
+        "passage_rank": 6,
+        "query_id": "539",
+        "sentence_id": "cc8bb4e966d32829e6ca5e26e2038e08",
+        "sentence_text": "By contrast, in all seven patients with clear evidence of autonomic neuropathy there was no history of unawareness of hypoglycaemia and in six out of seven there was adequate hypoglycaemic counterregulation.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          1284,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1743
+      },
+      {
+        "cross_encoder_score": -5.217491626739502,
+        "dataset": "SciFact",
+        "end_char": 2076,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "50ef61664be2c0d1cd8b7642659f3aba",
+        "passage_rank": 6,
+        "query_id": "539",
+        "sentence_id": "f9f31eaf416145842c55e7a40fa36548",
+        "sentence_text": "Unawareness of hypoglycaemia and inadequate hypoglycaemic counterregulation were significantly associated (p less than 0.01).",
+        "sentence_token_cost": 32,
+        "source_order": [
+          1284,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1951
+      },
+      {
+        "cross_encoder_score": -11.074148178100586,
+        "dataset": "SciFact",
+        "end_char": 2332,
+        "pair_tokens_before_truncation": 78,
+        "pair_truncated": false,
+        "passage_id": "50ef61664be2c0d1cd8b7642659f3aba",
+        "passage_rank": 6,
+        "query_id": "539",
+        "sentence_id": "f42708d73c896baf5ef3f041defaad22",
+        "sentence_text": "The response of plasma pancreatic polypeptide in the diabetic patients with adequate counterregulation but without autonomic neuropathy was not significantly different from that of the controls (change in plasma pancreatic polypeptide 226.8 v 414 pmol/l).",
+        "sentence_token_cost": 55,
+        "source_order": [
+          1284,
+          0,
+          9,
+          0
+        ],
+        "source_position": 2077
+      },
+      {
+        "cross_encoder_score": -8.483891487121582,
+        "dataset": "SciFact",
+        "end_char": 2613,
+        "pair_tokens_before_truncation": 95,
+        "pair_truncated": false,
+        "passage_id": "50ef61664be2c0d1cd8b7642659f3aba",
+        "passage_rank": 6,
+        "query_id": "539",
+        "sentence_id": "a7836fdc91b261a638a9c16692b05b14",
+        "sentence_text": "The patients with autonomic neuropathy had a negligible plasma pancreatic polypeptide response (3.7 pmol/l), but this response was also blunted in the patients with inadequate hypoglycaemic counterregulation (72.4 pmol/l) compared with that of the controls (p less than 0.05).   \n",
+        "sentence_token_cost": 70,
+        "source_order": [
+          1284,
+          0,
+          10,
+          0
+        ],
+        "source_position": 2333
+      },
+      {
+        "cross_encoder_score": -5.892239570617676,
+        "dataset": "SciFact",
+        "end_char": 2783,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "50ef61664be2c0d1cd8b7642659f3aba",
+        "passage_rank": 6,
+        "query_id": "539",
+        "sentence_id": "72dec8b14e5e891b078176c1e4844891",
+        "sentence_text": "CONCLUSIONS Unawareness of hypoglycaemia and inadequate glucose counterregulation during hypoglycaemia are related to each other but are not due to autonomic neuropathy.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          1284,
+          0,
+          11,
+          0
+        ],
+        "source_position": 2614
+      },
+      {
+        "cross_encoder_score": -8.210996627807617,
+        "dataset": "SciFact",
+        "end_char": 3061,
+        "pair_tokens_before_truncation": 77,
+        "pair_truncated": false,
+        "passage_id": "50ef61664be2c0d1cd8b7642659f3aba",
+        "passage_rank": 6,
+        "query_id": "539",
+        "sentence_id": "a23a02767a37c9c28580f18f3041976e",
+        "sentence_text": "The blunted plasma pancreatic polypeptide responses of the patients with inadequate hypoglycaemic counterregulation may reflect diminished autonomic activity consequent upon reduced responsiveness of a central glucoregulatory centre, rather than classical autonomic neuropathy.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          1284,
+          0,
+          12,
+          0
+        ],
+        "source_position": 2784
+      },
+      {
+        "cross_encoder_score": 6.403375148773193,
+        "dataset": "SciFact",
+        "end_char": 91,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 1,
+        "query_id": "539",
+        "sentence_id": "eab377e897d42f8c32ef8e4857f0b62e",
+        "sentence_text": "Hypoglycemic episodes and risk of dementia in older patients with type 2 diabetes mellitus.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          2170,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 6.948827266693115,
+        "dataset": "SciFact",
+        "end_char": 334,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 1,
+        "query_id": "539",
+        "sentence_id": "ad28bfe2ab99ab4176d5f679341c278a",
+        "sentence_text": "CONTEXT Although acute hypoglycemia may be associated with cognitive impairment in children with type 1 diabetes, no studies to date have evaluated whether hypoglycemia is a risk factor for dementia in older patients with type 2 diabetes.   \n",
+        "sentence_token_cost": 50,
+        "source_order": [
+          2170,
+          0,
+          1,
+          0
+        ],
+        "source_position": 92
+      },
+      {
+        "cross_encoder_score": 7.330540657043457,
+        "dataset": "SciFact",
+        "end_char": 558,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 1,
+        "query_id": "539",
+        "sentence_id": "2fc8e0cc64306916706d75a58cb61f1d",
+        "sentence_text": "OBJECTIVE To determine if hypoglycemic episodes severe enough to require hospitalization are associated with an increased risk of dementia in a population of older patients with type 2 diabetes followed up for 27 years.   \n",
+        "sentence_token_cost": 45,
+        "source_order": [
+          2170,
+          0,
+          2,
+          0
+        ],
+        "source_position": 335
+      },
+      {
+        "cross_encoder_score": -11.035194396972656,
+        "dataset": "SciFact",
+        "end_char": 787,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 1,
+        "query_id": "539",
+        "sentence_id": "566ddea8935d978abd2084074eb26254",
+        "sentence_text": "DESIGN, SETTING, AND PATIENTS A longitudinal cohort study from 1980-2007 of 16,667 patients with a mean age of 65 years and type 2 diabetes who are members of an integrated health care delivery system in northern California.   \n",
+        "sentence_token_cost": 63,
+        "source_order": [
+          2170,
+          0,
+          3,
+          0
+        ],
+        "source_position": 559
+      },
+      {
+        "cross_encoder_score": -6.900264263153076,
+        "dataset": "SciFact",
+        "end_char": 932,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 1,
+        "query_id": "539",
+        "sentence_id": "96623bdb16eefc778fe3906b7c2bed8a",
+        "sentence_text": "MAIN OUTCOME MEASURE Hypoglycemic events from 1980-2002 were collected and reviewed using hospital discharge and emergency department diagnoses.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          2170,
+          0,
+          4,
+          0
+        ],
+        "source_position": 788
+      },
+      {
+        "cross_encoder_score": -7.951246738433838,
+        "dataset": "SciFact",
+        "end_char": 1131,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 1,
+        "query_id": "539",
+        "sentence_id": "b019b932fa70cb3b4fa81731d191d7b0",
+        "sentence_text": "Cohort members with no prior diagnoses of dementia, mild cognitive impairment, or general memory complaints as of January 1, 2003, were followed up for a dementia diagnosis through January 15, 2007.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          2170,
+          0,
+          5,
+          0
+        ],
+        "source_position": 933
+      },
+      {
+        "cross_encoder_score": 1.8915398120880127,
+        "dataset": "SciFact",
+        "end_char": 1498,
+        "pair_tokens_before_truncation": 92,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 1,
+        "query_id": "539",
+        "sentence_id": "f3faf1fd29ef9d767570029c5597f5a6",
+        "sentence_text": "Dementia risk was examined using Cox proportional hazard regression models, adjusted for age, sex, race/ethnicity, education, body mass index, duration of diabetes, 7-year mean glycated hemoglobin, diabetes treatment, duration of insulin use, hyperlipidemia, hypertension, cardiovascular disease, stroke, transient cerebral ischemia, and end-stage renal disease.   \n",
+        "sentence_token_cost": 74,
+        "source_order": [
+          2170,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1132
+      },
+      {
+        "cross_encoder_score": 4.084768772125244,
+        "dataset": "SciFact",
+        "end_char": 1727,
+        "pair_tokens_before_truncation": 79,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 1,
+        "query_id": "539",
+        "sentence_id": "09e8508c08b11974b1b988998f2f2ee8",
+        "sentence_text": "RESULTS At least 1 episode of hypoglycemia was diagnosed in 1465 patients (8.8%) and dementia was diagnosed in 1822 patients (11%) during follow-up; 250 patients had both dementia and at least 1 episode of hypoglycemia (16.95%).",
+        "sentence_token_cost": 72,
+        "source_order": [
+          2170,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1499
+      },
+      {
+        "cross_encoder_score": 1.5058369636535645,
+        "dataset": "SciFact",
+        "end_char": 2048,
+        "pair_tokens_before_truncation": 123,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 1,
+        "query_id": "539",
+        "sentence_id": "ec5861e5c1ecffe44bd7d1299c8df75b",
+        "sentence_text": "Compared with patients with no hypoglycemia, patients with single or multiple episodes had a graded increase in risk with fully adjusted hazard ratios (HRs): for 1 episode (HR, 1.26; 95% confidence interval [CI], 1.10-1.49); 2 episodes (HR, 1.80; 95% CI, 1.37-2.36); and 3 or more episodes (HR, 1.94; 95% CI, 1.42-2.64).",
+        "sentence_token_cost": 127,
+        "source_order": [
+          2170,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1728
+      },
+      {
+        "cross_encoder_score": 7.427502155303955,
+        "dataset": "SciFact",
+        "end_char": 2187,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 1,
+        "query_id": "539",
+        "sentence_id": "bcb723cb2da7e58b0ea19eb8d1b6ff5e",
+        "sentence_text": "The attributable risk of dementia between individuals with and without a history of hypoglycemia was 2.39% per year (95% CI, 1.72%-3.01%).",
+        "sentence_token_cost": 44,
+        "source_order": [
+          2170,
+          0,
+          9,
+          0
+        ],
+        "source_position": 2049
+      },
+      {
+        "cross_encoder_score": -11.218165397644043,
+        "dataset": "SciFact",
+        "end_char": 2347,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 1,
+        "query_id": "539",
+        "sentence_id": "1a4c368670ffeb2b48c3845f109b5b44",
+        "sentence_text": "Results were not attenuated when medical utilization rates, length of health plan membership, or time since initial diabetes diagnosis were added to the model.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          2170,
+          0,
+          10,
+          0
+        ],
+        "source_position": 2188
+      },
+      {
+        "cross_encoder_score": 6.547979831695557,
+        "dataset": "SciFact",
+        "end_char": 2658,
+        "pair_tokens_before_truncation": 104,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 1,
+        "query_id": "539",
+        "sentence_id": "0dce04457de3c38df31309a80c57f1bf",
+        "sentence_text": "When examining emergency department admissions for hypoglycemia for association with risk of dementia (535 episodes), results were similar (compared with patients with 0 episodes) with fully adjusted HRs: for 1 episode (HR, 1.42; 95% CI, 1.12-1.78) and for 2 or more episodes (HR, 2.36; 95% CI, 1.57-3.55).   \n",
+        "sentence_token_cost": 106,
+        "source_order": [
+          2170,
+          0,
+          11,
+          0
+        ],
+        "source_position": 2348
+      },
+      {
+        "cross_encoder_score": 7.088026523590088,
+        "dataset": "SciFact",
+        "end_char": 2803,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 1,
+        "query_id": "539",
+        "sentence_id": "01a113018ef75ac331bfbf27420b0aeb",
+        "sentence_text": "CONCLUSIONS Among older patients with type 2 diabetes, a history of severe hypoglycemic episodes was associated with a greater risk of dementia.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          2170,
+          0,
+          12,
+          0
+        ],
+        "source_position": 2659
+      },
+      {
+        "cross_encoder_score": 7.942775726318359,
+        "dataset": "SciFact",
+        "end_char": 2877,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "599a722b7fd4a73c71370a582af4143e",
+        "passage_rank": 1,
+        "query_id": "539",
+        "sentence_id": "1dc06079115cd6c635c84f863127d251",
+        "sentence_text": "Whether minor hypoglycemic episodes increase risk of dementia is unknown.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          2170,
+          0,
+          13,
+          0
+        ],
+        "source_position": 2804
+      },
+      {
+        "cross_encoder_score": 0.8309686779975891,
+        "dataset": "SciFact",
+        "end_char": 101,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "719a7fc262cbcdcbcf9adce4cd8b4a4d",
+        "passage_rank": 3,
+        "query_id": "539",
+        "sentence_id": "8d95d7237b1642345d7f3f7af64fb887",
+        "sentence_text": "Midlife Serum Cholesterol and Increased Risk of Alzheimer\u2019s and Vascular Dementia Three Decades Later",
+        "sentence_token_cost": 20,
+        "source_order": [
+          2293,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.740031242370605,
+        "dataset": "SciFact",
+        "end_char": 107,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "719a7fc262cbcdcbcf9adce4cd8b4a4d",
+        "passage_rank": 3,
+        "query_id": "539",
+        "sentence_id": "318c62649f00c5e6c83bf779efc2b582",
+        "sentence_text": "Aims:",
+        "sentence_token_cost": 3,
+        "source_order": [
+          2293,
+          0,
+          1,
+          0
+        ],
+        "source_position": 102
+      },
+      {
+        "cross_encoder_score": -5.967533588409424,
+        "dataset": "SciFact",
+        "end_char": 258,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "719a7fc262cbcdcbcf9adce4cd8b4a4d",
+        "passage_rank": 3,
+        "query_id": "539",
+        "sentence_id": "c9f218d707dfa78e16ac1929ad936348",
+        "sentence_text": "To investigate midlife cholesterol in relation to Alzheimer\u2019s disease (AD) and vascular dementia (VaD) in a large multiethnic cohort of women and men.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          2293,
+          0,
+          2,
+          0
+        ],
+        "source_position": 108
+      },
+      {
+        "cross_encoder_score": -11.117463111877441,
+        "dataset": "SciFact",
+        "end_char": 394,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "719a7fc262cbcdcbcf9adce4cd8b4a4d",
+        "passage_rank": 3,
+        "query_id": "539",
+        "sentence_id": "e986fd3f6fe462a1483068d24ac73c7a",
+        "sentence_text": "Methods: The Kaiser Permanente Northern California Medical Group (healthcare delivery organization) formed the database for this study.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2293,
+          0,
+          3,
+          0
+        ],
+        "source_position": 259
+      },
+      {
+        "cross_encoder_score": -11.112951278686523,
+        "dataset": "SciFact",
+        "end_char": 545,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "719a7fc262cbcdcbcf9adce4cd8b4a4d",
+        "passage_rank": 3,
+        "query_id": "539",
+        "sentence_id": "cfe349950b1f0bfcde37cadc7081c0ee",
+        "sentence_text": "The 9,844 participants underwent detailed health evaluations during 1964\u20131973 at ages 40\u201345 years; they were still members of the health plan in 1994.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          2293,
+          0,
+          4,
+          0
+        ],
+        "source_position": 395
+      },
+      {
+        "cross_encoder_score": -10.928119659423828,
+        "dataset": "SciFact",
+        "end_char": 632,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "719a7fc262cbcdcbcf9adce4cd8b4a4d",
+        "passage_rank": 3,
+        "query_id": "539",
+        "sentence_id": "b990eb934cc5a658de321fe0f563a915",
+        "sentence_text": "AD and VaD were ascertained by medical records between 1 January 1994 and 1 June 2007.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          2293,
+          0,
+          5,
+          0
+        ],
+        "source_position": 546
+      },
+      {
+        "cross_encoder_score": -11.16441822052002,
+        "dataset": "SciFact",
+        "end_char": 794,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "719a7fc262cbcdcbcf9adce4cd8b4a4d",
+        "passage_rank": 3,
+        "query_id": "539",
+        "sentence_id": "a5a785e9b083eb2e8730f1c728259e80",
+        "sentence_text": "Cox proportional hazards models \u2013 adjusted for age, education, race/ethnic group, sex, midlife diabetes, hypertension, BMI and late-life stroke \u2013 were conducted.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          2293,
+          0,
+          6,
+          0
+        ],
+        "source_position": 633
+      },
+      {
+        "cross_encoder_score": -7.367844104766846,
+        "dataset": "SciFact",
+        "end_char": 803,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "719a7fc262cbcdcbcf9adce4cd8b4a4d",
+        "passage_rank": 3,
+        "query_id": "539",
+        "sentence_id": "e99ca9899a7c51ddd8419d83f349ad56",
+        "sentence_text": "Results:",
+        "sentence_token_cost": 2,
+        "source_order": [
+          2293,
+          0,
+          7,
+          0
+        ],
+        "source_position": 795
+      },
+      {
+        "cross_encoder_score": -10.75494384765625,
+        "dataset": "SciFact",
+        "end_char": 1077,
+        "pair_tokens_before_truncation": 110,
+        "pair_truncated": false,
+        "passage_id": "719a7fc262cbcdcbcf9adce4cd8b4a4d",
+        "passage_rank": 3,
+        "query_id": "539",
+        "sentence_id": "be4a0299d6fca831cd3551a687ae4d13",
+        "sentence_text": "In total, 469 participants had AD and 127 had VaD. With desirable cholesterol levels (<200 mg/dl) as a reference, hazard ratios (HR) and 95% CI for AD were 1.23 (0.97\u20131.55) and 1.57 (1.23\u20132.01) for borderline (200\u2013239 mg/dl) and high cholesterol (\u2265240 mg/dl), respectively.",
+        "sentence_token_cost": 110,
+        "source_order": [
+          2293,
+          0,
+          8,
+          0
+        ],
+        "source_position": 804
+      },
+      {
+        "cross_encoder_score": -10.906198501586914,
+        "dataset": "SciFact",
+        "end_char": 1179,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "719a7fc262cbcdcbcf9adce4cd8b4a4d",
+        "passage_rank": 3,
+        "query_id": "539",
+        "sentence_id": "7a042e5e96e9dfe42443555faa0afd42",
+        "sentence_text": "HR and 95% CI for VaD were 1.50 (1.01\u20132.23) for borderline and 1.26 (0.82\u20131.96) for high cholesterol.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          2293,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1078
+      },
+      {
+        "cross_encoder_score": -9.629773139953613,
+        "dataset": "SciFact",
+        "end_char": 1433,
+        "pair_tokens_before_truncation": 103,
+        "pair_truncated": false,
+        "passage_id": "719a7fc262cbcdcbcf9adce4cd8b4a4d",
+        "passage_rank": 3,
+        "query_id": "539",
+        "sentence_id": "f5a3b835a6271bcd8ddfbb8988afefdd",
+        "sentence_text": "Further analyses for AD (cholesterol quartiles, 1st quartile reference) indicated that cholesterol levels >220 mg/dl were a significant risk factor: HR were 1.31 (1.01\u20131.71; 3rd quartile, 221\u2013248 mg/dl) and 1.58 (1.22\u20132.06; 4th quartile, 249\u2013500 mg/dl).",
+        "sentence_token_cost": 106,
+        "source_order": [
+          2293,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1180
+      },
+      {
+        "cross_encoder_score": 2.7235019207000732,
+        "dataset": "SciFact",
+        "end_char": 1592,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "719a7fc262cbcdcbcf9adce4cd8b4a4d",
+        "passage_rank": 3,
+        "query_id": "539",
+        "sentence_id": "0a81bf89b90833834e8c6cc82de71daa",
+        "sentence_text": "Conclusion: Midlife serum total cholesterol was associated with an increased risk of AD and VaD. Even moderately elevated cholesterol increased dementia risk.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          2293,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1434
+      },
+      {
+        "cross_encoder_score": -3.2091095447540283,
+        "dataset": "SciFact",
+        "end_char": 1705,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "719a7fc262cbcdcbcf9adce4cd8b4a4d",
+        "passage_rank": 3,
+        "query_id": "539",
+        "sentence_id": "454cef7e52f632f82963523192015762",
+        "sentence_text": "Dementia risk factors need to be addressed as early as midlife, before underlying disease(s) or symptoms appear.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          2293,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1593
+      },
+      {
+        "cross_encoder_score": -7.619011878967285,
+        "dataset": "SciFact",
+        "end_char": 247,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "e7298d95394f948f15280ed6b4fe4529",
+        "passage_rank": 8,
+        "query_id": "539",
+        "sentence_id": "2525b05f9bf58a56454653e99c88d492",
+        "sentence_text": "The association between common physical impairments and dementia in low and middle income countries, and, among people with dementia, their association with cognitive function and disability. A 10/66 Dementia Research Group population-based study.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          3160,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.8122944831848145,
+        "dataset": "SciFact",
+        "end_char": 309,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "e7298d95394f948f15280ed6b4fe4529",
+        "passage_rank": 8,
+        "query_id": "539",
+        "sentence_id": "748fd72aaa5cd75a25b663aa6bb58d13",
+        "sentence_text": "OBJECTIVE Chronic physical comorbidity is common in dementia.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          3160,
+          0,
+          1,
+          0
+        ],
+        "source_position": 248
+      },
+      {
+        "cross_encoder_score": -10.41408634185791,
+        "dataset": "SciFact",
+        "end_char": 419,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "e7298d95394f948f15280ed6b4fe4529",
+        "passage_rank": 8,
+        "query_id": "539",
+        "sentence_id": "5c8a167aa94b4673ee5c2fcb8c99e3cb",
+        "sentence_text": "However, there is an absence of evidence to support good practice guidelines for attention to these problems.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3160,
+          0,
+          2,
+          0
+        ],
+        "source_position": 310
+      },
+      {
+        "cross_encoder_score": -10.16999626159668,
+        "dataset": "SciFact",
+        "end_char": 674,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "e7298d95394f948f15280ed6b4fe4529",
+        "passage_rank": 8,
+        "query_id": "539",
+        "sentence_id": "c9f711715480446eac324bc782c9a731",
+        "sentence_text": "We aimed to study the extent of this comorbidity and its impact on cognitive function and disability in population-based studies in low and middle income countries, where chronic diseases and impairments are likely to be both common and undertreated.   \n",
+        "sentence_token_cost": 47,
+        "source_order": [
+          3160,
+          0,
+          3,
+          0
+        ],
+        "source_position": 420
+      },
+      {
+        "cross_encoder_score": -11.186511039733887,
+        "dataset": "SciFact",
+        "end_char": 859,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "e7298d95394f948f15280ed6b4fe4529",
+        "passage_rank": 8,
+        "query_id": "539",
+        "sentence_id": "80b788804f43445d4a7001e0c2f65b72",
+        "sentence_text": "METHODS A multicentre cross-sectional survey of all over 65 year old residents (n = 15 022) in 11 catchment areas in China, India, Cuba, Dominican Republic, Venezuela, Mexico and Peru.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          3160,
+          0,
+          4,
+          0
+        ],
+        "source_position": 675
+      },
+      {
+        "cross_encoder_score": -5.702206611633301,
+        "dataset": "SciFact",
+        "end_char": 1221,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "e7298d95394f948f15280ed6b4fe4529",
+        "passage_rank": 8,
+        "query_id": "539",
+        "sentence_id": "5dcc783c0d6c95a1a10dad56ce722269",
+        "sentence_text": "We estimated the prevalence of pain, incontinence, hearing and visual impairments, mobility impairment and undernutrition according to the presence of dementia and its severity, and, among those with dementia, the independent contribution of these impairments to cognitive function and disability, adjusting for age, gender, education and dementia severity.   \n",
+        "sentence_token_cost": 64,
+        "source_order": [
+          3160,
+          0,
+          5,
+          0
+        ],
+        "source_position": 860
+      },
+      {
+        "cross_encoder_score": -5.11115837097168,
+        "dataset": "SciFact",
+        "end_char": 1403,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "e7298d95394f948f15280ed6b4fe4529",
+        "passage_rank": 8,
+        "query_id": "539",
+        "sentence_id": "24dff0b934615c911009a008daa68856",
+        "sentence_text": "RESULTS Incontinence, hearing impairment, mobility impairment and undernutrition were consistently linearly associated with the presence of dementia and its severity across regions.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          3160,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1222
+      },
+      {
+        "cross_encoder_score": -7.569429874420166,
+        "dataset": "SciFact",
+        "end_char": 1638,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "e7298d95394f948f15280ed6b4fe4529",
+        "passage_rank": 8,
+        "query_id": "539",
+        "sentence_id": "5b5adf2f02d55261c6ba8d6b34881f9b",
+        "sentence_text": "Among people with dementia, incontinence, hearing impairment and mobility impairment were independently associated with disability in all regions while the contributions of pain, visual impairment and undernutrition were inconsistent.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          3160,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1404
+      },
+      {
+        "cross_encoder_score": -9.943968772888184,
+        "dataset": "SciFact",
+        "end_char": 1731,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "e7298d95394f948f15280ed6b4fe4529",
+        "passage_rank": 8,
+        "query_id": "539",
+        "sentence_id": "ea49a4a59acf3eb61dc6f913eec0e6c2",
+        "sentence_text": "Only hearing impairment made a notable independent contribution to cognitive impairment.   \n",
+        "sentence_token_cost": 13,
+        "source_order": [
+          3160,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1639
+      },
+      {
+        "cross_encoder_score": -11.101613998413086,
+        "dataset": "SciFact",
+        "end_char": 2060,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "e7298d95394f948f15280ed6b4fe4529",
+        "passage_rank": 8,
+        "query_id": "539",
+        "sentence_id": "e31cc2c4cd6fee0d07e5eccba8536851",
+        "sentence_text": "CONCLUSIONS There is an urgent need for clinical trials of the feasibility, efficacy and cost-effectiveness of regular physical health checks and remediation of identified pathologies, given the considerable comorbidity identified in our population based studies, and the strong evidence for independent impact upon functioning.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          3160,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1732
+      },
+      {
+        "cross_encoder_score": -4.290867805480957,
+        "dataset": "SciFact",
+        "end_char": 121,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "0e151b4f4aaad22d006084ad03ace6b5",
+        "sentence_text": "Hypoglycemia: incidence and clinical predictors in a large population-based sample of children and adolescents with IDDM.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3193,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.871112823486328,
+        "dataset": "SciFact",
+        "end_char": 338,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "61894fe9ef519d8403e3481935d5330d",
+        "sentence_text": "OBJECTIVE To determine the frequency of moderate and severe hypoglycemia and to identify clinical predictors associated with its occurrence in a large population-based sample of children and adolescents with IDDM.   ",
+        "sentence_token_cost": 39,
+        "source_order": [
+          3193,
+          0,
+          1,
+          0
+        ],
+        "source_position": 122
+      },
+      {
+        "cross_encoder_score": -10.752690315246582,
+        "dataset": "SciFact",
+        "end_char": 405,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "5cfd0330c258992e3d449ce229da3d82",
+        "sentence_text": "RESEARCH DESIGN AND METHODS A total of 657 patients (age: 12.1 +/-",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3193,
+          0,
+          2,
+          0
+        ],
+        "source_position": 339
+      },
+      {
+        "cross_encoder_score": -10.317787170410156,
+        "dataset": "SciFact",
+        "end_char": 425,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "95aa2505d6a7e5c24f7a2cd722cebebd",
+        "sentence_text": "4.4 years, mean +/-",
+        "sentence_token_cost": 7,
+        "source_order": [
+          3193,
+          0,
+          3,
+          0
+        ],
+        "source_position": 406
+      },
+      {
+        "cross_encoder_score": -10.647860527038574,
+        "dataset": "SciFact",
+        "end_char": 495,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "eff490d9a214e70676aa63a911e89faf",
+        "sentence_text": "SD) were included in the study, yielding 1,449 patient-years of data.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          3193,
+          0,
+          4,
+          0
+        ],
+        "source_position": 426
+      },
+      {
+        "cross_encoder_score": -4.747951984405518,
+        "dataset": "SciFact",
+        "end_char": 712,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "d111d96a1450450c1bcbc89f9f83cf9b",
+        "sentence_text": "A prospective assessment of severe hypoglycemia (an event resulting in a seizure or coma) and moderate hypoglycemia (an event requiring assistance of another, excluding severe episodes) was made over a 3-year period.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          3193,
+          0,
+          5,
+          0
+        ],
+        "source_position": 496
+      },
+      {
+        "cross_encoder_score": -3.682522773742676,
+        "dataset": "SciFact",
+        "end_char": 882,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "c75a38417aaf905379734db1a5a3b0a0",
+        "sentence_text": "Patients and caregivers detailed episodes of significant hypoglycemia (moderate and severe events) and these were recorded at each 3-month clinic visit along with HbA1c.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          3193,
+          0,
+          6,
+          0
+        ],
+        "source_position": 713
+      },
+      {
+        "cross_encoder_score": -11.086524963378906,
+        "dataset": "SciFact",
+        "end_char": 998,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "8add71808b735d414dca6a63b80402cc",
+        "sentence_text": "Data were analyzed using generalized estimating equation models fitted with the exchange correlation structure.   \n",
+        "sentence_token_cost": 16,
+        "source_order": [
+          3193,
+          0,
+          7,
+          0
+        ],
+        "source_position": 883
+      },
+      {
+        "cross_encoder_score": -10.69474983215332,
+        "dataset": "SciFact",
+        "end_char": 1122,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "16f59a03c29b833d9a8d36127ebed21b",
+        "sentence_text": "RESULTS The overall incidence of severe events was 4.8/100 patient-years and of moderate events was 13.1/100 patient-years.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3193,
+          0,
+          8,
+          0
+        ],
+        "source_position": 999
+      },
+      {
+        "cross_encoder_score": -10.466205596923828,
+        "dataset": "SciFact",
+        "end_char": 1218,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "83a247ebe5423eaf237219ef8db0eb53",
+        "sentence_text": "Over 3 years, severe events occurred in 8.5% of children and moderate events occurred in 26.9%.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          3193,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1123
+      },
+      {
+        "cross_encoder_score": -3.6497771739959717,
+        "dataset": "SciFact",
+        "end_char": 1292,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "57a513edaeaeefca3111797bfa7148c1",
+        "sentence_text": "Significant hypoglycemia was rare in the first 12 months after diagnosis.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3193,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1219
+      },
+      {
+        "cross_encoder_score": -1.975056767463684,
+        "dataset": "SciFact",
+        "end_char": 1466,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "48ce436ba5d27142607b322a7aa3a560",
+        "sentence_text": "Rates of hypoglycemia were increased in children < 6 years of age versus > 6 years of age (40.9 vs. 16.6/100 patient-years, age < or = 6 years vs. age > 6 years, P < 0.001).",
+        "sentence_token_cost": 67,
+        "source_order": [
+          3193,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1293
+      },
+      {
+        "cross_encoder_score": -1.5712215900421143,
+        "dataset": "SciFact",
+        "end_char": 1716,
+        "pair_tokens_before_truncation": 108,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "5ddb70e610cb3f20571312f81c7477a0",
+        "sentence_text": "Rates of hypoglycemia doubled when HbA1c fell below 8%, and children with HbA1c < 7% had a threefold increase in both moderate and severe hypoglycemia (e.g., severe episodes 14.9 vs. 4.1/100 patient-years, HbA1c < or = 7% vs. HbA1c > 7%, P < 0.001).",
+        "sentence_token_cost": 101,
+        "source_order": [
+          3193,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1467
+      },
+      {
+        "cross_encoder_score": -10.56031322479248,
+        "dataset": "SciFact",
+        "end_char": 1785,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "7769039cd99554fe7acce9f36de299d1",
+        "sentence_text": "Most severe events were seizures, and 75% of them occurred at night.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          3193,
+          0,
+          13,
+          0
+        ],
+        "source_position": 1717
+      },
+      {
+        "cross_encoder_score": -10.103569984436035,
+        "dataset": "SciFact",
+        "end_char": 1860,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "033442a065e9f340a56a4752edf017d9",
+        "sentence_text": "The majority of events were related to missed meals or increased activity.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          3193,
+          0,
+          14,
+          0
+        ],
+        "source_position": 1786
+      },
+      {
+        "cross_encoder_score": -9.990265846252441,
+        "dataset": "SciFact",
+        "end_char": 1916,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "63c9ad8c5a541be73b56c4d36cef0fea",
+        "sentence_text": "However, in 38% no predisposing factor was evident.   \n",
+        "sentence_token_cost": 15,
+        "source_order": [
+          3193,
+          0,
+          15,
+          0
+        ],
+        "source_position": 1861
+      },
+      {
+        "cross_encoder_score": -3.3987834453582764,
+        "dataset": "SciFact",
+        "end_char": 2002,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "b2030654b3ab440413b64597d59f0110",
+        "sentence_text": "CONCLUSIONS Newly diagnosed children appear to be protected from severe hypoglycemia.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3193,
+          0,
+          16,
+          0
+        ],
+        "source_position": 1917
+      },
+      {
+        "cross_encoder_score": -7.570974826812744,
+        "dataset": "SciFact",
+        "end_char": 2087,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "4111b625ae0c2d1c4bb9935736ead413",
+        "sentence_text": "Rates increase with lower glycated hemoglobin, especially when mean HbA1c is < 8.0%.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3193,
+          0,
+          17,
+          0
+        ],
+        "source_position": 2003
+      },
+      {
+        "cross_encoder_score": 0.20447875559329987,
+        "dataset": "SciFact",
+        "end_char": 2230,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "6440ef3ebcaac0f795950c8fcc2cd837",
+        "passage_rank": 4,
+        "query_id": "539",
+        "sentence_id": "77ff7c8234c968e960b66357c25d0ade",
+        "sentence_text": "Younger children, who may be more susceptible to the adverse effects of neuroglycopenia, are at a particular risk of significant hypoglycemia.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          3193,
+          0,
+          18,
+          0
+        ],
+        "source_position": 2088
+      },
+      {
+        "cross_encoder_score": -4.556523323059082,
+        "dataset": "SciFact",
+        "end_char": 46,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "f9e4cf78b89e14a11503249da1be776e",
+        "passage_rank": 5,
+        "query_id": "539",
+        "sentence_id": "7adf09161145c91e1de2a4a345179aa6",
+        "sentence_text": "Impaired awareness of hypoglycaemia: a review.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          3672,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.6308512687683105,
+        "dataset": "SciFact",
+        "end_char": 304,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "f9e4cf78b89e14a11503249da1be776e",
+        "passage_rank": 5,
+        "query_id": "539",
+        "sentence_id": "8cc21dcfe971b44b2215f4c5472de2a3",
+        "sentence_text": "Impaired awareness of hypoglycaemia (IAH) is an acquired complication of insulin therapy, which affects people with type 1 and insulin-treated type 2 diabetes mellitus, whereby the ability to perceive the onset of hypoglycaemia becomes diminished or absent.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          3672,
+          0,
+          1,
+          0
+        ],
+        "source_position": 47
+      },
+      {
+        "cross_encoder_score": -5.432646751403809,
+        "dataset": "SciFact",
+        "end_char": 397,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "f9e4cf78b89e14a11503249da1be776e",
+        "passage_rank": 5,
+        "query_id": "539",
+        "sentence_id": "2c98a8f9eb8187bc6c013f50e44e97c2",
+        "sentence_text": "Deficiencies of the counter-regulatory hormonal responses to hypoglycaemia usually co-exist.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          3672,
+          0,
+          2,
+          0
+        ],
+        "source_position": 305
+      },
+      {
+        "cross_encoder_score": 1.2539517879486084,
+        "dataset": "SciFact",
+        "end_char": 503,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "f9e4cf78b89e14a11503249da1be776e",
+        "passage_rank": 5,
+        "query_id": "539",
+        "sentence_id": "9b55b2b12f316abaa01808ad3fde19a3",
+        "sentence_text": "The development of IAH and counter-regulatory failure greatly increases the risk of severe hypoglycaemia.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3672,
+          0,
+          3,
+          0
+        ],
+        "source_position": 398
+      },
+      {
+        "cross_encoder_score": -4.52847957611084,
+        "dataset": "SciFact",
+        "end_char": 673,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "f9e4cf78b89e14a11503249da1be776e",
+        "passage_rank": 5,
+        "query_id": "539",
+        "sentence_id": "40b0e45191bd67987bd5824530c99cc2",
+        "sentence_text": "Scoring systems have been developed that can be used in the clinical setting and assist with identification of this group of individuals at risk of severe hypoglycaemia.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          3672,
+          0,
+          4,
+          0
+        ],
+        "source_position": 504
+      },
+      {
+        "cross_encoder_score": -7.080833435058594,
+        "dataset": "SciFact",
+        "end_char": 752,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "f9e4cf78b89e14a11503249da1be776e",
+        "passage_rank": 5,
+        "query_id": "539",
+        "sentence_id": "2a0019dfc2b2b8e2626467b089dd7a45",
+        "sentence_text": "The mainstay of treatment of IAH is the scrupulous avoidance of hypoglycaemia.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          3672,
+          0,
+          5,
+          0
+        ],
+        "source_position": 674
+      },
+      {
+        "cross_encoder_score": -10.600000381469727,
+        "dataset": "SciFact",
+        "end_char": 131,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "8b043a42816a9b7af7cca67b1024eb27",
+        "passage_rank": 9,
+        "query_id": "539",
+        "sentence_id": "483f77f25135847a0edcff14ba4cef0b",
+        "sentence_text": "Metformin Normalizes Type 2 Diabetes-Induced Decrease in Cell Proliferation and Neuroblast Differentiation in the Rat Dentate Gyrus",
+        "sentence_token_cost": 33,
+        "source_order": [
+          4200,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.942663192749023,
+        "dataset": "SciFact",
+        "end_char": 455,
+        "pair_tokens_before_truncation": 97,
+        "pair_truncated": false,
+        "passage_id": "8b043a42816a9b7af7cca67b1024eb27",
+        "passage_rank": 9,
+        "query_id": "539",
+        "sentence_id": "8e212664e02d5e0336bbfecdb1c7059a",
+        "sentence_text": "In this study, we observed the effects of metformin, one of the most widely prescribed drugs for the treatment of type 2 diabetes, on cell proliferation and neuroblast differentiation in the subgranular zone of the hippocampal dentate gyrus (SZDG) in Zucker diabetic fatty (ZDF) rats, which are a model for type 2 diabetes.",
+        "sentence_token_cost": 75,
+        "source_order": [
+          4200,
+          0,
+          1,
+          0
+        ],
+        "source_position": 132
+      },
+      {
+        "cross_encoder_score": -11.108467102050781,
+        "dataset": "SciFact",
+        "end_char": 598,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "8b043a42816a9b7af7cca67b1024eb27",
+        "passage_rank": 9,
+        "query_id": "539",
+        "sentence_id": "0ed567f122bb4db646a13caec04f2875",
+        "sentence_text": "For this, metformin was administered orally once a day to 14-week-old ZDF rats for 2 weeks and the animals were sacrificed at 16 weeks of age.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          4200,
+          0,
+          2,
+          0
+        ],
+        "source_position": 456
+      },
+      {
+        "cross_encoder_score": -10.622973442077637,
+        "dataset": "SciFact",
+        "end_char": 727,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "8b043a42816a9b7af7cca67b1024eb27",
+        "passage_rank": 9,
+        "query_id": "539",
+        "sentence_id": "78523687df0c6828c2963a0b8c5ca7f3",
+        "sentence_text": "During this period, blood glucose levels were higher in the vehicle-treated ZDF rats than in the Zucker lean control (ZLC) rats.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          4200,
+          0,
+          3,
+          0
+        ],
+        "source_position": 599
+      },
+      {
+        "cross_encoder_score": -10.280298233032227,
+        "dataset": "SciFact",
+        "end_char": 820,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "8b043a42816a9b7af7cca67b1024eb27",
+        "passage_rank": 9,
+        "query_id": "539",
+        "sentence_id": "bb69bffb2172214fb359985b43d4d3fa",
+        "sentence_text": "Metformin treatment significantly decreased the blood glucose levels from 15.5 weeks of age.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          4200,
+          0,
+          4,
+          0
+        ],
+        "source_position": 728
+      },
+      {
+        "cross_encoder_score": -11.129666328430176,
+        "dataset": "SciFact",
+        "end_char": 1028,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "8b043a42816a9b7af7cca67b1024eb27",
+        "passage_rank": 9,
+        "query_id": "539",
+        "sentence_id": "e3841867b367fa82e750716ea3a42cad",
+        "sentence_text": "In the SZDG, Ki67 (a marker for cell proliferation)- and doublecortin (DCX, a marker for differentiated neuroblasts)-immunoreactive cells were much lower in the vehicle-treated ZDF rats than in the ZLC rats.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          4200,
+          0,
+          5,
+          0
+        ],
+        "source_position": 821
+      },
+      {
+        "cross_encoder_score": -10.977561950683594,
+        "dataset": "SciFact",
+        "end_char": 1192,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "8b043a42816a9b7af7cca67b1024eb27",
+        "passage_rank": 9,
+        "query_id": "539",
+        "sentence_id": "45e09a6fb7d99fd1018199992a885819",
+        "sentence_text": "In the metformin-treated ZDF group, Ki67- and DCX-immunoreactive cells were significantly increased in the SZDG compared to those in the vehicle-treated ZDF group.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          4200,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1029
+      },
+      {
+        "cross_encoder_score": -10.84267520904541,
+        "dataset": "SciFact",
+        "end_char": 1449,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "8b043a42816a9b7af7cca67b1024eb27",
+        "passage_rank": 9,
+        "query_id": "539",
+        "sentence_id": "8b23e595b7f9f9d71e635df9bb75f4d1",
+        "sentence_text": "These results suggest that diabetes significantly reduces cell proliferation and neuroblast differentiation in the SZDG and that metformin treatment normalizes the reduction of cell proliferation and neuroblast differentiation in the SZDG in diabetic rats.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          4200,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1193
+      },
+      {
+        "cross_encoder_score": -2.7521486282348633,
+        "dataset": "SciFact",
+        "end_char": 76,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "50a0bd76881d3f8446aae7f0006b3948",
+        "passage_rank": 2,
+        "query_id": "539",
+        "sentence_id": "6589dfbe2aef9ad7e1216629e82f7b7c",
+        "sentence_text": "Aggregation of vascular risk factors and risk of incident Alzheimer disease.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          4787,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -0.055579449981451035,
+        "dataset": "SciFact",
+        "end_char": 211,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "50a0bd76881d3f8446aae7f0006b3948",
+        "passage_rank": 2,
+        "query_id": "539",
+        "sentence_id": "591b7e5a73ef77c0a214e05f0ebf49b1",
+        "sentence_text": "BACKGROUND The prevalence of Alzheimer disease (AD) is increasing in the elderly, and vascular risk factors may increase its risk.   \n",
+        "sentence_token_cost": 25,
+        "source_order": [
+          4787,
+          0,
+          1,
+          0
+        ],
+        "source_position": 77
+      },
+      {
+        "cross_encoder_score": -9.908574104309082,
+        "dataset": "SciFact",
+        "end_char": 305,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "50a0bd76881d3f8446aae7f0006b3948",
+        "passage_rank": 2,
+        "query_id": "539",
+        "sentence_id": "b0fb29d46879586e8c846efb1e24f9d3",
+        "sentence_text": "OBJECTIVE To explore the association of the aggregation of vascular risk factors with AD.   \n",
+        "sentence_token_cost": 17,
+        "source_order": [
+          4787,
+          0,
+          2,
+          0
+        ],
+        "source_position": 212
+      },
+      {
+        "cross_encoder_score": -8.516803741455078,
+        "dataset": "SciFact",
+        "end_char": 422,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "50a0bd76881d3f8446aae7f0006b3948",
+        "passage_rank": 2,
+        "query_id": "539",
+        "sentence_id": "a155e1f5fd3d6f8e27ff3b30cfbb4f21",
+        "sentence_text": "METHODS The authors followed 1,138 individuals without dementia at baseline (mean age 76.2) for a mean of 5.5 years.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          4787,
+          0,
+          3,
+          0
+        ],
+        "source_position": 306
+      },
+      {
+        "cross_encoder_score": -9.368518829345703,
+        "dataset": "SciFact",
+        "end_char": 514,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "50a0bd76881d3f8446aae7f0006b3948",
+        "passage_rank": 2,
+        "query_id": "539",
+        "sentence_id": "a6ffa8a7785fab2467055be5be3a850c",
+        "sentence_text": "The presence of vascular risk factors was related to incident possible and probable AD.   \n",
+        "sentence_token_cost": 16,
+        "source_order": [
+          4787,
+          0,
+          4,
+          0
+        ],
+        "source_position": 423
+      },
+      {
+        "cross_encoder_score": -7.547402381896973,
+        "dataset": "SciFact",
+        "end_char": 681,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "50a0bd76881d3f8446aae7f0006b3948",
+        "passage_rank": 2,
+        "query_id": "539",
+        "sentence_id": "a481942c74583322994d9a48ed719e42",
+        "sentence_text": "RESULTS Four risk factors (diabetes, hypertension, heart disease, and current smoking) were associated with a higher risk of AD (p < 0.10) when analyzed individually.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          4787,
+          0,
+          5,
+          0
+        ],
+        "source_position": 515
+      },
+      {
+        "cross_encoder_score": -5.4947590827941895,
+        "dataset": "SciFact",
+        "end_char": 799,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "50a0bd76881d3f8446aae7f0006b3948",
+        "passage_rank": 2,
+        "query_id": "539",
+        "sentence_id": "d1c95cc5898bd098f53ff4d022df982e",
+        "sentence_text": "The risk of AD increased with the number of risk factors (diabetes + hypertension + heart disease + current smoking).",
+        "sentence_token_cost": 23,
+        "source_order": [
+          4787,
+          0,
+          6,
+          0
+        ],
+        "source_position": 682
+      },
+      {
+        "cross_encoder_score": -10.279912948608398,
+        "dataset": "SciFact",
+        "end_char": 968,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "50a0bd76881d3f8446aae7f0006b3948",
+        "passage_rank": 2,
+        "query_id": "539",
+        "sentence_id": "48b68fc14bb1b61a44241a3fe032163c",
+        "sentence_text": "The adjusted hazards ratio of probable AD for the presence of three or more risk factors was 3.4 (95% CI: 1.8, 6.3; p for trend < 0.0001) compared with no risk factors.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          4787,
+          0,
+          7,
+          0
+        ],
+        "source_position": 800
+      },
+      {
+        "cross_encoder_score": -8.233039855957031,
+        "dataset": "SciFact",
+        "end_char": 1192,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "50a0bd76881d3f8446aae7f0006b3948",
+        "passage_rank": 2,
+        "query_id": "539",
+        "sentence_id": "a62e3081afcb373e7fe680281c2d2dba",
+        "sentence_text": "Diabetes and current smoking were the strongest risk factors in isolation or in clusters, but hypertension and heart disease were also related to a higher risk of AD when clustered with diabetes, smoking, or each other.   \n",
+        "sentence_token_cost": 42,
+        "source_order": [
+          4787,
+          0,
+          8,
+          0
+        ],
+        "source_position": 969
+      },
+      {
+        "cross_encoder_score": 0.049571141600608826,
+        "dataset": "SciFact",
+        "end_char": 1291,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "50a0bd76881d3f8446aae7f0006b3948",
+        "passage_rank": 2,
+        "query_id": "539",
+        "sentence_id": "fc5fceb8fa661c97b2850d6f6781996d",
+        "sentence_text": "CONCLUSIONS The risk of Alzheimer disease (AD) increased with the number of vascular risk factors.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          4787,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1193
+      },
+      {
+        "cross_encoder_score": -5.094507217407227,
+        "dataset": "SciFact",
+        "end_char": 1438,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "50a0bd76881d3f8446aae7f0006b3948",
+        "passage_rank": 2,
+        "query_id": "539",
+        "sentence_id": "e28d0ee84589e56d682e2334fb5ea9ab",
+        "sentence_text": "Diabetes and current smoking were the strongest risk factors, but clusters including hypertension and heart disease also increased the risk of AD.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          4787,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1292
+      },
+      {
+        "cross_encoder_score": -11.139912605285645,
+        "dataset": "SciFact",
+        "end_char": 1586,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "50a0bd76881d3f8446aae7f0006b3948",
+        "passage_rank": 2,
+        "query_id": "539",
+        "sentence_id": "1fe5aab682fc3d934aedebb7a71c4ec4",
+        "sentence_text": "These associations are unlikely to be explained by misclassification of the outcome, given strong associations when only probable AD is considered.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          4787,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1439
+      }
+    ],
+    "scoring_seconds": 0.6306686080060899,
+    "source_fingerprint": "04222859c81c3839045ac414995ec05131846f27c113fc367ee7407c0a65c0ff"
+  }
+}

@@ -1,0 +1,811 @@
+{
+  "checksum": "5341a211e5357bcc6e9bb51d8d400f970d0b9fc4cfd76a58c2e34d60a366dfcd",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "HotpotQA",
+    "5adfa3da554299025d62a317"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 39,
+    "dataset": "HotpotQA",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "68f299b8ab9f6374bb9228c3689b28feeb6537c85696a9651c2ea174d7ef262b",
+    "query_id": "5adfa3da554299025d62a317",
+    "scores": [
+      {
+        "cross_encoder_score": -5.882152557373047,
+        "dataset": "HotpotQA",
+        "end_char": 12,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "4d86d52b5e4e00d5aaa9e07a70ed2fc0",
+        "passage_rank": 2,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "120ac79208a2ae3538a60a2a47a33ed4",
+        "sentence_text": "Emily Jewell",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.762895107269287,
+        "dataset": "HotpotQA",
+        "end_char": 48,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "4d86d52b5e4e00d5aaa9e07a70ed2fc0",
+        "passage_rank": 2,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "dfe0e10399964709916274b9c2b760dc",
+        "sentence_text": "Emily Jewell is an English actress.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 13
+      },
+      {
+        "cross_encoder_score": -8.957413673400879,
+        "dataset": "HotpotQA",
+        "end_char": 104,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "4d86d52b5e4e00d5aaa9e07a70ed2fc0",
+        "passage_rank": 2,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "b38fa8393ed582fa661b8470b8752a06",
+        "sentence_text": " She trained at the Central School of Speech and Drama.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 49
+      },
+      {
+        "cross_encoder_score": -2.4135427474975586,
+        "dataset": "HotpotQA",
+        "end_char": 237,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "4d86d52b5e4e00d5aaa9e07a70ed2fc0",
+        "passage_rank": 2,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "775065e78c21da27f75ab18684d32cc3",
+        "sentence_text": " Jewell has appeared in \"Look Back in Anger\" (as Alison) and \"The Duchess of Malfi\" (as the Duchess) at the Twister Theatre Company.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 105
+      },
+      {
+        "cross_encoder_score": -0.9025159478187561,
+        "dataset": "HotpotQA",
+        "end_char": 283,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "4d86d52b5e4e00d5aaa9e07a70ed2fc0",
+        "passage_rank": 2,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "62c099e1495827386029f8bf4a69a258",
+        "sentence_text": " She also appeared in the film \"The Duchess\".",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 238
+      },
+      {
+        "cross_encoder_score": -9.25856876373291,
+        "dataset": "HotpotQA",
+        "end_char": 19,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "13cb01a2b0a090c8e685ffea9607c37b",
+        "passage_rank": 6,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "b38e0b4114cee1a6b4b11ac98ff4808f",
+        "sentence_text": "Appius and Virginia",
+        "sentence_token_cost": 4,
+        "source_order": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.783209323883057,
+        "dataset": "HotpotQA",
+        "end_char": 132,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "13cb01a2b0a090c8e685ffea9607c37b",
+        "passage_rank": 6,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "948a16c52f437c9fa49025479b6bc56c",
+        "sentence_text": "Appius and Virginia is an early 17th-century stage play, a tragedy by John Webster (and perhaps Thomas Heywood).",
+        "sentence_token_cost": 27,
+        "source_order": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "source_position": 20
+      },
+      {
+        "cross_encoder_score": -4.0203070640563965,
+        "dataset": "HotpotQA",
+        "end_char": 236,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "13cb01a2b0a090c8e685ffea9607c37b",
+        "passage_rank": 6,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "b755781bcca350b68d8649212fc9248e",
+        "sentence_text": " It is the third and least famous of his tragedies, after \"The White Devil\" and \"The Duchess of Malfi\".",
+        "sentence_token_cost": 26,
+        "source_order": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "source_position": 133
+      },
+      {
+        "cross_encoder_score": -2.4146270751953125,
+        "dataset": "HotpotQA",
+        "end_char": 17,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "233ad5f85fc42caa4e39c0dcac35f708",
+        "passage_rank": 1,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "e1f4556209922a72ec98a9f726461233",
+        "sentence_text": "Revengers Tragedy",
+        "sentence_token_cost": 5,
+        "source_order": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 1.3902703523635864,
+        "dataset": "HotpotQA",
+        "end_char": 190,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "233ad5f85fc42caa4e39c0dcac35f708",
+        "passage_rank": 1,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "3402deebcb604862ee46896cb4494fc4",
+        "sentence_text": "Revengers Tragedy is a film adaptation of the 1606 play \"The Revenger's Tragedy\" (attributed to Thomas Middleton in the credits, following the current scholarly consensus).",
+        "sentence_token_cost": 42,
+        "source_order": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "source_position": 18
+      },
+      {
+        "cross_encoder_score": -9.935592651367188,
+        "dataset": "HotpotQA",
+        "end_char": 298,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "233ad5f85fc42caa4e39c0dcac35f708",
+        "passage_rank": 1,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "edce165c96a9f730505894e07f46909f",
+        "sentence_text": " It was directed by Alex Cox and adapted for the screen by Cox's fellow Liverpudlian, Frank Cottrell Boyce.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "source_position": 191
+      },
+      {
+        "cross_encoder_score": 0.8809341788291931,
+        "dataset": "HotpotQA",
+        "end_char": 688,
+        "pair_tokens_before_truncation": 124,
+        "pair_truncated": false,
+        "passage_id": "233ad5f85fc42caa4e39c0dcac35f708",
+        "passage_rank": 1,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "efa6036bb37062bfdd153e47c46e91b1",
+        "sentence_text": " The film stars Christopher Eccleston as the revenge-obsessed Vindice, with Derek Jacobi as the evil Duke, Eddie Izzard as his lecherous son Lussurioso, Diana Quick as the Duchess, Andrew Schofield as Vindice's brother Carlo (a version of the play's Hippolito), Carla Henry as his virtuous sister Castiza, and Marc Warren and Justin Salinger as the Duchess's sons Supervacuo and Ambitioso.",
+        "sentence_token_cost": 95,
+        "source_order": [
+          2,
+          0,
+          3,
+          0
+        ],
+        "source_position": 299
+      },
+      {
+        "cross_encoder_score": -4.857060432434082,
+        "dataset": "HotpotQA",
+        "end_char": 30,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "fd0867723ff84fb40540fb882a994f6f",
+        "passage_rank": 9,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "79b66c407d1a76d9fdbc90625c158127",
+        "sentence_text": "Grand Duke's Official Birthday",
+        "sentence_token_cost": 5,
+        "source_order": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.533891201019287,
+        "dataset": "HotpotQA",
+        "end_char": 326,
+        "pair_tokens_before_truncation": 97,
+        "pair_truncated": false,
+        "passage_id": "fd0867723ff84fb40540fb882a994f6f",
+        "passage_rank": 9,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "7c3e1129061356d99b878e0a7f82d132",
+        "sentence_text": "The Grand Duke's Official Birthday (French: \"C\u00e9l\u00e9bration publique de l'anniversaire du souverain\" ), also known as Luxembourgish National Day (French: \"F\u00eate nationale luxembourgeoise\" , Luxembourgish: \"L\u00ebtzebuerger Nationalfeierdag\" ), is celebrated as the annual national holiday of Luxembourg.",
+        "sentence_token_cost": 77,
+        "source_order": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "source_position": 31
+      },
+      {
+        "cross_encoder_score": -7.62328577041626,
+        "dataset": "HotpotQA",
+        "end_char": 433,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "fd0867723ff84fb40540fb882a994f6f",
+        "passage_rank": 9,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "3aa9e5beb1bdfe0b618d61b43b9f138d",
+        "sentence_text": " It is celebrated on 23 June, although this has never been the actual birthday of any ruler of Luxembourg.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3,
+          0,
+          2,
+          0
+        ],
+        "source_position": 327
+      },
+      {
+        "cross_encoder_score": -2.096836566925049,
+        "dataset": "HotpotQA",
+        "end_char": 529,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "fd0867723ff84fb40540fb882a994f6f",
+        "passage_rank": 9,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "2ce5bd172f61c4e21170c3b8674b0c61",
+        "sentence_text": " When the monarch of Luxembourg is female, it is known as the Grand Duchess' Official Birthday.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          3,
+          0,
+          3,
+          0
+        ],
+        "source_position": 434
+      },
+      {
+        "cross_encoder_score": -7.356026649475098,
+        "dataset": "HotpotQA",
+        "end_char": 11,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "e19f2df4c2669225bc27912c9feb019b",
+        "passage_rank": 8,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "fb36f7b44ee3a732e9ab3505730d9037",
+        "sentence_text": "Diana Quick",
+        "sentence_token_cost": 3,
+        "source_order": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.0951623916625977,
+        "dataset": "HotpotQA",
+        "end_char": 78,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "e19f2df4c2669225bc27912c9feb019b",
+        "passage_rank": 8,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "86002f834006a19054bc9b2ae0d681fd",
+        "sentence_text": "Diana Marilyn Quick (born 23 November 1946) is an English actress.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          4,
+          0,
+          1,
+          0
+        ],
+        "source_position": 12
+      },
+      {
+        "cross_encoder_score": -5.181490898132324,
+        "dataset": "HotpotQA",
+        "end_char": 20,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "df8c1a58750e76eea6acafaee11f03b9",
+        "passage_rank": 3,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "c7a0e3df505f65353e75f2a7d037b590",
+        "sentence_text": "The Duchess of Padua",
+        "sentence_token_cost": 5,
+        "source_order": [
+          5,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.5964343547821045,
+        "dataset": "HotpotQA",
+        "end_char": 67,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "df8c1a58750e76eea6acafaee11f03b9",
+        "passage_rank": 3,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "57154c4410486015ab1a9311552506f3",
+        "sentence_text": "The Duchess of Padua is a play by Oscar Wilde.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          5,
+          0,
+          1,
+          0
+        ],
+        "source_position": 21
+      },
+      {
+        "cross_encoder_score": -8.445491790771484,
+        "dataset": "HotpotQA",
+        "end_char": 147,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "df8c1a58750e76eea6acafaee11f03b9",
+        "passage_rank": 3,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "0040c008fab45595d0a4b9b005852177",
+        "sentence_text": " It is a five-act melodramatic tragedy set in Padua and written in blank verse.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          5,
+          0,
+          2,
+          0
+        ],
+        "source_position": 68
+      },
+      {
+        "cross_encoder_score": -5.594933032989502,
+        "dataset": "HotpotQA",
+        "end_char": 223,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "df8c1a58750e76eea6acafaee11f03b9",
+        "passage_rank": 3,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "33c8c3c035aa6c535a0740a12de078fc",
+        "sentence_text": " It was written for the actress Mary Anderson in early 1883 while in Paris.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          5,
+          0,
+          3,
+          0
+        ],
+        "source_position": 148
+      },
+      {
+        "cross_encoder_score": -6.7023797035217285,
+        "dataset": "HotpotQA",
+        "end_char": 419,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "df8c1a58750e76eea6acafaee11f03b9",
+        "passage_rank": 3,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "eddbd6ac2f64790bcd2591a1f85f9f6a",
+        "sentence_text": " After she turned it down, it was abandoned until its first performance at the Broadway Theatre in New York City under the title \"Guido Ferranti\" on 26 January 1891, where it ran for three weeks.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          5,
+          0,
+          4,
+          0
+        ],
+        "source_position": 224
+      },
+      {
+        "cross_encoder_score": -9.189278602600098,
+        "dataset": "HotpotQA",
+        "end_char": 459,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "df8c1a58750e76eea6acafaee11f03b9",
+        "passage_rank": 3,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "21c3ecbe78b305b3f885b7122c3d99e5",
+        "sentence_text": " It has been rarely revived or studied.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          5,
+          0,
+          5,
+          0
+        ],
+        "source_position": 420
+      },
+      {
+        "cross_encoder_score": -4.528046607971191,
+        "dataset": "HotpotQA",
+        "end_char": 23,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "7dd4a54bf56551de6e169061d14ffee9",
+        "passage_rank": 7,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "4b83180b20771ec057b83a9098222a1a",
+        "sentence_text": "The Revengers' Comedies",
+        "sentence_token_cost": 7,
+        "source_order": [
+          6,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.3911612033843994,
+        "dataset": "HotpotQA",
+        "end_char": 76,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "7dd4a54bf56551de6e169061d14ffee9",
+        "passage_rank": 7,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "ff88f0841622965612f0ffa4062bc6dd",
+        "sentence_text": "The Revengers' Comedies is a play by Alan Ayckbourn.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          6,
+          0,
+          1,
+          0
+        ],
+        "source_position": 24
+      },
+      {
+        "cross_encoder_score": -2.182366371154785,
+        "dataset": "HotpotQA",
+        "end_char": 132,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "7dd4a54bf56551de6e169061d14ffee9",
+        "passage_rank": 7,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "26ea1d1911e2354743034c30dcc83fe7",
+        "sentence_text": " Its title references that of \"The Revenger's Tragedy\".",
+        "sentence_token_cost": 14,
+        "source_order": [
+          6,
+          0,
+          2,
+          0
+        ],
+        "source_position": 77
+      },
+      {
+        "cross_encoder_score": -10.090533256530762,
+        "dataset": "HotpotQA",
+        "end_char": 235,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "7dd4a54bf56551de6e169061d14ffee9",
+        "passage_rank": 7,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "c8de78a5c03424887b53997162bd5116",
+        "sentence_text": " The play is an epic piece running more than five hours and was designed to be presented in two parts.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          6,
+          0,
+          3,
+          0
+        ],
+        "source_position": 133
+      },
+      {
+        "cross_encoder_score": -10.241802215576172,
+        "dataset": "HotpotQA",
+        "end_char": 388,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "7dd4a54bf56551de6e169061d14ffee9",
+        "passage_rank": 7,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "3069c11c2e4f6e294cb2abb101019e13",
+        "sentence_text": " It was inspired by the playwright's love of films and references many notable movies, particularly the Alfred Hitchcock classic \"Strangers on a Train\".",
+        "sentence_token_cost": 29,
+        "source_order": [
+          6,
+          0,
+          4,
+          0
+        ],
+        "source_position": 236
+      },
+      {
+        "cross_encoder_score": -8.095132827758789,
+        "dataset": "HotpotQA",
+        "end_char": 21,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "ba0a68b8d83d430c39c21a5405dcaec7",
+        "passage_rank": 10,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "e3189b89acc887e3289746fad3c7c02c",
+        "sentence_text": "Murder of Grace Brown",
+        "sentence_token_cost": 5,
+        "source_order": [
+          7,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -2.6247525215148926,
+        "dataset": "HotpotQA",
+        "end_char": 337,
+        "pair_tokens_before_truncation": 89,
+        "pair_truncated": false,
+        "passage_id": "ba0a68b8d83d430c39c21a5405dcaec7",
+        "passage_rank": 10,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "30628fe88f7c7487e1737b858fcf0965",
+        "sentence_text": "Grace Mae Brown (March 20, 1886 \u2013 July 11, 1906) was an American skirt factory worker whose murder caused a nationwide sensation, and whose life inspired the fictional character Roberta Alden in the 1925 Theodore Dreiser novel, \"An American Tragedy\", as well as the 2003 Jennifer Donnelly novel, \"A Northern Light\".",
+        "sentence_token_cost": 88,
+        "source_order": [
+          7,
+          0,
+          1,
+          0
+        ],
+        "source_position": 22
+      },
+      {
+        "cross_encoder_score": -7.3512349128723145,
+        "dataset": "HotpotQA",
+        "end_char": 630,
+        "pair_tokens_before_truncation": 97,
+        "pair_truncated": false,
+        "passage_id": "ba0a68b8d83d430c39c21a5405dcaec7",
+        "passage_rank": 10,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "3a1a1a9bc1c604ae87d62fdb603fc2d4",
+        "sentence_text": " The facts of the real murder are laid out in the two non-fiction books, both published in 1986: \"Adirondack Tragedy: The Gillette Murder Case of 1906\", written by Joseph W. Brownell and Patricia A. Wawrzaszek, and \"Murder in the Adirondacks: An American Tragedy Revisited\", by Craig Brandon.",
+        "sentence_token_cost": 86,
+        "source_order": [
+          7,
+          0,
+          2,
+          0
+        ],
+        "source_position": 338
+      },
+      {
+        "cross_encoder_score": -7.794493198394775,
+        "dataset": "HotpotQA",
+        "end_char": 872,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "ba0a68b8d83d430c39c21a5405dcaec7",
+        "passage_rank": 10,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "fd77053ed0dcefec20c72454530d0a03",
+        "sentence_text": " Shelley Winters was nominated for the Academy Award for Best Actress for her performance in the role inspired by Grace Brown (with the name changed to 'Alice Tripp') in the 1951 film \"A Place in the Sun,\" loosely based on the Dreiser novel.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          7,
+          0,
+          3,
+          0
+        ],
+        "source_position": 631
+      },
+      {
+        "cross_encoder_score": -2.86919903755188,
+        "dataset": "HotpotQA",
+        "end_char": 25,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "0046effbaa1734175d907980200ac642",
+        "passage_rank": 4,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "b03596d4183ecb733129ef90bfe89666",
+        "sentence_text": "Revengers Tragedy (album)",
+        "sentence_token_cost": 8,
+        "source_order": [
+          8,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -0.41905394196510315,
+        "dataset": "HotpotQA",
+        "end_char": 176,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "0046effbaa1734175d907980200ac642",
+        "passage_rank": 4,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "46e19fe9750c2b081ede251f5949e2e6",
+        "sentence_text": "Revengers Tragedy is a 2003 album by Chumbawamba which served as the soundtrack to the 2003 film adaptation of the 1606 play \"The Revenger's Tragedy\".",
+        "sentence_token_cost": 49,
+        "source_order": [
+          8,
+          0,
+          1,
+          0
+        ],
+        "source_position": 26
+      },
+      {
+        "cross_encoder_score": -3.193358898162842,
+        "dataset": "HotpotQA",
+        "end_char": 24,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "1092094c27a2ed47bf0ae2d39173ad42",
+        "passage_rank": 5,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "a58d633d5fa4d6a804b2a6636935e9dc",
+        "sentence_text": "Revengers Tragedy (song)",
+        "sentence_token_cost": 8,
+        "source_order": [
+          9,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.957458257675171,
+        "dataset": "HotpotQA",
+        "end_char": 106,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "1092094c27a2ed47bf0ae2d39173ad42",
+        "passage_rank": 5,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "58b476e2d88fea6e7ba1bf0ffee52fa1",
+        "sentence_text": "\"Revengers Tragedy\" is a song performed by British anarcho-punk band Chumbawamba.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          9,
+          0,
+          1,
+          0
+        ],
+        "source_position": 25
+      },
+      {
+        "cross_encoder_score": -3.042553424835205,
+        "dataset": "HotpotQA",
+        "end_char": 206,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "1092094c27a2ed47bf0ae2d39173ad42",
+        "passage_rank": 5,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "37a45fd752c6e0ef2f755748f9280436",
+        "sentence_text": " The song was produced in 2003 as the original soundtrack for Alex Cox's movie, \"Revengers Tragedy.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          9,
+          0,
+          2,
+          0
+        ],
+        "source_position": 107
+      },
+      {
+        "cross_encoder_score": -10.375442504882812,
+        "dataset": "HotpotQA",
+        "end_char": 277,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "1092094c27a2ed47bf0ae2d39173ad42",
+        "passage_rank": 5,
+        "query_id": "5adfa3da554299025d62a317",
+        "sentence_id": "8cd4c749dd4cabd1399528d958ccf052",
+        "sentence_text": " It was released as a single on their independent label, MUTT Records.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          9,
+          0,
+          3,
+          0
+        ],
+        "source_position": 207
+      }
+    ],
+    "scoring_seconds": 0.29665411601308733,
+    "source_fingerprint": "c03bd11efd630d8eba3ee569a38860205cc7f0bc3efd46f353dd024d510785b5"
+  }
+}

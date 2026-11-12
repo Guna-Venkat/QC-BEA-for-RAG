@@ -1,0 +1,1731 @@
+{
+  "checksum": "da09c3a0a99538e4dcbb060167080ced1b30f71664216d573e35245d45789e33",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "411"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 85,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "fcada4febc6ad3616d23ac6a5e86dcff8bdf5b03499d136d641a312c07fe233b",
+    "query_id": "411",
+    "scores": [
+      {
+        "cross_encoder_score": -7.848526477813721,
+        "dataset": "SciFact",
+        "end_char": 114,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "e9f5007f8ac23d8fd2ab3ac2bb944666",
+        "passage_rank": 7,
+        "query_id": "411",
+        "sentence_id": "90bd3f7dd52506c272c27a2eaf2f60c9",
+        "sentence_text": "The mammalian target of rapamycin signaling pathway mediates epileptogenesis in a model of temporal lobe epilepsy.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          20,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.102466106414795,
+        "dataset": "SciFact",
+        "end_char": 241,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "e9f5007f8ac23d8fd2ab3ac2bb944666",
+        "passage_rank": 7,
+        "query_id": "411",
+        "sentence_id": "4e89937a5241f2ff24b9e3ee8c195c65",
+        "sentence_text": "Understanding molecular mechanisms mediating epileptogenesis is critical for developing more effective therapies for epilepsy.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          20,
+          0,
+          1,
+          0
+        ],
+        "source_position": 115
+      },
+      {
+        "cross_encoder_score": -7.512628078460693,
+        "dataset": "SciFact",
+        "end_char": 440,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "e9f5007f8ac23d8fd2ab3ac2bb944666",
+        "passage_rank": 7,
+        "query_id": "411",
+        "sentence_id": "89f98feefe833cc6390e6f80598aecd3",
+        "sentence_text": "We recently found that the mammalian target of rapamycin (mTOR) signaling pathway is involved in epileptogenesis, and mTOR inhibitors prevent epilepsy in a mouse model of tuberous sclerosis complex.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          20,
+          0,
+          2,
+          0
+        ],
+        "source_position": 242
+      },
+      {
+        "cross_encoder_score": -8.655476570129395,
+        "dataset": "SciFact",
+        "end_char": 563,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "e9f5007f8ac23d8fd2ab3ac2bb944666",
+        "passage_rank": 7,
+        "query_id": "411",
+        "sentence_id": "7dba63359ad75b96facfa275c36b5dbe",
+        "sentence_text": "Here, we investigated the potential role of mTOR in a rat model of temporal lobe epilepsy initiated by status epilepticus.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          20,
+          0,
+          3,
+          0
+        ],
+        "source_position": 441
+      },
+      {
+        "cross_encoder_score": -9.155938148498535,
+        "dataset": "SciFact",
+        "end_char": 706,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "e9f5007f8ac23d8fd2ab3ac2bb944666",
+        "passage_rank": 7,
+        "query_id": "411",
+        "sentence_id": "a6f107952137748f06f6f77aad2b9dc5",
+        "sentence_text": "Acute kainate-induced seizures resulted in biphasic activation of the mTOR pathway, as evident by an increase in phospho-S6 (P-S6) expression.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          20,
+          0,
+          4,
+          0
+        ],
+        "source_position": 564
+      },
+      {
+        "cross_encoder_score": -9.361165046691895,
+        "dataset": "SciFact",
+        "end_char": 952,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "e9f5007f8ac23d8fd2ab3ac2bb944666",
+        "passage_rank": 7,
+        "query_id": "411",
+        "sentence_id": "8c79ab333e53d7f4530acd6455f1e3da",
+        "sentence_text": "An initial rise in P-S6 expression started approximately 1 h after seizure onset, peaked at 3-6 h, and returned to baseline by 24 h in both hippocampus and neocortex, reflecting widespread stimulation of mTOR signaling by acute seizure activity.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          20,
+          0,
+          5,
+          0
+        ],
+        "source_position": 707
+      },
+      {
+        "cross_encoder_score": -4.80762243270874,
+        "dataset": "SciFact",
+        "end_char": 1226,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "e9f5007f8ac23d8fd2ab3ac2bb944666",
+        "passage_rank": 7,
+        "query_id": "411",
+        "sentence_id": "71fd8c6383aab499546fd4d207c5bfbf",
+        "sentence_text": "After resolution of status epilepticus, a second increase in P-S6 was observed in hippocampus only, which started at 3 d, peaked 5-10 d, and persisted for several weeks after kainate injection, correlating with the development of chronic epileptogenesis within hippocampus.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          20,
+          0,
+          6,
+          0
+        ],
+        "source_position": 953
+      },
+      {
+        "cross_encoder_score": -2.6236824989318848,
+        "dataset": "SciFact",
+        "end_char": 1495,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "e9f5007f8ac23d8fd2ab3ac2bb944666",
+        "passage_rank": 7,
+        "query_id": "411",
+        "sentence_id": "cf5d6920a073612dcded141775fa8cd8",
+        "sentence_text": "The mTOR inhibitor rapamycin, administered before kainate, blocked both the acute and chronic phases of seizure-induced mTOR activation and decreased kainate-induced neuronal cell death, neurogenesis, mossy fiber sprouting, and the development of spontaneous epilepsy.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          20,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1227
+      },
+      {
+        "cross_encoder_score": -4.271365642547607,
+        "dataset": "SciFact",
+        "end_char": 1694,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "e9f5007f8ac23d8fd2ab3ac2bb944666",
+        "passage_rank": 7,
+        "query_id": "411",
+        "sentence_id": "a4a179757c034bba67339edf9b9bf687",
+        "sentence_text": "Late rapamycin treatment, after termination of status epilepticus, blocked the chronic phase of mTOR activation and reduced mossy fiber sprouting and epilepsy but not neurogenesis or neuronal death.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          20,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1496
+      },
+      {
+        "cross_encoder_score": -10.472700119018555,
+        "dataset": "SciFact",
+        "end_char": 1883,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "e9f5007f8ac23d8fd2ab3ac2bb944666",
+        "passage_rank": 7,
+        "query_id": "411",
+        "sentence_id": "9209eb16c664e49382766aa41e5c123e",
+        "sentence_text": "These findings indicate that mTOR signaling mediates mechanisms of epileptogenesis in the kainate rat model and that mTOR inhibitors have potential antiepileptogenic effects in this model.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          20,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1695
+      },
+      {
+        "cross_encoder_score": -8.100397109985352,
+        "dataset": "SciFact",
+        "end_char": 87,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "defcfbe52ebc7fdcf68bd97fd9d924f9",
+        "passage_rank": 4,
+        "query_id": "411",
+        "sentence_id": "1a83a9cdd89788f2fba8f212f7cc167e",
+        "sentence_text": "Familial aphasic episodes: another variant of partial epilepsy with simple inheritance?",
+        "sentence_token_cost": 16,
+        "source_order": [
+          111,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -7.513408184051514,
+        "dataset": "SciFact",
+        "end_char": 158,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "defcfbe52ebc7fdcf68bd97fd9d924f9",
+        "passage_rank": 4,
+        "query_id": "411",
+        "sentence_id": "e5d12bb8390d274d05f14ab76c4ca01d",
+        "sentence_text": "We report on a family having partial epilepsy with simple inheritance.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          111,
+          0,
+          1,
+          0
+        ],
+        "source_position": 88
+      },
+      {
+        "cross_encoder_score": -10.711514472961426,
+        "dataset": "SciFact",
+        "end_char": 292,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "defcfbe52ebc7fdcf68bd97fd9d924f9",
+        "passage_rank": 4,
+        "query_id": "411",
+        "sentence_id": "8f8fcd054a9fce76f71af54e91924880",
+        "sentence_text": "The affected members commonly have aphasic episodes with secondary generalization; onset occurred either in adolescence or adulthood.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          111,
+          0,
+          2,
+          0
+        ],
+        "source_position": 159
+      },
+      {
+        "cross_encoder_score": -11.017261505126953,
+        "dataset": "SciFact",
+        "end_char": 345,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "defcfbe52ebc7fdcf68bd97fd9d924f9",
+        "passage_rank": 4,
+        "query_id": "411",
+        "sentence_id": "a72927707bbde44f154c46a198a9ace1",
+        "sentence_text": "Patients' response to medication has varied greatly.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          111,
+          0,
+          3,
+          0
+        ],
+        "source_position": 293
+      },
+      {
+        "cross_encoder_score": -10.597220420837402,
+        "dataset": "SciFact",
+        "end_char": 408,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "defcfbe52ebc7fdcf68bd97fd9d924f9",
+        "passage_rank": 4,
+        "query_id": "411",
+        "sentence_id": "a8eb9bb61171fab6329834990c8de168",
+        "sentence_text": "No neurological defects or decline in intelligence were found.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          111,
+          0,
+          4,
+          0
+        ],
+        "source_position": 346
+      },
+      {
+        "cross_encoder_score": -7.635241985321045,
+        "dataset": "SciFact",
+        "end_char": 514,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "defcfbe52ebc7fdcf68bd97fd9d924f9",
+        "passage_rank": 4,
+        "query_id": "411",
+        "sentence_id": "70ec7240dfb39b31615899537631fc81",
+        "sentence_text": "The case represents another variety of rare familial partial epilepsy with neocortical epilepsy features.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          111,
+          0,
+          5,
+          0
+        ],
+        "source_position": 409
+      },
+      {
+        "cross_encoder_score": -7.521024227142334,
+        "dataset": "SciFact",
+        "end_char": 61,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "216872ecb18a04c904be26c7f21db722",
+        "passage_rank": 8,
+        "query_id": "411",
+        "sentence_id": "46e6af0ace61c4bfe9fe0bb3b573cf23",
+        "sentence_text": "Localization of a gene for partial epilepsy to chromosome 10q",
+        "sentence_token_cost": 13,
+        "source_order": [
+          150,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.90843391418457,
+        "dataset": "SciFact",
+        "end_char": 282,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "216872ecb18a04c904be26c7f21db722",
+        "passage_rank": 8,
+        "query_id": "411",
+        "sentence_id": "c4320509db729266a298fb29db34ec09",
+        "sentence_text": "There is strong evidence for a genetic contribution to epilepsy, but it is commonly assumed that this genetic contribution is limited to \u2018generalized\u2019 epilepsies, and that most forms of \u2018partial\u2019 epilepsy are nongenetic.",
+        "sentence_token_cost": 46,
+        "source_order": [
+          150,
+          0,
+          1,
+          0
+        ],
+        "source_position": 62
+      },
+      {
+        "cross_encoder_score": -7.091634750366211,
+        "dataset": "SciFact",
+        "end_char": 436,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "216872ecb18a04c904be26c7f21db722",
+        "passage_rank": 8,
+        "query_id": "411",
+        "sentence_id": "e6efb2cd7a3122d5535072babe49c9a4",
+        "sentence_text": "In a linkage analysis of a single family containing 11 affected individuals, we obtained strong evidence for localization of a gene for partial epilepsy.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          150,
+          0,
+          2,
+          0
+        ],
+        "source_position": 283
+      },
+      {
+        "cross_encoder_score": -11.325773239135742,
+        "dataset": "SciFact",
+        "end_char": 550,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "216872ecb18a04c904be26c7f21db722",
+        "passage_rank": 8,
+        "query_id": "411",
+        "sentence_id": "ca7591823ebe07130aba08f29badb9b9",
+        "sentence_text": "This susceptibility gene maps to chromosome 10q, with a maximum two\u2013point lod score for D10S192 of 3.99 at \u03b8=0.0.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          150,
+          0,
+          3,
+          0
+        ],
+        "source_position": 437
+      },
+      {
+        "cross_encoder_score": -11.27005386352539,
+        "dataset": "SciFact",
+        "end_char": 704,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "216872ecb18a04c904be26c7f21db722",
+        "passage_rank": 8,
+        "query_id": "411",
+        "sentence_id": "a8b4c5c4966eceb93cc34f2a3fcbb60c",
+        "sentence_text": "All affected individuals share a single haplotype for seven tightly linked contiguous markers; the maximum lod score for this haplotype is 4.83 at \u03b8=0.0.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          150,
+          0,
+          4,
+          0
+        ],
+        "source_position": 551
+      },
+      {
+        "cross_encoder_score": -11.080682754516602,
+        "dataset": "SciFact",
+        "end_char": 786,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "216872ecb18a04c904be26c7f21db722",
+        "passage_rank": 8,
+        "query_id": "411",
+        "sentence_id": "519c221dd2507730cd97587f86ac1392",
+        "sentence_text": "Key recombinants place the susceptibility locus within a 10 centimorgan interval.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          150,
+          0,
+          5,
+          0
+        ],
+        "source_position": 705
+      },
+      {
+        "cross_encoder_score": -5.820200443267822,
+        "dataset": "SciFact",
+        "end_char": 84,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "cdee216982cb0e04cccaf6ada644272b",
+        "passage_rank": 6,
+        "query_id": "411",
+        "sentence_id": "e147b5aceb9aa1ac50f4e1b798b22bf1",
+        "sentence_text": "An Excitatory Loop with Astrocytes Contributes to Drive Neurons to Seizure Threshold",
+        "sentence_token_cost": 20,
+        "source_order": [
+          258,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -4.554373264312744,
+        "dataset": "SciFact",
+        "end_char": 265,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "cdee216982cb0e04cccaf6ada644272b",
+        "passage_rank": 6,
+        "query_id": "411",
+        "sentence_id": "c2679fa6ece551a110c1fb0dfef80647",
+        "sentence_text": "Seizures in focal epilepsies are sustained by a highly synchronous neuronal discharge that arises at restricted brain sites and subsequently spreads to large portions of the brain.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          258,
+          0,
+          1,
+          0
+        ],
+        "source_position": 85
+      },
+      {
+        "cross_encoder_score": -9.274761199951172,
+        "dataset": "SciFact",
+        "end_char": 416,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "cdee216982cb0e04cccaf6ada644272b",
+        "passage_rank": 6,
+        "query_id": "411",
+        "sentence_id": "26ef731e65b4d5b4b2b89c6491e3c41d",
+        "sentence_text": "Despite intense experimental research in this field, the earlier cellular events that initiate and sustain a focal seizure are still not well defined.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          258,
+          0,
+          2,
+          0
+        ],
+        "source_position": 266
+      },
+      {
+        "cross_encoder_score": -5.686110973358154,
+        "dataset": "SciFact",
+        "end_char": 585,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "cdee216982cb0e04cccaf6ada644272b",
+        "passage_rank": 6,
+        "query_id": "411",
+        "sentence_id": "d5cc68758af4f9c7e435ee6b58cc4bbf",
+        "sentence_text": "Their identification is central to understand the pathophysiology of focal epilepsies and to develop new pharmacological therapies for drug-resistant forms of epilepsy.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          258,
+          0,
+          3,
+          0
+        ],
+        "source_position": 417
+      },
+      {
+        "cross_encoder_score": -11.228691101074219,
+        "dataset": "SciFact",
+        "end_char": 663,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "cdee216982cb0e04cccaf6ada644272b",
+        "passage_rank": 6,
+        "query_id": "411",
+        "sentence_id": "3f93da989bef3e9bf7cc5f798ef36331",
+        "sentence_text": "The prominent involvement of astrocytes in ictogenesis was recently proposed.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          258,
+          0,
+          4,
+          0
+        ],
+        "source_position": 586
+      },
+      {
+        "cross_encoder_score": -9.536530494689941,
+        "dataset": "SciFact",
+        "end_char": 815,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "cdee216982cb0e04cccaf6ada644272b",
+        "passage_rank": 6,
+        "query_id": "411",
+        "sentence_id": "16bf60d00537f89efea66150ce451f7d",
+        "sentence_text": "We test here whether a cooperation between astrocytes and neurons is a prerequisite to support ictal (seizure-like) and interictal epileptiform events.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          258,
+          0,
+          5,
+          0
+        ],
+        "source_position": 664
+      },
+      {
+        "cross_encoder_score": -10.554190635681152,
+        "dataset": "SciFact",
+        "end_char": 1033,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "cdee216982cb0e04cccaf6ada644272b",
+        "passage_rank": 6,
+        "query_id": "411",
+        "sentence_id": "bf4710c366f2371147a519ff963b9fe0",
+        "sentence_text": "Simultaneous patch-clamp recording and Ca2+ imaging techniques were performed in a new in vitro model of focal seizures induced by local applications of N-methyl-D-aspartic acid (NMDA) in rat entorhinal cortex slices.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          258,
+          0,
+          6,
+          0
+        ],
+        "source_position": 816
+      },
+      {
+        "cross_encoder_score": -8.215307235717773,
+        "dataset": "SciFact",
+        "end_char": 1179,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "cdee216982cb0e04cccaf6ada644272b",
+        "passage_rank": 6,
+        "query_id": "411",
+        "sentence_id": "61b16fd676c811c7fafc87c2117f518c",
+        "sentence_text": "We found that a Ca2+ elevation in astrocytes correlates with both the initial development and the maintenance of a focal, seizure-like discharge.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          258,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1034
+      },
+      {
+        "cross_encoder_score": -10.023672103881836,
+        "dataset": "SciFact",
+        "end_char": 1408,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "cdee216982cb0e04cccaf6ada644272b",
+        "passage_rank": 6,
+        "query_id": "411",
+        "sentence_id": "9cb16b574b05c3e2004243c748dcafc0",
+        "sentence_text": "A delayed astrocyte activation during ictal discharges was also observed in other models (including the whole in vitro isolated guinea pig brain) in which the site of generation of seizure activity cannot be precisely monitored.",
+        "sentence_token_cost": 44,
+        "source_order": [
+          258,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1180
+      },
+      {
+        "cross_encoder_score": -11.219496726989746,
+        "dataset": "SciFact",
+        "end_char": 1496,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "cdee216982cb0e04cccaf6ada644272b",
+        "passage_rank": 6,
+        "query_id": "411",
+        "sentence_id": "b5091baaa4a62d6a7dacba2c4e6891fe",
+        "sentence_text": "In contrast, interictal discharges were not associated with Ca2+ changes in astrocytes.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          258,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1409
+      },
+      {
+        "cross_encoder_score": -11.09869384765625,
+        "dataset": "SciFact",
+        "end_char": 1666,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "cdee216982cb0e04cccaf6ada644272b",
+        "passage_rank": 6,
+        "query_id": "411",
+        "sentence_id": "30626390047f082f757736eb83fafab9",
+        "sentence_text": "Selective inhibition or stimulation of astrocyte Ca2+ signalling blocked or enhanced, respectively, ictal discharges, but did not affect interictal discharge generation.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          258,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1497
+      },
+      {
+        "cross_encoder_score": -10.204033851623535,
+        "dataset": "SciFact",
+        "end_char": 1847,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "cdee216982cb0e04cccaf6ada644272b",
+        "passage_rank": 6,
+        "query_id": "411",
+        "sentence_id": "83df06613335858c7e56ec2bac188eb5",
+        "sentence_text": "Our data reveal that neurons engage astrocytes in a recurrent excitatory loop (possibly involving gliotransmission) that promotes seizure ignition and sustains the ictal discharge.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          258,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1667
+      },
+      {
+        "cross_encoder_score": -8.543477058410645,
+        "dataset": "SciFact",
+        "end_char": 1975,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "cdee216982cb0e04cccaf6ada644272b",
+        "passage_rank": 6,
+        "query_id": "411",
+        "sentence_id": "dc0bb1d963dafb025b25200aa3700342",
+        "sentence_text": "This neuron-astrocyte interaction may represent a novel target to develop effective therapeutic strategies to control seizures.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          258,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1848
+      },
+      {
+        "cross_encoder_score": -8.084441184997559,
+        "dataset": "SciFact",
+        "end_char": 135,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "e3f356d2c722859033af8ee29d6de4eb",
+        "passage_rank": 9,
+        "query_id": "411",
+        "sentence_id": "63f883675b0a58dd50e55318e4d9735a",
+        "sentence_text": "History of chronic comorbidity and risk of chemotherapy-induced febrile neutropenia in cancer patients not receiving G-CSF prophylaxis.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          1172,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.206084251403809,
+        "dataset": "SciFact",
+        "end_char": 319,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "e3f356d2c722859033af8ee29d6de4eb",
+        "passage_rank": 9,
+        "query_id": "411",
+        "sentence_id": "899e5566467a1fd229711b657f51df3d",
+        "sentence_text": "BACKGROUND Chemotherapy-induced febrile neutropenia (FN) is a clinically important complication that affects patient outcome by delaying chemotherapy doses or reducing dose intensity.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1172,
+          0,
+          1,
+          0
+        ],
+        "source_position": 136
+      },
+      {
+        "cross_encoder_score": -11.234410285949707,
+        "dataset": "SciFact",
+        "end_char": 382,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "e3f356d2c722859033af8ee29d6de4eb",
+        "passage_rank": 9,
+        "query_id": "411",
+        "sentence_id": "97a5f74d7cc09bddd6215a2a5e4c209f",
+        "sentence_text": "Risk of FN depends on chemotherapy- and patient-level factors.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          1172,
+          0,
+          2,
+          0
+        ],
+        "source_position": 320
+      },
+      {
+        "cross_encoder_score": -11.118605613708496,
+        "dataset": "SciFact",
+        "end_char": 461,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "e3f356d2c722859033af8ee29d6de4eb",
+        "passage_rank": 9,
+        "query_id": "411",
+        "sentence_id": "24ed0fd2d0b47682fa9c4567636ebb93",
+        "sentence_text": "We sought to determine the effects of chronic comorbidities on risk of FN.   \n",
+        "sentence_token_cost": 18,
+        "source_order": [
+          1172,
+          0,
+          3,
+          0
+        ],
+        "source_position": 383
+      },
+      {
+        "cross_encoder_score": -11.3444242477417,
+        "dataset": "SciFact",
+        "end_char": 837,
+        "pair_tokens_before_truncation": 100,
+        "pair_truncated": false,
+        "passage_id": "e3f356d2c722859033af8ee29d6de4eb",
+        "passage_rank": 9,
+        "query_id": "411",
+        "sentence_id": "593b6ea79912217976d8534cb16d24dc",
+        "sentence_text": "DESIGN We conducted a cohort study to examine the association between a variety of chronic comorbidities and risk of FN in patients diagnosed with six types of cancer (non-Hodgkin lymphoma and breast, colorectal, lung, ovary, and gastric cancer) from 2000 to 2009 who were treated with chemotherapy at Kaiser Permanente Southern California, a large managed care organization.",
+        "sentence_token_cost": 86,
+        "source_order": [
+          1172,
+          0,
+          4,
+          0
+        ],
+        "source_position": 462
+      },
+      {
+        "cross_encoder_score": -11.07348918914795,
+        "dataset": "SciFact",
+        "end_char": 937,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "e3f356d2c722859033af8ee29d6de4eb",
+        "passage_rank": 9,
+        "query_id": "411",
+        "sentence_id": "ca7298651cd4aad80de2299cd69fa51e",
+        "sentence_text": "We excluded those patients who received primary prophylactic granulocyte colony-stimulating factor.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          1172,
+          0,
+          5,
+          0
+        ],
+        "source_position": 838
+      },
+      {
+        "cross_encoder_score": -11.113608360290527,
+        "dataset": "SciFact",
+        "end_char": 1026,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "e3f356d2c722859033af8ee29d6de4eb",
+        "passage_rank": 9,
+        "query_id": "411",
+        "sentence_id": "a32339875108464df1163f723b0a4946",
+        "sentence_text": "History of comorbidities and FN events were identified using electronic medical records.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          1172,
+          0,
+          6,
+          0
+        ],
+        "source_position": 938
+      },
+      {
+        "cross_encoder_score": -11.384071350097656,
+        "dataset": "SciFact",
+        "end_char": 1171,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "e3f356d2c722859033af8ee29d6de4eb",
+        "passage_rank": 9,
+        "query_id": "411",
+        "sentence_id": "7b98ad267bcbd2bc25193fa5e2afe7a5",
+        "sentence_text": "Cox models adjusting for propensity score, stratified by cancer type, were used to determine the association between comorbid conditions and FN.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          1172,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1027
+      },
+      {
+        "cross_encoder_score": -11.2221097946167,
+        "dataset": "SciFact",
+        "end_char": 1316,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "e3f356d2c722859033af8ee29d6de4eb",
+        "passage_rank": 9,
+        "query_id": "411",
+        "sentence_id": "1bd6e58a9a25120aaa727cf270e174af",
+        "sentence_text": "Models that additionally adjusted for cancer stage, baseline neutrophil count, chemotherapy regimen, and dose reduction were also evaluated.   \n",
+        "sentence_token_cost": 25,
+        "source_order": [
+          1172,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1172
+      },
+      {
+        "cross_encoder_score": -11.257184982299805,
+        "dataset": "SciFact",
+        "end_char": 1449,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "e3f356d2c722859033af8ee29d6de4eb",
+        "passage_rank": 9,
+        "query_id": "411",
+        "sentence_id": "203c10eddc82b933221b5bb76ce74960",
+        "sentence_text": "RESULTS A total of 19 160 patients with mean age of 60 years were included; 963 (5.0%) developed FN in the first chemotherapy cycle.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          1172,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1317
+      },
+      {
+        "cross_encoder_score": -11.262433052062988,
+        "dataset": "SciFact",
+        "end_char": 1854,
+        "pair_tokens_before_truncation": 179,
+        "pair_truncated": false,
+        "passage_id": "e3f356d2c722859033af8ee29d6de4eb",
+        "passage_rank": 9,
+        "query_id": "411",
+        "sentence_id": "18c0ffb697f11dff26064b46637f343d",
+        "sentence_text": "Chronic obstructive pulmonary disease [hazard ratio (HR) = 1.30 (1.07-1.57)], congestive heart failure [HR = 1.43 (1.00-1.98)], HIV infection [HR = 3.40 (1.90-5.63)], autoimmune disease [HR = 2.01 (1.10-3.33)], peptic ulcer disease [HR = 1.57 (1.05-2.26)], renal disease [HR = 1.60 (1.21-2.09)], and thyroid disorder [HR = 1.32 (1.06-1.64)] were all associated with a significantly increased FN risk.   \n",
+        "sentence_token_cost": 172,
+        "source_order": [
+          1172,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1450
+      },
+      {
+        "cross_encoder_score": -11.263517379760742,
+        "dataset": "SciFact",
+        "end_char": 2036,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "e3f356d2c722859033af8ee29d6de4eb",
+        "passage_rank": 9,
+        "query_id": "411",
+        "sentence_id": "191eba1dd3417069e64859c0458b77de",
+        "sentence_text": "CONCLUSIONS These results provide evidence that history of several chronic comorbidities increases risk of FN, which should be considered when managing patients during chemotherapy.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          1172,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1855
+      },
+      {
+        "cross_encoder_score": 0.2372550070285797,
+        "dataset": "SciFact",
+        "end_char": 118,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "bead8013abfeb85df113b165c98aadb1",
+        "passage_rank": 1,
+        "query_id": "411",
+        "sentence_id": "833430512a760871e73eb4255888fd14",
+        "sentence_text": "Febrile seizures in the developing brain result in persistent modification of neuronal excitability in limbic circuits",
+        "sentence_token_cost": 20,
+        "source_order": [
+          2455,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -1.3715993165969849,
+        "dataset": "SciFact",
+        "end_char": 194,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "bead8013abfeb85df113b165c98aadb1",
+        "passage_rank": 1,
+        "query_id": "411",
+        "sentence_id": "4217fd0ee447efee4354f4bc6fb4c7df",
+        "sentence_text": "Febrile (fever-induced) seizures affect 3\u20135% of infants and young children.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          2455,
+          0,
+          1,
+          0
+        ],
+        "source_position": 119
+      },
+      {
+        "cross_encoder_score": 2.825686454772949,
+        "dataset": "SciFact",
+        "end_char": 334,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "bead8013abfeb85df113b165c98aadb1",
+        "passage_rank": 1,
+        "query_id": "411",
+        "sentence_id": "6f664f189f1c5dcb895e70304bc92c54",
+        "sentence_text": "Despite the high incidence of febrile seizures, their contribution to the development of epilepsy later in life has remained controversial.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          2455,
+          0,
+          2,
+          0
+        ],
+        "source_position": 195
+      },
+      {
+        "cross_encoder_score": -3.9172587394714355,
+        "dataset": "SciFact",
+        "end_char": 606,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "bead8013abfeb85df113b165c98aadb1",
+        "passage_rank": 1,
+        "query_id": "411",
+        "sentence_id": "ee02d0923fda6f7449440f4fbba11057",
+        "sentence_text": "Combining a new rat model of complex febrile seizures and patch clamp techniques, we determined that hyperthermia-induced seizures in the immature rat cause a selective presynaptic increase in inhibitory synaptic transmission in the hippocampus that lasts into adulthood.",
+        "sentence_token_cost": 50,
+        "source_order": [
+          2455,
+          0,
+          3,
+          0
+        ],
+        "source_position": 335
+      },
+      {
+        "cross_encoder_score": -3.5547235012054443,
+        "dataset": "SciFact",
+        "end_char": 801,
+        "pair_tokens_before_truncation": 60,
+        "pair_truncated": false,
+        "passage_id": "bead8013abfeb85df113b165c98aadb1",
+        "passage_rank": 1,
+        "query_id": "411",
+        "sentence_id": "77a73082de6052780cb31d7955d8a452",
+        "sentence_text": "The long-lasting nature of these potent alterations in synaptic communication after febrile seizures does not support the prevalent view of the 'benign' nature of early-life febrile convulsions.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          2455,
+          0,
+          4,
+          0
+        ],
+        "source_position": 607
+      },
+      {
+        "cross_encoder_score": -10.814940452575684,
+        "dataset": "SciFact",
+        "end_char": 22,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "70bcba284eef827eba71a3791e205adc",
+        "passage_rank": 2,
+        "query_id": "411",
+        "sentence_id": "99495a92c3e00972220407698c3e1d92",
+        "sentence_text": "A JOURNAL OF NEUROLOGY",
+        "sentence_token_cost": 8,
+        "source_order": [
+          2558,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.938346862792969,
+        "dataset": "SciFact",
+        "end_char": 169,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "70bcba284eef827eba71a3791e205adc",
+        "passage_rank": 2,
+        "query_id": "411",
+        "sentence_id": "e8699dbd2dbcc324e1d609158d73bb1d",
+        "sentence_text": "Brain glial cells, five times more prevalent than neurons, have recently received attention for their potential involvement in epileptic seizures.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          2558,
+          0,
+          1,
+          0
+        ],
+        "source_position": 23
+      },
+      {
+        "cross_encoder_score": -10.13294506072998,
+        "dataset": "SciFact",
+        "end_char": 335,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "70bcba284eef827eba71a3791e205adc",
+        "passage_rank": 2,
+        "query_id": "411",
+        "sentence_id": "8cc7cf00c32f748b5d310372a2e8c6e0",
+        "sentence_text": "Microglia and astrocytes, associated with inflammatory innate immune responses, are responsible for surveillance of brain damage that frequently results in seizures.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          2558,
+          0,
+          2,
+          0
+        ],
+        "source_position": 170
+      },
+      {
+        "cross_encoder_score": -9.016905784606934,
+        "dataset": "SciFact",
+        "end_char": 469,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "70bcba284eef827eba71a3791e205adc",
+        "passage_rank": 2,
+        "query_id": "411",
+        "sentence_id": "cddb906c7dbcee276613baedca80a62b",
+        "sentence_text": "Thus, an intriguing suggestion has been put forward that seizures may be facilitated and perhaps triggered by brain immune responses.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          2558,
+          0,
+          3,
+          0
+        ],
+        "source_position": 336
+      },
+      {
+        "cross_encoder_score": 3.4927403926849365,
+        "dataset": "SciFact",
+        "end_char": 697,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "70bcba284eef827eba71a3791e205adc",
+        "passage_rank": 2,
+        "query_id": "411",
+        "sentence_id": "cd69841e9290b0545662e4c28d0eb89c",
+        "sentence_text": "Indeed, recent evidence strongly implicates innate immune responses in lowering seizure threshold in experimental models of epilepsy, yet, there is no proof that they can play an independent role in initiating seizures in vivo.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          2558,
+          0,
+          4,
+          0
+        ],
+        "source_position": 470
+      },
+      {
+        "cross_encoder_score": -8.324950218200684,
+        "dataset": "SciFact",
+        "end_char": 833,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "70bcba284eef827eba71a3791e205adc",
+        "passage_rank": 2,
+        "query_id": "411",
+        "sentence_id": "4ac958ebe6b13eccccf6dc5a9cc6b3bd",
+        "sentence_text": "Here, we show that cortical innate immune responses alone produce profound increases of brain excitability resulting in focal seizures.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          2558,
+          0,
+          5,
+          0
+        ],
+        "source_position": 698
+      },
+      {
+        "cross_encoder_score": -10.414456367492676,
+        "dataset": "SciFact",
+        "end_char": 1017,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "70bcba284eef827eba71a3791e205adc",
+        "passage_rank": 2,
+        "query_id": "411",
+        "sentence_id": "57cfbeb69c5d5655f8e5e592d1f235d3",
+        "sentence_text": "We found that cortical application of lipopolysaccharide, binding to toll-like receptor 4 (TLR4), triples evoked field potential amplitudes and produces focal epileptiform discharges.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          2558,
+          0,
+          6,
+          0
+        ],
+        "source_position": 834
+      },
+      {
+        "cross_encoder_score": -10.695484161376953,
+        "dataset": "SciFact",
+        "end_char": 1102,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "70bcba284eef827eba71a3791e205adc",
+        "passage_rank": 2,
+        "query_id": "411",
+        "sentence_id": "dfd606579a74d0d24c7b6bf4ea8e0e59",
+        "sentence_text": "These effects are prevented by pre-application of interleukin-1 receptor antagonist.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          2558,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1018
+      },
+      {
+        "cross_encoder_score": -9.811115264892578,
+        "dataset": "SciFact",
+        "end_char": 1387,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "70bcba284eef827eba71a3791e205adc",
+        "passage_rank": 2,
+        "query_id": "411",
+        "sentence_id": "c91ce10e1ef89bf9f6a559ddd09551a6",
+        "sentence_text": "Our results demonstrate how the innate immune response may participate in acute seizures, increasing neuronal excitability through interleukin-1 release in response to TLR4 detection of the danger signals associated with infections of the central nervous system and with brain injury.",
+        "sentence_token_cost": 49,
+        "source_order": [
+          2558,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1103
+      },
+      {
+        "cross_encoder_score": -7.104516983032227,
+        "dataset": "SciFact",
+        "end_char": 1659,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "70bcba284eef827eba71a3791e205adc",
+        "passage_rank": 2,
+        "query_id": "411",
+        "sentence_id": "afa5e2878bde2eaf339ed2647e05173c",
+        "sentence_text": "These results suggest an important role of innate immunity in epileptogenesis and focus on glial inhibition, through pharmacological blockade of TLR4 and the pro-inflammatory mediators released by activated glia, in the study and treatment of seizure disorders in humans.",
+        "sentence_token_cost": 51,
+        "source_order": [
+          2558,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1388
+      },
+      {
+        "cross_encoder_score": -9.07729434967041,
+        "dataset": "SciFact",
+        "end_char": 102,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "519383910c5094d0799fba314646c681",
+        "passage_rank": 3,
+        "query_id": "411",
+        "sentence_id": "83add864a74496f1840388eed4f5fd7c",
+        "sentence_text": "A functional polymorphism in the prodynorphin gene promotor is associated with temporal lobe epilepsy.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          4137,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -6.483025074005127,
+        "dataset": "SciFact",
+        "end_char": 304,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "519383910c5094d0799fba314646c681",
+        "passage_rank": 3,
+        "query_id": "411",
+        "sentence_id": "86ef967b9d9535254249ffda3411a054",
+        "sentence_text": "The prodynorphin gene (PDYN) encoding the anticonvulsant peptide dynorphin is a strong candidate for a seizure suppressor gene and thus a possible modulator of susceptibility to temporal lobe epilepsy.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          4137,
+          0,
+          1,
+          0
+        ],
+        "source_position": 103
+      },
+      {
+        "cross_encoder_score": -6.5619730949401855,
+        "dataset": "SciFact",
+        "end_char": 577,
+        "pair_tokens_before_truncation": 73,
+        "pair_truncated": false,
+        "passage_id": "519383910c5094d0799fba314646c681",
+        "passage_rank": 3,
+        "query_id": "411",
+        "sentence_id": "e71f662dcd428e8bdbb5d9da2bc6f11d",
+        "sentence_text": "We performed a case control association study in 155 patients with nonlesional temporal lobe epilepsy and 202 controls and found that PDYN promotor low-expression L-alleles confer an increased risk for temporal lobe epilepsy in patients with a family history for seizures.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          4137,
+          0,
+          2,
+          0
+        ],
+        "source_position": 305
+      },
+      {
+        "cross_encoder_score": -6.2429962158203125,
+        "dataset": "SciFact",
+        "end_char": 715,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "519383910c5094d0799fba314646c681",
+        "passage_rank": 3,
+        "query_id": "411",
+        "sentence_id": "cb574ce8a7fc52ccdbebd1a7efc48e0d",
+        "sentence_text": "Irrespective of the familial background, L-homozygotes display a higher risk for secondarily generalized seizures and status epilepticus.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          4137,
+          0,
+          3,
+          0
+        ],
+        "source_position": 578
+      },
+      {
+        "cross_encoder_score": -10.067389488220215,
+        "dataset": "SciFact",
+        "end_char": 85,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "49bc6590ce73880fd4ab0ac1b46dce45",
+        "passage_rank": 10,
+        "query_id": "411",
+        "sentence_id": "462557e345642a002ae2b2c29aba3f14",
+        "sentence_text": "Intravenous valproate is well tolerated in unstable patients with status epilepticus.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          4156,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.454401969909668,
+        "dataset": "SciFact",
+        "end_char": 213,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "49bc6590ce73880fd4ab0ac1b46dce45",
+        "passage_rank": 10,
+        "query_id": "411",
+        "sentence_id": "de124a6b6748699b174595896b8788a0",
+        "sentence_text": "The authors reviewed hospital records of 13 patients with status epilepticus and hypotension who received IV valproate therapy.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          4156,
+          0,
+          1,
+          0
+        ],
+        "source_position": 86
+      },
+      {
+        "cross_encoder_score": -10.863412857055664,
+        "dataset": "SciFact",
+        "end_char": 250,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "49bc6590ce73880fd4ab0ac1b46dce45",
+        "passage_rank": 10,
+        "query_id": "411",
+        "sentence_id": "96f2b7441742ff22b81f1d090efc9464",
+        "sentence_text": "Most patients were elderly (74.4 +/-",
+        "sentence_token_cost": 10,
+        "source_order": [
+          4156,
+          0,
+          2,
+          0
+        ],
+        "source_position": 214
+      },
+      {
+        "cross_encoder_score": -11.26055908203125,
+        "dataset": "SciFact",
+        "end_char": 320,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "49bc6590ce73880fd4ab0ac1b46dce45",
+        "passage_rank": 10,
+        "query_id": "411",
+        "sentence_id": "058a1b35d2190e060b8a3415d67dc96d",
+        "sentence_text": "12.5 [SD] years) and received a loading dose of valproate of 25.1 +/-",
+        "sentence_token_cost": 25,
+        "source_order": [
+          4156,
+          0,
+          3,
+          0
+        ],
+        "source_position": 251
+      },
+      {
+        "cross_encoder_score": -11.057713508605957,
+        "dataset": "SciFact",
+        "end_char": 374,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "49bc6590ce73880fd4ab0ac1b46dce45",
+        "passage_rank": 10,
+        "query_id": "411",
+        "sentence_id": "870e44c1e96cd88c4491b4c752907c2b",
+        "sentence_text": "5.0 mg/kg (range 14.7 to 32.7), at a rate of 36.6 +/-",
+        "sentence_token_cost": 29,
+        "source_order": [
+          4156,
+          0,
+          4,
+          0
+        ],
+        "source_position": 321
+      },
+      {
+        "cross_encoder_score": -10.761750221252441,
+        "dataset": "SciFact",
+        "end_char": 406,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "49bc6590ce73880fd4ab0ac1b46dce45",
+        "passage_rank": 10,
+        "query_id": "411",
+        "sentence_id": "136b4cb7e68ac0cc0cf863535702dfd8",
+        "sentence_text": "25.1 mg/min (range 6.3 to 100).",
+        "sentence_token_cost": 18,
+        "source_order": [
+          4156,
+          0,
+          5,
+          0
+        ],
+        "source_position": 375
+      },
+      {
+        "cross_encoder_score": -11.251874923706055,
+        "dataset": "SciFact",
+        "end_char": 490,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "49bc6590ce73880fd4ab0ac1b46dce45",
+        "passage_rank": 10,
+        "query_id": "411",
+        "sentence_id": "3533c12427a22d5254e430afe761727a",
+        "sentence_text": "There were no significant changes in blood pressure, pulse, or use of vasopressors.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          4156,
+          0,
+          6,
+          0
+        ],
+        "source_position": 407
+      },
+      {
+        "cross_encoder_score": -11.330485343933105,
+        "dataset": "SciFact",
+        "end_char": 599,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "49bc6590ce73880fd4ab0ac1b46dce45",
+        "passage_rank": 10,
+        "query_id": "411",
+        "sentence_id": "1b20a0a22075fdb854cd9618eaa299fc",
+        "sentence_text": "The data suggest that valproate loading is well tolerated, even in patients with cardiovascular instability.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          4156,
+          0,
+          7,
+          0
+        ],
+        "source_position": 491
+      },
+      {
+        "cross_encoder_score": -9.02112102508545,
+        "dataset": "SciFact",
+        "end_char": 83,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "632539ec1e74b11d81ca2a3d329c356b",
+        "passage_rank": 5,
+        "query_id": "411",
+        "sentence_id": "9951d52e9cb2e5246ebc5d6de32b1edd",
+        "sentence_text": "GABA(B) receptor 1 polymorphism (G1465A) is associated with temporal lobe epilepsy.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          4180,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.094162940979004,
+        "dataset": "SciFact",
+        "end_char": 231,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "632539ec1e74b11d81ca2a3d329c356b",
+        "passage_rank": 5,
+        "query_id": "411",
+        "sentence_id": "6ef66667797e606f20d62942e2e7b437",
+        "sentence_text": "BACKGROUND Dysfunction of gamma-aminobutyric acid (GABA) (B) receptors has been implicated in the pathogenesis of temporal lobe epilepsy (TLE).   \n",
+        "sentence_token_cost": 35,
+        "source_order": [
+          4180,
+          0,
+          1,
+          0
+        ],
+        "source_position": 84
+      },
+      {
+        "cross_encoder_score": -11.286035537719727,
+        "dataset": "SciFact",
+        "end_char": 324,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "632539ec1e74b11d81ca2a3d329c356b",
+        "passage_rank": 5,
+        "query_id": "411",
+        "sentence_id": "454fc9c27f3a1b020cb337cc6ffb1fcc",
+        "sentence_text": "OBJECTIVE To evaluate the genetic contribution of cloned human GABA(B) receptors to TLE.   \n",
+        "sentence_token_cost": 20,
+        "source_order": [
+          4180,
+          0,
+          2,
+          0
+        ],
+        "source_position": 232
+      },
+      {
+        "cross_encoder_score": -11.096956253051758,
+        "dataset": "SciFact",
+        "end_char": 409,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "632539ec1e74b11d81ca2a3d329c356b",
+        "passage_rank": 5,
+        "query_id": "411",
+        "sentence_id": "6a43f608ace9517bf7bcbe8f1bc88578",
+        "sentence_text": "METHODS The authors genotyped 141 patients (78 women and 63 men; mean age = 49.1 +/-",
+        "sentence_token_cost": 31,
+        "source_order": [
+          4180,
+          0,
+          3,
+          0
+        ],
+        "source_position": 325
+      },
+      {
+        "cross_encoder_score": -11.312139511108398,
+        "dataset": "SciFact",
+        "end_char": 579,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "632539ec1e74b11d81ca2a3d329c356b",
+        "passage_rank": 5,
+        "query_id": "411",
+        "sentence_id": "1811db4247542755db31d877051a2d68",
+        "sentence_text": "18.0 years) with nonlesional TLE and 372 age- and sex-matched normal individuals for the known polymorphism G1465A in the human GABA(B) receptor 1 [GABA(B[1])] gene.   \n",
+        "sentence_token_cost": 56,
+        "source_order": [
+          4180,
+          0,
+          4,
+          0
+        ],
+        "source_position": 410
+      },
+      {
+        "cross_encoder_score": -11.12917423248291,
+        "dataset": "SciFact",
+        "end_char": 709,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "632539ec1e74b11d81ca2a3d329c356b",
+        "passage_rank": 5,
+        "query_id": "411",
+        "sentence_id": "91f85d69e5d186ef57fcb70c579fa797",
+        "sentence_text": "RESULTS There was a highly significant overrepresentation of the G1465A heterozygote in patients with TLE compared with controls.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          4180,
+          0,
+          5,
+          0
+        ],
+        "source_position": 580
+      },
+      {
+        "cross_encoder_score": -11.108580589294434,
+        "dataset": "SciFact",
+        "end_char": 823,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "632539ec1e74b11d81ca2a3d329c356b",
+        "passage_rank": 5,
+        "query_id": "411",
+        "sentence_id": "360dd36c81d91cdaa6b5a4c3ff2bb79d",
+        "sentence_text": "The A/G genotype was found in 17% of the 141 patients with TLE and in only 0.5% of the 372 controls (p < 0.0001).",
+        "sentence_token_cost": 47,
+        "source_order": [
+          4180,
+          0,
+          6,
+          0
+        ],
+        "source_position": 710
+      },
+      {
+        "cross_encoder_score": -10.813437461853027,
+        "dataset": "SciFact",
+        "end_char": 995,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "632539ec1e74b11d81ca2a3d329c356b",
+        "passage_rank": 5,
+        "query_id": "411",
+        "sentence_id": "0dc9cd95bfd8789192de44aed50dbc2f",
+        "sentence_text": "The authors also found that patients carrying the A allele had a significantly higher risk (p = 0.003, OR = 6.47, 95% CI = 2.02 to 20.76) of developing drug-resistant TLE.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          4180,
+          0,
+          7,
+          0
+        ],
+        "source_position": 824
+      },
+      {
+        "cross_encoder_score": -7.815080165863037,
+        "dataset": "SciFact",
+        "end_char": 1131,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "632539ec1e74b11d81ca2a3d329c356b",
+        "passage_rank": 5,
+        "query_id": "411",
+        "sentence_id": "7633ae13dd473eae321934b31a3f0843",
+        "sentence_text": "Furthermore, the age at onset of seizures tended to be lower in patients with A/G genotype, but the difference was not significant.   \n",
+        "sentence_token_cost": 27,
+        "source_order": [
+          4180,
+          0,
+          8,
+          0
+        ],
+        "source_position": 996
+      },
+      {
+        "cross_encoder_score": -11.084030151367188,
+        "dataset": "SciFact",
+        "end_char": 1270,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "632539ec1e74b11d81ca2a3d329c356b",
+        "passage_rank": 5,
+        "query_id": "411",
+        "sentence_id": "c1df4f32caeebf7d736861010adf73f1",
+        "sentence_text": "CONCLUSIONS The results of this study indicate that the GABA(B[1]) polymorphism (G1465A) confers a highly increased susceptibility to TLE.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          4180,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1132
+      },
+      {
+        "cross_encoder_score": -6.348230838775635,
+        "dataset": "SciFact",
+        "end_char": 1350,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "632539ec1e74b11d81ca2a3d329c356b",
+        "passage_rank": 5,
+        "query_id": "411",
+        "sentence_id": "e4139aa82f92e3542c092e8138dd9656",
+        "sentence_text": "Moreover, it seems to influence the severity of this common epileptic disorder.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          4180,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1271
+      }
+    ],
+    "scoring_seconds": 0.735804546973668,
+    "source_fingerprint": "836b23ac9d87a4a17b7f9f0153b3774a34af0df7eaa32bb63fde19d5e2c0e0fe"
+  }
+}

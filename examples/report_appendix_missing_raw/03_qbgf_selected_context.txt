@@ -1,0 +1,45 @@
+Our best models achieve an average accuracy of 77.9% across five different binary classification tasks, providing a significant 22.5% improvement over previous methods.
+
+encodings and cancel background noise effects  , we train an unsupervised deep autoenoder (DAE) on the fused heterogeneous features produced by the combined CNN and LSTM information.
+
+Classification with Extreme Gradient Boost	At the third level of hierarchy, the discrete latent vector representation of the deep autoencoder is fed into an Extreme Gradient Boost based classification layer  ,  motivated by  .
+
+as 4 words(pat, pot, knew and gnaw). The dataset consists of 14 participants, with each prompt presented 11 times to each individual. Since our intention is to classify the phonological categories from human thoughts, we discard the facial and audio information and only consider the EEG data corresponding to imagined speech. It is noteworthy that given the mixed nature of EEG signals, it is reportedly challenging to attain a pairwise EEG-phoneme mapping  . In order to explore the problem space, we thus specifically target five binary classification problems addressed in  ,  , i.e presence/absence of consonants, phonemic nasal, bilabial, high-front vowels and high-back vowels.
+
+Training and hyperparameter selection	We performed two sets of experiments with the single-trial EEG data. In PHASE-ONE, our goals was to identify the best architectures and hyperparameters for our networks with a reasonable number of runs. For PHASE-ONE, we randomly shuffled and divided the data (1913 signals from 14 individuals) into train (80%), development (10%) and test sets (10%). In PHASE-TWO, in order to perform a fair comparison with the previous methods reported on the same dataset, we perform
+
+a leave-one-subject out cross-validation experiment using the best settings we learn from PHASE-ONE.
+
+The architectural parameters and hyperparameters listed in Table TABREF6 were selected through an exhaustive grid-search based on the validation set of PHASE-ONE.
+
+We conducted a series of empirical studies starting from single hidden-layered networks for each of the blocks and, based on the validation accuracy, we increased the depth of each given network and selected the optimal parametric set from all possible combinations of parameters.
+
+For the gradient boosting classification, we fixed the maximum depth at 10, number of estimators at 5000, learning rate at 0.1, regularization coefficient at 0.3, subsample ratio at 0.8, and column-sample/iteration at 0.4.
+
+We did not find any notable change of accuracy while varying other hyperparameters while training gradient boost classifier.
+
+Performance analysis and discussion	To demonstrate the significance of the hierarchical CNN-LSTM-DAE method, we conducted separate experiments with the individual networks in PHASE-ONE of experiments and summarized the results in Table TABREF12 From the average accuracy scores, we observe that the mixed network performs much better than individual blocks which is in agreement with the findings in  .
+
+CNN, on the other hand, is heavily biased towards the class label which sees more training data corresponding to it.
+
+It also proves that the combined supervised and unsupervised neural networks, trained hierarchically, can learn the discriminative manifold better than the individual networks and it is crucial for improving the classification accuracy.
+
+task and the minimum (49.14%) is recorded for the INLINEFORM0 .
+
+To further investigate the feature representation achieved by our model, we plot T-distributed Stochastic Neighbor Embedding (tSNE) corresponding to INLINEFORM0 and V/C classification tasks in Fig. FIGREF8 .
+
+We particularly select these two tasks as our model exhibits respectively minimum and maximum performance for these two.
+
+The tSNE visualization reveals that the second set of features are more easily separable than the first one, thereby giving a rationale for our performance.
+
+Next, we provide performance comparison of the proposed approach with the baseline methods for PHASE-TWO of our study (cross-validation experiment) in Table TABREF15 .
+
+Since the model encounters the unseen data of a new subject for testing, and given the high inter-subject variability of the EEG data, a reduction in the accuracy was expected.
+
+However, our network still managed to achieve an improvement of 18.91, 9.95, 67.15, 2.83 and 13.70 % over  .
+
+Besides, our best model shows more reliability compared to previous works: The standard deviation of our model&#x27;s classification accuracy across all the tasks is reduced from
+
+Conclusion and future direction	In an attempt to move a step towards understanding the speech information encoded in brain signals, we developed a novel mixed deep neural network scheme for a number of binary classification tasks from speech imagery EEG data.
+
+Our proposed method highly outperforms the existing methods across all the five binary classification tasks by a large average margin of 22.51%.

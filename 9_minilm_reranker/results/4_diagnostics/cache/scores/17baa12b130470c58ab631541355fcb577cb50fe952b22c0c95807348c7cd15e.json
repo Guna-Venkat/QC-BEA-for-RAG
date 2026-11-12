@@ -1,0 +1,2111 @@
+{
+  "checksum": "55a6a2c1b1d2365be8f034120dcf0879c30518781652e752ecf994f1b639506c",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "90d946ccc3abf494890e147dd85bd489b8f3f0e8"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 104,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "f3865e18036cc174f08eefb6f67d0ae2ea1f60a52bc50517fa7124669612194e",
+    "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+    "scores": [
+      {
+        "cross_encoder_score": -6.581412315368652,
+        "dataset": "QASPER",
+        "end_char": 218,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "f93feab90ecb87f0cdf45fc101056ada",
+        "passage_rank": 10,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "6c236c21ce3a8892d89f6145a6e34f6e",
+        "sentence_text": "Reducing Gender Bias in Word-Level Language Models with a Gender-Equalizing Loss Function\tGender bias exists in natural language datasets which neural language models tend to learn, resulting in biased text generation.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -11.20573902130127,
+        "dataset": "QASPER",
+        "end_char": 309,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "f93feab90ecb87f0cdf45fc101056ada",
+        "passage_rank": 10,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "920213c094bb2808d3f2d9dee4eb0226",
+        "sentence_text": "In this research, we propose a debiasing approach based on the loss function modification.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 219
+      },
+      {
+        "cross_encoder_score": -11.136711120605469,
+        "dataset": "QASPER",
+        "end_char": 439,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "f93feab90ecb87f0cdf45fc101056ada",
+        "passage_rank": 10,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "355480cda77abd343a5d04b090e72a05",
+        "sentence_text": "We introduce a new term to the loss function which attempts to equalize the probabilities of male and female words in the output.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 310
+      },
+      {
+        "cross_encoder_score": 6.987214088439941,
+        "dataset": "QASPER",
+        "end_char": 615,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "f93feab90ecb87f0cdf45fc101056ada",
+        "passage_rank": 10,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "1ed248bb621c8b7f8e22524e8b69cc7f",
+        "sentence_text": "Using an array of bias evaluation metrics, we provide empirical evidence that our approach successfully mitigates gender bias in language models without increasing perplexity.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 440
+      },
+      {
+        "cross_encoder_score": -7.986368656158447,
+        "dataset": "QASPER",
+        "end_char": 815,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "f93feab90ecb87f0cdf45fc101056ada",
+        "passage_rank": 10,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "add2ae5eb83c20533b8a81fb7635135b",
+        "sentence_text": "In comparison to existing debiasing strategies, data augmentation, and word embedding debiasing, our method performs better in several aspects, especially in reducing gender bias in occupation words.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 616
+      },
+      {
+        "cross_encoder_score": 4.05241060256958,
+        "dataset": "QASPER",
+        "end_char": 971,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "f93feab90ecb87f0cdf45fc101056ada",
+        "passage_rank": 10,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "c4f9f15b556e8d456d269f6e780696a3",
+        "sentence_text": "Finally, we introduce a combination of data augmentation and our approach, and show that it outperforms existing strategies in all bias evaluation metrics.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 816
+      },
+      {
+        "cross_encoder_score": -7.642055511474609,
+        "dataset": "QASPER",
+        "end_char": 1233,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "f93feab90ecb87f0cdf45fc101056ada",
+        "passage_rank": 10,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "067e8ced7487ff6faa0a9c689c472ba5",
+        "sentence_text": "Introduction\tNatural Language Processing (NLP) models are shown to capture unwanted biases and stereotypes found in the training data which raise concerns about socioeconomic, ethnic and gender discrimination when these models are deployed for public use  ,  .",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 973
+      },
+      {
+        "cross_encoder_score": -4.92562198638916,
+        "dataset": "QASPER",
+        "end_char": 1312,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "f93feab90ecb87f0cdf45fc101056ada",
+        "passage_rank": 10,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "a6ac66d36248efb9d6372bba17e3c152",
+        "sentence_text": "There are numerous studies that identify algorithmic bias in NLP applications.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1234
+      },
+      {
+        "cross_encoder_score": -9.05773639678955,
+        "dataset": "QASPER",
+        "end_char": 1429,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "f93feab90ecb87f0cdf45fc101056ada",
+        "passage_rank": 10,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "bcdd81e5210d297a872747cbaf3c25ed",
+        "sentence_text": "showed ethnic bias in Google autocomplete suggestions whereas  found gender bias in advertisement delivery systems.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1314
+      },
+      {
+        "cross_encoder_score": -9.481117248535156,
+        "dataset": "QASPER",
+        "end_char": 1462,
+        "pair_tokens_before_truncation": 15,
+        "pair_truncated": false,
+        "passage_id": "f93feab90ecb87f0cdf45fc101056ada",
+        "passage_rank": 10,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "37ff1081e4ff3e984459f6a711e8915f",
+        "sentence_text": "Additionally,  demonstrated that",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1430
+      },
+      {
+        "cross_encoder_score": -10.94637393951416,
+        "dataset": "QASPER",
+        "end_char": 2920,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "1d065c50b035c7378cffeda87acd718d",
+        "passage_rank": 6,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "06d4aa09854750aa5d5a40671f18781a",
+        "sentence_text": "method, counterfactual data augmentation, achieves the best result and outperforms all existing methods.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2816
+      },
+      {
+        "cross_encoder_score": -4.5664215087890625,
+        "dataset": "QASPER",
+        "end_char": 3034,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "1d065c50b035c7378cffeda87acd718d",
+        "passage_rank": 6,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "d859e97edd86852537c802f43943db94",
+        "sentence_text": "Related Work\tRecently, the study of bias in NLP applications has received increasing attention from researchers.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2922
+      },
+      {
+        "cross_encoder_score": -11.240571022033691,
+        "dataset": "QASPER",
+        "end_char": 3174,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "1d065c50b035c7378cffeda87acd718d",
+        "passage_rank": 6,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "0ef9dc98dc8efaaecd7c43e9d32bddce",
+        "sentence_text": "Most relevant work in this domain can be broadly divided into two categories: word embedding debiasing and data debiasing by preprocessing.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 3035
+      },
+      {
+        "cross_encoder_score": -11.328180313110352,
+        "dataset": "QASPER",
+        "end_char": 3253,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "1d065c50b035c7378cffeda87acd718d",
+        "passage_rank": 6,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "d940b67dc75526e72c7c82734d06fc41",
+        "sentence_text": "Dataset\tFor the training data, we use Daily Mail news articles released by  .",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3176
+      },
+      {
+        "cross_encoder_score": -7.559952735900879,
+        "dataset": "QASPER",
+        "end_char": 3422,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "1d065c50b035c7378cffeda87acd718d",
+        "passage_rank": 6,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "99c7ff9a3e9a27119e60d864824b6846",
+        "sentence_text": "This dataset is composed of 219,506 articles covering a diverse range of topics including business, sports, travel, etc., and is claimed to be biased and sensational  .",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3254
+      },
+      {
+        "cross_encoder_score": -11.333809852600098,
+        "dataset": "QASPER",
+        "end_char": 3479,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "1d065c50b035c7378cffeda87acd718d",
+        "passage_rank": 6,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "70b819c73a6d7a4d5c52f2f727fd85ba",
+        "sentence_text": "For manageability, we randomly subsample 5% of the text.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3423
+      },
+      {
+        "cross_encoder_score": -11.321430206298828,
+        "dataset": "QASPER",
+        "end_char": 3534,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "1d065c50b035c7378cffeda87acd718d",
+        "passage_rank": 6,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "48f22c20c3d9ef6f56b7d2ee39c0edea",
+        "sentence_text": "The subsample has around 8.25 million tokens in total.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3480
+      },
+      {
+        "cross_encoder_score": -11.35811996459961,
+        "dataset": "QASPER",
+        "end_char": 3616,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "1d065c50b035c7378cffeda87acd718d",
+        "passage_rank": 6,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "0a4ee61b5c19f3a02e2199bc265b752b",
+        "sentence_text": "Language Model\tWe use a pre-trained 300-dimensional word embedding, GloVe, by  .",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 3536
+      },
+      {
+        "cross_encoder_score": -11.138788223266602,
+        "dataset": "QASPER",
+        "end_char": 3696,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "1d065c50b035c7378cffeda87acd718d",
+        "passage_rank": 6,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "848406b743568596e882ec2e9d3720da",
+        "sentence_text": "We apply random search to the hyperparameter tuning of the LSTM language model.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 3617
+      },
+      {
+        "cross_encoder_score": -10.475336074829102,
+        "dataset": "QASPER",
+        "end_char": 3912,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "1d065c50b035c7378cffeda87acd718d",
+        "passage_rank": 6,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "043a64c5ab8550b266822e0062aa4a6d",
+        "sentence_text": "The best hyperparameters are as follows: 2 hidden layers each with 300 units, a sequence length of 35, a learning rate of 20 with an annealing schedule of decay starting from 0.25 to 0.95, a dropout rate of 0.25 and",
+        "sentence_token_cost": 66,
+        "source_order": [
+          0,
+          2,
+          9,
+          0
+        ],
+        "source_position": 3697
+      },
+      {
+        "cross_encoder_score": -11.28670597076416,
+        "dataset": "QASPER",
+        "end_char": 5155,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "ef71f8840f1403a586dba06dada79768",
+        "passage_rank": 2,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "a43e77c4e30a229be76ddbe3c2a6a761",
+        "sentence_text": "INLINEFORM1 is the corpus size.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "source_position": 5124
+      },
+      {
+        "cross_encoder_score": -7.489521503448486,
+        "dataset": "QASPER",
+        "end_char": 5319,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "ef71f8840f1403a586dba06dada79768",
+        "passage_rank": 2,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "37135c3ec290399a6fd3bd274e6e1fcb",
+        "sentence_text": "We observe that among the similar minima of the loss function, INLINEFORM2 encourages the model to converge towards a minimum that exhibits the lowest gender bias.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          4,
+          1,
+          0
+        ],
+        "source_position": 5156
+      },
+      {
+        "cross_encoder_score": -5.148962020874023,
+        "dataset": "QASPER",
+        "end_char": 5445,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "ef71f8840f1403a586dba06dada79768",
+        "passage_rank": 2,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "75890496813948410f90d3bdc74a2bbf",
+        "sentence_text": "Model Evaluation\tLanguage models are evaluated using perplexity, which is a standard measure of performance for unseen data.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          4,
+          2,
+          0
+        ],
+        "source_position": 5321
+      },
+      {
+        "cross_encoder_score": 6.963186264038086,
+        "dataset": "QASPER",
+        "end_char": 5574,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "ef71f8840f1403a586dba06dada79768",
+        "passage_rank": 2,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "f2f5c58d99baae578e71397d3bc1ab7f",
+        "sentence_text": "For bias evaluation, we use an array of metrics to provide a holistic diagnosis of the model behavior under debiasing treatment.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          4,
+          3,
+          0
+        ],
+        "source_position": 5446
+      },
+      {
+        "cross_encoder_score": -5.763487339019775,
+        "dataset": "QASPER",
+        "end_char": 5619,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "ef71f8840f1403a586dba06dada79768",
+        "passage_rank": 2,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "247a5ffb4d24296a8e65b5d2b6542ad2",
+        "sentence_text": "These metrics are discussed in detail below.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          4,
+          4,
+          0
+        ],
+        "source_position": 5575
+      },
+      {
+        "cross_encoder_score": 0.3683934807777405,
+        "dataset": "QASPER",
+        "end_char": 5708,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "ef71f8840f1403a586dba06dada79768",
+        "passage_rank": 2,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "f132bddc53807aa6df2397a63fdec2bf",
+        "sentence_text": "In all the evaluation metrics requiring gender pairs, we use gender pairs provided by  .",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          4,
+          5,
+          0
+        ],
+        "source_position": 5620
+      },
+      {
+        "cross_encoder_score": -11.311023712158203,
+        "dataset": "QASPER",
+        "end_char": 5785,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "ef71f8840f1403a586dba06dada79768",
+        "passage_rank": 2,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "8b94f543ace35014f49110729cfe9a78",
+        "sentence_text": "This list contains 223 pairs, all other words are considered gender-neutral.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          4,
+          6,
+          0
+        ],
+        "source_position": 5709
+      },
+      {
+        "cross_encoder_score": -4.851455211639404,
+        "dataset": "QASPER",
+        "end_char": 5932,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "ef71f8840f1403a586dba06dada79768",
+        "passage_rank": 2,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "f5b1196f01e716182e097cbf7838187f",
+        "sentence_text": "Co-occurrence bias is computed from the model-generated texts by comparing the occurrences of all gender-neutral words with female and male words.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          4,
+          7,
+          0
+        ],
+        "source_position": 5786
+      },
+      {
+        "cross_encoder_score": -7.612295627593994,
+        "dataset": "QASPER",
+        "end_char": 6047,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "ef71f8840f1403a586dba06dada79768",
+        "passage_rank": 2,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "ebe7d1316d041ed44317a8184a55e388",
+        "sentence_text": "A word is considered to be biased towards a certain gender if it occurs more frequently with words of that gender.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          4,
+          8,
+          0
+        ],
+        "source_position": 5933
+      },
+      {
+        "cross_encoder_score": -10.583983421325684,
+        "dataset": "QASPER",
+        "end_char": 6106,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "ef71f8840f1403a586dba06dada79768",
+        "passage_rank": 2,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "db1e887c52fd62a42a23c481a67f8fe0",
+        "sentence_text": "This definition was first used by  and later adapted by  .",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          4,
+          9,
+          0
+        ],
+        "source_position": 6048
+      },
+      {
+        "cross_encoder_score": -6.682076930999756,
+        "dataset": "QASPER",
+        "end_char": 6372,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "ef71f8840f1403a586dba06dada79768",
+        "passage_rank": 2,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "a8cf1d09e4a04061a01263a9e62226b3",
+        "sentence_text": "Using the definition of gender bias similar to the one used by  , we define gender bias as INLINEFORM0  where INLINEFORM0 is a set of gender-neutral words, and INLINEFORM1 is the occurrences of a word INLINEFORM2 with words of gender INLINEFORM3 in the same window.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          0,
+          4,
+          10,
+          0
+        ],
+        "source_position": 6107
+      },
+      {
+        "cross_encoder_score": -10.299530982971191,
+        "dataset": "QASPER",
+        "end_char": 6406,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "ef71f8840f1403a586dba06dada79768",
+        "passage_rank": 2,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "8feb2b5080bf0604aad651e265625ff3",
+        "sentence_text": "This score is designed to capture",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          4,
+          11,
+          0
+        ],
+        "source_position": 6373
+      },
+      {
+        "cross_encoder_score": -11.391250610351562,
+        "dataset": "QASPER",
+        "end_char": 6474,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "8aac25f0d8a152de1f3682ff903bd4ea",
+        "passage_rank": 3,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "6c80587672b42581c144fb1d50b44cfa",
+        "sentence_text": "unequal co-occurrences of neutral words with male and female words.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 6407
+      },
+      {
+        "cross_encoder_score": -11.336177825927734,
+        "dataset": "QASPER",
+        "end_char": 6574,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "8aac25f0d8a152de1f3682ff903bd4ea",
+        "passage_rank": 3,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "dda967015120a9258724e2a6d66ac3ee",
+        "sentence_text": "Co-occurrences are computed using a sliding window of size 10 extending equally in both directions.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 6475
+      },
+      {
+        "cross_encoder_score": -11.325711250305176,
+        "dataset": "QASPER",
+        "end_char": 6687,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "8aac25f0d8a152de1f3682ff903bd4ea",
+        "passage_rank": 3,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "386f4b27aa8a93b053dc86011701f293",
+        "sentence_text": "Furthermore, we only consider words that occur more than 20 times with gendered words to exclude random effects.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 6575
+      },
+      {
+        "cross_encoder_score": -5.110054016113281,
+        "dataset": "QASPER",
+        "end_char": 6805,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "8aac25f0d8a152de1f3682ff903bd4ea",
+        "passage_rank": 3,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "2ee13a467eb31c6c76455653fe5232ef",
+        "sentence_text": "We also evaluate a normalized version of INLINEFORM0 which we denote by conditional co-occurrence bias, INLINEFORM1 .",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 6688
+      },
+      {
+        "cross_encoder_score": -11.328311920166016,
+        "dataset": "QASPER",
+        "end_char": 6969,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "8aac25f0d8a152de1f3682ff903bd4ea",
+        "passage_rank": 3,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "a97e0a16d95b00d6c99d66b6e94df7b8",
+        "sentence_text": "This is defined as INLINEFORM2  where INLINEFORM0   INLINEFORM0 is less affected by the disparity in the general distribution of male and female words in the text.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 6806
+      },
+      {
+        "cross_encoder_score": -7.375555992126465,
+        "dataset": "QASPER",
+        "end_char": 7135,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "8aac25f0d8a152de1f3682ff903bd4ea",
+        "passage_rank": 3,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "66aca8d060b49bd9e3101566fcb1db27",
+        "sentence_text": "The disparity between the occurrences of the two genders means that text is more inclined to mention one over the other, so it can also be considered a form of bias.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 6970
+      },
+      {
+        "cross_encoder_score": -3.8412797451019287,
+        "dataset": "QASPER",
+        "end_char": 7339,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "8aac25f0d8a152de1f3682ff903bd4ea",
+        "passage_rank": 3,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "d5d95e166c17f6a1776bce5d33c7e09e",
+        "sentence_text": "We report the ratio of occurrence of male and female words in the model generated text, INLINEFORM1 , as INLINEFORM2  Another way of quantifying bias in NLP models is based on the idea of causal testing.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 7136
+      },
+      {
+        "cross_encoder_score": -4.1136794090271,
+        "dataset": "QASPER",
+        "end_char": 7509,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "8aac25f0d8a152de1f3682ff903bd4ea",
+        "passage_rank": 3,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "de34abb84ef3072890bf9ca4c3ba2adc",
+        "sentence_text": "The model is exposed to paired samples which differ only in one attribute (e.g. gender) and the disparity in the output is interpreted as bias related to that attribute.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 7340
+      },
+      {
+        "cross_encoder_score": 1.4224882125854492,
+        "dataset": "QASPER",
+        "end_char": 7634,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "8aac25f0d8a152de1f3682ff903bd4ea",
+        "passage_rank": 3,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "7052d9bb4f58e4bfa994b58346a734a3",
+        "sentence_text": "and  applied this method to measure bias in coreference resolution and  also used it for evaluating gender bias in language",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          5,
+          8,
+          0
+        ],
+        "source_position": 7511
+      },
+      {
+        "cross_encoder_score": -10.840841293334961,
+        "dataset": "QASPER",
+        "end_char": 7645,
+        "pair_tokens_before_truncation": 13,
+        "pair_truncated": false,
+        "passage_id": "7573d13b53c7ef6b1d786c08e483af89",
+        "passage_rank": 5,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "75a1ea80ec780942330103beac144f8c",
+        "sentence_text": "modelling.",
+        "sentence_token_cost": 3,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 7635
+      },
+      {
+        "cross_encoder_score": -0.7677417397499084,
+        "dataset": "QASPER",
+        "end_char": 7752,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "7573d13b53c7ef6b1d786c08e483af89",
+        "passage_rank": 5,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "93683a9929fa1497266b368e7d28c641",
+        "sentence_text": "Following the approach similar to  , we limit this bias evaluation to a set of gender-neutral occupations.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 7646
+      },
+      {
+        "cross_encoder_score": -11.432828903198242,
+        "dataset": "QASPER",
+        "end_char": 7811,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "7573d13b53c7ef6b1d786c08e483af89",
+        "passage_rank": 5,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "28e158c5f9c836f24ebf945afe034e04",
+        "sentence_text": "We create a list of sentences based on a set of templates.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 7753
+      },
+      {
+        "cross_encoder_score": 0.19344781339168549,
+        "dataset": "QASPER",
+        "end_char": 7904,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "7573d13b53c7ef6b1d786c08e483af89",
+        "passage_rank": 5,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "ab097452e208f4dac8c6cac1edc1f4a2",
+        "sentence_text": "There are two sets of templates used for evaluating causal occupation bias (Table TABREF7 ).",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 7812
+      },
+      {
+        "cross_encoder_score": -11.00528335571289,
+        "dataset": "QASPER",
+        "end_char": 8042,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "7573d13b53c7ef6b1d786c08e483af89",
+        "passage_rank": 5,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "ecdd3b294d9b9cf758b7225e51f62623",
+        "sentence_text": "The first set of templates is designed to measure how the probabilities of occupation words depend on the gender information in the seed.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 7905
+      },
+      {
+        "cross_encoder_score": -11.34201431274414,
+        "dataset": "QASPER",
+        "end_char": 8275,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "7573d13b53c7ef6b1d786c08e483af89",
+        "passage_rank": 5,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "d41557cddb493b006da82f613a5eb5c6",
+        "sentence_text": "Below is an example of the first set of templates: INLINEFORM0  Here, the vertical bar separates the seed sequence that is fed into the language models from the target occupation, for which we observe the output softmax probability.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 8043
+      },
+      {
+        "cross_encoder_score": -5.299649715423584,
+        "dataset": "QASPER",
+        "end_char": 8457,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "7573d13b53c7ef6b1d786c08e483af89",
+        "passage_rank": 5,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "c3b0d96fba7a3de6787934421f787db7",
+        "sentence_text": "We measure causal occupation bias conditioned on gender as INLINEFORM0  where INLINEFORM0 is a set of gender-neutral occupations and INLINEFORM1 is the size of the gender pairs set.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 8276
+      },
+      {
+        "cross_encoder_score": -11.26625919342041,
+        "dataset": "QASPER",
+        "end_char": 8569,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "7573d13b53c7ef6b1d786c08e483af89",
+        "passage_rank": 5,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "1e504044532aff5c18ef05dee8d8ca1f",
+        "sentence_text": "For example, INLINEFORM2 is the softmax probability of the word INLINEFORM3 where the seed sequence is He is a.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 8458
+      },
+      {
+        "cross_encoder_score": -11.399194717407227,
+        "dataset": "QASPER",
+        "end_char": 8709,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "7573d13b53c7ef6b1d786c08e483af89",
+        "passage_rank": 5,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "bef867b0acab614397e0f1a30ebf0982",
+        "sentence_text": "The second set of templates like below, aims to capture how the probabilities of gendered words depend on the occupation words in the seed.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          6,
+          8,
+          0
+        ],
+        "source_position": 8570
+      },
+      {
+        "cross_encoder_score": -6.796842098236084,
+        "dataset": "QASPER",
+        "end_char": 8912,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "7573d13b53c7ef6b1d786c08e483af89",
+        "passage_rank": 5,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "1e592eaefb0565611367050388f60ec7",
+        "sentence_text": "INLINEFORM4  Causal occupation bias conditioned on occupation is represented as INLINEFORM0  where INLINEFORM0 is a set of gender-neutral occupations and INLINEFORM1 is the size of the gender pairs set.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          6,
+          9,
+          0
+        ],
+        "source_position": 8710
+      },
+      {
+        "cross_encoder_score": -9.222448348999023,
+        "dataset": "QASPER",
+        "end_char": 8916,
+        "pair_tokens_before_truncation": 12,
+        "pair_truncated": false,
+        "passage_id": "7573d13b53c7ef6b1d786c08e483af89",
+        "passage_rank": 5,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "ecbb5e4331a6894e497e0dc88e43b202",
+        "sentence_text": "For",
+        "sentence_token_cost": 1,
+        "source_order": [
+          0,
+          6,
+          10,
+          0
+        ],
+        "source_position": 8913
+      },
+      {
+        "cross_encoder_score": -11.297656059265137,
+        "dataset": "QASPER",
+        "end_char": 10245,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "685d742b601812ab35e97a6e66ee8086",
+        "passage_rank": 4,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "d628443d73dfb105ceb917dd81d50652",
+        "sentence_text": "train the language models.",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 10219
+      },
+      {
+        "cross_encoder_score": -5.60625696182251,
+        "dataset": "QASPER",
+        "end_char": 10429,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "685d742b601812ab35e97a6e66ee8086",
+        "passage_rank": 4,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "a23b90297e07e704414cebad71c56df6",
+        "sentence_text": "We also implement the bias regularization method of  which debiases the word embedding during language model training by minimizing the projection of neutral words on the gender axis.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 10246
+      },
+      {
+        "cross_encoder_score": -9.115983009338379,
+        "dataset": "QASPER",
+        "end_char": 10567,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "685d742b601812ab35e97a6e66ee8086",
+        "passage_rank": 4,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "27725c10c928ed71262a46663c96830c",
+        "sentence_text": "We use hyperparameter tuning to find the best regularization coefficient and report results from the model trained with this coefficient.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 10430
+      },
+      {
+        "cross_encoder_score": -10.905160903930664,
+        "dataset": "QASPER",
+        "end_char": 10607,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "685d742b601812ab35e97a6e66ee8086",
+        "passage_rank": 4,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "3e7119c8b2ab26dd65d16644ef673442",
+        "sentence_text": "We later refer to this strategy as REG.",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 10568
+      },
+      {
+        "cross_encoder_score": -4.141820430755615,
+        "dataset": "QASPER",
+        "end_char": 10687,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "685d742b601812ab35e97a6e66ee8086",
+        "passage_rank": 4,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "b2bb661a0185ac8fc66578399989ed2a",
+        "sentence_text": "Experiments\tInitially, we measure the co-occurrence bias in the training data.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 10609
+      },
+      {
+        "cross_encoder_score": -11.231635093688965,
+        "dataset": "QASPER",
+        "end_char": 10798,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "685d742b601812ab35e97a6e66ee8086",
+        "passage_rank": 4,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "d94374960e5057e3d715f79b8f114e63",
+        "sentence_text": "After training the baseline model, we implement our loss function and tune for the INLINEFORM0 hyperparameter.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 10688
+      },
+      {
+        "cross_encoder_score": -9.714584350585938,
+        "dataset": "QASPER",
+        "end_char": 11048,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "685d742b601812ab35e97a6e66ee8086",
+        "passage_rank": 4,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "81221f7acdbe0839a4be2ba8941f5880",
+        "sentence_text": "We test the existing debiasing approaches, CDA and REG, as well but since  reported that results fluctuate substantially with different REG regularization coefficients, we perform hyperparameter tuning and report the best results in Table TABREF12 .",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 10799
+      },
+      {
+        "cross_encoder_score": -11.373978614807129,
+        "dataset": "QASPER",
+        "end_char": 11145,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "685d742b601812ab35e97a6e66ee8086",
+        "passage_rank": 4,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "eb424a7ec7e041116d8b08bd035de316",
+        "sentence_text": "Additionally, we implement a combination of our loss function and CDA and tune for INLINEFORM1 .",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 11049
+      },
+      {
+        "cross_encoder_score": 1.2042149305343628,
+        "dataset": "QASPER",
+        "end_char": 11211,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "685d742b601812ab35e97a6e66ee8086",
+        "passage_rank": 4,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "498578bb2c3e7810afac655de735be34",
+        "sentence_text": "Finally, bias evaluation is performed for all the trained models.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "source_position": 11146
+      },
+      {
+        "cross_encoder_score": -2.3448989391326904,
+        "dataset": "QASPER",
+        "end_char": 11431,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "685d742b601812ab35e97a6e66ee8086",
+        "passage_rank": 4,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "d4272131b78b7da316b0a91a53bd8292",
+        "sentence_text": "Causal occupation bias is measured directly from the models using template datasets discussed above and co-occurrence bias is measured from the model-generated texts, which consist of 10,000 documents of 500 words each.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          8,
+          9,
+          0
+        ],
+        "source_position": 11212
+      },
+      {
+        "cross_encoder_score": -11.306668281555176,
+        "dataset": "QASPER",
+        "end_char": 11499,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "685d742b601812ab35e97a6e66ee8086",
+        "passage_rank": 4,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "e5444559f2f780ba155618243c1180e8",
+        "sentence_text": "Results\tResults for the experiments are listed in Table TABREF12 .",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          8,
+          10,
+          0
+        ],
+        "source_position": 11433
+      },
+      {
+        "cross_encoder_score": -9.784931182861328,
+        "dataset": "QASPER",
+        "end_char": 11533,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "685d742b601812ab35e97a6e66ee8086",
+        "passage_rank": 4,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "5f035cd3060baecba947bd12e1377d3d",
+        "sentence_text": "It is interesting to observe that",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          8,
+          11,
+          0
+        ],
+        "source_position": 11500
+      },
+      {
+        "cross_encoder_score": -1.9748395681381226,
+        "dataset": "QASPER",
+        "end_char": 11641,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "de5c31428d3426d78eb5feb0c3fbc753",
+        "passage_rank": 1,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "5e59899535bb481050675b34c0bb56ae",
+        "sentence_text": "the baseline model amplifies the bias in the training data set as measured by INLINEFORM0 and INLINEFORM1 .",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 11534
+      },
+      {
+        "cross_encoder_score": 4.512935638427734,
+        "dataset": "QASPER",
+        "end_char": 11799,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "de5c31428d3426d78eb5feb0c3fbc753",
+        "passage_rank": 1,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "cc7dc2f8a45247c239f4d9bd9475d1fc",
+        "sentence_text": "From measurements using the described bias metrics, our method effectively mitigates bias in language modelling without a significant increase in perplexity.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 11642
+      },
+      {
+        "cross_encoder_score": -10.888400077819824,
+        "dataset": "QASPER",
+        "end_char": 11953,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "de5c31428d3426d78eb5feb0c3fbc753",
+        "passage_rank": 1,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "ba83eeed2ee999c1fba4ee2550745420",
+        "sentence_text": "At INLINEFORM2 value of 1, it reduces INLINEFORM3 by 58.95%, INLINEFORM4 by 45.74%, INLINEFORM5 by 100%, INLINEFORM6 by 98.52% and INLINEFORM7 by 98.98%.",
+        "sentence_token_cost": 65,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 11800
+      },
+      {
+        "cross_encoder_score": -5.49608850479126,
+        "dataset": "QASPER",
+        "end_char": 12098,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "de5c31428d3426d78eb5feb0c3fbc753",
+        "passage_rank": 1,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "25a9979090545072e8f5515dbe9b4365",
+        "sentence_text": "Compared to the results of CDA and REG, it achieves the best results in both occupation biases, INLINEFORM8 and INLINEFORM9 , and INLINEFORM10 .",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 11954
+      },
+      {
+        "cross_encoder_score": -11.309732437133789,
+        "dataset": "QASPER",
+        "end_char": 12252,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "de5c31428d3426d78eb5feb0c3fbc753",
+        "passage_rank": 1,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "d77ce925ac95ad9c1b8b7c69037564db",
+        "sentence_text": "We notice that all methods result in INLINEFORM11 around 1, indicating that there are near equal amounts of female and male words in the generated texts.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 12099
+      },
+      {
+        "cross_encoder_score": -5.566397190093994,
+        "dataset": "QASPER",
+        "end_char": 12386,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "de5c31428d3426d78eb5feb0c3fbc753",
+        "passage_rank": 1,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "52526cbecdce0da68b4cf6f0dc1f6308",
+        "sentence_text": "In our experiments we note that with increasing INLINEFORM12 , the bias steadily decreases and perplexity tends to slightly increase.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 12253
+      },
+      {
+        "cross_encoder_score": -6.527703762054443,
+        "dataset": "QASPER",
+        "end_char": 12456,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "de5c31428d3426d78eb5feb0c3fbc753",
+        "passage_rank": 1,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "b2bc1db8c0f29994d2975fa5116a5fe1",
+        "sentence_text": "This indicates that there is a trade-off between bias and perplexity.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          9,
+          6,
+          0
+        ],
+        "source_position": 12387
+      },
+      {
+        "cross_encoder_score": 2.4405109882354736,
+        "dataset": "QASPER",
+        "end_char": 12611,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "de5c31428d3426d78eb5feb0c3fbc753",
+        "passage_rank": 1,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "5345b3ec5fb76457e0b466daa8693bc6",
+        "sentence_text": "REG is not very effective in mitigating bias when compared to other methods, and fails to achieve the best result in any of the bias metrics that we used.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          9,
+          7,
+          0
+        ],
+        "source_position": 12457
+      },
+      {
+        "cross_encoder_score": -10.821552276611328,
+        "dataset": "QASPER",
+        "end_char": 12639,
+        "pair_tokens_before_truncation": 17,
+        "pair_truncated": false,
+        "passage_id": "de5c31428d3426d78eb5feb0c3fbc753",
+        "passage_rank": 1,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "18ca1cf0981ede927496e55ac64c2b67",
+        "sentence_text": "But REG results in the best",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          9,
+          8,
+          0
+        ],
+        "source_position": 12612
+      },
+      {
+        "cross_encoder_score": -10.631402969360352,
+        "dataset": "QASPER",
+        "end_char": 12712,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "d3e4d31aecfa33cad77e0dd449341ef2",
+        "passage_rank": 7,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "6c23981d8cf41db70779767460507135",
+        "sentence_text": "perplexity and even does better than the baseline model in this respect.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 12640
+      },
+      {
+        "cross_encoder_score": -11.2350435256958,
+        "dataset": "QASPER",
+        "end_char": 12772,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "d3e4d31aecfa33cad77e0dd449341ef2",
+        "passage_rank": 7,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "93c6b317c12d221a121de70138afdc79",
+        "sentence_text": "This indicates that REG has a slight regularization effect.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 12713
+      },
+      {
+        "cross_encoder_score": -9.671438217163086,
+        "dataset": "QASPER",
+        "end_char": 12939,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "d3e4d31aecfa33cad77e0dd449341ef2",
+        "passage_rank": 7,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "cf0c913245594edca15711cbcef09590",
+        "sentence_text": "Additionally, it is interesting to note that our loss function outperforms REG in INLINEFORM0 even though REG explicitly aims to reduce gender bias in the embeddings.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 12773
+      },
+      {
+        "cross_encoder_score": -11.224345207214355,
+        "dataset": "QASPER",
+        "end_char": 13124,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "d3e4d31aecfa33cad77e0dd449341ef2",
+        "passage_rank": 7,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "cc0c1b0fff76329fa8b6e04a54d6a775",
+        "sentence_text": "Although our method does not explicitly attempt geometric debiasing of the word embedding, the results show that it results in the most debiased embedding as compared to other methods.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 12940
+      },
+      {
+        "cross_encoder_score": -8.143064498901367,
+        "dataset": "QASPER",
+        "end_char": 13291,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "d3e4d31aecfa33cad77e0dd449341ef2",
+        "passage_rank": 7,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "7da5566e8d1023acf56d0bbc8c526fe8",
+        "sentence_text": "Furthermore,  emphasizes that geometric gender bias in word embeddings is not completely understood and existing word embedding debiasing strategies are insufficient.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 13125
+      },
+      {
+        "cross_encoder_score": -7.546104431152344,
+        "dataset": "QASPER",
+        "end_char": 13428,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "d3e4d31aecfa33cad77e0dd449341ef2",
+        "passage_rank": 7,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "1614b080fb809e85eb26eacc54305f94",
+        "sentence_text": "Our approach provides an appealing end-to-end solution for model debiasing without relying on any measure of bias in the word embedding.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 13292
+      },
+      {
+        "cross_encoder_score": -11.109487533569336,
+        "dataset": "QASPER",
+        "end_char": 13496,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "d3e4d31aecfa33cad77e0dd449341ef2",
+        "passage_rank": 7,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "4c43193bdcb1450f0a140b32fa1e184f",
+        "sentence_text": "We believe this concept is generalizable to other NLP applications.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 13429
+      },
+      {
+        "cross_encoder_score": -11.303664207458496,
+        "dataset": "QASPER",
+        "end_char": 13572,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "d3e4d31aecfa33cad77e0dd449341ef2",
+        "passage_rank": 7,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "65849738ea03cb18234ecce8303d93e1",
+        "sentence_text": "Our method outperforms CDA in INLINEFORM0 , INLINEFORM1 , and INLINEFORM2 .",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 13497
+      },
+      {
+        "cross_encoder_score": -5.258328437805176,
+        "dataset": "QASPER",
+        "end_char": 13707,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "d3e4d31aecfa33cad77e0dd449341ef2",
+        "passage_rank": 7,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "77e55b0dca8bf73f0998a7559881d7bf",
+        "sentence_text": "While CDA achieves slightly better results for co-occurrence biases, INLINEFORM3 and INLINEFORM4 , and results in a better perplexity.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          10,
+          8,
+          0
+        ],
+        "source_position": 13573
+      },
+      {
+        "cross_encoder_score": -5.015044689178467,
+        "dataset": "QASPER",
+        "end_char": 13841,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "d3e4d31aecfa33cad77e0dd449341ef2",
+        "passage_rank": 7,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "fd502b3e4b1e65d89882e33f6afa9a12",
+        "sentence_text": "With a marginal differences, our results are comparable to those of CDA and both models seem to have similar bias mitigation effects.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          10,
+          9,
+          0
+        ],
+        "source_position": 13708
+      },
+      {
+        "cross_encoder_score": -4.030618667602539,
+        "dataset": "QASPER",
+        "end_char": 13975,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "d3e4d31aecfa33cad77e0dd449341ef2",
+        "passage_rank": 7,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "425c4446ea87ad117b67c595c949597f",
+        "sentence_text": "However, our method does not require a data augmentation step and allows training of an unbiased model directly from biased datasets.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          10,
+          10,
+          0
+        ],
+        "source_position": 13842
+      },
+      {
+        "cross_encoder_score": -11.366494178771973,
+        "dataset": "QASPER",
+        "end_char": 14107,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "a2f80e203abc14fa924c00b93eb225d5",
+        "passage_rank": 8,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "ecd853fb50790ab0731aac0fd4d99660",
+        "sentence_text": "For this reason, it also requires less time to train than CDA since its training data has a smaller size without data augmentation.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          11,
+          0,
+          0
+        ],
+        "source_position": 13976
+      },
+      {
+        "cross_encoder_score": -7.276485443115234,
+        "dataset": "QASPER",
+        "end_char": 14201,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "a2f80e203abc14fa924c00b93eb225d5",
+        "passage_rank": 8,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "8371274a556ff91f0a42854f72230408",
+        "sentence_text": "Furthermore, CDA fails to effectively mitigate occupation bias when compared to our approach.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          11,
+          1,
+          0
+        ],
+        "source_position": 14108
+      },
+      {
+        "cross_encoder_score": 0.2603958547115326,
+        "dataset": "QASPER",
+        "end_char": 14363,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "a2f80e203abc14fa924c00b93eb225d5",
+        "passage_rank": 8,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "7081553041f60ef413572ee343bd9fa9",
+        "sentence_text": "Although the training data for CDA does not contain gender bias, the model still exhibits some gender bias when measured with our causal occupation bias metrics.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          11,
+          2,
+          0
+        ],
+        "source_position": 14202
+      },
+      {
+        "cross_encoder_score": -11.172618865966797,
+        "dataset": "QASPER",
+        "end_char": 14507,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "a2f80e203abc14fa924c00b93eb225d5",
+        "passage_rank": 8,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "763f30995674d8f36ee8cfa56ab7aef0",
+        "sentence_text": "This reinforces the concept that some model-level constraints are essential to debiasing a model and dataset debiasing alone cannot be trusted.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          11,
+          3,
+          0
+        ],
+        "source_position": 14364
+      },
+      {
+        "cross_encoder_score": -4.691585063934326,
+        "dataset": "QASPER",
+        "end_char": 14661,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "a2f80e203abc14fa924c00b93eb225d5",
+        "passage_rank": 8,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "5aa0a6dae06d3689c9d319ce8dede297",
+        "sentence_text": "Finally, we note that the combination of CDA and our loss function outperforms all the methods in all measures of biases without compromising perplexity.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          11,
+          4,
+          0
+        ],
+        "source_position": 14508
+      },
+      {
+        "cross_encoder_score": -10.251327514648438,
+        "dataset": "QASPER",
+        "end_char": 14777,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "a2f80e203abc14fa924c00b93eb225d5",
+        "passage_rank": 8,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "cff5da7ac7d321870800737d47e11441",
+        "sentence_text": "Therefore, it can be argued that a cascade of these approaches can be used to optimally debias the language models.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          11,
+          5,
+          0
+        ],
+        "source_position": 14662
+      },
+      {
+        "cross_encoder_score": 2.810744285583496,
+        "dataset": "QASPER",
+        "end_char": 15004,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "a2f80e203abc14fa924c00b93eb225d5",
+        "passage_rank": 8,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "d86226375064c183bcde733212bfe003",
+        "sentence_text": "Conclusion and Discussion\tIn this research, we propose a new approach for mitigating gender bias in neural language models and empirically show its effectiveness in reducing bias as measured with different evaluation metrics.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          11,
+          6,
+          0
+        ],
+        "source_position": 14779
+      },
+      {
+        "cross_encoder_score": -5.36208963394165,
+        "dataset": "QASPER",
+        "end_char": 15132,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "a2f80e203abc14fa924c00b93eb225d5",
+        "passage_rank": 8,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "24d57e3f9e1f9ed5991b3a11788a6ffd",
+        "sentence_text": "Our research also highlights the fact that debiasing the model with bias penalties in the loss function is an effective method.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          11,
+          7,
+          0
+        ],
+        "source_position": 15005
+      },
+      {
+        "cross_encoder_score": -11.311210632324219,
+        "dataset": "QASPER",
+        "end_char": 15248,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "a2f80e203abc14fa924c00b93eb225d5",
+        "passage_rank": 8,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "a691a037f54586b0b163ce5bb097ee02",
+        "sentence_text": "We emphasize that loss function based debiasing is powerful and generalizable to other downstream NLP applications.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          11,
+          8,
+          0
+        ],
+        "source_position": 15133
+      },
+      {
+        "cross_encoder_score": -11.36665153503418,
+        "dataset": "QASPER",
+        "end_char": 15364,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "a2f80e203abc14fa924c00b93eb225d5",
+        "passage_rank": 8,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "8445ec8fc4bd6f5b2161802c2ed56b98",
+        "sentence_text": "The research also reinforces the idea that geometric debiasing of the word embedding is not a complete solution for",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          11,
+          9,
+          0
+        ],
+        "source_position": 15249
+      },
+      {
+        "cross_encoder_score": -11.286901473999023,
+        "dataset": "QASPER",
+        "end_char": 15453,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "3af20c995dd3668bcb8a5d662b53ad76",
+        "passage_rank": 9,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "be350b2ca2bf81fb84ac6961b2e5e7bd",
+        "sentence_text": "debiasing the downstream applications but encourages end-to-end approaches to debiasing.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          12,
+          0,
+          0
+        ],
+        "source_position": 15365
+      },
+      {
+        "cross_encoder_score": -11.27714729309082,
+        "dataset": "QASPER",
+        "end_char": 15563,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "3af20c995dd3668bcb8a5d662b53ad76",
+        "passage_rank": 9,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "43e88c66dd48fa37aa981acbede75650",
+        "sentence_text": "All the debiasing techniques experimented in this paper rely on a predefined set of gender pairs in some way.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          12,
+          1,
+          0
+        ],
+        "source_position": 15454
+      },
+      {
+        "cross_encoder_score": -11.313604354858398,
+        "dataset": "QASPER",
+        "end_char": 15687,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "3af20c995dd3668bcb8a5d662b53ad76",
+        "passage_rank": 9,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "66bb346681f68e301844bc018cd5b6cd",
+        "sentence_text": "CDA used gender pairs for flipping, REG uses it for gender space definition and our technique uses them for computing loss.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          12,
+          2,
+          0
+        ],
+        "source_position": 15564
+      },
+      {
+        "cross_encoder_score": -11.184209823608398,
+        "dataset": "QASPER",
+        "end_char": 15785,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "3af20c995dd3668bcb8a5d662b53ad76",
+        "passage_rank": 9,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "fd5aeff5cb6912d6b5cbe77d915f6420",
+        "sentence_text": "This reliance on pre-defined set of gender pairs can be considered a limitation of these methods.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          12,
+          3,
+          0
+        ],
+        "source_position": 15688
+      },
+      {
+        "cross_encoder_score": -10.33615779876709,
+        "dataset": "QASPER",
+        "end_char": 15821,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "3af20c995dd3668bcb8a5d662b53ad76",
+        "passage_rank": 9,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "16e808f028b448be454a22ba86a1951c",
+        "sentence_text": "It also results in another concern.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          12,
+          4,
+          0
+        ],
+        "source_position": 15786
+      },
+      {
+        "cross_encoder_score": -11.452018737792969,
+        "dataset": "QASPER",
+        "end_char": 15895,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "3af20c995dd3668bcb8a5d662b53ad76",
+        "passage_rank": 9,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "1b3f15d26817279756e110e5dcef4bce",
+        "sentence_text": "There are gender associated words which do not have pairs, like pregnant.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          12,
+          5,
+          0
+        ],
+        "source_position": 15822
+      },
+      {
+        "cross_encoder_score": -11.370500564575195,
+        "dataset": "QASPER",
+        "end_char": 15971,
+        "pair_tokens_before_truncation": 24,
+        "pair_truncated": false,
+        "passage_id": "3af20c995dd3668bcb8a5d662b53ad76",
+        "passage_rank": 9,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "88004e2c6688957a1ee4403952663374",
+        "sentence_text": "These words are not treated properly by techniques relying on gender pairs.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          12,
+          6,
+          0
+        ],
+        "source_position": 15896
+      },
+      {
+        "cross_encoder_score": -8.022136688232422,
+        "dataset": "QASPER",
+        "end_char": 16170,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "3af20c995dd3668bcb8a5d662b53ad76",
+        "passage_rank": 9,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "71bdda19d90f6843d5220dab0085a492",
+        "sentence_text": "Future work includes designing a context-aware version of our loss function which can distinguish between the unbiased and biased mentions of the gendered words and only penalize the biased version.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          12,
+          7,
+          0
+        ],
+        "source_position": 15972
+      },
+      {
+        "cross_encoder_score": -6.778024673461914,
+        "dataset": "QASPER",
+        "end_char": 16300,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "3af20c995dd3668bcb8a5d662b53ad76",
+        "passage_rank": 9,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "b24d70c8aada2142d63a3d7c669b3440",
+        "sentence_text": "Another interesting direction is exploring the application of this method in mitigating racial bias which brings more challenges.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          12,
+          8,
+          0
+        ],
+        "source_position": 16171
+      },
+      {
+        "cross_encoder_score": -11.38375186920166,
+        "dataset": "QASPER",
+        "end_char": 16518,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "3af20c995dd3668bcb8a5d662b53ad76",
+        "passage_rank": 9,
+        "query_id": "90d946ccc3abf494890e147dd85bd489b8f3f0e8",
+        "sentence_id": "f0f1aa46aec6a8d0cde57417eecf3856",
+        "sentence_text": "Acknowledgment\tWe are grateful to Sam Bowman for helpful advice, Shikha Bordia, Cuiying Yang, Gang Qian, Xiyu Miao, Qianyi Fan, Tian Liu, and Stanislav Sobolevsky for discussions, and reviewers for detailed feedback.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          0,
+          12,
+          9,
+          0
+        ],
+        "source_position": 16302
+      }
+    ],
+    "scoring_seconds": 0.306834182003513,
+    "source_fingerprint": "8705cfb0e11ef3df00104347b2dd521e2b597da5050b141ad6c5f68411006039"
+  }
+}

@@ -1,0 +1,29 @@
+We train the individual networks hierarchically, feeding their combined outputs in a final gradient boosting classification step.
+
+Introduction	Decoding
+
+of accuracy over the baseline.
+
+The few exceptions include  ,  .
+
+We now turn to describing our proposed models.
+
+We formulate the problem of categorizing EEG data based
+
+It is a regularized gradient boosted decision tree that performs well on structured problems.
+
+as 4 words(pat, pot, knew and gnaw).
+
+Training and hyperparameter selection	We performed two sets of experiments with the single-trial EEG data.
+
+a leave-one-subject out cross-validation experiment using the best settings we learn from PHASE-ONE.
+
+A detailed analysis on repeated runs further shows that in most of the cases, LSTM alone does not perform better than chance.
+
+CNN, on the other hand, is heavily biased towards the class label which sees more training data corresponding to it.
+
+task and the minimum (49.14%) is recorded for the INLINEFORM0 .
+
+We particularly select these two tasks as our model exhibits respectively minimum and maximum performance for these two.
+
+Our proposed method highly outperforms the existing methods across all the five binary classification tasks by a large average margin of 22.51%.

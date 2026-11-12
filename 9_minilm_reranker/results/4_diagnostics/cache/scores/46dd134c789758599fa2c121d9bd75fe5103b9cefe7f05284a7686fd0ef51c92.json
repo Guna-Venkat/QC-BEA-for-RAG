@@ -1,0 +1,1991 @@
+{
+  "checksum": "6a5d5788e52eedc553ed8cb6b54adb8201f264fe22eb0b7844fad835886ad3f3",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "SciFact",
+    "54"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 98,
+    "dataset": "SciFact",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "4dc1e7984c4490decc52a7bdbb9202ab87bb3cc3cbddfe606b53f6b98ec90d57",
+    "query_id": "54",
+    "scores": [
+      {
+        "cross_encoder_score": 1.7671416997909546,
+        "dataset": "SciFact",
+        "end_char": 105,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "26ef0416aae0b15df1362ff4840ef681",
+        "passage_rank": 4,
+        "query_id": "54",
+        "sentence_id": "1c74e9571a04c0a99bf0bbd383244ae1",
+        "sentence_text": "AMP-Activated Protein Kinase: An Ubiquitous Signaling Pathway With Key Roles in the Cardiovascular System",
+        "sentence_token_cost": 23,
+        "source_order": [
+          287,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 3.6168007850646973,
+        "dataset": "SciFact",
+        "end_char": 298,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "26ef0416aae0b15df1362ff4840ef681",
+        "passage_rank": 4,
+        "query_id": "54",
+        "sentence_id": "053c5c7be8f9325a0fda86918ce29403",
+        "sentence_text": "The AMP-activated protein kinase (AMPK) is a key regulator of cellular and whole-body energy homeostasis, which acts to restore energy homoeostasis whenever cellular energy charge is depleted.",
+        "sentence_token_cost": 40,
+        "source_order": [
+          287,
+          0,
+          1,
+          0
+        ],
+        "source_position": 106
+      },
+      {
+        "cross_encoder_score": 0.5240836143493652,
+        "dataset": "SciFact",
+        "end_char": 616,
+        "pair_tokens_before_truncation": 84,
+        "pair_truncated": false,
+        "passage_id": "26ef0416aae0b15df1362ff4840ef681",
+        "passage_rank": 4,
+        "query_id": "54",
+        "sentence_id": "3896d53253ad23b7d70baa02bf9727b6",
+        "sentence_text": "Over the last 2 decades, it has become apparent that AMPK regulates several other cellular functions and has specific roles in cardiovascular tissues, acting to regulate cardiac metabolism and contractile function, as well as promoting anticontractile, anti-inflammatory, and antiatherogenic actions in blood vessels.",
+        "sentence_token_cost": 58,
+        "source_order": [
+          287,
+          0,
+          2,
+          0
+        ],
+        "source_position": 299
+      },
+      {
+        "cross_encoder_score": -1.6804790496826172,
+        "dataset": "SciFact",
+        "end_char": 896,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "26ef0416aae0b15df1362ff4840ef681",
+        "passage_rank": 4,
+        "query_id": "54",
+        "sentence_id": "9f0d78f3b5f67ba89cac90f3c5e5b8bb",
+        "sentence_text": "In this review, we discuss the role of AMPK in the cardiovascular system, including the molecular basis of mutations in AMPK that alter cardiac physiology and the proposed mechanisms by which AMPK regulates vascular function under physiological and pathophysiological conditions.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          287,
+          0,
+          3,
+          0
+        ],
+        "source_position": 617
+      },
+      {
+        "cross_encoder_score": -2.8694238662719727,
+        "dataset": "SciFact",
+        "end_char": 60,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "ba2e05838c35fc0d5abbc5a2c9e53d32",
+        "passage_rank": 10,
+        "query_id": "54",
+        "sentence_id": "874c4cd11dd7597f566544aef11af967",
+        "sentence_text": "Treatment of nonalcoholic fatty liver disease: role of AMPK.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          605,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.608108520507812,
+        "dataset": "SciFact",
+        "end_char": 297,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "ba2e05838c35fc0d5abbc5a2c9e53d32",
+        "passage_rank": 10,
+        "query_id": "54",
+        "sentence_id": "823a17c33ebe98289d2b5fe8243ad43d",
+        "sentence_text": "Nonalcoholic fatty liver disease (NAFLD) is a growing worldwide epidemic and an important risk factor for the development of insulin resistance, type 2 diabetes, nonalcoholic steatohepatitis (NASH), and hepatic cellular carcinoma (HCC).",
+        "sentence_token_cost": 54,
+        "source_order": [
+          605,
+          0,
+          1,
+          0
+        ],
+        "source_position": 61
+      },
+      {
+        "cross_encoder_score": -9.294597625732422,
+        "dataset": "SciFact",
+        "end_char": 440,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "ba2e05838c35fc0d5abbc5a2c9e53d32",
+        "passage_rank": 10,
+        "query_id": "54",
+        "sentence_id": "c29111ce3749a8ac73f2ba9f1c817abd",
+        "sentence_text": "Despite the prevalence of NAFLD, lifestyle interventions involving exercise and weight loss are the only accepted treatments for this disease.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          605,
+          0,
+          2,
+          0
+        ],
+        "source_position": 298
+      },
+      {
+        "cross_encoder_score": 2.249300956726074,
+        "dataset": "SciFact",
+        "end_char": 696,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "ba2e05838c35fc0d5abbc5a2c9e53d32",
+        "passage_rank": 10,
+        "query_id": "54",
+        "sentence_id": "f66eed96d1ed37da6f9e96a1631477c0",
+        "sentence_text": "Over the last decade, numerous experimental compounds have been shown to improve NAFLD in preclinical animal models, and many of these therapeutics have been shown to increase the activity of the cellular energy sensor AMP-activated protein kinase (AMPK).",
+        "sentence_token_cost": 49,
+        "source_order": [
+          605,
+          0,
+          3,
+          0
+        ],
+        "source_position": 441
+      },
+      {
+        "cross_encoder_score": 2.3041210174560547,
+        "dataset": "SciFact",
+        "end_char": 861,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "ba2e05838c35fc0d5abbc5a2c9e53d32",
+        "passage_rank": 10,
+        "query_id": "54",
+        "sentence_id": "7ff7dbf4b9e45c37542b646e63454df6",
+        "sentence_text": "Because AMPK activity is reduced by inflammation, obesity, and diabetes, increasing AMPK activity has been viewed as a viable therapeutic strategy to improve NAFLD.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          605,
+          0,
+          4,
+          0
+        ],
+        "source_position": 697
+      },
+      {
+        "cross_encoder_score": 1.80012047290802,
+        "dataset": "SciFact",
+        "end_char": 957,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "ba2e05838c35fc0d5abbc5a2c9e53d32",
+        "passage_rank": 10,
+        "query_id": "54",
+        "sentence_id": "f630b44be41ca1b79f48fa274c05fd78",
+        "sentence_text": "In this review, we propose three primary mechanisms by which AMPK activation may improve NAFLD.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          605,
+          0,
+          5,
+          0
+        ],
+        "source_position": 862
+      },
+      {
+        "cross_encoder_score": 0.7871455550193787,
+        "dataset": "SciFact",
+        "end_char": 1024,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "ba2e05838c35fc0d5abbc5a2c9e53d32",
+        "passage_rank": 10,
+        "query_id": "54",
+        "sentence_id": "4b83868bd3b3301ef30ce15d396f1468",
+        "sentence_text": "In addition, we examine the mechanisms by which AMPK is activated.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          605,
+          0,
+          6,
+          0
+        ],
+        "source_position": 958
+      },
+      {
+        "cross_encoder_score": -2.8944013118743896,
+        "dataset": "SciFact",
+        "end_char": 1104,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "ba2e05838c35fc0d5abbc5a2c9e53d32",
+        "passage_rank": 10,
+        "query_id": "54",
+        "sentence_id": "d09650a30a12d373806ef7af1717398d",
+        "sentence_text": "Finally, we identify 27 studies that have used AMPK activators to reduce NAFLD.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          605,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1025
+      },
+      {
+        "cross_encoder_score": -2.8962512016296387,
+        "dataset": "SciFact",
+        "end_char": 1205,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "ba2e05838c35fc0d5abbc5a2c9e53d32",
+        "passage_rank": 10,
+        "query_id": "54",
+        "sentence_id": "bbffd8375839009fb2a330a419760103",
+        "sentence_text": "Future considerations for studies examining the relationship between AMPK and NAFLD are highlighted.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          605,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1105
+      },
+      {
+        "cross_encoder_score": 4.440906524658203,
+        "dataset": "SciFact",
+        "end_char": 131,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "d3f66f7764e70db2dfcb4902e934dc9e",
+        "passage_rank": 3,
+        "query_id": "54",
+        "sentence_id": "3fb3b36e1f59db60db576df880b13283",
+        "sentence_text": "Phosphorylation of Janus kinase 1 (JAK1) by AMP-activated protein kinase (AMPK) links energy sensing to anti-inflammatory signaling",
+        "sentence_token_cost": 32,
+        "source_order": [
+          714,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 2.7536163330078125,
+        "dataset": "SciFact",
+        "end_char": 262,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "d3f66f7764e70db2dfcb4902e934dc9e",
+        "passage_rank": 3,
+        "query_id": "54",
+        "sentence_id": "03a1bfa6afc30b89cff8696703b1eaa1",
+        "sentence_text": "Adenosine 5\u2032-monophosphate\u2013activated protein kinase (AMPK) is a pivotal regulator of metabolism at cellular and organismal levels.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          714,
+          0,
+          1,
+          0
+        ],
+        "source_position": 132
+      },
+      {
+        "cross_encoder_score": 3.931938648223877,
+        "dataset": "SciFact",
+        "end_char": 297,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "d3f66f7764e70db2dfcb4902e934dc9e",
+        "passage_rank": 3,
+        "query_id": "54",
+        "sentence_id": "015ca2d3a5aff3c6aa9a588694efe70e",
+        "sentence_text": "AMPK also suppresses inflammation.",
+        "sentence_token_cost": 7,
+        "source_order": [
+          714,
+          0,
+          2,
+          0
+        ],
+        "source_position": 263
+      },
+      {
+        "cross_encoder_score": 2.417876720428467,
+        "dataset": "SciFact",
+        "end_char": 469,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "d3f66f7764e70db2dfcb4902e934dc9e",
+        "passage_rank": 3,
+        "query_id": "54",
+        "sentence_id": "056397894ac3c4ec7cefc7ee152d5663",
+        "sentence_text": "We found that pharmacological activation of AMPK rapidly inhibited the Janus kinase (JAK)\u2013signal transducer and activator of transcription (STAT) pathway in various cells.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          714,
+          0,
+          3,
+          0
+        ],
+        "source_position": 298
+      },
+      {
+        "cross_encoder_score": -2.0177953243255615,
+        "dataset": "SciFact",
+        "end_char": 610,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "d3f66f7764e70db2dfcb4902e934dc9e",
+        "passage_rank": 3,
+        "query_id": "54",
+        "sentence_id": "277ad9882043c97a62f9ee19e1390556",
+        "sentence_text": "In vitro kinase assays revealed that AMPK directly phosphorylated two residues (Ser515 and Ser518) within the Src homology 2 domain of JAK1.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          714,
+          0,
+          4,
+          0
+        ],
+        "source_position": 470
+      },
+      {
+        "cross_encoder_score": 4.8327956199646,
+        "dataset": "SciFact",
+        "end_char": 861,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "d3f66f7764e70db2dfcb4902e934dc9e",
+        "passage_rank": 3,
+        "query_id": "54",
+        "sentence_id": "65ee3d37a6ea3efe9ec564b878b7f97a",
+        "sentence_text": "Activation of AMPK enhanced the interaction between JAK1 and 14-3-3 proteins in cultured vascular endothelial cells and fibroblasts, an effect that required the presence of Ser515 and Ser518 and was abolished in cells lacking AMPK catalytic subunits.",
+        "sentence_token_cost": 61,
+        "source_order": [
+          714,
+          0,
+          5,
+          0
+        ],
+        "source_position": 611
+      },
+      {
+        "cross_encoder_score": 0.40964367985725403,
+        "dataset": "SciFact",
+        "end_char": 1086,
+        "pair_tokens_before_truncation": 87,
+        "pair_truncated": false,
+        "passage_id": "d3f66f7764e70db2dfcb4902e934dc9e",
+        "passage_rank": 3,
+        "query_id": "54",
+        "sentence_id": "a47b9b984079cca7e066c1f28f67db92",
+        "sentence_text": "Mutation of Ser515 and Ser518 abolished AMPK-mediated inhibition of JAK-STAT signaling stimulated by either the sIL-6R\u03b1/IL-6 complex or the expression of a constitutively active V658F-mutant JAK1 in human fibrosarcoma cells.",
+        "sentence_token_cost": 65,
+        "source_order": [
+          714,
+          0,
+          6,
+          0
+        ],
+        "source_position": 862
+      },
+      {
+        "cross_encoder_score": -1.0812194347381592,
+        "dataset": "SciFact",
+        "end_char": 1277,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "d3f66f7764e70db2dfcb4902e934dc9e",
+        "passage_rank": 3,
+        "query_id": "54",
+        "sentence_id": "1cf04115f68fae766b06ca40004683fa",
+        "sentence_text": "Clinically used AMPK activators metformin and salicylate enhanced the inhibitory phosphorylation of endogenous JAK1 and inhibited STAT3 phosphorylation in primary vascular endothelial cells.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          714,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1087
+      },
+      {
+        "cross_encoder_score": 1.9003772735595703,
+        "dataset": "SciFact",
+        "end_char": 1581,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "d3f66f7764e70db2dfcb4902e934dc9e",
+        "passage_rank": 3,
+        "query_id": "54",
+        "sentence_id": "6e3bfe7b143ec025c2a3963d951b09f4",
+        "sentence_text": "Therefore, our findings reveal a mechanism by which JAK1 function and inflammatory signaling may be suppressed in response to metabolic stress and provide a mechanistic rationale for the investigation of AMPK activators in a range of diseases associated with enhanced activation of the JAK-STAT pathway.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          714,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1278
+      },
+      {
+        "cross_encoder_score": 2.362672805786133,
+        "dataset": "SciFact",
+        "end_char": 91,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "bb22ae2b0e45297677728e18ded60576",
+        "passage_rank": 5,
+        "query_id": "54",
+        "sentence_id": "f884761277a13ced5d5fe6a68a815743",
+        "sentence_text": "Activated AMPK boosts the Nrf2/HO-1 signaling axis\u2014A role for the unfolded protein response",
+        "sentence_token_cost": 22,
+        "source_order": [
+          1696,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -0.6322540044784546,
+        "dataset": "SciFact",
+        "end_char": 372,
+        "pair_tokens_before_truncation": 81,
+        "pair_truncated": false,
+        "passage_id": "bb22ae2b0e45297677728e18ded60576",
+        "passage_rank": 5,
+        "query_id": "54",
+        "sentence_id": "ee5bd035fe2cb49c4d50ab931849d38a",
+        "sentence_text": "In light of the emerging interplay between redox and metabolic signaling pathways we investigated the potential cross talk between nuclear factor E2-related factor 2 (Nrf2) and AMP-activated kinase (AMPK), central regulators of the cellular redox and energy balance, respectively.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          1696,
+          0,
+          1,
+          0
+        ],
+        "source_position": 92
+      },
+      {
+        "cross_encoder_score": -0.2036573737859726,
+        "dataset": "SciFact",
+        "end_char": 585,
+        "pair_tokens_before_truncation": 88,
+        "pair_truncated": false,
+        "passage_id": "bb22ae2b0e45297677728e18ded60576",
+        "passage_rank": 5,
+        "query_id": "54",
+        "sentence_id": "fb58e78c2738cb0286d4bfa7c63ba2bb",
+        "sentence_text": "Making use of xanthohumol (XN) as an activator of both the AMPK and the Nrf2 signaling pathway we show that AMPK exerts a positive influence on Nrf2/heme oxygenase (HO)-1 signaling in mouse embryonic fibroblasts.",
+        "sentence_token_cost": 60,
+        "source_order": [
+          1696,
+          0,
+          2,
+          0
+        ],
+        "source_position": 373
+      },
+      {
+        "cross_encoder_score": -2.8289082050323486,
+        "dataset": "SciFact",
+        "end_char": 712,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "bb22ae2b0e45297677728e18ded60576",
+        "passage_rank": 5,
+        "query_id": "54",
+        "sentence_id": "6d4c47676a4d5cfe935fe3ae297ebe3b",
+        "sentence_text": "Genetic ablation and pharmacological inhibition of AMPK blunts Nrf2-dependent HO-1 expression by XN already at the mRNA level.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          1696,
+          0,
+          3,
+          0
+        ],
+        "source_position": 586
+      },
+      {
+        "cross_encoder_score": 1.9561665058135986,
+        "dataset": "SciFact",
+        "end_char": 844,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "bb22ae2b0e45297677728e18ded60576",
+        "passage_rank": 5,
+        "query_id": "54",
+        "sentence_id": "4a3554e60798081b20022d1da7d39ecf",
+        "sentence_text": "XN leads to AMPK activation via interference with mitochondrial function and activation of liver kinase B1 as upstream AMPK kinase.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          1696,
+          0,
+          4,
+          0
+        ],
+        "source_position": 713
+      },
+      {
+        "cross_encoder_score": 0.9067792296409607,
+        "dataset": "SciFact",
+        "end_char": 1072,
+        "pair_tokens_before_truncation": 80,
+        "pair_truncated": false,
+        "passage_id": "bb22ae2b0e45297677728e18ded60576",
+        "passage_rank": 5,
+        "query_id": "54",
+        "sentence_id": "e1e1c653e65a4a5aa222c077538f5998",
+        "sentence_text": "The subsequent AMPK-mediated enhancement of the Nrf2/HO-1 response does not depend on inhibition of the mammalian target of rapamycin, inhibition of glycogen synthase kinase 3\u03b2, or altered abundance of Nrf2 (total and nuclear).",
+        "sentence_token_cost": 54,
+        "source_order": [
+          1696,
+          0,
+          5,
+          0
+        ],
+        "source_position": 845
+      },
+      {
+        "cross_encoder_score": -0.2935808300971985,
+        "dataset": "SciFact",
+        "end_char": 1200,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "bb22ae2b0e45297677728e18ded60576",
+        "passage_rank": 5,
+        "query_id": "54",
+        "sentence_id": "9579c6157380964f1c5f8f983ae4d32b",
+        "sentence_text": "However, reduced endoplasmic reticulum stress was identified and elaborated as a step in the AMPK-augmented Nrf2/HO-1 response.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          1696,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1073
+      },
+      {
+        "cross_encoder_score": -2.5478107929229736,
+        "dataset": "SciFact",
+        "end_char": 1542,
+        "pair_tokens_before_truncation": 94,
+        "pair_truncated": false,
+        "passage_id": "bb22ae2b0e45297677728e18ded60576",
+        "passage_rank": 5,
+        "query_id": "54",
+        "sentence_id": "2dbe66b515cf692143a2f1d29ab4d0e0",
+        "sentence_text": "Overall, we shed more light on the hitherto incompletely understood cross talk between the LKB1/AMPK and the Nrf2/HO-1 axis revealing for the first time involvement of the unfolded protein response as an additional player and suggesting tight cooperation between signaling pathways controlling cellular redox, energy, or protein homeostasis.",
+        "sentence_token_cost": 69,
+        "source_order": [
+          1696,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1201
+      },
+      {
+        "cross_encoder_score": -1.0118690729141235,
+        "dataset": "SciFact",
+        "end_char": 99,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "4fb8e92da58bd468e366d030dc5e70f6",
+        "passage_rank": 9,
+        "query_id": "54",
+        "sentence_id": "806d7805f56f0f6a80ab2cb8524327ba",
+        "sentence_text": "Ly6Chi monocytes direct alternatively activated profibrotic macrophage regulation of lung fibrosis.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          3345,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -5.503318786621094,
+        "dataset": "SciFact",
+        "end_char": 171,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "4fb8e92da58bd468e366d030dc5e70f6",
+        "passage_rank": 9,
+        "query_id": "54",
+        "sentence_id": "6983a6b0513118a32384c9f3d48a75ff",
+        "sentence_text": "RATIONALE Idiopathic pulmonary fibrosis (IPF) is a devastating disease.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          3345,
+          0,
+          1,
+          0
+        ],
+        "source_position": 100
+      },
+      {
+        "cross_encoder_score": -8.86673641204834,
+        "dataset": "SciFact",
+        "end_char": 245,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "4fb8e92da58bd468e366d030dc5e70f6",
+        "passage_rank": 9,
+        "query_id": "54",
+        "sentence_id": "a490c7c07b969418f0e09d4b953d8b2e",
+        "sentence_text": "Antiinflammatory therapies, including corticosteroids, are of no benefit.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          3345,
+          0,
+          2,
+          0
+        ],
+        "source_position": 172
+      },
+      {
+        "cross_encoder_score": -8.32417106628418,
+        "dataset": "SciFact",
+        "end_char": 315,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "4fb8e92da58bd468e366d030dc5e70f6",
+        "passage_rank": 9,
+        "query_id": "54",
+        "sentence_id": "3b494caf6312a49a2d2c41da8f4587b1",
+        "sentence_text": "The role of monocytes and macrophages is therefore controversial.   \n",
+        "sentence_token_cost": 14,
+        "source_order": [
+          3345,
+          0,
+          3,
+          0
+        ],
+        "source_position": 246
+      },
+      {
+        "cross_encoder_score": -6.1528544425964355,
+        "dataset": "SciFact",
+        "end_char": 468,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "4fb8e92da58bd468e366d030dc5e70f6",
+        "passage_rank": 9,
+        "query_id": "54",
+        "sentence_id": "fd92acda48d196e4dfa3487409f8a495",
+        "sentence_text": "OBJECTIVES To define the role of monocytes and macrophages during lung fibrogenesis and resolution, and explore the phenotype of the cells involved.   \n",
+        "sentence_token_cost": 31,
+        "source_order": [
+          3345,
+          0,
+          4,
+          0
+        ],
+        "source_position": 316
+      },
+      {
+        "cross_encoder_score": -8.666886329650879,
+        "dataset": "SciFact",
+        "end_char": 568,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "4fb8e92da58bd468e366d030dc5e70f6",
+        "passage_rank": 9,
+        "query_id": "54",
+        "sentence_id": "22f93e701aabc05a6738e2f23d4ed101",
+        "sentence_text": "METHODS We used multiple in vivo depletional strategies, backed up by adoptive transfer techniques.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          3345,
+          0,
+          5,
+          0
+        ],
+        "source_position": 469
+      },
+      {
+        "cross_encoder_score": -6.288633823394775,
+        "dataset": "SciFact",
+        "end_char": 638,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "4fb8e92da58bd468e366d030dc5e70f6",
+        "passage_rank": 9,
+        "query_id": "54",
+        "sentence_id": "b9f11b2305ef0de592092a085cfb1ebb",
+        "sentence_text": "Further studies were performed on samples from patients with IPF.   \n",
+        "sentence_token_cost": 13,
+        "source_order": [
+          3345,
+          0,
+          6,
+          0
+        ],
+        "source_position": 569
+      },
+      {
+        "cross_encoder_score": -4.397356033325195,
+        "dataset": "SciFact",
+        "end_char": 952,
+        "pair_tokens_before_truncation": 116,
+        "pair_truncated": false,
+        "passage_id": "4fb8e92da58bd468e366d030dc5e70f6",
+        "passage_rank": 9,
+        "query_id": "54",
+        "sentence_id": "35992ab8c140f51856e21f73839f95b9",
+        "sentence_text": "MEASUREMENTS AND MAIN RESULTS Depletion of lung macrophages during fibrogenesis reduced pulmonary fibrosis as measured by lung collagen (P = 0.0079); fibrosis score (P = 0.0051); and quantitative polymerase chain reaction for surrogate markers of fibrosis Col1 (P = 0.0083) and a-smooth muscle actin (P = 0.0349).",
+        "sentence_token_cost": 95,
+        "source_order": [
+          3345,
+          0,
+          7,
+          0
+        ],
+        "source_position": 639
+      },
+      {
+        "cross_encoder_score": -6.073322296142578,
+        "dataset": "SciFact",
+        "end_char": 1095,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "4fb8e92da58bd468e366d030dc5e70f6",
+        "passage_rank": 9,
+        "query_id": "54",
+        "sentence_id": "8486116fe654909827efa09e3b48e0f8",
+        "sentence_text": "There was an associated reduction in markers of the profibrotic alternative macrophage activation phenotype, Ym1 (P = 0.0179), and Arginase 1.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          3345,
+          0,
+          8,
+          0
+        ],
+        "source_position": 953
+      },
+      {
+        "cross_encoder_score": -7.1060614585876465,
+        "dataset": "SciFact",
+        "end_char": 1193,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "4fb8e92da58bd468e366d030dc5e70f6",
+        "passage_rank": 9,
+        "query_id": "54",
+        "sentence_id": "e0ce8e0a791862de39fd2997cc3a6705",
+        "sentence_text": "The alternative macrophage marker CD163 was expressed on lung macrophages from patients with IPF.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3345,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1096
+      },
+      {
+        "cross_encoder_score": -2.87813138961792,
+        "dataset": "SciFact",
+        "end_char": 1362,
+        "pair_tokens_before_truncation": 72,
+        "pair_truncated": false,
+        "passage_id": "4fb8e92da58bd468e366d030dc5e70f6",
+        "passage_rank": 9,
+        "query_id": "54",
+        "sentence_id": "4b24ff3b38e3b9c51f7ca42019d94991",
+        "sentence_text": "Depletion of Ly6Chi circulating monocytes reduced pulmonary fibrosis (P = 0.0052) and the number of Ym1- positive alternatively activated lung macrophages (P = 0.0310).",
+        "sentence_token_cost": 50,
+        "source_order": [
+          3345,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1194
+      },
+      {
+        "cross_encoder_score": -4.8559441566467285,
+        "dataset": "SciFact",
+        "end_char": 1551,
+        "pair_tokens_before_truncation": 76,
+        "pair_truncated": false,
+        "passage_id": "4fb8e92da58bd468e366d030dc5e70f6",
+        "passage_rank": 9,
+        "query_id": "54",
+        "sentence_id": "bcd3abd0ad970973b15004bf1dda74e9",
+        "sentence_text": "Their adoptive transfer during fibrogenesis exacerbated fibrosis (P = 0.0304); however, adoptively transferred CD45.1 Ly6Chi cells were not found in the lungs of recipient CD45.2 mice.   \n",
+        "sentence_token_cost": 52,
+        "source_order": [
+          3345,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1363
+      },
+      {
+        "cross_encoder_score": -3.2643299102783203,
+        "dataset": "SciFact",
+        "end_char": 1748,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "4fb8e92da58bd468e366d030dc5e70f6",
+        "passage_rank": 9,
+        "query_id": "54",
+        "sentence_id": "2626e4bfc6f6b1a1cb974ddbd13d3083",
+        "sentence_text": "CONCLUSIONS We demonstrate the importance of circulating monocytes and lung macrophages during pulmonary fibrosis, and emphasize the importance of the alternatively activated macrophage phenotype.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          3345,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1552
+      },
+      {
+        "cross_encoder_score": -3.2516801357269287,
+        "dataset": "SciFact",
+        "end_char": 1883,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "4fb8e92da58bd468e366d030dc5e70f6",
+        "passage_rank": 9,
+        "query_id": "54",
+        "sentence_id": "384d546849c54f8e5dd3aa57dfe15dcb",
+        "sentence_text": "We show that Ly6Chi monocytes facilitate the progression of pulmonary fibrosis, but are not obviously engrafted into lungs thereafter.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          3345,
+          0,
+          13,
+          0
+        ],
+        "source_position": 1749
+      },
+      {
+        "cross_encoder_score": -5.401263236999512,
+        "dataset": "SciFact",
+        "end_char": 2052,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "4fb8e92da58bd468e366d030dc5e70f6",
+        "passage_rank": 9,
+        "query_id": "54",
+        "sentence_id": "940fc554788a757290049b6f6de8ad93",
+        "sentence_text": "Finally, we provide empirical data to suggest that macrophages may have a resolution-promoting role during the reversible phase of bleomycin-induced pulmonary fibrosis.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          3345,
+          0,
+          14,
+          0
+        ],
+        "source_position": 1884
+      },
+      {
+        "cross_encoder_score": -1.7620848417282104,
+        "dataset": "SciFact",
+        "end_char": 114,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "1917d99e61dfc05068bc1f25301f478f",
+        "passage_rank": 7,
+        "query_id": "54",
+        "sentence_id": "586e94f5a4bd4e651ce0a3db97d9e18b",
+        "sentence_text": "PKD1 Inhibits AMPK\u03b12 through Phosphorylation of Serine 491 and Impairs Insulin Signaling in Skeletal Muscle Cells.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          3528,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": 3.4810633659362793,
+        "dataset": "SciFact",
+        "end_char": 241,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "1917d99e61dfc05068bc1f25301f478f",
+        "passage_rank": 7,
+        "query_id": "54",
+        "sentence_id": "3a8f5e92ec78020d400910775386bffb",
+        "sentence_text": "AMP-activated protein kinase (AMPK) is an energy-sensing enzyme whose activity is inhibited in settings of insulin resistance.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3528,
+          0,
+          1,
+          0
+        ],
+        "source_position": 115
+      },
+      {
+        "cross_encoder_score": -0.10806317627429962,
+        "dataset": "SciFact",
+        "end_char": 437,
+        "pair_tokens_before_truncation": 75,
+        "pair_truncated": false,
+        "passage_id": "1917d99e61dfc05068bc1f25301f478f",
+        "passage_rank": 7,
+        "query_id": "54",
+        "sentence_id": "f7ff4f15a80ff91d284ed9d8255aa332",
+        "sentence_text": "Exposure to a high glucose concentration has recently been shown to increase phosphorylation of AMPK at Ser(485/491) of its \u03b11/\u03b12 subunit; however, the mechanism by which it does so is not known.",
+        "sentence_token_cost": 52,
+        "source_order": [
+          3528,
+          0,
+          2,
+          0
+        ],
+        "source_position": 242
+      },
+      {
+        "cross_encoder_score": -2.820427179336548,
+        "dataset": "SciFact",
+        "end_char": 601,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "1917d99e61dfc05068bc1f25301f478f",
+        "passage_rank": 7,
+        "query_id": "54",
+        "sentence_id": "93849d171b111135927911ccf0cfe37f",
+        "sentence_text": "Diacylglycerol (DAG), which is also increased in muscle exposed to high glucose, activates a number of signaling molecules including protein kinase (PK)C and PKD1.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          3528,
+          0,
+          3,
+          0
+        ],
+        "source_position": 438
+      },
+      {
+        "cross_encoder_score": -1.27444326877594,
+        "dataset": "SciFact",
+        "end_char": 744,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "1917d99e61dfc05068bc1f25301f478f",
+        "passage_rank": 7,
+        "query_id": "54",
+        "sentence_id": "c6a04ef6fd95035b39f22b359e9d46f0",
+        "sentence_text": "We sought to determine whether PKC or PKD1 is involved in inhibition of AMPK by causing Ser(485/491) phosphorylation in skeletal muscle cells.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          3528,
+          0,
+          4,
+          0
+        ],
+        "source_position": 602
+      },
+      {
+        "cross_encoder_score": -7.678939342498779,
+        "dataset": "SciFact",
+        "end_char": 866,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "1917d99e61dfc05068bc1f25301f478f",
+        "passage_rank": 7,
+        "query_id": "54",
+        "sentence_id": "0df4228ff1c272d5a5c2688fd310be61",
+        "sentence_text": "C2C12 myotubes were treated with the PKC/D1 activator phorbol 12-myristate 13-acetate (PMA), which acts as a DAG mimetic.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          3528,
+          0,
+          5,
+          0
+        ],
+        "source_position": 745
+      },
+      {
+        "cross_encoder_score": 0.15120166540145874,
+        "dataset": "SciFact",
+        "end_char": 1013,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "1917d99e61dfc05068bc1f25301f478f",
+        "passage_rank": 7,
+        "query_id": "54",
+        "sentence_id": "e803c4cb58f73461cb6cdaf7fb8fa87d",
+        "sentence_text": "This caused dose- and time-dependent increases in AMPK Ser(485/491) phosphorylation, which was associated with a \u223c60% decrease in AMPK\u03b12 activity.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          3528,
+          0,
+          6,
+          0
+        ],
+        "source_position": 867
+      },
+      {
+        "cross_encoder_score": -0.6607127785682678,
+        "dataset": "SciFact",
+        "end_char": 1122,
+        "pair_tokens_before_truncation": 56,
+        "pair_truncated": false,
+        "passage_id": "1917d99e61dfc05068bc1f25301f478f",
+        "passage_rank": 7,
+        "query_id": "54",
+        "sentence_id": "6c22a82f3bf7a9d09d2e86dc1ec7dc48",
+        "sentence_text": "Expression of a phosphodefective AMPK\u03b12 mutant (S491A) prevented the PMA-induced reduction in AMPK activity.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          3528,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1014
+      },
+      {
+        "cross_encoder_score": -1.8425871133804321,
+        "dataset": "SciFact",
+        "end_char": 1299,
+        "pair_tokens_before_truncation": 70,
+        "pair_truncated": false,
+        "passage_id": "1917d99e61dfc05068bc1f25301f478f",
+        "passage_rank": 7,
+        "query_id": "54",
+        "sentence_id": "828f741ab2feb82aa0ccf3b0df96d09f",
+        "sentence_text": "Serine phosphorylation and inhibition of AMPK activity were partially prevented by the broad PKC inhibitor G\u00f66983 and fully prevented by the specific PKD1 inhibitor CRT0066101.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          3528,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1123
+      },
+      {
+        "cross_encoder_score": -1.8607075214385986,
+        "dataset": "SciFact",
+        "end_char": 1378,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "1917d99e61dfc05068bc1f25301f478f",
+        "passage_rank": 7,
+        "query_id": "54",
+        "sentence_id": "60a81159208e2efd4c6fd9ee46a3db31",
+        "sentence_text": "Genetic knockdown of PKD1 also prevented Ser(485/491) phosphorylation of AMPK.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          3528,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1300
+      },
+      {
+        "cross_encoder_score": 0.1917833834886551,
+        "dataset": "SciFact",
+        "end_char": 1509,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "1917d99e61dfc05068bc1f25301f478f",
+        "passage_rank": 7,
+        "query_id": "54",
+        "sentence_id": "cf2f54f0bd85c0d68f60edd959bd0929",
+        "sentence_text": "Inhibition of previously identified kinases that phosphorylate AMPK at this site (Akt, S6K, and ERK) did not prevent these events.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          3528,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1379
+      },
+      {
+        "cross_encoder_score": -7.164553165435791,
+        "dataset": "SciFact",
+        "end_char": 1622,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "1917d99e61dfc05068bc1f25301f478f",
+        "passage_rank": 7,
+        "query_id": "54",
+        "sentence_id": "805792b5d4d558105c1e892ce1d38271",
+        "sentence_text": "PMA treatment also caused impairments in insulin-signaling through Akt, which were prevented by PKD1 inhibition.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3528,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1510
+      },
+      {
+        "cross_encoder_score": -3.816248655319214,
+        "dataset": "SciFact",
+        "end_char": 1707,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "1917d99e61dfc05068bc1f25301f478f",
+        "passage_rank": 7,
+        "query_id": "54",
+        "sentence_id": "d6209dc17cd26e4f707cf0d4b3acc2e9",
+        "sentence_text": "Finally, recombinant PKD1 phosphorylated AMPK\u03b12 at Ser(491) in cell-free conditions.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          3528,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1623
+      },
+      {
+        "cross_encoder_score": -2.6362721920013428,
+        "dataset": "SciFact",
+        "end_char": 1846,
+        "pair_tokens_before_truncation": 58,
+        "pair_truncated": false,
+        "passage_id": "1917d99e61dfc05068bc1f25301f478f",
+        "passage_rank": 7,
+        "query_id": "54",
+        "sentence_id": "1aad6ce193476551e25c714020608eec",
+        "sentence_text": "These results identify PKD1 as a novel upstream kinase of AMPK\u03b12 Ser(491) that plays a negative role in insulin signaling in muscle cells.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          3528,
+          0,
+          13,
+          0
+        ],
+        "source_position": 1708
+      },
+      {
+        "cross_encoder_score": 4.087752342224121,
+        "dataset": "SciFact",
+        "end_char": 120,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "e848d06a7cfaf807d7caf02154f3cb07",
+        "passage_rank": 2,
+        "query_id": "54",
+        "sentence_id": "70946f2bcd7e2c33e0882f27e889079c",
+        "sentence_text": "Activation of AMP-activated protein kinase suppresses oxidized low-density lipoprotein-induced macrophage proliferation.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          3640,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -8.003498077392578,
+        "dataset": "SciFact",
+        "end_char": 210,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "e848d06a7cfaf807d7caf02154f3cb07",
+        "passage_rank": 2,
+        "query_id": "54",
+        "sentence_id": "c56d6eb10287f12dd66843e1300f49ee",
+        "sentence_text": "Macrophage-derived foam cells play important roles in the progression of atherosclerosis.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          3640,
+          0,
+          1,
+          0
+        ],
+        "source_position": 121
+      },
+      {
+        "cross_encoder_score": -6.39058256149292,
+        "dataset": "SciFact",
+        "end_char": 454,
+        "pair_tokens_before_truncation": 91,
+        "pair_truncated": false,
+        "passage_id": "e848d06a7cfaf807d7caf02154f3cb07",
+        "passage_rank": 2,
+        "query_id": "54",
+        "sentence_id": "f884337dce8602a5648c0978d5b98a92",
+        "sentence_text": "We reported previously that ERK1/2-dependent granulocyte/macrophage colony-stimulating factor (GM-CSF) expression, leading to p38 MAPK/ Akt signaling, is important for oxidized low density lipoprotein (Ox-LDL)-induced macrophage proliferation.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          3640,
+          0,
+          2,
+          0
+        ],
+        "source_position": 211
+      },
+      {
+        "cross_encoder_score": 3.133647918701172,
+        "dataset": "SciFact",
+        "end_char": 575,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "e848d06a7cfaf807d7caf02154f3cb07",
+        "passage_rank": 2,
+        "query_id": "54",
+        "sentence_id": "be43841215e8849e405283a9d6fe7cfd",
+        "sentence_text": "Here, we investigated whether activation of AMP-activated protein kinase (AMPK) could suppress macrophage proliferation.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3640,
+          0,
+          3,
+          0
+        ],
+        "source_position": 455
+      },
+      {
+        "cross_encoder_score": -9.443687438964844,
+        "dataset": "SciFact",
+        "end_char": 708,
+        "pair_tokens_before_truncation": 59,
+        "pair_truncated": false,
+        "passage_id": "e848d06a7cfaf807d7caf02154f3cb07",
+        "passage_rank": 2,
+        "query_id": "54",
+        "sentence_id": "48062018cb299c1fbbd98a19da2a9d3b",
+        "sentence_text": "Ox-LDL-induced proliferation of mouse peritoneal macrophages was assessed by [(3)H]thymidine incorporation and cell counting assays.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          3640,
+          0,
+          4,
+          0
+        ],
+        "source_position": 576
+      },
+      {
+        "cross_encoder_score": 1.0397707223892212,
+        "dataset": "SciFact",
+        "end_char": 945,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "e848d06a7cfaf807d7caf02154f3cb07",
+        "passage_rank": 2,
+        "query_id": "54",
+        "sentence_id": "43e5b43e4ce2d54a07f09dfd6c75d060",
+        "sentence_text": "The proliferation was significantly inhibited by the AMPK activator 5-aminoimidazole-4-carboxamide ribonucleoside (AICAR) and restored by dominant-negative AMPKalpha1, suggesting that AMPK activation suppressed macrophage proliferation.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          3640,
+          0,
+          5,
+          0
+        ],
+        "source_position": 709
+      },
+      {
+        "cross_encoder_score": -7.383149147033691,
+        "dataset": "SciFact",
+        "end_char": 1147,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "e848d06a7cfaf807d7caf02154f3cb07",
+        "passage_rank": 2,
+        "query_id": "54",
+        "sentence_id": "7da25deddb2bd5254b162c20a899c5d4",
+        "sentence_text": "AICAR partially suppressed Ox-LDL-induced ERK1/2 phosphorylation and GM-CSF expression, suggesting that another mechanism is also involved in the AICAR-mediated suppression of macrophage proliferation.",
+        "sentence_token_cost": 42,
+        "source_order": [
+          3640,
+          0,
+          6,
+          0
+        ],
+        "source_position": 946
+      },
+      {
+        "cross_encoder_score": -6.778314590454102,
+        "dataset": "SciFact",
+        "end_char": 1248,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "e848d06a7cfaf807d7caf02154f3cb07",
+        "passage_rank": 2,
+        "query_id": "54",
+        "sentence_id": "3165aa202fc40b4999a7cd2d2cc6dad7",
+        "sentence_text": "AICAR suppressed GM-CSF-induced macrophage proliferation without suppressing p38 MAPK/Akt signaling.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3640,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1148
+      },
+      {
+        "cross_encoder_score": -6.786369323730469,
+        "dataset": "SciFact",
+        "end_char": 1333,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "e848d06a7cfaf807d7caf02154f3cb07",
+        "passage_rank": 2,
+        "query_id": "54",
+        "sentence_id": "7605722c9b95ff5346bf7723ae49981c",
+        "sentence_text": "GM-CSF suppressed p53 phosphorylation and expression and induced Rb phosphorylation.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          3640,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1249
+      },
+      {
+        "cross_encoder_score": -6.573235511779785,
+        "dataset": "SciFact",
+        "end_char": 1419,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "e848d06a7cfaf807d7caf02154f3cb07",
+        "passage_rank": 2,
+        "query_id": "54",
+        "sentence_id": "6d6f37eea75daaac08095932212e2f6b",
+        "sentence_text": "Overexpression of p53 or p27(kip) suppressed GM-CSF-induced macrophage proliferation.",
+        "sentence_token_cost": 23,
+        "source_order": [
+          3640,
+          0,
+          9,
+          0
+        ],
+        "source_position": 1334
+      },
+      {
+        "cross_encoder_score": 0.21505163609981537,
+        "dataset": "SciFact",
+        "end_char": 1568,
+        "pair_tokens_before_truncation": 61,
+        "pair_truncated": false,
+        "passage_id": "e848d06a7cfaf807d7caf02154f3cb07",
+        "passage_rank": 2,
+        "query_id": "54",
+        "sentence_id": "3e84e6bf9c47039349c633d8ec568cca",
+        "sentence_text": "AICAR induced cell cycle arrest, increased p53 phosphorylation and expression, and suppressed GM-CSF-induced Rb phosphorylation via AMPK activation.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          3640,
+          0,
+          10,
+          0
+        ],
+        "source_position": 1420
+      },
+      {
+        "cross_encoder_score": -0.9018144011497498,
+        "dataset": "SciFact",
+        "end_char": 1770,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "e848d06a7cfaf807d7caf02154f3cb07",
+        "passage_rank": 2,
+        "query_id": "54",
+        "sentence_id": "4f035ee9423d9a3a34099980d0812ae9",
+        "sentence_text": "Moreover, AICAR induced p21(cip) and p27(kip) expression via AMPK activation, and small interfering RNA (siRNA) of p21(cip) and p27(kip) restored AICAR-mediated suppression of macrophage proliferation.",
+        "sentence_token_cost": 59,
+        "source_order": [
+          3640,
+          0,
+          11,
+          0
+        ],
+        "source_position": 1569
+      },
+      {
+        "cross_encoder_score": 1.6572909355163574,
+        "dataset": "SciFact",
+        "end_char": 1917,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "e848d06a7cfaf807d7caf02154f3cb07",
+        "passage_rank": 2,
+        "query_id": "54",
+        "sentence_id": "f07c925b7f10056e200c6b33a15437fe",
+        "sentence_text": "In conclusion, AMPK activation suppressed Ox-LDL-induced macrophage proliferation by suppressing GM-CSF expression and inducing cell cycle arrest.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          3640,
+          0,
+          12,
+          0
+        ],
+        "source_position": 1771
+      },
+      {
+        "cross_encoder_score": 2.484954833984375,
+        "dataset": "SciFact",
+        "end_char": 2005,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "e848d06a7cfaf807d7caf02154f3cb07",
+        "passage_rank": 2,
+        "query_id": "54",
+        "sentence_id": "a2882c0c19ed1483d4bcc98e77d03f61",
+        "sentence_text": "These effects of AMPK activation may represent therapeutic targets for atherosclerosis.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          3640,
+          0,
+          13,
+          0
+        ],
+        "source_position": 1918
+      },
+      {
+        "cross_encoder_score": -0.48997053503990173,
+        "dataset": "SciFact",
+        "end_char": 133,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "cfcdf6a7d36dd21c3f7bedbbe6e60523",
+        "passage_rank": 8,
+        "query_id": "54",
+        "sentence_id": "667e097239571beb5a2e272077794fa1",
+        "sentence_text": "Induction of AMPK activity corrects early pathophysiological alterations in the subtotal nephrectomy model of chronic kidney disease.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          3856,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -10.014580726623535,
+        "dataset": "SciFact",
+        "end_char": 297,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "cfcdf6a7d36dd21c3f7bedbbe6e60523",
+        "passage_rank": 8,
+        "query_id": "54",
+        "sentence_id": "096d2cdf80a09ae16c2098c2d88c651b",
+        "sentence_text": "The rat kidney ablation and infarction (A/I) model of subtotal or 5/6th nephrectomy is the most commonly studied model of nondiabetic chronic kidney disease (CKD).",
+        "sentence_token_cost": 42,
+        "source_order": [
+          3856,
+          0,
+          1,
+          0
+        ],
+        "source_position": 134
+      },
+      {
+        "cross_encoder_score": -7.823686599731445,
+        "dataset": "SciFact",
+        "end_char": 509,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "cfcdf6a7d36dd21c3f7bedbbe6e60523",
+        "passage_rank": 8,
+        "query_id": "54",
+        "sentence_id": "fb35d042deb45026a3d1ba8aeadefa9a",
+        "sentence_text": "The A/I kidney at 1 wk exhibits reductions in kidney function, as determined by glomerular filtration rate, and diminished metabolic efficiency as determined by oxygen consumption per sodium transport (QO2/TNa).",
+        "sentence_token_cost": 42,
+        "source_order": [
+          3856,
+          0,
+          2,
+          0
+        ],
+        "source_position": 298
+      },
+      {
+        "cross_encoder_score": -0.950262188911438,
+        "dataset": "SciFact",
+        "end_char": 644,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "cfcdf6a7d36dd21c3f7bedbbe6e60523",
+        "passage_rank": 8,
+        "query_id": "54",
+        "sentence_id": "b1e574f3bd9769ebf5bdf3ed561ee5a5",
+        "sentence_text": "As renoprotective AMPK activity is affected by metabolic changes and cellular stress, we evaluated AMPK activity in this model system.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          3856,
+          0,
+          3,
+          0
+        ],
+        "source_position": 510
+      },
+      {
+        "cross_encoder_score": -0.8859316110610962,
+        "dataset": "SciFact",
+        "end_char": 756,
+        "pair_tokens_before_truncation": 47,
+        "pair_truncated": false,
+        "passage_id": "cfcdf6a7d36dd21c3f7bedbbe6e60523",
+        "passage_rank": 8,
+        "query_id": "54",
+        "sentence_id": "505fed843e59c3d139f903f8c96f366e",
+        "sentence_text": "We show that these early pathophysiological changes are accompanied by a paradoxical decrease in AMPK activity.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          3856,
+          0,
+          4,
+          0
+        ],
+        "source_position": 645
+      },
+      {
+        "cross_encoder_score": 1.5720958709716797,
+        "dataset": "SciFact",
+        "end_char": 1202,
+        "pair_tokens_before_truncation": 125,
+        "pair_truncated": false,
+        "passage_id": "cfcdf6a7d36dd21c3f7bedbbe6e60523",
+        "passage_rank": 8,
+        "query_id": "54",
+        "sentence_id": "94a38a24fb8ee1f66fd185c11fc0811b",
+        "sentence_text": "Over time, these kidney parameters progressively worsen with extensive kidney structural, functional, metabolic, and fibrotic changes observed at 4 wk after A/I. We show that induction of AMPK activity with either metformin or 5-aminoimidazole-4-carboxamide ribonucleotide increases AMPK activity in this model and also corrects kidney metabolic inefficiency, improves kidney function, and ameliorates kidney fibrosis and structural alterations.",
+        "sentence_token_cost": 93,
+        "source_order": [
+          3856,
+          0,
+          5,
+          0
+        ],
+        "source_position": 757
+      },
+      {
+        "cross_encoder_score": -1.1217013597488403,
+        "dataset": "SciFact",
+        "end_char": 1502,
+        "pair_tokens_before_truncation": 86,
+        "pair_truncated": false,
+        "passage_id": "cfcdf6a7d36dd21c3f7bedbbe6e60523",
+        "passage_rank": 8,
+        "query_id": "54",
+        "sentence_id": "32746c74149e56cd5a290a8fe941fde7",
+        "sentence_text": "We conclude that AMPK activity is reduced in the subtotal nephrectomy model of nondiabetic CKD, that altered regulation of AMPK is coincident with the progression of disease parameters, and that restoration of AMPK activity can suppress the progressive loss of function characteristic of this model.",
+        "sentence_token_cost": 57,
+        "source_order": [
+          3856,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1203
+      },
+      {
+        "cross_encoder_score": -1.41643226146698,
+        "dataset": "SciFact",
+        "end_char": 1625,
+        "pair_tokens_before_truncation": 49,
+        "pair_truncated": false,
+        "passage_id": "cfcdf6a7d36dd21c3f7bedbbe6e60523",
+        "passage_rank": 8,
+        "query_id": "54",
+        "sentence_id": "b0ab34663b1ef38c20b7958f0c0b08ef",
+        "sentence_text": "We propose that induction of AMPK activity may prove an effective therapeutic target for the treatment of nondiabetic CKD.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          3856,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1503
+      },
+      {
+        "cross_encoder_score": -0.9362826347351074,
+        "dataset": "SciFact",
+        "end_char": 95,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "37e0505eea1f019f731dd26ff45774d4",
+        "passage_rank": 6,
+        "query_id": "54",
+        "sentence_id": "b5dc49441e50534e1cf746f8da1a4350",
+        "sentence_text": "Activation of AMPK\u03b12 in adipocytes is essential for nicotine-induced insulin resistance in vivo",
+        "sentence_token_cost": 18,
+        "source_order": [
+          4276,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.848523139953613,
+        "dataset": "SciFact",
+        "end_char": 235,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "37e0505eea1f019f731dd26ff45774d4",
+        "passage_rank": 6,
+        "query_id": "54",
+        "sentence_id": "83db8a450b5314bf9aa52430287a7fc3",
+        "sentence_text": "Cigarette smoking promotes body weight reduction in humans while paradoxically also promoting insulin resistance (IR) and hyperinsulinemia.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          4276,
+          0,
+          1,
+          0
+        ],
+        "source_position": 96
+      },
+      {
+        "cross_encoder_score": -5.602274417877197,
+        "dataset": "SciFact",
+        "end_char": 293,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "37e0505eea1f019f731dd26ff45774d4",
+        "passage_rank": 6,
+        "query_id": "54",
+        "sentence_id": "26f9cd5139bc839ab918607b0584113c",
+        "sentence_text": "However, the mechanisms behind these effects are unclear.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          4276,
+          0,
+          2,
+          0
+        ],
+        "source_position": 236
+      },
+      {
+        "cross_encoder_score": 1.4834527969360352,
+        "dataset": "SciFact",
+        "end_char": 564,
+        "pair_tokens_before_truncation": 95,
+        "pair_truncated": false,
+        "passage_id": "37e0505eea1f019f731dd26ff45774d4",
+        "passage_rank": 6,
+        "query_id": "54",
+        "sentence_id": "8ad639ed815889f053a80092706fda1a",
+        "sentence_text": "Here we show that nicotine, a major constituent of cigarette smoke, selectively activates AMP-activated protein kinase \u03b12 (AMPK\u03b12) in adipocytes, which in turn phosphorylates MAP kinase phosphatase-1 (MKP1) at serine 334, initiating its proteasome-dependent degradation.",
+        "sentence_token_cost": 65,
+        "source_order": [
+          4276,
+          0,
+          3,
+          0
+        ],
+        "source_position": 294
+      },
+      {
+        "cross_encoder_score": -1.0507774353027344,
+        "dataset": "SciFact",
+        "end_char": 802,
+        "pair_tokens_before_truncation": 82,
+        "pair_truncated": false,
+        "passage_id": "37e0505eea1f019f731dd26ff45774d4",
+        "passage_rank": 6,
+        "query_id": "54",
+        "sentence_id": "9dbc8ef8c4357fa288813ce6828e0d84",
+        "sentence_text": "The nicotine-dependent reduction of MKP1 induces the aberrant activation of both p38 mitogen-activated protein kinase and c-Jun N-terminal kinase, leading to increased phosphorylation of insulin receptor substrate 1 (IRS1) at serine 307.",
+        "sentence_token_cost": 54,
+        "source_order": [
+          4276,
+          0,
+          4,
+          0
+        ],
+        "source_position": 565
+      },
+      {
+        "cross_encoder_score": -4.576608180999756,
+        "dataset": "SciFact",
+        "end_char": 939,
+        "pair_tokens_before_truncation": 55,
+        "pair_truncated": false,
+        "passage_id": "37e0505eea1f019f731dd26ff45774d4",
+        "passage_rank": 6,
+        "query_id": "54",
+        "sentence_id": "714c9b8bc6cb002016a66bc1add8e5c2",
+        "sentence_text": "Phosphorylation of IRS1 leads to its degradation, protein kinase B inhibition, and the loss of insulin-mediated inhibition of lipolysis.",
+        "sentence_token_cost": 29,
+        "source_order": [
+          4276,
+          0,
+          5,
+          0
+        ],
+        "source_position": 803
+      },
+      {
+        "cross_encoder_score": -9.11784553527832,
+        "dataset": "SciFact",
+        "end_char": 1147,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "37e0505eea1f019f731dd26ff45774d4",
+        "passage_rank": 6,
+        "query_id": "54",
+        "sentence_id": "73dc5941dd96c4af6d162eb063766685",
+        "sentence_text": "Consequently, nicotine increases lipolysis, which results in body weight reduction, but this increase also elevates the levels of circulating free fatty acids and thus causes IR in insulin-sensitive tissues.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          4276,
+          0,
+          6,
+          0
+        ],
+        "source_position": 940
+      },
+      {
+        "cross_encoder_score": -3.0677902698516846,
+        "dataset": "SciFact",
+        "end_char": 1274,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "37e0505eea1f019f731dd26ff45774d4",
+        "passage_rank": 6,
+        "query_id": "54",
+        "sentence_id": "f0171a7846e5a60d079f1d679b7adbea",
+        "sentence_text": "These results establish AMPK\u03b12 as an essential mediator of nicotine-induced whole-body IR in spite of reductions in adiposity.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          4276,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1148
+      },
+      {
+        "cross_encoder_score": -5.216416835784912,
+        "dataset": "SciFact",
+        "end_char": 65,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "3fb4f16193b52e25b7876e52ca199910",
+        "passage_rank": 1,
+        "query_id": "54",
+        "sentence_id": "846ab727060abad57cd766ad32d4e97f",
+        "sentence_text": "Metformin reverses established lung fibrosis in a bleomycin model",
+        "sentence_token_cost": 15,
+        "source_order": [
+          5013,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -3.899143934249878,
+        "dataset": "SciFact",
+        "end_char": 207,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "3fb4f16193b52e25b7876e52ca199910",
+        "passage_rank": 1,
+        "query_id": "54",
+        "sentence_id": "37b70ea86f6d4eb5837a0f1547257f61",
+        "sentence_text": "Fibrosis is a pathological result of a dysfunctional repair response to tissue injury and occurs in a number of organs, including the lungs1.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          5013,
+          0,
+          1,
+          0
+        ],
+        "source_position": 66
+      },
+      {
+        "cross_encoder_score": -7.318770885467529,
+        "dataset": "SciFact",
+        "end_char": 291,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "3fb4f16193b52e25b7876e52ca199910",
+        "passage_rank": 1,
+        "query_id": "54",
+        "sentence_id": "179092cb09d42c62eacd673ec8ad05e2",
+        "sentence_text": "Cellular metabolism regulates tissue repair and remodelling responses to injury2-4.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          5013,
+          0,
+          2,
+          0
+        ],
+        "source_position": 208
+      },
+      {
+        "cross_encoder_score": -1.3726375102996826,
+        "dataset": "SciFact",
+        "end_char": 407,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "3fb4f16193b52e25b7876e52ca199910",
+        "passage_rank": 1,
+        "query_id": "54",
+        "sentence_id": "9596a6df38423947a9d366b13f42fcc4",
+        "sentence_text": "AMPK is a critical sensor of cellular bioenergetics and controls the switch from anabolic to catabolic metabolism5.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          5013,
+          0,
+          3,
+          0
+        ],
+        "source_position": 292
+      },
+      {
+        "cross_encoder_score": 2.340331792831421,
+        "dataset": "SciFact",
+        "end_char": 469,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "3fb4f16193b52e25b7876e52ca199910",
+        "passage_rank": 1,
+        "query_id": "54",
+        "sentence_id": "ea093dae477e51e29c4b9d743fa2a5ef",
+        "sentence_text": "However, the role of AMPK in fibrosis is not well understood.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          5013,
+          0,
+          4,
+          0
+        ],
+        "source_position": 408
+      },
+      {
+        "cross_encoder_score": 3.4767417907714844,
+        "dataset": "SciFact",
+        "end_char": 719,
+        "pair_tokens_before_truncation": 83,
+        "pair_truncated": false,
+        "passage_id": "3fb4f16193b52e25b7876e52ca199910",
+        "passage_rank": 1,
+        "query_id": "54",
+        "sentence_id": "9a5c641565b2931fd8f48041012ad109",
+        "sentence_text": "Here, we demonstrate that in humans with idiopathic pulmonary fibrosis (IPF) and in an experimental mouse model of lung fibrosis, AMPK activity is lower in fibrotic regions associated with metabolically active and apoptosis-resistant myofibroblasts.",
+        "sentence_token_cost": 53,
+        "source_order": [
+          5013,
+          0,
+          5,
+          0
+        ],
+        "source_position": 470
+      },
+      {
+        "cross_encoder_score": 4.950264930725098,
+        "dataset": "SciFact",
+        "end_char": 927,
+        "pair_tokens_before_truncation": 69,
+        "pair_truncated": false,
+        "passage_id": "3fb4f16193b52e25b7876e52ca199910",
+        "passage_rank": 1,
+        "query_id": "54",
+        "sentence_id": "3c706d8b6dfd791380dc825df6a47d27",
+        "sentence_text": "Pharmacological activation of AMPK in myofibroblasts from lungs of humans with IPF display lower fibrotic activity, along with enhanced mitochondrial biogenesis and normalization of sensitivity to apoptosis.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          5013,
+          0,
+          6,
+          0
+        ],
+        "source_position": 720
+      },
+      {
+        "cross_encoder_score": 0.5057712197303772,
+        "dataset": "SciFact",
+        "end_char": 1085,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "3fb4f16193b52e25b7876e52ca199910",
+        "passage_rank": 1,
+        "query_id": "54",
+        "sentence_id": "d3fa492e6c16b8d03c5a9f347c2bf5a8",
+        "sentence_text": "In a bleomycin model of lung fibrosis in mice, metformin therapeutically accelerates the resolution of well-established fibrosis in an AMPK-dependent manner.",
+        "sentence_token_cost": 35,
+        "source_order": [
+          5013,
+          0,
+          7,
+          0
+        ],
+        "source_position": 928
+      },
+      {
+        "cross_encoder_score": 3.6302969455718994,
+        "dataset": "SciFact",
+        "end_char": 1338,
+        "pair_tokens_before_truncation": 87,
+        "pair_truncated": false,
+        "passage_id": "3fb4f16193b52e25b7876e52ca199910",
+        "passage_rank": 1,
+        "query_id": "54",
+        "sentence_id": "2b30adcb08208bbb112fe8daa0b55065",
+        "sentence_text": "These studies implicate deficient AMPK activation in non-resolving, pathologic fibrotic processes, and support a role for metformin (or other AMPK activators) to reverse established fibrosis by facilitating deactivation and apoptosis of myofibroblasts.",
+        "sentence_token_cost": 55,
+        "source_order": [
+          5013,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1086
+      }
+    ],
+    "scoring_seconds": 0.5378459439380094,
+    "source_fingerprint": "25dbf864e641d01e2296b119b21e2537ed441ce3324262e0466da6fc55fa99d6"
+  }
+}

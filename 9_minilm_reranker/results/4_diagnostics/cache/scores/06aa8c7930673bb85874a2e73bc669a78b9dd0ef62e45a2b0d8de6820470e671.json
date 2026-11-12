@@ -1,0 +1,1771 @@
+{
+  "checksum": "b4d02443fd7c58c850eed97a18c8e1f525d5be073d12dc9f91a18c3d92ada960",
+  "identity_hash": "2923313d7e14eb6d71f36a57a3f52d17bb25bdba371ecbdb9fdb6946152ddb25",
+  "key": [
+    "QASPER",
+    "57f23dfc264feb62f45d9a9e24c60bd73d7fe563"
+  ],
+  "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+  "row": {
+    "conceptual_cross_encoder_pairs": 87,
+    "dataset": "QASPER",
+    "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+    "model": {
+      "activation": "raw_logit_identity",
+      "device": "cpu",
+      "dtype": "torch.float32",
+      "label": "POST_W12_RERANKER_BASELINE_EXPLORATORY",
+      "max_length": 512,
+      "model": "cross-encoder/ms-marco-MiniLM-L6-v2",
+      "parameter_count": 22713601,
+      "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+      "training": false
+    },
+    "query_hash": "de9fe565f490c346994ba895e35b13e2fee70dd20d3906a6f1f08231183d0178",
+    "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+    "scores": [
+      {
+        "cross_encoder_score": -10.13007926940918,
+        "dataset": "QASPER",
+        "end_char": 242,
+        "pair_tokens_before_truncation": 63,
+        "pair_truncated": false,
+        "passage_id": "6b896ea7c331123752aaa3379c6e8544",
+        "passage_rank": 5,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "4ea9781c4d0776708c13f1c5a0b8049c",
+        "sentence_text": "The Effect of Heterogeneous Data for Alzheimer's Disease Detection from Speech\tSpeech datasets for identifying Alzheimer's disease (AD) are generally restricted to participants performing a single task, e.g. describing an image shown to them.",
+        "sentence_token_cost": 45,
+        "source_order": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_position": 0
+      },
+      {
+        "cross_encoder_score": -9.924246788024902,
+        "dataset": "QASPER",
+        "end_char": 359,
+        "pair_tokens_before_truncation": 37,
+        "pair_truncated": false,
+        "passage_id": "6b896ea7c331123752aaa3379c6e8544",
+        "passage_rank": 5,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "8e3a4b8f8849652cb83da4c4de669e87",
+        "sentence_text": "As a result, models trained on linguistic features derived from such datasets may not be generalizable across tasks.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "source_position": 243
+      },
+      {
+        "cross_encoder_score": -10.037007331848145,
+        "dataset": "QASPER",
+        "end_char": 624,
+        "pair_tokens_before_truncation": 64,
+        "pair_truncated": false,
+        "passage_id": "6b896ea7c331123752aaa3379c6e8544",
+        "passage_rank": 5,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "3a1de0399fc6b1b681c15779dea8e182",
+        "sentence_text": "Building on prior work demonstrating that same-task data of healthy participants helps improve AD detection on a single-task dataset of pathological speech, we augment an AD-specific dataset consisting of subjects describing a picture with multi-task healthy data.",
+        "sentence_token_cost": 43,
+        "source_order": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "source_position": 360
+      },
+      {
+        "cross_encoder_score": -11.19713020324707,
+        "dataset": "QASPER",
+        "end_char": 732,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "6b896ea7c331123752aaa3379c6e8544",
+        "passage_rank": 5,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "282a83e6655c17d72d18daa74218616a",
+        "sentence_text": "We demonstrate that normative data from multiple speech-based tasks helps improve AD detection by up to 9%.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "source_position": 625
+      },
+      {
+        "cross_encoder_score": -11.424518585205078,
+        "dataset": "QASPER",
+        "end_char": 982,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "6b896ea7c331123752aaa3379c6e8544",
+        "passage_rank": 5,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "7ed57ad7cdfd0f8c19720a8a8b30e70b",
+        "sentence_text": "Visualization of decision boundaries reveals that models trained on a combination of structured picture descriptions and unstructured conversational speech have the least out-of-task error and show the most potential to generalize to multiple tasks.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "source_position": 733
+      },
+      {
+        "cross_encoder_score": -11.427980422973633,
+        "dataset": "QASPER",
+        "end_char": 1079,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "6b896ea7c331123752aaa3379c6e8544",
+        "passage_rank": 5,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "fc8663993d9082e47153ff8497eb3a26",
+        "sentence_text": "We analyze the impact of age of the added samples and if they affect fairness in classification.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          0,
+          5,
+          0
+        ],
+        "source_position": 983
+      },
+      {
+        "cross_encoder_score": -11.401619911193848,
+        "dataset": "QASPER",
+        "end_char": 1196,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "6b896ea7c331123752aaa3379c6e8544",
+        "passage_rank": 5,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "23a5ad3dff2b1c050cc71a54c4cc9893",
+        "sentence_text": "We also provide explanations for a possible inductive bias effect across tasks using model-agnostic feature anchors.",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          0,
+          6,
+          0
+        ],
+        "source_position": 1080
+      },
+      {
+        "cross_encoder_score": -9.332337379455566,
+        "dataset": "QASPER",
+        "end_char": 1364,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "6b896ea7c331123752aaa3379c6e8544",
+        "passage_rank": 5,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "5c24fe5a8a480415993c1c975b99aec9",
+        "sentence_text": "This work highlights the need for heterogeneous datasets for encoding changes in multiple facets of cognition and for developing a task-independent AD detection model.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          0,
+          7,
+          0
+        ],
+        "source_position": 1197
+      },
+      {
+        "cross_encoder_score": -11.378143310546875,
+        "dataset": "QASPER",
+        "end_char": 1478,
+        "pair_tokens_before_truncation": 35,
+        "pair_truncated": false,
+        "passage_id": "6b896ea7c331123752aaa3379c6e8544",
+        "passage_rank": 5,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "40411b8d7a21f05ef9bf2c9c024aa7c3",
+        "sentence_text": "Introduction\t Alzheimer\u2019s disease (AD) is a neurodegenerative disease affecting over 40 million people worldwide",
+        "sentence_token_cost": 23,
+        "source_order": [
+          0,
+          0,
+          8,
+          0
+        ],
+        "source_position": 1366
+      },
+      {
+        "cross_encoder_score": -11.193419456481934,
+        "dataset": "QASPER",
+        "end_char": 2993,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "4f98435c67305c5f8db2d22b49b32ee1",
+        "passage_rank": 7,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "2ed7ff41d0250cb494cf29c1471e39a2",
+        "sentence_text": "AD detection performance by up to 13%.",
+        "sentence_token_cost": 10,
+        "source_order": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "source_position": 2955
+      },
+      {
+        "cross_encoder_score": -11.307570457458496,
+        "dataset": "QASPER",
+        "end_char": 3169,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "4f98435c67305c5f8db2d22b49b32ee1",
+        "passage_rank": 7,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "4f7483dd56e7838de753a052d5cbfbf6",
+        "sentence_text": "In this paper, we evaluate if model performance improves with the addition of data from healthy participants, with varying ages, performing either the same or different tasks.",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "source_position": 2994
+      },
+      {
+        "cross_encoder_score": -4.132979869842529,
+        "dataset": "QASPER",
+        "end_char": 3398,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "4f98435c67305c5f8db2d22b49b32ee1",
+        "passage_rank": 7,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "eef2b165fff14d86e0629e613a712923",
+        "sentence_text": "We find that models trained on datasets of picture description tasks augmented with conversational speech of healthy speakers learn decision boundaries that are more generalizable across activities with lower out-of-task errors.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "source_position": 3170
+      },
+      {
+        "cross_encoder_score": -11.198222160339355,
+        "dataset": "QASPER",
+        "end_char": 3506,
+        "pair_tokens_before_truncation": 33,
+        "pair_truncated": false,
+        "passage_id": "4f98435c67305c5f8db2d22b49b32ee1",
+        "passage_rank": 7,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "5be04e21b4d3a24ac871e60e6840f7dd",
+        "sentence_text": "We observe a 9% increase in AD detection performance when normative data from different tasks are utilized.",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          2,
+          3,
+          0
+        ],
+        "source_position": 3399
+      },
+      {
+        "cross_encoder_score": -11.3626708984375,
+        "dataset": "QASPER",
+        "end_char": 3812,
+        "pair_tokens_before_truncation": 71,
+        "pair_truncated": false,
+        "passage_id": "4f98435c67305c5f8db2d22b49b32ee1",
+        "passage_rank": 7,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "1b8cc107e1efb1e17475e2ddf67f1668",
+        "sentence_text": "We also analyze if each task provides domain-specific inductive bias for other tasks to obtain a model setting capable of detecting AD from any sample of speech using high-precision model-agnostic explanations proposed by Ribeiro et al.  and computation of various error metrics related to classification.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          0,
+          2,
+          4,
+          0
+        ],
+        "source_position": 3507
+      },
+      {
+        "cross_encoder_score": -9.317572593688965,
+        "dataset": "QASPER",
+        "end_char": 3848,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "4f98435c67305c5f8db2d22b49b32ee1",
+        "passage_rank": 7,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "dd8a7ea00204ee6e2f284f647c95d726",
+        "sentence_text": "Data\t  All datasets shown in Tab.",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          2,
+          5,
+          0
+        ],
+        "source_position": 3815
+      },
+      {
+        "cross_encoder_score": -11.393226623535156,
+        "dataset": "QASPER",
+        "end_char": 4048,
+        "pair_tokens_before_truncation": 57,
+        "pair_truncated": false,
+        "passage_id": "4f98435c67305c5f8db2d22b49b32ee1",
+        "passage_rank": 7,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "c2b527579deefd65c63dc6f2c29b86e0",
+        "sentence_text": "SECREF2 were transcribed manually by trained transcriptionists, employing the same list of annotations and protocols, with the same set of features extracted from the transcripts (see Sec. SECREF3 ).",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          2,
+          6,
+          0
+        ],
+        "source_position": 3849
+      },
+      {
+        "cross_encoder_score": -11.335954666137695,
+        "dataset": "QASPER",
+        "end_char": 4093,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "4f98435c67305c5f8db2d22b49b32ee1",
+        "passage_rank": 7,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "b44ee028758fd44c1bc9e029b445aaed",
+        "sentence_text": "HAPD and HAFP are jointly referred to as HA.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          2,
+          7,
+          0
+        ],
+        "source_position": 4049
+      },
+      {
+        "cross_encoder_score": -11.364972114562988,
+        "dataset": "QASPER",
+        "end_char": 4261,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "4f98435c67305c5f8db2d22b49b32ee1",
+        "passage_rank": 7,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "5c52ce2889e8365b53f5ec19bd4bbc50",
+        "sentence_text": "Methods\t Feature Extraction: We extract 297 linguistic features from the transcripts and 183 acoustic features from the associated audio files, all task-independent.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          2,
+          8,
+          0
+        ],
+        "source_position": 4096
+      },
+      {
+        "cross_encoder_score": -11.413846015930176,
+        "dataset": "QASPER",
+        "end_char": 4310,
+        "pair_tokens_before_truncation": 20,
+        "pair_truncated": false,
+        "passage_id": "4f98435c67305c5f8db2d22b49b32ee1",
+        "passage_rank": 7,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "bc6c7f9189d45ada7bd742fd9d9ccfb3",
+        "sentence_text": "Linguistic features encompass syntactic features",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          2,
+          9,
+          0
+        ],
+        "source_position": 4262
+      },
+      {
+        "cross_encoder_score": -10.840962409973145,
+        "dataset": "QASPER",
+        "end_char": 6860,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "32770db4b32d778a8a9d732f9e165f31",
+        "passage_rank": 6,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "7ff1e825cc5037aed35e7115bab2c31b",
+        "sentence_text": "2 dimensions using Locally Linear Embeddings  trained on DB.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          5,
+          0,
+          0
+        ],
+        "source_position": 6800
+      },
+      {
+        "cross_encoder_score": -8.622437477111816,
+        "dataset": "QASPER",
+        "end_char": 7212,
+        "pair_tokens_before_truncation": 87,
+        "pair_truncated": false,
+        "passage_id": "32770db4b32d778a8a9d732f9e165f31",
+        "passage_rank": 6,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "e73c8479c42b47d266f13d6ac2fcbb4d",
+        "sentence_text": "In datasets consisting of picture descriptions and conversational speech (DB + FP), the feature ranges increase as compared to picture description tasks, so it is expected that a classifier trained on structured tasks only (DB + HAFP) would incorrectly classify healthy samples in the fourth quadrant (error rates for tasks not in dataset is 17.8%).",
+        "sentence_token_cost": 68,
+        "source_order": [
+          0,
+          5,
+          1,
+          0
+        ],
+        "source_position": 6863
+      },
+      {
+        "cross_encoder_score": -11.467982292175293,
+        "dataset": "QASPER",
+        "end_char": 7372,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "32770db4b32d778a8a9d732f9e165f31",
+        "passage_rank": 6,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "095a563653115558bc59792ab0144082",
+        "sentence_text": "However, decision boundaries for models trained on a mix of structured tasks and unstructured conversational speech seem to be more generalizable across tasks.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          5,
+          2,
+          0
+        ],
+        "source_position": 7213
+      },
+      {
+        "cross_encoder_score": -11.192790985107422,
+        "dataset": "QASPER",
+        "end_char": 7493,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "32770db4b32d778a8a9d732f9e165f31",
+        "passage_rank": 6,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "bcfbed88e2e28c01b8ef5fda545efa82",
+        "sentence_text": "E.g., decision boundaries obtained from DB + FP could apply to most datapoints in HAFP (out of task error rate is 3.6%).",
+        "sentence_token_cost": 31,
+        "source_order": [
+          0,
+          5,
+          3,
+          0
+        ],
+        "source_position": 7373
+      },
+      {
+        "cross_encoder_score": -11.413249969482422,
+        "dataset": "QASPER",
+        "end_char": 7797,
+        "pair_tokens_before_truncation": 68,
+        "pair_truncated": false,
+        "passage_id": "32770db4b32d778a8a9d732f9e165f31",
+        "passage_rank": 6,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "365fc2ee831728407eb3b7c4bd6e7d21",
+        "sentence_text": "Clinically, some of the features used such as the patterns in usage of function words like pronouns have shown to reflect stress-related changes in gene expression, possibly caused due to dementia  which would not depend on the task type and could explain such a common underlying structure to features.",
+        "sentence_token_cost": 56,
+        "source_order": [
+          0,
+          5,
+          4,
+          0
+        ],
+        "source_position": 7494
+      },
+      {
+        "cross_encoder_score": -9.69227409362793,
+        "dataset": "QASPER",
+        "end_char": 7952,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "32770db4b32d778a8a9d732f9e165f31",
+        "passage_rank": 6,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "8d9ab7f44e8f071381e466bf17ee50b5",
+        "sentence_text": "Classification Performance\t Results of binary classification with different dataset combinations (i.e., the proportion of each dataset used) are in Tab.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          5,
+          5,
+          0
+        ],
+        "source_position": 7800
+      },
+      {
+        "cross_encoder_score": -10.502196311950684,
+        "dataset": "QASPER",
+        "end_char": 7962,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "32770db4b32d778a8a9d732f9e165f31",
+        "passage_rank": 6,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "56efeeaf414d895f7666aa5f0c13e224",
+        "sentence_text": "SECREF7 .",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          5,
+          6,
+          0
+        ],
+        "source_position": 7953
+      },
+      {
+        "cross_encoder_score": -11.345185279846191,
+        "dataset": "QASPER",
+        "end_char": 8076,
+        "pair_tokens_before_truncation": 40,
+        "pair_truncated": false,
+        "passage_id": "32770db4b32d778a8a9d732f9e165f31",
+        "passage_rank": 6,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "d3ff9a2c4e27261bfbb4268fc0f3590d",
+        "sentence_text": "The highest F1 score on DB is INLINEFORM0 with SVM as obtained by Noorian et al.  , enabling similar comparisons.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          5,
+          7,
+          0
+        ],
+        "source_position": 7963
+      },
+      {
+        "cross_encoder_score": -11.272748947143555,
+        "dataset": "QASPER",
+        "end_char": 8217,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "98cbd5fc4ba634121cd31920579c2d80",
+        "passage_rank": 1,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "936efc951d8fcb238e773a086d244a8c",
+        "sentence_text": "We see the same trend of increasing model performance with normative data from the picture description task, as shown by Noorian et al.  .",
+        "sentence_token_cost": 29,
+        "source_order": [
+          0,
+          6,
+          0,
+          0
+        ],
+        "source_position": 8079
+      },
+      {
+        "cross_encoder_score": -8.513535499572754,
+        "dataset": "QASPER",
+        "end_char": 8577,
+        "pair_tokens_before_truncation": 85,
+        "pair_truncated": false,
+        "passage_id": "98cbd5fc4ba634121cd31920579c2d80",
+        "passage_rank": 1,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "066ee194760cb7ecd81a5ee1fe19ed8d",
+        "sentence_text": "We observe that this increase is independent of the nature of the task performed \u2013 normative picture description task data of similar size as in  and the same amount of normative data from different structured tasks of fluency tests and paragraph reading prove to be helpful, bringing about a similar increase in scores (+2%, +5% absolute F1 micro and macro).",
+        "sentence_token_cost": 71,
+        "source_order": [
+          0,
+          6,
+          1,
+          0
+        ],
+        "source_position": 8218
+      },
+      {
+        "cross_encoder_score": -11.002652168273926,
+        "dataset": "QASPER",
+        "end_char": 8761,
+        "pair_tokens_before_truncation": 51,
+        "pair_truncated": false,
+        "passage_id": "98cbd5fc4ba634121cd31920579c2d80",
+        "passage_rank": 1,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "d00f07062c5e5e48d6a7687cfa0124f3",
+        "sentence_text": "Interestingly, performance of detecting the majority (healthy) class (reflected in F1 micro) as well as the minority (AD) class (reflected in F1 macro) increases with additional data.",
+        "sentence_token_cost": 41,
+        "source_order": [
+          0,
+          6,
+          2,
+          0
+        ],
+        "source_position": 8578
+      },
+      {
+        "cross_encoder_score": -11.332597732543945,
+        "dataset": "QASPER",
+        "end_char": 8900,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "98cbd5fc4ba634121cd31920579c2d80",
+        "passage_rank": 1,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "a9a9cd47d2f0d7fb13b22097b9e4e0b4",
+        "sentence_text": "Augmenting DB with same amount of samples from structured tasks (HA) and from conversational speech (FP) brings about similar performance.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          6,
+          3,
+          0
+        ],
+        "source_position": 8762
+      },
+      {
+        "cross_encoder_score": -10.580034255981445,
+        "dataset": "QASPER",
+        "end_char": 9047,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "98cbd5fc4ba634121cd31920579c2d80",
+        "passage_rank": 1,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "79ebd9eb67be474026e40df103b12c7f",
+        "sentence_text": "Doubling the initial amount of control data with data from a different structured task (HA, HAFP) results in an increase of up to 9% in F1 scores.",
+        "sentence_token_cost": 36,
+        "source_order": [
+          0,
+          6,
+          4,
+          0
+        ],
+        "source_position": 8901
+      },
+      {
+        "cross_encoder_score": -11.441287994384766,
+        "dataset": "QASPER",
+        "end_char": 9132,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "98cbd5fc4ba634121cd31920579c2d80",
+        "passage_rank": 1,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "570053bad6f385201f6ccf5c08e9154c",
+        "sentence_text": "Impact of Age\t  We augment DB with healthy samples from FP with varying ages (Tab.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          6,
+          5,
+          0
+        ],
+        "source_position": 9050
+      },
+      {
+        "cross_encoder_score": -11.303616523742676,
+        "dataset": "QASPER",
+        "end_char": 9215,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "98cbd5fc4ba634121cd31920579c2d80",
+        "passage_rank": 1,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "3859becb5d48942b8cc850ea6b6505f7",
+        "sentence_text": "SECREF11 ), considering 50 samples for each 15 year duration starting from age 30.",
+        "sentence_token_cost": 24,
+        "source_order": [
+          0,
+          6,
+          6,
+          0
+        ],
+        "source_position": 9133
+      },
+      {
+        "cross_encoder_score": -11.351578712463379,
+        "dataset": "QASPER",
+        "end_char": 9259,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "98cbd5fc4ba634121cd31920579c2d80",
+        "passage_rank": 1,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "48346cc908c88c63ef433239bf0b5769",
+        "sentence_text": "Adding the same number of samples from bins",
+        "sentence_token_cost": 8,
+        "source_order": [
+          0,
+          6,
+          7,
+          0
+        ],
+        "source_position": 9216
+      },
+      {
+        "cross_encoder_score": -11.332629203796387,
+        "dataset": "QASPER",
+        "end_char": 9324,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "4854d054f83c6258b28e15255629827c",
+        "passage_rank": 8,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "edb452f07f219d764e78c9d318682a4c",
+        "sentence_text": "of age greater than 60 leads to greater increase in performance.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          7,
+          0,
+          0
+        ],
+        "source_position": 9260
+      },
+      {
+        "cross_encoder_score": -6.444796562194824,
+        "dataset": "QASPER",
+        "end_char": 9436,
+        "pair_tokens_before_truncation": 41,
+        "pair_truncated": false,
+        "passage_id": "4854d054f83c6258b28e15255629827c",
+        "passage_rank": 8,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "09fe6cf783673cab18f678e6480877ee",
+        "sentence_text": "This could be because the average age of participants in the datasets (DB, HA etc.) we use are greater than 60.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          7,
+          1,
+          0
+        ],
+        "source_position": 9325
+      },
+      {
+        "cross_encoder_score": -10.713085174560547,
+        "dataset": "QASPER",
+        "end_char": 9678,
+        "pair_tokens_before_truncation": 67,
+        "pair_truncated": false,
+        "passage_id": "4854d054f83c6258b28e15255629827c",
+        "passage_rank": 8,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "90ffb7f6ce4b14e93d17b7a4a1d83736",
+        "sentence_text": "Note that despite such a trend, addition of healthy data produces fair classifiers with respect to samples with age INLINEFORM0 60 and those with age INLINEFORM1 60 (balanced F1 scores of 75.6% and 76.1% respectively; further details in App.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          0,
+          7,
+          2,
+          0
+        ],
+        "source_position": 9437
+      },
+      {
+        "cross_encoder_score": -10.671075820922852,
+        "dataset": "QASPER",
+        "end_char": 9690,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "4854d054f83c6258b28e15255629827c",
+        "passage_rank": 8,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "d987944cc9e9372ea8b0e2a4d50d0a38",
+        "sentence_text": "SECREF43 .)",
+        "sentence_token_cost": 6,
+        "source_order": [
+          0,
+          7,
+          3,
+          0
+        ],
+        "source_position": 9679
+      },
+      {
+        "cross_encoder_score": -10.325407981872559,
+        "dataset": "QASPER",
+        "end_char": 9956,
+        "pair_tokens_before_truncation": 65,
+        "pair_truncated": false,
+        "passage_id": "4854d054f83c6258b28e15255629827c",
+        "passage_rank": 8,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "afc64cbae993039e23adfd35502c158c",
+        "sentence_text": "Inductive Bias of Tasks\t Each task performed in the datasets is designed to assess different cognitive functions, e.g. fluency task is used to evaluate the ability to organize and plan  and picture description task \u2013 for detecting discourse-related impairments  .",
+        "sentence_token_cost": 50,
+        "source_order": [
+          0,
+          7,
+          4,
+          0
+        ],
+        "source_position": 9693
+      },
+      {
+        "cross_encoder_score": -11.389975547790527,
+        "dataset": "QASPER",
+        "end_char": 10104,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "4854d054f83c6258b28e15255629827c",
+        "passage_rank": 8,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "ba3bad703fd615afeebfe727ca9a16ac",
+        "sentence_text": "As a result, it is expected that the nature of decision functions and feature predicates learned on data of each of these tasks would be different.",
+        "sentence_token_cost": 28,
+        "source_order": [
+          0,
+          7,
+          5,
+          0
+        ],
+        "source_position": 9957
+      },
+      {
+        "cross_encoder_score": -11.218918800354004,
+        "dataset": "QASPER",
+        "end_char": 10195,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "4854d054f83c6258b28e15255629827c",
+        "passage_rank": 8,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "0444b66afce027b0355b98a6066f3118",
+        "sentence_text": "Performance of AD identification with addition of normative data from multiple tasks (Tab.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          7,
+          6,
+          0
+        ],
+        "source_position": 10105
+      },
+      {
+        "cross_encoder_score": -11.411465644836426,
+        "dataset": "QASPER",
+        "end_char": 10385,
+        "pair_tokens_before_truncation": 50,
+        "pair_truncated": false,
+        "passage_id": "4854d054f83c6258b28e15255629827c",
+        "passage_rank": 8,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "f83336dc9246d11d873e4baf031ba6a1",
+        "sentence_text": "SECREF7 ), despite the possibly different nature of decision functions, suggests that training the model with samples from each task provides domain-specific inductive bias for other tasks.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          7,
+          7,
+          0
+        ],
+        "source_position": 10196
+      },
+      {
+        "cross_encoder_score": -11.266727447509766,
+        "dataset": "QASPER",
+        "end_char": 10480,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "4854d054f83c6258b28e15255629827c",
+        "passage_rank": 8,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "d3e13562f8948e1893d7d9b244c5b953",
+        "sentence_text": "We study possible underlying mechanisms responsible for this, suggested by Caruana et al.  and",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          7,
+          8,
+          0
+        ],
+        "source_position": 10386
+      },
+      {
+        "cross_encoder_score": -11.148480415344238,
+        "dataset": "QASPER",
+        "end_char": 10496,
+        "pair_tokens_before_truncation": 19,
+        "pair_truncated": false,
+        "passage_id": "473cf0589267b3857a50e0503e22b638",
+        "passage_rank": 4,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "e624381f4b6b96e1c38da7f553ea05c7",
+        "sentence_text": "Ruder et al.  .",
+        "sentence_token_cost": 7,
+        "source_order": [
+          0,
+          8,
+          0,
+          0
+        ],
+        "source_position": 10481
+      },
+      {
+        "cross_encoder_score": -7.5693278312683105,
+        "dataset": "QASPER",
+        "end_char": 10695,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "473cf0589267b3857a50e0503e22b638",
+        "passage_rank": 4,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "c574da55658cce1fe1fee6cdd6be60d6",
+        "sentence_text": "Attention-focusing on Relevant Features: Ruder et al.  claim that in a small, high-dimensional dataset, information regarding relevance or irrelevance of particular features is difficult to capture.",
+        "sentence_token_cost": 37,
+        "source_order": [
+          0,
+          8,
+          1,
+          0
+        ],
+        "source_position": 10497
+      },
+      {
+        "cross_encoder_score": -11.22118854522705,
+        "dataset": "QASPER",
+        "end_char": 10800,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "473cf0589267b3857a50e0503e22b638",
+        "passage_rank": 4,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "d1ef06e687fcc1d2f23b85c7ad4e5540",
+        "sentence_text": "However, data related to multiple tasks can help identify features relevant across different activities.",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          8,
+          2,
+          0
+        ],
+        "source_position": 10696
+      },
+      {
+        "cross_encoder_score": -11.422919273376465,
+        "dataset": "QASPER",
+        "end_char": 10850,
+        "pair_tokens_before_truncation": 23,
+        "pair_truncated": false,
+        "passage_id": "473cf0589267b3857a50e0503e22b638",
+        "passage_rank": 4,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "ad8989e3e4191fda7c0a1a0c39874983",
+        "sentence_text": "We can use anchor variables  to show this effect.",
+        "sentence_token_cost": 11,
+        "source_order": [
+          0,
+          8,
+          3,
+          0
+        ],
+        "source_position": 10801
+      },
+      {
+        "cross_encoder_score": -11.178447723388672,
+        "dataset": "QASPER",
+        "end_char": 11075,
+        "pair_tokens_before_truncation": 53,
+        "pair_truncated": false,
+        "passage_id": "473cf0589267b3857a50e0503e22b638",
+        "passage_rank": 4,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "9251ea29fc198d7ff7ee0cfeebaf4777",
+        "sentence_text": "The coverage of features anchoring the prediction of an instance indicates the applicability of the feature predicate to the rest of the data distribution and hence the importance of the feature across the data distribution.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          8,
+          4,
+          0
+        ],
+        "source_position": 10851
+      },
+      {
+        "cross_encoder_score": -10.856443405151367,
+        "dataset": "QASPER",
+        "end_char": 11283,
+        "pair_tokens_before_truncation": 66,
+        "pair_truncated": false,
+        "passage_id": "473cf0589267b3857a50e0503e22b638",
+        "passage_rank": 4,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "b376a593dfe027f5ccb7f7d5e469d8dd",
+        "sentence_text": "The coverage of the anchors selected for a test set which is 10% (50 samples) of DB changes by 40.8% (from 0.05 to 0.07) on the addition of the HA, which indicates that there is an attention focusing effect.",
+        "sentence_token_cost": 62,
+        "source_order": [
+          0,
+          8,
+          5,
+          0
+        ],
+        "source_position": 11076
+      },
+      {
+        "cross_encoder_score": -11.216809272766113,
+        "dataset": "QASPER",
+        "end_char": 11483,
+        "pair_tokens_before_truncation": 52,
+        "pair_truncated": false,
+        "passage_id": "473cf0589267b3857a50e0503e22b638",
+        "passage_rank": 4,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "63ff733b793d8f0a6b9fe1d68d1a20f2",
+        "sentence_text": "Representation bias: As shown by Schulz et al.  , models trained on data from multiple tasks perform better than with single-task information when little training data is available for the main task.",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          8,
+          6,
+          0
+        ],
+        "source_position": 11284
+      },
+      {
+        "cross_encoder_score": -10.954912185668945,
+        "dataset": "QASPER",
+        "end_char": 11601,
+        "pair_tokens_before_truncation": 36,
+        "pair_truncated": false,
+        "passage_id": "473cf0589267b3857a50e0503e22b638",
+        "passage_rank": 4,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "6029d711409586b7d942cb74f5d9d9eb",
+        "sentence_text": "The non-linear trend of increase in model performance with the addition of different amounts of data is shown in App.",
+        "sentence_token_cost": 22,
+        "source_order": [
+          0,
+          8,
+          7,
+          0
+        ],
+        "source_position": 11484
+      },
+      {
+        "cross_encoder_score": -10.886946678161621,
+        "dataset": "QASPER",
+        "end_char": 11612,
+        "pair_tokens_before_truncation": 18,
+        "pair_truncated": false,
+        "passage_id": "473cf0589267b3857a50e0503e22b638",
+        "passage_rank": 4,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "eeb8027b499309e28d74c59aaa12652b",
+        "sentence_text": "SECREF41 .",
+        "sentence_token_cost": 5,
+        "source_order": [
+          0,
+          8,
+          8,
+          0
+        ],
+        "source_position": 11602
+      },
+      {
+        "cross_encoder_score": -11.283625602722168,
+        "dataset": "QASPER",
+        "end_char": 11682,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "473cf0589267b3857a50e0503e22b638",
+        "passage_rank": 4,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "18c5e2cc226586b4be5a7de47b726517",
+        "sentence_text": "The F1 micro score of the best performing model trained on DB + HA is",
+        "sentence_token_cost": 16,
+        "source_order": [
+          0,
+          8,
+          9,
+          0
+        ],
+        "source_position": 11613
+      },
+      {
+        "cross_encoder_score": -11.349501609802246,
+        "dataset": "QASPER",
+        "end_char": 11778,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "659eddc27e8cae8b207610eaf497b45f",
+        "passage_rank": 10,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "8af89c0b91802f5b457a81f968c7719a",
+        "sentence_text": "82.28% for picture description tasks, 95.4% for paragraph reading and 97.01% for fluency tasks.",
+        "sentence_token_cost": 33,
+        "source_order": [
+          0,
+          9,
+          0,
+          0
+        ],
+        "source_position": 11683
+      },
+      {
+        "cross_encoder_score": -11.426403999328613,
+        "dataset": "QASPER",
+        "end_char": 11932,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "659eddc27e8cae8b207610eaf497b45f",
+        "passage_rank": 10,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "17fb96167a59315caf54c0d65d52f250",
+        "sentence_text": "This shows greater than trivial performance for each task and improvement in performance for picture description task from training a model purely on DB.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          9,
+          1,
+          0
+        ],
+        "source_position": 11779
+      },
+      {
+        "cross_encoder_score": -11.300978660583496,
+        "dataset": "QASPER",
+        "end_char": 12173,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "659eddc27e8cae8b207610eaf497b45f",
+        "passage_rank": 10,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "62b5b0ebd698524e3a18179e306f6094",
+        "sentence_text": "Such an effect helps the model achieve non-trivial performance on AD detection for novel tasks measuring multiple domains of cognition, given a sufficiently large number of training tasks according to algorithms provided by Baxter et al.  .",
+        "sentence_token_cost": 42,
+        "source_order": [
+          0,
+          9,
+          2,
+          0
+        ],
+        "source_position": 11933
+      },
+      {
+        "cross_encoder_score": -11.427167892456055,
+        "dataset": "QASPER",
+        "end_char": 12318,
+        "pair_tokens_before_truncation": 39,
+        "pair_truncated": false,
+        "passage_id": "659eddc27e8cae8b207610eaf497b45f",
+        "passage_rank": 10,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "502cec8dda405f7a965fd34a7cebcc13",
+        "sentence_text": "Hence, training models on many speech-based tasks could help develop an algorithm capable of detecting AD from any sample of spontaneous speech.",
+        "sentence_token_cost": 26,
+        "source_order": [
+          0,
+          9,
+          3,
+          0
+        ],
+        "source_position": 12174
+      },
+      {
+        "cross_encoder_score": -11.439563751220703,
+        "dataset": "QASPER",
+        "end_char": 12425,
+        "pair_tokens_before_truncation": 32,
+        "pair_truncated": false,
+        "passage_id": "659eddc27e8cae8b207610eaf497b45f",
+        "passage_rank": 10,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "8e7198dee2e0d2418e346e661006aacc",
+        "sentence_text": "Ongoing work is on detailed analysis of nature and polarity of feature trends across various speech tasks.",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          9,
+          4,
+          0
+        ],
+        "source_position": 12319
+      },
+      {
+        "cross_encoder_score": -11.416378021240234,
+        "dataset": "QASPER",
+        "end_char": 12597,
+        "pair_tokens_before_truncation": 42,
+        "pair_truncated": false,
+        "passage_id": "659eddc27e8cae8b207610eaf497b45f",
+        "passage_rank": 10,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "d1727817bde7062f49884b3f443e08fa",
+        "sentence_text": "Future work will focus on learning interpretable latent representations based on the observations made, capable of good predictive performance across a multitude of tasks.",
+        "sentence_token_cost": 27,
+        "source_order": [
+          0,
+          9,
+          5,
+          0
+        ],
+        "source_position": 12426
+      },
+      {
+        "cross_encoder_score": -6.194317817687988,
+        "dataset": "QASPER",
+        "end_char": 12762,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "659eddc27e8cae8b207610eaf497b45f",
+        "passage_rank": 10,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "2c9584e36655985c23e307ec87a348e4",
+        "sentence_text": "Detailed Description of Datasets\tDementiaBank (DB): The DementiaBank dataset is the largest available public dataset of speech for assessing cognitive impairments.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          9,
+          6,
+          0
+        ],
+        "source_position": 12599
+      },
+      {
+        "cross_encoder_score": -11.27975082397461,
+        "dataset": "QASPER",
+        "end_char": 12851,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "659eddc27e8cae8b207610eaf497b45f",
+        "passage_rank": 10,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "ed5fb1e20ecefc6e547260378d7f38de",
+        "sentence_text": "It consists of narrative picture descriptions from participants aged between 45 to 90  .",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          9,
+          7,
+          0
+        ],
+        "source_position": 12763
+      },
+      {
+        "cross_encoder_score": -11.382686614990234,
+        "dataset": "QASPER",
+        "end_char": 12924,
+        "pair_tokens_before_truncation": 27,
+        "pair_truncated": false,
+        "passage_id": "659eddc27e8cae8b207610eaf497b45f",
+        "passage_rank": 10,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "9a248ace323f3d769df73691e11cba70",
+        "sentence_text": "In each sample, a participant describes the picture that they are shown.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          9,
+          8,
+          0
+        ],
+        "source_position": 12852
+      },
+      {
+        "cross_encoder_score": -11.340396881103516,
+        "dataset": "QASPER",
+        "end_char": 12995,
+        "pair_tokens_before_truncation": 28,
+        "pair_truncated": false,
+        "passage_id": "659eddc27e8cae8b207610eaf497b45f",
+        "passage_rank": 10,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "a1d3774b742bfedc254ec2d17ea02d68",
+        "sentence_text": "Out of the 210 participants in the study, 117 were diagnosed with AD (",
+        "sentence_token_cost": 21,
+        "source_order": [
+          0,
+          9,
+          9,
+          0
+        ],
+        "source_position": 12925
+      },
+      {
+        "cross_encoder_score": -11.29397964477539,
+        "dataset": "QASPER",
+        "end_char": 13138,
+        "pair_tokens_before_truncation": 45,
+        "pair_truncated": false,
+        "passage_id": "ad337d9b928fd9e1a5958a85030b197f",
+        "passage_rank": 9,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "6f550c2e70c1c4f41fc18a0ba7124522",
+        "sentence_text": "INLINEFORM0 samples of speech) and 93 were healthy (HC; INLINEFORM1 samples) with many subjects repeating the task with an interval of a year.",
+        "sentence_token_cost": 34,
+        "source_order": [
+          0,
+          10,
+          0,
+          0
+        ],
+        "source_position": 12996
+      },
+      {
+        "cross_encoder_score": -10.20672607421875,
+        "dataset": "QASPER",
+        "end_char": 13216,
+        "pair_tokens_before_truncation": 30,
+        "pair_truncated": false,
+        "passage_id": "ad337d9b928fd9e1a5958a85030b197f",
+        "passage_rank": 9,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "18f87b30c9facd22f10d5f8e328807da",
+        "sentence_text": "Demographics of age, sex, and years of education are provided in the dataset.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          10,
+          1,
+          0
+        ],
+        "source_position": 13139
+      },
+      {
+        "cross_encoder_score": -7.401057243347168,
+        "dataset": "QASPER",
+        "end_char": 13363,
+        "pair_tokens_before_truncation": 43,
+        "pair_truncated": false,
+        "passage_id": "ad337d9b928fd9e1a5958a85030b197f",
+        "passage_rank": 9,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "d23781f8a67ec68a41e16babdd6e376d",
+        "sentence_text": "Healthy Aging (HA) : The Healthy Aging dataset consists of speech samples of cognitively healthy participants ( INLINEFORM0 ) older than 50 years.",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          10,
+          2,
+          0
+        ],
+        "source_position": 13217
+      },
+      {
+        "cross_encoder_score": -11.423218727111816,
+        "dataset": "QASPER",
+        "end_char": 13493,
+        "pair_tokens_before_truncation": 38,
+        "pair_truncated": false,
+        "passage_id": "ad337d9b928fd9e1a5958a85030b197f",
+        "passage_rank": 9,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "70241a99858652e3b5553f7b69371b4a",
+        "sentence_text": "Each participant performs three structured tasks \u2013 picture description (HAPD), verbal fluency test, and a paragraph reading task.",
+        "sentence_token_cost": 25,
+        "source_order": [
+          0,
+          10,
+          3,
+          0
+        ],
+        "source_position": 13364
+      },
+      {
+        "cross_encoder_score": -11.430437088012695,
+        "dataset": "QASPER",
+        "end_char": 13554,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "ad337d9b928fd9e1a5958a85030b197f",
+        "passage_rank": 9,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "aab7f7a0584ae8007549bfea3c36487f",
+        "sentence_text": "Fluency and paragraph tasks are jointly referred to as HAFP.",
+        "sentence_token_cost": 14,
+        "source_order": [
+          0,
+          10,
+          4,
+          0
+        ],
+        "source_position": 13494
+      },
+      {
+        "cross_encoder_score": -10.185206413269043,
+        "dataset": "QASPER",
+        "end_char": 13610,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "ad337d9b928fd9e1a5958a85030b197f",
+        "passage_rank": 9,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "c1319e9b09f4a300298f55ea9395cba4",
+        "sentence_text": "The average number of samples per participant is 14.46.",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          10,
+          5,
+          0
+        ],
+        "source_position": 13555
+      },
+      {
+        "cross_encoder_score": -4.5224127769470215,
+        "dataset": "QASPER",
+        "end_char": 13660,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "ad337d9b928fd9e1a5958a85030b197f",
+        "passage_rank": 9,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "146fae9d0058c0eafed653023b926308",
+        "sentence_text": "The dataset constitutes 8.5 hours of total audio.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          10,
+          6,
+          0
+        ],
+        "source_position": 13611
+      },
+      {
+        "cross_encoder_score": -7.4974493980407715,
+        "dataset": "QASPER",
+        "end_char": 13957,
+        "pair_tokens_before_truncation": 74,
+        "pair_truncated": false,
+        "passage_id": "ad337d9b928fd9e1a5958a85030b197f",
+        "passage_rank": 9,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "322ad12bad4fd90a869e344bc2e0261e",
+        "sentence_text": "Famous People (FP): The Famous People dataset  consists of publicly available spontaneous speech samples from 9 famous individuals (e.g., Woody Allen & Clint Eastwood) over the period from 1956 to 2017, spanning periods from early adulthood to older age, with an average of 25 samples per person.",
+        "sentence_token_cost": 70,
+        "source_order": [
+          0,
+          10,
+          7,
+          0
+        ],
+        "source_position": 13661
+      },
+      {
+        "cross_encoder_score": -11.425959587097168,
+        "dataset": "QASPER",
+        "end_char": 14123,
+        "pair_tokens_before_truncation": 44,
+        "pair_truncated": false,
+        "passage_id": "ad337d9b928fd9e1a5958a85030b197f",
+        "passage_rank": 9,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "a80ccd9f5b74be4e31f8db19d2ef5ea7",
+        "sentence_text": "We use speech samples of these subjects who are considered to be healthy ( INLINEFORM0 ), given an absence of any reported diagnosis or subjective memory complaints.",
+        "sentence_token_cost": 30,
+        "source_order": [
+          0,
+          10,
+          8,
+          0
+        ],
+        "source_position": 13958
+      },
+      {
+        "cross_encoder_score": -11.41775894165039,
+        "dataset": "QASPER",
+        "end_char": 14164,
+        "pair_tokens_before_truncation": 22,
+        "pair_truncated": false,
+        "passage_id": "ad337d9b928fd9e1a5958a85030b197f",
+        "passage_rank": 9,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "c29338dcbe74ac3e62549bedb79cd208",
+        "sentence_text": "This healthy control (HC) group covers a",
+        "sentence_token_cost": 9,
+        "source_order": [
+          0,
+          10,
+          9,
+          0
+        ],
+        "source_position": 14124
+      },
+      {
+        "cross_encoder_score": -11.0858154296875,
+        "dataset": "QASPER",
+        "end_char": 16551,
+        "pair_tokens_before_truncation": 16,
+        "pair_truncated": false,
+        "passage_id": "600c6d252a016068306340042de40fbb",
+        "passage_rank": 3,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "064860be96ccf2a4d3bb4e5324a6f712",
+        "sentence_text": "parameters in  .",
+        "sentence_token_cost": 4,
+        "source_order": [
+          0,
+          13,
+          0,
+          0
+        ],
+        "source_position": 16535
+      },
+      {
+        "cross_encoder_score": -11.35912036895752,
+        "dataset": "QASPER",
+        "end_char": 16656,
+        "pair_tokens_before_truncation": 34,
+        "pair_truncated": false,
+        "passage_id": "600c6d252a016068306340042de40fbb",
+        "passage_rank": 3,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "570157bcab2d2c23f4c155884618ed3c",
+        "sentence_text": "SVM is trained with radial basis function kernel, regularization parameter INLINEFORM0 and INLINEFORM1 .",
+        "sentence_token_cost": 20,
+        "source_order": [
+          0,
+          13,
+          1,
+          0
+        ],
+        "source_position": 16552
+      },
+      {
+        "cross_encoder_score": -10.238025665283203,
+        "dataset": "QASPER",
+        "end_char": 16705,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "600c6d252a016068306340042de40fbb",
+        "passage_rank": 3,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "0373d1536b7324cbb4c62c52c7b7fbb6",
+        "sentence_text": "The NN consists of one hidden layer of 10 units.",
+        "sentence_token_cost": 13,
+        "source_order": [
+          0,
+          13,
+          2,
+          0
+        ],
+        "source_position": 16657
+      },
+      {
+        "cross_encoder_score": -11.451517105102539,
+        "dataset": "QASPER",
+        "end_char": 16764,
+        "pair_tokens_before_truncation": 25,
+        "pair_truncated": false,
+        "passage_id": "600c6d252a016068306340042de40fbb",
+        "passage_rank": 3,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "a035eee0bd8ef8d6ca053172d3e1b03b",
+        "sentence_text": "The tanh activation function is used at each hidden layer.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          13,
+          3,
+          0
+        ],
+        "source_position": 16706
+      },
+      {
+        "cross_encoder_score": -11.220871925354004,
+        "dataset": "QASPER",
+        "end_char": 16849,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "600c6d252a016068306340042de40fbb",
+        "passage_rank": 3,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "1df1c7da6ebedd018135c0656f6bc63e",
+        "sentence_text": "The network is trained using Adam for 100 epochs with other default parameters in  .",
+        "sentence_token_cost": 19,
+        "source_order": [
+          0,
+          13,
+          4,
+          0
+        ],
+        "source_position": 16765
+      },
+      {
+        "cross_encoder_score": -11.286925315856934,
+        "dataset": "QASPER",
+        "end_char": 16988,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "600c6d252a016068306340042de40fbb",
+        "passage_rank": 3,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "c596f83d48bae4817857053257e49aaa",
+        "sentence_text": "Effect of data from different tasks:\tThe effect of augmenting DB with data from a different structured task (HAFP) is shown in SECREF41 .",
+        "sentence_token_cost": 32,
+        "source_order": [
+          0,
+          13,
+          5,
+          0
+        ],
+        "source_position": 16851
+      },
+      {
+        "cross_encoder_score": -9.95863151550293,
+        "dataset": "QASPER",
+        "end_char": 17065,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "600c6d252a016068306340042de40fbb",
+        "passage_rank": 3,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "b2d4b4b98900f027c30917f3bf3e8bd8",
+        "sentence_text": "F1 scores (micro and macro) increase non-linearly with the addition of data.",
+        "sentence_token_cost": 18,
+        "source_order": [
+          0,
+          13,
+          6,
+          0
+        ],
+        "source_position": 16989
+      },
+      {
+        "cross_encoder_score": -11.389059066772461,
+        "dataset": "QASPER",
+        "end_char": 17231,
+        "pair_tokens_before_truncation": 46,
+        "pair_truncated": false,
+        "passage_id": "600c6d252a016068306340042de40fbb",
+        "passage_rank": 3,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "d29a1121c3dbdef0534b3061b4d3aa01",
+        "sentence_text": "Fairness with Respect to Age:\tWe evaluate fairness of classification with respect to two groups - samples with age INLINEFORM0 60 and those with age INLINEFORM1 60.",
+        "sentence_token_cost": 39,
+        "source_order": [
+          0,
+          13,
+          7,
+          0
+        ],
+        "source_position": 17067
+      },
+      {
+        "cross_encoder_score": -11.4417085647583,
+        "dataset": "QASPER",
+        "end_char": 17313,
+        "pair_tokens_before_truncation": 26,
+        "pair_truncated": false,
+        "passage_id": "600c6d252a016068306340042de40fbb",
+        "passage_rank": 3,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "a6245c39a7831410a37e8cfac4be54a1",
+        "sentence_text": "A fair classifier would produce comparable classification scores for both groups.",
+        "sentence_token_cost": 12,
+        "source_order": [
+          0,
+          13,
+          8,
+          0
+        ],
+        "source_position": 17232
+      },
+      {
+        "cross_encoder_score": -10.9098539352417,
+        "dataset": "QASPER",
+        "end_char": 17459,
+        "pair_tokens_before_truncation": 54,
+        "pair_truncated": false,
+        "passage_id": "600c6d252a016068306340042de40fbb",
+        "passage_rank": 3,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "d4c56f959cd4976c0c05ae2789a6d4e8",
+        "sentence_text": "For the best performing classifier on DB, the F1 (micro) score for samples with age INLINEFORM2 60 is 85.9% and with age INLINEFORM3 60 is 76.4%.",
+        "sentence_token_cost": 48,
+        "source_order": [
+          0,
+          13,
+          9,
+          0
+        ],
+        "source_position": 17314
+      },
+      {
+        "cross_encoder_score": -10.988016128540039,
+        "dataset": "QASPER",
+        "end_char": 17591,
+        "pair_tokens_before_truncation": 48,
+        "pair_truncated": false,
+        "passage_id": "600c6d252a016068306340042de40fbb",
+        "passage_rank": 3,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "fc1d3b9ce1aa42eb0ff4cbb901447818",
+        "sentence_text": "With the addition of HA, the F1 (micro) score for samples with age INLINEFORM4 60 and with age INLINEFORM5 is more balanced (75.6%,",
+        "sentence_token_cost": 38,
+        "source_order": [
+          0,
+          13,
+          10,
+          0
+        ],
+        "source_position": 17460
+      },
+      {
+        "cross_encoder_score": -10.077454566955566,
+        "dataset": "QASPER",
+        "end_char": 17652,
+        "pair_tokens_before_truncation": 29,
+        "pair_truncated": false,
+        "passage_id": "5131e635f4cc85d9a40ba0aea6993fd6",
+        "passage_rank": 2,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "87d07a50e543b2507eedd53f76639eb7",
+        "sentence_text": "76.1% respectively) for the same set of data points from DB.",
+        "sentence_token_cost": 17,
+        "source_order": [
+          0,
+          14,
+          0,
+          0
+        ],
+        "source_position": 17592
+      },
+      {
+        "cross_encoder_score": -8.129565238952637,
+        "dataset": "QASPER",
+        "end_char": 17724,
+        "pair_tokens_before_truncation": 31,
+        "pair_truncated": false,
+        "passage_id": "5131e635f4cc85d9a40ba0aea6993fd6",
+        "passage_rank": 2,
+        "query_id": "57f23dfc264feb62f45d9a9e24c60bd73d7fe563",
+        "sentence_id": "7043dce47c9977b33834c4cefd372db2",
+        "sentence_text": "Note that the average age in both datasets are similar ( INLINEFORM6 ).",
+        "sentence_token_cost": 15,
+        "source_order": [
+          0,
+          14,
+          1,
+          0
+        ],
+        "source_position": 17653
+      }
+    ],
+    "scoring_seconds": 0.3203361979685724,
+    "source_fingerprint": "e893ad12360a253ebc8fc6b8e6a36dcefb97b7fad16af07ff93e588a885a0ada"
+  }
+}
