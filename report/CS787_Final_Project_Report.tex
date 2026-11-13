@@ -1,1111 +1,680 @@
-
-                                                                                      
-\documentclass[10pt,letterpaper]{article}
-\usepackage[margin=0.82in,top=0.72in,bottom=0.78in]{geometry}
-\usepackage[T1]{fontenc}\usepackage[utf8]{inputenc}
-\usepackage{newtxtext,newtxmath,microtype,amsmath,booktabs,multirow,array,tabularx,graphicx,xcolor,enumitem,caption,subcaption,tikz,pgfplots,titlesec,fancyhdr,hyperref,cite,float}
-\usetikzlibrary{positioning,fit,arrows.meta,calc,backgrounds,matrix}
+%% =====================================================================
+%% Query-Conditioned Budget-Aware Evidence Allocation for RAG  (CS787)
+%% Redesigned paper: main body (through Conclusion) <= 8 pages,
+%% then References + Appendix.  Compile: pdflatex x2 (no BibTeX needed).
+%% =====================================================================
+\documentclass[10pt,twocolumn,letterpaper]{article}
+\usepackage[top=0.70in,bottom=0.78in,left=0.72in,right=0.72in,columnsep=0.24in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+% newtx (Times-like) on Overleaf; falls back to mathptmx if newtx is not installed
+\IfFileExists{newtxtext.sty}{\usepackage{newtxtext}\usepackage{newtxmath}}{\usepackage{mathptmx}}
+\usepackage{microtype,booktabs,multirow,array,tabularx,graphicx,xcolor,xspace,enumitem,caption,titlesec,fancyhdr,hyperref,cite,float}
+\usepackage{tikz,pgfplots}
+\usepgfplotslibrary{groupplots}
+\usetikzlibrary{positioning,fit,arrows.meta,calc,backgrounds}
 \pgfplotsset{compat=1.18}
-\usepackage[most]{tcolorbox}
-\definecolor{deepblue}{RGB}{31,78,121}\definecolor{softblue}{RGB}{235,243,250}
-\definecolor{deepteal}{RGB}{37,111,111}\definecolor{softteal}{RGB}{236,248,247}
-\definecolor{deeporange}{RGB}{184,95,25}\definecolor{softorange}{RGB}{252,242,231}
-\definecolor{deepgreen}{RGB}{55,113,70}\definecolor{softgreen}{RGB}{239,248,241}
-\hypersetup{colorlinks=true,linkcolor=deepblue,citecolor=deepgreen,urlcolor=deepblue}
-\setlength{\parindent}{1.1em}\setlength{\parskip}{0pt}\setlist{nosep,leftmargin=1.55em}
-\captionsetup{font=small,labelfont=bf}
-\titleformat{\section}{\large\scshape}{\thesection}{0.65em}{}
-\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.55em}{}
-\titlespacing*{\section}{0pt}{1.15em}{0.42em}\titlespacing*{\subsection}{0pt}{0.85em}{0.28em}
-\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small CS787: Generative Artificial Intelligence}\fancyhead[R]{\small IIT Kanpur $\cdot$ November 2026}\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0.4pt}
-\newcommand{\dataset}[1]{\textsc{#1}}\newcommand{\qbgf}{\textsc{QBGF}}
-\newtcolorbox{takeaway}[1][]{colback=softblue,colframe=deepblue,boxrule=0.6pt,arc=2pt,left=6pt,right=6pt,top=5pt,bottom=5pt,#1}
-\newtcolorbox{methodbox}[1][]{colback=softteal,colframe=deepteal,boxrule=0.6pt,arc=2pt,left=6pt,right=6pt,top=5pt,bottom=5pt,#1}
-\newtcolorbox{cautionbox}[1][]{colback=softorange,colframe=deeporange,boxrule=0.6pt,arc=2pt,left=6pt,right=6pt,top=5pt,bottom=5pt,#1}
-\newtcolorbox{examplebox}[1][]{colback=softgreen,colframe=deepgreen,boxrule=0.6pt,arc=2pt,left=6pt,right=6pt,top=5pt,bottom=5pt,fonttitle=\bfseries,#1}
+\usepackage[skins,breakable]{tcolorbox}
+
+% ---------- colours (one colour per method, used consistently) ----------
+\definecolor{cblue}{RGB}{31,78,121}     % QBGF
+\definecolor{corange}{RGB}{192,101,26}  % BEA-V1
+\definecolor{cgreen}{RGB}{46,125,79}    % BEA-V2
+\definecolor{cpurple}{RGB}{106,76,147}  % MiniLM cross-encoder
+\definecolor{cgray}{RGB}{90,98,110}     % sentence baseline / neutral
+\definecolor{cred}{RGB}{170,52,52}
+\hypersetup{colorlinks=true,linkcolor=cblue,citecolor=cgreen,urlcolor=cblue}
+
+% ---------- layout ----------
+\setlength{\parindent}{0.9em}\setlength{\parskip}{0pt}
+\captionsetup{font=footnotesize,labelfont=bf,skip=3pt}
+\titleformat{\section}{\normalsize\bfseries\scshape}{\thesection}{0.5em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.5em}{}
+\titlespacing*{\section}{0pt}{8pt plus 2pt minus 2pt}{3pt}
+\titlespacing*{\subsection}{0pt}{5pt plus 1pt minus 1pt}{2pt}
+\titlespacing*{\subsubsection}{0pt}{3pt}{1pt}
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}\setlength{\floatsep}{6pt plus 2pt minus 2pt}
+\setlength{\intextsep}{6pt plus 2pt minus 2pt}\setlength{\dbltextfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\abovedisplayskip}{4pt}\setlength{\belowdisplayskip}{4pt}
+\setlength{\abovedisplayshortskip}{2pt}\setlength{\belowdisplayshortskip}{2pt}
+\setcounter{topnumber}{4}\setcounter{dbltopnumber}{4}
+\renewcommand{\topfraction}{0.95}\renewcommand{\dbltopfraction}{0.95}
+\renewcommand{\textfraction}{0.04}\renewcommand{\floatpagefraction}{0.80}\renewcommand{\dblfloatpagefraction}{0.80}
+\setlist[itemize]{leftmargin=1.2em,noitemsep,topsep=1.5pt,parsep=0pt}
+\setlist[enumerate]{leftmargin=1.3em,noitemsep,topsep=1.5pt,parsep=0pt}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\footnotesize CS787 course project report}
+\fancyhead[R]{\footnotesize IIT Kanpur}
+\fancyfoot[C]{\footnotesize\thepage}
+\renewcommand{\headrulewidth}{0.3pt}
+
+% ---------- macros ----------
+\newcommand{\qbgf}{\textsc{QBGF}\xspace}
+\newcommand{\vone}{\textsc{BEA-V1}\xspace}
+\newcommand{\vtwo}{\textsc{BEA-V2}\xspace}
+\newcommand{\hotpot}{\textsc{HotpotQA}\xspace}
+\newcommand{\qasper}{\textsc{QASPER}\xspace}
+\newcommand{\scifact}{\textsc{SciFact}\xspace}
+\newcommand{\Phelp}{P_{\mathrm{help}}}
+\newcommand{\SmallTable}{\footnotesize\setlength{\tabcolsep}{3.6pt}}
+\newtcolorbox{case}[2][]{enhanced,breakable,colback=#2!5,colframe=#2!70!black,boxrule=0.5pt,arc=1.5pt,
+  left=3pt,right=3pt,top=2pt,bottom=2pt,fontupper=\footnotesize,fonttitle=\footnotesize\bfseries,#1}
+\newtcolorbox{apbox}[1][]{enhanced,breakable,colback=black!3,colframe=black!55,boxrule=0.5pt,arc=1.5pt,
+  left=3pt,right=3pt,top=2pt,bottom=2pt,fontupper=\footnotesize,fonttitle=\footnotesize\bfseries,#1}
+
+% ---------- TikZ styles ----------
+\tikzset{
+  box/.style={draw=#1!70!black,fill=#1!8,rounded corners=1.5pt,align=center,inner sep=2.5pt,font=\scriptsize,line width=0.5pt},
+  box/.default=cgray,
+  arr/.style={-{Stealth[length=1.7mm,width=1.3mm]},line width=0.6pt,draw=black!65},
+}
+% one sentence square for Fig. 2: \sq{x}{y}{star?}{fill}
+\newcommand{\sq}[4]{\draw[draw=black!50,fill=#4,line width=0.3pt] (#1,#2) rectangle ++(1,1);%
+  \ifnum#3=1\node[font=\scriptsize] at (#1+0.5,#2+0.5){$\star$};\fi}
+
 \begin{document}
+\twocolumn[{%
 \begin{center}
-{\LARGE\bfseries\scshape Query-Conditioned Budget-Aware Evidence Allocation\\[2pt] for Retrieval-Augmented Generation}\par
-% Separated by a comma
-\vspace{0.55em}{\normalsize\bfseries Doddi Guna Venkat, Gagan Kumar Soni}\par
-
-% OR separated by a larger horizontal gap
-\vspace{0.55em}{\normalsize\bfseries Doddi Guna Venkat \qquad Gagan Kumar Soni}\par
-
-{\small CS787: Generative Artificial Intelligence $\cdot$ Indian Institute of Technology Kanpur}\par
-\end{center}\vspace{0.25em}\hrule\vspace{0.7em}
-
-\begin{abstract}
-\noindent Retrieval-augmented generation (RAG) is usually framed as a retrieval problem: find relevant documents and place them in the prompt. In practice, the reader often has a much smaller evidence budget than the retrieved material. The system must therefore decide \emph{what evidence to keep}, \emph{at what granularity}, and \emph{how to distribute a fixed token budget across sources}. We study this evidence-allocation problem on \dataset{HotpotQA}, \dataset{QASPER}, and \dataset{SciFact}. The project begins from SARA's idea of mixing explicit text with compressed latent evidence and asks whether the amount of readable context should be adapted per query. Retrospective oracles show substantial headroom, but learned context-size controllers fail to exploit it reliably. This shifts the focus from \emph{how much} context to \emph{which evidence} and then to \emph{how that evidence should be represented}. A controlled multi-granularity study shows a budget-dependent crossover: sentence selection is strongest under a 256-token budget, while whole passages become competitive at larger budgets. Motivated by this result, we propose \qbgf{} (Query-Conditioned Budgeted Granularity Fusion), an exact multiple-choice knapsack allocator that lets each retrieved passage be dropped, represented by its most relevant sentences, or retained in full. Query conditioning is clearly useful, but \qbgf{} does not consistently outperform a simple sentence-selection baseline across tasks and budgets. A pre-specified validation rule therefore selects the sentence baseline for reserved confirmation. Leave-one-out evidence attribution then reveals a central limitation of relevance-based allocation: dense semantic relevance is only weakly aligned with the evidence that measurably changes the reader's answer. This diagnosis motivates a final utility-aware branch. BEA-V1 replaces top-down budget packing with bottom-up incremental allocation and an explicit stop rule, but under-allocates severely in some settings; BEA-V2 retains incremental allocation while learning the probability that each evidence unit will help the reader from historical LOO outcomes. At an exploratory stopping threshold of $8\times10^{-5}$, BEA-V2 achieves the highest matched-cohort Answer F1 on \dataset{HotpotQA} at both 256 and 1024 tokens (0.4352 and 0.4234), improving over the sentence baseline (0.3661 and 0.3893). Results on \dataset{QASPER} and \dataset{SciFact} are mixed, and this operating point is not an independent confirmation result. Together, the experiments show both the promise of learned evidence helpfulness for multi-hop QA and why a strong extractive sentence baseline remains difficult to improve consistently across tasks.
-\end{abstract}
-
-\section{Introduction}
-Retrieval-augmented generation improves language models by conditioning generation on external evidence~\cite{lewis2020rag}. In practice, retrieved material can exceed the evidence budget we want the reader to process; longer prompts cost more and can make useful information harder to exploit~\cite{liu2024lost}. Context-compression methods such as RECOMP therefore motivate selecting a smaller, task-relevant subset before generation~\cite{recomp2024}.
-
-\begin{takeaway}\centering\textbf{Core question: Given a fixed evidence-token budget, which parts of the retrieved material should the reader see, and at what granularity?}\end{takeaway}
-
-We study three coupled decisions. \textbf{Quantity} asks how much context to allocate, \textbf{identity} asks which retrieved sources to retain, and \textbf{granularity} asks whether a source should appear as a whole passage, selected sentences, or a finer extractive span. The project begins from SARA~\cite{jin2026sara}, where some evidence remains readable text and the rest is compressed into latent vectors, motivating the hypothesis that the amount of explicit text should vary by query. Figure~\ref{fig:story} summarizes how successive experiments refine that hypothesis into a budgeted evidence-allocation problem.
-
-\begin{figure}[t]\centering
-\begin{tikzpicture}[node distance=0.39cm,q/.style={draw,rounded corners=3pt,align=left,text width=0.91\linewidth,inner sep=5pt,fill=gray!4},arr/.style={-{Stealth[length=2mm]},thick,draw=gray!65}]
-\node[q] (a) {\textbf{SARA starting point.} Can the amount of explicit readable context be chosen per query while the rest is compressed?};
-\node[q,below=of a] (b) {\textbf{Context-size finding.} Retrospective oracles show large headroom, but learned context-size controllers under-allocate and lose quality.};
-\node[q,below=of b] (c) {\textbf{Evidence-identity finding.} At the same passage count, selecting different passages changes answer quality.};
-\node[q,below=of c] (d) {\textbf{Granularity finding.} Sentences lead under a 256-token pilot; whole passages become competitive as the budget grows.};
-\node[q,below=of d] (e) {\textbf{Proposed method: \qbgf{}.} Choose DROP, top sentences, or FULL passage per source under one exact global budget.};
-\node[q,below=of e] (f) {\textbf{LOO diagnostic.} Query conditioning helps, but semantic relevance is weakly aligned with downstream reader utility.};
-\node[q,below=of f] (g) {\textbf{Utility-aware follow-up.} BEA-V1 tests bottom-up stopping and exposes context starvation; BEA-V2 learns LOO helpfulness and leads the matched HotpotQA comparisons at both budgets.};
-\draw[arr](a)--(b);\draw[arr](b)--(c);\draw[arr](c)--(d);\draw[arr](d)--(e);\draw[arr](e)--(f);\draw[arr](f)--(g);
+{\LARGE\bfseries Query-Conditioned Budget-Aware Evidence Allocation\\[1pt] for Retrieval-Augmented Generation\par}
+\vspace{5pt}
+{\large\bfseries Doddi Guna Venkat (251140009)\quad Gagan Kumar Soni (252040606)\par}
+\vspace{2pt}
+{\small CS787: Generative Artificial Intelligence $\cdot$ Indian Institute of Technology Kanpur\par}
+{\small Code and experiment records: \href{https://github.com/Guna-Venkat/QC-BEA-for-RAG}{github.com/Guna-Venkat/QC-BEA-for-RAG}\par}
+\end{center}
+\vspace{2pt}\hrule\vspace{5pt}
+\begin{minipage}{\textwidth}\small
+\noindent\textbf{Abstract.}
+Retrieval-augmented generation (RAG) often retrieves more text than a reader can use within a fixed evidence-token budget, so a system must decide which retrieved material to show and in what form. Starting from SARA's split between readable and latent evidence, we ask whether the amount of readable context should adapt to the query. Retrospective oracles show large headroom, but learned controllers fail to predict it and under-allocate. Controlled text-only experiments on HotpotQA, QASPER and SciFact then separate passage identity, retrieval, reader-interface effects and evidence granularity. We propose QBGF (Query-Conditioned Budgeted Granularity Fusion), which decides for every retrieved passage whether to drop it, keep a few relevant sentences or keep it whole, by exactly solving a multiple-choice knapsack over a relevance surrogate. Query conditioning helps, yet QBGF does not reliably beat a simple sentence baseline, so a pre-specified rule keeps the sentence baseline for reserved confirmation. Leave-one-out (LOO) interventions show that dense relevance is only weakly aligned with a unit's effect on the reader. This motivates BEA-V1, an incremental allocator that can starve the context by stopping early, and BEA-V2, which weights marginal gains with a classifier trained on historical LOO helpfulness. In exploratory matched comparisons BEA-V2 attains the highest HotpotQA F1 at 256 and 1024 tokens (0.4352 and 0.4234, versus 0.3661 and 0.3893 for sentence selection), but results on QASPER and SciFact are mixed and none of the BEA results is independently confirmed. Exact optimization of relevance is not the same as estimating downstream utility.\par
+\end{minipage}
+\vspace{5pt}\par
+\begin{minipage}{\textwidth}\centering
+\newcommand{\stage}[6]{%
+ \node[draw=#4,fill=#4,text=white,font=\scriptsize\bfseries,minimum width=4.2cm,minimum height=0.42cm,anchor=north west,inner sep=2pt,align=left] (#1h) at (#2,#3) {#5};
+ \node[draw=#4,fill=#4!6,font=\scriptsize,text width=4.0cm,minimum width=4.2cm,minimum height=1.95cm,anchor=north west,inner sep=2pt,align=left] (#1) at (#1h.south west) {#6};}
+\begin{tikzpicture}
+\stage{s1}{0}{0}{cgray}{1\;\;SARA starting point}{\emph{Question:} can the amount of readable text depend on the query? Static $k{=}5$ (readable of $n{=}10$): F1 0.3629 (\qasper dev, Mistral specialist).}
+\stage{s2}{4.55}{0}{cgray}{2\;\;Adaptive context size}{Oracle best-$k$: 0.5008 vs.\ 0.3950 (static $k{=}8$). Learned controllers: 0.30--0.38. False stops cost $2.5\times$ more than false expansions. $\Rightarrow$ \emph{which} evidence?}
+\stage{s3}{9.10}{0}{cgray}{3\;\;Identity and granularity}{Same $k{=}4$: 0.391 vs.\ 0.360 by passage choice. At 256 tokens sentences lead (0.421 vs.\ 0.338); passages catch up at 512--1024. $\Rightarrow$ choose fidelity per source.}
+\stage{s4}{13.65}{0}{cblue}{4\;\;QBGF}{Exact knapsack over DROP / SENT / FULL per passage. Query conditioning: $+0.02$ to $+0.19$ F1 over no-query; not reliably better than sentences $\Rightarrow$ sentence policy locked.}
+\stage{s5}{0}{-3.35}{cred}{5\;\;LOO diagnosis}{Delete one selected unit, regenerate. 70--99\% of units are neutral; $\rho$(relevance, utility) $\le0.13$. Relevance $\neq$ downstream utility.}
+\stage{s6}{4.55}{-3.35}{corange}{6\;\;BEA-V1}{Incremental gain per token (relevance, coverage, redundancy) with early stopping. Failure: context starvation (245 of 1024 tokens used; F1 0 on one case).}
+\stage{s7}{9.10}{-3.35}{cgreen}{7\;\;BEA-V2}{Gain $\times$ $\Phelp$, learned from historical LOO labels. Exploratory: best \hotpot F1 at both budgets (0.435, 0.423); mixed elsewhere.}
+\stage{s8}{13.65}{-3.35}{black}{Evidence status}{Locked and confirmed: sentence baseline beats no evidence in 4/4 cells; \scifact-256 $+0.288$ over passages. BEA-V2 is exploratory and does not overturn the lock.}
+\foreach \a/\b in {s1/s2,s2/s3,s3/s4,s5/s6,s6/s7,s7/s8}{\draw[arr] (\a.east) -- (\b.west);}
+\draw[arr] (s4.south) -- ++(0,-0.27) -| (s5h.north);
 \end{tikzpicture}
-\caption{Research path from the SARA starting point to utility-aware evidence allocation. Each stage responds to a concrete failure mode exposed by the previous experiment.}\label{fig:story}
-\end{figure}
+\captionof{figure}{Research journey. Each stage records what was learned and why the next experiment followed (grey: historical and diagnostic stages; blue: first proposed allocator; red: diagnosis; orange/green: BEA). Scores come from different tiers (Table~\ref{tab:tiers}) and are not one leaderboard.}\label{fig:journey}
+\end{minipage}
+\vspace{4pt}\hrule\vspace{6pt}
+}]
 
-Our main contributions are: (i) a controlled decomposition of evidence allocation into quantity, identity, and granularity; (ii) \qbgf{}, an exact budget-constrained fusion algorithm over mutually exclusive passage/sentence representations; (iii) a validation-and-confirmation protocol that prevents choosing the final method after observing the reserved holdout; and (iv) leave-one-out analysis showing a persistent gap between semantic retrieval relevance and observed downstream evidence utility.
+%=====================================================================
+\section{Introduction}\label{sec:intro}
+Retrieval-augmented generation (RAG) conditions a language model on retrieved text~\cite{lewis2020rag}, but the retrieved pool is usually larger than the reader can use well: long contexts cost more and are not used uniformly~\cite{liu2024lost}. In our retained exploratory sample of 450 SFR top-10 pools, the mean pool holds 1,375 (\hotpot), 2,458 (\qasper) and 3,322 (\scifact) Qwen tokens, and 83\%, 100\% and 100\% of them exceed a 1,024-token evidence budget (Fig.~\ref{fig:problem}). Something must be left out, and what is left out is often decisive.
 
-\section{Problem Formulation}
-Let a query be $q$ and a retriever return candidate passages $\mathcal D=\{p_1,\ldots,p_K\}$. A reader receives evidence string $E$ with the query and generates $y$. The evidence must satisfy
-\begin{equation}|\operatorname{Tok}(E)|\le B.\end{equation}
-The ideal but unavailable choice would maximize downstream quality directly:
-\begin{equation}E^*(q)=\arg\max_E\operatorname{Quality}(\operatorname{Reader}(q,E))\quad\text{s.t.}\quad |\operatorname{Tok}(E)|\le B.\end{equation}
-Because answer quality is unknown before generation, practical allocators must optimize observable surrogates such as query--evidence similarity, retrieval score, redundancy, or predicted utility.
+\paragraph{A concrete failure.} A \hotpot question asks which film earned the screenwriter of Denis Villeneuve's \emph{Enemy} a Goya nomination for Best Adapted Screenplay. The answer, \emph{Invader (Invasor)}, sits in one 56-token sentence of a second source. In a recorded 256-token run, an incremental allocator that had already spent 168 tokens on short title fragments and unrelated film details rejected that sentence and answered \emph{Enemy}; an allocator that selected it first answered correctly (Appendix~\ref{app:examples}).
 
-\subsection{Why granularity changes the problem}
-A whole passage preserves discourse and coreference but may spend most of a tight budget on surrounding text. A sentence is cheaper and can be combined with evidence from several sources, but can lose local context. Figure~\ref{fig:granularity_intuition} illustrates this trade-off.
+\paragraph{Research question.} \emph{Given a limited evidence-token budget, how should we decide which retrieved information to give the reader, in what representation, and according to what notion of usefulness?} We separate four coupled choices: the \emph{quantity} of readable evidence, the \emph{identity} of the sources kept, the \emph{granularity} (whole passage, a few sentences, or nothing) used for each, and the \emph{utility} signal that justifies the choice.
 
-\begin{figure}[t]\centering
-\begin{tikzpicture}[font=\small,box/.style={draw,rounded corners=3pt,align=center,inner sep=4.5pt},doc/.style={draw,rounded corners=2pt,minimum width=2.35cm,minimum height=0.48cm,fill=gray!7},arr/.style={-{Stealth[length=2mm]},thick}]
-\node[box,text width=2.15cm](q){Query needs facts from multiple sources};
-\node[doc,right=0.55cm of q,yshift=0.58cm](d1){Passage A};\node[doc,right=0.55cm of q](d2){Passage B};\node[doc,right=0.55cm of q,yshift=-0.58cm](d3){Passage C};
-\node[box,right=0.75cm of d2,text width=2.45cm](whole){\textbf{Whole passage}\\preserves context\\but spends many tokens};
-\node[box,below=0.65cm of whole,text width=2.45cm](sent){\textbf{Selected sentences}\\lose some context\\but pack more sources};
-\node[box,right=0.75cm of whole,text width=2.25cm](wout){256-token budget\\mostly one source};
-\node[box,right=0.75cm of sent,text width=2.25cm](sout){256-token budget\\facts from A+B+C};
-\draw[arr](q)--(d2);\draw[arr](d2)--(whole);\draw[arr](d2)|-(sent);\draw[arr](whole)--(wout);\draw[arr](sent)--(sout);
-\end{tikzpicture}
-\caption{Granularity changes what can fit under the same budget. Fine units improve packing density, while whole passages preserve local discourse.}\label{fig:granularity_intuition}
-\end{figure}
+\paragraph{How the project unfolded.} Figure~\ref{fig:journey} is a one-page summary. We started from SARA (Selective and Adaptive RAG)~\cite{jin2026sara}, which keeps $k$ of $n$ retrieved passages as readable text and compresses the rest into latent vectors, and asked whether $k$ should depend on the query. A retrospective oracle says yes; learned controllers could not find the right $k$. At fixed $k$, \emph{which} passages are kept mattered, and the best evidence \emph{unit} depended on the budget. This led to QBGF, which assigns a representation to each passage under one exact budget. QBGF's query conditioning helped but it did not reliably beat a simple sentence baseline; leave-one-out (LOO) interventions suggested why: relevance is weakly aligned with a unit's effect on the reader. BEA-V1 and BEA-V2 (Budgeted Evidence Allocator) are our attempts to allocate by marginal and then by learned utility.
 
-\section{How the Hypothesis Evolved}\label{sec:evolution}
-\subsection{SARA and adaptive readable context}
-SARA mixes $k$ explicit text passages with $n-k$ compressed latent representations. This made $k$ a natural control variable: a difficult query could receive more explicit text, while an easier query could rely more heavily on compressed evidence.
+\paragraph{Core insight.} Exact optimization of a relevance score cannot compensate for a mismatch between relevance and what the reader actually needs. QBGF's dynamic program is optimal for its relevance surrogate, but that surrogate is not downstream answer quality.
 
-\begin{figure}[t]\centering
-\begin{tikzpicture}[font=\small,box/.style={draw,rounded corners=3pt,align=center,text width=2.35cm,minimum height=0.72cm,inner sep=4pt},arr/.style={-{Stealth[length=2mm]},thick}]
-\node[box,fill=softblue](q){Query};\node[box,right=0.5cm of q](ret){Retrieve $n$ passages};\node[box,right=0.5cm of ret,fill=softorange](split){Choose $k$ explicit\\$n-k$ compressed};\node[box,right=0.5cm of split,fill=softteal](reader){Reader receives text $+$ latent evidence};
-\draw[arr](q)--(ret);\draw[arr](ret)--(split);\draw[arr](split)--(reader);
-\node[below=0.22cm of split,align=center,text width=5cm,font=\footnotesize]{Initial hypothesis: predict $k$ from the query before generation.};
-\end{tikzpicture}
-\caption{SARA-inspired starting point. The original adaptive variable was the number of explicit text passages, not evidence granularity.}\label{fig:sara_start}
-\end{figure}
-
-On \dataset{QASPER} development data ($N=231$ queries, 86 papers), less than 22\% of tokens in top-retrieved material overlapped gold-annotated answer-bearing spans. This evidence sparsity strengthened the motivation for selective allocation.
-
-\subsection{Static context response and oracle headroom}
-We evaluated $k\in\{0,2,4,5,6,8,10\}$. Performance improved with more readable context but flattened after moderate $k$. A retrospective oracle, which selects the best $k$ only after observing generation quality, showed substantial headroom.
-
-\begin{figure}[t]\centering
-\begin{tikzpicture}\begin{axis}[width=0.78\linewidth,height=5.0cm,xlabel={Explicit passage count $k$},ylabel={Mean Answer F1},xmin=-0.4,xmax=10.4,ymin=0.10,ymax=0.56,xtick={0,2,4,5,6,8,10},grid=major,legend style={font=\small,at={(0.02,0.98)},anchor=north west}]
-\addplot+[mark=o,thick] coordinates {(0,0.1388)(2,0.3038)(4,0.3596)(5,0.3629)(6,0.3857)(8,0.3950)(10,0.4090)};\addlegendentry{Static context}
-\addplot+[only marks,mark=star,mark size=3.1pt] coordinates {(8,0.5008)};\addlegendentry{Oracle, $k\le8$}
-\addplot+[only marks,mark=diamond*,mark size=2.8pt] coordinates {(10,0.5264)};\addlegendentry{Overall oracle}
-\end{axis}\end{tikzpicture}
-\caption{Static context-size response on \dataset{QASPER}. The oracle is an outcome-selected ceiling, not a deployable policy.}\label{fig:static_oracle}
-\end{figure}
-
-Static $k=8$ achieved 0.3950 F1. The retrospective SARA oracle over $k\le8$ reached 0.5008 F1 ($+26.78\%$ relative). A cost-aware oracle retained 0.4894 F1 at mean $k=3.49$, using 841.3 tokens versus 1,758.5 at $k=8$ (52.16\% fewer). Also, 46.32\% of queries had $k=0$ match or beat $k=8$, and 77.92\% had $k=5$ match or beat $k=8$.
-
-\begin{cautionbox}\textbf{Interpretation boundary.} These oracle results demonstrate heterogeneity among tested choices; they do not show that the correct $k$ can be inferred from an unseen query.\end{cautionbox}
-
-
-\begin{examplebox}[title={Concrete case pair: opposite context needs inside the same paper}]
-Two questions from the same QASPER paper behave in opposite ways. One requires the sixth retrieved passage and rises from 0.1333 F1 at $k=0$ to 0.6000 at $k=6$; the other is best at $k=0$ and degrades as explicit passages are added. Appendix~\ref{ex:sara_pair} gives the full questions, gold answers, retrieved evidence, generated answers, token counts, and per-$k$ scores.
-\end{examplebox}
-
-
-\subsection{Why context-size prediction failed}
-We engineered 64 pre-generation features spanning BM25 score structure, query complexity, query--passage semantic alignment, passage redundancy/diversity, cumulative lexical coverage, and multi-aspect evidence signals. No feature remained significant for oracle-$k$ association after Benjamini--Hochberg FDR correction at $q=0.10$. Flat controllers therefore tended to save tokens by under-allocating evidence: logistic regression fell to 0.3034 F1 at mean $k=2.03$; tree and rule policies reached only 0.3282--0.3286.
-
-A sequential controller decomposed allocation into $2\rightarrow4\rightarrow6\rightarrow8$ decisions. The first transition was essentially unpredictable (ROC-AUC 0.4385), the middle $4\rightarrow6$ transition was more learnable (ROC-AUC 0.6503), and the final $6\rightarrow8$ transition offered little marginal gain. Nonlinear models did not solve the problem. Balanced logistic regression achieved 0.3842 policy F1 with 64.44\% recall for useful $4\rightarrow6$ expansions; XGBoost reduced false expansions but also reduced recall to 46.67\% and fell to 0.3725 F1.
-
-The central difficulty was an \textbf{asymmetric decision cost}. Capturing a genuinely useful expansion produced an average gain of $+0.3395$ F1, whereas an unnecessary expansion incurred an average penalty of only $-0.1345$ F1---a 2.52$\times$ magnitude difference. In other words, a false stop can remove the one passage containing the decisive fact, while a false expansion often adds only mild distractor noise. A controller optimized primarily for classification accuracy or context reduction is therefore poorly aligned with the downstream objective: even a modest false-stop rate can dominate its end-to-end regret.
-
-This asymmetry explains why increasingly complex controllers did not translate into better QA quality. Conservative policies saved tokens by predicting ``stop,'' but they also missed expensive evidence transitions; policies tuned to preserve recall drifted back toward using nearly all available context. A content-aware controller ultimately matched static $k=8$ quality (0.3952 vs. 0.3950) only at mean $k=7.85$, yielding just 1.72\% token savings. The result is not simply that the classifiers were weak; the \emph{decision problem itself} penalizes under-allocation much more severely than mild over-allocation.
-
-
-\begin{examplebox}[title={Concrete case: why under-allocation is unusually expensive}]
-In one QASPER example, stopping at $k=2$ omits the passage that explicitly names the gold categories and yields F1 $=0$; expanding to $k=4$ exposes that sentence and yields F1 $=1$. A second example shows only a small loss from unnecessary expansion. Appendix~\ref{ex:qcca_asym} reproduces the questions, gold answers, included/missing evidence, generated answers, and score changes.
-\end{examplebox}
-
-
-\begin{takeaway}\textbf{First pivot.} A scalar $k$ hides which passages are retained and what information each contains. We therefore moved from evidence \emph{quantity} to evidence \emph{identity}.\end{takeaway}
-
-\subsection{Passage identity matters at fixed quantity}
-Holding the candidate pool and number of explicit passages fixed, we compared retrieval-order selection, dense semantic selection, and a learned passage-ranking model. At $k=4$, semantic selection reached 0.39133 F1 versus 0.35960 for the retrieval-order prefix and 0.35721 for the learned selector.
-
-\begin{figure}[t]\centering
-\begin{tikzpicture}\begin{axis}[ybar,bar width=14pt,width=0.62\linewidth,height=4.4cm,ymin=0.33,ymax=0.405,ylabel={Answer F1},symbolic x coords={Retrieval,Semantic,Learned},xtick=data,nodes near coords,nodes near coords align={vertical},x tick label style={font=\small}]
-\addplot coordinates {(Retrieval,0.35960)(Semantic,0.39133)(Learned,0.35721)};
-\end{axis}\end{tikzpicture}
-\caption{Passage identity at fixed $k=4$ on \dataset{QASPER}. The number of passages is unchanged; selecting different passages changes answer quality.}\label{fig:identity}
-\end{figure}
-
-
-\begin{examplebox}[title={Concrete case: same $k=4$, different evidence identity}]
-A controlled fixed-$k$ example makes the identity effect concrete: all policies expose four passages, but only the route containing the lower-ranked passage with the English--German dataset description reaches the exact answer. Appendix~\ref{ex:identity917} shows the question, candidate passages, selected ranks, token counts, generated answers, and scores. This case illustrates the mechanism; aggregate results still show that the learned router did not beat semantic routing overall.
-\end{examplebox}
-
-
-Further learned routing, draft-aware promotion, and generative extraction did not produce a robust improvement. Query-only and draft-aware generative extraction reduced F1 relative to no intervention, whereas exact query-ranked source sentences produced only a small, statistically uncertain point gain. These failures suggested a useful design constraint: preserve source text and make the selection unit itself the object of study.
-
-\subsection{Root-cause checks before changing granularity}
-Before attributing earlier behavior to allocation alone, we separated retrieval, representation, and reader-interface confounds. At retrieval depth 10, any-evidence recall was 0.618 for BM25, 0.636 for a MiniLM bi-encoder, and 0.727 for SFR-Embedding-Mistral. Candidate-pool quality was therefore materially different across retrievers. When retrieval was held fixed using the same SFR pool at $k=6$, full-text RAG reached 0.41988 F1 and SARA's text-plus-latent mixture reached 0.42129; the paired bootstrap interval crossed zero. Thus, this controlled comparison did not isolate latent compression as the source of the earlier SARA advantage.
-
-\paragraph{Why SARA latent compression was not simply transferred to every reader.}
-SARA's compressed evidence is not a reader-agnostic vector store. Its implementation injects retriever vectors at \texttt{<COMPRESS>} token positions after a learned two-layer projector,
-\begin{equation}
-    z_i=P_\phi(e_i),\qquad
-    P_\phi:\mathbb{R}^{4096}\rightarrow\mathbb{R}^{4096},
-\end{equation}
-implemented as Linear$(4096,4096)$--GELU--Linear$(4096,4096)$. The projector and LoRA adapter were trained against \texttt{Mistral-7B-Instruct-v0.2}; consequently, the projected vectors are learned for the Mistral hidden representation space and checkpoint interface. Even if another reader happens to have the same nominal hidden width, reusing the trained projector unchanged would not establish compatibility with that model's representation geometry. A Qwen- or Llama-based latent SARA system would require a newly compatible projection/adaptation path and validation rather than a drop-in reader swap. For the later cross-reader study we therefore compared textual evidence representations directly instead of claiming that the Mistral-trained latent projector transferred across model families.
-
-\paragraph{Why Qwen3-8B was selected as controlled reader.}
-The exploratory reader panel also exposed an evaluation-interface problem on \dataset{SciFact}. Under the frozen exact-label response contract, Mistral produced 1,849 invalid strict-format outputs out of 1,850 conditions and Llama produced 1,826/1,850 invalid outputs, whereas Qwen produced zero invalid outputs. Explanations appended after the required label were scored invalid by the fixed parser. These strict scores remain valid measurements of the frozen interface, but they are heavily confounded as comparisons of claim reasoning. Qwen was therefore retained as the primary control for the subsequent granularity and allocation studies because it followed the required verification output format reliably; this is \emph{not} a claim that Qwen is universally the best reasoning model.
-
-
-\begin{examplebox}[title={Concrete case: a reader-interface confound, not a reasoning ranking}]
-A SciFact example has gold label \texttt{SUPPORT}. The decisive abstract sentence supports TCR--CD3 involvement in immune-synapse maturation, but the evaluator accepts only a single exact label token. Qwen obeys that contract; Mistral and Llama return semantically correct labels wrapped in explanatory text and are therefore rejected. Appendix~\ref{ex:scifact1132} reproduces the claim, decisive evidence, raw outputs, and parser decisions.
-\end{examplebox}
-
-
-These checks motivated a standardized study: fix retriever, reader, prompt contract, and budget, then vary only how candidate evidence is represented and selected.
-
-\begin{cautionbox}\textbf{Historical comparability.} Scores in the SARA/QCCA exploration used earlier retrieval, reader, and adaptation configurations. They motivate the research direction but are not directly comparable to the final SFR + Qwen3-8B controlled study.\end{cautionbox}
-
-\section{Controlled Multi-Granularity Evidence Study}\label{sec:granularity}
-The controlled pilot compared three extractive representations under identical candidate retrieval: \textbf{whole passages}, \textbf{sentences}, and \textbf{fine-grained source spans}. The standardized setup used SFR-Embedding-Mistral retrieval and Qwen3-8B as the principal reader. The question was whether the preferred evidence unit changes with available space.
-
-\begin{figure}[t]\centering
-\begin{tikzpicture}\begin{axis}[width=0.78\linewidth,height=5.0cm,xlabel={Evidence-token budget},ylabel={Answer F1},symbolic x coords={256,512,1024},xtick=data,ymin=0.31,ymax=0.50,grid=major,legend style={font=\small,at={(0.02,0.98)},anchor=north west}]
-\addplot+[mark=square*,thick] coordinates {(256,0.3375)(512,0.4563)(1024,0.4803)};\addlegendentry{Whole passage}
-\addplot+[mark=triangle*,thick] coordinates {(256,0.4079)(512,0.4306)(1024,0.4755)};\addlegendentry{Fine span}
-\addplot+[mark=o,thick] coordinates {(256,0.4213)(512,0.4203)(1024,0.4721)};\addlegendentry{Sentence}
-\end{axis}\end{tikzpicture}
-\caption{Granularity and budget in the \dataset{HotpotQA} pilot ($N=50$). Sentences lead at 256 tokens, while whole passages have the highest point estimates at 512 and 1024 tokens.}\label{fig:granularity_curve}
-\end{figure}
-
-\begin{table}[t]\centering\small
-\caption{Controlled multi-granularity pilot on \dataset{HotpotQA}. Values are descriptive development-pilot estimates.}\label{tab:pilot}
-\begin{tabular}{lrrrrrr}\toprule
-&\multicolumn{2}{c}{\textbf{256}}&\multicolumn{2}{c}{\textbf{512}}&\multicolumn{2}{c}{\textbf{1024}}\\
-\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
-\textbf{Representation}&Tok.&F1&Tok.&F1&Tok.&F1\\\midrule
-Whole passage&165.9&0.3375&389.1&\textbf{0.4563}&798.4&\textbf{0.4803}\\
-Fine extractive span&198.3&0.4079&426.7&0.4306&865.0&0.4755\\
-Sentence&201.2&\textbf{0.4213}&423.4&0.4203&866.7&0.4721\\\bottomrule
-\end{tabular}\end{table}
-
-At 256 tokens, sentence selection improved F1 by $+0.0838$ over whole passages, a $+24.8\%$ relative gain. A plausible explanation is that smaller units distribute a tight budget across more sources, but the pilot did not isolate source coverage as the causal mechanism. At 1024 tokens, whole passages were slightly higher, consistent with the possibility that preserved local context becomes more useful when space is less scarce. Formal reader-by-granularity interaction intervals crossed zero, so this pilot does not establish a universal crossover law.
-
-\begin{takeaway}\centering\textbf{Design hypothesis: rather than choose one granularity globally, choose a representation separately for each retrieved passage under the current token budget.}\end{takeaway}
-
-\section{QBGF: Query-Conditioned Budgeted Granularity Fusion}\label{sec:qbgf}
-\subsection{Method overview}
-\qbgf{} operates after retrieval and before generation. For each of the top-$K=10$ retrieved passages, it constructs a small menu of mutually exclusive representations: \texttt{DROP}, the top 1/2/4/8 query-relevant sentences, or the \texttt{FULL} passage. A global optimizer then chooses exactly one option per passage subject to the evidence-token budget.
-
-\begin{figure}[t]\centering
-\begin{tikzpicture}[font=\small,box/.style={draw,rounded corners=3pt,align=center,text width=2.02cm,minimum height=0.82cm,inner sep=4pt},opt/.style={draw,rounded corners=2pt,align=center,text width=2.5cm,minimum height=0.43cm,inner sep=2.5pt,font=\footnotesize},arr/.style={-{Stealth[length=2mm]},thick}]
-\node[box,fill=softblue](q){Query};\node[box,right=0.35cm of q](ret){SFR retrieval\\top 10 passages};\node[box,right=0.35cm of ret,fill=softteal](score){Passage + sentence\\query relevance};\node[box,right=0.35cm of score,fill=softorange](menu){Per-passage\\option menu};\node[box,right=0.35cm of menu](dp){Exact MCKP\\dynamic program};\node[box,right=0.35cm of dp,fill=softgreen](reader){Budgeted context\\$+$ Qwen3-8B};
-\draw[arr](q)--(ret);\draw[arr](ret)--(score);\draw[arr](score)--(menu);\draw[arr](menu)--(dp);\draw[arr](dp)--(reader);
-\node[opt,below=0.48cm of menu](opts){DROP $\mid$ SENT$_1$ $\mid$ SENT$_2$ $\mid$ SENT$_4$ $\mid$ SENT$_8$ $\mid$ FULL};\draw[-{Stealth[length=1.8mm]}](opts)--(menu);
-\end{tikzpicture}
-\caption{\qbgf{} in one picture. The method generates no new evidence; it chooses among extractive representations already present in the retrieved passages.}\label{fig:qbgf_arch}
-\end{figure}
-
-\subsection{Step 1: query-conditioned passage importance}
-Let $s(p_i)=\cos(\mathbf e_q,\mathbf e_{p_i})$ be SFR cosine similarity between query and passage $p_i$. \qbgf{} converts these scores into global passage relevance mass:
-\begin{equation}
-R_i=\frac{\exp(\tau_p s(p_i))}{\sum_{m=1}^{K}\exp(\tau_p s(p_m))},\qquad \tau_p=5.
-\end{equation}
-Thus $R_i$ expresses how much of the retrieved pool's relevance mass is assigned to passage $i$.
-
-\subsection{Step 2: relevance mass inside each passage}
-Each passage is segmented into rule-based sentences $\mathcal S(p_i)=\{s_{i,1},\ldots,s_{i,n_i}\}$. Sentence cosine scores are normalized within the passage:
-\begin{equation}
-m_{i,j}=\frac{\exp(\tau_s s(s_{i,j}))}{\sum_{\ell=1}^{n_i}\exp(\tau_s s(s_{i,\ell}))},\qquad \tau_s=5.
-\end{equation}
-For the top-$k$ sentence option,
-\begin{equation}M(i,k)=\sum_{j\in\operatorname{top}\text{-}k}m_{i,j},\qquad u(i,\mathrm{SENT}_k)=R_iM(i,k).\end{equation}
-The full passage receives $u(i,\mathrm{FULL})=R_i$; dropping it receives zero.
-
-\subsection{Step 3: exact cost and mutually exclusive representations}
-For every passage,
-\begin{equation}\mathcal O_i=\{\mathrm{DROP},\mathrm{SENT}_1,\mathrm{SENT}_2,\mathrm{SENT}_4,\mathrm{SENT}_8,\mathrm{FULL}\}.\end{equation}
-Costs are measured by serializing the actual evidence block and tokenizing it with the Qwen tokenizer, including separators and formatting. For example,
-\begin{equation}
-c(i,\mathrm{SENT}_k)=\left|\operatorname{Tok}\!\left(\operatorname{Serialize}(\operatorname{top}\text{-}k\text{ selected sentences})\right)\right|.
-\end{equation}
-The full-passage cost is defined analogously on the serialized full block. This distinction matters: the constraint applies to the prompt that is actually passed to the reader, not to an approximate sum of unformatted sentence lengths.
-
-\subsection{Step 4: exact multiple-choice knapsack optimization}
-Each passage contributes exactly one option; \texttt{DROP} represents omission. The resulting multiple-choice knapsack problem is
-\begin{align}
-\max_{o_1,\ldots,o_K}\quad&\sum_{i=1}^{K}u(i,o_i)\\
-\text{s.t.}\quad&\sum_{i=1}^{K}c(i,o_i)\le B,\qquad o_i\in\mathcal O_i.
-\end{align}
-An integer dynamic program solves the surrogate exactly:
-\begin{equation}
-V_i(c)=\max_{o\in\mathcal O_i,\,c(i,o)\le c}\left[V_{i-1}(c-c(i,o))+u(i,o)\right].
-\end{equation}
-Tie-breaking is deterministic and selected blocks are restored to source order before prompt assembly.
-
-\begin{methodbox}\textbf{Important distinction.} The dynamic program is globally optimal for the defined relevance-surrogate objective. It is \emph{not} globally optimal for downstream Answer F1 or macro-F1; the experiments test whether the surrogate is good enough in practice.\end{methodbox}
-
-
-\begin{examplebox}[title={Worked allocation case: QBGF avoids a lexical distractor}]
-A saved 256-token QASPER query asks ``What was the baseline used?'' The pool contains both a high-overlap sentence about \emph{manual annotation} and the decisive comparison to the Rei (2016) model. QBGF retains the latter and returns ``Rei2016 model'' (F1 $=0.8000$), while the matched sentence/cross-encoder alternatives in this case answer ``manual annotation'' (F1 $=0$). Appendix~\ref{ex:qbgf_rei} shows the evidence choices, token use, raw outputs, and five-method comparison.
-\end{examplebox}
-
-
-\subsection{Baselines and variants: what each comparison tests}
-All methods operate on the same retrieved candidates and budgets.
-\begin{itemize}
-\item \textbf{No evidence}: isolates the reader's parametric performance.
-\item \textbf{Whole-passage baseline} (repository ID \texttt{RAW\_SKIP}): scans passages in retrieval rank order, includes a full passage if it fits, skips a non-fitting passage and continues, then restores source order.
-\item \textbf{Sentence baseline} (\texttt{FIXED\_SENTENCE}): segments every candidate, globally ranks sentences by query cosine similarity, greedily packs fitting sentences using exact serialized cost, and restores source order.
-\item \textbf{Hierarchical hybrid} (\texttt{H3}): uses sentence units for the first three retrieved passages and finer exact source spans for the remaining seven, followed by the historical prefix allocator. It is a control, not a candidate eligible for final promotion.
-\item \textbf{No-query QBGF}: sets passage weights to $R_i=1/K$ and removes query-conditioned sentence preference, while the upstream SFR candidate pool remains query-dependent. This tests the value of conditioning \emph{inside the allocator}.
-\item \textbf{Passage-only QBGF}: restricts each menu to \{DROP, FULL\}; this tests the DP and passage weighting without sentence decomposition.
-\item \textbf{Sentence-only QBGF}: restricts each menu to DROP plus SENT$_1$/SENT$_2$/SENT$_4$/SENT$_8$; this tests whether the FULL option itself adds value.
-\end{itemize}
-A no-mass variant and greedy-density heuristics were considered during formulation but were not evaluated across the full validation matrix, so they are not used as primary evidence.
-
-\section{Experimental Setup}
-\subsection{Tasks and metrics}
-We evaluate \dataset{HotpotQA}, multi-hop QA in the standard 10-paragraph distractor setting~\cite{yang2018hotpotqa}; \dataset{QASPER}, information-seeking QA over scientific papers~\cite{dasigi2021qasper}; and \dataset{SciFact}, three-way scientific claim verification~\cite{wadden2020scifact}. Answer F1 is primary for the QA tasks; three-class macro-F1 is primary for \dataset{SciFact}. We never pool metrics across tasks.
-
-
-\begin{table}[t]\centering\footnotesize
-\caption{Concrete task examples used throughout the analysis. They are illustrative executed cases, not substitutes for aggregate evaluation.}\label{tab:dataset_examples}
-\begin{tabularx}{\linewidth}{p{1.8cm} X X}\toprule
-\textbf{Dataset}&\textbf{Example}&\textbf{Why allocation is difficult}\\\midrule
-\dataset{HotpotQA}&A question about a Denis Villeneuve film requires the chain \emph{Enemy} $\rightarrow$ Javier Gull\'on $\rightarrow$ \emph{Invader (Invasor)}.&The final answer depends on preserving a bridge fact across different sources; dropping one hop can produce a plausible but wrong answer.\\
-\dataset{QASPER}&``Where does the ancient Chinese dataset come from?'' is answered by a short sentence naming \emph{Huangdi Neijing} inside a long scientific paper.&A small answer-bearing span competes with large amounts of semantically related methodology and background.\\
-\dataset{SciFact}&A claim asks whether TCR/CD3 microdomains are required for immune-synapse activation; the gold label is \texttt{SUPPORT}.&A decisive assertion may be short, polarity-sensitive, and evaluated under a strict categorical output contract.\\
-\bottomrule
-\end{tabularx}
-\end{table}
-
-
-\subsection{Data roles}
-The main validation matrix contains 7,155 \dataset{HotpotQA} queries, 1,005 \dataset{QASPER} queries (281 papers), and 177 \dataset{SciFact} examples (157 groups), for 8,337 total. The reserved confirmation contains 200 untouched \dataset{HotpotQA} examples and 50 \dataset{SciFact} examples (43 groups). \dataset{QASPER} is excluded from confirmation because an earlier exploratory extraction run had already consumed its test query IDs.
-
-\subsection{Final controlled pipeline}
-All final methods share SFR top-10 retrieval, budgets $B\in\{256,1024\}$, and base \texttt{Qwen/Qwen3-8B} in FP16 precision with greedy decoding and no task-specific LoRA adaptation. Qwen was kept as the controlled reader because the reader audit showed reliable compliance with the frozen \dataset{SciFact} exact-label format (zero invalid strict-format outputs in the reader panel), avoiding the severe parser-format confound observed for Mistral and Llama. The final study therefore standardizes the reader interface rather than claiming a universal reader ranking.
-
-\begin{figure}[t]\centering
-\begin{tikzpicture}[font=\small,box/.style={draw,rounded corners=3pt,align=center,text width=2.05cm,minimum height=0.76cm,inner sep=4pt},arr/.style={-{Stealth[length=2mm]},thick}]
-\node[box,fill=softblue](q){Query};\node[box,right=0.37cm of q](r){SFR top-10\\passages};\node[box,right=0.37cm of r](u){Candidate units\\at several granularities};\node[box,right=0.37cm of u,fill=softorange](p){Allocation policy\\256 / 1024};\node[box,right=0.37cm of p](s){Source-order\\prompt};\node[box,right=0.37cm of s,fill=softgreen](m){Qwen3-8B\\reader};
-\draw[arr](q)--(r);\draw[arr](r)--(u);\draw[arr](u)--(p);\draw[arr](p)--(s);\draw[arr](s)--(m);
-\end{tikzpicture}
-\caption{Standardized pipeline for validation and confirmation. Retrieval and reader inference are held fixed so comparisons isolate evidence allocation.}\label{fig:controlled_pipeline}
-\end{figure}
-
-\subsection{Pre-specified model-selection rule}
-Before accessing confirmation, the decision rule was repository-locked. \qbgf{} would replace the sentence baseline only if it established noninferiority in \emph{all six} dataset-by-budget validation cells and did not increase mean prompt-token cost in any cell, with at least one strict reduction. The noninferiority margin was 0.003 F1 for QA and 0.010 macro-F1 for \dataset{SciFact}. Paired uncertainty uses 10,000 cluster-bootstrap resamples with fixed seed 42; registered comparison families use Holm correction.
-
-\section{Results}
-\subsection{Main validation surface}
-Table~\ref{tab:validation} reports the complete controlled surface. No method dominates every task or budget: sentence selection is especially strong on \dataset{QASPER} and \dataset{SciFact} at 256 tokens, while passage-based methods become more competitive at 1024 tokens.
-
-\begin{table}[t]\centering\small
-\caption{Main validation surface. Values are Answer F1 for \dataset{HotpotQA}/\dataset{QASPER} and macro-F1 for \dataset{SciFact}. Bold is the highest point estimate in each row.}\label{tab:validation}
-\resizebox{\linewidth}{!}{\begin{tabular}{llrrrrrrrr}\toprule
-\textbf{Dataset}&\textbf{Budget}&\textbf{None}&\textbf{Passage}&\textbf{Sentence}&\textbf{Hybrid}&\textbf{QBGF}&\textbf{No-query}&\textbf{Passage-only}&\textbf{Sentence-only}\\\midrule
-\dataset{HotpotQA}&256&0.1653&0.4070&0.4082&\textbf{0.4253}&0.4121&0.3086&0.3935&0.4122\\
-\dataset{HotpotQA}&1024&0.1653&0.4521&0.4233&0.4364&0.4323&0.4123&\textbf{0.4525}&0.4323\\
-\dataset{QASPER}&256&0.0822&0.1693&\textbf{0.2634}&0.2544&0.2355&0.1473&0.1693&0.2356\\
-\dataset{QASPER}&1024&0.0822&0.2880&0.2988&\textbf{0.2995}&0.2951&0.2284&0.2896&0.2977\\
-\dataset{SciFact}&256&0.4207&0.4564&\textbf{0.7001}&0.6856&0.6750&0.4880&0.4578&0.6750\\
-\dataset{SciFact}&1024&0.4207&\textbf{0.6990}&0.6704&0.6859&0.6604&0.5426&0.6031&0.6847\\\bottomrule
-\end{tabular}}\end{table}
-
-\subsection{What the ablations tell us}
-The clearest positive ablation result is the value of query conditioning. Full \qbgf{} outperforms the no-query variant in all six validation cells; all six corresponding Holm-adjusted comparisons are significant ($p_{\mathrm{Holm}}\le0.0114$).
-
-\begin{figure}[t]\centering
-\begin{tikzpicture}\begin{axis}[ybar,bar width=12pt,width=0.82\linewidth,height=4.9cm,ylabel={QBGF $-$ no-query quality},ymin=0,ymax=0.205,symbolic x coords={H256,H1024,Q256,Q1024,S256,S1024},xtick=data,xticklabels={Hotpot 256,Hotpot 1024,QASPER 256,QASPER 1024,SciFact 256,SciFact 1024},x tick label style={rotate=25,anchor=east,font=\footnotesize},nodes near coords,nodes near coords style={font=\scriptsize},grid=major]
-\addplot coordinates {(H256,0.1035)(H1024,0.0201)(Q256,0.0882)(Q1024,0.0667)(S256,0.1870)(S1024,0.1178)};
-\end{axis}\end{tikzpicture}
-\caption{Effect of query conditioning within \qbgf{}. Query-conditioned allocation is consistently better than the no-query variant, even though full \qbgf{} does not consistently beat the strong sentence baseline.}\label{fig:query_conditioning}
-\end{figure}
-
-Full \qbgf{} and sentence-only QBGF are almost identical at 256 tokens across all three tasks. Therefore the experiment does not establish a clear benefit from the FULL passage option under tight budgets. At 1024 tokens, passage-only selection becomes more competitive, reinforcing the broader result that useful granularity depends on available space.
-
-\subsection{Why QBGF was not promoted}
-The final decision was not based on whichever method had the best point estimate in a particular row. Table~\ref{tab:ni} applies the pre-specified noninferiority rule. Only \dataset{HotpotQA} at 1024 tokens clears the quality margin; five cells fail to establish noninferiority.
-
-\begin{table}[t]\centering\small
-\caption{Noninferiority audit for \qbgf{} versus the sentence baseline. $\Delta$ is \qbgf{} minus sentence quality.}\label{tab:ni}
-\begin{tabular}{llrrrc}\toprule
-\textbf{Dataset}&\textbf{Budget}&\textbf{$\Delta$}&\textbf{95\% CI}&\textbf{NI margin}&\textbf{NI?}\\\midrule
-\dataset{HotpotQA}&256&+0.0038&$[-0.0035,+0.0110]$&0.003&No\\
-\dataset{HotpotQA}&1024&+0.0090&$[+0.0045,+0.0135]$&0.003&\textbf{Yes}\\
-\dataset{QASPER}&256&-0.0279&$[-0.0410,-0.0149]$&0.003&No\\
-\dataset{QASPER}&1024&-0.0037&$[-0.0125,+0.0050]$&0.003&No\\
-\dataset{SciFact}&256&-0.0251&$[-0.0878,+0.0365]$&0.010&No\\
-\dataset{SciFact}&1024&-0.0100&$[-0.0711,+0.0505]$&0.010&No\\\bottomrule
-\end{tabular}\end{table}
-
-The token-cost condition itself was satisfied: mean prompt-token differences for \qbgf{} relative to the sentence baseline were $-3.85$, $-8.17$, $-2.54$, $-2.54$, $-2.71$, and $-2.66$ tokens across the six cells. Promotion therefore failed because of quality, not budget usage. The sentence baseline was locked as the final policy before confirmation was opened.
-
-\subsection{Reserved confirmation}
-The confirmation set tests the selected policy without reopening model selection. Table~\ref{tab:confirmation} reports all policies for transparency; the hierarchical hybrid remained a descriptive control rather than an eligible post-hoc replacement.
-
-\begin{table}[t]\centering\small
-\caption{Reserved confirmation. The selected sentence policy is marked $\dagger$; bold denotes the highest descriptive point estimate in each row.}\label{tab:confirmation}
-\begin{tabular}{llrrrrr}\toprule
-\textbf{Dataset}&\textbf{Budget}&\textbf{No evidence}&\textbf{Passage}&\textbf{Sentence$^\dagger$}&\textbf{Hybrid}&\textbf{QBGF}\\\midrule
-\dataset{HotpotQA}&256&0.1399&0.4227&0.4373&\textbf{0.4622}&0.4406\\
-\dataset{HotpotQA}&1024&0.1399&0.4589&0.4329&0.4481&\textbf{0.4672}\\
-\dataset{SciFact}&256&0.3686&0.4138&0.7014&\textbf{0.7067}&0.6870\\
-\dataset{SciFact}&1024&0.3686&\textbf{0.7680}&0.7440&0.7381&0.6346\\\bottomrule
-\end{tabular}\end{table}
-
-The selected sentence policy significantly improves over no evidence in all four confirmation cells. The clearest granularity result occurs on \dataset{SciFact} at 256 tokens: sentence selection reaches 0.7014 macro-F1 versus 0.4138 for whole passages, a $+0.2876$ absolute gain (Holm-adjusted $p=0.0356$). At 1024 tokens, whole passages become competitive again. On \dataset{HotpotQA} at 1024, \qbgf{} has a significant secondary gain over the sentence baseline ($+0.0344$ F1, Holm-adjusted $p=0.0316$), but this cell-specific result does not identify which QBGF component caused the gain and does not overturn the locked selection protocol.
-
-\section{Why Relevance Optimization Is Hard: Leave-One-Out Attribution}\label{sec:loo}
-If \qbgf{} solves its knapsack exactly and query conditioning clearly matters, why does it still fail to dominate a simple sentence baseline? The likely bottleneck is the \emph{objective being optimized}, not the dynamic program itself.
-
-For selected evidence unit $u_i$ in context $E$, we remove only that unit, keep the remaining selected evidence fixed, do not refill the freed budget, and regenerate:
-\begin{equation}\Delta_i=\operatorname{Score}(E\setminus\{u_i\})-\operatorname{Score}(E).\end{equation}
-For QA, Score is per-query Answer F1 with threshold $\delta=0.01$: helpful evidence has $\Delta_i<-0.01$, harmful evidence $\Delta_i>+0.01$, and the rest is neutral. For \dataset{SciFact}, Score is per-example correctness and $\delta=0$. Neutral therefore means no sufficiently large observed single-unit effect under this intervention; it does not imply that the unit is semantically irrelevant or ignored.
-
-
-\begin{examplebox}[title={LOO is observable on individual evidence units}]
-The aggregate neutral fractions are easier to interpret with actual interventions. Appendix~\ref{ex:loo_cases} gives three complete traces: a HotpotQA sentence whose deletion drops F1 from 1.0000 to 0.0870 ($\Delta=-0.9130$), a second selected unit whose deletion changes nothing ($\Delta=0$), and a high-relevance SciFact distractor whose deletion flips an incorrect prediction to the correct \texttt{SUPPORT} label ($\Delta=+1$). Each trace shows the evidence itself and the original/ablated reader behavior.
-\end{examplebox}
-
-
-\begin{figure}[t]\centering
-\begin{tikzpicture}\begin{axis}[ybar,bar width=8pt,width=0.88\linewidth,height=4.9cm,ymin=-0.06,ymax=0.25,ylabel={Spearman $\rho$},symbolic x coords={Hyb-H256,Q-H256,Q-H1024,P-H1024,Sent-Q256,Q-Q256,Q-S256,Q-S1024},xtick=data,xticklabels={Hybrid H256,QBGF H256,QBGF H1024,Passage H1024,Sentence Q256,QBGF Q256,QBGF S256,QBGF S1024},x tick label style={rotate=28,anchor=east,font=\scriptsize},grid=major]
-\addplot coordinates {(Hyb-H256,0.0230)(Q-H256,0.0681)(Q-H1024,0.0100)(P-H1024,0.2212)(Sent-Q256,0.1262)(Q-Q256,0.1042)(Q-S256,0.1344)(Q-S1024,0.0441)};
-\end{axis}\end{tikzpicture}
-\caption{Representative correlations between dense relevance and observed leave-one-out utility. Most are weak; the whole-passage \dataset{HotpotQA} 1024 condition is a notable positive exception.}\label{fig:loo_corr}
-\end{figure}
-
-\begin{table}[t]\centering\small
-\caption{Representative leave-one-out functional distributions.}\label{tab:loo}
-\begin{tabular}{llrrr}\toprule
-\textbf{Condition}&\textbf{$\rho$}&\textbf{Helpful}&\textbf{Neutral}&\textbf{Harmful}\\\midrule
-\dataset{HotpotQA}, QBGF, 256&0.068&8.9\%&84.0\%&7.2\%\\
-\dataset{HotpotQA}, QBGF, 1024&0.010&5.0\%&88.1\%&6.9\%\\
-\dataset{QASPER}, Sentence, 256&0.126&15.6\%&76.4\%&7.9\%\\
-\dataset{QASPER}, QBGF, 256&0.104&17.0\%&69.5\%&13.5\%\\
-\dataset{SciFact}, QBGF, 256&0.134&2.8\%&92.2\%&4.9\%\\
-\dataset{SciFact}, QBGF, 1024&0.044&0.5\%&98.9\%&0.6\%\\\bottomrule
-\end{tabular}\end{table}
-
-Across thousands of unit-level interventions, relevance and deletion utility are generally weakly correlated. Qualitative inspection of 16 detailed query profiles suggested three recurring failure patterns: redundant evidence about the same entity relation, high-similarity distractors, and sentence fragmentation that removes antecedents/coreference. These are plausible explanations rather than mechanisms proven by LOO, which cannot reveal hidden internal reasoning or all higher-order interactions.
-
-
-\section{From Relevance Packing to Utility-Aware Allocation: BEA}\label{sec:bea}
-
-The leave-one-out study changed the final research question. QBGF already had an exact optimizer, yet many selected units had little measurable marginal effect on the reader. The problem was therefore not simply ``solve the knapsack better.'' QBGF maximizes a non-negative relevance surrogate under a token ceiling and has no explicit downstream-utility-aware stopping rule. The budget is \emph{not} mathematically required to be full, but additional semantically relevant options can continue to receive positive surrogate value even when their downstream marginal utility is neutral. This motivated a different allocation philosophy: \textbf{start from little evidence and expand only while the next addition appears useful}.
-
-\subsection{BEA-V1: bottom-up incremental allocation with stopping}
-
-BEA-V1 (Budgeted Evidence Allocator V1) builds its evidence prompt \emph{incrementally}, in contrast to QBGF's one-shot multiple-choice knapsack. At iteration $t$, let $E_t$ denote the evidence already selected, and let $a$ denote an \emph{eligible transition}: adding a source sentence, expanding a source from one to two/four/eight selected sentences, or replacing that source representation by its full passage when allowed. Write $T_a(E_t)$ for the context after applying transition $a$. The allocator evaluates several possible next transitions, chooses one, updates the context, and scores the remaining transitions again. A transition refers to the \emph{change in selected evidence}, not to rerunning the language model at every step.
-
-\paragraph{Meaning of the three gain components.}
-The heuristic estimates whether a candidate addition is relevant, adds information not yet covered, and avoids repeating already selected evidence. It uses SFR dense representations for semantic relevance and redundancy, together with a rule-based set of up to six aspects extracted from the \emph{query alone} for coverage (no answer labels or LLM-generated explanation is available to the allocator). We write $C_q(E)$ for the allocator's query-aspect coverage score over context $E$. The components have the following operational definitions:
-\begin{equation}
-\label{eq:bea_component_defs}
-\begin{aligned}
-\mathrm{Rel}_t(a)
- &:= \mathrm{Rel}\bigl(q,\,a\mid E_t\bigr),\\
-\Delta\mathrm{Coverage}_t(a)
- &:= C_q\bigl(T_a(E_t)\bigr)-C_q(E_t),\\
-\mathrm{Redundancy}_t(a)
- &:= \mathrm{Red}\bigl(a, E_t\bigr).
-\end{aligned}
-\end{equation}
-For a single-sentence candidate $s$, the recorded query relevance is cosine similarity, $\cos(\mathbf e_q,\mathbf e_s)=\mathbf e_q^{\top}\mathbf e_s/(\|\mathbf e_q\|_2\|\mathbf e_s\|_2)$, where the vectors come from the dense encoder. For compound passage upgrades, $\mathrm{Rel}$ denotes the allocator\'s corresponding candidate-relevance score rather than an assumed unverified sentence-aggregation formula. $C_q$ measures how well the currently selected evidence addresses the rule-extracted query aspects: its \emph{difference} measures only the \emph{new} coverage brought by a transition. $\mathrm{Red}$ measures semantic overlap with evidence already kept; a repeated fact has a larger penalty, while redundancy is zero against an empty context. For a multi-sentence upgrade, the scores concern the proposed transition at the \emph{current} state; they must be recomputed after a previous addition changes $E_t$.
-
-\begin{table}[H]\centering\footnotesize
-\caption{BEA-V1 scoring terms: what the allocator is trying to reward or penalize.}\label{tab:bea_terms}
-\begin{tabularx}{\linewidth}{p{2.75cm} X p{2.25cm}}\toprule
-\textbf{Term} & \textbf{How the value is obtained / interpreted} & \textbf{Effect on selection}\\\midrule
-$\mathrm{Rel}_t(a)$ & Dense query--candidate similarity; for a single sentence the trace reports query--sentence cosine similarity. & Rewards query-matching evidence.\\
-$\Delta\mathrm{Coverage}_t(a)$ & Recalculate query-aspect coverage with and without the proposed transition; take the difference. Already-covered aspects contribute little new gain. & Rewards newly covered query information.\\
-$\mathrm{Redundancy}_t(a)$ & Semantic overlap between the proposed evidence and the context already selected, recalculated as the context grows. & Penalizes repetitions.\\
-$\Delta c_t(a)$ & Tokenize the \emph{serialized evidence prompt} after and before the transition; subtract the two token counts. & Penalizes expensive additions.\\\bottomrule
-\end{tabularx}
-\end{table}
-
-\paragraph{From the components to the decision.}
-BEA-V1 combines the three components with fixed, heuristic weights (not learned coefficients):
-\begin{equation}
-\label{eq:bea_v1_gain}
-g_t(a)=\mathrm{Rel}_t(a)
-      +0.5\,\Delta\mathrm{Coverage}_t(a)
-      -0.5\,\mathrm{Redundancy}_t(a).
-\end{equation}
-The $0.5$ multipliers give partial credit to newly covered aspects and a partial penalty to overlap, while keeping direct relevance as the anchor. To compare candidate transitions of different lengths, BEA divides this gain by the number of \emph{additional serialized tokens}:
-\begin{equation}
-\label{eq:bea_v1_density}
-\Delta c_t(a)=\bigl|\operatorname{Tok}(\operatorname{Serialize}(T_a(E_t)))\bigr|
--\bigl|\operatorname{Tok}(\operatorname{Serialize}(E_t))\bigr|,
-\qquad
- d_t(a)=\frac{g_t(a)}{\Delta c_t(a)}.
-\end{equation}
-Thus $g_t(a)$ measures the \emph{estimated benefit of adding evidence}, whereas $d_t(a)$ measures the \emph{estimated benefit per extra token}. Only fitting transitions with positive incremental cost are eligible. The algorithm chooses $a_t^*=\arg\max_a d_t(a)$ among eligible candidates, accepts it if the configured stopping/expansion conditions are met, and otherwise stops even when budget remains. Exact serialization matters because the added cost can include source labels and separators, not just the words of an isolated sentence.
-
-\paragraph{Worked calculation from a saved multi-hop trace.}
-Consider the sentence linking screenwriter Javier Gull\'on to his Goya nomination for \emph{Invader (Invasor)}. After other evidence had already been chosen, the saved BEA-V1 trace assigned this 56-token addition relevance $0.805983$, new query-aspect coverage $0.095912$, and redundancy $0.757633$. Substituting the \emph{recorded values} into Eqs.~\eqref{eq:bea_v1_gain}--\eqref{eq:bea_v1_density} gives
-\begin{equation}
-\label{eq:bea_v1_worked}
-\begin{aligned}
-g_t(a)&=0.805983+0.5(0.095912)-0.5(0.757633)\\
-      &\approx 0.475123,\\
-d_t(a)&=0.475123/56\approx \mathbf{0.008484}\quad\text{per token}.
-\end{aligned}
-\end{equation}
-This example illustrates an important failure mode: even a \emph{highly query-relevant} bridge sentence can receive a low gain-per-token score when earlier selections have made it appear redundant and it is relatively long. It was not selected in the recorded V1 case, and the answer was wrong (see Appendix~\ref{ex:bea_rescue}). The scores are computed \emph{before generation}; the resulting Answer F1 is used only later to evaluate the policy.
-
-Sentence-count states grow bottom-up (one sentence, then two, four, eight, and eventually full source where eligible), with candidate gains recalculated after each accepted choice. The frozen V1 protocol used global stopping and expansion settings, rather than dataset-specific threshold fitting. Appendix~\ref{app:algorithms} summarizes the three allocator designs side by side.
-
-\begin{figure}[t]\centering
-\begin{tikzpicture}[font=\small,box/.style={draw,rounded corners=3pt,align=center,text width=2.15cm,minimum height=0.78cm,inner sep=4pt},arr/.style={-{Stealth[length=2mm]},thick}]
-\node[box,fill=softblue](empty){Start with\\empty context};
-\node[box,right=0.42cm of empty](cand){Score next\\incremental transitions};
-\node[box,right=0.42cm of cand,fill=softteal](best){Choose best\\gain / token};
-\node[box,right=0.42cm of best,fill=softorange](gate){Threshold\\cleared?};
-\node[box,right=0.42cm of gate,fill=softgreen](add){Add evidence\\and recompute};
-\node[box,below=0.58cm of gate](stop){Otherwise stop\\before budget is full};
-\draw[arr](empty)--(cand);\draw[arr](cand)--(best);\draw[arr](best)--(gate);\draw[arr](gate)--node[above,font=\scriptsize]{yes}(add);
-\draw[arr](add) |- (cand);
-\draw[arr](gate)--node[right,font=\scriptsize]{no}(stop);
-\end{tikzpicture}
-\caption{BEA's bottom-up allocation principle. Unlike QBGF's one-shot relevance-surrogate knapsack, BEA can stop early when no incremental transition clears the stopping rule.}\label{fig:bea_bottom_up}
-\end{figure}
-
-\paragraph{What BEA-V1 exposed.}
-The intended benefit was to avoid spending tokens merely because budget remained. The observed failure mode was the opposite extreme: \emph{context starvation}. On the matched HotpotQA cohort at the 1024-token budget, BEA-V1 used only 284 evidence tokens on average and achieved 0.3441 F1, below the sentence baseline at 0.3893. A local heuristic threshold can reject an addition whose immediate gain looks weak even when later evidence would be complementary. The experiment establishes under-allocation as a concrete failure mode; it does not prove that any single threshold decision caused every wrong answer.
-
-
-\begin{examplebox}[title={Concrete starvation case: BEA-V1 stops before the answer-bearing region}]
-On a 1024-token QASPER query asking for five binary classification tasks, BEA-V1 stops after only 245 evidence tokens and never reaches the task list; the reader instead returns stimulus words and scores F1 $=0$. The matched sentence and QBGF contexts expose the task list and score 0.7826. Appendix~\ref{ex:bea_starve} gives the query, gold answer, observed allocation, raw output, token usage, and matched baselines.
-\end{examplebox}
-
-
-\subsection{BEA-V2: learn the probability that an evidence unit helps}
-
-BEA-V1 ranked candidate additions using the fixed heuristic in Eq.~\eqref{eq:bea_v1_gain}, but sometimes stopped before essential evidence was selected. BEA-V2 retains the \emph{same} definitions of relevance, incremental coverage, redundancy, and exact token cost; its change is to weigh the non-negative heuristic gain by a prediction of \emph{how likely a candidate is to help the reader}. This is a learned weighting of the next transition, not a replacement for the coverage/redundancy calculations or an additional generation step.
-
-\paragraph{From LOO measurements to $P_{\mathrm{help}}$.}
-The leave-one-out (LOO) experiment in Section~\ref{sec:loo} removes one selected evidence unit, regenerates the answer, and measures the change $\Delta_i=\operatorname{Score}(E\setminus\{u_i\})-\operatorname{Score}(E)$. We mark an evidence unit as \emph{helpful} if removing it makes the reader's score decrease beyond the task threshold:
-\begin{equation}
- y_i^{\mathrm{help}}=\mathbb{1}[\Delta_i<-\delta],\qquad
- \delta=\begin{cases}0.01,&\text{HotpotQA and QASPER},\\0,&\text{SciFact}.\end{cases}
-\end{equation}
-Thus, a helpful sentence receives target label 1; neutral and harmful sentences receive label 0 for this particular binary prediction problem. The historical attribution data provide 8,537 usable sentence observations: 555 helpful, 552 harmful, and 7,430 neutral.
-
-For each dataset, an $L_2$-regularized logistic classifier is trained on the available \emph{pre-generation} candidate features $\mathbf{x}_a$---features describing the query and candidate evidence before the reader produces an answer. The trained model estimates
-\begin{equation}
- P_{\mathrm{help}}(a)=\Pr(y^{\mathrm{help}}=1\mid\mathbf{x}_a)
- =\sigma(\mathbf{w}_h^\top\mathbf{x}_a+b_h),
- \quad\sigma(z)=\frac{1}{1+e^{-z}}.
-\end{equation}
-A larger $P_{\mathrm{help}}$ therefore means that the model predicts a greater chance that this unit would be helpful according to the historical LOO definition; it is \emph{not} an observed F1 gain or a guarantee of causal usefulness for every future context. Features were standardized within training folds, and five-fold grouped cross-fitting kept queries or document groups out of their own training folds (HotpotQA: query; QASPER: paper; SciFact: cited-document component). The classifier used $C=1.0$ and the \texttt{lbfgs} solver. 
-
-\paragraph{How the learned probability changes allocation.}
-BEA-V2 multiplies BEA-V1's non-negative heuristic gain by the predicted helpfulness probability:
-\begin{equation}
-\label{eq:bea_v2_help_value}
- U_t(a)=P_{\mathrm{help}}(a)\,
- \max\!\left(0,\,
- \mathrm{Rel}_t(a)
- +0.5\,\Delta\mathrm{Coverage}_t(a)
- -0.5\,\mathrm{Redundancy}_t(a)\right).
-\end{equation}
-The ingredients are therefore calculated in two stages. First, BEA-V1's semantic and coverage routines compute $g_t(a)$ from the \emph{current} selected context. Second, a previously trained classifier converts the candidate's pre-generation feature vector $\mathbf{x}_a$ into $P_{\mathrm{help}}(a)\in[0,1]$. A large probability increases the value assigned to the same heuristic gain; a small probability downweights an otherwise relevant candidate. The $\max(0,\cdot)$ term prevents negative heuristic gains from becoming desirable through multiplication. At inference time, neither gold answers nor actual LOO interventions are computed for the new query. 
-
-The transition is scored by learned value per added token,
-\begin{equation}
- D_t(a)=\frac{U_t(a)}{\Delta c_t(a)},
-\end{equation}
-where $\Delta c_t(a)$ is the actual incremental serialized token cost. The allocator repeatedly chooses the best eligible transition, updates coverage and redundancy, and continues or stops using the configured threshold. The source states still grow from one to two, four, and eight sentences, with full-source replacement available when eligible. The essential change from V1 is \emph{how a candidate's estimated value is computed}; the sequential allocation and stopping framework remains in place.
-
-\paragraph{Worked BEA-V2 calculation on the same decisive sentence.}
-At BEA-V2's \emph{first} selection step, the context is empty; the saved trace for the same 56-token Goya-nomination sentence reports relevance $0.805983$, incremental coverage $0.803187$, redundancy $0$, and predicted helpfulness $P_{\mathrm{help}}=0.125925$. The two scores are therefore
-\begin{equation}
-\label{eq:bea_v2_worked}
-\begin{aligned}
-g_0(a)&=0.805983+0.5(0.803187)-0.5(0)=1.207577,\\
-U_0(a)&=0.125925\times1.207577\approx 0.152065,\\
-D_0(a)&=0.152065/56\approx\mathbf{0.002715}\quad\text{per token}.
-\end{aligned}
-\end{equation}
-The candidate was selected at Step 1 and helped preserve the two-hop chain leading to \emph{Invader (Invasor)}. The V1 and V2 calculations use \emph{different allocation states} (partly populated versus empty); their numerical ratios should not be compared as though only the probability factor changed. The instructive comparison is that V2 brought the bridge evidence into the prompt early, whereas V1 failed to retain it in this recorded case. This example illustrates one successful transition, not a universal guarantee for unseen queries.
-
-\paragraph{BEA-V2 results at the examined stopping threshold.}
-We evaluated BEA-V2 at $\tau=8\times10^{-5}$ alongside the frozen sentence baseline, QBGF, BEA-V1, and a conventional MiniLM cross-encoder sentence reranker on matched development cohorts ($N=50$ per dataset, at both budgets). At this threshold, BEA-V2 had the highest mean Answer F1 of the five methods on \dataset{HotpotQA} at \emph{both} 256 tokens (\textbf{0.4352} versus 0.3661 for sentence selection) and 1024 tokens (\textbf{0.4234} versus 0.3893). In a worked multi-hop case, it selected an important linking sentence that BEA-V1 missed and recovered the correct answer (Appendix~\ref{ex:bea_rescue}). On \dataset{QASPER} and \dataset{SciFact}, other methods retained the highest point estimates, as shown in Table~\ref{tab:bea_compare}. The MS-MARCO \texttt{cross-encoder/ms-marco-MiniLM-L6-v2} provides the conventional reranking comparison.
-
-This threshold was examined after development diagnostics rather than chosen by a successful independent calibration-and-confirmation procedure. The measured HotpotQA improvements are therefore \emph{exploratory results}, not evidence that BEA-V2 is already a validated replacement across datasets. The comparison nevertheless shows a concrete benefit of weighting incremental evidence allocation by predicted downstream helpfulness in the tested multi-hop settings.
-
-\begin{examplebox}[title={Worked BEA-V2 case: learned helpfulness recovers a missing bridge}]
-On the HotpotQA \emph{Enemy $\rightarrow$ Javier Gull\'on $\rightarrow$ Invader} chain, BEA-V1 rejects the decisive bridge and scores 0 F1. BEA-V2 assigns that sentence one of the highest $P_{\mathrm{help}}$ values, selects it at Step 1, and recovers the exact answer. Appendix~\ref{ex:bea_rescue} reproduces the two evidence paths, the decisive sentence, token use, $P_{\mathrm{help}}$, transition value, and outputs. This is a concrete example of the improved allocation behavior; the broader comparison remains exploratory.
-\end{examplebox}
-
-
-\begin{table}[H]\centering\small
-\caption{Exploratory matched-cohort comparison after the final policy had already been locked ($N=50$ per dataset). Bold is the largest descriptive point estimate in each row. These results did not reopen model selection.}\label{tab:bea_compare}
-\resizebox{\linewidth}{!}{\begin{tabular}{llrrrrr}\toprule
-\textbf{Dataset}&\textbf{Budget}&\textbf{Sentence}&\textbf{QBGF}&\textbf{BEA-V1}&\textbf{BEA-V2}&\textbf{MiniLM CE}\\\midrule
-\dataset{HotpotQA}&256&0.3661&0.4042&0.2976&\textbf{0.4352}&0.3404\\
-\dataset{HotpotQA}&1024&0.3893&0.4020&0.3441&\textbf{0.4234}&0.3618\\
-\dataset{QASPER}&256&\textbf{0.2668}&0.2641&0.1868&0.2618&0.2641\\
-\dataset{QASPER}&1024&0.2896&\textbf{0.2964}&0.2084&0.2904&0.2827\\
-\dataset{SciFact}&256&0.6289&0.5310&0.6127&0.5522&\textbf{0.6855}\\
-\dataset{SciFact}&1024&0.5533&0.5881&0.6432&0.5772&\textbf{0.6479}\\\bottomrule
-\end{tabular}}\end{table}
-
-BEA-V2 is the strongest point-estimate method on both \dataset{HotpotQA} budgets, improving over sentence selection by $+0.0691$ F1 at 256 tokens and $+0.0341$ at 1024 tokens. The remaining point-estimate wins belong to MiniLM (two \dataset{SciFact} cells), sentence selection (\dataset{QASPER}-256), and QBGF (\dataset{QASPER}-1024). Across 24 exploratory paired comparisons, none remained statistically conclusive after correcting for multiple comparisons ($p_{\mathrm{Holm}}\ge0.2592$). Thus the HotpotQA gains are promising, while the evidence does not yet establish consistent superiority across tasks or independent confirmation of this operating threshold.
-
-\begin{takeaway}\textbf{Final methodological progression.} QBGF asks, ``Which representation best fits the evidence budget?'' LOO reveals that retrieval relevance is not the same as downstream usefulness. BEA-V1 introduces incremental selection and stopping but sometimes stops too early. BEA-V2 learns to prioritize evidence from LOO helpfulness and achieves the best matched HotpotQA F1 at both tested budgets; broader task robustness remains an open question.\end{takeaway}
-
-\section{Discussion}
-\subsection{What the project learned}
-The result is not simply that a complex method ``failed.'' The experiments progressively separate five facts:
+\paragraph{Contributions.}
 \begin{enumerate}
-\item \textbf{Context demand is heterogeneous.} Retrospective oracle choices vary substantially across queries.
-\item \textbf{That demand is difficult to predict as a scalar budget.} Pre-generation context-size controllers are fragile under asymmetric under-allocation costs.
-\item \textbf{Evidence identity and representation are first-class control variables.} Changing which passages survive matters even at fixed $k$, and granularity interacts with the available budget in the controlled pilot.
-\item \textbf{Optimization quality is limited by objective quality.} \qbgf{} solves its relevance-based MCKP exactly, but relevance is only weakly aligned with observed reader utility in many conditions.
-\item \textbf{Learning usefulness can help, especially on multi-hop QA.} BEA-V1 shows that stopping too aggressively can starve the reader of complementary evidence. BEA-V2 recovers useful evidence in several worked cases and has the highest matched-cohort HotpotQA F1 at both budgets, though the results are exploratory and other tasks favor other methods.
+\item \textbf{Where adaptive context fails.} A retrospective best-$k$ oracle reaches 0.5008 F1 versus 0.3950 for static $k{=}8$, yet learned controllers score 0.30--0.38; we then isolate passage identity, retrieval and reader-interface confounds and a budget-dependent (descriptive) granularity pattern.
+\item \textbf{QBGF.} An exact multiple-choice knapsack over per-passage fidelities. Query conditioning improves it by 0.020--0.187 F1 over its no-query ablation, but it fails a pre-specified noninferiority rule against sentence selection in five of six cells; the sentence baseline is locked and confirmed.
+\item \textbf{Relevance is not utility.} LOO deletions show that most selected units are neutral and that dense relevance correlates weakly with deletion utility ($\rho\le0.134$ in six representative conditions), including a highly relevant unit whose removal fixes a wrong answer.
+\item \textbf{BEA-V1/V2 with explicit evidence boundaries.} V1 exhibits context starvation; V2 weights gains by a learned helpfulness probability and, in exploratory matched runs, leads \hotpot by $+0.069$ and $+0.034$ F1 over sentence selection while remaining mixed on \qasper and \scifact. We separate development, validation, locked-selection, confirmation and exploratory evidence throughout.
 \end{enumerate}
 
-This explains why the simple sentence baseline is so competitive. It combines a strong dense relevance signal with a representation that packs efficiently under tight budgets, without adding another learned controller, a relevance-surrogate optimization layer, or a learned stopping rule that can amplify prediction error.
-
-\subsection{Negative results as design guidance}
-Several negative results materially narrowed the design space. Nonlinear context controllers sacrificed recall; learned passage ranking did not beat simple semantic routing; generative extraction degraded answer quality; latent compression was not isolated as the cause of the SARA advantage once retrieval was controlled; mixed granularity did not establish a consistent benefit over sentence-only QBGF; BEA-V1 starved the context under a large budget; and BEA-V2/MiniLM follow-ups did not establish a statistically defensible new winner. These experiments are part of the contribution because they identify distinct failure modes---under-allocation, objective mismatch, interface sensitivity, and threshold calibration---rather than hiding them behind a single final score.
-
-\subsection{Limitations}
-\begin{itemize}
-\item \textbf{Task scope:} \dataset{HotpotQA} uses its standard 10-paragraph distractor pool rather than unrestricted open-domain retrieval.
-\item \textbf{Reader specificity:} final controlled results use base Qwen3-8B in FP16. Qwen was selected as a controlled reader partly because it obeyed the frozen SciFact label interface; different readers may value context differently, and the reader panel itself was format-confounded on SciFact.
-\item \textbf{SARA transfer scope:} the trained SARA projector/LoRA pair is Mistral-specific. The project did not train a new latent projector for Qwen or Llama, so the final textual granularity study should not be interpreted as a cross-family test of SARA latent compression.
-\item \textbf{Pilot size:} the granularity pattern was discovered on a small controlled development pilot, and formal interaction intervals did not establish a universal effect.
-\item \textbf{Utility intervention and complementarity:} LOO measures the marginal effect of deleting one unit from one frozen context. In multi-hop settings, two units can be complementary: a sentence may appear neutral when its partner fact is already missing, yet become essential when the full reasoning chain is present. The observed neutral fraction therefore should not be read as intrinsic uselessness. Pair-deletion, Shapley-style attribution, or other interaction-aware analyses would better capture higher-order evidence effects.
-\item \textbf{QASPER confirmation:} final QASPER confirmation was deliberately omitted after earlier test-query exposure.
-\end{itemize}
-
-\subsection{Future work}
-The experiments point to four concrete extensions rather than a broader search for more complex allocators. \textbf{First}, BEA-V2 threshold calibration should use a substantially larger, stratified development cohort while preserving the current rule that calibration cannot inspect reader F1, gold evidence, or held-out LOO labels. \textbf{Second}, QBGF should be stress-tested against its utility design choices, including the passage/sentence softmax temperatures $(\tau_p,\tau_s)$ and the use of normalized within-passage sentence mass versus simpler unnormalized relevance scores. \textbf{Third}, downstream utility estimation should model evidence interactions---for example with pair deletion or interaction-aware attribution on multi-hop chains---rather than relying only on single-unit marginal effects. \textbf{Finally}, a systems evaluation should report allocator wall-clock overhead and token/latency savings relative to reader prefill and decoding, separating the cost of exact MCKP optimization or repeated BEA transition scoring from the much larger generation cost.
-
-These extensions preserve the central lesson of the current study: the next improvement is more likely to come from a better estimate of \emph{what actually helps the reader} and a better-calibrated stopping rule than from making the packing algorithm itself more elaborate.
-
-\section{Conclusion}
-This project began with a simple adaptive-context question inspired by SARA: \emph{how much readable evidence should each query receive?} Query-specific headroom exists, but predicting one context size reliably is difficult. The project therefore shifted from quantity to evidence identity and then to representation. A controlled granularity study showed why this matters: under a tight 256-token budget, sentences can use the available space far more effectively than whole passages; with more space, whole passages regain competitiveness.
-
-That observation motivated \qbgf{}, which formalizes adaptive representation selection as an exact multiple-choice knapsack problem over query-conditioned passage and sentence options. The method validates an important idea---query conditioning matters---but it does not consistently beat a strong sentence baseline. A locked noninferiority rule therefore selects the simpler baseline for confirmation. Leave-one-out analysis then identifies the deeper problem: exact optimization of a relevance surrogate can still allocate evidence with little measurable marginal reader utility.
-
-The final BEA branch follows directly from that diagnosis. BEA-V1 changes the question from ``how do we fill the budget?'' to ``when is the next evidence increment worth adding?'' but demonstrates the danger of context starvation. BEA-V2 estimates the probability of helpful evidence from historical LOO outcomes and uses it in the same bottom-up process. At the explored threshold $\tau=8\times10^{-5}$, it achieves the highest HotpotQA point estimates at both 256 and 1024 tokens (0.4352 and 0.4234 F1), demonstrating the potential of learned utility-aware allocation. Because these results come from a development comparison and other datasets favor different methods, they do not overturn the previously selected sentence baseline. The project therefore ends with a sharper research target than where it began: \textbf{future adaptive RAG needs reliable, transferable estimates of downstream evidence utility and stopping decisions that avoid both irrelevant over-allocation and harmful under-allocation.}
-
-\begin{takeaway}\centering\textbf{Practical lesson: under strict evidence budgets, establish a strong extractive sentence baseline first. Add adaptive granularity or utility-aware stopping only when the utility signal is validated across tasks and the allocator is checked for both near-full waste and context starvation.}\end{takeaway}
-
-\appendix
-\section{Additional Experimental Evidence}
-\subsection{Context-controller benchmark}
-This benchmark asks whether increasing controller complexity can recover the retrospective oracle headroom identified in Section~\ref{sec:evolution}. We report representative policies from the $4\rightarrow6$ expansion stage, where the predictive signal was strongest; because useful expansions have a substantially larger payoff than unnecessary ones, recall is particularly important when interpreting these results.
-
-\begin{table}[H]\centering\small
-\caption{Representative configurations from the 12-model $4\rightarrow6$ expansion benchmark on \dataset{QASPER} development data.}
-\begin{tabular}{lrrrrr}\toprule
-\textbf{Model}&\textbf{Policy F1}&\textbf{Regret}&\textbf{Token red.}&\textbf{Recall}&\textbf{False exp.}\\\midrule
-Balanced logistic regression&0.3842&0.1053&36.54\%&64.44\%&28.57\%\\
-XGBoost&0.3725&0.1170&39.59\%&46.67\%&19.05\%\\
-Random forest&0.3717&0.1178&37.66\%&55.56\%&24.24\%\\
-HistGradientBoosting&0.3716&0.1179&37.86\%&51.11\%&24.68\%\\
-Decision tree&0.3671&0.1224&38.67\%&35.56\%&22.08\%\\
-MLP&0.3638&0.1257&38.57\%&42.22\%&20.78\%\\
-LightGBM&0.3632&0.1263&37.05\%&48.89\%&19.91\%\\\bottomrule
-\end{tabular}\end{table}
 
 
-\subsection{Algorithmic specifications of the research stages}\label{app:algorithms}
+%=====================================================================
+\section{Related Work}\label{sec:related}
+\textbf{Compression and selection.} RECOMP~\cite{recomp2024} trains extractive and abstractive compressors, including the option to prepend nothing; our sentence baseline is \emph{not} its trained compressor and we report no matched RECOMP score. SARA~\cite{jin2026sara} mixes readable passages with latent compressed ones; LLMLingua-2~\cite{pan2024llmlingua2} learns token-level retention (we qualified a checkpoint but ran no matched quality comparison). \textbf{Granularity.} Dense X Retrieval~\cite{chen2024densex} studies retrieval units from passages to propositions; our units are exact source sentences and spans. \textbf{Budgeted selection.} Self-Correcting RAG~\cite{xu2026selfcorrecting} combines a knapsack-style selection with NLI-guided search; QBGF's contribution is not dynamic programming but a single-budget, within-source fidelity menu and its controlled analysis. \textbf{Adaptive and reranking baselines.} Adaptive-RAG~\cite{jeong2024adaptive} routes strategies by question complexity; a cross-encoder MS-MARCO MiniLM reranker~\cite{minilmreranker} is the conventional relevance comparator that we pack under the same budgets. None of these external methods is locally reproduced unless stated.
 
+%=====================================================================
+\section{Problem Formulation and Evaluation Protocol}\label{sec:problem}
+Let $q$ be a query, $\mathcal D=\{p_1,\dots,p_K\}$ the retrieved pool and $E$ the evidence shown to a frozen reader. Ideally
+\begin{equation}
+E^\star=\arg\max_{E}\ \mathrm{Quality}\bigl(\mathrm{Reader}(q,E)\bigr)\quad\text{s.t.}\quad |\mathrm{Tok}(E)|\le B,\label{eq:ideal}
+\end{equation}
+but quality is unknown before generation, so every allocator optimizes a \emph{surrogate} (relevance, redundancy, predicted utility). $B\in\{256,1024\}$ bounds \emph{input evidence} tokens only (not instructions, chat framing or the answer); costs are measured on serialized Qwen token-ID blocks including separators.
 
-\subsubsection*{The three final allocators at a glance}
-\begin{figure}[H]\centering
-\begin{minipage}[t]{0.315\linewidth}
-\begin{tcolorbox}[colback=softblue,colframe=deepblue,boxrule=0.7pt,arc=2pt,title=\textbf{QBGF: top-down budget packing},fonttitle=\scriptsize]
-\scriptsize
-For passage $i$, choose one
-\[
-o_i\in\{\mathrm{DROP},\mathrm{SENT}_{1,2,4,8},\mathrm{FULL}\}.
-\]
-Query-conditioned utility is
-\[
-M(i,k)=\!\!\sum_{j\in\mathrm{top}\text{-}k}\!\!m_{ij}
-\]
-\[
-u_k=R_iM(i,k)
-\]
-with $u_{\mathrm{FULL}}=R_i$. Then solve
-\[
-\max_{\mathbf o}\sum_i u(i,o_i),
-\qquad
-\sum_i c(i,o_i)\le B.
-\]
-The DP is exact for this surrogate.
-\end{tcolorbox}
-\footnotesize\textbf{How it works.} QBGF starts with the full retrieved pool, builds a discrete fidelity menu for every passage, and chooses the globally best combination under the token ceiling. It decides \emph{how to pack a fixed budget}; it has no downstream-utility-aware stopping rule.
-\end{minipage}\hfill
-\begin{minipage}[t]{0.315\linewidth}
-\begin{tcolorbox}[colback=softorange,colframe=deeporange,boxrule=0.7pt,arc=2pt,title=\textbf{BEA-V1: bottom-up heuristic stopping},fonttitle=\scriptsize]
-\scriptsize
-At state $t$, score transition $a$:
-\[
-\begin{aligned}
-g_t(a)&=\mathrm{Rel}_t(a)
-      +0.5\Delta\mathrm{Cov}_t(a)\\
-     &\quad-0.5\mathrm{Red}_t(a)
-\end{aligned}
-\]
-\[
-d_t(a)=\frac{g_t(a)}{\Delta c_t(a)}.
-\]
-Choose
-\[
-a_t^*=\arg\max_a d_t(a),
-\]
-add it only if the registered stopping/expansion rules are cleared, then recompute all transitions.
-\end{tcolorbox}
-\footnotesize\textbf{How it works.} BEA-V1 reverses the philosophy: begin with little evidence and grow the context one transition at a time. It can stop before the budget is full, which avoids automatic packing but creates the new failure mode observed in the project---context starvation.
-\end{minipage}\hfill
-\begin{minipage}[t]{0.315\linewidth}
-\begin{tcolorbox}[colback=softgreen,colframe=deepgreen,boxrule=0.7pt,arc=2pt,title=\textbf{BEA-V2: learned helpfulness},fonttitle=\scriptsize]
-\scriptsize
-Cross-fitted LOO labels ($y=1$ if deletion hurts the answer) train
-\[
-P_{\mathrm{help}}(a)
-=\sigma(w_h^\top x_a+b_h).
-\]
-Primary value:
-\[
-U_t(a)=P_{\mathrm{help}}(a)
-\max(0,g_t(a)),
-\]
-\[
-D_t(a)=\frac{U_t(a)}{\Delta c_t(a)}.
-\]
-Choose the best next addition by helpfulness-weighted gain per added token.
-\end{tcolorbox}
-\footnotesize\textbf{How it works.} BEA-V2 keeps BEA-V1's incremental allocation but changes the key signal from hand-designed relevance/coverage gain to the predicted probability that an evidence unit will help under historical LOO outcomes. This learned value led the matched HotpotQA comparisons at both budgets, while performance varied across datasets.
-\end{minipage}
-\caption{Mathematical contrast among the three final allocation algorithms. QBGF optimizes a fixed relevance-based packing problem; BEA-V1 introduces bottom-up stopping; BEA-V2 replaces the primary heuristic with learned downstream helpfulness while keeping the same incremental allocation principle.}\label{fig:algorithm_boxes}
+\begin{figure}[t]\centering
+\begin{tikzpicture}[x=0.36cm,y=0.36cm,font=\scriptsize]
+\node[anchor=west] at (-1.0,9.3) {\textbf{Retrieved pool} (squares = sentences, $\star$ = needed fact)};
+\node at (-0.6,7.5){A};\node at (-0.6,5.9){B};\node at (-0.6,4.3){C};
+\foreach \i in {0,...,7}{\pgfmathtruncatemacro{\st}{\i==2?1:0}\sq{\i}{7}{\st}{cblue!30}}
+\foreach \i in {0,...,5}{\pgfmathtruncatemacro{\st}{\i==4?1:0}\sq{\i}{5.4}{\st}{cgreen!30}}
+\foreach \i in {0,...,4}{\pgfmathtruncatemacro{\st}{\i==1?1:0}\sq{\i}{3.8}{\st}{corange!30}}
+\node[anchor=west,font=\scriptsize\bfseries] at (-1.0,2.2) {Whole-passage packing under budget $B$};
+\foreach \i in {0,...,7}{\pgfmathtruncatemacro{\st}{\i==2?1:0}\sq{\i}{0.7}{\st}{cblue!30}}
+\draw[dashed,black!45] (8,0.7) rectangle (11,1.7);
+\draw[line width=0.8pt] (0,0.7) rectangle (11,1.7);
+\node[anchor=west,font=\scriptsize] at (11.5,1.2) {1 of 3 facts};
+\node[anchor=west,font=\scriptsize\bfseries] at (-1.0,-0.6) {Sentence-level packing under the same $B$};
+\sq{0}{-2.1}{0}{cblue!30}\sq{1}{-2.1}{1}{cblue!30}\sq{2}{-2.1}{0}{cblue!30}\sq{3}{-2.1}{0}{cblue!30}
+\sq{4}{-2.1}{0}{cgreen!30}\sq{5}{-2.1}{1}{cgreen!30}\sq{6}{-2.1}{0}{cgreen!30}\sq{7}{-2.1}{0}{cgreen!30}
+\sq{8}{-2.1}{0}{corange!30}\sq{9}{-2.1}{1}{corange!30}\sq{10}{-2.1}{0}{corange!30}
+\draw[line width=0.8pt] (0,-2.1) rectangle (11,-1.1);
+\node[anchor=west,font=\scriptsize] at (11.5,-1.6) {3 of 3 facts};
+\end{tikzpicture}
+\caption{The allocation problem (illustrative schematic, not measured data). With the same budget, whole passages fill it with one long source, while sentence units can cover several sources; passages instead preserve local context. Which wins depends on the budget and task.}\label{fig:problem}
 \end{figure}
 
+\paragraph{Pipeline, tasks and metrics.} SFR-Embedding-Mistral retrieves the top-10 passages and base Qwen3-8B (FP16, greedy decoding, no LoRA) reads the selected evidence. \hotpot is used in its 10-paragraph distractor setting; \qasper is scientific-paper QA; \scifact is claim verification with exact labels (\texttt{SUPPORT}, \texttt{REFUTE}, \texttt{NOT\_ENOUGH\_INFO}). \hotpot and \qasper use Answer F1, \scifact uses three-class macro-F1; scores are never pooled across tasks and invalid labels count as wrong.
 
-Table~\ref{tab:algorithm_summary} summarizes the main algorithms in reader-facing terms. For a few exploratory learned components, the original experiment notes do not retain enough detail to state an exact learner or loss safely; those rows therefore report only the verified decision rule and supervision signal.
+\paragraph{Evaluation tiers.} Experiments differ in cohort, reader and retrieval interface, so we do not merge them into one leaderboard (Table~\ref{tab:tiers}).
 
-\begin{table}[H]\centering\scriptsize
-\caption{Algorithmic summary of the main research stages. ``Training'' means parameters were fitted; deterministic selectors and retrospective oracles have no trainable component.}\label{tab:algorithm_summary}
-\begin{tabular}{>{\raggedright\arraybackslash}p{2.0cm} >{\raggedright\arraybackslash}p{4.0cm} >{\raggedright\arraybackslash}p{4.5cm} >{\raggedright\arraybackslash}p{4.2cm}}
-\toprule
-\textbf{Stage / method} & \textbf{Decision rule or mathematical form} & \textbf{Training / supervision} & \textbf{What it tested}\\
-\midrule
-SARA text+latent evidence &
-Choose $k$ explicit passages and represent $n-k$ passages as $z_i=P_\phi(e_i)$ injected at \texttt{<COMPRESS>} tokens. $P_\phi$ is Linear$(4096,4096)$--GELU--Linear$(4096,4096)$. &
-Projector + Mistral LoRA were trained for \texttt{Mistral-7B-Instruct-v0.2}; the projector maps SFR embeddings into the Mistral hidden representation space. &
-Whether readable text can be reduced while retaining additional compressed evidence. It also motivated treating $k$ as a query-dependent control variable.\\
-\addlinespace
+\begin{table*}[t]\centering\SmallTable
+\caption{Evaluation tiers. Only the validation, locked rule and reserved confirmation tiers support selection and generalization claims; LOO/BEA results are exploratory.}\label{tab:tiers}
+\begin{tabularx}{\textwidth}{@{}p{3.15cm}p{5.0cm}p{3.5cm}X@{}}\toprule
+Tier & Cohort & Reader / retrieval & Used for\\\midrule
+SARA development (\S\ref{sec:evolution}) & \qasper, 231 questions / 86 papers & adapted Mistral-7B specialist, BM25 & oracles, controllers, passage identity\\
+Granularity pilot (\S\ref{sec:evolution}) & \hotpot dev, 50 queries & Qwen3-8B, SFR & granularity vs.\ budget\\
+Full validation (\S\ref{sec:qbgf}) & 8,337 queries: \hotpot 7,155; \qasper 1,005 (281 papers); \scifact 177 (157 groups) & Qwen3-8B, SFR & QBGF, ablations, locked rule\\
+Reserved confirmation (\S\ref{sec:qbgf}) & \hotpot 200; \scifact 50 (43 groups); no \qasper & Qwen3-8B, SFR & test of the locked policy\\
+Exploratory LOO / BEA (\S\ref{sec:loo}--\ref{sec:bea}) & 50 queries per dataset (150), development data that overlap validation & Qwen3-8B, SFR & LOO, BEA-V1/V2, MiniLM; \emph{not} confirmation\\\bottomrule
+\end{tabularx}\end{table*}
 
-Static $k$ / retrospective oracle &
-Static policy: use the same $k$ for every query. Oracle: $k^*(q)=\arg\max_{k\in\mathcal K} \mathrm{F1}(q,k)$ after observing outcomes. &
-No trainable oracle; the oracle is retrospective and therefore not deployable. &
-Whether query-specific context quantity has theoretical headroom.\\
-\addlinespace
+%=====================================================================
+\section{From SARA to Evidence Granularity}\label{sec:evolution}
+\subsection{Starting point: readable versus latent evidence}
+SARA (Fig.~\ref{fig:sara}) keeps $k$ of the $n{=}10$ retrieved passages as readable text and turns the others into learned soft tokens. Our specialist uses Mistral-7B-Instruct with a Mistral-specific projector and LoRA, so it is \emph{not} a drop-in component for later Qwen experiments, and its scores are not matched to the Qwen budgeted pipeline. Static $k{=}5$ reaches F1 0.3629 (EM 0.1861; 1,157 mean context tokens) on our 231-question \qasper development cohort; quality rises with $k$ (0.1388 at $k{=}0$, 0.3950 at $k{=}8$, 0.4090 at $k{=}10$). Note that $k{=}0$ still supplies latent evidence and is not a no-evidence baseline.
 
-QCCA context controller &
-Given pre-generation feature vector $x(q)$, predict a context action $\hat a=g_\theta(x(q))$; sequential versions predict whether to expand $2\!\rightarrow\!4\!\rightarrow\!6\!\rightarrow\!8$. &
-Supervised from retrospective downstream expansion labels. The benchmark included balanced logistic regression, trees, XGBoost, random forest, MLP, LightGBM and related configurations. &
-Whether the oracle context choice can be predicted \emph{before} generation.\\
-\addlinespace
+\begin{figure}[t]\centering
+\begin{tikzpicture}[font=\scriptsize]
+\node[box=cgray,text width=7.6cm] (q) at (0,0) {Query $\to$ retrieve $n{=}10$ passages (BM25 or SFR); control variable: $k$, static $k{=}5$};
+\node[box=cblue,text width=3.45cm,minimum height=1.25cm] (l) at (-2.15,-1.75) {$k$ passages kept as\\\textbf{readable text}\\(explicit tokens)};
+\node[box=corange,text width=3.55cm,minimum height=1.25cm] (r) at (2.1,-1.75) {$n{-}k$ passages $\to$ retriever vectors $e_i\to$ trained projector $P_\phi$ (2-layer MLP) $\to$ \texttt{<COMPRESS>} soft tokens};
+\node[box=cgreen,text width=7.6cm] (m) at (0,-3.35) {Mistral-7B-Instruct-v0.2 + LoRA specialist $\to$ answer};
+\draw[arr](q.south)--++(0,-0.2)-|(l.north);\draw[arr](q.south)--++(0,-0.2)-|(r.north);
+\draw[arr](l.south)--++(0,-0.2)-|(m.north);\draw[arr](r.south)--++(0,-0.2)-|(m.north);
+\end{tikzpicture}
+\caption{SARA-inspired starting point (initial specialist setting). The projector and LoRA were trained for Mistral; the later Qwen3-8B studies are text-only and use no latent path.}\label{fig:sara}
+\end{figure}
 
-Retrieval-order passage prefix &
-$S_{\mathrm{prefix}}(q)=\{p_1,\ldots,p_k\}$ from the original candidate ranking. &
-None. &
-Reference for passage identity when the candidate pool and $k$ are fixed.\\
-\addlinespace
+\subsection{Adaptive context size: headroom without a predictor}
+A retrospective oracle picks, for each question, the $k$ with the best outcome \emph{after} seeing answer quality. Over $k\le8$ it reaches F1 0.5008 ($+26.8\%$ over static $k{=}8$), and a cost-aware oracle reaches 0.4894 at mean $k{=}3.49$ using 841 instead of 1,759 tokens (Fig.~\ref{fig:early}a). Questions really disagree (box below), but the oracle uses outcomes: it is a ceiling, not a policy.
 
-Semantic passage routing &
-$S_{\mathrm{sem}}(q)=\operatorname{TopK}_{p\in\mathcal D}\cos(e_q,e_p)$. &
-None beyond the frozen embedding model. &
-Whether changing \emph{which} passages survive matters even at fixed quantity.\\
-\addlinespace
+\begin{case}[title={Example: two questions, opposite context needs}]{cgray}
+Both questions come from one \qasper paper (SARA specialist). \emph{Q1} (``Which psycholinguistic and basic linguistic features are used?'') is decided by the rank-6 passage: F1 0.133 at $k{=}0$, 0.143 at $k{=}2$--5, \textbf{0.600} at $k{=}6$, then 0.417 ($k{=}8$) and 0.348 ($k{=}10$). \emph{Q2} (Twitter vs.\ Facebook communication styles) is best with no explicit passage: 0.250 at $k{=}0$, 0.200 at $k{=}10$ (Appendix~\ref{app:examples}).
+\end{case}
 
-Learned passage ranking &
-$S_{\mathrm{learned}}(q)=\operatorname{TopK}_{p\in\mathcal D}\hat r_\theta(q,p)$. &
-The exploratory comparison used a learned passage-ranking score; the exact learner and loss are not retained in the final experiment notes, so we do not speculate beyond the verified ranking rule. &
-Whether learned ranking improves on simple dense cosine routing.\\
-\addlinespace
+\paragraph{Why prediction failed.} Sixty-four pre-generation features (query complexity, retrieval-score structure, redundancy, coverage) had no association with the oracle $k$ that survived FDR correction ($q{=}0.10$). A flat logistic controller fell to 0.3034 F1 at mean $k{=}2.03$; a sequential $2{\to}4{\to}6{\to}8$ controller was unpredictable at the first step (ROC-AUC 0.439) and modest at $4{\to}6$ (0.650); the best balanced logistic policy reached 0.3842. The obstacle is \emph{asymmetric cost}: a useful expansion gained $+0.3395$ F1 on average, an unnecessary one cost $-0.1345$ ($2.5\times$ less). Conservative controllers therefore dropped decisive evidence, while recall-preserving ones drifted back to full context: a content-aware controller matched static $k{=}8$ (0.3952 vs.\ 0.3950) only at mean $k{=}7.85$, saving 1.72\% of tokens. \emph{Lesson: choosing how much evidence is insufficient if we do not choose the right evidence.}
 
-Learned utility ranking &
-Rank candidates by learned score $\hat u_\theta(q,p)$ rather than raw semantic similarity. &
-Fitted on development-stage utility supervision. The exact learner and loss are not retained in the final experiment notes, so no stronger claim is made. &
-Whether an additional learned utility ranker beats a strong semantic $k=8$ reference.\\
-\addlinespace
+\subsection{Identity, retrieval and reader interface}
+At fixed $k{=}4$ on one candidate pool, dense semantic routing reached 0.3913 F1 versus 0.3596 (retrieval order) and 0.3572 (learned ranker) (Fig.~\ref{fig:early}b), so identity matters at unchanged quantity (a worked case in Appendix~\ref{app:examples} shows only the route containing a rank-8 passage names the language pair). Before attributing differences to allocation we checked confounds. Top-10 any-evidence recall was 0.618 (BM25), 0.636 (MiniLM bi-encoder) and 0.727 (SFR). With SFR fixed at $k{=}6$, full-text RAG (0.4199) and SARA's text-plus-latent mixture (0.4213) were indistinguishable (paired interval crossing zero), so latent compression could not be credited with earlier gains. On \scifact, strict-label parsing exposed an interface confound: of 1,850 conditions per reader, Mistral produced 1,849 invalid outputs and Llama 1,826 (often a correct label followed by an explanation), versus none for Qwen. These are interface measurements, not reasoning rankings; we kept Qwen3-8B as the controlled reader and compared textual evidence directly. Learned utility routers, draft-promotion gates and generative extraction (below its own no-intervention reference) gave no consistent gain (Appendix~\ref{app:early}).
 
-Draft promotion &
-Generate a base answer draft $d$ from the base route; compare no promotion, unconditional promotion, and a gate $g_\theta(q,d,\cdot)$ deciding whether to expose additional evidence. &
-A learned gate was fitted on the internal development cohort; the surviving summary supports the gating comparison but not a complete feature/loss reconstruction. &
-Whether the reader's own draft can signal that more evidence is needed.\\
-\addlinespace
+\subsection{Granularity depends on the budget}
+Holding SFR and Qwen fixed, a 50-query \hotpot pilot compared whole passages, exact sentences and finer spans at 256/512/1,024 tokens (Fig.~\ref{fig:early}c). At 256 tokens sentences led passages by $+0.084$ F1 (0.421 vs.\ 0.338, $+24.8\%$), plausibly because smaller units spread a tight budget over more sources (not isolated causally); at 512 and 1,024 tokens passages had the highest point estimates (0.456, 0.480). Interaction intervals crossed zero, so this is a descriptive pattern, not a law. It motivates the next question: \emph{instead of one unit size for all passages, can we choose a fidelity for each source under a shared budget?}
 
-Generative extraction (D2/D3) &
-D2: $\tilde E=\mathrm{LM}_{\mathrm{extract}}(q,E)$. D3: $\tilde E=\mathrm{LM}_{\mathrm{extract}}(q,d,E)$ using the draft $d$. &
-Prompt-based generation; no separate extractor training was used in the recorded experiment. &
-Whether a generative compressor can remove distractors better than preserving source text.\\
-\addlinespace
+\begin{figure*}[t]\centering
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=3 by 1,horizontal sep=1.25cm},width=0.315\textwidth,height=4.15cm,
+  tick label style={font=\scriptsize},label style={font=\scriptsize},title style={font=\scriptsize\bfseries},grid=major,grid style={black!10}]
+\nextgroupplot[title={(a) Static context vs.\ oracle (\qasper, $N{=}231$)},xlabel={explicit passages $k$},ylabel={Answer F1},xmin=-0.3,xmax=10.3,ymin=0.1,ymax=0.56,xtick={0,2,4,6,8,10},
+  legend style={font=\scriptsize,at={(0.97,0.04)},anchor=south east,draw=black!30},legend cell align=left]
+\addplot[cgray,thick,mark=*,mark size=1.5pt] coordinates {(0,.1388)(2,.3038)(4,.3596)(5,.3629)(6,.3857)(8,.3950)(10,.4090)};\addlegendentry{static $k$}
+\addplot[only marks,mark=star,mark size=3.4pt,cred,thick] coordinates {(8,.5008)};\addlegendentry{oracle, $k\le8$}
+\addplot[only marks,mark=diamond*,mark size=2.6pt,corange] coordinates {(3.49,.4894)};\addlegendentry{cost-aware oracle}
+\nextgroupplot[title={(b) Identity at fixed $k{=}4$},ylabel={Answer F1},ybar,bar width=10pt,symbolic x coords={Retrieval,Semantic,Learned},xtick=data,ymin=0,ymax=0.5,
+  nodes near coords,nodes near coords style={font=\scriptsize,/pgf/number format/fixed,/pgf/number format/precision=3}]
+\addplot[fill=cgray!65,draw=cgray] coordinates {(Retrieval,.3596)(Semantic,.3913)(Learned,.3572)};
+\nextgroupplot[title={(c) Granularity vs.\ budget (\hotpot, $N{=}50$)},xlabel={evidence budget (tokens)},ylabel={Answer F1},symbolic x coords={256,512,1024},xtick=data,ymin=0.30,ymax=0.50,enlarge x limits=0.15,
+  legend style={font=\scriptsize,at={(0.97,0.04)},anchor=south east,draw=black!30},legend cell align=left]
+\addplot[cgray,thick,mark=square*,mark size=1.6pt] coordinates {(256,.3375)(512,.4563)(1024,.4803)};\addlegendentry{passage}
+\addplot[cpurple,thick,mark=triangle*,mark size=1.8pt] coordinates {(256,.4079)(512,.4306)(1024,.4755)};\addlegendentry{fine span}
+\addplot[cblue,thick,mark=o,mark size=1.8pt] coordinates {(256,.4213)(512,.4203)(1024,.4721)};\addlegendentry{sentence}
+\end{groupplot}
+\end{tikzpicture}
+\caption{Evidence behind the three pivots. (a) Outcome-selected oracles lie far above any static $k$ but cannot be deployed. (b) Selecting different passages at the same $k$ changes F1. (c) Sentences lead at 256 tokens and passages catch up at larger budgets; interaction intervals crossed zero, so the pattern is descriptive. Tiers differ between panels (Table~\ref{tab:tiers}).}\label{fig:early}
+\end{figure*}
 
-Exact source-sentence filtering (E3-$k3$) &
-Segment source text, rank exact sentences by query relevance, retain the top three source sentences, and preserve original text rather than generating a summary. &
-Deterministic; no learned compressor. &
-Whether the benefit comes from source-faithful selection rather than generation.\\
-\addlinespace
+%=====================================================================
+\section{QBGF: Query-Conditioned Budgeted Granularity Fusion}\label{sec:qbgf}
+\paragraph{Motivation and intuition.} Sentences pack tightly but lose discourse; whole passages keep context but are expensive, and which is better varies by source and budget. For each retrieved passage, QBGF decides whether to \emph{discard it, keep its few most query-relevant sentences, or keep it whole}, and makes all these choices jointly so that the total fits the token budget.
 
-QBGF &
-Per passage, choose exactly one of DROP, SENT$_1$, SENT$_2$, SENT$_4$, SENT$_8$, or FULL; solve $\max\sum_i u(i,o_i)$ under total cost $\le B$. &
-No downstream-quality training; utilities are query-conditioned SFR relevance masses. &
-Whether exact global allocation across passage/sentence representations improves over fixed granularity.\\
-\addlinespace
+\paragraph{Inputs and outputs.} Input: the query, the ten retrieved passages and the budget $B$. Output: a source-ordered evidence string of at most $B$ tokens for the frozen reader. Nothing is generated: every option is an extractive view of a retrieved source (Fig.~\ref{fig:qbgf}).
 
-BEA-V1 &
-Build context incrementally. At state $t$, compute $g_t(a)=\mathrm{Rel}+0.5\Delta\mathrm{Coverage}-0.5\mathrm{Redundancy}$, divide by exact incremental token cost, add the best eligible transition, recompute, and stop when thresholds are not cleared. &
-No learned utility model; query aspects and global thresholds are fixed. &
-Whether a bottom-up stop rule can avoid adding low-value evidence merely because budget remains.\\
-\addlinespace
+\begin{figure*}[t]\centering
+\begin{tikzpicture}[font=\scriptsize]
+\foreach \n/\x/\c/\t in {1/0/cgray/{\textbf{Query + top-10 passages}\\(SFR retrieval)},
+  2/2.95/cblue/{\textbf{Relevance scoring}\\passage mass $R_i$,\\sentence mass $m_{ij}$ (softmax, $\tau{=}5$)},
+  3/5.9/cblue/{\textbf{Option menu per passage}\\six exclusive choices, each\\with utility $u$ and exact cost $c$},
+  4/8.85/cblue/{\textbf{Exact MCKP dynamic program}\\$\max\sum_i u(i,o_i)$\\s.t.\ $\sum_i c(i,o_i)\le B$},
+  5/11.8/cgray/{\textbf{Evidence context}\\selected blocks restored\\to source order ($\le B$)},
+  6/14.75/cgreen/{\textbf{Frozen Qwen3-8B}\\reader $\to$ answer}}{
+ \node[box=\c,text width=2.55cm,minimum height=1.45cm] (n\n) at (\x+1.275,0) {\t};}
+\foreach \a/\b in {1/2,2/3,3/4,4/5,5/6}{\draw[arr](n\a.east)--(n\b.west);}
+\foreach \i/\t in {0/DROP,1/{SENT$_{1}$},2/{SENT$_{2}$},3/{SENT$_{4}$},4/{SENT$_{8}$},5/FULL}{
+ \node[draw=cblue!70!black,fill=cblue!15,minimum width=0.86cm,minimum height=0.45cm,inner sep=1pt,font=\scriptsize] at (3.85+0.86*\i+0.43,-1.55) {\t};}
+\draw[arr,line width=0.4pt] (7.0,-1.32)--(n3.south);
+\node[font=\scriptsize\itshape,text=cred,text width=4.0cm,align=center] at (10.1,-1.65) {optimal for the \emph{relevance surrogate}, not for answer F1};
+\draw[arr,cred,line width=0.4pt] (n4.south)--++(0,-0.32);
+\end{tikzpicture}
+\caption{QBGF pipeline. Each passage is offered DROP, its top 1/2/4/8 query-similar sentences, or the full passage; the dynamic program picks one option per passage so the serialized evidence fits $B$. It uses no downstream-utility signal and generates no new text.}\label{fig:qbgf}
+\end{figure*}
 
-BEA-V2 &
-Predict LOO helpfulness with a cross-fitted logistic model, $P_{\mathrm{help}}=\sigma(w_h^\top x+b_h)$. Primary value is $P_{\mathrm{help}}\max(0,\mathrm{Rel}+0.5\Delta\mathrm{Coverage}-0.5\mathrm{Redundancy})$. A separate harm-risk model is diagnostic only. &
-Two $L_2$ logistic models per dataset, StandardScaler, $C=1$, \texttt{lbfgs}, five-fold GroupKFold; calibration uses nine development queries and no answer-quality feedback. &
-Whether learned LOO helpfulness can provide a better expansion/stopping signal than relevance alone.\\
-\bottomrule
+\paragraph{Formulation.} Let $s(p_i)$ and $s(s_{ij})$ be SFR cosine similarities of passage $i$ and of its sentence $j$ to the query. Passage and within-passage relevance masses are softmax-normalized ($\tau{=}5$):
+\begin{align}
+R_i&=\frac{e^{\tau s(p_i)}}{\sum_{m=1}^{K}e^{\tau s(p_m)}},\nonumber\\
+m_{ij}&=\frac{e^{\tau s(s_{ij})}}{\sum_{\ell}e^{\tau s(s_{i\ell})}},\label{eq:mass}\\
+u(i,\mathrm{SENT}_k)&=R_i\sum_{j\in\mathrm{top}\text{-}k}m_{ij},\nonumber\\
+u(i,\mathrm{FULL})&=R_i,\quad u(i,\mathrm{DROP})=0.\nonumber
+\end{align}
+The cost $c(i,o)$ is the exact Qwen token length of the serialized block for option $o\in\mathcal O_i=\{\mathrm{DROP},\mathrm{SENT}_{1,2,4,8},\mathrm{FULL}\}$. QBGF solves the multiple-choice knapsack (MCKP)
+\begin{equation}
+\max_{o_i\in\mathcal O_i}\ \sum_{i=1}^{K}u(i,o_i)\quad\text{s.t.}\quad\sum_{i=1}^{K}c(i,o_i)\le B,\label{eq:mckp}
+\end{equation}
+exactly by dynamic programming over (passage, remaining budget) (Appendix~\ref{app:alg}). Blocks are tokenized separately with their trailing separator, so costs add exactly.
+
+\paragraph{What QBGF optimizes, and what it does not.} The DP is globally optimal for the additive relevance surrogate~\eqref{eq:mckp}; it is \emph{not} optimal for answer F1 and has no stopping rule beyond feasibility. \textbf{Variants and comparators} (same pool, budgets and reader): \emph{no evidence}; \emph{passage} (retrieval-order whole passages); \emph{sentence} (global greedy ranking of sentences by query cosine; the baseline that is later locked); \emph{hybrid} (first three passages as sentences, the rest as finer spans); \emph{no-query} (uniform masses; upstream retrieval stays query-dependent); \emph{passage-only} (DROP/FULL) and \emph{sentence-only} (no FULL).
+
+\subsection{Validation: ablation versus best comparator}
+Table~\ref{tab:val} reports full validation ($N{=}8{,}337$). No method dominates: sentence selection leads \qasper-256 (0.2634) and \scifact-256 (0.7001); whole passages lead \scifact-1024 (0.6990); passage-only QBGF leads \hotpot-1024 (0.4525); the hybrid leads \hotpot-256 and \qasper-1024. \textbf{Against its own ablations} (Table~\ref{tab:abl}), query conditioning improves all six cells ($+0.020$ to $+0.187$ F1), reported significant in the registered Holm-adjusted family ($p_{\mathrm{Holm}}\le0.0114$). \textbf{Against the best comparator} the picture differs: removing FULL changes QBGF by at most $\pm0.0001$ F1 at 256 tokens, and at 1,024 sentence-only beats full QBGF on \scifact ($+0.024$) and passage-only on \hotpot ($+0.020$). Query conditioning helps; mixed-granularity fusion is not shown to be necessary.
+
+\begin{table*}[t]\centering\SmallTable
+\caption{Full validation ($N{=}8{,}337$). \hotpot/\qasper: Answer F1; \scifact: macro-F1; bold = best point estimate per row (rows are different tasks and budgets).}\label{tab:val}
+\begin{tabular}{llrrrrrrrr}\toprule
+Dataset & $B$ & None & Passage & Sentence & Hybrid & QBGF & No-query & Passage-only & Sentence-only\\\midrule
+\hotpot & 256 & .1653 & .4070 & .4082 & \textbf{.4253} & .4121 & .3086 & .3935 & .4122\\
+\hotpot & 1024 & .1653 & .4521 & .4233 & .4364 & .4323 & .4123 & \textbf{.4525} & .4323\\
+\qasper & 256 & .0822 & .1693 & \textbf{.2634} & .2544 & .2355 & .1473 & .1693 & .2356\\
+\qasper & 1024 & .0822 & .2880 & .2988 & \textbf{.2995} & .2951 & .2284 & .2896 & .2977\\
+\scifact & 256 & .4207 & .4564 & \textbf{.7001} & .6856 & .6750 & .4880 & .4578 & .6750\\
+\scifact & 1024 & .4207 & \textbf{.6990} & .6704 & .6859 & .6604 & .5426 & .6031 & .6847\\\bottomrule
+\end{tabular}\end{table*}
+
+\paragraph{Locked selection and confirmation.} \qbgf would replace the sentence baseline only if it were noninferior in \emph{all six} cells (margin 0.003 F1 for QA, 0.010 macro-F1 for \scifact; paired 10,000-resample cluster bootstrap, seed 42) and used no more mean prompt tokens in any cell. Only \hotpot-1024 cleared the margin ($+0.0090$, 95\% CI $[+0.0045,+0.0135]$); \qasper-256 was $-0.0279$ $[-0.0410,-0.0149]$ and four cells were inconclusive (Appendix~\ref{app:stats}). QBGF used 2.5--8.2 fewer prompt tokens, so it failed on quality, not cost; the sentence baseline was locked \emph{before} confirmation was opened. On the reserved cohort (Table~\ref{tab:conf}) the locked policy beats no evidence in all four cells; on \scifact-256 it reaches 0.7014 versus 0.4138 for passages ($+0.2876$, $p_{\mathrm{Holm}}{=}0.0356$), while passages are competitive again at 1,024 (0.7680 vs.\ 0.7440, interval crossing zero). QBGF beats the sentence policy on \hotpot-1024 ($+0.0344$, $p_{\mathrm{Holm}}{=}0.0316$, secondary family), which neither overturns the lock nor identifies which QBGF component helps. No universal granularity winner emerges.
+
+\begin{table}[t]\centering\SmallTable
+\caption{Ablation: full QBGF minus restricted variant (from Table~\ref{tab:val}); positive favors full QBGF. Descriptive differences, not extra tests.}\label{tab:abl}
+\begin{tabular}{llrrr}\toprule
+Task & $B$ & $-$No-query & $-$Passage-only & $-$Sent.-only\\\midrule
+\hotpot & 256 & +.1035 & +.0186 & $-.0001$\\
+\hotpot & 1024 & +.0200 & $-.0202$ & .0000\\
+\qasper & 256 & +.0882 & +.0662 & $-.0001$\\
+\qasper & 1024 & +.0667 & +.0055 & $-.0026$\\
+\scifact & 256 & +.1870 & +.2172 & .0000\\
+\scifact & 1024 & +.1178 & +.0573 & $-.0243$\\\bottomrule
 \end{tabular}\end{table}
 
-\paragraph{Scope of the scoring specification.}
-The expressions in Section~\ref{sec:bea} specify the state difference used for incremental coverage, the relevance/coverage/redundancy combination, and the exact-token-cost ratio; the worked examples reproduce the numerical gains from saved transition fields. The archived report and example traces identify query-only rule-derived aspects and semantic redundancy, but do \emph{not} contain the implementation-level rule for extracting aspect phrases, pooling their match scores into $C_q(E)$, or aggregating pairwise similarities into $\mathrm{Red}(a,E)$. Accordingly, we do not invent a maximum/mean/softmax formula for those internal routines. A bit-for-bit reimplementation of these two components requires the original allocator source; the equations above faithfully describe the available operational definition and the recorded arithmetic.
+\begin{table}[t]\centering\SmallTable
+\caption{Reserved confirmation (\hotpot $N{=}200$; \scifact $N{=}50$). $\dagger$ = locked policy.}\label{tab:conf}
+\begin{tabular}{llrrrrr}\toprule
+Task & $B$ & None & Passage & Sent.$^\dagger$ & Hybrid & QBGF\\\midrule
+\hotpot & 256 & .1399 & .4227 & .4373 & \textbf{.4622} & .4406\\
+\hotpot & 1024 & .1399 & .4589 & .4329 & .4570 & \textbf{.4672}\\
+\scifact & 256 & .3686 & .4138 & .7014 & \textbf{.7067} & .6870\\
+\scifact & 1024 & .3686 & \textbf{.7680} & .7440 & .7168 & .6346\\\bottomrule
+\end{tabular}\end{table}
 
-\paragraph{BEA-V1 threshold details.}
-The frozen V1 mechanism used query-only rule-derived aspects (maximum six), recomputed gains after every choice, and divided gain by exact incremental serialized token cost. The global thresholds were stop $=0.001$, expand $=0.001$, and context $=0.05$; no dataset-specific threshold tuning or LLM extraction was used. FULL could compete globally after two positive-gain selections.
+%=====================================================================
+\section{Relevance Is Not Utility: Leave-One-Out Diagnosis}\label{sec:loo}
+\paragraph{Why LOO.} A solver that is exact for relevance can still select evidence that barely changes the answer. We measure this directly (Fig.~\ref{fig:loo}a): take the selected context $E$, remove one unit $u_i$, keep all other units unchanged, \emph{do not refill} the freed tokens, and regenerate with the frozen reader:
+\begin{equation}
+\Delta_i=\mathrm{Score}(E\setminus\{u_i\})-\mathrm{Score}(E).\label{eq:loo}
+\end{equation}
+\textbf{Sign convention.} A \emph{negative} $\Delta_i$ means removal made the answer worse, i.e.\ the unit was \emph{helpful}. For QA, Score is per-query Answer F1 and we call a unit helpful if $\Delta_i<-\delta$, harmful if $\Delta_i>+\delta$ and neutral otherwise ($\delta{=}0.01$); for \scifact Score is per-claim correctness and $\delta{=}0$. Neutral means no detectable \emph{single-deletion} effect in this context, not irrelevance. The classifier labels of \S\ref{sec:bea} use the strict sign ($\delta{=}0$).
 
-\paragraph{BEA-V2 cross-fitting and calibration details.}
-The LOO export contained 8,537 usable sentence observations after excluding 1,070 passage/clause observations. Five GroupKFold splits were defined separately per dataset. An auxiliary model predicts harmfulness using $y_i^{\mathrm{harm}}=\mathbb{1}[\Delta_i>\delta]$ (deletion makes the reader improve), giving $P_{\mathrm{harm}}$ for error analysis. The final help-only allocation rule uses $P_{\mathrm{help}}$ alone; $P_{\mathrm{harm}}$ cannot change the selected evidence or the stopping decision. Calibration evaluated ten global thresholds $\{0,10^{-5},2.5\!\times\!10^{-5},5\!\times\!10^{-5},10^{-4},2.5\!\times\!10^{-4},5\!\times\!10^{-4},10^{-3},2.5\!\times\!10^{-3},5\!\times\!10^{-3}\}$ on three queries per dataset and both budgets. No threshold passed every registered global and per-cell utilization/coverage constraint.
+\begin{figure*}[t]\centering
+\begin{tikzpicture}[font=\scriptsize]
+% panel (a): procedure
+\node[font=\scriptsize\bfseries,anchor=west] at (0,0.55) {(a) LOO intervention};
+\node[box=cgray,text width=5.5cm] (a1) at (2.9,-0.35) {1. Selected context $E=\{u_1,\dots,u_n\}$ ($\le B$ tokens)};
+\node[box=cred,text width=5.5cm] (a2) at (2.9,-1.45) {2. Delete one unit $u_i$; keep the rest; \textbf{do not refill} freed tokens};
+\node[box=cgray,text width=5.5cm] (a3) at (2.9,-2.55) {3. Regenerate the answer with the frozen reader};
+\node[box=cblue,text width=5.5cm] (a4) at (2.9,-3.65) {4. $\Delta_i=\mathrm{Score}(E\setminus u_i)-\mathrm{Score}(E)$};
+\draw[arr](a1)--(a2);\draw[arr](a2)--(a3);\draw[arr](a3)--(a4);
+\node[font=\scriptsize,text width=5.7cm,align=center] at (2.9,-4.6) {\textcolor{cgreen}{$\Delta_i<-\delta$: helpful}\; $\cdot$\; \textcolor{cgray}{$|\Delta_i|\le\delta$: neutral}\; $\cdot$\; \textcolor{cred}{$\Delta_i>+\delta$: harmful}};
+% panel (b): examples
+\node[font=\scriptsize\bfseries,anchor=west] at (6.55,0.55) {(b) Recorded selected units: relevance versus observed effect};
+\node[font=\scriptsize\itshape,anchor=west] at (6.7,-0.1) {unit (verbatim excerpt)};
+\node[font=\scriptsize\itshape,anchor=west] at (12.0,-0.1) {dense relevance};
+\node[font=\scriptsize\itshape,anchor=west] at (14.2,-0.1) {$\Delta_i$ and effect};
+\foreach \y/\txt/\rel/\col/\lab/\sub in {
+ -1.15/{\textbf{\hotpot} (gold: \emph{Mezzanine}) ``\ldots the first single from their third album ``Mezzanine'' and the eighth single overall.''}/0.661/cgreen/{$\Delta=-0.913$ helpful}/{F1 1.000 $\to$ 0.087},
+ -2.55/{\textbf{\hotpot}, same context: title unit ``Risingson'' (4 tokens).}/0.577/cgray/{$\Delta=0$ neutral}/{F1 1.000 $\to$ 1.000},
+ -4.05/{\textbf{\scifact} (gold: \texttt{SUPPORT}) ``Because this disease may be associated with increased platelet aggregation, we investigated whether diabetic patients with ACS derive particular benefit from \ldots{} receptor inhibition.''}/0.788/cred/{$\Delta=+1.000$ harmful}/{\texttt{NEI} $\to$ \texttt{SUPPORT} (correct)}}{
+ \node[anchor=west,text width=5.1cm,align=left,font=\scriptsize] at (6.7,\y) {\txt};
+ \draw[fill=black!8,draw=black!30] (12.0,\y+0.12) rectangle ++(1.8,0.26);
+ \draw[fill=cblue!55,draw=cblue] (12.0,\y+0.12) rectangle ++(1.8*\rel,0.26);
+ \node[anchor=west,font=\scriptsize] at (12.0,\y-0.22) {cosine \rel};
+ \node[draw=\col!80!black,fill=\col!12,rounded corners=1.5pt,inner sep=2pt,anchor=west,font=\scriptsize\bfseries,text=\col!80!black] at (14.2,\y+0.25) {\lab};
+ \node[anchor=west,font=\scriptsize] at (14.2,\y-0.25) {\sub};}
+\end{tikzpicture}
+\caption{(a) The LOO intervention and its sign convention. (b) Three real interventions: relevance does not predict effect. The most relevant unit (0.788, parent rank 1) is the harmful one: in that context another selected sentence already states an increased bleeding risk, and deleting this trial sentence flips the output from \texttt{NOT\_ENOUGH\_INFO} to the correct \texttt{SUPPORT}. This is a context-specific deletion effect, not intrinsic harmfulness or an identified internal mechanism.}\label{fig:loo}
+\end{figure*}
 
-\subsection{Intermediate routing and extraction studies}
+\paragraph{Findings.} Most selected units are neutral (69.5--98.9\% in the representative conditions of Table~\ref{tab:loo}), and the Spearman correlation between dense relevance and deletion utility is at most 0.134 there. Across the 12 conditions of the project's attribution study (50 queries per dataset), bootstrap intervals for this correlation include zero in 10; the exceptions are \hotpot passage-only at 1,024 ($\rho{=}0.221$) and \scifact QBGF at 256 ($\rho{=}0.134$) (Appendix~\ref{app:stats}). Qualitative review of 16 query profiles suggested recurring patterns: high-similarity distractors, redundant entity relations and sentence fragmentation that removes antecedents. These are plausible mechanisms, not identified causes.
 
-The scores below are easier to interpret when each row is tied to the algorithmic change. ``Reference'' does not mean a universal baseline; it is the matched condition against which that local experiment was interpreted.
+\paragraph{Caveats.} LOO is state-dependent: in multi-hop questions two complementary facts can each look neutral when the partner is missing, so neutral units are not necessarily dispensable. LOO motivates learning a utility signal; it does not identify universal causal importance.
 
-\begin{table}[H]\centering\footnotesize
-\caption{Intermediate experiments, with the algorithmic intervention and the conclusion that is actually supported by the result.}\label{tab:intermediate_explained}
-\begin{tabularx}{\linewidth}{p{2.35cm} p{3.2cm} r X}\toprule
-\textbf{Study} & \textbf{Condition / algorithm} & \textbf{F1} & \textbf{What the number means}\\\midrule
+\begin{table}[t]\centering\SmallTable
+\caption{Representative LOO distributions on the 50-query-per-dataset attribution cohort. H/Q/S = \hotpot/\qasper/\scifact; $\rho$ = Spearman correlation of dense relevance with deletion utility. Fractions count selected-unit interventions.}\label{tab:loo}
+\begin{tabular}{llrrrr}\toprule
+Task & Policy / $B$ & $\rho$ & Helpful & Neutral & Harmful\\\midrule
+H & QBGF / 256 & .068 & 8.9\% & 84.0\% & 7.2\%\\
+H & QBGF / 1024 & .010 & 5.0\% & 88.1\% & 6.9\%\\
+Q & Sentence / 256 & .126 & 15.6\% & 76.4\% & 7.9\%\\
+Q & QBGF / 256 & .104 & 17.0\% & 69.5\% & 13.5\%\\
+S & QBGF / 256 & .134 & 2.8\% & 92.2\% & 4.9\%\\
+S & QBGF / 1024 & .044 & 0.5\% & 98.9\% & 0.6\%\\\bottomrule
+\end{tabular}\end{table}
 
-Passage identity ($k=4$) &
-Retrieval-order prefix: keep the first four passages from the same candidate pool. &
-0.35960 &
-Local reference. It fixes the number of readable passages and changes neither reader nor candidate pool.\\
+%=====================================================================
+\section{BEA: Incremental and Utility-Aware Allocation}\label{sec:bea}
+QBGF scores options largely independently of what else is selected and fills the budget whenever a positive-utility option fits. BEA starts instead from an empty context, repeatedly accepts the next transition with the highest estimated gain \emph{per added token}, recomputes gains after every acceptance, and stops when the best remaining gain is too small, leaving budget unused. No reader call occurs during selection, and BEA builds no document tree. Figure~\ref{fig:cmp} contrasts the three allocators.
 
-&
-Semantic cosine routing: rerank the same candidates by $\cos(e_q,e_p)$ and expose the top four. &
-0.39133 &
-A $+0.03173$ F1 point gain shows that \emph{passage identity} matters even when passage count is fixed. It does not prove a universal dense-retrieval advantage.\\
+\begin{figure*}[t]\centering
+\newcounter{pnlcnt}
+\newcommand{\panel}[8]{% #1 x, #2 colour, #3 title, #4..#7 node texts, #8 footer
+ \stepcounter{pnlcnt}%
+ \node[fill=#2,text=white,font=\scriptsize\bfseries,minimum width=5.65cm,minimum height=0.46cm,anchor=north west,inner sep=2pt] (h\thepnlcnt) at (#1,0) {#3};
+ \node[box=#2,text width=5.3cm,minimum height=0.78cm,anchor=north] (p\thepnlcnt a) at ($(h\thepnlcnt.south)+(0,-0.22)$) {#4};
+ \node[box=#2,text width=5.3cm,minimum height=0.78cm,anchor=north] (p\thepnlcnt b) at ($(p\thepnlcnt a.south)+(0,-0.26)$) {#5};
+ \node[box=#2,text width=5.3cm,minimum height=0.78cm,anchor=north] (p\thepnlcnt c) at ($(p\thepnlcnt b.south)+(0,-0.26)$) {#6};
+ \node[box=#2,text width=5.3cm,minimum height=0.78cm,anchor=north] (p\thepnlcnt d) at ($(p\thepnlcnt c.south)+(0,-0.26)$) {#7};
+ \draw[arr](p\thepnlcnt a)--(p\thepnlcnt b);\draw[arr](p\thepnlcnt b)--(p\thepnlcnt c);\draw[arr](p\thepnlcnt c)--(p\thepnlcnt d);
+ \node[draw=#2,fill=#2!15,rounded corners=1.5pt,text width=5.3cm,align=center,font=\scriptsize\bfseries,inner sep=2pt,anchor=north] at ($(p\thepnlcnt d.south)+(0,-0.22)$) {#8};}
+\begin{tikzpicture}
+\setcounter{pnlcnt}{0}%
+\panel{0}{cblue}{\qbgf: global packing, one shot}{score all 10 passages once: $R_i$, $m_{ij}$}{choose \emph{one of six options} per passage: DROP / SENT$_{1,2,4,8}$ / FULL}{maximize $\sum u$ (relevance mass) s.t.\ $\sum c\le B$: exact DP}{output once; stops only when feasibility binds}{optimizes relevance; no utility signal}
+\panel{6.05}{corange}{\vone: incremental, heuristic}{start from an \emph{empty} context}{score each next addition: $g=r+0.5\,\Delta C-0.5\,\mathrm{Red}$; density $d=g/\Delta c$}{add the best if $d\ge0.01$ (FULL also needs gate 0.05); recompute all scores}{otherwise stop; budget may stay unused (starvation risk)}{adds coverage, redundancy and stopping}
+\panel{12.1}{cgreen}{\vtwo: incremental, learned}{start from an \emph{empty} context}{score: $U=\Phelp\cdot\max(0,g)$, $D=U/\Delta c$; $\Phelp$ from a LOO-trained classifier}{add the best if $D\ge8{\times}10^{-5}$; targets 1/2/4/8 sentences or FULL; recompute}{otherwise stop; threshold calibration unresolved}{adds a learned helpfulness weight}
+\end{tikzpicture}
+\caption{The three allocators side by side. \qbgf chooses a fidelity per passage jointly and once; \vone grows the context one transition at a time with a heuristic marginal value and an early-stopping rule; \vtwo keeps that loop but multiplies the gain by a classifier's estimate of how likely such evidence was to help in past LOO experiments.}\label{fig:cmp}
+\end{figure*}
 
-&
-Learned passage ranking: expose the top four under a learned passage score $\hat r_\theta(q,p)$. &
-0.35721 &
-The learned ranking condition did not improve over the simple semantic selector on this development cohort.\\
-\midrule
+\begin{table*}[t]\centering\SmallTable
+\caption{Exploratory matched development comparison (50 queries per dataset; \emph{not} a confirmation experiment). \hotpot/\qasper: Answer F1; \scifact: macro-F1; bold = best point estimate per row.}\label{tab:bea}
+\begin{tabular}{llrrrrr}\toprule
+Dataset & $B$ & Sentence & \qbgf & \vone & \vtwo & MiniLM cross-encoder\\\midrule
+\hotpot & 256 & .3661 & .4042 & .2976 & \textbf{.4352} & .3404\\
+\hotpot & 1024 & .3893 & .4020 & .3441 & \textbf{.4234} & .3618\\
+\qasper & 256 & \textbf{.2668} & .2641 & .1868 & .2618 & .2641\\
+\qasper & 1024 & .2896 & \textbf{.2964} & .2084 & .2904 & .2827\\
+\scifact & 256 & .6289 & .5310 & .6127 & .5522 & \textbf{.6855}\\
+\scifact & 1024 & .5533 & .5881 & .6432 & .5772 & \textbf{.6479}\\\bottomrule
+\end{tabular}\end{table*}
 
-Learned utility routing &
-Semantic $k=8$ reference: fixed dense semantic ordering. &
-0.40104 &
-Strong simple reference for asking whether an extra utility-learning layer helps.\\
+\subsection{BEA-V1: heuristic marginal value and its failure}
+\paragraph{Intuition and procedure.} Add a sentence if it is relevant, covers part of the question not yet covered, and does not repeat what is already selected; prefer cheap additions; after two accepted sentences from one source, a FULL upgrade of that source may also compete. Query aspects $A(q)$ are at most six deterministic lexical clauses of the query (split on question marks, commas, semicolons and conjunctions). For the selected set $S$, with normalized SFR vectors $v_i$, $v_a$ and query vector $e_q$:
+\begin{align}
+r_i&=\cos(e_q,v_i),\nonumber\\
+h_a(S)&=\max\!\left(0,\max_{j\in S}\cos(v_a,v_j)\right),\nonumber\\
+\Delta C_i(S)&=\sum_{a\in A(q)}\max\bigl(0,\cos(v_a,v_i)-h_a(S)\bigr),\nonumber\\
+\mathrm{Red}_i(S)&=\max_{j\in S}\cos(v_i,v_j),\nonumber\\
+g_i(S)&=r_i+0.5\Delta C_i(S)-0.5\mathrm{Red}_i(S),\nonumber\\
+d_i&=\frac{g_i(S)}{\Delta c_i}.\label{eq:v1}
+\end{align}
+$\Delta c$ is the change in serialized token cost; non-positive costs get priority. V1 accepts the highest-density admissible transition if $d\ge0.01$ (FULL upgrades also need a local gate of $0.05$), otherwise it stops. The thresholds come from an allocation-only calibration on nine development queries. Worked example: for the 56-token Goya sentence at a later state, relevance $0.806$, new coverage $0.096$ and redundancy $0.758$ give $g=0.475$ and $d=0.00848<0.01$: it is rejected although it is the decisive bridge.
 
-&
-Learned utility ranking: reorder candidates using the learned utility score $\hat u_\theta$. &
-0.39223 &
-The additional learned ranker did not improve answer quality over fixed semantic ordering on this cohort.\\
-\midrule
+\begin{case}[title={Context starvation (\qasper, $B{=}1024$)}]{corange}
+\emph{Question:} ``What are the five different binary classification tasks?'' \vone made 15 additions, stopped after \textbf{245} tokens (779 unused) with last marginal density $0.009965<0.01$, and its context held stimulus words instead of the task list: F1 $=0$. Sentence and \qbgf used 1,022 and 1,018 tokens, exposed the list and scored 0.7826 (\vtwo: 965 tokens, 0.7826). On matched \hotpot-1024, \vone used 284 tokens on average and scored 0.3441 versus 0.3893 for sentences. An early-stopping rule can reject evidence that is individually low-scoring but necessary; we do not claim one threshold decision causes every error.
+\end{case}
 
-Draft promotion &
-Base draft: answer from the base $k=4$ route without promotion. &
-0.38906 &
-Reference on the internal development cohort.\\
+\subsection{BEA-V2: weight gains by learned helpfulness}
+\paragraph{What changes.} \vtwo keeps V1's relevance, coverage, redundancy and cost definitions but multiplies the non-negative gain by a classifier's estimate of how likely such evidence was to help the reader in past LOO experiments.
 
-&
-Always promote: always expose the selected promoted route after the initial draft. &
-0.41257 &
-Promotion can help, but it necessarily adds another generation/evidence stage. This is the best point estimate in this local study.\\
+\paragraph{Labels and predictor.} Historical LOO exports give 8,537 sentence observations (555 helpful, 552 harmful, 7,430 neutral; repeated across methods and budgets). The label uses the strict sign of~\eqref{eq:loo}: $y^{\mathrm{help}}_i=\mathbb 1[\Delta_i<0]$. Per dataset, an L2 logistic regression (standardized features, $C{=}1$, no class weights) on 12 \emph{pre-generation} features (query--sentence and passage cosines, retrieval and within-passage ranks, position, token costs, sentence count, budget, pool width, pool-similarity statistics) estimates $\Phelp(i)=\sigma(w^\top x_i+b)$. Five-fold GroupKFold splits by query (\hotpot), paper (\qasper) or cited-document component (\scifact); each evaluation query uses its held-out-fold model. The value and density of a transition $a$ are
+\begin{equation}
+U_t(a)=\sum_{i\in a}\Phelp(i)\max\bigl(0,g_i(S_{t,i})\bigr),\qquad D_t(a)=\frac{U_t(a)}{\Delta c_t(a)},\label{eq:v2}
+\end{equation}
+where $S_{t,i}$ is the hypothetical state updated within a compound action. \textbf{At inference} no gold answer, LOO intervention or reader feedback is used; $\Phelp$ is computed from pre-generation features only, the budget is enforced on serialized token cost, and the harmfulness label is diagnostic only. \vtwo targets 1/2/4/8 sentences per source, allows FULL after two positive contributions, drops V1's local 0.05 gate, and stops when $D<\tau{=}8{\times}10^{-5}$ (an exploratory operating point), when no positive feasible candidate remains, or when the budget is full.
 
-&
-Learned gate: use a fitted gate to decide whether promotion is needed. &
-0.40612 &
-The gate improved over the base draft but trailed unconditional promotion, so it did not demonstrate that the promotion decision itself had been learned reliably.\\
-\midrule
+\paragraph{How good is the predictor?} Pooled out-of-fold ROC-AUC is 0.625/0.590/0.836 and average precision 0.106/0.202/0.072 for \hotpot/\qasper/\scifact (positive prevalence 0.064/0.094/0.017): some ranking signal, limited discrimination, and no claim of calibrated probabilities or of fresh-context addition utility (Appendix~\ref{app:alg}). \textbf{Worked example.} At step 1 on the Goya bridge sentence, \vtwo recorded relevance $0.806$, coverage $0.803$, redundancy $0$, $\Phelp{=}0.126$, hence $g{=}1.208$, $U{=}0.152$, $D{=}0.00272$; it was selected first and the answer \emph{Invader (Invasor)} (F1 $1$) was recovered (the V1 and V2 scores refer to different states and are not a controlled comparison).
 
-Extraction &
-No intervention: retain the base evidence/draft pipeline. &
-0.38563 &
-Reference on the larger fitting cohort.\\
-
-&
-Query-only generative extraction (D2): generate a compressed evidence text from query + source context. &
-0.36866 &
-The generative extraction intervention reduced F1 by 0.0170 on this cohort. Qualitative review suggested incomplete extraction/syntax loss, but those mechanisms are not isolated causally.\\
-
-&
-Draft-aware generative extraction (D3): condition the extractor on query + current draft + source evidence. &
-0.37694 &
-Also below the no-intervention reference; draft conditioning did not rescue the generative compressor.\\
-
-&
-Exact query-ranked source sentences (E3-$k3$): select three exact source sentences instead of generating new text. &
-0.39002 &
-A small $+0.0044$ point gain; the 95\% CI $[-0.0085,+0.0175]$ crosses zero, so the result is suggestive rather than confirmatory.\\
-\bottomrule
-\end{tabularx}\end{table}
-
-\subsection{Retrieval and reader confound checks}
-At depth 10 on the diagnostic cohort, any-evidence/all-evidence recall was 0.61818/0.43182 for BM25, 0.63636/0.44545 for the \texttt{all-MiniLM-L6-v2} bi-encoder, and 0.72727/0.52273 for SFR-Embedding-Mistral. Thus the later SFR candidate pool had materially higher evidence recall than the early BM25 pool.
-
-Reader sensitivity was also substantial: under related controlled contexts, adapted C-Mistral scored 0.4071 F1 versus 0.2353 for public Mistral, 0.2738 for Qwen, and 0.2897 for Llama. These values alone do not define a universal reader ranking because prompts/adaptation differ. More importantly, the dedicated reader--granularity panel exposed a strict-format confound on \dataset{SciFact}: Mistral produced 1,849/1,850 invalid exact-label responses, Llama 1,826/1,850, and Qwen 0. Qwen was therefore retained as the controlled reader for later experiments to stabilize the response contract.
-
-SARA's latent path was also model-specific. Its trained projector is a two-layer 4096-dimensional MLP feeding a Mistral-based model at \texttt{<COMPRESS>} positions, jointly used with a Mistral LoRA adapter. The project did not train an equivalent Qwen/Llama projector; consequently the final SFR+Qwen study deliberately compares textual evidence granularities rather than claiming cross-family SARA latent transfer.
-
-\subsection{Confirmation contrasts}
-For the selected sentence baseline versus no evidence, all four confirmation contrasts were significant after Holm adjustment: \dataset{HotpotQA} 256 $+0.2974$ F1 (95\% CI $[0.2424,0.3524]$, $p_{\mathrm{Holm}}=0.0008$); \dataset{HotpotQA} 1024 $+0.2929$ ($[0.2421,0.3452]$, $0.0008$); \dataset{SciFact} 256 $+0.3328$ macro-F1 ($[0.1386,0.5142]$, $0.0126$); and \dataset{SciFact} 1024 $+0.3754$ ($[0.1908,0.5455]$, $0.0126$).
-
-Against whole-passage packing, the selected sentence policy had $+0.0147$ F1 on \dataset{HotpotQA} 256 (CI crosses zero), $-0.0261$ at 1024 (CI crosses zero), $+0.2876$ macro-F1 on \dataset{SciFact} 256 (95\% CI $[0.0971,0.4721]$, $p_{\mathrm{Holm}}=0.0356$), and $-0.0239$ at 1024 (CI crosses zero).
-
-\subsection{Post-confirmation statistical note}
-The full matched-cohort quality table is reported in Section~\ref{sec:bea}. Across the 24 exploratory paired contrasts among the sentence baseline, QBGF, BEA variants, and MiniLM control, zero comparisons survived Holm correction ($p_{\mathrm{Holm}}\ge0.2592$). This is a failure to establish a consistent advantage, not evidence that the methods are equivalent. BEA-V2 nevertheless leads both HotpotQA cells in this matched comparison. Its operating threshold was selected following development diagnostics, and these exploratory scores do not alter the previously frozen final policy.
+\subsection{Matched exploratory comparison}
+Table~\ref{tab:bea} (with a supplemental graphical comparison in Fig.~\ref{fig:res}) compares all methods on the same 50 queries per dataset at both budgets after the policy had been locked. At $\tau{=}8{\times}10^{-5}$, \vtwo has the highest \hotpot F1 at both budgets (0.4352 vs.\ 0.3661 for sentences, $+0.0691$; 0.4234 vs.\ 0.3893, $+0.0341$) and exceeds \qbgf (0.4042, 0.4020). Elsewhere other methods lead: sentences on \qasper-256 (0.2668), \qbgf on \qasper-1024 (0.2964), and the MiniLM cross-encoder on \scifact (0.6855, 0.6479); \vtwo is within 0.005 F1 of sentences on \qasper, below them on \scifact-256 (0.5522 vs.\ 0.6289) and above them at 1,024 (0.5772 vs.\ 0.5533). \vone is lowest on \hotpot and \qasper.
 
 
 
-\subsection{Detailed worked evidence cases}\label{app:worked_examples}
-This appendix expands the compact examples referenced in the main text. Each case shows the task input, target, evidence actually exposed or omitted, downstream output, and score so that the mechanism behind the aggregate result is visible. Earlier examples retain the model configuration used at that stage and should not be compared numerically with the later controlled SFR+Qwen study unless the cohort is explicitly matched.
 
-\subsubsection{Example A.1: Opposite context needs within one QASPER paper}\label{ex:sara_pair}
-\paragraph{High-context example.}
-\textbf{Question:} ``Which psycholinguistic and basic linguistic features are used?''\\
-\textbf{Gold answer:} Emotion Sensor Feature; Part of Speech; Punctuation; Sentiment Analysis; Empath; TF--IDF Emoticon features.\\
-The top lexical passages repeatedly mention ``psycho-linguistic features'' and the shorthand ``NLP Features,'' but they do not enumerate the requested feature set. The decisive methodology passage appears only at retrieval Rank 6 (BM25 score 1.337668):
-\begin{quote}\small
-``Methodology ::: NLP Features --- We have identified a novel combination of features ... The first one is the \textbf{Emotion Sensor Feature} ... The second one is the collection of selected topical signal from text collected using \textbf{Empath} ... We have borrowed the idea of using other features like \textbf{punctuation features} and \textbf{parts-of-speech tags} ...''
-\end{quote}
-The recovered fixed-$k$ execution trace shows a sharp threshold effect:
-\begin{center}\small
-\begin{tabular}{rrrrl}\toprule
-$k$ & Context tok. & F1 & Decisive R6? & Generated answer (verbatim / lightly shortened)\\\midrule
-0&133&0.1333&No&``No linguistic features are used.''\\
-2&448&0.1429&No&``NLP Features''\\
-4&826&0.1429&No&``NLP Features''\\
-5&1084&0.1429&No&``NLP Features''\\
-6&1326&\textbf{0.6000}&\textbf{Yes}&``Emotion Sensor Feature, Empath, Parts-of-speech tags, Punctuation features''\\
-8&1735&0.4167&Yes&Longer feature list with extra distractor terms\\
-10&2128&0.3478&Yes&Partial feature list with additional context\\\bottomrule
-\end{tabular}
-\end{center}
-Thus the reader remains essentially stuck until Rank 6 enters the explicit context; adding still more passages then reduces F1 again. This is a concrete example of a non-smooth context requirement rather than a monotone ``more context is better'' effect.
 
-\paragraph{Low-context example from the same paper.}
-\textbf{Question:} ``How have the differences in communication styles between Twitter and Facebook increase the complexity of the problem?''\\
-\textbf{Gold answer:} ``Systems do not perform well both in Facebook and Twitter texts.''\\
-At $k=0$, the stored answer scores 0.2500 F1. Adding explicit retrieved text shifts the response toward generic domain-adaptation/code-mixing explanations and lowers the score; at $k=10$ it is 0.2000. Two questions from the \emph{same paper} therefore prefer opposite amounts of readable evidence.
+\paragraph{Boundaries of these results.} (i) The 50 queries per dataset are development data that overlap validation. (ii) The threshold $\tau$ was examined after an allocation-only calibration on nine queries failed its pre-specified utilization and coverage gates. (iii) A 24-test Holm family comparing MiniLM with four controls found no significant comparison ($p_{\mathrm{Holm}}\ge0.2592$) and does \emph{not} test \vtwo against sentences. (iv) V1$\to$V2 changes gates and transitions as well as adding the predictor, and no \vtwo run with $\Phelp\equiv1$ exists, so the predictor's contribution is not isolated. (v) The classifier has no independent confirmation. The results are promising but do not overturn the locked sentence policy.
 
-\textbf{Experimental setting.} QASPER development examples evaluated with the SARA setup using Mistral-7B-Instruct-v0.2 and its learned latent projector.
+%=====================================================================
+\section{Discussion and Limitations}\label{sec:disc}
+\textbf{What the evidence supports.} (1)~Context demand is heterogeneous, but a scalar $k$ is hard to predict because false stops cost far more than false expansions. (2)~Which sources survive and in which representation both matter at fixed $k$; reader-interface differences can confound comparisons. (3)~Sentence units are a strong compact baseline under tight budgets, while whole passages are competitive at larger budgets (descriptive). (4)~Query conditioning contributes to QBGF, yet exact optimization of a relevance surrogate does not guarantee downstream quality. (5)~LOO outcomes motivate learned utility, which helps in exploratory multi-hop runs but remains an imperfect proxy for the value of a \emph{new} addition. One reason the sentence baseline may be competitive is that it combines a query-relevance signal with compact evidence units without a learned stopping rule that could amplify prediction error.
 
-\subsubsection{Example A.2: QCCA false stop versus false expansion}\label{ex:qcca_asym}
-\textbf{False-stop case.}\\
-\textbf{Question:} ``What are the near-offensive language categories?''\\
-\textbf{Gold answer:} ``inappropriate, discriminating.''\\
-At $k=2$ (526 tokens), the two exposed passages discuss transfer learning and annotation challenges but do not name the categories. The reader answers ``hate speech, discrimination, abusive language, offensive language'' (F1 $=0$). Expanding to $k=4$ (1,071 tokens) exposes the decisive sentence:
-\begin{quote}\small
-``Although not designed for offensive language detection, some categories are close to it, such as \textbf{inappropriate} and \textbf{discriminating}...''
-\end{quote}
-The generated answer becomes ``inappropriate, discriminating'' (F1 $=1$).
+\textbf{Limitations.} \hotpot uses its distractor pool, not open-domain retrieval. Final results use one reader (base Qwen3-8B, FP16), chosen partly because it obeyed the \scifact label interface; the SARA projector and LoRA are Mistral-specific, so the study is not a cross-family test of latent compression. The granularity pilot has 50 queries; formal interaction intervals did not establish a universal effect. LOO measures single deletions from one frozen context and cannot capture complementary evidence. \qasper is excluded from confirmation because earlier exploratory runs exposed its test-query IDs. We measured no matched end-to-end latency or memory, so we make no serving-efficiency claim; repeated LOO generations and classifier fitting are research costs, not free inference. \textbf{Future work:} larger, stratified threshold calibration; a $\Phelp\equiv1$ ablation; interaction-aware attribution (pair deletion); and a systems evaluation of allocator overhead.
 
-\textbf{False-expansion contrast.} The best stored $k=0$ condition scores 0.2500 F1; adding two explicit passages ($k=2$, 671 tokens) changes the response to a generic cross-domain explanation and scores 0.2000, only $-0.05$ lower. The pair illustrates why missing decisive evidence can be much more costly than carrying some extra context.
+%=====================================================================
+\section{Conclusion}\label{sec:concl}
+We began with a SARA-inspired question, how much readable evidence each query needs, and found headroom that learned controllers could not capture. The investigation then moved from \emph{quantity} to \emph{identity} and \emph{granularity}, and to QBGF, an exact fidelity allocator whose query conditioning helps but which does not reliably beat a locked sentence baseline. LOO interventions identified the deeper problem: relevance is only weakly aligned with a unit's effect on the reader. BEA-V1 showed that early stopping can starve the context; BEA-V2, which weights gains by learned helpfulness, leads \hotpot at both budgets in exploratory matched runs but is mixed on \qasper and \scifact and unconfirmed. Budget-aware selection, query conditioning and representation granularity matter; optimizing semantic relevance alone does not reliably optimize answer quality. \textbf{A validated, transferable estimate of downstream evidence utility, together with a calibrated stopping rule, is a more promising next target than a more elaborate packer.}
 
-\textbf{Experimental setting.} QASPER development examples from the context-allocation experiments; the comparison varies only how much explicit evidence is exposed.
-
-\subsubsection{Example A.3: Evidence identity at fixed $k=4$}\label{ex:identity917}
-\textbf{Question:} ``What languages are seen in the news and TED datasets?''\\
-\textbf{Gold answer:} ``English, German.''\\
-All policies expose exactly four chunks from the same BM25 top-10 candidate pool. The decisive evidence is not in the lexical top four; it appears at Rank 8 (BM25 score 1.229125):
-\begin{quote}\small
-``... we derive data from ParCorFull, an \textbf{English-German corpus} annotated with full coreference chains ... For our analysis, we select a portion of \textbf{English news texts and TED talks} from ParCorFull and translate them with the three NMT systems ...''
-\end{quote}
-Ranks 1--5 repeatedly discuss news, TED talks, translation quality, error types, and coreference, but do not state the language pair. This is why high topical overlap is insufficient for the actual question.
-
-\begin{center}\small
-\begin{tabular}{p{3.0cm}p{2.9cm}r p{3.0cm}rr}\toprule
-Policy & Selected ranks & Tok. & Reader output & F1 & EM\\\midrule
-BM25 prefix & [1,2,3,4] & 826 & ``English'' & 0.6667&0\\
-Semantic cosine & [2,3,4,5] & 991 & ``English, Spanish'' & 0.5000&0\\
-Learned router & [1,2,6,8] & 945 & ``English, German'' & \textbf{1.0000}&\textbf{1}\\\bottomrule
-\end{tabular}
-\end{center}
-Only the learned route brings Rank 8 into the four-passage budget and therefore exposes the exact English--German relation. This case demonstrates the \emph{passage-identity mechanism}; it does not overturn the aggregate result in Figure~\ref{fig:identity}, where semantic routing is stronger on average than the learned router.
-
-\textbf{Experimental setting.} QASPER development example with the same top-10 candidate pool and the same four-passage budget for all three routing policies; the reader is the historical SARA/Mistral setup.
-
-\subsubsection{Example A.4: SciFact output-format confound}\label{ex:scifact1132}
-\textbf{Claim:} ``TCR/CD3 microdomains are a required to induce the immunologic synapse to activate T cells.''\\
-\textbf{Gold label:} \texttt{SUPPORT}.\\
-A decisive evidence sentence states:
-\begin{quote}\small
-``Finally, by interfering with Nck-CD3 epsilon association in vivo, we demonstrate that TCR-CD3 recruitment of Nck is critical for maturation of the immune synapse and for T cell activation.''
-\end{quote}
-The evaluation parser permits exactly \texttt{SUPPORT}, \texttt{REFUTE}, or \texttt{NOT\_ENOUGH\_INFO}. The observed reader outputs are:
-\begin{center}\small
-\begin{tabularx}{0.93\linewidth}{p{2.7cm}X p{1.8cm}}\toprule
-Reader & Raw output & Parser\\\midrule
-Qwen & \texttt{SUPPORT} & VALID\\
-Mistral & \texttt{SUPPORT} followed by an explanatory paragraph & INVALID\\
-Llama & ``Based on the provided abstract, the correct classification is: SUPPORT.'' & INVALID\\\bottomrule
-\end{tabularx}
-\end{center}
-The example shows why the panel is an interface-compliance diagnostic, not a clean ranking of biomedical reasoning ability.
-
-\textbf{Experimental setting.} SciFact development example under the exact-label evaluation contract used in the reader comparison.
-
-\subsubsection{Example A.5: Worked QBGF allocation on a QASPER distractor case}\label{ex:qbgf_rei}
-\textbf{Question:} ``What was the baseline used?''\\
-\textbf{Gold reference:} Rei2016 / Rei (2016) model. \textbf{Budget:} 256 evidence tokens.\\
-The candidate pool contains two competing notions of ``baseline'': a high-overlap dataset-curation sentence about \emph{manual annotation}, and a model-comparison sentence:
-\begin{quote}\small
-``We compare our approach against the state-of-the-art sequence labeling baseline proposed by Rei (2016).''
-\end{quote}
-The saved matched outputs are:
-\begin{center}\small
-\begin{tabular}{lrrlp{2.6cm}r}\toprule
-Method & Tok. & Util. & Rei2016 exposed? & Reader output & F1\\\midrule
-FIXED\_SENTENCE &255&99.6\%&No&``manual annotation''&0.0000\\
-QBGF\_FULL &255&99.6\%&\textbf{Yes}&``Rei2016 model''&\textbf{0.8000}\\
-BEA-V1 &245&95.7\%&No&``manual annotation''&0.0000\\
-BEA-V2 post-hoc &245&95.7\%&No&``manual annotation''&0.0000\\
-MiniLM CE &255&99.6\%&No&``The baseline used was manual annotation.''&0.0000\\\bottomrule
-\end{tabular}
-\end{center}
-This case illustrates what joint representation allocation can recover, while the aggregate QASPER-256 result still slightly favors the sentence baseline; it is therefore an explanatory case, not a claim of universal QBGF superiority.
-
-\textbf{Experimental setting.} QASPER matched comparison at a 256-token evidence budget with the controlled reader and retriever used in the final allocation study.
-
-\subsubsection{Example A.6: Three LOO interventions with the deleted unit shown}\label{ex:loo_cases}
-\paragraph{Helpful unit.} A HotpotQA example asks, ``What album released in 1998 features the song `Risingson'?'' (gold: \emph{Mezzanine}). A selected 20-token unit with relevance 0.6605 states:
-\begin{quote}\small
-```Risingson' is the first single from the album \textbf{Mezzanine} by Massive Attack ...''
-\end{quote}
-With the unit present, the reader outputs ``Mezzanine'' (F1 $=1.0000$); deleting only this unit reduces F1 to 0.0870, so $\Delta=-0.9130$ and the unit is classified \textsc{helpful}.
-
-\paragraph{Neutral unit.} On the same query/context, the four-token unit ``Track listing:'' has relevance 0.5774. Deleting it leaves both output and F1 unchanged at ``Mezzanine'', 1.0000, hence $\Delta=0$ and the unit is \textsc{neutral}. High similarity or inclusion in the selected context therefore does not imply measurable marginal contribution.
-
-\paragraph{Harmful unit.} A SciFact claim states:
-\begin{quote}\small
-``Diabetic patients with acute coronary syndrome experience increased short-term and long-term risk for bleeding events.''
-\end{quote}
-The gold label is \texttt{SUPPORT}. One selected 40-token sentence has dense relevance 0.7882 (parent retrieval rank 1):
-\begin{quote}\small
-``Because this disease may be associated with increased platelet aggregation, we investigated whether diabetic patients with ACS derive particular benefit from platelet glycoprotein (GP) IIb/IIIa receptor inhibition.''
-\end{quote}
-The full five-unit context (165 evidence tokens) makes the reader return \texttt{NOT\_ENOUGH\_INFO} (incorrect). Deleting only this sentence, without refilling the freed budget, leaves 125 evidence tokens and changes the output to \texttt{SUPPORT} (correct), giving $\Delta=+1.0000$: the unit is \textsc{harmful}. Crucially, another selected sentence in the same original context explicitly states that patients with diabetes are ``at increased risk of ischaemic events and bleeding post-acute coronary syndromes.'' The harmful unit is therefore semantically on-topic but distracts the frozen reader from the decisive support statement.
-
-\begin{center}\small
-\begin{tabularx}{0.96\linewidth}{p{1.55cm}Xccc}\toprule
-Type & Intervention & Before & After & $\Delta$\\\midrule
-Helpful & Delete ``Risingson ... album Mezzanine'' & 1.0000 & 0.0870 & $-0.9130$\\
-Neutral & Delete ``Track listing:'' & 1.0000 & 1.0000 & $0$\\
-Harmful & Delete high-relevance ACS trial sentence & 0 & 1 & $+1.0000$\\\bottomrule
-\end{tabularx}
-\end{center}
-These are local interventions under frozen contexts: they measure contextual marginal utility, not intrinsic truthfulness or universal sentence quality.
-
-\textbf{Experimental setting.} Leave-one-out interventions under the fixed reader: one selected unit is deleted, the freed budget is not refilled, and the answer is regenerated.
-
-\subsubsection{Example A.7: BEA-V1 starvation and BEA-V2 bridge rescue}\label{ex:bea_starve}
-\paragraph{BEA-V1 starvation on QASPER.}
-A QASPER example asks:
-\begin{quote}\small
-``What are the five different binary classification tasks?''
-\end{quote}
-The gold answer lists presence/absence of consonants, phonemic nasal, bilabial, high-front vowels, and high-back vowels. The decisive 48-token source sentence states:
-\begin{quote}\small
-``In order to explore the problem space, we thus specifically target five binary classification problems ... i.e. presence/absence of consonants, phonemic nasal, bilabial, high-front vowels and high-back vowels.''
-\end{quote}
-BEA-V1 never reaches this sentence. Its transition trace shows 15 accepted additions totaling only 245 evidence tokens; it then stops for \texttt{LOW\_MARGINAL\_VALUE}, with final marginal score 0.009965016 and 779 of 1024 evidence tokens unused. The selected context instead contains stimulus words such as ``pat, pot, knew and gnaw'' and another unrelated token \texttt{INLINEFORM0}. The frozen reader therefore synthesizes:
-\begin{quote}\small
-``The five different binary classification tasks are pat, pot, knew, gnaw, and INLINEFORM0.''
-\end{quote}
-for F1 $=0$. In contrast, FIXED and QBGF use 1022 and 1018 evidence tokens, include the decisive task-list sentence, and both return the correct list at F1 $=0.7826$. The exploratory BEA-V2 run uses 965 tokens, also includes the decisive sentence, and reaches the same 0.7826 F1 on this query.
-
-\begin{center}\small
-\begin{tabularx}{0.97\linewidth}{lrrrrX}\toprule
-Method & Evid. tok. & Util. & Unused & F1 & Outcome\\\midrule
-FIXED &1022&99.8\%&2&0.7826&Task list exposed\\
-QBGF &1018&99.4\%&6&0.7826&Task list exposed\\
-BEA-V1 &\textbf{245}&\textbf{23.9\%}&\textbf{779}&\textbf{0.0000}&Stops before S005\\
-BEA-V2 post-hoc &965&94.2\%&59&0.7826&Task list recovered\\\bottomrule
-\end{tabularx}
-\end{center}
-This case makes the starvation failure concrete: a local incremental stopping rule can terminate while a large budget remains and before a complementary, answer-bearing unit is reached. The method-level V1 threshold configuration is reported separately in Appendix~\ref{app:algorithms}.
-
-\label{ex:bea_rescue}\paragraph{BEA-V2 bridge rescue on HotpotQA.}
-A HotpotQA multi-hop question requires the chain \emph{Enemy} $\rightarrow$ screenwriter Javier Gull\'on $\rightarrow$ Goya nomination for \emph{Invader (Invasor)}. The decisive saved sentence is:
-\begin{quote}\small
-``He garnered a Canadian Screen Award nomination ... and a Goya Award nomination for Best Adapted Screenplay at the 27th Goya Awards for `Invader (Invasor)'.''
-\end{quote}
-BEA-V1 evaluates this sentence late, rejects it, uses 168 tokens, and the reader hallucinates that the nomination was for \emph{Enemy} (F1 $=0$). In the exploratory BEA-V2 run, the same bridge sentence receives $P_{\mathrm{help}}=0.125925$, is selected at Step 1 with value 0.152065 and ratio 0.002715, and the 243-token context yields ``Invader (Invasor)'' (F1 $=1$). This demonstrates the intended behavior of the learned helpfulness signal on one case; it does \emph{not} change the failed global calibration result or the mixed aggregate comparison.
-
-\textbf{Experimental setting.} The QASPER example uses a 1024-token budget; the HotpotQA bridge example uses a 256-token budget. Both compare the evidence actually exposed to the same downstream reader under matched method conditions.
-
-\begin{thebibliography}{99}
-\bibitem{lewis2020rag}
-P.~Lewis, E.~Perez, A.~Piktus, F.~Petroni, V.~Karpukhin, N.~Goyal, H.~K\"{u}ttler, M.~Lewis, W.~Yih, T.~Rockt\"{a}schel, S.~Riedel, and D.~Kiela.
-\newblock Retrieval-augmented generation for knowledge-intensive NLP tasks.
-\newblock In \emph{Advances in Neural Information Processing Systems (NeurIPS)}, 2020.
-
-\bibitem{jin2026sara}
-Y.~Jin, K.~Sharma, V.~Rakesh, Y.~Dou, M.~Pan, M.~Das, and S.~Kumar.
-\newblock SARA: Selective and adaptive retrieval-augmented generation with context compression.
-\newblock In \emph{Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL)}, 2026.
-
-\bibitem{recomp2024}
-F.~Xu, W.~Shi, and E.~Choi.
-\newblock RECOMP: Improving retrieval-augmented LMs with context compression and selective augmentation.
-\newblock In \emph{International Conference on Learning Representations (ICLR)}, 2024.
-
-\bibitem{liu2024lost}
-N.~F. Liu, K.~Lin, J.~Hewitt, A.~Paranjape, M.~Bevilacqua, F.~Petroni, and P.~Liang.
-\newblock Lost in the middle: How language models use long contexts.
-\newblock \emph{Transactions of the Association for Computational Linguistics}, 12:157--173, 2024.
-
-\bibitem{yang2018hotpotqa}
-Z.~Yang, P.~Qi, S.~Zhang, Y.~Bengio, W.~W. Cohen, R.~Salakhutdinov, and C.~D. Manning.
-\newblock HotpotQA: A dataset for diverse, explainable multi-hop question answering.
-\newblock In \emph{Conference on Empirical Methods in Natural Language Processing (EMNLP)}, 2018.
-
-\bibitem{dasigi2021qasper}
-P.~Dasigi, K.~Lo, I.~Beltagy, A.~Cohan, N.~A. Smith, and M.~Gardner.
-\newblock A dataset of information-seeking questions and answers anchored in research papers.
-\newblock In \emph{North American Chapter of the Association for Computational Linguistics (NAACL)}, 2021.
-
-\bibitem{wadden2020scifact}
-D.~Wadden, S.~Lin, K.~Lo, F.~L. Wang, M.~van Zuylen, A.~Cohan, and H.~Hajishirzi.
-\newblock Fact or fiction: Verifying scientific claims against PubMed abstracts.
-\newblock In \emph{Conference on Empirical Methods in Natural Language Processing (EMNLP)}, 2020.
+%=====================================================================
+\clearpage
+\onecolumn
+%================== REFERENCES AND APPENDIX START HERE ==================
+\begin{thebibliography}{99}\small
+\bibitem{lewis2020rag} P.~Lewis, E.~Perez, A.~Piktus, F.~Petroni, V.~Karpukhin, N.~Goyal, H.~K\"{u}ttler, M.~Lewis, W.~Yih, T.~Rockt\"{a}schel, S.~Riedel, D.~Kiela. Retrieval-augmented generation for knowledge-intensive NLP tasks. \emph{NeurIPS}, 2020.
+\bibitem{jin2026sara} Y.~Jin, K.~Sharma, V.~Rakesh, Y.~Dou, M.~Pan, M.~Das, S.~Kumar. SARA: Selective and adaptive retrieval-augmented generation with context compression. \emph{ACL}, 2026.
+\bibitem{recomp2024} F.~Xu, W.~Shi, E.~Choi. RECOMP: Improving retrieval-augmented LMs with compression and selective augmentation. \emph{ICLR}, 2024.
+\bibitem{liu2024lost} N.~F. Liu, K.~Lin, J.~Hewitt, A.~Paranjape, M.~Bevilacqua, F.~Petroni, P.~Liang. Lost in the middle: How language models use long contexts. \emph{TACL} 12:157--173, 2024.
+\bibitem{yang2018hotpotqa} Z.~Yang, P.~Qi, S.~Zhang, Y.~Bengio, W.~W. Cohen, R.~Salakhutdinov, C.~D. Manning. HotpotQA: A dataset for diverse, explainable multi-hop question answering. \emph{EMNLP}, 2018.
+\bibitem{dasigi2021qasper} P.~Dasigi, K.~Lo, I.~Beltagy, A.~Cohan, N.~A. Smith, M.~Gardner. A dataset of information-seeking questions and answers anchored in research papers. \emph{NAACL}, 2021.
+\bibitem{wadden2020scifact} D.~Wadden, S.~Lin, K.~Lo, L.~L. Wang, M.~van Zuylen, A.~Cohan, H.~Hajishirzi. Fact or fiction: Verifying scientific claims. \emph{EMNLP}, 2020.
+\bibitem{chen2024densex} T.~Chen, H.~Wang, S.~Chen, W.~Yu, K.~Ma, X.~Zhao, H.~Zhang, D.~Yu. Dense X Retrieval: What retrieval granularity should we use? \emph{EMNLP}, 2024.
+\bibitem{pan2024llmlingua2} Z.~Pan, Q.~Wu, H.~Jiang, M.~Xia, X.~Luo, J.~Zhang, Q.~Lin, V.~R\"uhle, Y.~Yang, C.-Y. Lin, H.~V. Zhao, L.~Qiu, D.~Zhang. LLMLingua-2: Data distillation for efficient and faithful task-agnostic prompt compression. \emph{Findings of ACL}, 2024.
+\bibitem{xu2026selfcorrecting} S.~Xu, Z.~Wu, X.~Jia, Y.~Wang, K.~Liu, A.~X. Dong. Self-Correcting RAG: Enhancing faithfulness via MMKP context selection and NLI-guided MCTS. arXiv:2604.10734, 2026.
+\bibitem{jeong2024adaptive} S.~Jeong, J.~Baek, S.~Cho, S.~J. Hwang, J.~Park. Adaptive-RAG: Learning to adapt retrieval-augmented large language models through question complexity. \emph{NAACL}, 2024.
+\bibitem{minilmreranker} Sentence Transformers. cross-encoder/ms-marco-MiniLM-L6-v2, model card. \url{https://huggingface.co/cross-encoder/ms-marco-MiniLM-L6-v2}. Accessed Nov.\ 2026.
 \end{thebibliography}
+
+%=====================================================================
+\appendix
+\setlength{\parskip}{2.3pt}
+\setlength{\parindent}{0pt}
+\captionsetup{font=small,skip=4pt}
+\section{Algorithm Specifications and Predictor Details}\label{app:alg}
+\subsection{QBGF: exact dynamic program}
+\begin{apbox}[title={Algorithm A1: QBGF allocation (input: passages $p_{1..K}$, query, budget $B$)}]
+\begin{enumerate}
+\item Compute $R_i$ and $m_{ij}$ with $\tau{=}5$ (Eq.~\ref{eq:mass}); rank sentences within each passage by query cosine.
+\item For each $i$ and option $o\in\{\mathrm{DROP},\mathrm{SENT}_{1,2,4,8},\mathrm{FULL}\}$: serialize the block (source-ordered sentences, trailing separator), tokenize with the Qwen tokenizer to get $c(i,o)$, and set $u(i,o)$ by Eq.~\ref{eq:mass}.
+\item $V_0(b){=}0$ for $b{=}0..B$. For $i{=}1..K$: $V_i(b)=\max_{o:\,c(i,o)\le b}\{V_{i-1}(b-c(i,o))+u(i,o)\}$.
+\item Backtrack from $V_K(B)$ to recover $o_i$. Ties within $10^{-12}$: prefer utility rounded to 12 decimals, then lower cost, then lexicographic option path.
+\item Restore selected blocks and sentences to source order; concatenate the token-ID blocks and return.
+\end{enumerate}
+Complexity $O(6KB)$. Optimality holds for the finite additive surrogate; retokenizing the concatenated \emph{string} may give a different length, so the budget is defined on token-ID blocks.
+\end{apbox}
+
+\subsection{BEA-V1 and BEA-V2}
+\begin{apbox}[title={Algorithm A2: BEA-V1 / BEA-V2 incremental allocation}]
+\begin{enumerate}
+\item $S{\leftarrow}\emptyset$; extract query aspects $A(q)$ (at most six clauses; fewer than two words dropped; duplicates removed; if none, use the whole query).
+\item Enumerate eligible transitions: add an unselected sentence; or upgrade a source to FULL after two positive contributions. \textbf{V2} instead uses per-source sentence-count targets $1,2,4,8$ (capped by availability) plus FULL.
+\item Score every transition under the current state: V1 $g_i$ (Eq.~\ref{eq:v1}); V2 $U_t=\sum_i\Phelp(i)\max(0,g_i(S_{t,i}))$ with the hypothetical state updated inside a compound action. FULL scans remaining parent sentences in source order and accumulates gains above the local gate ($0.05$ in V1; none in V2).
+\item Density $d{=}g/\Delta c$ (V1) or $D{=}U/\Delta c$ (V2); $\Delta c{\le}0$ receives priority. Choose the highest density (ties: gain, incremental cost, source order, transition kind).
+\item If the density is below the threshold ($0.01$ for V1; $8{\times}10^{-5}$ for V2), the gain is non-positive, or nothing fits: \textbf{stop} (V1 logs \texttt{LOW\_MARGINAL\_VALUE}). Otherwise apply the transition, recompute all scores, repeat.
+\end{enumerate}
+The V1 value $0.01$ overrides a retained default of $0.001$ (verified in the starvation run). A V2 allocation-only calibration over ten initial and four refined thresholds on nine development queries (both budgets) satisfied no setting for all pre-specified utilization and stopping constraints, so $8{\times}10^{-5}$ is exploratory.
+\end{apbox}
+
+\begin{table}[H]\centering\small\setlength{\tabcolsep}{5pt}
+\caption{Pre-generation features of the helpfulness classifier (shared by training and inference; no imputation; standardized on training folds).}\label{tab:feat}
+\begin{tabular}{rl}\toprule
+No. & Feature\\\midrule
+1--2 & query--sentence cosine; query--passage cosine\\
+3--4 & retrieval rank of parent; within-parent relevance rank\\
+5 & normalized source position of the sentence\\
+6--7 & sentence token cost; parent passage token cost\\
+8--10 & parent sentence count; budget (256/1024); pool width\\
+11--12 & mean and maximum cosine to other candidate sentences\\\bottomrule
+\end{tabular}\end{table}
+
+\begin{table}[H]\centering\small\setlength{\tabcolsep}{5pt}
+\caption{Out-of-fold diagnostics of the helpfulness classifier (probability cut-off 0.5 is descriptive; allocation uses the continuous probability). TN/FP/FN/TP in the last column.}\label{tab:cls}
+\begin{tabular}{lrrrrl}\toprule
+Task & Rows & Pos. & ROC-AUC & AP & Confusion\\\midrule
+\hotpot & 2,941 & 188 & .6249 & .1064 & 2753/0/188/0\\
+\qasper & 3,543 & 332 & .5897 & .2024 & 3204/7/317/15\\
+\scifact & 2,053 & 35 & .8361 & .0721 & 2018/0/35/0\\\bottomrule
+\end{tabular}\end{table}
+An always-negative model would reach 93.5\% accuracy, so accuracy is uninformative; recall at 0.5 is near zero (0.000/0.045/0.000) although the continuous score still ranks candidates. Brier scores are .0593/.0828/.0167. Observations repeat across historical methods and budgets, come from development queries that overlap validation, and measure \emph{deletion} effects in selected contexts; grouped cross-fitting removes same-group leakage but supplies no independent confirmation or retraining uncertainty.
+
+\section{Additional Experiments}\label{app:early}
+\subsection{Visual summary of the matched exploratory comparison}
+\begin{figure}[H]\centering
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=3 by 1,horizontal sep=1.15cm},ybar,/pgf/bar width=3.6pt,width=0.315\textwidth,height=4.0cm,symbolic x coords={256,1024},xtick=data,enlarge x limits=0.42,
+  tick label style={font=\scriptsize},label style={font=\scriptsize},title style={font=\scriptsize\bfseries},xlabel={evidence budget (tokens)},grid=major,grid style={black!10}]
+\nextgroupplot[title={\hotpot (Answer F1)},ymin=0,ymax=0.5,ylabel={score},legend to name=methleg,legend columns=5,legend style={font=\scriptsize,draw=black!30,/tikz/every even column/.append style={column sep=6pt}}]
+\addplot[fill=cgray,draw=cgray] coordinates {(256,.3661)(1024,.3893)};\addlegendentry{Sentence}
+\addplot[fill=cblue,draw=cblue] coordinates {(256,.4042)(1024,.4020)};\addlegendentry{QBGF}
+\addplot[fill=corange,draw=corange] coordinates {(256,.2976)(1024,.3441)};\addlegendentry{BEA-V1}
+\addplot[fill=cgreen,draw=cgreen] coordinates {(256,.4352)(1024,.4234)};\addlegendentry{BEA-V2}
+\addplot[fill=cpurple,draw=cpurple] coordinates {(256,.3404)(1024,.3618)};\addlegendentry{MiniLM CE}
+\nextgroupplot[title={\qasper (Answer F1)},ymin=0,ymax=0.4]
+\addplot[fill=cgray,draw=cgray] coordinates {(256,.2668)(1024,.2896)};
+\addplot[fill=cblue,draw=cblue] coordinates {(256,.2641)(1024,.2964)};
+\addplot[fill=corange,draw=corange] coordinates {(256,.1868)(1024,.2084)};
+\addplot[fill=cgreen,draw=cgreen] coordinates {(256,.2618)(1024,.2904)};
+\addplot[fill=cpurple,draw=cpurple] coordinates {(256,.2641)(1024,.2827)};
+\nextgroupplot[title={\scifact (macro-F1)},ymin=0,ymax=0.8]
+\addplot[fill=cgray,draw=cgray] coordinates {(256,.6289)(1024,.5533)};
+\addplot[fill=cblue,draw=cblue] coordinates {(256,.5310)(1024,.5881)};
+\addplot[fill=corange,draw=corange] coordinates {(256,.6127)(1024,.6432)};
+\addplot[fill=cgreen,draw=cgreen] coordinates {(256,.5522)(1024,.5772)};
+\addplot[fill=cpurple,draw=cpurple] coordinates {(256,.6855)(1024,.6479)};
+\end{groupplot}
+\node[anchor=south] at ($(group c2r1.north)+(0,0.55cm)$) {\ref{methleg}};
+\end{tikzpicture}
+\caption{Matched exploratory comparison (data of Table~\ref{tab:bea}). \vtwo leads \hotpot at both budgets; no method leads all tasks. These are development-cohort point estimates; they do not reopen the locked selection.}\label{fig:res}
+\end{figure}
+
+\begin{table}[H]\centering\footnotesize\setlength{\tabcolsep}{3pt}
+\caption{Development studies. Each reference row is the baseline of its own local study; values are not rows of one benchmark.}\label{tab:interm}
+\begin{tabularx}{\textwidth}{@{}p{2.5cm}X>{\raggedleft\arraybackslash}p{5.0cm}@{}}\toprule
+Study & Condition & F1\\\midrule
+Identity ($k{=}4$) & retrieval-order prefix / semantic cosine / learned ranker & .3596 / \textbf{.3913} / .3572\\
+Utility routing & semantic $k{=}8$ reference / learned utility ranker & \textbf{.4010} / .3922\\
+Draft promotion & no promotion / always promote / learned gate & .3891 / \textbf{.4126} / .4061\\
+Extraction & no intervention / query-only generative / draft-aware generative / 3 exact sentences & .3856 / .3687 / .3769 / \textbf{.3900}\\\bottomrule
+\end{tabularx}\end{table}
+The exact-sentence gain over no intervention ($+0.0044$) has a 95\% CI $[-0.0085,+0.0175]$ and is not confirmed; learned promotion did not beat unconditional promotion (which also adds a generation stage); generated extracts lowered F1, so later work kept source-exact text.
+
+\begin{table}[H]\centering\small\setlength{\tabcolsep}{5pt}
+\caption{Controllers at the $4{\to}6$ expansion step (\qasper development). Recall = share of useful expansions captured.}\label{tab:ctrl}
+\begin{tabular}{lrrrr}\toprule
+Model & Policy F1 & Token red. & Recall & False exp.\\\midrule
+Balanced logistic & .3842 & 36.5\% & 64.4\% & 28.6\%\\
+XGBoost & .3725 & 39.6\% & 46.7\% & 19.1\%\\
+Random forest & .3717 & 37.7\% & 55.6\% & 24.2\%\\
+HistGradientBoosting & .3716 & 37.9\% & 51.1\% & 24.7\%\\
+Decision tree & .3671 & 38.7\% & 35.6\% & 22.1\%\\
+MLP & .3638 & 38.6\% & 42.2\% & 20.8\%\\
+LightGBM & .3632 & 37.1\% & 48.9\% & 19.9\%\\\bottomrule
+\end{tabular}\end{table}
+
+\begin{table}[H]\centering\small\setlength{\tabcolsep}{5pt}
+\caption{Granularity pilot (\hotpot, $N{=}50$): mean evidence tokens and Answer F1.}\label{tab:gran}
+\begin{tabular}{lrrrrrr}\toprule
+& \multicolumn{2}{c}{256} & \multicolumn{2}{c}{512} & \multicolumn{2}{c}{1024}\\\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Unit & tok. & F1 & tok. & F1 & tok. & F1\\\midrule
+Passage & 165.9 & .3375 & 389.1 & \textbf{.4563} & 798.4 & \textbf{.4803}\\
+Fine span & 198.3 & .4079 & 426.7 & .4306 & 865.0 & .4755\\
+Sentence & 201.2 & \textbf{.4213} & 423.4 & .4203 & 866.7 & .4721\\\bottomrule
+\end{tabular}\end{table}
+Token use differs by unit, which can itself influence F1; the pilot does not isolate a causal mechanism.
+
+\begin{table}[H]\centering\small\setlength{\tabcolsep}{5pt}
+\caption{Retrieval and reader controls (each panel has its own measurement definition).}\label{tab:ctl}
+\begin{tabular}{llr}\toprule
+Control & Setting & Value\\\midrule
+Top-10 any / all-evidence recall & BM25 & .618 / .432\\
+ & MiniLM bi-encoder & .636 / .445\\
+ & SFR-Embedding-Mistral & .727 / .523\\
+SFR pool, $k{=}6$, Answer F1 & full-text RAG vs.\ SARA mix & .4199 / .4213\\
+\scifact invalid labels / 1,850 & Mistral / Llama / Qwen & 1,849 / 1,826 / 0\\
+Related contexts, F1 & adapted Mistral / public Mistral / Qwen / Llama & .4071 / .2353 / .2738 / .2897\\
+Static SARA $k{=}5$ (1,005 q) & BM25 / SFR retrieval & .3950$^\ast$ / .4366\\\bottomrule
+\end{tabular}\end{table}
+Reader scores involve different prompts and adaptation conditions and should not be interpreted as an isolated reasoning-model ranking. $^\ast$Although 0.3950 also occurs for static $k{=}8$ on the 231-query development cohort, the two scores refer to different experiments.
+
+\section{Statistical Details}\label{app:stats}
+\begin{table}[H]\centering\small\setlength{\tabcolsep}{5pt}
+\caption{Noninferiority of QBGF versus sentence selection (full validation). $\Delta$ = QBGF $-$ sentence; NI needs the lower bound above $-$margin. Intervals are nominal paired 95\% percentile bootstrap intervals, not simultaneous bands.}\label{tab:ni}
+\begin{tabular}{llrrrc}\toprule
+Task & $B$ & $\Delta$ & 95\% CI & Margin & NI?\\\midrule
+\hotpot & 256 & +.0038 & [$-$.0035,+.0110] & .003 & No\\
+\hotpot & 1024 & +.0090 & [+.0045,+.0135] & .003 & \textbf{Yes}\\
+\qasper & 256 & $-$.0279 & [$-$.0410,$-$.0149] & .003 & No\\
+\qasper & 1024 & $-$.0037 & [$-$.0125,+.0050] & .003 & No\\
+\scifact & 256 & $-$.0251 & [$-$.0878,+.0365] & .010 & No\\
+\scifact & 1024 & $-$.0100 & [$-$.0711,+.0505] & .010 & No\\\bottomrule
+\end{tabular}\end{table}
+Mean QBGF$-$sentence prompt-token differences were $-3.85,-8.17,-2.54,-2.54,-2.71,-2.66$ across the six cells. Validation uses 39 registered comparisons (joint Holm over 51 with the 12 fusion diagnostics); confirmation uses eight primary and four secondary contrasts, adjusted within families. \textbf{Confirmation contrasts} (locked sentence policy vs.\ no evidence, 95\% CI, $p_{\mathrm{Holm}}$): \hotpot-256 $+0.2974$ [0.2424,0.3524] .0008; \hotpot-1024 $+0.2929$ [0.2421,0.3452] .0008; \scifact-256 $+0.3328$ [0.1386,0.5142] .0126; \scifact-1024 $+0.3754$ [0.1908,0.5455] .0126. Versus whole passages: $+0.0147$ and $-0.0261$ F1 on \hotpot (intervals cross zero), $+0.2876$ macro-F1 on \scifact-256 [0.0971,0.4721] ($p_{\mathrm{Holm}}{=}.0356$), $-0.0239$ at 1,024 (crosses zero). The registered analysis reported $p_{\mathrm{Holm}}\le.0114$ for each of the six QBGF versus no-query contrasts; the multiple-comparison procedure is therefore cited only for those recorded comparisons. \textbf{LOO relevance--utility.} The 12 attribution conditions give $\rho$ between 0.010 and 0.221 and 10 of 12 bootstrap intervals include zero. A deletion importance of the form $\mathrm{Score}(E)-\mathrm{Score}(E\setminus u)$ used in some project logs equals $-\Delta_i$ of Eq.~\ref{eq:loo}.
+
+\section{Data}\label{app:data}
+\begin{table}[H]\centering\small\setlength{\tabcolsep}{5pt}
+\caption{Official inputs before project filtering (QASPER parentheses: distinct papers). The public \hotpot test is \emph{fullwiki}, not distractor. Project validation: 7,155 / 1,005 / 177.}\label{tab:official}
+\begin{tabular}{lrrr}\toprule
+& Train & Dev/val & Public test\\\midrule
+\hotpot & 90,447 & 7,405 & 7,405\\
+\qasper & 2,593 (888) & 1,005 (281) & 1,451 (416)\\
+\scifact & 809 & 300 & 300\\\bottomrule
+\end{tabular}\end{table}
+\begin{table}[H]\centering\small\setlength{\tabcolsep}{5pt}
+\caption{Retrieved-pool token cost before allocation (450 retained SFR pools; 150 per dataset). Pressure = median pool length$/B$.}\label{tab:pool}
+\begin{tabular}{lrrrrrr}\toprule
+& Mean & Med. & P90 & $>$256 & $>$1024 & Press.\ (256/1024)\\\midrule
+\hotpot & 1,374.9 & 1,423 & 1,787.5 & 99.3\% & 82.7\% & 5.6$\times$/1.4$\times$\\
+\qasper & 2,458.3 & 2,512 & 2,567 & 100\% & 100\% & 9.8$\times$/2.5$\times$\\
+\scifact & 3,321.8 & 3,091.5 & 4,523.1 & 100\% & 100\% & 12.1$\times$/3.0$\times$\\\bottomrule
+\end{tabular}\end{table}
+Official source lengths (Qwen tokens; units differ): \hotpot paragraphs mean 115.8 ($n{=}483{,}696$), \qasper full papers 5,515.6 ($n{=}888$), \scifact abstracts 309.0 ($n{=}5{,}183$). The complete 8,337-query retrieval cache is unavailable, so pool statistics describe only the retained exploratory subset. The 50-query-per-dataset LOO/BEA cohort overlaps development data by design; grouped cross-fitting does not make it untouched.
+
+\section{Worked Examples}\label{app:examples}
+\begin{table}[H]\centering\small\setlength{\tabcolsep}{5pt}
+\caption{\qasper Q1 (``Which psycholinguistic \ldots features are used?''): F1 by explicit passages $k$ (SARA specialist). The decisive methodology passage is retrieval rank 6. Q2 (Twitter vs.\ Facebook) scores 0.250 at $k{=}0$ and 0.200 at $k{=}10$.}\label{tab:ex1}
+\begin{tabular}{rrrl}\toprule
+$k$ & Tokens & F1 & Rank 6 present?\\\midrule
+0 & 133 & .1333 & no\\
+2--5 & 448--1,084 & .1429 & no\\
+6 & 1,326 & \textbf{.6000} & yes\\
+8 & 1,735 & .4167 & yes (extra distractor terms)\\
+10 & 2,128 & .3478 & yes\\\bottomrule
+\end{tabular}\end{table}
+\textbf{False stop vs.\ false expansion.} For ``What are the near-offensive language categories?'' (gold: \emph{inappropriate, discriminating}), $k{=}2$ (526 tokens) omits the decisive sentence (F1 0), $k{=}4$ (1,071 tokens) exposes it (F1 1). In contrast, adding two passages to the best $k{=}0$ answer of another question costs only $0.250\to0.200$. \textbf{Identity at $k{=}4$} (``What languages are seen in the news and TED datasets?'', gold \emph{English, German}): the rank-8 passage names the English--German corpus; retrieval-order ranks [1,2,3,4] give F1 .667, semantic [2,3,4,5] .500, the learned route [1,2,6,8] 1.000 (a mechanism case; semantic routing is better on average).
+
+\begin{table}[H]\centering\footnotesize\setlength{\tabcolsep}{2.8pt}
+\caption{\qasper ``What was the baseline used?'' ($B{=}256$; gold: \emph{error detection system by Rei2016}). Outputs are verbatim.}\label{tab:rei}
+\begin{tabularx}{\columnwidth}{@{}lrXr@{}}\toprule
+Method & Tok. & Reader output & F1\\\midrule
+Sentence & 256 & ``\ldots available training set without any additional annotated data.'' & 0\\
+\qbgf & 256 & ``\ldots the error detection system by Rei2016.'' & \textbf{.80}\\
+\vone & 240 & ``AdaDelta was used as the baseline \ldots'' & 0\\
+\vtwo & 255 & ``\ldots available training set without any additional annotated data.'' & 0\\
+MiniLM CE & 256 & ``\ldots the baseline used was manual annotation.'' & 0\\\bottomrule
+\end{tabularx}\end{table}
+Table~\ref{tab:rei} shows what joint allocation can recover; aggregate \qasper-256 still slightly favors sentences, so it is an explanatory case only. \textbf{SciFact format confound.} For the claim ``TCR/CD3 microdomains are a required to induce the immunologic synapse to activate T cells'' (gold \texttt{SUPPORT}), Qwen returns \texttt{SUPPORT} (valid); Mistral returns \texttt{SUPPORT} followed by a paragraph and Llama ``Based on the provided abstract, the correct classification is: SUPPORT'' (both invalid under the exact-label parser). \textbf{LOO cases} are shown in Fig.~\ref{fig:loo}; the helpful unit is 20 tokens, the neutral unit 4 tokens, the harmful unit 40 tokens (165 evidence tokens before, 125 after deletion).
+
+\begin{table}[H]\centering\small\setlength{\tabcolsep}{5pt}
+\caption{Context starvation (\qasper, $B{=}1024$): ``What are the five different binary classification tasks?''}\label{tab:starve}
+\begin{tabular}{lrrrr}\toprule
+Method & Tokens & Unused & F1 & Outcome\\\midrule
+Sentence & 1,022 & 2 & .7826 & list exposed\\
+\qbgf & 1,018 & 6 & .7826 & list exposed\\
+\vone & \textbf{245} & \textbf{779} & \textbf{0} & stops before the list\\
+\vtwo & 965 & 59 & .7826 & list recovered\\\bottomrule
+\end{tabular}\end{table}
+\textbf{Goya bridge (\hotpot, $B{=}256$).} Before stopping, V1 had accepted 17 sentence units into a 168-token context (including titles such as ``Javier Gull\'on'') and reported a remaining density of 0.00958 (below 0.01); the bridge sentence scored $d{=}0.008484$; the reader answered \emph{Enemy} (F1 0). \vtwo selected the bridge at step 1 (value 0.152065, density 0.002715), and its 243-token context returned \emph{Invader (Invasor)} (F1 1).
+
+
+\subsection{Why the QASPER starvation case failed}
+The five tasks in Table~\ref{tab:starve} are explicitly enumerated in a source sentence (abbreviated, preserving the task list): ``In order to explore the problem space, we thus specifically target five binary classification problems ... i.e. presence/absence of consonants, phonemic nasal, bilabial, high-front vowels and high-back vowels.'' BEA-V1 did not select that sentence. Instead, its 245-token context included stimulus fragments such as ``pat, pot, knew and gnaw'' and the unrelated marker \texttt{INLINEFORM0}. The saved reader output was: ``The five different binary classification tasks are pat, pot, knew, gnaw, and INLINEFORM0.'' This received F1 $=0$. The observed stop score was $0.009965016$, below the effective $0.01$ marginal-density gate; the remaining 779 tokens were not refilled. This case shows that a fixed early-stop threshold can discard a needed source sentence even when the context budget is far from exhausted. It does not establish that all BEA-V1 errors share this mechanism.
+
+\subsection{A high-relevance unit with harmful deletion effect}
+The recorded \scifact claim is: ``Diabetic patients with acute coronary syndrome experience increased short-term and long-term risk for bleeding events'' (gold: \texttt{SUPPORT}). The selected unit with dense cosine relevance $0.7882$ discusses investigating glycoprotein IIb/IIIa receptor inhibition among diabetic patients with ACS; its parent source had retrieval rank 1. The five-unit context used 165 evidence tokens and yielded \texttt{NOT\_ENOUGH\_INFO}. Deleting only this 40-token unit---while retaining the remaining 125 tokens in their original order---changed the reader output to \texttt{SUPPORT}. Hence $\Delta = 1 - 0 = +1$, classified as a harmful unit \emph{in that selected context}. Another retained sentence explicitly stated increased post-ACS bleeding risk. The intervention establishes a prediction change, not an intrinsic property of the removed sentence or a claim about internal model attention.
+
+\section{Reproducibility Boundaries and Provenance Notes}\label{app:repro}
+QBGF uses $\tau_p{=}\tau_s{=}5$ and deterministic tie-breaking. The V1 thresholds ($0.01$, gate $0.05$) and the V2 threshold ($8{\times}10^{-5}$) are recorded configuration values; the V2 calibration did not pass. The final sentence policy was locked by the six-cell rule before BEA exploration. Selection timings were not collected under one matched serving protocol, so no throughput, latency or VRAM ranking is reported. \textbf{Evidence Lab}, a Streamlit demonstration in the repository, compares the four allocators on custom inputs and supports no-refill deletion; it is an explanatory tool, not a benchmark, and its custom-input BEA-V2 uses a saved-model ensemble unlike the single held-out-fold predictor of the experiments. Project tables refer to separately identified historical development, full validation, reserved confirmation and exploratory BEA cohorts. The saved project repository contains the underlying algorithm implementations and experiment summaries; some historical intermediate artifacts and complete validation-pool retrieval shards are no longer retained.
 \end{document}
